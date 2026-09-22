@@ -1,0 +1,81 @@
+name: Resolve case images
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 07:30 America/Sao_Paulo (UTC-3)
+    - cron: "30 10 * * *"
+  push:
+    paths:
+      - ".github/workflows/resolve-case-images.yml"
+      - "scripts/sync_case_images.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resolve-case-images
+  cancel-in-progress: false
+
+jobs:
+  resolve-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install resolver dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4
+
+      - name: Resolve source-hosted case images
+        run: |
+          python scripts/sync_case_images.py \
+            --cases cases.json \
+            --report image-resolution-report.json \
+            --sleep 0.20
+
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool cases.json > /dev/null
+          python -m json.tool image-resolution-report.json > /dev/null
+
+      - name: Add workflow summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path("image-resolution-report.json").read_text(encoding="utf-8"))
+          total = report.get("records_total", 0)
+          resolved = report.get("resolved_direct_images", 0)
+          unresolved = report.get("unresolved", 0)
+
+          with open(__import__("os").environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+              fh.write("# Case image resolution\n\n")
+              fh.write(f"- Records checked: **{total}**\n")
+              fh.write(f"- Direct images validated: **{resolved}**\n")
+              fh.write(f"- Still unresolved: **{unresolved}**\n")
+          PY
+
+      - name: Commit resolved image URLs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cases.json image-resolution-report.json
+
+          if git diff --cached --quiet; then
+            echo "No image-data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Resolve source-hosted case image URLs"
+          git push
