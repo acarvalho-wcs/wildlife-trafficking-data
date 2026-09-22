@@ -5,7 +5,7 @@
   "migration": {
     "phase": "READY_FOR_CUTOVER",
     "dashboard_cutover_ready": true,
-    "target_case_count": 91,
+    "target_case_count": 92,
     "reconstructed_case_count": 91,
     "baseline_direct_projection_count": 41,
     "shark_ray_backfill_count": 26,
@@ -20,7 +20,9 @@
       "Switch the live dashboard case layer to the GitHub cases feed",
       "Verify rendered MAP, GLOBE, filters, counters, cards and Case Context against the current site after cutover"
     ],
-    "next_phase": "LIVE_DASHBOARD_CUTOVER_AND_RENDER_VALIDATION"
+    "next_phase": "LIVE_DASHBOARD_CUTOVER_AND_RENDER_VALIDATION",
+    "current_case_count": 92,
+    "post_migration_ingestion_count": 1
   },
   "files": {
     "cases": "cases.json",
@@ -28,7 +30,7 @@
     "schema": "schemas/case.schema.json",
     "raw_archive": "archives/dashboard-2026-09-21.raw.json"
   },
-  "updated_at": "2026-09-22T04:20:00Z",
+  "updated_at": "2026-09-22T03:27:00Z",
   "dashboard_feeds": {
     "cases": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/cases.json",
     "routes_legacy_compatible": "https://acarvalho-wcs.github.io/wildlife-trafficking-reports/routes.json",

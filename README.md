@@ -4,7 +4,7 @@ Public data layer for the **Illegal Wildlife Trafficking Global Observatory** / 
 
 ## Files
 
-- `cases.json` — 91 validated case records, complete in PT/EN/ES, with reconciled source URLs and numeric geodata.
+- `cases.json` — 92 validated case records, complete in PT/EN/ES, with reconciled source URLs and numeric geodata.
 - `routes.json` — audited documented routes.
 - `metadata.json` — migration/data status and canonical feed URLs.
 - `schemas/case.schema.json` — case schema.
@@ -14,7 +14,7 @@ Public data layer for the **Illegal Wildlife Trafficking Global Observatory** / 
 
 **READY FOR CUTOVER.**
 
-The 91-case dataset has completed source reconciliation, PT/EN/ES text parity, geodata/precision classification, route matching and aggregate/deduplication safeguards.
+The 92-case dataset has completed source reconciliation, PT/EN/ES text parity, geodata/precision classification, route matching and aggregate/deduplication safeguards.
 
 The live dashboard can now switch its case layer to:
 

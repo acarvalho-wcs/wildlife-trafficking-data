@@ -9,8 +9,8 @@
     "projection_revision": 84
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
-  "warning": "All 91 records have complete PT/EN/ES text parity, reconciled source URLs, numeric geodata with precision classes, validated status, and unique route matching. Aggregate Operation Petasan is excluded from totals to prevent double counting. Records with an unknown publication or event date retain null rather than inferred dates.",
-  "count": 91,
+  "warning": "All 92 records have complete PT/EN/ES text parity, reconciled source URLs, numeric geodata with precision classes, validated status, and unique route matching. Aggregate Operation Petasan is excluded from totals to prevent double counting. Records with an unknown publication or event date retain null rather than inferred dates.",
+  "count": 92,
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -4059,6 +4059,53 @@
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "case_context_status": "PT_EN_ES_COMPLETE"
+    },
+    {
+      "id": "2026-06-02__parnamirim-pe-250-birds",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "post_migration_ingestion",
+      "reconstruction_confidence": "DIRECT_PRIMARY_SOURCE",
+      "location_label_pt": "Parnamirim (PE)",
+      "country": "Brasil",
+      "title_pt": "PRF resgata 250 aves silvestres transportadas na BR-116 em Parnamirim",
+      "title_en": "PRF rescues 250 wild birds transported on BR-116 in Parnamirim",
+      "title_es": "PRF rescata 250 aves silvestres transportadas por la BR-116 en Parnamirim",
+      "source_label": "Polícia Rodoviária Federal",
+      "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/pernambuco/2026/junho/prf-resgata-250-passaros-silvestres-na-br-116-em-parnamirim",
+      "publication_date": "2026-06-03",
+      "event_date": "2026-06-02",
+      "fauna_label_pt": "250 aves silvestres",
+      "taxon_text": "Passeriformes — papa-capins, graúnas e ferreiros, conforme nomes comuns reportados pela PRF",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "modal_label_pt": "Terrestre",
+      "modal_primary": "Terrestre",
+      "card_text_pt": "250 aves silvestres foram resgatadas pela PRF na noite de 2 de junho durante fiscalização na BR-116, em Parnamirim (PE). As aves eram transportadas em gaiolas e em um saco de nylon sem ventilação, no porta-malas e nos bancos de um carro. Segundo declaração do motorista registrada pela PRF, os animais haviam saído de Valença do Piauí (PI) e seriam entregues em Campina Grande (PB). Entre as aves resgatadas, a PRF citou papa-capins, graúnas e ferreiros.",
+      "card_text_en": "PRF rescued 250 wild birds on the night of 2 June during an inspection on BR-116 in Parnamirim, Pernambuco. The birds were being transported in cages and in an unventilated nylon sack in the trunk and passenger seats of a car. According to the driver's statement recorded by PRF, the animals had departed from Valença do Piauí, Piauí, and were to be delivered in Campina Grande, Paraíba. PRF reported papa-capins, graúnas and birds locally referred to as ferreiros among the rescued animals.",
+      "card_text_es": "La PRF rescató 250 aves silvestres la noche del 2 de junio durante una fiscalización en la BR-116, en Parnamirim, Pernambuco. Las aves eran transportadas en jaulas y en un saco de nailon sin ventilación, en el maletero y los asientos de un automóvil. Según la declaración del conductor registrada por la PRF, los animales habían salido de Valença do Piauí, Piauí, y serían entregados en Campina Grande, Paraíba. La PRF mencionó papa-capins, graúnas y aves denominadas localmente ferreiros entre los animales rescatados.",
+      "coordinates": {
+        "lat": -8.09,
+        "lon": -39.58
+      },
+      "coordinate_precision": "road_corridor_generalized",
+      "geographic_note_pt": "Coordenadas representativas da sede de Parnamirim (PE). A PRF informa que a ocorrência aconteceu na BR-116, mas não divulga o quilômetro ou ponto exato da abordagem.",
+      "added_at": "2026-09-22T03:27:00Z",
+      "added_at_text": "22 de set. de 2026, 03:27 UTC",
+      "context_pt": "Fatos documentados: a PRF resgatou 250 aves silvestres transportadas em condições inadequadas em um automóvel abordado na BR-116, em Parnamirim, na noite de 2 de junho. O motorista foi encaminhado à Polícia Civil de Salgueiro e, segundo a PRF, poderia responder por tráfico de animais silvestres, maus-tratos e receptação. Contexto analítico: a ocorrência é particularmente informativa por registrar um segmento interestadual de transporte terrestre. Segundo declaração do motorista reproduzida pela PRF, as aves haviam saído de Valença do Piauí (PI) e seriam entregues em Campina Grande (PB), com Parnamirim (PE) como ponto de interceptação. Isso permite representar uma rota atribuída, mas não demonstra de forma independente o local de captura, fornecedores ou compradores finais. Limites da evidência: a PRF informa alguns nomes comuns de aves, mas não apresenta contagem por espécie nem identificação taxonômica completa. A origem e o destino derivam da declaração do motorista e devem permanecer explicitamente atribuídos a essa fonte.",
+      "context_en": "Documented facts: PRF rescued 250 wild birds being transported in inadequate conditions in a car stopped on BR-116 in Parnamirim on the night of 2 June. The driver was taken to the Civil Police in Salgueiro and, according to PRF, could face allegations involving wildlife trafficking, animal mistreatment and receiving stolen or illicit goods. Analytical context: the incident is particularly informative because it documents an interstate terrestrial transport segment. According to the driver's statement reproduced by PRF, the birds had departed from Valença do Piauí, Piauí, and were to be delivered in Campina Grande, Paraíba, with Parnamirim, Pernambuco, as the interception point. This supports an attributed route representation but does not independently establish capture locations, suppliers or final buyers. Evidence limits: PRF provides several common bird names but no species-level counts or complete taxonomic identification. Origin and destination derive from the driver's statement and must remain explicitly attributed to that source.",
+      "context_es": "Hechos documentados: La PRF rescató 250 aves silvestres transportadas en condiciones inadecuadas en un automóvil abordado en la BR-116, en Parnamirim, la noche del 2 de junio. El conductor fue llevado a la Policía Civil de Salgueiro y, según la PRF, podría responder por tráfico de animales silvestres, maltrato animal y receptación. Contexto analítico: el episodio es especialmente informativo porque documenta un segmento interestatal de transporte terrestre. Según la declaración del conductor reproducida por la PRF, las aves habían salido de Valença do Piauí, Piauí, y serían entregadas en Campina Grande, Paraíba, con Parnamirim, Pernambuco, como punto de interceptación. Esto permite representar una ruta atribuida, pero no demuestra de manera independiente los lugares de captura, proveedores o compradores finales. Límites de la evidencia: la PRF informa varios nombres comunes de aves, pero no presenta cantidades por especie ni identificación taxonómica completa. El origen y el destino derivan de la declaración del conductor y deben permanecer explícitamente atribuidos a esa fuente.",
+      "references_text_pt": "Polícia Rodoviária Federal · 03/06/2026 · https://www.gov.br/prf/pt-br/noticias/estaduais/pernambuco/2026/junho/prf-resgata-250-passaros-silvestres-na-br-116-em-parnamirim",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "last_update_text": "22 de set. de 2026, 03:27 UTC",
+      "legacy_raw_pt": null,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE"
     }
   ],
   "reconstructed_at": "2026-09-22T00:50:00Z",
@@ -4132,15 +4179,15 @@
     }
   },
   "geodata_progress": {
-    "records_total": 91,
-    "coordinates_complete": 91,
+    "records_total": 92,
+    "coordinates_complete": 92,
     "coordinates_pending": 0,
-    "precision_classified": 91,
-    "updated_at": "2026-09-22T02:25:00Z",
+    "precision_classified": 92,
+    "updated_at": "2026-09-22T03:27:00Z",
     "note": "Coordinates are representative points with explicit precision classes; generalized events are not presented as exact locations."
   },
   "audit_status": {
-    "audited_records": 91,
+    "audited_records": 92,
     "ids_unique": true,
     "sources_complete": true,
     "translations_complete": true,
@@ -4148,6 +4195,6 @@
     "route_matches_unique": true,
     "aggregate_flags_reviewed": true,
     "unknown_dates_preserved_as_null": true,
-    "updated_at": "2026-09-22T04:05:00Z"
+    "updated_at": "2026-09-22T03:27:00Z"
   }
 }
