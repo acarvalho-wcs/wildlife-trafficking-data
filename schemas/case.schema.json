@@ -247,6 +247,47 @@
         "string",
         "null"
       ]
+    },
+    "event_end_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "image_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "description": "Direct renderable image URL when independently resolved."
+    },
+    "image_source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "description": "Source-hosted image page or media reference when available."
+    },
+    "image_caption_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "image_credit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "image_status": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "additionalProperties": true,

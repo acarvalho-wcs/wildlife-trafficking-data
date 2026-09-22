@@ -5,7 +5,7 @@
   "migration": {
     "phase": "READY_FOR_CUTOVER",
     "dashboard_cutover_ready": true,
-    "target_case_count": 92,
+    "target_case_count": 110,
     "reconstructed_case_count": 91,
     "baseline_direct_projection_count": 41,
     "shark_ray_backfill_count": 26,
@@ -21,8 +21,8 @@
       "Verify rendered MAP, GLOBE, filters, counters, cards and Case Context against the current site after cutover"
     ],
     "next_phase": "LIVE_DASHBOARD_CUTOVER_AND_RENDER_VALIDATION",
-    "current_case_count": 92,
-    "post_migration_ingestion_count": 1
+    "current_case_count": 110,
+    "post_migration_ingestion_count": 19
   },
   "files": {
     "cases": "cases.json",
@@ -30,7 +30,7 @@
     "schema": "schemas/case.schema.json",
     "raw_archive": "archives/dashboard-2026-09-21.raw.json"
   },
-  "updated_at": "2026-09-22T03:50:00Z",
+  "updated_at": "2026-09-22T04:17:31Z",
   "dashboard_feeds": {
     "cases": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/cases.json",
     "routes_legacy_compatible": "https://acarvalho-wcs.github.io/wildlife-trafficking-reports/routes.json",
@@ -38,8 +38,16 @@
   },
   "quantity_layer": {
     "ready": true,
-    "case_count": 92,
+    "case_count": 110,
     "rule": "countable animals/items only; weights and volumes are not converted",
-    "updated_at": "2026-09-22T03:50:00Z"
+    "updated_at": "2026-09-22T04:17:31Z"
+  },
+  "last_ingestion": {
+    "batch": "brazil_2026_batch1",
+    "cases_added": 18,
+    "routes_added": 8,
+    "resulting_case_count": 110,
+    "source_validation": "primary-source-first; uncertainties preserved",
+    "updated_at": "2026-09-22T04:17:31Z"
   }
 }

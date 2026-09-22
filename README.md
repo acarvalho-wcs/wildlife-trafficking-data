@@ -4,7 +4,7 @@ Public data layer for the **Illegal Wildlife Trafficking Global Observatory** / 
 
 ## Files
 
-- `cases.json` — 92 validated case records, complete in PT/EN/ES, with reconciled source URLs and numeric geodata.
+- cases.json` — 110 validated case records, complete in PT/EN/ES, with reconciled source URLs and numeric geodata.
 - `routes.json` — audited documented routes.
 - `metadata.json` — migration/data status and canonical feed URLs.
 - `schemas/case.schema.json` — case schema.
@@ -14,7 +14,7 @@ Public data layer for the **Illegal Wildlife Trafficking Global Observatory** / 
 
 **READY FOR CUTOVER.**
 
-The 92-case dataset has completed source reconciliation, PT/EN/ES text parity, geodata/precision classification, route matching and aggregate/deduplication safeguards.
+The 110-case dataset has completed source reconciliation, PT/EN/ES text parity, geodata/precision classification, route matching and aggregate/deduplication safeguards.
 
 The live dashboard can now switch its case layer to:
 
@@ -33,3 +33,7 @@ Canonical data base:
 From schema 1.2, each case includes structured lower-dashboard fields: `quantity_count`, `quantity_qualifier`, `quantity_kind`, `quantity_by_group`, `quantity_unassigned` and `quantity_note_pt`.
 
 Only countable animals or wildlife items are numeric. Weights, volumes and packaging units are never converted into animal counts.
+
+### Brazil 2026 batch
+
+On 22 September 2026, 18 validated Brazilian cases were added with PT/EN/ES text, structured quantities, geodata, evidence-limited case context, source-image references where resolvable, and eight documented/attributed route records. Total case count: 110.
