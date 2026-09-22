@@ -1,24 +1,26 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "repository": "acarvalho-wcs/wildlife-trafficking-data",
   "public_base_url": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/",
   "migration": {
-    "phase": "STAGING_2_91_IDENTITIES_RECONSTRUCTED",
-    "dashboard_cutover_ready": false,
+    "phase": "READY_FOR_CUTOVER",
+    "dashboard_cutover_ready": true,
     "target_case_count": 91,
     "reconstructed_case_count": 91,
     "baseline_direct_projection_count": 41,
     "shark_ray_backfill_count": 26,
     "sep19_update_count": 8,
     "sep21_update_count": 16,
+    "sources_complete": true,
+    "translations_pt_en_es_complete": true,
+    "geodata_complete": true,
+    "route_matches_unique": true,
+    "aggregate_flags_reviewed": true,
     "remaining_work": [
-      "Reconcile numeric coordinates for all 91 records",
-      "Reconcile original source URLs for records where the site projection omitted them",
-      "Restore or generate complete PT/EN/ES title, card and Case Context fields",
-      "Verify individual legacy-site ID mapping for the 8 records in the 19 September batch and 16 records in the 21 September batch",
-      "Compare case-by-case rendering against the live dashboard before cutover"
+      "Switch the live dashboard case layer to the GitHub cases feed",
+      "Verify rendered MAP, GLOBE, filters, counters, cards and Case Context against the current site after cutover"
     ],
-    "next_phase": "FIELD_PARITY_AND_GEODATA_RECONCILIATION"
+    "next_phase": "LIVE_DASHBOARD_CUTOVER_AND_RENDER_VALIDATION"
   },
   "files": {
     "cases": "cases.json",
@@ -26,5 +28,10 @@
     "schema": "schemas/case.schema.json",
     "raw_archive": "archives/dashboard-2026-09-21.raw.json"
   },
-  "updated_at": "2026-09-22T00:51:00Z"
+  "updated_at": "2026-09-22T04:20:00Z",
+  "dashboard_feeds": {
+    "cases": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/cases.json",
+    "routes_legacy_compatible": "https://acarvalho-wcs.github.io/wildlife-trafficking-reports/routes.json",
+    "routes_canonical": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/routes.json"
+  }
 }
