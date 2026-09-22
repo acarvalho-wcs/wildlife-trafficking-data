@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "repository": "acarvalho-wcs/wildlife-trafficking-data",
   "public_base_url": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/",
   "migration": {
@@ -30,10 +30,16 @@
     "schema": "schemas/case.schema.json",
     "raw_archive": "archives/dashboard-2026-09-21.raw.json"
   },
-  "updated_at": "2026-09-22T03:27:00Z",
+  "updated_at": "2026-09-22T03:50:00Z",
   "dashboard_feeds": {
     "cases": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/cases.json",
     "routes_legacy_compatible": "https://acarvalho-wcs.github.io/wildlife-trafficking-reports/routes.json",
     "routes_canonical": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/routes.json"
+  },
+  "quantity_layer": {
+    "ready": true,
+    "case_count": 92,
+    "rule": "countable animals/items only; weights and volumes are not converted",
+    "updated_at": "2026-09-22T03:50:00Z"
   }
 }

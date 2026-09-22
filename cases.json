@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1-staging",
+  "schema_version": "1.2",
   "migration_status": "READY_FOR_CUTOVER_PENDING_FINAL_SWITCH",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
@@ -9,7 +9,7 @@
     "projection_revision": 84
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
-  "warning": "All 92 records have complete PT/EN/ES text parity, reconciled source URLs, numeric geodata with precision classes, validated status, and unique route matching. Aggregate Operation Petasan is excluded from totals to prevent double counting. Records with an unknown publication or event date retain null rather than inferred dates.",
+  "warning": "All 92 records have complete PT/EN/ES text parity, reconciled source URLs, numeric geodata with precision classes, validated status, unique route matching, and a structured quantity layer for lower-dashboard aggregation. Aggregate records flagged exclude_from_totals remain excluded to prevent double counting.",
   "count": 92,
   "cases": [
     {
@@ -53,7 +53,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 352,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 352
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "352 escamas; não equivalem a 352 animais."
     },
     {
       "id": "2026-09-12__tavares-pb",
@@ -96,7 +104,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 3,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 3
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-11__garissa",
@@ -139,7 +155,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 28,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals_and_items",
+      "quantity_by_group": {
+        "Mamíferos": 28
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "27 carcaças de dik-diks + 1 carcaça de outro antílope."
     },
     {
       "id": "2026-09-09__teofilo-otoni-mg",
@@ -182,7 +206,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 75,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 75
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-10__vila-de-cava-nova-iguacu-rj",
@@ -225,7 +257,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 47,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 47
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-10__votorantim-sp",
@@ -270,7 +310,17 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 9,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 4,
+        "Répteis": 2,
+        "Peixes": 3
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-11__san-jose-de-colinas-santa-barbara",
@@ -313,7 +363,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-11__alicante",
@@ -356,7 +414,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1500,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 1500
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-07__jeypore-odisha",
@@ -399,7 +465,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-07__ri-bhoi-meghalaya",
@@ -442,7 +516,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-09-05__sidhi-madhya-pradesh",
@@ -485,7 +565,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-05__ponte-jia-bharali-sonitpur",
@@ -528,7 +616,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 12,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 12
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-08-28__bakulia-karbi-anglong",
@@ -571,7 +667,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-09-09__posto-de-controle-de-lo-wu",
@@ -614,7 +716,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 4,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 4
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-09__amaravathi-tamil-nadu",
@@ -657,7 +767,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 2
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-10__filipinas-ambito-nacional",
@@ -698,7 +816,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 394,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 394,
+      "quantity_note_pt": "Agregado nacional; excluído dos totais para evitar dupla contagem."
     },
     {
       "id": "2026-09-09__balasore-odisha",
@@ -741,7 +865,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 5,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 5
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-08__bangkok",
@@ -785,7 +917,16 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 1,
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-07__bengaluru",
@@ -828,7 +969,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 180,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 180
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-08__sao-domingos-sc",
@@ -871,7 +1020,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 19,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 19
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-08__aeroporto-de-turim-caselle",
@@ -914,7 +1071,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Répteis": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-08-21__guayaquil",
@@ -957,7 +1122,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 33,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 33
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-05__caruaru",
@@ -1000,7 +1173,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 510,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 510
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-05__tangerang",
@@ -1043,7 +1224,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 101,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 101
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-01__denton-texas",
@@ -1086,7 +1275,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 191,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 191
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-02__luque",
@@ -1129,7 +1326,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 43,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Aves": 43
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "43 ovos de fauna silvestre; contados como itens, não como animais eclodidos."
     },
     {
       "id": "2026-08-29__porto-de-jamrud-surabaya",
@@ -1172,7 +1377,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 190,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 190
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-02__quito",
@@ -1215,7 +1428,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 32,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 32
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-02__mazatlan",
@@ -1258,7 +1479,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 252,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 252
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-01__aeroporto-internacional-de-hong-kong",
@@ -1301,7 +1530,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 6,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 6
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-08-25__estrada-kano-daura",
@@ -1346,7 +1583,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 48,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 48,
+      "quantity_note_pt": "Total confirmado, mas distribuição numérica por grupo não está suficientemente preservada."
     },
     {
       "id": "2026-08-29__tamaulipas",
@@ -1391,7 +1634,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 135,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 135,
+      "quantity_note_pt": "Total confirmado, mas distribuição numérica por grupo não está suficientemente preservada."
     },
     {
       "id": "2026-08-26__joanesburgo",
@@ -1434,7 +1683,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 468,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Aves": 468
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "418 + 50 ovos de psitacídeos."
     },
     {
       "id": "2026-08-16__pakkading-bolikhamxay",
@@ -1477,7 +1734,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 2,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals_and_items",
+      "quantity_by_group": {
+        "Mamíferos": 2
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Duas carcaças contáveis; grande volume adicional de material semelhante a marfim é registrado apenas por peso."
     },
     {
       "id": "2026-08-18__iati-pe",
@@ -1521,7 +1786,16 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 584,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 555,
+        "Répteis": 29
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-08-19__lucknow",
@@ -1564,7 +1838,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 54,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 54
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-08-10__san-ysidro",
@@ -1607,7 +1889,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 69,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 69
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-08-06__quy-nhon",
@@ -1650,7 +1940,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 221,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 221
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "221 peças de marfim contáveis; 79,3 kg adicionais de ossos não são convertidos em itens."
     },
     {
       "id": "2026-08-07__dora-creek",
@@ -1695,7 +1993,17 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 86,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 76,
+        "Anfíbios": 9,
+        "Aves": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-08-07__amazonia",
@@ -1736,7 +2044,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 3000,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 3000,
+      "quantity_note_pt": "Operação agregada; excluída dos totais para evitar dupla contagem."
     },
     {
       "id": "2026-08-03__sydney",
@@ -1779,7 +2093,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 36,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 36
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-01-23__wennappuwa-sri-lanka-thresher",
@@ -1825,7 +2147,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-01-28__banyuwangi-dried-shark-ray-skins",
@@ -1872,7 +2200,13 @@
       "event_date_text": "data da apreensão não estabelecida; destruição em 2026-01-28",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-02-03__dikovita-feb03-shark",
@@ -1918,7 +2252,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-02-12__rodelas-bahia-shark-fins",
@@ -1964,7 +2304,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "undated__operation-petasan-port-klang",
@@ -2014,7 +2360,13 @@
       ],
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-02-19__negombo-feb19-shark",
@@ -2060,7 +2412,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-02-21__galle-feb21-shark",
@@ -2106,7 +2464,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "undated__hawaii-california-private-jet-shark-fins",
@@ -2153,7 +2517,15 @@
       "event_date_text": "2026-02 (dia não estabelecido)",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": 40,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Peixes": 40
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-03-05__dondra-mar05-thresher",
@@ -2199,7 +2571,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-03-22__brazil-ethiopia-hongkong-shark-fins",
@@ -2218,7 +2596,9 @@
       "event_date": "2026-03-22",
       "fauna_label_pt": "52 kg de barbatanas secas suspeitas",
       "taxon_text": "Elasmobranchii / CITES a confirmar por perícia",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
       "modal_label_pt": "Aéreo",
       "modal_primary": "Aéreo",
       "card_text_pt": "Uma passageira foi interceptada com 52 kg de barbatanas secas suspeitas de espécies CITES na rota Brasil → Etiópia → Hong Kong.",
@@ -2243,7 +2623,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-04-01__guayaquil-kualalumpur-21897-fins",
@@ -2289,7 +2675,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": 21897,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Peixes": 21897
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-04-02__panama-hongkong-162kg-fins",
@@ -2335,7 +2729,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-04-13__quanzhou-jinjiang-blue-shark-fins",
@@ -2354,7 +2754,9 @@
       "event_date": null,
       "fauna_label_pt": "9,4 kg de barbatanas",
       "taxon_text": "Prionace glauca",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
       "modal_label_pt": "Não informado",
       "modal_primary": "Não informado",
       "card_text_pt": "Identificação profissional confirmou 9,4 kg de barbatanas de tubarão-azul, espécie incluída no Apêndice II da CITES. A data exata da interceptação não está estabelecida.",
@@ -2379,7 +2781,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-05-08__semarang-tanjung-emas-shark-rays",
@@ -2425,7 +2833,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-05-13__dakhla-237kg-shark",
@@ -2471,7 +2885,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-05-22__conakry-seahorse-shark-ray",
@@ -2517,7 +2937,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-06-06__negombo-jun06-thresher",
@@ -2563,7 +2989,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-06-08__beijing-capital-18-shark-fins",
@@ -2582,7 +3014,9 @@
       "event_date": null,
       "fauna_label_pt": "18 barbatanas (~1 kg)",
       "taxon_text": "três espécies de tubarão CITES II",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
       "modal_label_pt": "Aéreo",
       "modal_primary": "Aéreo",
       "card_text_pt": "Foram identificadas 18 barbatanas, com cerca de 1 kg, pertencentes a três espécies de tubarão listadas no Apêndice II da CITES; a data exata da interceptação não está estabelecida.",
@@ -2607,7 +3041,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": 18,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Peixes": 18
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-06-22__xiamen-44-hammerhead-fins",
@@ -2626,7 +3068,9 @@
       "event_date": null,
       "fauna_label_pt": "44 barbatanas, 16,95 kg",
       "taxon_text": "Sphyrna mokarran e Sphyrna lewini",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
       "modal_label_pt": "Aéreo",
       "modal_primary": "Aéreo",
       "card_text_pt": "Foram identificadas 44 barbatanas (16,95 kg): 41 de Sphyrna mokarran e três de Sphyrna lewini. A data exata da interceptação permanece incerta.",
@@ -2651,7 +3095,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": 44,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Peixes": 44
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-06-15__cristinapolis-shark-fins-swim-bladders",
@@ -2670,7 +3122,9 @@
       "event_date": "2026-06-15",
       "fauna_label_pt": "1.450 kg de barbatanas + 200 kg de bexigas natatórias",
       "taxon_text": "Elasmobranchii e outros peixes",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
       "modal_label_pt": "Terrestre",
       "modal_primary": "Terrestre",
       "card_text_pt": "A PRF interceptou transporte irregular de 1.450 kg de barbatanas de tubarão e 200 kg de bexigas natatórias. O registro não presume exportação internacional.",
@@ -2695,7 +3149,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-07-02__guyana-port-klang-5069kg",
@@ -2714,7 +3174,9 @@
       "event_date": "2026-07-02",
       "fauna_label_pt": "5.069 kg de barbatanas em 180 sacos",
       "taxon_text": "Elasmobranchii",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
       "modal_label_pt": "Marítimo",
       "modal_primary": "Marítimo",
       "card_text_pt": "Contêiner proveniente da Guiana continha 5.069 kg de barbatanas de tubarão em 180 sacos, declaradas como pele de peixe.",
@@ -2739,7 +3201,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-07-07__dikovita-jul07-thresher-whitetip",
@@ -2785,7 +3253,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-07-07__champhai-manta-gill-plates",
@@ -2804,7 +3278,9 @@
       "event_date": "2026-07-07",
       "fauna_label_pt": "cerca de 210 kg de placas branquiais",
       "taxon_text": "Mobula/Manta spp. — identificação pericial pendente",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
       "modal_label_pt": "Terrestre",
       "modal_primary": "Terrestre",
       "card_text_pt": "Nove bolsas continham cerca de 210 kg de placas branquiais desidratadas suspeitas de raias-manta/Mobula; duas pessoas foram detidas e a identificação científica permanecia pendente.",
@@ -2829,7 +3305,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-07-21__negombo-jul21-thresher-whitetip",
@@ -2875,7 +3357,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-08-05__suduwella-aug05-thresher",
@@ -2921,7 +3409,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-08-16__manzanillo-panama-shark-fins-malaysia",
@@ -2967,7 +3461,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-09-18__jacobina-piaui-armadillos",
@@ -2986,7 +3486,9 @@
       "event_date": "2026-09-18",
       "fauna_label_pt": "5 tatus, incluindo 2 mortos",
       "taxon_text": "Dasypodidae",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
       "modal_label_pt": "Terrestre",
       "modal_primary": "Terrestre",
       "card_text_pt": "Cinco tatus, dois deles mortos, foram apreendidos com materiais associados à caça; três suspeitos foram abordados.",
@@ -3011,7 +3513,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 5,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 5
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-18__umuarama-cambe-corn-snakes",
@@ -3030,7 +3540,9 @@
       "event_date": "2026-09-18",
       "fauna_label_pt": "3 cobras-do-milho vivas",
       "taxon_text": "Pantherophis guttatus",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
       "modal_label_pt": "Terrestre / encomenda postal",
       "modal_primary": "Terrestre",
       "card_text_pt": "Três cobras-do-milho vivas enviadas em encomenda postal de Umuarama para Cambé foram interceptadas; multas ambientais foram aplicadas.",
@@ -3055,7 +3567,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 3,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 3
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-18__samalayuca-tarantulas-turtles",
@@ -3101,7 +3621,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 95,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 20
+      },
+      "quantity_unassigned": 75,
+      "quantity_note_pt": "75 tarântulas ficam em distribuição não informada porque o dashboard não possui categoria taxonômica própria para Arachnida."
     },
     {
       "id": "2026-09-18__el-bajio-mazatlan-tigers",
@@ -3147,7 +3675,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 2
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-18__chiang-mai-white-lion-cub",
@@ -3193,7 +3729,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-19__model-town-lahore-crane",
@@ -3212,7 +3756,9 @@
       "event_date": null,
       "fauna_label_pt": "1 grou",
       "taxon_text": "Gruidae",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
       "modal_label_pt": "Digital / posse",
       "modal_primary": "Não informado",
       "card_text_pt": "Autoridades apreenderam um grou em Model Town no contexto de investigação sobre compra e venda online de aves silvestres.",
@@ -3237,7 +3783,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-19__lahore-cantt-parrots",
@@ -3256,7 +3810,9 @@
       "event_date": null,
       "fauna_label_pt": "12 papagaios de diferentes tipos",
       "taxon_text": "Psittaciformes",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
       "modal_label_pt": "Não informado",
       "modal_primary": "Não informado",
       "card_text_pt": "Autoridades apreenderam 12 papagaios de diferentes tipos e detiveram um suspeito.",
@@ -3281,7 +3837,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 12,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 12
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-19__rajanpur-wild-quails",
@@ -3300,7 +3864,9 @@
       "event_date": null,
       "fauna_label_pt": "90 codornas silvestres vivas",
       "taxon_text": "Coturnix spp. / identificação específica não preservada",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
       "modal_label_pt": "Não informado",
       "modal_primary": "Não informado",
       "card_text_pt": "Noventa codornas silvestres vivas foram apreendidas de dois comerciantes ilegais e posteriormente soltas por determinação judicial.",
@@ -3325,7 +3891,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 90,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 90
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-11__riberalta-turtle-eggs",
@@ -3344,7 +3918,9 @@
       "event_date": "2026-09-11",
       "fauna_label_pt": "cerca de 300 ovos de peta-de-rio",
       "taxon_text": "Podocnemis unifilis",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
       "modal_label_pt": "Terrestre / mercados",
       "modal_primary": "Terrestre",
       "card_text_pt": "Autoridades municipais, POFOMA e a Intendência apreenderam cerca de 300 ovos de peta-de-rio em mercados e pontos de venda durante a temporada de desova.",
@@ -3369,7 +3945,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 300,
+      "quantity_qualifier": "approximate",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Répteis": 300
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Cerca de 300 ovos; valor aproximado."
     },
     {
       "id": "2026-09-17__angaco-whatsapp-wildlife",
@@ -3389,7 +3973,8 @@
       "fauna_label_pt": "aves nativas + 1 quirquincho",
       "taxon_text": "Aves nativas e Dasypodidae",
       "fauna_groups_aggregated": [
-        "Aves"
+        "Aves",
+        "Mamíferos"
       ],
       "modal_label_pt": "Digital / busca domiciliar",
       "modal_primary": "Não informado",
@@ -3415,7 +4000,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Um quirquincho confirmado numericamente; quantidade de aves não informada."
     },
     {
       "id": "2026-09-18__futian-20-turtles",
@@ -3462,7 +4055,15 @@
       "event_date_text": "data exata não estabelecida",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 20,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 20
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-13__juanda-macaque",
@@ -3508,7 +4109,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-14__juanda-birds-squirrels",
@@ -3528,7 +4137,8 @@
       "fauna_label_pt": "6 animais: 4 aves e 2 esquilos",
       "taxon_text": "3 jalak kebo, 1 derkuku e 2 esquilos",
       "fauna_groups_aggregated": [
-        "Aves"
+        "Aves",
+        "Mamíferos"
       ],
       "modal_label_pt": "Aéreo (bagagem em conexão)",
       "modal_primary": "Aéreo",
@@ -3554,7 +4164,16 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 6,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 4,
+        "Mamíferos": 2
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-14__singapore-101-wildlife",
@@ -3573,7 +4192,10 @@
       "event_date": "2026-09-14",
       "fauna_label_pt": "101 espécimes de fauna não nativa",
       "taxon_text": "lagartos, tritões, pítons, tarântulas, tartarugas e outros",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Répteis",
+        "Anfíbios"
+      ],
       "modal_label_pt": "Digital / posse",
       "modal_primary": "Não informado",
       "card_text_pt": "NParks realizou buscas em residências de seis pessoas suspeitas de venda ou posse ilegal e apreendeu 101 espécimes; 13 estavam mortos e um foi posteriormente eutanasiado. Parte das ofertas havia sido publicada online; a autoridade não afirmou que os seis formassem uma única rede.",
@@ -3598,7 +4220,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 101,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals_and_items",
+      "quantity_by_group": {},
+      "quantity_unassigned": 101,
+      "quantity_note_pt": "Total confirmado, mas a distribuição numérica por grupo não está disponível."
     },
     {
       "id": "2026-09-17__garmur-tokay-geckos",
@@ -3644,7 +4272,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 30,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 30
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-17__motu-malkangiri-55-turtles",
@@ -3694,7 +4330,15 @@
       ],
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 55,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 55
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-16__paulo-afonso-37-birds",
@@ -3740,7 +4384,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 37,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 37
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-18__port-surigao-wildlife",
@@ -3760,6 +4412,7 @@
       "fauna_label_pt": "cacatuas, papagaios, tartarugas e outros animais exóticos/protegidos",
       "taxon_text": "múltiplos táxons",
       "fauna_groups_aggregated": [
+        "Aves",
         "Répteis"
       ],
       "modal_label_pt": "Marítimo / terrestre",
@@ -3786,7 +4439,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-09-10__limon-costa-rica-wildlife",
@@ -3806,7 +4465,9 @@
       "fauna_label_pt": "43 mamíferos silvestres vivos + derivados",
       "taxon_text": "38 pacas, 5 agoutis e outros produtos",
       "fauna_groups_aggregated": [
-        "Mamíferos"
+        "Mamíferos",
+        "Aves",
+        "Répteis"
       ],
       "modal_label_pt": "Não informado",
       "modal_primary": "Não informado",
@@ -3832,7 +4493,17 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 194,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals_and_items",
+      "quantity_by_group": {
+        "Mamíferos": 54,
+        "Aves": 14,
+        "Répteis": 126
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Inclui 43 mamíferos vivos, 11 mamíferos mortos, 14 galos e 126 ovos suspeitos de tartaruga; carne/restos adicionais não são quantificados."
     },
     {
       "id": "2026-09-16__marsa-matrouh-eagle-lion",
@@ -3852,7 +4523,8 @@
       "fauna_label_pt": "1 águia + 1 filhote de leão-africano",
       "taxon_text": "Aves e Panthera leo",
       "fauna_groups_aggregated": [
-        "Mamíferos"
+        "Mamíferos",
+        "Aves"
       ],
       "modal_label_pt": "Não informado",
       "modal_primary": "Não informado",
@@ -3878,7 +4550,16 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 1,
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-16__laguna-del-tigre-wildlife-meat",
@@ -3922,7 +4603,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Sem quantidade numérica contável confirmada; pesos e volumes não são convertidos em animais/itens."
     },
     {
       "id": "2026-09-19__hongkong-sep19-10-turtles",
@@ -3968,7 +4655,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 10,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 10
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-09-11__sangkalok-luang-prabang-products",
@@ -3987,7 +4682,9 @@
       "event_date": "2026-09-11",
       "fauna_label_pt": "17 itens, 28,03 kg de produtos suspeitos de fauna",
       "taxon_text": "possível chifre de rinoceronte, marfim, vesículas biliares e medicamentos tradicionais",
-      "fauna_groups_aggregated": [],
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
       "modal_label_pt": "Não informado",
       "modal_primary": "Não informado",
       "card_text_pt": "LAO-WEN e autoridades apreenderam 17 itens, com 28,03 kg, suspeitos de conter produtos de fauna, além de equipamentos possivelmente usados em processamento; um estrangeiro foi detido para investigação.",
@@ -4012,7 +4709,13 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 17,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {},
+      "quantity_unassigned": 17,
+      "quantity_note_pt": "17 itens suspeitos de produtos de fauna; composição taxonômica individual não confirmada."
     },
     {
       "id": "2026-09-17__cutral-co-hedgehogs",
@@ -4058,7 +4761,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "translation_status": "EN_ES_COMPLETE",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 3,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 3
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     },
     {
       "id": "2026-06-02__parnamirim-pe-250-birds",
@@ -4105,7 +4816,15 @@
       "migration_status": "READY_FOR_CUTOVER",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "translation_status": "EN_ES_COMPLETE",
-      "case_context_status": "PT_EN_ES_COMPLETE"
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_count": 250,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 250
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": null
     }
   ],
   "reconstructed_at": "2026-09-22T00:50:00Z",
@@ -4196,5 +4915,18 @@
     "aggregate_flags_reviewed": true,
     "unknown_dates_preserved_as_null": true,
     "updated_at": "2026-09-22T03:27:00Z"
+  },
+  "quantity_layer": {
+    "status": "COMPLETE_FOR_DASHBOARD",
+    "fields": [
+      "quantity_count",
+      "quantity_qualifier",
+      "quantity_kind",
+      "quantity_by_group",
+      "quantity_unassigned",
+      "quantity_note_pt"
+    ],
+    "rule": "Only countable animals or wildlife items are numeric. Kilograms, tonnes, packaging units and other weights/volumes are not converted into animal/item counts.",
+    "updated_at": "2026-09-22T03:50:00Z"
   }
 }

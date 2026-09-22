@@ -27,3 +27,9 @@ For backward compatibility, the documented-routes layer remains available at:
 Canonical data base:
 
 `https://acarvalho-wcs.github.io/wildlife-trafficking-data/`
+
+## Quantity layer
+
+From schema 1.2, each case includes structured lower-dashboard fields: `quantity_count`, `quantity_qualifier`, `quantity_kind`, `quantity_by_group`, `quantity_unassigned` and `quantity_note_pt`.
+
+Only countable animals or wildlife items are numeric. Weights, volumes and packaging units are never converted into animal counts.

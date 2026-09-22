@@ -202,7 +202,53 @@
     },
     "migration_status": {
       "type": "string"
+    },
+    "quantity_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Countable animals or wildlife items. Never derived from weight/volume."
+    },
+    "quantity_qualifier": {
+      "type": "string",
+      "enum": [
+        "exact",
+        "approximate",
+        "minimum",
+        "unknown"
+      ]
+    },
+    "quantity_kind": {
+      "type": "string",
+      "enum": [
+        "animals",
+        "wildlife_items",
+        "animals_and_items",
+        "unknown"
+      ]
+    },
+    "quantity_by_group": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "description": "Known numeric allocation across dashboard fauna groups."
+    },
+    "quantity_unassigned": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Known count not safely allocable to a dashboard fauna group."
+    },
+    "quantity_note_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
-  "additionalProperties": true
+  "additionalProperties": true,
+  "x-schema-version": "1.2"
 }
