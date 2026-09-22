@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1-staging",
-  "migration_status": "STAGING_91_TEXT_PARITY_COMPLETE",
+  "migration_status": "STAGING_91_TEXT_PARITY_SHARK_URLS_COMPLETE",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -9,7 +9,7 @@
     "projection_revision": 84
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
-  "warning": "All 91 event identities are reconstructed. Text parity is now complete for the 50 reconstructed records added after the original 41-case site projection, including PT/EN/ES titles, card text and analytical Case Context. Public cutover remains blocked by numeric geodata reconciliation, missing source URLs in part of the shark/ray batch, and validation of the original 41 records' missing EN/ES/source fields.",
+  "warning": "All 91 event identities are reconstructed. Text parity is complete for the 50 reconstructed records added after the original 41-case site projection, including PT/EN/ES titles, card text and analytical Case Context. All 26 shark/ray batch source URLs are now reconciled. Public cutover remains blocked by numeric geodata reconciliation and validation/completion of the original 41 records' missing EN/ES/source fields.",
   "count": 91,
   "cases": [
     {
@@ -1590,7 +1590,7 @@
       "title_en": "796.09 kg of dried shark and ray skins recorded in Banyuwangi",
       "title_es": "Registran 796,09 kg de pieles secas de tiburones y rayas en Banyuwangi",
       "source_label": "KKP Indonesia",
-      "source_url": null,
+      "source_url": "https://kkp.go.id/news/news-detail/kkp-musnahkan-796-kg-kulit-hiu-dan-pari-ilegal-di-banyuwangi-v8jX.html",
       "publication_date": "2026-01-28",
       "event_date": null,
       "fauna_label_pt": "796,09 kg de peles secas de tubarões e raias",
@@ -1610,7 +1610,7 @@
       "context_pt": "Contexto analítico: o registro documenta circulação ou manutenção de produtos de fauna marinha sujeitos a controles de conservação e comércio. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the record documents the movement or holding of marine-wildlife products subject to conservation and trade controls. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el registro documenta circulación o tenencia de productos de fauna marina sujetos a controles de conservación y comercio. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "KKP Indonesia · https://kkp.go.id/news/news-detail/kkp-musnahkan-796-kg-kulit-hiu-dan-pari-ilegal-di-banyuwangi-v8jX.html",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -1620,7 +1620,7 @@
       "event_date_text": "data da apreensão não estabelecida; destruição em 2026-01-28",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-02-03__dikovita-feb03-shark",
@@ -1634,7 +1634,7 @@
       "title_en": "Shark products seized in Dikovita",
       "title_es": "Decomisan productos de tiburón en Dikovita",
       "source_label": "Sri Lanka Coast Guard",
-      "source_url": null,
+      "source_url": "https://news.coastguard.gov.lk/news/2026/02/04/202602050210/",
       "publication_date": null,
       "event_date": "2026-02-03",
       "fauna_label_pt": "19,4 kg de carne seca de tubarão e barbatanas",
@@ -1654,7 +1654,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Sri Lanka Coast Guard · https://news.coastguard.gov.lk/news/2026/02/04/202602050210/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -1663,7 +1663,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-02-12__rodelas-bahia-shark-fins",
@@ -1677,7 +1677,7 @@
       "title_en": "About 1.58 tonnes of shark fins seized in Bahia",
       "title_es": "Decomisan cerca de 1,58 toneladas de aletas de tiburón en Bahía",
       "source_label": "UOL / autoridades brasileiras",
-      "source_url": null,
+      "source_url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/02/13/pf-apreende-mais-de-15-tonelada-de-barbatanas-de-tubarao-na-bahia.htm",
       "publication_date": null,
       "event_date": "2026-02-12",
       "fauna_label_pt": "cerca de 1.583 kg de barbatanas de tubarão",
@@ -1697,7 +1697,7 @@
       "context_pt": "Contexto analítico: o registro documenta circulação ou manutenção de produtos de fauna marinha sujeitos a controles de conservação e comércio. A origem ou destino declarado fornece um segmento de rota útil para análise logística, sem provar a cadeia completa. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the record documents the movement or holding of marine-wildlife products subject to conservation and trade controls. The stated origin or destination provides a useful route segment for logistics analysis without proving the full chain. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el registro documenta circulación o tenencia de productos de fauna marina sujetos a controles de conservación y comercio. El origen o destino declarado aporta un segmento de ruta útil para el análisis logístico sin demostrar la cadena completa. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "UOL / autoridades brasileiras · https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/02/13/pf-apreende-mais-de-15-tonelada-de-barbatanas-de-tubarao-na-bahia.htm",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -1706,7 +1706,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "undated__operation-petasan-port-klang",
@@ -1720,7 +1720,7 @@
       "title_en": "Operation Petasan seizes 35.66 tonnes of dried shark fins",
       "title_es": "La Operación Petasan decomisa 35,66 toneladas de aletas secas de tiburón",
       "source_label": "Malaysian authorities / RTM / The Star",
-      "source_url": null,
+      "source_url": "https://www.thestar.com.my/news/nation/2026/04/07/selangor-customs-foils-attempts-to-smuggle-rm82mil-worth-of-shark-fins",
       "publication_date": null,
       "event_date": null,
       "fauna_label_pt": "35.660 kg de barbatanas secas de tubarão",
@@ -1740,7 +1740,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Malaysian authorities / RTM / The Star · https://www.thestar.com.my/news/nation/2026/04/07/selangor-customs-foils-attempts-to-smuggle-rm82mil-worth-of-shark-fins",
       "status": "VALIDATED",
       "aggregate_operation": true,
       "exclude_from_totals": false,
@@ -1753,7 +1753,7 @@
       ],
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-02-19__negombo-feb19-shark",
@@ -1767,7 +1767,7 @@
       "title_en": "Dried shark meat and fins seized in Negombo",
       "title_es": "Decomisan carne seca y aletas de tiburón en Negombo",
       "source_label": "Sri Lanka Coast Guard",
-      "source_url": null,
+      "source_url": "https://news.coastguard.gov.lk/news/2026/02/19/202602190550/",
       "publication_date": null,
       "event_date": "2026-02-19",
       "fauna_label_pt": "11,5 kg de tubarão seco + 1,7 kg de barbatanas",
@@ -1787,7 +1787,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Sri Lanka Coast Guard · https://news.coastguard.gov.lk/news/2026/02/19/202602190550/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -1796,7 +1796,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-02-21__galle-feb21-shark",
@@ -1810,7 +1810,7 @@
       "title_en": "Shark products seized in Galle",
       "title_es": "Decomisan productos de tiburón en Galle",
       "source_label": "Sri Lanka Coast Guard",
-      "source_url": null,
+      "source_url": "https://news.coastguard.gov.lk/news/2026/02/22/202602221341/",
       "publication_date": null,
       "event_date": "2026-02-21",
       "fauna_label_pt": "20,8 kg de tubarão seco + 0,6 kg de barbatanas",
@@ -1830,7 +1830,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Sri Lanka Coast Guard · https://news.coastguard.gov.lk/news/2026/02/22/202602221341/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -1839,7 +1839,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "undated__hawaii-california-private-jet-shark-fins",
@@ -1853,7 +1853,7 @@
       "title_en": "40 shark fins transported by private jet from Hawaii to California",
       "title_es": "Transportan 40 aletas de tiburón en un jet privado de Hawái a California",
       "source_label": "Hawaii News Now / San Francisco Chronicle",
-      "source_url": null,
+      "source_url": "https://www.sfchronicle.com/california/article/shark-fins-private-jet-22233407.php",
       "publication_date": null,
       "event_date": null,
       "fauna_label_pt": "40 barbatanas secas/congeladas de tubarão",
@@ -1873,7 +1873,7 @@
       "context_pt": "Contexto analítico: o caso demonstra o papel de aeroportos e carga/bagagem aérea na detecção de produtos de tubarões em rotas de longa distância. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the case demonstrates the role of airports and air cargo/baggage in detecting shark products along long-distance routes. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el caso demuestra el papel de aeropuertos y carga/equipaje aéreo en la detección de productos de tiburón en rutas de larga distancia. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Hawaii News Now / San Francisco Chronicle · https://www.sfchronicle.com/california/article/shark-fins-private-jet-22233407.php",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -1883,7 +1883,7 @@
       "event_date_text": "2026-02 (dia não estabelecido)",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-03-05__dondra-mar05-thresher",
@@ -1981,7 +1981,7 @@
       "title_en": "21,897 shark fins intercepted en route to Malaysia",
       "title_es": "Interceptan 21.897 aletas de tiburón con destino a Malasia",
       "source_label": "Ecuavisa / autoridades equatorianas",
-      "source_url": null,
+      "source_url": "https://www.ecuavisa.com/ecuador/21-mil-aletas-tiburon-decomisadas-aeropuerto-guayaquil-20260401-0104.html",
       "publication_date": null,
       "event_date": "2026-04-01",
       "fauna_label_pt": "21.897 barbatanas de tubarão em 75 fardos",
@@ -2001,7 +2001,7 @@
       "context_pt": "Contexto analítico: o caso demonstra o papel de aeroportos e carga/bagagem aérea na detecção de produtos de tubarões em rotas de longa distância. A origem ou destino declarado fornece um segmento de rota útil para análise logística, sem provar a cadeia completa. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the case demonstrates the role of airports and air cargo/baggage in detecting shark products along long-distance routes. The stated origin or destination provides a useful route segment for logistics analysis without proving the full chain. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el caso demuestra el papel de aeropuertos y carga/equipaje aéreo en la detección de productos de tiburón en rutas de larga distancia. El origen o destino declarado aporta un segmento de ruta útil para el análisis logístico sin demostrar la cadena completa. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Ecuavisa / autoridades equatorianas · https://www.ecuavisa.com/ecuador/21-mil-aletas-tiburon-decomisadas-aeropuerto-guayaquil-20260401-0104.html",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2010,7 +2010,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-04-02__panama-hongkong-162kg-fins",
@@ -2067,7 +2067,7 @@
       "title_en": "9.4 kg of blue-shark fins identified in Quanzhou",
       "title_es": "Identifican 9,4 kg de aletas de tiburón azul en Quanzhou",
       "source_label": "Quanzhou Daily / customs",
-      "source_url": null,
+      "source_url": "https://www.qzwb.com/gb/content/2026-04/16/content_9225751.htm",
       "publication_date": "2026-04-13",
       "event_date": null,
       "fauna_label_pt": "9,4 kg de barbatanas",
@@ -2085,7 +2085,7 @@
       "context_pt": "Contexto analítico: o registro documenta circulação ou manutenção de produtos de fauna marinha sujeitos a controles de conservação e comércio. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the record documents the movement or holding of marine-wildlife products subject to conservation and trade controls. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el registro documenta circulación o tenencia de productos de fauna marina sujetos a controles de conservación y comercio. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Quanzhou Daily / customs · https://www.qzwb.com/gb/content/2026-04/16/content_9225751.htm",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2094,7 +2094,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-05-08__semarang-tanjung-emas-shark-rays",
@@ -2108,7 +2108,7 @@
       "title_en": "Irregular export of shark and ray products intercepted in Semarang",
       "title_es": "Interceptan en Semarang una exportación irregular de productos de tiburones y rayas",
       "source_label": "KKP Indonesia",
-      "source_url": null,
+      "source_url": "https://ppid.kkp.go.id/upt/balai-pengelolaan-kelautan-pontianak/news/detail/pemeriksaan-fisik-gabungan-dugaan-pelanggaran-ekpor-hiu-dan-pari/",
       "publication_date": null,
       "event_date": "2026-05-08",
       "fauna_label_pt": "barbatanas e peles de tubarões e raias",
@@ -2128,7 +2128,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. A identificação taxonômica deve permanecer cautelosa onde a perícia ainda não está fechada. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Taxonomic identification should remain cautious where expert confirmation is incomplete. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. La identificación taxonómica debe mantenerse cautelosa cuando la confirmación pericial sea incompleta. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "KKP Indonesia · https://ppid.kkp.go.id/upt/balai-pengelolaan-kelautan-pontianak/news/detail/pemeriksaan-fisik-gabungan-dugaan-pelanggaran-ekpor-hiu-dan-pari/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2137,7 +2137,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-05-13__dakhla-237kg-shark",
@@ -2151,7 +2151,7 @@
       "title_en": "237 kg of prohibited shark catch seized in Dakhla",
       "title_es": "Decomisan 237 kg de captura prohibida de tiburón en Dakhla",
       "source_label": "autoridades marroquinas / imprensa local",
-      "source_url": null,
+      "source_url": "https://albahrnews.com/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D8%A9-%D8%A5%D8%AD%D8%A8%D8%A7%D8%B7-%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D9%83%D9%85%D9%8A%D8%A7%D8%AA-%D9%85%D9%86-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D9%82%D8%B1/",
       "publication_date": null,
       "event_date": "2026-05-13",
       "fauna_label_pt": "237 kg de tubarão",
@@ -2171,7 +2171,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. A identificação taxonômica deve permanecer cautelosa onde a perícia ainda não está fechada. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Taxonomic identification should remain cautious where expert confirmation is incomplete. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. La identificación taxonómica debe mantenerse cautelosa cuando la confirmación pericial sea incompleta. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "autoridades marroquinas / imprensa local · https://albahrnews.com/%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D8%A9-%D8%A5%D8%AD%D8%A8%D8%A7%D8%B7-%D8%AA%D9%87%D8%B1%D9%8A%D8%A8-%D9%83%D9%85%D9%8A%D8%A7%D8%AA-%D9%85%D9%86-%D8%B3%D9%85%D9%83-%D8%A7%D9%84%D9%82%D8%B1/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2180,7 +2180,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-05-22__conakry-seahorse-shark-ray",
@@ -2194,7 +2194,7 @@
       "title_en": "Seahorses and shark/ray fins seized in Conakry",
       "title_es": "Decomisan caballitos de mar y aletas de tiburones/rayas en Conakry",
       "source_label": "Mongabay / autoridades guineenses",
-      "source_url": null,
+      "source_url": "https://news.mongabay.com/2026/06/four-alleged-wildlife-traffickers-arrested-in-guinea-dried-seahorses-and-shark-fins-seized/",
       "publication_date": null,
       "event_date": "2026-05-22",
       "fauna_label_pt": "41 kg de cavalos-marinhos secos + 26 kg de barbatanas de tubarões/raias",
@@ -2214,7 +2214,7 @@
       "context_pt": "Contexto analítico: o registro documenta circulação ou manutenção de produtos de fauna marinha sujeitos a controles de conservação e comércio. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the record documents the movement or holding of marine-wildlife products subject to conservation and trade controls. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el registro documenta circulación o tenencia de productos de fauna marina sujetos a controles de conservación y comercio. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Mongabay / autoridades guineenses · https://news.mongabay.com/2026/06/four-alleged-wildlife-traffickers-arrested-in-guinea-dried-seahorses-and-shark-fins-seized/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2223,7 +2223,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-06-06__negombo-jun06-thresher",
@@ -2237,7 +2237,7 @@
       "title_en": "More than 220 kg of thresher shark seized in Negombo",
       "title_es": "Decomisan más de 220 kg de tiburón zorro en Negombo",
       "source_label": "Sri Lanka Coast Guard",
-      "source_url": null,
+      "source_url": "https://news.coastguard.gov.lk/news/2026/06/06/202606061835/",
       "publication_date": null,
       "event_date": "2026-06-06",
       "fauna_label_pt": "mais de 220 kg de tubarão",
@@ -2257,7 +2257,7 @@
       "context_pt": "Contexto analítico: a apreensão em transporte terrestre mostra que produtos marinhos também circulam por corredores rodoviários depois do desembarque ou beneficiamento. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the terrestrial interception shows that marine-wildlife products can also move through road corridors after landing or processing. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: la interceptación terrestre muestra que los productos de fauna marina también pueden circular por corredores viales después del desembarque o procesamiento. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Sri Lanka Coast Guard · https://news.coastguard.gov.lk/news/2026/06/06/202606061835/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2266,7 +2266,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-06-08__beijing-capital-18-shark-fins",
@@ -2280,7 +2280,7 @@
       "title_en": "18 fins from CITES-listed shark species identified in Beijing",
       "title_es": "Identifican en Pekín 18 aletas de especies de tiburón incluidas en CITES",
       "source_label": "Beijing Daily / customs",
-      "source_url": null,
+      "source_url": "https://xinwen.bjd.com.cn/content/s6a26925ee4b0e45f3fd2c178.html",
       "publication_date": "2026-06-08",
       "event_date": null,
       "fauna_label_pt": "18 barbatanas (~1 kg)",
@@ -2298,7 +2298,7 @@
       "context_pt": "Contexto analítico: o caso demonstra o papel de aeroportos e carga/bagagem aérea na detecção de produtos de tubarões em rotas de longa distância. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the case demonstrates the role of airports and air cargo/baggage in detecting shark products along long-distance routes. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el caso demuestra el papel de aeropuertos y carga/equipaje aéreo en la detección de productos de tiburón en rutas de larga distancia. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Beijing Daily / customs · https://xinwen.bjd.com.cn/content/s6a26925ee4b0e45f3fd2c178.html",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2307,7 +2307,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-06-22__xiamen-44-hammerhead-fins",
@@ -2321,7 +2321,7 @@
       "title_en": "44 hammerhead-shark fins identified in Xiamen",
       "title_es": "Identifican 44 aletas de tiburones martillo en Xiamen",
       "source_label": "imprensa chinesa / customs",
-      "source_url": null,
+      "source_url": "https://szb.qzwb.com/dnzb/pc/cons/202606/23/content_189506.html",
       "publication_date": "2026-06-22",
       "event_date": null,
       "fauna_label_pt": "44 barbatanas, 16,95 kg",
@@ -2339,7 +2339,7 @@
       "context_pt": "Contexto analítico: o caso demonstra o papel de aeroportos e carga/bagagem aérea na detecção de produtos de tubarões em rotas de longa distância. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the case demonstrates the role of airports and air cargo/baggage in detecting shark products along long-distance routes. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el caso demuestra el papel de aeropuertos y carga/equipaje aéreo en la detección de productos de tiburón en rutas de larga distancia. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "imprensa chinesa / customs · https://szb.qzwb.com/dnzb/pc/cons/202606/23/content_189506.html",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2348,7 +2348,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-06-15__cristinapolis-shark-fins-swim-bladders",
@@ -2362,7 +2362,7 @@
       "title_en": "1.45 tonnes of shark fins seized in Sergipe",
       "title_es": "Decomisan 1,45 toneladas de aletas de tiburón en Sergipe",
       "source_label": "Polícia Rodoviária Federal",
-      "source_url": null,
+      "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/sergipe/2026/junho/prf-apreende-mais-de-1-6-tonelada-de-barbatanas-de-tubarao-e-bexigas-natatorias-em-sergipe",
       "publication_date": null,
       "event_date": "2026-06-15",
       "fauna_label_pt": "1.450 kg de barbatanas + 200 kg de bexigas natatórias",
@@ -2380,7 +2380,7 @@
       "context_pt": "Contexto analítico: a apreensão em transporte terrestre mostra que produtos marinhos também circulam por corredores rodoviários depois do desembarque ou beneficiamento. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the terrestrial interception shows that marine-wildlife products can also move through road corridors after landing or processing. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: la interceptación terrestre muestra que los productos de fauna marina también pueden circular por corredores viales después del desembarque o procesamiento. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Polícia Rodoviária Federal · https://www.gov.br/prf/pt-br/noticias/estaduais/sergipe/2026/junho/prf-apreende-mais-de-1-6-tonelada-de-barbatanas-de-tubarao-e-bexigas-natatorias-em-sergipe",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2389,7 +2389,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-07-02__guyana-port-klang-5069kg",
@@ -2403,7 +2403,7 @@
       "title_en": "5,069 kg of shark fins from Guyana seized at Port Klang",
       "title_es": "Decomisan en Port Klang 5.069 kg de aletas de tiburón procedentes de Guyana",
       "source_label": "Bernama / autoridades malaias",
-      "source_url": null,
+      "source_url": "https://www.bernama.com/en/crime_courts/news.php?id=2586490",
       "publication_date": null,
       "event_date": "2026-07-02",
       "fauna_label_pt": "5.069 kg de barbatanas em 180 sacos",
@@ -2421,7 +2421,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. A origem ou destino declarado fornece um segmento de rota útil para análise logística, sem provar a cadeia completa. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. The stated origin or destination provides a useful route segment for logistics analysis without proving the full chain. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. El origen o destino declarado aporta un segmento de ruta útil para el análisis logístico sin demostrar la cadena completa. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Bernama / autoridades malaias · https://www.bernama.com/en/crime_courts/news.php?id=2586490",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2430,7 +2430,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-07-07__dikovita-jul07-thresher-whitetip",
@@ -2444,7 +2444,7 @@
       "title_en": "4,847 kg of protected sharks seized in Dikovita",
       "title_es": "Decomisan 4.847 kg de tiburones protegidos en Dikovita",
       "source_label": "Sri Lanka Coast Guard",
-      "source_url": null,
+      "source_url": "https://news.coastguard.gov.lk/news/2026/07/07/202607071600/",
       "publication_date": null,
       "event_date": "2026-07-07",
       "fauna_label_pt": "4.847 kg de tubarões",
@@ -2464,7 +2464,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Sri Lanka Coast Guard · https://news.coastguard.gov.lk/news/2026/07/07/202607071600/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2473,7 +2473,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-07-07__champhai-manta-gill-plates",
@@ -2487,7 +2487,7 @@
       "title_en": "About 210 kg of suspected manta/Mobula gill plates seized in Mizoram",
       "title_es": "Decomisan en Mizoram cerca de 210 kg de placas branquiales sospechosas de manta/Mobula",
       "source_label": "ThePrint / autoridades indianas",
-      "source_url": null,
+      "source_url": "https://theprint.in/india/manta-ray-gill-plates-worth-rs-2-3cr-seized-in-one-of-mizorams-biggest-wildlife-related-hauls/2982293/",
       "publication_date": null,
       "event_date": "2026-07-07",
       "fauna_label_pt": "cerca de 210 kg de placas branquiais",
@@ -2505,7 +2505,7 @@
       "context_pt": "Contexto analítico: a apreensão em transporte terrestre mostra que produtos marinhos também circulam por corredores rodoviários depois do desembarque ou beneficiamento. A identificação taxonômica deve permanecer cautelosa onde a perícia ainda não está fechada. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the terrestrial interception shows that marine-wildlife products can also move through road corridors after landing or processing. Taxonomic identification should remain cautious where expert confirmation is incomplete. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: la interceptación terrestre muestra que los productos de fauna marina también pueden circular por corredores viales después del desembarque o procesamiento. La identificación taxonómica debe mantenerse cautelosa cuando la confirmación pericial sea incompleta. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "ThePrint / autoridades indianas · https://theprint.in/india/manta-ray-gill-plates-worth-rs-2-3cr-seized-in-one-of-mizorams-biggest-wildlife-related-hauls/2982293/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2514,7 +2514,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-07-21__negombo-jul21-thresher-whitetip",
@@ -2528,7 +2528,7 @@
       "title_en": "More than 2.65 tonnes of protected sharks seized in Negombo",
       "title_es": "Decomisan más de 2,65 toneladas de tiburones protegidos en Negombo",
       "source_label": "Sri Lanka Coast Guard",
-      "source_url": null,
+      "source_url": "https://news.coastguard.gov.lk/news/2026/07/21/202607211400/",
       "publication_date": null,
       "event_date": "2026-07-21",
       "fauna_label_pt": "mais de 2.650 kg de tubarões",
@@ -2548,7 +2548,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Sri Lanka Coast Guard · https://news.coastguard.gov.lk/news/2026/07/21/202607211400/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2557,7 +2557,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-08-05__suduwella-aug05-thresher",
@@ -2571,7 +2571,7 @@
       "title_en": "223.94 kg of thresher shark seized in Suduwella",
       "title_es": "Decomisan 223,94 kg de tiburón zorro en Suduwella",
       "source_label": "Sri Lanka Coast Guard",
-      "source_url": null,
+      "source_url": "https://news.coastguard.gov.lk/news/2026/08/05/202608061410/",
       "publication_date": null,
       "event_date": "2026-08-05",
       "fauna_label_pt": "223,94 kg de tubarão e barbatanas",
@@ -2591,7 +2591,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "Sri Lanka Coast Guard · https://news.coastguard.gov.lk/news/2026/08/05/202608061410/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2600,7 +2600,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-08-16__manzanillo-panama-shark-fins-malaysia",
@@ -2614,7 +2614,7 @@
       "title_en": "Container with 109 sacks of shark fins intercepted in Panama",
       "title_es": "Interceptan en Panamá un contenedor con 109 sacos de aletas de tiburón",
       "source_label": "MiAmbiente Panamá",
-      "source_url": null,
+      "source_url": "https://miambiente.gob.pa/retienen-en-puerto-manzanillo-contenedor-con-109-sacos-de-aletas-de-tiburon-con-destino-a-malasia/",
       "publication_date": null,
       "event_date": "2026-08-16",
       "fauna_label_pt": "109 sacos de barbatanas de tubarão",
@@ -2634,7 +2634,7 @@
       "context_pt": "Contexto analítico: a ocorrência mostra como portos, desembarque pesqueiro ou embarcações podem funcionar como pontos de detecção de produtos de elasmobrânquios em volumes comerciais. A origem ou destino declarado fornece um segmento de rota útil para análise logística, sem provar a cadeia completa. A identificação taxonômica deve permanecer cautelosa onde a perícia ainda não está fechada. Limites: peso, número de barbatanas ou outros produtos não devem ser convertidos automaticamente em número de animais, e o evento isolado não comprova vínculo com outras apreensões.",
       "context_en": "Analytical context: the incident shows how ports, fish landings or vessels can function as detection points for elasmobranch products moving at commercial scale. The stated origin or destination provides a useful route segment for logistics analysis without proving the full chain. Taxonomic identification should remain cautious where expert confirmation is incomplete. Limits: weight, fin counts or other product counts must not be automatically converted into numbers of animals, and a single event does not prove a link to other seizures.",
       "context_es": "Contexto analítico: el episodio muestra cómo puertos, desembarques pesqueros o embarcaciones pueden funcionar como puntos de detección de productos de elasmobranquios en volúmenes comerciales. El origen o destino declarado aporta un segmento de ruta útil para el análisis logístico sin demostrar la cadena completa. La identificación taxonómica debe mantenerse cautelosa cuando la confirmación pericial sea incompleta. Límites: el peso, el número de aletas u otros productos no deben convertirse automáticamente en número de animales, y un episodio aislado no demuestra vínculos con otros decomisos.",
-      "references_text_pt": null,
+      "references_text_pt": "MiAmbiente Panamá · https://miambiente.gob.pa/retienen-en-puerto-manzanillo-contenedor-con-109-sacos-de-aletas-de-tiburon-con-destino-a-malasia/",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -2643,7 +2643,7 @@
       "migration_status": "STAGING_TEXT_PARITY_COMPLETE_GEODATA_SOURCE_RECONCILIATION_PENDING",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "source_reconciliation_status": "SOURCE_URL_PENDING"
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED"
     },
     {
       "id": "2026-09-18__jacobina-piaui-armadillos",
@@ -3719,10 +3719,10 @@
       "card_en_es_complete": 26,
       "case_context_complete": 26,
       "text_parity_complete": 26,
-      "source_urls_reconciled": 4,
-      "source_urls_pending": 22,
+      "source_urls_reconciled": 26,
+      "source_urls_pending": 0,
       "geodata_pending": 26,
-      "updated_at": "2026-09-22T01:50:00Z"
+      "updated_at": "2026-09-22T02:10:00Z"
     }
   }
 }
