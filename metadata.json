@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "repository": "acarvalho-wcs/wildlife-trafficking-data",
+  "public_base_url": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/",
+  "migration": {
+    "phase": "STAGING_1_LOSSLESS_EXTRACTION",
+    "dashboard_cutover_ready": false,
+    "source_case_count": 41,
+    "extracted_case_count": 41,
+    "validated_status_count": 41,
+    "missing_numeric_coordinates": 41,
+    "missing_source_urls": 41,
+    "missing_en_translation": 41,
+    "missing_es_translation": 41,
+    "next_phase": "Reconcile coordinates, original URLs and PT/EN/ES fields; compare rendered output against current dashboard before cutover."
+  },
+  "files": {
+    "cases": "cases.json",
+    "routes": "routes.json",
+    "schema": "schemas/case.schema.json",
+    "raw_archive": "archives/dashboard-2026-09-21.raw.json"
+  },
+  "updated_at": "2026-09-22T00:00:00Z"
+}
