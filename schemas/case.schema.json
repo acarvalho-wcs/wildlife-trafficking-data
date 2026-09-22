@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/schemas/case.schema.json",
+  "title": "Illegal Wildlife Trafficking Global Observatory case",
+  "type": "object",
+  "required": [
+    "id",
+    "location_label_pt",
+    "country",
+    "publication_date",
+    "fauna_label_pt",
+    "taxon_text",
+    "modal_primary",
+    "card_text_pt",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "legacy_index": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "location_label_pt": {
+      "type": "string"
+    },
+    "country": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title_en": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title_es": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "event_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "fauna_label_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "taxon_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "fauna_groups_aggregated": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "modal_label_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "modal_primary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "card_text_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "card_text_en": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "card_text_es": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coordinates": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "lat",
+            "lon"
+          ],
+          "properties": {
+            "lat": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            },
+            "lon": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            }
+          }
+        }
+      ]
+    },
+    "coordinate_precision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geographic_note_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context_en": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context_es": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "references_text_pt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "aggregate_operation": {
+      "type": "boolean"
+    },
+    "exclude_from_totals": {
+      "type": "boolean"
+    },
+    "migration_status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
