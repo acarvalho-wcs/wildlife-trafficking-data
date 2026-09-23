@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T15:21:06Z",
-  "records_total": 116,
-  "resolved_direct_images": 72,
-  "unresolved": 44,
+  "generated_at": "2026-09-23T15:24:08Z",
+  "records_total": 128,
+  "resolved_direct_images": 79,
+  "unresolved": 49,
   "results": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -380,7 +380,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "source_request_error:ConnectTimeout"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-01-28__banyuwangi-dried-shark-ray-skins",
@@ -398,7 +398,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "no_valid_direct_image"
+      "note": "source_request_error:ConnectTimeout"
     },
     {
       "id": "2026-02-12__rodelas-bahia-shark-fins",
@@ -425,7 +425,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "source_request_error:ConnectTimeout"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-02-21__galle-feb21-shark",
@@ -434,7 +434,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "source_request_error:ConnectTimeout"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "undated__hawaii-california-private-jet-shark-fins",
@@ -524,7 +524,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "source_request_error:ConnectTimeout"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-06-08__beijing-capital-18-shark-fins",
@@ -569,7 +569,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "source_request_error:ConnectTimeout"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-07-07__champhai-manta-gill-plates",
@@ -587,7 +587,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "no_valid_direct_image"
+      "note": "source_request_error:ConnectTimeout"
     },
     {
       "id": "2026-08-05__suduwella-aug05-thresher",
@@ -683,10 +683,10 @@
       "id": "2026-09-11__riberalta-turtle-eggs",
       "source_url": "https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/",
       "existing_image_url": "https://radiosplendid.bo/wp-content/uploads/801965987_122116384773371432_9166212503200152049_n-e1789166311983-768x455.jpg",
-      "resolved": true,
-      "method": "existing_direct",
-      "image_url": "https://radiosplendid.bo/wp-content/uploads/801965987_122116384773371432_9166212503200152049_n-e1789166311983-768x455.jpg",
-      "note": "image/webp"
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "source_http_403"
     },
     {
       "id": "2026-09-17__angaco-whatsapp-wildlife",
@@ -776,7 +776,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "no_valid_direct_image"
+      "note": "source_request_error:ReadTimeout"
     },
     {
       "id": "2026-09-16__marsa-matrouh-eagle-lion",
@@ -808,9 +808,9 @@
     {
       "id": "2026-09-11__sangkalok-luang-prabang-products",
       "source_url": "https://dof.mis-mae.gov.la/single.php?nid=317",
-      "existing_image_url": null,
+      "existing_image_url": "https://dof.mis-mae.gov.la/img/title3.png",
       "resolved": true,
-      "method": "page_img",
+      "method": "existing_direct",
       "image_url": "https://dof.mis-mae.gov.la/img/title3.png",
       "note": "image/png"
     },
@@ -916,9 +916,9 @@
     {
       "id": "2026-04-17__duque-de-caxias-rj-agora-28",
       "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj",
-      "existing_image_url": null,
+      "existing_image_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj/2026-04-17_mico_resgatado.jpeg",
       "resolved": true,
-      "method": "existing_source_media",
+      "method": "existing_direct",
       "image_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj/2026-04-17_mico_resgatado.jpeg",
       "note": "image/jpeg"
     },
@@ -947,7 +947,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "source_request_error:ConnectionError"
+      "note": "source_http_401"
     },
     {
       "id": "2026-06-05__caxambu-mg-six-saltators",
@@ -956,16 +956,16 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "source_request_error:ConnectionError"
+      "note": "source_http_401"
     },
     {
       "id": "2026-07-15__niteroi-rj-operacao-bicho-solto",
       "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/07/pf-investiga-trafico-e-maus-tratos-a-animais-silvestres-em-niteroi-rj",
       "existing_image_url": null,
-      "resolved": false,
-      "method": null,
-      "image_url": null,
-      "note": "source_request_error:ConnectionError"
+      "resolved": true,
+      "method": "existing_source_media",
+      "image_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/07/pf-investiga-trafico-e-maus-tratos-a-animais-silvestres-em-niteroi-rj/6727f4d8-7edc-472a-8fdf-1e18dbda7edb.jpg",
+      "note": "image/jpeg"
     },
     {
       "id": "2026-08-04__ponte-rio-niteroi-50-saltators",
@@ -979,20 +979,20 @@
     {
       "id": "2026-08-14__foz-do-iguacu-pr-eight-birds",
       "source_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade",
-      "existing_image_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade/capa.jpeg/@@images/d1cf096e-32d6-4d45-a2bf-f6924835552f.jpeg",
-      "resolved": true,
-      "method": "existing_source_media",
-      "image_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade/capa.jpeg",
-      "note": "image/jpeg"
+      "existing_image_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade/capa.jpeg",
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "source_request_error:ConnectionError"
     },
     {
       "id": "2026-08-19__palmeiras-do-tocantins-412-animals",
       "source_url": "https://www.gov.br/prf/pt-br/noticias/nacionais/2026/agosto/prf-resgata-412-animais-silvestres-com-sinais-de-maus-tratos-em-palmeiras-do-tocantins-to",
-      "existing_image_url": null,
-      "resolved": true,
-      "method": "og:image",
-      "image_url": "https://www.gov.br/prf/pt-br/noticias/nacionais/2026/agosto/prf-resgata-412-animais-silvestres-com-sinais-de-maus-tratos-em-palmeiras-do-tocantins-to/@@images/image-800-02fc058f62ca3acd25794b7452c92420.jpeg",
-      "note": "image/jpeg"
+      "existing_image_url": "https://www.gov.br/prf/pt-br/noticias/nacionais/2026/agosto/prf-resgata-412-animais-silvestres-com-sinais-de-maus-tratos-em-palmeiras-do-tocantins-to/@@images/image-800-02fc058f62ca3acd25794b7452c92420.jpeg",
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "source_request_error:ConnectionError"
     },
     {
       "id": "2026-09-21__el-torno-market-wildlife",
@@ -1047,6 +1047,114 @@
       "method": "existing_direct",
       "image_url": "https://agpgabon.ga/wp-content/uploads/2026/09/IMG-20260916-WA0131.jpg",
       "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-17__sao-goncalo-br222-206-birds",
+      "source_url": "https://gcmais.com.br/noticias/2026/09/18/homem-e-preso-com-206-aves-silvestres-transportadas-ilegalmente-na-br-222-no-ceara",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://media.gcmais.com.br/site-assets/articles/homem-e-preso-com-206-aves-silvestres-transportadas-ilegalmente-na-br-222--rimg.webp",
+      "note": "image/webp"
+    },
+    {
+      "id": "2026-09-18__mairipora-exoticos-reptiles-fish",
+      "source_url": "https://www.cruzeirofm.com.br/2026/09/18/noticias/policia-civil-apreende-mais-de-20-animais-da-fauna-brasileira-em-mairipora/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.cruzeirofm.com.br/wp-content/uploads/2026/09/POLICIA-CIVIL-4.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-15__turvo-three-birds",
+      "source_url": "https://redesuldenoticias.com.br/noticias/pm-ambiental-apreende-tres-aves-silvestres-mantidas-irregularmente-em-turvo/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://redesuldenoticias.com.br/content/uploads/2026/09/ANIMAL-CAPA.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-12__miguel-pereira-fourteen-birds",
+      "source_url": "https://www.jornalponto.com/site/2026/09/16/policia-apreende-14-aves-silvestres-durante-acao-em-miguel-pereira/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.jornalponto.com/site/wp-content/uploads/2026/09/ANIMAIS-SILVESTRES-MP.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-17__fusagasuga-two-boas",
+      "source_url": "https://www.noticentrocolombia.com/2026/09/17/la-car-incauta-dos-boas-constrictor-exhibidas-como-atraccion-turistica-en-finca-de-fusagasuga/nacionales/22886/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.noticentrocolombia.com/wp-content/uploads/2026/09/atraccion-turistica-en-finca-de-Fusagasuga.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-08__suvarnabhumi-muscat-twenty-two-animals",
+      "source_url": "https://www.dailynews.co.th/news/6195696/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.dailynews.co.th/wp-content/uploads/2026/09/Cover-Template-1280x720-New-2026-09-16T192025.573.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-12__floresta-140-parrot-chicks",
+      "source_url": "https://www.cbnrecife.com/2026/09/21/papagaios-resgatados-do-trafico-recebem-tratamento-para-voltar-a-natureza/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.cbnrecife.com/wp-content/uploads/2026/09/IMG_E1706-scaled-2-1024x576.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-22__nuapada-leopard-skin",
+      "source_url": "https://www.thestatesman.com/bhubaneswar/odisha-vigilance-arrests-poacher-with-leopard-skin-2-1503641731.html",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.thestatesman.com/wp-content/uploads/2026/09/IMG_5667.webp",
+      "note": "image/webp"
+    },
+    {
+      "id": "2026-09-21__isilkul-bear-gallbladders",
+      "source_url": "https://www.interfax-russia.ru/siberia/news/kontrabandu-zhelchnyh-puzyrey-burogo-medvedya-presekli-v-omskoy-oblasti",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2026-09-16__volta-redonda-wild-birds",
+      "source_url": "https://www.jornalponto.com/site/2026/09/16/acao-resgata-11-animais-mantidos-irregularmente-em-propriedade-em-volta-redonda/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.jornalponto.com/site/wp-content/uploads/2026/09/animais-vr-2.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-09-18__hoedspruit-pangolin",
+      "source_url": "https://www.accidents.co.za/2026/09/20/five-suspects-arrested-and-two-pangolins-rescued-during-sting-operations-targeting-illegal-wildlife-traders-in-hoedspruit-and-gravelotte/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "source_http_403"
+    },
+    {
+      "id": "2026-09-18__gravelotte-pangolin",
+      "source_url": "https://www.accidents.co.za/2026/09/20/five-suspects-arrested-and-two-pangolins-rescued-during-sting-operations-targeting-illegal-wildlife-traders-in-hoedspruit-and-gravelotte/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "source_http_403"
     }
   ]
 }
