@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_250_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_252_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -9,8 +9,8 @@
     "projection_revision": 84
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
-  "warning": "All 250 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. Aggregate records flagged exclude_from_totals remain excluded. Americas and Asia 2026 multilingual batches were added after deduplication; unknown dates, weight-only quantities and mixed listings remain conservative rather than inferred.",
-  "count": 250,
+  "warning": "All 252 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. Aggregate records flagged exclude_from_totals remain excluded. Americas, Asia and Oceania 2026 multilingual batches were added after deduplication; unknown dates, weight-only quantities and mixed listings remain conservative rather than inferred.",
+  "count": 252,
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -15958,6 +15958,12 @@
       "count": 24,
       "legacy_site_id_range": null,
       "confidence": "CONFIRMED_SOURCE_EVENTS"
+    },
+    {
+      "batch": "oceania_2026_multilingual_2026-09-24",
+      "count": 2,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS"
     }
   ],
   "field_parity_progress": {
@@ -16043,18 +16049,28 @@
       "case_context_complete": 24,
       "text_parity_complete": 24,
       "updated_at": "2026-09-24T03:25:00Z"
+    },
+    "oceania_2026_multilingual_2026_09_24": {
+      "records": 2,
+      "title_en_es_complete": 2,
+      "card_en_es_complete": 2,
+      "source_urls_reconciled": 2,
+      "geodata_pending": 0,
+      "case_context_complete": 2,
+      "text_parity_complete": 2,
+      "updated_at": "2026-09-24T03:50:00Z"
     }
   },
   "geodata_progress": {
-    "records_total": 250,
-    "coordinates_complete": 250,
+    "records_total": 252,
+    "coordinates_complete": 252,
     "coordinates_pending": 0,
-    "precision_classified": 250,
-    "updated_at": "2026-09-24T03:25:00Z",
+    "precision_classified": 252,
+    "updated_at": "2026-09-24T03:50:00Z",
     "note": "Coordinates are representative points with explicit precision classes; generalized events are not presented as exact locations."
   },
   "audit_status": {
-    "audited_records": 250,
+    "audited_records": 252,
     "ids_unique": true,
     "sources_complete": true,
     "translations_complete": true,
@@ -16063,7 +16079,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": false,
-    "updated_at": "2026-09-24T03:25:00Z"
+    "updated_at": "2026-09-24T03:50:00Z"
   },
   "quantity_layer": {
     "status": "COMPLETE_FOR_DASHBOARD",
@@ -16079,20 +16095,20 @@
     "updated_at": "2026-09-23T23:09:57Z"
   },
   "dashboard_validation_snapshot": {
-    "cases_total": 250,
-    "cases_in_totals": 247,
+    "cases_total": 252,
+    "cases_in_totals": 248,
     "fauna_event_counts": {
       "Mamíferos": 92,
       "Aves": 72,
-      "Répteis": 79,
-      "Peixes": 34,
+      "Répteis": 80,
+      "Peixes": 35,
       "Anfíbios": 6,
       "Insetos": 3
     },
     "modal_event_counts": {
       "Terrestre": 116,
       "Não informado": 52,
-      "Marítimo": 20,
+      "Marítimo": 21,
       "Aéreo": 55,
       "Fluvial": 1,
       "Postal": 3
@@ -16115,14 +16131,14 @@
     },
     "total_countable_animals_items": 45723,
     "quantity_unassigned": 7429,
-    "generated_at": "2026-09-24T03:25:00Z"
+    "generated_at": "2026-09-24T03:50:00Z"
   },
   "image_progress": {
-    "records_total": 250,
+    "records_total": 252,
     "direct_image_urls_validated": 98,
-    "unresolved": 152,
+    "unresolved": 154,
     "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
-    "updated_at": "2026-09-24T03:25:00Z"
+    "updated_at": "2026-09-24T03:50:00Z"
   },
   "ingestion_history": [
     {
@@ -16144,5 +16160,5 @@
       "added_at": "2026-09-24T03:40:00Z"
     }
   ],
-  "updated_at": "2026-09-24T03:40:00Z"
+  "updated_at": "2026-09-24T03:50:00Z"
 }
