@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T02:22:00Z",
+  "updated_at": "2026-09-24T03:45:00Z",
   "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -2990,6 +2990,80 @@
       "evidence_es": "La fuente informa que el pasajero fue interceptado antes de embarcar desde Suvarnabhumi hacia el Aeropuerto Internacional Netaji Subhas Chandra Bose, en Kolkata.",
       "source_label": "Nation Thailand",
       "source_url": "https://www.nationthailand.com/news/general/40066669"
+    },
+    {
+      "id": "sydney-hongkong-163-reptiles-aggregate-2025-12_2026-03",
+      "event_match": {
+        "location_contains": "Sydney",
+        "publication_date": "2026-09-04"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Sydney → Hong Kong",
+      "label_en": "Sydney → Hong Kong",
+      "label_es": "Sídney → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Sydney",
+            "country": "Austrália",
+            "lat": -33.8688,
+            "lon": 151.2093,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Hong Kong — destino de carga",
+            "country": "Hong Kong",
+            "lat": 22.3193,
+            "lon": 114.1694,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A National EPA informa que 38 encomendas contendo 163 répteis nativos foram interceptadas quando estavam destinadas de Sydney a Hong Kong entre dezembro de 2025 e março de 2026.",
+      "evidence_en": "The National EPA states that 38 parcels containing 163 native reptiles were intercepted while bound from Sydney to Hong Kong between December 2025 and March 2026.",
+      "evidence_es": "La National EPA informa que 38 envíos con 163 reptiles nativos fueron interceptados cuando estaban destinados de Sídney a Hong Kong entre diciembre de 2025 y marzo de 2026.",
+      "source_label": "Australian National Environmental Protection Agency",
+      "source_url": "https://www.nationalepa.gov.au/about/news/man-charged-over-alleged-attempt-traffic-163-native-reptiles-out-australia"
+    },
+    {
+      "id": "lau-suva-prohibited-wildlife-2026-08",
+      "event_match": {
+        "location_contains": "Suva",
+        "publication_date": "2026-08-24"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "attributed_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Lau → Suva",
+      "label_en": "Lau → Suva",
+      "label_es": "Lau → Suva",
+      "segments": [
+        {
+          "from": {
+            "name": "Lau — ilha específica não informada",
+            "country": "Fiji",
+            "lat": -18.2,
+            "lon": -178.5,
+            "precision": "archipelago_centroid_generalized"
+          },
+          "to": {
+            "name": "Porto de Suva",
+            "country": "Fiji",
+            "lat": -18.1416,
+            "lon": 178.4419,
+            "precision": "port_city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A ministra da Pesca informou que as espécies apreendidas no barco que chegou a Suva eram consideradas provenientes de Lau. A origem exata dentro do arquipélago não foi estabelecida.",
+      "evidence_en": "The Fisheries Minister stated that the seized species found on the boat arriving in Suva were believed to have been brought from Lau. The exact origin within the archipelago was not established.",
+      "evidence_es": "La ministra de Pesca indicó que se creía que las especies decomisadas en el barco que llegó a Suva habían sido traídas desde Lau. No se estableció el origen exacto dentro del archipiélago.",
+      "source_label": "Fiji Sun / Fiji Ministry of Fisheries",
+      "source_url": "https://fijisun.com.fj/news/nation/banned-kawakawa-donu-turtle-seized-at-suva-port"
     }
   ],
   "network_context": [
