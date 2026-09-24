@@ -5,6 +5,7 @@ The resolver is deliberately conservative:
 - preserves any existing validated image_url;
 - uses source-hosted metadata first (og:image, twitter:image, JSON-LD);
 - uses an existing image_source_url when it resolves to an actual image;
+- follows image_source_page (or an HTML-valued image_source_url) and extracts its article image metadata;
 - only accepts HTTP(S) responses whose Content-Type is image/*;
 - rejects obvious logos/icons/avatars/ads;
 - never invents an image when no reliable candidate is found.
@@ -143,22 +144,15 @@ def jsonld_images(soup: BeautifulSoup, base: str, cands: list[dict]) -> None:
                 stack.extend(obj)
 
 
-def extract_candidates(session: requests.Session, source_url: str, image_source_url: str | None) -> tuple[list[dict], str | None]:
-    cands: list[dict] = []
-    if image_source_url:
-        u = norm_url(image_source_url)
-        if u:
-            add_candidate(cands, u, source_url, "existing_source_media")
-            if u.endswith("/view"):
-                add_candidate(cands, u[:-5], source_url, "existing_source_media")
-
+def extract_page_candidates(session: requests.Session, page_url: str, cands: list[dict]) -> str | None:
+    """Extract image candidates from one HTML page into cands."""
     try:
-        resp = session.get(source_url, timeout=TIMEOUT, allow_redirects=True)
+        resp = session.get(page_url, timeout=TIMEOUT, allow_redirects=True)
         if resp.status_code >= 400:
-            return cands, f"source_http_{resp.status_code}"
+            return f"source_http_{resp.status_code}"
         ctype = (resp.headers.get("content-type") or "").lower()
         if "text/html" not in ctype and "<html" not in resp.text[:500].lower():
-            return cands, f"source_not_html:{ctype or 'unknown'}"
+            return f"source_not_html:{ctype or 'unknown'}"
         base = resp.url
         soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -205,9 +199,48 @@ def extract_candidates(session: requests.Session, source_url: str, image_source_
         if not cands:
             for img in soup.find_all("img"):
                 add_candidate(cands, img.get("src") or img.get("data-src"), base, "page_img", img.get("alt") or "")
-        return cands, None
+        return None
     except requests.RequestException as exc:
-        return cands, f"source_request_error:{exc.__class__.__name__}"
+        return f"source_request_error:{exc.__class__.__name__}"
+
+
+def extract_candidates(
+    session: requests.Session,
+    source_url: str,
+    image_source_url: str | None,
+    image_source_page: str | None = None,
+) -> tuple[list[dict], str | None]:
+    cands: list[dict] = []
+
+    # image_source_url may be either a direct media URL (legacy records) or,
+    # in some manually curated records, an HTML page. Keep supporting both.
+    if image_source_url:
+        u = norm_url(image_source_url)
+        if u:
+            add_candidate(cands, u, source_url, "existing_source_media")
+            if u.endswith("/view"):
+                add_candidate(cands, u[:-5], source_url, "existing_source_media")
+
+    page_urls: list[str] = []
+    for value in (source_url, image_source_page):
+        u = norm_url(value)
+        if u and u not in page_urls:
+            page_urls.append(u)
+
+    # If image_source_url looks like an HTML page rather than media, crawl it
+    # as a fallback source page too.
+    isu = norm_url(image_source_url)
+    if isu and not re.search(r"\.(?:jpe?g|png|webp|gif|avif)(?:$|[?#])", isu, re.I):
+        if isu not in page_urls:
+            page_urls.append(isu)
+
+    notes: list[str] = []
+    for page_url in page_urls:
+        note = extract_page_candidates(session, page_url, cands)
+        if note:
+            notes.append(f"{page_url}:{note}")
+
+    return cands, "; ".join(notes) if notes else None
 
 
 def resolve_case(session: requests.Session, case: dict) -> dict:
@@ -237,7 +270,7 @@ def resolve_case(session: requests.Session, case: dict) -> dict:
         result["note"] = "no_source_url"
         return result
 
-    cands, source_note = extract_candidates(session, source, case.get("image_source_url"))
+    cands, source_note = extract_candidates(\n        session,\n        source,\n        case.get("image_source_url"),\n        case.get("image_source_page"),\n    )
     dedup = {}
     for c in cands:
         old = dedup.get(c["url"])
