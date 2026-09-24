@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T13:25:00Z",
+  "updated_at": "2026-09-24T13:30:00Z",
   "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -3064,43 +3064,6 @@
       "evidence_es": "La ministra de Pesca indicó que se creía que las especies decomisadas en el barco que llegó a Suva habían sido traídas desde Lau. No se estableció el origen exacto dentro del archipiélago.",
       "source_label": "Fiji Sun / Fiji Ministry of Fisheries",
       "source_url": "https://fijisun.com.fj/news/nation/banned-kawakawa-donu-turtle-seized-at-suva-port"
-    },
-    {
-      "id": "kenya-ezeiza-marine-fauna-2026-04",
-      "event_match": {
-        "location_contains": "Ezeiza",
-        "publication_date": "2026-04-28"
-      },
-      "status": "DOCUMENTED",
-      "route_type": "cargo_air_route",
-      "direction": "forward",
-      "line_style": "solid",
-      "label_pt": "Quênia → Ezeiza",
-      "label_en": "Kenya → Ezeiza",
-      "label_es": "Kenia → Ezeiza",
-      "segments": [
-        {
-          "from": {
-            "name": "Quênia — origem logística não especificada",
-            "country": "Quênia",
-            "lat": -0.0236,
-            "lon": 37.9062,
-            "precision": "country_centroid_generalized"
-          },
-          "to": {
-            "name": "Aeroporto Internacional de Ezeiza",
-            "country": "Argentina",
-            "lat": -34.822,
-            "lon": -58.536,
-            "precision": "airport"
-          }
-        }
-      ],
-      "evidence_pt": "A Subsecretaria de Ambiente informou que a remessa com 721 exemplares procedia do Quênia e chegou por transporte aéreo.",
-      "evidence_en": "Argentina's environment authority reported that the shipment containing 721 specimens came from Kenya by air.",
-      "evidence_es": "La autoridad ambiental argentina informó que el envío con 721 ejemplares procedía de Kenia por transporte aéreo.",
-      "source_label": "Subsecretaría de Ambiente de la Nación",
-      "source_url": "https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-rescato-mas-de-700-ejemplares-de-especies-exoticas"
     }
   ],
   "network_context": [
