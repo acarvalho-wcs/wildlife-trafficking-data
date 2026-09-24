@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-22T00:00:00-04:00",
-  "audited_through": "2026-09-21",
+  "updated_at": "2026-09-24T01:30:00Z",
+  "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -1101,6 +1101,387 @@
       "evidence_es": "Las aves estaban con un pasajero de un taxi paraguayo en la aduana brasileña; el transportista declaró que entregaría la caja en Vila Portes y recibiría R$ 200. No se informó el municipio de origen en Paraguay.",
       "source_label": "Receita Federal do Brasil",
       "source_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade"
+    },
+    {
+      "id": "kalabo-lusaka-pangolin-2026-02-01",
+      "event_match": {
+        "location_contains": "Novare Mall",
+        "event_date": "2026-02-01"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_origin_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Kalabo → Lusaka (origem registrada em prova judicial)",
+      "label_en": "Kalabo → Lusaka (origin recorded in court evidence)",
+      "label_es": "Kalabo → Lusaka (origen registrado en prueba judicial)",
+      "segments": [
+        {
+          "from": {
+            "name": "Kalabo",
+            "country": "Zâmbia",
+            "lat": -14.99,
+            "lon": 22.68,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Lusaka",
+            "country": "Zâmbia",
+            "lat": -15.3875,
+            "lon": 28.3228,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A NPA da Zâmbia informa que o pangolim apreendido em Lusaka havia sido obtido em Kalabo.",
+      "evidence_en": "Zambia's NPA states that the pangolin seized in Lusaka had been sourced from Kalabo.",
+      "evidence_es": "La NPA de Zambia informa que el pangolín decomisado en Lusaka había sido obtenido en Kalabo.",
+      "source_label": "National Prosecution Authority Zambia",
+      "source_url": "https://www.npa.gov.zm/index.php/news-2/2/"
+    },
+    {
+      "id": "grand-bassam-abidjan-ivory-2026-03-03",
+      "event_match": {
+        "location_contains": "Yopougon",
+        "event_date": "2026-03-03"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_transport_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Grand-Bassam → Abidjan",
+      "label_en": "Grand-Bassam → Abidjan",
+      "label_es": "Grand-Bassam → Abiyán",
+      "segments": [
+        {
+          "from": {
+            "name": "Grand-Bassam",
+            "country": "Costa do Marfim",
+            "lat": 5.2,
+            "lon": -3.74,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Yopougon, Abidjan",
+            "country": "Costa do Marfim",
+            "lat": 5.36,
+            "lon": -4.01,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o suspeito transportou as duas presas de Grand-Bassam para Abidjan para comercialização.",
+      "evidence_en": "The source reports that the suspect transported the two tusks from Grand-Bassam to Abidjan for sale.",
+      "evidence_es": "La fuente informa que el sospechoso transportó los dos colmillos desde Grand-Bassam hasta Abiyán para venderlos.",
+      "source_label": "Ivoire.ci",
+      "source_url": "https://www.ivoire.ci/cote-divoire-arrestation-dun-presume-trafiquant-divoire-delephant-a-yopougon"
+    },
+    {
+      "id": "kampala-karuma-pangolin-scales-2026-03-22",
+      "event_match": {
+        "location_contains": "Karuma",
+        "event_date": "2026-03-22"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_travel_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Kampala → Karuma (deslocamento declarado)",
+      "label_en": "Kampala → Karuma (reported travel)",
+      "label_es": "Kampala → Karuma (desplazamiento declarado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Kampala",
+            "country": "Uganda",
+            "lat": 0.3476,
+            "lon": 32.5825,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Karuma",
+            "country": "Uganda",
+            "lat": 2.24,
+            "lon": 32.25,
+            "precision": "locality_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo a UWA, o suspeito declarou ter viajado de Kampala e buscava um comprador em Karuma.",
+      "evidence_en": "According to UWA, the suspect said he had travelled from Kampala and was seeking a buyer in Karuma.",
+      "evidence_es": "Según UWA, el sospechoso declaró haber viajado desde Kampala y buscaba un comprador en Karuma.",
+      "source_label": "Uganda Wildlife Authority",
+      "source_url": "https://ugandawildlife.org/news/uwa-arrests-man-with-15kgs-of-pangolin-scales-in-kiryandongo/"
+    },
+    {
+      "id": "seme-benin-ghana-patas-2026-06-23",
+      "event_match": {
+        "location_contains": "Seme",
+        "event_date": "2026-06-23"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_cross_border_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Nigéria → Benim → Gana (rota pretendida)",
+      "label_en": "Nigeria → Benin → Ghana (intended route)",
+      "label_es": "Nigeria → Benín → Ghana (ruta prevista)",
+      "segments": [
+        {
+          "from": {
+            "name": "Fronteira de Seme, lado nigeriano",
+            "country": "Nigéria",
+            "lat": 6.37,
+            "lon": 2.72,
+            "precision": "border_checkpoint"
+          },
+          "to": {
+            "name": "Benim — trânsito não especificado",
+            "country": "Benim",
+            "lat": 9.31,
+            "lon": 2.32,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Benim — trânsito não especificado",
+            "country": "Benim",
+            "lat": 9.31,
+            "lon": 2.32,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Gana — destino não especificado",
+            "country": "Gana",
+            "lat": 7.95,
+            "lon": -1.02,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Investigações preliminares citadas pela fonte indicaram intenção de traficar o macaco da Nigéria para Gana via Benim.",
+      "evidence_en": "Preliminary inquiries cited by the source indicated an intention to traffic the monkey from Nigeria to Ghana via Benin.",
+      "evidence_es": "Investigaciones preliminares citadas por la fuente indicaron intención de traficar el mono desde Nigeria a Ghana vía Benín.",
+      "source_label": "Focused Conservation / Nigeria Customs Service",
+      "source_url": "https://focusedconservation.org/2026/06/23/nigeria-customs-service-intercepts-live-patas-monkey-at-international-border/"
+    },
+    {
+      "id": "liberia-guinea-pangolin-scales-2026-07-20",
+      "event_match": {
+        "location_contains": "Guiné",
+        "event_date": "2026-07-20"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_origin_country",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Libéria → Guiné (origem das escamas atribuída pela fonte)",
+      "label_en": "Liberia → Guinea (scale origin attributed by source)",
+      "label_es": "Liberia → Guinea (origen de las escamas atribuido por la fuente)",
+      "segments": [
+        {
+          "from": {
+            "name": "Libéria — origem não especificada",
+            "country": "Libéria",
+            "lat": 6.43,
+            "lon": -9.43,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Guiné — local da apreensão não especificado",
+            "country": "Guiné",
+            "lat": 10.44,
+            "lon": -10.94,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A EAGLE afirma que as 372 kg de escamas apreendidas na Guiné haviam sido traficadas da Libéria.",
+      "evidence_en": "EAGLE states that the 372 kg of scales seized in Guinea had been trafficked from Liberia.",
+      "evidence_es": "EAGLE afirma que los 372 kg de escamas decomisados en Guinea habían sido traficados desde Liberia.",
+      "source_label": "EAGLE Network",
+      "source_url": "https://www.eagle-enforcement.org/news/3-major-ape-traffickers-arrested-with-372-kg-of-pangolin-scales-A867/"
+    },
+    {
+      "id": "mbombela-ogies-johannesburg-rhino-2026-07-22",
+      "event_match": {
+        "location_contains": "N12 entre Ogies",
+        "event_date": "2026-07-22"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_vehicle_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Mbombela → N12/Ogies → Joanesburgo (rota declarada)",
+      "label_en": "Mbombela → N12/Ogies → Johannesburg (reported route)",
+      "label_es": "Mbombela → N12/Ogies → Johannesburgo (ruta declarada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Mbombela",
+            "country": "África do Sul",
+            "lat": -25.47,
+            "lon": 30.98,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "N12 entre Ogies e Kendal",
+            "country": "África do Sul",
+            "lat": -26.05,
+            "lon": 29.06,
+            "precision": "road_corridor_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "N12 entre Ogies e Kendal",
+            "country": "África do Sul",
+            "lat": -26.05,
+            "lon": 29.06,
+            "precision": "road_corridor_generalized"
+          },
+          "to": {
+            "name": "Joanesburgo",
+            "country": "África do Sul",
+            "lat": -26.2041,
+            "lon": 28.0473,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Os ocupantes disseram à polícia que viajavam de Mbombela para Joanesburgo; a apreensão ocorreu na N12.",
+      "evidence_en": "The occupants told police they were travelling from Mbombela to Johannesburg; the seizure occurred on the N12.",
+      "evidence_es": "Los ocupantes dijeron a la policía que viajaban de Mbombela a Johannesburgo; el decomiso ocurrió en la N12.",
+      "source_label": "Middelburg Observer / SAPS",
+      "source_url": "https://www.citizen.co.za/middelburg-observer/news/2026/07/23/middelburg-flying-squad-corners-alleged-rhino-horn-smugglers/"
+    },
+    {
+      "id": "kano-abuja-congo-lion-cubs-2026-08-04",
+      "event_match": {
+        "location_contains": "Nnamdi Azikiwe",
+        "event_date": "2026-08-04"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_cross_border_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Kano → Abuja → República do Congo (destino pretendido)",
+      "label_en": "Kano → Abuja → Republic of the Congo (intended destination)",
+      "label_es": "Kano → Abuja → República del Congo (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Kano",
+            "country": "Nigéria",
+            "lat": 12,
+            "lon": 8.52,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional Nnamdi Azikiwe, Abuja",
+            "country": "Nigéria",
+            "lat": 9.006,
+            "lon": 7.263,
+            "precision": "airport"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto Internacional Nnamdi Azikiwe, Abuja",
+            "country": "Nigéria",
+            "lat": 9.006,
+            "lon": 7.263,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "República do Congo — destino não especificado",
+            "country": "República do Congo",
+            "lat": -0.23,
+            "lon": 15.83,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A investigação citada pela fonte indicou que os filhotes estavam sendo movidos de Kano via Abuja com destino pretendido ao Congo-Brazzaville.",
+      "evidence_en": "The investigation cited by the source indicated that the cubs were being moved from Kano via Abuja with an intended destination in Congo-Brazzaville.",
+      "evidence_es": "La investigación citada por la fuente indicó que los cachorros eran trasladados desde Kano vía Abuja con destino previsto en Congo-Brazzaville.",
+      "source_label": "BusinessDay Nigeria / Nigeria Customs Service",
+      "source_url": "https://businessday.ng/news/article/customs-busts-wildlife-trafficking-ring-rescues-two-lion-cubs-at-abuja-airport/"
+    },
+    {
+      "id": "botswana-groblersbrug-pangolin-2026-08-26",
+      "event_match": {
+        "location_contains": "Groblersbrug",
+        "event_date": "2026-08-26"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "observed_border_crossing",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Botswana → Groblersbrug, África do Sul",
+      "label_en": "Botswana → Groblersbrug, South Africa",
+      "label_es": "Botsuana → Groblersbrug, Sudáfrica",
+      "segments": [
+        {
+          "from": {
+            "name": "Botswana — origem interna não especificada",
+            "country": "Botswana",
+            "lat": -22.33,
+            "lon": 24.68,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Groblersbrug / Rio Limpopo",
+            "country": "África do Sul",
+            "lat": -23.01,
+            "lon": 28.95,
+            "precision": "border_port"
+          }
+        }
+      ],
+      "evidence_pt": "Militares observaram o suspeito atravessando o Rio Limpopo do Botswana para a África do Sul; um pangolim vivo foi encontrado em sua bolsa.",
+      "evidence_en": "Military personnel observed the suspect crossing the Limpopo River from Botswana into South Africa; a live pangolin was found in his bag.",
+      "evidence_es": "Militares observaron al sospechoso cruzando el río Limpopo desde Botsuana hacia Sudáfrica; se encontró un pangolín vivo en su bolsa.",
+      "source_label": "SAPS / Arrive Alive",
+      "source_url": "https://www.arrivealive.mobi/news.aspx?i=78444&page=Botswana-citizen-was-remanded-in-police-custody-following-his-arrest-for-possession-of-a-Specially-Protected-Wild-Animal&s=1"
+    },
+    {
+      "id": "cairo-india-chimps-reptiles-2026-05-02",
+      "event_match": {
+        "location_contains": "Cairo",
+        "event_date": "2026-05-02"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Cairo → Índia (destino de viagem)",
+      "label_en": "Cairo → India (travel destination)",
+      "label_es": "El Cairo → India (destino de viaje)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional do Cairo",
+            "country": "Egito",
+            "lat": 30.112,
+            "lon": 31.4,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Índia — destino não especificado",
+            "country": "Índia",
+            "lat": 20.59,
+            "lon": 78.96,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial informa que o passageiro interceptado no Cairo viajava para a Índia.",
+      "evidence_en": "The official source states that the passenger intercepted in Cairo was travelling to India.",
+      "evidence_es": "La fuente oficial informa que el pasajero interceptado en El Cairo viajaba a India.",
+      "source_label": "Egypt Today / Ministry of Agriculture",
+      "source_url": "https://www.egypttoday.com/Article/1/146851/Cairo-airport-foils-attempt-to-smuggle-infant-chimpanzees-rare-reptiles"
     }
   ],
   "network_context": [
