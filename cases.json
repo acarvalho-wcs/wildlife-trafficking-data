@@ -4252,11 +4252,18 @@
       },
       "quantity_unassigned": 0,
       "quantity_note_pt": "Cerca de 300 ovos; valor aproximado.",
-      "image_url": "https://radiosplendid.bo/wp-content/uploads/801965987_122116384773371432_9166212503200152049_n-e1789166311983-768x455.jpg",
-      "image_source_url": "https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/",
-      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
-      "image_resolution_method": "existing_direct",
-      "image_checked_at": "2026-09-23T15:18:07Z"
+      "image_url": "https://erbol.com.bo/sites/default/files/huevos_de_peta.jpg",
+      "image_source_url": "https://bolivianthoughts.com/2026/09/12/decomisan-huevos-de-peta/",
+      "image_status": "DIRECT_IMAGE_URL_VALIDATED",
+      "image_resolution_method": "related_same_event_fallback",
+      "image_checked_at": "2026-09-24T06:03:00Z",
+      "image_source_page": "https://bolivianthoughts.com/2026/09/12/decomisan-huevos-de-peta/",
+      "image_origin": "RELATED_SOURCE_SAME_EVENT",
+      "image_source_label": "ERBOL / Gobierno Autónomo Municipal de Riberalta (via Bolivian Thoughts)",
+      "image_match_confidence": "HIGH",
+      "image_note_pt": "Imagem vinculada ao mesmo evento de Riberalta; a página relacionada identifica os ovos de peta e credita a foto ao Governo Autônomo Municipal de Riberalta. O URL direto da imagem foi validado.",
+      "image_note_en": "Image tied to the same Riberalta event; the related page identifies the river-turtle eggs and credits the photo to the Autonomous Municipal Government of Riberalta. The direct image URL was validated.",
+      "image_note_es": "Imagen vinculada al mismo evento de Riberalta; la página relacionada identifica los huevos de peta y acredita la foto al Gobierno Autónomo Municipal de Riberalta. Se validó la URL directa de la imagen."
     },
     {
       "id": "2026-09-17__angaco-whatsapp-wildlife",
@@ -8715,9 +8722,18 @@
       "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact seizure point.",
       "geographic_note_es": "Coordenadas generalizadas para la localidad informada; no representan necesariamente el punto exacto del decomiso.",
       "route_audited_at": "2026-09-24T01:30:00Z",
-      "image_source_url": "https://www.environnement.mg/actualites/%F0%9D%90%92%F0%9D%90%9A%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%9F%90%F0%9D%9F%96%F0%9D%9F%8E-%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%AE/",
-      "image_checked_at": "2026-09-24T01:30:00Z",
-      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+      "image_source_url": "https://www.moov.mg/actualite/vaovao/113087-nosy-be-olona-dimy-voasambotra-niaraka-taminny-sokatra-280-nokasaina-haondrana-an-tsokosoko",
+      "image_checked_at": "2026-09-24T06:03:00Z",
+      "image_status": "DIRECT_IMAGE_URL_VALIDATED",
+      "image_url": "https://cms.moov.mg/uploads/MEDD_ff30628f6e.jpg",
+      "image_source_page": "https://www.moov.mg/actualite/vaovao/113087-nosy-be-olona-dimy-voasambotra-niaraka-taminny-sokatra-280-nokasaina-haondrana-an-tsokosoko",
+      "image_origin": "RELATED_SOURCE_SAME_EVENT",
+      "image_source_label": "Moov Madagascar / MEDD",
+      "image_match_confidence": "HIGH",
+      "image_resolution_method": "related_same_event_fallback",
+      "image_note_pt": "Imagem de fonte relacionada sobre o mesmo evento de Nosy Be; a reportagem descreve as 280 tartarugas apreendidas em Dzamandzar e credita a imagem ao MEDD. O URL direto foi validado.",
+      "image_note_en": "Image from a related source covering the same Nosy Be event; the report describes the 280 tortoises seized in Dzamandzar and credits the image to MEDD. The direct URL was validated.",
+      "image_note_es": "Imagen de una fuente relacionada sobre el mismo evento de Nosy Be; la nota describe las 280 tortugas decomisadas en Dzamandzar y acredita la imagen al MEDD. Se validó la URL directa."
     },
     {
       "id": "2026-03-09__lilayi-lusaka-ivory-471kg",
@@ -10177,8 +10193,17 @@
       "geographic_note_es": "Coordenadas generalizadas para la localidad informada; no representan necesariamente el punto exacto del decomiso.",
       "route_audited_at": "2026-09-24T01:30:00Z",
       "image_source_url": "https://www.eagle-enforcement.org/news/3-major-ape-traffickers-arrested-with-372-kg-of-pangolin-scales-A867/",
-      "image_checked_at": "2026-09-24T01:30:00Z",
-      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+      "image_checked_at": "2026-09-24T06:03:00Z",
+      "image_status": "NO_EVENT_IMAGE_VALIDATED",
+      "image_url": null,
+      "image_source_page": "https://www.eagle-enforcement.org/news/3-major-ape-traffickers-arrested-with-372-kg-of-pangolin-scales-A867/",
+      "image_origin": "PRIMARY_SOURCE_NO_VALID_EVENT_IMAGE",
+      "image_source_label": "EAGLE Network",
+      "image_match_confidence": "NONE",
+      "image_resolution_method": "primary_then_related_source_validation",
+      "image_note_pt": "Nenhuma imagem do evento foi validada com segurança. A página principal expôs apenas imagem institucional/genérica no rastreamento, e os resultados relacionados não forneceram um URL direto verificável da ocorrência. Imagens genéricas de escamas de pangolim foram rejeitadas.",
+      "image_note_en": "No event image was validated with sufficient confidence. The primary page exposed only an institutional/generic image in the crawl, and related results did not provide a verifiable direct URL for this incident. Generic pangolin-scale images were rejected.",
+      "image_note_es": "No se validó ninguna imagen del evento con suficiente confianza. La página principal solo expuso una imagen institucional/genérica en el rastreo y los resultados relacionados no proporcionaron una URL directa verificable de este incidente. Se rechazaron imágenes genéricas de escamas de pangolín."
     },
     {
       "id": "2026-07-22__n12-ogies-rhino-horns",
@@ -16160,5 +16185,5 @@
       "added_at": "2026-09-24T03:40:00Z"
     }
   ],
-  "updated_at": "2026-09-24T03:50:00Z"
+  "updated_at": "2026-09-24T06:03:00Z"
 }
