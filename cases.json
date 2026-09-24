@@ -9,8 +9,8 @@
     "projection_revision": 84
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
-  "warning": "All 226 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. Aggregate records flagged exclude_from_totals remain excluded. Americas 2026 multilingual batch added 2026-09-24 after deduplication; unknown dates, weight-only quantities and mixed USFWS listings remain conservative rather than inferred.",
-  "count": 226,
+  "warning": "All 250 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. Aggregate records flagged exclude_from_totals remain excluded. Americas and Asia 2026 multilingual batches were added after deduplication; unknown dates, weight-only quantities and mixed listings remain conservative rather than inferred.",
+  "count": 250,
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -15814,6 +15814,12 @@
       "search_window_start": "2026-09-22T23:00:26Z",
       "search_window_end": "2026-09-23T23:00:26Z",
       "added_at": "2026-09-23T23:09:57Z"
+    },
+    {
+      "batch": "asia_2026_multilingual_2026-09-24",
+      "count": 24,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS"
     }
   ],
   "field_parity_progress": {
@@ -15889,18 +15895,28 @@
       "case_context_complete": 28,
       "text_parity_complete": 28,
       "updated_at": "2026-09-24T02:45:00Z"
+    },
+    "asia_2026_multilingual_2026_09_24": {
+      "records": 24,
+      "title_en_es_complete": 24,
+      "card_en_es_complete": 24,
+      "source_urls_reconciled": 24,
+      "geodata_pending": 0,
+      "case_context_complete": 24,
+      "text_parity_complete": 24,
+      "updated_at": "2026-09-24T03:25:00Z"
     }
   },
   "geodata_progress": {
-    "records_total": 226,
-    "coordinates_complete": 226,
+    "records_total": 250,
+    "coordinates_complete": 250,
     "coordinates_pending": 0,
-    "precision_classified": 226,
-    "updated_at": "2026-09-24T02:45:00Z",
+    "precision_classified": 250,
+    "updated_at": "2026-09-24T03:25:00Z",
     "note": "Coordinates are representative points with explicit precision classes; generalized events are not presented as exact locations."
   },
   "audit_status": {
-    "audited_records": 226,
+    "audited_records": 250,
     "ids_unique": true,
     "sources_complete": true,
     "translations_complete": true,
@@ -15909,7 +15925,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": false,
-    "updated_at": "2026-09-24T02:58:00Z"
+    "updated_at": "2026-09-24T03:25:00Z"
   },
   "quantity_layer": {
     "status": "COMPLETE_FOR_DASHBOARD",
@@ -15925,50 +15941,50 @@
     "updated_at": "2026-09-23T23:09:57Z"
   },
   "dashboard_validation_snapshot": {
-    "cases_total": 226,
-    "cases_in_totals": 223,
+    "cases_total": 250,
+    "cases_in_totals": 247,
     "fauna_event_counts": {
-      "Mamíferos": 86,
-      "Aves": 67,
-      "Répteis": 60,
-      "Peixes": 33,
-      "Anfíbios": 5,
+      "Mamíferos": 92,
+      "Aves": 72,
+      "Répteis": 79,
+      "Peixes": 34,
+      "Anfíbios": 6,
       "Insetos": 3
     },
     "modal_event_counts": {
-      "Terrestre": 107,
+      "Terrestre": 116,
       "Não informado": 52,
-      "Marítimo": 18,
-      "Aéreo": 42,
+      "Marítimo": 20,
+      "Aéreo": 55,
       "Fluvial": 1,
       "Postal": 3
     },
     "fauna_quantities": {
-      "Mamíferos": 1265,
-      "Aves": 6945,
-      "Répteis": 2943,
-      "Peixes": 22104,
-      "Anfíbios": 42,
+      "Mamíferos": 1323,
+      "Aves": 7361,
+      "Répteis": 5747,
+      "Peixes": 22991,
+      "Anfíbios": 92,
       "Insetos": 780
     },
     "modal_quantities": {
-      "Terrestre": 10735,
+      "Terrestre": 13378,
       "Não informado": 1849,
-      "Marítimo": 1916,
-      "Aéreo": 26307,
+      "Marítimo": 3107,
+      "Aéreo": 27028,
       "Fluvial": 4,
       "Postal": 357
     },
-    "total_countable_animals_items": 41168,
-    "quantity_unassigned": 7089,
-    "generated_at": "2026-09-24T02:58:00Z"
+    "total_countable_animals_items": 45723,
+    "quantity_unassigned": 7429,
+    "generated_at": "2026-09-24T03:25:00Z"
   },
   "image_progress": {
-    "records_total": 226,
-    "direct_image_urls_validated": 84,
-    "unresolved": 142,
+    "records_total": 250,
+    "direct_image_urls_validated": 98,
+    "unresolved": 152,
     "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
-    "updated_at": "2026-09-24T02:45:00Z"
+    "updated_at": "2026-09-24T03:25:00Z"
   },
   "ingestion_history": [
     {
@@ -15984,5 +16000,5 @@
       "added_at": "2026-09-24T02:22:00Z"
     }
   ],
-  "updated_at": "2026-09-24T02:22:00Z"
+  "updated_at": "2026-09-24T03:25:00Z"
 }
