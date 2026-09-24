@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_270_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_273_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 270 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. Invertebrate-focused 2026 records were added after multilingual deduplication; repeated forfeiture-table rows, weight-only quantities and unreported routes remain conservative rather than inferred.",
-  "count": 270,
+  "count": 273,
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -17124,6 +17124,216 @@
       "image_source_url": "https://www.fws.gov/fwsforfeiture/notices/publishedNOS/July%2002%2C%202026?post=8209",
       "image_status": "NO_EVENT_IMAGE_VALIDATED",
       "image_checked_at": "2026-09-24T14:42:00Z"
+    },
+    {
+      "id": "2025-08-01__viracopos-400-melipona-hong-kong",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "insects_followup_2025_2026_2026-09-24",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-24T15:12:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "location_label_pt": "Aeroporto Internacional de Viracopos, Campinas",
+      "location_label_en": "Viracopos International Airport, Campinas",
+      "location_label_es": "Aeropuerto Internacional de Viracopos, Campinas",
+      "country": "Brasil",
+      "title_pt": "Ibama intercepta colônia com cerca de 400 abelhas mandaçaia destinada a Hong Kong",
+      "title_en": "Ibama intercepts colony of about 400 mandaçaia bees bound for Hong Kong",
+      "title_es": "Ibama intercepta colonia de unas 400 abejas mandaçaia destinada a Hong Kong",
+      "source_label": "Ibama (republicado por Tudo Rondônia)",
+      "source_url": "https://www.tudorondonia.com/noticias/ibama-impede-tentativa-de-trafico-internacional-de-400-abelhas%2C144843.shtml",
+      "publication_date": "2025-08-02",
+      "event_date": "2025-08-01",
+      "fauna_label_pt": "cerca de 400 abelhas nativas sem ferrão *Melipona quadrifasciata anthidioides*",
+      "fauna_label_en": "about 400 native stingless bees *Melipona quadrifasciata anthidioides*",
+      "fauna_label_es": "unas 400 abejas nativas sin aguijón *Melipona quadrifasciata anthidioides*",
+      "taxon_text": "Melipona quadrifasciata anthidioides",
+      "fauna_groups_aggregated": [
+        "Insetos"
+      ],
+      "modal_primary": "Postal",
+      "modal_label_pt": "Postal",
+      "modal_label_en": "Postal",
+      "modal_label_es": "Postal",
+      "card_text_pt": "Uma colônia completa de mandaçaias foi encontrada dentro de uma caixa de madeira oculta entre brinquedos em remessa expressa declarada como “brinquedos”, postada em São Paulo e destinada a Hong Kong.",
+      "card_text_en": "A complete mandaçaia colony was found in a wooden box hidden among toys in an express shipment declared as “toys”, posted in São Paulo and bound for Hong Kong.",
+      "card_text_es": "Una colonia completa de mandaçaias fue encontrada en una caja de madera oculta entre juguetes en un envío exprés declarado como “juguetes”, enviado desde São Paulo y destinado a Hong Kong.",
+      "coordinates": {
+        "lat": -23.0074,
+        "lon": -47.1345
+      },
+      "coordinate_precision": "airport",
+      "geographic_note_pt": "Coordenadas do Aeroporto Internacional de Viracopos, ponto de interceptação da remessa.",
+      "geographic_note_en": "Coordinates of Viracopos International Airport, where the shipment was intercepted.",
+      "geographic_note_es": "Coordenadas del Aeropuerto Internacional de Viracopos, punto donde se interceptó el envío.",
+      "context_pt": "Fatos documentados: em 1º de agosto de 2025, Ibama e Receita Federal interceptaram em Viracopos uma remessa expressa contendo uma colônia completa de *Melipona quadrifasciata anthidioides*, estimada em cerca de 400 abelhas. A carga havia sido postada na cidade de São Paulo, declarada como brinquedos e tinha Hong Kong como destino. Contexto analítico: o caso documenta ocultação física e declaração falsa em remessa internacional de polinizadores nativos vivos. Limites da evidência: Hong Kong era o destino pretendido; a apreensão ocorreu antes da saída do Brasil e não há evidência de que a rota tenha sido completada.",
+      "context_en": "Documented facts: on 1 August 2025, Ibama and Brazil's Federal Revenue Service intercepted at Viracopos an express shipment containing a complete colony of *Melipona quadrifasciata anthidioides*, estimated at about 400 bees. The parcel had been posted in São Paulo city, declared as toys and was bound for Hong Kong. Analytical context: the case documents physical concealment and false declaration in an international shipment of live native pollinators. Evidence limits: Hong Kong was the intended destination; the seizure occurred before the shipment left Brazil and there is no evidence that the route was completed.",
+      "context_es": "Hechos documentados: el 1 de agosto de 2025, Ibama y la Receita Federal interceptaron en Viracopos un envío exprés con una colonia completa de *Melipona quadrifasciata anthidioides*, estimada en unas 400 abejas. El paquete había sido enviado desde la ciudad de São Paulo, declarado como juguetes y tenía Hong Kong como destino. Contexto analítico: el caso documenta ocultamiento físico y declaración falsa en un envío internacional de polinizadores nativos vivos. Límites de la evidencia: Hong Kong era el destino previsto; el decomiso ocurrió antes de que el envío saliera de Brasil y no hay evidencia de que la ruta se completara.",
+      "context_updated_at": "2026-09-24T15:12:00Z",
+      "references_text_pt": "Ibama (republicado por Tudo Rondônia) — https://www.tudorondonia.com/noticias/ibama-impede-tentativa-de-trafico-internacional-de-400-abelhas%2C144843.shtml\nITIS — taxonomia de *Melipona quadrifasciata anthidioides* — https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1130815",
+      "references_text_en": "Ibama (republished by Tudo Rondônia) — https://www.tudorondonia.com/noticias/ibama-impede-tentativa-de-trafico-internacional-de-400-abelhas%2C144843.shtml\nITIS — taxonomy of *Melipona quadrifasciata anthidioides* — https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1130815",
+      "references_text_es": "Ibama (republicado por Tudo Rondônia) — https://www.tudorondonia.com/noticias/ibama-impede-tentativa-de-trafico-internacional-de-400-abelhas%2C144843.shtml\nITIS — taxonomía de *Melipona quadrifasciata anthidioides* — https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1130815",
+      "quantity_count": 400,
+      "quantity_qualifier": "approximate",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Insetos": 400
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Cerca de 400 abelhas em uma única colônia.",
+      "quantity_note_en": "About 400 bees in a single colony.",
+      "quantity_note_es": "Unas 400 abejas en una sola colonia.",
+      "route_audited_at": "2026-09-24T15:12:00Z",
+      "image_url": null,
+      "image_source_url": "https://www.tudorondonia.com/noticias/ibama-impede-tentativa-de-trafico-internacional-de-400-abelhas%2C144843.shtml",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-24T15:12:00Z"
+    },
+    {
+      "id": "2026-03-10__jkia-2248-live-ants-china",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "insects_followup_2025_2026_2026-09-24",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-24T15:12:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "location_label_pt": "Aeroporto Internacional Jomo Kenyatta, Nairobi",
+      "location_label_en": "Jomo Kenyatta International Airport, Nairobi",
+      "location_label_es": "Aeropuerto Internacional Jomo Kenyatta, Nairobi",
+      "country": "Quênia",
+      "title_pt": "Autoridades interceptam 2.248 formigas vivas em tentativa de saída do Quênia para a China",
+      "title_en": "Authorities intercept 2,248 live ants in attempted export from Kenya to China",
+      "title_es": "Autoridades interceptan 2.248 hormigas vivas en intento de salida de Kenia hacia China",
+      "source_label": "The Star / Channels Television",
+      "source_url": "https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking",
+      "publication_date": "2026-03-21",
+      "event_date": "2026-03-10",
+      "fauna_label_pt": "2.248 formigas vivas, incluindo 1.948 *Messor cephalotes*",
+      "fauna_label_en": "2,248 live ants, including 1,948 *Messor cephalotes*",
+      "fauna_label_es": "2.248 hormigas vivas, incluidas 1.948 *Messor cephalotes*",
+      "taxon_text": "Messor cephalotes; other garden ants not identified",
+      "fauna_groups_aggregated": [
+        "Insetos"
+      ],
+      "modal_primary": "Aéreo",
+      "modal_label_pt": "Aéreo",
+      "modal_label_en": "Air",
+      "modal_label_es": "Aéreo",
+      "card_text_pt": "Uma remessa com 1.948 formigas acondicionadas em tubos especializados e outras 300 ocultas em três rolos de papel foi interceptada no JKIA; fontes judiciais e jornalísticas documentam tentativa de saída para a China.",
+      "card_text_en": "A consignment with 1,948 ants packed in specialized tubes and another 300 hidden in three tissue-paper rolls was intercepted at JKIA; court reporting documents an attempted departure for China.",
+      "card_text_es": "Un envío con 1.948 hormigas acondicionadas en tubos especializados y otras 300 ocultas en tres rollos de papel fue interceptado en JKIA; la cobertura judicial documenta un intento de salida hacia China.",
+      "coordinates": {
+        "lat": -1.3192,
+        "lon": 36.9278
+      },
+      "coordinate_precision": "airport",
+      "geographic_note_pt": "Coordenadas do Aeroporto Internacional Jomo Kenyatta, local da interceptação.",
+      "geographic_note_en": "Coordinates of Jomo Kenyatta International Airport, where the interception occurred.",
+      "geographic_note_es": "Coordenadas del Aeropuerto Internacional Jomo Kenyatta, donde ocurrió la interceptación.",
+      "context_pt": "Fatos documentados: promotores quenianos afirmaram que uma remessa foi interceptada em 10 de março; ela continha 1.948 formigas em tubos especializados e 300 em rolos de papel, totalizando 2.248 animais. Cobertura adicional identifica 1.948 como *Messor cephalotes* e informa que o passageiro tentava embarcar para a China. Contexto analítico: o caso documenta preparação especializada para manter insetos vivos durante transporte aéreo internacional. Limites da evidência: as demais 300 formigas não são identificadas de forma inequívoca ao nível de espécie nas fontes utilizadas; o destino é registrado como China, sem aeroporto ou cidade final confirmados.",
+      "context_en": "Documented facts: Kenyan prosecutors stated that a consignment was intercepted on 10 March; it contained 1,948 ants in specialized tubes and 300 in tissue-paper rolls, totaling 2,248 animals. Additional reporting identifies 1,948 as *Messor cephalotes* and states that the passenger was attempting to board for China. Analytical context: the case documents specialized preparation to keep insects alive during international air transport. Evidence limits: the remaining 300 ants are not unequivocally identified to species level in the sources used; the destination is recorded as China, without a confirmed final airport or city.",
+      "context_es": "Hechos documentados: fiscales kenianos informaron que un envío fue interceptado el 10 de marzo; contenía 1.948 hormigas en tubos especializados y 300 en rollos de papel, totalizando 2.248 animales. Cobertura adicional identifica 1.948 como *Messor cephalotes* e indica que el pasajero intentaba embarcar hacia China. Contexto analítico: el caso documenta preparación especializada para mantener insectos vivos durante transporte aéreo internacional. Límites de la evidencia: las otras 300 hormigas no están identificadas inequívocamente a nivel de especie en las fuentes utilizadas; el destino se registra como China, sin aeropuerto o ciudad final confirmados.",
+      "context_updated_at": "2026-09-24T15:12:00Z",
+      "references_text_pt": "The Star — https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking\nChannels Television — https://www.channelstv.com/2026/03/17/two-men-in-kenyan-court-for-ant-smuggling/",
+      "references_text_en": "The Star — https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking\nChannels Television — https://www.channelstv.com/2026/03/17/two-men-in-kenyan-court-for-ant-smuggling/",
+      "references_text_es": "The Star — https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking\nChannels Television — https://www.channelstv.com/2026/03/17/two-men-in-kenyan-court-for-ant-smuggling/",
+      "quantity_count": 2248,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Insetos": 2248
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "2.248 formigas: 1.948 em tubos especializados + 300 em rolos de papel.",
+      "quantity_note_en": "2,248 ants: 1,948 in specialized tubes + 300 in tissue-paper rolls.",
+      "quantity_note_es": "2.248 hormigas: 1.948 en tubos especializados + 300 en rollos de papel.",
+      "route_audited_at": "2026-09-24T15:12:00Z",
+      "image_url": null,
+      "image_source_url": "https://www.channelstv.com/2026/03/17/two-men-in-kenyan-court-for-ant-smuggling/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-24T15:12:00Z"
+    },
+    {
+      "id": "2026-03-13__gilgil-1113-live-ants",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "insects_followup_2025_2026_2026-09-24",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-24T15:12:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "location_label_pt": "Gilgil, Nakuru County",
+      "location_label_en": "Gilgil, Nakuru County",
+      "location_label_es": "Gilgil, condado de Nakuru",
+      "country": "Quênia",
+      "title_pt": "Investigação apreende 1.113 formigas vivas em Gilgil em caso ligado à interceptação do JKIA",
+      "title_en": "Investigation seizes 1,113 live ants in Gilgil in case linked to JKIA interception",
+      "title_es": "Investigación decomisa 1.113 hormigas vivas en Gilgil en caso vinculado a la interceptación de JKIA",
+      "source_label": "The Star",
+      "source_url": "https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking",
+      "publication_date": "2026-03-21",
+      "event_date": "2026-03-13",
+      "fauna_label_pt": "1.113 formigas vivas: 1.000 em recipiente + 113 em seringas modificadas",
+      "fauna_label_en": "1,113 live ants: 1,000 in a basin + 113 in modified syringes",
+      "fauna_label_es": "1.113 hormigas vivas: 1.000 en un recipiente + 113 en jeringas modificadas",
+      "taxon_text": null,
+      "fauna_groups_aggregated": [
+        "Insetos"
+      ],
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "modal_label_en": "Not reported",
+      "modal_label_es": "No informado",
+      "card_text_pt": "Em busca realizada em Gilgil, investigadores encontraram 1.000 formigas vivas em um recipiente, 113 em seringas modificadas e 503 seringas vazias; a promotoria vinculou o episódio à mesma investigação do caso de 10 de março.",
+      "card_text_en": "During a search in Gilgil, investigators found 1,000 live ants in a basin, 113 in modified syringes and 503 empty syringes; prosecutors linked the episode to the same investigation as the 10 March case.",
+      "card_text_es": "Durante un registro en Gilgil, investigadores encontraron 1.000 hormigas vivas en un recipiente, 113 en jeringas modificadas y 503 jeringas vacías; la fiscalía vinculó el episodio a la misma investigación del caso del 10 de marzo.",
+      "coordinates": {
+        "lat": -0.5,
+        "lon": 36.327
+      },
+      "coordinate_precision": "city_generalized",
+      "geographic_note_pt": "Coordenadas generalizadas para Gilgil; a fonte não informa o endereço exato da busca.",
+      "geographic_note_en": "Generalized coordinates for Gilgil; the source does not report the exact search address.",
+      "geographic_note_es": "Coordenadas generalizadas para Gilgil; la fuente no informa la dirección exacta del registro.",
+      "context_pt": "Fatos documentados: em 13 de março, investigadores encontraram em Gilgil 1.000 formigas vivas em um recipiente e outras 113 em seringas modificadas, além de 503 seringas vazias. A promotoria tratou o episódio como uma contagem separada e o vinculou à investigação que envolvia a remessa de 2.248 formigas interceptada em 10 de março. Contexto analítico: a presença de centenas de seringas vazias é consistente com preparação logística para acondicionamento de insetos vivos, mas não quantifica remessas adicionais. Limites da evidência: a fonte citada chama os animais de “garden ants” e não confirma a espécie de todos os 1.113 exemplares; não há destino específico documentado para esta apreensão, portanto nenhuma rota é desenhada.",
+      "context_en": "Documented facts: on 13 March, investigators in Gilgil found 1,000 live ants in a basin and another 113 in modified syringes, plus 503 empty syringes. Prosecutors treated the episode as a separate count and linked it to the investigation involving the 2,248-ant consignment intercepted on 10 March. Analytical context: the hundreds of empty syringes are consistent with logistical preparation for packaging live insects, but they do not quantify additional shipments. Evidence limits: the cited source calls the animals “garden ants” and does not confirm the species of all 1,113 specimens; no specific destination is documented for this seizure, so no route is drawn.",
+      "context_es": "Hechos documentados: el 13 de marzo, investigadores en Gilgil encontraron 1.000 hormigas vivas en un recipiente y otras 113 en jeringas modificadas, además de 503 jeringas vacías. La fiscalía trató el episodio como un conteo separado y lo vinculó a la investigación del envío de 2.248 hormigas interceptado el 10 de marzo. Contexto analítico: las cientos de jeringas vacías son consistentes con preparación logística para acondicionar insectos vivos, pero no cuantifican envíos adicionales. Límites de la evidencia: la fuente citada denomina a los animales “garden ants” y no confirma la especie de los 1.113 ejemplares; no hay un destino específico documentado para este decomiso, por lo que no se dibuja ruta.",
+      "context_updated_at": "2026-09-24T15:12:00Z",
+      "references_text_pt": "The Star — https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking\nThe Star (16/03/2026) — https://www.the-star.co.ke/news/2026-03-16-man-arraigned-over-alleged-international-ant-trafficking-ring",
+      "references_text_en": "The Star — https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking\nThe Star (16 Mar 2026) — https://www.the-star.co.ke/news/2026-03-16-man-arraigned-over-alleged-international-ant-trafficking-ring",
+      "references_text_es": "The Star — https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking\nThe Star (16/03/2026) — https://www.the-star.co.ke/news/2026-03-16-man-arraigned-over-alleged-international-ant-trafficking-ring",
+      "quantity_count": 1113,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Insetos": 1113
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "1.113 formigas vivas; 503 seringas vazias não são somadas como fauna.",
+      "quantity_note_en": "1,113 live ants; 503 empty syringes are not counted as wildlife.",
+      "quantity_note_es": "1.113 hormigas vivas; 503 jeringas vacías no se cuentan como fauna.",
+      "route_audited_at": "2026-09-24T15:12:00Z",
+      "image_url": null,
+      "image_source_url": "https://www.the-star.co.ke/news/2026-03-16-man-arraigned-over-alleged-international-ant-trafficking-ring",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-24T15:12:00Z"
     }
   ],
   "reconstructed_at": "2026-09-22T08:12:00Z",
@@ -17222,6 +17432,13 @@
       "legacy_site_id_range": null,
       "confidence": "CONFIRMED_SOURCE_EVENTS",
       "added_at": "2026-09-24T14:42:00Z"
+    },
+    {
+      "batch": "insects_followup_2025_2026_2026-09-24",
+      "count": 3,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T15:12:00Z"
     }
   ],
   "field_parity_progress": {
@@ -17327,18 +17544,28 @@
       "case_context_complete": 18,
       "text_parity_complete": 18,
       "updated_at": "2026-09-24T14:49:00Z"
+    },
+    "insects_followup_2025_2026_2026_09_24": {
+      "records": 3,
+      "title_en_es_complete": 3,
+      "card_en_es_complete": 3,
+      "source_urls_reconciled": 3,
+      "geodata_pending": 0,
+      "case_context_complete": 3,
+      "text_parity_complete": 3,
+      "updated_at": "2026-09-24T15:12:00Z"
     }
   },
   "geodata_progress": {
-    "records_total": 270,
-    "coordinates_complete": 270,
+    "records_total": 273,
+    "coordinates_complete": 273,
     "coordinates_pending": 0,
-    "precision_classified": 270,
-    "updated_at": "2026-09-24T14:49:00Z",
+    "precision_classified": 273,
+    "updated_at": "2026-09-24T15:12:00Z",
     "note": "Coordinates are representative points with explicit precision classes; generalized events are not presented as exact locations."
   },
   "audit_status": {
-    "audited_records": 270,
+    "audited_records": 273,
     "ids_unique": true,
     "sources_complete": true,
     "translations_complete": true,
@@ -17347,7 +17574,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": false,
-    "updated_at": "2026-09-24T14:49:00Z"
+    "updated_at": "2026-09-24T15:12:00Z"
   },
   "quantity_layer": {
     "status": "COMPLETE_FOR_DASHBOARD",
@@ -17363,23 +17590,23 @@
     "updated_at": "2026-09-24T14:49:00Z"
   },
   "dashboard_validation_snapshot": {
-    "cases_total": 270,
-    "cases_in_totals": 266,
+    "cases_total": 273,
+    "cases_in_totals": 269,
     "fauna_event_counts": {
       "Mamíferos": 92,
       "Aves": 72,
       "Répteis": 80,
       "Peixes": 37,
       "Anfíbios": 6,
-      "Insetos": 10
+      "Insetos": 13
     },
     "modal_event_counts": {
       "Terrestre": 118,
-      "Não informado": 60,
+      "Não informado": 61,
       "Marítimo": 24,
-      "Aéreo": 58,
+      "Aéreo": 59,
       "Fluvial": 1,
-      "Postal": 5
+      "Postal": 6
     },
     "fauna_quantities": {
       "Mamíferos": 1323,
@@ -17387,26 +17614,26 @@
       "Répteis": 5747,
       "Peixes": 23050,
       "Anfíbios": 92,
-      "Insetos": 3163
+      "Insetos": 6924
     },
     "modal_quantities": {
       "Terrestre": 25058,
-      "Não informado": 2045,
+      "Não informado": 3158,
       "Marítimo": 77778,
-      "Aéreo": 29200,
+      "Aéreo": 31448,
       "Fluvial": 4,
-      "Postal": 521
+      "Postal": 921
     },
-    "total_countable_animals_items": 134606,
+    "total_countable_animals_items": 138367,
     "quantity_unassigned": 93870,
-    "generated_at": "2026-09-24T14:49:00Z"
+    "generated_at": "2026-09-24T15:12:00Z"
   },
   "image_progress": {
-    "records_total": 270,
+    "records_total": 273,
     "direct_image_urls_validated": 100,
-    "unresolved": 170,
+    "unresolved": 173,
     "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
-    "updated_at": "2026-09-24T14:49:00Z"
+    "updated_at": "2026-09-24T15:12:00Z"
   },
   "ingestion_history": [
     {
@@ -17438,7 +17665,13 @@
       "count": 8,
       "confidence": "CONFIRMED_SOURCE_EVENTS",
       "added_at": "2026-09-24T14:42:00Z"
+    },
+    {
+      "batch": "insects_followup_2025_2026_2026-09-24",
+      "count": 3,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T15:12:00Z"
     }
   ],
-  "updated_at": "2026-09-24T14:49:00Z"
+  "updated_at": "2026-09-24T15:12:00Z"
 }
