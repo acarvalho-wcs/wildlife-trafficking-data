@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T14:46:00Z",
+  "updated_at": "2026-09-24T15:16:00Z",
   "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -3218,6 +3218,80 @@
       "evidence_es": "BBKSDA Jawa Timur informa que los diez paquetes de exportación contenían mariposas destinadas a China, Estados Unidos, Canadá, Francia, Alemania y Chequia. La fuente no asigna cantidades específicas a cada destino.",
       "source_label": "BBKSDA Jawa Timur",
       "source_url": "https://bbksdajawatimur.id/ribuan-sayap-terbungkam-polda-jawa-timur-bongkar-jalur-perdagangan-kupu-kupu-dilindungi"
+    },
+    {
+      "id": "viracopos-hong-kong-melipona-2025-08-01",
+      "event_match": {
+        "location_contains": "Viracopos",
+        "event_date": "2025-08-01"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Viracopos → Hong Kong (destino pretendido)",
+      "label_en": "Viracopos → Hong Kong (intended destination)",
+      "label_es": "Viracopos → Hong Kong (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Viracopos",
+            "country": "Brasil",
+            "lat": -23.0074,
+            "lon": -47.1345,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.3193,
+            "lon": 114.1694,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O relato do Ibama informa que a remessa expressa contendo a colônia de mandaçaias foi interceptada em Viracopos e tinha Hong Kong como destino. A linha representa destino pretendido, não viagem completada.",
+      "evidence_en": "Ibama's account states that the express shipment containing the mandaçaia colony was intercepted at Viracopos and was bound for Hong Kong. The line represents an intended destination, not completed travel.",
+      "evidence_es": "El relato de Ibama indica que el envío exprés con la colonia de mandaçaias fue interceptado en Viracopos y tenía Hong Kong como destino. La línea representa un destino previsto, no un viaje completado.",
+      "source_label": "Ibama (republished by Tudo Rondônia)",
+      "source_url": "https://www.tudorondonia.com/noticias/ibama-impede-tentativa-de-trafico-internacional-de-400-abelhas%2C144843.shtml"
+    },
+    {
+      "id": "jkia-china-ants-2026-03-10",
+      "event_match": {
+        "location_contains": "Jomo Kenyatta",
+        "event_date": "2026-03-10"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_air_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Nairobi/JKIA → China (destino pretendido)",
+      "label_en": "Nairobi/JKIA → China (intended destination)",
+      "label_es": "Nairobi/JKIA → China (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional Jomo Kenyatta",
+            "country": "Quênia",
+            "lat": -1.3192,
+            "lon": 36.9278,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "China — aeroporto/cidade não informados",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Cobertura judicial informa que o passageiro interceptado no JKIA tentava embarcar para a China com mais de 2.200 formigas vivas. O aeroporto ou cidade final na China não foi informado.",
+      "evidence_en": "Court reporting states that the passenger intercepted at JKIA was attempting to board for China with more than 2,200 live ants. The final airport or city in China was not reported.",
+      "evidence_es": "La cobertura judicial informa que el pasajero interceptado en JKIA intentaba embarcar hacia China con más de 2.200 hormigas vivas. No se informó el aeropuerto o ciudad final en China.",
+      "source_label": "Channels Television / The Star",
+      "source_url": "https://www.channelstv.com/2026/03/17/two-men-in-kenyan-court-for-ant-smuggling/"
     }
   ],
   "network_context": [
@@ -3230,6 +3304,18 @@
       "label_es": "EE. UU. ↔ México — presunto esquema bidireccional en proceso federal",
       "note_pt": "O DOJ alega um esquema de vários anos para mover répteis nos dois sentidos da fronteira. Exibir apenas em camada analítica separada, não como rota factual de uma única apreensão.",
       "source_url": "https://www.justice.gov/usao-sdca/pr/two-arrested-years-long-scheme-smuggle-protected-reptiles-across-us-mexico-border"
+    },
+    {
+      "id": "kenya-ant-investigation-march-2026",
+      "status": "INVESTIGATIVELY_LINKED_EVENTS",
+      "render_by_default": false,
+      "label_pt": "Quênia — eventos de formigas de 10 e 13 de março de 2026 ligados pela mesma investigação",
+      "label_en": "Kenya — 10 and 13 March 2026 ant events linked by the same investigation",
+      "label_es": "Kenia — eventos de hormigas del 10 y 13 de marzo de 2026 vinculados por la misma investigación",
+      "note_pt": "A promotoria queniana tratou as apreensões de 10 de março (2.248 formigas) e 13 de março em Gilgil (1.113 formigas) como contagens/eventos separados, mas alegou colaboração entre os acusados no período e vínculos entre os episódios. Manter separados no mapa e nos totais; mostrar a relação apenas em camada analítica/contextual.",
+      "note_en": "Kenyan prosecutors treated the 10 March seizure (2,248 ants) and the 13 March Gilgil seizure (1,113 ants) as separate counts/events, while alleging collaboration between the accused during the period and links between the episodes. Keep them separate on the map and in totals; show the relationship only in an analytical/context layer.",
+      "note_es": "La fiscalía keniana trató el decomiso del 10 de marzo (2.248 hormigas) y el del 13 de marzo en Gilgil (1.113 hormigas) como conteos/eventos separados, aunque alegó colaboración entre los acusados durante el período y vínculos entre los episodios. Mantenerlos separados en el mapa y en los totales; mostrar la relación solo en una capa analítica/contextual.",
+      "source_url": "https://www.the-star.co.ke/news/2026-03-21-chinese-kenyan-charged-over-alleged-ant-trafficking"
     }
   ],
   "excluded": [
