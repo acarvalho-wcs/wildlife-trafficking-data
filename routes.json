@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T13:30:00Z",
+  "updated_at": "2026-09-24T14:46:00Z",
   "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -3064,6 +3064,160 @@
       "evidence_es": "La ministra de Pesca indicó que se creía que las especies decomisadas en el barco que llegó a Suva habían sido traídas desde Lau. No se estableció el origen exacto dentro del archipiélago.",
       "source_label": "Fiji Sun / Fiji Ministry of Fisheries",
       "source_url": "https://fijisun.com.fj/news/nation/banned-kawakawa-donu-turtle-seized-at-suva-port"
+    },
+    {
+      "id": "el-salto-laos-pogonomyrmex-2026-07-09",
+      "event_match": {
+        "location_contains": "El Salto",
+        "event_date": "2026-07-09"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "postal_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "El Salto → Laos",
+      "label_en": "El Salto → Laos",
+      "label_es": "El Salto → Laos",
+      "segments": [
+        {
+          "from": {
+            "name": "El Salto, Jalisco",
+            "country": "México",
+            "lat": 20.5185,
+            "lon": -103.1817,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Laos — destino específico não informado",
+            "country": "Laos",
+            "lat": 19.8563,
+            "lon": 102.4955,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Profepa informa que a remessa com 105 formigas-rainhas foi detectada em El Salto e tinha o Laos como destino. A localidade específica no Laos não foi informada.",
+      "evidence_en": "Profepa states that the parcel containing 105 queen ants was detected in El Salto and was bound for Laos. The specific destination within Laos was not reported.",
+      "evidence_es": "Profepa informa que el envío con 105 hormigas reina fue detectado en El Salto y tenía Laos como destino. No se informó la localidad específica en Laos.",
+      "source_label": "PROFEPA",
+      "source_url": "https://www.gob.mx/profepa/prensa/detectan-trafico-ilegal-de-hormigas-reina-en-jalisco"
+    },
+    {
+      "id": "juanda-protected-butterflies-multiple-destinations-2026-04-22",
+      "event_match": {
+        "location_contains": "Juanda",
+        "event_date": "2026-04-22"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Juanda → múltiplos destinos internacionais",
+      "label_en": "Juanda → multiple international destinations",
+      "label_es": "Juanda → múltiples destinos internacionales",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Juanda",
+            "country": "Indonésia",
+            "lat": -7.3798,
+            "lon": 112.7868,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "China — destino não especificado",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Juanda",
+            "country": "Indonésia",
+            "lat": -7.3798,
+            "lon": 112.7868,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Estados Unidos — destino não especificado",
+            "country": "Estados Unidos",
+            "lat": 39.5,
+            "lon": -98.35,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Juanda",
+            "country": "Indonésia",
+            "lat": -7.3798,
+            "lon": 112.7868,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Canadá — destino não especificado",
+            "country": "Canadá",
+            "lat": 56.1304,
+            "lon": -106.3468,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Juanda",
+            "country": "Indonésia",
+            "lat": -7.3798,
+            "lon": 112.7868,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "França — destino não especificado",
+            "country": "França",
+            "lat": 46.2276,
+            "lon": 2.2137,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Juanda",
+            "country": "Indonésia",
+            "lat": -7.3798,
+            "lon": 112.7868,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Alemanha — destino não especificado",
+            "country": "Alemanha",
+            "lat": 51.1657,
+            "lon": 10.4515,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Juanda",
+            "country": "Indonésia",
+            "lat": -7.3798,
+            "lon": 112.7868,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Tchéquia — destino não especificado",
+            "country": "Tchéquia",
+            "lat": 49.8175,
+            "lon": 15.473,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A BBKSDA Jawa Timur informa que os dez pacotes de exportação continham borboletas destinadas à China, Estados Unidos, Canadá, França, Alemanha e Tchéquia. A fonte não associa quantidades específicas a cada destino.",
+      "evidence_en": "BBKSDA Jawa Timur states that the ten export parcels contained butterflies intended for China, the United States, Canada, France, Germany and Czechia. The source does not assign specific quantities to each destination.",
+      "evidence_es": "BBKSDA Jawa Timur informa que los diez paquetes de exportación contenían mariposas destinadas a China, Estados Unidos, Canadá, Francia, Alemania y Chequia. La fuente no asigna cantidades específicas a cada destino.",
+      "source_label": "BBKSDA Jawa Timur",
+      "source_url": "https://bbksdajawatimur.id/ribuan-sayap-terbungkam-polda-jawa-timur-bongkar-jalur-perdagangan-kupu-kupu-dilindungi"
     }
   ],
   "network_context": [
