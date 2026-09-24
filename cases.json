@@ -14249,7 +14249,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": false,
-    "updated_at": "2026-09-24T02:45:00Z"
+    "updated_at": "2026-09-24T02:58:00Z"
   },
   "quantity_layer": {
     "status": "COMPLETE_FOR_DASHBOARD",
@@ -14284,21 +14284,24 @@
       "Postal": 3
     },
     "fauna_quantities": {
-      "Mamíferos": 835,
-      "Aves": 5871,
-      "Répteis": 1503,
-      "Peixes": 22002,
-      "Anfíbios": 9
+      "Mamíferos": 1265,
+      "Aves": 6945,
+      "Répteis": 2943,
+      "Peixes": 22104,
+      "Anfíbios": 42,
+      "Insetos": 780
     },
     "modal_quantities": {
-      "Terrestre": 4119,
-      "Não informado": 1841,
+      "Terrestre": 10735,
+      "Não informado": 1849,
       "Marítimo": 1916,
-      "Aéreo": 22880
+      "Aéreo": 26307,
+      "Fluvial": 4,
+      "Postal": 357
     },
     "total_countable_animals_items": 41168,
     "quantity_unassigned": 7089,
-    "generated_at": "2026-09-24T02:45:00Z"
+    "generated_at": "2026-09-24T02:58:00Z"
   },
   "image_progress": {
     "records_total": 226,
