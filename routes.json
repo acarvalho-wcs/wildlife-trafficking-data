@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T02:52:00Z",
+  "updated_at": "2026-09-24T03:10:00Z",
   "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -2403,6 +2403,43 @@
       "evidence_es": "La fuente informa que los 13 animales eran transportados en un autobús que viajaba de Managua hacia Estelí.",
       "source_label": "MARENA / La Prensa Nicaragua",
       "source_url": "https://www.laprensani.com/2026/07/28/nacionales/3748333-marena-decomisa-animales-silvestres-esteli"
+    },
+    {
+      "id": "hawaii-california-private-jet-shark-fins-2026-02",
+      "event_match": {
+        "location_contains": "Havaí",
+        "title_contains": "40 barbatanas de tubarão"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Havaí → Califórnia",
+      "label_en": "Hawaii → California",
+      "label_es": "Hawái → California",
+      "segments": [
+        {
+          "from": {
+            "name": "Havaí — origem não especificada",
+            "country": "Estados Unidos",
+            "lat": 20.7984,
+            "lon": -156.3319,
+            "precision": "state_centroid_generalized"
+          },
+          "to": {
+            "name": "Califórnia — destino não especificado",
+            "country": "Estados Unidos",
+            "lat": 36.7783,
+            "lon": -119.4179,
+            "precision": "state_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O registro documenta o transporte de 40 barbatanas secas ou congeladas de tubarão em jato privado do Havaí para a Califórnia. As localidades específicas de origem e destino dentro dos estados não estão estabelecidas; por isso, os pontos são generalizados e a linha é tracejada.",
+      "evidence_en": "The record documents the transport of 40 dried or frozen shark fins by private jet from Hawaii to California. The specific origin and destination locations within the states are not established, so the endpoints are generalized and the route is dashed.",
+      "evidence_es": "El registro documenta el transporte de 40 aletas de tiburón secas o congeladas en un jet privado desde Hawái hasta California. No se establecen las localidades específicas de origen y destino dentro de los estados, por lo que los puntos son generalizados y la ruta se representa con línea discontinua.",
+      "source_label": "Hawaii News Now / San Francisco Chronicle",
+      "source_url": "https://www.sfchronicle.com/california/article/shark-fins-private-jet-22233407.php"
     }
   ],
   "network_context": [
