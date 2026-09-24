@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T03:10:00Z",
+  "updated_at": "2026-09-24T03:18:00Z",
   "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -2408,7 +2408,7 @@
       "id": "hawaii-california-private-jet-shark-fins-2026-02",
       "event_match": {
         "location_contains": "Havaí",
-        "title_contains": "40 barbatanas de tubarão"
+        "publication_date": "2026-04-29"
       },
       "status": "DOCUMENTED",
       "route_type": "documented_movement",
