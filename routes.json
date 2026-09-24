@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T01:30:00Z",
+  "updated_at": "2026-09-24T02:15:00Z",
   "audited_through": "2026-09-24",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -1482,6 +1482,689 @@
       "evidence_es": "La fuente oficial informa que el pasajero interceptado en El Cairo viajaba a India.",
       "source_label": "Egypt Today / Ministry of Agriculture",
       "source_url": "https://www.egypttoday.com/Article/1/146851/Cairo-airport-foils-attempt-to-smuggle-infant-chimpanzees-rare-reptiles"
+    },
+    {
+      "id": "madagascar-wroclaw-coral-2026-01",
+      "event_match": {
+        "location_contains": "Wrocław",
+        "publication_date": "2026-01-15"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Madagascar → Wrocław",
+      "label_en": "Madagascar → Wrocław",
+      "label_es": "Madagascar → Wrocław",
+      "segments": [
+        {
+          "from": {
+            "name": "Madagascar — origem de viagem não especificada",
+            "country": "Madagascar",
+            "lat": -18.77,
+            "lon": 46.87,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Wrocław",
+            "country": "Polônia",
+            "lat": 51.1027,
+            "lon": 16.8858,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A KAS informa que o passageiro chegava de Madagascar com o coral na bagagem.",
+      "evidence_en": "KAS states that the passenger was arriving from Madagascar with the coral in luggage.",
+      "evidence_es": "KAS informa que el pasajero llegaba desde Madagascar con el coral en el equipaje.",
+      "source_label": "KAS",
+      "source_url": "https://www.gov.pl/web/ias-wroclaw/chronione-okazy-koralowca-zatrzymane-przez-kas-na-lotnisku-we-wroclawiu2"
+    },
+    {
+      "id": "moldova-redics-italy-tamarin-2026-01-18",
+      "event_match": {
+        "location_contains": "Rédics",
+        "event_date": "2026-01-18"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_planned_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Moldávia → Rédics → Itália (declaração do motorista)",
+      "label_en": "Moldova → Rédics → Italy (driver statement)",
+      "label_es": "Moldavia → Rédics → Italia (declaración del conductor)",
+      "segments": [
+        {
+          "from": {
+            "name": "Moldávia — local não especificado",
+            "country": "Moldávia",
+            "lat": 47.01,
+            "lon": 28.86,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Rédics",
+            "country": "Hungria",
+            "lat": 46.614,
+            "lon": 16.479,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Rédics",
+            "country": "Hungria",
+            "lat": 46.614,
+            "lon": 16.479,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Itália — destino não especificado",
+            "country": "Itália",
+            "lat": 42.83,
+            "lon": 12.83,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O motorista declarou ter recebido o animal na Moldávia e estar levando-o para a Itália.",
+      "evidence_en": "The driver stated that he had received the animal in Moldova and was taking it to Italy.",
+      "evidence_es": "El conductor declaró haber recibido el animal en Moldavia y llevarlo a Italia.",
+      "source_label": "NAV",
+      "source_url": "https://nav.gov.hu/print/sajtoszoba/hirek/Az_eladott_kismajom"
+    },
+    {
+      "id": "seychelles-abudhabi-warsaw-coral-2026-01",
+      "event_match": {
+        "location_contains": "Chopin",
+        "publication_date": "2026-01-20"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Seychelles → Abu Dhabi → Varsóvia",
+      "label_en": "Seychelles → Abu Dhabi → Warsaw",
+      "label_es": "Seychelles → Abu Dabi → Varsovia",
+      "segments": [
+        {
+          "from": {
+            "name": "Seychelles",
+            "country": "Seychelles",
+            "lat": -4.68,
+            "lon": 55.49,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Abu Dhabi",
+            "country": "Emirados Árabes Unidos",
+            "lat": 24.45,
+            "lon": 54.65,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Abu Dhabi",
+            "country": "Emirados Árabes Unidos",
+            "lat": 24.45,
+            "lon": 54.65,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Chopin, Varsóvia",
+            "country": "Polônia",
+            "lat": 52.1657,
+            "lon": 20.9671,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A KAS informa que o passageiro retornava das Seychelles via Abu Dhabi.",
+      "evidence_en": "KAS states that the passenger was returning from Seychelles via Abu Dhabi.",
+      "evidence_es": "KAS informa que el pasajero regresaba de Seychelles vía Abu Dabi.",
+      "source_label": "KAS",
+      "source_url": "https://www.gov.pl/web/kas/kas-zatrzymala-5-kg-rafy-koralowej-z-seszeli-na-warszawskim-lotnisku"
+    },
+    {
+      "id": "kyiv-usa-walrus-2026-01",
+      "event_match": {
+        "location_contains": "Kyiv",
+        "publication_date": "2026-01-20"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "postal_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Kyiv → Estados Unidos",
+      "label_en": "Kyiv → United States",
+      "label_es": "Kyiv → Estados Unidos",
+      "segments": [
+        {
+          "from": {
+            "name": "Kyiv",
+            "country": "Ucrânia",
+            "lat": 50.45,
+            "lon": 30.523,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Estados Unidos — destino não especificado",
+            "country": "Estados Unidos",
+            "lat": 39.5,
+            "lon": -98.35,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A encomenda postal seguia de Kyiv para os Estados Unidos.",
+      "evidence_en": "The postal parcel was travelling from Kyiv to the United States.",
+      "evidence_es": "El envío postal viajaba de Kyiv a Estados Unidos.",
+      "source_label": "State Customs Service of Ukraine",
+      "source_url": "https://customs.gov.ua/en/news/novini-20/post/proshchai-nemytaia-chukotka-mitniki-viluchili-bivni-morzha-z-darchim-napisom-1988"
+    },
+    {
+      "id": "addis-madrid-pangolins-2026-02",
+      "event_match": {
+        "location_contains": "Madrid-Barajas",
+        "publication_date": "2026-02-26"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Addis Abeba → Madrid",
+      "label_en": "Addis Ababa → Madrid",
+      "label_es": "Adís Abeba → Madrid",
+      "segments": [
+        {
+          "from": {
+            "name": "Addis Abeba",
+            "country": "Etiópia",
+            "lat": 8.98,
+            "lon": 38.79,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Madrid-Barajas",
+            "country": "Espanha",
+            "lat": 40.472,
+            "lon": -3.561,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "O Ministério do Interior informa que a mala procedia de um voo de Addis Abeba.",
+      "evidence_en": "Spain's Interior Ministry states that the suitcase arrived on a flight from Addis Ababa.",
+      "evidence_es": "El Ministerio del Interior informa que la maleta procedía de un vuelo de Adís Abeba.",
+      "source_label": "Ministerio del Interior / Guardia Civil",
+      "source_url": "https://www.interior.gob.es/opencms/ca/detalle/articulo/Incautados-15-pangolines-en-una-maleta-en-el-aeropuerto-Adolfo-Suarez-Madrid-Barajas/"
+    },
+    {
+      "id": "centralamerica-schiphol-asia-eggs-2026-03-24",
+      "event_match": {
+        "location_contains": "Schiphol",
+        "event_date": "2026-03-24"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "regional_transit_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "América Central → Schiphol → Ásia",
+      "label_en": "Central America → Schiphol → Asia",
+      "label_es": "Centroamérica → Schiphol → Asia",
+      "segments": [
+        {
+          "from": {
+            "name": "América Central — país não especificado",
+            "country": "Região",
+            "lat": 13.5,
+            "lon": -85,
+            "precision": "region_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Schiphol",
+            "country": "Países Baixos",
+            "lat": 52.31,
+            "lon": 4.768,
+            "precision": "airport"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto de Schiphol",
+            "country": "Países Baixos",
+            "lat": 52.31,
+            "lon": 4.768,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Ásia — país não especificado",
+            "country": "Região",
+            "lat": 34,
+            "lon": 100,
+            "precision": "region_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A NVWA informa que o casal estava em trânsito da América Central para a Ásia via Schiphol.",
+      "evidence_en": "NVWA states that the couple was in transit from Central America to Asia via Schiphol.",
+      "evidence_es": "NVWA informa que la pareja estaba en tránsito desde Centroamérica hacia Asia vía Schiphol.",
+      "source_label": "NVWA",
+      "source_url": "https://www.nvwa.nl/actueel/nieuws/2026/03/26/nvwa-neemt-261-broedeieren-in-beslag-op-schiphol"
+    },
+    {
+      "id": "indonesia-warsaw-live-corals-2026-04",
+      "event_match": {
+        "location_contains": "Warszawa-Okęcie",
+        "publication_date": "2026-04-09"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "shipment_origin_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Indonésia → Varsóvia",
+      "label_en": "Indonesia → Warsaw",
+      "label_es": "Indonesia → Varsovia",
+      "segments": [
+        {
+          "from": {
+            "name": "Indonésia — origem não especificada",
+            "country": "Indonésia",
+            "lat": -2.55,
+            "lon": 118.01,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Warszawa-Okęcie",
+            "country": "Polônia",
+            "lat": 52.1657,
+            "lon": 20.9671,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A KAS informa que a remessa de corais foi importada da Indonésia.",
+      "evidence_en": "KAS states that the coral shipment was imported from Indonesia.",
+      "evidence_es": "KAS informa que el cargamento de corales fue importado desde Indonesia.",
+      "source_label": "KAS",
+      "source_url": "https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-ponad-1000-szt-koralowcow-z-indonezji"
+    },
+    {
+      "id": "hongkong-schiphol-tortoise-medicine-2026-04-26",
+      "event_match": {
+        "location_contains": "Schiphol",
+        "event_date": "2026-04-26"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Schiphol",
+      "label_en": "Hong Kong → Schiphol",
+      "label_es": "Hong Kong → Schiphol",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.3193,
+            "lon": 114.1694,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Schiphol",
+            "country": "Países Baixos",
+            "lat": 52.31,
+            "lon": 4.768,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A Douane Nederland informa que os dois passageiros eram provenientes de Hong Kong.",
+      "evidence_en": "Dutch Customs states that the two passengers arrived from Hong Kong.",
+      "evidence_es": "Aduanas neerlandesas informa que los dos pasajeros procedían de Hong Kong.",
+      "source_label": "Douane Nederland",
+      "source_url": "https://www.douane.nl/douane-vindt-boomgifkikkers-en-verentooien-op-schiphol/"
+    },
+    {
+      "id": "brazil-schiphol-sweden-feathers-2026-04-29",
+      "event_match": {
+        "location_contains": "Schiphol",
+        "event_date": "2026-04-29"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_transit_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Brasil → Schiphol → Suécia",
+      "label_en": "Brazil → Schiphol → Sweden",
+      "label_es": "Brasil → Schiphol → Suecia",
+      "segments": [
+        {
+          "from": {
+            "name": "Brasil — origem de viagem não especificada",
+            "country": "Brasil",
+            "lat": -10,
+            "lon": -53,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Schiphol",
+            "country": "Países Baixos",
+            "lat": 52.31,
+            "lon": 4.768,
+            "precision": "airport"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto de Schiphol",
+            "country": "Países Baixos",
+            "lat": 52.31,
+            "lon": 4.768,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Suécia — destino não especificado",
+            "country": "Suécia",
+            "lat": 62,
+            "lon": 15,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Douane Nederland informa que os passageiros estavam em trânsito do Brasil para a Suécia.",
+      "evidence_en": "Dutch Customs states that the passengers were in transit from Brazil to Sweden.",
+      "evidence_es": "Aduanas neerlandesas informa que los pasajeros estaban en tránsito desde Brasil hacia Suecia.",
+      "source_label": "Douane Nederland",
+      "source_url": "https://www.douane.nl/douane-vindt-boomgifkikkers-en-verentooien-op-schiphol/"
+    },
+    {
+      "id": "ukraine-romania-greece-skins-2026-05-01",
+      "event_match": {
+        "location_contains": "Siret",
+        "event_date": "2026-05-01"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_vehicle_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ucrânia → Romênia → Grécia",
+      "label_en": "Ukraine → Romania → Greece",
+      "label_es": "Ucrania → Rumanía → Grecia",
+      "segments": [
+        {
+          "from": {
+            "name": "Ucrânia — origem de viagem não especificada",
+            "country": "Ucrânia",
+            "lat": 48.38,
+            "lon": 31.17,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Siret",
+            "country": "Romênia",
+            "lat": 47.95,
+            "lon": 26.07,
+            "precision": "border_checkpoint"
+          }
+        },
+        {
+          "from": {
+            "name": "Siret",
+            "country": "Romênia",
+            "lat": 47.95,
+            "lon": 26.07,
+            "precision": "border_checkpoint"
+          },
+          "to": {
+            "name": "Grécia — destino não especificado",
+            "country": "Grécia",
+            "lat": 39.07,
+            "lon": 21.82,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A polícia de fronteira identifica explicitamente a rota do ônibus como Ucrânia–Romênia–Grécia.",
+      "evidence_en": "Border Police explicitly identifies the coach route as Ukraine–Romania–Greece.",
+      "evidence_es": "La Policía Fronteriza identifica explícitamente la ruta del autobús como Ucrania–Rumanía–Grecia.",
+      "source_label": "Poliția de Frontieră Română",
+      "source_url": "https://www.politiadefrontiera.ro/ro/main/i-piei-din-blana-de-jder-si-ras-descoperite-la-intrarea-in-tara-43364.html"
+    },
+    {
+      "id": "marsa-alam-bydgoszcz-coral-2026-06",
+      "event_match": {
+        "location_contains": "Bydgoszcz",
+        "publication_date": "2026-06-30"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Marsa Alam → Bydgoszcz",
+      "label_en": "Marsa Alam → Bydgoszcz",
+      "label_es": "Marsa Alam → Bydgoszcz",
+      "segments": [
+        {
+          "from": {
+            "name": "Marsa Alam",
+            "country": "Egito",
+            "lat": 25.0676,
+            "lon": 34.879,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Bydgoszcz",
+            "country": "Polônia",
+            "lat": 53.0968,
+            "lon": 17.9777,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A KAS informa que o passageiro chegava de Marsa Alam, Egito.",
+      "evidence_en": "KAS states that the passenger was arriving from Marsa Alam, Egypt.",
+      "evidence_es": "KAS informa que el pasajero llegaba desde Marsa Alam, Egipto.",
+      "source_label": "KAS",
+      "source_url": "https://www.gov.pl/web/ias-bydgoszcz/funkcjonariusze-kas-zatrzymali-chronione-okazy-na-lotnisku-w-bydgoszczy"
+    },
+    {
+      "id": "jakarta-istanbul-zagreb-coral-2026-08-16",
+      "event_match": {
+        "location_contains": "Franjo Tuđman",
+        "event_date": "2026-08-16"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Jacarta → Istambul → Zagreb",
+      "label_en": "Jakarta → Istanbul → Zagreb",
+      "label_es": "Yakarta → Estambul → Zagreb",
+      "segments": [
+        {
+          "from": {
+            "name": "Jacarta",
+            "country": "Indonésia",
+            "lat": -6.2088,
+            "lon": 106.8456,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Istambul",
+            "country": "Turquia",
+            "lat": 41.0082,
+            "lon": 28.9784,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Istambul",
+            "country": "Turquia",
+            "lat": 41.0082,
+            "lon": 28.9784,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Franjo Tuđman, Zagreb",
+            "country": "Croácia",
+            "lat": 45.7429,
+            "lon": 16.0688,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A aduana croata informa que o passageiro chegou da Indonésia, via Istambul.",
+      "evidence_en": "Croatian Customs states that the passenger arrived from Indonesia via Istanbul.",
+      "evidence_es": "Aduanas croatas informa que el pasajero llegó desde Indonesia vía Estambul.",
+      "source_label": "Carinska uprava Republike Hrvatske",
+      "source_url": "https://carina.gov.hr/vijesti/sprijecen-pokusaj-krijumcarenja-koralja/20021"
+    },
+    {
+      "id": "china-prague-crocodile-bag-2026-09",
+      "event_match": {
+        "location_contains": "Praga",
+        "publication_date": "2026-09-02"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "postal_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "China → Praga",
+      "label_en": "China → Prague",
+      "label_es": "China → Praga",
+      "segments": [
+        {
+          "from": {
+            "name": "China — origem não especificada",
+            "country": "China",
+            "lat": 35.86,
+            "lon": 104.2,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Praga",
+            "country": "Tchéquia",
+            "lat": 50.0755,
+            "lon": 14.4378,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A alfândega tcheca informa que a encomenda contendo a bolsa de pele de crocodilo seguia da China.",
+      "evidence_en": "Czech Customs states that the parcel containing the crocodile-skin handbag was sent from China.",
+      "evidence_es": "Aduanas checas informa que el envío con el bolso de piel de cocodrilo procedía de China.",
+      "source_label": "Celní správa České republiky",
+      "source_url": "https://celnisprava.gov.cz/cz/celni-urad-pro-hlavni-mesto-prahu/tiskove-zpravy/2026/Stranky/I-mal%C3%A9-po%C5%A1tovn%C3%AD-z%C3%A1silky-mohou-skr%C3%BDvat-velk%C3%A9-pot%C3%AD%C5%BEe.aspx"
+    },
+    {
+      "id": "seychelles-istanbul-zagreb-coral-2026-09-05",
+      "event_match": {
+        "location_contains": "Franjo Tuđman",
+        "event_date": "2026-09-05"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Seychelles → Istambul → Zagreb",
+      "label_en": "Seychelles → Istanbul → Zagreb",
+      "label_es": "Seychelles → Estambul → Zagreb",
+      "segments": [
+        {
+          "from": {
+            "name": "Seychelles",
+            "country": "Seychelles",
+            "lat": -4.68,
+            "lon": 55.49,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Istambul",
+            "country": "Turquia",
+            "lat": 41.0082,
+            "lon": 28.9784,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Istambul",
+            "country": "Turquia",
+            "lat": 41.0082,
+            "lon": 28.9784,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Franjo Tuđman, Zagreb",
+            "country": "Croácia",
+            "lat": 45.7429,
+            "lon": 16.0688,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A aduana croata informa que o passageiro chegou das Seychelles via Istambul.",
+      "evidence_en": "Croatian Customs states that the passenger arrived from Seychelles via Istanbul.",
+      "evidence_es": "Aduanas croatas informa que el pasajero llegó desde Seychelles vía Estambul.",
+      "source_label": "Carinska uprava Republike Hrvatske",
+      "source_url": "https://carina.gov.hr/vijesti/na-granicnom-carinskom-uredu-zracna-luka-i-posta-sprijecen-je-pokusaj-nezakonitog-unosa-koralja/20170"
+    },
+    {
+      "id": "lorca-orihuela-france-goldfinches-2026-04",
+      "event_match": {
+        "location_contains": "Orihuela",
+        "publication_date": "2026-04-22"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_trafficking_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Lorca → Orihuela → França",
+      "label_en": "Lorca → Orihuela → France",
+      "label_es": "Lorca → Orihuela → Francia",
+      "segments": [
+        {
+          "from": {
+            "name": "Lorca, Murcia",
+            "country": "Espanha",
+            "lat": 37.671,
+            "lon": -1.699,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Orihuela, Alicante",
+            "country": "Espanha",
+            "lat": 38.0848,
+            "lon": -0.9449,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Orihuela, Alicante",
+            "country": "Espanha",
+            "lat": 38.0848,
+            "lon": -0.9449,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "França — destino não especificado",
+            "country": "França",
+            "lat": 46.23,
+            "lon": 2.21,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Polícia Nacional informou que as aves haviam sido capturadas em Lorca e seriam transportadas à França para venda ilegal.",
+      "evidence_en": "National Police reported that the birds had been captured in Lorca and were being transported to France for illegal sale.",
+      "evidence_es": "La Policía Nacional informó que las aves habían sido capturadas en Lorca y serían transportadas a Francia para su venta ilegal.",
+      "source_label": "Policía Nacional / Europa Press",
+      "source_url": "https://www.europapress.es/comunitat-valenciana/noticia-policia-intercepta-orihuela-400-jilgueros-transportados-coche-francia-venta-ilegal-20260422122313.html"
     }
   ],
   "network_context": [
