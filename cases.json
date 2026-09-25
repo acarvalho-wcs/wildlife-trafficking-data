@@ -9,7 +9,7 @@
     "projection_revision": 84
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
-  "warning": "All 278 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. Invertebrate-focused 2026 records were added after multilingual deduplication; repeated forfeiture-table rows, weight-only quantities and unreported routes remain conservative rather than inferred.",
+  "warning": "All 299 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 Amazon batch was ingested after full-base deduplication; mixed units remain separated, operation aggregates are flagged, and routes are only rendered where documentary evidence supports them.",
   "count": 299,
   "cases": [
     {
@@ -19477,18 +19477,28 @@
       "text_parity_complete": 5,
       "image_source_linkage_complete": 5,
       "updated_at": "2026-09-24T23:14:00Z"
+    },
+    "amazon_2026_validated_2026_09_25": {
+      "records": 21,
+      "title_en_es_complete": 21,
+      "card_en_es_complete": 21,
+      "source_urls_reconciled": 21,
+      "geodata_pending": 0,
+      "case_context_complete": 21,
+      "text_parity_complete": 21,
+      "updated_at": "2026-09-25T01:57:00Z"
     }
   },
   "geodata_progress": {
-    "records_total": 278,
-    "coordinates_complete": 278,
+    "records_total": 299,
+    "coordinates_complete": 299,
     "coordinates_pending": 0,
-    "precision_classified": 278,
-    "updated_at": "2026-09-24T23:14:00Z",
+    "precision_classified": 299,
+    "updated_at": "2026-09-25T01:57:00Z",
     "note": "Coordinates are representative points with explicit precision classes; generalized events are not presented as exact locations."
   },
   "audit_status": {
-    "audited_records": 278,
+    "audited_records": 299,
     "ids_unique": true,
     "sources_complete": true,
     "translations_complete": true,
@@ -19497,7 +19507,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-09-24T23:14:00Z"
+    "updated_at": "2026-09-25T01:57:00Z"
   },
   "quantity_layer": {
     "status": "COMPLETE_FOR_DASHBOARD",
@@ -19510,53 +19520,53 @@
       "quantity_note_pt"
     ],
     "rule": "Only countable animals or wildlife items are numeric. Kilograms, tonnes, packaging units and other weights/volumes are not converted into animal/item counts.",
-    "updated_at": "2026-09-24T23:14:00Z"
+    "updated_at": "2026-09-25T01:57:00Z"
   },
   "dashboard_validation_snapshot": {
-    "cases_total": 278,
-    "cases_in_totals": 274,
+    "cases_total": 299,
+    "cases_in_totals": 295,
     "fauna_event_counts": {
-      "Mamíferos": 93,
-      "Aves": 75,
-      "Répteis": 80,
-      "Peixes": 37,
+      "Mamíferos": 97,
+      "Aves": 81,
+      "Répteis": 87,
+      "Peixes": 49,
       "Anfíbios": 6,
       "Insetos": 13
     },
     "modal_event_counts": {
-      "Terrestre": 120,
-      "Não informado": 64,
+      "Terrestre": 126,
+      "Não informado": 65,
       "Marítimo": 24,
       "Aéreo": 59,
-      "Fluvial": 1,
+      "Fluvial": 15,
       "Postal": 6
     },
     "fauna_quantities": {
-      "Mamíferos": 1327,
-      "Aves": 7397,
-      "Répteis": 5747,
-      "Peixes": 23050,
+      "Mamíferos": 1328,
+      "Aves": 7552,
+      "Répteis": 5938,
+      "Peixes": 23063,
       "Anfíbios": 92,
       "Insetos": 6924
     },
     "modal_quantities": {
-      "Terrestre": 25062,
-      "Não informado": 3194,
+      "Terrestre": 25149,
+      "Não informado": 3202,
       "Marítimo": 77778,
       "Aéreo": 31448,
-      "Fluvial": 4,
+      "Fluvial": 299,
       "Postal": 921
     },
-    "total_countable_animals_items": 138407,
-    "quantity_unassigned": 93870,
-    "generated_at": "2026-09-24T23:14:00Z"
+    "total_countable_animals_items": 138797,
+    "quantity_unassigned": 93900,
+    "generated_at": "2026-09-25T01:57:00Z"
   },
   "image_progress": {
-    "records_total": 278,
+    "records_total": 299,
     "direct_image_urls_validated": 105,
-    "unresolved": 173,
+    "unresolved": 194,
     "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
-    "updated_at": "2026-09-24T23:14:00Z"
+    "updated_at": "2026-09-25T01:57:00Z"
   },
   "ingestion_history": [
     {
@@ -19622,5 +19632,5 @@
       "added_at": "2026-09-25T01:43:00Z"
     }
   ],
-  "updated_at": "2026-09-25T01:43:00Z"
+  "updated_at": "2026-09-25T01:57:00Z"
 }
