@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T12:54:00Z",
+  "updated_at": "2026-09-25T13:45:00Z",
   "audited_through": "2026-09-25",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -3625,6 +3625,207 @@
       "evidence_es": "La fuente informa que los investigadores siguieron los colmillos por la carretera Nanyuki–Meru y que el material se desplazaba hacia Makutano, donde fue interceptado. No se informó el origen de los colmillos ni el destino final, por lo que la línea representa únicamente el segmento/corredor documentado.",
       "source_label": "People Daily",
       "source_url": "https://peopledaily.digital/news/2-elephant-tusks-recovered-as-police-apprehend-person-of-interest-in-nanyuki"
+    },
+    {
+      "id": "uzbekistan-kazakhstan-akbulak-moscow-region-2026-04",
+      "event_match": {
+        "location_contains": "Akbulak",
+        "publication_date": "2026-04-03"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Uzbequistão → Cazaquistão → região de Moscou (interceptado perto de Akbulak)",
+      "label_en": "Uzbekistan → Kazakhstan → Moscow region (intercepted near Akbulak)",
+      "label_es": "Uzbekistán → Kazajistán → región de Moscú (interceptado cerca de Akbulak)",
+      "segments": [
+        {
+          "from": {
+            "name": "Uzbequistão — origem nacional documentada",
+            "country": "Uzbequistão",
+            "lat": 41.3775,
+            "lon": 64.5853,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Cazaquistão — trânsito documentado",
+            "country": "Cazaquistão",
+            "lat": 48.0196,
+            "lon": 66.9237,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Cazaquistão — trânsito documentado",
+            "country": "Cazaquistão",
+            "lat": 48.0196,
+            "lon": 66.9237,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Região de Moscou — destino documentado",
+            "country": "Rússia",
+            "lat": 55.7558,
+            "lon": 37.6173,
+            "precision": "region_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o micro-ônibus saiu do Uzbequistão, atravessou o Cazaquistão e seguia para a região de Moscou quando foi interceptado perto de Akbulak, na região de Orenburg.",
+      "evidence_en": "The source states that the minibus left Uzbekistan, crossed Kazakhstan and was bound for the Moscow region when intercepted near Akbulak in Orenburg region.",
+      "evidence_es": "La fuente informa que el minibús salió de Uzbekistán, cruzó Kazajistán y se dirigía a la región de Moscú cuando fue interceptado cerca de Akbulak, en Orenburg.",
+      "source_label": "Samara Customs / Orenburg Media",
+      "source_url": "https://orenburg.media/?p=530190"
+    },
+    {
+      "id": "st-petersburg-china-wildlife-derivatives-2026-04-06",
+      "event_match": {
+        "location_contains": "Pulkovo",
+        "event_date": "2026-04-06"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_destination_country",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "São Petersburgo → China (cidade de destino não informada)",
+      "label_en": "St Petersburg → China (destination city not reported)",
+      "label_es": "San Petersburgo → China (ciudad de destino no informada)",
+      "segments": [
+        {
+          "from": {
+            "name": "São Petersburgo / Pulkovo",
+            "country": "Rússia",
+            "lat": 59.8003,
+            "lon": 30.2625,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "China — destino nacional documentado",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa explicitamente que o passageiro partia de São Petersburgo para a China. A cidade chinesa de destino não foi publicada; a linha é tracejada e termina no centroide nacional.",
+      "evidence_en": "The source explicitly states that the passenger was departing St Petersburg for China. The Chinese destination city was not published; the dashed line terminates at the country centroid.",
+      "evidence_es": "La fuente indica explícitamente que el pasajero salía de San Petersburgo hacia China. No se publicó la ciudad china de destino; la línea discontinua termina en el centroide nacional.",
+      "source_label": "Interfax Russia / Northwest Customs",
+      "source_url": "https://www.interfax-russia.ru/northwest/news/klyki-bivni-i-roga-izyali-u-vyletavshego-iz-peterburga-v-kitay-inostranca"
+    },
+    {
+      "id": "irkutsk-beijing-lion-claws-2026-06-05",
+      "event_match": {
+        "location_contains": "Irkutsk",
+        "event_date": "2026-06-05"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Irkutsk → Pequim",
+      "label_en": "Irkutsk → Beijing",
+      "label_es": "Irkutsk → Pekín",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Irkutsk",
+            "country": "Rússia",
+            "lat": 52.268,
+            "lon": 104.388,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Pequim",
+            "country": "China",
+            "lat": 39.9042,
+            "lon": 116.4074,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte identifica explicitamente o voo Irkutsk–Pequim no qual o passageiro pretendia embarcar com cinco garras de leão.",
+      "evidence_en": "The source explicitly identifies the Irkutsk–Beijing flight on which the passenger intended to travel with five lion claws.",
+      "evidence_es": "La fuente identifica explícitamente el vuelo Irkutsk–Pekín en el que el pasajero pretendía viajar con cinco garras de león.",
+      "source_label": "Siberian Customs / RBC",
+      "source_url": "https://www.rbc.ru/life/news/6a229bab9a7947db10cce11a"
+    },
+    {
+      "id": "tajikistan-domodedovo-tortoises-2026-07-03",
+      "event_match": {
+        "location_contains": "Domodedovo",
+        "event_date": "2026-07-03"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_origin_country",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Tadjiquistão → Moscou/Domodedovo",
+      "label_en": "Tajikistan → Moscow/Domodedovo",
+      "label_es": "Tayikistán → Moscú/Domodedovo",
+      "segments": [
+        {
+          "from": {
+            "name": "Tadjiquistão — cidade de origem não informada",
+            "country": "Tadjiquistão",
+            "lat": 38.861,
+            "lon": 71.2761,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Domodedovo",
+            "country": "Rússia",
+            "lat": 55.4088,
+            "lon": 37.9063,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o passageiro chegou do Tadjiquistão a Domodedovo com 476 tartarugas vivas. A cidade de origem no Tadjiquistão não foi informada.",
+      "evidence_en": "The source states that the passenger arrived at Domodedovo from Tajikistan with 476 live tortoises. The Tajik origin city was not reported.",
+      "evidence_es": "La fuente informa que el pasajero llegó a Domodedovo desde Tayikistán con 476 tortugas vivas. No se informó la ciudad de origen en Tayikistán.",
+      "source_label": "Federal Customs Service / TKS",
+      "source_url": "https://www.tks.ru/crime/2026/07/03/03/476-sredneaziatskih-cherepah-nashli-v-bagazhe-passazhira-iz-tadzhikistana/print/"
+    },
+    {
+      "id": "zabaikalsk-manzhouli-walrus-tusks-2026-08-10",
+      "event_match": {
+        "location_contains": "Zabaikalsk",
+        "event_date": "2026-08-10"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Zabaikalsk → Manzhouli",
+      "label_en": "Zabaikalsk → Manzhouli",
+      "label_es": "Zabaikalsk → Manzhouli",
+      "segments": [
+        {
+          "from": {
+            "name": "Zabaikalsk",
+            "country": "Rússia",
+            "lat": 49.651,
+            "lon": 117.325,
+            "precision": "border_city"
+          },
+          "to": {
+            "name": "Manzhouli",
+            "country": "China",
+            "lat": 49.596,
+            "lon": 117.378,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que os passageiros viajavam de ônibus de Zabaikalsk para Manzhouli, China, com dez fragmentos de presas de morsa ocultos.",
+      "evidence_en": "The source states that the passengers were travelling by bus from Zabaikalsk to Manzhouli, China, with ten concealed walrus-tusk fragments.",
+      "evidence_es": "La fuente informa que los pasajeros viajaban en autobús de Zabaikalsk a Manzhouli, China, con diez fragmentos de colmillos de morsa ocultos.",
+      "source_label": "Federal Customs Service / TKS",
+      "source_url": "https://www.tks.ru/crime/2026/08/10/02/turistyi-spryatali-pod-odezhdoj-pochti-7-kg-bivnej-morzha-pered-poezdkoj-v-kitaj/"
     }
   ],
   "network_context": [
@@ -3716,6 +3917,116 @@
       "case": "Los Reyes/Peribán — tigre, macaco-aranha e psitacídeos",
       "reason": "ORIGIN_DESTINATION_UNKNOWN",
       "detail_pt": "As fontes não informam origem geográfica, fornecedores, compradores ou deslocamentos dos animais; nenhuma rota é desenhada."
+    },
+    {
+      "case": "Guangzhou — quatro gecos-tokay secos",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "A remessa postal era de entrada, mas país de origem, remetente e destinatário final não foram divulgados."
+    },
+    {
+      "case": "Guangzhou — 23 produtos de marfim/tartaruga-de-pente",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "As oito encomendas eram de entrada, mas a origem internacional não foi divulgada."
+    },
+    {
+      "case": "Sanya — 27 produtos de fauna",
+      "reason": "FLIGHT_DESTINATION_UNKNOWN",
+      "detail_pt": "A fonte registra passageiro de saída, mas não informa o destino do voo."
+    },
+    {
+      "case": "Xiamen — peça de marfim de 1,076 kg",
+      "reason": "FLIGHT_ORIGIN_UNKNOWN",
+      "detail_pt": "A peça foi encontrada em passageiro de entrada, mas a origem do voo não foi divulgada."
+    },
+    {
+      "case": "Haikou — derivados de pangolim",
+      "reason": "FLIGHT_ORIGIN_UNKNOWN",
+      "detail_pt": "A apreensão ocorreu em passageiro de entrada; a origem internacional não é informada."
+    },
+    {
+      "case": "Suzhou — 34 produtos CITES",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "As remessas postais não têm origem internacional nem destinatário publicados."
+    },
+    {
+      "case": "Beijing Daxing — marfim e cavalos-marinhos",
+      "reason": "FLIGHT_ORIGIN_UNKNOWN",
+      "detail_pt": "O passageiro era de entrada, mas a origem do voo não foi divulgada."
+    },
+    {
+      "case": "Futian — oito produtos de marfim",
+      "reason": "DESTINATION_UNKNOWN",
+      "detail_pt": "A apreensão ocorreu no fluxo de saída, mas o destino não é informado; não inferir Hong Kong."
+    },
+    {
+      "case": "Wuzhong — 21 aves",
+      "reason": "LOCAL_HUNTING_NO_ROUTE",
+      "detail_pt": "Caso de caça/posse local sem origem-destino comercial documentados."
+    },
+    {
+      "case": "Chengdu Shuangliu — 42 produtos de marfim",
+      "reason": "FLIGHT_ORIGIN_UNKNOWN",
+      "detail_pt": "Os três passageiros eram de entrada, mas a fonte não informa origem do voo."
+    },
+    {
+      "case": "Tianjin — 52 produtos CITES",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "A encomenda postal era de entrada, mas a origem e o remetente não foram divulgados."
+    },
+    {
+      "case": "Erenhot — 12 patas suspeitas de urso",
+      "reason": "ORIGIN_COUNTRY_UNKNOWN",
+      "detail_pt": "Os passageiros eram estrangeiros em fluxo de entrada, mas a fonte não informa o país de procedência."
+    },
+    {
+      "case": "Shenzhen Bay — 53 tartarugas",
+      "reason": "ORIGIN_UNKNOWN",
+      "detail_pt": "Fluxo de entrada documentado, mas o ponto de origem não é explicitado; não inferir Hong Kong."
+    },
+    {
+      "case": "Xiamen Cruise Port — cinco Carolina box turtles",
+      "reason": "VESSEL_ORIGIN_UNKNOWN",
+      "detail_pt": "A embarcação era de entrada, mas o porto de origem não foi publicado."
+    },
+    {
+      "case": "Beijing Capital — cinco produtos de marfim",
+      "reason": "ORIGIN_COUNTRY_UNKNOWN",
+      "detail_pt": "O passageiro disse ter comprado os produtos no exterior, mas país de compra e origem do voo não foram informados."
+    },
+    {
+      "case": "Luohu — dois papagaios",
+      "reason": "ORIGIN_UNKNOWN",
+      "detail_pt": "Entrada por Luohu sem ponto de partida explicitado; não inferir Hong Kong."
+    },
+    {
+      "case": "Hangzhou — 26 produtos de marfim",
+      "reason": "FLIGHT_ORIGIN_UNKNOWN",
+      "detail_pt": "Duas interceptações de entrada sem origem dos voos publicada."
+    },
+    {
+      "case": "Luohu — seis tartarugas",
+      "reason": "ORIGIN_UNKNOWN",
+      "detail_pt": "Entrada por Luohu sem ponto de partida explicitado; não inferir Hong Kong."
+    },
+    {
+      "case": "Chengdu — 6.156 sapos",
+      "reason": "LOCAL_SUPPLY_CHAIN_POINTS_UNRESOLVED",
+      "detail_pt": "A cadeia captura-compra-transporte-venda é documentada, mas os pontos espaciais suficientes para uma rota não foram publicados."
+    },
+    {
+      "case": "Smolensk — ursa-parda",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Posse irregular sem transporte ou comércio documentado."
+    },
+    {
+      "case": "Khabarovsk — três corujas-das-torres",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Posse/exibição irregular sem origem ou deslocamento documentados."
+    },
+    {
+      "case": "Ossétia do Norte — filhotes de leão e tigre",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "A apreensão é documentada, mas origem, aquisição e rota não foram divulgadas."
     }
   ]
 }
