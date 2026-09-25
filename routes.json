@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T13:45:00Z",
+  "updated_at": "2026-09-25T14:35:00Z",
   "audited_through": "2026-09-25",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -3826,6 +3826,265 @@
       "evidence_es": "La fuente informa que los pasajeros viajaban en autobús de Zabaikalsk a Manzhouli, China, con diez fragmentos de colmillos de morsa ocultos.",
       "source_label": "Federal Customs Service / TKS",
       "source_url": "https://www.tks.ru/crime/2026/08/10/02/turistyi-spryatali-pod-odezhdoj-pochti-7-kg-bivnej-morzha-pered-poezdkoj-v-kitaj/"
+    },
+    {
+      "id": "bangkok-chennai-31-reptiles-2026-02-11",
+      "event_match": {
+        "location_contains": "Chennai",
+        "event_date": "2026-02-11"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Chennai",
+      "label_en": "Bangkok → Chennai",
+      "label_es": "Bangkok → Chennai",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.75,
+            "precision": "airport_city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Chennai",
+            "country": "Índia",
+            "lat": 12.9941,
+            "lon": 80.1709,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa explicitamente que o passageiro chegou de Bangkok a Chennai com 31 répteis exóticos.",
+      "evidence_en": "The source explicitly states that the passenger arrived in Chennai from Bangkok with 31 exotic reptiles.",
+      "evidence_es": "La fuente indica explícitamente que el pasajero llegó a Chennai desde Bangkok con 31 reptiles exóticos.",
+      "source_label": "PTI / ThePrint / Chennai Customs",
+      "source_url": "https://theprint.in/india/bid-to-smuggle-exotic-animals-foiled-at-chennai-airport-passenger-held/2853296/"
+    },
+    {
+      "id": "kuala-lumpur-chennai-34-reptiles-2026-04-03",
+      "event_match": {
+        "location_contains": "Chennai",
+        "event_date": "2026-04-03"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Kuala Lumpur → Chennai",
+      "label_en": "Kuala Lumpur → Chennai",
+      "label_es": "Kuala Lumpur → Chennai",
+      "segments": [
+        {
+          "from": {
+            "name": "Kuala Lumpur",
+            "country": "Malásia",
+            "lat": 2.7456,
+            "lon": 101.7099,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Chennai",
+            "country": "Índia",
+            "lat": 12.9941,
+            "lon": 80.1709,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte identifica o voo AirAsia de Kuala Lumpur no qual o passageiro chegou a Chennai com 34 répteis.",
+      "evidence_en": "The source identifies the AirAsia flight from Kuala Lumpur on which the passenger arrived in Chennai with 34 reptiles.",
+      "evidence_es": "La fuente identifica el vuelo AirAsia desde Kuala Lumpur en el que el pasajero llegó a Chennai con 34 reptiles.",
+      "source_label": "Times of India / Chennai Customs",
+      "source_url": "https://timesofindia.indiatimes.com/city/chennai/exotic-wildlife-smuggling-resurfaces-49-species-seized-in-2-days-at-chennai-airport/articleshow/130178134.cms"
+    },
+    {
+      "id": "bangkok-chennai-15-animals-2026-04-04",
+      "event_match": {
+        "location_contains": "Chennai",
+        "event_date": "2026-04-04"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Chennai",
+      "label_en": "Bangkok → Chennai",
+      "label_es": "Bangkok → Chennai",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.75,
+            "precision": "airport_city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Chennai",
+            "country": "Índia",
+            "lat": 12.9941,
+            "lon": 80.1709,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A bagagem abandonada contendo 15 animais chegou em voo de Bangkok a Chennai.",
+      "evidence_en": "The abandoned baggage containing 15 animals arrived on a flight from Bangkok to Chennai.",
+      "evidence_es": "El equipaje abandonado con 15 animales llegó en un vuelo de Bangkok a Chennai.",
+      "source_label": "Times of India / Chennai Customs",
+      "source_url": "https://timesofindia.indiatimes.com/city/chennai/exotic-wildlife-smuggling-resurfaces-49-species-seized-in-2-days-at-chennai-airport/articleshow/130178134.cms"
+    },
+    {
+      "id": "bangkok-kolkata-27-gibbons-turtles-2026-04-07",
+      "event_match": {
+        "location_contains": "Kolkata",
+        "event_date": "2026-04-07"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Kolkata",
+      "label_en": "Bangkok → Kolkata",
+      "label_es": "Bangkok → Kolkata",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.75,
+            "precision": "airport_city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Kolkata",
+            "country": "Índia",
+            "lat": 22.6547,
+            "lon": 88.4467,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que a carga chegou de Bangkok no voo Thai Airways TG313.",
+      "evidence_en": "The source states that the shipment arrived from Bangkok on Thai Airways flight TG313.",
+      "evidence_es": "La fuente informa que el cargamento llegó desde Bangkok en el vuelo Thai Airways TG313.",
+      "source_label": "Times of India / Kolkata Customs",
+      "source_url": "https://timesofindia.indiatimes.com/city/kolkata/critically-endangered-gibbon-turtles-seized-at-city-airport/articleshow/130095704.cms"
+    },
+    {
+      "id": "bangkok-kolkata-reptiles-2026-07-03",
+      "event_match": {
+        "location_contains": "Kolkata",
+        "event_date": "2026-07-03"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Kolkata",
+      "label_en": "Bangkok → Kolkata",
+      "label_es": "Bangkok → Kolkata",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.75,
+            "precision": "airport_city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Kolkata",
+            "country": "Índia",
+            "lat": 22.6547,
+            "lon": 88.4467,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa explicitamente que a grande carga de répteis veio de Bangkok em voo da Thai Airways.",
+      "evidence_en": "The source explicitly states that the large reptile shipment came from Bangkok on a Thai Airways flight.",
+      "evidence_es": "La fuente indica explícitamente que el gran cargamento de reptiles llegó desde Bangkok en un vuelo de Thai Airways.",
+      "source_label": "Times of India / Kolkata Customs",
+      "source_url": "https://timesofindia.indiatimes.com/city/kolkata/hundreds-of-exotic-indian-reptiles-seized-at-airport/articleshow/132163627.cms"
+    },
+    {
+      "id": "bangkok-kolkata-707-sliders-2026-07-22",
+      "event_match": {
+        "location_contains": "Kolkata",
+        "event_date": "2026-07-22"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Kolkata",
+      "label_en": "Bangkok → Kolkata",
+      "label_es": "Bangkok → Kolkata",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.75,
+            "precision": "airport_city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Kolkata",
+            "country": "Índia",
+            "lat": 22.6547,
+            "lon": 88.4467,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o passageiro chegou de Bangkok a Kolkata com 707 tartarugas vivas.",
+      "evidence_en": "The source states that the passenger arrived in Kolkata from Bangkok with 707 live turtles.",
+      "evidence_es": "La fuente informa que el pasajero llegó a Kolkata desde Bangkok con 707 tortugas vivas.",
+      "source_label": "Indian Express / Kolkata Customs",
+      "source_url": "https://indianexpress.com/article/cities/kolkata/chennai-man-from-bangkok-and-707-hidden-exotic-turtles-how-kolkata-customs-officials-stopped-wildlife-trafficking-10799274/"
+    },
+    {
+      "id": "jamshoro-karachi-pelicans-2026-06-23",
+      "event_match": {
+        "location_contains": "Jamshoro",
+        "event_date": "2026-06-23"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_destination_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Jamshoro → Karachi (segmento documentado)",
+      "label_en": "Jamshoro → Karachi (documented segment)",
+      "label_es": "Jamshoro → Karachi (segmento documentado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Jamshoro — ponto de interceptação",
+            "country": "Paquistão",
+            "lat": 25.416,
+            "lon": 68.28,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Karachi — destino declarado",
+            "country": "Paquistão",
+            "lat": 24.8607,
+            "lon": 67.0011,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que os suspeitos tentavam transportar os pelicanos para Karachi e foram interceptados na Indus Highway, em Jamshoro. A origem no Lago Manchhar é apenas hipótese da autoridade e não integra a linha.",
+      "evidence_en": "The source states that the suspects were attempting to transport the pelicans to Karachi and were intercepted on the Indus Highway in Jamshoro. Manchhar Lake origin is only an authority hypothesis and is not included in the line.",
+      "evidence_es": "La fuente informa que los sospechosos intentaban transportar los pelícanos a Karachi y fueron interceptados en la Indus Highway, en Jamshoro. El origen en el lago Manchhar es solo una hipótesis de la autoridad y no se incluye en la línea.",
+      "source_label": "Dawn / Sindh Wildlife Department",
+      "source_url": "https://www.dawn.com/news/2010397"
     }
   ],
   "network_context": [
@@ -4027,6 +4286,136 @@
       "case": "Ossétia do Norte — filhotes de leão e tigre",
       "reason": "ORIGIN_DESTINATION_UNKNOWN",
       "detail_pt": "A apreensão é documentada, mas origem, aquisição e rota não foram divulgadas."
+    },
+    {
+      "case": "Cairo Diana Market — 20 wildlife specimens",
+      "reason": "LOCAL_MARKET_NO_ROUTE",
+      "detail_pt": "Comércio/posse ilegal em mercado sem origem ou destino documentados."
+    },
+    {
+      "case": "Cairo Friday Market — threatened wildlife",
+      "reason": "LOCAL_MARKET_NO_ROUTE",
+      "detail_pt": "Apreensão em mercado sem origem, destino ou cadeia de fornecimento publicada."
+    },
+    {
+      "case": "Obour Market — six loggerhead turtles",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "As tartarugas estavam à venda, mas origem e fornecedores não foram determinados."
+    },
+    {
+      "case": "Cairo Diana Market — chameleons and tortoises",
+      "reason": "LOCAL_MARKET_NO_ROUTE",
+      "detail_pt": "Nova apreensão em mercado sem rota documentada."
+    },
+    {
+      "case": "6 October City — pelican",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Posse/exibição irregular sem origem ou transporte documentados."
+    },
+    {
+      "case": "Dubai Airport — rare bears",
+      "reason": "FLIGHT_ORIGIN_UNKNOWN",
+      "detail_pt": "Passageira chegou aos Emirados, mas o país de origem do voo não foi divulgado."
+    },
+    {
+      "case": "Asir — endangered ibex case",
+      "reason": "LOCAL_HUNTING_NO_ROUTE",
+      "detail_pt": "Caça ilegal local sem deslocamento comercial documentado."
+    },
+    {
+      "case": "King Salman Royal Reserve — 15 hunted animals",
+      "reason": "LOCAL_HUNTING_NO_ROUTE",
+      "detail_pt": "Caça sem licença dentro da reserva; não há rota."
+    },
+    {
+      "case": "Kuwait — CITES organisms",
+      "reason": "LOCATION_ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "A fonte não publica local específico, espécies, origem ou destino."
+    },
+    {
+      "case": "Daraya/Denniyeh — goldfinches",
+      "reason": "LOCAL_HUNTING_NO_ROUTE",
+      "detail_pt": "Caça/captura local sem rota comercial documentada."
+    },
+    {
+      "case": "Marrakech — tortoise sale",
+      "reason": "LOCAL_MARKET_NO_ROUTE",
+      "detail_pt": "Venda local documentada, sem origem ou deslocamento confirmado."
+    },
+    {
+      "case": "Mysuru — 4.058 kg ivory",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "Comércio ilegal confirmado, mas origem e destino do marfim não foram publicados."
+    },
+    {
+      "case": "Srikakulam/Rayakurdi — 21 animals",
+      "reason": "NETWORK_NO_DOCUMENTED_ROUTE",
+      "detail_pt": "A operação liga duas apreensões à mesma investigação, mas não documenta trajeto dos animais."
+    },
+    {
+      "case": "Maharashtra/West Bengal — 53 animals",
+      "reason": "MULTI_LOCATION_NETWORK_NO_ROUTE",
+      "detail_pt": "A operação é multi-local, sem divisão de origem-destino por animal."
+    },
+    {
+      "case": "Sujangarh — 11 kg ivory",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "Comércio ilegal confirmado, sem origem ou destino publicado."
+    },
+    {
+      "case": "Howrah — two ivory idols",
+      "reason": "SUSPECTED_ORIGIN_ONLY",
+      "detail_pt": "A DRI suspeita de procedência de Bangladesh, mas não confirma; não renderizar rota factual."
+    },
+    {
+      "case": "Surat — 18 star tortoises",
+      "reason": "LOCAL_TRADE_NO_ROUTE",
+      "detail_pt": "Venda ilegal local sem origem ou destino documentados."
+    },
+    {
+      "case": "Nawan Kot — 11 lions",
+      "reason": "ILLEGAL_POSSESSION_TRANSPORT_NO_ROUTE",
+      "detail_pt": "O incidente inclui transporte local de leoa, mas não documenta origem-destino suficiente para rota."
+    },
+    {
+      "case": "Lahore division — 20 lions",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Apreensão em criadouro por descumprimento de normas; sem rota."
+    },
+    {
+      "case": "Jhelum — 23 big cats",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Apreensão em instalação privada; sem origem ou rota publicada."
+    },
+    {
+      "case": "Multan — nine lions and one primate",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Apreensão em criadouro privado; sem origem ou rota publicada."
+    },
+    {
+      "case": "Gujranwala — three lions",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Posse irregular local; sem rota."
+    },
+    {
+      "case": "Sialkot — two lions",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Posse irregular local; sem rota."
+    },
+    {
+      "case": "Faisalabad — two lions",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Posse irregular local; sem rota."
+    },
+    {
+      "case": "Multan — 130 birds",
+      "reason": "DESTINATIONS_UNSPECIFIED",
+      "detail_pt": "A fonte informa saída de Multan para outras cidades, mas não identifica destinos."
+    },
+    {
+      "case": "Bahawalnagar — 19 birds",
+      "reason": "AGGREGATE_LOCAL_ENFORCEMENT_NO_ROUTE",
+      "detail_pt": "Várias ações locais agregadas, sem trajetos individualizados."
     }
   ]
 }
