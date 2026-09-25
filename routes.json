@@ -4085,6 +4085,43 @@
       "evidence_es": "La fuente informa que los sospechosos intentaban transportar los pelícanos a Karachi y fueron interceptados en la Indus Highway, en Jamshoro. El origen en el lago Manchhar es solo una hipótesis de la autoridad y no se incluye en la línea.",
       "source_label": "Dawn / Sindh Wildlife Department",
       "source_url": "https://www.dawn.com/news/2010397"
+    },
+    {
+      "id": "hahaya-addis-ababa-lemurs-2026-05-28",
+      "event_match": {
+        "location_contains": "Hahaya",
+        "event_date": "2026-05-28"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_transit_segment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hahaya → Addis Abeba (Índia informada como destino final, cidade não publicada)",
+      "label_en": "Hahaya → Addis Ababa (India reported as final destination; city not published)",
+      "label_es": "Hahaya → Addis Abeba (India informada como destino final; ciudad no publicada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Hahaya / Prince Said Ibrahim International Airport",
+            "country": "Comores",
+            "lat": -11.5337,
+            "lon": 43.2719,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Addis Abeba Bole",
+            "country": "Etiópia",
+            "lat": 8.9779,
+            "lon": 38.7993,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A Alfândega de Comores informa que cinco lêmures vivos foram apreendidos no voo Ethiopian Airlines ET825, com destino à Índia via Addis Abeba. Como a cidade de destino na Índia não foi publicada, a linha é interrompida no ponto de trânsito documentado.",
+      "evidence_en": "Comoros Customs reports that five live lemurs were seized aboard Ethiopian Airlines flight ET825, bound for India via Addis Ababa. Because the destination city in India was not published, the rendered line stops at the documented transit point.",
+      "evidence_es": "Aduanas de Comoras informa que cinco lémures vivos fueron decomisados a bordo del vuelo ET825 de Ethiopian Airlines, con destino a India vía Addis Abeba. Como no se publicó la ciudad de destino en India, la línea termina en el punto de tránsito documentado.",
+      "source_label": "Comorian Customs",
+      "source_url": "https://www.douane.gov.km/lire-actu.php?id=30&lang=en"
     }
   ],
   "network_context": [
