@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T01:50:00Z",
+  "updated_at": "2026-09-25T12:54:00Z",
   "audited_through": "2026-09-25",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -3588,6 +3588,43 @@
       "evidence_es": "La Fiscalía peruana informa que los documentos indicaban procedencia de Loreto, pero la fiscalización constató que los recursos transportados por Men del Norte procedían de Brasil. No se informó ningún municipio brasileño de origen.",
       "source_label": "Ministerio Público - Fiscalía de la Nación (Peru)",
       "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1392530-fema-logra-la-incautacion-de-embarcacion-fluvial-por-presunto-trafico-ilegal-de-recursos-hidrobiologicos"
+    },
+    {
+      "id": "nanyuki-meru-highway-makutano-2026-09-25",
+      "event_match": {
+        "location_contains": "Nanyuki",
+        "event_date": "2026-09-25"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_corridor_partial",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Rodovia Nanyuki–Meru → Makutano (segmento documentado)",
+      "label_en": "Nanyuki–Meru Highway → Makutano (documented segment)",
+      "label_es": "Carretera Nanyuki–Meru → Makutano (segmento documentado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Corredor Nanyuki–Meru — ponto inicial não especificado",
+            "country": "Quênia",
+            "lat": 0.014,
+            "lon": 37.0746,
+            "precision": "corridor_generalized"
+          },
+          "to": {
+            "name": "Makutano, Laikipia",
+            "country": "Quênia",
+            "lat": 0.036,
+            "lon": 37.083,
+            "precision": "locality_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que os investigadores acompanharam o deslocamento das presas pela rodovia Nanyuki–Meru e que o material seguia em direção a Makutano, onde ocorreu a interceptação. A origem das presas e o destino final não foram informados; por isso a linha representa apenas o segmento/corredor documentado.",
+      "evidence_en": "The source states that investigators tracked the tusks along the Nanyuki–Meru Highway and that the material was moving toward Makutano, where it was intercepted. The tusks' origin and final destination were not reported, so the line represents only the documented corridor segment.",
+      "evidence_es": "La fuente informa que los investigadores siguieron los colmillos por la carretera Nanyuki–Meru y que el material se desplazaba hacia Makutano, donde fue interceptado. No se informó el origen de los colmillos ni el destino final, por lo que la línea representa únicamente el segmento/corredor documentado.",
+      "source_label": "People Daily",
+      "source_url": "https://peopledaily.digital/news/2-elephant-tusks-recovered-as-police-apprehend-person-of-interest-in-nanyuki"
     }
   ],
   "network_context": [
@@ -3659,6 +3696,26 @@
       "case": "Quy Nhon — país de origem",
       "reason": "COUNTRY_CONFLICT",
       "detail_pt": "Manter apenas África → Vietnã até resolver a divergência entre República do Congo e República Democrática do Congo."
+    },
+    {
+      "case": "Lanchang — nove porcos-espinhos-malaios",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "A fonte documenta captura com armadilhas e venda de carne sob encomenda, mas não identifica locais de captura, compradores, origem ou destino; nenhuma rota é inferida."
+    },
+    {
+      "case": "Jérica/Sot de Ferrer — 209 répteis",
+      "reason": "NETWORK_CONTACTS_NOT_CASE_ROUTE",
+      "detail_pt": "A investigação cita contatos em países da América, África e Ásia, mas não individualiza a origem, o trajeto ou o destino dos animais apreendidos; contatos comerciais não são convertidos em rota factual."
+    },
+    {
+      "case": "Ambon — nuri-kelam no KM Gunung Dempo",
+      "reason": "VESSEL_ITINERARY_NOT_ANIMAL_ROUTE",
+      "detail_pt": "O navio operava o itinerário Jayapura–Nabire–Manokwari–Sorong–Ambon–Jakarta, mas não se sabe onde a ave embarcou nem seu destino pretendido; o itinerário do navio não é tratado como rota comprovada do animal."
+    },
+    {
+      "case": "Los Reyes/Peribán — tigre, macaco-aranha e psitacídeos",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "As fontes não informam origem geográfica, fornecedores, compradores ou deslocamentos dos animais; nenhuma rota é desenhada."
     }
   ]
 }
