@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T14:35:00Z",
-  "audited_through": "2026-09-25",
+  "updated_at": "2026-09-26T03:30:00Z",
+  "audited_through": "2026-09-26",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -4122,6 +4122,43 @@
       "evidence_es": "Aduanas de Comoras informa que cinco lémures vivos fueron decomisados a bordo del vuelo ET825 de Ethiopian Airlines, con destino a India vía Addis Abeba. Como no se publicó la ciudad de destino en India, la línea termina en el punto de tránsito documentado.",
       "source_label": "Comorian Customs",
       "source_url": "https://www.douane.gov.km/lire-actu.php?id=30&lang=en"
+    },
+    {
+      "id": "saronggi-bangkalan-suramadu-birds-2026-09-22",
+      "event_match": {
+        "location_contains": "Bangkalan",
+        "event_date": "2026-09-22"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_multimodal_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Saronggi, Sumenep → Bangkalan / acesso à Suramadu (segmento documentado)",
+      "label_en": "Saronggi, Sumenep → Bangkalan / Suramadu approach (documented segment)",
+      "label_es": "Saronggi, Sumenep → Bangkalan / acceso a Suramadu (segmento documentado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Sungai Saronggi / Sumenep — pequeno porto",
+            "country": "Indonésia",
+            "lat": -7.1253,
+            "lon": 113.8686,
+            "precision": "district_generalized"
+          },
+          "to": {
+            "name": "Burneh, Bangkalan — área de interceptação",
+            "country": "Indonésia",
+            "lat": -7.03194,
+            "lon": 112.79972,
+            "precision": "road_district_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial informa que as 3.578 aves foram recolhidas em um pequeno porto de Sungai Saronggi, Sumenep, após desembarque de uma embarcação e depois transportadas por terra; os dois veículos foram interceptados em Burneh, Bangkalan, enquanto seguiam em direção ao acesso da Ponte Suramadu. A origem anterior a Saronggi e o destino final não foram confirmados; a hipótese investigativa de procedência mais ampla a partir de Kalimantan não integra a linha.",
+      "evidence_en": "The official source states that the 3,578 birds were collected at a small port in Sungai Saronggi, Sumenep, after unloading from a vessel and were then transported by road; the two vehicles were intercepted in Burneh, Bangkalan, while heading toward the Suramadu Bridge approach. Origin before Saronggi and the final destination were not confirmed; the investigative hypothesis of broader provenance from Kalimantan is not included in the rendered line.",
+      "evidence_es": "La fuente oficial informa que las 3.578 aves fueron recogidas en un pequeño puerto de Sungai Saronggi, Sumenep, tras ser desembarcadas de una embarcación y luego transportadas por carretera; los dos vehículos fueron interceptados en Burneh, Bangkalan, mientras se dirigían hacia el acceso del puente Suramadu. No se confirmaron el origen anterior a Saronggi ni el destino final; la hipótesis investigativa de una procedencia más amplia desde Kalimantan no se incluye en la línea.",
+      "source_label": "Gakkum Kehutanan / Kementerian Kehutanan",
+      "source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/kemenhut-gagalkan-pengangkutan-3578-burung-antarpulau-ditetapkan-dua-tersangka-dan-rantai-peredaran-ditelusuri"
     }
   ],
   "network_context": [
@@ -4453,6 +4490,36 @@
       "case": "Bahawalnagar — 19 birds",
       "reason": "AGGREGATE_LOCAL_ENFORCEMENT_NO_ROUTE",
       "detail_pt": "Várias ações locais agregadas, sem trajetos individualizados."
+    },
+    {
+      "case": "Recanto das Emas — cinco canários-da-terra",
+      "reason": "ILLEGAL_POSSESSION_NO_ROUTE",
+      "detail_pt": "Posse/cativeiro irregular local sem origem, destino ou deslocamento dos animais documentados."
+    },
+    {
+      "case": "Alexandria — três aves de rapina",
+      "reason": "ILLEGAL_POSSESSION_EXPLOITATION_NO_ROUTE",
+      "detail_pt": "Aves mantidas e exploradas comercialmente em dois bairros, mas sem origem, destino ou movimento anterior documentados."
+    },
+    {
+      "case": "Punjab — cerca de 6.000 aves",
+      "reason": "AGGREGATE_MULTI_LOCATION_NO_SINGLE_ROUTE",
+      "detail_pt": "Boletim agrega várias ações em cidades distintas, sem datas individualizadas nem origem/destino dos principais deslocamentos. O registro também permanece fora dos totais até reconciliação com outros casos do Punjab."
+    },
+    {
+      "case": "Huanqueros — 72 patos-crestón",
+      "reason": "LOCAL_HUNTING_NO_ROUTE",
+      "detail_pt": "Caso de caça e abordagem local; não há origem-destino comercial ou deslocamento de fauna suficientemente documentado para rota."
+    },
+    {
+      "case": "Silvio Pettirossi — 48 ovos de aves",
+      "reason": "ORIGIN_DESTINATION_UNKNOWN",
+      "detail_pt": "Apreensão em bagagem no aeroporto, mas origem do voo, destino e itinerário não foram publicados."
+    },
+    {
+      "case": "Ragusa — 39 coelhos e aves",
+      "reason": "AGGREGATE_LOCAL_HUNTING_NO_ROUTE",
+      "detail_pt": "Série agregada de fiscalizações locais sem trajetos individualizados ou cadeia de transporte documentada."
     }
   ]
 }
