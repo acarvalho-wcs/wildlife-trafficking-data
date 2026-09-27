@@ -131,6 +131,12 @@ def compose(manifest, records):
         return records
     key = manifest.get("records_key") or "cases"
     out = dict(manifest.get("passthrough") or {})
+    # Keep public-feed metadata synchronized with the compiled record array.
+    # Some dashboard consumers validate the declared count before rendering.
+    if "count" in out:
+        out["count"] = len(records)
+    if isinstance(out.get("migration_status"), str) and out["migration_status"].startswith("LIVE_GITHUB_DATA_"):
+        out["migration_status"] = f"LIVE_GITHUB_DATA_{len(records)}_CASES"
     out[key] = records
     return out
 
