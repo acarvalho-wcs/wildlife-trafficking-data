@@ -11,6 +11,515 @@
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
   "count": 383,
+  "reconstructed_at": "2026-09-22T08:12:00Z",
+  "reconstruction_batches": [
+    {
+      "batch": "baseline_site_projection",
+      "count": 41,
+      "legacy_site_id_range": null,
+      "confidence": "DIRECT_SITE_PROJECTION"
+    },
+    {
+      "batch": "shark_ray_2026",
+      "count": 26,
+      "legacy_site_id_range": [
+        "3043",
+        "3068"
+      ],
+      "confidence": "CONFIRMED_PRIOR_RECORD_ORDER"
+    },
+    {
+      "batch": "sep19_update",
+      "count": 8,
+      "legacy_site_id_range": [
+        "3069",
+        "3076"
+      ],
+      "confidence": "HIGH_CONFIDENCE_BATCH_RECONSTRUCTION; individual legacy ID mapping unresolved"
+    },
+    {
+      "batch": "sep21_update",
+      "count": 16,
+      "legacy_site_id_range": [
+        "3077",
+        "3092"
+      ],
+      "confidence": "CONFIRMED_BATCH_EVENTS; individual legacy ID mapping unresolved"
+    },
+    {
+      "batch": "post_migration_ingestion",
+      "count": 1,
+      "legacy_site_id_range": null,
+      "confidence": "DIRECT_PRIMARY_OR_RECONCILED_SOURCE"
+    },
+    {
+      "batch": "post_migration_ingestion_brazil_2026_batch1",
+      "count": 18,
+      "legacy_site_id_range": null,
+      "confidence": "DIRECT_PRIMARY_OR_RECONCILED_SOURCE"
+    },
+    {
+      "batch": "post_migration_ingestion_global_2026_batch2",
+      "count": 6,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS"
+    },
+    {
+      "batch": "seven_day_review_2026-09-23",
+      "count": 12,
+      "newly_documented_cases": 10,
+      "restored_previously_published_cases": 2,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "search_window_start": "2026-09-15T23:03:27Z",
+      "search_window_end": "2026-09-22T23:03:27Z",
+      "added_at": "2026-09-22T23:12:56.254Z"
+    },
+    {
+      "batch": "daily_ingestion_2026-09-24",
+      "count": 8,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "search_window_start": "2026-09-22T23:00:26Z",
+      "search_window_end": "2026-09-23T23:00:26Z",
+      "added_at": "2026-09-23T23:09:57Z"
+    },
+    {
+      "batch": "asia_2026_multilingual_2026-09-24",
+      "count": 24,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS"
+    },
+    {
+      "batch": "oceania_2026_multilingual_2026-09-24",
+      "count": 2,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS"
+    },
+    {
+      "batch": "invertebrates_2026_multilingual_2026-09-24_a",
+      "count": 10,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T14:35:00Z"
+    },
+    {
+      "batch": "invertebrates_2026_multilingual_2026-09-24_b",
+      "count": 8,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T14:42:00Z"
+    },
+    {
+      "batch": "insects_followup_2025_2026_2026-09-24",
+      "count": 3,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T15:12:00Z"
+    },
+    {
+      "batch": "daily_ingestion_2026_09_25",
+      "count": 5,
+      "added_at": "2026-09-24T23:14:00Z"
+    },
+    {
+      "batch": "amazon_2026_validated_2026-09-25_a",
+      "count": 7,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T01:20:00Z"
+    },
+    {
+      "batch": "amazon_2026_validated_2026-09-25_b",
+      "count": 9,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T01:33:00Z"
+    },
+    {
+      "batch": "amazon_2026_validated_2026-09-25_c",
+      "count": 5,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T01:43:00Z"
+    },
+    {
+      "batch": "daily_ingestion_2026_09_25_b",
+      "count": 5,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T12:54:00Z"
+    },
+    {
+      "batch": "china_russia_2026_multilingual_2026_09_25",
+      "count": 27,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T13:45:00Z"
+    },
+    {
+      "batch": "arab_india_pakistan_2026_multilingual_2026_09_25",
+      "count": 33,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T14:35:00Z"
+    },
+    {
+      "batch": "daily_ingestion_2026_09_26",
+      "count": 7,
+      "legacy_site_id_range": null,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-26T03:30:00Z"
+    }
+  ],
+  "field_parity_progress": {
+    "sep19_sep21_recent_records": {
+      "records": 24,
+      "title_en_es_complete": 24,
+      "card_en_es_complete": 24,
+      "source_urls_reconciled": 24,
+      "geodata_pending": 0,
+      "case_context_pending": 24,
+      "updated_at": "2026-09-22T01:35:00Z",
+      "case_context_complete": 24,
+      "text_parity_complete": 24
+    },
+    "shark_ray_2026": {
+      "records": 26,
+      "title_en_es_complete": 26,
+      "card_en_es_complete": 26,
+      "case_context_complete": 26,
+      "text_parity_complete": 26,
+      "source_urls_reconciled": 26,
+      "source_urls_pending": 0,
+      "geodata_pending": 0,
+      "updated_at": "2026-09-22T02:10:00Z"
+    },
+    "original_41": {
+      "records": 41,
+      "source_urls_reconciled": 41,
+      "source_urls_pending": 0,
+      "title_en_es_complete": 41,
+      "card_en_es_complete": 41,
+      "case_context_complete": 41,
+      "geodata_pending": 0,
+      "updated_at": "2026-09-22T03:45:00Z"
+    },
+    "global_sep22_batch": {
+      "records": 6,
+      "title_en_es_complete": 6,
+      "card_en_es_complete": 6,
+      "source_urls_reconciled": 6,
+      "geodata_pending": 0,
+      "case_context_complete": 6,
+      "text_parity_complete": 6,
+      "image_source_linkage_complete": 6,
+      "updated_at": "2026-09-22T08:12:00Z"
+    },
+    "seven_day_review_2026_09_23": {
+      "records": 12,
+      "title_en_es_complete": 12,
+      "card_en_es_complete": 12,
+      "source_urls_reconciled": 12,
+      "geodata_pending": 0,
+      "case_context_complete": 12,
+      "text_parity_complete": 12,
+      "updated_at": "2026-09-22T23:12:56.254Z"
+    },
+    "daily_ingestion_2026_09_24": {
+      "records": 8,
+      "title_en_es_complete": 8,
+      "card_en_es_complete": 8,
+      "source_urls_reconciled": 8,
+      "geodata_pending": 0,
+      "case_context_complete": 8,
+      "text_parity_complete": 8,
+      "updated_at": "2026-09-23T23:09:57Z"
+    },
+    "americas_2026_multilingual_2026_09_24": {
+      "records": 28,
+      "title_en_es_complete": 28,
+      "card_en_es_complete": 28,
+      "source_urls_reconciled": 28,
+      "geodata_pending": 0,
+      "case_context_complete": 28,
+      "text_parity_complete": 28,
+      "updated_at": "2026-09-24T02:45:00Z"
+    },
+    "asia_2026_multilingual_2026_09_24": {
+      "records": 24,
+      "title_en_es_complete": 24,
+      "card_en_es_complete": 24,
+      "source_urls_reconciled": 24,
+      "geodata_pending": 0,
+      "case_context_complete": 24,
+      "text_parity_complete": 24,
+      "updated_at": "2026-09-24T03:25:00Z"
+    },
+    "oceania_2026_multilingual_2026_09_24": {
+      "records": 2,
+      "title_en_es_complete": 2,
+      "card_en_es_complete": 2,
+      "source_urls_reconciled": 2,
+      "geodata_pending": 0,
+      "case_context_complete": 2,
+      "text_parity_complete": 2,
+      "updated_at": "2026-09-24T03:50:00Z"
+    },
+    "invertebrates_2026_multilingual_2026_09_24": {
+      "records": 18,
+      "title_en_es_complete": 18,
+      "card_en_es_complete": 18,
+      "source_urls_reconciled": 18,
+      "geodata_pending": 0,
+      "case_context_complete": 18,
+      "text_parity_complete": 18,
+      "updated_at": "2026-09-24T14:49:00Z"
+    },
+    "insects_followup_2025_2026_2026_09_24": {
+      "records": 3,
+      "title_en_es_complete": 3,
+      "card_en_es_complete": 3,
+      "source_urls_reconciled": 3,
+      "geodata_pending": 0,
+      "case_context_complete": 3,
+      "text_parity_complete": 3,
+      "updated_at": "2026-09-24T15:12:00Z"
+    },
+    "daily_ingestion_2026_09_25": {
+      "records": 5,
+      "title_en_es_complete": 5,
+      "card_en_es_complete": 5,
+      "source_urls_reconciled": 5,
+      "geodata_pending": 0,
+      "case_context_complete": 5,
+      "text_parity_complete": 5,
+      "image_source_linkage_complete": 5,
+      "updated_at": "2026-09-24T23:14:00Z"
+    },
+    "amazon_2026_validated_2026_09_25": {
+      "records": 21,
+      "title_en_es_complete": 21,
+      "card_en_es_complete": 21,
+      "source_urls_reconciled": 21,
+      "geodata_pending": 0,
+      "case_context_complete": 21,
+      "text_parity_complete": 21,
+      "updated_at": "2026-09-25T01:57:00Z"
+    },
+    "daily_ingestion_2026_09_25_b": {
+      "records": 5,
+      "title_en_es_complete": 5,
+      "card_en_es_complete": 5,
+      "source_urls_reconciled": 5,
+      "geodata_pending": 0,
+      "case_context_complete": 5,
+      "text_parity_complete": 5,
+      "image_source_linkage_complete": 5,
+      "updated_at": "2026-09-25T12:54:00Z"
+    },
+    "china_russia_2026_multilingual_2026_09_25": {
+      "records": 27,
+      "title_en_es_complete": 27,
+      "card_en_es_complete": 27,
+      "source_urls_reconciled": 27,
+      "geodata_pending": 0,
+      "case_context_complete": 27,
+      "text_parity_complete": 27,
+      "image_source_linkage_complete": 27,
+      "updated_at": "2026-09-25T13:45:00Z"
+    },
+    "arab_india_pakistan_2026_multilingual_2026_09_25": {
+      "records": 33,
+      "title_en_es_complete": 33,
+      "card_en_es_complete": 33,
+      "source_urls_reconciled": 33,
+      "geodata_pending": 0,
+      "case_context_complete": 33,
+      "text_parity_complete": 33,
+      "image_source_linkage_complete": 33,
+      "updated_at": "2026-09-25T14:35:00Z"
+    },
+    "daily_ingestion_2026_09_26": {
+      "records": 7,
+      "title_en_es_complete": 7,
+      "card_en_es_complete": 7,
+      "source_urls_reconciled": 7,
+      "geodata_pending": 0,
+      "case_context_complete": 7,
+      "text_parity_complete": 7,
+      "image_source_linkage_complete": 7,
+      "updated_at": "2026-09-26T03:30:00Z"
+    }
+  },
+  "geodata_progress": {
+    "records_total": 383,
+    "coordinates_complete": 383,
+    "coordinates_pending": 0,
+    "precision_classified": 383,
+    "updated_at": "2026-09-26T03:30:00Z",
+    "note": "Coordinates are representative points with explicit precision classes; generalized events are not presented as exact locations."
+  },
+  "audit_status": {
+    "audited_records": 383,
+    "ids_unique": true,
+    "sources_complete": true,
+    "translations_complete": true,
+    "geodata_complete": true,
+    "route_matches_unique": true,
+    "aggregate_flags_reviewed": true,
+    "structured_quantities": true,
+    "image_source_linkage_new_batch": true,
+    "updated_at": "2026-09-26T03:30:00Z"
+  },
+  "quantity_layer": {
+    "status": "COMPLETE_FOR_DASHBOARD",
+    "fields": [
+      "quantity_count",
+      "quantity_qualifier",
+      "quantity_kind",
+      "quantity_by_group",
+      "quantity_unassigned",
+      "quantity_note_pt"
+    ],
+    "rule": "Only countable animals or wildlife items are numeric. Kilograms, tonnes, packaging units and other weights/volumes are not converted into animal/item counts.",
+    "updated_at": "2026-09-26T03:30:00Z"
+  },
+  "dashboard_validation_snapshot": {
+    "cases_total": 383,
+    "cases_in_totals": 378,
+    "fauna_event_counts": {
+      "Mamíferos": 140,
+      "Aves": 108,
+      "Répteis": 111,
+      "Peixes": 50,
+      "Anfíbios": 7,
+      "Insetos": 13
+    },
+    "modal_event_counts": {
+      "Terrestre": 141,
+      "Não informado": 105,
+      "Marítimo": 27,
+      "Aéreo": 79,
+      "Fluvial": 15,
+      "Postal": 10,
+      "Múltiplos": 1
+    },
+    "fauna_quantities": {
+      "Mamíferos": 1789,
+      "Aves": 11610,
+      "Répteis": 7794,
+      "Peixes": 23113,
+      "Anfíbios": 6248,
+      "Insetos": 6924
+    },
+    "modal_quantities": {
+      "Terrestre": 31763,
+      "Não informado": 3847,
+      "Marítimo": 77784,
+      "Aéreo": 33250,
+      "Fluvial": 299,
+      "Postal": 1034,
+      "Múltiplos": 3578
+    },
+    "total_countable_animals_items": 151555,
+    "quantity_unassigned": 94077,
+    "generated_at": "2026-09-26T03:30:00Z"
+  },
+  "image_progress": {
+    "records_total": 383,
+    "direct_image_urls_validated": 108,
+    "unresolved": 275,
+    "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
+    "updated_at": "2026-09-26T03:30:00Z"
+  },
+  "ingestion_history": [
+    {
+      "batch": "americas_2026_multilingual_2026-09-24",
+      "count": 28,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T02:45:00Z"
+    },
+    {
+      "batch": "asia_2026_multilingual_2026-09-24",
+      "count": 24,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T02:22:00Z"
+    },
+    {
+      "batch": "oceania_2026_multilingual_2026-09-24",
+      "count": 2,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T03:40:00Z"
+    },
+    {
+      "batch": "invertebrates_2026_multilingual_2026-09-24_a",
+      "count": 10,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T14:35:00Z"
+    },
+    {
+      "batch": "invertebrates_2026_multilingual_2026-09-24_b",
+      "count": 8,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T14:42:00Z"
+    },
+    {
+      "batch": "insects_followup_2025_2026_2026-09-24",
+      "count": 3,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T15:12:00Z"
+    },
+    {
+      "batch": "daily_ingestion_2026_09_25",
+      "count": 5,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-24T23:14:00Z",
+      "publication_window_start": "2026-09-23T23:03:10Z",
+      "publication_window_end": "2026-09-24T23:03:10Z"
+    },
+    {
+      "batch": "amazon_2026_validated_2026-09-25_a",
+      "count": 7,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T01:20:00Z"
+    },
+    {
+      "batch": "amazon_2026_validated_2026-09-25_b",
+      "count": 9,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T01:33:00Z"
+    },
+    {
+      "batch": "amazon_2026_validated_2026-09-25_c",
+      "count": 5,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T01:43:00Z"
+    },
+    {
+      "batch": "daily_ingestion_2026_09_25_b",
+      "count": 5,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T12:54:00Z"
+    },
+    {
+      "batch": "china_russia_2026_multilingual_2026_09_25",
+      "count": 27,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T13:45:00Z"
+    },
+    {
+      "batch": "arab_india_pakistan_2026_multilingual_2026_09_25",
+      "count": 33,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-25T14:35:00Z"
+    },
+    {
+      "batch": "daily_ingestion_2026_09_26",
+      "count": 7,
+      "confidence": "CONFIRMED_SOURCE_EVENTS",
+      "added_at": "2026-09-26T03:30:00Z"
+    }
+  ],
+  "updated_at": "2026-09-26T03:30:00Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -25221,515 +25730,290 @@
       "references_text_pt": "Quotidiano di Ragusa — https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/",
       "references_text_en": "Quotidiano di Ragusa — https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/",
       "references_text_es": "Quotidiano di Ragusa — https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/"
-    }
-  ],
-  "reconstructed_at": "2026-09-22T08:12:00Z",
-  "reconstruction_batches": [
-    {
-      "batch": "baseline_site_projection",
-      "count": 41,
-      "legacy_site_id_range": null,
-      "confidence": "DIRECT_SITE_PROJECTION"
     },
     {
-      "batch": "shark_ray_2026",
-      "count": 26,
-      "legacy_site_id_range": [
-        "3043",
-        "3068"
+      "id": "2026-09-23__kisangani-okapi-leopard-skins",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "daily_ingestion_2026_09_27",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-27T06:55:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "country": "República Democrática do Congo",
+      "coordinates": {
+        "lat": 0.5153,
+        "lon": 25.191
+      },
+      "coordinate_precision": "city_generalized",
+      "source_label": "Naturel CD / Conserv Congo",
+      "source_url": "https://naturelcd.net/2026/09/26/kisangani-deux-presumes-trafiquants-arretes-avec-une-peau-dokapi-et-une-peau-de-leopard/",
+      "publication_date": "2026-09-26",
+      "event_date": "2026-09-23",
+      "event_datetime": null,
+      "fauna_groups_aggregated": [
+        "Mamíferos"
       ],
-      "confidence": "CONFIRMED_PRIOR_RECORD_ORDER"
+      "modal_primary": "Não informado",
+      "quantity_count": 2,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 2
+      },
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-27T06:55:00Z",
+      "route_audited_at": "2026-09-27T06:55:00Z",
+      "image_url": null,
+      "image_source_url": "https://naturelcd.net/2026/09/26/kisangani-deux-presumes-trafiquants-arretes-avec-une-peau-dokapi-et-une-peau-de-leopard/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-27T06:55:00Z",
+      "location_label_pt": "Kisangani, Tshopo",
+      "location_label_en": "Kisangani, Tshopo",
+      "location_label_es": "Kisangani, Tshopo",
+      "modal_label_pt": "Não informado",
+      "modal_label_en": "Not reported",
+      "modal_label_es": "No informado",
+      "taxon_text": "Okapia johnstoni; Panthera pardus",
+      "title_pt": "Dois suspeitos são detidos em Kisangani com pele de ocapi e pele de leopardo",
+      "title_en": "Two suspects arrested in Kisangani with okapi and leopard skins",
+      "title_es": "Dos sospechosos detenidos en Kisangani con piel de okapi y piel de leopardo",
+      "card_text_pt": "Uma operação em Kisangani apreendeu uma pele de ocapi acompanhada dos cascos e uma pele de leopardo. Dois suspeitos foram detidos; as investigações sobre possível envolvimento de outros atores continuam.",
+      "card_text_en": "An operation in Kisangani seized an okapi skin accompanied by its hooves and a leopard skin. Two suspects were arrested; investigations into possible involvement of additional actors continue.",
+      "card_text_es": "Una operación en Kisangani decomisó una piel de okapi acompañada de sus pezuñas y una piel de leopardo. Dos sospechosos fueron detenidos; continúan las investigaciones sobre la posible participación de otros actores.",
+      "fauna_label_pt": "1 pele de ocapi com cascos + 1 pele de leopardo",
+      "fauna_label_en": "1 okapi skin with hooves + 1 leopard skin",
+      "fauna_label_es": "1 piel de okapi con pezuñas + 1 piel de leopardo",
+      "quantity_note_pt": "Contagem mínima de dois itens principais de fauna: uma pele de ocapi e uma pele de leopardo. Os cascos associados à pele de ocapi não foram numericamente especificados e não são contados separadamente.",
+      "quantity_note_en": "Minimum count of two primary wildlife items: one okapi skin and one leopard skin. Hooves associated with the okapi skin were not numerically specified and are not counted separately.",
+      "quantity_note_es": "Conteo mínimo de dos elementos principales de fauna: una piel de okapi y una piel de leopardo. Las pezuñas asociadas a la piel de okapi no fueron especificadas numéricamente y no se cuentan por separado.",
+      "geographic_note_pt": "Coordenadas generalizadas para Kisangani; a fonte não publica o ponto exato da apreensão.",
+      "geographic_note_en": "Generalized coordinates for Kisangani; the source does not publish the exact seizure point.",
+      "geographic_note_es": "Coordenadas generalizadas para Kisangani; la fuente no publica el punto exacto del decomiso.",
+      "context_pt": "Fatos documentados: em 23 de setembro, uma operação coordenada pelo Parquet de Grande Instance de Kisangani, com participação da PNC e do ICCN e informações atribuídas à Conserv Congo, apreendeu uma pele de ocapi com cascos e uma pele de leopardo e resultou em duas detenções. Limites da evidência: a reportagem menciona investigação de uma possível rede mais ampla e referências à região de Bas-Uélé, mas não estabelece uma rota específica para estes produtos; por isso nenhuma linha de rota é atribuída ao caso.",
+      "context_en": "Documented facts: on 23 September, an operation coordinated by the Kisangani public prosecutor's office, with participation by the PNC and ICCN and intelligence attributed to Conserv Congo, seized an okapi skin with hooves and a leopard skin and led to two arrests. Evidence limits: the report mentions investigation of a possible wider network and references the Bas-Uélé area, but does not establish a specific route for these products; therefore no route line is assigned to the case.",
+      "context_es": "Hechos documentados: el 23 de septiembre, una operación coordinada por la fiscalía de Kisangani, con participación de la PNC y el ICCN e información atribuida a Conserv Congo, decomisó una piel de okapi con pezuñas y una piel de leopardo y produjo dos detenciones. Límites de la evidencia: la nota menciona la investigación de una posible red más amplia y referencias a la zona de Bas-Uélé, pero no establece una ruta específica para estos productos; por ello no se asigna una línea de ruta al caso.",
+      "references_text_pt": "Naturel CD / Conserv Congo — https://naturelcd.net/2026/09/26/kisangani-deux-presumes-trafiquants-arretes-avec-une-peau-dokapi-et-une-peau-de-leopard/",
+      "references_text_en": "Naturel CD / Conserv Congo — https://naturelcd.net/2026/09/26/kisangani-deux-presumes-trafiquants-arretes-avec-une-peau-dokapi-et-une-peau-de-leopard/",
+      "references_text_es": "Naturel CD / Conserv Congo — https://naturelcd.net/2026/09/26/kisangani-deux-presumes-trafiquants-arretes-avec-une-peau-dokapi-et-une-peau-de-leopard/"
     },
     {
-      "batch": "sep19_update",
-      "count": 8,
-      "legacy_site_id_range": [
-        "3069",
-        "3076"
+      "id": "2026-09-25__carmo-de-minas-66-trinca-ferros",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "daily_ingestion_2026_09_27",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-27T06:55:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -22.1207,
+        "lon": -45.13
+      },
+      "coordinate_precision": "city_generalized",
+      "source_label": "A Gazeta RM / PMMG",
+      "source_url": "https://agazetarm.com.br/pm-apreende-66-passaros-silvestres-mantidos-em-cativeiro-em-carmo-de-minas-mg/",
+      "publication_date": "2026-09-26",
+      "event_date": "2026-09-25",
+      "event_datetime": null,
+      "fauna_groups_aggregated": [
+        "Aves"
       ],
-      "confidence": "HIGH_CONFIDENCE_BATCH_RECONSTRUCTION; individual legacy ID mapping unresolved"
+      "modal_primary": "Terrestre",
+      "quantity_count": 66,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 66
+      },
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-27T06:55:00Z",
+      "route_audited_at": "2026-09-27T06:55:00Z",
+      "image_url": null,
+      "image_source_url": "https://agazetarm.com.br/pm-apreende-66-passaros-silvestres-mantidos-em-cativeiro-em-carmo-de-minas-mg/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-27T06:55:00Z",
+      "location_label_pt": "Carmo de Minas, Minas Gerais",
+      "location_label_en": "Carmo de Minas, Minas Gerais",
+      "location_label_es": "Carmo de Minas, Minas Gerais",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "taxon_text": "Saltator similis",
+      "title_pt": "PM apreende 66 trinca-ferros em Carmo de Minas",
+      "title_en": "Police seize 66 green-winged saltators in Carmo de Minas",
+      "title_es": "Policía decomisa 66 trinca-ferros en Carmo de Minas",
+      "card_text_pt": "A Polícia Militar encontrou 19 trinca-ferros em uma residência e outros 47 em um veículo que, segundo informação recebida pela equipe, seria usado para transportar as aves ao Rio de Janeiro. Um homem foi preso.",
+      "card_text_en": "Military Police found 19 green-winged saltators at a residence and another 47 in a vehicle that, according to information received by officers, was to be used to transport the birds to Rio de Janeiro. One man was arrested.",
+      "card_text_es": "La Policía Militar encontró 19 trinca-ferros en una vivienda y otros 47 en un vehículo que, según información recibida por los agentes, sería utilizado para transportar las aves a Río de Janeiro. Un hombre fue detenido.",
+      "fauna_label_pt": "66 trinca-ferros (*Saltator similis*)",
+      "fauna_label_en": "66 green-winged saltators (*Saltator similis*)",
+      "fauna_label_es": "66 trinca-ferros (*Saltator similis*)",
+      "quantity_note_pt": "19 aves foram encontradas na residência e 47 no veículo, totalizando 66 indivíduos da mesma espécie.",
+      "quantity_note_en": "Nineteen birds were found at the residence and 47 in the vehicle, totaling 66 individuals of the same species.",
+      "quantity_note_es": "Se encontraron 19 aves en la vivienda y 47 en el vehículo, totalizando 66 individuos de la misma especie.",
+      "geographic_note_pt": "Coordenadas generalizadas para Carmo de Minas; o endereço da residência e o local exato do veículo não são publicados.",
+      "geographic_note_en": "Generalized coordinates for Carmo de Minas; the residence address and exact vehicle location are not published.",
+      "geographic_note_es": "Coordenadas generalizadas para Carmo de Minas; no se publican la dirección de la vivienda ni la ubicación exacta del vehículo.",
+      "context_pt": "Fatos documentados: em 25 de setembro, a Polícia Militar apreendeu 66 trinca-ferros em Carmo de Minas, sendo 19 em uma residência e 47 em um veículo. A reportagem, com informações atribuídas à PM, informa que o veículo havia sido alugado para transportar as aves ao Rio de Janeiro. Limites da evidência: a origem anterior das aves não foi estabelecida publicamente; Rio de Janeiro é tratado apenas como destino informado/intencionado, não como trajeto concluído.",
+      "context_en": "Documented facts: on 25 September, Military Police seized 66 green-winged saltators in Carmo de Minas, including 19 at a residence and 47 in a vehicle. The report, citing police information, states that the vehicle had been rented to transport the birds to Rio de Janeiro. Evidence limits: the birds' prior origin was not publicly established; Rio de Janeiro is treated only as a reported/intended destination, not a completed route.",
+      "context_es": "Hechos documentados: el 25 de septiembre, la Policía Militar decomisó 66 trinca-ferros en Carmo de Minas, 19 en una vivienda y 47 en un vehículo. La nota, citando información policial, señala que el vehículo había sido alquilado para transportar las aves a Río de Janeiro. Límites de la evidencia: no se estableció públicamente el origen previo de las aves; Río de Janeiro se considera solo un destino informado/intencionado, no una ruta completada.",
+      "references_text_pt": "A Gazeta RM / PMMG — https://agazetarm.com.br/pm-apreende-66-passaros-silvestres-mantidos-em-cativeiro-em-carmo-de-minas-mg/",
+      "references_text_en": "A Gazeta RM / PMMG — https://agazetarm.com.br/pm-apreende-66-passaros-silvestres-mantidos-em-cativeiro-em-carmo-de-minas-mg/",
+      "references_text_es": "A Gazeta RM / PMMG — https://agazetarm.com.br/pm-apreende-66-passaros-silvestres-mantidos-em-cativeiro-em-carmo-de-minas-mg/"
     },
     {
-      "batch": "sep21_update",
-      "count": 16,
-      "legacy_site_id_range": [
-        "3077",
-        "3092"
+      "id": "2026-09-26__cerro-colorado-boa-anaconda-remains",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "daily_ingestion_2026_09_27",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-27T06:55:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "country": "Peru",
+      "coordinates": {
+        "lat": -16.376,
+        "lon": -71.56
+      },
+      "coordinate_precision": "district_generalized",
+      "source_label": "Diario El Pueblo",
+      "source_url": "https://diarioelpueblo.com.pe/2026/09/26/cae-presunto-traficante-con-restos-de-boas-y-una-anaconda-en-cerro-colorado/",
+      "publication_date": "2026-09-26",
+      "event_date": "2026-09-26",
+      "event_datetime": null,
+      "fauna_groups_aggregated": [
+        "Répteis"
       ],
-      "confidence": "CONFIRMED_BATCH_EVENTS; individual legacy ID mapping unresolved"
+      "modal_primary": "Terrestre",
+      "quantity_count": 10,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Répteis": 10
+      },
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-27T06:55:00Z",
+      "route_audited_at": "2026-09-27T06:55:00Z",
+      "image_url": null,
+      "image_source_url": "https://diarioelpueblo.com.pe/2026/09/26/cae-presunto-traficante-con-restos-de-boas-y-una-anaconda-en-cerro-colorado/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-27T06:55:00Z",
+      "location_label_pt": "Cerro Colorado, Arequipa",
+      "location_label_en": "Cerro Colorado, Arequipa",
+      "location_label_es": "Cerro Colorado, Arequipa",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "taxon_text": "Boa sp.; Eunectes sp.",
+      "title_pt": "Polícia apreende boa, fragmentos de boa e anaconda macerados em Cerro Colorado",
+      "title_en": "Police seize macerated boa, boa fragments and anaconda in Cerro Colorado",
+      "title_es": "Policía decomisa boa, fragmentos de boa y anaconda macerados en Cerro Colorado",
+      "card_text_pt": "Um homem de 63 anos foi detido nas proximidades do Terminal Pesquero de Río Seco com uma boa inteira, oito fragmentos de boa e uma anaconda, todos em estado de maceração.",
+      "card_text_en": "A 63-year-old man was arrested near the Río Seco Fish Terminal with one whole boa, eight boa fragments and one anaconda, all in a macerated state.",
+      "card_text_es": "Un hombre de 63 años fue detenido cerca del Terminal Pesquero de Río Seco con una boa completa, ocho fragmentos de boa y una anaconda, todos en estado de maceración.",
+      "fauna_label_pt": "1 boa inteira + 8 fragmentos de boa + 1 anaconda (macerados)",
+      "fauna_label_en": "1 whole boa + 8 boa fragments + 1 anaconda (macerated)",
+      "fauna_label_es": "1 boa completa + 8 fragmentos de boa + 1 anaconda (macerados)",
+      "quantity_note_pt": "Dez itens de fauna contabilizáveis foram descritos: uma boa inteira, oito fragmentos de boa e uma anaconda. A quantidade não representa dez animais individuais.",
+      "quantity_note_en": "Ten countable wildlife items were described: one whole boa, eight boa fragments and one anaconda. The count does not represent ten individual animals.",
+      "quantity_note_es": "Se describieron diez elementos de fauna contabilizables: una boa completa, ocho fragmentos de boa y una anaconda. El conteo no representa diez animales individuales.",
+      "geographic_note_pt": "Coordenadas generalizadas para Cerro Colorado; a fonte situa a intervenção na avenida Metropolitana, em frente ao Terminal Pesquero de Río Seco.",
+      "geographic_note_en": "Generalized coordinates for Cerro Colorado; the source places the intervention on Avenida Metropolitana opposite the Río Seco Fish Terminal.",
+      "geographic_note_es": "Coordenadas generalizadas para Cerro Colorado; la fuente sitúa la intervención en la avenida Metropolitana, frente al Terminal Pesquero de Río Seco.",
+      "context_pt": "Fatos documentados: a Polícia Nacional deteve um homem de 63 anos nas imediações do Terminal Pesquero de Río Seco e apreendeu uma boa inteira, oito fragmentos de boa e uma anaconda, todos macerados. O material foi avaliado preliminarmente em cerca de S/ 1.850. Limites da evidência: a matéria não identifica as espécies em nível específico nem estabelece a origem dos exemplares, fornecedores, compradores ou uma rota comprovada; a investigação seguia em andamento.",
+      "context_en": "Documented facts: National Police arrested a 63-year-old man near the Río Seco Fish Terminal and seized one whole boa, eight boa fragments and one anaconda, all macerated. The material was preliminarily valued at about S/1,850. Evidence limits: the report does not identify the species to species level or establish specimen origin, suppliers, buyers or a proven route; the investigation was ongoing.",
+      "context_es": "Hechos documentados: la Policía Nacional detuvo a un hombre de 63 años cerca del Terminal Pesquero de Río Seco y decomisó una boa completa, ocho fragmentos de boa y una anaconda, todos macerados. El material fue valorizado preliminarmente en unos S/ 1.850. Límites de la evidencia: la nota no identifica las especies a nivel específico ni establece el origen de los ejemplares, proveedores, compradores o una ruta comprobada; la investigación continuaba.",
+      "references_text_pt": "Diario El Pueblo — https://diarioelpueblo.com.pe/2026/09/26/cae-presunto-traficante-con-restos-de-boas-y-una-anaconda-en-cerro-colorado/",
+      "references_text_en": "Diario El Pueblo — https://diarioelpueblo.com.pe/2026/09/26/cae-presunto-traficante-con-restos-de-boas-y-una-anaconda-en-cerro-colorado/",
+      "references_text_es": "Diario El Pueblo — https://diarioelpueblo.com.pe/2026/09/26/cae-presunto-traficante-con-restos-de-boas-y-una-anaconda-en-cerro-colorado/"
     },
     {
-      "batch": "post_migration_ingestion",
-      "count": 1,
-      "legacy_site_id_range": null,
-      "confidence": "DIRECT_PRIMARY_OR_RECONCILED_SOURCE"
-    },
-    {
-      "batch": "post_migration_ingestion_brazil_2026_batch1",
-      "count": 18,
-      "legacy_site_id_range": null,
-      "confidence": "DIRECT_PRIMARY_OR_RECONCILED_SOURCE"
-    },
-    {
-      "batch": "post_migration_ingestion_global_2026_batch2",
-      "count": 6,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS"
-    },
-    {
-      "batch": "seven_day_review_2026-09-23",
-      "count": 12,
-      "newly_documented_cases": 10,
-      "restored_previously_published_cases": 2,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "search_window_start": "2026-09-15T23:03:27Z",
-      "search_window_end": "2026-09-22T23:03:27Z",
-      "added_at": "2026-09-22T23:12:56.254Z"
-    },
-    {
-      "batch": "daily_ingestion_2026-09-24",
-      "count": 8,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "search_window_start": "2026-09-22T23:00:26Z",
-      "search_window_end": "2026-09-23T23:00:26Z",
-      "added_at": "2026-09-23T23:09:57Z"
-    },
-    {
-      "batch": "asia_2026_multilingual_2026-09-24",
-      "count": 24,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS"
-    },
-    {
-      "batch": "oceania_2026_multilingual_2026-09-24",
-      "count": 2,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS"
-    },
-    {
-      "batch": "invertebrates_2026_multilingual_2026-09-24_a",
-      "count": 10,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T14:35:00Z"
-    },
-    {
-      "batch": "invertebrates_2026_multilingual_2026-09-24_b",
-      "count": 8,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T14:42:00Z"
-    },
-    {
-      "batch": "insects_followup_2025_2026_2026-09-24",
-      "count": 3,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T15:12:00Z"
-    },
-    {
-      "batch": "daily_ingestion_2026_09_25",
-      "count": 5,
-      "added_at": "2026-09-24T23:14:00Z"
-    },
-    {
-      "batch": "amazon_2026_validated_2026-09-25_a",
-      "count": 7,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T01:20:00Z"
-    },
-    {
-      "batch": "amazon_2026_validated_2026-09-25_b",
-      "count": 9,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T01:33:00Z"
-    },
-    {
-      "batch": "amazon_2026_validated_2026-09-25_c",
-      "count": 5,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T01:43:00Z"
-    },
-    {
-      "batch": "daily_ingestion_2026_09_25_b",
-      "count": 5,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T12:54:00Z"
-    },
-    {
-      "batch": "china_russia_2026_multilingual_2026_09_25",
-      "count": 27,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T13:45:00Z"
-    },
-    {
-      "batch": "arab_india_pakistan_2026_multilingual_2026_09_25",
-      "count": 33,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T14:35:00Z"
-    },
-    {
-      "batch": "daily_ingestion_2026_09_26",
-      "count": 7,
-      "legacy_site_id_range": null,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-26T03:30:00Z"
+      "id": "2026-09-26__sonapur-six-musk-deer-glands",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "daily_ingestion_2026_09_27",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-27T06:55:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "country": "Índia",
+      "coordinates": {
+        "lat": 26.122,
+        "lon": 91.984
+      },
+      "coordinate_precision": "locality_generalized",
+      "source_label": "PTI / ThePrint",
+      "source_url": "https://theprint.in/india/two-from-arunachal-held-with-musk-deer-glands-in-assam-police/3054253/",
+      "publication_date": "2026-09-26",
+      "event_date": "2026-09-26",
+      "event_datetime": null,
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "modal_primary": "Terrestre",
+      "quantity_count": 6,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 6
+      },
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-27T06:55:00Z",
+      "route_audited_at": "2026-09-27T06:55:00Z",
+      "image_url": null,
+      "image_source_url": "https://theprint.in/india/two-from-arunachal-held-with-musk-deer-glands-in-assam-police/3054253/",
+      "image_status": "SOURCE_PAGE_IMAGE_NOT_RESOLVED",
+      "image_checked_at": "2026-09-27T06:55:00Z",
+      "location_label_pt": "Medhikuchi, Sonapur, Assam",
+      "location_label_en": "Medhikuchi, Sonapur, Assam",
+      "location_label_es": "Medhikuchi, Sonapur, Assam",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "taxon_text": "Moschus spp.",
+      "title_pt": "Polícia apreende seis glândulas de cervo-almiscarado em Sonapur, Assam",
+      "title_en": "Police seize six musk deer glands in Sonapur, Assam",
+      "title_es": "Policía decomisa seis glándulas de ciervo almizclero en Sonapur, Assam",
+      "card_text_pt": "Dois homens de Arunachal Pradesh foram detidos em Medhikuchi com seis glândulas de cervo-almiscarado, com peso total informado de 158 g. A polícia afirmou que o material havia sido trazido de Arunachal Pradesh e transitava por Assam.",
+      "card_text_en": "Two men from Arunachal Pradesh were arrested in Medhikuchi with six musk deer glands reported to weigh 158 g in total. Police said the material had been brought from Arunachal Pradesh and was being routed through Assam.",
+      "card_text_es": "Dos hombres de Arunachal Pradesh fueron detenidos en Medhikuchi con seis glándulas de ciervo almizclero, con un peso total informado de 158 g. La policía indicó que el material había sido llevado desde Arunachal Pradesh y transitaba por Assam.",
+      "fauna_label_pt": "6 glândulas de cervo-almiscarado (*Moschus* spp.)",
+      "fauna_label_en": "6 musk deer glands (*Moschus* spp.)",
+      "fauna_label_es": "6 glándulas de ciervo almizclero (*Moschus* spp.)",
+      "quantity_note_pt": "Seis glândulas apreendidas; a fonte também informa peso total de 158 g, não convertido em contagem adicional.",
+      "quantity_note_en": "Six glands seized; the source also reports a total weight of 158 g, which is not converted into an additional count.",
+      "quantity_note_es": "Se decomisaron seis glándulas; la fuente también informa un peso total de 158 g, que no se convierte en un conteo adicional.",
+      "geographic_note_pt": "Coordenadas generalizadas para Sonapur/Medhikuchi; a fonte não publica o ponto exato da abordagem.",
+      "geographic_note_en": "Generalized coordinates for Sonapur/Medhikuchi; the source does not publish the exact interception point.",
+      "geographic_note_es": "Coordenadas generalizadas para Sonapur/Medhikuchi; la fuente no publica el punto exacto de la intervención.",
+      "context_pt": "Fatos documentados: em 26 de setembro, uma operação baseada em informação prévia em Medhikuchi, sob a delegacia de Sonapur, resultou na prisão de dois homens e na apreensão de seis glândulas de cervo-almiscarado, totalizando 158 g. A polícia declarou que a remessa veio de Arunachal Pradesh e estava sendo roteada por Assam. Limites da evidência: a localidade exata de origem em Arunachal Pradesh e o destino final não foram publicados; a investigação sobre a rede permanecia em andamento.",
+      "context_en": "Documented facts: on 26 September, a tip-off based operation in Medhikuchi under Sonapur police station led to two arrests and the seizure of six musk deer glands weighing 158 g in total. Police stated that the consignment came from Arunachal Pradesh and was being routed through Assam. Evidence limits: the exact origin locality in Arunachal Pradesh and the final destination were not published; investigation into the network was ongoing.",
+      "context_es": "Hechos documentados: el 26 de septiembre, una operación basada en información previa en Medhikuchi, bajo la comisaría de Sonapur, llevó a dos detenciones y al decomiso de seis glándulas de ciervo almizclero con un peso total de 158 g. La policía afirmó que el envío procedía de Arunachal Pradesh y transitaba por Assam. Límites de la evidencia: no se publicaron la localidad exacta de origen en Arunachal Pradesh ni el destino final; la investigación sobre la red continuaba.",
+      "references_text_pt": "PTI / ThePrint — https://theprint.in/india/two-from-arunachal-held-with-musk-deer-glands-in-assam-police/3054253/",
+      "references_text_en": "PTI / ThePrint — https://theprint.in/india/two-from-arunachal-held-with-musk-deer-glands-in-assam-police/3054253/",
+      "references_text_es": "PTI / ThePrint — https://theprint.in/india/two-from-arunachal-held-with-musk-deer-glands-in-assam-police/3054253/"
     }
-  ],
-  "field_parity_progress": {
-    "sep19_sep21_recent_records": {
-      "records": 24,
-      "title_en_es_complete": 24,
-      "card_en_es_complete": 24,
-      "source_urls_reconciled": 24,
-      "geodata_pending": 0,
-      "case_context_pending": 24,
-      "updated_at": "2026-09-22T01:35:00Z",
-      "case_context_complete": 24,
-      "text_parity_complete": 24
-    },
-    "shark_ray_2026": {
-      "records": 26,
-      "title_en_es_complete": 26,
-      "card_en_es_complete": 26,
-      "case_context_complete": 26,
-      "text_parity_complete": 26,
-      "source_urls_reconciled": 26,
-      "source_urls_pending": 0,
-      "geodata_pending": 0,
-      "updated_at": "2026-09-22T02:10:00Z"
-    },
-    "original_41": {
-      "records": 41,
-      "source_urls_reconciled": 41,
-      "source_urls_pending": 0,
-      "title_en_es_complete": 41,
-      "card_en_es_complete": 41,
-      "case_context_complete": 41,
-      "geodata_pending": 0,
-      "updated_at": "2026-09-22T03:45:00Z"
-    },
-    "global_sep22_batch": {
-      "records": 6,
-      "title_en_es_complete": 6,
-      "card_en_es_complete": 6,
-      "source_urls_reconciled": 6,
-      "geodata_pending": 0,
-      "case_context_complete": 6,
-      "text_parity_complete": 6,
-      "image_source_linkage_complete": 6,
-      "updated_at": "2026-09-22T08:12:00Z"
-    },
-    "seven_day_review_2026_09_23": {
-      "records": 12,
-      "title_en_es_complete": 12,
-      "card_en_es_complete": 12,
-      "source_urls_reconciled": 12,
-      "geodata_pending": 0,
-      "case_context_complete": 12,
-      "text_parity_complete": 12,
-      "updated_at": "2026-09-22T23:12:56.254Z"
-    },
-    "daily_ingestion_2026_09_24": {
-      "records": 8,
-      "title_en_es_complete": 8,
-      "card_en_es_complete": 8,
-      "source_urls_reconciled": 8,
-      "geodata_pending": 0,
-      "case_context_complete": 8,
-      "text_parity_complete": 8,
-      "updated_at": "2026-09-23T23:09:57Z"
-    },
-    "americas_2026_multilingual_2026_09_24": {
-      "records": 28,
-      "title_en_es_complete": 28,
-      "card_en_es_complete": 28,
-      "source_urls_reconciled": 28,
-      "geodata_pending": 0,
-      "case_context_complete": 28,
-      "text_parity_complete": 28,
-      "updated_at": "2026-09-24T02:45:00Z"
-    },
-    "asia_2026_multilingual_2026_09_24": {
-      "records": 24,
-      "title_en_es_complete": 24,
-      "card_en_es_complete": 24,
-      "source_urls_reconciled": 24,
-      "geodata_pending": 0,
-      "case_context_complete": 24,
-      "text_parity_complete": 24,
-      "updated_at": "2026-09-24T03:25:00Z"
-    },
-    "oceania_2026_multilingual_2026_09_24": {
-      "records": 2,
-      "title_en_es_complete": 2,
-      "card_en_es_complete": 2,
-      "source_urls_reconciled": 2,
-      "geodata_pending": 0,
-      "case_context_complete": 2,
-      "text_parity_complete": 2,
-      "updated_at": "2026-09-24T03:50:00Z"
-    },
-    "invertebrates_2026_multilingual_2026_09_24": {
-      "records": 18,
-      "title_en_es_complete": 18,
-      "card_en_es_complete": 18,
-      "source_urls_reconciled": 18,
-      "geodata_pending": 0,
-      "case_context_complete": 18,
-      "text_parity_complete": 18,
-      "updated_at": "2026-09-24T14:49:00Z"
-    },
-    "insects_followup_2025_2026_2026_09_24": {
-      "records": 3,
-      "title_en_es_complete": 3,
-      "card_en_es_complete": 3,
-      "source_urls_reconciled": 3,
-      "geodata_pending": 0,
-      "case_context_complete": 3,
-      "text_parity_complete": 3,
-      "updated_at": "2026-09-24T15:12:00Z"
-    },
-    "daily_ingestion_2026_09_25": {
-      "records": 5,
-      "title_en_es_complete": 5,
-      "card_en_es_complete": 5,
-      "source_urls_reconciled": 5,
-      "geodata_pending": 0,
-      "case_context_complete": 5,
-      "text_parity_complete": 5,
-      "image_source_linkage_complete": 5,
-      "updated_at": "2026-09-24T23:14:00Z"
-    },
-    "amazon_2026_validated_2026_09_25": {
-      "records": 21,
-      "title_en_es_complete": 21,
-      "card_en_es_complete": 21,
-      "source_urls_reconciled": 21,
-      "geodata_pending": 0,
-      "case_context_complete": 21,
-      "text_parity_complete": 21,
-      "updated_at": "2026-09-25T01:57:00Z"
-    },
-    "daily_ingestion_2026_09_25_b": {
-      "records": 5,
-      "title_en_es_complete": 5,
-      "card_en_es_complete": 5,
-      "source_urls_reconciled": 5,
-      "geodata_pending": 0,
-      "case_context_complete": 5,
-      "text_parity_complete": 5,
-      "image_source_linkage_complete": 5,
-      "updated_at": "2026-09-25T12:54:00Z"
-    },
-    "china_russia_2026_multilingual_2026_09_25": {
-      "records": 27,
-      "title_en_es_complete": 27,
-      "card_en_es_complete": 27,
-      "source_urls_reconciled": 27,
-      "geodata_pending": 0,
-      "case_context_complete": 27,
-      "text_parity_complete": 27,
-      "image_source_linkage_complete": 27,
-      "updated_at": "2026-09-25T13:45:00Z"
-    },
-    "arab_india_pakistan_2026_multilingual_2026_09_25": {
-      "records": 33,
-      "title_en_es_complete": 33,
-      "card_en_es_complete": 33,
-      "source_urls_reconciled": 33,
-      "geodata_pending": 0,
-      "case_context_complete": 33,
-      "text_parity_complete": 33,
-      "image_source_linkage_complete": 33,
-      "updated_at": "2026-09-25T14:35:00Z"
-    },
-    "daily_ingestion_2026_09_26": {
-      "records": 7,
-      "title_en_es_complete": 7,
-      "card_en_es_complete": 7,
-      "source_urls_reconciled": 7,
-      "geodata_pending": 0,
-      "case_context_complete": 7,
-      "text_parity_complete": 7,
-      "image_source_linkage_complete": 7,
-      "updated_at": "2026-09-26T03:30:00Z"
-    }
-  },
-  "geodata_progress": {
-    "records_total": 383,
-    "coordinates_complete": 383,
-    "coordinates_pending": 0,
-    "precision_classified": 383,
-    "updated_at": "2026-09-26T03:30:00Z",
-    "note": "Coordinates are representative points with explicit precision classes; generalized events are not presented as exact locations."
-  },
-  "audit_status": {
-    "audited_records": 383,
-    "ids_unique": true,
-    "sources_complete": true,
-    "translations_complete": true,
-    "geodata_complete": true,
-    "route_matches_unique": true,
-    "aggregate_flags_reviewed": true,
-    "structured_quantities": true,
-    "image_source_linkage_new_batch": true,
-    "updated_at": "2026-09-26T03:30:00Z"
-  },
-  "quantity_layer": {
-    "status": "COMPLETE_FOR_DASHBOARD",
-    "fields": [
-      "quantity_count",
-      "quantity_qualifier",
-      "quantity_kind",
-      "quantity_by_group",
-      "quantity_unassigned",
-      "quantity_note_pt"
-    ],
-    "rule": "Only countable animals or wildlife items are numeric. Kilograms, tonnes, packaging units and other weights/volumes are not converted into animal/item counts.",
-    "updated_at": "2026-09-26T03:30:00Z"
-  },
-  "dashboard_validation_snapshot": {
-    "cases_total": 383,
-    "cases_in_totals": 378,
-    "fauna_event_counts": {
-      "Mamíferos": 140,
-      "Aves": 108,
-      "Répteis": 111,
-      "Peixes": 50,
-      "Anfíbios": 7,
-      "Insetos": 13
-    },
-    "modal_event_counts": {
-      "Terrestre": 141,
-      "Não informado": 105,
-      "Marítimo": 27,
-      "Aéreo": 79,
-      "Fluvial": 15,
-      "Postal": 10,
-      "Múltiplos": 1
-    },
-    "fauna_quantities": {
-      "Mamíferos": 1789,
-      "Aves": 11610,
-      "Répteis": 7794,
-      "Peixes": 23113,
-      "Anfíbios": 6248,
-      "Insetos": 6924
-    },
-    "modal_quantities": {
-      "Terrestre": 31763,
-      "Não informado": 3847,
-      "Marítimo": 77784,
-      "Aéreo": 33250,
-      "Fluvial": 299,
-      "Postal": 1034,
-      "Múltiplos": 3578
-    },
-    "total_countable_animals_items": 151555,
-    "quantity_unassigned": 94077,
-    "generated_at": "2026-09-26T03:30:00Z"
-  },
-  "image_progress": {
-    "records_total": 383,
-    "direct_image_urls_validated": 108,
-    "unresolved": 275,
-    "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
-    "updated_at": "2026-09-26T03:30:00Z"
-  },
-  "ingestion_history": [
-    {
-      "batch": "americas_2026_multilingual_2026-09-24",
-      "count": 28,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T02:45:00Z"
-    },
-    {
-      "batch": "asia_2026_multilingual_2026-09-24",
-      "count": 24,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T02:22:00Z"
-    },
-    {
-      "batch": "oceania_2026_multilingual_2026-09-24",
-      "count": 2,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T03:40:00Z"
-    },
-    {
-      "batch": "invertebrates_2026_multilingual_2026-09-24_a",
-      "count": 10,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T14:35:00Z"
-    },
-    {
-      "batch": "invertebrates_2026_multilingual_2026-09-24_b",
-      "count": 8,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T14:42:00Z"
-    },
-    {
-      "batch": "insects_followup_2025_2026_2026-09-24",
-      "count": 3,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T15:12:00Z"
-    },
-    {
-      "batch": "daily_ingestion_2026_09_25",
-      "count": 5,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-24T23:14:00Z",
-      "publication_window_start": "2026-09-23T23:03:10Z",
-      "publication_window_end": "2026-09-24T23:03:10Z"
-    },
-    {
-      "batch": "amazon_2026_validated_2026-09-25_a",
-      "count": 7,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T01:20:00Z"
-    },
-    {
-      "batch": "amazon_2026_validated_2026-09-25_b",
-      "count": 9,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T01:33:00Z"
-    },
-    {
-      "batch": "amazon_2026_validated_2026-09-25_c",
-      "count": 5,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T01:43:00Z"
-    },
-    {
-      "batch": "daily_ingestion_2026_09_25_b",
-      "count": 5,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T12:54:00Z"
-    },
-    {
-      "batch": "china_russia_2026_multilingual_2026_09_25",
-      "count": 27,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T13:45:00Z"
-    },
-    {
-      "batch": "arab_india_pakistan_2026_multilingual_2026_09_25",
-      "count": 33,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-25T14:35:00Z"
-    },
-    {
-      "batch": "daily_ingestion_2026_09_26",
-      "count": 7,
-      "confidence": "CONFIRMED_SOURCE_EVENTS",
-      "added_at": "2026-09-26T03:30:00Z"
-    }
-  ],
-  "updated_at": "2026-09-26T03:30:00Z"
+  ]
 }
