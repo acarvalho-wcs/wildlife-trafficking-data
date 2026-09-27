@@ -1,0 +1,57 @@
+name: Migrate case store
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: migrate-case-store
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Preserve public feed for verification
+        run: cp cases.json /tmp/cases-before-migration.json
+
+      - name: Migrate monolith to case store
+        run: python scripts/case_store.py migrate --source cases.json --root cases
+
+      - name: Validate case store
+        run: python scripts/case_store.py validate --root cases
+
+      - name: Rebuild candidate feed
+        run: python scripts/case_store.py build --root cases --output /tmp/cases-rebuilt.json
+
+      - name: Verify lossless migration
+        run: python scripts/case_store.py verify --reference /tmp/cases-before-migration.json --candidate /tmp/cases-rebuilt.json
+
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool /tmp/cases-rebuilt.json > /dev/null
+          python -m json.tool cases/_manifest.json > /dev/null
+
+      - name: Commit case store only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cases/
+          if git diff --cached --quiet; then
+            echo "No migration changes to commit."
+            exit 0
+          fi
+          git commit -m "Migrate cases to scalable per-event store"
+          git push
