@@ -1,0 +1,43 @@
+name: Build canonical cases feed
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "cases/**"
+      - "scripts/case_store.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-canonical-cases
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate source records
+        run: python scripts/case_store.py validate --root cases
+      - name: Compile canonical feed
+        run: python scripts/case_store.py build --root cases --output cases.json
+      - name: Validate compiled JSON
+        run: python -m json.tool cases.json > /dev/null
+      - name: Commit canonical feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cases.json cases/_manifest.json
+          if git diff --cached --quiet; then
+            echo "Canonical feed already up to date."
+            exit 0
+          fi
+          git commit -m "Build canonical cases feed"
+          git push
