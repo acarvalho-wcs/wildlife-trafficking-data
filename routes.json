@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-26T03:30:00Z",
-  "audited_through": "2026-09-26",
+  "updated_at": "2026-09-28T11:45:00Z",
+  "audited_through": "2026-09-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -4159,6 +4159,43 @@
       "evidence_es": "La fuente oficial informa que las 3.578 aves fueron recogidas en un pequeño puerto de Sungai Saronggi, Sumenep, tras ser desembarcadas de una embarcación y luego transportadas por carretera; los dos vehículos fueron interceptados en Burneh, Bangkalan, mientras se dirigían hacia el acceso del puente Suramadu. No se confirmaron el origen anterior a Saronggi ni el destino final; la hipótesis investigativa de una procedencia más amplia desde Kalimantan no se incluye en la línea.",
       "source_label": "Gakkum Kehutanan / Kementerian Kehutanan",
       "source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/kemenhut-gagalkan-pengangkutan-3578-burung-antarpulau-ditetapkan-dua-tersangka-dan-rantai-peredaran-ditelusuri"
+    },
+    {
+      "id": "kupang-lombok-shark-meat-2026-09-15",
+      "event_match": {
+        "location_contains": "Kupang",
+        "event_date": "2026-09-15"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Kupang → Lombok (embarque pretendido)",
+      "label_en": "Kupang → Lombok (intended shipment)",
+      "label_es": "Kupang → Lombok (envío previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto de Tenau, Kupang",
+            "country": "Indonésia",
+            "lat": -10.193,
+            "lon": 123.527,
+            "precision": "port"
+          },
+          "to": {
+            "name": "Lombok — destino informado",
+            "country": "Indonésia",
+            "lat": -8.565,
+            "lon": 116.351,
+            "precision": "island_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial da quarentena informa que 13 volumes com 1.230 kg de carne de tubarão seriam embarcados no KM Dharma Kartika 5 de Kupang para Lombok. A carga foi retida antes do embarque por falta de certificado de quarentena; por isso a linha representa destino pretendido, não deslocamento concluído.",
+      "evidence_en": "Indonesia's quarantine authority states that 13 packages containing 1,230 kg of shark meat were intended for shipment aboard KM Dharma Kartika 5 from Kupang to Lombok. The consignment was detained before loading because it lacked a quarantine certificate; the line therefore represents an intended destination, not a completed movement.",
+      "evidence_es": "La autoridad de cuarentena de Indonesia informa que 13 bultos con 1.230 kg de carne de tiburón iban a ser enviados a bordo del KM Dharma Kartika 5 desde Kupang hacia Lombok. La carga fue retenida antes del embarque por carecer de certificado de cuarentena; por ello la línea representa un destino previsto y no un desplazamiento completado.",
+      "source_label": "Badan Karantina Indonesia",
+      "source_url": "https://karantinaindonesia.go.id/sumatera-selatan/berita/hendak-dikirim-ke-lombok-1230-kg-daging-hiu-tanpa-sertifikat-diamankan-di-kupang"
     }
   ],
   "network_context": [
