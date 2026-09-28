@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-28T11:45:00Z",
+  "updated_at": "2026-09-28T12:05:00Z",
   "audited_through": "2026-09-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4196,6 +4196,95 @@
       "evidence_es": "La autoridad de cuarentena de Indonesia informa que 13 bultos con 1.230 kg de carne de tiburón iban a ser enviados a bordo del KM Dharma Kartika 5 desde Kupang hacia Lombok. La carga fue retenida antes del embarque por carecer de certificado de cuarentena; por ello la línea representa un destino previsto y no un desplazamiento completado.",
       "source_label": "Badan Karantina Indonesia",
       "source_url": "https://karantinaindonesia.go.id/sumatera-selatan/berita/hendak-dikirim-ke-lombok-1230-kg-daging-hiu-tanpa-sertifikat-diamankan-di-kupang"
+    },
+    {
+      "id": "palembang-bakauheni-jakarta-birds-2026-09-26",
+      "event_match": {
+        "location_contains": "Bakauheni",
+        "event_date": "2026-09-26"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "interstate_bus_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Jakarta",
+      "label_en": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Jakarta",
+      "label_es": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Yakarta",
+      "segments": [
+        {
+          "from": {
+            "name": "Kertapati, Palembang",
+            "country": "Indonésia",
+            "lat": -3.021,
+            "lon": 104.758,
+            "precision": "district_generalized"
+          },
+          "to": {
+            "name": "Porto de Bakauheni",
+            "country": "Indonésia",
+            "lat": -5.87,
+            "lon": 105.75,
+            "precision": "port_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Porto de Bakauheni",
+            "country": "Indonésia",
+            "lat": -5.87,
+            "lon": 105.75,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Kampung Rambutan, Jakarta",
+            "country": "Indonésia",
+            "lat": -6.309,
+            "lon": 106.883,
+            "precision": "terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O motorista informou que as 2.775 aves haviam sido embarcadas em Kertapati, Palembang, e seriam levadas a Kampung Rambutan, Jakarta; a interceptação ocorreu em Bakauheni.",
+      "evidence_en": "The driver stated that the 2,775 birds had been loaded in Kertapati, Palembang, and were to be taken to Kampung Rambutan, Jakarta; interception occurred at Bakauheni.",
+      "evidence_es": "El conductor indicó que las 2.775 aves habían sido cargadas en Kertapati, Palembang, y serían llevadas a Kampung Rambutan, Yakarta; la interceptación ocurrió en Bakauheni.",
+      "source_label": "ANTARA",
+      "source_url": "https://lampung.antaranews.com/berita/829475/bksda-amankan-2775-burung-ilegal-di-pelabuhan-bakauheni"
+    },
+    {
+      "id": "parepare-balikpapan-lorikeets-2026-09",
+      "event_match": {
+        "location_contains": "Parepare"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Parepare → Balikpapan (envio pretendido)",
+      "label_en": "Parepare → Balikpapan (intended shipment)",
+      "label_es": "Parepare → Balikpapan (envío previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto de Parepare",
+            "country": "Indonésia",
+            "lat": -4.0135,
+            "lon": 119.6255,
+            "precision": "port_city_generalized"
+          },
+          "to": {
+            "name": "Balikpapan",
+            "country": "Indonésia",
+            "lat": -1.2675,
+            "lon": 116.8289,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que as 40 aves seriam transportadas de Parepare para Balikpapan. A apreensão ocorreu antes do deslocamento, portanto a linha representa destino pretendido.",
+      "evidence_en": "The source states that the 40 birds were intended for transport from Parepare to Balikpapan. The birds were detained before movement, so the line represents an intended destination.",
+      "evidence_es": "La fuente informa que las 40 aves iban a ser transportadas de Parepare a Balikpapan. La retención ocurrió antes del desplazamiento, por lo que la línea representa un destino previsto.",
+      "source_label": "MalukuTerkini / Badan Karantina Indonesia",
+      "source_url": "https://www.malukuterkini.com/2026/09/27/barantin-hentikan-perjalanan-40-perkici/"
     }
   ],
   "network_context": [
