@@ -37,3 +37,8 @@ Only countable animals or wildlife items are numeric. Weights, volumes and packa
 ### Brazil 2026 batch
 
 On 22 September 2026, 18 validated Brazilian cases were added with PT/EN/ES text, structured quantities, geodata, evidence-limited case context, source-image references where resolvable, and eight documented/attributed route records. Total case count: 110.
+
+
+## Ingestion rule
+
+Search windows such as 24 h, 48 h or 20 days are discovery windows only. Any validated wildlife event found during a sweep that is not already present in the canonical case store should be considered for inclusion regardless of the event date, publication date, missing event time or whether it falls outside the nominal search window. Deduplication, source validation and evidence limits still apply.
