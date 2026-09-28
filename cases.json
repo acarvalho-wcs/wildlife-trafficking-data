@@ -26429,7 +26429,8 @@
       "context_es": "Hechos documentados: la policía rural y la fiscalía ejecutaron dos allanamientos en Sauce en el marco de una investigación por caza furtiva. Se decomisaron equipos de caza y se encontró una cría de ciervo cautiva. Límites: no se informaron la especie ni el origen del animal y no hay una ruta de tráfico documentada.",
       "references_text_pt": "Corrientes Hoy",
       "references_text_en": "Corrientes Hoy",
-      "references_text_es": "Corrientes Hoy"
+      "references_text_es": "Corrientes Hoy",
+      "event_datetime": null
     },
     {
       "id": "2026-09-26__allapalli-pangolins-tiger-parts",
@@ -26499,7 +26500,8 @@
       "context_es": "Hechos documentados: el 26 de septiembre, una operación conjunta de WCCB, DRI, USTR y Allapalli Forest Division en la zona de Zimela detuvo a seis personas y decomisó una hembra de pangolín viva con una cría recién nacida, 43 huesos sospechosos de tigre y dos caninos de tigre. Límites: la fuente describe los huesos como sospechosos y señala que fueron preservados para examen forense. La nota describe un corredor interestatal investigado, pero no demuestra la ruta específica recorrida por estos elementos; no se representa una línea.",
       "references_text_pt": "News Riveting",
       "references_text_en": "News Riveting",
-      "references_text_es": "News Riveting"
+      "references_text_es": "News Riveting",
+      "event_datetime": null
     },
     {
       "id": "2026-09-26__bakauheni-2775-illegal-birds",
@@ -26569,7 +26571,8 @@
       "context_es": "Hechos documentados: el 26 de septiembre, un equipo conjunto encontró 2.775 aves sin la documentación exigida en el equipaje de un autobús en Bakauheni. El conductor indicó que las aves habían sido cargadas en Kertapati, Palembang, y serían llevadas a Kampung Rambutan, Yakarta. Límites: no se establecieron la cadena anterior a Palembang ni los destinatarios finales.",
       "references_text_pt": "ANTARA",
       "references_text_en": "ANTARA",
-      "references_text_es": "ANTARA"
+      "references_text_es": "ANTARA",
+      "event_datetime": null
     },
     {
       "id": "2026-09-27__barbalha-27-wild-birds-market",
@@ -26639,7 +26642,8 @@
       "context_es": "Hechos documentados: alrededor de las 5 h del 27 de septiembre, la policía ambiental inspeccionó una feria libre en el centro de Barbalha y encontró 27 aves silvestres ofrecidas para venta ilegal. Cuatro personas fueron sancionadas. Las aves fueron enviadas a Biodiversi para evaluación y rehabilitación. Límites: la nota no identifica las especies ni documenta origen o ruta.",
       "references_text_pt": "O POVO / PMCE",
       "references_text_en": "O POVO / PMCE",
-      "references_text_es": "O POVO / PMCE"
+      "references_text_es": "O POVO / PMCE",
+      "event_datetime": null
     },
     {
       "id": "2026-09-27__imam-turki-52-wild-animals-poaching",
@@ -26776,7 +26780,8 @@
       "context_es": "Hechos documentados: una inspección rutinaria de cuarentena encontró 40 loris ornamentados endémicos de Sulawesi y protegidos a nivel nacional, sin los documentos exigidos para el transporte. Las aves iban a ser llevadas a Balikpapan. Límites: la fuente no informa el origen anterior a Parepare ni identifica remitente o destinatario final.",
       "references_text_pt": "MalukuTerkini / Badan Karantina Indonesia",
       "references_text_en": "MalukuTerkini / Badan Karantina Indonesia",
-      "references_text_es": "MalukuTerkini / Badan Karantina Indonesia"
+      "references_text_es": "MalukuTerkini / Badan Karantina Indonesia",
+      "event_datetime": null
     },
     {
       "id": "2026-09-27__raikal-13kg-deer-meat",
@@ -26844,7 +26849,8 @@
       "context_es": "Hechos documentados: ocho personas fueron detenidas después de que la policía interceptara dos vehículos con unos 13 kg de carne de ciervo cerca de Raikal Toll Plaza. También se decomisó un arma de aire. La policía y el Departamento Forestal investigaban dónde fue cazado el animal y cómo se transportó la carne. Límites: no se establecieron la especie, el origen exacto ni la ruta previa.",
       "references_text_pt": "Telangana Today",
       "references_text_en": "Telangana Today",
-      "references_text_es": "Telangana Today"
+      "references_text_es": "Telangana Today",
+      "event_datetime": null
     },
     {
       "id": "2026-09__kariega-two-rhinos-poached",
@@ -26891,7 +26897,31 @@
       "context_es": "La reserva confirmó el ataque, pero no divulgó la fecha exacta ni detalles operativos mientras continuaba la investigación. No hay una ruta documentada.",
       "references_text_pt": "The Herald / Kariega Game Reserve",
       "references_text_en": "The Herald / Kariega Game Reserve",
-      "references_text_es": "The Herald / Kariega Game Reserve"
+      "references_text_es": "The Herald / Kariega Game Reserve",
+      "event_datetime": null,
+      "legacy_site_id": null,
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "context_updated_at": "2026-09-28T12:20:00Z",
+      "route_audited_at": "2026-09-28T12:20:00Z",
+      "image_url": null,
+      "image_source_url": "https://www.theherald.co.za/news/2026-09-27-rhino-cow-calf-poached-in-heartbreaking-attack-at-kariega-reserve/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-28T12:20:00Z",
+      "location_label_en": "Kariega Game Reserve, Eastern Cape",
+      "location_label_es": "Kariega Game Reserve, Eastern Cape",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "quantity_note_pt": "Dois rinocerontes mortos. A fonte não informa remoção de chifres após o ataque.",
+      "quantity_note_en": "Two rhinos were killed. The source does not report horn removal after the attack.",
+      "quantity_note_es": "Dos rinocerontes murieron. La fuente no informa extracción de cuernos después del ataque.",
+      "geographic_note_pt": "Coordenadas generalizadas para a Kariega Game Reserve; o ponto exato do ataque não foi divulgado.",
+      "geographic_note_en": "Generalized coordinates for Kariega Game Reserve; the exact attack location was not disclosed.",
+      "geographic_note_es": "Coordenadas generalizadas para Kariega Game Reserve; no se divulgó el lugar exacto del ataque."
     }
   ]
 }
