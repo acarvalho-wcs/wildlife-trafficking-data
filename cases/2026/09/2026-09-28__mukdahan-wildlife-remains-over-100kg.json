@@ -10,7 +10,7 @@
   "modal_primary": "Terrestre",
   "quantity_count": null,
   "quantity_qualifier": "minimum",
-  "quantity_kind": "weight",
+  "quantity_kind": "unknown",
   "location_label_pt": "Mukdahan, Tailândia",
   "location_label_en": "Mukdahan, Thailand",
   "location_label_es": "Mukdahan, Tailandia",
@@ -29,5 +29,28 @@
   "context_es": "El 28 de septiembre, las autoridades realizaron un operativo en una residencia de Mukdahan y decomisaron más de 100 kg de restos y productos de fauna protegida descritos en 13 categorías/lotes. El peso no se convirtió en número de animales y no se infirió ninguna ruta.",
   "references_text_pt": "News24 Thailand",
   "references_text_en": "News24 Thailand",
-  "references_text_es": "News24 Thailand"
+  "references_text_es": "News24 Thailand",
+  "coordinates": {
+    "lat": 16.5453,
+    "lon": 104.7235
+  },
+  "coordinate_precision": "city_generalized",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "quantity_note_pt": "A fonte informa mais de 100 kg de restos/produtos de fauna protegida; peso não é convertido em número de animais ou itens.",
+  "quantity_note_en": "The source reports more than 100 kg of protected wildlife remains/products; weight is not converted into an animal or item count.",
+  "quantity_note_es": "La fuente informa más de 100 kg de restos/productos de fauna protegida; el peso no se convierte en número de animales o ítems.",
+  "geographic_note_pt": "Coordenadas generalizadas para Mukdahan; o endereço exato da residência não foi usado.",
+  "geographic_note_en": "Generalized coordinates for Mukdahan; the exact residence address was not used.",
+  "geographic_note_es": "Coordenadas generalizadas para Mukdahan; no se utilizó la dirección exacta de la residencia.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_REVIEWED",
+  "image_checked_at": null,
+  "event_datetime": null,
+  "context_updated_at": "2026-09-29T12:40:00Z",
+  "route_audited_at": "2026-09-29T12:40:00Z"
 }
