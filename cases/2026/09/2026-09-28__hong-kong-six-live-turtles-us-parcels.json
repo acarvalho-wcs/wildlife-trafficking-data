@@ -11,8 +11,11 @@
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
   "country": "Hong Kong",
-  "coordinates": null,
-  "coordinate_precision": "airport_not_geocoded",
+  "coordinates": {
+    "lat": 22.3126,
+    "lon": 113.9113
+  },
+  "coordinate_precision": "airport",
   "source_label": "Hong Kong Government / Customs",
   "source_url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800588.htm",
   "publication_date": "2026-09-28",
@@ -47,14 +50,20 @@
   "quantity_note_pt": "Seis animais vivos; contagem exata da fonte oficial.",
   "quantity_note_en": "Six live animals; exact count from the official source.",
   "quantity_note_es": "Seis animales vivos; conteo exacto de la fuente oficial.",
-  "geographic_note_pt": "O ponto documentado é o Aeroporto Internacional de Hong Kong; coordenadas não foram inferidas.",
-  "geographic_note_en": "The documented point is Hong Kong International Airport; coordinates were not inferred.",
-  "geographic_note_es": "El punto documentado es el Aeropuerto Internacional de Hong Kong; no se infirieron coordenadas.",
+  "geographic_note_pt": "Coordenadas do Aeroporto Internacional de Hong Kong, ponto documentado da apreensão.",
+  "geographic_note_en": "Coordinates for Hong Kong International Airport, the documented seizure point.",
+  "geographic_note_es": "Coordenadas del Aeropuerto Internacional de Hong Kong, punto documentado del decomiso.",
   "context_pt": "Fatos documentados: em 28 de setembro, a Alfândega de Hong Kong apreendeu seis tartarugas vivas em três encomendas aéreas procedentes dos Estados Unidos e declaradas como contendo brinquedos. O valor estimado era HK$ 38 mil. Os animais foram encaminhados ao Agriculture, Fisheries and Conservation Department. Rota documentada somente no nível de país de origem e aeroporto de chegada: Estados Unidos → Aeroporto Internacional de Hong Kong; nenhuma cidade de origem nos EUA foi inferida.",
   "context_en": "Documented facts: on 28 September, Hong Kong Customs seized six live turtles in three air parcels arriving from the United States and declared as containing toys. Their estimated value was HK$38,000. The animals were referred to the Agriculture, Fisheries and Conservation Department. The documented route is limited to country of origin and arrival airport: United States → Hong Kong International Airport; no US origin city was inferred.",
   "context_es": "Hechos documentados: el 28 de septiembre, Aduanas de Hong Kong decomisó seis tortugas vivas en tres paquetes aéreos procedentes de Estados Unidos y declarados como juguetes. Su valor estimado era de HK$38.000. Los animales fueron remitidos al Agriculture, Fisheries and Conservation Department. La ruta documentada se limita al país de origen y al aeropuerto de llegada: Estados Unidos → Aeropuerto Internacional de Hong Kong; no se infirió ninguna ciudad de origen en EE. UU.",
   "references_text_pt": "Hong Kong Government / Customs",
   "references_text_en": "Hong Kong Government / Customs",
   "references_text_es": "Hong Kong Government / Customs",
-  "event_datetime": null
+  "event_datetime": null,
+  "image_url": null,
+  "image_source_url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800588.htm",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-29T12:14:00Z",
+  "context_updated_at": "2026-09-29T12:40:00Z",
+  "route_audited_at": "2026-09-29T12:40:00Z"
 }
