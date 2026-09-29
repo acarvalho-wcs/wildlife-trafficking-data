@@ -4,6 +4,9 @@ import hashlib
 import json
 import re
 import sys
+import math
+from datetime import date
+from urllib.parse import urlsplit
 from pathlib import Path
 
 REQUIRED = [
@@ -51,25 +54,43 @@ def record_path(root, record, used):
     return root / rel, rel.as_posix()
 
 def validate_records(records):
-    errors=[]; seen={}
+    """The public feed must satisfy the dashboard contract before publication."""
+    errors=[]; seen=set()
+    def nonempty(v):
+        return isinstance(v,str) and bool(v.strip())
+    def day(v):
+        if v is None: return True
+        if not isinstance(v,str) or not re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}",v): return False
+        try: return date.fromisoformat(v).isoformat()==v
+        except ValueError: return False
     for i, rec in enumerate(records):
-        if not isinstance(rec, dict):
-            errors.append(f"[{i}] record is not an object")
-            continue
-        for k in REQUIRED:
-            if k not in rec:
-                errors.append(f"[{i}] missing required field: {k}")
-        rid = rec.get("id")
-        if rid in seen:
-            errors.append(f"duplicate id: {rid!r} at indexes {seen[rid]} and {i}")
-        else:
-            seen[rid] = i
-        c = rec.get("coordinates")
-        if c is not None:
-            if not isinstance(c, dict) or not isinstance(c.get("lat"), (int,float)) or not isinstance(c.get("lon"), (int,float)):
-                errors.append(f"[{i}] invalid coordinates for id={rid!r}")
-            elif not (-90 <= c["lat"] <= 90 and -180 <= c["lon"] <= 180):
-                errors.append(f"[{i}] coordinates out of range for id={rid!r}")
+        if not isinstance(rec,dict):
+            errors.append(f"[{i}] record is not an object"); continue
+        rid=rec.get("id"); prefix=f"[{i}] id={rid!r}"
+        if not nonempty(rid) or rid in seen:
+            errors.append(f"{prefix}: invalid or duplicate id")
+        if isinstance(rid,str): seen.add(rid)
+        for key in REQUIRED:
+            if key not in rec: errors.append(f"{prefix}: missing required field {key}")
+        for key in ["coordinate_precision","source_label"]+[f"{stem}_{lang}" for stem in ["title","card_text","context"] for lang in ["pt","en","es"]]:
+            if not nonempty(rec.get(key)): errors.append(f"{prefix}: missing/empty {key}")
+        c=rec.get("coordinates")
+        if not isinstance(c,dict) or any(type(c.get(k)) not in (int,float) or not math.isfinite(c[k]) or abs(c[k])>limit for k,limit in [("lat",90),("lon",180)]):
+            errors.append(f"{prefix}: invalid coordinates")
+        if rec.get("status")!="VALIDATED": errors.append(f"{prefix}: status must be VALIDATED")
+        try:
+            u=urlsplit(rec.get("source_url") or "")
+            valid_url=u.scheme in ("https","http") and bool(u.netloc) and not u.username and not u.password
+        except (TypeError,ValueError): valid_url=False
+        if not valid_url: errors.append(f"{prefix}: invalid source_url")
+        for key in ["event_date","publication_date"]:
+            if key not in rec or not day(rec[key]): errors.append(f"{prefix}: {key} must be YYYY-MM-DD or explicit null")
+        groups=rec.get("fauna_groups_aggregated")
+        if not isinstance(groups,list) or any(not isinstance(g,str) for g in groups): errors.append(f"{prefix}: invalid fauna_groups_aggregated")
+        for key in ["country","modal_primary"]:
+            if not isinstance(rec.get(key),str): errors.append(f"{prefix}: invalid {key}")
+        for key in ["aggregate_operation","exclude_from_totals"]:
+            if type(rec.get(key)) is not bool: errors.append(f"{prefix}: {key} must be explicitly true or false")
     return errors
 
 def migrate(source, root, force=False):
@@ -112,8 +133,9 @@ def load_store(root):
     files=[]; seen_paths=set(); records=[]
     for rel in manifest.get("files", []):
         p=root/rel
-        if p.exists():
-            records.append(load_json(p)); files.append(rel); seen_paths.add(rel)
+        if not p.exists():
+            raise ValueError(f"Manifest record missing: {rel}. Published feed was not changed.")
+        records.append(load_json(p)); files.append(rel); seen_paths.add(rel)
     extras=[]
     for p in root.rglob("*.json"):
         if p.name == "_manifest.json":
@@ -157,6 +179,8 @@ def build(root, output):
     errors=validate_records(records)
     if errors:
         raise ValueError("Store validation failed:\n" + "\n".join(errors[:50]))
+    if len(records) < int(manifest.get("record_count") or 0):
+        raise ValueError("Record count shrank; published feed was not changed")
     payload=compose(manifest, records)
     dump_json(output, payload)
     manifest["files"]=files

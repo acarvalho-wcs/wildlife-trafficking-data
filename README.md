@@ -42,3 +42,11 @@ On 22 September 2026, 18 validated Brazilian cases were added with PT/EN/ES text
 ## Ingestion rule
 
 Search windows such as 24 h, 48 h or 20 days are discovery windows only. Any validated wildlife event found during a sweep that is not already present in the canonical case store should be considered for inclusion regardless of the event date, publication date, missing event time or whether it falls outside the nominal search window. Deduplication, source validation and evidence limits still apply.
+
+## Safe chat / GitHub ingestion
+
+Add or update individual records under `cases/YYYY/MM/`. Do not replace the compiled `cases.json` or remove records from the manifest. The build validates the complete store before publishing the feed; a rejected batch leaves the last published feed intact.
+
+Every record needs explicit boolean `aggregate_operation` and `exclude_from_totals`. Assess these controls before inclusion; do not infer them from a missing field. Also supply numeric coordinates and precision, original source URL, VALIDATED status, PT/EN/ES title/card/context, fauna groups, country, transport mode, and both dates (`null` when unknown). Missing translations or uncertain facts must be reviewed, never fabricated to pass validation.
+
+Before publishing, run `python scripts/case_store.py validate --root cases`. Errors identify the case ID and missing/invalid field. After pushing, check that **Build canonical cases feed** succeeds and that `cases.json` has the expected IDs and count.

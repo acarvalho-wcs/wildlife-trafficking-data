@@ -12,7 +12,23 @@
     "taxon_text",
     "modal_primary",
     "card_text_pt",
-    "status"
+    "status",
+    "coordinates",
+    "coordinate_precision",
+    "source_label",
+    "source_url",
+    "event_date",
+    "fauna_groups_aggregated",
+    "aggregate_operation",
+    "exclude_from_totals",
+    "title_pt",
+    "title_en",
+    "title_es",
+    "card_text_en",
+    "card_text_es",
+    "context_pt",
+    "context_en",
+    "context_es"
   ],
   "properties": {
     "id": {
@@ -28,40 +44,26 @@
       "type": "string"
     },
     "country": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string"
     },
     "title_pt": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "title_en": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "title_es": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "source_label": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "source_url": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": "string",
       "format": "uri"
     },
     "publication_date": {
@@ -103,60 +105,42 @@
       ]
     },
     "modal_primary": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string"
     },
     "card_text_pt": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "card_text_en": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "card_text_es": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "coordinates": {
-      "anyOf": [
-        {
-          "type": "null"
+      "type": "object",
+      "required": [
+        "lat",
+        "lon"
+      ],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
         },
-        {
-          "type": "object",
-          "required": [
-            "lat",
-            "lon"
-          ],
-          "properties": {
-            "lat": {
-              "type": "number",
-              "minimum": -90,
-              "maximum": 90
-            },
-            "lon": {
-              "type": "number",
-              "minimum": -180,
-              "maximum": 180
-            }
-          }
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
         }
-      ]
+      }
     },
     "coordinate_precision": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "geographic_note_pt": {
       "type": [
@@ -165,22 +149,16 @@
       ]
     },
     "context_pt": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "context_en": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "context_es": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "references_text_pt": {
       "type": [
@@ -189,10 +167,8 @@
       ]
     },
     "status": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "const": "VALIDATED"
     },
     "aggregate_operation": {
       "type": "boolean"
