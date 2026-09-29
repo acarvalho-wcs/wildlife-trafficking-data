@@ -26936,8 +26936,11 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "country": "Hong Kong",
-      "coordinates": null,
-      "coordinate_precision": "airport_not_geocoded",
+      "coordinates": {
+        "lat": 22.3126,
+        "lon": 113.9113
+      },
+      "coordinate_precision": "airport",
       "source_label": "Hong Kong Government / Customs",
       "source_url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800588.htm",
       "publication_date": "2026-09-28",
@@ -26972,16 +26975,22 @@
       "quantity_note_pt": "Seis animais vivos; contagem exata da fonte oficial.",
       "quantity_note_en": "Six live animals; exact count from the official source.",
       "quantity_note_es": "Seis animales vivos; conteo exacto de la fuente oficial.",
-      "geographic_note_pt": "O ponto documentado é o Aeroporto Internacional de Hong Kong; coordenadas não foram inferidas.",
-      "geographic_note_en": "The documented point is Hong Kong International Airport; coordinates were not inferred.",
-      "geographic_note_es": "El punto documentado es el Aeropuerto Internacional de Hong Kong; no se infirieron coordenadas.",
+      "geographic_note_pt": "Coordenadas do Aeroporto Internacional de Hong Kong, ponto documentado da apreensão.",
+      "geographic_note_en": "Coordinates for Hong Kong International Airport, the documented seizure point.",
+      "geographic_note_es": "Coordenadas del Aeropuerto Internacional de Hong Kong, punto documentado del decomiso.",
       "context_pt": "Fatos documentados: em 28 de setembro, a Alfândega de Hong Kong apreendeu seis tartarugas vivas em três encomendas aéreas procedentes dos Estados Unidos e declaradas como contendo brinquedos. O valor estimado era HK$ 38 mil. Os animais foram encaminhados ao Agriculture, Fisheries and Conservation Department. Rota documentada somente no nível de país de origem e aeroporto de chegada: Estados Unidos → Aeroporto Internacional de Hong Kong; nenhuma cidade de origem nos EUA foi inferida.",
       "context_en": "Documented facts: on 28 September, Hong Kong Customs seized six live turtles in three air parcels arriving from the United States and declared as containing toys. Their estimated value was HK$38,000. The animals were referred to the Agriculture, Fisheries and Conservation Department. The documented route is limited to country of origin and arrival airport: United States → Hong Kong International Airport; no US origin city was inferred.",
       "context_es": "Hechos documentados: el 28 de septiembre, Aduanas de Hong Kong decomisó seis tortugas vivas en tres paquetes aéreos procedentes de Estados Unidos y declarados como juguetes. Su valor estimado era de HK$38.000. Los animales fueron remitidos al Agriculture, Fisheries and Conservation Department. La ruta documentada se limita al país de origen y al aeropuerto de llegada: Estados Unidos → Aeropuerto Internacional de Hong Kong; no se infirió ninguna ciudad de origen en EE. UU.",
       "references_text_pt": "Hong Kong Government / Customs",
       "references_text_en": "Hong Kong Government / Customs",
       "references_text_es": "Hong Kong Government / Customs",
-      "event_datetime": null
+      "event_datetime": null,
+      "image_url": null,
+      "image_source_url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800588.htm",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-29T12:14:00Z",
+      "context_updated_at": "2026-09-29T12:40:00Z",
+      "route_audited_at": "2026-09-29T12:40:00Z"
     },
     {
       "id": "2026-09-27__terengganu-protected-birds",
@@ -27019,7 +27028,29 @@
       "context_es": "La Policía Marítima y PERHILITAN registraron seis residencias en la zona de Manir y decomisaron más de 50 aves protegidas y 60 jaulas. La fuente primaria del 28 de septiembre describe la acción como ocurrida la tarde anterior, estableciendo la fecha del evento en el 27 de septiembre. No se documentó ninguna ruta.",
       "references_text_pt": "Bernama",
       "references_text_en": "Bernama",
-      "references_text_es": "Bernama"
+      "references_text_es": "Bernama",
+      "coordinates": {
+        "lat": 5.3073,
+        "lon": 103.0837
+      },
+      "coordinate_precision": "locality_generalized",
+      "quantity_unassigned": 0,
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "quantity_note_pt": "A fonte informa mais de 50 aves; registrado como quantidade mínima, não como contagem exata.",
+      "quantity_note_en": "The source reports more than 50 birds; recorded as a minimum quantity, not an exact count.",
+      "quantity_note_es": "La fuente informa más de 50 aves; se registra como cantidad mínima, no como conteo exacto.",
+      "geographic_note_pt": "Coordenadas generalizadas para Manir, Kuala Terengganu; os seis endereços não foram publicados.",
+      "geographic_note_en": "Generalized coordinates for Manir, Kuala Terengganu; the six addresses were not published.",
+      "geographic_note_es": "Coordenadas generalizadas para Manir, Kuala Terengganu; no se publicaron las seis direcciones.",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_REVIEWED",
+      "image_checked_at": null,
+      "event_datetime": null,
+      "context_updated_at": "2026-09-29T12:40:00Z",
+      "route_audited_at": "2026-09-29T12:40:00Z"
     },
     {
       "id": "2026-09-28__mukdahan-wildlife-remains-over-100kg",
@@ -27033,7 +27064,7 @@
       "modal_primary": "Terrestre",
       "quantity_count": null,
       "quantity_qualifier": "minimum",
-      "quantity_kind": "weight",
+      "quantity_kind": "unknown",
       "location_label_pt": "Mukdahan, Tailândia",
       "location_label_en": "Mukdahan, Thailand",
       "location_label_es": "Mukdahan, Tailandia",
@@ -27052,7 +27083,30 @@
       "context_es": "El 28 de septiembre, las autoridades realizaron un operativo en una residencia de Mukdahan y decomisaron más de 100 kg de restos y productos de fauna protegida descritos en 13 categorías/lotes. El peso no se convirtió en número de animales y no se infirió ninguna ruta.",
       "references_text_pt": "News24 Thailand",
       "references_text_en": "News24 Thailand",
-      "references_text_es": "News24 Thailand"
+      "references_text_es": "News24 Thailand",
+      "coordinates": {
+        "lat": 16.5453,
+        "lon": 104.7235
+      },
+      "coordinate_precision": "city_generalized",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "quantity_note_pt": "A fonte informa mais de 100 kg de restos/produtos de fauna protegida; peso não é convertido em número de animais ou itens.",
+      "quantity_note_en": "The source reports more than 100 kg of protected wildlife remains/products; weight is not converted into an animal or item count.",
+      "quantity_note_es": "La fuente informa más de 100 kg de restos/productos de fauna protegida; el peso no se convierte en número de animales o ítems.",
+      "geographic_note_pt": "Coordenadas generalizadas para Mukdahan; o endereço exato da residência não foi usado.",
+      "geographic_note_en": "Generalized coordinates for Mukdahan; the exact residence address was not used.",
+      "geographic_note_es": "Coordenadas generalizadas para Mukdahan; no se utilizó la dirección exacta de la residencia.",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_REVIEWED",
+      "image_checked_at": null,
+      "event_datetime": null,
+      "context_updated_at": "2026-09-29T12:40:00Z",
+      "route_audited_at": "2026-09-29T12:40:00Z"
     },
     {
       "id": "2026-09-28__timon-45-birds-cockfighting",
@@ -27090,7 +27144,29 @@
       "context_es": "Una operación de la Policía Civil en Timon cerró un local de peleas de gallos y decomisó 45 aves, incluidos 36 gallos asociados a la actividad y nueve aves silvestres. La fuente no documenta una ruta de tráfico ni identifica todas las especies.",
       "references_text_pt": "GP1",
       "references_text_en": "GP1",
-      "references_text_es": "GP1"
+      "references_text_es": "GP1",
+      "coordinates": {
+        "lat": -5.1004,
+        "lon": -42.8312
+      },
+      "coordinate_precision": "city_generalized",
+      "quantity_unassigned": 0,
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "quantity_note_pt": "A contagem de 45 inclui 36 galos domésticos associados à rinha e 9 aves silvestres; a distinção é preservada.",
+      "quantity_note_en": "The count of 45 includes 36 domestic roosters associated with cockfighting and nine wild birds; the distinction is preserved.",
+      "quantity_note_es": "El total de 45 incluye 36 gallos domésticos asociados a peleas y nueve aves silvestres; se preserva la distinción.",
+      "geographic_note_pt": "Coordenadas generalizadas para a cidade de Timon, Maranhão.",
+      "geographic_note_en": "Generalized coordinates for the city of Timon, Maranhão.",
+      "geographic_note_es": "Coordenadas generalizadas para la ciudad de Timon, Maranhão.",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_REVIEWED",
+      "image_checked_at": null,
+      "event_datetime": null,
+      "context_updated_at": "2026-09-29T12:40:00Z",
+      "route_audited_at": "2026-09-29T12:40:00Z"
     }
   ]
 }
