@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T11:28:00Z",
+  "updated_at": "2026-09-30T21:10:48.569Z",
   "audited_through": "2026-09-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4359,6 +4359,42 @@
       "evidence_es": "La fuente identifica al pasajero con destino a Malasia en el vuelo OD-161 de Batik Air. La fuente primaria utilizada no especifica el aeropuerto de destino, por lo que la ruta termina a nivel de país.",
       "source_label": "bdnews24.com / Bangladesh Forest Department WCCU",
       "source_url": "https://bdnews24.com/bangladesh/5t1c23dez3"
+    },
+    {
+      "id": "us-hongkong-six-turtles-2026-09-28",
+      "event_match": {
+        "event_id": "2026-09-28__hong-kong-six-live-turtles-us-parcels"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Estados Unidos → Aeroporto Internacional de Hong Kong",
+      "label_en": "United States → Hong Kong International Airport",
+      "label_es": "Estados Unidos → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Estados Unidos",
+            "country": "Estados Unidos",
+            "lat": 39.8283,
+            "lon": -98.5795,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A Alfândega de Hong Kong informou que três encomendas aéreas, declaradas como carros de brinquedo e conjuntos de blocos de montar, foram enviadas dos Estados Unidos para Hong Kong e interceptadas no Aeroporto Internacional de Hong Kong em 28 de setembro de 2026. As encomendas continham seis tartarugas vivas suspeitas de pertencerem a espécies ameaçadas regulamentadas. A cidade de origem nos Estados Unidos não foi informada; o endpoint de origem é apenas uma referência nacional generalizada. A linha não representa o trajeto exato nem estabelece escalas intermediárias.",
+      "evidence_en": "Hong Kong Customs reported that three air parcels, declared as toy cars and toy building sets, were sent from the United States to Hong Kong and intercepted at Hong Kong International Airport on September 28, 2026. They contained six live turtles suspected to be scheduled endangered species. The US city of origin was not reported; the origin endpoint is only a generalized national reference. The line does not represent the exact itinerary or establish intermediate stops.",
+      "evidence_es": "La Aduana de Hong Kong informó que tres paquetes aéreos, declarados como coches de juguete y juegos de bloques de construcción, fueron enviados desde Estados Unidos a Hong Kong e interceptados en el Aeropuerto Internacional de Hong Kong el 28 de septiembre de 2026. Contenían seis tortugas vivas sospechosas de pertenecer a especies amenazadas reguladas. No se informó la ciudad de origen en Estados Unidos; el extremo de origen es únicamente una referencia nacional generalizada. La línea no representa el itinerario exacto ni establece escalas intermedias.",
+      "source_label": "Hong Kong Customs / Government of the HKSAR",
+      "source_url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800588.htm"
     }
   ],
   "network_context": [
