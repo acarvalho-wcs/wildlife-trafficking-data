@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_update_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T22:45:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T22:45:00Z",
+  "route_audited_at": "2026-09-30T22:45:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T22:45:00Z",
+  "event_datetime": null,
+  "id": "2026-09-22__bangkalan-3578-interisland-birds",
+  "country": "Indonésia",
+  "coordinates": {
+    "lat": -7.03,
+    "lon": 112.75
+  },
+  "coordinate_precision": "regency_generalized",
+  "source_label": "Kementerian Kehutanan / Gakkum Kehutanan",
+  "source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/kemenhut-gagalkan-pengangkutan-3578-burung-antarpulau-ditetapkan-dua-tersangka-dan-rantai-peredaran-ditelusuri",
+  "publication_date": "2026-09-25",
+  "event_date": "2026-09-22",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 3578,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 3578
+  },
+  "location_label_pt": "Genangkah, Burneh, Bangkalan, Java Oriental",
+  "location_label_en": "Genangkah, Burneh, Bangkalan, East Java",
+  "location_label_es": "Genangkah, Burneh, Bangkalan, Java Oriental",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Aves; múltiplas espécies identificadas por nomes comuns na fonte oficial",
+  "title_pt": "Kemenhut intercepta 3.578 aves vivas em transporte interilhas em Bangkalan",
+  "title_en": "Forestry Ministry intercepts 3,578 live birds in inter-island transport in Bangkalan",
+  "title_es": "Ministerio Forestal intercepta 3.578 aves vivas en transporte interinsular en Bangkalan",
+  "card_text_pt": "Agentes encontraram 3.578 aves vivas em dois veículos a caminho da Ponte Suramadu; parte das espécies é protegida. A investigação indica que a carga havia sido retirada de um pequeno porto em Sungai Saronggi, Sumenep, após desembarque de navio.",
+  "card_text_en": "Officers found 3,578 live birds in two vehicles heading toward the Suramadu Bridge; some species are protected. Investigation indicates the shipment had been collected from a small port at Sungai Saronggi, Sumenep, after being unloaded from a vessel.",
+  "card_text_es": "Agentes encontraron 3.578 aves vivas en dos vehículos rumbo al Puente Suramadu; algunas especies están protegidas. La investigación indica que la carga había sido recogida en un pequeño puerto de Sungai Saronggi, Sumenep, tras ser descargada de un barco.",
+  "fauna_label_pt": "3.578 aves vivas de múltiplas espécies",
+  "fauna_label_en": "3,578 live birds of multiple species",
+  "fauna_label_es": "3.578 aves vivas de múltiples especies",
+  "quantity_note_pt": "Contagem oficial exata de 3.578 aves. A composição inclui, entre outras, 1.544 burung kacamata, 471 jalak tunggir merah, 365 perkici kuning e 360 cica daun besar.",
+  "quantity_note_en": "Official exact count of 3,578 birds. The composition includes, among others, 1,544 burung kacamata, 471 jalak tunggir merah, 365 perkici kuning and 360 cica daun besar.",
+  "quantity_note_es": "Conteo oficial exacto de 3.578 aves. La composición incluye, entre otras, 1.544 burung kacamata, 471 jalak tunggir merah, 365 perkici kuning y 360 cica daun besar.",
+  "geographic_note_pt": "Coordenadas generalizadas para Bangkalan; a abordagem ocorreu na Jalan Raya Suramadu, Genangkah.",
+  "geographic_note_en": "Generalized coordinates for Bangkalan; the stop occurred on Jalan Raya Suramadu in Genangkah.",
+  "geographic_note_es": "Coordenadas generalizadas para Bangkalan; la intervención ocurrió en Jalan Raya Suramadu, Genangkah.",
+  "context_pt": "Fatos documentados [O1]: 3.578 aves vivas foram interceptadas em dois veículos em Bangkalan; a investigação confirmou que o lote havia sido retirado de um pequeno porto em Sungai Saronggi após desembarque de navio e apura origem anterior, destino final e remessas repetidas. Relação com a ciência [S1]: o Repositório Científico reúne estudos sobre comércio de aves engaioladas e rotas de aves silvestres na Indonésia, mostrando pressão de demanda e circulação inter-regional. Relação com reportagens [N1]: o repositório também documenta a persistência do comércio de aves raras na Indonésia. Leitura integrada: este caso fornece evidência operacional particularmente forte de uma cadeia multimodal marítima-terrestre; a única rota desenhada deve começar no ponto de coleta confirmado em Saronggi, pois a origem anterior em Kalimantan ainda estava sob investigação. Limites da evidência: não se atribui uma localidade específica de origem em Kalimantan nem destino final além do trecho comprovado.",
+  "context_en": "Documented facts [O1]: 3,578 live birds were intercepted in two vehicles in Bangkalan; investigators confirmed that the load had been collected from a small port at Sungai Saronggi after being unloaded from a vessel and are investigating upstream origin, final destination and repeated shipments. Relation to science [S1]: the Research Repository includes studies of Indonesia's caged-bird trade and wild-bird routes, documenting demand pressure and inter-regional circulation. Relation to reporting [N1]: the repository also documents persistent trade in rare birds in Indonesia. Integrated reading: this case provides unusually strong operational evidence of a maritime-to-land supply chain; the mapped route should begin only at the confirmed pickup point in Saronggi because the upstream origin in Kalimantan remained under investigation. Evidence limits: no specific Kalimantan origin locality or final destination is assigned beyond the proven segment.",
+  "context_es": "Hechos documentados [O1]: 3.578 aves vivas fueron interceptadas en dos vehículos en Bangkalan; la investigación confirmó que el lote había sido recogido en un pequeño puerto de Sungai Saronggi tras ser descargado de un barco y continúa investigando origen previo, destino final y envíos repetidos. Relación con la ciencia [S1]: el Repositorio Científico incluye estudios sobre comercio de aves enjauladas y rutas de aves silvestres en Indonesia, documentando presión de demanda y circulación interregional. Relación con reportajes [N1]: el repositorio también documenta la persistencia del comercio de aves raras en Indonesia. Lectura integrada: este caso aporta evidencia operacional especialmente sólida de una cadena multimodal marítima-terrestre; la ruta cartografiada debe comenzar únicamente en el punto confirmado de recogida en Saronggi porque el origen previo en Kalimantan seguía bajo investigación. Límites de la evidencia: no se atribuye una localidad específica de origen en Kalimantan ni un destino final más allá del tramo comprobado.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Gakkum Kehutanan — 3,578 birds intercepted in Bangkalan",
+      "url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/kemenhut-gagalkan-pengangkutan-3578-burung-antarpulau-ditetapkan-dua-tersangka-dan-rantai-peredaran-ditelusuri"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan",
+      "url": "https://doi.org/10.1016/j.gecco.2026.e04193"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay Indonesia — Mengapa Burung Langka Terus jadi Buruan di Sumatera?",
+      "url": "https://mongabay.co.id/2026/07/23/mengapa-perdagangan-burung-langka-di-sumatera-terus-terjadi/"
+    }
+  ],
+  "references_text_pt": "[O1] Gakkum Kehutanan, 25/09/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [N1] Mongabay Indonesia, 23/07/2026.",
+  "references_text_en": "[O1] Gakkum Kehutanan, 25 Sep 2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [N1] Mongabay Indonesia, 23 Jul 2026.",
+  "references_text_es": "[O1] Gakkum Kehutanan, 25/09/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [N1] Mongabay Indonesia, 23/07/2026.",
+  "image_source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/kemenhut-gagalkan-pengangkutan-3578-burung-antarpulau-ditetapkan-dua-tersangka-dan-rantai-peredaran-ditelusuri"
+}
