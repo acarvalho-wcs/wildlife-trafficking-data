@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T11:22:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T11:22:00Z",
+  "route_audited_at": "2026-09-30T11:22:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T11:22:00Z",
+  "event_datetime": null,
+  "id": "2026-09-27__dhaka-1163-live-turtles-malaysia-bound",
+  "country": "Bangladesh",
+  "coordinates": {
+    "lat": 23.8433,
+    "lon": 90.3978
+  },
+  "coordinate_precision": "airport",
+  "source_label": "bdnews24.com / Bangladesh Forest Department WCCU",
+  "source_url": "https://bdnews24.com/bangladesh/5t1c23dez3",
+  "publication_date": "2026-09-27",
+  "event_date": "2026-09-27",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Aéreo",
+  "quantity_count": 1163,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 1163
+  },
+  "image_source_url": "https://bdnews24.com/bangladesh/5t1c23dez3",
+  "location_label_pt": "Aeroporto Internacional Hazrat Shahjalal, Dhaka",
+  "location_label_en": "Hazrat Shahjalal International Airport, Dhaka",
+  "location_label_es": "Aeropuerto Internacional Hazrat Shahjalal, Daca",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "taxon_text": "Testudines; 1.163 tartarugas nativas referidas localmente como 'Kori Kaitta', identificação científica não informada",
+  "title_pt": "Autoridades interceptam 1.163 tartarugas vivas em passageiro com destino à Malásia",
+  "title_en": "Authorities intercept 1,163 live turtles from Malaysia-bound passenger in Dhaka",
+  "title_es": "Autoridades interceptan 1.163 tortugas vivas a pasajero con destino a Malasia en Daca",
+  "card_text_pt": "Uma operação conjunta no aeroporto de Dhaka apreendeu 1.163 tartarugas vivas nativas na bagagem de um passageiro que viajaria para a Malásia no voo OD-161 da Batik Air. Autoridades suspeitam da atuação de uma rede de tráfico.",
+  "card_text_en": "A joint operation at Dhaka airport seized 1,163 live native turtles from the luggage of a passenger bound for Malaysia on Batik Air flight OD-161. Authorities suspect a trafficking network was behind the shipment.",
+  "card_text_es": "Un operativo conjunto en el aeropuerto de Daca decomisó 1.163 tortugas vivas nativas en el equipaje de un pasajero con destino a Malasia en el vuelo OD-161 de Batik Air. Las autoridades sospechan la participación de una red de tráfico.",
+  "fauna_label_pt": "1.163 tartarugas vivas nativas ('Kori Kaitta')",
+  "fauna_label_en": "1,163 live native turtles ('Kori Kaitta')",
+  "fauna_label_es": "1.163 tortugas vivas nativas ('Kori Kaitta')",
+  "quantity_note_pt": "Contagem exata de animais vivos. A fonte usa o nome local 'Kori Kaitta' sem fornecer identificação científica; não foi inferida espécie.",
+  "quantity_note_en": "Exact count of live animals. The source uses the local name 'Kori Kaitta' without a scientific identification; no species was inferred.",
+  "quantity_note_es": "Conteo exacto de animales vivos. La fuente utiliza el nombre local 'Kori Kaitta' sin identificación científica; no se infirió especie.",
+  "geographic_note_pt": "Coordenadas do Aeroporto Internacional Hazrat Shahjalal; a apreensão ocorreu no aeroporto.",
+  "geographic_note_en": "Coordinates for Hazrat Shahjalal International Airport, where the seizure occurred.",
+  "geographic_note_es": "Coordenadas del Aeropuerto Internacional Hazrat Shahjalal, donde ocurrió el decomiso.",
+  "context_pt": "Fatos documentados: autoridades apreenderam 1.163 tartarugas vivas na bagagem de um passageiro com destino à Malásia no voo OD-161; a WCCU suspeita de uma rede por trás do transporte [O1]. Relação com a ciência: o repositório científico mostra que quelônios são explorados em diferentes mercados e que o comércio pode produzir declínios populacionais, embora os estudos não tratem especificamente desta remessa [S1]. Relação com reportagens: o repositório documenta rotas transnacionais de fauna no Sul/Sudeste Asiático e a importância de investigar cadeias além do transportador [N1]. A rota Dhaka → Malásia é documentada diretamente pelo bilhete/voo citado na fonte; não se infere destino além da Malásia.",
+  "context_en": "Documented facts: authorities seized 1,163 live turtles from the luggage of a passenger bound for Malaysia on flight OD-161; WCCU suspects a network behind the transport [O1]. Science link: the research repository shows that chelonians are exploited in different markets and that wildlife trade can drive population declines, although those studies do not concern this shipment specifically [S1]. News link: the repository documents transnational wildlife routes across South and Southeast Asia and the importance of investigating supply chains beyond the courier [N1]. The Dhaka → Malaysia route is directly documented by the passenger's stated flight; no destination beyond Malaysia is inferred.",
+  "context_es": "Hechos documentados: las autoridades decomisaron 1.163 tortugas vivas en el equipaje de un pasajero con destino a Malasia en el vuelo OD-161; la WCCU sospecha que existe una red detrás del transporte [O1]. Relación con la ciencia: el repositorio científico muestra que los quelonios son explotados en distintos mercados y que el comercio puede causar disminuciones poblacionales, aunque esos estudios no se refieren específicamente a este envío [S1]. Relación con reportajes: el repositorio documenta rutas transnacionales de fauna en Asia meridional y sudoriental y la importancia de investigar las cadenas más allá del transportista [N1]. La ruta Daca → Malasia está documentada directamente por el vuelo citado; no se infiere un destino posterior.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "bdnews24.com / Forest Department WCCU — 1,163 turtles at Shahjalal Airport",
+      "url": "https://bdnews24.com/bangladesh/5t1c23dez3"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay India — Five orangutans found in Odisha forest face long road back home to Indonesia",
+      "url": "https://india.mongabay.com/2026/09/five-orangutans-found-in-odisha-forest-face-long-road-back-home-to-indonesia/"
+    }
+  ],
+  "references_text_pt": "[O1] bdnews24.com/Forest Department WCCU, 27/09/2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y; [N1] Mongabay India, 24/09/2026.",
+  "references_text_en": "[O1] bdnews24.com/Forest Department WCCU, 27 Sep 2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y; [N1] Mongabay India, 24 Sep 2026.",
+  "references_text_es": "[O1] bdnews24.com/Forest Department WCCU, 27/09/2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y; [N1] Mongabay India, 24/09/2026."
+}
