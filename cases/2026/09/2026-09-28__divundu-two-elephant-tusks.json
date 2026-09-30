@@ -12,7 +12,7 @@
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
   "quantity_unassigned": 0,
-  "context_updated_at": "2026-09-30T11:10:00Z",
+  "context_updated_at": "2026-09-30T23:20:00Z",
   "route_audited_at": "2026-09-30T11:10:00Z",
   "image_url": null,
   "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
@@ -25,8 +25,8 @@
     "lon": 21.55
   },
   "coordinate_precision": "town_generalized",
-  "source_label": "The Namibian",
-  "source_url": "https://www.namibian.com.na/?n=228573717",
+  "source_label": "The Namibian / Kavango East Police",
+  "source_url": "https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/",
   "publication_date": "2026-09-30",
   "event_date": "2026-09-28",
   "fauna_groups_aggregated": [
@@ -39,10 +39,10 @@
   "quantity_by_group": {
     "Mamíferos": 2
   },
-  "image_source_url": "https://www.namibian.com.na/?n=228573717",
-  "location_label_pt": "Divundu, Kavango East",
-  "location_label_en": "Divundu, Kavango East",
-  "location_label_es": "Divundu, Kavango East",
+  "image_source_url": "https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/",
+  "location_label_pt": "Bwabwata National Park, área de Divundu, Kavango East",
+  "location_label_en": "Bwabwata National Park, Divundu area, Kavango East",
+  "location_label_es": "Parque Nacional Bwabwata, zona de Divundu, Kavango East",
   "modal_label_pt": "Terrestre",
   "modal_label_en": "Land",
   "modal_label_es": "Terrestre",
@@ -50,9 +50,9 @@
   "title_pt": "Três homens são presos com duas presas de elefante em Divundu",
   "title_en": "Three men arrested with two elephant tusks in Divundu",
   "title_es": "Tres hombres detenidos con dos colmillos de elefante en Divundu",
-  "card_text_pt": "Três homens foram presos em Divundu após supostamente tentarem vender duas presas de elefante sem licença. A prisão ocorreu por volta das 22h30 de 28/09.",
-  "card_text_en": "Three men were arrested in Divundu after allegedly attempting to sell two elephant tusks without a permit. The arrest occurred at about 10:30 p.m. on 28 Sep.",
-  "card_text_es": "Tres hombres fueron detenidos en Divundu tras presuntamente intentar vender dos colmillos de elefante sin permiso. La detención ocurrió alrededor de las 22:30 del 28/09.",
+  "card_text_pt": "Três homens de Rundu foram presos após apresentarem duas presas de elefante a um agente infiltrado para venda no Parque Nacional Bwabwata, na área de Divundu.",
+  "card_text_en": "Three men from Rundu were arrested after presenting two elephant tusks to an undercover official for sale at Bwabwata National Park in the Divundu area.",
+  "card_text_es": "Tres hombres de Rundu fueron detenidos tras presentar dos colmillos de elefante a un agente encubierto para su venta en el Parque Nacional Bwabwata, zona de Divundu.",
   "fauna_label_pt": "2 presas de elefante",
   "fauna_label_en": "2 elephant tusks",
   "fauna_label_es": "2 colmillos de elefante",
@@ -62,15 +62,15 @@
   "geographic_note_pt": "Coordenadas generalizadas para Divundu; a fonte não fornece o ponto exato da operação.",
   "geographic_note_en": "Generalized coordinates for Divundu; the source does not provide the exact operation site.",
   "geographic_note_es": "Coordenadas generalizadas para Divundu; la fuente no proporciona el punto exacto del operativo.",
-  "context_pt": "Fatos documentados: três homens foram presos em Divundu após suposta tentativa de vender duas presas de elefante sem licença [O1]. Relação com a ciência: o repositório científico inclui pesquisa forense voltada a distinguir marfim de elefante de substitutos, ferramenta relevante para fiscalização e prevenção de lavagem [S1]. Relação com reportagens: o repositório destaca a persistência de redes organizadas de marfim na África Austral e a necessidade de transformar apreensões em investigações de rede [N1]. Isso contextualiza a região e o produto, mas não demonstra que os suspeitos de Divundu pertençam às redes descritas.",
-  "context_en": "Documented facts: three men were arrested in Divundu after allegedly attempting to sell two elephant tusks without a permit [O1]. Science link: the research repository includes forensic work designed to distinguish elephant ivory from substitutes, relevant to enforcement and anti-laundering efforts [S1]. News link: the news repository highlights persistent organized ivory networks in Southern Africa and the need to turn seizures into network investigations [N1]. This contextualizes the region and commodity but does not show that the Divundu suspects belong to the networks described.",
-  "context_es": "Hechos documentados: tres hombres fueron detenidos en Divundu tras presuntamente intentar vender dos colmillos de elefante sin permiso [O1]. Relación con la ciencia: el repositorio científico incluye investigación forense para distinguir marfil de elefante de sustitutos, relevante para la fiscalización y prevención del lavado [S1]. Relación con reportajes: el repositorio destaca la persistencia de redes organizadas de marfil en África austral y la necesidad de convertir decomisos en investigaciones de red [N1]. Esto contextualiza la región y el producto, pero no demuestra que los sospechosos de Divundu pertenezcan a esas redes.",
+  "context_pt": "Fatos documentados [O1]: três homens de Rundu foram presos por volta das 22h30 de 28/09 depois de apresentarem duas presas de elefante a um agente infiltrado para venda no Parque Nacional Bwabwata, sem licença. Relação com a ciência [S1]: o Repositório Científico inclui trabalho forense voltado à identificação de marfim de elefante, ferramenta relevante para fiscalização e prevenção de lavagem de produtos. Relação com reportagens [N1]: o Repositório de Reportagens destaca a persistência de redes de marfim na África Austral e a importância de desenvolver investigações além da apreensão. Leitura integrada: aqui há evidência direta de tentativa de venda, mas não de uma rede mais ampla. Limites da evidência: a origem das presas, o elefante ou elefantes de origem e eventuais compradores além da operação infiltrada não foram identificados; a residência dos suspeitos em Rundu não é tratada como origem da carga.",
+  "context_en": "Documented facts [O1]: three men from Rundu were arrested at about 22:30 on 28 Sep after presenting two elephant tusks to an undercover official for sale at Bwabwata National Park without a permit. Relation to science [S1]: the Research Repository includes forensic work aimed at identifying elephant ivory, relevant to enforcement and prevention of wildlife-product laundering. Relation to reporting [N1]: the News Repository highlights persistent ivory networks in Southern Africa and the importance of developing investigations beyond individual seizures. Integrated reading: this case directly documents an attempted sale but not a broader network. Evidence limits: the tusks' origin, source elephant or elephants and buyers beyond the undercover operation were not identified; the suspects' residence in Rundu is not treated as the shipment origin.",
+  "context_es": "Hechos documentados [O1]: tres hombres de Rundu fueron detenidos alrededor de las 22:30 del 28/09 después de presentar dos colmillos de elefante a un agente encubierto para venderlos en el Parque Nacional Bwabwata sin permiso. Relación con la ciencia [S1]: el Repositorio Científico incluye trabajo forense orientado a identificar marfil de elefante, relevante para la fiscalización y prevención del lavado de productos. Relación con reportajes [N1]: el Repositorio de Reportajes destaca la persistencia de redes de marfil en África austral y la importancia de desarrollar investigaciones más allá de un decomiso. Lectura integrada: aquí existe evidencia directa de intento de venta, pero no de una red más amplia. Límites de la evidencia: no se identificaron origen de los colmillos, elefante o elefantes de origen ni compradores fuera de la operación encubierta; la residencia de los sospechosos en Rundu no se trata como origen de la carga.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
-      "label": "The Namibian — Three arrested for possession of wildlife products at Divundu",
-      "url": "https://www.namibian.com.na/?n=228573717"
+      "label": "The Namibian / Kavango East Police — two elephant tusks at Bwabwata",
+      "url": "https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/"
     },
     {
       "id": "S1",
@@ -85,7 +85,7 @@
       "url": "https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/"
     }
   ],
-  "references_text_pt": "[O1] The Namibian, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 11/08/2026.",
-  "references_text_en": "[O1] The Namibian, 30 Sep 2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 11 Aug 2026.",
-  "references_text_es": "[O1] The Namibian, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 11/08/2026."
+  "references_text_pt": "[O1] The Namibian/Kavango East Police, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 11/08/2026.",
+  "references_text_en": "[O1] The Namibian/Kavango East Police, 30 Sep 2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 11 Aug 2026.",
+  "references_text_es": "[O1] The Namibian/Kavango East Police, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 11/08/2026."
 }
