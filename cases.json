@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_414_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_417_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 414,
+  "count": 417,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -28083,6 +28083,279 @@
       "references_text_pt": "[O1] RaiNews/Carabinieri, 29/09/2026; [S1] Nature Communications, DOI 10.1038/s41467-020-18523-4; [N1] Mongabay, 23/09/2026.",
       "references_text_en": "[O1] RaiNews/Carabinieri, 29 Sep 2026; [S1] Nature Communications, DOI 10.1038/s41467-020-18523-4; [N1] Mongabay, 23 Sep 2026.",
       "references_text_es": "[O1] RaiNews/Carabinieri, 29/09/2026; [S1] Nature Communications, DOI 10.1038/s41467-020-18523-4; [N1] Mongabay, 23/09/2026."
+    },
+    {
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "global_multilingual_2026_09_30",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-30T11:22:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-30T11:22:00Z",
+      "route_audited_at": "2026-09-30T11:22:00Z",
+      "image_url": null,
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-30T11:22:00Z",
+      "event_datetime": null,
+      "id": "2026-09-23__san-roque-three-capybaras-whatsapp",
+      "country": "Argentina",
+      "coordinates": {
+        "lat": -28.5747,
+        "lon": -58.708
+      },
+      "coordinate_precision": "municipality_generalized",
+      "source_label": "El Litoral / Policía Rural de San Roque",
+      "source_url": "https://www.ellitoral.com.ar/policiales/2026-9-23-8-59-0-corrientes-rescataron-tres-crias-de-carpincho-que-estaban-en-venta-por-whatsapp",
+      "publication_date": "2026-09-23",
+      "event_date": "2026-09-23",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "modal_primary": "Terrestre",
+      "quantity_count": 3,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 3
+      },
+      "image_source_url": "https://www.ellitoral.com.ar/policiales/2026-9-23-8-59-0-corrientes-rescataron-tres-crias-de-carpincho-que-estaban-en-venta-por-whatsapp",
+      "location_label_pt": "Paraje Rosado Grande, San Roque, Corrientes",
+      "location_label_en": "Rosado Grande area, San Roque, Corrientes",
+      "location_label_es": "Paraje Rosado Grande, San Roque, Corrientes",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "taxon_text": "Hydrochoerus hydrochaeris",
+      "title_pt": "Polícia resgata três filhotes de capivara oferecidos à venda pelo WhatsApp em Corrientes",
+      "title_en": "Police rescue three capybara pups offered for sale on WhatsApp in Corrientes",
+      "title_es": "La policía rescata tres crías de carpincho ofrecidas a la venta por WhatsApp en Corrientes",
+      "card_text_pt": "A Polícia Rural de San Roque recuperou três filhotes de capivara oferecidos ilegalmente pelo WhatsApp. Um dos animais já havia sido entregue a outra pessoa; os três foram recuperados e encaminhados para conservação.",
+      "card_text_en": "San Roque Rural Police recovered three capybara pups illegally offered for sale through WhatsApp. One animal had already been transferred to another person; all three were recovered and sent for conservation care.",
+      "card_text_es": "La Policía Rural de San Roque recuperó tres crías de carpincho ofrecidas ilegalmente por WhatsApp. Uno de los animales ya había sido entregado a otra persona; los tres fueron recuperados y derivados para atención de conservación.",
+      "fauna_label_pt": "3 filhotes de capivara (Hydrochoerus hydrochaeris)",
+      "fauna_label_en": "3 capybara pups (Hydrochoerus hydrochaeris)",
+      "fauna_label_es": "3 crías de carpincho (Hydrochoerus hydrochaeris)",
+      "quantity_note_pt": "Três animais vivos. A fonte informa oferta por WhatsApp e que um indivíduo já havia sido entregue a um comprador.",
+      "quantity_note_en": "Three live animals. The source reports an offer through WhatsApp and that one individual had already been transferred to a buyer.",
+      "quantity_note_es": "Tres animales vivos. La fuente informa oferta por WhatsApp y que un individuo ya había sido entregado a un comprador.",
+      "geographic_note_pt": "Coordenadas generalizadas para San Roque; o ponto exato no paraje Rosado Grande não foi usado.",
+      "geographic_note_en": "Generalized coordinates for San Roque; the exact point in Rosado Grande was not used.",
+      "geographic_note_es": "Coordenadas generalizadas para San Roque; no se utilizó el punto exacto del paraje Rosado Grande.",
+      "context_pt": "Fatos documentados: três filhotes de Hydrochoerus hydrochaeris foram oferecidos pelo WhatsApp; um já havia sido entregue, e os três foram recuperados pela Polícia Rural [O1]. Relação com a ciência: o repositório científico sobre tráfico via redes sociais no Brasil mostra como redes sociais e mensageria podem funcionar como canais de oferta de fauna [S1]; embora seja outro país, o mecanismo digital é comparável. Relação com reportagens: o repositório documenta grupos de mensagens usados para anunciar fauna, negociar preços e organizar entregas [N1]. Aqui, diferentemente de uma inferência contextual, o uso do WhatsApp é fato diretamente documentado no caso.",
+      "context_en": "Documented facts: three Hydrochoerus hydrochaeris pups were offered through WhatsApp; one had already been transferred, and all three were recovered by Rural Police [O1]. Science link: research in the repository on wildlife trafficking via social media in Brazil shows how social networks and messaging services can function as wildlife-sale channels [S1]; although from another country, the digital mechanism is comparable. News link: the repository documents messaging groups used to advertise wildlife, negotiate prices and arrange deliveries [N1]. Here, unlike a contextual inference, WhatsApp use is directly documented in the case.",
+      "context_es": "Hechos documentados: tres crías de Hydrochoerus hydrochaeris fueron ofrecidas por WhatsApp; una ya había sido entregada y las tres fueron recuperadas por la Policía Rural [O1]. Relación con la ciencia: la investigación del repositorio sobre tráfico de fauna mediante redes sociales en Brasil muestra cómo redes sociales y mensajería pueden funcionar como canales de oferta [S1]; aunque corresponde a otro país, el mecanismo digital es comparable. Relación con reportajes: el repositorio documenta grupos de mensajería utilizados para anunciar fauna, negociar precios y organizar entregas [N1]. En este caso, a diferencia de una inferencia contextual, el uso de WhatsApp está documentado directamente.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "El Litoral / Policía Rural de San Roque — tres crías de carpincho vendidas por WhatsApp",
+          "url": "https://www.ellitoral.com.ar/policiales/2026-9-23-8-59-0-corrientes-rescataron-tres-crias-de-carpincho-que-estaban-en-venta-por-whatsapp"
+        },
+        {
+          "id": "S1",
+          "type": "research_repository",
+          "label": "Wildlife trafficking via social media in Brazil",
+          "url": "https://doi.org/10.1016/j.biocon.2021.109420"
+        },
+        {
+          "id": "N1",
+          "type": "news_repository",
+          "label": "Diário do Rio — Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio",
+          "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+        }
+      ],
+      "references_text_pt": "[O1] El Litoral/Policía Rural, 23/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026.",
+      "references_text_en": "[O1] El Litoral/Rural Police, 23 Sep 2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 3 Sep 2026.",
+      "references_text_es": "[O1] El Litoral/Policía Rural, 23/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026."
+    },
+    {
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "global_multilingual_2026_09_30",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-30T11:22:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-30T11:22:00Z",
+      "route_audited_at": "2026-09-30T11:22:00Z",
+      "image_url": null,
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-30T11:22:00Z",
+      "event_datetime": null,
+      "id": "2026-09-27__dhaka-1163-live-turtles-malaysia-bound",
+      "country": "Bangladesh",
+      "coordinates": {
+        "lat": 23.8433,
+        "lon": 90.3978
+      },
+      "coordinate_precision": "airport",
+      "source_label": "bdnews24.com / Bangladesh Forest Department WCCU",
+      "source_url": "https://bdnews24.com/bangladesh/5t1c23dez3",
+      "publication_date": "2026-09-27",
+      "event_date": "2026-09-27",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "modal_primary": "Aéreo",
+      "quantity_count": 1163,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 1163
+      },
+      "image_source_url": "https://bdnews24.com/bangladesh/5t1c23dez3",
+      "location_label_pt": "Aeroporto Internacional Hazrat Shahjalal, Dhaka",
+      "location_label_en": "Hazrat Shahjalal International Airport, Dhaka",
+      "location_label_es": "Aeropuerto Internacional Hazrat Shahjalal, Daca",
+      "modal_label_pt": "Aéreo",
+      "modal_label_en": "Air",
+      "modal_label_es": "Aéreo",
+      "taxon_text": "Testudines; 1.163 tartarugas nativas referidas localmente como 'Kori Kaitta', identificação científica não informada",
+      "title_pt": "Autoridades interceptam 1.163 tartarugas vivas em passageiro com destino à Malásia",
+      "title_en": "Authorities intercept 1,163 live turtles from Malaysia-bound passenger in Dhaka",
+      "title_es": "Autoridades interceptan 1.163 tortugas vivas a pasajero con destino a Malasia en Daca",
+      "card_text_pt": "Uma operação conjunta no aeroporto de Dhaka apreendeu 1.163 tartarugas vivas nativas na bagagem de um passageiro que viajaria para a Malásia no voo OD-161 da Batik Air. Autoridades suspeitam da atuação de uma rede de tráfico.",
+      "card_text_en": "A joint operation at Dhaka airport seized 1,163 live native turtles from the luggage of a passenger bound for Malaysia on Batik Air flight OD-161. Authorities suspect a trafficking network was behind the shipment.",
+      "card_text_es": "Un operativo conjunto en el aeropuerto de Daca decomisó 1.163 tortugas vivas nativas en el equipaje de un pasajero con destino a Malasia en el vuelo OD-161 de Batik Air. Las autoridades sospechan la participación de una red de tráfico.",
+      "fauna_label_pt": "1.163 tartarugas vivas nativas ('Kori Kaitta')",
+      "fauna_label_en": "1,163 live native turtles ('Kori Kaitta')",
+      "fauna_label_es": "1.163 tortugas vivas nativas ('Kori Kaitta')",
+      "quantity_note_pt": "Contagem exata de animais vivos. A fonte usa o nome local 'Kori Kaitta' sem fornecer identificação científica; não foi inferida espécie.",
+      "quantity_note_en": "Exact count of live animals. The source uses the local name 'Kori Kaitta' without a scientific identification; no species was inferred.",
+      "quantity_note_es": "Conteo exacto de animales vivos. La fuente utiliza el nombre local 'Kori Kaitta' sin identificación científica; no se infirió especie.",
+      "geographic_note_pt": "Coordenadas do Aeroporto Internacional Hazrat Shahjalal; a apreensão ocorreu no aeroporto.",
+      "geographic_note_en": "Coordinates for Hazrat Shahjalal International Airport, where the seizure occurred.",
+      "geographic_note_es": "Coordenadas del Aeropuerto Internacional Hazrat Shahjalal, donde ocurrió el decomiso.",
+      "context_pt": "Fatos documentados: autoridades apreenderam 1.163 tartarugas vivas na bagagem de um passageiro com destino à Malásia no voo OD-161; a WCCU suspeita de uma rede por trás do transporte [O1]. Relação com a ciência: o repositório científico mostra que quelônios são explorados em diferentes mercados e que o comércio pode produzir declínios populacionais, embora os estudos não tratem especificamente desta remessa [S1]. Relação com reportagens: o repositório documenta rotas transnacionais de fauna no Sul/Sudeste Asiático e a importância de investigar cadeias além do transportador [N1]. A rota Dhaka → Malásia é documentada diretamente pelo bilhete/voo citado na fonte; não se infere destino além da Malásia.",
+      "context_en": "Documented facts: authorities seized 1,163 live turtles from the luggage of a passenger bound for Malaysia on flight OD-161; WCCU suspects a network behind the transport [O1]. Science link: the research repository shows that chelonians are exploited in different markets and that wildlife trade can drive population declines, although those studies do not concern this shipment specifically [S1]. News link: the repository documents transnational wildlife routes across South and Southeast Asia and the importance of investigating supply chains beyond the courier [N1]. The Dhaka → Malaysia route is directly documented by the passenger's stated flight; no destination beyond Malaysia is inferred.",
+      "context_es": "Hechos documentados: las autoridades decomisaron 1.163 tortugas vivas en el equipaje de un pasajero con destino a Malasia en el vuelo OD-161; la WCCU sospecha que existe una red detrás del transporte [O1]. Relación con la ciencia: el repositorio científico muestra que los quelonios son explotados en distintos mercados y que el comercio puede causar disminuciones poblacionales, aunque esos estudios no se refieren específicamente a este envío [S1]. Relación con reportajes: el repositorio documenta rutas transnacionales de fauna en Asia meridional y sudoriental y la importancia de investigar las cadenas más allá del transportista [N1]. La ruta Daca → Malasia está documentada directamente por el vuelo citado; no se infiere un destino posterior.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "bdnews24.com / Forest Department WCCU — 1,163 turtles at Shahjalal Airport",
+          "url": "https://bdnews24.com/bangladesh/5t1c23dez3"
+        },
+        {
+          "id": "S1",
+          "type": "research_repository",
+          "label": "Impacts of wildlife trade on terrestrial biodiversity",
+          "url": "https://doi.org/10.1038/s41559-021-01399-y"
+        },
+        {
+          "id": "N1",
+          "type": "news_repository",
+          "label": "Mongabay India — Five orangutans found in Odisha forest face long road back home to Indonesia",
+          "url": "https://india.mongabay.com/2026/09/five-orangutans-found-in-odisha-forest-face-long-road-back-home-to-indonesia/"
+        }
+      ],
+      "references_text_pt": "[O1] bdnews24.com/Forest Department WCCU, 27/09/2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y; [N1] Mongabay India, 24/09/2026.",
+      "references_text_en": "[O1] bdnews24.com/Forest Department WCCU, 27 Sep 2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y; [N1] Mongabay India, 24 Sep 2026.",
+      "references_text_es": "[O1] bdnews24.com/Forest Department WCCU, 27/09/2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y; [N1] Mongabay India, 24/09/2026."
+    },
+    {
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "global_multilingual_2026_09_30",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-30T11:22:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-30T11:22:00Z",
+      "route_audited_at": "2026-09-30T11:22:00Z",
+      "image_url": null,
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-30T11:22:00Z",
+      "event_datetime": null,
+      "id": "2026-09__urugua-i-poached-peccary",
+      "country": "Argentina",
+      "coordinates": {
+        "lat": -25.95,
+        "lon": -54.15
+      },
+      "coordinate_precision": "protected_area_generalized",
+      "source_label": "Policía de Misiones / InfoEldorados",
+      "source_url": "https://infoeldorados.com/divisiones-rurales-continuan-con-sus-acciones-preventivas-evitando-los-delitos-ambientales/",
+      "publication_date": "2026-09-30",
+      "event_date": null,
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "modal_primary": "Terrestre",
+      "quantity_count": 1,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "image_source_url": "https://infoeldorados.com/divisiones-rurales-continuan-con-sus-acciones-preventivas-evitando-los-delitos-ambientales/",
+      "location_label_pt": "Proximidades da Ruta Provincial 18, limite do Parque Provincial Urugua-í, Misiones",
+      "location_label_en": "Near Provincial Route 18 at the boundary of Urugua-í Provincial Park, Misiones",
+      "location_label_es": "Proximidades de la Ruta Provincial 18, límite del Parque Provincial Urugua-í, Misiones",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "taxon_text": "Tayassuidae; 1 pecari abatido, espécie não informada; restos ósseos de outras espécies não identificadas",
+      "title_pt": "Patrulha encontra pecari abatido e indícios de caça furtiva junto ao Parque Urugua-í",
+      "title_en": "Patrol finds poached peccary and evidence of illegal hunting near Urugua-í Provincial Park",
+      "title_es": "Patrulla encuentra un pecarí faenado e indicios de caza furtiva junto al Parque Urugua-í",
+      "card_text_pt": "Uma operação rural realizada durante uma semana nas proximidades da Ruta Provincial 18 encontrou um pecari recentemente abatido, restos ósseos de outras espécies, armas, motocicletas e estruturas usadas para caça ilegal.",
+      "card_text_en": "A week-long rural enforcement operation near Provincial Route 18 found a recently killed peccary, bone remains of other species, firearms, motorcycles and structures used for illegal hunting.",
+      "card_text_es": "Un operativo rural realizado durante una semana cerca de la Ruta Provincial 18 encontró un pecarí recientemente faenado, restos óseos de otras especies, armas, motocicletas y estructuras utilizadas para caza ilegal.",
+      "fauna_label_pt": "≥1 pecari abatido + restos ósseos de outras espécies não identificadas",
+      "fauna_label_en": "≥1 poached peccary + bone remains of other unidentified species",
+      "fauna_label_es": "≥1 pecarí faenado + restos óseos de otras especies no identificadas",
+      "quantity_note_pt": "O total contabilizável é mínimo de um animal: o pecari. Restos ósseos adicionais não foram convertidos em número de indivíduos.",
+      "quantity_note_en": "The countable total is a minimum of one animal: the peccary. Additional bone remains were not converted into an individual count.",
+      "quantity_note_es": "El total contabilizable es un mínimo de un animal: el pecarí. Los restos óseos adicionales no se convirtieron en número de individuos.",
+      "geographic_note_pt": "Coordenadas generalizadas para a área do Parque Urugua-í/RP18; a operação cobriu cerca de 200 km e a fonte não fornece ponto exato.",
+      "geographic_note_en": "Generalized coordinates for the Urugua-í/RP18 area; the operation covered roughly 200 km and the source gives no exact point.",
+      "geographic_note_es": "Coordenadas generalizadas para el área Urugua-í/RP18; el operativo cubrió unos 200 km y la fuente no proporciona un punto exacto.",
+      "context_pt": "Fatos documentados: uma operação de uma semana junto ao Parque Urugua-í encontrou um pecari recentemente abatido, restos ósseos de outras espécies, três espingardas, motocicletas, armadilhas e pontos associados à caça furtiva [O1]. Relação com a ciência: o repositório científico inclui revisão de tecnologias e estratégias para enfrentar caça furtiva e exploração insustentável [S1]. Relação com reportagens: o repositório contém exemplos de como patrulhamento e análise de dados são combinados em operações anticaça [N1]. Essas referências contextualizam métodos de fiscalização, mas não indicam conexão entre o caso argentino e os locais estudados. A data exata do achado não é informada; por isso event_date permanece nulo.",
+      "context_en": "Documented facts: a week-long operation near Urugua-í Provincial Park found a recently killed peccary, bone remains of other species, three shotguns, motorcycles, traps and sites associated with poaching [O1]. Science link: the research repository includes a review of technologies and strategies to counter poaching and unsustainable wildlife harvest [S1]. News link: the repository includes examples of patrols combined with data analysis in anti-poaching operations [N1]. These sources contextualize enforcement methods but indicate no connection between the Argentine case and the places studied. The exact date of the find is not reported, so event_date remains null.",
+      "context_es": "Hechos documentados: un operativo de una semana junto al Parque Urugua-í encontró un pecarí recientemente faenado, restos óseos de otras especies, tres escopetas, motocicletas, trampas y sitios asociados a la caza furtiva [O1]. Relación con la ciencia: el repositorio científico incluye una revisión de tecnologías y estrategias para combatir la caza furtiva y la explotación insostenible [S1]. Relación con reportajes: el repositorio incluye ejemplos de patrullaje combinado con análisis de datos en operaciones contra la caza furtiva [N1]. Estas referencias contextualizan métodos de fiscalización, pero no indican conexión entre el caso argentino y los lugares estudiados. La fecha exacta del hallazgo no fue informada; por ello event_date permanece nulo.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Policía de Misiones / InfoEldorados — delitos ambientales cerca de Urugua-í",
+          "url": "https://infoeldorados.com/divisiones-rurales-continuan-con-sus-acciones-preventivas-evitando-los-delitos-ambientales/"
+        },
+        {
+          "id": "S1",
+          "type": "research_repository",
+          "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest",
+          "url": "https://doi.org/10.3389/fevo.2025.1527976"
+        },
+        {
+          "id": "N1",
+          "type": "news_repository",
+          "label": "Mongabay — Tech helps Vietnam rangers turn the tide on poaching",
+          "url": "https://news.mongabay.com/short-article/2026/07/tech-helps-vietnam-rangers-turn-the-tide-on-poaching/"
+        }
+      ],
+      "references_text_pt": "[O1] Policía de Misiones/InfoEldorados, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1527976; [N1] Mongabay, 29/07/2026.",
+      "references_text_en": "[O1] Misiones Police/InfoEldorados, 30 Sep 2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1527976; [N1] Mongabay, 29 Jul 2026.",
+      "references_text_es": "[O1] Policía de Misiones/InfoEldorados, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1527976; [N1] Mongabay, 29/07/2026."
     }
   ]
 }
