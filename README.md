@@ -20,9 +20,15 @@ The live dashboard can now switch its case layer to:
 
 `https://acarvalho-wcs.github.io/wildlife-trafficking-data/cases.json`
 
-For backward compatibility, the documented-routes layer remains available at:
+## Canonical documented routes
 
-`https://acarvalho-wcs.github.io/wildlife-trafficking-reports/routes.json`
+Route ingestion and the live MAP/GLOBE layer use the same source:
+
+`https://acarvalho-wcs.github.io/wildlife-trafficking-data/routes.json`
+
+Add documented routes only to this repository's `routes.json`. The copy under `wildlife-trafficking-reports/routes.json` is obsolete and is not a synchronized feed. Do not write new routes there or use it as a dashboard fallback.
+
+For each ingestion batch, check for a documented origin/destination or partial segment; link the route unambiguously to its case using `event_match`, preferably `event_id`. Preserve multilingual evidence, original source URLs, endpoint precision, exclusions and network-context separation. Before confirming publication, verify the public route feed and the shared MAP/GLOBE selection. Cases with no documented movement must remain without inferred routes.
 
 Canonical data base:
 
