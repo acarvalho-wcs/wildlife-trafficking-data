@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-28T12:25:00Z",
+  "updated_at": "2026-09-30T11:28:00Z",
   "audited_through": "2026-09-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4285,6 +4285,80 @@
       "evidence_es": "La fuente informa que las 40 aves iban a ser transportadas de Parepare a Balikpapan. La retención ocurrió antes del desplazamiento, por lo que la línea representa un destino previsto.",
       "source_label": "MalukuTerkini / Badan Karantina Indonesia",
       "source_url": "https://www.malukuterkini.com/2026/09/27/barantin-hentikan-perjalanan-40-perkici/"
+    },
+    {
+      "id": "kumai-semarang-birds-2026-09-29",
+      "event_match": {
+        "location_contains": "Tanjung Emas",
+        "event_date": "2026-09-29"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "domestic_maritime_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Kumai, Kalimantan Central → Semarang, Java Central",
+      "label_en": "Kumai, Central Kalimantan → Semarang, Central Java",
+      "label_es": "Kumai, Kalimantan Central → Semarang, Java Central",
+      "segments": [
+        {
+          "from": {
+            "name": "Kumai",
+            "country": "Indonésia",
+            "lat": -2.741,
+            "lon": 111.716,
+            "precision": "port_city_generalized"
+          },
+          "to": {
+            "name": "Porto de Tanjung Emas, Semarang",
+            "country": "Indonésia",
+            "lat": -6.9489,
+            "lon": 110.4208,
+            "precision": "port_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que as 588 aves estavam no KM Kirana, que chegou a Semarang vindo de Kumai, Kalimantan Central.",
+      "evidence_en": "The source states that the 588 birds were aboard KM Kirana, which arrived in Semarang from Kumai, Central Kalimantan.",
+      "evidence_es": "La fuente informa que las 588 aves estaban en el KM Kirana, que llegó a Semarang procedente de Kumai, Kalimantan Central.",
+      "source_label": "iNews Semarang / Karantina Jateng",
+      "source_url": "https://semarang.inews.id/read/719449/karantina-jateng-periksa-km-kirana-di-tanjung-emas-temukan-588-burung-tanpa-dokumen"
+    },
+    {
+      "id": "dhaka-malaysia-turtles-2026-09-27",
+      "event_match": {
+        "location_contains": "Hazrat Shahjalal",
+        "event_date": "2026-09-27"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "intended_air_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Dhaka → Malásia (voo OD-161; destino no país não especificado pela fonte primária)",
+      "label_en": "Dhaka → Malaysia (flight OD-161; destination within the country not specified by primary source)",
+      "label_es": "Daca → Malasia (vuelo OD-161; destino dentro del país no especificado por la fuente primaria)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional Hazrat Shahjalal, Dhaka",
+            "country": "Bangladesh",
+            "lat": 23.8433,
+            "lon": 90.3978,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Malásia",
+            "country": "Malásia",
+            "lat": 4.2105,
+            "lon": 101.9758,
+            "precision": "country_centroid"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte identifica o passageiro como destinado à Malásia no voo OD-161 da Batik Air. O destino aeroportuário específico não é informado na fonte primária usada, portanto a rota termina no país.",
+      "evidence_en": "The source identifies the passenger as Malaysia-bound on Batik Air flight OD-161. The specific destination airport is not stated in the primary source used, so the route ends at country level.",
+      "evidence_es": "La fuente identifica al pasajero con destino a Malasia en el vuelo OD-161 de Batik Air. La fuente primaria utilizada no especifica el aeropuerto de destino, por lo que la ruta termina a nivel de país.",
+      "source_label": "bdnews24.com / Bangladesh Forest Department WCCU",
+      "source_url": "https://bdnews24.com/bangladesh/5t1c23dez3"
     }
   ],
   "network_context": [
