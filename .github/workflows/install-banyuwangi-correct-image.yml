@@ -1,0 +1,29 @@
+name: Install corrected Banyuwangi image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/install-banyuwangi-correct-image.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode exact user-provided reference image
+        run: |
+          mkdir -p media/cases/2026/01
+          base64 -d tmp/banyuwangi/correct.b64 > media/cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.webp
+          file media/cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.webp
+          ls -lh media/cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.webp
+      - name: Commit corrected image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.webp
+          git commit -m "Replace Banyuwangi fallback with verified reference image"
+          git push
