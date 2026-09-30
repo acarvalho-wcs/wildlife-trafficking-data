@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T21:10:48.569Z",
+  "updated_at": "2026-09-30T23:30:00Z",
   "audited_through": "2026-09-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4395,6 +4395,130 @@
       "evidence_es": "La Aduana de Hong Kong informó que tres paquetes aéreos, declarados como coches de juguete y juegos de bloques de construcción, fueron enviados desde Estados Unidos a Hong Kong e interceptados en el Aeropuerto Internacional de Hong Kong el 28 de septiembre de 2026. Contenían seis tortugas vivas sospechosas de pertenecer a especies amenazadas reguladas. No se informó la ciudad de origen en Estados Unidos; el extremo de origen es únicamente una referencia nacional generalizada. La línea no representa el itinerario exacto ni establece escalas intermedias.",
       "source_label": "Hong Kong Customs / Government of the HKSAR",
       "source_url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800588.htm"
+    },
+    {
+      "id": "saronggi-bangkalan-birds-2026-09-22",
+      "event_match": {
+        "event_id": "2026-09-22__bangkalan-3578-interisland-birds"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_partial_multimodal_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Sungai Saronggi, Sumenep → Bangkalan (trecho terrestre confirmado; origem anterior sob investigação)",
+      "label_en": "Sungai Saronggi, Sumenep → Bangkalan (confirmed land segment; upstream origin under investigation)",
+      "label_es": "Sungai Saronggi, Sumenep → Bangkalan (tramo terrestre confirmado; origen previo bajo investigación)",
+      "segments": [
+        {
+          "from": {
+            "name": "Sungai Saronggi, Sumenep",
+            "country": "Indonésia",
+            "lat": -7.07,
+            "lon": 113.82,
+            "precision": "locality_generalized"
+          },
+          "to": {
+            "name": "Bangkalan / Jalan Raya Suramadu",
+            "country": "Indonésia",
+            "lat": -7.03,
+            "lon": 112.75,
+            "precision": "regency_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial informa que as aves foram retiradas de um pequeno porto em Sungai Saronggi, Sumenep, após serem descarregadas de um navio, e depois transportadas por terra até a interceptação em Bangkalan. Informações sobre procedência de Kalimantan motivaram a operação, mas a investigação ainda apurava a origem anterior; por isso a linha começa em Saronggi.",
+      "evidence_en": "The official source states that the birds were collected from a small port at Sungai Saronggi, Sumenep, after being unloaded from a vessel, then moved by land until interception in Bangkalan. Information about movement from Kalimantan prompted the operation, but investigators were still establishing the upstream origin; therefore the mapped line begins at Saronggi.",
+      "evidence_es": "La fuente oficial informa que las aves fueron recogidas en un pequeño puerto de Sungai Saronggi, Sumenep, tras ser descargadas de un barco, y luego transportadas por tierra hasta la interceptación en Bangkalan. Información sobre procedencia de Kalimantan motivó el operativo, pero la investigación seguía determinando el origen previo; por ello la línea comienza en Saronggi.",
+      "source_label": "Kementerian Kehutanan / Gakkum Kehutanan",
+      "source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/kemenhut-gagalkan-pengangkutan-3578-burung-antarpulau-ditetapkan-dua-tersangka-dan-rantai-peredaran-ditelusuri"
+    },
+    {
+      "id": "kertapati-bakauheni-jakarta-birds-2026-09-26",
+      "event_match": {
+        "event_id": "2026-09-26__bakauheni-2775-undocumented-birds"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "domestic_land_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Jacarta Oriental",
+      "label_en": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, East Jakarta",
+      "label_es": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Yakarta Oriental",
+      "segments": [
+        {
+          "from": {
+            "name": "Kertapati, Palembang",
+            "country": "Indonésia",
+            "lat": -3.01,
+            "lon": 104.75,
+            "precision": "district_generalized"
+          },
+          "to": {
+            "name": "Porto de Bakauheni",
+            "country": "Indonésia",
+            "lat": -5.87,
+            "lon": 105.75,
+            "precision": "port_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Porto de Bakauheni",
+            "country": "Indonésia",
+            "lat": -5.87,
+            "lon": 105.75,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Kampung Rambutan, Jacarta Oriental",
+            "country": "Indonésia",
+            "lat": -6.31,
+            "lon": 106.88,
+            "precision": "district_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Badan Karantina Indonesia informou que as 2.775 aves vinham de Kertapati, Palembang, foram interceptadas no Porto de Bakauheni e seriam levadas a Kampung Rambutan, Jacarta Oriental.",
+      "evidence_en": "Badan Karantina Indonesia stated that the 2,775 birds came from Kertapati, Palembang, were intercepted at Bakauheni Port and were intended for Kampung Rambutan, East Jakarta.",
+      "evidence_es": "Badan Karantina Indonesia informó que las 2.775 aves procedían de Kertapati, Palembang, fueron interceptadas en el Puerto de Bakauheni y tenían como destino Kampung Rambutan, Yakarta Oriental.",
+      "source_label": "Badan Karantina Indonesia",
+      "source_url": "https://karantinaindonesia.go.id/berita/bus-palembang-jakarta-diperiksa-di-bakauheni-petugas-temukan-2775-burung-dalam-bagasi"
+    },
+    {
+      "id": "baltra-guayaquil-sea-cucumbers-2016-01",
+      "event_match": {
+        "event_id": "2016-01__baltra-3600-sea-cucumbers-guayaquil"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "intended_air_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Baltra, Galápagos → Guayaquil (destino aparente informado pela fonte)",
+      "label_en": "Baltra, Galápagos → Guayaquil (reported apparent destination)",
+      "label_es": "Baltra, Galápagos → Guayaquil (destino aparente informado por la fuente)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Ecológico de Galápagos, Baltra",
+            "country": "Equador",
+            "lat": -0.45,
+            "lon": -90.27,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Guayaquil",
+            "country": "Equador",
+            "lat": -2.19,
+            "lon": -79.89,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que a carga de 3.600 pepinos-do-mar foi interceptada no aeroporto de Baltra quando seguia para o Equador continental, aparentemente para Guayaquil. A linha representa destino pretendido/aparente, não uma viagem concluída.",
+      "evidence_en": "The source states that the shipment of 3,600 sea cucumbers was intercepted at Baltra airport while bound for mainland Ecuador, reportedly Guayaquil. The line represents an intended/apparent destination, not a completed journey.",
+      "evidence_es": "La fuente informa que el cargamento de 3.600 pepinos de mar fue interceptado en el aeropuerto de Baltra cuando se dirigía al Ecuador continental, aparentemente a Guayaquil. La línea representa un destino previsto/aparente, no un viaje completado.",
+      "source_label": "Ecogal / Dirección del Parque Nacional Galápagos",
+      "source_url": "https://ecogal.aero/es/operativo-de-control-logra-incautar-3600-pepinos-de-mar/"
     }
   ],
   "network_context": [
