@@ -27916,7 +27916,7 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "quantity_unassigned": 0,
-      "context_updated_at": "2026-09-30T11:10:00Z",
+      "context_updated_at": "2026-09-30T23:20:00Z",
       "route_audited_at": "2026-09-30T11:10:00Z",
       "image_url": null,
       "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
@@ -27966,15 +27966,21 @@
       "geographic_note_pt": "Coordenadas generalizadas para o Porto de Tanjung Emas, onde ocorreu a interceptação.",
       "geographic_note_en": "Generalized coordinates for Tanjung Emas Port, where interception occurred.",
       "geographic_note_es": "Coordenadas generalizadas para el Puerto de Tanjung Emas, donde ocurrió la interceptación.",
-      "context_pt": "Fatos documentados: 588 aves sem documentação foram encontradas no KM Kirana após a chegada de Kumai, Kalimantan Central, ao Porto de Tanjung Emas; 32 cucak ijo foram entregues ao BKSDA como fauna protegida [O1]. Relação com a ciência: o repositório contém estudo de 2026 sobre fiscalização e mercados de aves engaioladas em Kalimantan [S1], além de pesquisa sobre comércio ilegal online de fauna na Indonésia [S2]. Relação com reportagens: o repositório descreve rotas interprovinciais sustentadas pela demanda por aves canoras na Indonésia [N1]. Neste caso, a rota Kumai → Semarang é diretamente documentada pela fonte operacional e não é inferida a partir desses estudos.",
-      "context_en": "Documented facts: 588 undocumented birds were found aboard KM Kirana after arrival from Kumai, Central Kalimantan, at Tanjung Emas Port; 32 cucak ijo were transferred to BKSDA as protected wildlife [O1]. Science link: the repository contains a 2026 study on enforcement and caged-bird markets in Kalimantan [S1] and research on online illegal wildlife trade in Indonesia [S2]. News link: the repository describes Indonesian interprovincial routes sustained by demand for songbirds [N1]. In this case, the Kumai → Semarang route is directly documented by the operational source and is not inferred from those studies.",
-      "context_es": "Hechos documentados: 588 aves sin documentación fueron encontradas en el KM Kirana tras llegar desde Kumai, Kalimantan Central, al Puerto de Tanjung Emas; 32 cucak ijo fueron entregadas al BKSDA como fauna protegida [O1]. Relación con la ciencia: el repositorio contiene un estudio de 2026 sobre fiscalización y mercados de aves enjauladas en Kalimantan [S1] y una investigación sobre comercio ilegal de fauna en línea en Indonesia [S2]. Relación con reportajes: el repositorio describe rutas interprovinciales sostenidas por la demanda de aves canoras en Indonesia [N1]. En este caso, la ruta Kumai → Semarang está documentada directamente por la fuente operativa y no se infiere de esos estudios.",
+      "context_pt": "Fatos documentados [O1][O2]: 588 aves sem documentação foram encontradas no KM Kirana após a chegada de Kumai, Kalimantan Central, ao Porto de Tanjung Emas. A fonte oficial posterior informou que 556 aves não protegidas foram rejeitadas pela quarentena e devolvidas a Kalimantan Central pela rota Semarang–Kumai para futura soltura, enquanto 32 cucak ijo protegidas foram encaminhadas ao BKSDA para reabilitação e habituação. Relação com a ciência [S1][S2]: o repositório contém estudos sobre fiscalização, mercados de aves engaioladas em Kalimantan e comércio ilegal online de fauna na Indonésia. Relação com reportagens [N1]: o repositório descreve a persistência da demanda por aves silvestres no país. Leitura integrada: a ocorrência documenta não apenas a rota Kumai → Semarang, mas também a resposta administrativa diferenciada conforme o status de proteção. Limites da evidência: o ponto de captura das aves em Kalimantan e o destinatário comercial em Semarang não foram publicados.",
+      "context_en": "Documented facts [O1][O2]: 588 undocumented birds were found aboard KM Kirana after arrival from Kumai, Central Kalimantan, at Tanjung Emas Port. A later official source reported that 556 non-protected birds were rejected by quarantine and returned to Central Kalimantan on the Semarang–Kumai route for eventual release, while 32 protected cucak ijo were transferred to BKSDA for rehabilitation and habituation. Relation to science [S1][S2]: the repository includes studies on enforcement, caged-bird markets in Kalimantan and online illegal wildlife trade in Indonesia. Relation to reporting [N1]: the repository describes persistent demand for wild birds in the country. Integrated reading: the event documents not only the Kumai → Semarang route but also differentiated administrative handling according to protection status. Evidence limits: the capture sites in Kalimantan and the commercial recipient in Semarang were not published.",
+      "context_es": "Hechos documentados [O1][O2]: 588 aves sin documentación fueron encontradas en el KM Kirana tras llegar desde Kumai, Kalimantan Central, al Puerto de Tanjung Emas. Una fuente oficial posterior informó que 556 aves no protegidas fueron rechazadas por cuarentena y devueltas a Kalimantan Central por la ruta Semarang–Kumai para futura liberación, mientras que 32 cucak ijo protegidas fueron entregadas al BKSDA para rehabilitación y habituación. Relación con la ciencia [S1][S2]: el repositorio incluye estudios sobre fiscalización, mercados de aves enjauladas en Kalimantan y comercio ilegal de fauna en línea en Indonesia. Relación con reportajes [N1]: el repositorio describe la persistencia de la demanda de aves silvestres en el país. Lectura integrada: la ocurrencia documenta no solo la ruta Kumai → Semarang, sino también un tratamiento administrativo diferenciado según el estatus de protección. Límites de la evidencia: no se publicaron los puntos de captura en Kalimantan ni el destinatario comercial en Semarang.",
       "context_references": [
         {
           "id": "O1",
           "type": "case_source",
           "label": "iNews Semarang / Karantina Jateng — 588 burung tanpa dokumen",
           "url": "https://semarang.inews.id/read/719449/karantina-jateng-periksa-km-kirana-di-tanjung-emas-temukan-588-burung-tanpa-dokumen"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "Badan Karantina Indonesia — 556 birds returned; 32 cucak ijo rehabilitated",
+          "url": "https://karantinaindonesia.go.id/berita/556-burung-yang-diamankan-karantina-jateng-dipulangkan-ke-kalimantan-32-cucak-ijo-direhabilitasi"
         },
         {
           "id": "S1",
@@ -27995,9 +28001,9 @@
           "url": "https://mongabay.co.id/2026/07/23/mengapa-perdagangan-burung-langka-di-sumatera-terus-terjadi/"
         }
       ],
-      "references_text_pt": "[O1] iNews Semarang/Karantina Jateng, 30/09/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 23/07/2026.",
-      "references_text_en": "[O1] iNews Semarang/Karantina Jateng, 30 Sep 2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 23 Jul 2026.",
-      "references_text_es": "[O1] iNews Semarang/Karantina Jateng, 30/09/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 23/07/2026."
+      "references_text_pt": "[O1] iNews Semarang/Karantina Jateng, 30/09/2026; [O2] Badan Karantina Indonesia, 30/09/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 23/07/2026.",
+      "references_text_en": "[O1] iNews Semarang/Karantina Jateng, 30 Sep 2026; [O2] Badan Karantina Indonesia, 30 Sep 2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 23 Jul 2026.",
+      "references_text_es": "[O1] iNews Semarang/Karantina Jateng, 30/09/2026; [O2] Badan Karantina Indonesia, 30/09/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 23/07/2026."
     },
     {
       "legacy_index": null,
