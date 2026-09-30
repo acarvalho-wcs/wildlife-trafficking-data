@@ -1,0 +1,99 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T11:10:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T11:10:00Z",
+  "route_audited_at": "2026-09-30T11:10:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T11:10:00Z",
+  "event_datetime": null,
+  "id": "2026-09-29__las-palmas-five-ivory-coral-turtle-shell",
+  "country": "Espanha",
+  "coordinates": {
+    "lat": 28.1235,
+    "lon": -15.4363
+  },
+  "coordinate_precision": "city_generalized",
+  "source_label": "Guardia Civil / EFE",
+  "source_url": "https://canariasnews.es/articulos/recuperan-colmillos-de-marfil-y-piezas-de-especies-amenazadas-de-una-coleccion-privada-29-09-2026/",
+  "publication_date": "2026-09-29",
+  "event_date": "2026-09-29",
+  "fauna_groups_aggregated": [
+    "Mamíferos",
+    "Répteis"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 5,
+    "Répteis": 1
+  },
+  "image_source_url": "https://canariasnews.es/articulos/recuperan-colmillos-de-marfil-y-piezas-de-especies-amenazadas-de-una-coleccion-privada-29-09-2026/",
+  "location_label_pt": "Las Palmas de Gran Canaria, Ilhas Canárias",
+  "location_label_en": "Las Palmas de Gran Canaria, Canary Islands",
+  "location_label_es": "Las Palmas de Gran Canaria, Islas Canarias",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Elephantidae (5 peças de marfim); Scleractinia (1 esqueleto de coral); Caretta caretta (1 carapaça)",
+  "title_pt": "SEPRONA recupera marfim, coral e carapaça de tartaruga sem documentação CITES em Las Palmas",
+  "title_en": "SEPRONA recovers undocumented CITES ivory, coral and turtle shell in Las Palmas",
+  "title_es": "SEPRONA recupera marfil, coral y caparazón de tortuga sin documentación CITES en Las Palmas",
+  "card_text_pt": "O SEPRONA recuperou de uma coleção privada cinco peças de marfim, um esqueleto de coral e uma carapaça de tartaruga-cabeçuda (Caretta caretta), mantidos sem documentação que comprovasse procedência e posse legal.",
+  "card_text_en": "SEPRONA recovered five ivory items, a coral skeleton and a loggerhead turtle (Caretta caretta) shell from a private collection lacking documentation proving legal origin and possession.",
+  "card_text_es": "El SEPRONA recuperó de una colección privada cinco piezas de marfil, un esqueleto de coral y un caparazón de tortuga boba (Caretta caretta), sin documentación que acreditara su procedencia y tenencia legal.",
+  "fauna_label_pt": "5 peças de marfim + 1 esqueleto de coral + 1 carapaça de Caretta caretta",
+  "fauna_label_en": "5 ivory items + 1 coral skeleton + 1 Caretta caretta shell",
+  "fauna_label_es": "5 piezas de marfil + 1 esqueleto de coral + 1 caparazón de Caretta caretta",
+  "quantity_note_pt": "Sete espécimes/itens no total. Algumas manchetes disseram '7 colmillos', mas o detalhamento atribuído à Guardia Civil enumera cinco peças de marfim, um coral e uma carapaça; o registro segue o detalhamento.",
+  "quantity_note_en": "Seven specimens/items in total. Some headlines said '7 tusks', but the detailed Guardia Civil account lists five ivory items, one coral skeleton and one turtle shell; this record follows the detailed inventory.",
+  "quantity_note_es": "Siete especímenes/piezas en total. Algunos titulares dijeron '7 colmillos', pero el detalle atribuido a la Guardia Civil enumera cinco piezas de marfil, un coral y un caparazón; el registro sigue el inventario detallado.",
+  "geographic_note_pt": "Coordenadas generalizadas para Las Palmas de Gran Canaria; a coleção privada não foi georreferenciada.",
+  "geographic_note_en": "Generalized coordinates for Las Palmas de Gran Canaria; the private collection was not georeferenced.",
+  "geographic_note_es": "Coordenadas generalizadas para Las Palmas de Gran Canaria; no se georreferenció la colección privada.",
+  "context_pt": "Fatos documentados: o SEPRONA recuperou cinco peças de marfim, um esqueleto de coral e uma carapaça de Caretta caretta de coleção privada sem certificados de procedência e posse legal [O1]. Relação com a ciência: o repositório inclui estudo sobre comércio ilegal online persistente de quelônios na Espanha [S1] e ferramenta forense para controle do marfim [S2]. Relação com reportagens: o repositório documenta a escala internacional do tráfico de corais [N1]. As referências mostram que os três tipos de espécimes integram mercados sujeitos a controle, mas não demonstram que os itens desta coleção compartilhem uma mesma origem ou rota.",
+  "context_en": "Documented facts: SEPRONA recovered five ivory items, one coral skeleton and one Caretta caretta shell from a private collection lacking certificates proving legal origin and possession [O1]. Science link: the repository includes a study on persistent illegal online chelonian trade in Spain [S1] and a forensic tool relevant to ivory control [S2]. News link: the repository documents the international scale of coral trafficking [N1]. These references show that all three specimen types occur in controlled wildlife markets but do not show that the items in this collection share a common origin or route.",
+  "context_es": "Hechos documentados: el SEPRONA recuperó cinco piezas de marfil, un esqueleto de coral y un caparazón de Caretta caretta de una colección privada sin certificados que acreditaran procedencia y tenencia legal [O1]. Relación con la ciencia: el repositorio incluye un estudio sobre comercio ilegal persistente de quelonios en línea en España [S1] y una herramienta forense relevante para el control del marfil [S2]. Relación con reportajes: el repositorio documenta la escala internacional del tráfico de corales [N1]. Estas referencias muestran que los tres tipos de especímenes forman parte de mercados controlados, pero no demuestran que los objetos de esta colección compartan origen o ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Guardia Civil / EFE — colección privada en Las Palmas",
+      "url": "https://canariasnews.es/articulos/recuperan-colmillos-de-marfil-y-piezas-de-especies-amenazadas-de-una-coleccion-privada-29-09-2026/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Persistent illegal online trade in turtles and tortoises in Spain",
+      "url": "https://doi.org/10.1038/s41598-026-65026-1"
+    },
+    {
+      "id": "S2",
+      "type": "research_repository",
+      "label": "A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory",
+      "url": "https://doi.org/10.3389/fevo.2025.1533703"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — The world’s reefs are disappearing. Coral trafficking is booming",
+      "url": "https://news.mongabay.com/2026/08/the-worlds-reefs-are-disappearing-coral-trafficking-is-booming/"
+    }
+  ],
+  "references_text_pt": "[O1] Guardia Civil/EFE, 29/09/2026; [S1] Scientific Reports, DOI 10.1038/s41598-026-65026-1; [S2] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 31/08/2026.",
+  "references_text_en": "[O1] Guardia Civil/EFE, 29 Sep 2026; [S1] Scientific Reports, DOI 10.1038/s41598-026-65026-1; [S2] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 31 Aug 2026.",
+  "references_text_es": "[O1] Guardia Civil/EFE, 29/09/2026; [S1] Scientific Reports, DOI 10.1038/s41598-026-65026-1; [S2] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1533703; [N1] Mongabay, 31/08/2026."
+}
