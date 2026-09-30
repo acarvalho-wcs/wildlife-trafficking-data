@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T11:22:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T11:22:00Z",
+  "route_audited_at": "2026-09-30T11:22:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T11:22:00Z",
+  "event_datetime": null,
+  "id": "2026-09-23__san-roque-three-capybaras-whatsapp",
+  "country": "Argentina",
+  "coordinates": {
+    "lat": -28.5747,
+    "lon": -58.708
+  },
+  "coordinate_precision": "municipality_generalized",
+  "source_label": "El Litoral / Policía Rural de San Roque",
+  "source_url": "https://www.ellitoral.com.ar/policiales/2026-9-23-8-59-0-corrientes-rescataron-tres-crias-de-carpincho-que-estaban-en-venta-por-whatsapp",
+  "publication_date": "2026-09-23",
+  "event_date": "2026-09-23",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 3
+  },
+  "image_source_url": "https://www.ellitoral.com.ar/policiales/2026-9-23-8-59-0-corrientes-rescataron-tres-crias-de-carpincho-que-estaban-en-venta-por-whatsapp",
+  "location_label_pt": "Paraje Rosado Grande, San Roque, Corrientes",
+  "location_label_en": "Rosado Grande area, San Roque, Corrientes",
+  "location_label_es": "Paraje Rosado Grande, San Roque, Corrientes",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Hydrochoerus hydrochaeris",
+  "title_pt": "Polícia resgata três filhotes de capivara oferecidos à venda pelo WhatsApp em Corrientes",
+  "title_en": "Police rescue three capybara pups offered for sale on WhatsApp in Corrientes",
+  "title_es": "La policía rescata tres crías de carpincho ofrecidas a la venta por WhatsApp en Corrientes",
+  "card_text_pt": "A Polícia Rural de San Roque recuperou três filhotes de capivara oferecidos ilegalmente pelo WhatsApp. Um dos animais já havia sido entregue a outra pessoa; os três foram recuperados e encaminhados para conservação.",
+  "card_text_en": "San Roque Rural Police recovered three capybara pups illegally offered for sale through WhatsApp. One animal had already been transferred to another person; all three were recovered and sent for conservation care.",
+  "card_text_es": "La Policía Rural de San Roque recuperó tres crías de carpincho ofrecidas ilegalmente por WhatsApp. Uno de los animales ya había sido entregado a otra persona; los tres fueron recuperados y derivados para atención de conservación.",
+  "fauna_label_pt": "3 filhotes de capivara (Hydrochoerus hydrochaeris)",
+  "fauna_label_en": "3 capybara pups (Hydrochoerus hydrochaeris)",
+  "fauna_label_es": "3 crías de carpincho (Hydrochoerus hydrochaeris)",
+  "quantity_note_pt": "Três animais vivos. A fonte informa oferta por WhatsApp e que um indivíduo já havia sido entregue a um comprador.",
+  "quantity_note_en": "Three live animals. The source reports an offer through WhatsApp and that one individual had already been transferred to a buyer.",
+  "quantity_note_es": "Tres animales vivos. La fuente informa oferta por WhatsApp y que un individuo ya había sido entregado a un comprador.",
+  "geographic_note_pt": "Coordenadas generalizadas para San Roque; o ponto exato no paraje Rosado Grande não foi usado.",
+  "geographic_note_en": "Generalized coordinates for San Roque; the exact point in Rosado Grande was not used.",
+  "geographic_note_es": "Coordenadas generalizadas para San Roque; no se utilizó el punto exacto del paraje Rosado Grande.",
+  "context_pt": "Fatos documentados: três filhotes de Hydrochoerus hydrochaeris foram oferecidos pelo WhatsApp; um já havia sido entregue, e os três foram recuperados pela Polícia Rural [O1]. Relação com a ciência: o repositório científico sobre tráfico via redes sociais no Brasil mostra como redes sociais e mensageria podem funcionar como canais de oferta de fauna [S1]; embora seja outro país, o mecanismo digital é comparável. Relação com reportagens: o repositório documenta grupos de mensagens usados para anunciar fauna, negociar preços e organizar entregas [N1]. Aqui, diferentemente de uma inferência contextual, o uso do WhatsApp é fato diretamente documentado no caso.",
+  "context_en": "Documented facts: three Hydrochoerus hydrochaeris pups were offered through WhatsApp; one had already been transferred, and all three were recovered by Rural Police [O1]. Science link: research in the repository on wildlife trafficking via social media in Brazil shows how social networks and messaging services can function as wildlife-sale channels [S1]; although from another country, the digital mechanism is comparable. News link: the repository documents messaging groups used to advertise wildlife, negotiate prices and arrange deliveries [N1]. Here, unlike a contextual inference, WhatsApp use is directly documented in the case.",
+  "context_es": "Hechos documentados: tres crías de Hydrochoerus hydrochaeris fueron ofrecidas por WhatsApp; una ya había sido entregada y las tres fueron recuperadas por la Policía Rural [O1]. Relación con la ciencia: la investigación del repositorio sobre tráfico de fauna mediante redes sociales en Brasil muestra cómo redes sociales y mensajería pueden funcionar como canales de oferta [S1]; aunque corresponde a otro país, el mecanismo digital es comparable. Relación con reportajes: el repositorio documenta grupos de mensajería utilizados para anunciar fauna, negociar precios y organizar entregas [N1]. En este caso, a diferencia de una inferencia contextual, el uso de WhatsApp está documentado directamente.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "El Litoral / Policía Rural de San Roque — tres crías de carpincho vendidas por WhatsApp",
+      "url": "https://www.ellitoral.com.ar/policiales/2026-9-23-8-59-0-corrientes-rescataron-tres-crias-de-carpincho-que-estaban-en-venta-por-whatsapp"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Wildlife trafficking via social media in Brazil",
+      "url": "https://doi.org/10.1016/j.biocon.2021.109420"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Diário do Rio — Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio",
+      "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+    }
+  ],
+  "references_text_pt": "[O1] El Litoral/Policía Rural, 23/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026.",
+  "references_text_en": "[O1] El Litoral/Rural Police, 23 Sep 2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 3 Sep 2026.",
+  "references_text_es": "[O1] El Litoral/Policía Rural, 23/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026."
+}
