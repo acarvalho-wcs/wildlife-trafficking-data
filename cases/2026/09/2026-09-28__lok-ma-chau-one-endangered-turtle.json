@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T11:10:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T11:10:00Z",
+  "route_audited_at": "2026-09-30T11:10:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T11:10:00Z",
+  "event_datetime": null,
+  "id": "2026-09-28__lok-ma-chau-one-endangered-turtle",
+  "country": "Hong Kong",
+  "coordinates": {
+    "lat": 22.5145,
+    "lon": 114.0657
+  },
+  "coordinate_precision": "control_point_generalized",
+  "source_label": "Hong Kong Customs / HKSAR Government",
+  "source_url": "https://www.info.gov.hk/gia/general/202609/29/P2026092900573.htm",
+  "publication_date": "2026-09-29",
+  "event_date": "2026-09-28",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 1
+  },
+  "image_source_url": "https://www.info.gov.hk/gia/general/202609/29/P2026092900573.htm",
+  "location_label_pt": "Posto de Controle Lok Ma Chau Spur Line, Hong Kong",
+  "location_label_en": "Lok Ma Chau Spur Line Control Point, Hong Kong",
+  "location_label_es": "Puesto de Control Lok Ma Chau Spur Line, Hong Kong",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Testudines; tartaruga viva de espécie ameaçada/CITES, espécie não informada",
+  "title_pt": "Hong Kong apreende tartaruga ameaçada escondida no bolso de passageiro",
+  "title_en": "Hong Kong seizes endangered turtle concealed in passenger's trouser pocket",
+  "title_es": "Hong Kong decomisa una tortuga amenazada oculta en el bolsillo de un pasajero",
+  "card_text_pt": "A Alfândega de Hong Kong encontrou uma tartaruga viva no bolso da calça de um passageiro de 24 anos que chegava pelo posto de Lok Ma Chau Spur Line. A AFCD a identificou preliminarmente como espécie ameaçada listada pela CITES.",
+  "card_text_en": "Hong Kong Customs found a live turtle in the trouser pocket of a 24-year-old arriving passenger at Lok Ma Chau Spur Line. AFCD preliminarily identified it as a CITES-listed endangered species.",
+  "card_text_es": "La Aduana de Hong Kong encontró una tortuga viva en el bolsillo del pantalón de un pasajero de 24 años que llegaba por Lok Ma Chau Spur Line. AFCD la identificó preliminarmente como especie amenazada incluida en CITES.",
+  "fauna_label_pt": "1 tartaruga viva ameaçada/CITES (espécie não informada)",
+  "fauna_label_en": "1 live endangered/CITES-listed turtle (species not reported)",
+  "fauna_label_es": "1 tortuga viva amenazada/incluida en CITES (especie no informada)",
+  "quantity_note_pt": "Um animal vivo. A característica de 'duas cabeças' foi relatada por imprensa secundária, mas não consta do comunicado oficial e não é tratada aqui como fato oficial.",
+  "quantity_note_en": "One live animal. A 'two-headed' condition was reported by secondary media but is absent from the official release and is not treated here as an official fact.",
+  "quantity_note_es": "Un animal vivo. La condición de 'dos cabezas' fue informada por medios secundarios, pero no figura en el comunicado oficial y no se trata aquí como hecho oficial.",
+  "geographic_note_pt": "Coordenadas generalizadas para o posto de fronteira; não representam o ponto exato da abordagem.",
+  "geographic_note_en": "Generalized coordinates for the boundary control point; not the exact inspection location.",
+  "geographic_note_es": "Coordenadas generalizadas para el puesto fronterizo; no representan el punto exacto del control.",
+  "context_pt": "Fatos documentados: em 28/09, a Alfândega encontrou uma tartaruga viva escondida no bolso de um passageiro no posto Lok Ma Chau Spur Line; a AFCD a identificou preliminarmente como espécie ameaçada listada pela CITES [O1]. Relação com a ciência: o repositório científico documenta comércio ilegal persistente de quelônios e vulnerabilidades regulatórias no comércio de répteis [S1]. Relação com reportagens: o repositório registra métodos de ocultação usados no tráfico internacional de répteis [N1]. Essas fontes contextualizam o padrão de ocultação e demanda, mas não identificam origem, destino final ou rede associada a este indivíduo.",
+  "context_en": "Documented facts: on 28 Sep, Customs found a live turtle concealed in a passenger's trouser pocket at Lok Ma Chau Spur Line; AFCD preliminarily identified it as a CITES-listed endangered species [O1]. Science link: the research repository documents persistent illegal chelonian trade and regulatory vulnerabilities in reptile trade [S1]. News link: the news repository describes concealment methods used in international reptile trafficking [N1]. These sources contextualize concealment and demand but do not identify the origin, final destination or network associated with this animal.",
+  "context_es": "Hechos documentados: el 28/09, Aduanas encontró una tortuga viva oculta en el bolsillo del pantalón de un pasajero en Lok Ma Chau Spur Line; AFCD la identificó preliminarmente como especie amenazada incluida en CITES [O1]. Relación con la ciencia: el repositorio científico documenta comercio ilegal persistente de quelonios y vulnerabilidades regulatorias en el comercio de reptiles [S1]. Relación con reportajes: el repositorio describe métodos de ocultamiento utilizados en el tráfico internacional de reptiles [N1]. Estas fuentes contextualizan el ocultamiento y la demanda, pero no identifican origen, destino final ni red asociada a este animal.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "HKSAR Government / Hong Kong Customs, 29 Sep 2026",
+      "url": "https://www.info.gov.hk/gia/general/202609/29/P2026092900573.htm"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Persistent illegal online trade in turtles and tortoises in Spain",
+      "url": "https://doi.org/10.1038/s41598-026-65026-1"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Reptiles, gold and money: How Australia is cracking down on wildlife trafficking",
+      "url": "https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/"
+    }
+  ],
+  "references_text_pt": "[O1] Governo de Hong Kong/Customs, 29/09/2026; [S1] Scientific Reports, DOI 10.1038/s41598-026-65026-1; [N1] Mongabay, 23/09/2026.",
+  "references_text_en": "[O1] HKSAR Government/Customs, 29 Sep 2026; [S1] Scientific Reports, DOI 10.1038/s41598-026-65026-1; [N1] Mongabay, 23 Sep 2026.",
+  "references_text_es": "[O1] Gobierno de Hong Kong/Customs, 29/09/2026; [S1] Scientific Reports, DOI 10.1038/s41598-026-65026-1; [N1] Mongabay, 23/09/2026."
+}
