@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_update_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T22:45:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T22:45:00Z",
+  "route_audited_at": "2026-09-30T22:45:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T22:45:00Z",
+  "event_datetime": null,
+  "id": "2026-09-26__bakauheni-2775-undocumented-birds",
+  "country": "Indonésia",
+  "coordinates": {
+    "lat": -5.87,
+    "lon": 105.75
+  },
+  "coordinate_precision": "port_generalized",
+  "source_label": "Badan Karantina Indonesia",
+  "source_url": "https://karantinaindonesia.go.id/berita/bus-palembang-jakarta-diperiksa-di-bakauheni-petugas-temukan-2775-burung-dalam-bagasi",
+  "publication_date": "2026-09-28",
+  "event_date": "2026-09-26",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 2775,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 2775
+  },
+  "location_label_pt": "Porto de Bakauheni, Lampung Selatan",
+  "location_label_en": "Bakauheni Port, South Lampung",
+  "location_label_es": "Puerto de Bakauheni, Lampung del Sur",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Aves; 18 tipos identificados por nomes comuns na fonte oficial",
+  "title_pt": "Karantina intercepta 2.775 aves sem documentos em ônibus Palembang–Jakarta",
+  "title_en": "Quarantine officers intercept 2,775 undocumented birds on Palembang–Jakarta bus",
+  "title_es": "Cuarentena intercepta 2.775 aves sin documentos en autobús Palembang–Yakarta",
+  "card_text_pt": "Fiscalização no Porto de Bakauheni encontrou 2.775 aves de 18 tipos em 71 cestos e cinco caixas no bagageiro de um ônibus; a carga vinha de Kertapati, Palembang, e seguia para Kampung Rambutan, Jacarta Oriental.",
+  "card_text_en": "Inspection at Bakauheni Port found 2,775 birds of 18 types in 71 baskets and five boxes in a bus luggage compartment; the shipment originated in Kertapati, Palembang, and was intended for Kampung Rambutan, East Jakarta.",
+  "card_text_es": "Una inspección en el Puerto de Bakauheni encontró 2.775 aves de 18 tipos en 71 cestas y cinco cajas en el maletero de un autobús; la carga provenía de Kertapati, Palembang, y se dirigía a Kampung Rambutan, Yakarta Oriental.",
+  "fauna_label_pt": "2.775 aves vivas de 18 tipos",
+  "fauna_label_en": "2,775 live birds of 18 types",
+  "fauna_label_es": "2.775 aves vivas de 18 tipos",
+  "quantity_note_pt": "Contagem exata de 2.775 aves; entre os maiores grupos informados estão 950 trucukan, 480 jalak kebo, 360 prenjak Jawa e 283 prenjak kelabu.",
+  "quantity_note_en": "Exact count of 2,775 birds; the largest reported groups include 950 trucukan, 480 jalak kebo, 360 prenjak Jawa and 283 prenjak kelabu.",
+  "quantity_note_es": "Conteo exacto de 2.775 aves; los grupos más numerosos informados incluyen 950 trucukan, 480 jalak kebo, 360 prenjak Jawa y 283 prenjak kelabu.",
+  "geographic_note_pt": "Coordenadas generalizadas para o Porto de Bakauheni, ponto da interceptação.",
+  "geographic_note_en": "Generalized coordinates for Bakauheni Port, the interception point.",
+  "geographic_note_es": "Coordenadas generalizadas para el Puerto de Bakauheni, punto de la interceptación.",
+  "context_pt": "Fatos documentados [O1]: 2.775 aves sem documentos obrigatórios foram encontradas no bagageiro de um ônibus em Bakauheni; a fonte oficial documenta origem em Kertapati, Palembang, e destino pretendido em Kampung Rambutan, Jacarta Oriental. Relação com a ciência [S1]: pesquisas do Repositório Científico descrevem o comércio de aves na Indonésia e os desafios de fiscalização de cadeias que deslocam aves entre regiões. Relação com reportagens [N1]: reportagens do repositório documentam demanda persistente por aves silvestres e comércio online/offline no país. Leitura integrada: diferentemente de muitos casos em que a rota é inferida, aqui os dois extremos e o ponto intermediário são informados pela autoridade de quarentena, permitindo registrar a rota terrestre documentada. Limites da evidência: a fonte não estabelece local de captura das aves nem comprador final além do destino declarado.",
+  "context_en": "Documented facts [O1]: 2,775 birds lacking required documents were found in a bus luggage compartment at Bakauheni; the official source documents origin in Kertapati, Palembang, and intended destination in Kampung Rambutan, East Jakarta. Relation to science [S1]: Research Repository studies describe Indonesia's bird trade and enforcement challenges in supply chains moving birds between regions. Relation to reporting [N1]: repository reporting documents persistent demand for wild birds and online/offline trade in the country. Integrated reading: unlike many cases where routes are inferred, both endpoints and the intermediate interception point are stated by the quarantine authority, allowing a documented land route to be recorded. Evidence limits: the source does not establish capture locations or a final buyer beyond the declared destination.",
+  "context_es": "Hechos documentados [O1]: 2.775 aves sin la documentación obligatoria fueron encontradas en el maletero de un autobús en Bakauheni; la fuente oficial documenta origen en Kertapati, Palembang, y destino previsto en Kampung Rambutan, Yakarta Oriental. Relación con la ciencia [S1]: estudios del Repositorio Científico describen el comercio de aves en Indonesia y los desafíos de fiscalización de cadenas que trasladan aves entre regiones. Relación con reportajes [N1]: reportajes del repositorio documentan demanda persistente de aves silvestres y comercio online/offline en el país. Lectura integrada: a diferencia de muchos casos donde la ruta se infiere, aquí ambos extremos y el punto intermedio son informados por la autoridad de cuarentena, permitiendo registrar una ruta terrestre documentada. Límites de la evidencia: la fuente no establece lugares de captura ni comprador final más allá del destino declarado.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Badan Karantina Indonesia — 2,775 birds in Palembang–Jakarta bus",
+      "url": "https://karantinaindonesia.go.id/berita/bus-palembang-jakarta-diperiksa-di-bakauheni-petugas-temukan-2775-burung-dalam-bagasi"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Online illegal wildlife trade in Indonesia: strengthening the regulatory framework and law enforcement",
+      "url": "https://doi.org/10.1017/S0030605323001667"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Indonesia’s native hornbills are being hammered by online and offline trade",
+      "url": "https://news.mongabay.com/2026/06/indonesias-native-hornbills-are-being-hammered-by-online-and-offline-trade/"
+    }
+  ],
+  "references_text_pt": "[O1] Badan Karantina Indonesia, 28/09/2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 09/06/2026.",
+  "references_text_en": "[O1] Badan Karantina Indonesia, 28 Sep 2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 9 Jun 2026.",
+  "references_text_es": "[O1] Badan Karantina Indonesia, 28/09/2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 09/06/2026.",
+  "image_source_url": "https://karantinaindonesia.go.id/berita/bus-palembang-jakarta-diperiksa-di-bakauheni-petugas-temukan-2775-burung-dalam-bagasi"
+}
