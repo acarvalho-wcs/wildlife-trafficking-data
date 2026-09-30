@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T11:22:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T11:22:00Z",
+  "route_audited_at": "2026-09-30T11:22:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T11:22:00Z",
+  "event_datetime": null,
+  "id": "2026-09__urugua-i-poached-peccary",
+  "country": "Argentina",
+  "coordinates": {
+    "lat": -25.95,
+    "lon": -54.15
+  },
+  "coordinate_precision": "protected_area_generalized",
+  "source_label": "Policía de Misiones / InfoEldorados",
+  "source_url": "https://infoeldorados.com/divisiones-rurales-continuan-con-sus-acciones-preventivas-evitando-los-delitos-ambientales/",
+  "publication_date": "2026-09-30",
+  "event_date": null,
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 1,
+  "quantity_qualifier": "minimum",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "image_source_url": "https://infoeldorados.com/divisiones-rurales-continuan-con-sus-acciones-preventivas-evitando-los-delitos-ambientales/",
+  "location_label_pt": "Proximidades da Ruta Provincial 18, limite do Parque Provincial Urugua-í, Misiones",
+  "location_label_en": "Near Provincial Route 18 at the boundary of Urugua-í Provincial Park, Misiones",
+  "location_label_es": "Proximidades de la Ruta Provincial 18, límite del Parque Provincial Urugua-í, Misiones",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Tayassuidae; 1 pecari abatido, espécie não informada; restos ósseos de outras espécies não identificadas",
+  "title_pt": "Patrulha encontra pecari abatido e indícios de caça furtiva junto ao Parque Urugua-í",
+  "title_en": "Patrol finds poached peccary and evidence of illegal hunting near Urugua-í Provincial Park",
+  "title_es": "Patrulla encuentra un pecarí faenado e indicios de caza furtiva junto al Parque Urugua-í",
+  "card_text_pt": "Uma operação rural realizada durante uma semana nas proximidades da Ruta Provincial 18 encontrou um pecari recentemente abatido, restos ósseos de outras espécies, armas, motocicletas e estruturas usadas para caça ilegal.",
+  "card_text_en": "A week-long rural enforcement operation near Provincial Route 18 found a recently killed peccary, bone remains of other species, firearms, motorcycles and structures used for illegal hunting.",
+  "card_text_es": "Un operativo rural realizado durante una semana cerca de la Ruta Provincial 18 encontró un pecarí recientemente faenado, restos óseos de otras especies, armas, motocicletas y estructuras utilizadas para caza ilegal.",
+  "fauna_label_pt": "≥1 pecari abatido + restos ósseos de outras espécies não identificadas",
+  "fauna_label_en": "≥1 poached peccary + bone remains of other unidentified species",
+  "fauna_label_es": "≥1 pecarí faenado + restos óseos de otras especies no identificadas",
+  "quantity_note_pt": "O total contabilizável é mínimo de um animal: o pecari. Restos ósseos adicionais não foram convertidos em número de indivíduos.",
+  "quantity_note_en": "The countable total is a minimum of one animal: the peccary. Additional bone remains were not converted into an individual count.",
+  "quantity_note_es": "El total contabilizable es un mínimo de un animal: el pecarí. Los restos óseos adicionales no se convirtieron en número de individuos.",
+  "geographic_note_pt": "Coordenadas generalizadas para a área do Parque Urugua-í/RP18; a operação cobriu cerca de 200 km e a fonte não fornece ponto exato.",
+  "geographic_note_en": "Generalized coordinates for the Urugua-í/RP18 area; the operation covered roughly 200 km and the source gives no exact point.",
+  "geographic_note_es": "Coordenadas generalizadas para el área Urugua-í/RP18; el operativo cubrió unos 200 km y la fuente no proporciona un punto exacto.",
+  "context_pt": "Fatos documentados: uma operação de uma semana junto ao Parque Urugua-í encontrou um pecari recentemente abatido, restos ósseos de outras espécies, três espingardas, motocicletas, armadilhas e pontos associados à caça furtiva [O1]. Relação com a ciência: o repositório científico inclui revisão de tecnologias e estratégias para enfrentar caça furtiva e exploração insustentável [S1]. Relação com reportagens: o repositório contém exemplos de como patrulhamento e análise de dados são combinados em operações anticaça [N1]. Essas referências contextualizam métodos de fiscalização, mas não indicam conexão entre o caso argentino e os locais estudados. A data exata do achado não é informada; por isso event_date permanece nulo.",
+  "context_en": "Documented facts: a week-long operation near Urugua-í Provincial Park found a recently killed peccary, bone remains of other species, three shotguns, motorcycles, traps and sites associated with poaching [O1]. Science link: the research repository includes a review of technologies and strategies to counter poaching and unsustainable wildlife harvest [S1]. News link: the repository includes examples of patrols combined with data analysis in anti-poaching operations [N1]. These sources contextualize enforcement methods but indicate no connection between the Argentine case and the places studied. The exact date of the find is not reported, so event_date remains null.",
+  "context_es": "Hechos documentados: un operativo de una semana junto al Parque Urugua-í encontró un pecarí recientemente faenado, restos óseos de otras especies, tres escopetas, motocicletas, trampas y sitios asociados a la caza furtiva [O1]. Relación con la ciencia: el repositorio científico incluye una revisión de tecnologías y estrategias para combatir la caza furtiva y la explotación insostenible [S1]. Relación con reportajes: el repositorio incluye ejemplos de patrullaje combinado con análisis de datos en operaciones contra la caza furtiva [N1]. Estas referencias contextualizan métodos de fiscalización, pero no indican conexión entre el caso argentino y los lugares estudiados. La fecha exacta del hallazgo no fue informada; por ello event_date permanece nulo.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Policía de Misiones / InfoEldorados — delitos ambientales cerca de Urugua-í",
+      "url": "https://infoeldorados.com/divisiones-rurales-continuan-con-sus-acciones-preventivas-evitando-los-delitos-ambientales/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Tech helps Vietnam rangers turn the tide on poaching",
+      "url": "https://news.mongabay.com/short-article/2026/07/tech-helps-vietnam-rangers-turn-the-tide-on-poaching/"
+    }
+  ],
+  "references_text_pt": "[O1] Policía de Misiones/InfoEldorados, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1527976; [N1] Mongabay, 29/07/2026.",
+  "references_text_en": "[O1] Misiones Police/InfoEldorados, 30 Sep 2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1527976; [N1] Mongabay, 29 Jul 2026.",
+  "references_text_es": "[O1] Policía de Misiones/InfoEldorados, 30/09/2026; [S1] Frontiers in Ecology and Evolution, DOI 10.3389/fevo.2025.1527976; [N1] Mongabay, 29/07/2026."
+}
