@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T11:10:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T11:10:00Z",
+  "route_audited_at": "2026-09-30T11:10:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T11:10:00Z",
+  "event_datetime": null,
+  "id": "2026-09__santa-croce-camerina-two-cuban-crocodiles",
+  "country": "Itália",
+  "coordinates": {
+    "lat": 36.8284,
+    "lon": 14.5254
+  },
+  "coordinate_precision": "town_generalized",
+  "source_label": "RaiNews / Carabinieri CITES",
+  "source_url": "https://www.rainews.it/amp/tgr/sicilia/articoli/2026/09/non-solo-droga-e-armi-i-carabinieri-trovano-anche-due-coccodrilli-cubani--13a9fce4-b690-4572-b209-974ac21f6ebc.html",
+  "publication_date": "2026-09-29",
+  "event_date": null,
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 2
+  },
+  "image_source_url": "https://www.rainews.it/amp/tgr/sicilia/articoli/2026/09/non-solo-droga-e-armi-i-carabinieri-trovano-anche-due-coccodrilli-cubani--13a9fce4-b690-4572-b209-974ac21f6ebc.html",
+  "location_label_pt": "Santa Croce Camerina, Ragusa, Sicília",
+  "location_label_en": "Santa Croce Camerina, Ragusa, Sicily",
+  "location_label_es": "Santa Croce Camerina, Ragusa, Sicilia",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Crocodylus rhombifer",
+  "title_pt": "Carabinieri apreendem dois crocodilos-cubanos mantidos ilegalmente na Sicília",
+  "title_en": "Carabinieri seize two Cuban crocodiles illegally kept in Sicily",
+  "title_es": "Carabinieri decomisan dos cocodrilos cubanos mantenidos ilegalmente en Sicilia",
+  "card_text_pt": "O Nucleo CITES dos Carabinieri encontrou dois crocodilos-cubanos de cerca de um ano e 45 cm em uma residência de Santa Croce Camerina. A fonte informa que a detenção da espécie é proibida.",
+  "card_text_en": "The Carabinieri CITES unit found two Cuban crocodiles, about one year old and 45 cm long, at a home in Santa Croce Camerina. The source states that keeping the species is prohibited.",
+  "card_text_es": "El Nucleo CITES de los Carabinieri encontró dos cocodrilos cubanos, de aproximadamente un año y 45 cm, en una vivienda de Santa Croce Camerina. La fuente indica que su tenencia está prohibida.",
+  "fauna_label_pt": "2 crocodilos-cubanos (Crocodylus rhombifer)",
+  "fauna_label_en": "2 Cuban crocodiles (Crocodylus rhombifer)",
+  "fauna_label_es": "2 cocodrilos cubanos (Crocodylus rhombifer)",
+  "quantity_note_pt": "Dois animais vivos. A data exata da operação não foi publicada; fontes dizem apenas que ocorreu 'nos últimos dias'.",
+  "quantity_note_en": "Two live animals. The exact operation date was not published; sources only say it occurred 'in recent days'.",
+  "quantity_note_es": "Dos animales vivos. No se publicó la fecha exacta del operativo; las fuentes solo indican que ocurrió 'en los últimos días'.",
+  "geographic_note_pt": "Coordenadas generalizadas para Santa Croce Camerina; o endereço da residência não foi usado.",
+  "geographic_note_en": "Generalized coordinates for Santa Croce Camerina; the home address was not used.",
+  "geographic_note_es": "Coordenadas generalizadas para Santa Croce Camerina; no se utilizó la dirección de la vivienda.",
+  "context_pt": "Fatos documentados: dois Crocodylus rhombifer foram encontrados ilegalmente mantidos em uma residência; tinham cerca de um ano e 45 cm [O1]. Relação com a ciência: o repositório científico mostra que o comércio global de répteis possui lacunas regulatórias e pode pressionar espécies vulneráveis [S1]. Relação com reportagens: o repositório documenta métodos e mercados associados ao tráfico internacional de répteis [N1]. Nenhuma dessas fontes estabelece a origem dos dois crocodilos ou uma rota até a Sicília; por isso nenhuma rota é inferida.",
+  "context_en": "Documented facts: two Crocodylus rhombifer were found illegally kept at a residence; they were about one year old and 45 cm long [O1]. Science link: the research repository shows that global reptile trade has regulatory gaps and can pressure vulnerable species [S1]. News link: the news repository documents methods and markets associated with international reptile trafficking [N1]. None of these sources establishes the crocodiles' origin or a route to Sicily, so no route is inferred.",
+  "context_es": "Hechos documentados: dos Crocodylus rhombifer fueron encontrados mantenidos ilegalmente en una vivienda; tenían aproximadamente un año y 45 cm [O1]. Relación con la ciencia: el repositorio científico muestra que el comercio mundial de reptiles presenta vacíos regulatorios y puede presionar especies vulnerables [S1]. Relación con reportajes: el repositorio documenta métodos y mercados asociados al tráfico internacional de reptiles [N1]. Ninguna de estas fuentes establece el origen de los cocodrilos ni una ruta hacia Sicilia, por lo que no se infiere ninguna ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "RaiNews / Carabinieri CITES — due coccodrilli cubani",
+      "url": "https://www.rainews.it/amp/tgr/sicilia/articoli/2026/09/non-solo-droga-e-armi-i-carabinieri-trovano-anche-due-coccodrilli-cubani--13a9fce4-b690-4572-b209-974ac21f6ebc.html"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Thousands of reptile species threatened by under-regulated global trade",
+      "url": "https://doi.org/10.1038/s41467-020-18523-4"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Reptiles, gold and money: How Australia is cracking down on wildlife trafficking",
+      "url": "https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/"
+    }
+  ],
+  "references_text_pt": "[O1] RaiNews/Carabinieri, 29/09/2026; [S1] Nature Communications, DOI 10.1038/s41467-020-18523-4; [N1] Mongabay, 23/09/2026.",
+  "references_text_en": "[O1] RaiNews/Carabinieri, 29 Sep 2026; [S1] Nature Communications, DOI 10.1038/s41467-020-18523-4; [N1] Mongabay, 23 Sep 2026.",
+  "references_text_es": "[O1] RaiNews/Carabinieri, 29/09/2026; [S1] Nature Communications, DOI 10.1038/s41467-020-18523-4; [N1] Mongabay, 23/09/2026."
+}
