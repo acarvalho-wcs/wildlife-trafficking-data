@@ -1,0 +1,98 @@
+name: Resolve Banyuwangi case image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/resolve-banyuwangi-image.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  resolve-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image dependencies
+        run: python -m pip install --quiet pillow requests
+
+      - name: Download, optimize and update case
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from io import BytesIO
+          import json
+          import requests
+          from PIL import Image
+
+          case_path = Path("cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.json")
+          media_path = Path("media/cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.webp")
+          media_path.parent.mkdir(parents=True, exist_ok=True)
+
+          candidates = [
+              "https://media.suara.com/pictures/970x544/2026/02/01/47483-kkp-memusnahkan-kulit-hiu-dan-pari-kering.jpg",
+          ]
+          headers = {
+              "User-Agent": "Mozilla/5.0 (compatible; WildlifeTraffickingObservatory/1.0)",
+              "Referer": "https://www.suara.com/",
+          }
+
+          content = None
+          used_url = None
+          last_error = None
+          for url in candidates:
+              try:
+                  r = requests.get(url, headers=headers, timeout=45)
+                  r.raise_for_status()
+                  if not r.headers.get("content-type", "").lower().startswith("image/"):
+                      raise RuntimeError(f"Unexpected content type: {r.headers.get('content-type')}")
+                  content = r.content
+                  used_url = url
+                  break
+              except Exception as exc:
+                  last_error = exc
+
+          if content is None:
+              raise RuntimeError(f"Could not download source image: {last_error}")
+
+          im = Image.open(BytesIO(content))
+          im = im.convert("RGB")
+          max_width = 1400
+          if im.width > max_width:
+              new_h = round(im.height * max_width / im.width)
+              im = im.resize((max_width, new_h), Image.Resampling.LANCZOS)
+
+          im.save(media_path, "WEBP", quality=80, method=6, optimize=True)
+
+          case = json.loads(case_path.read_text(encoding="utf-8"))
+          case["image_url"] = "https://acarvalho-wcs.github.io/wildlife-trafficking-data/media/cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.webp"
+          case["image_storage"] = "github_fallback"
+          case["image_fallback_path"] = str(media_path)
+          case["image_original_url"] = used_url
+          case["image_source_url"] = "https://www.suara.com/news/2026/02/01/161427/tak-berizin-kkp-musnahkan-796-kg-kulit-hiu-dan-pari-milik-perusahaan-asing-di-banyuwangi"
+          case["source_archive_url"] = "https://web.archive.org/web/20260205080910/https://kkp.go.id/news/news-detail/kkp-musnahkan-796-kg-kulit-hiu-dan-pari-ilegal-di-banyuwangi-v8jX.html"
+          case["image_archive_url"] = case["source_archive_url"]
+          case["image_credit"] = "Dok. Humas KKP (via Suara.com)"
+          case["image_status"] = "GITHUB_FALLBACK_CREATED"
+          case["image_checked_at"] = "2026-09-30T22:40:00Z"
+          case_path.write_text(json.dumps(case, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          print(f"Saved {media_path} ({media_path.stat().st_size} bytes)")
+          PY
+
+      - name: Validate case store
+        run: python scripts/case_store.py validate --root cases
+
+      - name: Commit optimized fallback image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.webp cases/2026/01/2026-01-28__banyuwangi-dried-shark-ray-skins.json
+          git commit -m "Store optimized fallback image for Banyuwangi case"
+          git push
