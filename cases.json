@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_407_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_409_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 407,
+  "count": 409,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -27438,6 +27438,182 @@
       "references_text_pt": "[O1] El Deber/Gobernación de Santa Cruz, 29/09/2026; [S1] Frontiers in Conservation Science, DOI 10.3389/fcosc.2024.1400613; [N1] Mongabay, 08/09/2026.",
       "references_text_en": "[O1] El Deber/Government of Santa Cruz, 29 Sep 2026; [S1] Frontiers in Conservation Science, DOI 10.3389/fcosc.2024.1400613; [N1] Mongabay, 8 Sep 2026.",
       "references_text_es": "[O1] El Deber/Gobernación de Santa Cruz, 29/09/2026; [S1] Frontiers in Conservation Science, DOI 10.3389/fcosc.2024.1400613; [N1] Mongabay, 08/09/2026."
+    },
+    {
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "global_multilingual_2026_09_30",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-30T10:55:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-30T10:55:00Z",
+      "route_audited_at": "2026-09-30T10:55:00Z",
+      "image_url": null,
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-30T10:55:00Z",
+      "event_datetime": null,
+      "id": "2026-09-28__joao-pessoa-30-wild-birds",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -7.1667,
+        "lon": -34.8333
+      },
+      "coordinate_precision": "neighborhood_generalized",
+      "source_label": "PMPB / Caveira da Notícia",
+      "source_url": "https://caveiraodanoticia.com.br/2026/09/28/policia-militar-apreende-armas-de-fogo-municoes-e-entorpecentes-na-zona-sul-da-capital/",
+      "publication_date": "2026-09-28",
+      "event_date": "2026-09-28",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "modal_primary": "Terrestre",
+      "quantity_count": 30,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 30
+      },
+      "image_source_url": "https://caveiraodanoticia.com.br/2026/09/28/policia-militar-apreende-armas-de-fogo-municoes-e-entorpecentes-na-zona-sul-da-capital/",
+      "location_label_pt": "Mangabeira, João Pessoa, Paraíba",
+      "location_label_en": "Mangabeira, João Pessoa, Paraíba",
+      "location_label_es": "Mangabeira, João Pessoa, Paraíba",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "taxon_text": "Aves silvestres; espécies não informadas",
+      "title_pt": "Polícia apreende 30 aves silvestres em imóvel ligado a investigação em João Pessoa",
+      "title_en": "Police seize 30 wild birds at property linked to investigation in João Pessoa",
+      "title_es": "La policía decomisa 30 aves silvestres en un inmueble vinculado a una investigación en João Pessoa",
+      "card_text_pt": "Durante diligências em Mangabeira, a Polícia Militar encontrou 30 aves silvestres; 18 estavam explicitamente sem registro e sem anilha de identificação.",
+      "card_text_en": "During an operation in Mangabeira, Military Police found 30 wild birds; 18 were explicitly reported as unregistered and without identification bands.",
+      "card_text_es": "Durante una operación en Mangabeira, la Policía Militar encontró 30 aves silvestres; 18 estaban expresamente sin registro y sin anilla de identificación.",
+      "fauna_label_pt": "30 aves silvestres; 18 explicitamente sem registro/anilha",
+      "fauna_label_en": "30 wild birds; 18 explicitly unregistered/unbanded",
+      "fauna_label_es": "30 aves silvestres; 18 expresamente sin registro/anilla",
+      "quantity_note_pt": "Trinta aves foram apreendidas; a fonte confirma irregularidade documental para 18 e não esclarece a situação documental das outras 12.",
+      "quantity_note_en": "Thirty birds were seized; the source confirms documentation irregularities for 18 and does not clarify the status of the other 12.",
+      "quantity_note_es": "Se decomisaron 30 aves; la fuente confirma irregularidades documentales para 18 y no aclara la situación de las otras 12.",
+      "geographic_note_pt": "Coordenadas generalizadas para Mangabeira; os imóveis específicos não foram georreferenciados.",
+      "geographic_note_en": "Generalized coordinates for Mangabeira; the specific properties were not georeferenced.",
+      "geographic_note_es": "Coordenadas generalizadas para Mangabeira; no se georreferenciaron los inmuebles específicos.",
+      "context_pt": "Fatos documentados: a Polícia Militar encontrou 30 aves silvestres em Mangabeira, das quais 18 estavam explicitamente sem registro e sem anilha [O1]. Relação com a ciência: o repositório científico mostra que aves estão entre os grupos dominantes na oferta ilegal de fauna em redes sociais e mensageria no Brasil [S1]. Relação com reportagens: o repositório de reportagens descreve grupos de mensagens usados para anunciar aves e organizar transações no Rio de Janeiro [N1]. Essas referências contextualizam padrões nacionais de comércio clandestino, mas a fonte deste caso não informa que as aves de João Pessoa tenham sido ofertadas digitalmente.",
+      "context_en": "Documented facts: Military Police found 30 wild birds in Mangabeira, 18 of them explicitly unregistered and without identification bands [O1]. Science link: the research repository shows birds among the dominant groups offered illegally through social media and messaging services in Brazil [S1]. News link: the news repository describes messaging groups used to advertise birds and organize transactions in Rio de Janeiro [N1]. These references contextualize national clandestine-trade patterns, but the João Pessoa source does not report that these birds were offered digitally.",
+      "context_es": "Hechos documentados: la Policía Militar encontró 30 aves silvestres en Mangabeira, 18 de ellas expresamente sin registro y sin anilla [O1]. Relación con la ciencia: el repositorio científico muestra que las aves figuran entre los grupos dominantes en la oferta ilegal de fauna mediante redes sociales y mensajería en Brasil [S1]. Relación con reportajes: el repositorio de noticias describe grupos de mensajería utilizados para anunciar aves y organizar transacciones en Río de Janeiro [N1]. Estas referencias contextualizan patrones nacionales de comercio clandestino, pero la fuente de João Pessoa no informa que estas aves hayan sido ofrecidas digitalmente.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "PMPB / Caveira da Notícia — operação em Mangabeira",
+          "url": "https://caveiraodanoticia.com.br/2026/09/28/policia-militar-apreende-armas-de-fogo-municoes-e-entorpecentes-na-zona-sul-da-capital/"
+        },
+        {
+          "id": "S1",
+          "type": "research_repository",
+          "label": "Wildlife trafficking via social media in Brazil",
+          "url": "https://doi.org/10.1016/j.biocon.2021.109420"
+        },
+        {
+          "id": "N1",
+          "type": "news_repository",
+          "label": "Diário do Rio — Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio",
+          "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+        }
+      ],
+      "references_text_pt": "[O1] PMPB/Caveira da Notícia, 28/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026.",
+      "references_text_en": "[O1] PMPB/Caveira da Notícia, 28 Sep 2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 3 Sep 2026.",
+      "references_text_es": "[O1] PMPB/Caveira da Notícia, 28/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026."
+    },
+    {
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "global_multilingual_2026_09_30",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-09-30T10:55:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-09-30T10:55:00Z",
+      "route_audited_at": "2026-09-30T10:55:00Z",
+      "image_url": null,
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-09-30T10:55:00Z",
+      "event_datetime": null,
+      "id": "2026-09-29__el-carril-30-quails",
+      "country": "Argentina",
+      "coordinates": {
+        "lat": -25.0747,
+        "lon": -65.4917
+      },
+      "coordinate_precision": "town_generalized",
+      "source_label": "Policía de Salta",
+      "source_url": "https://prensa.policiadesalta.gob.ar/?p=19072",
+      "publication_date": "2026-09-29",
+      "event_date": "2026-09-29",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "modal_primary": "Terrestre",
+      "quantity_count": 30,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 30
+      },
+      "image_source_url": "https://prensa.policiadesalta.gob.ar/?p=19072",
+      "location_label_pt": "Ruta Nacional 68, El Carril, Salta",
+      "location_label_en": "National Route 68, El Carril, Salta",
+      "location_label_es": "Ruta Nacional 68, El Carril, Salta",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "taxon_text": "Aves referidas como codornizes; espécie e origem não informadas",
+      "title_pt": "Polícia Rural intercepta transporte de 30 codornizes em El Carril",
+      "title_en": "Rural Police intercept transport of 30 quails in El Carril",
+      "title_es": "La Policía Rural intercepta el transporte de 30 codornices en El Carril",
+      "card_text_pt": "Após alerta sobre comercialização de aves, a Polícia Rural interceptou um veículo na Ruta Nacional 68 transportando 30 codornizes. Uma mulher foi autuada sob a legislação provincial de proteção da fauna.",
+      "card_text_en": "After an alert about bird sales, Rural Police stopped a vehicle on National Route 68 carrying 30 quails. A woman was cited under provincial wildlife-protection law.",
+      "card_text_es": "Tras una alerta sobre comercialización de aves, la Policía Rural interceptó un vehículo en la Ruta Nacional 68 que transportaba 30 codornices. Una mujer fue infraccionada conforme a la legislación provincial de protección de fauna.",
+      "fauna_label_pt": "30 codornizes (espécie não informada)",
+      "fauna_label_en": "30 quails (species not reported)",
+      "fauna_label_es": "30 codornices (especie no informada)",
+      "quantity_note_pt": "Contagem exata. A fonte policial não informa espécie, origem silvestre/cativa ou procedência dos animais; o registro preserva essa limitação.",
+      "quantity_note_en": "Exact count. The police source does not report species, wild/captive origin or provenance; this limitation is preserved.",
+      "quantity_note_es": "Conteo exacto. La fuente policial no informa especie, origen silvestre/cautivo ni procedencia; se preserva esta limitación.",
+      "geographic_note_pt": "Coordenadas generalizadas para El Carril; o ponto exato da abordagem na RN 68 não foi inferido.",
+      "geographic_note_en": "Generalized coordinates for El Carril; the exact stop location on National Route 68 was not inferred.",
+      "geographic_note_es": "Coordenadas generalizadas para El Carril; no se infirió el punto exacto del control en la RN 68.",
+      "context_pt": "Fatos documentados: após denúncia relacionada à comercialização de aves, a Polícia Rural interceptou 30 codornizes em transporte e aplicou a legislação provincial de fauna [O1]. Relação com a ciência: o repositório científico documenta a persistência do comércio ilegal de aves na Argentina [S1]. A fonte operacional, porém, não identifica a espécie nem esclarece se os indivíduos eram de origem silvestre ou cativa; por isso, o caso é mantido com essa ressalva e sem inferir uma cadeia de tráfico mais ampla. Não foi localizada reportagem do repositório de notícias diretamente aplicável a este evento.",
+      "context_en": "Documented facts: following a report concerning bird sales, Rural Police intercepted 30 quails in transport and applied provincial wildlife law [O1]. Science link: the research repository documents the persistence of illegal bird trade in Argentina [S1]. However, the operational source does not identify the species or clarify whether the birds were wild- or captive-origin, so the case retains this caveat and does not infer a broader trafficking chain. No news-repository article directly applicable to this event was identified.",
+      "context_es": "Hechos documentados: tras una denuncia relacionada con la comercialización de aves, la Policía Rural interceptó 30 codornices en transporte y aplicó la legislación provincial de fauna [O1]. Relación con la ciencia: el repositorio científico documenta la persistencia del comercio ilegal de aves en Argentina [S1]. Sin embargo, la fuente operativa no identifica la especie ni aclara si los individuos eran de origen silvestre o cautivo; por ello se conserva esta salvedad y no se infiere una cadena de tráfico más amplia. No se identificó una nota del repositorio de noticias directamente aplicable a este evento.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Policía de Salta — La Policía Rural rescató 30 codornices durante un operativo en El Carril",
+          "url": "https://prensa.policiadesalta.gob.ar/?p=19072"
+        },
+        {
+          "id": "S1",
+          "type": "research_repository",
+          "label": "The illegal trade of wild birds in a social network: A call for action from Argentina",
+          "url": "https://doi.org/10.1093/ornithapp/duaf012"
+        }
+      ],
+      "references_text_pt": "[O1] Policía de Salta, 29/09/2026; [S1] Ornithological Applications, DOI 10.1093/ornithapp/duaf012.",
+      "references_text_en": "[O1] Salta Police, 29 Sep 2026; [S1] Ornithological Applications, DOI 10.1093/ornithapp/duaf012.",
+      "references_text_es": "[O1] Policía de Salta, 29/09/2026; [S1] Ornithological Applications, DOI 10.1093/ornithapp/duaf012."
     }
   ]
 }
