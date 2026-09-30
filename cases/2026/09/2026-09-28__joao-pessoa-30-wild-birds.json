@@ -1,0 +1,91 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_multilingual_2026_09_30",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-09-30T10:55:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "context_updated_at": "2026-09-30T10:55:00Z",
+  "route_audited_at": "2026-09-30T10:55:00Z",
+  "image_url": null,
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-09-30T10:55:00Z",
+  "event_datetime": null,
+  "id": "2026-09-28__joao-pessoa-30-wild-birds",
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -7.1667,
+    "lon": -34.8333
+  },
+  "coordinate_precision": "neighborhood_generalized",
+  "source_label": "PMPB / Caveira da Notícia",
+  "source_url": "https://caveiraodanoticia.com.br/2026/09/28/policia-militar-apreende-armas-de-fogo-municoes-e-entorpecentes-na-zona-sul-da-capital/",
+  "publication_date": "2026-09-28",
+  "event_date": "2026-09-28",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 30,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 30
+  },
+  "image_source_url": "https://caveiraodanoticia.com.br/2026/09/28/policia-militar-apreende-armas-de-fogo-municoes-e-entorpecentes-na-zona-sul-da-capital/",
+  "location_label_pt": "Mangabeira, João Pessoa, Paraíba",
+  "location_label_en": "Mangabeira, João Pessoa, Paraíba",
+  "location_label_es": "Mangabeira, João Pessoa, Paraíba",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "taxon_text": "Aves silvestres; espécies não informadas",
+  "title_pt": "Polícia apreende 30 aves silvestres em imóvel ligado a investigação em João Pessoa",
+  "title_en": "Police seize 30 wild birds at property linked to investigation in João Pessoa",
+  "title_es": "La policía decomisa 30 aves silvestres en un inmueble vinculado a una investigación en João Pessoa",
+  "card_text_pt": "Durante diligências em Mangabeira, a Polícia Militar encontrou 30 aves silvestres; 18 estavam explicitamente sem registro e sem anilha de identificação.",
+  "card_text_en": "During an operation in Mangabeira, Military Police found 30 wild birds; 18 were explicitly reported as unregistered and without identification bands.",
+  "card_text_es": "Durante una operación en Mangabeira, la Policía Militar encontró 30 aves silvestres; 18 estaban expresamente sin registro y sin anilla de identificación.",
+  "fauna_label_pt": "30 aves silvestres; 18 explicitamente sem registro/anilha",
+  "fauna_label_en": "30 wild birds; 18 explicitly unregistered/unbanded",
+  "fauna_label_es": "30 aves silvestres; 18 expresamente sin registro/anilla",
+  "quantity_note_pt": "Trinta aves foram apreendidas; a fonte confirma irregularidade documental para 18 e não esclarece a situação documental das outras 12.",
+  "quantity_note_en": "Thirty birds were seized; the source confirms documentation irregularities for 18 and does not clarify the status of the other 12.",
+  "quantity_note_es": "Se decomisaron 30 aves; la fuente confirma irregularidades documentales para 18 y no aclara la situación de las otras 12.",
+  "geographic_note_pt": "Coordenadas generalizadas para Mangabeira; os imóveis específicos não foram georreferenciados.",
+  "geographic_note_en": "Generalized coordinates for Mangabeira; the specific properties were not georeferenced.",
+  "geographic_note_es": "Coordenadas generalizadas para Mangabeira; no se georreferenciaron los inmuebles específicos.",
+  "context_pt": "Fatos documentados: a Polícia Militar encontrou 30 aves silvestres em Mangabeira, das quais 18 estavam explicitamente sem registro e sem anilha [O1]. Relação com a ciência: o repositório científico mostra que aves estão entre os grupos dominantes na oferta ilegal de fauna em redes sociais e mensageria no Brasil [S1]. Relação com reportagens: o repositório de reportagens descreve grupos de mensagens usados para anunciar aves e organizar transações no Rio de Janeiro [N1]. Essas referências contextualizam padrões nacionais de comércio clandestino, mas a fonte deste caso não informa que as aves de João Pessoa tenham sido ofertadas digitalmente.",
+  "context_en": "Documented facts: Military Police found 30 wild birds in Mangabeira, 18 of them explicitly unregistered and without identification bands [O1]. Science link: the research repository shows birds among the dominant groups offered illegally through social media and messaging services in Brazil [S1]. News link: the news repository describes messaging groups used to advertise birds and organize transactions in Rio de Janeiro [N1]. These references contextualize national clandestine-trade patterns, but the João Pessoa source does not report that these birds were offered digitally.",
+  "context_es": "Hechos documentados: la Policía Militar encontró 30 aves silvestres en Mangabeira, 18 de ellas expresamente sin registro y sin anilla [O1]. Relación con la ciencia: el repositorio científico muestra que las aves figuran entre los grupos dominantes en la oferta ilegal de fauna mediante redes sociales y mensajería en Brasil [S1]. Relación con reportajes: el repositorio de noticias describe grupos de mensajería utilizados para anunciar aves y organizar transacciones en Río de Janeiro [N1]. Estas referencias contextualizan patrones nacionales de comercio clandestino, pero la fuente de João Pessoa no informa que estas aves hayan sido ofrecidas digitalmente.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "PMPB / Caveira da Notícia — operação em Mangabeira",
+      "url": "https://caveiraodanoticia.com.br/2026/09/28/policia-militar-apreende-armas-de-fogo-municoes-e-entorpecentes-na-zona-sul-da-capital/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Wildlife trafficking via social media in Brazil",
+      "url": "https://doi.org/10.1016/j.biocon.2021.109420"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Diário do Rio — Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio",
+      "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+    }
+  ],
+  "references_text_pt": "[O1] PMPB/Caveira da Notícia, 28/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026.",
+  "references_text_en": "[O1] PMPB/Caveira da Notícia, 28 Sep 2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 3 Sep 2026.",
+  "references_text_es": "[O1] PMPB/Caveira da Notícia, 28/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109420; [N1] Diário do Rio, 03/09/2026."
+}
