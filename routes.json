@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T11:28:00Z",
-  "audited_through": "2026-09-28",
+  "updated_at": "2026-10-01T11:30:00Z",
+  "audited_through": "2026-10-01",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -4397,42 +4397,6 @@
       "source_url": "https://www.info.gov.hk/gia/general/202609/28/P2026092800588.htm"
     },
     {
-      "id": "saronggi-bangkalan-birds-2026-09-22",
-      "event_match": {
-        "event_id": "2026-09-22__bangkalan-3578-interisland-birds"
-      },
-      "status": "DOCUMENTED",
-      "route_type": "documented_partial_multimodal_route",
-      "direction": "forward",
-      "line_style": "dashed",
-      "label_pt": "Sungai Saronggi, Sumenep → Bangkalan (trecho terrestre confirmado; origem anterior sob investigação)",
-      "label_en": "Sungai Saronggi, Sumenep → Bangkalan (confirmed land segment; upstream origin under investigation)",
-      "label_es": "Sungai Saronggi, Sumenep → Bangkalan (tramo terrestre confirmado; origen previo bajo investigación)",
-      "segments": [
-        {
-          "from": {
-            "name": "Sungai Saronggi, Sumenep",
-            "country": "Indonésia",
-            "lat": -7.07,
-            "lon": 113.82,
-            "precision": "locality_generalized"
-          },
-          "to": {
-            "name": "Bangkalan / Jalan Raya Suramadu",
-            "country": "Indonésia",
-            "lat": -7.03,
-            "lon": 112.75,
-            "precision": "regency_generalized"
-          }
-        }
-      ],
-      "evidence_pt": "A fonte oficial informa que as aves foram retiradas de um pequeno porto em Sungai Saronggi, Sumenep, após serem descarregadas de um navio, e depois transportadas por terra até a interceptação em Bangkalan. Informações sobre procedência de Kalimantan motivaram a operação, mas a investigação ainda apurava a origem anterior; por isso a linha começa em Saronggi.",
-      "evidence_en": "The official source states that the birds were collected from a small port at Sungai Saronggi, Sumenep, after being unloaded from a vessel, then moved by land until interception in Bangkalan. Information about movement from Kalimantan prompted the operation, but investigators were still establishing the upstream origin; therefore the mapped line begins at Saronggi.",
-      "evidence_es": "La fuente oficial informa que las aves fueron recogidas en un pequeño puerto de Sungai Saronggi, Sumenep, tras ser descargadas de un barco, y luego transportadas por tierra hasta la interceptación en Bangkalan. Información sobre procedencia de Kalimantan motivó el operativo, pero la investigación seguía determinando el origen previo; por ello la línea comienza en Saronggi.",
-      "source_label": "Kementerian Kehutanan / Gakkum Kehutanan",
-      "source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/kemenhut-gagalkan-pengangkutan-3578-burung-antarpulau-ditetapkan-dua-tersangka-dan-rantai-peredaran-ditelusuri"
-    },
-    {
       "id": "kertapati-bakauheni-jakarta-birds-2026-09-26",
       "event_match": {
         "event_id": "2026-09-26__bakauheni-2775-undocumented-birds"
@@ -4630,6 +4594,78 @@
       "evidence_es": "La fuente informa que el guacamayo jacinto capturado del lado brasileño sería llevado a Bella Vista Norte, Paraguay. La línea representa el desplazamiento previsto, interrumpido por el decomiso.",
       "source_label": "Capital News",
       "source_url": "https://www.capitalnews.com.br/cotidiano/objeto-de-trafico-arara-azul-retorna-a-natureza/347460"
+    },
+    {
+      "id": "philippines-australia-operation-cascade-2022-2023",
+      "event_match": {
+        "event_id": "2022-08_2023-08__operation-cascade-14-exotic-animals"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_country_level_import",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Filipinas → Austrália",
+      "label_en": "Philippines → Australia",
+      "label_es": "Filipinas → Australia",
+      "segments": [
+        {
+          "from": {
+            "name": "Filipinas",
+            "country": "Filipinas",
+            "lat": 12.8797,
+            "lon": 121.774,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Austrália",
+            "country": "Austrália",
+            "lat": -25.2744,
+            "lon": 133.7751,
+            "precision": "country_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A autoridade australiana informa que os 14 animais exóticos foram objeto de tentativas de importação ilegal das Filipinas para a Austrália entre agosto de 2022 e agosto de 2023. A fonte não individualiza aeroportos, cidades ou itinerários; por isso a rota é exibida apenas em nível de país.",
+      "evidence_en": "Australian authorities state that the 14 exotic animals were the subject of attempted illegal imports from the Philippines into Australia between August 2022 and August 2023. The source does not individualize airports, cities or itineraries, so the route is shown only at country level.",
+      "evidence_es": "Las autoridades australianas informan que los 14 animales exóticos fueron objeto de intentos de importación ilegal desde Filipinas hacia Australia entre agosto de 2022 y agosto de 2023. La fuente no individualiza aeropuertos, ciudades ni itinerarios; por ello la ruta se muestra solo a nivel de país.",
+      "source_label": "Australian Department of Agriculture, Fisheries and Forestry",
+      "source_url": "https://www.agriculture.gov.au/about/news/operation/cascade"
+    },
+    {
+      "id": "suriname-netherlands-howler-hyoid-bones-2026",
+      "event_match": {
+        "event_id": "2026-10__suriname-netherlands-howler-hyoid-bones"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_postal_country_level",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Suriname → Países Baixos",
+      "label_en": "Suriname → Netherlands",
+      "label_es": "Surinam → Países Bajos",
+      "segments": [
+        {
+          "from": {
+            "name": "Suriname",
+            "country": "Suriname",
+            "lat": 3.9193,
+            "lon": -56.0278,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Países Baixos",
+            "country": "Países Baixos",
+            "lat": 52.1326,
+            "lon": 5.2913,
+            "precision": "country_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa explicitamente que a encomenda contendo dois ossos hioides de *Alouatta macconnelli* era proveniente do Suriname e foi interceptada pela alfândega nos Países Baixos. Como o ponto exato de postagem e o local de interceptação não foram divulgados, a rota é mantida em nível de país.",
+      "evidence_en": "The source explicitly states that the parcel containing two *Alouatta macconnelli* hyoid bones came from Suriname and was intercepted by Customs in the Netherlands. Because the exact posting point and interception location were not disclosed, the route is kept at country level.",
+      "evidence_es": "La fuente informa explícitamente que el paquete con dos huesos hioides de *Alouatta macconnelli* procedía de Surinam y fue interceptado por la aduana en los Países Bajos. Como no se divulgaron el punto exacto de envío ni el lugar de interceptación, la ruta se mantiene a nivel de país.",
+      "source_label": "Waterkant / Nederlandse Douane",
+      "source_url": "https://www.waterkant.net/suriname/2026/10/01/nederlandse-douane-vindt-tongbeenderen-van-brulaap-in-pakket-uit-suriname/"
     }
   ],
   "network_context": [
