@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T11:20:00Z",
+  "updated_at": "2026-10-01T11:28:00Z",
   "audited_through": "2026-09-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4593,6 +4593,43 @@
       "evidence_es": "Según la PRF, el conductor declaró que las aves salieron de Campo Grande y serían entregadas en Foz do Iguaçu.",
       "source_label": "Polícia Rodoviária Federal",
       "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso-do-sul/2024/dezembro"
+    },
+    {
+      "id": "bela-vista-bella-vista-norte-2020-09-25",
+      "event_match": {
+        "location_contains": "Bela Vista",
+        "event_date": "2020-09-25"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_cross_border_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bela Vista (MS) → Bella Vista Norte (Paraguai)",
+      "label_en": "Bela Vista (MS) → Bella Vista Norte (Paraguay)",
+      "label_es": "Bela Vista (MS) → Bella Vista Norte (Paraguay)",
+      "segments": [
+        {
+          "from": {
+            "name": "Bela Vista (MS)",
+            "country": "Brasil",
+            "lat": -22.1078,
+            "lon": -56.5263,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Bella Vista Norte",
+            "country": "Paraguai",
+            "lat": -22.1211,
+            "lon": -56.5168,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que a arara-azul capturada no lado brasileiro seria levada para Bella Vista Norte, no Paraguai. A linha representa o deslocamento pretendido, interrompido pela apreensão.",
+      "evidence_en": "The source states that the hyacinth macaw captured on the Brazilian side was intended to be taken to Bella Vista Norte, Paraguay. The line represents the intended movement, interrupted by the seizure.",
+      "evidence_es": "La fuente informa que el guacamayo jacinto capturado del lado brasileño sería llevado a Bella Vista Norte, Paraguay. La línea representa el desplazamiento previsto, interrumpido por el decomiso.",
+      "source_label": "Capital News",
+      "source_url": "https://www.capitalnews.com.br/cotidiano/objeto-de-trafico-arara-azul-retorna-a-natureza/347460"
     }
   ],
   "network_context": [
