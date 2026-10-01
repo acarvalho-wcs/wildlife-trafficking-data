@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T23:30:00Z",
+  "updated_at": "2026-10-01T11:20:00Z",
   "audited_through": "2026-09-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4519,6 +4519,80 @@
       "evidence_es": "La fuente informa que el cargamento de 3.600 pepinos de mar fue interceptado en el aeropuerto de Baltra cuando se dirigía al Ecuador continental, aparentemente a Guayaquil. La línea representa un destino previsto/aparente, no un viaje completado.",
       "source_label": "Ecogal / Dirección del Parque Nacional Galápagos",
       "source_url": "https://ecogal.aero/es/operativo-de-control-logra-incautar-3600-pepinos-de-mar/"
+    },
+    {
+      "id": "bolivia-corumba-2019-05-14",
+      "event_match": {
+        "location_contains": "Corumbá",
+        "event_date": "2019-05-14"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_cross_border_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bolívia → Corumbá (MS)",
+      "label_en": "Bolivia → Corumbá (MS)",
+      "label_es": "Bolivia → Corumbá (MS)",
+      "segments": [
+        {
+          "from": {
+            "name": "Bolívia (origem exata não informada)",
+            "country": "Bolívia",
+            "lat": -16.2902,
+            "lon": -63.5887,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Corumbá (MS)",
+            "country": "Brasil",
+            "lat": -19.0092,
+            "lon": -57.6534,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que as 160 aves vieram da Bolívia e foram apreendidas em Corumbá; localidade de origem e ponto de travessia não foram divulgados.",
+      "evidence_en": "The source states that the 160 birds came from Bolivia and were seized in Corumbá; the origin locality and crossing point were not disclosed.",
+      "evidence_es": "La fuente informa que las 160 aves procedían de Bolivia y fueron decomisadas en Corumbá; no se divulgaron la localidad de origen ni el punto de cruce.",
+      "source_label": "Correio do Estado",
+      "source_url": "https://correiodoestado.com.br/cidades/comerciante-e-multada-por-trafico-de-160-canarios-peruanos-da-bolivia/352974/"
+    },
+    {
+      "id": "campo-grande-foz-do-iguacu-2024-12-04",
+      "event_match": {
+        "location_contains": "Campo Grande",
+        "event_date": "2024-12-04"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Campo Grande (MS) → Foz do Iguaçu (PR)",
+      "label_en": "Campo Grande (MS) → Foz do Iguaçu (PR)",
+      "label_es": "Campo Grande (MS) → Foz do Iguaçu (PR)",
+      "segments": [
+        {
+          "from": {
+            "name": "Campo Grande (MS)",
+            "country": "Brasil",
+            "lat": -20.4697,
+            "lon": -54.6201,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Foz do Iguaçu (PR)",
+            "country": "Brasil",
+            "lat": -25.5163,
+            "lon": -54.5854,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo a PRF, o motorista declarou que as aves saíram de Campo Grande e seriam entregues em Foz do Iguaçu.",
+      "evidence_en": "According to PRF, the driver stated that the birds had left Campo Grande and were to be delivered in Foz do Iguaçu.",
+      "evidence_es": "Según la PRF, el conductor declaró que las aves salieron de Campo Grande y serían entregadas en Foz do Iguaçu.",
+      "source_label": "Polícia Rodoviária Federal",
+      "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso-do-sul/2024/dezembro"
     }
   ],
   "network_context": [
