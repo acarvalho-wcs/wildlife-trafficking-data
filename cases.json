@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_432_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_433_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 432,
+  "count": 433,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -29646,6 +29646,85 @@
       "references_text_en": "[O1] Quito Informa/AMC, 6 Aug 2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y.",
       "references_text_es": "[O1] Quito Informa/AMC, 06/08/2026; [S1] Nature Ecology & Evolution, DOI 10.1038/s41559-021-01399-y.",
       "image_source_url": "https://quitoinforma.quito.gob.ec/2026/08/06/amc-clausura-tienda-que-vendia-120-animales-silvestres-en-un-centro-comercial/"
+    },
+    {
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "daily_global_update_2026_10_01",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-10-01T11:00:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_unassigned": 0,
+      "context_updated_at": "2026-10-01T11:00:00Z",
+      "route_audited_at": "2026-10-01T11:00:00Z",
+      "image_url": null,
+      "image_source_url": "https://www.gob.mx/profepa/prensa/asegura-profepa-dos-tucanes-pico-cano-en-el-aeropuerto-de-chihuahua",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-10-01T11:00:00Z",
+      "event_datetime": null,
+      "id": "2026-09-18__chihuahua-two-keel-billed-toucans",
+      "country": "México",
+      "coordinates": {
+        "lat": 28.7028,
+        "lon": -105.9617
+      },
+      "coordinate_precision": "airport_generalized",
+      "source_label": "Profepa",
+      "source_url": "https://www.gob.mx/profepa/prensa/asegura-profepa-dos-tucanes-pico-cano-en-el-aeropuerto-de-chihuahua",
+      "publication_date": "2026-09-29",
+      "event_date": "2026-09-18",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "modal_primary": "Aéreo",
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 2
+      },
+      "location_label_pt": "Aeroporto Internacional General Roberto Fierro Villalobos, Chihuahua",
+      "location_label_en": "General Roberto Fierro Villalobos International Airport, Chihuahua",
+      "location_label_es": "Aeropuerto Internacional General Roberto Fierro Villalobos, Chihuahua",
+      "modal_label_pt": "Aéreo / encomenda",
+      "modal_label_en": "Air / parcel",
+      "modal_label_es": "Aéreo / paquetería",
+      "taxon_text": "*Ramphastos sulfuratus*",
+      "title_pt": "Profepa apreende dois tucanos-de-bico-de-canoa em encomenda no aeroporto de Chihuahua",
+      "title_en": "Profepa seizes two keel-billed toucans in parcel at Chihuahua airport",
+      "title_es": "Profepa asegura dos tucanes pico canoa en paquetería del aeropuerto de Chihuahua",
+      "card_text_pt": "Em 18 de setembro, a Profepa apreendeu dois tucanos-de-bico-de-canoa (*Ramphastos sulfuratus*) encontrados em uma caixa de madeira nas instalações de uma empresa de encomendas no aeroporto de Chihuahua. Anilhas e documentos acompanhavam as aves, mas a autoridade identificou irregularidades e informou que a procedência legal não foi comprovada.",
+      "card_text_en": "On 18 September, Profepa seized two keel-billed toucans (*Ramphastos sulfuratus*) found in a wooden box at a parcel facility inside Chihuahua airport. Rings and documents accompanied the birds, but authorities found irregularities and said legal provenance was not established.",
+      "card_text_es": "El 18 de septiembre, Profepa aseguró dos tucanes pico canoa (*Ramphastos sulfuratus*) hallados en una caja de madera en instalaciones de paquetería del aeropuerto de Chihuahua. Las aves tenían anillos y documentos, pero la autoridad detectó irregularidades y señaló que no se acreditó su procedencia legal.",
+      "fauna_label_pt": "2 tucanos-de-bico-de-canoa",
+      "fauna_label_en": "2 keel-billed toucans",
+      "fauna_label_es": "2 tucanes pico canoa",
+      "quantity_note_pt": "Dois animais vivos; contagem exata. Não há informação pública sobre outros animais na remessa.",
+      "quantity_note_en": "Two live animals; exact count. No public information indicates additional animals in the shipment.",
+      "quantity_note_es": "Dos animales vivos; conteo exacto. No hay información pública sobre otros animales en el envío.",
+      "geographic_note_pt": "Coordenadas generalizadas do Aeroporto Internacional General Roberto Fierro Villalobos, local da interceptação; não representam a posição exata da empresa de paqueteria.",
+      "geographic_note_en": "Generalized coordinates for General Roberto Fierro Villalobos International Airport, where the parcel was intercepted; they do not represent the exact parcel-facility location.",
+      "geographic_note_es": "Coordenadas generalizadas del Aeropuerto Internacional General Roberto Fierro Villalobos, donde se interceptó la caja; no representan la ubicación exacta de la empresa de paquetería.",
+      "context_pt": "Fatos documentados [O1]: a Profepa apreendeu dois tucanos-de-bico-de-canoa em uma caixa de madeira numa empresa de encomendas do aeroporto de Chihuahua. Cada ave tinha anilha e havia documentos destinados a comprovar a origem, mas a autoridade apontou irregularidades e concluiu que a procedência legal não foi acreditada. A espécie é classificada como ameaçada na NOM-059-SEMARNAT-2010 e consta do Apêndice II da CITES. Leitura integrada: o caso é relevante porque documenta o uso de documentação e marcação aparentemente destinadas a sustentar uma alegação de legalidade, porém consideradas insuficientes pela autoridade. Limites da evidência: a fonte não informa remetente, destinatário, origem biológica, origem da encomenda ou destino pretendido; por isso não foi criada rota.",
+      "context_en": "Documented facts [O1]: Profepa seized two keel-billed toucans in a wooden box at a parcel facility inside Chihuahua airport. Each bird bore a ring and documents were presented to support legal origin, but authorities identified irregularities and concluded that legal provenance had not been established. The species is listed as threatened under NOM-059-SEMARNAT-2010 and in CITES Appendix II. Integrated reading: the case is relevant because it documents the use of paperwork and marking apparently intended to support a claim of legality, but judged insufficient by the authority. Evidence limits: the source does not identify sender, recipient, biological origin, parcel origin or intended destination; therefore no route was created.",
+      "context_es": "Hechos documentados [O1]: Profepa aseguró dos tucanes pico canoa en una caja de madera en una empresa de paquetería del aeropuerto de Chihuahua. Cada ave tenía anillo y se presentaron documentos para acreditar su origen, pero la autoridad detectó irregularidades y concluyó que no se acreditó la procedencia legal. La especie está catalogada como amenazada en la NOM-059-SEMARNAT-2010 y figura en el Apéndice II de CITES. Lectura integrada: el caso es relevante porque documenta el uso de documentación y marcaje aparentemente destinados a sustentar una alegación de legalidad, considerados insuficientes por la autoridad. Límites de la evidencia: la fuente no identifica remitente, destinatario, origen biológico, origen del paquete ni destino previsto; por ello no se creó una ruta.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Profepa — Asegura dos tucanes pico canoa en el aeropuerto de Chihuahua",
+          "url": "https://www.gob.mx/profepa/prensa/asegura-profepa-dos-tucanes-pico-cano-en-el-aeropuerto-de-chihuahua"
+        }
+      ],
+      "references_text_pt": "[O1] Profepa, 29/09/2026.",
+      "references_text_en": "[O1] Profepa, 29 Sep 2026.",
+      "references_text_es": "[O1] Profepa, 29/09/2026."
     }
   ]
 }
