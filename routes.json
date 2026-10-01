@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T11:30:00Z",
+  "updated_at": "2026-10-01T21:35:00Z",
   "audited_through": "2026-10-01",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4666,6 +4666,214 @@
       "evidence_es": "La fuente informa explícitamente que el paquete con dos huesos hioides de *Alouatta macconnelli* procedía de Surinam y fue interceptado por la aduana en los Países Bajos. Como no se divulgaron el punto exacto de envío ni el lugar de interceptación, la ruta se mantiene a nivel de país.",
       "source_label": "Waterkant / Nederlandse Douane",
       "source_url": "https://www.waterkant.net/suriname/2026/10/01/nederlandse-douane-vindt-tongbeenderen-van-brulaap-in-pakket-uit-suriname/"
+    },
+    {
+      "id": "uzbekistan-kazakhstan-orenburg-moscow-four-parrots-2026-07",
+      "event_match": {
+        "event_id": "2026-07-10__uzbekistan-russia-four-parrots"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_international_transport",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Uzbequistão → Cazaquistão → região de Orenburg → Moscou",
+      "label_en": "Uzbekistan → Kazakhstan → Orenburg Region → Moscow",
+      "label_es": "Uzbekistán → Kazajistán → región de Oremburgo → Moscú",
+      "segments": [
+        {
+          "from": {
+            "name": "Uzbequistão",
+            "country": "Uzbequistão",
+            "lat": 41.3775,
+            "lon": 64.5853,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Cazaquistão",
+            "country": "Cazaquistão",
+            "lat": 48.0196,
+            "lon": 66.9237,
+            "precision": "country_transit_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Cazaquistão",
+            "country": "Cazaquistão",
+            "lat": 48.0196,
+            "lon": 66.9237,
+            "precision": "country_transit_generalized"
+          },
+          "to": {
+            "name": "Região de Orenburg",
+            "country": "Rússia",
+            "lat": 51.7682,
+            "lon": 55.0969,
+            "precision": "region_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Região de Orenburg",
+            "country": "Rússia",
+            "lat": 51.7682,
+            "lon": 55.0969,
+            "precision": "region_generalized"
+          },
+          "to": {
+            "name": "Moscou",
+            "country": "Rússia",
+            "lat": 55.7558,
+            "lon": 37.6173,
+            "precision": "city_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o veículo seguia do Uzbequistão para Moscou, em trânsito pelo Cazaquistão, e foi interceptado na região de Orenburg com quatro papagaios. Os pontos no Uzbequistão e no Cazaquistão são generalizados porque a fonte não publica cidades ou postos de fronteira para esses trechos.",
+      "evidence_en": "The source states that the vehicle was traveling from Uzbekistan to Moscow via Kazakhstan and was intercepted in Orenburg Region with four parrots. Uzbekistan and Kazakhstan points are generalized because the source does not publish cities or border posts for those legs.",
+      "evidence_es": "La fuente informa que el vehículo viajaba desde Uzbekistán hacia Moscú, en tránsito por Kazajistán, y fue interceptado en la región de Oremburgo con cuatro loros. Los puntos de Uzbekistán y Kazajistán son generalizados porque la fuente no publica ciudades ni pasos fronterizos para esos tramos.",
+      "source_label": "Podrobno.uz / Samara Customs",
+      "source_url": "https://podrobno.uz/cat/proisshestviya/iz-uzbekistana-v-rossiyu-bez-pasporta-tamozhenniki-natknulis-na-neozhidannyy-gruz-v-salone-legkovush/"
+    },
+    {
+      "id": "tashkent-kazakhstan-orenburg-moscow-103-birds-2026-08",
+      "event_match": {
+        "event_id": "2026-08-10__tashkent-russia-103-birds"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_international_transport",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Tashkent → Cazaquistão → região de Orenburg → região de Moscou",
+      "label_en": "Tashkent → Kazakhstan → Orenburg Region → Moscow Region",
+      "label_es": "Taskent → Kazajistán → región de Oremburgo → región de Moscú",
+      "segments": [
+        {
+          "from": {
+            "name": "Tashkent",
+            "country": "Uzbequistão",
+            "lat": 41.2995,
+            "lon": 69.2401,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Cazaquistão",
+            "country": "Cazaquistão",
+            "lat": 48.0196,
+            "lon": 66.9237,
+            "precision": "country_transit_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Cazaquistão",
+            "country": "Cazaquistão",
+            "lat": 48.0196,
+            "lon": 66.9237,
+            "precision": "country_transit_generalized"
+          },
+          "to": {
+            "name": "Região de Orenburg",
+            "country": "Rússia",
+            "lat": 51.7682,
+            "lon": 55.0969,
+            "precision": "region_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Região de Orenburg",
+            "country": "Rússia",
+            "lat": 51.7682,
+            "lon": 55.0969,
+            "precision": "region_generalized"
+          },
+          "to": {
+            "name": "Região de Moscou",
+            "country": "Rússia",
+            "lat": 55.5043,
+            "lon": 38.0354,
+            "precision": "region_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o micro-ônibus saiu de Tashkent, transitou pelo Cazaquistão, foi interceptado na região de Orenburg e seguia para a região de Moscou. Nenhum posto fronteiriço é publicado.",
+      "evidence_en": "The source states that the minibus departed Tashkent, transited Kazakhstan, was intercepted in Orenburg Region and was heading to Moscow Region. No border crossing is published.",
+      "evidence_es": "La fuente informa que el minibús salió de Taskent, transitó por Kazajistán, fue interceptado en la región de Oremburgo y se dirigía a la región de Moscú. No se publica ningún paso fronterizo.",
+      "source_label": "Podrobno.uz / customs data",
+      "source_url": "https://podrobno.uz/cat/proisshestviya/iz-uzbekistana-v-rossiyu-pytalis-nezakonno-vvezti-bolee-100-ptits/"
+    },
+    {
+      "id": "hawraman-iraq-16-birds-2026-09",
+      "event_match": {
+        "event_id": "2026-09-28__hawraman-16-birds-iraq"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_international_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hawraman, Irã → Iraque",
+      "label_en": "Hawraman, Iran → Iraq",
+      "label_es": "Hawraman, Irán → Irak",
+      "segments": [
+        {
+          "from": {
+            "name": "Hawraman / Shaho-Kosalan",
+            "country": "Irã",
+            "lat": 35.12,
+            "lon": 46.3,
+            "precision": "mountain_region_generalized"
+          },
+          "to": {
+            "name": "Iraque",
+            "country": "Iraque",
+            "lat": 33.2232,
+            "lon": 43.6793,
+            "precision": "country_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "A autoridade ambiental informou que a carga foi apreendida antes da saída ilegal do Irã e seria transferida para o Iraque. Hawraman é o ponto de apreensão/pré-saída, não uma origem biológica atribuída; a cidade de destino no Iraque não foi divulgada.",
+      "evidence_en": "Environmental authorities reported that the shipment was seized before illegally leaving Iran and was intended for transfer to Iraq. Hawraman is the seizure/pre-exit point, not an assigned biological origin; no destination city in Iraq was disclosed.",
+      "evidence_es": "La autoridad ambiental informó que el cargamento fue incautado antes de salir ilegalmente de Irán y sería trasladado a Irak. Hawraman es el punto de incautación/pre-salida, no un origen biológico atribuido; no se divulgó la ciudad de destino en Irak.",
+      "source_label": "Mehr News Agency / Kurdistan Department of Environment",
+      "source_url": "https://wona.ir/news/29i14tp9i1/16-%D9%82%D8%B7%D8%B9%D9%87-%D9%BE%D8%B1%D9%86%D8%AF%D9%87-%D9%82%D8%A7%DA%86%D8%A7%D9%82-%D8%AF%D8%B1-%D9%87%D9%88%D8%B1%D8%A7%D9%85%D8%A7%D9%86-%DA%A9%D8%B4%D9%81-%D8%B4%D8%AF"
+    },
+    {
+      "id": "tajikistan-domodedovo-476-tortoises-2026",
+      "event_match": {
+        "event_id": "2026-08__domodedovo-476-central-asian-tortoises"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_import",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Tajiquistão → Aeroporto Domodedovo",
+      "label_en": "Tajikistan → Domodedovo Airport",
+      "label_es": "Tayikistán → Aeropuerto de Domodedovo",
+      "segments": [
+        {
+          "from": {
+            "name": "Tajiquistão",
+            "country": "Tajiquistão",
+            "lat": 38.861,
+            "lon": 71.2761,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Domodedovo",
+            "country": "Rússia",
+            "lat": 55.4088,
+            "lon": 37.9063,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o passageiro vinha do Tajiquistão e foi interceptado no Aeroporto Domodedovo com 476 tartarugas. O ponto de embarque no Tajiquistão não foi divulgado, portanto a origem é representada apenas em nível de país.",
+      "evidence_en": "The source states that the passenger was arriving from Tajikistan and was intercepted at Domodedovo Airport with 476 tortoises. The embarkation point in Tajikistan was not disclosed, so origin is represented only at country level.",
+      "evidence_es": "La fuente informa que el pasajero procedía de Tayikistán y fue interceptado en el aeropuerto de Domodedovo con 476 tortugas. No se divulgó el punto de embarque en Tayikistán, por lo que el origen se representa solo a nivel de país.",
+      "source_label": "Podrobno.uz / customs data",
+      "source_url": "https://podrobno.uz/cat/proisshestviya/iz-uzbekistana-v-rossiyu-pytalis-nezakonno-vvezti-bolee-100-ptits/"
     }
   ],
   "network_context": [
