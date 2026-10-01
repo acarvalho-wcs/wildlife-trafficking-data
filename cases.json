@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_433_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_434_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 433,
+  "count": 434,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -29725,6 +29725,85 @@
       "references_text_pt": "[O1] Profepa, 29/09/2026.",
       "references_text_en": "[O1] Profepa, 29 Sep 2026.",
       "references_text_es": "[O1] Profepa, 29/09/2026."
+    },
+    {
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "daily_global_update_2026_10_01",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-10-01T11:00:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "context_updated_at": "2026-10-01T11:00:00Z",
+      "route_audited_at": "2026-10-01T11:00:00Z",
+      "image_url": null,
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-10-01T11:00:00Z",
+      "event_datetime": null,
+      "id": "2026-09-27__mori-602-hair-crabs",
+      "country": "Japão",
+      "coordinates": {
+        "lat": 42.105,
+        "lon": 140.5764
+      },
+      "coordinate_precision": "town_port_generalized",
+      "source_label": "Hokkaido Cultural Broadcasting / FNN Prime Online",
+      "source_url": "https://www.fnn.jp/articles/-/1123540",
+      "publication_date": "2026-09-30",
+      "event_date": "2026-09-27",
+      "fauna_groups_aggregated": [
+        "Invertebrados"
+      ],
+      "modal_primary": "Marítimo",
+      "quantity_count": 602,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Invertebrados": 602
+      },
+      "quantity_unassigned": 0,
+      "image_source_url": "https://www.fnn.jp/articles/-/1123540",
+      "location_label_pt": "Porto de Mori, Mori, Hokkaido",
+      "location_label_en": "Mori Port, Mori, Hokkaido",
+      "location_label_es": "Puerto de Mori, Mori, Hokkaido",
+      "modal_label_pt": "Marítimo / pesca",
+      "modal_label_en": "Maritime / fishing",
+      "modal_label_es": "Marítimo / pesca",
+      "taxon_text": "Caranguejo-cabeludo (毛ガニ); identificação científica não informada pela fonte",
+      "title_pt": "Cinco homens são detidos com 602 caranguejos-cabeludos capturados ilegalmente em Hokkaido",
+      "title_en": "Five men detained with 602 illegally caught hair crabs in Hokkaido",
+      "title_es": "Cinco hombres detenidos con 602 cangrejos peludos capturados ilegalmente en Hokkaido",
+      "card_text_pt": "Cinco homens foram presos e encaminhados à promotoria sob suspeita de manter, em embarcações pesqueiras atracadas no Porto de Mori, 602 caranguejos-cabeludos capturados sem autorização do governador de Hokkaido na noite de 27 de setembro. A Guarda Costeira investiga suspeita de captura para venda.",
+      "card_text_en": "Five men were arrested and referred to prosecutors on suspicion of possessing 602 hair crabs illegally taken without permission from the Hokkaido governor aboard fishing vessels moored at Mori Port on the night of 27 September. The Coast Guard is investigating suspected poaching for sale.",
+      "card_text_es": "Cinco hombres fueron detenidos y remitidos a la fiscalía bajo sospecha de poseer 602 cangrejos peludos capturados sin autorización del gobernador de Hokkaido en embarcaciones pesqueras atracadas en el Puerto de Mori la noche del 27 de septiembre. La Guardia Costera investiga una posible captura para venta.",
+      "fauna_label_pt": "602 caranguejos-cabeludos",
+      "fauna_label_en": "602 hair crabs",
+      "fauna_label_es": "602 cangrejos peludos",
+      "quantity_note_pt": "Contagem exata de 602 animais. A fonte não fornece identificação científica; nenhuma equivalência taxonômica foi imposta.",
+      "quantity_note_en": "Exact count of 602 animals. The source does not provide a scientific identification; no taxonomic equivalence was imposed.",
+      "quantity_note_es": "Conteo exacto de 602 animales. La fuente no aporta identificación científica; no se impuso una equivalencia taxonómica.",
+      "geographic_note_pt": "Coordenadas generalizadas para Mori, junto ao porto reportado; não representam a posição exata das embarcações.",
+      "geographic_note_en": "Generalized coordinates for Mori near the reported port; they do not represent the exact vessel positions.",
+      "geographic_note_es": "Coordenadas generalizadas de Mori, junto al puerto reportado; no representan la posición exacta de las embarcaciones.",
+      "context_pt": "Fatos documentados [O1]: cinco homens são investigados por possuir 602 caranguejos-cabeludos que teriam sido capturados sem a autorização exigida e mantidos em duas embarcações pesqueiras atracadas em Mori. Os suspeitos admitiram as acusações, segundo a reportagem, e a Guarda Costeira apura a hipótese de captura para venda. Leitura integrada: o caso documenta captura e posse ilegais em contexto pesqueiro e uma possível finalidade comercial ainda sob investigação. Limites da evidência: a fonte não informa ponto de captura no mar, comprador, destino, rota comercial ou identificação científica; nenhum desses elementos foi inferido.",
+      "context_en": "Documented facts [O1]: five men are under investigation for possessing 602 hair crabs allegedly taken without the required authorization and kept aboard two fishing vessels moored at Mori. The suspects admitted the allegations, according to the report, and the Coast Guard is investigating possible poaching for sale. Integrated reading: the case documents illegal capture and possession in a fisheries context, with a possible commercial purpose still under investigation. Evidence limits: the source does not identify the offshore capture point, buyer, destination, trade route or scientific taxon; none of these elements was inferred.",
+      "context_es": "Hechos documentados [O1]: cinco hombres son investigados por poseer 602 cangrejos peludos presuntamente capturados sin la autorización requerida y mantenidos en dos embarcaciones pesqueras atracadas en Mori. Según la nota, los sospechosos admitieron las acusaciones y la Guardia Costera investiga una posible captura para venta. Lectura integrada: el caso documenta captura y posesión ilegales en un contexto pesquero, con una posible finalidad comercial todavía bajo investigación. Límites de la evidencia: la fuente no identifica el punto de captura en el mar, comprador, destino, ruta comercial ni taxón científico; ninguno de esos elementos fue inferido.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Hokkaido Cultural Broadcasting / FNN — 602 hair crabs in Mori",
+          "url": "https://www.fnn.jp/articles/-/1123540"
+        }
+      ],
+      "references_text_pt": "[O1] Hokkaido Cultural Broadcasting/FNN Prime Online, 30/09/2026.",
+      "references_text_en": "[O1] Hokkaido Cultural Broadcasting/FNN Prime Online, 30 Sep 2026.",
+      "references_text_es": "[O1] Hokkaido Cultural Broadcasting/FNN Prime Online, 30/09/2026."
     }
   ]
 }
