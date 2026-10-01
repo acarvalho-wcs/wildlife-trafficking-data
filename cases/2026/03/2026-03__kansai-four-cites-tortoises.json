@@ -1,0 +1,75 @@
+{
+  "id": "2026-03__kansai-four-cites-tortoises",
+  "legacy_index": null,
+  "location_label_pt": "Aeroporto Internacional de Kansai, Osaka",
+  "location_label_en": "Kansai International Airport, Osaka",
+  "location_label_es": "Aeropuerto Internacional de Kansai, Osaka",
+  "country": "Japão",
+  "title_pt": "Polícia prende dois suspeitos por tentativa de importar quatro tartarugas via Hong Kong para Kansai",
+  "title_en": "Police arrest two suspects over attempted import of four tortoises via Hong Kong to Kansai",
+  "title_es": "Policía detiene a dos sospechosos por intento de importar cuatro tortugas vía Hong Kong a Kansai",
+  "source_label": "Kansai Television / FNN Prime Online",
+  "source_url": "https://www.fnn.jp/articles/-/1123629",
+  "publication_date": "2026-09-30",
+  "event_date": null,
+  "fauna_label_pt": "4 tartarugas vivas: 1 estrela-indiana + 1 leopardo + 2 de esporas-africanas",
+  "fauna_label_en": "4 live tortoises: 1 Indian star + 1 leopard + 2 African spurred",
+  "fauna_label_es": "4 tortugas vivas: 1 estrellada de la India + 1 leopardo + 2 de espolones africanas",
+  "taxon_text": "1 *Geochelone elegans* + 1 *Stigmochelys pardalis* + 2 *Centrochelys sulcata*",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Aéreo",
+  "card_text_pt": "Em março de 2026, quatro tartarugas vivas regulamentadas pela CITES foram encontradas em uma mala no Aeroporto de Kansai. A fonte informa viagem desde um aeroporto internacional não especificado na Tailândia, via Hong Kong, até Kansai.",
+  "card_text_en": "In March 2026, four live CITES-regulated tortoises were found in a suitcase at Kansai Airport. The source reports travel from an unspecified international airport in Thailand via Hong Kong to Kansai.",
+  "card_text_es": "En marzo de 2026, cuatro tortugas vivas reguladas por CITES fueron halladas en una maleta en el Aeropuerto de Kansai. La fuente informa un viaje desde un aeropuerto internacional no especificado de Tailandia, vía Hong Kong, hasta Kansai.",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "coordinates": {
+    "lat": 34.4342,
+    "lon": 135.2328
+  },
+  "coordinate_precision": "airport_generalized",
+  "context_pt": "Fatos documentados [O1]: quatro tartarugas vivas regulamentadas pela CITES foram encontradas em uma mala no Aeroporto de Kansai durante uma tentativa de importação em março. A fonte identifica uma *Geochelone elegans*, uma *Stigmochelys pardalis* e duas *Centrochelys sulcata*, e informa o itinerário Tailândia → Hong Kong → Kansai, sem especificar o aeroporto tailandês. Relação com a ciência [S1]: estudo do Repositório Científico sobre comércio de quelônios em Hong Kong ajuda a contextualizar Hong Kong como mercado e nó de comércio de quelônios, mas não estabelece vínculo entre aquele mercado e esta ocorrência. Limites da evidência: a fonte não informa origem biológica, local de aquisição ou destino comercial posterior no Japão.",
+  "context_en": "Documented facts [O1]: four live CITES-regulated tortoises were found in a suitcase at Kansai Airport during an attempted import in March. The source identifies one *Geochelone elegans*, one *Stigmochelys pardalis* and two *Centrochelys sulcata*, and reports the itinerary Thailand → Hong Kong → Kansai without identifying the Thai departure airport. Relation to science [S1]: a Research Repository study on chelonian trade in Hong Kong helps contextualize Hong Kong as a chelonian market and trade node, but does not establish a link between that market and this event. Evidence limits: the source does not identify biological origin, place of acquisition or any downstream commercial destination in Japan.",
+  "context_es": "Hechos documentados [O1]: cuatro tortugas vivas reguladas por CITES fueron halladas en una maleta en el Aeropuerto de Kansai durante un intento de importación en marzo. La fuente identifica una *Geochelone elegans*, una *Stigmochelys pardalis* y dos *Centrochelys sulcata*, e informa el itinerario Tailandia → Hong Kong → Kansai sin identificar el aeropuerto de salida en Tailandia. Relación con la ciencia [S1]: un estudio del Repositorio Científico sobre comercio de quelonios en Hong Kong ayuda a contextualizar Hong Kong como mercado y nodo de comercio, pero no establece un vínculo con esta ocurrencia. Límites de la evidencia: la fuente no informa origen biológico, lugar de adquisición ni destino comercial posterior en Japón.",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 4
+  },
+  "quantity_unassigned": 0,
+  "event_month": "2026-03",
+  "event_date_precision": "month",
+  "image_url": null,
+  "image_source_url": "https://www.fnn.jp/articles/-/1123629",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "added_at": "2026-10-01T11:00:00Z",
+  "reconstruction_batch": "daily_global_update_2026_10_01",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_updated_at": "2026-10-01T11:00:00Z",
+  "route_audited_at": "2026-10-01T11:00:00Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Kansai Television / FNN — four CITES-regulated tortoises found at Kansai",
+      "url": "https://www.fnn.jp/articles/-/1123629"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring",
+      "url": "https://doi.org/10.1016/j.biocon.2021.109245"
+    }
+  ],
+  "references_text_pt": "[O1] Kansai Television/FNN Prime Online, 30/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.",
+  "references_text_en": "[O1] Kansai Television/FNN Prime Online, 30 Sep 2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.",
+  "references_text_es": "[O1] Kansai Television/FNN Prime Online, 30/09/2026; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245."
+}
