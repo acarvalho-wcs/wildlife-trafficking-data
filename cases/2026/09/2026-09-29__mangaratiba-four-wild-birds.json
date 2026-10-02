@@ -1,0 +1,91 @@
+{
+  "id": "2026-09-29__mangaratiba-four-wild-birds",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "daily_ingestion_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_MUNICIPAL_AND_ENVIRONMENTAL_POLICE_SOURCE",
+  "added_at": "2026-10-02T11:45:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -22.96,
+    "lon": -44.04
+  },
+  "coordinate_precision": "district_generalized",
+  "source_label": "Prefeitura de Mangaratiba / Comando de Polícia Ambiental",
+  "source_url": "https://prefeitura.mangaratiba.rj.gov.br/virada-ambiental-acao-combate-irregularidades-e-crime-ambiental-em-muriqui-e-na-ingaiba/",
+  "publication_date": "2026-09-30",
+  "event_date": "2026-09-29",
+  "event_datetime": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Outro",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 4
+  },
+  "quantity_unassigned": 0,
+  "location_label_pt": "Ingaíba, Mangaratiba, Rio de Janeiro",
+  "location_label_en": "Ingaíba, Mangaratiba, Rio de Janeiro, Brazil",
+  "location_label_es": "Ingaíba, Mangaratiba, Río de Janeiro, Brasil",
+  "modal_label_pt": "Posse/captura local",
+  "modal_label_en": "Local possession/capture",
+  "modal_label_es": "Posesión/captura local",
+  "taxon_text": "Aves silvestres; espécies não informadas",
+  "title_pt": "Operação apreende quatro aves silvestres mantidas ilegalmente em Ingaíba, Mangaratiba",
+  "title_en": "Operation seizes four wild birds illegally kept in Ingaíba, Mangaratiba",
+  "title_es": "Operación incauta cuatro aves silvestres mantenidas ilegalmente en Ingaíba, Mangaratiba",
+  "card_text_pt": "Durante a operação Virada Ambiental, equipes municipais e o Comando de Polícia Ambiental encontraram quatro aves silvestres mantidas irregularmente em gaiolas na Ingaíba, em Mangaratiba. Também foi apreendido um alçapão usado para captura de aves.",
+  "card_text_en": "During the Virada Ambiental operation, municipal teams and the Environmental Police Command found four wild birds illegally kept in cages in Ingaíba, Mangaratiba. A trap used to capture birds was also seized.",
+  "card_text_es": "Durante la operación Virada Ambiental, equipos municipales y el Comando de Policía Ambiental encontraron cuatro aves silvestres mantenidas ilegalmente en jaulas en Ingaíba, Mangaratiba. También fue incautada una trampa utilizada para capturar aves.",
+  "fauna_label_pt": "4 aves silvestres — espécies não informadas",
+  "fauna_label_en": "4 wild birds — species not specified",
+  "fauna_label_es": "4 aves silvestres — especies no especificadas",
+  "quantity_note_pt": "Contagem exata de quatro aves. As fontes não informam as espécies e nenhuma identificação taxonômica é inferida.",
+  "quantity_note_en": "Exact count of four birds. The sources do not identify the species and no taxonomic identification is inferred.",
+  "quantity_note_es": "Conteo exacto de cuatro aves. Las fuentes no identifican las especies y no se infiere ninguna identificación taxonómica.",
+  "geographic_note_pt": "A ocorrência foi registrada em Ingaíba, Mangaratiba. O endereço exato não foi publicado; as coordenadas são generalizadas para o distrito/localidade.",
+  "geographic_note_en": "The occurrence was recorded in Ingaíba, Mangaratiba. The exact address was not published; coordinates are generalized to the district/locality.",
+  "geographic_note_es": "La ocurrencia fue registrada en Ingaíba, Mangaratiba. No se publicó la dirección exacta; las coordenadas se generalizan al distrito/localidad.",
+  "context_pt": "Fatos documentados [O1][O2]: quatro aves silvestres foram encontradas em gaiolas durante uma fiscalização ambiental em Ingaíba; um alçapão empregado para captura de aves também foi apreendido, e a ocorrência foi registrada como crime ambiental. Relação com a ciência [S1]: o Repositório Científico reúne estudo recente sobre apreensões de fauna em um hotspot brasileiro, útil para situar pequenos eventos de posse/captura dentro do volume mais amplo de ocorrências que compõem o tráfico e a exploração ilegal de fauna no país. Leitura integrada: embora seja um caso de pequena escala, a presença simultânea das aves em cativeiro e de equipamento de captura fornece evidência concreta de uma etapa local de retirada/manutenção de fauna. Limites da evidência: não são conhecidas as espécies, locais de captura, tempo em cativeiro, finalidade, eventual comprador ou qualquer deslocamento comercial; nenhuma rota é inferida.",
+  "context_en": "Documented facts [O1][O2]: four wild birds were found in cages during an environmental inspection in Ingaíba; a trap used to capture birds was also seized, and the occurrence was registered as an environmental crime. Relation to science [S1]: the Scientific Repository includes recent research on wildlife seizures in a Brazilian biodiversity hotspot, useful for placing small possession/capture events within the broader volume of occurrences that make up illegal wildlife exploitation and trafficking in Brazil. Integrated reading: although small in scale, the simultaneous presence of captive birds and trapping equipment provides concrete evidence of a local wildlife-removal/keeping stage. Evidence limits: species, capture sites, duration in captivity, purpose, any buyer and any commercial movement are unknown; no route is inferred.",
+  "context_es": "Hechos documentados [O1][O2]: cuatro aves silvestres fueron encontradas en jaulas durante una fiscalización ambiental en Ingaíba; también fue incautada una trampa utilizada para capturar aves y la ocurrencia fue registrada como delito ambiental. Relación con la ciencia [S1]: el Repositorio Científico incluye un estudio reciente sobre incautaciones de fauna en un hotspot brasileño, útil para situar pequeños eventos de posesión/captura dentro del volumen más amplio de ocurrencias que componen la explotación y el tráfico ilegal de fauna en Brasil. Lectura integrada: aunque es un caso de pequeña escala, la presencia simultánea de aves en cautiverio y equipo de captura aporta evidencia concreta de una etapa local de extracción/mantenimiento de fauna. Límites de la evidencia: se desconocen las especies, lugares de captura, tiempo en cautiverio, finalidad, posible comprador y cualquier desplazamiento comercial; no se infiere ninguna ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Prefeitura de Mangaratiba — Virada Ambiental em Muriqui e Ingaíba",
+      "url": "https://prefeitura.mangaratiba.rj.gov.br/virada-ambiental-acao-combate-irregularidades-e-crime-ambiental-em-muriqui-e-na-ingaiba/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "O Dia — Polícia Ambiental apreende aves silvestres em Mangaratiba",
+      "url": "https://odia.ig.com.br/mangaratiba/2026/10/7307949-policia-ambiental-apreende-aves-silvestres-em-mangaratiba.html"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil",
+      "url": "https://doi.org/10.1590/1809-4422asoc01641vu29L29OA"
+    }
+  ],
+  "references_text_pt": "[O1] Prefeitura de Mangaratiba, 30/09/2026; [O2] O Dia, 01/10/2026; [S1] Ambiente & Sociedade, DOI 10.1590/1809-4422asoc01641vu29L29OA.",
+  "references_text_en": "[O1] Municipality of Mangaratiba, 30 Sep 2026; [O2] O Dia, 1 Oct 2026; [S1] Ambiente & Sociedade, DOI 10.1590/1809-4422asoc01641vu29L29OA.",
+  "references_text_es": "[O1] Municipalidad de Mangaratiba, 30/09/2026; [O2] O Dia, 01/10/2026; [S1] Ambiente & Sociedade, DOI 10.1590/1809-4422asoc01641vu29L29OA.",
+  "route_audited_at": "2026-10-02T11:45:00Z",
+  "context_updated_at": "2026-10-02T11:45:00Z",
+  "image_url": null,
+  "image_source_url": "https://prefeitura.mangaratiba.rj.gov.br/virada-ambiental-acao-combate-irregularidades-e-crime-ambiental-em-muriqui-e-na-ingaiba/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-10-02T11:45:00Z"
+}
