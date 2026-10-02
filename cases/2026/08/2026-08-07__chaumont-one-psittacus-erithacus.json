@@ -1,0 +1,92 @@
+{
+  "id": "2026-08-07__chaumont-one-psittacus-erithacus",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "A31, área de Chaumont",
+  "location_label_en": "A31, Chaumont area",
+  "location_label_es": "A31, área de Chaumont",
+  "country": "França",
+  "title_pt": "Alfândega intercepta papagaio-cinzento *Psittacus erithacus* sem documentação na A31",
+  "title_en": "Customs intercepts undocumented African grey parrot *Psittacus erithacus* on the A31",
+  "title_es": "Aduanas intercepta un loro gris *Psittacus erithacus* sin documentación en la A31",
+  "source_label": "Douane française",
+  "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators",
+  "publication_date": "2026-10-02",
+  "event_date": "2026-08-07",
+  "event_end_date": null,
+  "fauna_label_pt": "1 papagaio-cinzento",
+  "fauna_label_en": "1 African grey parrot",
+  "fauna_label_es": "1 loro gris",
+  "taxon_text": "*Psittacus erithacus*",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "card_text_pt": "Uma fiscalização na A31, na região de Chaumont, encontrou um papagaio-cinzento (*Psittacus erithacus*) sendo transportado sem documentação adequada.",
+  "card_text_en": "An inspection on the A31 in the Chaumont area found an African grey parrot (*Psittacus erithacus*) being transported without adequate documentation.",
+  "card_text_es": "Un control en la A31, en el área de Chaumont, encontró un loro gris (*Psittacus erithacus*) transportado sin documentación adecuada.",
+  "coordinates": {
+    "lat": 48.111,
+    "lon": 5.139
+  },
+  "coordinate_precision": "road_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: o boletim identifica a espécie e o ponto de controle, mas não publica origem do animal nem itinerário completo do veículo. [S1] Relação com a ciência: A síntese científica do Repositório documenta impactos do comércio sobre aves e outros vertebrados terrestres, oferecendo contexto de conservação para captura e circulação de aves. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens examina a cadeia de captura, transporte e demanda por papagaios; é contexto temático e não evidência do caso. Síntese: o evento é evidência de transporte irregular de espécie CITES, sem base para linha de rota. Limites da evidência: origem, comprador, vendedor e destino não foram divulgados.",
+  "context_en": "[O1] Documented facts: the bulletin identifies the species and checkpoint but does not publish the animal's origin or the vehicle's full itinerary. [S1] Relation to science: The Scientific Repository synthesis documents trade impacts on birds and other terrestrial vertebrates, providing conservation context for bird capture and movement. [N1] Relation to reporting: The News Repository report examines the capture, transport and demand chain for parrots; it is thematic context and not evidence for this case. Synthesis: the event is evidence of irregular transport of a CITES-listed species without a basis for drawing a route. Evidence limits: origin, buyer, seller and destination were not disclosed.",
+  "context_es": "[O1] Hechos documentados: el boletín identifica la especie y el punto de control, pero no publica el origen del animal ni el itinerario completo del vehículo. [S1] Relación con la ciencia: La síntesis científica del Repositorio documenta impactos del comercio sobre aves y otros vertebrados terrestres, aportando contexto de conservación para la captura y circulación de aves. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes examina la cadena de captura, transporte y demanda de loros; es contexto temático y no evidencia del caso. Síntesis: el evento constituye evidencia de transporte irregular de una especie CITES sin base para dibujar una ruta. Límites de la evidencia: no se divulgaron origen, comprador, vendedor ni destino.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Douane française",
+      "url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "TRAFFIC — Before the cage: tackling African grey parrot trafficking from forests to buyers",
+      "url": "https://www.traffic.org/vn/news/before-the-cage-tackling-african-grey-parrot-trafficking-from-forests-to-buyers/"
+    }
+  ],
+  "references_text_pt": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] TRAFFIC — Before the cage: tackling African grey parrot trafficking from forests to buyers — https://www.traffic.org/vn/news/before-the-cage-tackling-african-grey-parrot-trafficking-from-forests-to-buyers/",
+  "references_text_en": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] TRAFFIC — Before the cage: tackling African grey parrot trafficking from forests to buyers — https://www.traffic.org/vn/news/before-the-cage-tackling-african-grey-parrot-trafficking-from-forests-to-buyers/",
+  "references_text_es": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] TRAFFIC — Before the cage: tackling African grey parrot trafficking from forests to buyers — https://www.traffic.org/vn/news/before-the-cage-tackling-african-grey-parrot-trafficking-from-forests-to-buyers/",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

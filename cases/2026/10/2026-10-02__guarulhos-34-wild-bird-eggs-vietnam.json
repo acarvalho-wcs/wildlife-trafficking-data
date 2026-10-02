@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-02__guarulhos-34-wild-bird-eggs-vietnam",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Aeroporto Internacional de São Paulo/Guarulhos (SP)",
+  "location_label_en": "Aeroporto Internacional de São Paulo/Guarulhos (SP)",
+  "location_label_es": "Aeroporto Internacional de São Paulo/Guarulhos (SP)",
+  "country": "Brasil",
+  "title_pt": "PF apreende 34 ovos de aves silvestres em Guarulhos antes de embarque para o Vietnã",
+  "title_en": "Federal Police seize 34 wild-bird eggs at Guarulhos before flight to Vietnam",
+  "title_es": "Policía Federal decomisa 34 huevos de aves silvestres en Guarulhos antes de un vuelo a Vietnam",
+  "source_label": "Polícia Federal do Brasil",
+  "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos",
+  "publication_date": "2026-10-02",
+  "event_date": "2026-10-02",
+  "event_end_date": null,
+  "fauna_label_pt": "34 ovos de aves silvestres, provavelmente de araras",
+  "fauna_label_en": "34 wild-bird eggs, probably macaw eggs",
+  "fauna_label_es": "34 huevos de aves silvestres, probablemente de guacamayos",
+  "taxon_text": "Psittacidae — identificação específica não confirmada",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "card_text_pt": "Um cidadão chinês foi detido ao tentar embarcar para o Vietnã com 34 ovos de aves silvestres. O Ibama avaliou que provavelmente eram de araras e que estavam próximos da eclosão.",
+  "card_text_en": "A Chinese national was detained while attempting to board a flight to Vietnam with 34 wild-bird eggs. Ibama assessed that they were probably macaw eggs and close to hatching.",
+  "card_text_es": "Un ciudadano chino fue detenido cuando intentaba embarcar hacia Vietnam con 34 huevos de aves silvestres. El Ibama evaluó que probablemente eran de guacamayos y estaban próximos a eclosionar.",
+  "coordinates": {
+    "lat": -23.4356,
+    "lon": -46.4731
+  },
+  "coordinate_precision": "airport",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a PF apreendeu 34 ovos com um passageiro que tentava embarcar para o Vietnã; a identificação do Ibama permaneceu probabilística, e os ovos foram encaminhados para manejo especializado. [S1] Relação com a ciência: O estudo do Repositório Científico mostra como características da malha aérea podem concentrar risco e apoiar priorização de fiscalização; isso contextualiza o uso de aeroportos, sem inferir conexões não documentadas. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens descreve uso combinado de inteligência, investigação encoberta e fiscalização aeroportuária contra o tráfico; é apenas contexto temático. Síntese: o evento documenta uma tentativa internacional de transporte aéreo de ovos, estágio de vida que exige controle térmico e pode reduzir volume de ocultação. Limites da evidência: a espécie e a origem geográfica dos ovos não foram confirmadas; a rota termina no destino declarado, Vietnã.",
+  "context_en": "[O1] Documented facts: Federal Police seized 34 eggs from a passenger attempting to board for Vietnam; Ibama's identification remained probabilistic, and the eggs were sent for specialist care. [S1] Relation to science: The Scientific Repository study shows how air-network characteristics can concentrate risk and support enforcement prioritization; it contextualizes airport use without inferring undocumented links. [N1] Relation to reporting: The News Repository report describes combined use of intelligence, undercover work and airport enforcement against wildlife trafficking; it is thematic context only. Synthesis: the event documents an attempted international air movement of eggs, a life stage requiring thermal management and potentially reducing concealment volume. Evidence limits: the species and geographic origin of the eggs were not confirmed; the route ends at the declared destination, Vietnam.",
+  "context_es": "[O1] Hechos documentados: la Policía Federal decomisó 34 huevos a un pasajero que intentaba embarcar hacia Vietnam; la identificación del Ibama siguió siendo probabilística y los huevos fueron enviados a manejo especializado. [S1] Relación con la ciencia: El estudio del Repositorio Científico muestra cómo las características de la red aérea pueden concentrar riesgo y apoyar la priorización de controles; contextualiza el uso de aeropuertos sin inferir vínculos no documentados. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes describe el uso combinado de inteligencia, investigación encubierta y controles aeroportuarios contra el tráfico; se usa solo como contexto temático. Síntesis: el evento documenta un intento de transporte aéreo internacional de huevos, una etapa de vida que exige control térmico y puede reducir el volumen de ocultamiento. Límites de la evidencia: no se confirmaron la especie ni el origen geográfico de los huevos; la ruta termina en el destino declarado, Vietnam.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polícia Federal do Brasil",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots",
+      "url": "https://doi.org/10.1038/s43247-025-02371-5"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021"
+    }
+  ],
+  "references_text_pt": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021",
+  "references_text_en": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021",
+  "references_text_es": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021",
+  "quantity_count": 34,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Aves": 34
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "34 ovos contados como itens de fauna, não como animais eclodidos.",
+  "quantity_note_en": "34 eggs counted as wildlife items, not hatched animals.",
+  "quantity_note_es": "34 huevos contados como artículos de fauna, no como animales eclosionados.",
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

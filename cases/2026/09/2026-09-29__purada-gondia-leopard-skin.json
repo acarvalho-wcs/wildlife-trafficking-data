@@ -1,0 +1,92 @@
+{
+  "id": "2026-09-29__purada-gondia-leopard-skin",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Próximo a Purada, distrito de Gondia, Maharashtra",
+  "location_label_en": "Near Purada, Gondia district, Maharashtra",
+  "location_label_es": "Cerca de Purada, distrito de Gondia, Maharashtra",
+  "country": "Índia",
+  "title_pt": "DRI apreende pele de leopardo durante operação contra comércio ilegal em Gondia",
+  "title_en": "DRI seizes leopard skin during operation against illegal trade in Gondia",
+  "title_es": "DRI decomisa una piel de leopardo durante una operación contra el comercio ilegal en Gondia",
+  "source_label": "Press Information Bureau / DRI",
+  "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2318504&lang=1&reg=3",
+  "publication_date": "2026-10-01",
+  "event_date": "2026-09-29",
+  "event_end_date": null,
+  "fauna_label_pt": "1 pele de leopardo",
+  "fauna_label_en": "1 leopard skin",
+  "fauna_label_es": "1 piel de leopardo",
+  "taxon_text": "*Panthera pardus*",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Comércio local",
+  "modal_label_pt": "Comércio local",
+  "modal_label_en": "Local trade",
+  "modal_label_es": "Comercio local",
+  "card_text_pt": "A unidade regional do DRI em Nagpur interceptou duas pessoas perto de Purada, em Gondia, e apreendeu uma pele de leopardo (*Panthera pardus*) durante uma investigação sobre comércio ilegal.",
+  "card_text_en": "DRI's Nagpur regional unit intercepted two people near Purada in Gondia and seized one leopard (*Panthera pardus*) skin during an investigation into illegal trade.",
+  "card_text_es": "La unidad regional del DRI en Nagpur interceptó a dos personas cerca de Purada, en Gondia, y decomisó una piel de leopardo (*Panthera pardus*) durante una investigación sobre comercio ilegal.",
+  "coordinates": {
+    "lat": 21.46,
+    "lon": 80.2
+  },
+  "coordinate_precision": "district_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a pele e os dois envolvidos foram encaminhados à autoridade florestal para investigação; a divulgação não estabelece onde o animal foi morto nem a quem seria vendido. [S1] Relação com a ciência: A síntese científica do Repositório documenta efeitos negativos do comércio sobre populações de vertebrados terrestres e oferece contexto de conservação para o uso de partes de felinos. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens mostra que o comércio de felinos e suas partes pode permanecer subdocumentado; não estabelece vínculo com este caso. Síntese: o evento documenta a etapa de comercialização de um derivado de felino, mas a cadeia de caça e fornecimento permanece aberta. Limites da evidência: não há origem, comprador final, preço confirmado ou rota documentada.",
+  "context_en": "[O1] Documented facts: the skin and the two people were handed to forest authorities for investigation; the release does not establish where the animal was killed or to whom the skin would be sold. [S1] Relation to science: The Scientific Repository synthesis documents negative effects of trade on terrestrial vertebrate populations and provides conservation context for trade in felid parts. [N1] Relation to reporting: The News Repository report shows that trade in wild cats and their parts can remain underdocumented; it establishes no link to this case. Synthesis: the event documents the trade stage for a felid derivative, while the hunting and supply chain remains unresolved. Evidence limits: no origin, final buyer, confirmed price or route is documented.",
+  "context_es": "[O1] Hechos documentados: la piel y las dos personas fueron entregadas a la autoridad forestal para investigación; la publicación no establece dónde fue abatido el animal ni a quién se vendería. [S1] Relación con la ciencia: La síntesis científica del Repositorio documenta efectos negativos del comercio sobre poblaciones de vertebrados terrestres y aporta contexto de conservación para el comercio de partes de félidos. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes muestra que el comercio de félidos y sus partes puede permanecer subdocumentado; no establece vínculo con este caso. Síntesis: el evento documenta la etapa de comercialización de un derivado de félido, mientras la cadena de caza y suministro permanece sin resolver. Límites de la evidencia: no se documentan origen, comprador final, precio confirmado ni ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Press Information Bureau / DRI",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2318504&lang=1&reg=3"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Big cats get the press, but small wildcats are being poached and trafficked in silence",
+      "url": "https://news.mongabay.com/2026/02/big-cats-get-the-press-but-small-wildcats-are-being-poached-and-trafficked-in-silence/"
+    }
+  ],
+  "references_text_pt": "[O1] Press Information Bureau / DRI — https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2318504&lang=1&reg=3; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] Mongabay — Big cats get the press, but small wildcats are being poached and trafficked in silence — https://news.mongabay.com/2026/02/big-cats-get-the-press-but-small-wildcats-are-being-poached-and-trafficked-in-silence/",
+  "references_text_en": "[O1] Press Information Bureau / DRI — https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2318504&lang=1&reg=3; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] Mongabay — Big cats get the press, but small wildcats are being poached and trafficked in silence — https://news.mongabay.com/2026/02/big-cats-get-the-press-but-small-wildcats-are-being-poached-and-trafficked-in-silence/",
+  "references_text_es": "[O1] Press Information Bureau / DRI — https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2318504&lang=1&reg=3; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] Mongabay — Big cats get the press, but small wildcats are being poached and trafficked in silence — https://news.mongabay.com/2026/02/big-cats-get-the-press-but-small-wildcats-are-being-poached-and-trafficked-in-silence/",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2318504&lang=1&reg=3",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

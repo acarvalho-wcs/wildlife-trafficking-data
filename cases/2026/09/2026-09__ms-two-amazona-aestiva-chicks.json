@@ -1,0 +1,92 @@
+{
+  "id": "2026-09__ms-two-amazona-aestiva-chicks",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Mato Grosso do Sul — região de Cerrado e Mata Atlântica (local exato protegido)",
+  "location_label_en": "Mato Grosso do Sul — Cerrado/Atlantic Forest region (exact site withheld)",
+  "location_label_es": "Mato Grosso do Sul — región de Cerrado y Mata Atlántica (sitio exacto reservado)",
+  "country": "Brasil",
+  "title_pt": "Dois filhotes de papagaio-verdadeiro são retirados ilegalmente de ninho monitorado em MS",
+  "title_en": "Two blue-fronted parrot chicks illegally removed from monitored nest in Mato Grosso do Sul",
+  "title_es": "Dos crías de loro hablador son extraídas ilegalmente de un nido monitoreado en Mato Grosso do Sul",
+  "source_label": "MS Manchete / Projeto Papagaio-verdadeiro",
+  "source_url": "https://www.msmanchete.com.br/2026/09/26/dois-filhotes-de-papagaio-verdadeiro-sao-roubados-de-ninho-monitorado-em-ms/",
+  "publication_date": "2026-09-26",
+  "event_date": null,
+  "event_end_date": "2026-09-24",
+  "fauna_label_pt": "2 filhotes de papagaio-verdadeiro",
+  "fauna_label_en": "2 blue-fronted parrot chicks",
+  "fauna_label_es": "2 crías de loro hablador",
+  "taxon_text": "*Amazona aestiva*",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "card_text_pt": "Dois filhotes de papagaio-verdadeiro (*Amazona aestiva*) desapareceram de um ninho monitorado entre 18 e 24 de setembro. A equipe encontrou sinais de arrombamento da cavidade usada como ninho.",
+  "card_text_en": "Two blue-fronted parrot (*Amazona aestiva*) chicks disappeared from a monitored nest between September 18 and 24. The team found signs that the nesting cavity had been forced open.",
+  "card_text_es": "Dos crías de loro hablador (*Amazona aestiva*) desaparecieron de un nido monitoreado entre el 18 y el 24 de septiembre. El equipo encontró señales de apertura forzada de la cavidad.",
+  "coordinates": {
+    "lat": -21.5,
+    "lon": -54.5
+  },
+  "coordinate_precision": "region_generalized",
+  "geographic_note_pt": "Coordenada regional deliberadamente generalizada; o local exato do ninho monitorado não deve ser exposto.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: os filhotes tinham poucos dias de vida; danos ao coqueiro e lascas no chão indicaram retirada humana, e o projeto não divulgou o ponto exato do ninho por razões de proteção. [S1] Relação com a ciência: O estudo do Repositório Científico analisa apreensões em Mato Grosso do Sul entre 2017 e 2021 e destaca o papagaio-verdadeiro entre os táxons recorrentes; aqui funciona como linha de base histórica regional. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens discute limitações de dados, mercados e cooperação institucional no tráfico de fauna no Brasil; não documenta este evento. Síntese: o caso documenta diretamente a etapa inicial da cadeia — retirada do ninho — antes de qualquer transporte, venda ou comprador identificável. Limites da evidência: o dia exato da retirada, o local preciso, os responsáveis e o destino não são conhecidos; nenhuma rota é inferida.",
+  "context_en": "[O1] Documented facts: the chicks were only days old; damage to the palm and wood chips on the ground indicated human removal, and the project did not disclose the exact nest site for protection reasons. [S1] Relation to science: The Scientific Repository study analyzes seizures in Mato Grosso do Sul during 2017–2021 and highlights the blue-fronted parrot among recurrent taxa; here it serves as a historical regional baseline. [N1] Relation to reporting: The News Repository report discusses data limitations, markets and institutional cooperation in Brazilian wildlife trafficking; it does not document this event. Synthesis: the case directly documents the first stage of the chain—nest removal—before any identifiable transport, sale or buyer. Evidence limits: the exact removal date, precise site, perpetrators and destination are unknown; no route is inferred.",
+  "context_es": "[O1] Hechos documentados: las crías tenían pocos días de vida; daños en la palmera y astillas en el suelo indicaron extracción humana, y el proyecto no divulgó el sitio exacto del nido por razones de protección. [S1] Relación con la ciencia: El estudio del Repositorio Científico analiza decomisos en Mato Grosso do Sul entre 2017 y 2021 y destaca al loro hablador entre los taxones recurrentes; aquí funciona como línea de base histórica regional. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes analiza limitaciones de datos, mercados y cooperación institucional en el tráfico de fauna en Brasil; no documenta este evento. Síntesis: el caso documenta directamente la etapa inicial de la cadena —la extracción del nido— antes de cualquier transporte, venta o comprador identificable. Límites de la evidencia: no se conocen el día exacto de la extracción, el sitio preciso, los responsables ni el destino; no se infiere ninguna ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "MS Manchete / Projeto Papagaio-verdadeiro",
+      "url": "https://www.msmanchete.com.br/2026/09/26/dois-filhotes-de-papagaio-verdadeiro-sao-roubados-de-ninho-monitorado-em-ms/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil",
+      "url": "https://doi.org/10.1590/1809-4422asoc01641vu29L29OA"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "((o))eco — Relatório aponta Amazônia como epicentro do tráfico de animais silvestres no Brasil",
+      "url": "https://oeco.org.br/reportagens/relatorio-aponta-amazonia-como-epicentro-do-trafico-de-animais-silvestres-no-brasil/"
+    }
+  ],
+  "references_text_pt": "[O1] MS Manchete / Projeto Papagaio-verdadeiro — https://www.msmanchete.com.br/2026/09/26/dois-filhotes-de-papagaio-verdadeiro-sao-roubados-de-ninho-monitorado-em-ms/; [S1] Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA; [N1] ((o))eco — Relatório aponta Amazônia como epicentro do tráfico de animais silvestres no Brasil — https://oeco.org.br/reportagens/relatorio-aponta-amazonia-como-epicentro-do-trafico-de-animais-silvestres-no-brasil/",
+  "references_text_en": "[O1] MS Manchete / Projeto Papagaio-verdadeiro — https://www.msmanchete.com.br/2026/09/26/dois-filhotes-de-papagaio-verdadeiro-sao-roubados-de-ninho-monitorado-em-ms/; [S1] Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA; [N1] ((o))eco — Relatório aponta Amazônia como epicentro do tráfico de animais silvestres no Brasil — https://oeco.org.br/reportagens/relatorio-aponta-amazonia-como-epicentro-do-trafico-de-animais-silvestres-no-brasil/",
+  "references_text_es": "[O1] MS Manchete / Projeto Papagaio-verdadeiro — https://www.msmanchete.com.br/2026/09/26/dois-filhotes-de-papagaio-verdadeiro-sao-roubados-de-ninho-monitorado-em-ms/; [S1] Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA; [N1] ((o))eco — Relatório aponta Amazônia como epicentro do tráfico de animais silvestres no Brasil — https://oeco.org.br/reportagens/relatorio-aponta-amazonia-como-epicentro-do-trafico-de-animais-silvestres-no-brasil/",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.msmanchete.com.br/2026/09/26/dois-filhotes-de-papagaio-verdadeiro-sao-roubados-de-ninho-monitorado-em-ms/",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

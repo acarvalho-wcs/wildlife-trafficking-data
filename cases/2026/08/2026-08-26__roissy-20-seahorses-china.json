@@ -1,0 +1,92 @@
+{
+  "id": "2026-08-26__roissy-20-seahorses-china",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Aeroporto Paris-Charles de Gaulle, Roissy",
+  "location_label_en": "Paris Charles de Gaulle Airport, Roissy",
+  "location_label_es": "Aeropuerto París-Charles de Gaulle, Roissy",
+  "country": "França",
+  "title_pt": "Alfândega apreende 20 cavalos-marinhos secos escondidos em panela elétrica em Roissy",
+  "title_en": "Customs seizes 20 dried seahorses hidden in a rice cooker at Roissy",
+  "title_es": "Aduanas decomisa 20 caballitos de mar secos ocultos en una arrocera en Roissy",
+  "source_label": "Douane française",
+  "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators",
+  "publication_date": "2026-10-02",
+  "event_date": "2026-08-26",
+  "event_end_date": null,
+  "fauna_label_pt": "20 cavalos-marinhos secos",
+  "fauna_label_en": "20 dried seahorses",
+  "fauna_label_es": "20 caballitos de mar secos",
+  "taxon_text": "*Hippocampus* spp.",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "card_text_pt": "Agentes em Roissy encontraram 20 cavalos-marinhos secos (*Hippocampus* spp.) ocultos em uma panela elétrica na bagagem de passageiro proveniente da China.",
+  "card_text_en": "Officers at Roissy found 20 dried seahorses (*Hippocampus* spp.) concealed in a rice cooker in the baggage of a passenger arriving from China.",
+  "card_text_es": "Agentes en Roissy encontraron 20 caballitos de mar secos (*Hippocampus* spp.) ocultos en una arrocera dentro del equipaje de un pasajero procedente de China.",
+  "coordinates": {
+    "lat": 49.0097,
+    "lon": 2.5479
+  },
+  "coordinate_precision": "airport",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a ocultação dentro de um eletrodoméstico e a procedência internacional são documentadas pela alfândega. [S1] Relação com a ciência: O estudo do Repositório Científico trata especificamente da detecção de fauna marinha, incluindo cavalos-marinhos e pepinos-do-mar, em fluxos de bagagem e transporte. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens contextualiza o desafio de detectar esses produtos em bagagens; não documenta esta ocorrência. Síntese: o caso combina produto de fauna marinha seco, ocultação em bagagem e rota aérea internacional documentada. Limites da evidência: a espécie exata dentro de *Hippocampus*, a cidade de origem na China e o destino posterior não foram publicados.",
+  "context_en": "[O1] Documented facts: concealment inside an appliance and the international origin are documented by customs. [S1] Relation to science: The Scientific Repository study specifically addresses detection of marine wildlife, including seahorses and sea cucumbers, in baggage and transport flows. [N1] Relation to reporting: The News Repository report contextualizes the challenge of detecting these products in baggage; it does not document this occurrence. Synthesis: the case combines a dried marine-wildlife product, baggage concealment and a documented international air route. Evidence limits: the exact *Hippocampus* species, origin city in China and onward destination were not published.",
+  "context_es": "[O1] Hechos documentados: el ocultamiento dentro de un electrodoméstico y la procedencia internacional están documentados por aduanas. [S1] Relación con la ciencia: El estudio del Repositorio Científico aborda específicamente la detección de fauna marina, incluidos caballitos de mar y pepinos de mar, en flujos de equipaje y transporte. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes contextualiza el desafío de detectar estos productos en equipajes; no documenta esta ocurrencia. Síntesis: el caso combina un producto seco de fauna marina, ocultamiento en equipaje y una ruta aérea internacional documentada. Límites de la evidencia: no se publicaron la especie exacta de *Hippocampus*, la ciudad de origen en China ni el destino posterior.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Douane française",
+      "url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers",
+      "url": "https://doi.org/10.3389/focsu.2026.1776978"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — AI helps detect seahorses and shark fins in illegal trade",
+      "url": "https://news.mongabay.com/short-article/2026/08/spotted-by-ai-seahorses-and-shark-fins/"
+    }
+  ],
+  "references_text_pt": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978; [N1] Mongabay — AI helps detect seahorses and shark fins in illegal trade — https://news.mongabay.com/short-article/2026/08/spotted-by-ai-seahorses-and-shark-fins/",
+  "references_text_en": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978; [N1] Mongabay — AI helps detect seahorses and shark fins in illegal trade — https://news.mongabay.com/short-article/2026/08/spotted-by-ai-seahorses-and-shark-fins/",
+  "references_text_es": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978; [N1] Mongabay — AI helps detect seahorses and shark fins in illegal trade — https://news.mongabay.com/short-article/2026/08/spotted-by-ai-seahorses-and-shark-fins/",
+  "quantity_count": 20,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Peixes": 20
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

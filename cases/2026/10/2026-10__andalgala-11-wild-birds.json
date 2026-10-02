@@ -1,0 +1,92 @@
+{
+  "id": "2026-10__andalgala-11-wild-birds",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Andalgalá, Catamarca",
+  "location_label_en": "Andalgalá, Catamarca",
+  "location_label_es": "Andalgalá, Catamarca",
+  "country": "Argentina",
+  "title_pt": "Fiscalização resgata 11 aves silvestres mantidas em cativeiro em Andalgalá",
+  "title_en": "Enforcement rescues 11 wild birds kept in captivity in Andalgalá",
+  "title_es": "Fiscalización rescata 11 aves silvestres mantenidas en cautiverio en Andalgalá",
+  "source_label": "Inforama",
+  "source_url": "https://inforama.com.ar/actualidad/2026/10/02/andalgala-rescataron-11-aves-silvestres-que-estaban-en-cautiverio/",
+  "publication_date": "2026-10-02",
+  "event_date": null,
+  "event_end_date": null,
+  "fauna_label_pt": "11 aves silvestres",
+  "fauna_label_en": "11 wild birds",
+  "fauna_label_es": "11 aves silvestres",
+  "taxon_text": "Aves — identificação científica não publicada",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "card_text_pt": "Uma operação conjunta de fauna e polícia encontrou 11 aves silvestres em cativeiro numa residência de Andalgalá; após avaliação, os animais considerados aptos foram liberados.",
+  "card_text_en": "A joint wildlife and police operation found 11 wild birds held in captivity at a residence in Andalgalá; after assessment, birds considered fit were released.",
+  "card_text_es": "Un operativo conjunto de fauna y policía encontró 11 aves silvestres en cautiverio en una vivienda de Andalgalá; tras la evaluación, las aves aptas fueron liberadas.",
+  "coordinates": {
+    "lat": -27.5819,
+    "lon": -66.3166
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a fonte informa que o procedimento decorreu de investigação sobre caça e tenência ilegal e enumera 11 indivíduos por nomes comuns locais. [S1] Relação com a ciência: O estudo do Repositório Científico documenta a persistência do comércio ilegal de aves na Argentina e mostra que a pressão não se limita a uma única modalidade de oferta. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens discute hotspots, corredores e mercados digitais de fauna nas Américas; é usada apenas como contexto regional. Síntese: o caso representa a etapa de manutenção doméstica de aves retiradas da natureza; soltura posterior não deve ser interpretada como rota. Limites da evidência: a data diária do procedimento e a origem de captura não foram publicadas; não há comprador ou destino.",
+  "context_en": "[O1] Documented facts: the source states that the procedure followed an investigation into illegal hunting and possession and lists 11 individuals by local common names. [S1] Relation to science: The Scientific Repository study documents persistent illegal wild-bird trade in Argentina and shows that pressure is not limited to a single sales channel. [N1] Relation to reporting: The News Repository report discusses wildlife hotspots, corridors and digital markets in the Americas; it is used only as regional context. Synthesis: the case represents the domestic-keeping stage of birds removed from the wild; subsequent release should not be interpreted as a route. Evidence limits: the exact day of the procedure and capture origin were not published; no buyer or destination is known.",
+  "context_es": "[O1] Hechos documentados: la fuente informa que el procedimiento surgió de una investigación sobre caza y tenencia ilegal y enumera 11 individuos por nombres comunes locales. [S1] Relación con la ciencia: El estudio del Repositorio Científico documenta la persistencia del comercio ilegal de aves en Argentina y muestra que la presión no se limita a un único canal de oferta. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes analiza hotspots, corredores y mercados digitales de fauna en las Américas; se usa solo como contexto regional. Síntesis: el caso representa la etapa de tenencia doméstica de aves extraídas de la naturaleza; la liberación posterior no debe interpretarse como ruta. Límites de la evidencia: no se publicaron el día exacto del procedimiento ni el origen de captura; no se conocen comprador ni destino.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Inforama",
+      "url": "https://inforama.com.ar/actualidad/2026/10/02/andalgala-rescataron-11-aves-silvestres-que-estaban-en-cautiverio/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets",
+      "url": "https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/"
+    }
+  ],
+  "references_text_pt": "[O1] Inforama — https://inforama.com.ar/actualidad/2026/10/02/andalgala-rescataron-11-aves-silvestres-que-estaban-en-cautiverio/; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "references_text_en": "[O1] Inforama — https://inforama.com.ar/actualidad/2026/10/02/andalgala-rescataron-11-aves-silvestres-que-estaban-en-cautiverio/; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "references_text_es": "[O1] Inforama — https://inforama.com.ar/actualidad/2026/10/02/andalgala-rescataron-11-aves-silvestres-que-estaban-en-cautiverio/; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "quantity_count": 11,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 11
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://inforama.com.ar/actualidad/2026/10/02/andalgala-rescataron-11-aves-silvestres-que-estaban-en-cautiverio/",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

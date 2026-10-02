@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T12:20:00Z",
+  "updated_at": "2026-10-02T23:40:00Z",
   "audited_through": "2026-10-02",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -5018,6 +5018,302 @@
       "evidence_es": "El MPMG informó que la asociación investigada capturaba aves en Zona da Mata y el sur de Minas Gerais y tenía como principal destino comercial el estado de Río de Janeiro. La línea representa el corredor regional documentado, no los trayectos individuales de cada ave.",
       "source_label": "Ministério Público de Minas Gerais",
       "source_url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/operacao-libertas-investigados-por-trafico-de-aves-silvestres-sao-presos-na-zona-da-mata-2C9F8AAA9F1A7F1D019F24621F0A7C98-00.shtml"
+    },
+    {
+      "id": "guarulhos-vietnam-2026-10-02",
+      "event_match": {
+        "location_contains": "Guarulhos",
+        "event_date": "2026-10-02"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guarulhos → Vietnã",
+      "label_en": "Guarulhos → Vietnam",
+      "label_es": "Guarulhos → Vietnam",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Vietnã",
+            "country": "Vietnã",
+            "lat": 14.0583,
+            "lon": 108.2772,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Polícia Federal informou que o passageiro tentava embarcar em Guarulhos para o Vietnã transportando 34 ovos.",
+      "evidence_en": "Federal Police reported that the passenger was attempting to board in Guarulhos for Vietnam carrying 34 eggs.",
+      "evidence_es": "La Policía Federal informó que el pasajero intentaba embarcar en Guarulhos hacia Vietnam transportando 34 huevos.",
+      "source_label": "Polícia Federal do Brasil",
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos"
+    },
+    {
+      "id": "cam-ranh-novokuznetsk-crocodiles-2026-09",
+      "event_match": {
+        "location_contains": "Novokuznetsk",
+        "publication_date": "2026-09-11"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Cam Ranh → Novokuznetsk",
+      "label_en": "Cam Ranh → Novokuznetsk",
+      "label_es": "Cam Ranh → Novokuznetsk",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Cam Ranh",
+            "country": "Vietnã",
+            "lat": 11.9982,
+            "lon": 109.2194,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto de Novokuznetsk",
+            "country": "Rússia",
+            "lat": 53.8114,
+            "lon": 86.8772,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A reportagem informa que o passageiro chegou de Cam Ranh com dois crocodilos-siameses secos na bagagem.",
+      "evidence_en": "The report states that the passenger arrived from Cam Ranh carrying two dried Siamese crocodiles in baggage.",
+      "evidence_es": "El reportaje informa que el pasajero llegó desde Cam Ranh con dos cocodrilos siameses secos en el equipaje.",
+      "source_label": "Aviation Explorer / customs reporting",
+      "source_url": "https://www.aex.ru/news/2026/9/11/299451/"
+    },
+    {
+      "id": "china-roissy-thelenota-2026-08-28",
+      "event_match": {
+        "location_contains": "Roissy",
+        "event_date": "2026-08-28"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "China → Roissy",
+      "label_en": "China → Roissy",
+      "label_es": "China → Roissy",
+      "segments": [
+        {
+          "from": {
+            "name": "China",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Paris-Charles de Gaulle",
+            "country": "França",
+            "lat": 49.0097,
+            "lon": 2.5479,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A Douane française informou que os 45 pepinos-do-mar foram encontrados com passageiros provenientes da China.",
+      "evidence_en": "French Customs reported that the 45 sea cucumbers were found with passengers arriving from China.",
+      "evidence_es": "La aduana francesa informó que los 45 pepinos de mar fueron encontrados con pasajeros procedentes de China.",
+      "source_label": "Douane française",
+      "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "china-roissy-seahorses-2026-08-26",
+      "event_match": {
+        "location_contains": "Roissy",
+        "event_date": "2026-08-26"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "China → Roissy",
+      "label_en": "China → Roissy",
+      "label_es": "China → Roissy",
+      "segments": [
+        {
+          "from": {
+            "name": "China",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Paris-Charles de Gaulle",
+            "country": "França",
+            "lat": 49.0097,
+            "lon": 2.5479,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A Douane française informou que os cavalos-marinhos estavam na bagagem de passageiro proveniente da China.",
+      "evidence_en": "French Customs reported that the seahorses were in the baggage of a passenger arriving from China.",
+      "evidence_es": "La aduana francesa informó que los caballitos de mar estaban en el equipaje de un pasajero procedente de China.",
+      "source_label": "Douane française",
+      "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "bron-a7-two-macaws-2026-08-23",
+      "event_match": {
+        "location_contains": "A7",
+        "event_date": "2026-08-23"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_local_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bron → A7 / região de Lyon",
+      "label_en": "Bron → A7 / Lyon area",
+      "label_es": "Bron → A7 / región de Lyon",
+      "segments": [
+        {
+          "from": {
+            "name": "Bron",
+            "country": "França",
+            "lat": 45.7333,
+            "lon": 4.9094,
+            "precision": "city"
+          },
+          "to": {
+            "name": "A7 / região de Lyon",
+            "country": "França",
+            "lat": 45.68,
+            "lon": 4.84,
+            "precision": "road_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O boletim aduaneiro reporta compra das aves em Bron e interceptação posterior durante transporte na A7.",
+      "evidence_en": "The customs bulletin reports purchase of the birds in Bron followed by interception while they were being transported on the A7.",
+      "evidence_es": "El boletín aduanero reporta la compra de las aves en Bron y su interceptación posterior durante el transporte por la A7.",
+      "source_label": "Douane française",
+      "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "los-angeles-papeete-alligator-heads-2026-08-18",
+      "event_match": {
+        "location_contains": "Papeete",
+        "event_date": "2026-08-18"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Los Angeles → Papeete",
+      "label_en": "Los Angeles → Papeete",
+      "label_es": "Los Ángeles → Papeete",
+      "segments": [
+        {
+          "from": {
+            "name": "Los Angeles",
+            "country": "Estados Unidos",
+            "lat": 33.9416,
+            "lon": -118.4085,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto de Papeete-Faa'a",
+            "country": "Polinésia Francesa",
+            "lat": -17.5537,
+            "lon": -149.607,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A alfândega informou que as duas cabeças estavam na bagagem de passageiro proveniente de Los Angeles.",
+      "evidence_en": "Customs reported that the two heads were in the baggage of a passenger arriving from Los Angeles.",
+      "evidence_es": "Aduanas informó que las dos cabezas estaban en el equipaje de un pasajero procedente de Los Ángeles.",
+      "source_label": "Douane française",
+      "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "ghana-roissy-scorpions-2026-08-17",
+      "event_match": {
+        "location_contains": "Roissy",
+        "event_date": "2026-08-17"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "postal_shipment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Gana → Roissy",
+      "label_en": "Ghana → Roissy",
+      "label_es": "Ghana → Roissy",
+      "segments": [
+        {
+          "from": {
+            "name": "Gana",
+            "country": "Gana",
+            "lat": 7.9465,
+            "lon": -1.0232,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Paris-Charles de Gaulle",
+            "country": "França",
+            "lat": 49.0097,
+            "lon": 2.5479,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A Douane française informou que a encomenda com 32 escorpiões-imperadores era proveniente de Gana.",
+      "evidence_en": "French Customs reported that the parcel containing 32 emperor scorpions originated in Ghana.",
+      "evidence_es": "La aduana francesa informó que el paquete con 32 escorpiones emperador procedía de Ghana.",
+      "source_label": "Douane française",
+      "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "suriname-saint-laurent-iguanas-2026-08-12",
+      "event_match": {
+        "location_contains": "Saint-Laurent",
+        "event_date": "2026-08-12"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_cross_border_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Suriname → Saint-Laurent-du-Maroni",
+      "label_en": "Suriname → Saint-Laurent-du-Maroni",
+      "label_es": "Surinam → Saint-Laurent-du-Maroni",
+      "segments": [
+        {
+          "from": {
+            "name": "Suriname",
+            "country": "Suriname",
+            "lat": 3.9193,
+            "lon": -56.0278,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Saint-Laurent-du-Maroni",
+            "country": "Guiana Francesa",
+            "lat": 5.5039,
+            "lon": -54.0294,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A Douane française descreve os viajantes como provenientes do Suriname quando foram encontrados com três iguanas em Saint-Laurent-du-Maroni.",
+      "evidence_en": "French Customs describes the travelers as arriving from Suriname when they were found with three iguanas in Saint-Laurent-du-Maroni.",
+      "evidence_es": "La aduana francesa describe a los viajeros como procedentes de Surinam cuando fueron encontrados con tres iguanas en Saint-Laurent-du-Maroni.",
+      "source_label": "Douane française",
+      "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
     }
   ],
   "network_context": [

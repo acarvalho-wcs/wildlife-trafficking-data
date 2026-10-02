@@ -1,0 +1,92 @@
+{
+  "id": "2026-09-27__santa-rosa-calchines-31-crested-ducks",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Laguna El Toro, Santa Rosa de Calchines, Santa Fe",
+  "location_label_en": "Laguna El Toro, Santa Rosa de Calchines, Santa Fe",
+  "location_label_es": "Laguna El Toro, Santa Rosa de Calchines, Santa Fe",
+  "country": "Argentina",
+  "title_pt": "Guardia Rural apreende 31 patos-crestón mortos em Santa Rosa de Calchines",
+  "title_en": "Rural police seize 31 dead crested ducks in Santa Rosa de Calchines",
+  "title_es": "Guardia Rural decomisa 31 patos crestón muertos en Santa Rosa de Calchines",
+  "source_label": "UNO Santa Fe",
+  "source_url": "https://www.unosantafe.com.ar/policiales/los-pumas-identificaron-dos-cazadores-y-les-incautaron-una-piragua-31-patos-muertos-y-dos-escopetas-papeles-n10283571.html",
+  "publication_date": "2026-09-28",
+  "event_date": "2026-09-27",
+  "event_end_date": null,
+  "fauna_label_pt": "31 patos-crestón mortos",
+  "fauna_label_en": "31 dead crested ducks",
+  "fauna_label_es": "31 patos crestón muertos",
+  "taxon_text": "*Lophonetta specularioides* — identificação a partir do nome comum reportado",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Fluvial",
+  "modal_label_pt": "Fluvial",
+  "modal_label_en": "River",
+  "modal_label_es": "Fluvial",
+  "card_text_pt": "Durante patrulhamento na Laguna El Toro, agentes interceptaram uma piragua com dois homens, 31 patos-crestón mortos, duas espingardas e chamarizes usados na caça.",
+  "card_text_en": "During patrols at Laguna El Toro, officers intercepted a canoe carrying two men, 31 dead crested ducks, two shotguns and hunting decoys.",
+  "card_text_es": "Durante un patrullaje en la laguna El Toro, agentes interceptaron una piragua con dos hombres, 31 patos crestón muertos, dos escopetas y señuelos de caza.",
+  "coordinates": {
+    "lat": -31.44,
+    "lon": -60.34
+  },
+  "coordinate_precision": "area_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a ocorrência combina caça e transporte fluvial imediato dos animais abatidos, mas não há indicação de comprador ou comércio posterior. [S1] Relação com a ciência: O estudo do Repositório Científico documenta a persistência do comércio ilegal de aves na Argentina e mostra que a pressão não se limita a uma única modalidade de oferta. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens discute hotspots, corredores e mercados digitais de fauna nas Américas; é usada apenas como contexto regional. Síntese: o caso é registrado como caça ilegal com deslocamento local, não como rota comercial. Limites da evidência: a identificação científica deriva do nome comum publicado; origem anterior e destino comercial não são aplicáveis ou não foram documentados.",
+  "context_en": "[O1] Documented facts: the occurrence combines hunting and immediate river transport of killed birds, but there is no indication of a buyer or onward trade. [S1] Relation to science: The Scientific Repository study documents persistent illegal wild-bird trade in Argentina and shows that pressure is not limited to a single sales channel. [N1] Relation to reporting: The News Repository report discusses wildlife hotspots, corridors and digital markets in the Americas; it is used only as regional context. Synthesis: the case is recorded as illegal hunting with local movement, not as a commercial route. Evidence limits: the scientific identification is derived from the published common name; prior origin and commercial destination are not applicable or were not documented.",
+  "context_es": "[O1] Hechos documentados: la ocurrencia combina caza y transporte fluvial inmediato de las aves abatidas, pero no hay indicación de comprador ni comercio posterior. [S1] Relación con la ciencia: El estudio del Repositorio Científico documenta la persistencia del comercio ilegal de aves en Argentina y muestra que la presión no se limita a un único canal de oferta. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes analiza hotspots, corredores y mercados digitales de fauna en las Américas; se usa solo como contexto regional. Síntesis: el caso se registra como caza ilegal con desplazamiento local, no como ruta comercial. Límites de la evidencia: la identificación científica deriva del nombre común publicado; el origen previo y el destino comercial no son aplicables o no fueron documentados.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "UNO Santa Fe",
+      "url": "https://www.unosantafe.com.ar/policiales/los-pumas-identificaron-dos-cazadores-y-les-incautaron-una-piragua-31-patos-muertos-y-dos-escopetas-papeles-n10283571.html"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets",
+      "url": "https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/"
+    }
+  ],
+  "references_text_pt": "[O1] UNO Santa Fe — https://www.unosantafe.com.ar/policiales/los-pumas-identificaron-dos-cazadores-y-les-incautaron-una-piragua-31-patos-muertos-y-dos-escopetas-papeles-n10283571.html; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "references_text_en": "[O1] UNO Santa Fe — https://www.unosantafe.com.ar/policiales/los-pumas-identificaron-dos-cazadores-y-les-incautaron-una-piragua-31-patos-muertos-y-dos-escopetas-papeles-n10283571.html; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "references_text_es": "[O1] UNO Santa Fe — https://www.unosantafe.com.ar/policiales/los-pumas-identificaron-dos-cazadores-y-les-incautaron-una-piragua-31-patos-muertos-y-dos-escopetas-papeles-n10283571.html; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "quantity_count": 31,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 31
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.unosantafe.com.ar/policiales/los-pumas-identificaron-dos-cazadores-y-les-incautaron-una-piragua-31-patos-muertos-y-dos-escopetas-papeles-n10283571.html",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

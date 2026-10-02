@@ -1,0 +1,92 @@
+{
+  "id": "2026-10__manabi-five-wild-birds",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Manabí (localidade exata não informada)",
+  "location_label_en": "Manabí (exact locality not reported)",
+  "location_label_es": "Manabí (localidad exacta no informada)",
+  "country": "Equador",
+  "title_pt": "Polícia resgata cinco aves silvestres em Manabí",
+  "title_en": "Police rescue five wild birds in Manabí",
+  "title_es": "Policía rescata cinco aves silvestres en Manabí",
+  "source_label": "El Universo",
+  "source_url": "https://www.eluniverso.com/comunidad/ecuador/policia-rescata-cinco-aves-silvestres-en-manabi-nota/",
+  "publication_date": "2026-10-01",
+  "event_date": null,
+  "event_end_date": null,
+  "fauna_label_pt": "5 aves silvestres: um loro-cabeciazul, uma arara-canindé, dois periquitos-frentiescarlata e um loro-alibronceado",
+  "fauna_label_en": "5 wild birds: one blue-headed parrot, one blue-and-yellow macaw, two red-fronted parakeets and one bronze-winged parrot",
+  "fauna_label_es": "5 aves silvestres: un loro cabeciazul, un guacamayo azulamarillo, dos periquitos frentiescarlata y un loro alibronceado",
+  "taxon_text": "Psittacidae — espécies reportadas por nomes comuns; identificação científica não forçada",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "card_text_pt": "Autoridades resgataram cinco psitacídeos em Manabí em ação relacionada a tráfico, transporte e posse ilegal de fauna. A localidade exata não foi divulgada.",
+  "card_text_en": "Authorities rescued five psittacines in Manabí in an action related to wildlife trafficking, transport and illegal possession. The exact locality was not disclosed.",
+  "card_text_es": "Las autoridades rescataron cinco psitácidos en Manabí en una acción relacionada con tráfico, transporte y tenencia ilegal de fauna. No se divulgó la localidad exacta.",
+  "coordinates": {
+    "lat": -1.0546,
+    "lon": -80.4545
+  },
+  "coordinate_precision": "province_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: o conjunto inclui quatro tipos de psitacídeos descritos por nomes comuns, mas a divulgação não individualiza origem, vendedores, compradores ou cadeia de transporte. [S1] Relação com a ciência: A síntese científica do Repositório mostra declínios populacionais associados à exploração comercial de aves, mamíferos e répteis, oferecendo contexto de impacto sem atribuir origem aos indivíduos deste caso. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens examina redes e controles de tráfico de fauna no Equador; é contexto nacional, não evidência desta apreensão. Síntese: o evento confirma retenção/recuperação de aves em um contexto de comércio ilegal, mas não sustenta uma rota espacial. Limites da evidência: município, data diária, procedência e destino não foram publicados; por isso o ponto é provincial e generalizado.",
+  "context_en": "[O1] Documented facts: the set includes four types of psittacines described by common names, but the report does not identify origin, sellers, buyers or the transport chain. [S1] Relation to science: The Scientific Repository synthesis shows population declines associated with commercial exploitation of birds, mammals and reptiles, providing impact context without assigning origin to the individuals in this case. [N1] Relation to reporting: The News Repository report examines wildlife-trafficking networks and controls in Ecuador; it is national context, not evidence for this seizure. Synthesis: the event confirms recovery of birds in an illegal-trade context but does not support a spatial route. Evidence limits: municipality, exact date, provenance and destination were not published; therefore the point is generalized at province level.",
+  "context_es": "[O1] Hechos documentados: el conjunto incluye cuatro tipos de psitácidos descritos por nombres comunes, pero la publicación no individualiza origen, vendedores, compradores ni cadena de transporte. [S1] Relación con la ciencia: La síntesis científica del Repositorio muestra descensos poblacionales asociados a la explotación comercial de aves, mamíferos y reptiles, aportando contexto de impacto sin atribuir origen a los individuos de este caso. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes examina redes y controles del tráfico de fauna en Ecuador; es contexto nacional, no evidencia de este decomiso. Síntesis: el evento confirma la recuperación de aves en un contexto de comercio ilegal, pero no sustenta una ruta espacial. Límites de la evidencia: no se publicaron municipio, fecha exacta, procedencia ni destino; por ello el punto se generaliza a nivel provincial.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "El Universo",
+      "url": "https://www.eluniverso.com/comunidad/ecuador/policia-rescata-cinco-aves-silvestres-en-manabi-nota/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "El País — Galápagos: a paradise under criminal siege",
+      "url": "https://elpais.com/america/2026-09-12/galapagos-el-paraiso-bajo-asedio-criminal.html"
+    }
+  ],
+  "references_text_pt": "[O1] El Universo — https://www.eluniverso.com/comunidad/ecuador/policia-rescata-cinco-aves-silvestres-en-manabi-nota/; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] El País — Galápagos: a paradise under criminal siege — https://elpais.com/america/2026-09-12/galapagos-el-paraiso-bajo-asedio-criminal.html",
+  "references_text_en": "[O1] El Universo — https://www.eluniverso.com/comunidad/ecuador/policia-rescata-cinco-aves-silvestres-en-manabi-nota/; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] El País — Galápagos: a paradise under criminal siege — https://elpais.com/america/2026-09-12/galapagos-el-paraiso-bajo-asedio-criminal.html",
+  "references_text_es": "[O1] El Universo — https://www.eluniverso.com/comunidad/ecuador/policia-rescata-cinco-aves-silvestres-en-manabi-nota/; [S1] Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y; [N1] El País — Galápagos: a paradise under criminal siege — https://elpais.com/america/2026-09-12/galapagos-el-paraiso-bajo-asedio-criminal.html",
+  "quantity_count": 5,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 5
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.eluniverso.com/comunidad/ecuador/policia-rescata-cinco-aves-silvestres-en-manabi-nota/",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

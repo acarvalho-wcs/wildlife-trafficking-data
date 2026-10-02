@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-01__hyderabad-four-elephant-tusks",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Banjara Hills, Hyderabad",
+  "location_label_en": "Banjara Hills, Hyderabad",
+  "location_label_es": "Banjara Hills, Hyderabad",
+  "country": "Índia",
+  "title_pt": "DRI apreende quatro presas de elefante e artigos de marfim em Hyderabad",
+  "title_en": "DRI seizes four elephant tusks and ivory articles in Hyderabad",
+  "title_es": "DRI decomisa cuatro colmillos de elefante y artículos de marfil en Hyderabad",
+  "source_label": "Telangana Today / DRI",
+  "source_url": "https://telanganatoday.com/dri-seizes-four-elephant-tusks-apprehends-three-in-hyderabad",
+  "publication_date": "2026-10-01",
+  "event_date": "2026-10-01",
+  "event_end_date": null,
+  "fauna_label_pt": "4 presas de elefante, cerca de 17 kg, além de artigos de marfim sem contagem publicada",
+  "fauna_label_en": "4 elephant tusks, about 17 kg, plus uncounted ivory articles",
+  "fauna_label_es": "4 colmillos de elefante, unos 17 kg, además de artículos de marfil sin conteo publicado",
+  "taxon_text": "Elephantidae — espécie não confirmada pela fonte",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Comércio local",
+  "modal_label_pt": "Comércio local",
+  "modal_label_en": "Local trade",
+  "modal_label_es": "Comercio local",
+  "card_text_pt": "O DRI apreendeu quatro presas de elefante, com peso total de cerca de 17 kg, e artigos de marfim durante uma operação contra uma suposta venda ilegal em Banjara Hills. Três pessoas foram detidas.",
+  "card_text_en": "DRI seized four elephant tusks weighing about 17 kg in total and ivory articles during an operation targeting an alleged illegal sale in Banjara Hills. Three people were detained.",
+  "card_text_es": "El DRI decomisó cuatro colmillos de elefante con un peso total aproximado de 17 kg y artículos de marfil durante una operación contra una presunta venta ilegal en Banjara Hills. Tres personas fueron detenidas.",
+  "coordinates": {
+    "lat": 17.4156,
+    "lon": 78.4347
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a apreensão ocorreu durante uma tentativa de transação; a origem das presas e eventuais vínculos mais amplos permaneciam sob investigação. [S1] Relação com a ciência: O estudo do Repositório Científico explora ferramentas forenses para distinguir e rastrear marfim, destacando a importância de investigar origem e lavagem de produtos. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens enfatiza que apreensões de marfim devem ser ponto de partida para investigação de rede; é contexto analítico, não evidência desta ocorrência. Síntese: o ponto mais informativo é a interface entre estoque físico e venda, enquanto a cadeia anterior permanece desconhecida. Limites da evidência: os artigos esculpidos adicionais não têm contagem publicada; 17 kg não são convertidos em número de animais, e nenhuma rota é inferida.",
+  "context_en": "[O1] Documented facts: the seizure occurred during an attempted transaction; the tusks' origin and any broader links remained under investigation. [S1] Relation to science: The Scientific Repository study explores forensic tools to distinguish and trace ivory, underscoring the importance of investigating origin and product laundering. [N1] Relation to reporting: The News Repository report stresses that ivory seizures should be a starting point for network investigation; it is analytical context, not evidence for this occurrence. Synthesis: the most informative feature is the interface between physical stock and attempted sale, while the upstream chain remains unknown. Evidence limits: additional carved articles were not numerically reported; 17 kg is not converted into animals, and no route is inferred.",
+  "context_es": "[O1] Hechos documentados: el decomiso ocurrió durante un intento de transacción; el origen de los colmillos y posibles vínculos más amplios seguían bajo investigación. [S1] Relación con la ciencia: El estudio del Repositorio Científico explora herramientas forenses para distinguir y rastrear marfil, subrayando la importancia de investigar origen y blanqueo de productos. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes subraya que los decomisos de marfil deben ser un punto de partida para investigar redes; es contexto analítico, no evidencia de esta ocurrencia. Síntesis: el elemento más informativo es la interfaz entre stock físico e intento de venta, mientras la cadena previa permanece desconocida. Límites de la evidencia: los artículos tallados adicionales no tienen conteo publicado; los 17 kg no se convierten en número de animales y no se infiere ninguna ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Telangana Today / DRI",
+      "url": "https://telanganatoday.com/dri-seizes-four-elephant-tusks-apprehends-three-in-hyderabad"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory",
+      "url": "https://doi.org/10.3389/fevo.2025.1533703"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — On ivory, follow the trafficking networks and not the headlines",
+      "url": "https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/"
+    }
+  ],
+  "references_text_pt": "[O1] Telangana Today / DRI — https://telanganatoday.com/dri-seizes-four-elephant-tusks-apprehends-three-in-hyderabad; [S1] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703; [N1] Mongabay — On ivory, follow the trafficking networks and not the headlines — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "references_text_en": "[O1] Telangana Today / DRI — https://telanganatoday.com/dri-seizes-four-elephant-tusks-apprehends-three-in-hyderabad; [S1] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703; [N1] Mongabay — On ivory, follow the trafficking networks and not the headlines — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "references_text_es": "[O1] Telangana Today / DRI — https://telanganatoday.com/dri-seizes-four-elephant-tusks-apprehends-three-in-hyderabad; [S1] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703; [N1] Mongabay — On ivory, follow the trafficking networks and not the headlines — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "A camada quantitativa conta somente as quatro presas; artigos adicionais sem contagem e o peso de 17 kg não são convertidos.",
+  "quantity_note_en": "The quantitative layer counts only the four tusks; additional uncounted articles and the 17 kg weight are not converted.",
+  "quantity_note_es": "La capa cuantitativa cuenta solo los cuatro colmillos; los artículos adicionales sin conteo y los 17 kg no se convierten.",
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://telanganatoday.com/dri-seizes-four-elephant-tusks-apprehends-three-in-hyderabad",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

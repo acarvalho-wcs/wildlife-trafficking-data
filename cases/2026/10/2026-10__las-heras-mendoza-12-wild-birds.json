@@ -1,0 +1,92 @@
+{
+  "id": "2026-10__las-heras-mendoza-12-wild-birds",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Las Heras, Mendoza",
+  "location_label_en": "Las Heras, Mendoza",
+  "location_label_es": "Las Heras, Mendoza",
+  "country": "Argentina",
+  "title_pt": "Fiscalização resgata 12 aves protegidas em Las Heras, Mendoza",
+  "title_en": "Enforcement rescues 12 protected birds in Las Heras, Mendoza",
+  "title_es": "Fiscalización rescata 12 aves protegidas en Las Heras, Mendoza",
+  "source_label": "Noticias Ambientales",
+  "source_url": "https://noticiasambientales.com/animales/rescatan-12-aves-protegidas-en-mendoza-tras-una-denuncia-anonima-y-suman-80-ejemplares-liberados-en-menos-de-una-semana/",
+  "publication_date": "2026-10-01",
+  "event_date": null,
+  "event_end_date": null,
+  "fauna_label_pt": "12 aves protegidas",
+  "fauna_label_en": "12 protected birds",
+  "fauna_label_es": "12 aves protegidas",
+  "taxon_text": "Aves — identificação científica não consolidada pela fonte",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "card_text_pt": "Uma denúncia levou à apreensão de 12 aves protegidas mantidas ilegalmente, além de dez gaiolas e uma armadilha. Os animais integraram uma sequência de ações de fiscalização em Mendoza.",
+  "card_text_en": "A tip led to the seizure of 12 illegally held protected birds, along with ten cages and a trap. The birds were part of a sequence of enforcement actions in Mendoza.",
+  "card_text_es": "Una denuncia llevó al decomiso de 12 aves protegidas mantenidas ilegalmente, además de diez jaulas y una trampa. Las aves formaron parte de una serie de acciones de control en Mendoza.",
+  "coordinates": {
+    "lat": -32.8497,
+    "lon": -68.8167
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a operação é individualizada pela fonte e não deve ser fundida com os outros dois procedimentos de Mendoza descritos na mesma matéria. [S1] Relação com a ciência: O estudo do Repositório Científico documenta a persistência do comércio ilegal de aves na Argentina e mostra que a pressão não se limita a uma única modalidade de oferta. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens discute hotspots, corredores e mercados digitais de fauna nas Américas; é usada apenas como contexto regional. Síntese: o achado de gaiolas e armadilha caracteriza infraestrutura de captura/manutenção, mas não revela cadeia comercial posterior. Limites da evidência: a data diária e a origem de captura não foram publicadas; nenhuma rota é inferida.",
+  "context_en": "[O1] Documented facts: the operation is individually identified by the source and should not be merged with the other two Mendoza procedures described in the same report. [S1] Relation to science: The Scientific Repository study documents persistent illegal wild-bird trade in Argentina and shows that pressure is not limited to a single sales channel. [N1] Relation to reporting: The News Repository report discusses wildlife hotspots, corridors and digital markets in the Americas; it is used only as regional context. Synthesis: the cages and trap document capture/keeping infrastructure but do not reveal a downstream commercial chain. Evidence limits: the exact date and capture origin were not published; no route is inferred.",
+  "context_es": "[O1] Hechos documentados: la operación está individualizada por la fuente y no debe fusionarse con los otros dos procedimientos de Mendoza descritos en la misma nota. [S1] Relación con la ciencia: El estudio del Repositorio Científico documenta la persistencia del comercio ilegal de aves en Argentina y muestra que la presión no se limita a un único canal de oferta. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes analiza hotspots, corredores y mercados digitales de fauna en las Américas; se usa solo como contexto regional. Síntesis: las jaulas y la trampa documentan infraestructura de captura/tenencia, pero no revelan una cadena comercial posterior. Límites de la evidencia: no se publicaron la fecha exacta ni el origen de captura; no se infiere ninguna ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Noticias Ambientales",
+      "url": "https://noticiasambientales.com/animales/rescatan-12-aves-protegidas-en-mendoza-tras-una-denuncia-anonima-y-suman-80-ejemplares-liberados-en-menos-de-una-semana/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets",
+      "url": "https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/"
+    }
+  ],
+  "references_text_pt": "[O1] Noticias Ambientales — https://noticiasambientales.com/animales/rescatan-12-aves-protegidas-en-mendoza-tras-una-denuncia-anonima-y-suman-80-ejemplares-liberados-en-menos-de-una-semana/; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "references_text_en": "[O1] Noticias Ambientales — https://noticiasambientales.com/animales/rescatan-12-aves-protegidas-en-mendoza-tras-una-denuncia-anonima-y-suman-80-ejemplares-liberados-en-menos-de-una-semana/; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "references_text_es": "[O1] Noticias Ambientales — https://noticiasambientales.com/animales/rescatan-12-aves-protegidas-en-mendoza-tras-una-denuncia-anonima-y-suman-80-ejemplares-liberados-en-menos-de-una-semana/; [S1] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012; [N1] Infobae — Scientists warn about illegal wildlife trade: hotspots and the rise of digital markets — https://www.infobae.com/america/medio-ambiente/2026/08/24/cientificos-alertan-por-el-comercio-ilegal-de-fauna-silvestre-las-zonas-criticas-y-el-auge-del-mercado-digital/",
+  "quantity_count": 12,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 12
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://noticiasambientales.com/animales/rescatan-12-aves-protegidas-en-mendoza-tras-una-denuncia-anonima-y-suman-80-ejemplares-liberados-en-menos-de-una-semana/",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

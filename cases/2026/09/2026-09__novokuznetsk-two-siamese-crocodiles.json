@@ -1,0 +1,92 @@
+{
+  "id": "2026-09__novokuznetsk-two-siamese-crocodiles",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_RECONCILED_SECONDARY_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Aeroporto de Novokuznetsk, Sibéria",
+  "location_label_en": "Novokuznetsk Airport, Siberia",
+  "location_label_es": "Aeropuerto de Novokuznetsk, Siberia",
+  "country": "Rússia",
+  "title_pt": "Alfândega encontra dois crocodilos-siameses secos trazidos do Vietnã para a Sibéria",
+  "title_en": "Customs finds two dried Siamese crocodiles brought from Vietnam to Siberia",
+  "title_es": "Aduanas encuentra dos cocodrilos siameses secos traídos de Vietnam a Siberia",
+  "source_label": "Aviation Explorer / customs reporting",
+  "source_url": "https://www.aex.ru/news/2026/9/11/299451/",
+  "publication_date": "2026-09-11",
+  "event_date": null,
+  "event_end_date": null,
+  "fauna_label_pt": "2 crocodilos-siameses secos",
+  "fauna_label_en": "2 dried Siamese crocodiles",
+  "fauna_label_es": "2 cocodrilos siameses secos",
+  "taxon_text": "*Crocodylus siamensis*",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "card_text_pt": "Autoridades aduaneiras localizaram dois espécimes secos de crocodilo-siamês (*Crocodylus siamensis*) na bagagem de um passageiro proveniente de Cam Ranh, Vietnã, que os descreveu como lembranças.",
+  "card_text_en": "Customs officers found two dried Siamese crocodile (*Crocodylus siamensis*) specimens in the baggage of a passenger arriving from Cam Ranh, Vietnam, who described them as souvenirs.",
+  "card_text_es": "Aduanas encontró dos especímenes secos de cocodrilo siamés (*Crocodylus siamensis*) en el equipaje de un pasajero procedente de Cam Ranh, Vietnam, quien los describió como recuerdos.",
+  "coordinates": {
+    "lat": 53.8114,
+    "lon": 86.8772
+  },
+  "coordinate_precision": "airport",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a procedência aérea de Cam Ranh é explicitada pela reportagem; o caso envolve espécimes secos, não animais vivos. [S1] Relação com a ciência: O estudo do Repositório Científico mostra como características da malha aérea podem concentrar risco e apoiar priorização de fiscalização; isso contextualiza o uso de aeroportos, sem inferir conexões não documentadas. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens descreve uso combinado de inteligência, investigação encoberta e fiscalização aeroportuária contra o tráfico; é apenas contexto temático. Síntese: o evento documenta movimento internacional de derivados/especímenes inteiros de réptil no fluxo de passageiros. Limites da evidência: a data diária da apreensão não foi confirmada na fonte secundária usada e fica nula; não se infere origem de captura dentro do Vietnã.",
+  "context_en": "[O1] Documented facts: the report explicitly states air travel from Cam Ranh; the case involves dried specimens, not live animals. [S1] Relation to science: The Scientific Repository study shows how air-network characteristics can concentrate risk and support enforcement prioritization; it contextualizes airport use without inferring undocumented links. [N1] Relation to reporting: The News Repository report describes combined use of intelligence, undercover work and airport enforcement against wildlife trafficking; it is thematic context only. Synthesis: the event documents international movement of reptile derivatives/whole preserved specimens in passenger traffic. Evidence limits: the exact seizure date was not confirmed in the secondary source used and remains null; no capture origin within Vietnam is inferred.",
+  "context_es": "[O1] Hechos documentados: el reportaje explicita la procedencia aérea desde Cam Ranh; el caso involucra especímenes secos, no animales vivos. [S1] Relación con la ciencia: El estudio del Repositorio Científico muestra cómo las características de la red aérea pueden concentrar riesgo y apoyar la priorización de controles; contextualiza el uso de aeropuertos sin inferir vínculos no documentados. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes describe el uso combinado de inteligencia, investigación encubierta y controles aeroportuarios contra el tráfico; se usa solo como contexto temático. Síntesis: el evento documenta movimiento internacional de derivados/especímenes completos de reptil en flujo de pasajeros. Límites de la evidencia: la fecha exacta del decomiso no fue confirmada en la fuente secundaria utilizada y queda nula; no se infiere origen de captura dentro de Vietnam.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Aviation Explorer / customs reporting",
+      "url": "https://www.aex.ru/news/2026/9/11/299451/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots",
+      "url": "https://doi.org/10.1038/s43247-025-02371-5"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021"
+    }
+  ],
+  "references_text_pt": "[O1] Aviation Explorer / customs reporting — https://www.aex.ru/news/2026/9/11/299451/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021",
+  "references_text_en": "[O1] Aviation Explorer / customs reporting — https://www.aex.ru/news/2026/9/11/299451/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021",
+  "references_text_es": "[O1] Aviation Explorer / customs reporting — https://www.aex.ru/news/2026/9/11/299451/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] AFP / Boursorama — Online or undercover: how investigators fight wildlife trafficking in Thailand — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Répteis": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.aex.ru/news/2026/9/11/299451/",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}

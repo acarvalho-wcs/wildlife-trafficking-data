@@ -1,0 +1,92 @@
+{
+  "id": "2026-08-12__saint-laurent-three-iguana-iguana-suriname",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "added_at": "2026-10-02T23:40:00Z",
+  "reconstruction_batch": "global_recent_backfill_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Saint-Laurent-du-Maroni, Guiana Francesa",
+  "location_label_en": "Saint-Laurent-du-Maroni, French Guiana",
+  "location_label_es": "Saint-Laurent-du-Maroni, Guayana Francesa",
+  "country": "Guiana Francesa",
+  "title_pt": "Alfândega apreende três iguanas-verdes *Iguana iguana* trazidas do Suriname",
+  "title_en": "Customs seizes three green iguanas *Iguana iguana* brought from Suriname",
+  "title_es": "Aduanas decomisa tres iguanas verdes *Iguana iguana* traídas desde Surinam",
+  "source_label": "Douane française",
+  "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators",
+  "publication_date": "2026-10-02",
+  "event_date": "2026-08-12",
+  "event_end_date": null,
+  "fauna_label_pt": "3 iguanas-verdes vivas",
+  "fauna_label_en": "3 live green iguanas",
+  "fauna_label_es": "3 iguanas verdes vivas",
+  "taxon_text": "*Iguana iguana*",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "card_text_pt": "Em Saint-Laurent-du-Maroni, agentes encontraram três iguanas-verdes (*Iguana iguana*) vivas, amarradas e mantidas em uma caixa por viajantes provenientes do Suriname.",
+  "card_text_en": "In Saint-Laurent-du-Maroni, officers found three live green iguanas (*Iguana iguana*) tied and kept in a box by travelers arriving from Suriname.",
+  "card_text_es": "En Saint-Laurent-du-Maroni, agentes encontraron tres iguanas verdes (*Iguana iguana*) vivas, atadas y mantenidas en una caja por viajeros procedentes de Surinam.",
+  "coordinates": {
+    "lat": 5.5039,
+    "lon": -54.0294
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para a localidade reportada; não representam necessariamente o ponto exato da ocorrência.",
+  "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact occurrence point.",
+  "geographic_note_es": "Coordenadas generalizadas para la localidad reportada; no representan necesariamente el punto exacto de la ocurrencia.",
+  "context_pt": "[O1] Fatos documentados: a procedência Suriname e o ponto de interceptação na Guiana Francesa estão documentados, mas o local de captura não. [S1] Relação com a ciência: O estudo do Repositório Científico mostra a ampla exposição de répteis ao comércio internacional e lacunas de regulação, oferecendo contexto para espécimes e derivados transportados ilegalmente. [N1] Relação com reportagens: A reportagem do Repositório de Reportagens descreve ocultação, intermediários e transporte de répteis em redes internacionais; é apenas contexto temático. Síntese: o caso registra transporte transfronteiriço de répteis vivos em condições de contenção inadequadas. Limites da evidência: não há evidência publicada de comprador, finalidade comercial ou origem de captura dentro do Suriname.",
+  "context_en": "[O1] Documented facts: Suriname origin and the interception point in French Guiana are documented, but the capture locality is not. [S1] Relation to science: The Scientific Repository study shows broad exposure of reptiles to international trade and regulatory gaps, providing context for illegally moved specimens and derivatives. [N1] Relation to reporting: The News Repository report describes concealment, intermediaries and reptile transport in international networks; it is thematic context only. Synthesis: the case records cross-border transport of live reptiles under inadequate restraint conditions. Evidence limits: there is no published evidence of a buyer, commercial purpose or capture origin within Suriname.",
+  "context_es": "[O1] Hechos documentados: la procedencia desde Surinam y el punto de interceptación en Guayana Francesa están documentados, pero no el lugar de captura. [S1] Relación con la ciencia: El estudio del Repositorio Científico muestra la amplia exposición de reptiles al comercio internacional y vacíos regulatorios, aportando contexto para especímenes y derivados transportados ilegalmente. [N1] Relación con reportajes: El reportaje del Repositorio de Reportajes describe ocultamiento, intermediarios y transporte de reptiles en redes internacionales; es solo contexto temático. Síntesis: el caso registra transporte transfronterizo de reptiles vivos en condiciones inadecuadas de contención. Límites de la evidencia: no hay evidencia publicada de comprador, finalidad comercial ni origen de captura dentro de Surinam.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Douane française",
+      "url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Thousands of reptile species threatened by under-regulated global trade",
+      "url": "https://doi.org/10.1038/s41467-020-18523-4"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Reptiles, gold and money: How Australia is cracking down on wildlife trafficking",
+      "url": "https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/"
+    }
+  ],
+  "references_text_pt": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Thousands of reptile species threatened by under-regulated global trade — https://doi.org/10.1038/s41467-020-18523-4; [N1] Mongabay — Reptiles, gold and money: How Australia is cracking down on wildlife trafficking — https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+  "references_text_en": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Thousands of reptile species threatened by under-regulated global trade — https://doi.org/10.1038/s41467-020-18523-4; [N1] Mongabay — Reptiles, gold and money: How Australia is cracking down on wildlife trafficking — https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+  "references_text_es": "[O1] Douane française — https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators; [S1] Thousands of reptile species threatened by under-regulated global trade — https://doi.org/10.1038/s41467-020-18523-4; [N1] Mongabay — Reptiles, gold and money: How Australia is cracking down on wildlife trafficking — https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": null,
+  "quantity_note_en": null,
+  "quantity_note_es": null,
+  "route_audited_at": "2026-10-02T23:40:00Z",
+  "context_updated_at": "2026-10-02T23:40:00Z",
+  "image_url": null,
+  "image_source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators",
+  "image_status": "SOURCE_PAGE_IMAGE_UNRESOLVED",
+  "image_checked_at": "2026-10-02T23:40:00Z",
+  "additional_sources": []
+}
