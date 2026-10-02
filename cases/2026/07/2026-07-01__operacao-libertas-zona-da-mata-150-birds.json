@@ -1,0 +1,96 @@
+{
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "second_half_gapfill_2026_10_02",
+  "added_at": "2026-10-02T12:15:00Z",
+  "status": "VALIDATED",
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_unassigned": 0,
+  "route_audited_at": "2026-10-02T12:15:00Z",
+  "context_updated_at": "2026-10-02T12:15:00Z",
+  "image_url": null,
+  "image_checked_at": "2026-10-02T12:15:00Z",
+  "id": "2026-07-01__operacao-libertas-zona-da-mata-150-birds",
+  "reconstruction_confidence": "CONFIRMED_PRIMARY_PROSECUTOR_SOURCE_EVENT",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -21.76,
+    "lon": -43.35
+  },
+  "coordinate_precision": "operation_region_generalized",
+  "source_label": "Ministério Público de Minas Gerais",
+  "source_url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/operacao-libertas-investigados-por-trafico-de-aves-silvestres-sao-presos-na-zona-da-mata-2C9F8AAA9F1A7F1D019F24621F0A7C98-00.shtml",
+  "publication_date": "2026-07-02",
+  "event_date": "2026-07-01",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Múltiplos",
+  "quantity_count": 150,
+  "quantity_qualifier": "minimum",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 150
+  },
+  "location_label_pt": "Zona da Mata e Campo das Vertentes, Minas Gerais",
+  "location_label_en": "Zona da Mata and Campo das Vertentes, Minas Gerais",
+  "location_label_es": "Zona da Mata y Campo das Vertentes, Minas Gerais",
+  "modal_label_pt": "Múltiplos",
+  "modal_label_en": "Multiple",
+  "modal_label_es": "Múltiples",
+  "taxon_text": "Aves silvestres, incluindo curiós, corrupiões, trinca-ferros, coleirinhos e outras espécies nativas; 65 aves foram localizadas em Rio Novo",
+  "title_pt": "Operação Libertas apreende mais de 150 aves e desarticula rede de tráfico na Zona da Mata",
+  "title_en": "Operation Libertas seizes more than 150 birds and disrupts trafficking network in Zona da Mata",
+  "title_es": "Operación Libertas incauta más de 150 aves y desarticula red de tráfico en Zona da Mata",
+  "card_text_pt": "A Operação Libertas cumpriu 19 mandados em Juiz de Fora, Santos Dumont, Santa Bárbara do Tugúrio e Rio Novo contra associação dedicada à captura e comercialização ilegal de aves. Mais de 150 aves foram apreendidas; 65 somente em Rio Novo. A investigação apontou como principal destino comercial o estado do Rio de Janeiro.",
+  "card_text_en": "Operation Libertas executed 19 warrants in Juiz de Fora, Santos Dumont, Santa Bárbara do Tugúrio and Rio Novo against an association dedicated to capturing and illegally trading wild birds. More than 150 birds were seized, including 65 in Rio Novo alone. Investigators identified Rio de Janeiro state as the main commercial destination.",
+  "card_text_es": "La Operación Libertas ejecutó 19 órdenes en Juiz de Fora, Santos Dumont, Santa Bárbara do Tugúrio y Rio Novo contra una asociación dedicada a la captura y comercialización ilegal de aves. Se incautaron más de 150 aves, 65 solo en Rio Novo. La investigación señaló al estado de Río de Janeiro como principal destino comercial.",
+  "fauna_label_pt": "≥150 aves silvestres",
+  "fauna_label_en": "≥150 wild birds",
+  "fauna_label_es": "≥150 aves silvestres",
+  "quantity_note_pt": "As fontes informam 'mais de 150' aves; o registro usa 150 como mínimo documentado, com quantity_qualifier='minimum'. As 65 aves de Rio Novo são subconjunto desse total e não são somadas separadamente.",
+  "quantity_note_en": "Sources report 'more than 150' birds; the record uses 150 as the documented minimum with quantity_qualifier='minimum'. The 65 birds from Rio Novo are a subset and are not added separately.",
+  "quantity_note_es": "Las fuentes informan 'más de 150' aves; el registro usa 150 como mínimo documentado con quantity_qualifier='minimum'. Las 65 aves de Rio Novo son un subconjunto y no se suman por separado.",
+  "geographic_note_pt": "O evento é uma operação multi-município; o ponto é regional. A rota comercial é representada em nível generalizado Minas Gerais → estado do Rio de Janeiro.",
+  "geographic_note_en": "The event is a multi-municipality operation; the point is regional. The commercial route is represented at generalized Minas Gerais → Rio de Janeiro state level.",
+  "geographic_note_es": "El evento es una operación en varios municipios; el punto es regional. La ruta comercial se representa de forma generalizada Minas Gerais → estado de Río de Janeiro.",
+  "context_pt": "Fatos documentados [O1][O2]: a operação atingiu associação dedicada à captura e venda ilegal de aves retiradas da natureza na Zona da Mata e no Sul de Minas, com destino principal ao estado do Rio de Janeiro. Mais de 150 aves foram apreendidas, entre elas curiós, corrupiões, trinca-ferros e coleirinhos; 65 foram encontradas em Rio Novo. Relação com a ciência [S1]: o Repositório Científico documenta a escala histórica do comércio de aves vivas no Brasil e a pressão sobre espécies procuradas para criação e canto. Relação com reportagens [N1]: o Repositório de Reportagens registra o uso contemporâneo de canais digitais para comércio de fauna no Rio, oferecendo contexto sobre a persistência da demanda, sem estabelecer vínculo com esta rede específica. Leitura integrada: o caso fornece evidência rara de uma cadeia com área de retirada/captura em Minas Gerais e mercado principal no Rio de Janeiro. Limites da evidência: não é possível atribuir cada ave a uma origem municipal específica nem reconstruir os trajetos individuais dos transportes.",
+  "context_en": "Documented facts [O1][O2]: the operation targeted an association dedicated to capturing and illegally selling birds removed from the wild in Zona da Mata and southern Minas Gerais, with Rio de Janeiro state identified as the main destination. More than 150 birds were seized, including curiós, corrupiões, trinca-ferros and coleirinhos; 65 were found in Rio Novo. Relation to science [S1]: the Scientific Repository documents the long-standing scale of live-bird trade in Brazil and pressure on species sought for keeping and song. Relation to reporting [N1]: the News Repository documents contemporary use of digital channels for wildlife trade in Rio, providing context on persistent demand without linking that reporting to this specific network. Integrated reading: the case provides unusually strong evidence of a supply area in Minas Gerais feeding a principal market in Rio de Janeiro. Evidence limits: individual birds cannot be assigned to specific capture municipalities and individual transport paths cannot be reconstructed.",
+  "context_es": "Hechos documentados [O1][O2]: la operación alcanzó a una asociación dedicada a capturar y vender ilegalmente aves extraídas de la naturaleza en Zona da Mata y el sur de Minas Gerais, con el estado de Río de Janeiro como destino principal. Se incautaron más de 150 aves, incluidos curiós, corrupiões, trinca-ferros y coleirinhos; 65 fueron encontradas en Rio Novo. Relación con la ciencia [S1]: el Repositorio Científico documenta la escala histórica del comercio de aves vivas en Brasil y la presión sobre especies buscadas para cría y canto. Relación con reportajes [N1]: el Repositorio de Reportajes documenta el uso contemporáneo de canales digitales para comercio de fauna en Río, aportando contexto sobre demanda persistente sin vincular esa nota con esta red específica. Lectura integrada: el caso aporta evidencia poco frecuente de una zona de suministro en Minas Gerais conectada a un mercado principal en Río de Janeiro. Límites de la evidencia: no es posible asignar cada ave a un municipio específico de captura ni reconstruir trayectos individuales.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "MPMG — Operação Libertas na Zona da Mata",
+      "url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/operacao-libertas-investigados-por-trafico-de-aves-silvestres-sao-presos-na-zona-da-mata-2C9F8AAA9F1A7F1D019F24621F0A7C98-00.shtml"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Itatiaia — more than 150 birds seized in Operation Libertas",
+      "url": "https://www.itatiaia.com.br/juizdefora/passaro-campeao-de-canto-esta-entre-os-apreendidos-na-operacao-libertas/"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "The live bird trade in Brazil and its conservation implications: an overview",
+      "url": "https://doi.org/10.1017/S095927091200010X"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Messaging groups become a marketplace for illegal wildlife trade in Rio",
+      "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+    }
+  ],
+  "references_text_pt": "[O1] MPMG, 02/07/2026; [O2] Itatiaia, 01/07/2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 03/09/2026.",
+  "references_text_en": "[O1] MPMG, 2 Jul 2026; [O2] Itatiaia, 1 Jul 2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 3 Sep 2026.",
+  "references_text_es": "[O1] MPMG, 02/07/2026; [O2] Itatiaia, 01/07/2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 03/09/2026.",
+  "image_source_url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/operacao-libertas-investigados-por-trafico-de-aves-silvestres-sao-presos-na-zona-da-mata-2C9F8AAA9F1A7F1D019F24621F0A7C98-00.shtml",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
