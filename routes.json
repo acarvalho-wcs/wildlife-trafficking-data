@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T11:50:00Z",
+  "updated_at": "2026-10-02T12:20:00Z",
   "audited_through": "2026-10-02",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4910,6 +4910,114 @@
       "evidence_es": "Las fuentes informan que las 3.394 aves procedían de Vietnam y fueron incautadas en un almacén de Sidoarjo. No se divulgaron el punto de salida en Vietnam ni el punto de entrada en Indonesia; por ello el origen se representa solo a nivel de país.",
       "source_label": "ANTARA / Bareskrim Polri / Badan Karantina Indonesia",
       "source_url": "https://jatim.antaranews.com/berita/1103697/bareskrim-tahan-dua-wn-vietnam-selundupkan-3394-burung-tanpa-dokumen"
+    },
+    {
+      "id": "usa-hong-kong-four-turtles-2026-07",
+      "event_match": {
+        "event_id": "2026-07-10__hong-kong-four-us-turtles"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_postal_origin_to_seizure",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Estados Unidos → Hong Kong",
+      "label_en": "United States → Hong Kong",
+      "label_es": "Estados Unidos → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Estados Unidos",
+            "country": "Estados Unidos",
+            "lat": 39.8283,
+            "lon": -98.5795,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A alfândega de Hong Kong informou que a encomenda contendo quatro tartarugas vivas foi importada dos Estados Unidos e interceptada no Aeroporto Internacional de Hong Kong. O ponto de postagem nos EUA não foi divulgado.",
+      "evidence_en": "Hong Kong Customs reported that the parcel containing four live turtles was imported from the United States and intercepted at Hong Kong International Airport. The posting point in the United States was not disclosed.",
+      "evidence_es": "Aduanas de Hong Kong informó que el paquete con cuatro tortugas vivas fue importado desde Estados Unidos e interceptado en el Aeropuerto Internacional de Hong Kong. No se divulgó el punto de envío en Estados Unidos.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_5455.html"
+    },
+    {
+      "id": "australia-hong-kong-eleven-lizards-2026-07",
+      "event_match": {
+        "event_id": "2026-07-18__hong-kong-eleven-australia-lizards"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_postal_origin_to_seizure",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Austrália → Hong Kong",
+      "label_en": "Australia → Hong Kong",
+      "label_es": "Australia → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Austrália",
+            "country": "Austrália",
+            "lat": -25.2744,
+            "lon": 133.7751,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial informa que a encomenda contendo 11 lagartos vivos foi importada da Austrália e interceptada no Aeroporto Internacional de Hong Kong. O ponto de postagem na Austrália não foi divulgado.",
+      "evidence_en": "The official source states that the parcel containing 11 live lizards was imported from Australia and intercepted at Hong Kong International Airport. The posting point in Australia was not disclosed.",
+      "evidence_es": "La fuente oficial informa que el paquete con 11 lagartos vivos fue importado desde Australia e interceptado en el Aeropuerto Internacional de Hong Kong. No se divulgó el punto de envío en Australia.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_5477.html"
+    },
+    {
+      "id": "minas-rio-operation-libertas-2026-07",
+      "event_match": {
+        "event_id": "2026-07-01__operacao-libertas-zona-da-mata-150-birds"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_supply_to_market_region",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Zona da Mata / Sul de Minas → estado do Rio de Janeiro",
+      "label_en": "Zona da Mata / southern Minas Gerais → Rio de Janeiro state",
+      "label_es": "Zona da Mata / sur de Minas Gerais → estado de Río de Janeiro",
+      "segments": [
+        {
+          "from": {
+            "name": "Zona da Mata / Sul de Minas",
+            "country": "Brasil",
+            "lat": -21.76,
+            "lon": -43.35,
+            "precision": "region_generalized"
+          },
+          "to": {
+            "name": "Estado do Rio de Janeiro",
+            "country": "Brasil",
+            "lat": -22.91,
+            "lon": -43.17,
+            "precision": "state_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O MPMG informou que a associação investigada capturava aves na Zona da Mata e no Sul de Minas e tinha como principal destino comercial o estado do Rio de Janeiro. A linha representa o corredor regional documentado, não os trajetos individuais de cada ave.",
+      "evidence_en": "MPMG reported that the investigated association captured birds in Zona da Mata and southern Minas Gerais and had Rio de Janeiro state as the main commercial destination. The line represents the documented regional corridor, not individual bird journeys.",
+      "evidence_es": "El MPMG informó que la asociación investigada capturaba aves en Zona da Mata y el sur de Minas Gerais y tenía como principal destino comercial el estado de Río de Janeiro. La línea representa el corredor regional documentado, no los trayectos individuales de cada ave.",
+      "source_label": "Ministério Público de Minas Gerais",
+      "source_url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/operacao-libertas-investigados-por-trafico-de-aves-silvestres-sao-presos-na-zona-da-mata-2C9F8AAA9F1A7F1D019F24621F0A7C98-00.shtml"
     }
   ],
   "network_context": [
