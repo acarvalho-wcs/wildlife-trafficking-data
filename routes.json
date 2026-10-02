@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:35:00Z",
-  "audited_through": "2026-10-01",
+  "updated_at": "2026-10-02T11:50:00Z",
+  "audited_through": "2026-10-02",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -4874,6 +4874,42 @@
       "evidence_es": "La fuente informa que el pasajero procedía de Tayikistán y fue interceptado en el aeropuerto de Domodedovo con 476 tortugas. No se divulgó el punto de embarque en Tayikistán, por lo que el origen se representa solo a nivel de país.",
       "source_label": "Podrobno.uz / customs data",
       "source_url": "https://podrobno.uz/cat/proisshestviya/iz-uzbekistana-v-rossiyu-pytalis-nezakonno-vvezti-bolee-100-ptits/"
+    },
+    {
+      "id": "vietnam-sidoarjo-3394-birds-2026-09",
+      "event_match": {
+        "event_id": "2026-09-28__sidoarjo-3394-birds-vietnam"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_international_origin_to_seizure",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Vietnã → Sidoarjo, Indonésia",
+      "label_en": "Vietnam → Sidoarjo, Indonesia",
+      "label_es": "Vietnam → Sidoarjo, Indonesia",
+      "segments": [
+        {
+          "from": {
+            "name": "Vietnã",
+            "country": "Vietnã",
+            "lat": 14.0583,
+            "lon": 108.2772,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Sidoarjo",
+            "country": "Indonésia",
+            "lat": -7.47,
+            "lon": 112.62,
+            "precision": "district_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "As fontes informam que as 3.394 aves eram provenientes do Vietnã e foram apreendidas em um depósito em Sidoarjo. O ponto de saída no Vietnã e o ponto de entrada na Indonésia não foram divulgados; por isso a origem é representada apenas em nível de país.",
+      "evidence_en": "Sources state that the 3,394 birds originated from Vietnam and were seized at a storage site in Sidoarjo. The departure point in Vietnam and entry point into Indonesia were not disclosed, so origin is represented only at country level.",
+      "evidence_es": "Las fuentes informan que las 3.394 aves procedían de Vietnam y fueron incautadas en un almacén de Sidoarjo. No se divulgaron el punto de salida en Vietnam ni el punto de entrada en Indonesia; por ello el origen se representa solo a nivel de país.",
+      "source_label": "ANTARA / Bareskrim Polri / Badan Karantina Indonesia",
+      "source_url": "https://jatim.antaranews.com/berita/1103697/bareskrim-tahan-dua-wn-vietnam-selundupkan-3394-burung-tanpa-dokumen"
     }
   ],
   "network_context": [
