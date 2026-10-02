@@ -1,0 +1,97 @@
+{
+  "id": "2026-09-29__sao-jose-rio-preto-seven-parrot-chicks",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "brazil_followup_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_POLICIA_AMBIENTAL_ATTRIBUTION",
+  "added_at": "2026-10-02T05:35:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -20.8113,
+    "lon": -49.3758
+  },
+  "coordinate_precision": "city_generalized",
+  "source_label": "g1 Rio Preto e Araçatuba / Polícia Militar Ambiental",
+  "source_url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/09/29/filhotes-de-papagaio-verdadeiro-sao-resgatados-apos-serem-anunciados-para-venda-em-aplicativo-video.ghtml",
+  "publication_date": "2026-09-29",
+  "event_date": "2026-09-29",
+  "event_datetime": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Terrestre",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_unassigned": 0,
+  "location_label_pt": "São José do Rio Preto, São Paulo",
+  "location_label_en": "São José do Rio Preto, São Paulo, Brazil",
+  "location_label_es": "São José do Rio Preto, São Paulo, Brasil",
+  "modal_label_pt": "Terrestre / venda online",
+  "modal_label_en": "Land / online sale",
+  "modal_label_es": "Terrestre / venta en línea",
+  "taxon_text": "Papagaio-verdadeiro; nome científico não informado pela fonte",
+  "title_pt": "Polícia Ambiental apreende sete filhotes de papagaio-verdadeiro anunciados para venda em aplicativo",
+  "title_en": "Environmental Police seize seven true-parrot chicks advertised for sale through messaging app",
+  "title_es": "Policía Ambiental incauta siete polluelos de papagayo-verdadero anunciados para venta en una aplicación",
+  "card_text_pt": "Sete filhotes de papagaio-verdadeiro foram apreendidos em São José do Rio Preto após anúncio para venda em aplicativo de mensagens. Um homem foi abordado quando se deslocava para entregar uma das aves; outros seis filhotes foram encontrados em sua residência no bairro Lealdade.",
+  "card_text_en": "Seven true-parrot chicks were seized in São José do Rio Preto after being advertised for sale through a messaging app. A man was stopped while traveling to deliver one bird; six additional chicks were found at his home in the Lealdade neighborhood.",
+  "card_text_es": "Siete polluelos de papagayo-verdadero fueron incautados en São José do Rio Preto después de ser anunciados para venta mediante una aplicación de mensajería. Un hombre fue abordado cuando se desplazaba para entregar una de las aves; otros seis polluelos fueron encontrados en su vivienda del barrio Lealdade.",
+  "fauna_label_pt": "7 filhotes de papagaio-verdadeiro",
+  "fauna_label_en": "7 true-parrot chicks",
+  "fauna_label_es": "7 polluelos de papagayo-verdadero",
+  "quantity_note_pt": "Contagem exata de sete filhotes. A fonte identifica as aves apenas pelo nome comum papagaio-verdadeiro; nenhuma identificação científica adicional é inferida no registro.",
+  "quantity_note_en": "Exact count of seven chicks. The source identifies the birds only by the common name true parrot; no additional scientific identification is inferred in the record.",
+  "quantity_note_es": "Conteo exacto de siete polluelos. La fuente identifica las aves únicamente por el nombre común papagayo-verdadero; no se infiere una identificación científica adicional en el registro.",
+  "geographic_note_pt": "Coordenadas generalizadas para São José do Rio Preto. A residência ficava no bairro Lealdade, mas o endereço exato e o ponto da abordagem durante a tentativa de entrega não foram divulgados.",
+  "geographic_note_en": "Coordinates are generalized to São José do Rio Preto. The residence was in the Lealdade neighborhood, but the exact address and the interception point during the attempted delivery were not disclosed.",
+  "geographic_note_es": "Las coordenadas se generalizan a São José do Rio Preto. La vivienda estaba en el barrio Lealdade, pero no se divulgaron la dirección exacta ni el punto de la intervención durante el intento de entrega.",
+  "context_pt": "Fatos documentados [O1][O2]: sete filhotes de papagaio-verdadeiro estavam sendo anunciados para venda em grupos/aplicativo de mensagens. Após denúncia anônima, a Polícia Militar Ambiental abordou um homem quando ele se deslocava para entregar uma ave e localizou outros seis filhotes em sua residência; foi aplicada multa ambiental de R$ 3.500 e as aves foram encaminhadas ao Zoobotânico Municipal. Relação com a ciência [S1]: o Repositório Científico documenta a importância histórica do comércio de aves vivas no Brasil e suas implicações para conservação, ajudando a situar o caso dentro de uma demanda persistente por psitacídeos. Relação com reportagens [N1]: o Repositório de Reportagens contém matéria sobre grupos de mensagens usados como mercado para fauna silvestre, oferecendo contexto específico para o canal de venda observado aqui. Leitura integrada: este caso conecta manutenção domiciliar, oferta digital e entrega física, mostrando como plataformas de mensagem podem funcionar como interface entre estoque local e comprador. Limites da evidência: a fonte não informa onde os filhotes foram capturados, quem os forneceu, identidade do comprador, preço, destino da entrega ou existência de uma rede maior; portanto nenhuma rota é inferida.",
+  "context_en": "Documented facts [O1][O2]: seven true-parrot chicks were being advertised for sale through messaging groups/apps. Following an anonymous tip, Environmental Military Police stopped a man while he was traveling to deliver one bird and found six additional chicks at his residence; an environmental fine of BRL 3,500 was issued and the birds were transferred to the municipal zoo-botanical facility. Relation to science [S1]: the Scientific Repository documents the long-standing live-bird trade in Brazil and its conservation implications, helping place this case within persistent demand for parrots. Relation to reporting [N1]: the News Repository includes reporting on messaging groups functioning as marketplaces for wildlife, providing channel-specific context for the sales mechanism observed here. Integrated reading: the case links household keeping, digital advertising and physical delivery, illustrating how messaging platforms can connect local stock to buyers. Evidence limits: the source does not identify where the chicks were captured, supplier, buyer identity, price, delivery destination or a wider network; therefore no route is inferred.",
+  "context_es": "Hechos documentados [O1][O2]: siete polluelos de papagayo-verdadero estaban siendo anunciados para venta mediante grupos/aplicaciones de mensajería. Tras una denuncia anónima, la Policía Militar Ambiental abordó a un hombre cuando se desplazaba para entregar una de las aves y encontró otros seis polluelos en su vivienda; se aplicó una multa ambiental de R$ 3.500 y las aves fueron trasladadas al Zoobotánico Municipal. Relación con la ciencia [S1]: el Repositorio Científico documenta la importancia histórica del comercio de aves vivas en Brasil y sus implicaciones para la conservación, ayudando a situar el caso dentro de una demanda persistente por psitácidos. Relación con reportajes [N1]: el Repositorio de Reportajes contiene una nota sobre grupos de mensajería utilizados como mercado de fauna silvestre, ofreciendo contexto específico para el canal de venta observado aquí. Lectura integrada: el caso conecta mantenimiento domiciliario, oferta digital y entrega física, mostrando cómo las plataformas de mensajería pueden conectar existencias locales con compradores. Límites de la evidencia: la fuente no informa dónde fueron capturados los polluelos, quién los suministró, identidad del comprador, precio, destino de la entrega ni existencia de una red mayor; por ello no se infiere ninguna ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "g1 Rio Preto e Araçatuba — sete filhotes anunciados para venda em aplicativo",
+      "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/09/29/filhotes-de-papagaio-verdadeiro-sao-resgatados-apos-serem-anunciados-para-venda-em-aplicativo-video.ghtml"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Gazeta do Interior / Polícia Militar Ambiental — venda por grupos de WhatsApp",
+      "url": "https://gazetainterior.com.br/m/homem-e-flagrado-vendendo-filhotes-de-papagaio-pelo-whatsapp-em-rio-preto.9RdD5"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "The live bird trade in Brazil and its conservation implications: an overview",
+      "url": "https://doi.org/10.1017/S095927091200010X"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Messaging groups become a marketplace for illegal wildlife trade in Rio",
+      "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+    }
+  ],
+  "references_text_pt": "[O1] g1 Rio Preto e Araçatuba, 29/09/2026; [O2] Gazeta do Interior/Polícia Militar Ambiental, 30/09/2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 03/09/2026.",
+  "references_text_en": "[O1] g1 Rio Preto e Araçatuba, 29 Sep 2026; [O2] Gazeta do Interior/Environmental Military Police, 30 Sep 2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 3 Sep 2026.",
+  "references_text_es": "[O1] g1 Rio Preto e Araçatuba, 29/09/2026; [O2] Gazeta do Interior/Policía Militar Ambiental, 30/09/2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 03/09/2026.",
+  "route_audited_at": "2026-10-02T05:35:00Z",
+  "context_updated_at": "2026-10-02T05:35:00Z",
+  "image_url": null,
+  "image_source_url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/09/29/filhotes-de-papagaio-verdadeiro-sao-resgatados-apos-serem-anunciados-para-venda-em-aplicativo-video.ghtml",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-10-02T05:35:00Z"
+}
