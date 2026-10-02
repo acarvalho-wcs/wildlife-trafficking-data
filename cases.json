@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_479_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_481_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 479,
+  "count": 481,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -33160,6 +33160,191 @@
       "image_source_url": "https://www.kommersant.ru/doc/8991206",
       "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
       "image_checked_at": "2026-10-01T21:30:00Z"
+    },
+    {
+      "id": "2026-09-12_2026-09-22__maranhao-sumauma-ii-59-wild-animals",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "brazil_followup_2026_10_02",
+      "reconstruction_confidence": "CONFIRMED_PRF_REGIONAL_OPERATION",
+      "added_at": "2026-10-02T05:35:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": true,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -5.42,
+        "lon": -45.44
+      },
+      "coordinate_precision": "state_generalized",
+      "source_label": "Difusora News / ASCOM PRF-MA; PRF",
+      "source_url": "https://difusoranews.com/operacao-prende-14-pessoas-e-resgata-59-animais-silvestres-nas-rodovias-federais-do-ma/",
+      "publication_date": "2026-09-23",
+      "event_date": "2026-09-12",
+      "event_end_date": "2026-09-22",
+      "event_datetime": null,
+      "fauna_groups_aggregated": [],
+      "modal_primary": "Terrestre",
+      "quantity_count": 59,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 59,
+      "location_label_pt": "Rodovias federais do Maranhão — Operação Sumaúma II",
+      "location_label_en": "Federal highways in Maranhão — Operation Sumaúma II",
+      "location_label_es": "Carreteras federales de Maranhão — Operación Sumaúma II",
+      "modal_label_pt": "Terrestre / fiscalização rodoviária",
+      "modal_label_en": "Land / highway enforcement",
+      "modal_label_es": "Terrestre / fiscalización vial",
+      "taxon_text": "Fauna silvestre; espécies não discriminadas na fonte regional",
+      "title_pt": "Operação Sumaúma II resgata 59 animais silvestres nas rodovias federais do Maranhão",
+      "title_en": "Operation Sumaúma II rescues 59 wild animals on federal highways in Maranhão",
+      "title_es": "Operación Sumaúma II rescata 59 animales silvestres en carreteras federales de Maranhão",
+      "card_text_pt": "No recorte maranhense da Operação Sumaúma II, realizada pela PRF nas rodovias federais do estado, 59 animais silvestres vivos em situação irregular foram resgatados. A operação resultou em 14 prisões no Maranhão, oito delas relacionadas a crimes ambientais.",
+      "card_text_en": "In the Maranhão component of Operation Sumaúma II, carried out by the Federal Highway Police on federal highways in the state, 59 live wild animals in irregular situations were rescued. The operation resulted in 14 arrests in Maranhão, eight related to environmental crimes.",
+      "card_text_es": "En el componente de Maranhão de la Operación Sumaúma II, realizado por la Policía Federal de Carreteras en las vías federales del estado, fueron rescatados 59 animales silvestres vivos en situación irregular. La operación produjo 14 detenciones en Maranhão, ocho relacionadas con delitos ambientales.",
+      "fauna_label_pt": "59 animais silvestres vivos — espécies não discriminadas",
+      "fauna_label_en": "59 live wild animals — species not specified",
+      "fauna_label_es": "59 animales silvestres vivos — especies no especificadas",
+      "quantity_note_pt": "Contagem regional exata de 59 animais vivos resgatados no Maranhão. Esse total é um subconjunto dos 267 animais silvestres resgatados nacionalmente pela Operação Sumaúma II em nove estados; o balanço nacional não deve ser somado novamente aos totais caso seja registrado como contexto agregado.",
+      "quantity_note_en": "Exact regional count of 59 live animals rescued in Maranhão. This total is a subset of the 267 wild animals rescued nationally by Operation Sumaúma II across nine states; the national aggregate must not be added again to totals if recorded as contextual aggregate.",
+      "quantity_note_es": "Conteo regional exacto de 59 animales vivos rescatados en Maranhão. Este total es un subconjunto de los 267 animales silvestres rescatados a nivel nacional por la Operación Sumaúma II en nueve estados; el agregado nacional no debe sumarse nuevamente a los totales si se registra como contexto.",
+      "geographic_note_pt": "A matéria regional informa ações em diferentes trechos das rodovias federais do Maranhão e não individualiza cada abordagem. O ponto cartográfico é apenas representativo em nível estadual e não corresponde a um local único de apreensão.",
+      "geographic_note_en": "The regional report states that actions occurred on different stretches of federal highways in Maranhão and does not individualize each stop. The mapped point is only a state-level representative anchor and does not correspond to a single seizure location.",
+      "geographic_note_es": "La nota regional informa acciones en distintos tramos de carreteras federales de Maranhão y no individualiza cada intervención. El punto cartográfico es solo representativo a nivel estatal y no corresponde a un único lugar de incautación.",
+      "context_pt": "Fatos documentados [O1][O2]: entre 12 e 22 de setembro, a Operação Sumaúma II realizou fiscalizações ambientais em nove estados. No recorte do Maranhão, 59 animais silvestres vivos em situação irregular foram resgatados e 14 pessoas foram presas, oito por crimes ambientais. O balanço nacional da PRF contabilizou 267 animais silvestres resgatados, incluindo 140 papagaios, mas não atribui essa composição por espécie ao Maranhão. Relação com a ciência [S1]: o Repositório Científico reúne estudo sobre apreensões de fauna pela própria Polícia Rodoviária Federal, mostrando a relevância das rodovias e da fiscalização rodoviária para documentar o transporte ilegal de animais no Brasil. Leitura integrada: o caso representa um recorte operacional regional e não uma única apreensão; seu valor analítico está em evidenciar a dimensão do esforço de fiscalização no Maranhão. Limites da evidência: a fonte regional não discrimina espécies, quantidades por abordagem, municípios ou trechos específicos, nem permite reconstruir rotas. Os 59 animais são parte do total nacional de 267 e não devem ser somados a esse agregado em duplicidade.",
+      "context_en": "Documented facts [O1][O2]: between 12 and 22 September, Operation Sumaúma II conducted environmental enforcement in nine Brazilian states. In Maranhão, 59 live wild animals in irregular situations were rescued and 14 people were arrested, eight for environmental crimes. The Federal Highway Police national balance reported 267 rescued wild animals, including 140 parrots, but does not assign that species composition specifically to Maranhão. Relation to science [S1]: the Scientific Repository includes a study of wildlife seizures by Brazil's Federal Highway Police, highlighting the importance of highways and road enforcement for documenting illegal animal transport. Integrated reading: this record is a regional operational aggregate rather than a single seizure; its analytical value lies in showing the scale of enforcement in Maranhão. Evidence limits: the regional source does not break down species, counts per stop, municipalities or specific road sections and does not support route reconstruction. The 59 animals are part of the national total of 267 and must not be double-counted with that aggregate.",
+      "context_es": "Hechos documentados [O1][O2]: entre el 12 y el 22 de septiembre, la Operación Sumaúma II realizó fiscalizaciones ambientales en nueve estados de Brasil. En Maranhão fueron rescatados 59 animales silvestres vivos en situación irregular y 14 personas fueron detenidas, ocho por delitos ambientales. El balance nacional de la Policía Federal de Carreteras contabilizó 267 animales silvestres rescatados, incluidos 140 loros, pero no atribuye esa composición por especie específicamente a Maranhão. Relación con la ciencia [S1]: el Repositorio Científico incluye un estudio sobre incautaciones de fauna realizadas por la Policía Federal de Carreteras, mostrando la relevancia de las carreteras y la fiscalización vial para documentar el transporte ilegal de animales en Brasil. Lectura integrada: este registro es un agregado operativo regional y no una única incautación; su valor analítico está en mostrar la escala de la fiscalización en Maranhão. Límites de la evidencia: la fuente regional no desglosa especies, cantidades por intervención, municipios ni tramos específicos y no permite reconstruir rutas. Los 59 animales forman parte del total nacional de 267 y no deben contabilizarse dos veces.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Difusora News / ASCOM PRF-MA — 59 animais no Maranhão",
+          "url": "https://difusoranews.com/operacao-prende-14-pessoas-e-resgata-59-animais-silvestres-nas-rodovias-federais-do-ma/"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "PRF — balanço nacional da Operação Sumaúma II",
+          "url": "https://www.gov.br/prf/pt-br/noticias/nacionais/2026/setembro/prf-conclui-operacao-sumauma-ii-com-foco-no-combate-a-crimes-ambientais"
+        },
+        {
+          "id": "S1",
+          "type": "research_repository",
+          "label": "Caracterização dos dados oficiais sobre a apreensão de animais ilegais pela Polícia Rodoviária Federal do Brasil",
+          "url": "https://doi.org/10.20873/2025_jul_17288"
+        }
+      ],
+      "references_text_pt": "[O1] Difusora News/ASCOM PRF-MA, 23/09/2026; [O2] PRF, 22/09/2026; [S1] DOI 10.20873/2025_jul_17288.",
+      "references_text_en": "[O1] Difusora News/PRF-MA press office, 23 Sep 2026; [O2] PRF, 22 Sep 2026; [S1] DOI 10.20873/2025_jul_17288.",
+      "references_text_es": "[O1] Difusora News/ASCOM PRF-MA, 23/09/2026; [O2] PRF, 22/09/2026; [S1] DOI 10.20873/2025_jul_17288.",
+      "route_audited_at": "2026-10-02T05:35:00Z",
+      "context_updated_at": "2026-10-02T05:35:00Z",
+      "image_url": null,
+      "image_source_url": "https://difusoranews.com/operacao-prende-14-pessoas-e-resgata-59-animais-silvestres-nas-rodovias-federais-do-ma/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-10-02T05:35:00Z"
+    },
+    {
+      "id": "2026-09-29__sao-jose-rio-preto-seven-parrot-chicks",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "brazil_followup_2026_10_02",
+      "reconstruction_confidence": "CONFIRMED_POLICIA_AMBIENTAL_ATTRIBUTION",
+      "added_at": "2026-10-02T05:35:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -20.8113,
+        "lon": -49.3758
+      },
+      "coordinate_precision": "city_generalized",
+      "source_label": "g1 Rio Preto e Araçatuba / Polícia Militar Ambiental",
+      "source_url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/09/29/filhotes-de-papagaio-verdadeiro-sao-resgatados-apos-serem-anunciados-para-venda-em-aplicativo-video.ghtml",
+      "publication_date": "2026-09-29",
+      "event_date": "2026-09-29",
+      "event_datetime": null,
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "modal_primary": "Terrestre",
+      "quantity_count": 7,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 7
+      },
+      "quantity_unassigned": 0,
+      "location_label_pt": "São José do Rio Preto, São Paulo",
+      "location_label_en": "São José do Rio Preto, São Paulo, Brazil",
+      "location_label_es": "São José do Rio Preto, São Paulo, Brasil",
+      "modal_label_pt": "Terrestre / venda online",
+      "modal_label_en": "Land / online sale",
+      "modal_label_es": "Terrestre / venta en línea",
+      "taxon_text": "Papagaio-verdadeiro; nome científico não informado pela fonte",
+      "title_pt": "Polícia Ambiental apreende sete filhotes de papagaio-verdadeiro anunciados para venda em aplicativo",
+      "title_en": "Environmental Police seize seven true-parrot chicks advertised for sale through messaging app",
+      "title_es": "Policía Ambiental incauta siete polluelos de papagayo-verdadero anunciados para venta en una aplicación",
+      "card_text_pt": "Sete filhotes de papagaio-verdadeiro foram apreendidos em São José do Rio Preto após anúncio para venda em aplicativo de mensagens. Um homem foi abordado quando se deslocava para entregar uma das aves; outros seis filhotes foram encontrados em sua residência no bairro Lealdade.",
+      "card_text_en": "Seven true-parrot chicks were seized in São José do Rio Preto after being advertised for sale through a messaging app. A man was stopped while traveling to deliver one bird; six additional chicks were found at his home in the Lealdade neighborhood.",
+      "card_text_es": "Siete polluelos de papagayo-verdadero fueron incautados en São José do Rio Preto después de ser anunciados para venta mediante una aplicación de mensajería. Un hombre fue abordado cuando se desplazaba para entregar una de las aves; otros seis polluelos fueron encontrados en su vivienda del barrio Lealdade.",
+      "fauna_label_pt": "7 filhotes de papagaio-verdadeiro",
+      "fauna_label_en": "7 true-parrot chicks",
+      "fauna_label_es": "7 polluelos de papagayo-verdadero",
+      "quantity_note_pt": "Contagem exata de sete filhotes. A fonte identifica as aves apenas pelo nome comum papagaio-verdadeiro; nenhuma identificação científica adicional é inferida no registro.",
+      "quantity_note_en": "Exact count of seven chicks. The source identifies the birds only by the common name true parrot; no additional scientific identification is inferred in the record.",
+      "quantity_note_es": "Conteo exacto de siete polluelos. La fuente identifica las aves únicamente por el nombre común papagayo-verdadero; no se infiere una identificación científica adicional en el registro.",
+      "geographic_note_pt": "Coordenadas generalizadas para São José do Rio Preto. A residência ficava no bairro Lealdade, mas o endereço exato e o ponto da abordagem durante a tentativa de entrega não foram divulgados.",
+      "geographic_note_en": "Coordinates are generalized to São José do Rio Preto. The residence was in the Lealdade neighborhood, but the exact address and the interception point during the attempted delivery were not disclosed.",
+      "geographic_note_es": "Las coordenadas se generalizan a São José do Rio Preto. La vivienda estaba en el barrio Lealdade, pero no se divulgaron la dirección exacta ni el punto de la intervención durante el intento de entrega.",
+      "context_pt": "Fatos documentados [O1][O2]: sete filhotes de papagaio-verdadeiro estavam sendo anunciados para venda em grupos/aplicativo de mensagens. Após denúncia anônima, a Polícia Militar Ambiental abordou um homem quando ele se deslocava para entregar uma ave e localizou outros seis filhotes em sua residência; foi aplicada multa ambiental de R$ 3.500 e as aves foram encaminhadas ao Zoobotânico Municipal. Relação com a ciência [S1]: o Repositório Científico documenta a importância histórica do comércio de aves vivas no Brasil e suas implicações para conservação, ajudando a situar o caso dentro de uma demanda persistente por psitacídeos. Relação com reportagens [N1]: o Repositório de Reportagens contém matéria sobre grupos de mensagens usados como mercado para fauna silvestre, oferecendo contexto específico para o canal de venda observado aqui. Leitura integrada: este caso conecta manutenção domiciliar, oferta digital e entrega física, mostrando como plataformas de mensagem podem funcionar como interface entre estoque local e comprador. Limites da evidência: a fonte não informa onde os filhotes foram capturados, quem os forneceu, identidade do comprador, preço, destino da entrega ou existência de uma rede maior; portanto nenhuma rota é inferida.",
+      "context_en": "Documented facts [O1][O2]: seven true-parrot chicks were being advertised for sale through messaging groups/apps. Following an anonymous tip, Environmental Military Police stopped a man while he was traveling to deliver one bird and found six additional chicks at his residence; an environmental fine of BRL 3,500 was issued and the birds were transferred to the municipal zoo-botanical facility. Relation to science [S1]: the Scientific Repository documents the long-standing live-bird trade in Brazil and its conservation implications, helping place this case within persistent demand for parrots. Relation to reporting [N1]: the News Repository includes reporting on messaging groups functioning as marketplaces for wildlife, providing channel-specific context for the sales mechanism observed here. Integrated reading: the case links household keeping, digital advertising and physical delivery, illustrating how messaging platforms can connect local stock to buyers. Evidence limits: the source does not identify where the chicks were captured, supplier, buyer identity, price, delivery destination or a wider network; therefore no route is inferred.",
+      "context_es": "Hechos documentados [O1][O2]: siete polluelos de papagayo-verdadero estaban siendo anunciados para venta mediante grupos/aplicaciones de mensajería. Tras una denuncia anónima, la Policía Militar Ambiental abordó a un hombre cuando se desplazaba para entregar una de las aves y encontró otros seis polluelos en su vivienda; se aplicó una multa ambiental de R$ 3.500 y las aves fueron trasladadas al Zoobotánico Municipal. Relación con la ciencia [S1]: el Repositorio Científico documenta la importancia histórica del comercio de aves vivas en Brasil y sus implicaciones para la conservación, ayudando a situar el caso dentro de una demanda persistente por psitácidos. Relación con reportajes [N1]: el Repositorio de Reportajes contiene una nota sobre grupos de mensajería utilizados como mercado de fauna silvestre, ofreciendo contexto específico para el canal de venta observado aquí. Lectura integrada: el caso conecta mantenimiento domiciliario, oferta digital y entrega física, mostrando cómo las plataformas de mensajería pueden conectar existencias locales con compradores. Límites de la evidencia: la fuente no informa dónde fueron capturados los polluelos, quién los suministró, identidad del comprador, precio, destino de la entrega ni existencia de una red mayor; por ello no se infiere ninguna ruta.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "g1 Rio Preto e Araçatuba — sete filhotes anunciados para venda em aplicativo",
+          "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/09/29/filhotes-de-papagaio-verdadeiro-sao-resgatados-apos-serem-anunciados-para-venda-em-aplicativo-video.ghtml"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "Gazeta do Interior / Polícia Militar Ambiental — venda por grupos de WhatsApp",
+          "url": "https://gazetainterior.com.br/m/homem-e-flagrado-vendendo-filhotes-de-papagaio-pelo-whatsapp-em-rio-preto.9RdD5"
+        },
+        {
+          "id": "S1",
+          "type": "research_repository",
+          "label": "The live bird trade in Brazil and its conservation implications: an overview",
+          "url": "https://doi.org/10.1017/S095927091200010X"
+        },
+        {
+          "id": "N1",
+          "type": "news_repository",
+          "label": "Messaging groups become a marketplace for illegal wildlife trade in Rio",
+          "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+        }
+      ],
+      "references_text_pt": "[O1] g1 Rio Preto e Araçatuba, 29/09/2026; [O2] Gazeta do Interior/Polícia Militar Ambiental, 30/09/2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 03/09/2026.",
+      "references_text_en": "[O1] g1 Rio Preto e Araçatuba, 29 Sep 2026; [O2] Gazeta do Interior/Environmental Military Police, 30 Sep 2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 3 Sep 2026.",
+      "references_text_es": "[O1] g1 Rio Preto e Araçatuba, 29/09/2026; [O2] Gazeta do Interior/Policía Militar Ambiental, 30/09/2026; [S1] Bird Conservation International, DOI 10.1017/S095927091200010X; [N1] Diário do Rio, 03/09/2026.",
+      "route_audited_at": "2026-10-02T05:35:00Z",
+      "context_updated_at": "2026-10-02T05:35:00Z",
+      "image_url": null,
+      "image_source_url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/09/29/filhotes-de-papagaio-verdadeiro-sao-resgatados-apos-serem-anunciados-para-venda-em-aplicativo-video.ghtml",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "image_checked_at": "2026-10-02T05:35:00Z"
     }
   ]
 }
