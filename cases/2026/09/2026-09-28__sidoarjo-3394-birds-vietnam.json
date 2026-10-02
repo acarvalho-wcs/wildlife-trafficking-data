@@ -1,0 +1,103 @@
+{
+  "id": "2026-09-28__sidoarjo-3394-birds-vietnam",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "daily_ingestion_2026_10_02",
+  "reconstruction_confidence": "CONFIRMED_POLICE_AND_QUARANTINE_SOURCE_ATTRIBUTION",
+  "added_at": "2026-10-02T11:45:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "country": "Indonésia",
+  "coordinates": {
+    "lat": -7.47,
+    "lon": 112.62
+  },
+  "coordinate_precision": "district_generalized",
+  "source_label": "ANTARA / Bareskrim Polri / Badan Karantina Indonesia",
+  "source_url": "https://jatim.antaranews.com/berita/1103697/bareskrim-tahan-dua-wn-vietnam-selundupkan-3394-burung-tanpa-dokumen",
+  "publication_date": "2026-10-02",
+  "event_date": "2026-09-28",
+  "event_datetime": "2026-09-28T18:30:00+07:00",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Múltiplos",
+  "quantity_count": 3394,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 3394
+  },
+  "quantity_unassigned": 0,
+  "location_label_pt": "Kepatihan, Tulangan, Sidoarjo, Java Oriental",
+  "location_label_en": "Kepatihan, Tulangan, Sidoarjo, East Java",
+  "location_label_es": "Kepatihan, Tulangan, Sidoarjo, Java Oriental",
+  "modal_label_pt": "Múltiplos / terrestre",
+  "modal_label_en": "Multiple / land",
+  "modal_label_es": "Múltiples / terrestre",
+  "taxon_text": "444 *Garrulax canorus*; 116 *Gracupica nigricollis*; 2.834 *Pterorhinus chinensis*",
+  "title_pt": "Polícia apreende 3.394 aves contrabandeadas do Vietnã em Sidoarjo",
+  "title_en": "Police seize 3,394 birds smuggled from Vietnam in Sidoarjo",
+  "title_es": "Policía incauta 3.394 aves contrabandeadas desde Vietnam en Sidoarjo",
+  "card_text_pt": "A Bareskrim Polri apreendeu 3.394 aves sem documentação em um depósito de Kepatihan, Tulangan, Sidoarjo. A carga, proveniente do Vietnã, incluía 444 *Garrulax canorus*, 116 *Gracupica nigricollis* e 2.834 *Pterorhinus chinensis*. Duas pessoas de nacionalidade vietnamita foram detidas.",
+  "card_text_en": "Indonesia's Bareskrim Polri seized 3,394 undocumented birds at a storage site in Kepatihan, Tulangan, Sidoarjo. The shipment, originating from Vietnam, included 444 *Garrulax canorus*, 116 *Gracupica nigricollis* and 2,834 *Pterorhinus chinensis*. Two Vietnamese nationals were detained.",
+  "card_text_es": "La Bareskrim Polri incautó 3.394 aves sin documentación en un almacén de Kepatihan, Tulangan, Sidoarjo. El cargamento, procedente de Vietnam, incluía 444 *Garrulax canorus*, 116 *Gracupica nigricollis* y 2.834 *Pterorhinus chinensis*. Dos ciudadanos vietnamitas fueron detenidos.",
+  "fauna_label_pt": "3.394 aves — 444 *Garrulax canorus* + 116 *Gracupica nigricollis* + 2.834 *Pterorhinus chinensis*",
+  "fauna_label_en": "3,394 birds — 444 *Garrulax canorus* + 116 *Gracupica nigricollis* + 2,834 *Pterorhinus chinensis*",
+  "fauna_label_es": "3.394 aves — 444 *Garrulax canorus* + 116 *Gracupica nigricollis* + 2.834 *Pterorhinus chinensis*",
+  "quantity_note_pt": "Contagem oficial exata de 3.394 aves. Uma fonte complementar informou 3.233 vivas e 161 mortas; essas condições não alteram a contagem total de indivíduos apreendidos.",
+  "quantity_note_en": "Official exact count of 3,394 birds. A complementary source reported 3,233 alive and 161 dead; those conditions do not change the total seized individual count.",
+  "quantity_note_es": "Conteo oficial exacto de 3.394 aves. Una fuente complementaria informó 3.233 vivas y 161 muertas; esas condiciones no modifican el total de individuos incautados.",
+  "geographic_note_pt": "A apreensão ocorreu em um depósito em Kepatihan, Tulangan, Sidoarjo. As aves haviam sido transportadas até o local em dois caminhões. A fonte identifica o Vietnã como país de origem da remessa, mas não divulga porto, aeroporto ou passagem fronteiriça utilizada para a entrada na Indonésia.",
+  "geographic_note_en": "The seizure occurred at a storage site in Kepatihan, Tulangan, Sidoarjo. The birds had been moved to the site in two trucks. The source identifies Vietnam as the shipment's country of origin but does not disclose the port, airport or border crossing used to enter Indonesia.",
+  "geographic_note_es": "La incautación ocurrió en un almacén de Kepatihan, Tulangan, Sidoarjo. Las aves habían sido trasladadas al lugar en dos camiones. La fuente identifica Vietnam como país de origen del cargamento, pero no divulga el puerto, aeropuerto o paso fronterizo utilizado para ingresar a Indonesia.",
+  "context_pt": "Fatos documentados [O1][O2]: 3.394 aves provenientes do Vietnã foram encontradas sem certificados sanitários e sem cumprimento dos procedimentos de quarentena em um depósito de Sidoarjo; a composição foi de 444 *Garrulax canorus*, 116 *Gracupica nigricollis* e 2.834 *Pterorhinus chinensis*. Duas pessoas de nacionalidade vietnamita foram detidas e a investigação busca identificar proprietário, transportadores e estrutura principal da rede. Relação com a ciência [S1][S2]: o Repositório Científico contém estudos sobre o comércio de aves engaioladas na Indonésia e sobre os desafios regulatórios do comércio ilegal de fauna no país, relevantes para compreender a forte demanda por aves canoras e a capacidade de cadeias comerciais de operar por canais formais e clandestinos. Relação com reportagens [N1]: o Repositório de Reportagens documenta a persistência do comércio ilegal de aves raras na Indonésia, acrescentando contexto sobre demanda e circulação interna. Leitura integrada: este caso combina importação internacional irregular, transporte terrestre e armazenamento intermediário de milhares de aves, indicando uma cadeia logística de escala incomum. Limites da evidência: a fonte não informa o ponto de saída no Vietnã, o ponto de entrada na Indonésia, o comprador final ou o destino posterior ao depósito; a rota é representada apenas como Vietnã → Sidoarjo em nível generalizado.",
+  "context_en": "Documented facts [O1][O2]: 3,394 birds originating from Vietnam were found without health certificates and outside required quarantine procedures at a Sidoarjo storage site; the shipment comprised 444 *Garrulax canorus*, 116 *Gracupica nigricollis* and 2,834 *Pterorhinus chinensis*. Two Vietnamese nationals were detained and investigators are seeking the owner, transporters and the principal network structure. Relation to science [S1][S2]: the Scientific Repository contains studies on Indonesia's caged-bird trade and on regulatory challenges in illegal wildlife trade, relevant to understanding demand for songbirds and the capacity of commercial chains to operate through both formal and clandestine channels. Relation to reporting [N1]: the News Repository documents persistent illegal trade in rare birds in Indonesia, adding context on demand and internal circulation. Integrated reading: this case combines irregular international import, land transport and intermediate storage of thousands of birds, indicating an unusually large logistics chain. Evidence limits: the source does not disclose the point of departure in Vietnam, point of entry into Indonesia, final buyer or destination after the warehouse; the route is therefore represented only as Vietnam → Sidoarjo at a generalized level.",
+  "context_es": "Hechos documentados [O1][O2]: 3.394 aves procedentes de Vietnam fueron encontradas sin certificados sanitarios y fuera de los procedimientos obligatorios de cuarentena en un almacén de Sidoarjo; el cargamento estaba compuesto por 444 *Garrulax canorus*, 116 *Gracupica nigricollis* y 2.834 *Pterorhinus chinensis*. Dos ciudadanos vietnamitas fueron detenidos y la investigación busca identificar al propietario, transportistas y la estructura principal de la red. Relación con la ciencia [S1][S2]: el Repositorio Científico contiene estudios sobre el comercio de aves enjauladas en Indonesia y sobre los desafíos regulatorios del comercio ilegal de fauna en el país, relevantes para comprender la demanda de aves canoras y la capacidad de las cadenas comerciales para operar por canales formales y clandestinos. Relación con reportajes [N1]: el Repositorio de Reportajes documenta la persistencia del comercio ilegal de aves raras en Indonesia, añadiendo contexto sobre demanda y circulación interna. Lectura integrada: este caso combina importación internacional irregular, transporte terrestre y almacenamiento intermedio de miles de aves, indicando una cadena logística de escala inusual. Límites de la evidencia: la fuente no informa el punto de salida en Vietnam, el punto de entrada en Indonesia, comprador final ni destino posterior al almacén; la ruta se representa únicamente como Vietnam → Sidoarjo a nivel generalizado.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "ANTARA — 3,394 undocumented birds from Vietnam in Sidoarjo",
+      "url": "https://jatim.antaranews.com/berita/1103697/bareskrim-tahan-dua-wn-vietnam-selundupkan-3394-burung-tanpa-dokumen"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "RRI — 3,394 birds from Vietnam seized in Sidoarjo",
+      "url": "https://rri.co.id/surabaya/nasional/2782829/bareskrim-bongkar-penyelundupan-3394-burung-vietnam-ke-sidoarjo"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan",
+      "url": "https://doi.org/10.1016/j.gecco.2026.e04193"
+    },
+    {
+      "id": "S2",
+      "type": "research_repository",
+      "label": "Online illegal wildlife trade in Indonesia: strengthening the regulatory framework and law enforcement",
+      "url": "https://doi.org/10.1017/S0030605323001667"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay Indonesia — Illegal trade in rare wildlife remains widespread in West Sumatra",
+      "url": "https://mongabay.co.id/2026/08/07/perdagangan-satwa-langka-ilegal-terus-marak-di-sumatera-barat/"
+    }
+  ],
+  "references_text_pt": "[O1] ANTARA, 02/10/2026; [O2] RRI, 02/10/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 07/08/2026.",
+  "references_text_en": "[O1] ANTARA, 2 Oct 2026; [O2] RRI, 2 Oct 2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 7 Aug 2026.",
+  "references_text_es": "[O1] ANTARA, 02/10/2026; [O2] RRI, 02/10/2026; [S1] Global Ecology and Conservation, DOI 10.1016/j.gecco.2026.e04193; [S2] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay Indonesia, 07/08/2026.",
+  "route_audited_at": "2026-10-02T11:45:00Z",
+  "context_updated_at": "2026-10-02T11:45:00Z",
+  "image_url": null,
+  "image_source_url": "https://jatim.antaranews.com/berita/1103697/bareskrim-tahan-dua-wn-vietnam-selundupkan-3394-burung-tanpa-dokumen",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "image_checked_at": "2026-10-02T11:45:00Z"
+}
