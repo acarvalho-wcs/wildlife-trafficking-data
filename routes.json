@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T23:40:00Z",
+  "updated_at": "2026-10-03T01:35:00Z",
   "audited_through": "2026-10-02",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -101,59 +101,6 @@
       "evidence_es": "El pasajero llegó a Turín desde Miami vía Estambul.",
       "source_label": "Guardia di Finanza / ANSA",
       "source_url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/08/testa-di-coccodrillo-nella-valigia-denunciato-un-uomo-a-torino-caselle_a1716d6b-4d1d-4b65-abdd-74b9240da610.html"
-    },
-    {
-      "id": "luque-sao-paulo-bangkok-2026-09",
-      "event_match": {
-        "location_contains": "Luque",
-        "event_date": "2026-09-02"
-      },
-      "status": "DOCUMENTED_ATTRIBUTED",
-      "route_type": "planned_itinerary",
-      "direction": "forward",
-      "line_style": "dashed",
-      "label_pt": "Luque → São Paulo → Bangkok",
-      "label_en": "Luque → São Paulo → Bangkok",
-      "label_es": "Luque → São Paulo → Bangkok",
-      "segments": [
-        {
-          "from": {
-            "name": "Aeroporto Silvio Pettirossi",
-            "country": "Paraguai",
-            "lat": -25.2399,
-            "lon": -57.5191,
-            "precision": "airport"
-          },
-          "to": {
-            "name": "São Paulo",
-            "country": "Brasil",
-            "lat": -23.5505,
-            "lon": -46.6333,
-            "precision": "city_generalized"
-          }
-        },
-        {
-          "from": {
-            "name": "São Paulo",
-            "country": "Brasil",
-            "lat": -23.5505,
-            "lon": -46.6333,
-            "precision": "city_generalized"
-          },
-          "to": {
-            "name": "Bangkok",
-            "country": "Tailândia",
-            "lat": 13.7563,
-            "lon": 100.5018,
-            "precision": "city_generalized"
-          }
-        }
-      ],
-      "evidence_pt": "Reportagem baseada no boletim policial indicou itinerário previsto via São Paulo, com destino posterior a Bangkok.",
-      "evidence_en": "Reporting based on the police bulletin described a planned itinerary via São Paulo and onward to Bangkok.",
-      "evidence_es": "Una nota basada en el boletín policial indicó un itinerario previsto vía São Paulo y posteriormente Bangkok.",
-      "source_label": "ABC Color / MADES",
-      "source_url": "https://www.abc.com.py/nacionales/2026/09/03/esto-dice-el-mades-sobre-el-decomiso-de-mas-de-40-huevos-de-fauna-en-el-aeropuerto/"
     },
     {
       "id": "soekarnohatta-srilanka-2026-09-05",
@@ -5314,6 +5261,866 @@
       "evidence_es": "La aduana francesa describe a los viajeros como procedentes de Surinam cuando fueron encontrados con tres iguanas en Saint-Laurent-du-Maroni.",
       "source_label": "Douane française",
       "source_url": "https://www.douane.gouv.fr/actualites/138-animaux-proteges-saisis-durant-lete-2026-des-scorpions-aux-alligators"
+    },
+    {
+      "id": "johannesburg-hongkong-parrot-eggs-2020-11",
+      "event_match": {
+        "event_id": "2020-11-08__hong-kong-62-parrot-eggs-hatchlings"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_origin_to_seizure",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Johannesburg → Hong Kong",
+      "label_en": "Johannesburg → Hong Kong",
+      "label_es": "Johannesburgo → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Johannesburg",
+            "country": "África do Sul",
+            "lat": -26.2041,
+            "lon": 28.0473,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial informa que o passageiro chegou a Hong Kong em voo proveniente de Johannesburg com 62 ovos/filhotes de papagaios.",
+      "evidence_en": "The official source states that the passenger arrived in Hong Kong on a flight from Johannesburg with 62 parrot eggs/hatchlings.",
+      "evidence_es": "La fuente oficial informa que el pasajero llegó a Hong Kong en un vuelo procedente de Johannesburgo con 62 huevos/polluelos de loros.",
+      "source_label": "Hong Kong AFCD",
+      "source_url": "https://www.info.gov.hk/gia/general/202302/01/P2023020100625p.htm"
+    },
+    {
+      "id": "managua-miami-taiwan-parrot-eggs-2023-03",
+      "event_match": {
+        "event_id": "2023-03-23__miami-29-parrot-eggs-nicaragua-taiwan"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_transit",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Manágua → Miami → Taiwan",
+      "label_en": "Managua → Miami → Taiwan",
+      "label_es": "Managua → Miami → Taiwán",
+      "segments": [
+        {
+          "from": {
+            "name": "Manágua",
+            "country": "Nicarágua",
+            "lat": 12.1364,
+            "lon": -86.2514,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Miami",
+            "country": "Estados Unidos",
+            "lat": 25.7959,
+            "lon": -80.287,
+            "precision": "airport"
+          }
+        },
+        {
+          "from": {
+            "name": "Miami",
+            "country": "Estados Unidos",
+            "lat": 25.7959,
+            "lon": -80.287,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Taiwan",
+            "country": "Taiwan",
+            "lat": 23.6978,
+            "lon": 120.9605,
+            "precision": "country_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O passageiro viajava de Manágua para Taiwan com conexão em Miami.",
+      "evidence_en": "The passenger was traveling from Managua to Taiwan via Miami.",
+      "evidence_es": "El pasajero viajaba de Managua a Taiwán con conexión en Miami.",
+      "source_label": "Taiwan News",
+      "source_url": "https://www.taiwannews.com.tw/news/4902806"
+    },
+    {
+      "id": "taiwan-fujian-parrot-eggs-2023-04",
+      "event_match": {
+        "event_id": "2023-04-09__fujian-346-parrot-eggs-taiwan"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_network_origin_to_destination",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Taiwan → Fujian",
+      "label_en": "Taiwan → Fujian",
+      "label_es": "Taiwán → Fujian",
+      "segments": [
+        {
+          "from": {
+            "name": "Taiwan",
+            "country": "Taiwan",
+            "lat": 23.6978,
+            "lon": 120.9605,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Fujian",
+            "country": "China",
+            "lat": 26.0745,
+            "lon": 119.2965,
+            "precision": "province_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A investigação descreveu uma rede que adquiria ovos em Taiwan e os contrabandeava para Fujian.",
+      "evidence_en": "The investigation described a network purchasing eggs in Taiwan and smuggling them into Fujian.",
+      "evidence_es": "La investigación describió una red que adquiría huevos en Taiwán y los introducía de contrabando en Fujian.",
+      "source_label": "Fuzhou Coast Guard / The Paper",
+      "source_url": "https://m.thepaper.cn/newsDetail_forward_24141703"
+    },
+    {
+      "id": "guarulhos-thailand-macaw-eggs-2023-08",
+      "event_match": {
+        "event_id": "2023-08-05__guarulhos-60-scarlet-macaw-eggs-thailand"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_air_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guarulhos → Tailândia",
+      "label_en": "Guarulhos → Thailand",
+      "label_es": "Guarulhos → Tailandia",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Tailândia",
+            "country": "Tailândia",
+            "lat": 15.87,
+            "lon": 100.9925,
+            "precision": "country_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "O passageiro foi interceptado antes de embarcar para a Tailândia com 60 ovos.",
+      "evidence_en": "The passenger was intercepted before boarding a flight to Thailand with 60 eggs.",
+      "evidence_es": "El pasajero fue interceptado antes de embarcar hacia Tailandia con 60 huevos.",
+      "source_label": "World Customs Organization / Receita Federal do Brasil",
+      "source_url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/enforcement-and-compliance/activities-and-programmes/illicit-trade-report/itr_2023_en.pdf"
+    },
+    {
+      "id": "guarulhos-hongkong-mixed-eggs-2023-10",
+      "event_match": {
+        "event_id": "2023-10-07__guarulhos-60-macaw-toucan-eggs-hong-kong"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_air_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guarulhos → Hong Kong",
+      "label_en": "Guarulhos → Hong Kong",
+      "label_es": "Guarulhos → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o passageiro com os 60 ovos tinha Hong Kong como destino.",
+      "evidence_en": "The source states that the passenger carrying the 60 eggs was bound for Hong Kong.",
+      "evidence_es": "La fuente informa que el pasajero con los 60 huevos tenía Hong Kong como destino.",
+      "source_label": "World Customs Organization / Receita Federal do Brasil",
+      "source_url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/enforcement-and-compliance/activities-and-programmes/illicit-trade-report/itr_2023_en.pdf"
+    },
+    {
+      "id": "asuncion-panama-macaw-eggs-2023-10",
+      "event_match": {
+        "event_id": "2023-10-03__silvio-pettirossi-40-macaw-eggs-panama"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_air_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Assunção → Panamá",
+      "label_en": "Asunción → Panama",
+      "label_es": "Asunción → Panamá",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Silvio Pettirossi",
+            "country": "Paraguai",
+            "lat": -25.2399,
+            "lon": -57.5191,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Cidade do Panamá",
+            "country": "Panamá",
+            "lat": 9.0714,
+            "lon": -79.3835,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "As autoridades confirmaram que os dois passageiros pretendiam viajar ao Panamá; eventual continuação para a Ásia não é tratada como documentada.",
+      "evidence_en": "Authorities confirmed that the two passengers intended to travel to Panama; any onward movement to Asia is not treated as documented.",
+      "evidence_es": "Las autoridades confirmaron que los dos pasajeros pretendían viajar a Panamá; cualquier continuación hacia Asia no se considera documentada.",
+      "source_label": "MADES Paraguay / ABC Color",
+      "source_url": "https://www.abc.com.py/policiales/2023/10/03/dos-taiwaneses-fueron-detenidos-intentando-salir-del-paraguay-con-huevos-de-guacamayos/"
+    },
+    {
+      "id": "southafrica-ethiopia-hongkong-parrot-eggs-2024-01",
+      "event_match": {
+        "event_id": "2024-01-25__hong-kong-72-parrot-eggs-south-africa-ethiopia"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "África do Sul → Etiópia → Hong Kong",
+      "label_en": "South Africa → Ethiopia → Hong Kong",
+      "label_es": "Sudáfrica → Etiopía → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "África do Sul",
+            "country": "África do Sul",
+            "lat": -30.5595,
+            "lon": 22.9375,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Etiópia",
+            "country": "Etiópia",
+            "lat": 9.145,
+            "lon": 40.4897,
+            "precision": "country_transit_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Etiópia",
+            "country": "Etiópia",
+            "lat": 9.145,
+            "lon": 40.4897,
+            "precision": "country_transit_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A alfândega informa chegada a Hong Kong proveniente da África do Sul via Etiópia.",
+      "evidence_en": "Customs reports arrival in Hong Kong from South Africa via Ethiopia.",
+      "evidence_es": "Aduanas informa llegada a Hong Kong desde Sudáfrica vía Etiopía.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.info.gov.hk/gia/general/202401/26/P2024012600682p.htm"
+    },
+    {
+      "id": "bahia-valadares-saopaulo-suriname-lears-eggs-2024-02",
+      "event_match": {
+        "event_id": "2024-02-02__governador-valadares-six-lears-macaw-eggs"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_investigative_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bahia → Governador Valadares → São Paulo → Suriname",
+      "label_en": "Bahia → Governador Valadares → São Paulo → Suriname",
+      "label_es": "Bahía → Governador Valadares → São Paulo → Surinam",
+      "segments": [
+        {
+          "from": {
+            "name": "Bahia",
+            "country": "Brasil",
+            "lat": -11.4099,
+            "lon": -41.2809,
+            "precision": "state_biological_origin_generalized"
+          },
+          "to": {
+            "name": "Governador Valadares",
+            "country": "Brasil",
+            "lat": -18.8511,
+            "lon": -41.9494,
+            "precision": "seizure_city"
+          }
+        },
+        {
+          "from": {
+            "name": "Governador Valadares",
+            "country": "Brasil",
+            "lat": -18.8511,
+            "lon": -41.9494,
+            "precision": "seizure_city"
+          },
+          "to": {
+            "name": "São Paulo",
+            "country": "Brasil",
+            "lat": -23.5505,
+            "lon": -46.6333,
+            "precision": "city_intended_transit"
+          }
+        },
+        {
+          "from": {
+            "name": "São Paulo",
+            "country": "Brasil",
+            "lat": -23.5505,
+            "lon": -46.6333,
+            "precision": "city_intended_transit"
+          },
+          "to": {
+            "name": "Suriname",
+            "country": "Suriname",
+            "lat": 3.9193,
+            "lon": -56.0278,
+            "precision": "country_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "A investigação vinculou os ovos à Bahia; o veículo seguia de Salvador para São Paulo, foi interceptado em Governador Valadares e as suspeitas disseram que o destino final seria o Suriname.",
+      "evidence_en": "Investigators linked the eggs to Bahia; the vehicle was traveling from Salvador to São Paulo, was intercepted in Governador Valadares, and the suspects said the final destination was Suriname.",
+      "evidence_es": "La investigación vinculó los huevos con Bahía; el vehículo viajaba de Salvador a São Paulo, fue interceptado en Governador Valadares y las sospechosas dijeron que el destino final era Surinam.",
+      "source_label": "PRF / Ibama / Folha de S.Paulo",
+      "source_url": "https://www1.folha.uol.com.br/ambiente/2024/02/ucranianas-sao-presas-tentando-levar-ovos-de-arara-azul-de-lear-para-o-suriname.shtml"
+    },
+    {
+      "id": "thailand-hongkong-parrot-eggs-2024-03",
+      "event_match": {
+        "event_id": "2024-03-01__hong-kong-188-bird-eggs-187-parrots"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Tailândia → Hong Kong",
+      "label_en": "Thailand → Hong Kong",
+      "label_es": "Tailandia → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Tailândia",
+            "country": "Tailândia",
+            "lat": 15.87,
+            "lon": 100.9925,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "O passageiro chegou a Hong Kong vindo da Tailândia.",
+      "evidence_en": "The passenger arrived in Hong Kong from Thailand.",
+      "evidence_es": "El pasajero llegó a Hong Kong desde Tailandia.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.info.gov.hk/gia/general/202403/02/P2024030200402.htm"
+    },
+    {
+      "id": "nicaragua-panama-taiwan-eggs-2024-03",
+      "event_match": {
+        "event_id": "2024-03-12__tocumen-240-protected-bird-eggs-nicaragua-taiwan"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_transit",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Nicarágua → Panamá → Taiwan",
+      "label_en": "Nicaragua → Panama → Taiwan",
+      "label_es": "Nicaragua → Panamá → Taiwán",
+      "segments": [
+        {
+          "from": {
+            "name": "Nicarágua",
+            "country": "Nicarágua",
+            "lat": 12.8654,
+            "lon": -85.2072,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Tocumen",
+            "country": "Panamá",
+            "lat": 9.0714,
+            "lon": -79.3835,
+            "precision": "airport"
+          }
+        },
+        {
+          "from": {
+            "name": "Aeroporto de Tocumen",
+            "country": "Panamá",
+            "lat": 9.0714,
+            "lon": -79.3835,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Taiwan",
+            "country": "Taiwan",
+            "lat": 23.6978,
+            "lon": 120.9605,
+            "precision": "country_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "Os passageiros viajavam da Nicarágua para Taiwan e foram detidos durante a escala no Panamá.",
+      "evidence_en": "The passengers were traveling from Nicaragua to Taiwan and were detained during the Panama stopover.",
+      "evidence_es": "Los pasajeros viajaban de Nicaragua a Taiwán y fueron detenidos durante la escala en Panamá.",
+      "source_label": "Taiwan News / Taiwan MOFA",
+      "source_url": "https://www.taiwannews.com.tw/news/5115533"
+    },
+    {
+      "id": "hongkong-futian-parrot-eggs-2024-03",
+      "event_match": {
+        "event_id": "2024-03__futian-638-parrot-eggs-hong-kong"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_cross_border_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Futian/Shenzhen",
+      "label_en": "Hong Kong → Futian/Shenzhen",
+      "label_es": "Hong Kong → Futian/Shenzhen",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.3193,
+            "lon": 114.1694,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Posto de Futian",
+            "country": "China",
+            "lat": 22.5167,
+            "lon": 114.0667,
+            "precision": "border_post"
+          }
+        }
+      ],
+      "evidence_pt": "A investigação descreve carregadores introduzindo ovos a partir de Hong Kong pelo posto de Futian.",
+      "evidence_en": "The investigation describes couriers bringing eggs from Hong Kong through Futian checkpoint.",
+      "evidence_es": "La investigación describe transportadores introduciendo huevos desde Hong Kong por el puesto de Futian.",
+      "source_label": "Shenzhen Customs anti-smuggling police",
+      "source_url": "https://www.sznews.com/news/content/mb/2024-11/14/content_31329656.htm"
+    },
+    {
+      "id": "taiwan-matsu-china-parrot-eggs-2024-06",
+      "event_match": {
+        "event_id": "2024-06__matsu-1047-parrot-eggs"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_network_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Taiwan → Matsu → China continental",
+      "label_en": "Taiwan → Matsu → mainland China",
+      "label_es": "Taiwán → Matsu → China continental",
+      "segments": [
+        {
+          "from": {
+            "name": "Taiwan",
+            "country": "Taiwan",
+            "lat": 23.6978,
+            "lon": 120.9605,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Matsu",
+            "country": "Taiwan",
+            "lat": 26.16,
+            "lon": 119.95,
+            "precision": "island_region"
+          }
+        },
+        {
+          "from": {
+            "name": "Matsu",
+            "country": "Taiwan",
+            "lat": 26.16,
+            "lon": 119.95,
+            "precision": "island_region"
+          },
+          "to": {
+            "name": "China continental",
+            "country": "China",
+            "lat": 26.1,
+            "lon": 119.3,
+            "precision": "coast_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A investigação descreve transporte dos ovos da ilha principal de Taiwan para Matsu e posterior entrega clandestina a embarcações chinesas.",
+      "evidence_en": "The investigation describes movement of eggs from Taiwan's main island to Matsu followed by clandestine transfer to Chinese vessels.",
+      "evidence_es": "La investigación describe traslado de los huevos desde la isla principal de Taiwán a Matsu y posterior entrega clandestina a embarcaciones chinas.",
+      "source_label": "Taiwan Coast Guard / Lienchiang prosecutors via CNA",
+      "source_url": "https://www.cna.com.tw/news/asoc/202507070197.aspx"
+    },
+    {
+      "id": "foz-guarulhos-paraguay-bird-eggs-2024-07",
+      "event_match": {
+        "event_id": "2024-07-31__guarulhos-24-unidentified-bird-eggs"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_passenger_itinerary",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Foz do Iguaçu → Guarulhos → Paraguai",
+      "label_en": "Foz do Iguaçu → Guarulhos → Paraguay",
+      "label_es": "Foz do Iguaçu → Guarulhos → Paraguay",
+      "segments": [
+        {
+          "from": {
+            "name": "Foz do Iguaçu",
+            "country": "Brasil",
+            "lat": -25.5163,
+            "lon": -54.5854,
+            "precision": "city_airport_generalized"
+          },
+          "to": {
+            "name": "Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          }
+        },
+        {
+          "from": {
+            "name": "Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Paraguai",
+            "country": "Paraguai",
+            "lat": -23.4425,
+            "lon": -58.4438,
+            "precision": "country_declared_destination"
+          }
+        }
+      ],
+      "evidence_pt": "Os passageiros haviam embarcado em Foz do Iguaçu, fizeram conexão em Guarulhos e declararam destino Paraguai. A rota descreve a viagem dos passageiros, não a origem biológica dos ovos.",
+      "evidence_en": "The passengers had boarded in Foz do Iguaçu, connected through Guarulhos and declared Paraguay as destination. The route describes passenger travel, not the eggs' biological origin.",
+      "evidence_es": "Los pasajeros habían embarcado en Foz do Iguaçu, hicieron conexión en Guarulhos y declararon Paraguay como destino. La ruta describe el viaje de los pasajeros, no el origen biológico de los huevos.",
+      "source_label": "Polícia Federal / Click Guarulhos",
+      "source_url": "https://www.clickguarulhos.com.br/2024/08/01/pf-apreende-drogas-e-ovos-de-aves-exoticas/"
+    },
+    {
+      "id": "paraguay-guarulhos-taiwan-bird-eggs-2024-10",
+      "event_match": {
+        "event_id": "2024-10-16__guarulhos-21-mixed-wild-bird-eggs"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_network_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Paraguai → Guarulhos → Taiwan",
+      "label_en": "Paraguay → Guarulhos → Taiwan",
+      "label_es": "Paraguay → Guarulhos → Taiwán",
+      "segments": [
+        {
+          "from": {
+            "name": "Paraguai",
+            "country": "Paraguai",
+            "lat": -23.4425,
+            "lon": -58.4438,
+            "precision": "network_base_generalized"
+          },
+          "to": {
+            "name": "Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport_transfer_point"
+          }
+        },
+        {
+          "from": {
+            "name": "Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport_transfer_point"
+          },
+          "to": {
+            "name": "Taiwan",
+            "country": "Taiwan",
+            "lat": 23.6978,
+            "lon": 120.9605,
+            "precision": "country_destination_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A PF informou que a organização tinha base principal no Paraguai, entrava no Brasil por via terrestre e entregava os ovos em Guarulhos a receptores no embarque internacional; neste flagrante, a bolsa foi entregue ao integrante taiwanês.",
+      "evidence_en": "Federal Police reported that the organization was based mainly in Paraguay, entered Brazil by land and transferred eggs at Guarulhos to international-flight recipients; in this seizure, the bag was handed to the Taiwanese member.",
+      "evidence_es": "La PF informó que la organización tenía su base principal en Paraguay, entraba a Brasil por vía terrestre y entregaba los huevos en Guarulhos a receptores de vuelos internacionales; en este caso, la bolsa fue entregada al integrante taiwanés.",
+      "source_label": "Polícia Federal / Ibama",
+      "source_url": "https://www.clickguarulhos.com.br/2024/10/17/pf-apreende-droga-e-ovos-de-psitacideos/"
+    },
+    {
+      "id": "taiwan-kinmen-china-parrot-eggs-2025-01",
+      "event_match": {
+        "event_id": "2025-01__kinmen-599-parrot-eggs"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_network_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Taiwan → Kinmen → China continental",
+      "label_en": "Taiwan → Kinmen → mainland China",
+      "label_es": "Taiwán → Kinmen → China continental",
+      "segments": [
+        {
+          "from": {
+            "name": "Taiwan",
+            "country": "Taiwan",
+            "lat": 23.6978,
+            "lon": 120.9605,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Kinmen",
+            "country": "Taiwan",
+            "lat": 24.43,
+            "lon": 118.32,
+            "precision": "island_region"
+          }
+        },
+        {
+          "from": {
+            "name": "Kinmen",
+            "country": "Taiwan",
+            "lat": 24.43,
+            "lon": 118.32,
+            "precision": "island_region"
+          },
+          "to": {
+            "name": "China continental",
+            "country": "China",
+            "lat": 24.48,
+            "lon": 118.08,
+            "precision": "coast_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A investigação descreve Kinmen como ponto de transbordo usado pela rede para transferir ovos da ilha principal de Taiwan à China.",
+      "evidence_en": "The investigation describes Kinmen as a transfer point used by the network to move eggs from Taiwan's main island to China.",
+      "evidence_es": "La investigación describe Kinmen como punto de transbordo utilizado por la red para trasladar huevos desde la isla principal de Taiwán hacia China.",
+      "source_label": "Taiwan Coast Guard / Lienchiang prosecutors via CNA",
+      "source_url": "https://www.cna.com.tw/news/asoc/202507070197.aspx"
+    },
+    {
+      "id": "taiwan-hanoi-china-parrot-eggs-2025-03",
+      "event_match": {
+        "event_id": "2025-03-05__hanoi-600-parrot-eggs-taiwan-china-network"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_network_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Taiwan → Hanói → China",
+      "label_en": "Taiwan → Hanoi → China",
+      "label_es": "Taiwán → Hanói → China",
+      "segments": [
+        {
+          "from": {
+            "name": "Taiwan",
+            "country": "Taiwan",
+            "lat": 23.6978,
+            "lon": 120.9605,
+            "precision": "country_network_origin_generalized"
+          },
+          "to": {
+            "name": "Hanói",
+            "country": "Vietnã",
+            "lat": 21.2142,
+            "lon": 105.8042,
+            "precision": "airport_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Hanói",
+            "country": "Vietnã",
+            "lat": 21.2142,
+            "lon": 105.8042,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "China",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "country_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "A investigação taiwanesa vinculou o lote à rede que enviou mais de 600 ovos ao Vietnã com intenção de posterior transferência para a China.",
+      "evidence_en": "Taiwanese investigators linked the batch to a network that sent more than 600 eggs to Vietnam intending onward transfer to China.",
+      "evidence_es": "La investigación taiwanesa vinculó el lote con una red que envió más de 600 huevos a Vietnam con intención de transferirlos posteriormente a China.",
+      "source_label": "Taiwan Coast Guard / Lienchiang prosecutors via CNA",
+      "source_url": "https://www.cna.com.tw/news/asoc/202507070197.aspx"
+    },
+    {
+      "id": "thailand-hongkong-endangered-eggs-2025-12",
+      "event_match": {
+        "event_id": "2025-12-12__hong-kong-714-endangered-bird-eggs-thailand"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Tailândia → Hong Kong",
+      "label_en": "Thailand → Hong Kong",
+      "label_es": "Tailandia → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Tailândia",
+            "country": "Tailândia",
+            "lat": 15.87,
+            "lon": 100.9925,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial informa chegada a Hong Kong a partir da Tailândia com 714 ovos.",
+      "evidence_en": "The official source states arrival in Hong Kong from Thailand with 714 eggs.",
+      "evidence_es": "La fuente oficial informa llegada a Hong Kong desde Tailandia con 714 huevos.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.info.gov.hk/gia/general/202512/13/P2025121300312.htm"
+    },
+    {
+      "id": "thailand-hongkong-endangered-eggs-2026-06",
+      "event_match": {
+        "event_id": "2026-06-27__hong-kong-777-endangered-bird-eggs-thailand"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Tailândia → Hong Kong",
+      "label_en": "Thailand → Hong Kong",
+      "label_es": "Tailandia → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Tailândia",
+            "country": "Tailândia",
+            "lat": 15.87,
+            "lon": 100.9925,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte oficial informa chegada a Hong Kong a partir da Tailândia com 777 ovos.",
+      "evidence_en": "The official source states arrival in Hong Kong from Thailand with 777 eggs.",
+      "evidence_es": "La fuente oficial informa llegada a Hong Kong desde Tailandia con 777 huevos.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.info.gov.hk/gia/general/202606/29/P2026062900663p.htm"
+    },
+    {
+      "id": "luque-sao-paulo-bangkok-2026-09",
+      "event_match": {
+        "event_id": "2026-09-03__silvio-pettirossi-44-bird-eggs-bangkok"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_itinerary",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Luque → São Paulo → Bangkok",
+      "label_en": "Luque → São Paulo → Bangkok",
+      "label_es": "Luque → São Paulo → Bangkok",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Silvio Pettirossi",
+            "country": "Paraguai",
+            "lat": -25.2399,
+            "lon": -57.5191,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "São Paulo",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "São Paulo",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.7563,
+            "lon": 100.5018,
+            "precision": "city_intended_destination"
+          }
+        }
+      ],
+      "evidence_pt": "O boletim policial divulgado em 3 de setembro informa que as passageiras foram interceptadas em 2 de setembro antes de embarcar para São Paulo, de onde seguiriam para Bangkok.",
+      "evidence_en": "The police bulletin published on 3 September states that the passengers were intercepted on 2 September before boarding for São Paulo, from where they were to continue to Bangkok.",
+      "evidence_es": "El boletín policial publicado el 3 de septiembre informa que las pasajeras fueron interceptadas el 2 de septiembre antes de embarcar hacia São Paulo, desde donde continuarían a Bangkok.",
+      "source_label": "ABC Color / Policía Aeroportuaria / MADES",
+      "source_url": "https://www.abc.com.py/policiales/2026/09/03/insolito-intentaron-llevar-44-huevos-de-presuntos-guacamayos-hasta-tailandia/"
     }
   ],
   "network_context": [
