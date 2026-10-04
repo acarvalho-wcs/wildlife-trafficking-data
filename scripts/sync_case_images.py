@@ -270,7 +270,12 @@ def resolve_case(session: requests.Session, case: dict) -> dict:
         result["note"] = "no_source_url"
         return result
 
-    cands, source_note = extract_candidates(\n        session,\n        source,\n        case.get("image_source_url"),\n        case.get("image_source_page"),\n    )
+    cands, source_note = extract_candidates(
+        session,
+        source,
+        case.get("image_source_url"),
+        case.get("image_source_page"),
+    )
     dedup = {}
     for c in cands:
         old = dedup.get(c["url"])
