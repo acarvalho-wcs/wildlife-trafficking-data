@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T10:23:00Z",
-  "audited_through": "2026-10-02",
+  "updated_at": "2026-10-04T16:50:00Z",
+  "audited_through": "2026-10-04T16:50:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -6164,6 +6164,282 @@
       "evidence_es": "La fuente informa intención de embarcar hacia los Países Bajos. El arco representa el viaje previsto, interrumpido en el aeropuerto, no un trayecto completado ni el origen biológico de las aves. Destino nacional generalizado; aeropuerto de llegada no informado.",
       "source_label": "Waterkant",
       "source_url": "https://www.waterkant.net/suriname/2026/10/03/nederlander-met-zangvogels-in-koffer-aangehouden-op-jap-luchthaven-en-beboet-met-srd-120-000/"
+    },
+    {
+      "id": "lear-brazil-paris-singapore-1996",
+      "event_match": {
+        "event_id": "lear-1996-france-paris-2__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Brasil → Paris → Singapura",
+      "label_en": "Brazil → Paris → Singapore",
+      "label_es": "Brasil → París → Singapur",
+      "segments": [
+        {
+          "from": {
+            "name": "Brasil",
+            "country": "Brasil",
+            "lat": -14.235,
+            "lon": -51.9253,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Paris",
+            "country": "França",
+            "lat": 48.8566,
+            "lon": 2.3522,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Paris",
+            "country": "França",
+            "lat": 48.8566,
+            "lon": 2.3522,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Singapura",
+            "country": "Singapura",
+            "lat": 1.3521,
+            "lon": 103.8198,
+            "precision": "country_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A decisão judicial registra transporte das duas araras do Brasil via Paris com destino a Singapura.",
+      "evidence_en": "The court decision records transport of the two macaws from Brazil via Paris to Singapore.",
+      "evidence_es": "La decisión judicial registra el transporte de los dos guacamayos desde Brasil vía París con destino a Singapur.",
+      "source_label": "Singapore High Court",
+      "source_url": "https://www.elitigation.sg/gd/s/2000_SGHC_244"
+    },
+    {
+      "id": "lear-europe-uk-operation-palate-1997-1998",
+      "event_match": {
+        "event_id": "lear-1998-uk-operation-palate-3__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_land_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Eslováquia → Áustria → Alemanha → Bélgica → França → Reino Unido",
+      "label_en": "Slovakia → Austria → Germany → Belgium → France → United Kingdom",
+      "label_es": "Eslovaquia → Austria → Alemania → Bélgica → Francia → Reino Unido",
+      "segments": [
+        {
+          "from": {
+            "name": "Eslováquia",
+            "country": "Eslováquia",
+            "lat": 48.669,
+            "lon": 19.699,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Áustria",
+            "country": "Áustria",
+            "lat": 47.516,
+            "lon": 14.55,
+            "precision": "country_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Áustria",
+            "country": "Áustria",
+            "lat": 47.516,
+            "lon": 14.55,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Alemanha",
+            "country": "Alemanha",
+            "lat": 51.1667,
+            "lon": 10.4515,
+            "precision": "country_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Alemanha",
+            "country": "Alemanha",
+            "lat": 51.1667,
+            "lon": 10.4515,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Bélgica",
+            "country": "Bélgica",
+            "lat": 50.5039,
+            "lon": 4.4699,
+            "precision": "country_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Bélgica",
+            "country": "Bélgica",
+            "lat": 50.5039,
+            "lon": 4.4699,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "França",
+            "country": "França",
+            "lat": 46.2276,
+            "lon": 2.2137,
+            "precision": "country_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "França",
+            "country": "França",
+            "lat": 46.2276,
+            "lon": 2.2137,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Reino Unido",
+            "country": "Reino Unido",
+            "lat": 54.43,
+            "lon": -1.55,
+            "precision": "locality_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O registro parlamentar britânico descreve o deslocamento europeu usado para introduzir ilegalmente as aves no Reino Unido.",
+      "evidence_en": "The UK parliamentary record describes the European itinerary used to bring the birds illegally into the United Kingdom.",
+      "evidence_es": "El registro parlamentario británico describe el itinerario europeo utilizado para introducir ilegalmente las aves en el Reino Unido.",
+      "source_label": "UK Parliament Hansard / HM Customs",
+      "source_url": "https://hansard.parliament.uk/commons/2001-10-15/debates/164cb850-58e3-44f6-9493-3ab41ffea144/LearSMacaws"
+    },
+    {
+      "id": "lear-brazil-portugal-2015",
+      "event_match": {
+        "event_id": "lear-2015-portugal-2__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_trafficking_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Brasil → Portugal",
+      "label_en": "Brazil → Portugal",
+      "label_es": "Brasil → Portugal",
+      "segments": [
+        {
+          "from": {
+            "name": "Brasil",
+            "country": "Brasil",
+            "lat": -14.235,
+            "lon": -51.9253,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Portugal",
+            "country": "Portugal",
+            "lat": 38.7223,
+            "lon": -9.1393,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Polícia Judiciária documentou contrabando de ovos de arara-azul-de-lear provenientes do Brasil para Portugal.",
+      "evidence_en": "Portugal's Judicial Police documented smuggling of Lear's macaw eggs from Brazil into Portugal.",
+      "evidence_es": "La Policía Judicial portuguesa documentó contrabando de huevos de guacamayo de Lear desde Brasil hacia Portugal.",
+      "source_label": "Polícia Judiciária de Portugal",
+      "source_url": "https://www.policiajudiciaria.pt/policia-judiciaria-deteve-dois-homens-por-contrabando-e-danos-contra-a-natureza-e-por-associacao-criminosa/"
+    },
+    {
+      "id": "lear-belgium-doha-dhaka-2023",
+      "event_match": {
+        "event_id": "lear-2023-dhaka-3__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bélgica → Doha → Daca",
+      "label_en": "Belgium → Doha → Dhaka",
+      "label_es": "Bélgica → Doha → Daca",
+      "segments": [
+        {
+          "from": {
+            "name": "Bélgica",
+            "country": "Bélgica",
+            "lat": 50.5039,
+            "lon": 4.4699,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Doha",
+            "country": "Qatar",
+            "lat": 25.2731,
+            "lon": 51.6081,
+            "precision": "airport_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Doha",
+            "country": "Qatar",
+            "lat": 25.2731,
+            "lon": 51.6081,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Daca",
+            "country": "Bangladesh",
+            "lat": 23.8433,
+            "lon": 90.3978,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "Documentos da CITES registram a remessa originada na Bélgica e transportada via Doha até Daca.",
+      "evidence_en": "CITES documentation records the shipment originating in Belgium and travelling via Doha to Dhaka.",
+      "evidence_es": "La documentación de CITES registra el envío originado en Bélgica y transportado vía Doha hasta Daca.",
+      "source_label": "CITES Secretariat",
+      "source_url": "https://cites.org/sites/default/files/documents/E-SC77-33-03_1.pdf"
+    },
+    {
+      "id": "lear-brazil-togo-2024",
+      "event_match": {
+        "event_id": "lear-2024-togo-12__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_maritime_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Brasil → Togo",
+      "label_en": "Brazil → Togo",
+      "label_es": "Brasil → Togo",
+      "segments": [
+        {
+          "from": {
+            "name": "Brasil",
+            "country": "Brasil",
+            "lat": -14.235,
+            "lon": -51.9253,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Costa do Togo",
+            "country": "Togo",
+            "lat": 6.125,
+            "lon": 1.225,
+            "precision": "coast_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O Relatório de Gestão 2024 do Ibama informa que os animais foram encontrados em embarcação proveniente do Brasil.",
+      "evidence_en": "Ibama's 2024 Management Report states that the animals were found aboard a vessel coming from Brazil.",
+      "evidence_es": "El Informe de Gestión 2024 de Ibama informa que los animales fueron encontrados en una embarcación procedente de Brasil.",
+      "source_label": "Ibama — Relatório de Gestão 2024",
+      "source_url": "https://www.gov.br/ibama/pt-br/acesso-a-informacao/auditorias/arquivos/20250331_Relatorio_22896464_RG_2024_2025.pdf"
     }
   ],
   "network_context": [
