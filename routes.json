@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T16:50:00Z",
-  "audited_through": "2026-10-04T16:50:00Z",
+  "updated_at": "2026-10-04T18:30:00Z",
+  "audited_through": "2026-10-04T18:30:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -6440,6 +6440,182 @@
       "evidence_es": "El Informe de Gestión 2024 de Ibama informa que los animales fueron encontrados en una embarcación procedente de Brasil.",
       "source_label": "Ibama — Relatório de Gestão 2024",
       "source_url": "https://www.gov.br/ibama/pt-br/acesso-a-informacao/auditorias/arquivos/20250331_Relatorio_22896464_RG_2024_2025.pdf"
+    },
+    {
+      "id": "hyacinth-corumba-bolivia-peru-2004-2006",
+      "event_match": {
+        "event_id": "hyacinth-2004-2006-corumba-10__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_trafficking_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Corumbá → Bolívia → Peru",
+      "label_en": "Corumbá → Bolivia → Peru",
+      "label_es": "Corumbá → Bolivia → Perú",
+      "segments": [
+        {
+          "from": {
+            "name": "Corumbá",
+            "country": "Brasil",
+            "lat": -19.0092,
+            "lon": -57.6534,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Bolívia",
+            "country": "Bolívia",
+            "lat": -16.2902,
+            "lon": -63.5887,
+            "precision": "country_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Bolívia",
+            "country": "Bolívia",
+            "lat": -16.2902,
+            "lon": -63.5887,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Peru",
+            "country": "Peru",
+            "lat": -9.19,
+            "lon": -75.0152,
+            "precision": "country_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O Instituto Arara Azul informa que filhotes apreendidos em Corumbá eram destinados à Bolívia, Peru e outros países.",
+      "evidence_en": "The Hyacinth Macaw Institute reports that chicks seized in Corumbá were destined for Bolivia, Peru and other countries.",
+      "evidence_es": "El Instituto Arara Azul informa que polluelos decomisados en Corumbá tenían como destino Bolivia, Perú y otros países.",
+      "source_label": "Instituto Arara Azul",
+      "source_url": "https://www.institutoararaazul.org.br/en/species/hyacinth-macaw/"
+    },
+    {
+      "id": "hyacinth-paraguay-taiwan-2017",
+      "event_match": {
+        "event_id": "hyacinth-2017-taipei-49-eggs-associated__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_trafficking_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Paraguai → Taiwan",
+      "label_en": "Paraguay → Taiwan",
+      "label_es": "Paraguay → Taiwán",
+      "segments": [
+        {
+          "from": {
+            "name": "Paraguai",
+            "country": "Paraguai",
+            "lat": -23.4425,
+            "lon": -58.4438,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Taoyuan",
+            "country": "Taiwan",
+            "lat": 25.0797,
+            "lon": 121.2342,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A passageira chegou a Taiwan procedente do Paraguai transportando 49 ovos embrionados.",
+      "evidence_en": "The passenger arrived in Taiwan from Paraguay carrying 49 embryonated eggs.",
+      "evidence_es": "La pasajera llegó a Taiwán procedente de Paraguay transportando 49 huevos embrionados.",
+      "source_label": "Mongabay",
+      "source_url": "https://news.mongabay.com/2020/12/brazils-blue-macaws-golden-lion-tamarins-back-in-traffickers-sights/"
+    },
+    {
+      "id": "hyacinth-clorinda-rosario-2025",
+      "event_match": {
+        "event_id": "hyacinth-2025-chaco-2__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_trafficking_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Clorinda → Chaco → Rosario",
+      "label_en": "Clorinda → Chaco → Rosario",
+      "label_es": "Clorinda → Chaco → Rosario",
+      "segments": [
+        {
+          "from": {
+            "name": "Clorinda, Formosa",
+            "country": "Argentina",
+            "lat": -25.2848,
+            "lon": -57.7185,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Chaco",
+            "country": "Argentina",
+            "lat": -26.79,
+            "lon": -60.44,
+            "precision": "province_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Chaco",
+            "country": "Argentina",
+            "lat": -26.79,
+            "lon": -60.44,
+            "precision": "province_generalized"
+          },
+          "to": {
+            "name": "Rosario, Santa Fe",
+            "country": "Argentina",
+            "lat": -32.9442,
+            "lon": -60.6505,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Gendarmería informou origem em Clorinda e destino à região de Rosario.",
+      "evidence_en": "Gendarmería reported departure from Clorinda and destination in the Rosario area.",
+      "evidence_es": "La Gendarmería informó salida desde Clorinda y destino en la zona de Rosario.",
+      "source_label": "Gendarmería Nacional Argentina",
+      "source_url": "https://www.argentina.gob.ar/noticias/chaco-abren-la-caja-de-herramientas-de-un-camion-y-encuentran-dos-guacamayos-azules"
+    },
+    {
+      "id": "hyacinth-bangkok-kochi-2025",
+      "event_match": {
+        "event_id": "hyacinth-2025-kochi-1__batch-20261004"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_trafficking_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Kochi",
+      "label_en": "Bangkok → Kochi",
+      "label_es": "Bangkok → Kochi",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.75,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Kochi",
+            "country": "Índia",
+            "lat": 10.152,
+            "lon": 76.4019,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A alfândega informou que os passageiros chegaram a Kochi em voo procedente de Bangkok.",
+      "evidence_en": "Customs reported that the passengers arrived in Kochi on a flight from Bangkok.",
+      "evidence_es": "La aduana informó que los pasajeros llegaron a Kochi en un vuelo procedente de Bangkok.",
+      "source_label": "The New Indian Express / Kochi Customs",
+      "source_url": "https://www.newindianexpress.com/cities/kochi/2025/Jul/01/six-exotic-animals-were-trafficked-from-bangkok-seized-at-kochi-airport"
     }
   ],
   "network_context": [
