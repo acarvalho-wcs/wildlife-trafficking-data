@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T01:35:00Z",
+  "updated_at": "2026-10-04T10:09:26Z",
   "audited_through": "2026-10-02",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -6121,6 +6121,43 @@
       "evidence_es": "El boletín policial publicado el 3 de septiembre informa que las pasajeras fueron interceptadas el 2 de septiembre antes de embarcar hacia São Paulo, desde donde continuarían a Bangkok.",
       "source_label": "ABC Color / Policía Aeroportuaria / MADES",
       "source_url": "https://www.abc.com.py/policiales/2026/09/03/insolito-intentaron-llevar-44-huevos-de-presuntos-guacamayos-hasta-tailandia/"
+    },
+    {
+      "id": "jap-netherlands-songbirds-2026-10-02",
+      "event_match": {
+        "event_id": "2026-10-02__jap-airport-six-songbirds-netherlands"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_itinerary",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Aeroporto Johan Adolf Pengel → Países Baixos (viagem pretendida)",
+      "label_en": "Johan Adolf Pengel Airport → Netherlands (intended travel)",
+      "label_es": "Aeropuerto Johan Adolf Pengel → Países Bajos (viaje previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Johan Adolf Pengel Airport",
+            "country": "Suriname",
+            "lat": 5.45278,
+            "lon": -55.18778,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Países Baixos / Netherlands / Países Bajos",
+            "country": "Países Baixos",
+            "lat": 52.1326,
+            "lon": 5.2913,
+            "precision": "country_generalized"
+          },
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "A fonte informa intenção de embarcar para os Países Baixos. O arco representa a viagem pretendida, interrompida no aeroporto, não um trajeto concluído nem a origem biológica das aves. Destino nacional generalizado; aeroporto de chegada não informado.",
+      "evidence_en": "The source reports an intention to fly to the Netherlands. The arc represents intended travel interrupted at the airport, not a completed journey or the birds’ biological origin. Generalised country-level destination; arrival airport not reported.",
+      "evidence_es": "La fuente informa intención de embarcar hacia los Países Bajos. El arco representa el viaje previsto, interrumpido en el aeropuerto, no un trayecto completado ni el origen biológico de las aves. Destino nacional generalizado; aeropuerto de llegada no informado.",
+      "source_label": "Waterkant",
+      "source_url": "https://www.waterkant.net/suriname/2026/10/03/nederlander-met-zangvogels-in-koffer-aangehouden-op-jap-luchthaven-en-beboet-met-srd-120-000/"
     }
   ],
   "network_context": [
