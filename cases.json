@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_619_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_621_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 619,
+  "count": 621,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -45180,6 +45180,119 @@
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
       "occurrence_type": "illegal_hunting"
+    },
+    {
+      "legacy_index": null,
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "id": "2026-09-15__volgograd-ostrovskoye-16-fish",
+      "added_at": "2026-10-05T14:35:00Z",
+      "country": "Rússia",
+      "coordinates": {
+        "lat": 49,
+        "lon": 44
+      },
+      "coordinate_precision": "region_generalized",
+      "source_label": "Rosrybolovstvo",
+      "source_url": "https://vktu.fish.gov.ru/press/svodka-rybookhrany/svodka-rybookhrany-s-21-09-2026-goda-po-28-09-2026-goda/",
+      "publication_date": "2026-09-29",
+      "event_date": "2026-09-15",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Não informado",
+      "quantity_count": 16,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 16
+      },
+      "quantity_unassigned": 0,
+      "taxon_text": "16 peixes; espécies não detalhadas no resumo fornecido",
+      "location_label_pt": "Lago Ostrovskoye, região de Volgogrado, Rússia",
+      "location_label_en": "Lake Ostrovskoye, Volgograd Region, Russia",
+      "location_label_es": "Lago Ostrovskoye, región de Volgogrado, Rusia",
+      "title_pt": "Dezesseis peixes capturados com redes proibidas são apreendidos em Volgogrado",
+      "title_en": "Sixteen fish caught with prohibited nets seized in Volgograd Region",
+      "title_es": "Dieciséis peces capturados con redes prohibidas decomisados en la región de Volgogrado",
+      "fauna_label_pt": "16 peixes, 17,7 kg",
+      "fauna_label_en": "16 fish, 17.7 kg",
+      "fauna_label_es": "16 peces, 17,7 kg",
+      "card_text_pt": "Em 15 de setembro, fiscalização registrou 16 peixes, totalizando 17,7 kg, capturados com três redes proibidas que somavam 171 metros no lago Ostrovskoye.",
+      "card_text_en": "On 15 September, enforcement recorded 16 fish weighing 17.7 kg in total, caught with three prohibited nets totaling 171 metres at Lake Ostrovskoye.",
+      "card_text_es": "El 15 de septiembre, la fiscalización registró 16 peces con un peso total de 17,7 kg, capturados con tres redes prohibidas que sumaban 171 metros en el lago Ostrovskoye.",
+      "context_pt": "[O1] O registro corresponde apenas a esta ocorrência de 15/09. Totais agregados de outras fiscalizações no mesmo boletim não são somados.",
+      "context_en": "[O1] This record covers only the 15 September occurrence. Aggregate totals from other enforcement actions in the same bulletin are not added.",
+      "context_es": "[O1] Este registro corresponde únicamente a la ocurrencia del 15 de septiembre. No se suman totales agregados de otras fiscalizaciones del mismo boletín.",
+      "references_text_pt": "[O1] Rosrybolovstvo — https://vktu.fish.gov.ru/press/svodka-rybookhrany/svodka-rybookhrany-s-21-09-2026-goda-po-28-09-2026-goda/",
+      "quantity_note_pt": "16 indivíduos; peso total 17,7 kg; três redes e 171 m não entram na quantidade de fauna.",
+      "quantity_mass_kg": 17.7,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audited_at": "2026-10-05T14:35:00Z",
+      "validation_checked_at": "2026-10-05T14:35:00Z",
+      "occurrence_type": "illegal_fishing"
+    },
+    {
+      "legacy_index": null,
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "id": "2026-10__stupino-oka-98-fish",
+      "added_at": "2026-10-05T14:35:00Z",
+      "country": "Rússia",
+      "coordinates": {
+        "lat": 54.9,
+        "lon": 38.08
+      },
+      "coordinate_precision": "locality_generalized",
+      "source_label": "Ohotniki",
+      "source_url": "https://www.ohotniki.ru/fishing/news/2026/10/03/678027-na-oke-poymali-brakonera-s-setyami-i-sotney-ryib.html",
+      "publication_date": "2026-10-03",
+      "event_date": null,
+      "event_end_date": null,
+      "event_date_precision": "unknown",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Não informado",
+      "quantity_count": 98,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 98
+      },
+      "quantity_unassigned": 0,
+      "taxon_text": "98 peixes; espécies não detalhadas no resumo fornecido",
+      "location_label_pt": "Kremenye/Stupino, rio Oka, Rússia",
+      "location_label_en": "Kremenye/Stupino, Oka River, Russia",
+      "location_label_es": "Kremenye/Stupino, río Oka, Rusia",
+      "title_pt": "Noventa e oito peixes são apreendidos em pesca ilegal no rio Oka",
+      "title_en": "Ninety-eight fish seized in illegal fishing case on the Oka River",
+      "title_es": "Noventa y ocho peces decomisados en caso de pesca ilegal en el río Oka",
+      "fauna_label_pt": "98 peixes",
+      "fauna_label_en": "98 fish",
+      "fauna_label_es": "98 peces",
+      "card_text_pt": "Fiscalização em Kremenye/Stupino flagrou pesca ilegal com duas redes e apreendeu 98 peixes; foi instaurado procedimento criminal.",
+      "card_text_en": "Enforcement in Kremenye/Stupino detected illegal fishing with two nets and seized 98 fish; criminal proceedings were opened.",
+      "card_text_es": "La fiscalización en Kremenye/Stupino detectó pesca ilegal con dos redes y decomisó 98 peces; se inició un procedimiento penal.",
+      "context_pt": "[O1] A fonte não informa a data exata do flagrante nem destino comercial; nenhum desses elementos é inferido.",
+      "context_en": "[O1] The source does not provide the exact date of the interception or a commercial destination; neither is inferred.",
+      "context_es": "[O1] La fuente no informa la fecha exacta del flagrante ni destino comercial; ninguno de esos elementos se infiere.",
+      "references_text_pt": "[O1] Ohotniki — https://www.ohotniki.ru/fishing/news/2026/10/03/678027-na-oke-poymali-brakonera-s-setyami-i-sotney-ryib.html",
+      "quantity_note_pt": "98 indivíduos; redes não entram na quantidade de fauna.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audited_at": "2026-10-05T14:35:00Z",
+      "validation_checked_at": "2026-10-05T14:35:00Z",
+      "occurrence_type": "illegal_fishing"
     }
   ]
 }
