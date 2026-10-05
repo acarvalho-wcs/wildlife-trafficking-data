@@ -44964,16 +44964,28 @@
       "card_text_pt": "A Guarda Costeira apreendeu 35 kg de tubarão seco e 4,5 kg de barbatanas no porto pesqueiro de Wellamankaraya e deteve cinco pescadores.",
       "card_text_en": "The Coast Guard seized 35 kg of dried shark and 4.5 kg of fins at Wellamankaraya fishing harbour and detained five fishers.",
       "card_text_es": "La Guardia Costera decomisó 35 kg de tiburón seco y 4,5 kg de aletas en el puerto pesquero de Wellamankaraya y detuvo a cinco pescadores.",
-      "context_pt": "[O1] A fonte não informa espécie nem destino comercial. Os pesos não são convertidos em número de indivíduos e não se infere tráfico internacional.",
-      "context_en": "[O1] The source does not report species or commercial destination. Weights are not converted into animal counts and international trafficking is not inferred.",
-      "context_es": "[O1] La fuente no informa especie ni destino comercial. Los pesos no se convierten en número de individuos y no se infiere tráfico internacional.",
+      "context_pt": "Fatos documentados [O1]: A Guarda Costeira apreendeu 35 kg de tubarão seco e 4,5 kg de barbatanas no porto pesqueiro de Wellamankaraya e deteve cinco pescadores. Leitura analítica: A fonte não informa espécie nem destino comercial. Os pesos não são convertidos em número de indivíduos e não se infere tráfico internacional. Limites da evidência: 35 kg de tubarão seco + 4,5 kg de barbatanas; número de indivíduos desconhecido.",
+      "context_en": "Documented facts [O1]: The Coast Guard seized 35 kg of dried shark and 4.5 kg of fins at Wellamankaraya fishing harbour and detained five fishers. Analytical reading: The source does not report species or commercial destination. Weights are not converted into animal counts and international trafficking is not inferred. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: La Guardia Costera decomisó 35 kg de tiburón seco y 4,5 kg de aletas en el puerto pesquero de Wellamankaraya y detuvo a cinco pescadores. Lectura analítica: La fuente no informa especie ni destino comercial. Los pesos no se convierten en número de individuos y no se infiere tráfico internacional. Límites de la evidencia: ",
       "references_text_pt": "[O1] Newswire — https://www.newswire.lk/2026/10/02/five-fishermen-arrested-with-shark-fins-and-dried-shark-fish/",
       "quantity_note_pt": "35 kg de tubarão seco + 4,5 kg de barbatanas; número de indivíduos desconhecido.",
       "quantity_mass_kg": 39.5,
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_wildlife_possession"
+      "occurrence_type": "illegal_wildlife_possession",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Newswire",
+          "url": "https://www.newswire.lk/2026/10/02/five-fishermen-arrested-with-shark-fins-and-dried-shark-fish/",
+          "title": "Newswire",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45020,16 +45032,28 @@
       "card_text_pt": "Autoridades apreenderam 347 kg de pescado transportados sem documentação e em condições inadequadas no Kilómetro 35, Golfito.",
       "card_text_en": "Authorities seized 347 kg of fish transported without documentation and under inadequate conditions at Kilómetro 35, Golfito.",
       "card_text_es": "Las autoridades decomisaron 347 kg de pescado transportados sin documentación y en condiciones inadecuadas en el Kilómetro 35, Golfito.",
-      "context_pt": "[O1] A fonte descreve deslocamento entre Río Claro e Palmar Norte. Isso não comprova origem da captura nem destino final do pescado; nenhuma rota de origem-destino da cadeia é inferida.",
-      "context_en": "[O1] The source describes movement between Río Claro and Palmar Norte. This does not establish catch origin or final destination; no origin-destination trafficking chain is inferred.",
-      "context_es": "[O1] La fuente describe desplazamiento entre Río Claro y Palmar Norte. Esto no demuestra el origen de la captura ni el destino final; no se infiere una cadena origen-destino.",
+      "context_pt": "Fatos documentados [O1]: Autoridades apreenderam 347 kg de pescado transportados sem documentação e em condições inadequadas no Kilómetro 35, Golfito. Leitura analítica: A fonte descreve deslocamento entre Río Claro e Palmar Norte. Isso não comprova origem da captura nem destino final do pescado; nenhuma rota de origem-destino da cadeia é inferida. Limites da evidência: 347 kg; número de indivíduos desconhecido.",
+      "context_en": "Documented facts [O1]: Authorities seized 347 kg of fish transported without documentation and under inadequate conditions at Kilómetro 35, Golfito. Analytical reading: The source describes movement between Río Claro and Palmar Norte. This does not establish catch origin or final destination; no origin-destination trafficking chain is inferred. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: Las autoridades decomisaron 347 kg de pescado transportados sin documentación y en condiciones inadecuadas en el Kilómetro 35, Golfito. Lectura analítica: La fuente describe desplazamiento entre Río Claro y Palmar Norte. Esto no demuestra el origen de la captura ni el destino final; no se infiere una cadena origen-destino. Límites de la evidencia: ",
       "references_text_pt": "[O1] El Norte Hoy — https://elnortehoycr.com/2025/06/26/decomisan-347-kilos-de-pescado-en-golfito-por-presunto-transporte-ilegal/",
       "quantity_note_pt": "347 kg; número de indivíduos desconhecido.",
       "quantity_mass_kg": 347,
       "route_audit_status": "PARTIAL_MOVEMENT_NOT_MAPPED",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_wildlife_transport"
+      "occurrence_type": "illegal_wildlife_transport",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "El Norte Hoy",
+          "url": "https://elnortehoycr.com/2025/06/26/decomisan-347-kilos-de-pescado-en-golfito-por-presunto-transporte-ilegal/",
+          "title": "El Norte Hoy",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45077,15 +45101,27 @@
       "card_text_pt": "A polícia apreendeu uma pele de chital e deteve três pessoas sob suspeita de negociação ilegal na região de Kalwa/Thane.",
       "card_text_en": "Police seized one chital skin and detained three people suspected of illegal dealing in the Kalwa/Thane area.",
       "card_text_es": "La policía decomisó una piel de chital y detuvo a tres personas sospechosas de negociación ilegal en la zona de Kalwa/Thane.",
-      "context_pt": "[O1] A denúncia foi recebida em 29/09, mas isso não confirma a data da apreensão. As alegações de negociação ilegal permanecem atribuídas à polícia.",
-      "context_en": "[O1] The complaint was received on 29 September, but that does not establish the seizure date. Allegations of illegal dealing remain attributed to police.",
-      "context_es": "[O1] La denuncia fue recibida el 29 de septiembre, pero ello no confirma la fecha del decomiso. Las alegaciones de negociación ilegal permanecen atribuidas a la policía.",
+      "context_pt": "Fatos documentados [O1]: A polícia apreendeu uma pele de chital e deteve três pessoas sob suspeita de negociação ilegal na região de Kalwa/Thane. Leitura analítica: A denúncia foi recebida em 29/09, mas isso não confirma a data da apreensão. As alegações de negociação ilegal permanecem atribuídas à polícia. Limites da evidência: Uma pele; item de fauna, não um animal inteiro.",
+      "context_en": "Documented facts [O1]: Police seized one chital skin and detained three people suspected of illegal dealing in the Kalwa/Thane area. Analytical reading: The complaint was received on 29 September, but that does not establish the seizure date. Allegations of illegal dealing remain attributed to police. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: La policía decomisó una piel de chital y detuvo a tres personas sospechosas de negociación ilegal en la zona de Kalwa/Thane. Lectura analítica: La denuncia fue recibida el 29 de septiembre, pero ello no confirma la fecha del decomiso. Las alegaciones de negociación ilegal permanecen atribuidas a la policía. Límites de la evidencia: ",
       "references_text_pt": "[O1] Mid-day — https://www.mid-day.com/mumbai/mumbai-crime-news/article/maharashtra-wildlife-trafficking-three-arrested-in-thane-for-chital-skin-trafficking-wildlife-parts-and-car-seized-23652881",
       "quantity_note_pt": "Uma pele; item de fauna, não um animal inteiro.",
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_wildlife_trade"
+      "occurrence_type": "illegal_wildlife_trade",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Mid-day",
+          "url": "https://www.mid-day.com/mumbai/mumbai-crime-news/article/maharashtra-wildlife-trafficking-three-arrested-in-thane-for-chital-skin-trafficking-wildlife-parts-and-car-seized-23652881",
+          "title": "Mid-day",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45133,16 +45169,28 @@
       "card_text_pt": "Fiscalização com apoio de drone detectou pesca ilegal no distrito de Kabansky e apreendeu 34 peixes omul-do-Baikal, totalizando 22 kg.",
       "card_text_en": "Enforcement using a drone detected illegal fishing in Kabansky District and seized 34 Baikal omul weighing 22 kg in total.",
       "card_text_es": "Una fiscalización apoyada por dron detectó pesca ilegal en el distrito de Kabansky y decomisó 34 peces omul del Baikal, con un peso total de 22 kg.",
-      "context_pt": "[O1] Os 34 peixes e os 22 kg descrevem a mesma apreensão e não devem ser duplicados nos totais.",
-      "context_en": "[O1] The 34 fish and 22 kg describe the same seizure and must not be double-counted.",
-      "context_es": "[O1] Los 34 peces y los 22 kg describen el mismo decomiso y no deben duplicarse en los totales.",
+      "context_pt": "Fatos documentados [O1]: Fiscalização com apoio de drone detectou pesca ilegal no distrito de Kabansky e apreendeu 34 peixes omul-do-Baikal, totalizando 22 kg. Leitura analítica: Os 34 peixes e os 22 kg descrevem a mesma apreensão e não devem ser duplicados nos totais. Limites da evidência: 34 indivíduos; peso total 22 kg.",
+      "context_en": "Documented facts [O1]: Enforcement using a drone detected illegal fishing in Kabansky District and seized 34 Baikal omul weighing 22 kg in total. Analytical reading: The 34 fish and 22 kg describe the same seizure and must not be double-counted. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: Una fiscalización apoyada por dron detectó pesca ilegal en el distrito de Kabansky y decomisó 34 peces omul del Baikal, con un peso total de 22 kg. Lectura analítica: Los 34 peces y los 22 kg describen el mismo decomiso y no deben duplicarse en los totales. Límites de la evidencia: ",
       "references_text_pt": "[O1] Fishnews — https://fishnews.ru/news/56397",
       "quantity_note_pt": "34 indivíduos; peso total 22 kg.",
       "quantity_mass_kg": 22,
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_fishing"
+      "occurrence_type": "illegal_fishing",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Fishnews",
+          "url": "https://fishnews.ru/news/56397",
+          "title": "Fishnews",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45190,15 +45238,27 @@
       "card_text_pt": "Um macaco foi encontrado em uma embarcação interceptada ao sul de Punta Salinas durante operação que também apreendeu pacotes de substância suspeita de cocaína.",
       "card_text_en": "A monkey was found aboard a vessel intercepted south of Punta Salinas during an operation that also seized packages of suspected cocaine.",
       "card_text_es": "Un mono fue encontrado en una embarcación interceptada al sur de Punta Salinas durante una operación que también decomisó paquetes de sustancia sospechosa de cocaína.",
-      "context_pt": "[O1] A espécie não foi confirmada. A presença simultânea de fauna e possível droga não comprova, por si só, uma rede integrada de tráfico de fauna e narcóticos.",
-      "context_en": "[O1] The species was not confirmed. The simultaneous presence of wildlife and suspected drugs does not by itself establish an integrated wildlife-and-narcotics trafficking network.",
-      "context_es": "[O1] La especie no fue confirmada. La presencia simultánea de fauna y presunta droga no demuestra por sí sola una red integrada de tráfico de fauna y narcóticos.",
+      "context_pt": "Fatos documentados [O1]: Um macaco foi encontrado em uma embarcação interceptada ao sul de Punta Salinas durante operação que também apreendeu pacotes de substância suspeita de cocaína. Leitura analítica: A espécie não foi confirmada. A presença simultânea de fauna e possível droga não comprova, por si só, uma rede integrada de tráfico de fauna e narcóticos. Limites da evidência: Um indivíduo; espécie não confirmada.",
+      "context_en": "Documented facts [O1]: A monkey was found aboard a vessel intercepted south of Punta Salinas during an operation that also seized packages of suspected cocaine. Analytical reading: The species was not confirmed. The simultaneous presence of wildlife and suspected drugs does not by itself establish an integrated wildlife-and-narcotics trafficking network. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: Un mono fue encontrado en una embarcación interceptada al sur de Punta Salinas durante una operación que también decomisó paquetes de sustancia sospechosa de cocaína. Lectura analítica: La especie no fue confirmada. La presencia simultánea de fauna y presunta droga no demuestra por sí sola una red integrada de tráfico de fauna y narcóticos. Límites de la evidencia: ",
       "references_text_pt": "[O1] Diario Libre — https://www.diariolibre.com/actualidad/justicia/2026/10/04/un-mono-exotico-y-749-paquetes-de-presunta-cocaina-fueron-ocupados/3678380",
       "quantity_note_pt": "Um indivíduo; espécie não confirmada.",
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "wildlife_seizure_associated_with_other_crime"
+      "occurrence_type": "wildlife_seizure_associated_with_other_crime",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Diario Libre",
+          "url": "https://www.diariolibre.com/actualidad/justicia/2026/10/04/un-mono-exotico-y-749-paquetes-de-presunta-cocaina-fueron-ocupados/3678380",
+          "title": "Diario Libre",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45246,15 +45306,27 @@
       "card_text_pt": "Uma busca em propriedade rural na região de Zapala resultou na apreensão de 40 peças de fauna, entre galhadas, cabeças de javali e couro de raposa.",
       "card_text_en": "A search at a rural property in the Zapala region resulted in the seizure of 40 wildlife items, including antlers, boar heads and fox hide.",
       "card_text_es": "Un allanamiento en una propiedad rural de la región de Zapala resultó en el decomiso de 40 piezas de fauna, incluidas astas, cabezas de jabalí y cuero de zorro.",
-      "context_pt": "[O1] O número 40 refere-se a peças/troféus, não a 40 animais. A fonte não informa a data exata da apreensão.",
-      "context_en": "[O1] The number 40 refers to wildlife parts/trophies, not 40 animals. The source does not report the exact seizure date.",
-      "context_es": "[O1] El número 40 se refiere a piezas/trofeos, no a 40 animales. La fuente no informa la fecha exacta del decomiso.",
+      "context_pt": "Fatos documentados [O1]: Uma busca em propriedade rural na região de Zapala resultou na apreensão de 40 peças de fauna, entre galhadas, cabeças de javali e couro de raposa. Leitura analítica: O número 40 refere-se a peças/troféus, não a 40 animais. A fonte não informa a data exata da apreensão. Limites da evidência: 40 peças/troféus de fauna; não converter em número de animais.",
+      "context_en": "Documented facts [O1]: A search at a rural property in the Zapala region resulted in the seizure of 40 wildlife items, including antlers, boar heads and fox hide. Analytical reading: The number 40 refers to wildlife parts/trophies, not 40 animals. The source does not report the exact seizure date. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: Un allanamiento en una propiedad rural de la región de Zapala resultó en el decomiso de 40 piezas de fauna, incluidas astas, cabezas de jabalí y cuero de zorro. Lectura analítica: El número 40 se refiere a piezas/trofeos, no a 40 animales. La fuente no informa la fecha exacta del decomiso. Límites de la evidencia: ",
       "references_text_pt": "[O1] NoticiasNQN — https://www.noticiasnqn.com.ar/noticias/2026/10/02/355068-secuestraron-17-armas-mas-de-5000-municiones-y-40-trofeos-de-fauna-en-un-allanamiento-cerca-de-zapala",
       "quantity_note_pt": "40 peças/troféus de fauna; não converter em número de animais.",
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_wildlife_possession"
+      "occurrence_type": "illegal_wildlife_possession",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "NoticiasNQN",
+          "url": "https://www.noticiasnqn.com.ar/noticias/2026/10/02/355068-secuestraron-17-armas-mas-de-5000-municiones-y-40-trofeos-de-fauna-en-un-allanamiento-cerca-de-zapala",
+          "title": "NoticiasNQN",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45302,15 +45374,27 @@
       "card_text_pt": "A polícia de Satara apreendeu uma tartaruga-de-casco-mole-indiana e deteve quatro pessoas sob suspeita de posse destinada à venda ilegal.",
       "card_text_en": "Satara police seized one Indian softshell turtle and detained four people suspected of possessing it for illegal sale.",
       "card_text_es": "La policía de Satara decomisó una tortuga de caparazón blando india y detuvo a cuatro personas sospechosas de poseerla para venta ilegal.",
-      "context_pt": "[O1] A publicação é de 01/10, mas a data exata da apreensão não foi confirmada. A identificação taxonômica é preservada conforme a fonte.",
-      "context_en": "[O1] Publication was on 1 October, but the exact seizure date was not confirmed. Taxonomic identification is preserved as reported by the source.",
-      "context_es": "[O1] La publicación es del 1 de octubre, pero no se confirmó la fecha exacta del decomiso. La identificación taxonómica se conserva según la fuente.",
+      "context_pt": "Fatos documentados [O1]: A polícia de Satara apreendeu uma tartaruga-de-casco-mole-indiana e deteve quatro pessoas sob suspeita de posse destinada à venda ilegal. Leitura analítica: A publicação é de 01/10, mas a data exata da apreensão não foi confirmada. A identificação taxonômica é preservada conforme a fonte. Limites da evidência: Um indivíduo.",
+      "context_en": "Documented facts [O1]: Satara police seized one Indian softshell turtle and detained four people suspected of possessing it for illegal sale. Analytical reading: Publication was on 1 October, but the exact seizure date was not confirmed. Taxonomic identification is preserved as reported by the source. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: La policía de Satara decomisó una tortuga de caparazón blando india y detuvo a cuatro personas sospechosas de poseerla para venta ilegal. Lectura analítica: La publicación es del 1 de octubre, pero no se confirmó la fecha exacta del decomiso. La identificación taxonómica se conserva según la fuente. Límites de la evidencia: ",
       "references_text_pt": "[O1] Sakal — https://www.esakal.com/satara/satara-turtle-smuggling-case-four-held-as-indian-softshell-turtle-worth-rs-50000-seized-by-satara-taluka-police-sdj87",
       "quantity_note_pt": "Um indivíduo.",
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "alleged_illegal_wildlife_trade"
+      "occurrence_type": "alleged_illegal_wildlife_trade",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Sakal",
+          "url": "https://www.esakal.com/satara/satara-turtle-smuggling-case-four-held-as-indian-softshell-turtle-worth-rs-50000-seized-by-satara-taluka-police-sdj87",
+          "title": "Sakal",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45358,15 +45442,27 @@
       "card_text_pt": "Um veículo foi interceptado no distrito de Altaysky com carne de um corço abatido sem licença.",
       "card_text_en": "A vehicle was intercepted in Altaysky District carrying meat from one roe deer killed without a licence.",
       "card_text_es": "Un vehículo fue interceptado en el distrito de Altaysky con carne de un corzo abatido sin licencia.",
-      "context_pt": "[O1] O caso é registrado como caça ilegal. Não há comprovação de venda ou rota de tráfico e não se atribui espécie científica além do que a fonte sustenta.",
-      "context_en": "[O1] The case is recorded as illegal hunting. There is no evidence of sale or a trafficking route, and no scientific species is assigned beyond what the source supports.",
-      "context_es": "[O1] El caso se registra como caza ilegal. No hay prueba de venta ni ruta de tráfico y no se atribuye especie científica más allá de lo sustentado por la fuente.",
+      "context_pt": "Fatos documentados [O1]: Um veículo foi interceptado no distrito de Altaysky com carne de um corço abatido sem licença. Leitura analítica: O caso é registrado como caça ilegal. Não há comprovação de venda ou rota de tráfico e não se atribui espécie científica além do que a fonte sustenta. Limites da evidência: Equivalente a um animal abatido.",
+      "context_en": "Documented facts [O1]: A vehicle was intercepted in Altaysky District carrying meat from one roe deer killed without a licence. Analytical reading: The case is recorded as illegal hunting. There is no evidence of sale or a trafficking route, and no scientific species is assigned beyond what the source supports. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: Un vehículo fue interceptado en el distrito de Altaysky con carne de un corzo abatido sin licencia. Lectura analítica: El caso se registra como caza ilegal. No hay prueba de venta ni ruta de tráfico y no se atribuye especie científica más allá de lo sustentado por la fuente. Límites de la evidencia: ",
       "references_text_pt": "[O1] Katun24 — https://katun24.ru/news/856500",
       "quantity_note_pt": "Equivalente a um animal abatido.",
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_hunting"
+      "occurrence_type": "illegal_hunting",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Katun24",
+          "url": "https://katun24.ru/news/856500",
+          "title": "Katun24",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45414,16 +45510,28 @@
       "card_text_pt": "Em 15 de setembro, fiscalização registrou 16 peixes, totalizando 17,7 kg, capturados com três redes proibidas que somavam 171 metros no lago Ostrovskoye.",
       "card_text_en": "On 15 September, enforcement recorded 16 fish weighing 17.7 kg in total, caught with three prohibited nets totaling 171 metres at Lake Ostrovskoye.",
       "card_text_es": "El 15 de septiembre, la fiscalización registró 16 peces con un peso total de 17,7 kg, capturados con tres redes prohibidas que sumaban 171 metros en el lago Ostrovskoye.",
-      "context_pt": "[O1] O registro corresponde apenas a esta ocorrência de 15/09. Totais agregados de outras fiscalizações no mesmo boletim não são somados.",
-      "context_en": "[O1] This record covers only the 15 September occurrence. Aggregate totals from other enforcement actions in the same bulletin are not added.",
-      "context_es": "[O1] Este registro corresponde únicamente a la ocurrencia del 15 de septiembre. No se suman totales agregados de otras fiscalizaciones del mismo boletín.",
+      "context_pt": "Fatos documentados [O1]: Em 15 de setembro, fiscalização registrou 16 peixes, totalizando 17,7 kg, capturados com três redes proibidas que somavam 171 metros no lago Ostrovskoye. Leitura analítica: O registro corresponde apenas a esta ocorrência de 15/09. Totais agregados de outras fiscalizações no mesmo boletim não são somados. Limites da evidência: 16 indivíduos; peso total 17,7 kg; três redes e 171 m não entram na quantidade de fauna.",
+      "context_en": "Documented facts [O1]: On 15 September, enforcement recorded 16 fish weighing 17.7 kg in total, caught with three prohibited nets totaling 171 metres at Lake Ostrovskoye. Analytical reading: This record covers only the 15 September occurrence. Aggregate totals from other enforcement actions in the same bulletin are not added. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: El 15 de septiembre, la fiscalización registró 16 peces con un peso total de 17,7 kg, capturados con tres redes prohibidas que sumaban 171 metros en el lago Ostrovskoye. Lectura analítica: Este registro corresponde únicamente a la ocurrencia del 15 de septiembre. No se suman totales agregados de otras fiscalizaciones del mismo boletín. Límites de la evidencia: ",
       "references_text_pt": "[O1] Rosrybolovstvo — https://vktu.fish.gov.ru/press/svodka-rybookhrany/svodka-rybookhrany-s-21-09-2026-goda-po-28-09-2026-goda/",
       "quantity_note_pt": "16 indivíduos; peso total 17,7 kg; três redes e 171 m não entram na quantidade de fauna.",
       "quantity_mass_kg": 17.7,
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_fishing"
+      "occurrence_type": "illegal_fishing",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Rosrybolovstvo",
+          "url": "https://vktu.fish.gov.ru/press/svodka-rybookhrany/svodka-rybookhrany-s-21-09-2026-goda-po-28-09-2026-goda/",
+          "title": "Rosrybolovstvo",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "legacy_index": null,
@@ -45471,15 +45579,27 @@
       "card_text_pt": "Fiscalização em Kremenye/Stupino flagrou pesca ilegal com duas redes e apreendeu 98 peixes; foi instaurado procedimento criminal.",
       "card_text_en": "Enforcement in Kremenye/Stupino detected illegal fishing with two nets and seized 98 fish; criminal proceedings were opened.",
       "card_text_es": "La fiscalización en Kremenye/Stupino detectó pesca ilegal con dos redes y decomisó 98 peces; se inició un procedimiento penal.",
-      "context_pt": "[O1] A fonte não informa a data exata do flagrante nem destino comercial; nenhum desses elementos é inferido.",
-      "context_en": "[O1] The source does not provide the exact date of the interception or a commercial destination; neither is inferred.",
-      "context_es": "[O1] La fuente no informa la fecha exacta del flagrante ni destino comercial; ninguno de esos elementos se infiere.",
+      "context_pt": "Fatos documentados [O1]: Fiscalização em Kremenye/Stupino flagrou pesca ilegal com duas redes e apreendeu 98 peixes; foi instaurado procedimento criminal. Leitura analítica: A fonte não informa a data exata do flagrante nem destino comercial; nenhum desses elementos é inferido. Limites da evidência: 98 indivíduos; redes não entram na quantidade de fauna.",
+      "context_en": "Documented facts [O1]: Enforcement in Kremenye/Stupino detected illegal fishing with two nets and seized 98 fish; criminal proceedings were opened. Analytical reading: The source does not provide the exact date of the interception or a commercial destination; neither is inferred. Evidence limits: ",
+      "context_es": "Hechos documentados [O1]: La fiscalización en Kremenye/Stupino detectó pesca ilegal con dos redes y decomisó 98 peces; se inició un procedimiento penal. Lectura analítica: La fuente no informa la fecha exacta del flagrante ni destino comercial; ninguno de esos elementos se infiere. Límites de la evidencia: ",
       "references_text_pt": "[O1] Ohotniki — https://www.ohotniki.ru/fishing/news/2026/10/03/678027-na-oke-poymali-brakonera-s-setyami-i-sotney-ryib.html",
       "quantity_note_pt": "98 indivíduos; redes não entram na quantidade de fauna.",
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
-      "occurrence_type": "illegal_fishing"
+      "occurrence_type": "illegal_fishing",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ohotniki",
+          "url": "https://www.ohotniki.ru/fishing/news/2026/10/03/678027-na-oke-poymali-brakonera-s-setyami-i-sotney-ryib.html",
+          "title": "Ohotniki",
+          "verified": true,
+          "verified_at": "2026-10-06T00:16:00Z"
+        }
+      ],
+      "context_updated_at": "2026-10-06T00:16:00Z"
     },
     {
       "status": "VALIDATED",
