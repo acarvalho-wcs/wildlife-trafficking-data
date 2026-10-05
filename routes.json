@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T14:10:00Z",
+  "updated_at": "2026-10-05T23:58:00Z",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -6777,6 +6777,154 @@
       "evidence_es": "La noticia informa que el cargamento llegó a Calcuta en un vuelo de IndiGo procedente de Bangkok.",
       "source_label": "The Times of India",
       "source_url": "https://timesofindia.indiatimes.com/city/kolkata/rare-brazil-primates-seized-at-kol-airport/articleshow/126143853.cms"
+    },
+    {
+      "id": "pozzallo-malta-2026-10-05",
+      "event_match": {
+        "location_contains": "Pozzallo",
+        "publication_date": "2026-10-05"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Pozzallo → Malta",
+      "label_en": "Pozzallo → Malta",
+      "label_es": "Pozzallo → Malta",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto de Pozzallo",
+            "country": "Itália",
+            "lat": 36.725,
+            "lon": 14.846,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Malta",
+            "country": "Malta",
+            "lat": 35.9375,
+            "lon": 14.3754,
+            "precision": "country_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O veículo foi interceptado na área de embarque de um catamarã com destino a Malta.",
+      "evidence_en": "The vehicle was intercepted in the boarding area for a catamaran bound for Malta.",
+      "evidence_es": "El vehículo fue interceptado en el área de embarque de un catamarán con destino a Malta.",
+      "source_label": "The Guardian / Guardia di Finanza Ragusa",
+      "source_url": "https://www.theguardian.com/world/2026/oct/05/man-caught-with-tortoises-parrots-bound-malta-sicilian-port"
+    },
+    {
+      "id": "guarulhos-doha-eggs-2026-10",
+      "event_match": {
+        "location_contains": "Guarulhos",
+        "publication_date": "2026-10-05"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guarulhos → Doha",
+      "label_en": "Guarulhos → Doha",
+      "label_es": "Guarulhos → Doha",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Doha",
+            "country": "Catar",
+            "lat": 25.2854,
+            "lon": 51.531,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "O passageiro tentava embarcar para Doha, Catar, com 16 ovos de aves silvestres.",
+      "evidence_en": "The passenger was attempting to board a flight to Doha, Qatar, with 16 wild-bird eggs.",
+      "evidence_es": "El pasajero intentaba embarcar hacia Doha, Catar, con 16 huevos de aves silvestres.",
+      "source_label": "Polícia Federal do Brasil",
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos"
+    },
+    {
+      "id": "ghatanji-hyderabad-deer-trade-2026",
+      "event_match": {
+        "location_contains": "Ghatanji",
+        "publication_date": "2026-10-05"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_trade_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ghatanji → Hyderabad",
+      "label_en": "Ghatanji → Hyderabad",
+      "label_es": "Ghatanji → Hyderabad",
+      "segments": [
+        {
+          "from": {
+            "name": "Ghatanji",
+            "country": "Índia",
+            "lat": 20.14,
+            "lon": 78.31,
+            "precision": "forest_area_generalized"
+          },
+          "to": {
+            "name": "Hyderabad",
+            "country": "Índia",
+            "lat": 17.385,
+            "lon": 78.4867,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte relata intenção de vender carne e galhadas de cervo em Hyderabad; a rota é tratada como mercado pretendido, não como deslocamento concluído.",
+      "evidence_en": "The source reports an intention to sell deer meat and antlers in Hyderabad; the route is treated as an intended market, not a completed movement.",
+      "evidence_es": "La fuente informa la intención de vender carne y astas de ciervo en Hyderabad; la ruta se trata como mercado previsto, no como desplazamiento completado.",
+      "source_label": "Telangana Today",
+      "source_url": "https://telanganatoday.com/adilabad-plumber-held-for-alleged-deer-poaching-in-maharashtra"
+    },
+    {
+      "id": "howrah-mumbai-birds-2026-09-08",
+      "event_match": {
+        "location_contains": "Chhatrapati Shivaji Maharaj Terminus",
+        "publication_date": "2026-09-28"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Howrah → Mumbai",
+      "label_en": "Howrah → Mumbai",
+      "label_es": "Howrah → Mumbai",
+      "segments": [
+        {
+          "from": {
+            "name": "Howrah",
+            "country": "Índia",
+            "lat": 22.5958,
+            "lon": 88.2636,
+            "precision": "rail_station"
+          },
+          "to": {
+            "name": "Mumbai CSMT",
+            "country": "Índia",
+            "lat": 18.9398,
+            "lon": 72.8355,
+            "precision": "rail_station"
+          }
+        }
+      ],
+      "evidence_pt": "As aves foram transportadas por mais de 32 horas no Geetanjali Express desde Howrah até Mumbai.",
+      "evidence_en": "The birds were transported for more than 32 hours on the Geetanjali Express from Howrah to Mumbai.",
+      "evidence_es": "Las aves fueron transportadas durante más de 32 horas en el Geetanjali Express desde Howrah hasta Mumbai.",
+      "source_label": "PETA India / Times of India",
+      "source_url": "https://www.petaindia.com/blog/over-300-birds-rescued-from-howrah-to-csmt-train-by-peta-india/"
     }
   ],
   "network_context": [
