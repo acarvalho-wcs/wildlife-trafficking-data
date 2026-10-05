@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_617_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_618_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 617,
+  "count": 618,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -45068,6 +45068,62 @@
       "route_audited_at": "2026-10-05T14:35:00Z",
       "validation_checked_at": "2026-10-05T14:35:00Z",
       "occurrence_type": "illegal_wildlife_possession"
+    },
+    {
+      "legacy_index": null,
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "id": "2026-10__satara-indian-softshell-turtle",
+      "added_at": "2026-10-05T14:35:00Z",
+      "country": "Índia",
+      "coordinates": {
+        "lat": 17.68,
+        "lon": 74.02
+      },
+      "coordinate_precision": "city_generalized",
+      "source_label": "Sakal",
+      "source_url": "https://www.esakal.com/satara/satara-turtle-smuggling-case-four-held-as-indian-softshell-turtle-worth-rs-50000-seized-by-satara-taluka-police-sdj87",
+      "publication_date": "2026-10-01",
+      "event_date": null,
+      "event_end_date": null,
+      "event_date_precision": "unknown",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "modal_primary": "Não informado",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 1
+      },
+      "quantity_unassigned": 0,
+      "taxon_text": "1 tartaruga-de-casco-mole-indiana; identificação conforme a fonte",
+      "location_label_pt": "Satara, Maharashtra, Índia",
+      "location_label_en": "Satara, Maharashtra, India",
+      "location_label_es": "Satara, Maharashtra, India",
+      "title_pt": "Tartaruga-de-casco-mole-indiana é apreendida em Satara",
+      "title_en": "Indian softshell turtle seized in Satara",
+      "title_es": "Tortuga de caparazón blando india decomisada en Satara",
+      "fauna_label_pt": "1 tartaruga-de-casco-mole-indiana",
+      "fauna_label_en": "1 Indian softshell turtle",
+      "fauna_label_es": "1 tortuga de caparazón blando india",
+      "card_text_pt": "A polícia de Satara apreendeu uma tartaruga-de-casco-mole-indiana e deteve quatro pessoas sob suspeita de posse destinada à venda ilegal.",
+      "card_text_en": "Satara police seized one Indian softshell turtle and detained four people suspected of possessing it for illegal sale.",
+      "card_text_es": "La policía de Satara decomisó una tortuga de caparazón blando india y detuvo a cuatro personas sospechosas de poseerla para venta ilegal.",
+      "context_pt": "[O1] A publicação é de 01/10, mas a data exata da apreensão não foi confirmada. A identificação taxonômica é preservada conforme a fonte.",
+      "context_en": "[O1] Publication was on 1 October, but the exact seizure date was not confirmed. Taxonomic identification is preserved as reported by the source.",
+      "context_es": "[O1] La publicación es del 1 de octubre, pero no se confirmó la fecha exacta del decomiso. La identificación taxonómica se conserva según la fuente.",
+      "references_text_pt": "[O1] Sakal — https://www.esakal.com/satara/satara-turtle-smuggling-case-four-held-as-indian-softshell-turtle-worth-rs-50000-seized-by-satara-taluka-police-sdj87",
+      "quantity_note_pt": "Um indivíduo.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audited_at": "2026-10-05T14:35:00Z",
+      "validation_checked_at": "2026-10-05T14:35:00Z",
+      "occurrence_type": "alleged_illegal_wildlife_trade"
     }
   ]
 }
