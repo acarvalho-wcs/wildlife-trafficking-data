@@ -44,14 +44,26 @@
   "card_text_pt": "Em 15 de setembro, fiscalização registrou 16 peixes, totalizando 17,7 kg, capturados com três redes proibidas que somavam 171 metros no lago Ostrovskoye.",
   "card_text_en": "On 15 September, enforcement recorded 16 fish weighing 17.7 kg in total, caught with three prohibited nets totaling 171 metres at Lake Ostrovskoye.",
   "card_text_es": "El 15 de septiembre, la fiscalización registró 16 peces con un peso total de 17,7 kg, capturados con tres redes prohibidas que sumaban 171 metros en el lago Ostrovskoye.",
-  "context_pt": "[O1] O registro corresponde apenas a esta ocorrência de 15/09. Totais agregados de outras fiscalizações no mesmo boletim não são somados.",
-  "context_en": "[O1] This record covers only the 15 September occurrence. Aggregate totals from other enforcement actions in the same bulletin are not added.",
-  "context_es": "[O1] Este registro corresponde únicamente a la ocurrencia del 15 de septiembre. No se suman totales agregados de otras fiscalizaciones del mismo boletín.",
+  "context_pt": "Fatos documentados [O1]: Em 15 de setembro, fiscalização registrou 16 peixes, totalizando 17,7 kg, capturados com três redes proibidas que somavam 171 metros no lago Ostrovskoye. Leitura analítica: O registro corresponde apenas a esta ocorrência de 15/09. Totais agregados de outras fiscalizações no mesmo boletim não são somados. Limites da evidência: 16 indivíduos; peso total 17,7 kg; três redes e 171 m não entram na quantidade de fauna.",
+  "context_en": "Documented facts [O1]: On 15 September, enforcement recorded 16 fish weighing 17.7 kg in total, caught with three prohibited nets totaling 171 metres at Lake Ostrovskoye. Analytical reading: This record covers only the 15 September occurrence. Aggregate totals from other enforcement actions in the same bulletin are not added. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: El 15 de septiembre, la fiscalización registró 16 peces con un peso total de 17,7 kg, capturados con tres redes prohibidas que sumaban 171 metros en el lago Ostrovskoye. Lectura analítica: Este registro corresponde únicamente a la ocurrencia del 15 de septiembre. No se suman totales agregados de otras fiscalizaciones del mismo boletín. Límites de la evidencia: ",
   "references_text_pt": "[O1] Rosrybolovstvo — https://vktu.fish.gov.ru/press/svodka-rybookhrany/svodka-rybookhrany-s-21-09-2026-goda-po-28-09-2026-goda/",
   "quantity_note_pt": "16 indivíduos; peso total 17,7 kg; três redes e 171 m não entram na quantidade de fauna.",
   "quantity_mass_kg": 17.7,
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_fishing"
+  "occurrence_type": "illegal_fishing",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Rosrybolovstvo",
+      "url": "https://vktu.fish.gov.ru/press/svodka-rybookhrany/svodka-rybookhrany-s-21-09-2026-goda-po-28-09-2026-goda/",
+      "title": "Rosrybolovstvo",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

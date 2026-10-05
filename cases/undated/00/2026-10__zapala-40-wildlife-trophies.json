@@ -44,13 +44,25 @@
   "card_text_pt": "Uma busca em propriedade rural na região de Zapala resultou na apreensão de 40 peças de fauna, entre galhadas, cabeças de javali e couro de raposa.",
   "card_text_en": "A search at a rural property in the Zapala region resulted in the seizure of 40 wildlife items, including antlers, boar heads and fox hide.",
   "card_text_es": "Un allanamiento en una propiedad rural de la región de Zapala resultó en el decomiso de 40 piezas de fauna, incluidas astas, cabezas de jabalí y cuero de zorro.",
-  "context_pt": "[O1] O número 40 refere-se a peças/troféus, não a 40 animais. A fonte não informa a data exata da apreensão.",
-  "context_en": "[O1] The number 40 refers to wildlife parts/trophies, not 40 animals. The source does not report the exact seizure date.",
-  "context_es": "[O1] El número 40 se refiere a piezas/trofeos, no a 40 animales. La fuente no informa la fecha exacta del decomiso.",
+  "context_pt": "Fatos documentados [O1]: Uma busca em propriedade rural na região de Zapala resultou na apreensão de 40 peças de fauna, entre galhadas, cabeças de javali e couro de raposa. Leitura analítica: O número 40 refere-se a peças/troféus, não a 40 animais. A fonte não informa a data exata da apreensão. Limites da evidência: 40 peças/troféus de fauna; não converter em número de animais.",
+  "context_en": "Documented facts [O1]: A search at a rural property in the Zapala region resulted in the seizure of 40 wildlife items, including antlers, boar heads and fox hide. Analytical reading: The number 40 refers to wildlife parts/trophies, not 40 animals. The source does not report the exact seizure date. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Un allanamiento en una propiedad rural de la región de Zapala resultó en el decomiso de 40 piezas de fauna, incluidas astas, cabezas de jabalí y cuero de zorro. Lectura analítica: El número 40 se refiere a piezas/trofeos, no a 40 animales. La fuente no informa la fecha exacta del decomiso. Límites de la evidencia: ",
   "references_text_pt": "[O1] NoticiasNQN — https://www.noticiasnqn.com.ar/noticias/2026/10/02/355068-secuestraron-17-armas-mas-de-5000-municiones-y-40-trofeos-de-fauna-en-un-allanamiento-cerca-de-zapala",
   "quantity_note_pt": "40 peças/troféus de fauna; não converter em número de animais.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_wildlife_possession"
+  "occurrence_type": "illegal_wildlife_possession",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "NoticiasNQN",
+      "url": "https://www.noticiasnqn.com.ar/noticias/2026/10/02/355068-secuestraron-17-armas-mas-de-5000-municiones-y-40-trofeos-de-fauna-en-un-allanamiento-cerca-de-zapala",
+      "title": "NoticiasNQN",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

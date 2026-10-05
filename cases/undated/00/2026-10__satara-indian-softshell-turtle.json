@@ -44,13 +44,25 @@
   "card_text_pt": "A polícia de Satara apreendeu uma tartaruga-de-casco-mole-indiana e deteve quatro pessoas sob suspeita de posse destinada à venda ilegal.",
   "card_text_en": "Satara police seized one Indian softshell turtle and detained four people suspected of possessing it for illegal sale.",
   "card_text_es": "La policía de Satara decomisó una tortuga de caparazón blando india y detuvo a cuatro personas sospechosas de poseerla para venta ilegal.",
-  "context_pt": "[O1] A publicação é de 01/10, mas a data exata da apreensão não foi confirmada. A identificação taxonômica é preservada conforme a fonte.",
-  "context_en": "[O1] Publication was on 1 October, but the exact seizure date was not confirmed. Taxonomic identification is preserved as reported by the source.",
-  "context_es": "[O1] La publicación es del 1 de octubre, pero no se confirmó la fecha exacta del decomiso. La identificación taxonómica se conserva según la fuente.",
+  "context_pt": "Fatos documentados [O1]: A polícia de Satara apreendeu uma tartaruga-de-casco-mole-indiana e deteve quatro pessoas sob suspeita de posse destinada à venda ilegal. Leitura analítica: A publicação é de 01/10, mas a data exata da apreensão não foi confirmada. A identificação taxonômica é preservada conforme a fonte. Limites da evidência: Um indivíduo.",
+  "context_en": "Documented facts [O1]: Satara police seized one Indian softshell turtle and detained four people suspected of possessing it for illegal sale. Analytical reading: Publication was on 1 October, but the exact seizure date was not confirmed. Taxonomic identification is preserved as reported by the source. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: La policía de Satara decomisó una tortuga de caparazón blando india y detuvo a cuatro personas sospechosas de poseerla para venta ilegal. Lectura analítica: La publicación es del 1 de octubre, pero no se confirmó la fecha exacta del decomiso. La identificación taxonómica se conserva según la fuente. Límites de la evidencia: ",
   "references_text_pt": "[O1] Sakal — https://www.esakal.com/satara/satara-turtle-smuggling-case-four-held-as-indian-softshell-turtle-worth-rs-50000-seized-by-satara-taluka-police-sdj87",
   "quantity_note_pt": "Um indivíduo.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "alleged_illegal_wildlife_trade"
+  "occurrence_type": "alleged_illegal_wildlife_trade",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Sakal",
+      "url": "https://www.esakal.com/satara/satara-turtle-smuggling-case-four-held-as-indian-softshell-turtle-worth-rs-50000-seized-by-satara-taluka-police-sdj87",
+      "title": "Sakal",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

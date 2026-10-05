@@ -43,14 +43,26 @@
   "card_text_pt": "Autoridades apreenderam 347 kg de pescado transportados sem documentação e em condições inadequadas no Kilómetro 35, Golfito.",
   "card_text_en": "Authorities seized 347 kg of fish transported without documentation and under inadequate conditions at Kilómetro 35, Golfito.",
   "card_text_es": "Las autoridades decomisaron 347 kg de pescado transportados sin documentación y en condiciones inadecuadas en el Kilómetro 35, Golfito.",
-  "context_pt": "[O1] A fonte descreve deslocamento entre Río Claro e Palmar Norte. Isso não comprova origem da captura nem destino final do pescado; nenhuma rota de origem-destino da cadeia é inferida.",
-  "context_en": "[O1] The source describes movement between Río Claro and Palmar Norte. This does not establish catch origin or final destination; no origin-destination trafficking chain is inferred.",
-  "context_es": "[O1] La fuente describe desplazamiento entre Río Claro y Palmar Norte. Esto no demuestra el origen de la captura ni el destino final; no se infiere una cadena origen-destino.",
+  "context_pt": "Fatos documentados [O1]: Autoridades apreenderam 347 kg de pescado transportados sem documentação e em condições inadequadas no Kilómetro 35, Golfito. Leitura analítica: A fonte descreve deslocamento entre Río Claro e Palmar Norte. Isso não comprova origem da captura nem destino final do pescado; nenhuma rota de origem-destino da cadeia é inferida. Limites da evidência: 347 kg; número de indivíduos desconhecido.",
+  "context_en": "Documented facts [O1]: Authorities seized 347 kg of fish transported without documentation and under inadequate conditions at Kilómetro 35, Golfito. Analytical reading: The source describes movement between Río Claro and Palmar Norte. This does not establish catch origin or final destination; no origin-destination trafficking chain is inferred. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Las autoridades decomisaron 347 kg de pescado transportados sin documentación y en condiciones inadecuadas en el Kilómetro 35, Golfito. Lectura analítica: La fuente describe desplazamiento entre Río Claro y Palmar Norte. Esto no demuestra el origen de la captura ni el destino final; no se infiere una cadena origen-destino. Límites de la evidencia: ",
   "references_text_pt": "[O1] El Norte Hoy — https://elnortehoycr.com/2025/06/26/decomisan-347-kilos-de-pescado-en-golfito-por-presunto-transporte-ilegal/",
   "quantity_note_pt": "347 kg; número de indivíduos desconhecido.",
   "quantity_mass_kg": 347,
   "route_audit_status": "PARTIAL_MOVEMENT_NOT_MAPPED",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_wildlife_transport"
+  "occurrence_type": "illegal_wildlife_transport",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "El Norte Hoy",
+      "url": "https://elnortehoycr.com/2025/06/26/decomisan-347-kilos-de-pescado-en-golfito-por-presunto-transporte-ilegal/",
+      "title": "El Norte Hoy",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

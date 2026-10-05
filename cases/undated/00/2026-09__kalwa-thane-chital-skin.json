@@ -44,13 +44,25 @@
   "card_text_pt": "A polícia apreendeu uma pele de chital e deteve três pessoas sob suspeita de negociação ilegal na região de Kalwa/Thane.",
   "card_text_en": "Police seized one chital skin and detained three people suspected of illegal dealing in the Kalwa/Thane area.",
   "card_text_es": "La policía decomisó una piel de chital y detuvo a tres personas sospechosas de negociación ilegal en la zona de Kalwa/Thane.",
-  "context_pt": "[O1] A denúncia foi recebida em 29/09, mas isso não confirma a data da apreensão. As alegações de negociação ilegal permanecem atribuídas à polícia.",
-  "context_en": "[O1] The complaint was received on 29 September, but that does not establish the seizure date. Allegations of illegal dealing remain attributed to police.",
-  "context_es": "[O1] La denuncia fue recibida el 29 de septiembre, pero ello no confirma la fecha del decomiso. Las alegaciones de negociación ilegal permanecen atribuidas a la policía.",
+  "context_pt": "Fatos documentados [O1]: A polícia apreendeu uma pele de chital e deteve três pessoas sob suspeita de negociação ilegal na região de Kalwa/Thane. Leitura analítica: A denúncia foi recebida em 29/09, mas isso não confirma a data da apreensão. As alegações de negociação ilegal permanecem atribuídas à polícia. Limites da evidência: Uma pele; item de fauna, não um animal inteiro.",
+  "context_en": "Documented facts [O1]: Police seized one chital skin and detained three people suspected of illegal dealing in the Kalwa/Thane area. Analytical reading: The complaint was received on 29 September, but that does not establish the seizure date. Allegations of illegal dealing remain attributed to police. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: La policía decomisó una piel de chital y detuvo a tres personas sospechosas de negociación ilegal en la zona de Kalwa/Thane. Lectura analítica: La denuncia fue recibida el 29 de septiembre, pero ello no confirma la fecha del decomiso. Las alegaciones de negociación ilegal permanecen atribuidas a la policía. Límites de la evidencia: ",
   "references_text_pt": "[O1] Mid-day — https://www.mid-day.com/mumbai/mumbai-crime-news/article/maharashtra-wildlife-trafficking-three-arrested-in-thane-for-chital-skin-trafficking-wildlife-parts-and-car-seized-23652881",
   "quantity_note_pt": "Uma pele; item de fauna, não um animal inteiro.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_wildlife_trade"
+  "occurrence_type": "illegal_wildlife_trade",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Mid-day",
+      "url": "https://www.mid-day.com/mumbai/mumbai-crime-news/article/maharashtra-wildlife-trafficking-three-arrested-in-thane-for-chital-skin-trafficking-wildlife-parts-and-car-seized-23652881",
+      "title": "Mid-day",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

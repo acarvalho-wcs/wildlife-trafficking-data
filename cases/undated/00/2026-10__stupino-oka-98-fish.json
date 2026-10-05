@@ -44,13 +44,25 @@
   "card_text_pt": "Fiscalização em Kremenye/Stupino flagrou pesca ilegal com duas redes e apreendeu 98 peixes; foi instaurado procedimento criminal.",
   "card_text_en": "Enforcement in Kremenye/Stupino detected illegal fishing with two nets and seized 98 fish; criminal proceedings were opened.",
   "card_text_es": "La fiscalización en Kremenye/Stupino detectó pesca ilegal con dos redes y decomisó 98 peces; se inició un procedimiento penal.",
-  "context_pt": "[O1] A fonte não informa a data exata do flagrante nem destino comercial; nenhum desses elementos é inferido.",
-  "context_en": "[O1] The source does not provide the exact date of the interception or a commercial destination; neither is inferred.",
-  "context_es": "[O1] La fuente no informa la fecha exacta del flagrante ni destino comercial; ninguno de esos elementos se infiere.",
+  "context_pt": "Fatos documentados [O1]: Fiscalização em Kremenye/Stupino flagrou pesca ilegal com duas redes e apreendeu 98 peixes; foi instaurado procedimento criminal. Leitura analítica: A fonte não informa a data exata do flagrante nem destino comercial; nenhum desses elementos é inferido. Limites da evidência: 98 indivíduos; redes não entram na quantidade de fauna.",
+  "context_en": "Documented facts [O1]: Enforcement in Kremenye/Stupino detected illegal fishing with two nets and seized 98 fish; criminal proceedings were opened. Analytical reading: The source does not provide the exact date of the interception or a commercial destination; neither is inferred. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: La fiscalización en Kremenye/Stupino detectó pesca ilegal con dos redes y decomisó 98 peces; se inició un procedimiento penal. Lectura analítica: La fuente no informa la fecha exacta del flagrante ni destino comercial; ninguno de esos elementos se infiere. Límites de la evidencia: ",
   "references_text_pt": "[O1] Ohotniki — https://www.ohotniki.ru/fishing/news/2026/10/03/678027-na-oke-poymali-brakonera-s-setyami-i-sotney-ryib.html",
   "quantity_note_pt": "98 indivíduos; redes não entram na quantidade de fauna.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_fishing"
+  "occurrence_type": "illegal_fishing",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Ohotniki",
+      "url": "https://www.ohotniki.ru/fishing/news/2026/10/03/678027-na-oke-poymali-brakonera-s-setyami-i-sotney-ryib.html",
+      "title": "Ohotniki",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

@@ -44,13 +44,25 @@
   "card_text_pt": "Um veículo foi interceptado no distrito de Altaysky com carne de um corço abatido sem licença.",
   "card_text_en": "A vehicle was intercepted in Altaysky District carrying meat from one roe deer killed without a licence.",
   "card_text_es": "Un vehículo fue interceptado en el distrito de Altaysky con carne de un corzo abatido sin licencia.",
-  "context_pt": "[O1] O caso é registrado como caça ilegal. Não há comprovação de venda ou rota de tráfico e não se atribui espécie científica além do que a fonte sustenta.",
-  "context_en": "[O1] The case is recorded as illegal hunting. There is no evidence of sale or a trafficking route, and no scientific species is assigned beyond what the source supports.",
-  "context_es": "[O1] El caso se registra como caza ilegal. No hay prueba de venta ni ruta de tráfico y no se atribuye especie científica más allá de lo sustentado por la fuente.",
+  "context_pt": "Fatos documentados [O1]: Um veículo foi interceptado no distrito de Altaysky com carne de um corço abatido sem licença. Leitura analítica: O caso é registrado como caça ilegal. Não há comprovação de venda ou rota de tráfico e não se atribui espécie científica além do que a fonte sustenta. Limites da evidência: Equivalente a um animal abatido.",
+  "context_en": "Documented facts [O1]: A vehicle was intercepted in Altaysky District carrying meat from one roe deer killed without a licence. Analytical reading: The case is recorded as illegal hunting. There is no evidence of sale or a trafficking route, and no scientific species is assigned beyond what the source supports. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Un vehículo fue interceptado en el distrito de Altaysky con carne de un corzo abatido sin licencia. Lectura analítica: El caso se registra como caza ilegal. No hay prueba de venta ni ruta de tráfico y no se atribuye especie científica más allá de lo sustentado por la fuente. Límites de la evidencia: ",
   "references_text_pt": "[O1] Katun24 — https://katun24.ru/news/856500",
   "quantity_note_pt": "Equivalente a um animal abatido.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_hunting"
+  "occurrence_type": "illegal_hunting",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Katun24",
+      "url": "https://katun24.ru/news/856500",
+      "title": "Katun24",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

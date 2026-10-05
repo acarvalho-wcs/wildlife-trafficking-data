@@ -44,14 +44,26 @@
   "card_text_pt": "Fiscalização com apoio de drone detectou pesca ilegal no distrito de Kabansky e apreendeu 34 peixes omul-do-Baikal, totalizando 22 kg.",
   "card_text_en": "Enforcement using a drone detected illegal fishing in Kabansky District and seized 34 Baikal omul weighing 22 kg in total.",
   "card_text_es": "Una fiscalización apoyada por dron detectó pesca ilegal en el distrito de Kabansky y decomisó 34 peces omul del Baikal, con un peso total de 22 kg.",
-  "context_pt": "[O1] Os 34 peixes e os 22 kg descrevem a mesma apreensão e não devem ser duplicados nos totais.",
-  "context_en": "[O1] The 34 fish and 22 kg describe the same seizure and must not be double-counted.",
-  "context_es": "[O1] Los 34 peces y los 22 kg describen el mismo decomiso y no deben duplicarse en los totales.",
+  "context_pt": "Fatos documentados [O1]: Fiscalização com apoio de drone detectou pesca ilegal no distrito de Kabansky e apreendeu 34 peixes omul-do-Baikal, totalizando 22 kg. Leitura analítica: Os 34 peixes e os 22 kg descrevem a mesma apreensão e não devem ser duplicados nos totais. Limites da evidência: 34 indivíduos; peso total 22 kg.",
+  "context_en": "Documented facts [O1]: Enforcement using a drone detected illegal fishing in Kabansky District and seized 34 Baikal omul weighing 22 kg in total. Analytical reading: The 34 fish and 22 kg describe the same seizure and must not be double-counted. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Una fiscalización apoyada por dron detectó pesca ilegal en el distrito de Kabansky y decomisó 34 peces omul del Baikal, con un peso total de 22 kg. Lectura analítica: Los 34 peces y los 22 kg describen el mismo decomiso y no deben duplicarse en los totales. Límites de la evidencia: ",
   "references_text_pt": "[O1] Fishnews — https://fishnews.ru/news/56397",
   "quantity_note_pt": "34 indivíduos; peso total 22 kg.",
   "quantity_mass_kg": 22,
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_fishing"
+  "occurrence_type": "illegal_fishing",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Fishnews",
+      "url": "https://fishnews.ru/news/56397",
+      "title": "Fishnews",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }

@@ -44,13 +44,25 @@
   "card_text_pt": "Um macaco foi encontrado em uma embarcação interceptada ao sul de Punta Salinas durante operação que também apreendeu pacotes de substância suspeita de cocaína.",
   "card_text_en": "A monkey was found aboard a vessel intercepted south of Punta Salinas during an operation that also seized packages of suspected cocaine.",
   "card_text_es": "Un mono fue encontrado en una embarcación interceptada al sur de Punta Salinas durante una operación que también decomisó paquetes de sustancia sospechosa de cocaína.",
-  "context_pt": "[O1] A espécie não foi confirmada. A presença simultânea de fauna e possível droga não comprova, por si só, uma rede integrada de tráfico de fauna e narcóticos.",
-  "context_en": "[O1] The species was not confirmed. The simultaneous presence of wildlife and suspected drugs does not by itself establish an integrated wildlife-and-narcotics trafficking network.",
-  "context_es": "[O1] La especie no fue confirmada. La presencia simultánea de fauna y presunta droga no demuestra por sí sola una red integrada de tráfico de fauna y narcóticos.",
+  "context_pt": "Fatos documentados [O1]: Um macaco foi encontrado em uma embarcação interceptada ao sul de Punta Salinas durante operação que também apreendeu pacotes de substância suspeita de cocaína. Leitura analítica: A espécie não foi confirmada. A presença simultânea de fauna e possível droga não comprova, por si só, uma rede integrada de tráfico de fauna e narcóticos. Limites da evidência: Um indivíduo; espécie não confirmada.",
+  "context_en": "Documented facts [O1]: A monkey was found aboard a vessel intercepted south of Punta Salinas during an operation that also seized packages of suspected cocaine. Analytical reading: The species was not confirmed. The simultaneous presence of wildlife and suspected drugs does not by itself establish an integrated wildlife-and-narcotics trafficking network. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Un mono fue encontrado en una embarcación interceptada al sur de Punta Salinas durante una operación que también decomisó paquetes de sustancia sospechosa de cocaína. Lectura analítica: La especie no fue confirmada. La presencia simultánea de fauna y presunta droga no demuestra por sí sola una red integrada de tráfico de fauna y narcóticos. Límites de la evidencia: ",
   "references_text_pt": "[O1] Diario Libre — https://www.diariolibre.com/actualidad/justicia/2026/10/04/un-mono-exotico-y-749-paquetes-de-presunta-cocaina-fueron-ocupados/3678380",
   "quantity_note_pt": "Um indivíduo; espécie não confirmada.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "wildlife_seizure_associated_with_other_crime"
+  "occurrence_type": "wildlife_seizure_associated_with_other_crime",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Diario Libre",
+      "url": "https://www.diariolibre.com/actualidad/justicia/2026/10/04/un-mono-exotico-y-749-paquetes-de-presunta-cocaina-fueron-ocupados/3678380",
+      "title": "Diario Libre",
+      "verified": true,
+      "verified_at": "2026-10-06T00:16:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:16:00Z"
 }
