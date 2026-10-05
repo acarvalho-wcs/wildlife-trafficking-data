@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_603_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_604_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 603,
+  "count": 604,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -44286,6 +44286,62 @@
       "route_audited_at": "2026-10-05T14:10:00Z",
       "occurrence_type": "wildlife_theft_recovery",
       "validation_checked_at": "2026-10-05T14:10:00Z"
+    },
+    {
+      "legacy_index": null,
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "id": "2026-09-30__franca-four-wild-birds",
+      "added_at": "2026-10-05T14:35:00Z",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -20.5386,
+        "lon": -47.4008
+      },
+      "coordinate_precision": "city_generalized",
+      "source_label": "Sampi / GCN",
+      "source_url": "https://sampi.net.br/franca/noticias/amp/3008434/franca-e-regiao/2026/10/filhotes-de-papagaios-sao-encontrados-dentro-de-mochila-em-franca",
+      "publication_date": "2026-10-01",
+      "event_date": "2026-09-30",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "modal_primary": "Terrestre",
+      "quantity_count": 4,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 4
+      },
+      "quantity_unassigned": 0,
+      "taxon_text": "3 filhotes de papagaio-verdadeiro e 1 canário-da-terra; nomes científicos não confirmados pela fonte",
+      "location_label_pt": "Franca (SP), Brasil",
+      "location_label_en": "Franca, São Paulo, Brazil",
+      "location_label_es": "Franca, São Paulo, Brasil",
+      "title_pt": "Quatro aves silvestres são apreendidas em ocorrência vinculada em Franca",
+      "title_en": "Four wild birds seized in linked occurrence in Franca",
+      "title_es": "Cuatro aves silvestres decomisadas en una ocurrencia vinculada en Franca",
+      "fauna_label_pt": "3 filhotes de papagaio-verdadeiro + 1 canário-da-terra",
+      "fauna_label_en": "3 juvenile true parrots + 1 saffron finch",
+      "fauna_label_es": "3 pichones de loro verdadero + 1 canario de tejado",
+      "card_text_pt": "Em 30 de setembro, três filhotes de papagaio-verdadeiro foram encontrados em uma mochila e um canário-da-terra foi localizado em residência na mesma ocorrência em Franca.",
+      "card_text_en": "On 30 September, three juvenile true parrots were found in a backpack and one saffron finch was found at a residence in the same occurrence in Franca.",
+      "card_text_es": "El 30 de septiembre, tres pichones de loro verdadero fueron encontrados en una mochila y un canario de tejado en una residencia dentro de la misma ocurrencia en Franca.",
+      "context_pt": "[O1] A ocorrência reúne quatro aves no mesmo procedimento. O encaminhamento ao CETRAS é manejo pós-apreensão e não constitui rota de tráfico.",
+      "context_en": "[O1] The occurrence combines four birds in the same enforcement procedure. Transfer to CETRAS is post-seizure handling and does not constitute a trafficking route.",
+      "context_es": "[O1] La ocurrencia reúne cuatro aves en el mismo procedimiento. El traslado al CETRAS es manejo posterior al decomiso y no constituye una ruta de tráfico.",
+      "references_text_pt": "[O1] Sampi / GCN — https://sampi.net.br/franca/noticias/amp/3008434/franca-e-regiao/2026/10/filhotes-de-papagaios-sao-encontrados-dentro-de-mochila-em-franca",
+      "quantity_note_pt": "Quatro aves no mesmo evento; não separar o encaminhamento ao CETRAS como nova ocorrência.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audited_at": "2026-10-05T14:35:00Z",
+      "validation_checked_at": "2026-10-05T14:35:00Z",
+      "occurrence_type": "illegal_wildlife_possession_transport"
     }
   ]
 }
