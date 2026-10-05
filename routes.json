@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T17:58:00Z",
-  "audited_through": "2026-10-04T18:30:00Z",
+  "updated_at": "2026-10-05T14:10:00Z",
+  "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -6653,6 +6653,130 @@
       "evidence_es": "La fuente vincula los 10 huevos interceptados en Río de Janeiro con un caso cuyo destino era Ginebra. La especie específica de los huevos no está confirmada.",
       "source_label": "Correio Braziliense — Operação Oxóssi",
       "source_url": "https://www.correiobraziliense.com.br/app/noticia/brasil/2009/03/15/interna-brasil%2C88872/operacao-oxossi-tcheco-tambem-estava-envolvido-com-trafico-de-mulheres.shtml"
+    },
+    {
+      "id": "cabo-frio-duque-de-caxias-glt-2020-08-15",
+      "event_match": {
+        "event_id": "2020-08-15__cabo-frio-two-golden-lion-tamarins"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Cabo Frio → Duque de Caxias (venda pretendida)",
+      "label_en": "Cabo Frio → Duque de Caxias (intended sale)",
+      "label_es": "Cabo Frio → Duque de Caxias (venta prevista)",
+      "segments": [
+        {
+          "from": {
+            "name": "Cabo Frio",
+            "country": "Brasil",
+            "lat": -22.8792,
+            "lon": -42.0189,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Duque de Caxias",
+            "country": "Brasil",
+            "lat": -22.7856,
+            "lon": -43.3117,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que os dois micos seriam levados de Cabo Frio para venda em uma feira de Duque de Caxias.",
+      "evidence_en": "The source states that the two tamarins were to be taken from Cabo Frio for sale at a market in Duque de Caxias.",
+      "evidence_es": "La fuente informa que los dos titíes serían llevados desde Cabo Frio para su venta en una feria de Duque de Caxias.",
+      "source_label": "Fauna News",
+      "source_url": "https://faunanews.com.br/novos-casos-de-trafico-de-araras-azuis-grandes-e-micos-leoes-dourados-deixam-ambientalistas-em-alerta/"
+    },
+    {
+      "id": "belo-horizonte-porto-velho-pacaraima-glt-2024-08-07",
+      "event_match": {
+        "event_id": "2024-08-07__porto-velho-eight-golden-lion-tamarins"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "attributed_transport_itinerary",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Belo Horizonte → Porto Velho → Pacaraima",
+      "label_en": "Belo Horizonte → Porto Velho → Pacaraima",
+      "label_es": "Belo Horizonte → Porto Velho → Pacaraima",
+      "segments": [
+        {
+          "from": {
+            "name": "Belo Horizonte",
+            "country": "Brasil",
+            "lat": -19.9167,
+            "lon": -43.9345,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Porto Velho",
+            "country": "Brasil",
+            "lat": -8.7612,
+            "lon": -63.9004,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Porto Velho",
+            "country": "Brasil",
+            "lat": -8.7612,
+            "lon": -63.9004,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Pacaraima",
+            "country": "Brasil",
+            "lat": 4.4799,
+            "lon": -61.1477,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo a PRF, o motorista declarou ter recebido os animais em Belo Horizonte e que deveria entregá-los em Pacaraima; a apreensão ocorreu em Porto Velho.",
+      "evidence_en": "According to Federal Highway Police, the driver stated that he had received the animals in Belo Horizonte and was to deliver them in Pacaraima; the seizure occurred in Porto Velho.",
+      "evidence_es": "Según la Policía Federal de Carreteras, el conductor declaró haber recibido los animales en Belo Horizonte y que debía entregarlos en Pacaraima; el decomiso ocurrió en Porto Velho.",
+      "source_label": "Polícia Rodoviária Federal",
+      "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/rondonia/2024/agosto/prf-resgata-animais-silvestres-ameacados-de-extincao-em-porto-velho-ro"
+    },
+    {
+      "id": "bangkok-kolkata-glt-2025-12-22",
+      "event_match": {
+        "event_id": "2025-12-22__kolkata-two-golden-lion-tamarins-bangkok-flight"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_trafficking_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Kolkata",
+      "label_en": "Bangkok → Kolkata",
+      "label_es": "Bangkok → Calcuta",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.75,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Kolkata",
+            "country": "Índia",
+            "lat": 22.6547,
+            "lon": 88.4467,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A reportagem informa que a remessa chegou a Kolkata em voo da IndiGo procedente de Bangkok.",
+      "evidence_en": "The report states that the consignment arrived in Kolkata on an IndiGo flight from Bangkok.",
+      "evidence_es": "La noticia informa que el cargamento llegó a Calcuta en un vuelo de IndiGo procedente de Bangkok.",
+      "source_label": "The Times of India",
+      "source_url": "https://timesofindia.indiatimes.com/city/kolkata/rare-brazil-primates-seized-at-kol-airport/articleshow/126143853.cms"
     }
   ],
   "network_context": [
