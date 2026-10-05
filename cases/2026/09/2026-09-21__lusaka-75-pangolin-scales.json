@@ -44,13 +44,25 @@
   "card_text_pt": "Dois acusados compareceram em tribunal em Lusaka em processo relacionado à alegada posse ilegal de 75 escamas de pangolim em 21 de setembro.",
   "card_text_en": "Two defendants appeared in court in Lusaka in a case concerning alleged illegal possession of 75 pangolin scales on 21 September.",
   "card_text_es": "Dos acusados comparecieron ante un tribunal en Lusaka en un caso relacionado con la presunta posesión ilegal de 75 escamas de pangolín el 21 de septiembre.",
-  "context_pt": "[O1] O registro deriva de cobertura judicial. Os acusados negaram a imputação. As 75 unidades são escamas, não 75 animais, e nenhuma rota é inferida a partir da nacionalidade dos acusados.",
-  "context_en": "[O1] The record derives from court reporting. The defendants denied the allegation. The 75 units are scales, not 75 animals, and no route is inferred from the defendants' nationality.",
-  "context_es": "[O1] El registro proviene de cobertura judicial. Los acusados negaron la imputación. Las 75 unidades son escamas, no 75 animales, y no se infiere ninguna ruta a partir de la nacionalidad de los acusados.",
+  "context_pt": "Fatos documentados [O1]: Dois acusados compareceram em tribunal em Lusaka em processo relacionado à alegada posse ilegal de 75 escamas de pangolim em 21 de setembro. Leitura analítica: O registro deriva de cobertura judicial. Os acusados negaram a imputação. As 75 unidades são escamas, não 75 animais, e nenhuma rota é inferida a partir da nacionalidade dos acusados. Limites da evidência: 75 itens de fauna (escamas); não converter em número de pangolins.",
+  "context_en": "Documented facts [O1]: Two defendants appeared in court in Lusaka in a case concerning alleged illegal possession of 75 pangolin scales on 21 September. Analytical reading: The record derives from court reporting. The defendants denied the allegation. The 75 units are scales, not 75 animals, and no route is inferred from the defendants' nationality. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Dos acusados comparecieron ante un tribunal en Lusaka en un caso relacionado con la presunta posesión ilegal de 75 escamas de pangolín el 21 de septiembre. Lectura analítica: El registro proviene de cobertura judicial. Los acusados negaron la imputación. Las 75 unidades son escamas, no 75 animales, y no se infiere ninguna ruta a partir de la nacionalidad de los acusados. Límites de la evidencia: ",
   "references_text_pt": "[O1] Zambia Monitor — https://www.zambiamonitor.com/two-chinese-nationals-in-court-over-75-pangolin-scales/",
   "quantity_note_pt": "75 itens de fauna (escamas); não converter em número de pangolins.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "alleged_illegal_wildlife_possession"
+  "occurrence_type": "alleged_illegal_wildlife_possession",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Zambia Monitor",
+      "url": "https://www.zambiamonitor.com/two-chinese-nationals-in-court-over-75-pangolin-scales/",
+      "title": "Zambia Monitor",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z"
 }

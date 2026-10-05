@@ -42,13 +42,26 @@
   "card_text_pt": "Em 23 de novembro de 2023, dois micos-leões-dourados foram entregues a um veterinário em Paramaribo por um homem que alegou tê-los encontrado após a derrubada de uma árvore. Ambos morreram poucos dias depois. A espécie não ocorre naturalmente no Suriname.",
   "card_text_en": "On 23 November 2023, two golden lion tamarins were handed to a veterinarian in Paramaribo by a man who claimed they had fallen from a felled tree. Both died a few days later. The species does not naturally occur in Suriname.",
   "card_text_es": "El 23 de noviembre de 2023, dos titíes león dorados fueron entregados a un veterinario en Paramaribo por un hombre que afirmó que habían caído de un árbol talado. Ambos murieron pocos días después. La especie no ocurre de forma natural en Surinam.",
-  "context_pt": "[O1] A explicação apresentada pelo entregador é registrada como alegação, não como fato validado. A ocorrência fora da distribuição natural da espécie é relevante para o tráfico, mas não permite inferir origem, rota ou vínculo com a apreensão de julho de 2023.",
-  "context_en": "[O1] The explanation given by the person handing over the animals is recorded as a claim, not a verified fact. Occurrence outside the species' natural range is relevant to trafficking analysis but does not justify inferring origin, route or linkage to the July 2023 seizure.",
-  "context_es": "[O1] La explicación dada por la persona que entregó los animales se registra como alegación, no como hecho verificado. La presencia fuera del área natural de la especie es relevante para el análisis del tráfico, pero no permite inferir origen, ruta ni vínculo con el decomiso de julio de 2023.",
+  "context_pt": "Fatos documentados [O1]: Em 23 de novembro de 2023, dois micos-leões-dourados foram entregues a um veterinário em Paramaribo por um homem que alegou tê-los encontrado após a derrubada de uma árvore. Ambos morreram poucos dias depois. A espécie não ocorre naturalmente no Suriname. Leitura analítica: A explicação apresentada pelo entregador é registrada como alegação, não como fato validado. A ocorrência fora da distribuição natural da espécie é relevante para o tráfico, mas não permite inferir origem, rota ou vínculo com a apreensão de julho de 2023. Limites da evidência: Dois indivíduos; ambos morreram poucos dias depois.",
+  "context_en": "Documented facts [O1]: On 23 November 2023, two golden lion tamarins were handed to a veterinarian in Paramaribo by a man who claimed they had fallen from a felled tree. Both died a few days later. The species does not naturally occur in Suriname. Analytical reading: The explanation given by the person handing over the animals is recorded as a claim, not a verified fact. Occurrence outside the species' natural range is relevant to trafficking analysis but does not justify inferring origin, route or linkage to the July 2023 seizure. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: El 23 de noviembre de 2023, dos titíes león dorados fueron entregados a un veterinario en Paramaribo por un hombre que afirmó que habían caído de un árbol talado. Ambos murieron pocos días después. La especie no ocurre de forma natural en Surinam. Lectura analítica: La explicación dada por la persona que entregó los animales se registra como alegación, no como hecho verificado. La presencia fuera del área natural de la especie es relevante para el análisis del tráfico, pero no permite inferir origen, ruta ni vínculo con el decomiso de julio de 2023. Límites de la evidencia: ",
   "references_text_pt": "[O1] Robin des Bois — On the Trail No. 43 — https://robindesbois.org/wp-content/uploads/ON_THE_TRAIL_43.pdf",
   "quantity_note_pt": "Dois indivíduos; ambos morreram poucos dias depois.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:10:00Z",
   "occurrence_type": "suspected_wildlife_trafficking_case",
-  "validation_checked_at": "2026-10-05T14:10:00Z"
+  "validation_checked_at": "2026-10-05T14:10:00Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Robin des Bois — On the Trail No. 43",
+      "url": "https://robindesbois.org/wp-content/uploads/ON_THE_TRAIL_43.pdf",
+      "title": "Robin des Bois — On the Trail No. 43",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z",
+  "case_context_status": "PT_EN_ES_COMPLETE"
 }

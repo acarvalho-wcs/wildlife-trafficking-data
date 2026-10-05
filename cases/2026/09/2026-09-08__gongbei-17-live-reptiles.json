@@ -44,13 +44,25 @@
   "card_text_pt": "Autoridades interceptaram 17 répteis vivos, sendo 13 serpentes e quatro lagartos, transportados em seis recipientes plásticos no posto de Gongbei.",
   "card_text_en": "Authorities intercepted 17 live reptiles—13 snakes and four lizards—transported in six plastic containers at the Gongbei checkpoint.",
   "card_text_es": "Las autoridades interceptaron 17 reptiles vivos —13 serpientes y cuatro lagartos— transportados en seis recipientes plásticos en el puesto de Gongbei.",
-  "context_pt": "[O1] Apenas táxons e percurso explicitamente sustentados pela fonte devem ser registrados; não se infere origem biogeográfica como origem da carga.",
-  "context_en": "[O1] Only taxa and movement explicitly supported by the source should be recorded; biogeographic origin is not inferred as shipment origin.",
-  "context_es": "[O1] Solo se registran los taxones y el recorrido expresamente sustentados por la fuente; no se infiere el origen biogeográfico como origen de la carga.",
+  "context_pt": "Fatos documentados [O1]: Autoridades interceptaram 17 répteis vivos, sendo 13 serpentes e quatro lagartos, transportados em seis recipientes plásticos no posto de Gongbei. Leitura analítica: Apenas táxons e percurso explicitamente sustentados pela fonte devem ser registrados; não se infere origem biogeográfica como origem da carga. Limites da evidência: 17 indivíduos em seis recipientes; recipientes não entram na quantidade de fauna.",
+  "context_en": "Documented facts [O1]: Authorities intercepted 17 live reptiles—13 snakes and four lizards—transported in six plastic containers at the Gongbei checkpoint. Analytical reading: Only taxa and movement explicitly supported by the source should be recorded; biogeographic origin is not inferred as shipment origin. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Las autoridades interceptaron 17 reptiles vivos —13 serpientes y cuatro lagartos— transportados en seis recipientes plásticos en el puesto de Gongbei. Lectura analítica: Solo se registran los taxones y el recorrido expresamente sustentados por la fuente; no se infiere el origen biogeográfico como origen de la carga. Límites de la evidencia: ",
   "references_text_pt": "[O1] Sina / Huanqiu — https://finance.sina.com.cn/roll/2026-10-03/doc-initwzsi4083666.shtml",
   "quantity_note_pt": "17 indivíduos em seis recipientes; recipientes não entram na quantidade de fauna.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_wildlife_transport"
+  "occurrence_type": "illegal_wildlife_transport",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Sina / Huanqiu",
+      "url": "https://finance.sina.com.cn/roll/2026-10-03/doc-initwzsi4083666.shtml",
+      "title": "Sina / Huanqiu",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z"
 }

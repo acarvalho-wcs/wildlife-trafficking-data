@@ -42,14 +42,26 @@
   "card_text_pt": "A Polícia Ambiental encontrou aproximadamente 30 kg de carne de animais silvestres em um veículo durante ação contra caça ilegal em Caçador.",
   "card_text_en": "Environmental Police found approximately 30 kg of wild-animal meat in a vehicle during an anti-poaching action in Caçador.",
   "card_text_es": "La Policía Ambiental encontró aproximadamente 30 kg de carne de animales silvestres en un vehículo durante una acción contra la caza ilegal en Caçador.",
-  "context_pt": "[O1] As espécies não foram identificadas. Cães apreendidos na operação não entram na quantidade de fauna silvestre.",
-  "context_en": "[O1] Species were not identified. Dogs seized during the operation are not counted as wildlife.",
-  "context_es": "[O1] No se identificaron las especies. Los perros incautados en la operación no se contabilizan como fauna silvestre.",
+  "context_pt": "Fatos documentados [O1]: A Polícia Ambiental encontrou aproximadamente 30 kg de carne de animais silvestres em um veículo durante ação contra caça ilegal em Caçador. Leitura analítica: As espécies não foram identificadas. Cães apreendidos na operação não entram na quantidade de fauna silvestre. Limites da evidência: Aproximadamente 30 kg; número de indivíduos desconhecido.",
+  "context_en": "Documented facts [O1]: Environmental Police found approximately 30 kg of wild-animal meat in a vehicle during an anti-poaching action in Caçador. Analytical reading: Species were not identified. Dogs seized during the operation are not counted as wildlife. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: La Policía Ambiental encontró aproximadamente 30 kg de carne de animales silvestres en un vehículo durante una acción contra la caza ilegal en Caçador. Lectura analítica: No se identificaron las especies. Los perros incautados en la operación no se contabilizan como fauna silvestre. Límites de la evidencia: ",
   "references_text_pt": "[O1] ClicRDC — https://clicrdc.com.br/seguranca-publica/policia-ambiental-apreende-30-quilos-de-carne-de-animais-silvestres-e-municoes-em-sc/",
   "quantity_note_pt": "Aproximadamente 30 kg; número de indivíduos desconhecido.",
   "quantity_mass_kg": 30,
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_hunting_and_wildlife_possession"
+  "occurrence_type": "illegal_hunting_and_wildlife_possession",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "ClicRDC",
+      "url": "https://clicrdc.com.br/seguranca-publica/policia-ambiental-apreende-30-quilos-de-carne-de-animais-silvestres-e-municoes-em-sc/",
+      "title": "ClicRDC",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z"
 }

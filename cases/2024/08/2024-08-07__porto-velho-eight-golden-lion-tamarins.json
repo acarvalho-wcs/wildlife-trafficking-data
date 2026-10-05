@@ -42,13 +42,26 @@
   "card_text_pt": "A PRF encontrou oito micos-leões-dourados e três saguis-de-tufos-pretos em um veículo na BR-364. O motorista declarou que havia recebido os animais em Belo Horizonte e deveria entregá-los em Pacaraima, recebendo cerca de R$ 25 mil pelo transporte.",
   "card_text_en": "Federal Highway Police found eight golden lion tamarins and three black-tufted marmosets in a vehicle on BR-364. The driver stated that he had picked up the animals in Belo Horizonte and was to deliver them in Pacaraima for about R$25,000.",
   "card_text_es": "La Policía Federal de Carreteras encontró ocho titíes león dorados y tres titíes de penacho negro en un vehículo en la BR-364. El conductor declaró que había recogido los animales en Belo Horizonte y debía entregarlos en Pacaraima por unos R$25.000.",
-  "context_pt": "[O1] A origem operacional em Belo Horizonte e o destino declarado em Pacaraima são informações atribuídas ao motorista pela PRF. O itinerário é documentado como declaração do transportador e não como reconstrução independente da rede. Os oito micos são contados separadamente dos três saguis.",
-  "context_en": "[O1] The operational origin in Belo Horizonte and declared destination in Pacaraima are attributed by Federal Highway Police to the driver's statement. The itinerary is documented as the transporter's account, not as an independent reconstruction of the network. The eight tamarins are counted separately from the three marmosets.",
-  "context_es": "[O1] El origen operativo en Belo Horizonte y el destino declarado en Pacaraima son datos atribuidos por la PRF a la declaración del conductor. El itinerario se documenta como relato del transportista, no como reconstrucción independiente de la red. Los ocho titíes se cuentan por separado de los tres saguis.",
+  "context_pt": "Fatos documentados [O1]: A PRF encontrou oito micos-leões-dourados e três saguis-de-tufos-pretos em um veículo na BR-364. O motorista declarou que havia recebido os animais em Belo Horizonte e deveria entregá-los em Pacaraima, recebendo cerca de R$ 25 mil pelo transporte. Leitura analítica: A origem operacional em Belo Horizonte e o destino declarado em Pacaraima são informações atribuídas ao motorista pela PRF. O itinerário é documentado como declaração do transportador e não como reconstrução independente da rede. Os oito micos são contados separadamente dos três saguis. Limites da evidência: Oito *Leontopithecus rosalia*; o veículo também transportava três *Callithrix penicillata*, não somados neste registro.",
+  "context_en": "Documented facts [O1]: Federal Highway Police found eight golden lion tamarins and three black-tufted marmosets in a vehicle on BR-364. The driver stated that he had picked up the animals in Belo Horizonte and was to deliver them in Pacaraima for about R$25,000. Analytical reading: The operational origin in Belo Horizonte and declared destination in Pacaraima are attributed by Federal Highway Police to the driver's statement. The itinerary is documented as the transporter's account, not as an independent reconstruction of the network. The eight tamarins are counted separately from the three marmosets. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: La Policía Federal de Carreteras encontró ocho titíes león dorados y tres titíes de penacho negro en un vehículo en la BR-364. El conductor declaró que había recogido los animales en Belo Horizonte y debía entregarlos en Pacaraima por unos R$25.000. Lectura analítica: El origen operativo en Belo Horizonte y el destino declarado en Pacaraima son datos atribuidos por la PRF a la declaración del conductor. El itinerario se documenta como relato del transportista, no como reconstrucción independiente de la red. Los ocho titíes se cuentan por separado de los tres saguis. Límites de la evidencia: ",
   "references_text_pt": "[O1] Polícia Rodoviária Federal — https://www.gov.br/prf/pt-br/noticias/estaduais/rondonia/2024/agosto/prf-resgata-animais-silvestres-ameacados-de-extincao-em-porto-velho-ro",
   "quantity_note_pt": "Oito *Leontopithecus rosalia*; o veículo também transportava três *Callithrix penicillata*, não somados neste registro.",
   "route_audit_status": "DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:10:00Z",
   "occurrence_type": "wildlife_trafficking_seizure",
-  "validation_checked_at": "2026-10-05T14:10:00Z"
+  "validation_checked_at": "2026-10-05T14:10:00Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polícia Rodoviária Federal",
+      "url": "https://www.gov.br/prf/pt-br/noticias/estaduais/rondonia/2024/agosto/prf-resgata-animais-silvestres-ameacados-de-extincao-em-porto-velho-ro",
+      "title": "Polícia Rodoviária Federal",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z",
+  "case_context_status": "PT_EN_ES_COMPLETE"
 }

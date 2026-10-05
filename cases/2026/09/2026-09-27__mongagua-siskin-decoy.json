@@ -44,13 +44,25 @@
   "card_text_pt": "Uma fêmea de pintassilgo mantida em gaiola como isca para capturar outras aves foi resgatada pelo GEPAM em Mongaguá.",
   "card_text_en": "A female siskin kept in a cage as a decoy to capture other birds was rescued by GEPAM in Mongaguá.",
   "card_text_es": "Una hembra de jilguero mantenida en jaula como señuelo para capturar otras aves fue rescatada por GEPAM en Mongaguá.",
-  "context_pt": "[O1] O caso é registrado como captura/cativeiro ilegal. A fonte não sustenta rota comercial e nenhuma é inferida.",
-  "context_en": "[O1] The case is recorded as illegal capture/captivity. The source does not support a commercial route and none is inferred.",
-  "context_es": "[O1] El caso se registra como captura/cautiverio ilegal. La fuente no sustenta una ruta comercial y no se infiere ninguna.",
+  "context_pt": "Fatos documentados [O1]: Uma fêmea de pintassilgo mantida em gaiola como isca para capturar outras aves foi resgatada pelo GEPAM em Mongaguá. Leitura analítica: O caso é registrado como captura/cativeiro ilegal. A fonte não sustenta rota comercial e nenhuma é inferida. Limites da evidência: Um indivíduo.",
+  "context_en": "Documented facts [O1]: A female siskin kept in a cage as a decoy to capture other birds was rescued by GEPAM in Mongaguá. Analytical reading: The case is recorded as illegal capture/captivity. The source does not support a commercial route and none is inferred. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Una hembra de jilguero mantenida en jaula como señuelo para capturar otras aves fue rescatada por GEPAM en Mongaguá. Lectura analítica: El caso se registra como captura/cautiverio ilegal. La fuente no sustenta una ruta comercial y no se infiere ninguna. Límites de la evidencia: ",
   "references_text_pt": "[O1] Costa Norte — https://costanorte.com.br/seguranca/pintassilgo-usado-como-isca-em-armadilha-e-resgatado-e-solto-na-natureza-em-mongagua.html",
   "quantity_note_pt": "Um indivíduo.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_capture_and_captivity"
+  "occurrence_type": "illegal_capture_and_captivity",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Costa Norte",
+      "url": "https://costanorte.com.br/seguranca/pintassilgo-usado-como-isca-em-armadilha-e-resgatado-e-solto-na-natureza-em-mongagua.html",
+      "title": "Costa Norte",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z"
 }

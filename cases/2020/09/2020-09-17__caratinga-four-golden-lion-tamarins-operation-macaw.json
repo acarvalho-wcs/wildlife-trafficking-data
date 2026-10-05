@@ -42,13 +42,26 @@
   "card_text_pt": "Na Operação Macaw, três micos-leões-dourados foram apreendidos em 17 de setembro de 2020 em um zoológico irregular em Caratinga. Um quarto animal que havia escapado foi recuperado em 30 de setembro em cativeiro irregular.",
   "card_text_en": "During Operation Macaw, three golden lion tamarins were seized on 17 September 2020 at an irregular zoo in Caratinga. A fourth animal that had escaped was recovered on 30 September from irregular captivity.",
   "card_text_es": "Durante la Operación Macaw, tres titíes león dorados fueron decomisados el 17 de septiembre de 2020 en un zoológico irregular de Caratinga. Un cuarto animal que había escapado fue recuperado el 30 de septiembre en cautiverio irregular.",
-  "context_pt": "[O1] O registro consolida a mesma operação e localidade: três animais apreendidos em 17/09 e o quarto recuperado em 30/09. A fonte não documenta origem, destino ou percurso de transporte, portanto nenhuma rota é inferida.",
-  "context_en": "[O1] This record consolidates the same operation and locality: three animals seized on 17 September and the fourth recovered on 30 September. The source does not document origin, destination or a transport itinerary, so no route is inferred.",
-  "context_es": "[O1] Este registro consolida la misma operación y localidad: tres animales decomisados el 17 de septiembre y el cuarto recuperado el 30 de septiembre. La fuente no documenta origen, destino ni recorrido de transporte, por lo que no se infiere ninguna ruta.",
+  "context_pt": "Fatos documentados [O1]: Na Operação Macaw, três micos-leões-dourados foram apreendidos em 17 de setembro de 2020 em um zoológico irregular em Caratinga. Um quarto animal que havia escapado foi recuperado em 30 de setembro em cativeiro irregular. Leitura analítica: O registro consolida a mesma operação e localidade: três animais apreendidos em 17/09 e o quarto recuperado em 30/09. A fonte não documenta origem, destino ou percurso de transporte, portanto nenhuma rota é inferida. Limites da evidência: Quatro indivíduos no total da mesma operação: três apreendidos em 17/09 e um recuperado em 30/09.",
+  "context_en": "Documented facts [O1]: During Operation Macaw, three golden lion tamarins were seized on 17 September 2020 at an irregular zoo in Caratinga. A fourth animal that had escaped was recovered on 30 September from irregular captivity. Analytical reading: This record consolidates the same operation and locality: three animals seized on 17 September and the fourth recovered on 30 September. The source does not document origin, destination or a transport itinerary, so no route is inferred. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Durante la Operación Macaw, tres titíes león dorados fueron decomisados el 17 de septiembre de 2020 en un zoológico irregular de Caratinga. Un cuarto animal que había escapado fue recuperado el 30 de septiembre en cautiverio irregular. Lectura analítica: Este registro consolida la misma operación y localidad: tres animales decomisados el 17 de septiembre y el cuarto recuperado el 30 de septiembre. La fuente no documenta origen, destino ni recorrido de transporte, por lo que no se infiere ninguna ruta. Límites de la evidencia: ",
   "references_text_pt": "[O1] IEF / Sisema Minas Gerais — https://www.ief.mg.gov.br/w/mico-leao-dourado-e-resgatado-de-cativeiro-irregular-em-caratinga",
   "quantity_note_pt": "Quatro indivíduos no total da mesma operação: três apreendidos em 17/09 e um recuperado em 30/09.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:10:00Z",
   "occurrence_type": "wildlife_trafficking_seizure",
-  "validation_checked_at": "2026-10-05T14:10:00Z"
+  "validation_checked_at": "2026-10-05T14:10:00Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "IEF / Sisema Minas Gerais",
+      "url": "https://www.ief.mg.gov.br/w/mico-leao-dourado-e-resgatado-de-cativeiro-irregular-em-caratinga",
+      "title": "IEF / Sisema Minas Gerais",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z",
+  "case_context_status": "PT_EN_ES_COMPLETE"
 }

@@ -42,13 +42,26 @@
   "card_text_pt": "Após denúncia em 15 de agosto de 2020, fiscais e policiais encontraram dois micos-leões-dourados em um imóvel próximo ao Parque Natural Municipal do Mico-Leão-Dourado. Segundo a fonte, os animais seriam levados para venda em uma feira de Duque de Caxias; um deles morreu durante a operação.",
   "card_text_en": "After a tip-off on 15 August 2020, inspectors and police found two golden lion tamarins at a property near the Golden Lion Tamarin Municipal Natural Park. The source states that the animals were to be taken for sale at a market in Duque de Caxias; one died during the operation.",
   "card_text_es": "Tras una denuncia el 15 de agosto de 2020, fiscales y policías encontraron dos titíes león dorados en un inmueble próximo al Parque Natural Municipal del Tití León Dorado. Según la fuente, serían llevados para su venta a una feria de Duque de Caxias; uno murió durante la operación.",
-  "context_pt": "[O1] A fonte documenta captura para comércio e intenção de transporte até Duque de Caxias. O registro é mantido como evento individual, com dois animais apreendidos e um óbito durante a operação. Não se inferem origem anterior, compradores ou conexões com outros casos.",
-  "context_en": "[O1] The source documents capture for trade and intended transport to Duque de Caxias. The record is kept as an individual event involving two seized animals and one death during the operation. No earlier origin, buyers or links to other cases are inferred.",
-  "context_es": "[O1] La fuente documenta captura para comercio e intención de transporte hacia Duque de Caxias. El registro se mantiene como evento individual, con dos animales decomisados y una muerte durante la operación. No se infieren origen previo, compradores ni vínculos con otros casos.",
+  "context_pt": "Fatos documentados [O1]: Após denúncia em 15 de agosto de 2020, fiscais e policiais encontraram dois micos-leões-dourados em um imóvel próximo ao Parque Natural Municipal do Mico-Leão-Dourado. Segundo a fonte, os animais seriam levados para venda em uma feira de Duque de Caxias; um deles morreu durante a operação. Leitura analítica: A fonte documenta captura para comércio e intenção de transporte até Duque de Caxias. O registro é mantido como evento individual, com dois animais apreendidos e um óbito durante a operação. Não se inferem origem anterior, compradores ou conexões com outros casos. Limites da evidência: Dois indivíduos; um morreu durante a operação.",
+  "context_en": "Documented facts [O1]: After a tip-off on 15 August 2020, inspectors and police found two golden lion tamarins at a property near the Golden Lion Tamarin Municipal Natural Park. The source states that the animals were to be taken for sale at a market in Duque de Caxias; one died during the operation. Analytical reading: The source documents capture for trade and intended transport to Duque de Caxias. The record is kept as an individual event involving two seized animals and one death during the operation. No earlier origin, buyers or links to other cases are inferred. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Tras una denuncia el 15 de agosto de 2020, fiscales y policías encontraron dos titíes león dorados en un inmueble próximo al Parque Natural Municipal del Tití León Dorado. Según la fuente, serían llevados para su venta a una feria de Duque de Caxias; uno murió durante la operación. Lectura analítica: La fuente documenta captura para comercio e intención de transporte hacia Duque de Caxias. El registro se mantiene como evento individual, con dos animales decomisados y una muerte durante la operación. No se infieren origen previo, compradores ni vínculos con otros casos. Límites de la evidencia: ",
   "references_text_pt": "[O1] Fauna News — https://faunanews.com.br/novos-casos-de-trafico-de-araras-azuis-grandes-e-micos-leoes-dourados-deixam-ambientalistas-em-alerta/",
   "quantity_note_pt": "Dois indivíduos; um morreu durante a operação.",
   "route_audit_status": "DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:10:00Z",
   "occurrence_type": "wildlife_trafficking_seizure",
-  "validation_checked_at": "2026-10-05T14:10:00Z"
+  "validation_checked_at": "2026-10-05T14:10:00Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Fauna News",
+      "url": "https://faunanews.com.br/novos-casos-de-trafico-de-araras-azuis-grandes-e-micos-leoes-dourados-deixam-ambientalistas-em-alerta/",
+      "title": "Fauna News",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z",
+  "case_context_status": "PT_EN_ES_COMPLETE"
 }

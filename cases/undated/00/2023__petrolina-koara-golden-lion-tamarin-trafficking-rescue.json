@@ -43,13 +43,26 @@
   "card_text_pt": "Koara foi resgatada em Petrolina pela Agência Estadual de Meio Ambiente de Pernambuco após ser vítima do tráfico de animais silvestres. A fonte confirma sua chegada ao Zoológico de Brasília em 6 de junho de 2023, mas não informa a data exata do resgate.",
   "card_text_en": "Koara was rescued in Petrolina by Pernambuco's state environmental agency after being trafficked. The source confirms her arrival at Brasília Zoo on 6 June 2023 but does not provide the exact rescue date.",
   "card_text_es": "Koara fue rescatada en Petrolina por la agencia ambiental de Pernambuco tras ser víctima del tráfico de fauna. La fuente confirma su llegada al Zoológico de Brasilia el 6 de junio de 2023, pero no informa la fecha exacta del rescate.",
-  "context_pt": "[O1] A fonte institucional confirma Petrolina como local do resgate e tráfico como origem da apreensão. Como a data exata do resgate não é fornecida, o campo de data do evento permanece nulo e registra-se apenas que ocorreu antes de 06/06/2023. Nenhuma rota é inferida.",
-  "context_en": "[O1] The institutional source confirms Petrolina as the rescue locality and trafficking as the reason for seizure. Because the exact rescue date is not provided, the event-date field remains null and the record only notes that it occurred before 6 June 2023. No route is inferred.",
-  "context_es": "[O1] La fuente institucional confirma Petrolina como lugar del rescate y el tráfico como motivo del decomiso. Como no se informa la fecha exacta del rescate, el campo de fecha del evento queda nulo y solo se registra que ocurrió antes del 6 de junio de 2023. No se infiere ninguna ruta.",
+  "context_pt": "Fatos documentados [O1]: Koara foi resgatada em Petrolina pela Agência Estadual de Meio Ambiente de Pernambuco após ser vítima do tráfico de animais silvestres. A fonte confirma sua chegada ao Zoológico de Brasília em 6 de junho de 2023, mas não informa a data exata do resgate. Leitura analítica: A fonte institucional confirma Petrolina como local do resgate e tráfico como origem da apreensão. Como a data exata do resgate não é fornecida, o campo de data do evento permanece nulo e registra-se apenas que ocorreu antes de 06/06/2023. Nenhuma rota é inferida. Limites da evidência: Um indivíduo; data exata do resgate não informada.",
+  "context_en": "Documented facts [O1]: Koara was rescued in Petrolina by Pernambuco's state environmental agency after being trafficked. The source confirms her arrival at Brasília Zoo on 6 June 2023 but does not provide the exact rescue date. Analytical reading: The institutional source confirms Petrolina as the rescue locality and trafficking as the reason for seizure. Because the exact rescue date is not provided, the event-date field remains null and the record only notes that it occurred before 6 June 2023. No route is inferred. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: Koara fue rescatada en Petrolina por la agencia ambiental de Pernambuco tras ser víctima del tráfico de fauna. La fuente confirma su llegada al Zoológico de Brasilia el 6 de junio de 2023, pero no informa la fecha exacta del rescate. Lectura analítica: La fuente institucional confirma Petrolina como lugar del rescate y el tráfico como motivo del decomiso. Como no se informa la fecha exacta del rescate, el campo de fecha del evento queda nulo y solo se registra que ocurrió antes del 6 de junio de 2023. No se infiere ninguna ruta. Límites de la evidencia: ",
   "references_text_pt": "[O1] Zoológico de Brasília — https://zoo.df.gov.br/mico-leao-dourado-leontopithecus-rosalia",
   "quantity_note_pt": "Um indivíduo; data exata do resgate não informada.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:10:00Z",
   "occurrence_type": "wildlife_trafficking_rescue",
-  "validation_checked_at": "2026-10-05T14:10:00Z"
+  "validation_checked_at": "2026-10-05T14:10:00Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Zoológico de Brasília",
+      "url": "https://zoo.df.gov.br/mico-leao-dourado-leontopithecus-rosalia",
+      "title": "Zoológico de Brasília",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z",
+  "case_context_status": "PT_EN_ES_COMPLETE"
 }

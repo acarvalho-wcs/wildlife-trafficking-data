@@ -43,13 +43,26 @@
   "card_text_pt": "A alfândega de Kolkata apreendeu dois micos-leões-dourados junto com outras aves em uma remessa trazida em voo da IndiGo proveniente de Bangkok. Um jovem de Thane foi detido, e as autoridades iniciaram procedimentos de repatriação.",
   "card_text_en": "Kolkata Customs seized two golden lion tamarins together with other birds in a consignment brought on an IndiGo flight from Bangkok. A young man from Thane was detained and authorities initiated repatriation procedures.",
   "card_text_es": "La aduana de Calcuta decomisó dos titíes león dorados junto con otras aves en un cargamento transportado en un vuelo de IndiGo procedente de Bangkok. Un joven de Thane fue detenido y las autoridades iniciaron procedimientos de repatriación.",
-  "context_pt": "[O1] A fonte documenta Bangkok como origem do voo que transportava a remessa até Kolkata. Não se infere que Bangkok seja a origem biológica ou o ponto inicial da cadeia criminal. O registro quantifica apenas os dois micos-leões-dourados; as aves do mesmo carregamento permanecem descritas no texto.",
-  "context_en": "[O1] The source documents Bangkok as the origin of the flight carrying the consignment to Kolkata. Bangkok is not inferred to be the biological origin or the starting point of the criminal chain. This record quantifies only the two golden lion tamarins; the birds in the same consignment remain described in text.",
-  "context_es": "[O1] La fuente documenta Bangkok como origen del vuelo que transportaba el cargamento a Calcuta. No se infiere que Bangkok sea el origen biológico ni el inicio de la cadena criminal. Este registro cuantifica solo los dos titíes león dorados; las aves del mismo cargamento permanecen descritas en el texto.",
+  "context_pt": "Fatos documentados [O1]: A alfândega de Kolkata apreendeu dois micos-leões-dourados junto com outras aves em uma remessa trazida em voo da IndiGo proveniente de Bangkok. Um jovem de Thane foi detido, e as autoridades iniciaram procedimentos de repatriação. Leitura analítica: A fonte documenta Bangkok como origem do voo que transportava a remessa até Kolkata. Não se infere que Bangkok seja a origem biológica ou o ponto inicial da cadeia criminal. O registro quantifica apenas os dois micos-leões-dourados; as aves do mesmo carregamento permanecem descritas no texto. Limites da evidência: Dois *Leontopithecus rosalia*; outras aves do mesmo carregamento não são somadas à quantidade deste registro.",
+  "context_en": "Documented facts [O1]: Kolkata Customs seized two golden lion tamarins together with other birds in a consignment brought on an IndiGo flight from Bangkok. A young man from Thane was detained and authorities initiated repatriation procedures. Analytical reading: The source documents Bangkok as the origin of the flight carrying the consignment to Kolkata. Bangkok is not inferred to be the biological origin or the starting point of the criminal chain. This record quantifies only the two golden lion tamarins; the birds in the same consignment remain described in text. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: La aduana de Calcuta decomisó dos titíes león dorados junto con otras aves en un cargamento transportado en un vuelo de IndiGo procedente de Bangkok. Un joven de Thane fue detenido y las autoridades iniciaron procedimientos de repatriación. Lectura analítica: La fuente documenta Bangkok como origen del vuelo que transportaba el cargamento a Calcuta. No se infiere que Bangkok sea el origen biológico ni el inicio de la cadena criminal. Este registro cuantifica solo los dos titíes león dorados; las aves del mismo cargamento permanecen descritas en el texto. Límites de la evidencia: ",
   "references_text_pt": "[O1] The Times of India — https://timesofindia.indiatimes.com/city/kolkata/rare-brazil-primates-seized-at-kol-airport/articleshow/126143853.cms",
   "quantity_note_pt": "Dois *Leontopithecus rosalia*; outras aves do mesmo carregamento não são somadas à quantidade deste registro.",
   "route_audit_status": "DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:10:00Z",
   "occurrence_type": "wildlife_trafficking_seizure",
-  "validation_checked_at": "2026-10-05T14:10:00Z"
+  "validation_checked_at": "2026-10-05T14:10:00Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/kolkata/rare-brazil-primates-seized-at-kol-airport/articleshow/126143853.cms",
+      "title": "The Times of India",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z",
+  "case_context_status": "PT_EN_ES_COMPLETE"
 }

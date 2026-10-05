@@ -44,13 +44,25 @@
   "card_text_pt": "Em 30 de setembro, três filhotes de papagaio-verdadeiro foram encontrados em uma mochila e um canário-da-terra foi localizado em residência na mesma ocorrência em Franca.",
   "card_text_en": "On 30 September, three juvenile true parrots were found in a backpack and one saffron finch was found at a residence in the same occurrence in Franca.",
   "card_text_es": "El 30 de septiembre, tres pichones de loro verdadero fueron encontrados en una mochila y un canario de tejado en una residencia dentro de la misma ocurrencia en Franca.",
-  "context_pt": "[O1] A ocorrência reúne quatro aves no mesmo procedimento. O encaminhamento ao CETRAS é manejo pós-apreensão e não constitui rota de tráfico.",
-  "context_en": "[O1] The occurrence combines four birds in the same enforcement procedure. Transfer to CETRAS is post-seizure handling and does not constitute a trafficking route.",
-  "context_es": "[O1] La ocurrencia reúne cuatro aves en el mismo procedimiento. El traslado al CETRAS es manejo posterior al decomiso y no constituye una ruta de tráfico.",
+  "context_pt": "Fatos documentados [O1]: Em 30 de setembro, três filhotes de papagaio-verdadeiro foram encontrados em uma mochila e um canário-da-terra foi localizado em residência na mesma ocorrência em Franca. Leitura analítica: A ocorrência reúne quatro aves no mesmo procedimento. O encaminhamento ao CETRAS é manejo pós-apreensão e não constitui rota de tráfico. Limites da evidência: Quatro aves no mesmo evento; não separar o encaminhamento ao CETRAS como nova ocorrência.",
+  "context_en": "Documented facts [O1]: On 30 September, three juvenile true parrots were found in a backpack and one saffron finch was found at a residence in the same occurrence in Franca. Analytical reading: The occurrence combines four birds in the same enforcement procedure. Transfer to CETRAS is post-seizure handling and does not constitute a trafficking route. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: El 30 de septiembre, tres pichones de loro verdadero fueron encontrados en una mochila y un canario de tejado en una residencia dentro de la misma ocurrencia en Franca. Lectura analítica: La ocurrencia reúne cuatro aves en el mismo procedimiento. El traslado al CETRAS es manejo posterior al decomiso y no constituye una ruta de tráfico. Límites de la evidencia: ",
   "references_text_pt": "[O1] Sampi / GCN — https://sampi.net.br/franca/noticias/amp/3008434/franca-e-regiao/2026/10/filhotes-de-papagaios-sao-encontrados-dentro-de-mochila-em-franca",
   "quantity_note_pt": "Quatro aves no mesmo evento; não separar o encaminhamento ao CETRAS como nova ocorrência.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_wildlife_possession_transport"
+  "occurrence_type": "illegal_wildlife_possession_transport",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Sampi / GCN",
+      "url": "https://sampi.net.br/franca/noticias/amp/3008434/franca-e-regiao/2026/10/filhotes-de-papagaios-sao-encontrados-dentro-de-mochila-em-franca",
+      "title": "Sampi / GCN",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z"
 }

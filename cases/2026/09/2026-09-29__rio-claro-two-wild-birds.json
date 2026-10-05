@@ -44,13 +44,25 @@
   "card_text_pt": "A Polícia Militar Ambiental apreendeu duas aves silvestres mantidas irregularmente em cativeiro e em condições descritas como maus-tratos em Rio Claro.",
   "card_text_en": "Environmental Military Police seized two wild birds kept illegally in captivity under conditions described as mistreatment in Rio Claro.",
   "card_text_es": "La Policía Militar Ambiental decomisó dos aves silvestres mantenidas irregularmente en cautiverio y en condiciones descritas como maltrato en Rio Claro.",
-  "context_pt": "[O1] Evento distinto do caso de Limeira. O registro reúne apenas as duas aves desta ocorrência em Rio Claro.",
-  "context_en": "[O1] This is a distinct event from the Limeira case. The record includes only the two birds from this Rio Claro occurrence.",
-  "context_es": "[O1] Es un evento distinto del caso de Limeira. El registro incluye solo las dos aves de esta ocurrencia en Rio Claro.",
+  "context_pt": "Fatos documentados [O1]: A Polícia Militar Ambiental apreendeu duas aves silvestres mantidas irregularmente em cativeiro e em condições descritas como maus-tratos em Rio Claro. Leitura analítica: Evento distinto do caso de Limeira. O registro reúne apenas as duas aves desta ocorrência em Rio Claro. Limites da evidência: Dois indivíduos.",
+  "context_en": "Documented facts [O1]: Environmental Military Police seized two wild birds kept illegally in captivity under conditions described as mistreatment in Rio Claro. Analytical reading: This is a distinct event from the Limeira case. The record includes only the two birds from this Rio Claro occurrence. Evidence limits: ",
+  "context_es": "Hechos documentados [O1]: La Policía Militar Ambiental decomisó dos aves silvestres mantenidas irregularmente en cautiverio y en condiciones descritas como maltrato en Rio Claro. Lectura analítica: Es un evento distinto del caso de Limeira. El registro incluye solo las dos aves de esta ocurrencia en Rio Claro. Límites de la evidencia: ",
   "references_text_pt": "[O1] Pirassununguense — https://pirassununguense.com.br/pm-ambiental-apreende-aves-silvestres-mantidas-irregularmente-em-cativeiro-e-aplica-multa-de-r-7-mil-em-rio-claro/",
   "quantity_note_pt": "Dois indivíduos.",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "route_audited_at": "2026-10-05T14:35:00Z",
   "validation_checked_at": "2026-10-05T14:35:00Z",
-  "occurrence_type": "illegal_wildlife_captivity"
+  "occurrence_type": "illegal_wildlife_captivity",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Pirassununguense",
+      "url": "https://pirassununguense.com.br/pm-ambiental-apreende-aves-silvestres-mantidas-irregularmente-em-cativeiro-e-aplica-multa-de-r-7-mil-em-rio-claro/",
+      "title": "Pirassununguense",
+      "verified": true,
+      "verified_at": "2026-10-06T00:10:00Z"
+    }
+  ],
+  "context_updated_at": "2026-10-06T00:10:00Z"
 }
