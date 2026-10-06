@@ -38,10 +38,10 @@
   "context_updated_at": "2026-10-06T10:45:00Z",
   "route_audited_at": "2026-10-06T10:45:00Z",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://alpha-app.tadevel-cdn.com/hostname/noticiasargentinas.com/api/v1/image/article/6ac3fbebefa9665a6c290a40/facebook?v=c74adbf4b7b2bb776b06b2b9bb3971bd&s=e4560514f16d7bc036e9fa20ce2d6d0f",
   "image_source_url": "https://noticiasargentinas.com/sociedad/investigan-a-un-hombre-que-fue-filmado-disparando-contra-un-carpincho-en-nordelta_a6ac3fbebefa9665a6c290a40",
-  "image_status": "UNRESOLVED",
-  "image_checked_at": "2026-10-06T10:45:00Z",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
+  "image_checked_at": "2026-10-06T15:11:13Z",
   "location_label_pt": "Los Alisos, Nordelta, Tigre, Buenos Aires, Argentina",
   "location_label_en": "Los Alisos, Nordelta, Tigre, Buenos Aires, Argentina",
   "location_label_es": "Los Alisos, Nordelta, Tigre, Buenos Aires, Argentina",
@@ -103,5 +103,6 @@
   "references_text_es": "[O1] Agencia Noticias Argentinas — https://noticiasargentinas.com/sociedad/investigan-a-un-hombre-que-fue-filmado-disparando-contra-un-carpincho-en-nordelta_a6ac3fbebefa9665a6c290a40; [S1] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976; [N1] Business Insider — How illegal wildlife poaching actually works, according to an undercover investigator — https://www.businessinsider.com/how-wildlife-poaching-works-according-to-an-undercover-investigator-2026-8",
   "coordinate_source_url": null,
   "occurrence_type": "wildlife_persecution_investigation",
-  "validation_checked_at": "2026-10-06T10:45:00Z"
+  "validation_checked_at": "2026-10-06T10:45:00Z",
+  "image_resolution_method": "og:image"
 }

@@ -38,10 +38,10 @@
   "context_updated_at": "2026-10-04T18:30:00Z",
   "route_audited_at": "2026-10-04T18:30:00Z",
   "route_audit_status": "DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://cf-images.assettype.com/newindianexpress%2F2025-06-30%2F1j5ibwby%2FSix-exotic.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
   "image_source_url": "https://www.newindianexpress.com/cities/kochi/2025/Jul/01/six-exotic-animals-were-trafficked-from-bangkok-seized-at-kochi-airport",
-  "image_status": "UNRESOLVED",
-  "image_checked_at": "2026-10-04T18:30:00Z",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
+  "image_checked_at": "2026-10-06T15:08:23Z",
   "location_label_pt": "Aeroporto Internacional de Kochi, Kerala, Índia",
   "location_label_en": "Aeroporto Internacional de Kochi, Kerala, Índia",
   "location_label_es": "Aeroporto Internacional de Kochi, Kerala, Índia",
@@ -94,5 +94,6 @@
   "references_text_es": "[O1] The New Indian Express — Kochi Customs seizure — https://www.newindianexpress.com/cities/kochi/2025/Jul/01/six-exotic-animals-were-trafficked-from-bangkok-seized-at-kochi-airport\n[S1] Instituto Arara Azul — https://www.institutoararaazul.org.br/en/species/hyacinth-macaw/",
   "coordinate_source_url": null,
   "occurrence_type": "wildlife_trafficking_seizure",
-  "validation_checked_at": "2026-10-04T18:30:00Z"
+  "validation_checked_at": "2026-10-04T18:30:00Z",
+  "image_resolution_method": "og:image"
 }

@@ -37,10 +37,10 @@
   "quantity_unassigned": 0,
   "context_updated_at": "2026-09-26T03:30:00Z",
   "route_audited_at": "2026-09-26T03:30:00Z",
-  "image_url": null,
+  "image_url": "https://www.quotidianodiragusa.it/wp-content/uploads/2026/09/bracconaggio-ragusa.webp",
   "image_source_url": "https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/",
-  "image_status": "NO_EVENT_IMAGE_VALIDATED",
-  "image_checked_at": "2026-09-26T03:30:00Z",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
+  "image_checked_at": "2026-10-06T14:59:02Z",
   "location_label_pt": "Província de Ragusa, Sicília",
   "location_label_en": "Province of Ragusa, Sicily",
   "location_label_es": "Provincia de Ragusa, Sicilia",
@@ -68,5 +68,6 @@
   "context_es": "Hechos documentados: una nota publicada el 25 de septiembre resume una serie reciente de controles de la Policía Provincial de Ragusa, con diez cazadores denunciados, siete armas decomisadas y fauna que incluye 39 conejos silvestres, además de palomas torcaces y tórtolas en cantidad no informada. Límites: se trata de una agregación de varias operaciones y la fuente no individualiza fechas, lugares ni cantidades por acción; por ello `event_date` queda vacío y el registro no recibe el indicador de ~24h. La fotografía de la nota se identifica como perteneciente a un control anterior y por eso no se usa como imagen validada del evento actual.",
   "references_text_pt": "Quotidiano di Ragusa — https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/",
   "references_text_en": "Quotidiano di Ragusa — https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/",
-  "references_text_es": "Quotidiano di Ragusa — https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/"
+  "references_text_es": "Quotidiano di Ragusa — https://www.quotidianodiragusa.it/2026/09/25/ragusa/bracconaggio-ragusa-10-cacciatori-denunciati/",
+  "image_resolution_method": "og:image"
 }

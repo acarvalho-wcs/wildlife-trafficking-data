@@ -39,8 +39,8 @@
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "image_url": "https://controle.litoralnarede.com.br/wp-content/uploads/2026/10/0201026-PATRAM-ADOLESCENTE-DROGAS-XANGRI-LA-BM.webp",
   "image_source_url": "https://litoralnarede.com.br/patram-flagra-crime-ambiental-e-apreende-mais-de-3-kg-de-drogas-em-xangri-la/",
-  "image_status": "VERIFIED_SOURCE_IMAGE",
-  "image_checked_at": "2026-10-04T10:09:26Z",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
+  "image_checked_at": "2026-10-06T15:07:31Z",
   "location_label_pt": "Xangri-Lá, Rio Grande do Sul — Figueirinha",
   "location_label_en": "Xangri-Lá, Rio Grande do Sul — Figueirinha",
   "location_label_es": "Xangri-Lá, Rio Grande do Sul — Figueirinha",
@@ -107,5 +107,6 @@
       "caption_en": "Materials from the occurrence photographed by Brigada Militar.",
       "caption_es": "Materiales de la ocurrencia fotografiados por Brigada Militar."
     }
-  ]
+  ],
+  "image_resolution_method": "existing_direct"
 }

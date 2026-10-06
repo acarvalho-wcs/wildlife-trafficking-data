@@ -36,10 +36,10 @@
   "quantity_unassigned": 0,
   "context_updated_at": "2026-09-26T03:30:00Z",
   "route_audited_at": "2026-09-26T03:30:00Z",
-  "image_url": null,
+  "image_url": "https://www.cfin.com.ar/wp-content/uploads/2026/09/cazadores-de-patos-huaqueros.jpg",
   "image_source_url": "https://www.cfin.com.ar/policiales/huanqueros-secuestraron-72-patos-escopetas/",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
-  "image_checked_at": "2026-09-26T03:30:00Z",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
+  "image_checked_at": "2026-10-06T14:58:52Z",
   "location_label_pt": "Zona rural de Huanqueros, Santa Fe",
   "location_label_en": "Rural Huanqueros, Santa Fe",
   "location_label_es": "Zona rural de Huanqueros, Santa Fe",
@@ -67,5 +67,6 @@
   "context_es": "Hechos documentados: la nota publicada el 25 de septiembre describe una intervención nocturna en la zona rural de Huanqueros con 72 patos crestón muertos, cuatro escopetas y equipos de caza. Cuatro hombres quedaron vinculados a una investigación por caza. Límites: la nota no explicita la fecha calendario de la operación; por ello `event_date` queda vacío y el caso no recibe el indicador de evento ocurrido hace ~24h. No se documentan origen, destino ni cadena comercial.",
   "references_text_pt": "Cfin — https://www.cfin.com.ar/policiales/huanqueros-secuestraron-72-patos-escopetas/",
   "references_text_en": "Cfin — https://www.cfin.com.ar/policiales/huanqueros-secuestraron-72-patos-escopetas/",
-  "references_text_es": "Cfin — https://www.cfin.com.ar/policiales/huanqueros-secuestraron-72-patos-escopetas/"
+  "references_text_es": "Cfin — https://www.cfin.com.ar/policiales/huanqueros-secuestraron-72-patos-escopetas/",
+  "image_resolution_method": "og:image"
 }
