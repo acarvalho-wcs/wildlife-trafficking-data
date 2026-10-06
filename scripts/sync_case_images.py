@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Resolve direct article-image URLs for cases.json without copying source images.
+"""Resolve direct article-image URLs for the canonical case store without copying source images.
 
 The resolver is deliberately conservative:
 - preserves any existing validated image_url;
@@ -10,7 +10,7 @@ The resolver is deliberately conservative:
 - rejects obvious logos/icons/avatars/ads;
 - never invents an image when no reliable candidate is found.
 
-It updates cases.json and writes image-resolution-report.json.
+It updates the canonical per-case JSON store and writes image-resolution-report.json.\nThe compiled cases.json feed is rebuilt separately by scripts/case_store.py.
 """
 
 from __future__ import annotations
@@ -309,16 +309,32 @@ def resolve_case(session: requests.Session, case: dict) -> dict:
     return result
 
 
+def load_store_cases(store_root: Path) -> tuple[list[dict], list[Path]]:
+    """Load canonical case records in manifest order, followed by unlisted extras."""
+    manifest_path = store_root / "_manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    rels = list(manifest.get("files") or [])
+    seen = set(rels)
+    extras = sorted(
+        p.relative_to(store_root).as_posix()
+        for p in store_root.rglob("*.json")
+        if p.name != "_manifest.json" and p.relative_to(store_root).as_posix() not in seen
+    )
+    rels.extend(extras)
+    paths = [store_root / rel for rel in rels]
+    cases = [json.loads(path.read_text(encoding="utf-8")) for path in paths]
+    return cases, paths
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cases", default="cases.json")
+    ap.add_argument("--store-root", default="cases")
     ap.add_argument("--report", default="image-resolution-report.json")
     ap.add_argument("--sleep", type=float, default=0.15)
     args = ap.parse_args()
 
-    cases_path = Path(args.cases)
-    data = json.loads(cases_path.read_text(encoding="utf-8"))
-    cases = data["cases"] if isinstance(data, dict) else data
+    store_root = Path(args.store_root)
+    cases, case_paths = load_store_cases(store_root)
 
     session = requests.Session()
     session.headers.update({
@@ -342,23 +358,17 @@ def main() -> int:
         if args.sleep:
             time.sleep(args.sleep)
 
+    for case, path in zip(cases, case_paths):
+        path.write_text(json.dumps(case, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
     resolved = sum(1 for r in results if r.get("resolved"))
     now = now_iso()
-    if isinstance(data, dict):
-        data["image_progress"] = {
-            "records_total": len(cases),
-            "direct_image_urls_validated": resolved,
-            "unresolved": len(cases) - resolved,
-            "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
-            "updated_at": now,
-        }
-
-    cases_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report = {
         "generated_at": now,
         "records_total": len(cases),
         "resolved_direct_images": resolved,
         "unresolved": len(cases) - resolved,
+        "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
         "results": results,
     }
     Path(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
