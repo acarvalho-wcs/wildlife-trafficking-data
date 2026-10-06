@@ -40,9 +40,14 @@ jobs:
       - name: Resolve source-hosted case images
         run: |
           python scripts/sync_case_images.py \
-            --cases cases.json \
+            --store-root cases \
             --report image-resolution-report.json \
             --sleep 0.20
+
+      - name: Rebuild canonical feed from updated case store
+        run: |
+          python scripts/case_store.py validate --root cases
+          python scripts/case_store.py build --root cases --output cases.json
 
       - name: Validate generated JSON
         run: |
@@ -71,7 +76,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cases.json image-resolution-report.json
+          git add cases cases.json image-resolution-report.json
 
           if git diff --cached --quiet; then
             echo "No image-data changes to commit."
@@ -79,4 +84,5 @@ jobs:
           fi
 
           git commit -m "Resolve source-hosted case image URLs"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
