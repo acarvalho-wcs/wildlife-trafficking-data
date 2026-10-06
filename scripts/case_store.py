@@ -148,7 +148,30 @@ def load_store(root):
         records.append(load_json(root/rel)); files.append(rel)
     return manifest, records, files
 
+def enrich_temporal_fields(record):
+    """Add a stable occurrence timestamp for dashboard time-window styling.
+
+    Prefer an explicit event_datetime when available. If only a calendar day is
+    documented, anchor that day at 00:00:00Z and preserve day-level precision.
+    Never fall back to publication_date or added_at, because those do not
+    represent when the wildlife event occurred.
+    """
+    rec = dict(record)
+    dt = rec.get("event_datetime")
+    day = rec.get("event_date")
+    if isinstance(dt, str) and dt.strip():
+        rec["occurred_at"] = dt
+        rec["occurred_at_precision"] = "datetime"
+    elif isinstance(day, str) and re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", day):
+        rec["occurred_at"] = day + "T00:00:00Z"
+        rec["occurred_at_precision"] = rec.get("event_date_precision") or "day"
+    else:
+        rec["occurred_at"] = None
+        rec["occurred_at_precision"] = rec.get("event_date_precision") or "unknown"
+    return rec
+
 def compose(manifest, records):
+    records = [enrich_temporal_fields(rec) for rec in records]
     if manifest.get("top_level") == "array":
         return records
     key = manifest.get("records_key") or "cases"
