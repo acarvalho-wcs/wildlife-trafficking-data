@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T23:58:00Z",
+  "updated_at": "2026-10-06T20:28:00-04:00",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -6925,6 +6925,80 @@
       "evidence_es": "Las aves fueron transportadas durante más de 32 horas en el Geetanjali Express desde Howrah hasta Mumbai.",
       "source_label": "PETA India / Times of India",
       "source_url": "https://www.petaindia.com/blog/over-300-birds-rescued-from-howrah-to-csmt-train-by-peta-india/"
+    },
+    {
+      "id": "manzanillo-mexico-philippines-shark-fins-2019",
+      "event_match": {
+        "event_date": "2019-05-27",
+        "location_contains": "Manzanillo"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Manzanillo, México → Filipinas",
+      "label_en": "Manzanillo, Mexico → Philippines",
+      "label_es": "Manzanillo, México → Filipinas",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto de Manzanillo",
+            "country": "México",
+            "lat": 19.05,
+            "lon": -104.32,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Filipinas",
+            "country": "Filipinas",
+            "lat": 12.8797,
+            "lon": 121.774,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A carga de aproximadamente 10,4 t de barbatanas apreendida em Manzanillo tinha as Filipinas como destino declarado.",
+      "evidence_en": "The approximately 10.4 t shark-fin shipment seized in Manzanillo had the Philippines as its declared destination.",
+      "evidence_es": "El cargamento de aproximadamente 10,4 t de aletas decomisado en Manzanillo tenía Filipinas como destino declarado.",
+      "source_label": "Mexico News Daily",
+      "source_url": "https://mexiconewsdaily.com/news/customs-agents-seize-10-tonnes-of-shark-fins-in-manzanillo/"
+    },
+    {
+      "id": "santa-catarina-piuma-shark-fins-2024",
+      "event_match": {
+        "event_date": "2024-09-10",
+        "location_contains": "Piúma"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Santa Catarina → Piúma/ES",
+      "label_en": "Santa Catarina → Piúma, Espírito Santo",
+      "label_es": "Santa Catarina → Piúma, Espírito Santo",
+      "segments": [
+        {
+          "from": {
+            "name": "Santa Catarina",
+            "country": "Brasil",
+            "lat": -27.2423,
+            "lon": -50.2189,
+            "precision": "state_centroid_generalized"
+          },
+          "to": {
+            "name": "Piúma",
+            "country": "Brasil",
+            "lat": -20.8372,
+            "lon": -40.7264,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte contemporânea informa que as barbatanas foram enviadas de Santa Catarina por transporte aéreo para processamento em Piúma; a localidade de origem em Santa Catarina não foi especificada.",
+      "evidence_en": "The contemporary source states that the fins were shipped by air from Santa Catarina for processing in Piúma; the origin locality within Santa Catarina was not specified.",
+      "evidence_es": "La fuente contemporánea informa que las aletas fueron enviadas por vía aérea desde Santa Catarina para procesamiento en Piúma; no se especificó la localidad de origen dentro de Santa Catarina.",
+      "source_label": "Aqui Notícias / Ibama",
+      "source_url": "https://aquinoticias.com/2024/09/ibama-apreende-500-kg-de-barbatana-de-tubarao-durante-acao-em-piuma/"
     }
   ],
   "network_context": [
