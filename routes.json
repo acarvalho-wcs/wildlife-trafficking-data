@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-06T21:40:00-04:00",
+  "updated_at": "2026-10-06T23:35:00-04:00",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -7311,6 +7311,154 @@
       "evidence_es": "Las cuatro maletas con 48 kg de aletas estaban facturadas con Hong Kong documentado como destino.",
       "source_label": "Ibama / Metrópoles",
       "source_url": "https://www.metropoles.com/brasil/operacao-apreende-62-kg-de-barbatanas-de-tubarao-em-malas-no-aeroporto"
+    },
+    {
+      "id": "carauari-manaus-chelonians-2021-04-24",
+      "event_match": {
+        "event_date": "2021-04-24",
+        "location_contains": "Coari"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Carauari → Manaus",
+      "label_en": "Carauari → Manaus",
+      "label_es": "Carauari → Manaos",
+      "segments": [
+        {
+          "from": {
+            "name": "Carauari",
+            "country": "Brasil",
+            "lat": -4.8828,
+            "lon": -66.8958,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Manaus",
+            "country": "Brasil",
+            "lat": -3.119,
+            "lon": -60.0217,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte documenta que a embarcação interceptada com 684 filhotes de tartaruga-da-Amazônia fazia o trajeto Carauari–Manaus.",
+      "evidence_en": "The source documents that the vessel intercepted with 684 giant South American river turtle hatchlings was travelling from Carauari to Manaus.",
+      "evidence_es": "La fuente documenta que la embarcación interceptada con 684 crías de tortuga arrau realizaba el trayecto Carauari–Manaos.",
+      "source_label": "Fauna News",
+      "source_url": "https://faunanews.com.br/filhotes-de-tartarugas-da-amazonia-sao-resgatados-do-trafico-no-rio-solimoes-am/"
+    },
+    {
+      "id": "sao-gabriel-manaus-chelonians-2024-01-14",
+      "event_match": {
+        "event_date": "2024-01-14",
+        "location_contains": "Barcelos"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "São Gabriel da Cachoeira → Manaus",
+      "label_en": "São Gabriel da Cachoeira → Manaus",
+      "label_es": "São Gabriel da Cachoeira → Manaos",
+      "segments": [
+        {
+          "from": {
+            "name": "São Gabriel da Cachoeira",
+            "country": "Brasil",
+            "lat": -0.1303,
+            "lon": -67.0892,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Manaus",
+            "country": "Brasil",
+            "lat": -3.119,
+            "lon": -60.0217,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que a embarcação em que foram apreendidos dois quelônios e 70 ovos fazia o trajeto de São Gabriel da Cachoeira para Manaus.",
+      "evidence_en": "The source states that the vessel on which two chelonians and 70 eggs were seized was travelling from São Gabriel da Cachoeira to Manaus.",
+      "evidence_es": "La fuente informa que la embarcación en la que fueron decomisados dos quelonios y 70 huevos viajaba de São Gabriel da Cachoeira a Manaos.",
+      "source_label": "Amazonas Atual",
+      "source_url": "https://amazonasatual.com.br/quelonios-vivos-e-70-ovos-de-tartarugas-sao-apreendidos-no-am/"
+    },
+    {
+      "id": "tefe-manaus-chelonian-eggs-2025-10-01",
+      "event_match": {
+        "event_date": "2025-10-01",
+        "location_contains": "Tefé"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Tefé → Manaus",
+      "label_en": "Tefé → Manaus",
+      "label_es": "Tefé → Manaos",
+      "segments": [
+        {
+          "from": {
+            "name": "Tefé",
+            "country": "Brasil",
+            "lat": -3.3539,
+            "lon": -64.7107,
+            "precision": "city_airport_generalized"
+          },
+          "to": {
+            "name": "Manaus",
+            "country": "Brasil",
+            "lat": -3.119,
+            "lon": -60.0217,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que a passageira tentava embarcar em Tefé para Manaus com 36 ovos de tracajá.",
+      "evidence_en": "The source states that the passenger was attempting to board in Tefé for Manaus with 36 yellow-spotted river turtle eggs.",
+      "evidence_es": "La fuente informa que la pasajera intentaba embarcar en Tefé hacia Manaos con 36 huevos de taricaya.",
+      "source_label": "Portal do Holanda",
+      "source_url": "https://www.portaldoholanda.com.br/policial/mulher-e-presa-no-aeroporto-de-tefe-tentando-embarcar-com-ovos-de-tracaja"
+    },
+    {
+      "id": "labrea-manaus-chelonians-2019-12-08",
+      "event_match": {
+        "event_date": "2019-12-08",
+        "location_contains": "Manaus"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Lábrea → Manaus",
+      "label_en": "Lábrea → Manaus",
+      "label_es": "Lábrea → Manaos",
+      "segments": [
+        {
+          "from": {
+            "name": "Lábrea",
+            "country": "Brasil",
+            "lat": -7.2589,
+            "lon": -64.7981,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Manaus",
+            "country": "Brasil",
+            "lat": -3.119,
+            "lon": -60.0217,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte documenta que os seis quelônios foram apreendidos em embarcação que fazia o trajeto Lábrea–Manaus.",
+      "evidence_en": "The source documents that the six chelonians were seized aboard a vessel travelling from Lábrea to Manaus.",
+      "evidence_es": "La fuente documenta que los seis quelonios fueron decomisados en una embarcación que realizaba el trayecto Lábrea–Manaos.",
+      "source_label": "Polícia Militar do Amazonas",
+      "source_url": "https://pm.am.gov.br/portal/noticia/a%2Bpolicia%2Bmilitar%2Ba-2221.html"
     }
   ],
   "network_context": [
