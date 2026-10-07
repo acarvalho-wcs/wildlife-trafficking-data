@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-06T20:28:00-04:00",
+  "updated_at": "2026-10-06T21:40:00-04:00",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -6999,6 +6999,318 @@
       "evidence_es": "La fuente contemporánea informa que las aletas fueron enviadas por vía aérea desde Santa Catarina para procesamiento en Piúma; no se especificó la localidad de origen dentro de Santa Catarina.",
       "source_label": "Aqui Notícias / Ibama",
       "source_url": "https://aquinoticias.com/2024/09/ibama-apreende-500-kg-de-barbatana-de-tubarao-durante-acao-em-piuma/"
+    },
+    {
+      "id": "la-guajira-pasto-tumaco-2025-02-18",
+      "event_match": {
+        "location_contains": "Pasto",
+        "event_date": "2025-02-18"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_shipment_path",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "La Guajira → Pasto → Tumaco",
+      "label_en": "La Guajira → Pasto → Tumaco",
+      "label_es": "La Guajira → Pasto → Tumaco",
+      "segments": [
+        {
+          "from": {
+            "name": "La Guajira",
+            "country": "Colômbia",
+            "lat": 11.35,
+            "lon": -72.52,
+            "precision": "department_generalized"
+          },
+          "to": {
+            "name": "Pasto",
+            "country": "Colômbia",
+            "lat": 1.2136,
+            "lon": -77.2811,
+            "precision": "city"
+          }
+        },
+        {
+          "from": {
+            "name": "Pasto",
+            "country": "Colômbia",
+            "lat": 1.2136,
+            "lon": -77.2811,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Tumaco",
+            "country": "Colômbia",
+            "lat": 1.806,
+            "lon": -78.764,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A encomenda foi reportada como procedente de La Guajira, interceptada em Pasto e destinada a Tumaco.",
+      "evidence_en": "The parcel was reported as originating in La Guajira, intercepted in Pasto and destined for Tumaco.",
+      "evidence_es": "La encomienda fue reportada como procedente de La Guajira, interceptada en Pasto y destinada a Tumaco.",
+      "source_label": "Policía Nacional de Colombia",
+      "source_url": "https://www.policia.gov.co/noticia/direccion-carabineros-proteccion-ambiental-en-pasto-incauta-200-aletas-tiburon-que-iban-ser"
+    },
+    {
+      "id": "png-jayapura-2025-06-11",
+      "event_match": {
+        "location_contains": "Tanjung Suaja",
+        "event_date": "2025-06-11"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Papua-Nova Guiné → Tanjung Suaja/Jayapura",
+      "label_en": "Papua New Guinea → Tanjung Suaja/Jayapura",
+      "label_es": "Papúa Nueva Guinea → Tanjung Suaja/Jayapura",
+      "segments": [
+        {
+          "from": {
+            "name": "Papua-Nova Guiné",
+            "country": "Papua-Nova Guiné",
+            "lat": -6.315,
+            "lon": 143.9555,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Tanjung Suaja / Jayapura",
+            "country": "Indonésia",
+            "lat": -2.53,
+            "lon": 140.72,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o longboat vinha de Papua-Nova Guiné para Tanjung Suaja/Jayapura; a localidade exata de saída não foi publicada.",
+      "evidence_en": "The source states that the longboat came from Papua New Guinea toward Tanjung Suaja/Jayapura; the exact departure locality was not published.",
+      "evidence_es": "La fuente informa que la lancha venía de Papúa Nueva Guinea hacia Tanjung Suaja/Jayapura; no se publicó la localidad exacta de salida.",
+      "source_label": "RRI / Lantamal X",
+      "source_url": "https://rri.co.id/jayapura/daerah-3t/1576806/aksi-lantamal-x-gagalkan-penyelundupan-di-perbatasan"
+    },
+    {
+      "id": "hong-kong-macau-shark-fins-2025-06-27",
+      "event_match": {
+        "location_contains": "Hong Kong",
+        "event_date": "2025-06-27"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Macau",
+      "label_en": "Hong Kong → Macao",
+      "label_es": "Hong Kong → Macao",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.2855,
+            "lon": 114.1577,
+            "precision": "city_port_generalized"
+          },
+          "to": {
+            "name": "Macau",
+            "country": "Macau",
+            "lat": 22.1987,
+            "lon": 113.5439,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A embarcação fluvial foi reportada como saindo de Hong Kong com destino a Macau.",
+      "evidence_en": "The river vessel was reported as departing Hong Kong for Macao.",
+      "evidence_es": "La embarcación fluvial fue reportada como saliendo de Hong Kong con destino a Macao.",
+      "source_label": "Hong Kong Customs / GovHK",
+      "source_url": "https://www.info.gov.hk/gia/general/202507/08/P2025070800632p.htm"
+    },
+    {
+      "id": "la-guajira-tumaco-2025-07-30",
+      "event_match": {
+        "location_contains": "Tumaco",
+        "event_date": "2025-07-30"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_shipment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "La Guajira → Tumaco",
+      "label_en": "La Guajira → Tumaco",
+      "label_es": "La Guajira → Tumaco",
+      "segments": [
+        {
+          "from": {
+            "name": "La Guajira",
+            "country": "Colômbia",
+            "lat": 11.35,
+            "lon": -72.52,
+            "precision": "department_generalized"
+          },
+          "to": {
+            "name": "Tumaco",
+            "country": "Colômbia",
+            "lat": 1.806,
+            "lon": -78.764,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A caixa com 76 barbatanas foi reportada como enviada de La Guajira para Tumaco.",
+      "evidence_en": "The box containing 76 shark fins was reported as sent from La Guajira to Tumaco.",
+      "evidence_es": "La caja con 76 aletas fue reportada como enviada desde La Guajira hacia Tumaco.",
+      "source_label": "Policía Nacional de Colombia",
+      "source_url": "https://www.policia.gov.co/index.php/noticia/incautan-76-aletas-tiburon"
+    },
+    {
+      "id": "chennai-singapore-shark-fins-2025-08-17",
+      "event_match": {
+        "location_contains": "Chennai",
+        "event_date": "2025-08-17"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Chennai → Singapura",
+      "label_en": "Chennai → Singapore",
+      "label_es": "Chennai → Singapur",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Chennai",
+            "country": "Índia",
+            "lat": 12.9941,
+            "lon": 80.1709,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Singapura",
+            "country": "Singapura",
+            "lat": 1.3521,
+            "lon": 103.8198,
+            "precision": "country_city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Os passageiros foram interceptados antes do embarque de Chennai para Singapura.",
+      "evidence_en": "The passengers were intercepted before boarding from Chennai to Singapore.",
+      "evidence_es": "Los pasajeros fueron interceptados antes de embarcar desde Chennai hacia Singapur.",
+      "source_label": "Chennai Customs / The New Indian Express",
+      "source_url": "https://www.newindianexpress.com/cities/chennai/2025/Aug/22/24-kg-of-hydroponic-weed-shark-fins-seized-at-airport"
+    },
+    {
+      "id": "la-guajira-cartagena-2025-09-22",
+      "event_match": {
+        "location_contains": "Cartagena",
+        "event_date": "2025-09-22"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_shipment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "La Guajira → Cartagena",
+      "label_en": "La Guajira → Cartagena",
+      "label_es": "La Guajira → Cartagena",
+      "segments": [
+        {
+          "from": {
+            "name": "La Guajira",
+            "country": "Colômbia",
+            "lat": 11.35,
+            "lon": -72.52,
+            "precision": "department_generalized"
+          },
+          "to": {
+            "name": "Cartagena",
+            "country": "Colômbia",
+            "lat": 10.391,
+            "lon": -75.479,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A encomenda com 26 barbatanas foi reportada como procedente de La Guajira e recebida em Cartagena.",
+      "evidence_en": "The parcel containing 26 shark fins was reported as originating in La Guajira and received in Cartagena.",
+      "evidence_es": "La encomienda con 26 aletas fue reportada como procedente de La Guajira y recibida en Cartagena.",
+      "source_label": "Policía Nacional de Colombia",
+      "source_url": "https://www.policia.gov.co/noticia/en-cartagena-ciudadano-chino-es-capturado-con-26-aletas-tiburon"
+    },
+    {
+      "id": "hong-kong-macau-controlled-fins-2025-10-03",
+      "event_match": {
+        "location_contains": "Hong Kong",
+        "event_date": "2025-10-03"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Macau",
+      "label_en": "Hong Kong → Macao",
+      "label_es": "Hong Kong → Macao",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.2855,
+            "lon": 114.1577,
+            "precision": "city_port_generalized"
+          },
+          "to": {
+            "name": "Macau",
+            "country": "Macau",
+            "lat": 22.1987,
+            "lon": 113.5439,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "A ocorrência foi documentada no corredor marítimo de Hong Kong para Macau; barbatanas controladas estavam entre as mercadorias.",
+      "evidence_en": "The occurrence was documented on the maritime corridor from Hong Kong to Macao; controlled shark fins were among the goods.",
+      "evidence_es": "La ocurrencia fue documentada en el corredor marítimo de Hong Kong hacia Macao; había aletas controladas entre las mercancías.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4885.html"
+    },
+    {
+      "id": "guarulhos-hong-kong-shark-fins-2025-11-19",
+      "event_match": {
+        "location_contains": "Guarulhos",
+        "event_date": "2025-11-19"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guarulhos → Hong Kong",
+      "label_en": "Guarulhos → Hong Kong",
+      "label_es": "Guarulhos → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional de Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "As quatro malas com 48 kg de barbatanas estavam despachadas com Hong Kong documentado como destino.",
+      "evidence_en": "The four bags containing 48 kg of shark fins were checked with Hong Kong documented as the destination.",
+      "evidence_es": "Las cuatro maletas con 48 kg de aletas estaban facturadas con Hong Kong documentado como destino.",
+      "source_label": "Ibama / Metrópoles",
+      "source_url": "https://www.metropoles.com/brasil/operacao-apreende-62-kg-de-barbatanas-de-tubarao-em-malas-no-aeroporto"
     }
   ],
   "network_context": [
