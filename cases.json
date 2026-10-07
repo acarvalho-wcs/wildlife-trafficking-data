@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_718_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_719_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 718,
+  "count": 719,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -54830,6 +54830,109 @@
       "geographic_note_pt": "Coordenadas generalizadas para a localidade informada; não representam necessariamente o ponto exato da apreensão.",
       "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact seizure point.",
       "geographic_note_es": "Coordenadas generalizadas para la localidad informada; no representan necesariamente el punto exacto del decomiso."
+    },
+    {
+      "id": "2026-04-17__marsaxlokk-big-cats-international-waters",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "added_at": "2026-10-07T12:43:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "context_status": "VALIDATED_WITH_ALLEGATION_QUALIFIERS",
+      "reconstruction_batch": "malta_big_cats_2026-10-07",
+      "reconstruction_confidence": "SOURCE_CONFIRMED_INVESTIGATION_ALLEGED_EVENT",
+      "path": "2026/04",
+      "location_label_pt": "Marsaxlokk, Malta",
+      "location_label_en": "Marsaxlokk, Malta",
+      "location_label_es": "Marsaxlokk, Malta",
+      "country": "Malta",
+      "source_label": "Times of Malta",
+      "source_url": "https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076",
+      "publication_date": "2026-10-04",
+      "event_date": "2026-04-17",
+      "event_date_precision": "day",
+      "occurred_at": "2026-04-17T00:00:00Z",
+      "occurred_at_precision": "day",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "taxon_text": "Panthera tigris; Panthera leo; felino descrito pela fonte como “panther” (identificação taxonômica não determinada)",
+      "modal_primary": "Marítimo",
+      "modal_label_pt": "Marítimo",
+      "modal_label_en": "Sea",
+      "modal_label_es": "Marítimo",
+      "coordinates": {
+        "lat": 35.8419,
+        "lon": 14.5431
+      },
+      "coordinate_precision": "city_port_generalized",
+      "title_pt": "Investigação sobre transporte marítimo de 10–15 grandes felinos de Malta para águas internacionais próximas à Líbia",
+      "title_en": "Investigation into maritime transport of 10–15 big cats from Malta to international waters near Libya",
+      "title_es": "Investigación sobre transporte marítimo de 10–15 grandes felinos desde Malta hacia aguas internacionales próximas a Libia",
+      "card_text_pt": "Uma investigação policial em Malta apura alegações de que, em 17 de abril, 10–15 caixas, cada uma contendo um grande felino, foram carregadas em uma embarcação em Marsaxlokk e levadas a águas internacionais próximas à Líbia. Um ex-funcionário relatou a transferência dos animais para outra embarcação; o proprietário reconheceu ter transportado felinos por mar, mas afirmou possuir autorização. O caráter ilícito do transporte permanece sob investigação.",
+      "card_text_en": "A police investigation in Malta is examining allegations that on 17 April, 10–15 crates, each containing a big cat, were loaded onto a vessel in Marsaxlokk and taken to international waters near Libya. A former employee reported that the animals were transferred to another vessel; the owner acknowledged transporting wild cats by sea but said he had a permit. The legality of the transport remains under investigation.",
+      "card_text_es": "Una investigación policial en Malta examina alegaciones de que el 17 de abril se cargaron en Marsaxlokk entre 10 y 15 cajas, cada una con un gran felino, y se transportaron por mar hasta aguas internacionales próximas a Libia. Un exempleado declaró que los animales fueron transferidos a otra embarcación; el propietario reconoció haber transportado felinos por mar, pero afirmó contar con autorización. La legalidad del transporte sigue bajo investigación.",
+      "fauna_label_pt": "10–15 grandes felinos vivos (quantidade alegada)",
+      "fauna_label_en": "10–15 live big cats (alleged quantity)",
+      "fauna_label_es": "10–15 grandes felinos vivos (cantidad alegada)",
+      "quantity_count": 10,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "live_animals",
+      "quantity_by_group": {
+        "Mamíferos": 10
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "A testemunha relatou 10–15 caixas, cada uma com um felino; 10 é registrado apenas como mínimo alegado, não como contagem exata.",
+      "quantity_note_en": "The witness reported 10–15 crates, each with one cat; 10 is recorded only as an alleged minimum, not an exact count.",
+      "quantity_note_es": "El testigo informó de 10–15 cajas, cada una con un felino; se registra 10 solo como mínimo alegado, no como conteo exacto.",
+      "occurrence_type": "alleged_international_wildlife_transport_under_investigation",
+      "route_audit_status": "DOCUMENTED_AS_WITNESS_ALLEGATION",
+      "route_audit_note_pt": "Marsaxlokk → águas internacionais próximas à Líbia é relatado por testemunha e permanece sob investigação; não registrar chegada à Líbia.",
+      "route_audit_note_en": "Marsaxlokk → international waters near Libya is reported by a witness and remains under investigation; do not record arrival in Libya.",
+      "route_audit_note_es": "Marsaxlokk → aguas internacionales próximas a Libia fue relatado por un testigo y sigue bajo investigación; no registrar llegada a Libia.",
+      "geographic_note_pt": "Coordenadas generalizadas de Marsaxlokk; o ponto de transferência em águas internacionais não foi divulgado.",
+      "geographic_note_en": "Generalized coordinates for Marsaxlokk; the transfer point in international waters was not disclosed.",
+      "geographic_note_es": "Coordenadas generalizadas de Marsaxlokk; no se divulgó el punto de transferencia en aguas internacionales.",
+      "context_pt": "[O1] Fatos documentados: a Times of Malta publicou que a polícia investiga alegações de transporte de grandes felinos por uma embarcação de Marsaxlokk. Um ex-funcionário declarou que, em 17/04/2026, 10–15 caixas — cada uma contendo um felino — foram levadas a águas internacionais próximas à Líbia e transferidas para outra embarcação. Fotografias e vídeo examinados pelo jornal mostravam animais exóticos em caixas; o proprietário reconheceu ter transportado felinos por mar, mas afirmou possuir autorização. [S1] Relação com a ciência: Lindsey et al. (2026) sintetizam evidências de comércio ilegal transnacional envolvendo leões e destacam dificuldades de detecção e resposta; o estudo é usado somente como contexto e não demonstra origem, destino final ou ilegalidade neste evento. [N1] Relação com reportagens: cobertura posterior da Times of Malta sobre outra apreensão de fauna destinada a Malta retomou a investigação dos grandes felinos e o debate sobre reforço de inspeções marítimas; trata-se apenas de contexto temático. Síntese: o registro é relevante como investigação de possível transporte internacional marítimo de grandes felinos, mas deve permanecer explicitamente qualificado como alegação sob apuração. Limites da evidência: não há confirmação pública de espécie para todos os animais, origem anterior, destino final, conteúdo das caixas recebidas em troca ou inexistência/invalidade de licença; “panther” não é tratado como identificação taxonômica precisa.",
+      "context_en": "[O1] Documented facts: Times of Malta reported that police are investigating allegations involving the maritime transport of big cats by a vessel from Marsaxlokk. A former employee stated that on 17 April 2026, 10–15 crates — each containing a cat — were taken to international waters near Libya and transferred to another vessel. Photographs and video reviewed by the newspaper showed exotic animals in boxes; the owner acknowledged transporting wild cats by sea but said he had a permit. [S1] Relation to science: Lindsey et al. (2026) synthesize evidence of transnational illegal trade involving lions and highlight detection and enforcement challenges; the study is used only as context and does not establish origin, final destination or illegality in this event. [N1] Relation to reporting: later Times of Malta coverage of a separate wildlife seizure bound for Malta referred back to the big-cat investigation and debate over stronger maritime inspections; it is thematic context only. Integrated reading: this record is relevant as an investigation into possible international maritime transport of big cats, but it must remain explicitly qualified as an allegation under investigation. Evidence limits: there is no public confirmation of species for every animal, earlier origin, final destination, the contents of boxes allegedly received in exchange, or the absence/invalidity of a permit; “panther” is not treated as a precise taxonomic identification.",
+      "context_es": "[O1] Hechos documentados: Times of Malta informó que la policía investiga alegaciones sobre el transporte marítimo de grandes felinos por una embarcación desde Marsaxlokk. Un exempleado declaró que el 17/04/2026 se transportaron 10–15 cajas —cada una con un felino— hasta aguas internacionales próximas a Libia, donde los animales fueron transferidos a otra embarcación. Fotografías y video revisados por el periódico mostraban animales exóticos en cajas; el propietario reconoció haber transportado felinos por mar, pero afirmó contar con autorización. [S1] Relación con la ciencia: Lindsey et al. (2026) sintetizan evidencias de comercio ilegal transnacional que afecta a leones y destacan dificultades de detección y respuesta; el estudio se utiliza solo como contexto y no demuestra origen, destino final ni ilegalidad en este evento. [N1] Relación con reportajes: una cobertura posterior de Times of Malta sobre otro decomiso de fauna con destino a Malta retomó la investigación de los grandes felinos y el debate sobre reforzar las inspecciones marítimas; se usa únicamente como contexto temático. Síntesis: el registro es relevante como investigación de posible transporte marítimo internacional de grandes felinos, pero debe mantenerse explícitamente calificado como alegación bajo investigación. Límites de la evidencia: no existe confirmación pública de la especie de todos los animales, origen previo, destino final, contenido de las cajas supuestamente recibidas a cambio ni inexistencia/invalidez de un permiso; “panther” no se trata como identificación taxonómica precisa.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Times of Malta",
+          "url": "https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076",
+          "verified": true,
+          "verified_at": "2026-10-07T12:43:00Z"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Lindsey et al. (2026), Increasing Targeted Poaching of Lions for Trade Has the Potential to Pose an Existential Threat to the Species in Africa",
+          "url": "https://doi.org/10.1111/con4.70014",
+          "verified": true,
+          "verified_at": "2026-10-07T12:43:00Z"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Times of Malta — Sicily-to-Malta wildlife seizure coverage",
+          "url": "https://timesofmalta.com/article/sicilian-police-arrest-man-smuggling-300-turtles-77-parrots-malta.1135105",
+          "verified": true,
+          "verified_at": "2026-10-07T12:43:00Z"
+        }
+      ],
+      "references_text_pt": "[O1] Times of Malta — https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076; [S1] Lindsey et al. (2026), Conservation Science and Practice, DOI 10.1111/con4.70014; [N1] Times of Malta — https://timesofmalta.com/article/sicilian-police-arrest-man-smuggling-300-turtles-77-parrots-malta.1135105",
+      "references_text_en": "[O1] Times of Malta — https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076; [S1] Lindsey et al. (2026), Conservation Science and Practice, DOI 10.1111/con4.70014; [N1] Times of Malta — https://timesofmalta.com/article/sicilian-police-arrest-man-smuggling-300-turtles-77-parrots-malta.1135105",
+      "references_text_es": "[O1] Times of Malta — https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076; [S1] Lindsey et al. (2026), Conservation Science and Practice, DOI 10.1111/con4.70014; [N1] Times of Malta — https://timesofmalta.com/article/sicilian-police-arrest-man-smuggling-300-turtles-77-parrots-malta.1135105",
+      "image_source_url": "https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076",
+      "image_url": null,
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
     }
   ]
 }
