@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-06T23:35:00-04:00",
+  "updated_at": "2026-10-07T11:15:00Z",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -7459,6 +7459,43 @@
       "evidence_es": "La fuente documenta que los seis quelonios fueron decomisados en una embarcación que realizaba el trayecto Lábrea–Manaos.",
       "source_label": "Polícia Militar do Amazonas",
       "source_url": "https://pm.am.gov.br/portal/noticia/a%2Bpolicia%2Bmilitar%2Ba-2221.html"
+    },
+    {
+      "id": "havana-miami-songbirds-2026-10-04",
+      "event_match": {
+        "event_date": "2026-10-04",
+        "location_contains": "Miami International Airport"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Havana → Miami",
+      "label_en": "Havana → Miami",
+      "label_es": "La Habana → Miami",
+      "segments": [
+        {
+          "from": {
+            "name": "Havana",
+            "country": "Cuba",
+            "lat": 23.1136,
+            "lon": -82.3666,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Miami International Airport",
+            "country": "Estados Unidos",
+            "lat": 25.7959,
+            "lon": -80.287,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A denúncia criminal e a cobertura documentam que o passageiro chegou a Miami no voo World Atlantic 503 procedente de Havana com 10 aves vivas ocultas na roupa.",
+      "evidence_en": "The criminal complaint and reporting document that the passenger arrived in Miami on World Atlantic Flight 503 from Havana with 10 live birds concealed in his clothing.",
+      "evidence_es": "La denuncia penal y la cobertura documentan que el pasajero llegó a Miami en el vuelo World Atlantic 503 procedente de La Habana con 10 aves vivas ocultas en la ropa.",
+      "source_label": "CBS Miami / federal criminal complaint",
+      "source_url": "https://www.cbsnews.com/miami/news/miami-international-airport-bird-smuggling-underwear-arrest-customs-havana-flight/"
     }
   ],
   "network_context": [
