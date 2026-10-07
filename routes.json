@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-07T12:43:00Z",
+  "updated_at": "2026-10-07T19:25:00Z",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -7532,6 +7532,78 @@
       "evidence_es": "Un exempleado declaró a Times of Malta que la embarcación llevó 10–15 cajas con grandes felinos desde Marsaxlokk hasta aguas internacionales próximas a Libia, donde supuestamente fueron transferidas a otra embarcación. La policía investiga el relato; no registrar llegada a Libia.",
       "source_label": "Times of Malta",
       "source_url": "https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076"
+    },
+    {
+      "id": "jau-anavilhanas-chelonians-2025-08-04",
+      "event_match": {
+        "event_id": "2025-08-04__anavilhanas-novo-airao-221-chelonians-jau-origin"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "documented_origin_to_interception",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Parque Nacional do Jaú → Parque Nacional de Anavilhanas",
+      "label_en": "Jaú National Park → Anavilhanas National Park",
+      "label_es": "Parque Nacional de Jaú → Parque Nacional de Anavilhanas",
+      "segments": [
+        {
+          "from": {
+            "name": "Parque Nacional do Jaú",
+            "country": "Brasil",
+            "lat": -1.9,
+            "lon": -61.6,
+            "precision": "protected_area_generalized"
+          },
+          "to": {
+            "name": "Parque Nacional de Anavilhanas",
+            "country": "Brasil",
+            "lat": -2.62,
+            "lon": -60.94,
+            "precision": "protected_area_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que os 221 quelônios apreendidos durante transporte em Anavilhanas procediam do Parque Nacional do Jaú. A linha representa apenas a origem documentada até o ponto de interceptação, sem inferir destino final.",
+      "evidence_en": "The source states that the 221 chelonians intercepted during transport in Anavilhanas came from Jaú National Park. The line represents only the documented origin to the interception area and does not infer a final destination.",
+      "evidence_es": "La fuente informa que los 221 quelonios interceptados durante su transporte en Anavilhanas procedían del Parque Nacional de Jaú. La línea representa únicamente el origen documentado hasta el área de interceptación, sin inferir destino final.",
+      "source_label": "D24AM / ICMBio",
+      "source_url": "https://d24am.com/policia/video-mais-de-220-quelonios-sao-apreendidos-no-interior-do-am/"
+    },
+    {
+      "id": "santarem-parintins-chelonians-2025-09-24",
+      "event_match": {
+        "event_id": "2025-09-24__parintins-49-amazon-river-turtles-santarem-route"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Santarém → Parintins",
+      "label_en": "Santarém → Parintins",
+      "label_es": "Santarém → Parintins",
+      "segments": [
+        {
+          "from": {
+            "name": "Santarém",
+            "country": "Brasil",
+            "lat": -2.4385,
+            "lon": -54.6996,
+            "precision": "city_port_generalized"
+          },
+          "to": {
+            "name": "Porto de Parintins",
+            "country": "Brasil",
+            "lat": -2.6283,
+            "lon": -56.7358,
+            "precision": "city_port_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Prefeitura de Parintins informa que as 49 tartarugas foram encontradas no porão de embarcação procedente de Santarém, documentando o segmento Santarém → Parintins.",
+      "evidence_en": "The Parintins municipal government states that the 49 turtles were found in the hold of a vessel arriving from Santarém, documenting the Santarém → Parintins segment.",
+      "evidence_es": "La Prefeitura de Parintins informa que las 49 tortugas fueron halladas en la bodega de una embarcación procedente de Santarém, documentando el tramo Santarém → Parintins.",
+      "source_label": "Prefeitura de Parintins",
+      "source_url": "https://parintins.am.gov.br/noticia/fiscais-da-prefeitura-de-parintins-apreendem-49-tartarugas-em-barco-procedente-do-para"
     }
   ],
   "network_context": [
