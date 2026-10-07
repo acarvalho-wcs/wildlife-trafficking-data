@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-07T11:15:00Z",
+  "updated_at": "2026-10-07T12:43:00Z",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -7496,6 +7496,42 @@
       "evidence_es": "La denuncia penal y la cobertura documentan que el pasajero llegó a Miami en el vuelo World Atlantic 503 procedente de La Habana con 10 aves vivas ocultas en la ropa.",
       "source_label": "CBS Miami / federal criminal complaint",
       "source_url": "https://www.cbsnews.com/miami/news/miami-international-airport-bird-smuggling-underwear-arrest-customs-havana-flight/"
+    },
+    {
+      "id": "marsaxlokk-intl-waters-near-libya-big-cats-2026-04-17",
+      "event_match": {
+        "event_id": "2026-04-17__marsaxlokk-big-cats-international-waters"
+      },
+      "status": "ALLEGED_UNDER_INVESTIGATION",
+      "route_type": "attributed_transport_itinerary",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Marsaxlokk → águas internacionais próximas à Líbia (alegado)",
+      "label_en": "Marsaxlokk → international waters near Libya (alleged)",
+      "label_es": "Marsaxlokk → aguas internacionales próximas a Libia (alegado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Marsaxlokk",
+            "country": "Malta",
+            "lat": 35.8419,
+            "lon": 14.5431,
+            "precision": "city_port_generalized"
+          },
+          "to": {
+            "name": "Águas internacionais próximas à Líbia",
+            "country": null,
+            "lat": 34.25,
+            "lon": 14.2,
+            "precision": "sea_area_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Um ex-funcionário relatou à Times of Malta que a embarcação levou 10–15 caixas com grandes felinos de Marsaxlokk até águas internacionais próximas à Líbia, onde teriam sido transferidas para outra embarcação. A polícia investiga o relato; não registrar chegada à Líbia.",
+      "evidence_en": "A former employee told Times of Malta that the vessel carried 10–15 crates with big cats from Marsaxlokk to international waters near Libya, where they were allegedly transferred to another vessel. Police are investigating the account; do not record arrival in Libya.",
+      "evidence_es": "Un exempleado declaró a Times of Malta que la embarcación llevó 10–15 cajas con grandes felinos desde Marsaxlokk hasta aguas internacionales próximas a Libia, donde supuestamente fueron transferidas a otra embarcación. La policía investiga el relato; no registrar llegada a Libia.",
+      "source_label": "Times of Malta",
+      "source_url": "https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076"
     }
   ],
   "network_context": [
