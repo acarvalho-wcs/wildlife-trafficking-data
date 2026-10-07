@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T17:19:25Z",
-  "records_total": 646,
-  "resolved_direct_images": 449,
-  "unresolved": 197,
+  "generated_at": "2026-10-07T18:05:05Z",
+  "records_total": 722,
+  "resolved_direct_images": 500,
+  "unresolved": 222,
   "resolution_policy": "Source-hosted direct URLs only; no image copying. Metadata and article images are accepted only after image/* validation.",
   "results": [
     {
@@ -426,7 +426,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "no_valid_direct_image"
+      "note": "https://news.coastguard.gov.lk/news/2026/02/19/202602190550/:source_request_error:ConnectTimeout"
     },
     {
       "id": "2026-02-21__galle-feb21-shark",
@@ -777,7 +777,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://ministeriopublico.poder-judicial.go.cr/index.php/comunicaciones/noticias-judiciales/349-tras-allanamiento-de-la-fiscalia-ambiental-rescatan-animales-silvestres-y-14-gallos-presuntamente-utilizados-en-peleas?highlight=WzIwMjZd:source_request_error:ReadTimeout"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-09-16__marsa-matrouh-eagle-lion",
@@ -831,7 +831,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/pernambuco/2026/junho/prf-resgata-250-passaros-silvestres-na-br-116-em-parnamirim:source_request_error:ConnectionError"
+      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/pernambuco/2026/junho/prf-resgata-250-passaros-silvestres-na-br-116-em-parnamirim:source_http_401"
     },
     {
       "id": "2026-01__parnaiba-pi-two-parrots",
@@ -876,7 +876,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/pernambuco/2026/marco/prf-resgata-137-aves-silvestres-na-br-407-em-petrolina:source_request_error:ConnectionError"
+      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/pernambuco/2026/marco/prf-resgata-137-aves-silvestres-na-br-407-em-petrolina:source_http_401"
     },
     {
       "id": "2026-03__juazeiro-ba-84-animals",
@@ -903,7 +903,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/rio-de-janeiro/2026/marco/prf-resgata-animais-silvestres-transportados-dentro-do-porta-malas-de-um-carro-no-rj:source_request_error:ConnectionError"
+      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/rio-de-janeiro/2026/marco/prf-resgata-animais-silvestres-transportados-dentro-do-porta-malas-de-um-carro-no-rj:source_http_401"
     },
     {
       "id": "2026-04-12__pirai-rj-two-saltators",
@@ -912,16 +912,16 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/rio-de-janeiro/2026/abril/prf-flagra-motorista-sem-habilitacao-e-resgata-aves-silvestres-em-onibus-na-dutra/:source_request_error:ConnectionError"
+      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/rio-de-janeiro/2026/abril/prf-flagra-motorista-sem-habilitacao-e-resgata-aves-silvestres-em-onibus-na-dutra/:source_http_401"
     },
     {
       "id": "2026-04-17__duque-de-caxias-rj-agora-28",
       "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj",
       "existing_image_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj/2026-04-17_mico_resgatado.jpeg",
-      "resolved": false,
-      "method": null,
-      "image_url": null,
-      "note": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj:source_request_error:ConnectionError; https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj/2026-04-17_mico_resgatado.jpeg/view:source_request_error:ConnectionError"
+      "resolved": true,
+      "method": "existing_direct",
+      "image_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-do-ibama-combate-o-comercio-ilegal-de-fauna-em-feira-no-rj/2026-04-17_mico_resgatado.jpeg",
+      "note": "image/jpeg"
     },
     {
       "id": "2026-05-04__lagarto-se-155-birds",
@@ -957,7 +957,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/minas-gerais/2026/junho/prf-resgata-aves-silvestres-transportadas-irregularmente-na-br-267-em-caxambu-mg:source_request_error:ConnectionError"
+      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/minas-gerais/2026/junho/prf-resgata-aves-silvestres-transportadas-irregularmente-na-br-267-em-caxambu-mg:source_http_401"
     },
     {
       "id": "2026-07-15__niteroi-rj-operacao-bicho-solto",
@@ -975,16 +975,16 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "no_valid_direct_image"
+      "note": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-e-prf-prendem-duas-pessoas-em-flagrante-com-50-passaros-no-rio-de-janeiro:source_request_error:ConnectionError"
     },
     {
       "id": "2026-08-14__foz-do-iguacu-pr-eight-birds",
       "source_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade",
       "existing_image_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade/capa.jpeg",
-      "resolved": true,
-      "method": "existing_direct",
-      "image_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-apreende-oito-aves-silvestres-durante-fiscalizacao-na-ponte-internacional-da-amizade/capa.jpeg",
-      "note": "image/jpeg"
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-08-19__palmeiras-do-tocantins-412-animals",
@@ -1236,7 +1236,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://the-eis.com/elibrary/search/34588:source_request_error:SSLError"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-01-17__okahandja-leopard-skin",
@@ -1566,10 +1566,10 @@
       "id": "2026-08-11__mangochi-live-pangolin",
       "source_url": "https://www.faceofmalawi.com/2026/08/12/traditional-healer-kabaza-operator-arrested-with-live-pangolin-in-mangochi/",
       "existing_image_url": null,
-      "resolved": false,
-      "method": null,
-      "image_url": null,
-      "note": "no_valid_direct_image"
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.faceofmalawi.com/uploads/2026/08/Mangochi.jpg",
+      "note": "image/jpeg"
     },
     {
       "id": "2026-08-21__zaria-two-lion-cubs",
@@ -2520,10 +2520,10 @@
       "id": "2026-02-04__obidos-300kg-arapaima-sao-bartolomeu-v",
       "source_url": "https://cetran.segup.pa.gov.br/materias/base-integrada-fluvial-candiru-apreende-300-quilos-de-pirarucu-ilegal-em-obidos-2/",
       "existing_image_url": "https://cetran.segup.pa.gov.br/wp-content/uploads/2026/03/captura_de_tela_2026-02-05_142925.png",
-      "resolved": true,
-      "method": "existing_direct",
-      "image_url": "https://cetran.segup.pa.gov.br/wp-content/uploads/2026/03/captura_de_tela_2026-02-05_142925.png",
-      "note": "image/png"
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://cetran.segup.pa.gov.br/materias/base-integrada-fluvial-candiru-apreende-300-quilos-de-pirarucu-ilegal-em-obidos-2/:source_request_error:ConnectTimeout"
     },
     {
       "id": "2026-03-06__obidos-605kg-fish-ana-beatriz",
@@ -2753,9 +2753,9 @@
     {
       "id": "2026-01__guangzhou-23-ivory-hawksbill-products",
       "source_url": "https://huacheng.gz-cmc.com/pages/2026/01/16/e8c04e4826e74b0eb4de025696a0f4d3.html",
-      "existing_image_url": null,
+      "existing_image_url": "https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/01/16/1768564130352060799.jpg?x-oss-process=style/content",
       "resolved": true,
-      "method": "article_img",
+      "method": "existing_direct",
       "image_url": "https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/01/16/1768564130352060799.jpg?x-oss-process=style/content",
       "note": "image/jpeg"
     },
@@ -2916,10 +2916,10 @@
       "id": "2026-04__akbulak-103-exotic-birds-uzbekistan-moscow",
       "source_url": "https://orenburg.media/?p=530190",
       "existing_image_url": "https://orenburg.media/wp-content/uploads/2026/04/15097B32-B7E8-4BDE-8785-A462A0606B2E.webp",
-      "resolved": false,
-      "method": null,
-      "image_url": null,
-      "note": "https://orenburg.media/?p=530190:source_request_error:ConnectTimeout"
+      "resolved": true,
+      "method": "existing_direct",
+      "image_url": "https://orenburg.media/wp-content/uploads/2026/04/15097B32-B7E8-4BDE-8785-A462A0606B2E.webp",
+      "note": "image/webp"
     },
     {
       "id": "2026-04-06__pulkovo-67-wildlife-derivatives-china",
@@ -3378,7 +3378,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://environment.ps/category/%D8%A7%D9%84%D8%A3%D9%86%D8%B4%D8%B7%D8%A9/:source_request_error:ReadTimeout"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-07-22__tulkarm-buzzard-illegal-possession",
@@ -3581,9 +3581,9 @@
     {
       "id": "2026-09-27__parepare-40-ornate-lorikeets",
       "source_url": "https://www.malukuterkini.com/2026/09/27/barantin-hentikan-perjalanan-40-perkici/",
-      "existing_image_url": null,
+      "existing_image_url": "https://www.malukuterkini.com/wp-content/uploads/2026/09/BARANTIN-HENTIKAN-PERJALANAN-PERKICI-270926-1A-OK.jpg",
       "resolved": true,
-      "method": "og:image",
+      "method": "existing_direct",
       "image_url": "https://www.malukuterkini.com/wp-content/uploads/2026/09/BARANTIN-HENTIKAN-PERJALANAN-PERKICI-270926-1A-OK.jpg",
       "note": "image/jpeg"
     },
@@ -3797,9 +3797,9 @@
     {
       "id": "2026-09-29__yellapur-two-monitor-lizards-hunted",
       "source_url": "https://kannadavani.news/yellapur-uda-bete-prakarana-tande-magana-bandhana/",
-      "existing_image_url": null,
+      "existing_image_url": "https://kannadavani.news/wp-content/uploads/2026/09/file_00000000e94c8211962e8454e4d5cd69-1.jpg",
       "resolved": true,
-      "method": "og:image",
+      "method": "existing_direct",
       "image_url": "https://kannadavani.news/wp-content/uploads/2026/09/file_00000000e94c8211962e8454e4d5cd69-1.jpg",
       "note": "image/jpeg"
     },
@@ -4620,7 +4620,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "no_valid_direct_image"
+      "note": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos:source_request_error:ConnectionError"
     },
     {
       "id": "2026-10__andalgala-11-wild-birds",
@@ -4914,10 +4914,10 @@
       "id": "2026-09__karatal-127-1kg-illegally-caught-fish",
       "source_url": "https://www.gov.kz/memleket/entities/qriim/press/news/details/1301643?lang=ru",
       "existing_image_url": "https://www.gov.kz/uploads/2026/9/9/3769dd17ca85603ed56fe04683cdd8893c14248bd86b7559e76e3e018c8599c5_original.49352.jpeg",
-      "resolved": true,
-      "method": "existing_direct",
-      "image_url": "https://www.gov.kz/uploads/2026/9/9/3769dd17ca85603ed56fe04683cdd8893c14248bd86b7559e76e3e018c8599c5_original.49352.jpeg",
-      "note": "image/jpeg"
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://www.gov.kz/memleket/entities/qriim/press/news/details/1301643?lang=ru:source_request_error:ConnectTimeout"
     },
     {
       "id": "2026-10-02__aguilares-31-captive-wild-birds",
@@ -5142,7 +5142,7 @@
       "resolved": true,
       "method": "existing_direct",
       "image_url": "https://i.natgeofe.com/n/a835eeda-d28f-4d98-b491-3aadc7b4ba2e/captive-macaws-01210005_16x9.jpg?w=1200",
-      "note": "image/avif"
+      "note": "image/jpeg"
     },
     {
       "id": "hyacinth-2011-santa-catarina-1__batch-20261004",
@@ -5247,10 +5247,10 @@
       "id": "hyacinth-2023-parada-robles-at-least-1-of-19__batch-20261004b",
       "source_url": "https://mail.capillaonline.com/index.php/secciones/secciones-menu/policiales/la-policia-federal-argentina-rescato-aves-en-peligro-de-extincion",
       "existing_image_url": "https://mail.capillaonline.com/media/k2/items/cache/e1479c60fc7d7f4f708d42f869f837c8_L.jpg",
-      "resolved": true,
-      "method": "existing_direct",
-      "image_url": "https://mail.capillaonline.com/media/k2/items/cache/e1479c60fc7d7f4f708d42f869f837c8_L.jpg",
-      "note": "image/jpeg"
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://mail.capillaonline.com/index.php/secciones/secciones-menu/policiales/la-policia-federal-argentina-rescato-aves-en-peligro-de-extincion:source_request_error:ReadTimeout"
     },
     {
       "id": "macaw-eggs-2023-10-03-silvio-pettirossi-species-unconfirmed__batch-20261004b",
@@ -5284,7 +5284,7 @@
       "source_url": "https://www.diariodebatepregon.com/provinciales/trasladaron-a-un-refugio-a-blu-el-guacamayo-azul-rescatado-en-gualeguay-por-la-justicia-federal",
       "existing_image_url": "https://cdnartic.ar/MBZK4BxTrW3lkNlZM2t0tHgjD40=/1200x630/smart/filters:format(jpeg):quality(70)/https://eldebatecdn.eleco.com.ar/media/2026/05/d_2.jpg",
       "resolved": true,
-      "method": "existing_direct",
+      "method": "og:image",
       "image_url": "https://cdnartic.ar/MBZK4BxTrW3lkNlZM2t0tHgjD40=/1200x630/smart/filters:format(jpeg):quality(70)/https://eldebatecdn.eleco.com.ar/media/2026/05/d_2.jpg",
       "note": "image/jpeg"
     },
@@ -5331,7 +5331,7 @@
       "resolved": true,
       "method": "existing_direct",
       "image_url": "https://i.natgeofe.com/n/a835eeda-d28f-4d98-b491-3aadc7b4ba2e/captive-macaws-01210005_16x9.jpg?w=1200",
-      "note": "image/avif"
+      "note": "image/jpeg"
     },
     {
       "id": "hyacinth-aggregate-2004-2005-santa-cruz-bolivia__batch-20261004b",
@@ -5403,7 +5403,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/rondonia/2024/agosto/prf-resgata-animais-silvestres-ameacados-de-extincao-em-porto-velho-ro:source_request_error:ConnectionError"
+      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/rondonia/2024/agosto/prf-resgata-animais-silvestres-ameacados-de-extincao-em-porto-velho-ro:source_http_401"
     },
     {
       "id": "2025-12-22__kolkata-two-golden-lion-tamarins-bangkok-flight",
@@ -5529,7 +5529,7 @@
       "resolved": true,
       "method": "existing_direct",
       "image_url": "https://images.mid-day.com/images/images/2026/oct/deer-skin-news_1790873718171_d.jpg",
-      "note": "image/webp"
+      "note": "image/jpeg"
     },
     {
       "id": "2026-10__kabansky-34-baikal-omul",
@@ -5655,7 +5655,7 @@
       "resolved": false,
       "method": null,
       "image_url": null,
-      "note": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos:source_request_error:ConnectionError"
+      "note": "no_valid_direct_image"
     },
     {
       "id": "2026-10-04__chubut-six-choique-eggs-rn3",
@@ -5817,6 +5817,690 @@
       "resolved": true,
       "method": "existing_direct",
       "image_url": "https://news-omsk.ru/img/20261006/505b4ed868b9cbd6d9f6f0ab281dd8c5.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2019-05-27__manzanillo-mexico-shark-fins-philippines",
+      "source_url": "https://mexiconewsdaily.com/news/customs-agents-seize-10-tonnes-of-shark-fins-in-manzanillo/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://mexiconewsdaily.com/news/customs-agents-seize-10-tonnes-of-shark-fins-in-manzanillo/:source_http_404"
+    },
+    {
+      "id": "2024-09-10__piuma-es-500kg-shark-fins",
+      "source_url": "https://aquinoticias.com/2024/09/ibama-apreende-500-kg-de-barbatana-de-tubarao-durante-acao-em-piuma/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://aquinoticias.com/wp-content/uploads/2024/09/Barbatana-de-tubarao.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-01-06__wellamankara-850kg-illegal-sharks",
+      "source_url": "https://news.coastguard.gov.lk/news/2026/01/06/202601061045/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://news.coastguard.gov.lk/news/2026/01/06/202601061045/:source_request_error:ConnectTimeout"
+    },
+    {
+      "id": "2026-01-24__turnagain-island-38-shark-fins",
+      "source_url": "https://www.abf.gov.au/newsroom-subsite/Pages/Australian-Border-Force-intercepts-four-foreign-fishing-vessels-in-the-Torres-Strait.aspx",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.abf.gov.au/PublishingImages/Preview_Site.JPG",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-01-29__gove-4-shark-fins",
+      "source_url": "https://www.abf.gov.au/newsroom-subsite/Pages/ABF-to-destroy-foreign-fishing-vessel-apprehended-in-NT-waters.aspx",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.abf.gov.au/PublishingImages/Preview_Site.JPG",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-02-04__chorrillos-chilca-41t-shark-fins",
+      "source_url": "https://es.mongabay.com/2026/10/peru-incautan-toneladas-aletas-tiburon-empresa-cuestionada-fiscalia-crimen-organizado-abre-investigacion/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/05152000/aletas-de-tiburon.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-02-08__louisville-40kg-blue-shark-fins",
+      "source_url": "https://www.fws.gov/fwsforfeiture/notices/publishedNOS/March%2020%2C%202026?post=7654",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2026-02-12__port-klang-petasan-container-1",
+      "source_url": "https://www.thestar.com.my/news/nation/2026/04/07/selangor-customs-foils-attempts-to-smuggle-rm82mil-worth-of-shark-fins",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/04/07/3848754.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-03-02__port-klang-petasan-container-2",
+      "source_url": "https://www.thestar.com.my/news/nation/2026/04/07/selangor-customs-foils-attempts-to-smuggle-rm82mil-worth-of-shark-fins",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/04/07/3848754.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-03-09__port-klang-petasan-container-3",
+      "source_url": "https://www.thestar.com.my/news/nation/2026/04/07/selangor-customs-foils-attempts-to-smuggle-rm82mil-worth-of-shark-fins",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/04/07/3848754.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-04-26__valachchenai-thresher-shark",
+      "source_url": "https://news.coastguard.gov.lk/news/2026/04/26/202604261855/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://news.coastguard.gov.lk/news/2026/04/26/202604261855/:source_request_error:ConnectTimeout"
+    },
+    {
+      "id": "2026-07-16__malpelo-jordi-ii-silky-sharks",
+      "source_url": "https://www.parquesnacionales.gov.co/sala-prensa/noticias/frustran-pesca-ilegal-en-el-santuario-malpelo-pacifico-colombiano/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.parquesnacionales.gov.co/wp-content/uploads/2026/07/Frustran-pesca-ilegal-en-el-Santuario-Malpelo-Pacifico-colombiano-3-e1784758089707.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-02-11__croker-island-339-shark-fins",
+      "source_url": "https://www.abf.gov.au/newsroom-subsite/Pages/Seven-foreign-fishers-found-guilty-in-Darwin-Court.aspx",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.abf.gov.au/PublishingImages/Preview_Site.JPG",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-02-18__pasto-200-shark-fins",
+      "source_url": "https://www.policia.gov.co/noticia/direccion-carabineros-proteccion-ambiental-en-pasto-incauta-200-aletas-tiburon-que-iban-ser",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.policia.gov.co/sites/default/files/noticias/La%20Direcci%C3%B3n%20de%20Carabineros%20y%20Protecci%C3%B3n%20Ambiental%20en%20Pasto%20.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-03-04__gonzaga-400kg-manta",
+      "source_url": "https://region2.bfar.da.gov.ph/2025/03/06/da-bfar-2-apprehends-local-fishers-for-catching-prohibited-species/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://region2.bfar.da.gov.ph/2025/03/06/da-bfar-2-apprehends-local-fishers-for-catching-prohibited-species/:source_request_error:SSLError"
+    },
+    {
+      "id": "2025-03-22__hong-kong-hidden-controlled-shark-fins",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4534.html",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2025-04-09__manta-ecuador-16-56t-shark-fins",
+      "source_url": "https://policiajudicial.gob.ec/cerca-de-16-toneladas-de-aletas-de-tiburon-fueron-decomisadas-en-manta-3948/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://policiajudicial.gob.ec/wp-content/uploads/2025/04/WhatsApp-Image-2025-04-09-at-12.24.24-150x150.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-05-24__dikovita-145-6kg-oceanic-whitetip",
+      "source_url": "https://news.coastguard.gov.lk/news/2025/05/30/202505301000/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://news.coastguard.gov.lk/news/2025/05/30/202505301000/:source_request_error:ConnectTimeout"
+    },
+    {
+      "id": "2025-06-11__jayapura-png-35-8kg-shark-fins",
+      "source_url": "https://rri.co.id/jayapura/daerah-3t/1576806/aksi-lantamal-x-gagalkan-penyelundupan-di-perbatasan",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://rri.co.id/jayapura/daerah-3t/1576806/aksi-lantamal-x-gagalkan-penyelundupan-di-perbatasan:source_http_403"
+    },
+    {
+      "id": "2025-06-27__hong-kong-macau-1-5t-shark-fins",
+      "source_url": "https://www.info.gov.hk/gia/general/202507/08/P2025070800632p.htm",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.info.gov.hk/gia/images/print_header_en_x2.gif",
+      "note": "image/gif"
+    },
+    {
+      "id": "2025-07-23__adele-island-66-shark-fins",
+      "source_url": "https://www.afma.gov.au/news/eleven-foreign-fishers-found-guilty-including-shark-finning-crew",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.afma.gov.au/sites/default/files/styles/max_325x325/public/2025-08/abf_newsroom_19_and_23_july_apprehensions_2.jpg?itok=ey3n-Vat",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-07-30__tumaco-76-shark-fins",
+      "source_url": "https://www.policia.gov.co/index.php/noticia/incautan-76-aletas-tiburon",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.policia.gov.co/sites/default/files/noticias/INCAUTAN_ALETAS_DE_TIBURON.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-08-01__bathurst-island-50-fins-14-sharks",
+      "source_url": "https://www.afma.gov.au/news/nine-illegal-foreign-fishers-found-guilty-repeat-offender-jailed",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.afma.gov.au/sites/default/files/styles/max_325x325/public/2025-09/usaha-mulya-ap25_26-005.jpg?itok=MtD9egsC",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-08-08__cobourg-peninsula-3-shark-fins",
+      "source_url": "https://www.abf.gov.au/newsroom-subsite/Pages/ABF-detains-foreign-fishers%2C-destroys-boats-and-seizes-2-1-tonnes-of-sea-cucumber.aspx",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.abf.gov.au/PublishingImages/Preview_Site.JPG",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-08-17__chennai-singapore-11-6kg-shark-fins",
+      "source_url": "https://www.newindianexpress.com/cities/chennai/2025/Aug/22/24-kg-of-hydroponic-weed-shark-fins-seized-at-airport",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://cf-images.assettype.com/newindianexpress%2F2025-08-12%2F3wpo340q%2F202508123478847.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "note": "image/avif"
+    },
+    {
+      "id": "2025-08-29__gandara-93-76kg-thresher-fins",
+      "source_url": "https://news.coastguard.gov.lk/news/2025/09/01/202508311000/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://news.coastguard.gov.lk/news/2025/09/01/202508311000/:source_request_error:ConnectTimeout"
+    },
+    {
+      "id": "2025-09-22__cartagena-26-shark-fins",
+      "source_url": "https://www.policia.gov.co/noticia/en-cartagena-ciudadano-chino-es-capturado-con-26-aletas-tiburon",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.policia.gov.co/sites/default/files/noticias/Capturado_por_el_delito_de_trafico_de_fauna_silvestre.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-09-25__parnaiba-shark-fin-processing-site",
+      "source_url": "https://www.pi.gov.br/pm-e-orgaos-federais-apreendem-toneladas-de-barbatanas-de-tubarao-e-animais-marinhos-em-parnaiba/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.pi.gov.br/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-26-at-07.11.31-768x1024.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-10-03__hong-kong-macau-controlled-shark-fins",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4885.html",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2025-10-29__galle-5-7kg-thresher-fins",
+      "source_url": "https://news.coastguard.gov.lk/news/2025/11/01/202510291845/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://news.coastguard.gov.lk/news/2025/11/01/202510291845/:source_request_error:ConnectTimeout"
+    },
+    {
+      "id": "2025-11-06__galle-38kg-shark-meat-2kg-fins",
+      "source_url": "https://news.coastguard.gov.lk/news/2025/11/06/202511071815/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://news.coastguard.gov.lk/news/2025/11/06/202511071815/:source_request_error:ConnectTimeout"
+    },
+    {
+      "id": "2025-11-19__guarulhos-hong-kong-48kg-shark-fins",
+      "source_url": "https://www.metropoles.com/brasil/operacao-apreende-62-kg-de-barbatanas-de-tubarao-em-malas-no-aeroporto",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://i.metroimg.com/PsZACnQ11yjpERJuFQpEmxyZR1nKIXuslSEXfB9V4Kg/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2025/11/25051927/ibama-2-5.jpg",
+      "note": "image/webp"
+    },
+    {
+      "id": "2011-12-01__amazon-chelonians-27-baixo-rio-branco-roraima__round-20261006",
+      "source_url": "https://www.pick-upau.org.br/agencia_noticias/panorama/2011/2011.12.31/icmbio_ibama.htm",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2019-07-10__amazon-chelonians-25-costa-marques-rondonia__round-20261006",
+      "source_url": "https://rondonia.ro.gov.br/denuncia-anonima-colabora-com-a-apreensao-de-nove-tartarugas-no-municipio-de-costa-marques/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "jsonld:image",
+      "image_url": "https://rondonia.ro.gov.br/wp-content/uploads/2021/11/15bjy6nly8ww6.png",
+      "note": "image/png"
+    },
+    {
+      "id": "2019-08-15__amazon-chelonians-24-rio-cuniua-tapaua-amazonas__round-20261006",
+      "source_url": "https://novo2026.portaldoholanda.com.br/amazonas/operacao-ambiental-apreende-tartarugas-e-mais-de-2-mil-ovos-em-barco-no-amazonas",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://novo2026.portaldoholanda.com.br/content/media/portaldoholanda-927349-imagem-foto-1amazonas.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2019-12-08__amazon-chelonians-26-manaus-amazonas__round-20261006",
+      "source_url": "https://pm.am.gov.br/portal/noticia/a%2Bpolicia%2Bmilitar%2Ba-2221.html",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2020-09-05__amazon-chelonians-23-coari-amazonas__round-20261006",
+      "source_url": "https://www.ssp.am.gov.br/cinco-quelonios-e-50-ovos-de-tracaja-sao-apreendidos-pela-base-arpao/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://www.ssp.am.gov.br/cinco-quelonios-e-50-ovos-de-tracaja-sao-apreendidos-pela-base-arpao/:source_http_404"
+    },
+    {
+      "id": "2021-04-24__amazon-chelonians-22-coari-amazonas__round-20261006",
+      "source_url": "https://faunanews.com.br/filhotes-de-tartarugas-da-amazonia-sao-resgatados-do-trafico-no-rio-solimoes-am/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://faunanews.com.br/wp-content/uploads/2021/04/tartarguas-da-amazonia-ssp-am-1.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2021-11-10__amazon-chelonians-21-manaus-amazonas__round-20261006",
+      "source_url": "https://www.ssp.am.gov.br/policia-militar-apreende-134-quelonios-mantidos-de-forma-ilegal-no-bairro-dom-pedro/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://www.ssp.am.gov.br/policia-militar-apreende-134-quelonios-mantidos-de-forma-ilegal-no-bairro-dom-pedro/:source_http_404"
+    },
+    {
+      "id": "2021-11-17__amazon-chelonians-20-novo-airao-amazonas__round-20261006",
+      "source_url": "https://portalnorte.com.br/noticias/2021/11/19/no-am-homem-e-detido-com-88-tartarugas-e-dois-tracajas-em-novo-airao/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://portalnorte.com.br/app/uploads/2026/01/jovem-e-preso-apos-furtar-chave-de-moto-de-policial-em-manaus-e-debochar-nas-redes-260x170.webp",
+      "note": "image/webp"
+    },
+    {
+      "id": "2021-12-09__amazon-chelonians-19-novo-airao-amazonas__round-20261006",
+      "source_url": "https://opovoamazonense.com.br/agentes-da-base-tiradentes-efetuam-prisao-em-flagrante-e-apreendem-180-quelonios-em-novo-airao/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://opovoamazonense.com.br/wp-content/uploads/2021/12/Agentes-da-Base-Tiradentes-atuam-em-Novo-Airao2.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2022-08-07__amazon-chelonians-18-coari-amazonas__round-20261006",
+      "source_url": "https://m2news.com.br/quelonios-e-mais-de-duas-toneladas-de-pescado-ilegal-sao-apreendidos-em-coari/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://m2news.com.br/wp-content/uploads/2023/03/quelonios-e-mais-de-duas-toneladas-de-pescado-ilegal-sao-apreendidos-em-coari-b9666.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2023-08-28__amazon-chelonians-17-beruri-amazonas__round-20261006",
+      "source_url": "https://amazonasatual.com.br/policiais-apreendem-sete-tartarugas-e-15-tracajas-em-casa-no-municipio-de-beruri-am/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://amazonasatual.com.br/wp-content/uploads/2023/08/Quelonios.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2023-11-01__amazon-chelonians-16-arapixuna-santarem-para__round-20261006",
+      "source_url": "https://santarem.pa.gov.br/noticias/meio-ambiente/semma-apreende-quelonios-na-regiao-do-arapixuna-5kbbsh",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://santarem.pa.gov.br/storage/posts/November2023/medium/whatsapp-image-2023-11-06-at-1404171-iZsz9i.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2023-12-04__amazon-chelonians-15-novo-airao-amazonas__round-20261006",
+      "source_url": "https://d24am.com/policia/carregamento-de-194-quelonios-que-iriam-ser-comercializados-e-apreendido-no-am/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://d24am.com/policia/carregamento-de-194-quelonios-que-iriam-ser-comercializados-e-apreendido-no-am/:source_http_403"
+    },
+    {
+      "id": "2024-01-12__amazon-chelonians-10-tartarugalzinho-amapa__round-20261006",
+      "source_url": "https://www.diariodoamapa.com.br/cadernos/policia/prf-apreende-quelonios-que-seriam-comercializados-e-abatidos/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.diariodoamapa.com.br/wp-content/uploads/2024/01/PRF-summer.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2024-01-14__amazon-chelonians-09-barcelos-amazonas__round-20261006",
+      "source_url": "https://amazonasatual.com.br/quelonios-vivos-e-70-ovos-de-tartarugas-sao-apreendidos-no-am/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://amazonasatual.com.br/wp-content/uploads/2024/01/Quelonios-apreendidos-em-embarcacao.png",
+      "note": "image/png"
+    },
+    {
+      "id": "2024-01-23__amazon-chelonians-08-jutai-amazonas__round-20261006",
+      "source_url": "https://pm.am.gov.br/portal/noticia/base_tiradentes%3A_pmam_apr-16117",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2024-01-26__amazon-chelonians-14-costa-marques-rondonia__round-20261006",
+      "source_url": "https://www.pm.ro.gov.br/policia-militar-apreende-tracajas-redes-e-armas-em-operacao-ambiental-no-rio-guapore/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.pm.ro.gov.br/wp-content/uploads/2024/01/IMG_20240126_210846_568.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2024-05-24__amazon-chelonians-07-manaus-amazonas__round-20261006",
+      "source_url": "https://amazonasatual.com.br/policia-atende-denuncia-sobre-trafico-de-drogas-mas-encontra-27-quelonios/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://amazonasatual.com.br/wp-content/uploads/2024/05/Apreensao-quelonios.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2024-07-01__amazon-chelonians-06-jurua-amazonas__round-20261006",
+      "source_url": "https://www.hojeamazonia.com.br/noticia/pc-am-pmam-e-orgaos-ambientais-apreendem-e-devolvem-400-quelonios-e-tartarugas-ao-habitat-natural",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.hojeamazonia.com.br/uploads/images/2024/07/pc-am-pmam-e-orgaos-ambientais-apreendem-e-devolvem-400-quelonios-e-tartarugas-ao-habitat-natural-d5370.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2024-08-30__amazon-chelonians-11-tartarugalzinho-amapa__round-20261006",
+      "source_url": "https://www.diariodoamapa.com.br/cadernos/policia/mais-de-cem-ovos-de-tracaja-sao-apreendidos-durante-abordagem-da-prf-em-tartarugalzinho/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.diariodoamapa.com.br/wp-content/uploads/2024/08/ovos.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2024-09-16__amazon-chelonians-12-macapa-amapa__round-20261006",
+      "source_url": "https://www.diariodoamapa.com.br/cadernos/policia/batalhao-ambiental-apreende-quelonios-em-cativeiros-na-zona-norte-de-macapa/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.diariodoamapa.com.br/wp-content/uploads/2024/09/cativeiros.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2024-11-15__amazon-chelonians-13-macapa-amapa__round-20261006",
+      "source_url": "https://www.cleidefreires.com.br/apos-denuncia-batalhao-ambiental-apreende-carne-de-jacare-e-seis-quelonios-no-canal-do-jandia/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.cleidefreires.com.br/wp-content/uploads/2024/11/BA-apreesoes.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-01-16__amazon-chelonians-02-novo-airao-amazonas__round-20261006",
+      "source_url": "https://redeondadigital.com.br/policia/quelonios-apreendidos-em-canoa",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://painel.redeondadigital.com.br/wp-content/uploads/2025/01/SSPAM_BA2_FOTOS_DIVULGAC807A7710_SSP_AM-1536x864-1.webp",
+      "note": "image/webp"
+    },
+    {
+      "id": "2025-08-25__amazon-chelonians-01-canutama-labrea-amazonas__round-20261006",
+      "source_url": "https://www.ssp.am.gov.br/em-canutama-policias-civil-e-militar-prendem-homem-por-caca-ilegal-de-mais-de-quatro-toneladas-de-quelonios/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://www.ssp.am.gov.br/em-canutama-policias-civil-e-militar-prendem-homem-por-caca-ilegal-de-mais-de-quatro-toneladas-de-quelonios/:source_http_404"
+    },
+    {
+      "id": "2025-10-01__amazon-chelonians-03-tefe-amazonas__round-20261006",
+      "source_url": "https://www.portaldoholanda.com.br/policial/mulher-e-presa-no-aeroporto-de-tefe-tentando-embarcar-com-ovos-de-tracaja",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://novo2026.portaldoholanda.com.br/content/media/portaldoholanda-capturadetela2025-10-01as181205-1404962.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-10-27__amazon-chelonians-04-santarem-para__round-20261006",
+      "source_url": "https://santarem.pa.gov.br/noticias/meio-ambiente/operacao-ambiental-apreende-ovos-de-quelonios-e-carne-de-caca-em-embarcacao-na-orla-de-santarem-mt5lca",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://santarem.pa.gov.br/storage/posts/October2025/medium/whatsapp-image-2025-10-28-at-101741-CQUHdY.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2025-12-30__amazon-chelonians-05-macapa-amapa__round-20261006",
+      "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/amapa/2025/dezembro/prf-apreende-tres-tracajas-durante-fiscalizacao-na-br-156-em-macapa",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://www.gov.br/prf/pt-br/noticias/estaduais/amapa/2025/dezembro/prf-apreende-tres-tracajas-durante-fiscalizacao-na-br-156-em-macapa:source_http_401"
+    },
+    {
+      "id": "2026-02-24__atalaya-3-yellow-footed-tortoises",
+      "source_url": "https://www.gacetaucayalina.com/2026/02/pnp-detiene-sujeto-por-trafico-ilegal-de-tortugas-en-atalaya.html",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.gacetaucayalina.com/uploads/posts/2026/2/24/tortuga1-67fd7c94.png",
+      "note": "image/png"
+    },
+    {
+      "id": "2026-02-24__carauari-3-large-turtles",
+      "source_url": "https://pm.am.gov.br/portal/noticia/operacao_entre_pmam__pc-a-20776",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "no_valid_direct_image"
+    },
+    {
+      "id": "2026-03-16__yurimaguas-yellow-footed-tortoise",
+      "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1366237-fema-decomisa-52-kilos-de-carne-de-especies-que-iban-a-ser-comercializadas-en-loreto",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://cdn.www.gob.pe/uploads/document/file/9611222/standard_1366237-whatsapp-image-2026-03-13-at-10-58-12-am.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-08-24__beni-250-peta-eggs",
+      "source_url": "https://abi.bo/recuperan-250-huevos-de-tortuga-y-aprehenden-a-una-persona-en-beni/",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://abi.bo/recuperan-250-huevos-de-tortuga-y-aprehenden-a-una-persona-en-beni/:source_request_error:ConnectTimeout"
+    },
+    {
+      "id": "2026-04-01__san-marcos-cajamarca-5-yellow-footed-tortoises",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1374506-cajamarca-intervienen-terreno-donde-se-mantenian-monos-aves-reptiles-y-venados-sin-autorizacion",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://cdn.www.gob.pe/uploads/document/file/9735589/standard_1374506-1374506-whatsapp-image-2026-04-01-at-6-00-11-pm-3-1-2.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-04-13__alto-alianza-tacna-yellow-footed-tortoise",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1377974-tacna-serfor-recupera-tortuga-motelo-y-12-taricayas-del-trafico-ilegal",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://cdn.www.gob.pe/uploads/document/file/9792737/standard_1377974-whatsapp-image-2026-04-13-at-10-52-52-am-1.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-04-13__vila-vila-tacna-12-taricayas",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1377974-tacna-serfor-recupera-tortuga-motelo-y-12-taricayas-del-trafico-ilegal",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://cdn.www.gob.pe/uploads/document/file/9792737/standard_1377974-whatsapp-image-2026-04-13-at-10-52-52-am-1.jpeg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-04-22__chimbote-11-yellow-footed-tortoises",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1382629-serfor-y-pnp-recuperan-11-tortugas-silvestres-en-chimbote",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://cdn.www.gob.pe/uploads/document/file/9852765/standard_1382629-gemini_generated_image_k6o4bik6o4bik6o4-1.png",
+      "note": "image/png"
+    },
+    {
+      "id": "2026-10-05__khaprail-2-5kg-pangolin-scales",
+      "source_url": "https://www.telegraphindia.com/west-bengal/one-held-with-pangolin-scales-and-firearm-in-siliguri-prnt/cid/2183472",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://www.telegraphindia.com/west-bengal/one-held-with-pangolin-scales-and-firearm-in-siliguri-prnt/cid/2183472:source_http_403"
+    },
+    {
+      "id": "2026-10-06__puerto-vilelas-3-capybaras-1-armadillo",
+      "source_url": "https://www.noticiasdelparana.com.ar/NuevaEdicion/2026/10/06/puerto-vilelas-interceptaron-un-auto-con-animales-silvestres-sin-vida-y-elementos-de-caza/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://www.noticiasdelparana.com.ar/NuevaEdicion/wp-content/uploads/2026/10/PARANACITO.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-10-07__machakos-12kg-elephant-tusks",
+      "source_url": "https://citizen.digital/article/two-arrested-with-elephant-tusks-worth-ksh12m-in-machakos-n391562",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://assets.citizen.digital/175337/conversions/3da3f826-5f74-4bfe-9364-21a56f036632_WhatsApp-Image-2026-10-06-at-7.15.14-PM-og_image.webp",
+      "note": "image/webp"
+    },
+    {
+      "id": "2026-10-04__miami-10-songbirds-havana-flight",
+      "source_url": "https://www.cbsnews.com/miami/news/miami-international-airport-bird-smuggling-underwear-arrest-customs-havana-flight/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/06/b92978ac-faff-4b53-b6a9-1dd092c72ba0/thumbnail/1200x630/ed4a1ea4dac3b1b1f105e491aea7ff8f/man-smuggle-birds.png",
+      "note": "image/webp"
+    },
+    {
+      "id": "2026-10-06__bani-white-faced-capuchin",
+      "source_url": "https://ambiente.gob.do/medio-ambiente-recibe-mono-capuchino-incautado-dncd/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://ambiente.gob.do/app/uploads/2026/10/7R6A2954-scaled.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-04-17__marsaxlokk-big-cats-international-waters",
+      "source_url": "https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076",
+      "existing_image_url": null,
+      "resolved": false,
+      "method": null,
+      "image_url": null,
+      "note": "https://timesofmalta.com/article/fisherman-property-searched-amid-big-cat-smuggling-claims.1135076:source_http_403"
+    },
+    {
+      "id": "2026-06-25__soledad-graciano-sanchez-5-wildlife-4-taxidermies",
+      "source_url": "https://www.gob.mx/profepa/prensa/coadyuva-profepa-con-fgr-en-cateo-a-domicilio-con-ejemplares-de-vida-silvestre-en-san-luis-potosi?idiom=es",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.gob.mx/cms/uploads/image/file/1089704/Taxidermia_SLP_01.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-07-01__durango-3-white-bengal-tigers-ocelot-lynx",
+      "source_url": "https://www.gob.mx/profepa/prensa/profepa-asegura-precautoriamente-cinco-felinos-en-durango",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "article_img",
+      "image_url": "https://www.gob.mx/cms/uploads/image/file/1085237/Felinos_DGO_04.jpg",
+      "note": "image/jpeg"
+    },
+    {
+      "id": "2026-07-06__bocas-del-toro-119-hawksbill-eggs",
+      "source_url": "https://miambiente.gob.pa/miambiente-decomisa-y-reubica-119-huevos-de-tortuga-carey-en-playa-bluff-producto-de-presunto-acto-ilegal/",
+      "existing_image_url": null,
+      "resolved": true,
+      "method": "og:image",
+      "image_url": "https://miambiente.gob.pa/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-11.25.11-AM.jpeg",
       "note": "image/jpeg"
     }
   ]
