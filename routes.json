@@ -7604,6 +7604,42 @@
       "evidence_es": "La Prefeitura de Parintins informa que las 49 tortugas fueron halladas en la bodega de una embarcación procedente de Santarém, documentando el tramo Santarém → Parintins.",
       "source_label": "Prefeitura de Parintins",
       "source_url": "https://parintins.am.gov.br/noticia/fiscais-da-prefeitura-de-parintins-apreendem-49-tartarugas-em-barco-procedente-do-para"
+    },
+    {
+      "id": "cabo-verde-pocos-de-caldas-16-birds-2026-10-06",
+      "event_match": {
+        "event_id": "2026-10-06__pocos-de-caldas-16-wild-birds-br146"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "documented_origin_to_interception",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Cabo Verde (MG) → Poços de Caldas (MG); destino declarado: São Paulo (SP)",
+      "label_en": "Cabo Verde (MG) → Poços de Caldas (MG); stated destination: São Paulo (SP)",
+      "label_es": "Cabo Verde (MG) → Poços de Caldas (MG); destino declarado: São Paulo (SP)",
+      "segments": [
+        {
+          "from": {
+            "name": "Cabo Verde, Minas Gerais",
+            "country": "Brasil",
+            "lat": -21.473,
+            "lon": -46.391,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Poços de Caldas (área da BR-146)",
+            "country": "Brasil",
+            "lat": -21.789,
+            "lon": -46.567,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o veículo transportava 16 aves desde Cabo Verde (MG), com destino declarado a São Paulo (SP), e foi interceptado na BR-146 na região de Poços de Caldas. O segmento representa apenas o deslocamento documentado até a apreensão; não representa viagem concluída a São Paulo.",
+      "evidence_en": "The source reports that the vehicle carrying 16 birds departed Cabo Verde (MG), stated São Paulo (SP) as its destination, and was intercepted on BR-146 near Poços de Caldas. The segment represents only documented movement to interception, not a completed trip to São Paulo.",
+      "evidence_es": "La fuente informa que el vehículo con 16 aves salió de Cabo Verde (MG), declaró São Paulo (SP) como destino y fue interceptado en la BR-146 cerca de Poços de Caldas. El segmento representa solo el traslado documentado hasta la incautación, no un viaje completado a São Paulo.",
+      "source_label": "Portal da Cidade / Polícia Rodoviária Federal",
+      "source_url": "https://andradas.portaldacidade.com/noticias/policial/video-prf-encontra-16-aves-silvestres-em-veiculo-durante-fiscalizacao-na-br-146-1503"
     }
   ],
   "network_context": [
