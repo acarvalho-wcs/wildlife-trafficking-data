@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.2",
+  "note": "Staging only; not part of canonical cases.json, import with exact ID deduplication",
+  "cases": [
+    {
+      "id": "2025-04-22__granada-meta-244-chelus-fimbriata",
+      "occurred_at": "2025-04-22T00:00:00Z",
+      "location_label_pt": "Granada, Meta",
+      "country": "Colômbia",
+      "coordinates": {
+        "lat": 3.546,
+        "lon": -73.707
+      },
+      "coordinate_precision": "city_generalized",
+      "taxon_text": "Chelus fimbriata (244); Hypostomus plecostomus (1)",
+      "quantity_count": 245,
+      "quantity_kind": "animals",
+      "quantity_qualifier": "exact",
+      "quantity_by_group": {
+        "Répteis": 244,
+        "Peixes": 1
+      },
+      "source_url": "https://oas.policia.gov.co/noticia/unidos-por-proteccion-fauna-silvestre-en-meta",
+      "title_pt": "244 matamatás apreendidas em mala em Granada",
+      "title_en": "244 mata mata turtles seized from suitcase in Granada",
+      "title_es": "244 tortugas matamata decomisadas en una maleta en Granada",
+      "card_text_pt": "Polícia encontrou 244 matamatás e um peixe em mala no terminal rodoviário; um suspeito foi detido. Destino desconhecido.",
+      "card_text_en": "Police found 244 mata mata turtles and one fish in a suitcase at a bus terminal; one suspect arrested. Destination unknown.",
+      "card_text_es": "La Policía encontró 244 tortugas matamata y un pez en una maleta en una terminal; hubo un detenido. Destino desconocido.",
+      "context_pt": "[O1] Fatos documentados: Polícia Nacional relata apreensão, identificação e prisão; não relata fluxo internacional. [S1] Relação com a ciência: Revisão geral sobre riscos do comércio de fauna; não documenta este caso. [N1] Relação com reportagens: Investigação sobre tráfico de matamatás na América do Sul; não comprova ligação com esta ocorrência.",
+      "references_text_pt": "[O1] https://oas.policia.gov.co/noticia/unidos-por-proteccion-fauna-silvestre-en-meta; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "context_en": "[O1] Documented facts: Polícia Nacional relata apreensão, identificação e prisão; não relata fluxo internacional. [S1] Scientific relationship: Revisão geral sobre riscos do comércio de fauna; não documenta este caso. [N1] Reporting relationship: Investigação sobre tráfico de matamatás na América do Sul; não comprova ligação com esta ocorrência.",
+      "references_text_en": "[O1] https://oas.policia.gov.co/noticia/unidos-por-proteccion-fauna-silvestre-en-meta; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "context_es": "[O1] Hechos documentados: Polícia Nacional relata apreensão, identificação e prisão; não relata fluxo internacional. [S1] Relación científica: Revisão geral sobre riscos do comércio de fauna; não documenta este caso. [N1] Relación con reportajes: Investigação sobre tráfico de matamatás na América do Sul; não comprova ligação com esta ocorrência.",
+      "references_text_es": "[O1] https://oas.policia.gov.co/noticia/unidos-por-proteccion-fauna-silvestre-en-meta; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "status": "READY_FOR_IMPORT",
+      "exclude_from_totals": false
+    },
+    {
+      "id": "2023-12-11__hongkong-peru-492-podocnemis-erythrocephala",
+      "occurred_at": "2023-12-11T00:00:00Z",
+      "location_label_pt": "Aeroporto Internacional de Hong Kong",
+      "country": "Hong Kong",
+      "coordinates": {
+        "lat": 22.308,
+        "lon": 113.918
+      },
+      "coordinate_precision": "airport_generalized",
+      "taxon_text": "Podocnemis erythrocephala",
+      "quantity_count": 492,
+      "quantity_kind": "animals",
+      "quantity_qualifier": "exact",
+      "quantity_by_group": {
+        "Répteis": 492
+      },
+      "source_url": "https://www.afcd.gov.hk/english/aboutus/abt_adv/files/CP_ESAC_1_2024_Eng.pdf",
+      "title_pt": "Hong Kong apreende 492 Podocnemis erythrocephala vindas do Peru",
+      "title_en": "Hong Kong seizes 492 Podocnemis erythrocephala imported from Peru",
+      "title_es": "Hong Kong decomisa 492 Podocnemis erythrocephala procedentes de Perú",
+      "card_text_pt": "Remessa aérea do Peru continha 492 P. erythrocephala não cobertas pelos documentos CITES. As 13.779 P. unifilis e 500 Chelus fimbriata com permissões não foram relatadas como apreendidas.",
+      "card_text_en": "Air consignment from Peru contained 492 P. erythrocephala not listed on CITES permits. The permitted 13,779 P. unifilis and 500 Chelus fimbriata were not reported seized.",
+      "card_text_es": "Un envío aéreo desde Perú contenía 492 P. erythrocephala sin cobertura CITES. Las 13.779 P. unifilis y 500 Chelus fimbriata documentadas no fueron reportadas como decomisadas.",
+      "context_pt": "[O1] Fatos documentados: Caso oficial AFCD 492/2023, com data exata e rota aérea Peru–Hong Kong para a remessa; não inferir irregularidade dos exemplares licenciados. [S1] Relação com a ciência: A literatura sobre comércio internacional de fauna oferece contexto, não confirma fraude em outras remessas. [N1] Relação com reportagens: Cobertura regional sobre mercados de quelônios serve apenas como contexto temático.",
+      "references_text_pt": "[O1] https://www.afcd.gov.hk/english/aboutus/abt_adv/files/CP_ESAC_1_2024_Eng.pdf; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "context_en": "[O1] Documented facts: Caso oficial AFCD 492/2023, com data exata e rota aérea Peru–Hong Kong para a remessa; não inferir irregularidade dos exemplares licenciados. [S1] Scientific relationship: A literatura sobre comércio internacional de fauna oferece contexto, não confirma fraude em outras remessas. [N1] Reporting relationship: Cobertura regional sobre mercados de quelônios serve apenas como contexto temático.",
+      "references_text_en": "[O1] https://www.afcd.gov.hk/english/aboutus/abt_adv/files/CP_ESAC_1_2024_Eng.pdf; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "context_es": "[O1] Hechos documentados: Caso oficial AFCD 492/2023, com data exata e rota aérea Peru–Hong Kong para a remessa; não inferir irregularidade dos exemplares licenciados. [S1] Relación científica: A literatura sobre comércio internacional de fauna oferece contexto, não confirma fraude em outras remessas. [N1] Relación con reportajes: Cobertura regional sobre mercados de quelônios serve apenas como contexto temático.",
+      "references_text_es": "[O1] https://www.afcd.gov.hk/english/aboutus/abt_adv/files/CP_ESAC_1_2024_Eng.pdf; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "status": "READY_FOR_IMPORT",
+      "exclude_from_totals": false
+    },
+    {
+      "id": "2026-04-07_09__manaus-cativeiro-ilegal-53-animals",
+      "occurred_at": "2026-04-09T00:00:00Z",
+      "occurred_at_precision": "end_of_operation",
+      "location_label_pt": "Manaus, Amazonas",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -3.119,
+        "lon": -60.022
+      },
+      "coordinate_precision": "city_generalized",
+      "taxon_text": "Podocnemis expansa (16); Podocnemis unifilis (7); Podocnemis erythrocephala (10); Chelonoidis denticulata (17); outros (3)",
+      "quantity_count": 53,
+      "quantity_kind": "animals",
+      "quantity_qualifier": "exact",
+      "quantity_by_group": {
+        "Répteis": 50,
+        "Mamíferos": 1,
+        "Aves": 2
+      },
+      "aggregate_operation": true,
+      "source_url": "https://jornalaentrevista.com.br/noticia/15385/operacao-contra-cativeiros-ilegais-resgata-mais-de-50-animais-silvestres-na-zona-leste-de-manaus",
+      "title_pt": "Operação Cativeiro Ilegal apreende 53 animais em Manaus",
+      "title_en": "Illegal Captivity Operation seizes 53 animals in Manaus",
+      "title_es": "Operación Cautiverio Ilegal decomisa 53 animales en Manaos",
+      "card_text_pt": "Entre 7 e 9 de abril de 2026, fiscalização em diversos imóveis apreendeu 53 animais, entre eles 33 Podocnemis. Registro agregado, sem rota documentada.",
+      "card_text_en": "From 7 to 9 April 2026, authorities seized 53 animals from multiple properties, including 33 Podocnemis. Aggregate operation; no documented route.",
+      "card_text_es": "Entre el 7 y el 9 de abril de 2026, se decomisaron 53 animales en varios domicilios, incluidos 33 Podocnemis. Operativo agregado sin ruta documentada.",
+      "context_pt": "[O1] Fatos documentados: IPAAM, BPAmb e Ibama fiscalizaram múltiplos endereços; não geocodificar como único imóvel. [S1] Relação com a ciência: A literatura discute ameaças do cativeiro e comércio de fauna sem vincular redes ao evento. [N1] Relação com reportagens: Reportagem sobre matamatás é apenas contexto temático sobre quelônios, não evidência de ligação com Manaus.",
+      "references_text_pt": "[O1] https://jornalaentrevista.com.br/noticia/15385/operacao-contra-cativeiros-ilegais-resgata-mais-de-50-animais-silvestres-na-zona-leste-de-manaus; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "context_en": "[O1] Documented facts: IPAAM, BPAmb e Ibama fiscalizaram múltiplos endereços; não geocodificar como único imóvel. [S1] Scientific relationship: A literatura discute ameaças do cativeiro e comércio de fauna sem vincular redes ao evento. [N1] Reporting relationship: Reportagem sobre matamatás é apenas contexto temático sobre quelônios, não evidência de ligação com Manaus.",
+      "references_text_en": "[O1] https://jornalaentrevista.com.br/noticia/15385/operacao-contra-cativeiros-ilegais-resgata-mais-de-50-animais-silvestres-na-zona-leste-de-manaus; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "context_es": "[O1] Hechos documentados: IPAAM, BPAmb e Ibama fiscalizaram múltiplos endereços; não geocodificar como único imóvel. [S1] Relación científica: A literatura discute ameaças do cativeiro e comércio de fauna sem vincular redes ao evento. [N1] Relación con reportajes: Reportagem sobre matamatás é apenas contexto temático sobre quelônios, não evidência de ligação com Manaus.",
+      "references_text_es": "[O1] https://jornalaentrevista.com.br/noticia/15385/operacao-contra-cativeiros-ilegais-resgata-mais-de-50-animais-silvestres-na-zona-leste-de-manaus; [S1] https://doi.org/10.1007/s10344-025-01990-9; [N1] https://ojo-publico.com/5267/el-tiempo-del-dragon-el-trafico-la-tortuga-matamata-sudamerica",
+      "status": "READY_FOR_IMPORT",
+      "exclude_from_totals": false
+    }
+  ]
+}
