@@ -1,0 +1,92 @@
+{
+  "id": "2026-10__palos-blancos-59-illegally-sold-parakeets",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_sweeper_2026-10-09_round_1",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-10-09T11:00:00-04:00",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Palos Blancos, Sud Yungas, La Paz",
+  "location_label_en": "Palos Blancos, Sud Yungas, La Paz",
+  "location_label_es": "Palos Blancos, Sud Yungas, La Paz",
+  "country": "Bolívia",
+  "source_label": "Radio y Televisión Universitaria (RTVU) / Gobernación de La Paz",
+  "source_url": "https://rtvu.uto.edu.bo/2026/10/08/rescatan-a-59-pericos-de-la-venta-ilegal-durante-una-fiesta-patronal-en-palos-blancos/",
+  "publication_date": "2026-10-08",
+  "event_date": null,
+  "occurred_at": null,
+  "event_date_precision": "unknown",
+  "occurred_at_precision": "unknown",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Psittacidae spp. (pericos; espécies não identificadas na reportagem)",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "coordinates": {
+    "lat": -15.5865,
+    "lon": -67.2502
+  },
+  "coordinate_precision": "locality_generalized",
+  "quantity_count": 59,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "live_animals",
+  "quantity_by_group": {
+    "Aves": 59
+  },
+  "quantity_unassigned": 0,
+  "image_source_url": "https://rtvu.uto.edu.bo/2026/10/08/rescatan-a-59-pericos-de-la-venta-ilegal-durante-una-fiesta-patronal-en-palos-blancos/",
+  "image_url": null,
+  "image_status": "PENDING_IMAGE_SOURCE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "context_status": "VALIDATED",
+  "geographic_note_pt": "Coordenada aproximada do município, não do ponto exato da ação.",
+  "title_pt": "Fiscalização retira 59 periquitos de comércio ilegal em Palos Blancos",
+  "card_text_pt": "Fiscalização em festa patronal de Palos Blancos encontrou 59 periquitos vendidos ilegalmente: 45 jovens e 14 filhotes. Asas cortadas e estresse foram relatados; aves levadas para cuidados em Caranavi e Coroico. Reportado em 8/10; dia exato não informado.",
+  "fauna_label_pt": "59 periquitos (45 jovens e 14 filhotes) retirados de venda ilegal.",
+  "quantity_note_pt": "59 aves: 45 juvenis e 14 filhotes; não são 59 mais 45 mais 14.",
+  "context_pt": "[O1] Autoridades departamentais reportaram resgate de 59 periquitos oferecidos ilegalmente numa festa patronal em Palos Blancos, 45 jovens e 14 filhotes. As aves foram encaminhadas a estruturas de custódia em Caranavi e Coroico. A reportagem é de 08/10/2026, mas não identifica com segurança o dia da operação nem as espécies. Não há origem biológica ou rede de transporte comprovada. [S1] Artigo científico sobre impactos do comércio insustentável; contexto geral, sem evidência sobre este caso. (https://doi.org/10.1007/s10344-025-01990-9). [N1] Reportagem regional sobre combate a redes de tráfico na América Latina; apenas contexto, sem ligação operacional demonstrada. (https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/). Síntese: ocorrência individualizada; sem inferir rotas, fornecedores ou vínculos não documentados.",
+  "references_text_pt": "[O1] Radio y Televisión Universitaria (RTVU) / Gobernación de La Paz — https://rtvu.uto.edu.bo/2026/10/08/rescatan-a-59-pericos-de-la-venta-ilegal-durante-una-fiesta-patronal-en-palos-blancos/; [S1] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9; [N1] Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026) — https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/",
+  "geographic_note_en": "Approximate municipality coordinate, not the precise action site.",
+  "title_en": "Authorities recover 59 parakeets from illegal sales in Palos Blancos",
+  "card_text_en": "An inspection at a Palos Blancos local festival recovered 59 parakeets offered for unlawful sale: 45 juveniles and 14 chicks. Wing clipping and stress were reported; birds were taken to care facilities in Caranavi and Coroico. Reported 8 October, with no confirmed raid date.",
+  "fauna_label_en": "59 parakeets (45 juveniles, 14 chicks) recovered from illegal sale.",
+  "quantity_note_en": "59 birds: 45 juveniles and 14 chicks; these are components, not additional animals.",
+  "context_en": "[O1] Departmental authorities reported recovering 59 parakeets offered for illegal sale at a Palos Blancos local festival, including 45 juveniles and 14 chicks. Birds were taken to holding facilities in Caranavi and Coroico. The report is dated 8 October 2026, but does not establish the seizure day or exact species. No documented provenance or trafficking route is claimed. [S1] Scientific review of unsustainable wildlife trade impacts; background only, not evidence about this case. (https://doi.org/10.1007/s10344-025-01990-9). [N1] Regional reporting on Latin American wildlife trafficking enforcement; thematic context only, no demonstrated operational link. (https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/). Synthesis: an individual case; no undocumented routes, suppliers or links inferred.",
+  "references_text_en": "[O1] Radio y Televisión Universitaria (RTVU) / Gobernación de La Paz — https://rtvu.uto.edu.bo/2026/10/08/rescatan-a-59-pericos-de-la-venta-ilegal-durante-una-fiesta-patronal-en-palos-blancos/; [S1] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9; [N1] Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026) — https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/",
+  "geographic_note_es": "Coordenada aproximada del municipio, no del punto exacto del operativo.",
+  "title_es": "Autoridades rescatan 59 pericos vendidos ilegalmente en Palos Blancos",
+  "card_text_es": "Una fiscalización durante una fiesta patronal en Palos Blancos recuperó 59 pericos comercializados ilegalmente: 45 juveniles y 14 pichones. Se informó de alas cortadas y estrés; fueron llevados a centros de custodia en Caranavi y Coroico. Publicado el 8 de octubre, sin día exacto del operativo.",
+  "fauna_label_es": "59 pericos (45 juveniles, 14 pichones) recuperados de venta ilegal.",
+  "quantity_note_es": "59 aves: 45 juveniles y 14 pichones; son partes del total, no cifras adicionales.",
+  "context_es": "[O1] Autoridades departamentales informaron del rescate de 59 pericos ofrecidos ilegalmente en una fiesta patronal de Palos Blancos: 45 juveniles y 14 pichones. Fueron trasladados a centros de custodia en Caranavi y Coroico. El reporte está fechado el 8 de octubre de 2026, pero no precisa el día del operativo ni las especies. No se acredita origen biológico ni ruta comercial. [S1] Revisión científica sobre impactos del comercio insostenible; contexto general, no prueba del caso. (https://doi.org/10.1007/s10344-025-01990-9). [N1] Reportaje regional sobre fiscalización de tráfico de fauna en América Latina; solo contexto, sin vínculo operativo demostrado. (https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/). Síntesis: episodio individualizado; no se infieren rutas, proveedores ni vínculos no documentados.",
+  "references_text_es": "[O1] Radio y Televisión Universitaria (RTVU) / Gobernación de La Paz — https://rtvu.uto.edu.bo/2026/10/08/rescatan-a-59-pericos-de-la-venta-ilegal-durante-una-fiesta-patronal-en-palos-blancos/; [S1] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9; [N1] Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026) — https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Radio y Televisión Universitaria (RTVU) / Gobernación de La Paz",
+      "url": "https://rtvu.uto.edu.bo/2026/10/08/rescatan-a-59-pericos-de-la-venta-ilegal-durante-una-fiesta-patronal-en-palos-blancos/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "A review of the threat of unsustainable wildlife trade to global biodiversity and society",
+      "url": "https://doi.org/10.1007/s10344-025-01990-9"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026)",
+      "url": "https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/"
+    }
+  ]
+}

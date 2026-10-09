@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-07__volta-redonda-seven-wild-birds",
+  "legacy_index": null,
+  "legacy_site_id": null,
+  "reconstruction_batch": "global_sweeper_2026-10-09_round_1",
+  "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+  "added_at": "2026-10-09T11:00:00-04:00",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Volta Redonda, Rio de Janeiro",
+  "location_label_en": "Volta Redonda, Rio de Janeiro",
+  "location_label_es": "Volta Redonda, Rio de Janeiro",
+  "country": "Brasil",
+  "source_label": "Informa Cidade / Secretaria Municipal de Proteção e Defesa Animal de Volta Redonda",
+  "source_url": "https://www.informacidade.com.br/aves-silvestres-sao-apreendidas-em-volta-redonda/",
+  "publication_date": "2026-10-08",
+  "event_date": "2026-10-07",
+  "occurred_at": "2026-10-07T00:00:00Z",
+  "event_date_precision": "day",
+  "occurred_at_precision": "day",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Passeriformes spp. (trinca-ferros, coleiros, tico-tico e canário; identificação específica incompleta)",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "coordinates": {
+    "lat": -22.523,
+    "lon": -44.104
+  },
+  "coordinate_precision": "locality_generalized",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "live_animals",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_unassigned": 0,
+  "image_source_url": "https://www.informacidade.com.br/aves-silvestres-sao-apreendidas-em-volta-redonda/",
+  "image_url": null,
+  "image_status": "PENDING_IMAGE_SOURCE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "context_status": "VALIDATED",
+  "geographic_note_pt": "Coordenada aproximada do município, não do ponto exato da ação.",
+  "title_pt": "Fiscalização encontra sete aves mantidas irregularmente em Volta Redonda",
+  "card_text_pt": "Em 7/10, fiscalização em Santa Rita do Zarur encontrou sete aves sem documentação: dois trinca-ferros, três coleiros, um tico-tico e um canário. Equipe municipal e Guarda Municipal atuaram; encaminhamento ao CETAS foi informado.",
+  "fauna_label_pt": "7 aves mantidas irregularmente, sem documentos de origem.",
+  "quantity_note_pt": "7 aves vivas: 2 trinca-ferros, 3 coleiros, 1 tico-tico, 1 canário.",
+  "context_pt": "[O1] A Secretaria Municipal de Proteção e Defesa Animal, com apoio da Guarda Municipal, vistoriou em 07/10/2026 uma residência em Santa Rita do Zarur e encontrou sete aves silvestres sem a documentação exigida. A matéria menciona futuro encaminhamento ao CETAS de Seropédica, sem confirmar a entrega efetiva. Não há rota comercial documentada. [S1] Artigo científico sobre impactos do comércio insustentável; contexto geral, sem evidência sobre este caso. (https://doi.org/10.1007/s10344-025-01990-9). [N1] Reportagem regional sobre combate a redes de tráfico na América Latina; apenas contexto, sem ligação operacional demonstrada. (https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/). Síntese: ocorrência individualizada; sem inferir rotas, fornecedores ou vínculos não documentados.",
+  "references_text_pt": "[O1] Informa Cidade / Secretaria Municipal de Proteção e Defesa Animal de Volta Redonda — https://www.informacidade.com.br/aves-silvestres-sao-apreendidas-em-volta-redonda/; [S1] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9; [N1] Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026) — https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/",
+  "geographic_note_en": "Approximate municipality coordinate, not the precise action site.",
+  "title_en": "Seven unlawfully kept wild birds found in Volta Redonda inspection",
+  "card_text_en": "On 7 October, a municipal inspection in Santa Rita do Zarur found seven undocumented birds: two saltators, three seedeaters, one rufous-collared sparrow and one canary. Referral to the CETAS wildlife centre was reported.",
+  "fauna_label_en": "7 undocumented wild birds held unlawfully.",
+  "quantity_note_en": "7 live birds: 2 saltators, 3 seedeaters, 1 sparrow and 1 canary.",
+  "context_en": "[O1] On 7 October 2026, the municipal animal protection department, supported by the municipal guard, inspected a home in Santa Rita do Zarur and found seven birds without required documents. A transfer to CETAS in Seropédica was announced but not confirmed completed. No trade route is documented. [S1] Scientific review of unsustainable wildlife trade impacts; background only, not evidence about this case. (https://doi.org/10.1007/s10344-025-01990-9). [N1] Regional reporting on Latin American wildlife trafficking enforcement; thematic context only, no demonstrated operational link. (https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/). Synthesis: an individual case; no undocumented routes, suppliers or links inferred.",
+  "references_text_en": "[O1] Informa Cidade / Secretaria Municipal de Proteção e Defesa Animal de Volta Redonda — https://www.informacidade.com.br/aves-silvestres-sao-apreendidas-em-volta-redonda/; [S1] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9; [N1] Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026) — https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/",
+  "geographic_note_es": "Coordenada aproximada del municipio, no del punto exacto del operativo.",
+  "title_es": "Fiscalización encuentra siete aves mantenidas irregularmente en Volta Redonda",
+  "card_text_es": "El 7 de octubre, una fiscalización en Santa Rita do Zarur encontró siete aves sin documentación: dos trinca-ferros, tres coleiros, un tico-tico y un canario. Se informó de su traslado previsto al CETAS.",
+  "fauna_label_es": "7 aves mantenidas irregularmente, sin documentos.",
+  "quantity_note_es": "7 aves vivas: 2 trinca-ferros, 3 coleiros, 1 tico-tico y 1 canario.",
+  "context_es": "[O1] El 7 de octubre de 2026, la dependencia municipal de protección animal, con apoyo de la Guardia Municipal, inspeccionó una vivienda de Santa Rita do Zarur y encontró siete aves sin documentación. Se anunció traslado al CETAS de Seropédica, sin confirmación de que se completara. No existe ruta comercial documentada. [S1] Revisión científica sobre impactos del comercio insostenible; contexto general, no prueba del caso. (https://doi.org/10.1007/s10344-025-01990-9). [N1] Reportaje regional sobre fiscalización de tráfico de fauna en América Latina; solo contexto, sin vínculo operativo demostrado. (https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/). Síntesis: episodio individualizado; no se infieren rutas, proveedores ni vínculos no documentados.",
+  "references_text_es": "[O1] Informa Cidade / Secretaria Municipal de Proteção e Defesa Animal de Volta Redonda — https://www.informacidade.com.br/aves-silvestres-sao-apreendidas-em-volta-redonda/; [S1] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9; [N1] Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026) — https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Informa Cidade / Secretaria Municipal de Proteção e Defesa Animal de Volta Redonda",
+      "url": "https://www.informacidade.com.br/aves-silvestres-sao-apreendidas-em-volta-redonda/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "A review of the threat of unsustainable wildlife trade to global biodiversity and society",
+      "url": "https://doi.org/10.1007/s10344-025-01990-9"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026)",
+      "url": "https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/"
+    }
+  ]
+}
