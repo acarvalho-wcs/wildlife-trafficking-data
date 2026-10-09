@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-07T19:25:00Z",
+  "updated_at": "2026-10-09T14:55:32Z",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4975,16 +4975,15 @@
     {
       "id": "guarulhos-vietnam-2026-10-02",
       "event_match": {
-        "location_contains": "Guarulhos",
-        "event_date": "2026-10-02"
+        "event_id": "2026-10-02__guarulhos-34-wild-bird-eggs-vietnam"
       },
-      "status": "DOCUMENTED_BROAD",
+      "status": "DOCUMENTED_ATTRIBUTED",
       "route_type": "planned_movement",
       "direction": "forward",
       "line_style": "solid",
-      "label_pt": "Guarulhos → Vietnã",
-      "label_en": "Guarulhos → Vietnam",
-      "label_es": "Guarulhos → Vietnam",
+      "label_pt": "Guarulhos → Vietnã (versão PF; divergência com Semil)",
+      "label_en": "Guarulhos → Vietnam (Federal Police account; Semil differs)",
+      "label_es": "Guarulhos → Vietnam (versión de la PF; Semil difiere)",
       "segments": [
         {
           "from": {
@@ -5003,11 +5002,17 @@
           }
         }
       ],
-      "evidence_pt": "A Polícia Federal informou que o passageiro tentava embarcar em Guarulhos para o Vietnã transportando 34 ovos.",
-      "evidence_en": "Federal Police reported that the passenger was attempting to board in Guarulhos for Vietnam carrying 34 eggs.",
-      "evidence_es": "La Policía Federal informó que el pasajero intentaba embarcar en Guarulhos hacia Vietnam transportando 34 huevos.",
+      "evidence_pt": "A PF [O1] informa embarque pretendido para o Vietnã; a Semil [O2] informa passagem para a China via Doha. A divergência permanece sem resolução e as versões não são combinadas em uma rota única.",
+      "evidence_en": "Federal Police [O1] report an intended flight to Vietnam; Semil [O2] reports a ticket to China via Doha. This discrepancy remains unresolved and the accounts are not combined into one route.",
+      "evidence_es": "La Policía Federal [O1] informa un embarque previsto hacia Vietnam; Semil [O2] informa un billete a China vía Doha. La discrepancia sigue sin resolverse y las versiones no se combinan en una sola ruta.",
       "source_label": "Polícia Federal do Brasil",
-      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos"
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos",
+      "additional_sources": [
+        {
+          "label": "Semil-SP / Cetras-SP",
+          "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/"
+        }
+      ]
     },
     {
       "id": "cam-ranh-novokuznetsk-crocodiles-2026-09",
@@ -6818,16 +6823,15 @@
     {
       "id": "guarulhos-doha-eggs-2026-10",
       "event_match": {
-        "location_contains": "Guarulhos",
-        "publication_date": "2026-10-05"
+        "event_id": "2026-10-02_04__guarulhos-16-wild-bird-eggs-doha"
       },
-      "status": "DOCUMENTED",
+      "status": "DOCUMENTED_ATTRIBUTED",
       "route_type": "planned_movement",
       "direction": "forward",
       "line_style": "solid",
-      "label_pt": "Guarulhos → Doha",
-      "label_en": "Guarulhos → Doha",
-      "label_es": "Guarulhos → Doha",
+      "label_pt": "Guarulhos → Doha (versão PF; divergência com Semil)",
+      "label_en": "Guarulhos → Doha (Federal Police account; Semil differs)",
+      "label_es": "Guarulhos → Doha (versión de la PF; Semil difiere)",
       "segments": [
         {
           "from": {
@@ -6846,11 +6850,17 @@
           }
         }
       ],
-      "evidence_pt": "O passageiro tentava embarcar para Doha, Catar, com 16 ovos de aves silvestres.",
-      "evidence_en": "The passenger was attempting to board a flight to Doha, Qatar, with 16 wild-bird eggs.",
-      "evidence_es": "El pasajero intentaba embarcar hacia Doha, Catar, con 16 huevos de aves silvestres.",
+      "evidence_pt": "A PF [O1] informa tentativa de embarque para Doha; a Semil [O2] informa passagem para o Vietnã. Não há evidência suficiente para tratar Doha como conexão para o Vietnã neste caso.",
+      "evidence_en": "Federal Police [O1] report an attempted departure for Doha; Semil [O2] reports a ticket to Vietnam. Evidence is insufficient to treat Doha as a connection to Vietnam in this case.",
+      "evidence_es": "La Policía Federal [O1] informa un intento de embarque hacia Doha; Semil [O2] informa un billete a Vietnam. No hay pruebas suficientes para tratar Doha como conexión hacia Vietnam en este caso.",
       "source_label": "Polícia Federal do Brasil",
-      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos"
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos",
+      "additional_sources": [
+        {
+          "label": "Semil-SP / Cetras-SP",
+          "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/"
+        }
+      ]
     },
     {
       "id": "ghatanji-hyderabad-deer-trade-2026",
@@ -7640,6 +7650,42 @@
       "evidence_es": "La fuente informa que el vehículo con 16 aves salió de Cabo Verde (MG), declaró São Paulo (SP) como destino y fue interceptado en la BR-146 cerca de Poços de Caldas. El segmento representa solo el traslado documentado hasta la incautación, no un viaje completado a São Paulo.",
       "source_label": "Portal da Cidade / Polícia Rodoviária Federal",
       "source_url": "https://andradas.portaldacidade.com/noticias/policial/video-prf-encontra-16-aves-silvestres-em-veiculo-durante-fiscalizacao-na-br-146-1503"
+    },
+    {
+      "id": "foz-guarulhos-21-eggs-2026-10-05",
+      "event_match": {
+        "event_id": "2026-10-05__guarulhos-21-wild-bird-eggs-china-ticket"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_passenger_itinerary",
+      "direction": "forward",
+      "line_style": "solid",
+      "segments": [
+        {
+          "from": {
+            "name": "Foz do Iguaçu",
+            "country": "Brasil",
+            "lat": -25.5163,
+            "lon": -54.5854,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de São Paulo/Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4356,
+            "lon": -46.4731,
+            "precision": "airport"
+          }
+        }
+      ],
+      "source_label": "Polícia Federal do Brasil",
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-tres-pessoas-e-apreende-ovos-de-aves-silvestres-em-guarulhos-sp",
+      "label_pt": "Foz do Iguaçu → Guarulhos",
+      "label_en": "Foz do Iguaçu → Guarulhos",
+      "label_es": "Foz do Iguaçu → Guarulhos",
+      "evidence_pt": "Trecho Foz do Iguaçu → Guarulhos documentado pela PF; China é destino da passagem informado pela Semil, não destino confirmado dos ovos.",
+      "evidence_en": "Foz do Iguaçu → Guarulhos documented by Federal Police; China is the ticket destination reported by Semil, not the confirmed destination of the eggs.",
+      "evidence_es": "Tramo Foz do Iguaçu → Guarulhos documentado por la Policía Federal; China es el destino del billete informado por Semil, no el destino confirmado de los huevos."
     }
   ],
   "network_context": [

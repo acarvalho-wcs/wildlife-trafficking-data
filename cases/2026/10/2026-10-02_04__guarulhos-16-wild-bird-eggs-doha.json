@@ -12,9 +12,9 @@
   "image_status": "SOURCE_PAGE_IMAGE_NOT_RESOLVED",
   "image_checked_at": "2026-10-08T17:56:38Z",
   "added_at": "2026-10-05T23:50:00Z",
-  "context_updated_at": "2026-10-06T00:20:00Z",
-  "route_audited_at": "2026-10-05T23:50:00Z",
-  "validation_checked_at": "2026-10-05T23:50:00Z",
+  "context_updated_at": "2026-10-09T14:55:32Z",
+  "route_audited_at": "2026-10-09T14:55:32Z",
+  "validation_checked_at": "2026-10-09T14:55:32Z",
   "event_end_date": null,
   "event_datetime": null,
   "quantity_unassigned": 0,
@@ -29,9 +29,9 @@
   "source_label": "Polícia Federal do Brasil",
   "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos",
   "publication_date": "2026-10-05",
-  "event_date": null,
-  "event_date_original": "entre 2026-10-02 e 2026-10-04",
-  "event_date_precision": "range",
+  "event_date": "2026-10-04",
+  "event_date_original": "entre 2026-10-02 e 2026-10-04 (intervalo do boletim da PF); 2026-10-04 confirmado pela Semil",
+  "event_date_precision": "day",
   "fauna_groups_aggregated": [
     "Aves"
   ],
@@ -46,25 +46,25 @@
   "location_label_pt": "Aeroporto Internacional de São Paulo/Guarulhos, Brasil",
   "location_label_en": "São Paulo/Guarulhos International Airport, Brazil",
   "location_label_es": "Aeropuerto Internacional de São Paulo/Guarulhos, Brasil",
-  "title_pt": "Passageiro é detido com 16 ovos de aves silvestres antes de embarcar para Doha",
-  "title_en": "Passenger detained with 16 wild-bird eggs before boarding for Doha",
-  "title_es": "Pasajero detenido con 16 huevos de aves silvestres antes de embarcar hacia Doha",
-  "card_text_pt": "Um cidadão chinês foi detido ao tentar embarcar para Doha, Catar, transportando 16 ovos de aves silvestres identificados durante fiscalização do Ibama.",
-  "card_text_en": "A Chinese national was detained while attempting to board a flight to Doha, Qatar, carrying 16 wild-bird eggs identified during an Ibama inspection.",
-  "card_text_es": "Un ciudadano chino fue detenido cuando intentaba embarcar hacia Doha, Catar, transportando 16 huevos de aves silvestres detectados durante una fiscalización del Ibama.",
+  "title_pt": "Apreensão de 16 ovos de aves silvestres em Guarulhos",
+  "title_en": "Seizure of 16 wild-bird eggs at Guarulhos",
+  "title_es": "Decomiso de 16 huevos de aves silvestres en Guarulhos",
+  "card_text_pt": "Em 4 de outubro, 16 ovos de aves silvestres foram apreendidos com um passageiro chinês em Guarulhos. A PF menciona embarque para Doha; a Semil informa passagem para o Vietnã. Espécies não identificadas.",
+  "card_text_en": "On 4 October, 16 wild-bird eggs were seized from a Chinese passenger at Guarulhos. Federal Police mention departure for Doha; Semil reports a ticket to Vietnam. Species were not identified.",
+  "card_text_es": "El 4 de octubre se decomisaron 16 huevos de aves silvestres a un pasajero chino en Guarulhos. La Policía Federal menciona Doha; Semil informa un billete a Vietnam. Especies no identificadas.",
   "fauna_label_pt": "16 ovos de aves silvestres",
   "fauna_label_en": "16 wild-bird eggs",
   "fauna_label_es": "16 huevos de aves silvestres",
-  "context_pt": "Fatos documentados [O1]: Um cidadão chinês foi detido ao tentar embarcar para Doha, Catar, transportando 16 ovos de aves silvestres identificados durante fiscalização do Ibama. Leitura analítica: O caso é distinto da apreensão de 34 ovos com destino ao Vietnã ocorrida no mesmo aeroporto. A espécie dos 16 ovos não foi informada, portanto o registro permanece no nível taxonômico genérico de aves silvestres. Limites da evidência: 16 ovos, contagem exata; espécie não informada. Guarulhos → Doha explicitamente documentado como itinerário pretendido.",
-  "context_en": "Documented facts [O1]: A Chinese national was detained while attempting to board a flight to Doha, Qatar, carrying 16 wild-bird eggs identified during an Ibama inspection. Analytical reading: This case is distinct from the seizure of 34 eggs bound for Vietnam at the same airport. The species of the 16 eggs was not reported, so the record remains at the generic taxonomic level of wild birds. Evidence limits: 16 eggs, exact count; species not reported. Guarulhos → Doha explicitly documented as intended itinerary.",
-  "context_es": "Hechos documentados [O1]: Un ciudadano chino fue detenido cuando intentaba embarcar hacia Doha, Catar, transportando 16 huevos de aves silvestres detectados durante una fiscalización del Ibama. Lectura analítica: Este caso es distinto del decomiso de 34 huevos con destino a Vietnam ocurrido en el mismo aeropuerto. La especie de los 16 huevos no fue informada, por lo que el registro permanece al nivel taxonómico genérico de aves silvestres. Límites de la evidencia: 16 huevos, conteo exacto; especie no informada. Guarulhos → Doha documentado explícitamente como itinerario previsto.",
+  "context_pt": "[O1–O2] A Semil individualiza a apreensão em 04/10/2026; o boletim da PF abrange várias ocorrências entre 02 e 04/10. São 16 ovos próximos da eclosão, encontrados durante fiscalização do Ibama. A PF informa lavratura de termo circunstanciado. A PF [O1] informa tentativa de embarque para Doha; a Semil [O2] informa passagem para o Vietnã. Não há evidência suficiente para tratar Doha como conexão para o Vietnã neste caso. Espécies e origem biológica não confirmadas; não somar os totais agregados das outras apreensões. [S1] Contexto científico: análises de redes aéreas ajudam a priorizar fiscalização, mas padrões observados dependem do esforço de detecção. [N1] Contexto jornalístico: a reportagem sobre fauna latino-americana em Bangkok discute mercados internacionais; não vincula este caso à Tailândia. A proximidade temporal de apreensões não comprova uma rede comum.",
+  "context_en": "[O1–O2] Semil dates this seizure to 4 October 2026; the Federal Police bulletin covers several incidents between 2 and 4 October. Ibama inspectors found 16 eggs close to hatching. Federal Police report a summary incident report. Federal Police [O1] report an attempted departure for Doha; Semil [O2] reports a ticket to Vietnam. Evidence is insufficient to treat Doha as a connection to Vietnam in this case. Species and biological origin are unconfirmed; aggregate totals from other seizures are not added. [S1] Scientific context: air-network analysis can inform enforcement priorities, but observed patterns depend on detection effort. [N1] Reporting context: reporting on Latin American wildlife in Bangkok discusses international markets; it does not link this case to Thailand. Closely timed seizures do not establish a common network.",
+  "context_es": "[O1–O2] Semil fecha este decomiso el 04/10/2026; el boletín de la Policía Federal abarca varias actuaciones entre el 02 y el 04/10. Inspectores del Ibama encontraron 16 huevos próximos a eclosionar. La Policía Federal informa un acta circunstanciada. La Policía Federal [O1] informa un intento de embarque hacia Doha; Semil [O2] informa un billete a Vietnam. No hay pruebas suficientes para tratar Doha como conexión hacia Vietnam en este caso. Especies y origen biológico no confirmados; no se suman totales agregados de otros decomisos. [S1] Contexto científico: el análisis de redes aéreas puede orientar controles, pero los patrones observados dependen del esfuerzo de detección. [N1] Contexto periodístico: el reportaje sobre fauna latinoamericana en Bangkok aborda mercados internacionales; no vincula este caso con Tailandia. La proximidad temporal de decomisos no demuestra una red común.",
   "quantity_note_pt": "16 ovos, contagem exata; espécie não informada.",
   "quantity_note_en": "16 eggs, exact count; species not reported.",
   "quantity_note_es": "16 huevos, conteo exacto; especie no informada.",
-  "route_audit_status": "DOCUMENTED_ROUTE",
-  "route_audit_note_pt": "Guarulhos → Doha explicitamente documentado como itinerário pretendido.",
-  "route_audit_note_en": "Guarulhos → Doha explicitly documented as intended itinerary.",
-  "route_audit_note_es": "Guarulhos → Doha documentado explícitamente como itinerario previsto.",
+  "route_audit_status": "CONFLICTING_SOURCE_ACCOUNTS",
+  "route_audit_note_pt": "A PF [O1] informa tentativa de embarque para Doha; a Semil [O2] informa passagem para o Vietnã. Não há evidência suficiente para tratar Doha como conexão para o Vietnã neste caso.",
+  "route_audit_note_en": "Federal Police [O1] report an attempted departure for Doha; Semil [O2] reports a ticket to Vietnam. Evidence is insufficient to treat Doha as a connection to Vietnam in this case.",
+  "route_audit_note_es": "La Policía Federal [O1] informa un intento de embarque hacia Doha; Semil [O2] informa un billete a Vietnam. No hay pruebas suficientes para tratar Doha como conexión hacia Vietnam en este caso.",
   "occurrence_type": "international_wildlife_transport",
   "geographic_note_pt": "Coordenada representativa com precisão explicitamente classificada; não apresentada como ponto mais exato do que a fonte permite.",
   "geographic_note_en": "Representative coordinate with explicitly classified precision; not presented as more exact than the source supports.",
@@ -78,12 +78,39 @@
       "type": "case_source",
       "label": "Polícia Federal do Brasil",
       "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos",
-      "title": "Polícia Federal do Brasil",
       "verified": true,
-      "verified_at": "2026-10-05T23:50:00Z"
+      "verified_at": "2026-10-09T14:55:32Z"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Semil-SP / Cetras-SP",
+      "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
+      "verified": true,
+      "verified_at": "2026-10-09T14:55:32Z"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots",
+      "url": "https://doi.org/10.1038/s43247-025-02371-5"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
     }
   ],
-  "references_text_pt": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos",
-  "references_text_en": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos",
-  "references_text_es": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos"
+  "references_text_pt": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos; [O2] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos; [O2] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos; [O2] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "occurred_at": "2026-10-04T00:00:00Z",
+  "occurred_at_precision": "day",
+  "additional_sources": [
+    {
+      "label": "Semil-SP / Cetras-SP",
+      "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/"
+    }
+  ]
 }

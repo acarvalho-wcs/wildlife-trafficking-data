@@ -26,7 +26,7 @@
   "fauna_groups_aggregated": [
     "Aves"
   ],
-  "taxon_text": "Aves spp. (psitacídeos prováveis; identificação parcial)",
+  "taxon_text": "Psittaciformes (identificação do Ibama relatada pela PF); espécies não informadas",
   "modal_primary": "Aéreo",
   "modal_label_pt": "Aéreo",
   "modal_label_en": "Air",
@@ -35,16 +35,16 @@
     "lat": -23.4356,
     "lon": -46.4731
   },
-  "coordinate_precision": "locality_generalized",
+  "coordinate_precision": "airport",
   "geographic_note_pt": "Posição aproximada da localidade; não corresponde necessariamente ao ponto exato da apreensão.",
   "geographic_note_en": "Approximate locality position, not necessarily the exact seizure site.",
   "geographic_note_es": "Posición aproximada de la localidad, no necesariamente del lugar exacto del decomiso.",
   "title_pt": "Ibama apreende 21 ovos de aves em Guarulhos; passageiro tinha passagem para a China",
   "title_en": "Ibama seizes 21 wild bird eggs at Guarulhos; passenger held China-bound ticket",
   "title_es": "Ibama decomisa 21 huevos de aves en Guarulhos; pasajero tenía billete a China",
-  "card_text_pt": "Em 5/10 à noite, Ibama apreendeu 21 ovos na bagagem de passageiro de nacionalidade chinesa em Guarulhos. A passagem indicava China, mas a autoridade esclareceu que isso não confirma o destino dos ovos. Ovos encaminhados ao Cetras-SP. A notícia reúne três apreensões distintas: 34 ovos em 1/10, 16 em 4/10 e estes 21 em 5/10; não somar novamente o agregado de 71.",
-  "card_text_en": "On the night of 5 October, Ibama found 21 wild bird eggs in the luggage of a Chinese passenger at Guarulhos. Their ticket indicated China, but authorities explicitly said the eggs' destination was not established. Eggs were sent to Cetras-SP. This is separate from 34 eggs on 1 October and 16 on 4 October; do not add a further aggregate of 71.",
-  "card_text_es": "La noche del 5 de octubre Ibama encontró 21 huevos de aves silvestres en el equipaje de un pasajero chino en Guarulhos. Su billete indicaba China, pero las autoridades aclararon que no prueba el destino de los huevos. Fueron enviados al Cetras-SP. Es un decomiso distinto de los 34 huevos del 1/10 y los 16 del 4/10; no duplicar el agregado de 71.",
+  "card_text_pt": "Em 5 de outubro, um passageiro chinês procedente de Foz do Iguaçu foi interceptado em Guarulhos com 21 ovos identificados pelo Ibama como psitacídeos, segundo a PF. A Semil informa que ele tinha passagem para a China, sem confirmar o destino dos ovos.",
+  "card_text_en": "On 5 October, a Chinese passenger arriving from Foz do Iguaçu was intercepted at Guarulhos with 21 eggs identified by Ibama as psittacines, according to Federal Police. Semil reports a China-bound ticket, without confirming the eggs’ destination.",
+  "card_text_es": "El 5 de octubre, un pasajero chino procedente de Foz do Iguaçu fue interceptado en Guarulhos con 21 huevos identificados por el Ibama como psitácidos, según la Policía Federal. Semil informa un billete a China, sin confirmar el destino de los huevos.",
   "fauna_label_pt": "21 ovos de aves silvestres",
   "fauna_label_en": "21 wild bird eggs",
   "fauna_label_es": "21 huevos de aves silvestres",
@@ -58,15 +58,60 @@
     "Aves": 21
   },
   "quantity_unassigned": 0,
-  "context_pt": "[O1] Fatos documentados: Em 5/10 à noite, Ibama apreendeu 21 ovos na bagagem de passageiro de nacionalidade chinesa em Guarulhos. A passagem indicava China, mas a autoridade esclareceu que isso não confirma o destino dos ovos. Ovos encaminhados ao Cetras-SP. A notícia reúne três apreensões distintas: 34 ovos em 1/10, 16 em 4/10 e estes 21 em 5/10; não somar novamente o agregado de 71. [S1] Relação com a ciência: Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots (https://doi.org/10.1038/s43247-025-02371-5) analisa características de aeroportos associadas ao tráfico internacional, mas não identifica os envolvidos neste episódio; a referência não comprova conexões com este caso. [N1] Relação com reportagens: Why is Amazonian wildlife turning up at a Bangkok market? (https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/) examina mercados internacionais e possível lavagem de origem de fauna; não confirma compradores ou destinos destes ovos; é contexto temático. Síntese: ocorrência individualizada de apreensão de fauna ou seus produtos. Limites: sem inferência de redes, origem ou rotas além da fonte primária.",
-  "context_en": "[O1] Documented facts: On the night of 5 October, Ibama found 21 wild bird eggs in the luggage of a Chinese passenger at Guarulhos. Their ticket indicated China, but authorities explicitly said the eggs' destination was not established. Eggs were sent to Cetras-SP. This is separate from 34 eggs on 1 October and 16 on 4 October; do not add a further aggregate of 71. [S1] Scientific relationship: Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots (https://doi.org/10.1038/s43247-025-02371-5) examines airport features related to international wildlife trafficking, without identifying actors in this incident; this is not evidence of links to this event. [N1] Reporting relationship: Why is Amazonian wildlife turning up at a Bangkok market? (https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/) examines international markets and potential origin laundering, without confirming buyers or destinations for these eggs; thematic background only. Synthesis: individual wildlife or wildlife-product seizure. Evidence limits: no undocumented networks, origin or routes are inferred.",
-  "context_es": "[O1] Hechos documentados: La noche del 5 de octubre Ibama encontró 21 huevos de aves silvestres en el equipaje de un pasajero chino en Guarulhos. Su billete indicaba China, pero las autoridades aclararon que no prueba el destino de los huevos. Fueron enviados al Cetras-SP. Es un decomiso distinto de los 34 huevos del 1/10 y los 16 del 4/10; no duplicar el agregado de 71. [S1] Relación con la ciencia: Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots (https://doi.org/10.1038/s43247-025-02371-5) analiza características aeroportuarias asociadas al tráfico, sin identificar participantes de este caso; no prueba vínculos con este caso. [N1] Relación con reportajes: Why is Amazonian wildlife turning up at a Bangkok market? (https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/) examina mercados internacionales y posible blanqueo de origen sin confirmar compradores o destinos de estos huevos; es solo contexto temático. Síntesis: evento individualizado de decomiso de fauna o productos derivados. Límites: no se infieren redes, procedencia ni rutas sin pruebas.",
-  "references_text_pt": "[O1] SEMIL-SP / Ibama — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
-  "references_text_en": "[O1] SEMIL-SP / Ibama — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
-  "references_text_es": "[O1] SEMIL-SP / Ibama — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "context_pt": "[O1–O2] Em 05/10/2026, 21 ovos foram apreendidos em Guarulhos. A PF informa que o passageiro chinês desembarcou de Foz do Iguaçu e que o Ibama identificou os ovos como psitacídeos. A Semil registra recebimento no Cetras-SP na mesma noite e passagem para a China, sem confirmar o destino dos ovos. O trecho Foz do Iguaçu → Guarulhos é documentado; não determina o local de coleta dos ovos. As três prisões por documentos falsos no boletim não são atribuídas a este caso. Limites: espécies não informadas; os 17 nascimentos e os tucanos mencionados pela Semil referem-se ao conjunto das apreensões, sem distribuição por lote. Não adicionar os totais agregados de 71 ou 79 ovos. [S1] Contexto científico: análises de redes aéreas ajudam a priorizar fiscalização, mas padrões observados dependem do esforço de detecção. [N1] Contexto jornalístico: a reportagem sobre fauna latino-americana em Bangkok discute mercados internacionais; não vincula este caso à Tailândia. A proximidade temporal de apreensões não comprova uma rede comum.",
+  "context_en": "[O1–O2] On 5 October 2026, 21 eggs were seized at Guarulhos. Federal Police report that the Chinese passenger arrived from Foz do Iguaçu and that Ibama identified the eggs as psittacines. Semil records delivery to Cetras-SP that night and a China-bound ticket, without confirming the eggs’ destination. Foz do Iguaçu → Guarulhos is a documented segment, not evidence of where the eggs were collected. Three false-document arrests in the bulletin are not attributed to this case. Limits: species unreported; the 17 hatchings and toucans mentioned by Semil refer to pooled seizures without allocation to this batch. Do not add aggregate totals of 71 or 79 eggs. [S1] Scientific context: air-network analysis can inform enforcement priorities, but observed patterns depend on detection effort. [N1] Reporting context: reporting on Latin American wildlife in Bangkok discusses international markets; it does not link this case to Thailand. Closely timed seizures do not establish a common network.",
+  "context_es": "[O1–O2] El 05/10/2026 se decomisaron 21 huevos en Guarulhos. La Policía Federal informa que el pasajero chino llegó de Foz do Iguaçu y que el Ibama identificó los huevos como psitácidos. Semil registra su recepción en el Cetras-SP esa noche y un billete a China, sin confirmar el destino de los huevos. Foz do Iguaçu → Guarulhos es un tramo documentado, no prueba del lugar de extracción. Las tres detenciones por documentos falsos del boletín no se atribuyen a este caso. Límites: especies no informadas; los 17 nacimientos y los tucanes mencionados por Semil corresponden al conjunto de decomisos, sin asignación a este lote. No sumar agregados de 71 o 79 huevos. [S1] Contexto científico: el análisis de redes aéreas puede orientar controles, pero los patrones observados dependen del esfuerzo de detección. [N1] Contexto periodístico: el reportaje sobre fauna latinoamericana en Bangkok aborda mercados internacionales; no vincula este caso con Tailandia. La proximidad temporal de decomisos no demuestra una red común.",
+  "references_text_pt": "[O1] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [O2] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-tres-pessoas-e-apreende-ovos-de-aves-silvestres-em-guarulhos-sp; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [O2] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-tres-pessoas-e-apreende-ovos-de-aves-silvestres-em-guarulhos-sp; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [O2] Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-tres-pessoas-e-apreende-ovos-de-aves-silvestres-em-guarulhos-sp; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
   "image_source_url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
   "image_url": "https://smastr16.blob.core.windows.net/home/2026/10/WhatsApp-Image-2026-10-06-at-12.48.44-1024x768.jpeg",
   "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "image_resolution_method": "og:image",
-  "image_checked_at": "2026-10-08T18:03:41Z"
+  "image_checked_at": "2026-10-08T18:03:41Z",
+  "event_datetime": null,
+  "event_end_date": null,
+  "context_updated_at": "2026-10-09T14:55:32Z",
+  "validation_checked_at": "2026-10-09T14:55:32Z",
+  "route_audited_at": "2026-10-09T14:55:32Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Semil-SP / Cetras-SP",
+      "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
+      "verified": true,
+      "verified_at": "2026-10-09T14:55:32Z"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Polícia Federal do Brasil",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-tres-pessoas-e-apreende-ovos-de-aves-silvestres-em-guarulhos-sp",
+      "verified": true,
+      "verified_at": "2026-10-09T14:55:32Z"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots",
+      "url": "https://doi.org/10.1038/s43247-025-02371-5"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    }
+  ],
+  "additional_sources": [
+    {
+      "label": "Polícia Federal do Brasil",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-tres-pessoas-e-apreende-ovos-de-aves-silvestres-em-guarulhos-sp"
+    }
+  ],
+  "route_audit_status": "DOCUMENTED_PARTIAL_ROUTE",
+  "route_audit_note_pt": "Trecho Foz do Iguaçu → Guarulhos documentado pela PF; China é destino da passagem informado pela Semil, não destino confirmado dos ovos.",
+  "route_audit_note_en": "Foz do Iguaçu → Guarulhos documented by Federal Police; China is the ticket destination reported by Semil, not the confirmed destination of the eggs.",
+  "route_audit_note_es": "Tramo Foz do Iguaçu → Guarulhos documentado por la Policía Federal; China es el destino del billete informado por Semil, no el destino confirmado de los huevos."
 }

@@ -1,0 +1,111 @@
+{
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -23.4356,
+    "lon": -46.4731
+  },
+  "coordinate_precision": "airport",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "location_label_pt": "Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+  "location_label_en": "Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+  "location_label_es": "Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+  "id": "2026-09-18__guarulhos-8-wild-bird-eggs",
+  "path": "2026/09",
+  "added_at": "2026-10-09T14:55:32Z",
+  "source_label": "Conexão Planeta — informações atribuídas ao Ibama e à PF",
+  "source_url": "https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/",
+  "publication_date": "2026-10-06",
+  "quantity_count": 8,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "eggs",
+  "quantity_by_group": {
+    "Aves": 8
+  },
+  "quantity_unassigned": 0,
+  "taxon_text": "Aves spp.; espécies não individualizadas para este lote",
+  "image_url": null,
+  "image_source_url": "https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/",
+  "image_status": "SOURCE_IMAGES_NOT_EVENT_SPECIFIC",
+  "image_checked_at": "2026-10-09T14:55:32Z",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "occurrence_type": "wildlife_seizure",
+  "event_date": "2026-09-18",
+  "event_date_precision": "day",
+  "event_datetime": null,
+  "event_end_date": null,
+  "occurred_at": "2026-09-18T00:00:00Z",
+  "occurred_at_precision": "day",
+  "context_updated_at": "2026-10-09T14:55:32Z",
+  "validation_checked_at": "2026-10-09T14:55:32Z",
+  "route_audited_at": "2026-10-09T14:55:32Z",
+  "title_pt": "Apreensão de oito ovos de aves silvestres em Guarulhos",
+  "title_en": "Seizure of eight wild-bird eggs at Guarulhos",
+  "title_es": "Decomiso de ocho huevos de aves silvestres en Guarulhos",
+  "fauna_label_pt": "8 ovos de aves silvestres",
+  "fauna_label_en": "8 wild-bird eggs",
+  "fauna_label_es": "8 huevos de aves silvestres",
+  "quantity_note_pt": "Oito ovos individualizados para 18/09; os totais de 71 e 79 não são novos lotes.",
+  "quantity_note_en": "Eight eggs allocated to 18 September; totals of 71 and 79 are not additional batches.",
+  "quantity_note_es": "Ocho huevos individualizados para el 18/09; los totales de 71 y 79 no son lotes adicionales.",
+  "card_text_pt": "Oito ovos de aves foram apreendidos no Aeroporto de Guarulhos em 18 de setembro de 2026, segundo informações do Ibama publicadas pelo Conexão Planeta. A reportagem distingue esse lote das três apreensões de outubro. Espécies e destino deste lote não foram individualizados.",
+  "card_text_en": "Eight bird eggs were seized at Guarulhos Airport on 18 September 2026, according to Ibama information published by Conexão Planeta. The report distinguishes this batch from three October seizures. Species and destination were not specified for this batch.",
+  "card_text_es": "Ocho huevos de aves fueron decomisados en el aeropuerto de Guarulhos el 18 de septiembre de 2026, según información del Ibama publicada por Conexão Planeta. El reportaje distingue este lote de tres decomisos de octubre. No individualiza especies ni destino de este lote.",
+  "context_pt": "[O1] O Conexão Planeta atribui ao Ibama a data de 18/09 e a quantidade de oito ovos. A versão atualizada atribui à PF a informação de que os passageiros dos quatro episódios eram chineses, mas não associa um destino específico ao lote de oito. Limites: não foi localizado boletim oficial individual; a confirmação disponível é jornalística, com atribuição às autoridades. Espécies, origem e itinerário deste lote permanecem desconhecidos. Os táxons e destinos citados para o conjunto não são transferidos para este registro. [O2] A Semil descreve separadamente os três lotes de outubro; os oito ovos de setembro completam o total de 79 sem gerar uma quinta ocorrência. [S1] Contexto científico: análises de redes aéreas ajudam a priorizar fiscalização, mas padrões observados dependem do esforço de detecção. [N1] Contexto jornalístico: a reportagem sobre fauna latino-americana em Bangkok discute mercados internacionais; não vincula este caso à Tailândia. A proximidade temporal de apreensões não comprova uma rede comum.",
+  "context_en": "[O1] Conexão Planeta attributes the 18 September date and eight-egg count to Ibama. Its updated version attributes to Federal Police the statement that passengers in all four incidents were Chinese, but does not assign a destination to the eight-egg batch. Limits: no individual official bulletin was located; available confirmation is reporting attributed to authorities. Species, origin and itinerary remain unknown. Taxa and destinations reported for pooled seizures are not assigned to this record. [O2] Semil separately describes the three October batches; September’s eight eggs complete the total of 79 without creating a fifth incident. [S1] Scientific context: air-network analysis can inform enforcement priorities, but observed patterns depend on detection effort. [N1] Reporting context: reporting on Latin American wildlife in Bangkok discusses international markets; it does not link this case to Thailand. Closely timed seizures do not establish a common network.",
+  "context_es": "[O1] Conexão Planeta atribuye al Ibama la fecha del 18/09 y el conteo de ocho huevos. La versión actualizada atribuye a la Policía Federal que los pasajeros de los cuatro episodios eran chinos, pero no asigna un destino al lote de ocho. Límites: no se localizó un boletín oficial individual; la confirmación disponible es periodística, atribuida a las autoridades. Especies, origen e itinerario siguen desconocidos. Los taxones y destinos del conjunto no se asignan a este registro. [O2] Semil describe por separado los tres lotes de octubre; los ocho huevos de septiembre completan el total de 79 sin crear un quinto evento. [S1] Contexto científico: el análisis de redes aéreas puede orientar controles, pero los patrones observados dependen del esfuerzo de detección. [N1] Contexto periodístico: el reportaje sobre fauna latinoamericana en Bangkok aborda mercados internacionales; no vincula este caso con Tailandia. La proximidad temporal de decomisos no demuestra una red común.",
+  "route_audit_note_pt": "Sem origem ou destino individualizados na fonte; nenhuma rota inferida.",
+  "route_audit_note_en": "No origin or destination specified for this batch; no route inferred.",
+  "route_audit_note_es": "Sin origen ni destino individualizados; no se infiere una ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Conexão Planeta — informações atribuídas ao Ibama e à PF",
+      "url": "https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/",
+      "verified": true,
+      "verified_at": "2026-10-09T14:55:32Z"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Semil-SP / Cetras-SP",
+      "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
+      "verified": true,
+      "verified_at": "2026-10-09T14:55:32Z"
+    },
+    {
+      "id": "S1",
+      "type": "research_repository",
+      "label": "Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots",
+      "url": "https://doi.org/10.1038/s43247-025-02371-5"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    }
+  ],
+  "references_text_pt": "[O1] Conexão Planeta — informações atribuídas ao Ibama e à PF — https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/; [O2] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] Conexão Planeta — informações atribuídas ao Ibama e à PF — https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/; [O2] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] Conexão Planeta — informações atribuídas ao Ibama e à PF — https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/; [O2] Semil-SP / Cetras-SP — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/; [S1] Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots — https://doi.org/10.1038/s43247-025-02371-5; [N1] Mongabay — Why is Amazonian wildlife turning up at a Bangkok market? — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "additional_sources": [
+    {
+      "label": "Semil-SP / Cetras-SP",
+      "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/"
+    }
+  ]
+}
