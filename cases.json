@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_789_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_790_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 789,
+  "count": 790,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -60137,6 +60137,115 @@
           "type": "news_context",
           "label": "Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026)",
           "url": "https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__vespasiano-mg-whatsapp-wildlife-trafficking-150",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "vespasiano_mg_social_media_2026-10-09",
+      "reconstruction_confidence": "CONFIRMED_SOURCE_EVENT",
+      "added_at": "2026-10-09T13:07:00-04:00",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "migration_status": "READY_FOR_CUTOVER",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "context_status": "VALIDATED",
+      "location_label_pt": "Vespasiano, Minas Gerais",
+      "location_label_en": "Vespasiano, Minas Gerais",
+      "location_label_es": "Vespasiano, Minas Gerais",
+      "country": "Brasil",
+      "source_label": "Rádio Itatiaia / PM de Meio Ambiente de Minas Gerais",
+      "source_url": "https://www.itatiaia.com.br/brasil/sudeste/mg/araras-jiboia-sagui-e-ate-escorpiao-150-animais-silvestres-sao-resgatados-em-vespasiano/",
+      "publication_date": "2026-10-08",
+      "event_date": "2026-10-08",
+      "event_date_precision": "day",
+      "occurred_at": "2026-10-08T00:00:00Z",
+      "occurred_at_precision": "day",
+      "fauna_groups_aggregated": [
+        "Aves",
+        "Répteis",
+        "Mamíferos",
+        "Aracnídeos"
+      ],
+      "taxon_text": "Ara ararauna; Eublepharis macularius; Pantherophis guttatus; demais araras, papagaios, jiboias, iguanas, quelônios, saguis, ouriços e escorpiões sem identificação taxonômica completa",
+      "modal_primary": "Terrestre",
+      "modal_label_pt": "Terrestre",
+      "modal_label_en": "Land",
+      "modal_label_es": "Terrestre",
+      "coordinates": {
+        "lat": -19.6941,
+        "lon": -43.9187
+      },
+      "coordinate_precision": "municipality_generalized",
+      "geographic_note_pt": "Coordenada aproximada de Vespasiano, sem localização exata da residência.",
+      "geographic_note_en": "Approximate Vespasiano locality coordinate; not the precise property address.",
+      "geographic_note_es": "Coordenada aproximada de Vespasiano, no la dirección precisa del inmueble.",
+      "title_pt": "Cerca de 150 animais silvestres e exóticos em comércio irregular por WhatsApp em Vespasiano",
+      "title_en": "Approximately 150 wild and exotic animals held for alleged WhatsApp sales in Vespasiano",
+      "title_es": "Unos 150 animales silvestres y exóticos vinculados a ventas por WhatsApp en Vespasiano",
+      "card_text_pt": "Em 08/10/2026, a Polícia Militar de Meio Ambiente encontrou cerca de 150 animais silvestres e exóticos em imóvel de Vespasiano após abordar um homem com arara-canindé em caixa. A PM relatou vendas por WhatsApp, condições insalubres e filhotes mortos. As fontes divergem sobre o total (140 ou pelo menos 150) e os conduzidos.",
+      "card_text_en": "On 8 October 2026, environmental police found approximately 150 native and exotic animals at a Vespasiano property after stopping a man carrying a blue-and-yellow macaw. Police reported WhatsApp sales, inadequate conditions and dead chicks. Accounts differ on numbers (140 or at least 150) and detentions.",
+      "card_text_es": "El 8 de octubre de 2026, la policía ambiental halló unos 150 animales silvestres y exóticos en Vespasiano tras interceptar a un hombre con un guacamayo azul y amarillo. La policía informó de ventas por WhatsApp, malas condiciones y crías muertas. Las fuentes discrepan sobre la cantidad (140 o al menos 150) y los detenidos.",
+      "fauna_label_pt": "~150 animais: aves, répteis, mamíferos e escorpiões",
+      "fauna_label_en": "~150 animals: birds, reptiles, mammals and scorpions",
+      "fauna_label_es": "~150 animales: aves, reptiles, mamíferos y escorpiones",
+      "quantity_count": 150,
+      "quantity_qualifier": "approximate",
+      "quantity_kind": "live_animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 150,
+      "quantity_note_pt": "Contagem aproximada, sem distribuição por táxon. Itatiaia registra ao menos 150 animais; Diário do Estado GO relata 140. Não somar os dois cães domésticos, os filhotes mortos ou os aparelhos celulares como animais adicionais.",
+      "quantity_note_en": "Approximate, no group breakdown. Itatiaia reports at least 150 animals; Diário do Estado GO reports 140. Do not add domestic dogs, dead chicks or seized phones to the wildlife count.",
+      "quantity_note_es": "Cantidad aproximada, sin desglose por grupo. Itatiaia informa al menos 150 animales y Diário do Estado GO, 140. No añadir perros domésticos, crías muertas ni teléfonos al recuento.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Vendas por grupos de WhatsApp e compras de terceiros relatadas sem origem, destino ou deslocamento geográfico verificáveis. Não gerar rota.",
+      "route_audit_note_en": "WhatsApp sales and purchases from third parties are reported, but without verified geographic origin, destination or movement. No route is generated.",
+      "route_audit_note_es": "Se informó de ventas por WhatsApp y compras a terceros, sin origen, destino ni desplazamiento geográfico verificable. No se genera ruta.",
+      "occurrence_type": "illegal_wildlife_trade_suspected_and_unlicensed_captivity",
+      "image_source_url": "https://bhaz.com.br/noticias/minas-gerais/pm-desmonta-esquema-trafico-animais-grande-bh/",
+      "image_url": null,
+      "image_status": "PENDING_IMAGE_SOURCE",
+      "context_pt": "[O1–O2] Fatos documentados: em 08/10/2026, a PM de Meio Ambiente abordou um homem transportando arara-canindé em caixa, em Vespasiano/MG. Em imóvel associado à ocorrência encontrou aves, répteis, mamíferos e escorpiões, incluindo araras-canindé (Ara ararauna), papagaios, jiboia, iguanas, cágados, tartarugas, jabuti, sagui, ouriço-cacheiro, gecko-leopardo (Eublepharis macularius) e corn snake (Pantherophis guttatus). Segundo declaração recolhida pela polícia, animais eram negociados em grupos de WhatsApp e fornecidos por pessoas não identificadas. Havia cativeiros em condições inadequadas, filhotes mortos e dois cães domésticos em situação de maus-tratos; avaliação veterinária foi relatada, e dois celulares apreendidos. [O1–O3] Incerteza: Itatiaia e Estado de Minas informam ao menos 150 animais e prisão de pai e filho (49 e 19 anos), enquanto Diário do Estado GO informa 140 animais e O Tempo descreve um homem conduzido; não tratar narrativas divergentes como ocorrências separadas. Quantidade indicativa ~150, sem distribuição por espécie, excluindo cães domésticos da contagem de fauna. [S1] Wyatt et al. (2022) analisam anúncios e mensagens relacionados a comércio ilegal de fauna em mídias sociais e serviços de mensagens no Brasil; a pesquisa contextualiza o uso do WhatsApp e não estabelece conexão com os envolvidos. [N1] A reportagem do BHAZ, com imagens atribuídas à PMMG, descreve a abordagem inicial, a residência, a variedade de fauna e condições de manutenção, corroborando o relato sem fornecer contagem taxonômica individual. Leitura integrada: apreensão individual e comercialização digital relatada à polícia; não há comprovação documental da origem dos animais, rotas, fornecedores, espécies de todos os exemplares ou rede internacional. Ausência de rotas geográficas no mapa é intencional.",
+      "context_en": "[O1–O2] Documented facts: on 8 October 2026, environmental military police stopped a man carrying a blue-and-yellow macaw in a box in Vespasiano, Minas Gerais. Officers subsequently found birds, reptiles, mammals and scorpions at a property, including blue-and-yellow macaws (Ara ararauna), parrots, boas, iguanas, freshwater and land turtles, marmosets, porcupines, leopard geckos (Eublepharis macularius) and corn snakes (Pantherophis guttatus). According to statements reported by police, animals were sold through WhatsApp groups and obtained from unidentified third parties. Poor captivity conditions, dead chicks, two mistreated domestic dogs, veterinary assessment and two seized phones were reported. [O1–O3] Uncertainty: Itatiaia and Estado de Minas report at least 150 animals and the arrest of a father and son (49 and 19), while Diário do Estado GO states 140 and O Tempo describes one man taken to a police station. These accounts concern the same event. Record approximately 150 animals, with no species-specific allocation and no additional count for the domestic dogs. [S1] Wyatt et al. (2022) examined wildlife trading through social media and private messaging in Brazil; this is scientific context for the WhatsApp mechanism, not evidence linking the study's observations to these individuals. [N1] BHAZ reporting includes police-attributed images and describes the first interception, the property, the range of animals and the poor conditions, without reliable species-by-species counts. Integrated assessment: a single case with reported online sales and unlawful captivity. Geographic provenance, suppliers, verified trafficking routes and any international network remain unestablished. No map route should be inferred.",
+      "context_es": "[O1–O2] Hechos documentados: el 8 de octubre de 2026, la Policía Militar ambiental interceptó en Vespasiano, Minas Gerais, a un hombre con un guacamayo azul y amarillo en una caja. Posteriormente halló aves, reptiles, mamíferos y escorpiones en una vivienda, entre ellos guacamayos (Ara ararauna), loros, boas, iguanas, tortugas acuáticas y terrestres, titíes, puercoespines, geckos leopardo (Eublepharis macularius) y serpientes del maíz (Pantherophis guttatus). Según declaraciones recogidas por la policía, los animales se vendían por grupos de WhatsApp y se adquirían de terceros no identificados. Se informaron malas condiciones de cautiverio, crías muertas, dos perros domésticos maltratados, evaluación veterinaria y dos teléfonos incautados. [O1–O3] Incertidumbre: Itatiaia y Estado de Minas informan al menos 150 animales y la detención de padre e hijo (49 y 19 años); Diário do Estado GO reporta 140 y O Tempo describe a un hombre llevado a comisaría. Son versiones del mismo episodio, no eventos distintos. Registrar aproximadamente 150 animales, sin asignación por especie ni añadir los perros al recuento. [S1] Wyatt et al. (2022) analizan el comercio de fauna mediante redes sociales y mensajería privada en Brasil; es contexto científico del uso de WhatsApp, no evidencia de relación con estas personas. [N1] BHAZ presenta imágenes atribuidas a la PMMG y describe la primera interceptación, la vivienda, los grupos de animales y las malas condiciones, sin desglose taxonómico cuantitativo. Síntesis: caso único de comercio digital presunto y tenencia irregular. No están documentados procedencia geográfica, proveedores, rutas ni red internacional. No inferir una ruta en el mapa.",
+      "references_text_pt": "[O1] Rádio Itatiaia — entrevista com tenente da Polícia Militar de Meio Ambiente — https://www.itatiaia.com.br/brasil/sudeste/mg/araras-jiboia-sagui-e-ate-escorpiao-150-animais-silvestres-sao-resgatados-em-vespasiano/; [O2] O Tempo — relato policial e inspeção veterinária — https://www.otempo.com.br/cidades/2026/10/8/homem-e-preso-por-vender-jiboias-escorpioes-araras-e-outros-animais-pelo-whatsapp-na-grande-bh; [O3] Diário do Estado GO — contagem alternativa de 140 animais — https://diariodoestadogo.com.br/vespasiano-mg-pm-apreende-140-animais-silvestres-em-fiscalizacao-na-grande-bh/; [S1] Wyatt et al. (2022), Wildlife trafficking via social media in Brazil, Biological Conservation 265, 109420 — https://doi.org/10.1016/j.biocon.2021.109420; [N1] BHAZ — PM desmonta esquema de tráfico de animais em Vespasiano — https://bhaz.com.br/noticias/minas-gerais/pm-desmonta-esquema-trafico-animais-grande-bh/",
+      "references_text_en": "[O1] Rádio Itatiaia — entrevista com tenente da Polícia Militar de Meio Ambiente — https://www.itatiaia.com.br/brasil/sudeste/mg/araras-jiboia-sagui-e-ate-escorpiao-150-animais-silvestres-sao-resgatados-em-vespasiano/; [O2] O Tempo — relato policial e inspeção veterinária — https://www.otempo.com.br/cidades/2026/10/8/homem-e-preso-por-vender-jiboias-escorpioes-araras-e-outros-animais-pelo-whatsapp-na-grande-bh; [O3] Diário do Estado GO — contagem alternativa de 140 animais — https://diariodoestadogo.com.br/vespasiano-mg-pm-apreende-140-animais-silvestres-em-fiscalizacao-na-grande-bh/; [S1] Wyatt et al. (2022), Wildlife trafficking via social media in Brazil, Biological Conservation 265, 109420 — https://doi.org/10.1016/j.biocon.2021.109420; [N1] BHAZ — PM desmonta esquema de tráfico de animais em Vespasiano — https://bhaz.com.br/noticias/minas-gerais/pm-desmonta-esquema-trafico-animais-grande-bh/",
+      "references_text_es": "[O1] Rádio Itatiaia — entrevista com tenente da Polícia Militar de Meio Ambiente — https://www.itatiaia.com.br/brasil/sudeste/mg/araras-jiboia-sagui-e-ate-escorpiao-150-animais-silvestres-sao-resgatados-em-vespasiano/; [O2] O Tempo — relato policial e inspeção veterinária — https://www.otempo.com.br/cidades/2026/10/8/homem-e-preso-por-vender-jiboias-escorpioes-araras-e-outros-animais-pelo-whatsapp-na-grande-bh; [O3] Diário do Estado GO — contagem alternativa de 140 animais — https://diariodoestadogo.com.br/vespasiano-mg-pm-apreende-140-animais-silvestres-em-fiscalizacao-na-grande-bh/; [S1] Wyatt et al. (2022), Wildlife trafficking via social media in Brazil, Biological Conservation 265, 109420 — https://doi.org/10.1016/j.biocon.2021.109420; [N1] BHAZ — PM desmonta esquema de tráfico de animais em Vespasiano — https://bhaz.com.br/noticias/minas-gerais/pm-desmonta-esquema-trafico-animais-grande-bh/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Rádio Itatiaia — entrevista com tenente da Polícia Militar de Meio Ambiente",
+          "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/araras-jiboia-sagui-e-ate-escorpiao-150-animais-silvestres-sao-resgatados-em-vespasiano/"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "O Tempo — relato policial e inspeção veterinária",
+          "url": "https://www.otempo.com.br/cidades/2026/10/8/homem-e-preso-por-vender-jiboias-escorpioes-araras-e-outros-animais-pelo-whatsapp-na-grande-bh"
+        },
+        {
+          "id": "O3",
+          "type": "case_source",
+          "label": "Diário do Estado GO — contagem alternativa de 140 animais",
+          "url": "https://diariodoestadogo.com.br/vespasiano-mg-pm-apreende-140-animais-silvestres-em-fiscalizacao-na-grande-bh/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Wyatt et al. (2022), Wildlife trafficking via social media in Brazil, Biological Conservation 265, 109420",
+          "url": "https://doi.org/10.1016/j.biocon.2021.109420"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "BHAZ — PM desmonta esquema de tráfico de animais em Vespasiano",
+          "url": "https://bhaz.com.br/noticias/minas-gerais/pm-desmonta-esquema-trafico-animais-grande-bh/"
         }
       ]
     }
