@@ -30,10 +30,10 @@
   "coordinate_precision": "city_generalized",
   "geographic_note_pt": "Coordenadas representativas da cidade reportada; não indicam o endereço exato da ocorrência.",
   "added_at_text": null,
-  "context_pt": "Contexto analítico: a apreensão durante a temporada de desova mostra pressão sazonal sobre quelônios amazônicos em pontos de venda locais. O padrão é relevante porque a coleta de ovos pode concentrar-se temporalmente em praias de reprodução, criando janelas previsíveis para fiscalização. Limites: as fontes não identificam coletores, locais exatos de extração, fornecedores ou compradores finais.",
-  "context_en": "Analytical context: the seizure during the nesting season shows seasonal pressure on Amazonian turtles at local sales points. The pattern is relevant because egg collection can be concentrated in time around nesting beaches, creating predictable enforcement windows. Limits: the sources do not identify collectors, exact extraction sites, suppliers or final buyers.",
-  "context_es": "Contexto analítico: el decomiso durante la temporada de anidación muestra presión estacional sobre tortugas amazónicas en puntos de venta locales. El patrón es relevante porque la recolección de huevos puede concentrarse temporalmente en playas de desove, creando ventanas previsibles para la fiscalización. Límites: las fuentes no identifican recolectores, lugares exactos de extracción, proveedores ni compradores finales.",
-  "references_text_pt": "Radio Splendid / ERBOL · https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/",
+  "context_pt": "Contexto analítico: a apreensão durante a temporada de desova mostra pressão sazonal sobre quelônios amazônicos em pontos de venda locais. O padrão é relevante porque a coleta de ovos pode concentrar-se temporalmente em praias de reprodução, criando janelas previsíveis para fiscalização. Limites: as fontes não identificam coletores, locais exatos de extração, fornecedores ou compradores finais.\n\n[I1] O panorama WCS (2023) documenta apreensões de ovos e quelônios em outras áreas de fronteira andino-amazônicas no período de 2010–2018 e reconhece limitações de cobertura e comparabilidade dos registros. É uma referência regional de modalidade, não um estudo de Riberalta ou da cadeia de fornecimento no Beni. Os aproximadamente 300 ovos de peta apreendidos em mercados de Riberalta em 2026 não devem ser conectados a rotas ou autores históricos sem evidência própria.",
+  "context_en": "Analytical context: the seizure during the nesting season shows seasonal pressure on Amazonian turtles at local sales points. The pattern is relevant because egg collection can be concentrated in time around nesting beaches, creating predictable enforcement windows. Limits: the sources do not identify collectors, exact extraction sites, suppliers or final buyers.\n\n[I1] The WCS (2023) assessment documents turtle and egg seizures in other Andean–Amazon border areas in 2010–2018, while recognizing gaps in the coverage and comparability of records. It is regional context for the type of exploitation, not a study of Riberalta or supply chains in Beni. The approximately 300 peta eggs seized in Riberalta markets in 2026 cannot be connected to historical routes or individuals without incident-specific evidence.",
+  "context_es": "Contexto analítico: el decomiso durante la temporada de anidación muestra presión estacional sobre tortugas amazónicas en puntos de venta locales. El patrón es relevante porque la recolección de huevos puede concentrarse temporalmente en playas de desove, creando ventanas previsibles para la fiscalización. Límites: las fuentes no identifican recolectores, lugares exactos de extracción, proveedores ni compradores finales.\n\n[I1] El informe WCS (2023) documenta decomisos de tortugas y huevos en otras zonas fronterizas andino-amazónicas entre 2010–2018 y reconoce límites de cobertura y comparabilidad de registros. Sirve de contexto regional para la modalidad, pero no estudia Riberalta ni las cadenas de suministro del Beni. Los aproximadamente 300 huevos de peta decomisados en sus mercados en 2026 no pueden vincularse a rutas o actores históricos sin evidencia específica.",
+  "references_text_pt": "Radio Splendid / ERBOL · https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
   "status": "VALIDATED",
   "aggregate_operation": false,
   "exclude_from_totals": false,
@@ -62,5 +62,22 @@
   "image_match_confidence": "HIGH",
   "image_note_pt": "Imagem vinculada ao mesmo evento de Riberalta; a página relacionada identifica os ovos de peta e credita a foto ao Governo Autônomo Municipal de Riberalta. O URL direto da imagem foi validado.",
   "image_note_en": "Image tied to the same Riberalta event; the related page identifies the river-turtle eggs and credits the photo to the Autonomous Municipal Government of Riberalta. The direct image URL was validated.",
-  "image_note_es": "Imagen vinculada al mismo evento de Riberalta; la página relacionada identifica los huevos de peta y acredita la foto al Gobierno Autónomo Municipal de Riberalta. Se validó la URL directa de la imagen."
+  "image_note_es": "Imagen vinculada al mismo evento de Riberalta; la página relacionada identifica los huevos de peta y acredita la foto al Gobierno Autónomo Municipal de Riberalta. Se validó la URL directa de la imagen.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Radio Splendid / ERBOL",
+      "url": "https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018)",
+      "url": "https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view"
+    }
+  ],
+  "references_text_en": "; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+  "references_text_es": "; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+  "context_updated_at": "2026-10-09T18:00:00Z"
 }
