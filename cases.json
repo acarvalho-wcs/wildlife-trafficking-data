@@ -4914,10 +4914,10 @@
       "coordinate_precision": "city_generalized",
       "geographic_note_pt": "Coordenadas representativas da cidade reportada; não indicam o endereço exato da ocorrência.",
       "added_at_text": null,
-      "context_pt": "Contexto analítico: a apreensão durante a temporada de desova mostra pressão sazonal sobre quelônios amazônicos em pontos de venda locais. O padrão é relevante porque a coleta de ovos pode concentrar-se temporalmente em praias de reprodução, criando janelas previsíveis para fiscalização. Limites: as fontes não identificam coletores, locais exatos de extração, fornecedores ou compradores finais.",
-      "context_en": "Analytical context: the seizure during the nesting season shows seasonal pressure on Amazonian turtles at local sales points. The pattern is relevant because egg collection can be concentrated in time around nesting beaches, creating predictable enforcement windows. Limits: the sources do not identify collectors, exact extraction sites, suppliers or final buyers.",
-      "context_es": "Contexto analítico: el decomiso durante la temporada de anidación muestra presión estacional sobre tortugas amazónicas en puntos de venta locales. El patrón es relevante porque la recolección de huevos puede concentrarse temporalmente en playas de desove, creando ventanas previsibles para la fiscalización. Límites: las fuentes no identifican recolectores, lugares exactos de extracción, proveedores ni compradores finales.",
-      "references_text_pt": "Radio Splendid / ERBOL · https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/",
+      "context_pt": "Contexto analítico: a apreensão durante a temporada de desova mostra pressão sazonal sobre quelônios amazônicos em pontos de venda locais. O padrão é relevante porque a coleta de ovos pode concentrar-se temporalmente em praias de reprodução, criando janelas previsíveis para fiscalização. Limites: as fontes não identificam coletores, locais exatos de extração, fornecedores ou compradores finais.\n\n[I1] O panorama WCS (2023) documenta apreensões de ovos e quelônios em outras áreas de fronteira andino-amazônicas no período de 2010–2018 e reconhece limitações de cobertura e comparabilidade dos registros. É uma referência regional de modalidade, não um estudo de Riberalta ou da cadeia de fornecimento no Beni. Os aproximadamente 300 ovos de peta apreendidos em mercados de Riberalta em 2026 não devem ser conectados a rotas ou autores históricos sem evidência própria.",
+      "context_en": "Analytical context: the seizure during the nesting season shows seasonal pressure on Amazonian turtles at local sales points. The pattern is relevant because egg collection can be concentrated in time around nesting beaches, creating predictable enforcement windows. Limits: the sources do not identify collectors, exact extraction sites, suppliers or final buyers.\n\n[I1] The WCS (2023) assessment documents turtle and egg seizures in other Andean–Amazon border areas in 2010–2018, while recognizing gaps in the coverage and comparability of records. It is regional context for the type of exploitation, not a study of Riberalta or supply chains in Beni. The approximately 300 peta eggs seized in Riberalta markets in 2026 cannot be connected to historical routes or individuals without incident-specific evidence.",
+      "context_es": "Contexto analítico: el decomiso durante la temporada de anidación muestra presión estacional sobre tortugas amazónicas en puntos de venta locales. El patrón es relevante porque la recolección de huevos puede concentrarse temporalmente en playas de desove, creando ventanas previsibles para la fiscalización. Límites: las fuentes no identifican recolectores, lugares exactos de extracción, proveedores ni compradores finales.\n\n[I1] El informe WCS (2023) documenta decomisos de tortugas y huevos en otras zonas fronterizas andino-amazónicas entre 2010–2018 y reconoce límites de cobertura y comparabilidad de registros. Sirve de contexto regional para la modalidad, pero no estudia Riberalta ni las cadenas de suministro del Beni. Los aproximadamente 300 huevos de peta decomisados en sus mercados en 2026 no pueden vincularse a rutas o actores históricos sin evidencia específica.",
+      "references_text_pt": "Radio Splendid / ERBOL · https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -4947,6 +4947,23 @@
       "image_note_pt": "Imagem vinculada ao mesmo evento de Riberalta; a página relacionada identifica os ovos de peta e credita a foto ao Governo Autônomo Municipal de Riberalta. O URL direto da imagem foi validado.",
       "image_note_en": "Image tied to the same Riberalta event; the related page identifies the river-turtle eggs and credits the photo to the Autonomous Municipal Government of Riberalta. The direct image URL was validated.",
       "image_note_es": "Imagen vinculada al mismo evento de Riberalta; la página relacionada identifica los huevos de peta y acredita la foto al Gobierno Autónomo Municipal de Riberalta. Se validó la URL directa de la imagen.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Radio Splendid / ERBOL",
+          "url": "https://radiosplendid.bo/2026/09/11/beni-decomisan-300-huevos-de-peta-en-mercados-de-riberalta-durante-operativo-contra-el-trafico-de-fauna/"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018)",
+          "url": "https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view"
+        }
+      ],
+      "references_text_en": "; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "references_text_es": "; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "context_updated_at": "2026-10-09T18:00:00Z",
       "occurred_at": "2026-09-11T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -20040,13 +20057,13 @@
       "geographic_note_pt": "Ponto generalizado para a área operacional transfronteiriça; não representa o local exato das asas apreendidas.",
       "geographic_note_en": "Generalized point for the cross-border operation area; it does not represent the exact wing-seizure location.",
       "geographic_note_es": "Punto generalizado para el área operativa transfronteriza; no representa el lugar exacto del decomiso de las alas.",
-      "context_pt": "Fatos documentados: entre 24 e 28 de agosto, a Operação Pachamama apreendeu oito asas de mutum em uma ação binacional na região Tabatinga–Islândia. Contexto geográfico: a operação cobriu mais de 250 km por meios terrestres, fluviais e aéreos. Interpretação: a ocorrência confirma posse/apreensão de partes de fauna, mas não permite atribuir as asas a uma embarcação, país específico da apreensão ou rota. Limites: espécie, ponto exato, origem e destino são desconhecidos; nenhuma linha de rota deve ser criada.",
-      "context_en": "Documented facts: between 24 and 28 August, Operation Pachamama seized eight curassow wings during a binational action in the Tabatinga–Islandia region. Geographic context: the operation covered more than 250 km by land, river and air. Analysis: the event confirms possession/seizure of wildlife parts but does not allow attribution of the wings to a vessel, a specific seizure country or a route. Limits: species, exact point, origin and destination are unknown; no route line should be created.",
-      "context_es": "Hechos documentados: entre el 24 y el 28 de agosto, la Operación Pachamama decomisó ocho alas de mutum durante una acción binacional en la región Tabatinga–Islandia. Contexto geográfico: la operación cubrió más de 250 km por tierra, río y aire. Interpretación: el evento confirma posesión/decomiso de partes de fauna, pero no permite atribuir las alas a una embarcación, a un país específico de incautación o a una ruta. Límites: especie, punto exacto, origen y destino son desconocidos; no debe crearse una línea de ruta.",
-      "context_updated_at": "2026-09-25T01:33:00Z",
-      "references_text_pt": "Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-realiza-operacao-integrada-na-fronteira-entre-brasil-e-peru",
-      "references_text_en": "Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-realiza-operacao-integrada-na-fronteira-entre-brasil-e-peru",
-      "references_text_es": "Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-realiza-operacao-integrada-na-fronteira-entre-brasil-e-peru",
+      "context_pt": "Fatos documentados: entre 24 e 28 de agosto, a Operação Pachamama apreendeu oito asas de mutum em uma ação binacional na região Tabatinga–Islândia. Contexto geográfico: a operação cobriu mais de 250 km por meios terrestres, fluviais e aéreos. Interpretação: a ocorrência confirma posse/apreensão de partes de fauna, mas não permite atribuir as asas a uma embarcação, país específico da apreensão ou rota. Limites: espécie, ponto exato, origem e destino são desconhecidos; nenhuma linha de rota deve ser criada.\n\n[I1–I2] O estudo WCS (2020) caracteriza Tabatinga como ponto de controle da tríplice fronteira Colômbia–Peru–Brasil e registra apreensões históricas de aves, partes e outros táxons em 2010–2018. Isso não determina a espécie ou a origem das oito asas de mutum apreendidas na Operação Pachamama. A avaliação institucional WCS (2022) descreve competências, lacunas de dados e necessidades de colaboração entre agências no Amazonas e Acre; é contexto da cooperação, não prova de uma rota ou localização exata da apreensão.",
+      "context_en": "Documented facts: between 24 and 28 August, Operation Pachamama seized eight curassow wings during a binational action in the Tabatinga–Islandia region. Geographic context: the operation covered more than 250 km by land, river and air. Analysis: the event confirms possession/seizure of wildlife parts but does not allow attribution of the wings to a vessel, a specific seizure country or a route. Limits: species, exact point, origin and destination are unknown; no route line should be created.\n\n[I1–I2] WCS (2020) identifies Tabatinga as an enforcement location in the Colombia–Peru–Brazil tri-border area and documents historical bird, wildlife-parts and other taxonomic seizures in 2010–2018; it cannot determine the species or origin of the eight curassow wings seized in Operation Pachamama. WCS (2022) reviews agency mandates, information gaps and interagency cooperation needs in Amazonas and Acre, providing governance context rather than proof of a route or exact seizure location.",
+      "context_es": "Hechos documentados: entre el 24 y el 28 de agosto, la Operación Pachamama decomisó ocho alas de mutum durante una acción binacional en la región Tabatinga–Islandia. Contexto geográfico: la operación cubrió más de 250 km por tierra, río y aire. Interpretación: el evento confirma posesión/decomiso de partes de fauna, pero no permite atribuir las alas a una embarcación, a un país específico de incautación o a una ruta. Límites: especie, punto exacto, origen y destino son desconocidos; no debe crearse una línea de ruta.\n\n[I1–I2] WCS (2020) caracteriza Tabatinga como punto de control de la triple frontera Colombia–Perú–Brasil y registra decomisos históricos de aves, partes y otros taxones en 2010–2018; no identifica la especie ni procedencia de las ocho alas de mutum decomisadas en la Operación Pachamama. WCS (2022) examina competencias institucionales, vacíos de datos y necesidades de cooperación en Amazonas y Acre; aporta contexto institucional, no pruebas de ruta o ubicación exacta del decomiso.",
+      "context_updated_at": "2026-10-09T18:00:00Z",
+      "references_text_pt": "Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-realiza-operacao-integrada-na-fronteira-entre-brasil-e-peru; [I1] WCS (2020), Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira entre Colômbia, Peru e Bolívia — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view; [I2] WCS (2022), Estratégia de Colaboração Interinstitucional para o Combate ao Tráfico de Animais Silvestres no Acre e no Amazonas — https://drive.google.com/file/d/12acft26w_v0t4gzBtx9e910DKh9e83O0/view",
+      "references_text_en": "Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-realiza-operacao-integrada-na-fronteira-entre-brasil-e-peru; [I1] WCS (2020), Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira entre Colômbia, Peru e Bolívia — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view; [I2] WCS (2022), Estratégia de Colaboração Interinstitucional para o Combate ao Tráfico de Animais Silvestres no Acre e no Amazonas — https://drive.google.com/file/d/12acft26w_v0t4gzBtx9e910DKh9e83O0/view",
+      "references_text_es": "Polícia Federal do Brasil — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-realiza-operacao-integrada-na-fronteira-entre-brasil-e-peru; [I1] WCS (2020), Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira entre Colômbia, Peru e Bolívia — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view; [I2] WCS (2022), Estratégia de Colaboração Interinstitucional para o Combate ao Tráfico de Animais Silvestres no Acre e no Amazonas — https://drive.google.com/file/d/12acft26w_v0t4gzBtx9e910DKh9e83O0/view",
       "quantity_count": 8,
       "quantity_qualifier": "exact",
       "quantity_kind": "wildlife_items",
@@ -20063,6 +20080,26 @@
       "image_status": "DIRECT_IMAGE_URL_VALIDATED",
       "image_checked_at": "2026-10-08T17:45:38Z",
       "image_resolution_method": "existing_direct",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Polícia Federal do Brasil",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-realiza-operacao-integrada-na-fronteira-entre-brasil-e-peru"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "WCS (2020), Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira entre Colômbia, Peru e Bolívia",
+          "url": "https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view"
+        },
+        {
+          "id": "I2",
+          "type": "institutional_report",
+          "label": "WCS (2022), Estratégia de Colaboração Interinstitucional para o Combate ao Tráfico de Animais Silvestres no Acre e no Amazonas",
+          "url": "https://drive.google.com/file/d/12acft26w_v0t4gzBtx9e910DKh9e83O0/view"
+        }
+      ],
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -20478,13 +20515,13 @@
       "geographic_note_pt": "Coordenadas generalizadas para Caballo Cocha/Mercado Central; as embarcações inspecionadas no porto não são tratadas como transportadoras da fauna apreendida.",
       "geographic_note_en": "Generalized coordinates for Caballo Cocha/Central Market; vessels inspected at the port are not treated as carriers of the seized wildlife.",
       "geographic_note_es": "Coordenadas generalizadas para Caballo Cocha/Mercado Central; las embarcaciones inspeccionadas en el puerto no se tratan como transportadoras de la fauna decomisada.",
-      "context_pt": "Fatos documentados: em 13 de julho, autoridades encontraram no Mercado Central 15 aves vivas, 13 cushuris eviscerados e um jacaré-negro morto. Contexto logístico: as embarcações El Gran Diego e Haydee IV foram fiscalizadas separadamente no porto e nenhuma fauna ilegal foi detectada nelas. Interpretação: o registro representa o mercado, não as embarcações. Limites: não há origem ou destino documentados e os nomes comuns não são elevados a espécies científicas sem suporte adicional.",
-      "context_en": "Documented facts: on 13 July, authorities found 15 live birds, 13 eviscerated cushuris and one dead black caiman at Central Market. Logistics: the vessels El Gran Diego and Haydee IV were separately inspected at the port and no illegal wildlife was detected aboard them. Analysis: this record represents the market seizure, not the vessels. Limits: no origin or destination is documented and common names are not elevated to scientific species without additional support.",
-      "context_es": "Hechos documentados: el 13 de julio, las autoridades encontraron en el Mercado Central 15 aves vivas, 13 cushuris eviscerados y un lagarto negro muerto. Contexto logístico: las embarcaciones El Gran Diego y Haydee IV fueron inspeccionadas por separado en el puerto y no se detectó fauna ilegal en ellas. Interpretación: este registro representa el decomiso del mercado, no las embarcaciones. Límites: no hay origen ni destino documentados y los nombres comunes no se elevan a especies científicas sin soporte adicional.",
-      "context_updated_at": "2026-09-25T01:43:00Z",
-      "references_text_pt": "Gobierno Regional de Loreto — https://www.gob.pe/institucion/regionloreto/noticias/1419677-refuerzan-operativos-contra-el-trafico-ilegal-de-fauna-silvestre-en-caballo-cocha",
-      "references_text_en": "Gobierno Regional de Loreto — https://www.gob.pe/institucion/regionloreto/noticias/1419677-refuerzan-operativos-contra-el-trafico-ilegal-de-fauna-silvestre-en-caballo-cocha",
-      "references_text_es": "Gobierno Regional de Loreto — https://www.gob.pe/institucion/regionloreto/noticias/1419677-refuerzan-operativos-contra-el-trafico-ilegal-de-fauna-silvestre-en-caballo-cocha",
+      "context_pt": "Fatos documentados: em 13 de julho, autoridades encontraram no Mercado Central 15 aves vivas, 13 cushuris eviscerados e um jacaré-negro morto. Contexto logístico: as embarcações El Gran Diego e Haydee IV foram fiscalizadas separadamente no porto e nenhuma fauna ilegal foi detectada nelas. Interpretação: o registro representa o mercado, não as embarcações. Limites: não há origem ou destino documentados e os nomes comuns não são elevados a espécies científicas sem suporte adicional.\n\n[I1] O estudo WCS (2023) inclui Caballococha na tríplice fronteira Peru–Colômbia–Brasil, identifica postos regionais de controle e discute mercados e conexões fluviais do baixo Amazonas/Yavarí. Essa informação histórica (2010–2018) esclarece a relevância de monitorar mercados e portos separadamente. Não comprova qualquer rota ou origem dos 29 espécimes apreendidos em 2026; as embarcações inspecionadas separadamente não continham fauna ilegal.,WCS (2023) includes Caballococha in the Peru–Colombia–Brazil tri-border area, documents regional control posts and discusses markets and river connections across the lower Amazon/Yavarí. These 2010–2018 findings contextualize separate market and port inspections. They do not establish a route or source for the 29 specimens seized in 2026; the separately inspected vessels contained no illegal wildlife.,WCS (2023) incluye Caballococha en la triple frontera Perú–Colombia–Brasil, documenta puestos de control regionales y analiza mercados y conexiones fluviales del Bajo Amazonas/Yavarí. Estos antecedentes de 2010–2018 contextualizan controles de mercados y puertos por separado. No demuestran rutas ni procedencia de los 29 especímenes decomisados en 2026; las embarcaciones inspeccionadas por separado no transportaban fauna ilegal.",
+      "context_en": "Documented facts: on 13 July, authorities found 15 live birds, 13 eviscerated cushuris and one dead black caiman at Central Market. Logistics: the vessels El Gran Diego and Haydee IV were separately inspected at the port and no illegal wildlife was detected aboard them. Analysis: this record represents the market seizure, not the vessels. Limits: no origin or destination is documented and common names are not elevated to scientific species without additional support.\n\n[I1] undefined",
+      "context_es": "Hechos documentados: el 13 de julio, las autoridades encontraron en el Mercado Central 15 aves vivas, 13 cushuris eviscerados y un lagarto negro muerto. Contexto logístico: las embarcaciones El Gran Diego y Haydee IV fueron inspeccionadas por separado en el puerto y no se detectó fauna ilegal en ellas. Interpretación: este registro representa el decomiso del mercado, no las embarcaciones. Límites: no hay origen ni destino documentados y los nombres comunes no se elevan a especies científicas sin soporte adicional.\n\n[I1] undefined",
+      "context_updated_at": "2026-10-09T18:00:00Z",
+      "references_text_pt": "Gobierno Regional de Loreto — https://www.gob.pe/institucion/regionloreto/noticias/1419677-refuerzan-operativos-contra-el-trafico-ilegal-de-fauna-silvestre-en-caballo-cocha; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "references_text_en": "Gobierno Regional de Loreto — https://www.gob.pe/institucion/regionloreto/noticias/1419677-refuerzan-operativos-contra-el-trafico-ilegal-de-fauna-silvestre-en-caballo-cocha; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "references_text_es": "Gobierno Regional de Loreto — https://www.gob.pe/institucion/regionloreto/noticias/1419677-refuerzan-operativos-contra-el-trafico-ilegal-de-fauna-silvestre-en-caballo-cocha; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
       "quantity_count": 29,
       "quantity_qualifier": "exact",
       "quantity_kind": "animals_and_items",
@@ -20502,6 +20539,20 @@
       "image_status": "DIRECT_IMAGE_URL_VALIDATED",
       "image_checked_at": "2026-10-08T17:45:45Z",
       "image_resolution_method": "existing_direct",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Gobierno Regional de Loreto",
+          "url": "https://www.gob.pe/institucion/regionloreto/noticias/1419677-refuerzan-operativos-contra-el-trafico-ilegal-de-fauna-silvestre-en-caballo-cocha"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018)",
+          "url": "https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view"
+        }
+      ],
       "occurred_at": "2026-07-13T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -20555,13 +20606,13 @@
       "geographic_note_pt": "Coordenadas generalizadas para a zona rural de Puerto Asís; o endereço do imóvel não é publicado.",
       "geographic_note_en": "Generalized coordinates for rural Puerto Asís; the property address is not published.",
       "geographic_note_es": "Coordenadas generalizadas para la zona rural de Puerto Asís; no se publica la dirección del inmueble.",
-      "context_pt": "Fatos documentados: autoridades colombianas realizaram busca em um imóvel rural de Puerto Asís e resgataram pelo menos 30 animais silvestres, incluindo primatas, aves e répteis. Contexto comercial/digital: a investigação relata que os animais eram exibidos em redes sociais e associa a atividade à monetização de conteúdo; isso é registrado como contexto investigativo, não como prova de venda de cada animal. Limites: a fonte policial não publica lista completa de espécies, origem, rotas ou destinos; esses elementos não são inventados.",
-      "context_en": "Documented facts: Colombian authorities searched a rural property in Puerto Asís and rescued at least 30 wild animals including primates, birds and reptiles. Commercial/digital context: the investigation reports that animals were displayed on social media and links the activity to content monetization; this is recorded as investigative context, not proof that each animal was sold. Limits: the police source does not publish a complete species list, origins, routes or destinations; these are not invented.",
-      "context_es": "Hechos documentados: autoridades colombianas registraron un inmueble rural de Puerto Asís y rescataron al menos 30 animales silvestres, incluidos primates, aves y reptiles. Contexto comercial/digital: la investigación informa que los animales eran exhibidos en redes sociales y vincula la actividad con monetización de contenido; esto se registra como contexto investigativo, no como prueba de venta de cada animal. Límites: la fuente policial no publica lista completa de especies, origen, rutas ni destinos; estos elementos no se inventan.",
-      "context_updated_at": "2026-09-25T01:43:00Z",
-      "references_text_pt": "Policía Nacional de Colombia / Fiscalía — https://radio.policia.gov.co/noticia/puerto-asis-policia-captura-hombre-por-presunto-trafico-animales-suplantacion-autoridad",
-      "references_text_en": "Policía Nacional de Colombia / Fiscalía — https://radio.policia.gov.co/noticia/puerto-asis-policia-captura-hombre-por-presunto-trafico-animales-suplantacion-autoridad",
-      "references_text_es": "Policía Nacional de Colombia / Fiscalía — https://radio.policia.gov.co/noticia/puerto-asis-policia-captura-hombre-por-presunto-trafico-animales-suplantacion-autoridad",
+      "context_pt": "Fatos documentados: autoridades colombianas realizaram busca em um imóvel rural de Puerto Asís e resgataram pelo menos 30 animais silvestres, incluindo primatas, aves e répteis. Contexto comercial/digital: a investigação relata que os animais eram exibidos em redes sociais e associa a atividade à monetização de conteúdo; isso é registrado como contexto investigativo, não como prova de venda de cada animal. Limites: a fonte policial não publica lista completa de espécies, origem, rotas ou destinos; esses elementos não são inventados.\n\n[I1] O estudo WCS (2023) inclui Puerto Asís, Putumayo, na zona fronteiriça Colômbia–Equador, e documenta apreensões históricas de répteis, mamíferos e partes de fauna entre 2010 e 2018. Esse histórico contextualiza fiscalização e diversidade taxonômica; não identifica os animais resgatados na operação de 2026 nem comprova transporte internacional ou ligação entre redes. A exibição em redes sociais pertence exclusivamente à investigação recente.",
+      "context_en": "Documented facts: Colombian authorities searched a rural property in Puerto Asís and rescued at least 30 wild animals including primates, birds and reptiles. Commercial/digital context: the investigation reports that animals were displayed on social media and links the activity to content monetization; this is recorded as investigative context, not proof that each animal was sold. Limits: the police source does not publish a complete species list, origins, routes or destinations; these are not invented.\n\n[I1] WCS (2023) covers Puerto Asís, Putumayo, within the Colombia–Ecuador border region and reports historical reptile, mammal and wildlife-parts seizures from 2010–2018. This background contextualizes enforcement and taxonomic diversity but neither identifies the animals rescued in 2026 nor proves international transport or links between networks. Social-media display is evidence reported only for the recent investigation.",
+      "context_es": "Hechos documentados: autoridades colombianas registraron un inmueble rural de Puerto Asís y rescataron al menos 30 animales silvestres, incluidos primates, aves y reptiles. Contexto comercial/digital: la investigación informa que los animales eran exhibidos en redes sociales y vincula la actividad con monetización de contenido; esto se registra como contexto investigativo, no como prueba de venta de cada animal. Límites: la fuente policial no publica lista completa de especies, origen, rutas ni destinos; estos elementos no se inventan.\n\n[I1] WCS (2023) estudia Puerto Asís, Putumayo, en la región fronteriza Colombia–Ecuador y registra decomisos históricos de reptiles, mamíferos y partes de fauna en 2010–2018. Estos antecedentes contextualizan la fiscalización y diversidad taxonómica, pero no identifican los animales rescatados en 2026 ni demuestran transporte internacional o vínculos entre redes. La exhibición en redes sociales corresponde exclusivamente a la investigación reciente.",
+      "context_updated_at": "2026-10-09T18:00:00Z",
+      "references_text_pt": "Policía Nacional de Colombia / Fiscalía — https://radio.policia.gov.co/noticia/puerto-asis-policia-captura-hombre-por-presunto-trafico-animales-suplantacion-autoridad; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "references_text_en": "Policía Nacional de Colombia / Fiscalía — https://radio.policia.gov.co/noticia/puerto-asis-policia-captura-hombre-por-presunto-trafico-animales-suplantacion-autoridad; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "references_text_es": "Policía Nacional de Colombia / Fiscalía — https://radio.policia.gov.co/noticia/puerto-asis-policia-captura-hombre-por-presunto-trafico-animales-suplantacion-autoridad; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
       "quantity_count": 30,
       "quantity_qualifier": "minimum",
       "quantity_kind": "animals",
@@ -20576,6 +20627,20 @@
       "image_status": "DIRECT_IMAGE_URL_VALIDATED",
       "image_checked_at": "2026-10-08T17:45:46Z",
       "image_resolution_method": "existing_direct",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Policía Nacional de Colombia / Fiscalía",
+          "url": "https://radio.policia.gov.co/noticia/puerto-asis-policia-captura-hombre-por-presunto-trafico-animales-suplantacion-autoridad"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018)",
+          "url": "https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view"
+        }
+      ],
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -30431,7 +30496,7 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "quantity_unassigned": 0,
-      "context_updated_at": "2026-09-30T23:05:00Z",
+      "context_updated_at": "2026-10-09T18:00:00Z",
       "route_audited_at": "2026-09-30T23:05:00Z",
       "image_url": "https://www.eluniverso.com/resizer/v2/UG7IOQBD5BFW5JIV5AHG4PUFPA.jpeg?auth=61fd0a0cd9d47171f036dfd45fd9f8abec3e59a490d2b50cd316a744ea72584d&width=893&height=670&quality=75&smart=true",
       "image_status": "DIRECT_IMAGE_URL_VALIDATED",
@@ -30480,9 +30545,9 @@
       "geographic_note_pt": "Coordenadas generalizadas para El Coca; o endereço da residência não foi usado.",
       "geographic_note_en": "Generalized coordinates for El Coca; the residence address was not used.",
       "geographic_note_es": "Coordenadas generalizadas para El Coca; no se utilizó la dirección de la vivienda.",
-      "context_pt": "Fatos documentados [O1]: uma operação em residência de El Coca recuperou 57 tartarugas vivas de três espécies, dois ovos e duas carapaças; a fonte relaciona a extração dessas espécies ao tráfico de filhotes e ovos. Relação com a ciência [S1]: o Repositório Científico documenta prevalência de comércio ilegal de tartarugas e os desafios de monitoramento associados à diversidade de espécies e canais de venda. Leitura integrada: o caso reúne animais vivos, ovos e carapaças no mesmo local, mostrando exploração de diferentes estágios e produtos de quelônios. Limites da evidência: a fonte não informa origem de captura, compradores, canal de venda ou rota, e o estudo S1 não é evidência de que estes espécimes tenham sido comercializados online.",
-      "context_en": "Documented facts [O1]: an operation at an El Coca residence recovered 57 live turtles of three species, two eggs and two shells; the source links extraction of these species to trafficking of young and eggs. Relation to science [S1]: the Research Repository documents the prevalence of illegal turtle trade and monitoring challenges associated with species diversity and sales channels. Integrated reading: this case combines live animals, eggs and shells at one location, showing exploitation of multiple chelonian life stages and products. Evidence limits: the source does not report capture origin, buyers, sales channel or route, and S1 is not evidence that these specimens were traded online.",
-      "context_es": "Hechos documentados [O1]: un operativo en una vivienda de El Coca recuperó 57 tortugas vivas de tres especies, dos huevos y dos caparazones; la fuente relaciona la extracción de estas especies con el tráfico de crías y huevos. Relación con la ciencia [S1]: el Repositorio Científico documenta la prevalencia del comercio ilegal de tortugas y los desafíos de monitoreo asociados a la diversidad de especies y canales de venta. Lectura integrada: el caso reúne animales vivos, huevos y caparazones en un mismo lugar, mostrando explotación de distintos estadios y productos de quelonios. Límites de la evidencia: la fuente no informa origen de captura, compradores, canal de venta ni ruta, y S1 no demuestra que estos especímenes hayan sido comercializados en línea.",
+      "context_pt": "Fatos documentados [O1]: uma operação em residência de El Coca recuperou 57 tartarugas vivas de três espécies, dois ovos e duas carapaças; a fonte relaciona a extração dessas espécies ao tráfico de filhotes e ovos. Relação com a ciência [S1]: o Repositório Científico documenta prevalência de comércio ilegal de tartarugas e os desafios de monitoramento associados à diversidade de espécies e canais de venda. Leitura integrada: o caso reúne animais vivos, ovos e carapaças no mesmo local, mostrando exploração de diferentes estágios e produtos de quelônios. Limites da evidência: a fonte não informa origem de captura, compradores, canal de venda ou rota, e o estudo S1 não é evidência de que estes espécimes tenham sido comercializados online.\n\n[I1] A WCS (2023) inclui a província amazônica de Orellana na zona de integração fronteiriça Peru–Equador e registra apreensões históricas de fauna na região, incluindo répteis. Esse panorama oferece contexto territorial e indica a necessidade de distinguir animais vivos, ovos e partes/derivados nas estatísticas. Não comprova a origem ou destino dos 57 quelônios vivos, dois ovos e duas carapaças encontrados em El Coca em 2022.",
+      "context_en": "Documented facts [O1]: an operation at an El Coca residence recovered 57 live turtles of three species, two eggs and two shells; the source links extraction of these species to trafficking of young and eggs. Relation to science [S1]: the Research Repository documents the prevalence of illegal turtle trade and monitoring challenges associated with species diversity and sales channels. Integrated reading: this case combines live animals, eggs and shells at one location, showing exploitation of multiple chelonian life stages and products. Evidence limits: the source does not report capture origin, buyers, sales channel or route, and S1 is not evidence that these specimens were traded online.\n\n[I1] WCS (2023) includes Amazonian Orellana province in the Peru–Ecuador border integration area and documents historical wildlife seizures, including reptiles. The institutional report provides geographical context and shows why live animals, eggs and derivatives should be distinguished statistically. It does not establish the source or destination of the 57 live turtles, two eggs and two shells found in El Coca in 2022.",
+      "context_es": "Hechos documentados [O1]: un operativo en una vivienda de El Coca recuperó 57 tortugas vivas de tres especies, dos huevos y dos caparazones; la fuente relaciona la extracción de estas especies con el tráfico de crías y huevos. Relación con la ciencia [S1]: el Repositorio Científico documenta la prevalencia del comercio ilegal de tortugas y los desafíos de monitoreo asociados a la diversidad de especies y canales de venta. Lectura integrada: el caso reúne animales vivos, huevos y caparazones en un mismo lugar, mostrando explotación de distintos estadios y productos de quelonios. Límites de la evidencia: la fuente no informa origen de captura, compradores, canal de venta ni ruta, y S1 no demuestra que estos especímenes hayan sido comercializados en línea.\n\n[I1] WCS (2023) incluye la provincia amazónica de Orellana en la zona de integración fronteriza Perú–Ecuador y registra decomisos históricos de fauna, incluidos reptiles. El informe aporta contexto territorial y señala la importancia de distinguir animales vivos, huevos y derivados en las estadísticas. No demuestra el origen ni destino de las 57 tortugas vivas, dos huevos y dos caparazones hallados en El Coca en 2022.",
       "context_references": [
         {
           "id": "O1",
@@ -30495,11 +30560,17 @@
           "type": "research_repository",
           "label": "Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring",
           "url": "https://doi.org/10.1016/j.biocon.2021.109245"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018)",
+          "url": "https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view"
         }
       ],
-      "references_text_pt": "[O1] El Universo/MAATE, 05/04/2022; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.",
-      "references_text_en": "[O1] El Universo/MAATE, 5 Apr 2022; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.",
-      "references_text_es": "[O1] El Universo/MAATE, 05/04/2022; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.",
+      "references_text_pt": "[O1] El Universo/MAATE, 05/04/2022; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "references_text_en": "[O1] El Universo/MAATE, 5 Apr 2022; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
+      "references_text_es": "[O1] El Universo/MAATE, 05/04/2022; [S1] Biological Conservation, DOI 10.1016/j.biocon.2021.109245.; [I1] WCS (2023), Análisis del comercio ilegal de fauna silvestre en zonas fronterizas de Colombia, Ecuador, Perú, Brasil y Bolivia (2010–2018) — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view",
       "image_source_url": "https://www.eluniverso.com/larevista/ecologia/huevos-caparazones-y-57-tortugas-vivas-fueron-decomisadas-en-una-vivienda-en-el-coca-orellana-nota/",
       "image_resolution_method": "existing_direct",
       "occurred_at": "2022-04-05T00:00:00Z",
