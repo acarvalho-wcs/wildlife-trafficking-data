@@ -484,8 +484,8 @@
   "followup_batch_01": {
     "review_date": "2026-10-10",
     "scope": "LA-002, LA-015, LA-016, LA-052, LA-058, LA-059, LA-061, LA-063, LA-064, LA-066; source validation only, no unverified additions",
-    "status": "two_cases_added_pending_canonical_build",
-    "new_cases": 2,
+    "status": "three_cases_added_pending_canonical_build",
+    "new_cases": 3,
     "new_routes": 0,
     "source_verified_notes": [
       {
@@ -513,6 +513,14 @@
           "https://anffasindical.org.br/mapa-intercepta-386-tartaruguinhas-chinesas-no-aeroporto-de-guarulhos/",
           "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2024/11/30/tartaruguinhas-chinesa-aeroporto-sp.htm"
         ]
+      },
+      {
+        "candidate": "LA-066",
+        "status": "added_conservative",
+        "details": "Ollague crossing seizure of one taxidermied yacare, travel toward Calama, reported 14 January 2025, day of event not verified. No Bolivian city or capture origin inferred. Distinct from 3 January Chungara event.",
+        "sources": [
+          "https://www.biobiochile.cl/noticias/nacional/region-de-antofagasta/2025/01/14/aduanas-incauta-yacare-disecado-en-paso-fronterizo-ollague-es-el-segundo-caso-en-el-ano.shtml"
+        ]
       }
     ],
     "unresolved_candidates": [
@@ -539,16 +547,13 @@
       {
         "candidate": "LA-064",
         "reason": "Passenger nationality is not proof of an international trafficking route."
-      },
-      {
-        "candidate": "LA-066",
-        "reason": "Origin leg to Calama not confirmed."
       }
     ],
-    "policy": "Two cases added without undocumented international routes; eight candidates remain pending. Canonical feed compilation not confirmed.",
+    "policy": "Three records added, seven candidates need disambiguation; previous duplicate checks are retained; compiled feed still needs verification.",
     "new_case_ids": [
       "2017-04-17__piura-29-galapagos-tortoises",
-      "2024-11-27__guarulhos-386-chinese-softshell-turtles"
+      "2024-11-27__guarulhos-386-chinese-softshell-turtles",
+      "2025-01__ollague-taxidermied-caiman-calama"
     ]
   }
 }
