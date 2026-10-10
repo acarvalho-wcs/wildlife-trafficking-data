@@ -32,9 +32,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://odishatoday.com/wp-content/uploads/2026/10/3e329efa-228d-492b-93fa-7b315ffd43a4_leopard_skins_seized_in_gajapati_districtjpg.jpg",
   "image_source_url": "https://odishatoday.com/2026/10/09/six-held-with-two-leopard-skins-in-gajapati-bhubaneswar-news/",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 16,
   "context_references": [
@@ -95,5 +95,7 @@
   "context_es": "[O1] Diligencia distinta de Mohana del 9/10, dentro de la misma investigación. Registrar una piel por evento; no clasificarlas como animales vivos ni inferir viajes por la ubicación de la terminal.\n\n[S1] La tipología diferencia redes criminales; un decomiso o detención no demuestra por sí solo crimen organizado.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC favorece intervenciones ajustadas al problema documentado. Aquí, los lugares y sospechosos informados delimitan la investigación; relaciones comerciales, origen biológico y vínculos con otros delitos requieren evidencia adicional.",
   "references_text_es": "[O1] Odisha Today / Divisional Forest Officer — https://odishatoday.com/2026/10/09/six-held-with-two-leopard-skins-in-gajapati-bhubaneswar-news/; [S1] Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade — https://link.springer.com/article/10.1007/s12117-020-09385-9; [N1] Ommcom News — https://ommcomnews.com/odisha-news/two-leopard-skins-seized-in-gajapati-six-arrested/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
   "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
-  "occurrence_type": "wildlife_enforcement"
+  "occurrence_type": "wildlife_enforcement",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:34:48Z"
 }

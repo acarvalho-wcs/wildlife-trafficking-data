@@ -32,9 +32,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://gray-wowt-prod.gtv-cdn.com/resizer/v2/UJNZUOZ4Z5EGBFHA5CGLUA7JLY.jpg?auth=1cd9ac5304c1e9d7f9b20437e181397b1a00f20b0059aeae5dfd7f670fbb0cd5&width=1200&height=600&smart=true",
   "image_source_url": "https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 28,
   "context_references": [
@@ -96,5 +96,7 @@
   "references_text_es": "[O1] WOWT / Nebraska Wildlife Rehab — https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] KLKN — https://www.klkntv.com/arctic-fox-taken-out-of-omaha-home-after-being-kept-as-pet/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
   "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
   "occurrence_type": "wildlife_enforcement",
-  "specimen_state": "live"
+  "specimen_state": "live",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:35:31Z"
 }

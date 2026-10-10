@@ -36,9 +36,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://files.ndeal.app/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791489560916_6845f10c_fb5a_4fbb_a97a_946874b64db4.jpg",
   "image_source_url": "https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 14,
   "context_references": [
@@ -116,5 +116,7 @@
       "group": "Mamíferos"
     }
   ],
-  "occurrence_type": "wildlife_enforcement"
+  "occurrence_type": "wildlife_enforcement",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:34:56Z"
 }

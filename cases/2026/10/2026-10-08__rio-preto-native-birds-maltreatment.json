@@ -34,7 +34,7 @@
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "image_url": null,
   "image_source_url": "https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 20,
   "context_references": [
@@ -107,5 +107,6 @@
       "group": "Aves"
     }
   ],
-  "occurrence_type": "wildlife_enforcement"
+  "occurrence_type": "wildlife_enforcement",
+  "image_checked_at": "2026-10-10T16:34:52Z"
 }

@@ -32,9 +32,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://ecosistemacordoba.com/wp-content/uploads/2026/10/rescataron-21-reinamoras-capturadas-con-tramperos-en-salsacate-y-villa-del-totoral-1024x576.webp",
   "image_source_url": "https://ecosistemacordoba.com/2026/10/10/rescataron-21-reinamoras-capturadas-con-tramperos-en-salsacate-y-villa-del-totoral/",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 24,
   "context_references": [
@@ -109,5 +109,7 @@
     }
   ],
   "occurrence_type": "wildlife_enforcement",
-  "specimen_state": "live"
+  "specimen_state": "live",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:35:25Z"
 }

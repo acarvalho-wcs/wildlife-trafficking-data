@@ -32,9 +32,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://tribratanews.bali.polri.go.id/assets/public/img/header/be1ee86c37430ed513a285d8d016ced7.jpg",
   "image_source_url": "https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 3,
   "context_references": [
@@ -96,5 +96,7 @@
   "references_text_es": "[O1] Polres Jembrana / Polda Bali — https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan; [S1] Global assessment of manta and devil ray gill plate and meat trade (2025) — https://link.springer.com/article/10.1007/s10641-024-01636-w; [N1] Publika — https://publika.co.id/polres-jembrana-ungkap-dugaan-perdagangan-satwa-dilindungi-11-ekor-pari-mobula-diamankan/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
   "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
   "occurrence_type": "wildlife_enforcement",
-  "specimen_state": "dead"
+  "specimen_state": "dead",
+  "image_resolution_method": "article_img",
+  "image_checked_at": "2026-10-10T16:35:10Z"
 }

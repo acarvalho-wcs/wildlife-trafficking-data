@@ -44,8 +44,8 @@
   },
   "quantity_unassigned": 0,
   "image_source_url": "https://www.informacidade.com.br/aves-silvestres-sao-apreendidas-em-volta-redonda/",
-  "image_url": null,
-  "image_status": "PENDING_IMAGE_SOURCE",
+  "image_url": "https://www.informacidade.com.br/wp-content/uploads/2026/10/aves-silvestres-sao-apreendidas-em-volta-redo-2.jpg",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "context_status": "VALIDATED",
   "geographic_note_pt": "Coordenada aproximada do município, não do ponto exato da ação.",
@@ -88,5 +88,7 @@
       "label": "Crackdown reveals industrial-scale wildlife and timber trafficking across Latin America (Mongabay, 8 Oct 2026)",
       "url": "https://news.mongabay.com/short-article/2026/10/crackdown-reveals-industrial-scale-wildlife-and-timber-trafficking-across-latin-america/"
     }
-  ]
+  ],
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:34:21Z"
 }

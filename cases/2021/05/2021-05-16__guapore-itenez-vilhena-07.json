@@ -46,8 +46,8 @@
     "Peixes": 97
   },
   "quantity_unassigned": 0,
-  "image_url": null,
-  "image_status": "SOURCE_IMAGE_PENDING",
+  "image_url": "https://newsrondonia.com.br/wp-content/uploads/2023/04/13989fa3f25c9eefa0ae18e3516ed3ca.jpg",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "image_source_url": "https://newsrondonia.com.br/policia/2021/05/17/pescador-e-flagrado-com-mais-de-30-kg-de-peixes-ilegais-especies-apreendidas-foram-doadas-ao-lar-dos-idosos/",
   "title_pt": "Apreensão de fauna ou equipamentos em Vilhena (2021-05-16)",
   "card_text_pt": "97 peixes (34,65 kg) vindos de Pimenteiras, apreendidos em Vilhena",
@@ -66,5 +66,7 @@
   "fauna_label_es": "Fish spp.",
   "context_es": "[O1] Hechos documentados: Se decomisaron en Vilhena 97 peces con un peso de 34,65 kg, procedentes según la fuente de Pimenteiras. [S1] Contexto científico: estudios de la explotación de quelonios amazónicos y del tráfico de fauna aportan antecedentes generales, no pruebas de conexión con este evento. [N1] Contexto periodístico: noticias sobre tráfico de fauna amazónica son solo contexto temático. Síntesis: no se infieren especies ni rutas transfronterizas sin documentación.",
   "references_text_es": "[O1] https://newsrondonia.com.br/policia/2021/05/17/pescador-e-flagrado-com-mais-de-30-kg-de-peixes-ilegais-especies-apreendidas-foram-doadas-ao-lar-dos-idosos/; [S1] https://doi.org/10.1186/1746-4269-10-8; [N1] https://www1.folha.uol.com.br/ambiente/2026/03/projeto-de-soltura-de-tartarugas-na-amazonia-bate-recorde-mas-trafico-ameaca-conservacao.shtml",
-  "quantity_note_es": "Contagem conforme fonte primária."
+  "quantity_note_es": "Contagem conforme fonte primária.",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:33:42Z"
 }

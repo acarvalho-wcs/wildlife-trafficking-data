@@ -32,9 +32,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://www.bresciatomorrow.it/wp-content/uploads/2026/09/Uccellatori-Trapolle-per-Uccelli-Illegali.jpg",
   "image_source_url": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 30,
   "context_references": [
@@ -98,5 +98,7 @@
   "event_month": "2026-09",
   "equipment_count": 237,
   "occurrence_type": "wildlife_enforcement",
-  "specimen_state": "dead"
+  "specimen_state": "dead",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:34:36Z"
 }

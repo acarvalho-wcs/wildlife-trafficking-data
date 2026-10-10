@@ -32,9 +32,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://diamondtvzambia.com/wp-content/uploads/2026/10/843324470_1573645990696037_7763374836282308830_n.avif",
   "image_source_url": "https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 33,
   "context_references": [
@@ -97,5 +97,7 @@
   "route_audit_note_es": "Zed Gossip, atribuyendo la información a ACC, informa que las 56 aves interceptadas en Nakonde se dirigían a Lusaka. No representa viaje completado ni establece origen internacional.",
   "event_date_end": "2026-09-30",
   "occurrence_type": "wildlife_enforcement",
-  "specimen_state": "live"
+  "specimen_state": "live",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:35:30Z"
 }

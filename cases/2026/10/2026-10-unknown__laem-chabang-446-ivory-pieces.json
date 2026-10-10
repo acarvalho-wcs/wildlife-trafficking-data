@@ -32,9 +32,9 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "context_status": "VALIDATED",
   "route_audit_status": "DOCUMENTED_ROUTE",
-  "image_url": null,
+  "image_url": "https://www.pattayamail.com/wp-content/uploads/2026/10/t-01-Thailand-seizes-ivory-hidden-inside-timber-logs-at-Laem-Chabang-Port-copy.jpg",
   "image_source_url": "https://www.pattayamail.com/news/thailand-seizes-ivory-hidden-inside-timber-logs-at-laem-chabang-port-567666",
-  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "ingestion_batch": "resume-59fd17b-2026-10-10",
   "original_candidate_number": 31,
   "context_references": [
@@ -96,5 +96,7 @@
   "references_text_es": "[O1] Pattaya Mail / Thai Customs / TNA — https://www.pattayamail.com/news/thailand-seizes-ivory-hidden-inside-timber-logs-at-laem-chabang-port-567666; [S1] Wasser et al. (2015), Genetic assignment of large seizures of elephant ivory reveals Africa’s major poaching hotspots — https://pmc.ncbi.nlm.nih.gov/articles/PMC5535781/; [N1] The Thaiger / Department of National Parks — https://thethaiger.com/hot-news/crime/400-african-elephant-ivory-pieces-seized-chon-buri; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
   "route_audit_note_es": "Se documentan origen declarado del envío de madera en Zambia y llegada al puerto tailandés. La línea conecta referencias; no están establecidos puertos de salida, escalas ni origen biológico del marfil.",
   "event_date_end": "2026-10-07",
-  "occurrence_type": "wildlife_enforcement"
+  "occurrence_type": "wildlife_enforcement",
+  "image_resolution_method": "og:image",
+  "image_checked_at": "2026-10-10T16:35:27Z"
 }
