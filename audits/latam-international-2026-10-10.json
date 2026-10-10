@@ -1,0 +1,484 @@
+{
+  "batch": "latam-international-20261010",
+  "reviewed_at": "2026-10-10T20:44:11Z",
+  "base_commit": "d93d69a41617a26446c45234f9fdfa72184b97d0",
+  "baseline_cases": 817,
+  "baseline_routes": 187,
+  "new_cases": 26,
+  "new_routes": 26,
+  "new_route_segments": 27,
+  "expected_cases": 843,
+  "expected_routes": 213,
+  "counted_new_cases": 23,
+  "excluded_new_cases": 3,
+  "scope": "Retomada do lote LATAM com procedência internacional: 36 candidatas documentais revisadas; 26 selecionadas nesta revisão. A lista exata de 26 prometida anteriormente não foi recuperada, portanto a seleção foi reconstruída a partir das fichas e das fontes.",
+  "date_policy": "Datas completas somente quando corroboradas; publicações não substituem datas de ocorrência. Meses preliminares não corroborados de LA-035 e LA-045 removidos.",
+  "quantity_policy": "Itens, produtos e animais distintos; pesos e embalagens não convertidos em animais; frações não somadas ao total.",
+  "selected": [
+    {
+      "candidate": "LA-001",
+      "id": "2025-08-06__guarulhos-nigeria-132-animals-parts",
+      "source_url": "https://primeirahora.com.br/mapa-apreende-mais-de-130-animais-e-partes-de-alto-risco-sanitario-provenientes-da-nigeria/",
+      "original_source_url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/mapa-apreende-mais-de-130-animais-e-partes-de-alto-risco-sanitario-provenientes-da-nigeria",
+      "event_period": "2025-08-06",
+      "event_date": "2025-08-06",
+      "exclude_from_totals": true,
+      "quantity_count": 132,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Retenção sanitária: não presumir crime CITES. Excluída dos totais de tráfico; 46 kg não são somados aos 132 itens.",
+        "en": "Biosecurity interception: no CITES offence presumed. Excluded from trafficking totals; 46 kg are not added to 132 items.",
+        "es": "Retención sanitaria: no se presume delito CITES. Excluida de totales de tráfico; no se suman 46 kg a 132 artículos."
+      }
+    },
+    {
+      "candidate": "LA-003",
+      "id": "2023-11-17__lima-miami-160-exotic-animals",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/875406-en-el-aeropuerto-jorge-chavez-incautan-160-animales-silvestres-exoticos-a-ciudadano-procedente-de-miami",
+      "original_source_url": "https://www.gob.pe/institucion/serfor/noticias/875406-en-el-aeropuerto-jorge-chavez-incautan-160-animales-silvestres-exoticos-a-ciudadano-procedente-de-miami",
+      "event_period": "2023-11-17",
+      "event_date": "2023-11-17",
+      "exclude_from_totals": false,
+      "quantity_count": 160,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "Não somar os 15 CITES ou as quatro mortes ao total. A rota termina em Lima, sem prolongamento inferido à Ásia.",
+        "en": "Do not add the 15 CITES specimens or four deaths to the total. The route ends in Lima, with no inferred Asian leg.",
+        "es": "No sumar los 15 ejemplares CITES ni las cuatro muertes. La ruta termina en Lima, sin tramo inferido hacia Asia."
+      }
+    },
+    {
+      "candidate": "LA-004",
+      "id": "2020-09__tumbes-ecuador-419-shark-trunks",
+      "source_url": "https://www.gob.pe/institucion/produce/noticias/304744-produce-decomisa-mas-de-11-toneladas-del-recurso-tiburon-en-tumbes-por-no-acreditar-origen-legal",
+      "original_source_url": "https://www.gob.pe/institucion/produce/noticias/304744-produce-decomisa-mas-de-11-toneladas-del-recurso-tiburon-en-tumbes-por-no-acreditar-origen-legal",
+      "event_period": "2020-09",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 419,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Troncos são itens, sem conversão em animais. O dia da apreensão não consta; 26/09 é publicação.",
+        "en": "Trunks are items, not converted into animals. The seizure day is unspecified; 26 September is the publication date.",
+        "es": "Los troncos son artículos, sin conversión en animales. No consta el día del decomiso; el 26/09 es publicación."
+      }
+    },
+    {
+      "candidate": "LA-005",
+      "id": "2019__bogota-iquitos-four-kambo-secretion-tablets",
+      "source_url": "https://colombia.wcs.org/es-es/WCS-Colombia/Noticias/articleType/ArticleView/articleId/17166/LA-RANA-KAMBO-ESTARIA-EN-RIESGO-POR-USO-NO-REGULADO-DE-SU-VENENO.aspx",
+      "original_source_url": null,
+      "event_period": "2019",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": null,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Dia e mês não confirmados. Desenha-se Iquitos–Bogotá; os Países Baixos são destino pretendido, não viagem concluída.",
+        "en": "Day and month are unconfirmed. Iquitos–Bogotá is drawn; the Netherlands is an intended destination, not a completed journey.",
+        "es": "Día y mes no confirmados. Se representa Iquitos–Bogotá; Países Bajos es destino previsto, no viaje completado."
+      }
+    },
+    {
+      "candidate": "LA-009",
+      "id": "2008-06__mexico-city-600-wildlife-montevideo-florida",
+      "source_url": "https://www.sociedaduruguaya.org/?p=5289",
+      "original_source_url": "https://www.sociedaduruguaya.org/?p=5289",
+      "event_period": "2008-06",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 600,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "A fonte não sustenta 05/06 como dia da apreensão. Flórida permanece referência estadual, sem aeroporto inventado.",
+        "en": "The source does not substantiate 5 June as the seizure day. Florida remains a state-level reference without an invented airport.",
+        "es": "La fuente no confirma el 5/06 como día del decomiso. Florida queda como referencia estatal, sin inventar aeropuerto."
+      }
+    },
+    {
+      "candidate": "LA-010",
+      "id": "2009-01__arica-rosa-isabel-407-wildlife-peru",
+      "source_url": "https://www.sag.cl/noticias/mas-de-400-animales-retenidos-por-trafico-ilegal",
+      "original_source_url": "https://www.sag.cl/noticias/mas-de-400-animales-retenidos-por-trafico-ilegal",
+      "event_period": "2009-01",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 407,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "407 é limite mínimo conservador, não total exato. 12/01 é a data da nota; o dia da inspeção não está explicitado.",
+        "en": "407 is a conservative lower bound, not an exact total. 12 January dates the notice; the inspection day is unspecified.",
+        "es": "407 es un mínimo conservador, no total exacto. El 12/01 fecha la nota; no se explicita el día de inspección."
+      }
+    },
+    {
+      "candidate": "LA-017",
+      "id": "2017__nickerie-80-macaws-guyana",
+      "source_url": "https://www.iucn.nl/app/uploads/2021/03/an_assessment_of_wildlife_poaching_and_trafficking_in_bolivia_and_suriname.pdf",
+      "original_source_url": null,
+      "event_period": "2017",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 80,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "Ano conhecido, data completa nula. Guiana é extremo nacional generalizado; não inferir cidade de captura ou exportador.",
+        "en": "Year known, full date null. Guyana is a generalized national endpoint; no capture city or exporter inferred.",
+        "es": "Año conocido, fecha completa nula. Guyana es un extremo nacional generalizado; no se infiere ciudad de captura ni exportador."
+      }
+    },
+    {
+      "candidate": "LA-018",
+      "id": "2009__nickerie-75-twatwas-guyana",
+      "source_url": "https://www.iucn.nl/app/uploads/2021/03/an_assessment_of_wildlife_poaching_and_trafficking_in_bolivia_and_suriname.pdf",
+      "original_source_url": null,
+      "event_period": "2009",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 75,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "Dia não confirmado; preservar apenas 2009. Não unir com as 80 araras apreendidas em 2017.",
+        "en": "Day unconfirmed; retain only 2009. Do not merge with the 80 macaws seized in 2017.",
+        "es": "Día no confirmado; conservar solo 2009. No unir con los 80 guacamayos decomisados en 2017."
+      }
+    },
+    {
+      "candidate": "LA-035",
+      "id": "undated__guadalajara-68-wildlife-parts-tanzania",
+      "source_url": "https://www.profepa.gob.mx/innovaportal/v/6210/1/mx.wap/abandonan__68_partes_de_vida_silvestre_en_aeropuerto_de_guadalajara_provenientes_de_tanzania.html",
+      "original_source_url": "https://www.profepa.gob.mx/innovaportal/v/6210/1/mx.wap/abandonan__68_partes_de_vida_silvestre_en_aeropuerto_de_guadalajara_provenientes_de_tanzania.html",
+      "event_period": null,
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 68,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "A nota recuperada não apresenta data; mês/ano preparatórios não foram corroborados nesta retomada e permanecem apenas no histórico de curadoria.",
+        "en": "The recovered notice is undated; the draft month/year were not corroborated in this review and remain only in the curation history.",
+        "es": "La nota recuperada no tiene fecha; el mes/año preliminares no se corroboraron y quedan solo en el historial de curaduría."
+      }
+    },
+    {
+      "candidate": "LA-038",
+      "id": "2022-09__tocumen-681-molluscs-ecuador",
+      "source_url": "https://miambiente.gob.pa/decomisan-conchas-y-ostras-en-aeropuerto-de-tocumen/",
+      "original_source_url": "https://miambiente.gob.pa/decomisan-conchas-y-ostras-en-aeropuerto-de-tocumen/page/89/",
+      "event_period": "2022-09",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 681,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "As 151 conchas não são adicionadas aos mais de 681. Data exata do evento não informada; peso não convertido em indivíduos.",
+        "en": "Do not add 151 shells to the over 681 total. Event day unspecified; weight is not converted into individuals.",
+        "es": "No sumar 151 conchas a las más de 681. Día del evento no informado; no convertir el peso en individuos."
+      }
+    },
+    {
+      "candidate": "LA-039",
+      "id": "2024-03-08__lapachito-29-birds-asuncion",
+      "source_url": "https://www.argentina.gob.ar/noticias/trasladaba-29-aves-silvestres-dentro-de-la-cabina-de-un-camion",
+      "original_source_url": "https://www.argentina.gob.ar/noticias/trasladaba-29-aves-silvestres-dentro-de-la-cabina-de-un-camion",
+      "event_period": "2024-03-08",
+      "event_date": "2024-03-08",
+      "exclude_from_totals": false,
+      "quantity_count": 29,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "23 + 6 = 29. Rota representada até Lapachito; Córdoba é destino pretendido.",
+        "en": "23 + 6 = 29. The route is drawn to Lapachito; Córdoba is the intended destination.",
+        "es": "23 + 6 = 29. Se representa la ruta hasta Lapachito; Córdoba es destino previsto."
+      }
+    },
+    {
+      "candidate": "LA-040",
+      "id": "2025-08__paso-de-los-libres-64-ornamental-birds-brazil",
+      "source_url": "https://www.argentina.gob.ar/noticias/trafico-ilegal-se-evito-el-ingreso-irregular-de-aves-ornamentales-en-la-frontera-con-brasil",
+      "original_source_url": "https://www.argentina.gob.ar/noticias/trafico-ilegal-se-evito-el-ingreso-irregular-de-aves-ornamentales-en-la-frontera-con-brasil",
+      "event_period": "2025-08",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 64,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "Dia exato não informado. A repatriação e o envio ao zoológico não são novas apreensões ou rotas de tráfico.",
+        "en": "Exact day unspecified. Repatriation and zoo transfer are not new seizures or trafficking routes.",
+        "es": "Día exacto no informado. La repatriación y traslado al zoológico no son nuevas incautaciones ni rutas de tráfico."
+      }
+    },
+    {
+      "candidate": "LA-041",
+      "id": "2019-08-08__la-cruz-70-turtles-nicaragua",
+      "source_url": "https://ncrnoticias.com/nacionales/detienen-a-nicaraguense-con-70-tortugas-dentro-de-una-bolsa-plastica/",
+      "original_source_url": null,
+      "event_period": "2019-08-08",
+      "event_date": "2019-08-08",
+      "exclude_from_totals": false,
+      "quantity_count": 70,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "A ficha anterior alertava divergência 20/70 no comunicado oficial. Adotam-se 70, corroboradas pela reportagem operacional.",
+        "en": "The prior review flagged a 20/70 inconsistency in the official release. Seventy is retained, corroborated by operational reporting.",
+        "es": "La revisión previa señaló discrepancia 20/70 en el comunicado oficial. Se conservan 70, corroboradas por la noticia operativa."
+      }
+    },
+    {
+      "candidate": "LA-044",
+      "id": "2011-04__quillagua-three-taxidermied-armadillos-bolivia",
+      "source_url": "https://www.latercera.com/noticia/aduana-incauta-en-iquique-quirquinchos-disecados/",
+      "original_source_url": null,
+      "event_period": "2011-04",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 3,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Dia da apreensão não especificado. Não adicionar o charango como quarto exemplar.",
+        "en": "Seizure day unspecified. Do not add the charango as a fourth specimen.",
+        "es": "Día del decomiso no especificado. No sumar el charango como cuarto ejemplar."
+      }
+    },
+    {
+      "candidate": "LA-045",
+      "id": "undated__bogota-three-zebra-skins-london",
+      "source_url": "https://oab.ambientebogota.gov.co/incautaron-partes-de-animales-exoticos-en-el-aeropuerto-el-dorado-de-bogota/",
+      "original_source_url": null,
+      "event_period": null,
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 3,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Dia e publicação não recuperados. O mês/ano preliminares ficam no histórico, não como data comprovada.",
+        "en": "Day and publication date were not recovered. Draft month/year remain in the audit, not as a verified date.",
+        "es": "No se recuperaron día ni fecha de publicación. El mes/año preliminares quedan en auditoría, no como fecha comprobada."
+      }
+    },
+    {
+      "candidate": "LA-047",
+      "id": "2024-07__los-chiles-one-zapoyol-nicaragua",
+      "source_url": "https://laregion.cr/policia-rescata-perico-que-mujer-transportaba-dentro-de-un-saco-y-poca-ventilacion/",
+      "original_source_url": null,
+      "event_period": "2024-07",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "Mantém-se precisão mensal; nome científico não inferido a partir do nome popular zapoyol.",
+        "en": "Month-level precision retained; no scientific name inferred solely from the vernacular name zapoyol.",
+        "es": "Se conserva precisión mensual; no se infiere nombre científico solo del nombre común zapoyol."
+      }
+    },
+    {
+      "candidate": "LA-048",
+      "id": "2024-06__tablillas-two-zapoyol-chicks-bottle-nicaragua",
+      "source_url": "https://crinformativo.com/2024/06/17/policia-de-fronteras-rescata-dos-pichones-de-perico-que-estaban-dentro-de-frasco-plastico-cerrado/",
+      "original_source_url": null,
+      "event_period": "2024-06",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 2,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "17/06 é publicação, não dia confirmado da apreensão. Excluem-se da ficha ocorrências posteriores em caixa de papelão.",
+        "en": "17 June is publication, not a confirmed seizure day. Later cardboard-box incidents are not included.",
+        "es": "El 17/06 es publicación, no día confirmado del decomiso. No se incluyen los casos posteriores en caja de cartón."
+      }
+    },
+    {
+      "candidate": "LA-051",
+      "id": "2015__chacalluta-47-dried-seahorses-tacna",
+      "source_url": "https://diariocorreo.pe/edicion/tacna/arica-incautan-caballitos-de-mar-y-caparazones-de-tortuga-que-iban-desde-peru-654530/",
+      "original_source_url": null,
+      "event_period": "2015",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 47,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Somente 47 itens nesta ficha. A entrega posterior à autoridade pesqueira não é outra apreensão.",
+        "en": "Only 47 items in this record. Subsequent handover to the fisheries authority is not another seizure.",
+        "es": "Solo 47 artículos en esta ficha. La entrega posterior a la autoridad pesquera no es otra incautación."
+      }
+    },
+    {
+      "candidate": "LA-055",
+      "id": "2017-06__guarulhos-23-emperor-scorpions-nigeria",
+      "source_url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2017/06/15/ibama-apreende-caixa-com-dezenas-de-escorpioes-que-iam-da-nigeria-para-mg-2-sao-presos.htm",
+      "original_source_url": null,
+      "event_period": "2017-06",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 23,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "23 recebidos, não 60 inicialmente encomendados. Uberaba não constitui segunda apreensão; o dia de interceptação não foi informado.",
+        "en": "23 received, not 60 initially ordered. Uberaba is not a second seizure; the interception day was not reported.",
+        "es": "23 recibidos, no 60 encargados inicialmente. Uberaba no constituye otro decomiso; no se informó el día de interceptación."
+      }
+    },
+    {
+      "candidate": "LA-056",
+      "id": "2021-04-15__guarulhos-istanbul-dried-animals-fish",
+      "source_url": "https://sindireceita.org.br/noticias/2021/04/19/analistas-tributarios-atuam-em-apreensoes-e-retencoes-de-norte-a-sul-do-pais",
+      "original_source_url": "https://sindireceita.org.br/noticias/2021/04/19/analistas-tributarios-atuam-em-apreensoes-e-retencoes-de-norte-a-sul-do-pais",
+      "event_period": "2021-04-15",
+      "event_date": "2021-04-15",
+      "exclude_from_totals": true,
+      "quantity_count": 277,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Aproximadamente 277 itens quantificados, além das peles. Retenção sanitária excluída dos totais de tráfico; madeira e colares não contados como fauna.",
+        "en": "Approximately 277 counted items plus skins. Biosecurity seizure excluded from trafficking totals; wood and necklaces not counted as fauna.",
+        "es": "Aproximadamente 277 artículos cuantificados más pieles. Retención sanitaria excluida de totales de tráfico; madera y collares no se cuentan como fauna."
+      }
+    },
+    {
+      "candidate": "LA-057",
+      "id": "2023-03__guarulhos-china-180-turtles-30-eels",
+      "source_url": "https://www.acrissul.com.br/noticias/vigiagro-intercepta-bagagem-com-180-tartarugas-e-30-enguias-em/22056/",
+      "original_source_url": null,
+      "event_period": "2023-03",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 210,
+      "quantity_kind": "animals",
+      "decision_notes": {
+        "pt": "Não converter 23/03 automaticamente em data da apreensão. 180 + 30 = 210; condição viva/morta das enguias permanece não resolvida.",
+        "en": "Do not automatically use 23 March as the seizure day. 180 + 30 = 210; whether eels were alive remains unresolved.",
+        "es": "No convertir automáticamente el 23/03 en fecha de decomiso. 180 + 30 = 210; el estado vivo/muerto de las anguilas queda sin resolver."
+      }
+    },
+    {
+      "candidate": "LA-060",
+      "id": "2025-01-28__guarulhos-nigeria-animal-remains-january",
+      "source_url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/02/03/restos-de-animais-encontrados-no-aeroporto-de-guarulhos.htm",
+      "original_source_url": null,
+      "event_period": "2025-01-28",
+      "event_date": "2025-01-28",
+      "exclude_from_totals": true,
+      "quantity_count": null,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Quantidade desconhecida. Retenção zoossanitária excluída dos totais de tráfico; não atribuir os restos domésticos à fauna silvestre.",
+        "en": "Quantity unknown. Biosecurity interception excluded from trafficking totals; domestic remains are not classified as wildlife.",
+        "es": "Cantidad desconocida. Retención zoosanitaria excluida de totales de tráfico; los restos domésticos no se clasifican como fauna silvestre."
+      }
+    },
+    {
+      "candidate": "LA-065",
+      "id": "2025-01-03__chungara-taxidermied-caiman-toy-box-bolivia",
+      "source_url": "https://www.biobiochile.cl/noticias/sociedad/debate/2025/01/06/aduana-chilena-requisa-yacare-bebe-embalsamado-que-estaba-en-una-caja-de-juguetes-venia-desde-bolivia.shtml",
+      "original_source_url": null,
+      "event_period": "2025-01-03",
+      "event_date": "2025-01-03",
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Caso individual distinto de Chungará em dezembro de 2024 e Ollagüe em janeiro de 2025.",
+        "en": "Separate from the December 2024 Chungará case and January 2025 Ollagüe case.",
+        "es": "Caso distinto de Chungará en diciembre de 2024 y Ollagüe en enero de 2025."
+      }
+    },
+    {
+      "candidate": "LA-067",
+      "id": "2025-01__cardenal-samore-corals-puerto-madryn",
+      "source_url": "https://www.diariochiloe.cl/noticia/actualidad/2025/01/aduana-detecta-arma-municiones-y-corales-protegidos-en-paso-fronterizo-cardenal-samore",
+      "original_source_url": null,
+      "event_period": "2025-01",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": null,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Quantidade, espécies e dia exato não informados. A publicação é de 14/01, corrigindo 15/01 da ficha preliminar.",
+        "en": "Quantity, species and exact day unspecified. Publication is 14 January, correcting 15 January in the draft.",
+        "es": "Cantidad, especies y día exacto no informados. Publicación del 14/01, corrigiendo el 15/01 preliminar."
+      }
+    },
+    {
+      "candidate": "LA-068",
+      "id": "2025-08__cardenal-samore-whale-rib-argentina",
+      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-de-los-lagos/2025/08/25/aduanas-decomisa-costilla-de-ballena-de-dos-metros-que-sujeto-quiso-ingresar-al-pais-desde-argentina.shtml",
+      "original_source_url": null,
+      "event_period": "2025-08",
+      "event_date": null,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Contar um osso, não uma baleia. Os 2,7 kg de carnes não identificadas ficam fora da quantidade faunística.",
+        "en": "Count one bone, not one whale. The 2.7 kg of unidentified meat is excluded from wildlife quantities.",
+        "es": "Contar un hueso, no una ballena. Los 2,7 kg de carnes no identificadas quedan fuera de cantidades faunísticas."
+      }
+    },
+    {
+      "candidate": "LA-070",
+      "id": "2025-06-18__guarulhos-giraffe-lion-parts-south-africa",
+      "source_url": "https://conexaoplaneta.com.br/blog/trofeu-de-caca-de-leao-e-partes-de-girafa-sao-apreendidos-pelo-ibama-no-aeroporto-de-guarulhos/",
+      "original_source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2025/ibama-apreende-partes-de-girafa-e-de-leao-no-aeroporto-de-guarulhos-sp",
+      "event_period": "2025-06-18",
+      "event_date": "2025-06-18",
+      "exclude_from_totals": false,
+      "quantity_count": 9,
+      "quantity_kind": "wildlife_items",
+      "decision_notes": {
+        "pt": "Nove itens, não nove animais. Uma fiscalização com duas cargas; nenhuma condenação criminal é presumida.",
+        "en": "Nine items, not nine animals. One inspection involving two consignments; no criminal conviction is presumed.",
+        "es": "Nueve artículos, no nueve animales. Una fiscalización con dos cargas; no se presume condena penal."
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "candidate": "LA-002",
+      "reason_pt": "Relato reúne outras interceptações e mistura produtos vegetais/animais; falta individualização."
+    },
+    {
+      "candidate": "LA-015",
+      "reason_pt": "Fonte documental da ocorrência ainda não recuperada."
+    },
+    {
+      "candidate": "LA-016",
+      "reason_pt": "Fonte documental da ocorrência ainda não recuperada."
+    },
+    {
+      "candidate": "LA-052",
+      "reason_pt": "Evento citado em conjunto com outra apreensão; falta reconciliação de quantidade e documentação individual para este lote."
+    },
+    {
+      "candidate": "LA-058",
+      "reason_pt": "Validação temporal e documental da ocorrência ainda insuficiente neste lote."
+    },
+    {
+      "candidate": "LA-059",
+      "reason_pt": "Espécies chinesas não comprovam procedência internacional desta viagem."
+    },
+    {
+      "candidate": "LA-061",
+      "reason_pt": "Distribuição biológica em Galápagos não comprova o trajeto internacional desta apreensão."
+    },
+    {
+      "candidate": "LA-063",
+      "reason_pt": "Nacionalidade do passageiro não basta para comprovar procedência ou sentido internacional da viagem."
+    },
+    {
+      "candidate": "LA-064",
+      "reason_pt": "Nacionalidade do passageiro não basta para comprovar procedência ou sentido internacional da viagem."
+    },
+    {
+      "candidate": "LA-066",
+      "reason_pt": "Reportagem informa nacionalidade e destino Calama, sem comprovar origem internacional do trecho."
+    }
+  ],
+  "validation": {
+    "canonical_schema": "PASS: 843 unique records",
+    "baseline_preservation": "All 817 existing canonical records and 187 routes preserved; existing route exclusions and network context unchanged",
+    "new_route_resolution": "PASS: 26 unique cases, 27 rendered route segments",
+    "quantity_reconciliation": "PASS: every known quantity equals allocated groups plus unassigned items",
+    "browser_visual_qa": "Not performed: direct public site requests returned HTTP 403"
+  }
+}
