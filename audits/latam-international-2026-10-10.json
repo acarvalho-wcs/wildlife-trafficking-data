@@ -484,8 +484,8 @@
   "followup_batch_01": {
     "review_date": "2026-10-10",
     "scope": "LA-002, LA-015, LA-016, LA-052, LA-058, LA-059, LA-061, LA-063, LA-064, LA-066; source validation only, no unverified additions",
-    "status": "reviewed_pending_source_or_event_disambiguation",
-    "new_cases": 0,
+    "status": "one_case_added_pending_canonical_build",
+    "new_cases": 1,
     "new_routes": 0,
     "source_verified_notes": [
       {
@@ -498,8 +498,8 @@
       },
       {
         "candidate": "LA-061",
-        "status": "deferred_conflicting_taxonomy_no_international_route",
-        "details": "2017 Piura seizure of 29 tortoises en route from Sullana to Lima; WCS Peru reports Chelonoidis nigra, whereas Agencia Andina reports Chelonoidis denticulata. Ecuador/Galapagos origin not supported by transport evidence; species ID requires original inspection record. Do not create Ecuador-Peru route or count as additional event without deduplication.",
+        "status": "added_conservative_2017_domestic_seizure_with_ecuador_repatriation",
+        "details": "Recorded 29 tortoises seized 2017-04-17 Piura, original Chelonoidis denticulata vs later Chelonoidis nigra identification explicitly retained, 26 Ecuador repatriations excluded from event count; no unverified Ecuador-Peru route.",
         "sources": [
           "https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/9994/Images.aspx",
           "https://andina.pe/agencia/noticia-piura-incautan-29-tortugas-terrestres-pata-amarilla-peligro-extincion-663381.aspx"
@@ -540,6 +540,9 @@
         "reason": "Origin leg to Calama not confirmed."
       }
     ],
-    "policy": "No new records or routes until original event-level documentation and canonical duplicate checks pass. Existing expected counts unchanged."
+    "policy": "One qualified event added without undocumented international route; remaining nine pending. Canonical feed compilation must be verified.",
+    "new_case_ids": [
+      "2017-04-17__piura-29-galapagos-tortoises"
+    ]
   }
 }
