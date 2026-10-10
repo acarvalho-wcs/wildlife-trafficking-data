@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-09__tabatinga-market-one-snake",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-09",
+  "publication_date": "2026-10-09",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -4.25,
+    "lon": -69.94
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Prefeitura Municipal de Tabatinga / SEMMAT",
+  "source_url": "https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Serpentes",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 1
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 7,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Prefeitura Municipal de Tabatinga / SEMMAT",
+      "title": "Prefeitura Municipal de Tabatinga / SEMMAT",
+      "url": "https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+      "title": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+      "url": "https://www.nature.com/articles/s41467-020-18523-4"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Prefeitura Municipal de Tabatinga / SEMMAT",
+      "title": "Prefeitura Municipal de Tabatinga / SEMMAT",
+      "url": "https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/",
+      "same_as_occurrence_source": true
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Tabatinga, Amazonas",
+  "fauna_label_pt": "Uma serpente em mercado municipal",
+  "title_pt": "Tabatinga, Amazonas — Uma serpente em mercado municipal",
+  "card_text_pt": "A SEMMAT, apoiada pela Guarda Municipal e bombeiros, recolheu uma serpente mantida irregularmente no Mercado Municipal Arlindo Pilindor.",
+  "quantity_note_pt": "A fonte descreve manutenção irregular, não uma venda comprovada. Espécie, origem e destino comercial são desconhecidos. O encaminhamento ao parque do 8º BIS é transferência de custódia, não rota de tráfico.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] A fonte descreve manutenção irregular, não uma venda comprovada. Espécie, origem e destino comercial são desconhecidos. O encaminhamento ao parque do 8º BIS é transferência de custódia, não rota de tráfico.\n\n[S1] O estudo identifica lacunas na regulação do comércio de répteis, sem equiparar todo comércio a ilegalidade.\n\n[N1] A referência noticiosa coincide com [O1]; não é uma segunda confirmação independente.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] Prefeitura Municipal de Tabatinga / SEMMAT — https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/; [S1] Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade — https://www.nature.com/articles/s41467-020-18523-4; [N1] Prefeitura Municipal de Tabatinga / SEMMAT — https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Tabatinga, Amazonas",
+  "fauna_label_en": "One snake at municipal market",
+  "title_en": "Tabatinga, Amazonas — One snake at municipal market",
+  "card_text_en": "SEMMAT, supported by municipal guards and firefighters, recovered a snake irregularly kept at Arlindo Pilindor Municipal Market.",
+  "quantity_note_en": "The source describes irregular possession, not a proven sale. Species, origin and commercial destination are unknown. Transfer to the 8th BIS park is custody transfer, not trafficking.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] The source describes irregular possession, not a proven sale. Species, origin and commercial destination are unknown. Transfer to the 8th BIS park is custody transfer, not trafficking.\n\n[S1] The study identifies gaps in reptile-trade regulation without equating all trade with illegality.\n\n[N1] The news reference is the same as [O1], not a second independent confirmation.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] Prefeitura Municipal de Tabatinga / SEMMAT — https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/; [S1] Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade — https://www.nature.com/articles/s41467-020-18523-4; [N1] Prefeitura Municipal de Tabatinga / SEMMAT — https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Tabatinga, Amazonas",
+  "fauna_label_es": "Una serpiente en mercado municipal",
+  "title_es": "Tabatinga, Amazonas — Una serpiente en mercado municipal",
+  "card_text_es": "SEMMAT, con apoyo de la guardia municipal y bomberos, retiró una serpiente mantenida irregularmente en el Mercado Municipal Arlindo Pilindor.",
+  "quantity_note_es": "La fuente describe tenencia irregular, no venta comprobada. Se desconocen especie, origen y destino comercial. El traslado al parque del 8º BIS es transferencia de custodia, no tráfico.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] La fuente describe tenencia irregular, no venta comprobada. Se desconocen especie, origen y destino comercial. El traslado al parque del 8º BIS es transferencia de custodia, no tráfico.\n\n[S1] El estudio identifica vacíos en la regulación del comercio de reptiles, sin equiparar todo comercio con ilegalidad.\n\n[N1] La referencia informativa coincide con [O1]; no es una segunda confirmación independiente.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] Prefeitura Municipal de Tabatinga / SEMMAT — https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/; [S1] Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade — https://www.nature.com/articles/s41467-020-18523-4; [N1] Prefeitura Municipal de Tabatinga / SEMMAT — https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

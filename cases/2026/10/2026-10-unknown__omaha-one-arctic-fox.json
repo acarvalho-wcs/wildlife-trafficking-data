@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-unknown__omaha-one-arctic-fox",
+  "status": "VALIDATED",
+  "country": "Estados Unidos",
+  "event_date": null,
+  "publication_date": "2026-10-09",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": 41.26,
+    "lon": -95.94
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "WOWT / Nebraska Wildlife Rehab",
+  "source_url": "https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Vulpes lagopus",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 28,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "WOWT / Nebraska Wildlife Rehab",
+      "title": "WOWT / Nebraska Wildlife Rehab",
+      "url": "https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "title": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/152071/"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "KLKN",
+      "title": "KLKN",
+      "url": "https://www.klkntv.com/arctic-fox-taken-out-of-omaha-home-after-being-kept-as-pet/",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Omaha, Nebraska",
+  "fauna_label_pt": "Uma raposa-do-ártico em cativeiro ilegal",
+  "title_pt": "Omaha, Nebraska — Uma raposa-do-ártico em cativeiro ilegal",
+  "card_text_pt": "Nebraska Humane Society Animal Control confiscou uma raposa-do-ártico mantida ilegalmente como animal de estimação, segundo Nebraska Wildlife Rehab.",
+  "quantity_note_pt": "A reportagem descreve nascimento em cativeiro e busca por santuário; não sustenta captura na natureza ou importação ilegal. Data da apreensão e origem comercial não são informadas.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] A reportagem descreve nascimento em cativeiro e busca por santuário; não sustenta captura na natureza ou importação ilegal. Data da apreensão e origem comercial não são informadas.\n\n[S1] A pesquisa examina a diversidade de vertebrados comercializados, abrangendo comércio legal e ilegal.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] WOWT / Nebraska Wildlife Rehab — https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] KLKN — https://www.klkntv.com/arctic-fox-taken-out-of-omaha-home-after-being-kept-as-pet/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Omaha, Nebraska",
+  "fauna_label_en": "One illegally kept Arctic fox",
+  "title_en": "Omaha, Nebraska — One illegally kept Arctic fox",
+  "card_text_en": "Nebraska Humane Society Animal Control confiscated an illegally kept pet Arctic fox, according to Nebraska Wildlife Rehab.",
+  "quantity_note_en": "Reporting describes captive breeding and a sanctuary search; it does not establish wild capture or illegal import. Seizure date and commercial origin are unspecified.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] Reporting describes captive breeding and a sanctuary search; it does not establish wild capture or illegal import. Seizure date and commercial origin are unspecified.\n\n[S1] Research examines the diversity of traded vertebrates, covering both legal and illegal trade.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] WOWT / Nebraska Wildlife Rehab — https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] KLKN — https://www.klkntv.com/arctic-fox-taken-out-of-omaha-home-after-being-kept-as-pet/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Omaha, Nebraska",
+  "fauna_label_es": "Un zorro ártico mantenido ilegalmente",
+  "title_es": "Omaha, Nebraska — Un zorro ártico mantenido ilegalmente",
+  "card_text_es": "Nebraska Humane Society Animal Control confiscó un zorro ártico mantenido ilegalmente como mascota, según Nebraska Wildlife Rehab.",
+  "quantity_note_es": "La noticia describe nacimiento en cautiverio y búsqueda de santuario; no demuestra captura silvestre ni importación ilegal. No se informan fecha del decomiso ni origen comercial.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] La noticia describe nacimiento en cautiverio y búsqueda de santuario; no demuestra captura silvestre ni importación ilegal. No se informan fecha del decomiso ni origen comercial.\n\n[S1] La investigación examina la diversidad de vertebrados comercializados, incluyendo comercio legal e ilegal.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] WOWT / Nebraska Wildlife Rehab — https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] KLKN — https://www.klkntv.com/arctic-fox-taken-out-of-omaha-home-after-being-kept-as-pet/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

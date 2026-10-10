@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-09__jembrana-11-mobula-rays",
+  "status": "VALIDATED",
+  "country": "Indonésia",
+  "event_date": "2026-10-09",
+  "publication_date": "2026-10-10",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -8.39,
+    "lon": 114.6
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Polres Jembrana / Polda Bali",
+  "source_url": "https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "taxon_text": "Mobula spp.",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 11,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 11
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 3,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polres Jembrana / Polda Bali",
+      "title": "Polres Jembrana / Polda Bali",
+      "url": "https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Global assessment of manta and devil ray gill plate and meat trade (2025)",
+      "title": "Global assessment of manta and devil ray gill plate and meat trade (2025)",
+      "url": "https://link.springer.com/article/10.1007/s10641-024-01636-w"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Publika",
+      "title": "Publika",
+      "url": "https://publika.co.id/polres-jembrana-ungkap-dugaan-perdagangan-satwa-dilindungi-11-ekor-pari-mobula-diamankan/",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Pengambengan, Jembrana",
+  "fauna_label_pt": "11 raias-móbula mortas",
+  "title_pt": "Pengambengan, Jembrana — 11 raias-móbula mortas",
+  "card_text_pt": "A polícia apreendeu 11 raias-móbula mortas e cortadas, transportadas em carroça rebocada por motocicleta.",
+  "quantity_note_pt": "A contagem corresponde a indivíduos relatados, não a pedaços. A espécie exata, a área de captura e o comprador não estão estabelecidos; não inferir exportação de brânquias.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] A contagem corresponde a indivíduos relatados, não a pedaços. A espécie exata, a área de captura e o comprador não estão estabelecidos; não inferir exportação de brânquias.\n\n[S1] A pesquisa distingue comércio de carne e brânquias de mobulídeos; não comprova exportação neste caso.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] O UNODC enfatiza respostas sustentadas por evidências específicas. Para esta apreensão, identificação taxonômica e unidade de medida são essenciais: peças, carcaças e massa não são medidas intercambiáveis da pressão sobre populações silvestres.",
+  "references_text_pt": "[O1] Polres Jembrana / Polda Bali — https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan; [S1] Global assessment of manta and devil ray gill plate and meat trade (2025) — https://link.springer.com/article/10.1007/s10641-024-01636-w; [N1] Publika — https://publika.co.id/polres-jembrana-ungkap-dugaan-perdagangan-satwa-dilindungi-11-ekor-pari-mobula-diamankan/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Pengambengan, Jembrana",
+  "fauna_label_en": "11 dead mobulid rays",
+  "title_en": "Pengambengan, Jembrana — 11 dead mobulid rays",
+  "card_text_en": "Police seized 11 dead, cut-up mobulid rays transported in a motorcycle-towed cart.",
+  "quantity_note_en": "The reported count is individuals, not pieces. Exact species, capture area and buyer are unestablished; do not infer gill-plate exports.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] The reported count is individuals, not pieces. Exact species, capture area and buyer are unestablished; do not infer gill-plate exports.\n\n[S1] Research distinguishes mobulid meat and gill-plate trade; it does not establish exports in this case.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC emphasizes responses grounded in specific evidence. For this seizure, taxonomic identification and measurement units matter: pieces, carcasses and mass are not interchangeable measures of pressure on wild populations.",
+  "references_text_en": "[O1] Polres Jembrana / Polda Bali — https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan; [S1] Global assessment of manta and devil ray gill plate and meat trade (2025) — https://link.springer.com/article/10.1007/s10641-024-01636-w; [N1] Publika — https://publika.co.id/polres-jembrana-ungkap-dugaan-perdagangan-satwa-dilindungi-11-ekor-pari-mobula-diamankan/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Pengambengan, Jembrana",
+  "fauna_label_es": "11 rayas mobúlidas muertas",
+  "title_es": "Pengambengan, Jembrana — 11 rayas mobúlidas muertas",
+  "card_text_es": "La policía decomisó 11 rayas mobúlidas muertas y troceadas, transportadas en un carro remolcado por motocicleta.",
+  "quantity_note_es": "El recuento informado corresponde a individuos, no a trozos. No están establecidos especie exacta, área de captura ni comprador; no inferir exportación de branquias.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] El recuento informado corresponde a individuos, no a trozos. No están establecidos especie exacta, área de captura ni comprador; no inferir exportación de branquias.\n\n[S1] La investigación distingue comercio de carne y branquias de mobúlidos; no demuestra exportación en este caso.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC enfatiza respuestas sustentadas en evidencia específica. En este decomiso, importan la identificación taxonómica y la unidad de medida: piezas, cadáveres y masa no son medidas intercambiables de presión sobre poblaciones silvestres.",
+  "references_text_es": "[O1] Polres Jembrana / Polda Bali — https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan; [S1] Global assessment of manta and devil ray gill plate and meat trade (2025) — https://link.springer.com/article/10.1007/s10641-024-01636-w; [N1] Publika — https://publika.co.id/polres-jembrana-ungkap-dugaan-perdagangan-satwa-dilindungi-11-ekor-pari-mobula-diamankan/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "dead"
+}

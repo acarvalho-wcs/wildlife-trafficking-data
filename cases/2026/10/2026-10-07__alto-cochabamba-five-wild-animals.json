@@ -1,0 +1,102 @@
+{
+  "id": "2026-10-07__alto-cochabamba-five-wild-animals",
+  "status": "VALIDATED",
+  "country": "Bolívia",
+  "event_date": "2026-10-07",
+  "publication_date": "2026-10-09",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -17.42,
+    "lon": -66.15
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Infodiez / Dirección de Medio Ambiente",
+  "source_url": "https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/",
+  "fauna_groups_aggregated": [
+    "Mamíferos",
+    "Aves"
+  ],
+  "taxon_text": "Cebinae; Saimiri sp.; Psittaciformes",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 5,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 3,
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 37,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Infodiez / Dirección de Medio Ambiente",
+      "title": "Infodiez / Dirección de Medio Ambiente",
+      "url": "https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "title": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/152071/"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "La Patria",
+      "title": "La Patria",
+      "url": "https://lapatria.bo/actualidad/seguridad/autoridades-realizan-rescate-animales-silvestres-cochabamba/",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Alto Cochabamba, Cochabamba",
+  "fauna_label_pt": "Três primatas e dois papagaios",
+  "title_pt": "Alto Cochabamba, Cochabamba — Três primatas e dois papagaios",
+  "card_text_pt": "Autoridades municipais e Pofoma recuperaram dois macacos-prego, um macaco-de-cheiro e dois papagaios de uma residência.",
+  "quantity_note_pt": "Relatos iniciais divergiam na contagem; a atualização individualiza cinco animais silvestres. Excluir cães e não somar notícias da audiência ou reabilitação como novas apreensões. A origem amazônica dos táxons não comprova procedência geográfica dos indivíduos.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] Relatos iniciais divergiam na contagem; a atualização individualiza cinco animais silvestres. Excluir cães e não somar notícias da audiência ou reabilitação como novas apreensões. A origem amazônica dos táxons não comprova procedência geográfica dos indivíduos.\n\n[S1] A pesquisa examina a diversidade de vertebrados comercializados, abrangendo comércio legal e ilegal.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] Infodiez / Dirección de Medio Ambiente — https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] La Patria — https://lapatria.bo/actualidad/seguridad/autoridades-realizan-rescate-animales-silvestres-cochabamba/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Alto Cochabamba, Cochabamba",
+  "fauna_label_en": "Three primates and two parrots",
+  "title_en": "Alto Cochabamba, Cochabamba — Three primates and two parrots",
+  "card_text_en": "Municipal authorities and Pofoma recovered two capuchins, one squirrel monkey and two parrots from a residence.",
+  "quantity_note_en": "Initial counts differed; the update identifies five wild animals. Exclude dogs and do not count hearing or rehabilitation coverage as new seizures. Taxon distribution does not establish individual geographic origin.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] Initial counts differed; the update identifies five wild animals. Exclude dogs and do not count hearing or rehabilitation coverage as new seizures. Taxon distribution does not establish individual geographic origin.\n\n[S1] Research examines the diversity of traded vertebrates, covering both legal and illegal trade.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] Infodiez / Dirección de Medio Ambiente — https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] La Patria — https://lapatria.bo/actualidad/seguridad/autoridades-realizan-rescate-animales-silvestres-cochabamba/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Alto Cochabamba, Cochabamba",
+  "fauna_label_es": "Tres primates y dos loros",
+  "title_es": "Alto Cochabamba, Cochabamba — Tres primates y dos loros",
+  "card_text_es": "Autoridades municipales y Pofoma recuperaron dos capuchinos, un mono ardilla y dos loros de una vivienda.",
+  "quantity_note_es": "Los recuentos iniciales diferían; la actualización individualiza cinco animales silvestres. Excluir perros y no contar audiencia o rehabilitación como nuevos decomisos. La distribución taxonómica no establece procedencia individual.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] Los recuentos iniciales diferían; la actualización individualiza cinco animales silvestres. Excluir perros y no contar audiencia o rehabilitación como nuevos decomisos. La distribución taxonómica no establece procedencia individual.\n\n[S1] La investigación examina la diversidad de vertebrados comercializados, incluyendo comercio legal e ilegal.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] Infodiez / Dirección de Medio Ambiente — https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] La Patria — https://lapatria.bo/actualidad/seguridad/autoridades-realizan-rescate-animales-silvestres-cochabamba/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

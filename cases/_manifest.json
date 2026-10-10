@@ -2,7 +2,7 @@
   "store_schema": 1,
   "source_file": "cases.json",
   "source_sha256": "a55bb9b4069ee6071a859cc47f4ee410a4c8325eac53ba5937b24af433f1d349",
-  "record_count": 790,
+  "record_count": 817,
   "top_level": "object",
   "records_key": "cases",
   "passthrough": {
@@ -375,7 +375,9 @@
       "aggregate_flags_reviewed": true,
       "structured_quantities": true,
       "image_source_linkage_new_batch": true,
-      "updated_at": "2026-09-26T03:30:00Z"
+      "updated_at": "2026-10-10T11:32:58Z",
+      "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
+      "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation."
     },
     "quantity_layer": {
       "status": "COMPLETE_FOR_DASHBOARD",
@@ -524,9 +526,19 @@
         "count": 7,
         "confidence": "CONFIRMED_SOURCE_EVENTS",
         "added_at": "2026-09-26T03:30:00Z"
+      },
+      {
+        "batch": "resume-59fd17b-2026-10-10",
+        "base_commit": "59fd17bfcae864618504156477592ac4c498e04b",
+        "added": 28,
+        "duplicates_removed": 1,
+        "corrected": [
+          "machakos_event_date"
+        ],
+        "added_at": "2026-10-10T11:32:58Z"
       }
     ],
-    "updated_at": "2026-09-26T03:30:00Z"
+    "updated_at": "2026-10-10T11:32:58Z"
   },
   "files": [
     "2026/09/2026-09-13__malkangiri-odisha.json",
@@ -923,7 +935,6 @@
     "2026/09/2026-09-21__aparri-100kg-shark-meat.json",
     "2026/09/2026-09-23__sauce-captive-fawn.json",
     "2026/09/2026-09-26__allapalli-pangolins-tiger-parts.json",
-    "2026/09/2026-09-26__bakauheni-2775-illegal-birds.json",
     "2026/09/2026-09-27__barbalha-27-wild-birds-market.json",
     "2026/09/2026-09-27__imam-turki-52-wild-animals-poaching.json",
     "2026/09/2026-09-27__parepare-40-ornate-lorikeets.json",
@@ -1318,7 +1329,35 @@
     "2026/10/2026-10-08__jiquirica-false-bird-rings-trinca-ferro.json",
     "2026/10/2026-10__palos-blancos-59-illegally-sold-parakeets.json",
     "2026/10/2026-10__tonala-jalisco-92-animals-illegal-sale.json",
-    "2026/10/2026-10-08__vespasiano-mg-whatsapp-wildlife-trafficking-150.json"
+    "2026/10/2026-10-08__vespasiano-mg-whatsapp-wildlife-trafficking-150.json",
+    "2026/09/2026-09-unknown__bovegno-60-robins-237-traps.json",
+    "2026/10/2026-10-07__alto-cochabamba-five-wild-animals.json",
+    "2026/10/2026-10-08__balneario-pinhal-10-birds.json",
+    "2026/10/2026-10-08__gaiman-guanaco-meat-500kg.json",
+    "2026/10/2026-10-08__ketapang-suspected-orangutan-skull-investigation.json",
+    "2026/10/2026-10-08__loventue-red-deer-heads-antlers.json",
+    "2026/10/2026-10-08__manglutan-93kg-venison.json",
+    "2026/10/2026-10-08__miracatu-illegal-hunting-equipment.json",
+    "2026/10/2026-10-08__paralakhemundi-one-leopard-skin.json",
+    "2026/10/2026-10-08__pitanga-two-captive-birds.json",
+    "2026/10/2026-10-08__rio-preto-native-birds-maltreatment.json",
+    "2026/10/2026-10-08__valinhos-19-captive-birds.json",
+    "2026/10/2026-10-08__viana-three-birds-wildlife-parts.json",
+    "2026/10/2026-10-09__araras-13-captive-birds.json",
+    "2026/10/2026-10-09__bakauheni-1689-undocumented-birds.json",
+    "2026/10/2026-10-09__bangale-areri-16-carcasses.json",
+    "2026/10/2026-10-09__catamarca-17-birds-15-cages.json",
+    "2026/10/2026-10-09__jembrana-11-mobula-rays.json",
+    "2026/10/2026-10-09__mohana-one-leopard-skin.json",
+    "2026/10/2026-10-09__sao-miguel-taipu-one-captive-bird.json",
+    "2026/10/2026-10-09__tabatinga-market-one-snake.json",
+    "2026/10/2026-10-10__serangan-22-green-turtles.json",
+    "2026/10/2026-10-unknown__bekaa-17640m2-illegal-bird-nets.json",
+    "2026/10/2026-10-unknown__cordoba-salsacate-totoral-21-reinamoras.json",
+    "2026/10/2026-10-unknown__laem-chabang-446-ivory-pieces.json",
+    "2026/10/2026-10-unknown__nakonde-56-vulturine-guineafowl.json",
+    "2026/10/2026-10-unknown__omaha-one-arctic-fox.json",
+    "2026/10/2026-10-unknown__vico-equense-illegal-quail-lure.json"
   ],
-  "compiled_sha256": "801b429c8e324464ba4db74670ec4c2aeeeebf00773243ee4011873a568ae543"
+  "compiled_sha256": "5413c4465196725a52108b36bf3dac669197caaac0b4437cb647909e2bece4c2"
 }

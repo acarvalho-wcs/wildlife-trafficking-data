@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-09T14:55:32Z",
+  "updated_at": "2026-10-10T11:32:58Z",
   "audited_through": "2026-10-05T14:10:00Z",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -4151,59 +4151,6 @@
       "source_url": "https://karantinaindonesia.go.id/sumatera-selatan/berita/hendak-dikirim-ke-lombok-1230-kg-daging-hiu-tanpa-sertifikat-diamankan-di-kupang"
     },
     {
-      "id": "palembang-bakauheni-jakarta-birds-2026-09-26",
-      "event_match": {
-        "location_contains": "Bakauheni",
-        "event_date": "2026-09-26"
-      },
-      "status": "DOCUMENTED",
-      "route_type": "interstate_bus_route",
-      "direction": "forward",
-      "line_style": "solid",
-      "label_pt": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Jakarta",
-      "label_en": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Jakarta",
-      "label_es": "Kertapati, Palembang → Bakauheni → Kampung Rambutan, Yakarta",
-      "segments": [
-        {
-          "from": {
-            "name": "Kertapati, Palembang",
-            "country": "Indonésia",
-            "lat": -3.021,
-            "lon": 104.758,
-            "precision": "district_generalized"
-          },
-          "to": {
-            "name": "Porto de Bakauheni",
-            "country": "Indonésia",
-            "lat": -5.87,
-            "lon": 105.75,
-            "precision": "port_generalized"
-          }
-        },
-        {
-          "from": {
-            "name": "Porto de Bakauheni",
-            "country": "Indonésia",
-            "lat": -5.87,
-            "lon": 105.75,
-            "precision": "port_generalized"
-          },
-          "to": {
-            "name": "Kampung Rambutan, Jakarta",
-            "country": "Indonésia",
-            "lat": -6.309,
-            "lon": 106.883,
-            "precision": "terminal_generalized"
-          }
-        }
-      ],
-      "evidence_pt": "O motorista informou que as 2.775 aves haviam sido embarcadas em Kertapati, Palembang, e seriam levadas a Kampung Rambutan, Jakarta; a interceptação ocorreu em Bakauheni.",
-      "evidence_en": "The driver stated that the 2,775 birds had been loaded in Kertapati, Palembang, and were to be taken to Kampung Rambutan, Jakarta; interception occurred at Bakauheni.",
-      "evidence_es": "El conductor indicó que las 2.775 aves habían sido cargadas en Kertapati, Palembang, y serían llevadas a Kampung Rambutan, Yakarta; la interceptación ocurrió en Bakauheni.",
-      "source_label": "ANTARA",
-      "source_url": "https://lampung.antaranews.com/berita/829475/bksda-amankan-2775-burung-ilegal-di-pelabuhan-bakauheni"
-    },
-    {
       "id": "parepare-balikpapan-lorikeets-2026-09",
       "event_match": {
         "location_contains": "Parepare"
@@ -7686,6 +7633,114 @@
       "evidence_pt": "Trecho Foz do Iguaçu → Guarulhos documentado pela PF; China é destino da passagem informado pela Semil, não destino confirmado dos ovos.",
       "evidence_en": "Foz do Iguaçu → Guarulhos documented by Federal Police; China is the ticket destination reported by Semil, not the confirmed destination of the eggs.",
       "evidence_es": "Tramo Foz do Iguaçu → Guarulhos documentado por la Policía Federal; China es el destino del billete informado por Semil, no el destino confirmado de los huevos."
+    },
+    {
+      "id": "palembang-bakauheni-1689-birds-2026-10-09",
+      "event_match": {
+        "event_id": "2026-10-09__bakauheni-1689-undocumented-birds"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_or_attributed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "segments": [
+        {
+          "from": {
+            "name": "Palembang",
+            "country": "Indonésia",
+            "lat": -2.99,
+            "lon": 104.76,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Bakauheni",
+            "country": "Indonésia",
+            "lat": -5.87,
+            "lon": 105.75,
+            "precision": "port_generalized"
+          }
+        }
+      ],
+      "source_label": "Polres Lampung Selatan",
+      "source_url": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-amankan-1-689-ekor-burung-tanpa-dokumen-57-ekor-di-antaranya-satwa-dilindungi",
+      "label_pt": "Palembang → Bakauheni; destino final divergente",
+      "evidence_pt": "Trecho comum às fontes: ônibus procedente de Palembang interceptado em Bakauheni. Jacarta é o destino relatado pela polícia; ANTARA/BKSDA informa Yogyakarta. O extremo divergente não é desenhado.",
+      "label_en": "Palembang → Bakauheni; final destination disputed",
+      "evidence_en": "Common documented segment: bus from Palembang intercepted at Bakauheni. Police report Jakarta; ANTARA/BKSDA reports Yogyakarta. The disputed endpoint is not drawn.",
+      "label_es": "Palembang → Bakauheni; destino final discrepante",
+      "evidence_es": "Tramo común documentado: autobús de Palembang interceptado en Bakauheni. La policía informa Yakarta; ANTARA/BKSDA, Yogyakarta. No se representa el extremo discrepante."
+    },
+    {
+      "id": "zambia-laem-chabang-446-ivory-2026",
+      "event_match": {
+        "event_id": "2026-10-unknown__laem-chabang-446-ivory-pieces"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_or_attributed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "segments": [
+        {
+          "from": {
+            "name": "Zâmbia — origem declarada / declared origin",
+            "country": "Zâmbia",
+            "lat": -13.13,
+            "lon": 27.85,
+            "precision": "country_generalized"
+          },
+          "to": {
+            "name": "Laem Chabang",
+            "country": "Tailândia",
+            "lat": 13.08,
+            "lon": 100.88,
+            "precision": "port_generalized"
+          }
+        }
+      ],
+      "source_label": "Pattaya Mail / Thai Customs / TNA",
+      "source_url": "https://www.pattayamail.com/news/thailand-seizes-ivory-hidden-inside-timber-logs-at-laem-chabang-port-567666",
+      "label_pt": "Zâmbia → Laem Chabang",
+      "evidence_pt": "Origem declarada da carga de madeira na Zâmbia e chegada ao porto tailandês documentadas. A linha liga referências; portos de saída, escalas e origem biológica do marfim não foram estabelecidos.",
+      "label_en": "Zambia → Laem Chabang",
+      "evidence_en": "Declared timber-shipment origin in Zambia and arrival at the Thai port are documented. The line connects references; departure ports, transshipment and biological ivory origin are unestablished.",
+      "label_es": "Zambia → Laem Chabang",
+      "evidence_es": "Se documentan origen declarado del envío de madera en Zambia y llegada al puerto tailandés. La línea conecta referencias; no están establecidos puertos de salida, escalas ni origen biológico del marfil."
+    },
+    {
+      "id": "nakonde-lusaka-56-guineafowl-2026",
+      "event_match": {
+        "event_id": "2026-10-unknown__nakonde-56-vulturine-guineafowl"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_or_attributed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "segments": [
+        {
+          "from": {
+            "name": "Nakonde",
+            "country": "Zâmbia",
+            "lat": -9.34,
+            "lon": 32.75,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Lusaka",
+            "country": "Zâmbia",
+            "lat": -15.42,
+            "lon": 28.28,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "source_label": "Zed Gossip / ACC statement",
+      "source_url": "https://zedgossip.net/acc-arrests-lusaka-taxi-driver-over-alleged-k5000-bribe-for-release-of-56-protected-birds/",
+      "label_pt": "Nakonde → Lusaka (destino relatado)",
+      "evidence_pt": "Zed Gossip, atribuindo a informação à ACC, relata que as 56 aves interceptadas em Nakonde seguiam para Lusaka. Não representa uma viagem concluída nem estabelece origem internacional.",
+      "label_en": "Nakonde → Lusaka (reported destination)",
+      "evidence_en": "Zed Gossip, attributing information to ACC, reports that the 56 birds intercepted at Nakonde were bound for Lusaka. This is not a completed journey and does not establish international origin.",
+      "label_es": "Nakonde → Lusaka (destino informado)",
+      "evidence_es": "Zed Gossip, atribuyendo la información a ACC, informa que las 56 aves interceptadas en Nakonde se dirigían a Lusaka. No representa viaje completado ni establece origen internacional."
     }
   ],
   "network_context": [

@@ -1,0 +1,1078 @@
+{
+  "base_commit": "59fd17bfcae864618504156477592ac4c498e04b",
+  "added_ids": [
+    "2026-10-10__serangan-22-green-turtles",
+    "2026-10-09__bakauheni-1689-undocumented-birds",
+    "2026-10-09__jembrana-11-mobula-rays",
+    "2026-10-09__bangale-areri-16-carcasses",
+    "2026-10-09__catamarca-17-birds-15-cages",
+    "2026-10-09__sao-miguel-taipu-one-captive-bird",
+    "2026-10-09__tabatinga-market-one-snake",
+    "2026-10-09__mohana-one-leopard-skin",
+    "2026-10-09__araras-13-captive-birds",
+    "2026-10-08__balneario-pinhal-10-birds",
+    "2026-10-08__viana-three-birds-wildlife-parts",
+    "2026-10-08__manglutan-93kg-venison",
+    "2026-10-08__paralakhemundi-one-leopard-skin",
+    "2026-10-08__gaiman-guanaco-meat-500kg",
+    "2026-10-08__valinhos-19-captive-birds",
+    "2026-10-08__pitanga-two-captive-birds",
+    "2026-10-08__rio-preto-native-birds-maltreatment",
+    "2026-10-08__miracatu-illegal-hunting-equipment",
+    "2026-10-08__ketapang-suspected-orangutan-skull-investigation",
+    "2026-10-unknown__cordoba-salsacate-totoral-21-reinamoras",
+    "2026-10-unknown__bekaa-17640m2-illegal-bird-nets",
+    "2026-10-unknown__vico-equense-illegal-quail-lure",
+    "2026-10-unknown__omaha-one-arctic-fox",
+    "2026-10-08__loventue-red-deer-heads-antlers",
+    "2026-09-unknown__bovegno-60-robins-237-traps",
+    "2026-10-unknown__laem-chabang-446-ivory-pieces",
+    "2026-10-unknown__nakonde-56-vulturine-guineafowl",
+    "2026-10-07__alto-cochabamba-five-wild-animals"
+  ],
+  "removed_id": "2026-09-26__bakauheni-2775-illegal-birds",
+  "retained_id": "2026-09-26__bakauheni-2775-undocumented-birds",
+  "expected_count": 817,
+  "new_route_ids": [
+    "palembang-bakauheni-1689-birds-2026-10-09",
+    "zambia-laem-chabang-446-ivory-2026",
+    "nakonde-lusaka-56-guineafowl-2026"
+  ],
+  "updated_at": "2026-10-10T11:39:56+00:00",
+  "before_count": 790,
+  "after_count": 817,
+  "new_records": 28,
+  "removed_duplicates": 1,
+  "net_change": 27,
+  "languages": [
+    "pt",
+    "en",
+    "es"
+  ],
+  "excluded_new_records": [
+    "2026-10-08__ketapang-suspected-orangutan-skull-investigation",
+    "2026-10-08__miracatu-illegal-hunting-equipment",
+    "2026-10-09__catamarca-17-birds-15-cages",
+    "2026-10-unknown__bekaa-17640m2-illegal-bird-nets",
+    "2026-10-unknown__cordoba-salsacate-totoral-21-reinamoras",
+    "2026-10-unknown__vico-equense-illegal-quail-lure"
+  ],
+  "unknown_occurrence_dates": [
+    "2026-09-unknown__bovegno-60-robins-237-traps",
+    "2026-10-unknown__bekaa-17640m2-illegal-bird-nets",
+    "2026-10-unknown__cordoba-salsacate-totoral-21-reinamoras",
+    "2026-10-unknown__laem-chabang-446-ivory-pieces",
+    "2026-10-unknown__nakonde-56-vulturine-guineafowl",
+    "2026-10-unknown__omaha-one-arctic-fox",
+    "2026-10-unknown__vico-equense-illegal-quail-lure"
+  ],
+  "corrections": [
+    {
+      "id": "2026-10-07__machakos-12kg-elephant-tusks",
+      "event_date_before": "2026-10-07",
+      "event_date_after": "2026-10-06",
+      "publication_date": "2026-10-07",
+      "id_preserved": true
+    }
+  ],
+  "route_count_before": 185,
+  "route_count_after": 187,
+  "removed_duplicate_route": "palembang-bakauheni-jakarta-birds-2026-09-26",
+  "evidence_decisions": [
+    "Bakauheni 1689 birds: police occurrence date Oct 9; alternate report places interception early Oct 10; retain one event and flag conflicting Jakarta/Yogyakarta destination. Render Palembang–Bakauheni only.",
+    "Ketapang: recovery of suspected orangutan skull remains investigative, species and cause/time of death pending; excluded from event/specimen totals.",
+    "Bovegno: occurrence month September, exact day unknown; October publication is not occurrence.",
+    "Nakonde: seizure before September bribery allegations, exact date unknown; bus destination Lusaka is reported intended movement, no cross-border origin inferred.",
+    "Laem Chabang: Oct 7 announcement is not a verified seizure date; Zambia shipment provenance is not poaching origin.",
+    "Gaiman and Manglutan: weights are retained separately, never converted into animal counts.",
+    "Viana: five animals/items means three live birds plus two parts, not five animals.",
+    "Rio Preto: at least four native birds, including one dead; domestic dogs and other mixed domestic/exotic birds excluded from quantity.",
+    "Loventue: four heads and three antler sets retained as components without claiming seven deer.",
+    "Three multi-location aggregate operations and three equipment/investigative records remain visible but excluded from totals.",
+    "No source-photo URL was guessed; new records retain the trilingual unavailable-image fallback."
+  ],
+  "source_index": [
+    {
+      "id": "2026-09-unknown__bovegno-60-robins-237-traps",
+      "occurrence_source": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Brescia Tomorrow / Carabinieri Forestali",
+          "title": "Brescia Tomorrow / Carabinieri Forestali",
+          "url": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+          "title": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+          "url": "https://doi.org/10.1017/S0959270915000416"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Brescia Tomorrow / Carabinieri Forestali",
+          "title": "Brescia Tomorrow / Carabinieri Forestali",
+          "url": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+          "title": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+          "url": "https://www.cms.int/publication/brochure-monitoring-illegal-bird-killing-mediterranean"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07__alto-cochabamba-five-wild-animals",
+      "occurrence_source": "https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Infodiez / Dirección de Medio Ambiente",
+          "title": "Infodiez / Dirección de Medio Ambiente",
+          "url": "https://www.infodiez.com/cochabamba-alcaldia-inicia-la-rehabilitacion-de-tres-monos-y-dos-loros-rescatados-del-maltrato-en-cautiverio/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "title": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/152071/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "La Patria",
+          "title": "La Patria",
+          "url": "https://lapatria.bo/actualidad/seguridad/autoridades-realizan-rescate-animales-silvestres-cochabamba/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__balneario-pinhal-10-birds",
+      "occurrence_source": "https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Litoralmania / Brigada Militar",
+          "title": "Litoralmania / Brigada Militar",
+          "url": "https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "url": "https://www.nature.com/articles/s41559-021-01399-y"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Litoralmania / Brigada Militar",
+          "title": "Litoralmania / Brigada Militar",
+          "url": "https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__gaiman-guanaco-meat-500kg",
+      "occurrence_source": "https://www.elvalleonline.com.ar/caza-guanacos-gaiman/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "El Valle Online / Policía del Chubut",
+          "title": "El Valle Online / Policía del Chubut",
+          "url": "https://www.elvalleonline.com.ar/caza-guanacos-gaiman/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "title": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098989/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "El Valle Online / Policía del Chubut",
+          "title": "El Valle Online / Policía del Chubut",
+          "url": "https://www.elvalleonline.com.ar/caza-guanacos-gaiman/",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__ketapang-suspected-orangutan-skull-investigation",
+      "occurrence_source": "https://www.kehutanan.go.id/news/tim-gabungan-temukan-tengkorak-orangutan-di-areal-hcv-pt-kal-ketapang-kalbar",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Kementerian Kehutanan — Ministério das Florestas",
+          "title": "Kementerian Kehutanan — Ministério das Florestas",
+          "url": "https://www.kehutanan.go.id/news/tim-gabungan-temukan-tengkorak-orangutan-di-areal-hcv-pt-kal-ketapang-kalbar"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Iniborneo",
+          "title": "Iniborneo",
+          "url": "https://iniborneo.com/2026/10/10/tengkorak-orangutan-ditemukan-di-zona-hcv-ketapang/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__loventue-red-deer-heads-antlers",
+      "occurrence_source": "https://radiodon.com.ar/2026/10/09/golpe-a-la-faena-clandestina-y-venta-ilegal-de-carne-cinco-allanamientos-y-tres-detenidos/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Radio Don / Policía de La Pampa",
+          "title": "Radio Don / Policía de La Pampa",
+          "url": "https://radiodon.com.ar/2026/10/09/golpe-a-la-faena-clandestina-y-venta-ilegal-de-carne-cinco-allanamientos-y-tres-detenidos/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "title": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098989/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "La Arena",
+          "title": "La Arena",
+          "url": "https://www.laarena.com.ar/la-pampa/atrapan-banda-que-vendia-carne-ilegal-20261010040",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__manglutan-93kg-venison",
+      "occurrence_source": "https://nicobartimes.com/local-news/93-kg-of-venison-seized-by-manglutan-range-under-south-andaman-forest-division/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Nicobar Times / Department of Environment & Forests",
+          "title": "Nicobar Times / Department of Environment & Forests",
+          "url": "https://nicobartimes.com/local-news/93-kg-of-venison-seized-by-manglutan-range-under-south-andaman-forest-division/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "title": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098989/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Nicobar Times / Department of Environment & Forests",
+          "title": "Nicobar Times / Department of Environment & Forests",
+          "url": "https://nicobartimes.com/local-news/93-kg-of-venison-seized-by-manglutan-range-under-south-andaman-forest-division/",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__miracatu-illegal-hunting-equipment",
+      "occurrence_source": "https://rbtv.com.br/noticia/19839/policia-de-sp-apreende-tres-espingardas-e-109-municoes-durante-operacao-contra-caca-ilegal-em-miracatu",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "RBTV / Secom SP",
+          "title": "RBTV / Secom SP",
+          "url": "https://rbtv.com.br/noticia/19839/policia-de-sp-apreende-tres-espingardas-e-109-municoes-durante-operacao-contra-caca-ilegal-em-miracatu"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "title": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098989/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Diário de Ribeirão Branco",
+          "title": "Diário de Ribeirão Branco",
+          "url": "https://diarioderibeiraobranco.com/2026/10/09/policia-de-sp-apreende-tres-espingardas-e-109-municoes-durante-operacao-contra-caca-ilegal-em-miracatu/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__paralakhemundi-one-leopard-skin",
+      "occurrence_source": "https://odishatoday.com/2026/10/09/six-held-with-two-leopard-skins-in-gajapati-bhubaneswar-news/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Odisha Today / Divisional Forest Officer",
+          "title": "Odisha Today / Divisional Forest Officer",
+          "url": "https://odishatoday.com/2026/10/09/six-held-with-two-leopard-skins-in-gajapati-bhubaneswar-news/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "title": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "url": "https://link.springer.com/article/10.1007/s12117-020-09385-9"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Ommcom News",
+          "title": "Ommcom News",
+          "url": "https://ommcomnews.com/odisha-news/two-leopard-skins-seized-in-gajapati-six-arrested/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__pitanga-two-captive-birds",
+      "occurrence_source": "https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "JNotícias / Polícia Ambiental",
+          "title": "JNotícias / Polícia Ambiental",
+          "url": "https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "title": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "url": "https://link.springer.com/article/10.1007/s12117-020-09385-9"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Nossa Gente",
+          "title": "Nossa Gente",
+          "url": "https://nossagente.info/policia/polcia-ambiental-apreende-aves-nativas-mantidas-irregularmente-em-cativeiro",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__rio-preto-native-birds-maltreatment",
+      "occurrence_source": "https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Votunews / Polícia Ambiental",
+          "title": "Votunews / Polícia Ambiental",
+          "url": "https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "title": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/152071/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Gazeta de Rio Preto",
+          "title": "Gazeta de Rio Preto",
+          "url": "https://www.gazetaderiopreto.com.br/busca-por-cachorro-desaparecido-leva-ao-resgate-de-70-animais-em-rio-preto/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__valinhos-19-captive-birds",
+      "occurrence_source": "https://www.valinhos.sp.gov.br/portal/noticias/0/3/60055/gcm-de-valinhos-atua-em-ocorrencias-de-protecao-ambiental-e-combate-ao-trafico",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Prefeitura de Valinhos / GCM",
+          "title": "Prefeitura de Valinhos / GCM",
+          "url": "https://www.valinhos.sp.gov.br/portal/noticias/0/3/60055/gcm-de-valinhos-atua-em-ocorrencias-de-protecao-ambiental-e-combate-ao-trafico"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "url": "https://www.nature.com/articles/s41559-021-01399-y"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Portal VV8",
+          "title": "Portal VV8",
+          "url": "https://portalvv8.com.br/noticia/78768/gcm-de-valinhos-registra-ocorrencias-de-protecao-ambiental-e-combate-ao-trafico-de-drogas",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08__viana-three-birds-wildlife-parts",
+      "occurrence_source": "https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "A Gazeta / BPMA",
+          "title": "A Gazeta / BPMA",
+          "url": "https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+          "title": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+          "url": "https://www.nature.com/articles/s41467-020-18523-4"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Folha do ES",
+          "title": "Folha do ES",
+          "url": "https://folhadoes.com/operacao-em-area-rural-de-viana-apreende-cinco-armas-de-fogo-usados-na-caca-de-animais-silvestres/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__araras-13-captive-birds",
+      "occurrence_source": "https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+          "title": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+          "url": "https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "url": "https://www.nature.com/articles/s41559-021-01399-y"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+          "title": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+          "url": "https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__bakauheni-1689-undocumented-birds",
+      "occurrence_source": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-amankan-1-689-ekor-burung-tanpa-dokumen-57-ekor-di-antaranya-satwa-dilindungi",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Polres Lampung Selatan",
+          "title": "Polres Lampung Selatan",
+          "url": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-amankan-1-689-ekor-burung-tanpa-dokumen-57-ekor-di-antaranya-satwa-dilindungi"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Chng et al., In the market for extinction: birds for sale at selected outlets in Sumatra",
+          "title": "Chng et al., In the market for extinction: birds for sale at selected outlets in Sumatra",
+          "url": "https://www.traffic.org/site/assets/files/10567/bulletin-30_1-birds-sumatra.pdf"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "ANTARA / BKSDA Bengkulu",
+          "title": "ANTARA / BKSDA Bengkulu",
+          "url": "https://www.antaranews.com/berita/5779716/bksda-bengkulu-amankan-1689-ekor-burung-tanpa-dokumen",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "TRAFFIC (2016), In the market for extinction: eastern and central Java",
+          "title": "TRAFFIC (2016), In the market for extinction: eastern and central Java",
+          "url": "https://www.traffic.org/publications/reports/in-the-market-for-extinction/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__bangale-areri-16-carcasses",
+      "occurrence_source": "https://upgrade.the-star.co.ke/counties/north-eastern/2026-10-10-kws-warns-poachers-as-16-more-carcasses-seized-in-tana-river",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "The Star / Kenya Wildlife Service",
+          "title": "The Star / Kenya Wildlife Service",
+          "url": "https://upgrade.the-star.co.ke/counties/north-eastern/2026-10-10-kws-warns-poachers-as-16-more-carcasses-seized-in-tana-river"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "title": "Ripple et al. (2016), Bushmeat hunting and extinction risk to the world’s mammals",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098989/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "The Star / Kenya Wildlife Service",
+          "title": "The Star / Kenya Wildlife Service",
+          "url": "https://upgrade.the-star.co.ke/counties/north-eastern/2026-10-10-kws-warns-poachers-as-16-more-carcasses-seized-in-tana-river",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__catamarca-17-birds-15-cages",
+      "occurrence_source": "https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Policía de Catamarca — Relaciones Institucionales",
+          "title": "Policía de Catamarca — Relaciones Institucionales",
+          "url": "https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "url": "https://www.nature.com/articles/s41559-021-01399-y"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "La Unión Digital",
+          "title": "La Unión Digital",
+          "url": "https://www.launion.digital/policiales/secuestraron-17-aves-15-jaulas-durante-registros-domiciliarios-catamarca-n244298",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__jembrana-11-mobula-rays",
+      "occurrence_source": "https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Polres Jembrana / Polda Bali",
+          "title": "Polres Jembrana / Polda Bali",
+          "url": "https://tribratanews.bali.polri.go.id/artikel/view/pb-541363-polres-jembrana-ungkap-dugaan-perdagangan"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Global assessment of manta and devil ray gill plate and meat trade (2025)",
+          "title": "Global assessment of manta and devil ray gill plate and meat trade (2025)",
+          "url": "https://link.springer.com/article/10.1007/s10641-024-01636-w"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Publika",
+          "title": "Publika",
+          "url": "https://publika.co.id/polres-jembrana-ungkap-dugaan-perdagangan-satwa-dilindungi-11-ekor-pari-mobula-diamankan/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__mohana-one-leopard-skin",
+      "occurrence_source": "https://odishatoday.com/2026/10/09/six-held-with-two-leopard-skins-in-gajapati-bhubaneswar-news/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Odisha Today / Divisional Forest Officer",
+          "title": "Odisha Today / Divisional Forest Officer",
+          "url": "https://odishatoday.com/2026/10/09/six-held-with-two-leopard-skins-in-gajapati-bhubaneswar-news/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "title": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "url": "https://link.springer.com/article/10.1007/s12117-020-09385-9"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Ommcom News",
+          "title": "Ommcom News",
+          "url": "https://ommcomnews.com/odisha-news/two-leopard-skins-seized-in-gajapati-six-arrested/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__sao-miguel-taipu-one-captive-bird",
+      "occurrence_source": "https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Repórter PB / BPMA",
+          "title": "Repórter PB / BPMA",
+          "url": "https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+          "url": "https://www.nature.com/articles/s41559-021-01399-y"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Repórter PB / BPMA",
+          "title": "Repórter PB / BPMA",
+          "url": "https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09__tabatinga-market-one-snake",
+      "occurrence_source": "https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Prefeitura Municipal de Tabatinga / SEMMAT",
+          "title": "Prefeitura Municipal de Tabatinga / SEMMAT",
+          "url": "https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+          "title": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+          "url": "https://www.nature.com/articles/s41467-020-18523-4"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Prefeitura Municipal de Tabatinga / SEMMAT",
+          "title": "Prefeitura Municipal de Tabatinga / SEMMAT",
+          "url": "https://tabatinga.am.gov.br/2026/10/09/protecao-animais-silvestres-tabatinga/",
+          "same_as_occurrence_source": true
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10__serangan-22-green-turtles",
+      "occurrence_source": "https://publika.co.id/polda-bali-gagalkan-penyelundupan-22-ekor-penyu-hijau-di-perairan-pulau-serangan/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Publika / Polda Bali",
+          "title": "Publika / Polda Bali",
+          "url": "https://publika.co.id/polda-bali-gagalkan-penyelundupan-22-ekor-penyu-hijau-di-perairan-pulau-serangan/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Senko et al. (2022), Global patterns of illegal marine turtle exploitation",
+          "title": "Senko et al. (2022), Global patterns of illegal marine turtle exploitation",
+          "url": "https://doi.org/10.1111/gcb.16378"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Bali Post",
+          "title": "Bali Post",
+          "url": "https://www.balipost.com/news/2026/10/10/587987/Penyelundupan-Puluhan-Ekor-Penyu-di...html",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-unknown__bekaa-17640m2-illegal-bird-nets",
+      "occurrence_source": "https://isf.gov.lb/news/the-campaign-to-remove-deadly-fishing-nets-continues-the-bekaa-investigation-division-removes-more-than-38000-square-meters-of-them/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Internal Security Forces, Lebanon",
+          "title": "Internal Security Forces, Lebanon",
+          "url": "https://isf.gov.lb/news/the-campaign-to-remove-deadly-fishing-nets-continues-the-bekaa-investigation-division-removes-more-than-38000-square-meters-of-them/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+          "title": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+          "url": "https://doi.org/10.1017/S0959270915000416"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Sayd Magazine",
+          "title": "Sayd Magazine",
+          "url": "https://sayd-magazine.com/en/posts/northern-bekaa-38280-square-metres-bird-nets-apu-cabs/index.html",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+          "title": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+          "url": "https://www.cms.int/publication/brochure-monitoring-illegal-bird-killing-mediterranean"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-unknown__cordoba-salsacate-totoral-21-reinamoras",
+      "occurrence_source": "https://ecosistemacordoba.com/2026/10/10/rescataron-21-reinamoras-capturadas-con-tramperos-en-salsacate-y-villa-del-totoral/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ecosistema Córdoba / Policía Ambiental",
+          "title": "Ecosistema Córdoba / Policía Ambiental",
+          "url": "https://ecosistemacordoba.com/2026/10/10/rescataron-21-reinamoras-capturadas-con-tramperos-en-salsacate-y-villa-del-totoral/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "title": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/152071/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Tendencia Córdoba",
+          "title": "Tendencia Córdoba",
+          "url": "https://tendenciacordoba.com/2026/10/10/rescate-21-reinamoras-tramperos-cordoba/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-unknown__laem-chabang-446-ivory-pieces",
+      "occurrence_source": "https://www.pattayamail.com/news/thailand-seizes-ivory-hidden-inside-timber-logs-at-laem-chabang-port-567666",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Pattaya Mail / Thai Customs / TNA",
+          "title": "Pattaya Mail / Thai Customs / TNA",
+          "url": "https://www.pattayamail.com/news/thailand-seizes-ivory-hidden-inside-timber-logs-at-laem-chabang-port-567666"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Wasser et al. (2015), Genetic assignment of large seizures of elephant ivory reveals Africa’s major poaching hotspots",
+          "title": "Wasser et al. (2015), Genetic assignment of large seizures of elephant ivory reveals Africa’s major poaching hotspots",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5535781/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "The Thaiger / Department of National Parks",
+          "title": "The Thaiger / Department of National Parks",
+          "url": "https://thethaiger.com/hot-news/crime/400-african-elephant-ivory-pieces-seized-chon-buri",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-unknown__nakonde-56-vulturine-guineafowl",
+      "occurrence_source": "https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Diamond Media / Anti-Corruption Commission",
+          "title": "Diamond Media / Anti-Corruption Commission",
+          "url": "https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "title": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+          "url": "https://link.springer.com/article/10.1007/s12117-020-09385-9"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Zed Gossip / ACC statement",
+          "title": "Zed Gossip / ACC statement",
+          "url": "https://zedgossip.net/acc-arrests-lusaka-taxi-driver-over-alleged-k5000-bribe-for-release-of-56-protected-birds/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-unknown__omaha-one-arctic-fox",
+      "occurrence_source": "https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "WOWT / Nebraska Wildlife Rehab",
+          "title": "WOWT / Nebraska Wildlife Rehab",
+          "url": "https://www.wowt.com/2026/10/09/arctic-fox-confiscated-omaha-home-organization-says/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "title": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/152071/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "KLKN",
+          "title": "KLKN",
+          "url": "https://www.klkntv.com/arctic-fox-taken-out-of-omaha-home-after-being-kept-as-pet/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+          "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-unknown__vico-equense-illegal-quail-lure",
+      "occurrence_source": "https://www.ilgazzettinovesuviano.com/2026/10/09/vico-equense-blitz-anti-bracconaggio-dei-carabinieri-forestali-sequestrato-un-richiamo-elettronico-vietato-per-attirare-le-quaglie/",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Il Gazzettino Vesuviano / Carabinieri Forestali",
+          "title": "Il Gazzettino Vesuviano / Carabinieri Forestali",
+          "url": "https://www.ilgazzettinovesuviano.com/2026/10/09/vico-equense-blitz-anti-bracconaggio-dei-carabinieri-forestali-sequestrato-un-richiamo-elettronico-vietato-per-attirare-le-quaglie/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+          "title": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+          "url": "https://doi.org/10.1017/S0959270915000416"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Metropolis",
+          "title": "Metropolis",
+          "url": "https://www.metropolisweb.it/2026/10/09/vico-equense-richiamo-elettronico-vietato-per-attirare-le-quaglie-scatta-il-sequestro/",
+          "same_as_occurrence_source": false
+        },
+        {
+          "id": "I1",
+          "type": "institutional_context",
+          "label": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+          "title": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+          "url": "https://www.cms.int/publication/brochure-monitoring-illegal-bird-killing-mediterranean"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "case_store_validate": "passed, 817 unique records",
+    "batch_accounting": "passed: exactly 28 added, one authorized duplicate removed; all other IDs retained",
+    "quantity_allocation": "passed: known counts equal allocated groups plus unassigned quantities",
+    "globe_integration": "passed (mock renderer; not browser/WebGL certification)",
+    "localization_integration": "passed: 817 loaded, 797 countable; languages, filters, map/globe, quantities, exclusions, failure recovery and growth",
+    "route_integration": "passed: 187 route records, 239 rendered segments; one pre-existing excluded/unrendered route unchanged; unique matching, direction, precision, translations and refresh",
+    "route_test_baseline": "Updated stale rendering-preservation baseline to published source b29cf85305c72ffa7e315912f803059fea03cc84; existing recency-clock fix preserved"
+  }
+}

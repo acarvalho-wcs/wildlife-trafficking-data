@@ -1,0 +1,120 @@
+{
+  "id": "2026-10-08__viana-three-birds-wildlife-parts",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-08",
+  "publication_date": "2026-10-08",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -20.39,
+    "lon": -40.5
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "A Gazeta / BPMA",
+  "source_url": "https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026",
+  "fauna_groups_aggregated": [
+    "Aves",
+    "Répteis",
+    "Mamíferos"
+  ],
+  "taxon_text": "Aves; Crocodylia; Nasua sp.",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 5,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals_and_items",
+  "quantity_by_group": {
+    "Aves": 3,
+    "Répteis": 1,
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 14,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "A Gazeta / BPMA",
+      "title": "A Gazeta / BPMA",
+      "url": "https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+      "title": "Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade",
+      "url": "https://www.nature.com/articles/s41467-020-18523-4"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Folha do ES",
+      "title": "Folha do ES",
+      "url": "https://folhadoes.com/operacao-em-area-rural-de-viana-apreende-cinco-armas-de-fogo-usados-na-caca-de-animais-silvestres/",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Peixe Verde, Viana, Espírito Santo",
+  "fauna_label_pt": "Três aves e duas partes de fauna",
+  "title_pt": "Peixe Verde, Viana, Espírito Santo — Três aves e duas partes de fauna",
+  "card_text_pt": "O BPMA recolheu três aves em cativeiro, uma cabeça de jacaré e uma cauda de quati, além de armas.",
+  "quantity_note_pt": "Manter separadas três aves vivas e duas partes; não apresentar cinco animais. A presença de armas e armadilhas contextualiza fiscalização de caça, mas não identifica a origem de cada espécime.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] Manter separadas três aves vivas e duas partes; não apresentar cinco animais. A presença de armas e armadilhas contextualiza fiscalização de caça, mas não identifica a origem de cada espécime.\n\n[S1] O estudo identifica lacunas na regulação do comércio de répteis, sem equiparar todo comércio a ilegalidade.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] O UNODC enfatiza respostas sustentadas por evidências específicas. Para esta apreensão, identificação taxonômica e unidade de medida são essenciais: peças, carcaças e massa não são medidas intercambiáveis da pressão sobre populações silvestres.",
+  "references_text_pt": "[O1] A Gazeta / BPMA — https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026; [S1] Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade — https://www.nature.com/articles/s41467-020-18523-4; [N1] Folha do ES — https://folhadoes.com/operacao-em-area-rural-de-viana-apreende-cinco-armas-de-fogo-usados-na-caca-de-animais-silvestres/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Peixe Verde, Viana, Espírito Santo",
+  "fauna_label_en": "Three birds and two wildlife parts",
+  "title_en": "Peixe Verde, Viana, Espírito Santo — Three birds and two wildlife parts",
+  "card_text_en": "Environmental police recovered three captive birds, a caiman head and a coati tail, alongside firearms.",
+  "quantity_note_en": "Keep three live birds separate from two parts; do not report five animals. Weapons and traps contextualize hunting enforcement but do not identify each specimen’s origin.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] Keep three live birds separate from two parts; do not report five animals. Weapons and traps contextualize hunting enforcement but do not identify each specimen’s origin.\n\n[S1] The study identifies gaps in reptile-trade regulation without equating all trade with illegality.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC emphasizes responses grounded in specific evidence. For this seizure, taxonomic identification and measurement units matter: pieces, carcasses and mass are not interchangeable measures of pressure on wild populations.",
+  "references_text_en": "[O1] A Gazeta / BPMA — https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026; [S1] Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade — https://www.nature.com/articles/s41467-020-18523-4; [N1] Folha do ES — https://folhadoes.com/operacao-em-area-rural-de-viana-apreende-cinco-armas-de-fogo-usados-na-caca-de-animais-silvestres/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Peixe Verde, Viana, Espírito Santo",
+  "fauna_label_es": "Tres aves y dos partes de fauna",
+  "title_es": "Peixe Verde, Viana, Espírito Santo — Tres aves y dos partes de fauna",
+  "card_text_es": "La policía ambiental retiró tres aves cautivas, una cabeza de caimán y una cola de coatí, además de armas.",
+  "quantity_note_es": "Separar tres aves vivas de dos partes; no informar cinco animales. Armas y trampas contextualizan la fiscalización de caza, sin identificar el origen de cada espécimen.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] Separar tres aves vivas de dos partes; no informar cinco animales. Armas y trampas contextualizan la fiscalización de caza, sin identificar el origen de cada espécimen.\n\n[S1] El estudio identifica vacíos en la regulación del comercio de reptiles, sin equiparar todo comercio con ilegalidad.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC enfatiza respuestas sustentadas en evidencia específica. En este decomiso, importan la identificación taxonómica y la unidad de medida: piezas, cadáveres y masa no son medidas intercambiables de presión sobre poblaciones silvestres.",
+  "references_text_es": "[O1] A Gazeta / BPMA — https://www.agazeta.com.br/agora/operacao-apreende-materiais-de-caca-e-resgata-aves-silvestres-em-viana-1026; [S1] Marshall et al. (2020), Thousands of reptile species threatened by under-regulated global trade — https://www.nature.com/articles/s41467-020-18523-4; [N1] Folha do ES — https://folhadoes.com/operacao-em-area-rural-de-viana-apreende-cinco-armas-de-fogo-usados-na-caca-de-animais-silvestres/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "quantity_components": [
+    {
+      "kind": "live_animals",
+      "count": 3,
+      "group": "Aves"
+    },
+    {
+      "kind": "parts_products",
+      "count": 1,
+      "group": "Répteis"
+    },
+    {
+      "kind": "parts_products",
+      "count": 1,
+      "group": "Mamíferos"
+    }
+  ],
+  "occurrence_type": "wildlife_enforcement"
+}

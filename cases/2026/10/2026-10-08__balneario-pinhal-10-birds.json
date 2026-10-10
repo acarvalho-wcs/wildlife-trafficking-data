@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-08__balneario-pinhal-10-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-08",
+  "publication_date": "2026-10-09",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -30.24,
+    "lon": -50.23
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Litoralmania / Brigada Militar",
+  "source_url": "https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves; cardeais; saíras; canários-da-terra",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 10,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 10
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 13,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Litoralmania / Brigada Militar",
+      "title": "Litoralmania / Brigada Militar",
+      "url": "https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://www.nature.com/articles/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Litoralmania / Brigada Militar",
+      "title": "Litoralmania / Brigada Militar",
+      "url": "https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/",
+      "same_as_occurrence_source": true
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Balneário Pinhal, Rio Grande do Sul",
+  "fauna_label_pt": "10 aves em cativeiro",
+  "title_pt": "Balneário Pinhal, Rio Grande do Sul — 10 aves em cativeiro",
+  "card_text_pt": "A Brigada Militar apreendeu dez aves e dez gaiolas: seis cardeais, duas saíras e dois canários-da-terra.",
+  "quantity_note_pt": "A operação alcançou Cidreira e Balneário Pinhal, mas a apreensão de fauna foi localizada em Balneário Pinhal. Não criar um segundo evento em Cidreira nem contabilizar gaiolas como animais.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] A operação alcançou Cidreira e Balneário Pinhal, mas a apreensão de fauna foi localizada em Balneário Pinhal. Não criar um segundo evento em Cidreira nem contabilizar gaiolas como animais.\n\n[S1] A meta-análise associa comércio a declínios de abundância; não mede esta população.\n\n[N1] A referência noticiosa coincide com [O1]; não é uma segunda confirmação independente.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] Litoralmania / Brigada Militar — https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Litoralmania / Brigada Militar — https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Balneário Pinhal, Rio Grande do Sul",
+  "fauna_label_en": "10 captive birds",
+  "title_en": "Balneário Pinhal, Rio Grande do Sul — 10 captive birds",
+  "card_text_en": "Military police seized ten birds and ten cages: six cardinals, two tanagers and two saffron finches.",
+  "quantity_note_en": "The operation covered Cidreira and Balneário Pinhal, but the wildlife seizure was in Balneário Pinhal. Do not create a second Cidreira event or count cages as animals.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] The operation covered Cidreira and Balneário Pinhal, but the wildlife seizure was in Balneário Pinhal. Do not create a second Cidreira event or count cages as animals.\n\n[S1] The meta-analysis associates trade with abundance declines; it does not measure this population.\n\n[N1] The news reference is the same as [O1], not a second independent confirmation.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] Litoralmania / Brigada Militar — https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Litoralmania / Brigada Militar — https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Balneário Pinhal, Rio Grande do Sul",
+  "fauna_label_es": "10 aves en cautiverio",
+  "title_es": "Balneário Pinhal, Rio Grande do Sul — 10 aves en cautiverio",
+  "card_text_es": "La policía militar decomisó diez aves y diez jaulas: seis cardenales, dos tangaras y dos jilgueros dorados.",
+  "quantity_note_es": "La operación abarcó Cidreira y Balneário Pinhal, pero el decomiso ocurrió en Balneário Pinhal. No crear otro evento en Cidreira ni contar jaulas como animales.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] La operación abarcó Cidreira y Balneário Pinhal, pero el decomiso ocurrió en Balneário Pinhal. No crear otro evento en Cidreira ni contar jaulas como animales.\n\n[S1] El metaanálisis asocia comercio con disminuciones de abundancia; no mide esta población.\n\n[N1] La referencia informativa coincide con [O1]; no es una segunda confirmación independiente.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] Litoralmania / Brigada Militar — https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Litoralmania / Brigada Militar — https://litoralmania.com.br/aves-e-gaiolas-apreendidas-litoral/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

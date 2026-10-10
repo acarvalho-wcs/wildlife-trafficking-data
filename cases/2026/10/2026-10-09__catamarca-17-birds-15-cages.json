@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-09__catamarca-17-birds-15-cages",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "event_date": "2026-10-09",
+  "publication_date": "2026-10-09",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -28.47,
+    "lon": -65.78
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Policía de Catamarca — Relaciones Institucionales",
+  "source_url": "https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves",
+  "modal_primary": "Não informado",
+  "aggregate_operation": true,
+  "exclude_from_totals": true,
+  "quantity_count": 17,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 17
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 5,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Policía de Catamarca — Relaciones Institucionales",
+      "title": "Policía de Catamarca — Relaciones Institucionales",
+      "url": "https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://www.nature.com/articles/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "La Unión Digital",
+      "title": "La Unión Digital",
+      "url": "https://www.launion.digital/policiales/secuestraron-17-aves-15-jaulas-durante-registros-domiciliarios-catamarca-n244298",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "San Fernando del Valle de Catamarca",
+  "fauna_label_pt": "17 aves apreendidas",
+  "title_pt": "San Fernando del Valle de Catamarca — 17 aves apreendidas",
+  "card_text_pt": "Buscas policiais em dois imóveis da rua 9 de Julio resultaram em 17 aves e 15 gaiolas apreendidas.",
+  "quantity_note_pt": "O boletim reúne duas buscas sem discriminar os animais por endereço. Manter registro agregado e excluí-lo dos totais para não fabricar duas contagens. Não confundir com a apreensão de agosto no bairro 111 Viviendas.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] O boletim reúne duas buscas sem discriminar os animais por endereço. Manter registro agregado e excluí-lo dos totais para não fabricar duas contagens. Não confundir com a apreensão de agosto no bairro 111 Viviendas.\n\n[S1] A meta-análise associa comércio a declínios de abundância; não mede esta população.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] Policía de Catamarca — Relaciones Institucionales — https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] La Unión Digital — https://www.launion.digital/policiales/secuestraron-17-aves-15-jaulas-durante-registros-domiciliarios-catamarca-n244298; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "San Fernando del Valle de Catamarca",
+  "fauna_label_en": "17 birds seized",
+  "title_en": "San Fernando del Valle de Catamarca — 17 birds seized",
+  "card_text_en": "Police searches at two properties on 9 de Julio Street yielded 17 birds and 15 cages.",
+  "quantity_note_en": "The bulletin combines two searches without allocating birds by address. Retain an aggregate excluded from totals rather than inventing two counts. Distinct from the August seizure in 111 Viviendas.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] The bulletin combines two searches without allocating birds by address. Retain an aggregate excluded from totals rather than inventing two counts. Distinct from the August seizure in 111 Viviendas.\n\n[S1] The meta-analysis associates trade with abundance declines; it does not measure this population.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] Policía de Catamarca — Relaciones Institucionales — https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] La Unión Digital — https://www.launion.digital/policiales/secuestraron-17-aves-15-jaulas-durante-registros-domiciliarios-catamarca-n244298; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "San Fernando del Valle de Catamarca",
+  "fauna_label_es": "17 aves decomisadas",
+  "title_es": "San Fernando del Valle de Catamarca — 17 aves decomisadas",
+  "card_text_es": "Registros policiales en dos viviendas de la calle 9 de Julio resultaron en 17 aves y 15 jaulas decomisadas.",
+  "quantity_note_es": "El boletín reúne dos registros sin desglosar aves por dirección. Mantener un agregado excluido de los totales, sin inventar dos recuentos. Es distinto del decomiso de agosto en 111 Viviendas.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] El boletín reúne dos registros sin desglosar aves por dirección. Mantener un agregado excluido de los totales, sin inventar dos recuentos. Es distinto del decomiso de agosto en 111 Viviendas.\n\n[S1] El metaanálisis asocia comercio con disminuciones de abundancia; no mide esta población.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] Policía de Catamarca — Relaciones Institucionales — https://relacionesinstitucionalescatamarca.blogspot.com/2026/10/noticias-pmaprehenden-dos-personas.html?m=0; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] La Unión Digital — https://www.launion.digital/policiales/secuestraron-17-aves-15-jaulas-durante-registros-domiciliarios-catamarca-n244298; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "record_type": "aggregate_operation",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

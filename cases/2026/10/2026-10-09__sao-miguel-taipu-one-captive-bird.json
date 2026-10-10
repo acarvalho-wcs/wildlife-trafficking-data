@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-09__sao-miguel-taipu-one-captive-bird",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-09",
+  "publication_date": "2026-10-09",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -7.25,
+    "lon": -35.2
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Repórter PB / BPMA",
+  "source_url": "https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 6,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Repórter PB / BPMA",
+      "title": "Repórter PB / BPMA",
+      "url": "https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://www.nature.com/articles/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Repórter PB / BPMA",
+      "title": "Repórter PB / BPMA",
+      "url": "https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html",
+      "same_as_occurrence_source": true
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "São Miguel de Taipu, Paraíba",
+  "fauna_label_pt": "Uma ave em cativeiro irregular",
+  "title_pt": "São Miguel de Taipu, Paraíba — Uma ave em cativeiro irregular",
+  "card_text_pt": "O Batalhão Ambiental encontrou uma ave silvestre mantida ilegalmente em cativeiro e uma arma de fogo durante fiscalização rural.",
+  "quantity_note_pt": "Espécie e cadeia de aquisição não foram estabelecidas. A arma não comprova que a ave tenha sido caçada, nem demonstra comércio ou ligação com outros casos.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] Espécie e cadeia de aquisição não foram estabelecidas. A arma não comprova que a ave tenha sido caçada, nem demonstra comércio ou ligação com outros casos.\n\n[S1] A meta-análise associa comércio a declínios de abundância; não mede esta população.\n\n[N1] A referência noticiosa coincide com [O1]; não é uma segunda confirmação independente.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] Repórter PB / BPMA — https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Repórter PB / BPMA — https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "São Miguel de Taipu, Paraíba",
+  "fauna_label_en": "One illegally captive bird",
+  "title_en": "São Miguel de Taipu, Paraíba — One illegally captive bird",
+  "card_text_en": "Environmental police found one illegally captive wild bird and a firearm during a rural inspection.",
+  "quantity_note_en": "Species and acquisition chain were not established. The firearm does not prove that this bird was hunted or establish trade or links to other cases.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] Species and acquisition chain were not established. The firearm does not prove that this bird was hunted or establish trade or links to other cases.\n\n[S1] The meta-analysis associates trade with abundance declines; it does not measure this population.\n\n[N1] The news reference is the same as [O1], not a second independent confirmation.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] Repórter PB / BPMA — https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Repórter PB / BPMA — https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "São Miguel de Taipu, Paraíba",
+  "fauna_label_es": "Un ave en cautiverio irregular",
+  "title_es": "São Miguel de Taipu, Paraíba — Un ave en cautiverio irregular",
+  "card_text_es": "La policía ambiental halló un ave silvestre en cautiverio ilegal y un arma de fuego durante una inspección rural.",
+  "quantity_note_es": "No se establecieron especie ni cadena de adquisición. El arma no demuestra que el ave fuera cazada, ni acredita comercio o vínculos con otros casos.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] No se establecieron especie ni cadena de adquisición. El arma no demuestra que el ave fuera cazada, ni acredita comercio o vínculos con otros casos.\n\n[S1] El metaanálisis asocia comercio con disminuciones de abundancia; no mide esta población.\n\n[N1] La referencia informativa coincide con [O1]; no es una segunda confirmación independiente.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] Repórter PB / BPMA — https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Repórter PB / BPMA — https://www.reporterpb.com.br/noticia/policial/2026/10/09/homem-e-preso-com-arma-de-fogo-e-ave-silvestre-mantida-ilegalmente-em-cativeiro-na-paraiba/193220.html; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

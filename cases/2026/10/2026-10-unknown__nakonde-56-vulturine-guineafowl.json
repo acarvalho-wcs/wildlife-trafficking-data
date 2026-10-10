@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-unknown__nakonde-56-vulturine-guineafowl",
+  "status": "VALIDATED",
+  "country": "Zâmbia",
+  "event_date": null,
+  "publication_date": "2026-10-09",
+  "event_date_precision": "on_or_before",
+  "coordinates": {
+    "lat": -9.34,
+    "lon": 32.75
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Diamond Media / Anti-Corruption Commission",
+  "source_url": "https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Acryllium vulturinum",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 56,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 56
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 33,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Diamond Media / Anti-Corruption Commission",
+      "title": "Diamond Media / Anti-Corruption Commission",
+      "url": "https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+      "title": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+      "url": "https://link.springer.com/article/10.1007/s12117-020-09385-9"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Zed Gossip / ACC statement",
+      "title": "Zed Gossip / ACC statement",
+      "url": "https://zedgossip.net/acc-arrests-lusaka-taxi-driver-over-alleged-k5000-bribe-for-release-of-56-protected-birds/",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Nakonde",
+  "fauna_label_pt": "56 galinhas-d’angola-vulturinas",
+  "title_pt": "Nakonde — 56 galinhas-d’angola-vulturinas",
+  "card_text_pt": "A ACC relatou tentativa de suborno para liberar 56 galinhas-d’angola-vulturinas anteriormente interceptadas no terminal rodoviário de Nakonde.",
+  "quantity_note_pt": "O intervalo de setembro refere-se à alegação de suborno; o dia da interceptação é desconhecido. A prisão divulgada em outubro não é nova apreensão das aves. Destino Lusaka atribuído à cobertura; origem de importação não estabelecida.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] O intervalo de setembro refere-se à alegação de suborno; o dia da interceptação é desconhecido. A prisão divulgada em outubro não é nova apreensão das aves. Destino Lusaka atribuído à cobertura; origem de importação não estabelecida.\n\n[S1] A tipologia diferencia redes criminais; apreensão ou detenção não demonstra, isoladamente, organização criminosa.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] A abordagem do UNODC favorece intervenções ajustadas ao problema documentado. Neste caso, os locais e suspeitos relatados delimitam a investigação; relações comerciais, origem biológica e conexões com outros crimes exigem evidência adicional.",
+  "references_text_pt": "[O1] Diamond Media / Anti-Corruption Commission — https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/; [S1] Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade — https://link.springer.com/article/10.1007/s12117-020-09385-9; [N1] Zed Gossip / ACC statement — https://zedgossip.net/acc-arrests-lusaka-taxi-driver-over-alleged-k5000-bribe-for-release-of-56-protected-birds/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Zed Gossip, atribuindo a informação à ACC, relata que as 56 aves interceptadas em Nakonde seguiam para Lusaka. Não representa uma viagem concluída nem estabelece origem internacional.",
+  "location_label_en": "Nakonde",
+  "fauna_label_en": "56 vulturine guineafowl",
+  "title_en": "Nakonde — 56 vulturine guineafowl",
+  "card_text_en": "ACC reported an alleged bribe to release 56 vulturine guineafowl previously intercepted at Nakonde bus station.",
+  "quantity_note_en": "The September interval concerns the alleged bribe; the interception day is unknown. The October arrest is not a new bird seizure. Lusaka is a reported destination; import origin is unestablished.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] The September interval concerns the alleged bribe; the interception day is unknown. The October arrest is not a new bird seizure. Lusaka is a reported destination; import origin is unestablished.\n\n[S1] The typology distinguishes criminal networks; seizure or arrest alone does not establish organized crime.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC favors interventions tailored to the documented problem. Here, the reported locations and suspects define the investigation; commercial relationships, biological origins and connections to other crimes require additional evidence.",
+  "references_text_en": "[O1] Diamond Media / Anti-Corruption Commission — https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/; [S1] Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade — https://link.springer.com/article/10.1007/s12117-020-09385-9; [N1] Zed Gossip / ACC statement — https://zedgossip.net/acc-arrests-lusaka-taxi-driver-over-alleged-k5000-bribe-for-release-of-56-protected-birds/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Zed Gossip, attributing information to ACC, reports that the 56 birds intercepted at Nakonde were bound for Lusaka. This is not a completed journey and does not establish international origin.",
+  "location_label_es": "Nakonde",
+  "fauna_label_es": "56 pintadas vulturinas",
+  "title_es": "Nakonde — 56 pintadas vulturinas",
+  "card_text_es": "ACC informó de un presunto soborno para liberar 56 pintadas vulturinas previamente interceptadas en la terminal de Nakonde.",
+  "quantity_note_es": "El intervalo de septiembre corresponde al presunto soborno; se desconoce el día de interceptación. La detención de octubre no es otro decomiso. Lusaka es destino informado; no se establece origen de importación.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] El intervalo de septiembre corresponde al presunto soborno; se desconoce el día de interceptación. La detención de octubre no es otro decomiso. Lusaka es destino informado; no se establece origen de importación.\n\n[S1] La tipología diferencia redes criminales; un decomiso o detención no demuestra por sí solo crimen organizado.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC favorece intervenciones ajustadas al problema documentado. Aquí, los lugares y sospechosos informados delimitan la investigación; relaciones comerciales, origen biológico y vínculos con otros delitos requieren evidencia adicional.",
+  "references_text_es": "[O1] Diamond Media / Anti-Corruption Commission — https://diamondtvzambia.com/acc-arrests-man-over-k5000-wildlife-bribe/; [S1] Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade — https://link.springer.com/article/10.1007/s12117-020-09385-9; [N1] Zed Gossip / ACC statement — https://zedgossip.net/acc-arrests-lusaka-taxi-driver-over-alleged-k5000-bribe-for-release-of-56-protected-birds/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "Zed Gossip, atribuyendo la información a ACC, informa que las 56 aves interceptadas en Nakonde se dirigían a Lusaka. No representa viaje completado ni establece origen internacional.",
+  "event_date_end": "2026-09-30",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

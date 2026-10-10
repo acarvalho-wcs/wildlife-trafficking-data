@@ -1,0 +1,102 @@
+{
+  "id": "2026-09-unknown__bovegno-60-robins-237-traps",
+  "status": "VALIDATED",
+  "country": "Itália",
+  "event_date": null,
+  "publication_date": "2026-10-10",
+  "event_date_precision": "month",
+  "coordinates": {
+    "lat": 45.79,
+    "lon": 10.27
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Brescia Tomorrow / Carabinieri Forestali",
+  "source_url": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Erithacus rubecula",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 60,
+  "quantity_qualifier": "approximate",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 60
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 30,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Brescia Tomorrow / Carabinieri Forestali",
+      "title": "Brescia Tomorrow / Carabinieri Forestali",
+      "url": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+      "title": "Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean",
+      "url": "https://doi.org/10.1017/S0959270915000416"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Brescia Tomorrow / Carabinieri Forestali",
+      "title": "Brescia Tomorrow / Carabinieri Forestali",
+      "url": "https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/",
+      "same_as_occurrence_source": true
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+      "title": "CMS, Monitoring Illegal Bird Killing in the Mediterranean",
+      "url": "https://www.cms.int/publication/brochure-monitoring-illegal-bird-killing-mediterranean"
+    }
+  ],
+  "location_label_pt": "Graticelle, Bovegno, Brescia",
+  "fauna_label_pt": "Cerca de 60 piscos mortos e 237 armadilhas",
+  "title_pt": "Graticelle, Bovegno, Brescia — Cerca de 60 piscos mortos e 237 armadilhas",
+  "card_text_pt": "Carabinieri Forestali encontraram cerca de 60 piscos-de-peito-ruivo mortos e apreenderam 237 armadilhas na área de Bovegno.",
+  "quantity_note_pt": "A notícia situa a intervenção no fim de setembro, sem dia confirmado. Não usar 10/10, data da publicação, como ocorrência. Outra diligência em Marcheno é distinta e seus equipamentos não são adicionados aqui.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] A notícia situa a intervenção no fim de setembro, sem dia confirmado. Não usar 10/10, data da publicação, como ocorrência. Outra diligência em Marcheno é distinta e seus equipamentos não são adicionados aqui.\n\n[S1] O estudo documenta captura e abate ilegais de aves no Mediterrâneo; estimativas regionais não quantificam este episódio.\n\n[N1] A referência noticiosa coincide com [O1]; não é uma segunda confirmação independente.\n\n[I1] O material da CMS trata do monitoramento da captura e morte ilegais de aves no Mediterrâneo. Sua aplicação aqui é separar indicadores de esforço de fiscalização — redes, armadilhas ou chamarizes retirados — dos números de aves efetivamente documentados.",
+  "references_text_pt": "[O1] Brescia Tomorrow / Carabinieri Forestali — https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/; [S1] Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean — https://doi.org/10.1017/S0959270915000416; [N1] Brescia Tomorrow / Carabinieri Forestali — https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/; [I1] CMS, Monitoring Illegal Bird Killing in the Mediterranean — https://www.cms.int/publication/brochure-monitoring-illegal-bird-killing-mediterranean",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Graticelle, Bovegno, Brescia",
+  "fauna_label_en": "About 60 dead robins and 237 traps",
+  "title_en": "Graticelle, Bovegno, Brescia — About 60 dead robins and 237 traps",
+  "card_text_en": "Forest Carabinieri found about 60 dead European robins and seized 237 traps in the Bovegno area.",
+  "quantity_note_en": "Reporting places the raid in late September without a confirmed day. Do not use the 10 October publication date as occurrence. A separate Marcheno raid and its equipment are not added here.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] Reporting places the raid in late September without a confirmed day. Do not use the 10 October publication date as occurrence. A separate Marcheno raid and its equipment are not added here.\n\n[S1] The study documents illegal bird taking and killing across the Mediterranean; regional estimates do not quantify this event.\n\n[N1] The news reference is the same as [O1], not a second independent confirmation.\n\n[I1] CMS addresses monitoring illegal bird taking and killing in the Mediterranean. Applied here, enforcement-effort indicators—removed nets, traps or lures—must remain separate from documented bird counts.",
+  "references_text_en": "[O1] Brescia Tomorrow / Carabinieri Forestali — https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/; [S1] Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean — https://doi.org/10.1017/S0959270915000416; [N1] Brescia Tomorrow / Carabinieri Forestali — https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/; [I1] CMS, Monitoring Illegal Bird Killing in the Mediterranean — https://www.cms.int/publication/brochure-monitoring-illegal-bird-killing-mediterranean",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Graticelle, Bovegno, Brescia",
+  "fauna_label_es": "Unos 60 petirrojos muertos y 237 trampas",
+  "title_es": "Graticelle, Bovegno, Brescia — Unos 60 petirrojos muertos y 237 trampas",
+  "card_text_es": "Carabinieri Forestali hallaron unos 60 petirrojos muertos y decomisaron 237 trampas en el área de Bovegno.",
+  "quantity_note_es": "La noticia sitúa la intervención a finales de septiembre, sin día confirmado. No usar la publicación del 10/10 como ocurrencia. Otra diligencia en Marcheno y sus equipos no se suman aquí.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] La noticia sitúa la intervención a finales de septiembre, sin día confirmado. No usar la publicación del 10/10 como ocurrencia. Otra diligencia en Marcheno y sus equipos no se suman aquí.\n\n[S1] El estudio documenta captura y muerte ilegales de aves en el Mediterráneo; las estimaciones regionales no cuantifican este episodio.\n\n[N1] La referencia informativa coincide con [O1]; no es una segunda confirmación independiente.\n\n[I1] La CMS aborda el seguimiento de captura y muerte ilegales de aves en el Mediterráneo. Su aplicación aquí exige separar indicadores del esfuerzo de fiscalización —redes, trampas o reclamos retirados— de los recuentos de aves documentados.",
+  "references_text_es": "[O1] Brescia Tomorrow / Carabinieri Forestali — https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/; [S1] Brochet et al. (2016), Preliminary assessment of the scope and scale of illegal killing and taking of birds in the Mediterranean — https://doi.org/10.1017/S0959270915000416; [N1] Brescia Tomorrow / Carabinieri Forestali — https://www.bresciatomorrow.it/2026/10/10/bovegno-sequestrate-237-trappole-a-un-uccellatore-recidivo/; [I1] CMS, Monitoring Illegal Bird Killing in the Mediterranean — https://www.cms.int/publication/brochure-monitoring-illegal-bird-killing-mediterranean",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "event_month": "2026-09",
+  "equipment_count": 237,
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "dead"
+}

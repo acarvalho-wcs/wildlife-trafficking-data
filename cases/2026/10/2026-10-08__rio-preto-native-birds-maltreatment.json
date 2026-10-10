@@ -1,0 +1,111 @@
+{
+  "id": "2026-10-08__rio-preto-native-birds-maltreatment",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-08",
+  "publication_date": "2026-10-09",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -20.81,
+    "lon": -49.38
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Votunews / Polícia Ambiental",
+  "source_url": "https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves; Psittaciformes",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 4,
+  "quantity_qualifier": "minimum",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 4
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 20,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Votunews / Polícia Ambiental",
+      "title": "Votunews / Polícia Ambiental",
+      "url": "https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "title": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/152071/"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Gazeta de Rio Preto",
+      "title": "Gazeta de Rio Preto",
+      "url": "https://www.gazetaderiopreto.com.br/busca-por-cachorro-desaparecido-leva-ao-resgate-de-70-animais-em-rio-preto/",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "São José do Rio Preto, São Paulo",
+  "fauna_label_pt": "Ao menos quatro aves nativas em ocorrência de maus-tratos",
+  "title_pt": "São José do Rio Preto, São Paulo — Ao menos quatro aves nativas em ocorrência de maus-tratos",
+  "card_text_pt": "Fiscalização encontrou 30 cães e 40 aves; três aves nativas vivas e uma maritaca morta estão individualizadas na reportagem.",
+  "quantity_note_pt": "Contar somente o mínimo confirmado de quatro aves nativas, uma morta. Excluir cães; as outras 36 aves misturam domésticas e exóticas sem composição suficiente. O total de 70 não é uma contagem de fauna silvestre.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] Contar somente o mínimo confirmado de quatro aves nativas, uma morta. Excluir cães; as outras 36 aves misturam domésticas e exóticas sem composição suficiente. O total de 70 não é uma contagem de fauna silvestre.\n\n[S1] A pesquisa examina a diversidade de vertebrados comercializados, abrangendo comércio legal e ilegal.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] Votunews / Polícia Ambiental — https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] Gazeta de Rio Preto — https://www.gazetaderiopreto.com.br/busca-por-cachorro-desaparecido-leva-ao-resgate-de-70-animais-em-rio-preto/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "São José do Rio Preto, São Paulo",
+  "fauna_label_en": "At least four native birds in maltreatment case",
+  "title_en": "São José do Rio Preto, São Paulo — At least four native birds in maltreatment case",
+  "card_text_en": "Inspection found 30 dogs and 40 birds; reporting separately identifies three live native birds and one dead parakeet.",
+  "quantity_note_en": "Count only the confirmed minimum of four native birds, one dead. Exclude dogs; the other 36 combine domestic and exotic birds without sufficient detail. Seventy is not a wildlife total.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] Count only the confirmed minimum of four native birds, one dead. Exclude dogs; the other 36 combine domestic and exotic birds without sufficient detail. Seventy is not a wildlife total.\n\n[S1] Research examines the diversity of traded vertebrates, covering both legal and illegal trade.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] Votunews / Polícia Ambiental — https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] Gazeta de Rio Preto — https://www.gazetaderiopreto.com.br/busca-por-cachorro-desaparecido-leva-ao-resgate-de-70-animais-em-rio-preto/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "São José do Rio Preto, São Paulo",
+  "fauna_label_es": "Al menos cuatro aves nativas en caso de maltrato",
+  "title_es": "São José do Rio Preto, São Paulo — Al menos cuatro aves nativas en caso de maltrato",
+  "card_text_es": "La inspección halló 30 perros y 40 aves; la noticia individualiza tres aves nativas vivas y una cotorra muerta.",
+  "quantity_note_es": "Contar solo el mínimo confirmado de cuatro aves nativas, una muerta. Excluir perros; las otras 36 mezclan aves domésticas y exóticas sin detalle suficiente. Setenta no es un total de fauna silvestre.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] Contar solo el mínimo confirmado de cuatro aves nativas, una muerta. Excluir perros; las otras 36 mezclan aves domésticas y exóticas sin detalle suficiente. Setenta no es un total de fauna silvestre.\n\n[S1] La investigación examina la diversidad de vertebrados comercializados, incluyendo comercio legal e ilegal.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] Votunews / Polícia Ambiental — https://www.votunews.com.br/denuncia-de-mulher-que-procurava-cao-perdido-leva-policia-a-encontrar-70-animais-em-situacao-de-maus-tratos/; [S1] Scheffers et al. (2019), Global wildlife trade across the tree of life — https://eprints.whiterose.ac.uk/id/eprint/152071/; [N1] Gazeta de Rio Preto — https://www.gazetaderiopreto.com.br/busca-por-cachorro-desaparecido-leva-ao-resgate-de-70-animais-em-rio-preto/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "quantity_components": [
+    {
+      "kind": "live_animals",
+      "count": 3,
+      "group": "Aves"
+    },
+    {
+      "kind": "dead_animals",
+      "count": 1,
+      "group": "Aves"
+    }
+  ],
+  "occurrence_type": "wildlife_enforcement"
+}

@@ -12,7 +12,7 @@
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
   "quantity_unassigned": 0,
-  "context_updated_at": "2026-09-30T22:45:00Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
   "route_audited_at": "2026-09-30T22:45:00Z",
   "image_url": "https://karantinaindonesia.go.id/_next/image?url=https%3A%2F%2Fkarantinaindonesia.go.id%2Frepository%2Fmain-web%2Farticles%2F01M3KJ14PJ8DWEJCG9S6AFJD7R.jfif&w=3840&q=75",
   "image_status": "DIRECT_IMAGE_URL_VALIDATED",
@@ -82,11 +82,21 @@
       "type": "news_repository",
       "label": "Mongabay — Indonesia’s native hornbills are being hammered by online and offline trade",
       "url": "https://news.mongabay.com/2026/06/indonesias-native-hornbills-are-being-hammered-by-online-and-offline-trade/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "ANTARA",
+      "title": "ANTARA",
+      "url": "https://lampung.antaranews.com/berita/829475/bksda-amankan-2775-burung-ilegal-di-pelabuhan-bakauheni"
     }
   ],
-  "references_text_pt": "[O1] Badan Karantina Indonesia, 28/09/2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 09/06/2026.",
-  "references_text_en": "[O1] Badan Karantina Indonesia, 28 Sep 2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 9 Jun 2026.",
-  "references_text_es": "[O1] Badan Karantina Indonesia, 28/09/2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 09/06/2026.",
+  "references_text_pt": "[O1] Badan Karantina Indonesia, 28/09/2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 09/06/2026.; [O2] ANTARA — https://lampung.antaranews.com/berita/829475/bksda-amankan-2775-burung-ilegal-di-pelabuhan-bakauheni",
+  "references_text_en": "[O1] Badan Karantina Indonesia, 28 Sep 2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 9 Jun 2026.; [O2] ANTARA — https://lampung.antaranews.com/berita/829475/bksda-amankan-2775-burung-ilegal-di-pelabuhan-bakauheni",
+  "references_text_es": "[O1] Badan Karantina Indonesia, 28/09/2026; [S1] Oryx, DOI 10.1017/S0030605323001667; [N1] Mongabay, 09/06/2026.; [O2] ANTARA — https://lampung.antaranews.com/berita/829475/bksda-amankan-2775-burung-ilegal-di-pelabuhan-bakauheni",
   "image_source_url": "https://karantinaindonesia.go.id/berita/bus-palembang-jakarta-diperiksa-di-bakauheni-petugas-temukan-2775-burung-dalam-bagasi",
-  "image_resolution_method": "existing_direct"
+  "image_resolution_method": "existing_direct",
+  "duplicate_aliases": [
+    "2026-09-26__bakauheni-2775-illegal-birds"
+  ]
 }

@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-08__pitanga-two-captive-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-08",
+  "publication_date": "2026-10-09",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -24.76,
+    "lon": -51.76
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "JNotícias / Polícia Ambiental",
+  "source_url": "https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves; trinca-ferro; azulão",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 19,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "JNotícias / Polícia Ambiental",
+      "title": "JNotícias / Polícia Ambiental",
+      "url": "https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+      "title": "Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade",
+      "url": "https://link.springer.com/article/10.1007/s12117-020-09385-9"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Nossa Gente",
+      "title": "Nossa Gente",
+      "url": "https://nossagente.info/policia/polcia-ambiental-apreende-aves-nativas-mantidas-irregularmente-em-cativeiro",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Pitanga, Paraná",
+  "fauna_label_pt": "Duas aves sem autorização",
+  "title_pt": "Pitanga, Paraná — Duas aves sem autorização",
+  "card_text_pt": "Durante cumprimento de mandado, policiais ambientais localizaram um trinca-ferro e um azulão mantidos sem autorização.",
+  "quantity_note_pt": "A apreensão de fauna ocorreu durante operação mais ampla. A coincidência operacional não comprova que as aves integravam o comércio de drogas investigado; não há percurso de fauna documentado.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] A apreensão de fauna ocorreu durante operação mais ampla. A coincidência operacional não comprova que as aves integravam o comércio de drogas investigado; não há percurso de fauna documentado.\n\n[S1] A tipologia diferencia redes criminais; apreensão ou detenção não demonstra, isoladamente, organização criminosa.\n\n[N1] Cobertura complementar da ocorrência; não estabelece, por si só, vínculos com outras apreensões.\n\n[I1] A abordagem do UNODC favorece intervenções ajustadas ao problema documentado. Neste caso, os locais e suspeitos relatados delimitam a investigação; relações comerciais, origem biológica e conexões com outros crimes exigem evidência adicional.",
+  "references_text_pt": "[O1] JNotícias / Polícia Ambiental — https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga; [S1] Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade — https://link.springer.com/article/10.1007/s12117-020-09385-9; [N1] Nossa Gente — https://nossagente.info/policia/polcia-ambiental-apreende-aves-nativas-mantidas-irregularmente-em-cativeiro; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Pitanga, Paraná",
+  "fauna_label_en": "Two unauthorized captive birds",
+  "title_en": "Pitanga, Paraná — Two unauthorized captive birds",
+  "card_text_en": "During a warrant search, environmental police found an unauthorized captive green-winged saltator and ultramarine grosbeak.",
+  "quantity_note_en": "The seizure occurred during a broader operation. Shared enforcement does not prove that the birds were part of the investigated drug trade; no wildlife route is documented.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] The seizure occurred during a broader operation. Shared enforcement does not prove that the birds were part of the investigated drug trade; no wildlife route is documented.\n\n[S1] The typology distinguishes criminal networks; seizure or arrest alone does not establish organized crime.\n\n[N1] Additional event reporting does not, by itself, establish links to other seizures.\n\n[I1] UNODC favors interventions tailored to the documented problem. Here, the reported locations and suspects define the investigation; commercial relationships, biological origins and connections to other crimes require additional evidence.",
+  "references_text_en": "[O1] JNotícias / Polícia Ambiental — https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga; [S1] Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade — https://link.springer.com/article/10.1007/s12117-020-09385-9; [N1] Nossa Gente — https://nossagente.info/policia/polcia-ambiental-apreende-aves-nativas-mantidas-irregularmente-em-cativeiro; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Pitanga, Paraná",
+  "fauna_label_es": "Dos aves sin autorización",
+  "title_es": "Pitanga, Paraná — Dos aves sin autorización",
+  "card_text_es": "Durante un registro judicial, la policía ambiental halló un pepitero verdoso y un azulón mantenidos sin autorización.",
+  "quantity_note_es": "El decomiso ocurrió durante una operación más amplia. La coincidencia operativa no prueba que las aves integraran el tráfico de drogas investigado; no hay recorrido de fauna documentado.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] El decomiso ocurrió durante una operación más amplia. La coincidencia operativa no prueba que las aves integraran el tráfico de drogas investigado; no hay recorrido de fauna documentado.\n\n[S1] La tipología diferencia redes criminales; un decomiso o detención no demuestra por sí solo crimen organizado.\n\n[N1] La cobertura complementaria no establece por sí sola vínculos con otros decomisos.\n\n[I1] El UNODC favorece intervenciones ajustadas al problema documentado. Aquí, los lugares y sospechosos informados delimitan la investigación; relaciones comerciales, origen biológico y vínculos con otros delitos requieren evidencia adicional.",
+  "references_text_es": "[O1] JNotícias / Polícia Ambiental — https://jnoticias.com.br/policia-ambiental-encontra-passaros-silvestres-em-gaiolas-e-multa-morador-durante-operacao-em-pitanga; [S1] Wyatt, van Uhm & Nurse (2020), Differentiating criminal networks in the illegal wildlife trade — https://link.springer.com/article/10.1007/s12117-020-09385-9; [N1] Nossa Gente — https://nossagente.info/policia/polcia-ambiental-apreende-aves-nativas-mantidas-irregularmente-em-cativeiro; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-09__araras-13-captive-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-09",
+  "publication_date": "2026-10-10",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -22.36,
+    "lon": -47.38
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+  "source_url": "https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves; coleirinhas; canários-da-terra",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 13,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 13
+  },
+  "quantity_unassigned": 0,
+  "added_at": "2026-10-10T11:32:58Z",
+  "context_updated_at": "2026-10-10T11:32:58Z",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/",
+  "image_status": "NO_VERIFIED_ARTICLE_IMAGE",
+  "ingestion_batch": "resume-59fd17b-2026-10-10",
+  "original_candidate_number": 9,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+      "title": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+      "url": "https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "title": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://www.nature.com/articles/s41559-021-01399-y"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+      "title": "Repórter Beto Ribeiro / Polícia Militar Ambiental",
+      "url": "https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/",
+      "same_as_occurrence_source": true
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "title": "UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Araras, São Paulo",
+  "fauna_label_pt": "13 aves em cativeiro irregular",
+  "title_pt": "Araras, São Paulo — 13 aves em cativeiro irregular",
+  "card_text_pt": "A Polícia Ambiental apreendeu 13 aves, incluindo coleirinhas e canários-da-terra, mantidas sem autorização em Araras.",
+  "quantity_note_pt": "A autuação por cativeiro não demonstra local de captura ou venda. Manter nomes comuns sem ampliar a identificação taxonômica; os 13 indivíduos formam uma única apreensão.",
+  "geographic_note_pt": "Ponto de referência generalizado; não representa endereço exato.",
+  "context_pt": "[O1] A autuação por cativeiro não demonstra local de captura ou venda. Manter nomes comuns sem ampliar a identificação taxonômica; os 13 indivíduos formam uma única apreensão.\n\n[S1] A meta-análise associa comércio a declínios de abundância; não mede esta população.\n\n[N1] A referência noticiosa coincide com [O1]; não é uma segunda confirmação independente.\n\n[I1] O relatório do UNODC recomenda respostas proporcionais e baseadas em evidências. Aplicado a este caso, isso exige distinguir posse irregular, captura e comercialização: a apreensão em cativeiro não esclarece sozinha os elos anteriores da cadeia.",
+  "references_text_pt": "[O1] Repórter Beto Ribeiro / Polícia Militar Ambiental — https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Repórter Beto Ribeiro / Polícia Militar Ambiental — https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Não desenhar deslocamentos sem extremos documentados; transferências para reabilitação não são rotas de tráfico.",
+  "location_label_en": "Araras, São Paulo",
+  "fauna_label_en": "13 illegally captive birds",
+  "title_en": "Araras, São Paulo — 13 illegally captive birds",
+  "card_text_en": "Environmental police seized 13 unauthorized captive birds, including seedeaters and saffron finches, in Araras.",
+  "quantity_note_en": "The captivity citation does not establish capture location or sale. Retain common names without expanding taxonomic identification; the 13 individuals form one seizure.",
+  "geographic_note_en": "Generalized reference point; not an exact address.",
+  "context_en": "[O1] The captivity citation does not establish capture location or sale. Retain common names without expanding taxonomic identification; the 13 individuals form one seizure.\n\n[S1] The meta-analysis associates trade with abundance declines; it does not measure this population.\n\n[N1] The news reference is the same as [O1], not a second independent confirmation.\n\n[I1] UNODC recommends proportionate, evidence-based responses. Applied here, this requires distinguishing unlawful possession, capture and sale: a captive-animal seizure alone does not establish earlier supply-chain stages.",
+  "references_text_en": "[O1] Repórter Beto Ribeiro / Polícia Militar Ambiental — https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Repórter Beto Ribeiro / Polícia Militar Ambiental — https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "Do not draw movements without documented endpoints; rehabilitation transfers are not trafficking routes.",
+  "location_label_es": "Araras, São Paulo",
+  "fauna_label_es": "13 aves en cautiverio irregular",
+  "title_es": "Araras, São Paulo — 13 aves en cautiverio irregular",
+  "card_text_es": "La policía ambiental decomisó 13 aves sin autorización, incluidos semilleros y jilgueros dorados, en Araras.",
+  "quantity_note_es": "La infracción por cautiverio no establece lugar de captura ni venta. Mantener nombres comunes sin ampliar la identificación taxonómica; los 13 individuos forman un solo decomiso.",
+  "geographic_note_es": "Punto de referencia generalizado; no representa una dirección exacta.",
+  "context_es": "[O1] La infracción por cautiverio no establece lugar de captura ni venta. Mantener nombres comunes sin ampliar la identificación taxonómica; los 13 individuos forman un solo decomiso.\n\n[S1] El metaanálisis asocia comercio con disminuciones de abundancia; no mide esta población.\n\n[N1] La referencia informativa coincide con [O1]; no es una segunda confirmación independiente.\n\n[I1] El UNODC recomienda respuestas proporcionales y basadas en evidencia. Aplicado aquí, exige distinguir tenencia irregular, captura y comercialización: el decomiso en cautiverio no aclara por sí solo los eslabones anteriores de la cadena.",
+  "references_text_es": "[O1] Repórter Beto Ribeiro / Polícia Militar Ambiental — https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/; [S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://www.nature.com/articles/s41559-021-01399-y; [N1] Repórter Beto Ribeiro / Polícia Militar Ambiental — https://reporterbetoribeiro.com.br/policia-militar-ambiental-apreende-13-aves-silvestres-mantidas-ilegalmente-em-cativeiro-e-aplica-multa-de-r-65-mil-em-araras-sp/; [I1] UNODC (2024), World Wildlife Crime Report — Summary, conclusions and policy implications — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No representar desplazamientos sin extremos documentados; los traslados de rehabilitación no son rutas de tráfico.",
+  "occurrence_type": "wildlife_enforcement",
+  "specimen_state": "live"
+}
