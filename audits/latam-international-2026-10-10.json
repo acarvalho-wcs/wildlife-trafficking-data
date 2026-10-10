@@ -480,5 +480,66 @@
     "new_route_resolution": "PASS: 26 unique cases, 27 rendered route segments",
     "quantity_reconciliation": "PASS: every known quantity equals allocated groups plus unassigned items",
     "browser_visual_qa": "Not performed: direct public site requests returned HTTP 403"
+  },
+  "followup_batch_01": {
+    "review_date": "2026-10-10",
+    "scope": "LA-002, LA-015, LA-016, LA-052, LA-058, LA-059, LA-061, LA-063, LA-064, LA-066; source validation only, no unverified additions",
+    "status": "reviewed_pending_source_or_event_disambiguation",
+    "new_cases": 0,
+    "new_routes": 0,
+    "source_verified_notes": [
+      {
+        "candidate": "LA-052",
+        "status": "deferred_aggregate_overlap",
+        "details": "BioBioChile reports 300 seahorses and 33 green turtle shells over several Chacalluta proceedings in 2013-2015; includes the distinct 47-seahorse case already recorded as LA-051. Do not interpret the aggregate as one event or add 300 to 47.",
+        "sources": [
+          "https://www.biobiochile.cl/noticias/2016/02/18/cientos-de-caballitos-de-mar-y-caparazones-de-tortugas-han-sido-decomisados-en-arica.shtml"
+        ]
+      },
+      {
+        "candidate": "LA-061",
+        "status": "deferred_conflicting_taxonomy_no_international_route",
+        "details": "2017 Piura seizure of 29 tortoises en route from Sullana to Lima; WCS Peru reports Chelonoidis nigra, whereas Agencia Andina reports Chelonoidis denticulata. Ecuador/Galapagos origin not supported by transport evidence; species ID requires original inspection record. Do not create Ecuador-Peru route or count as additional event without deduplication.",
+        "sources": [
+          "https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/9994/Images.aspx",
+          "https://andina.pe/agencia/noticia-piura-incautan-29-tortugas-terrestres-pata-amarilla-peligro-extincion-663381.aspx"
+        ]
+      }
+    ],
+    "unresolved_candidates": [
+      {
+        "candidate": "LA-002",
+        "reason": "Multiple interceptions and mixed plant/animal commodities need disaggregation."
+      },
+      {
+        "candidate": "LA-015",
+        "reason": "Event-level primary source not located in reviewed audit."
+      },
+      {
+        "candidate": "LA-016",
+        "reason": "Event-level primary source not located in reviewed audit."
+      },
+      {
+        "candidate": "LA-058",
+        "reason": "Seizure identity and source not reliably reconciled."
+      },
+      {
+        "candidate": "LA-059",
+        "reason": "Origin of animals does not establish international shipment."
+      },
+      {
+        "candidate": "LA-063",
+        "reason": "Passenger nationality is not proof of an international trafficking route."
+      },
+      {
+        "candidate": "LA-064",
+        "reason": "Passenger nationality is not proof of an international trafficking route."
+      },
+      {
+        "candidate": "LA-066",
+        "reason": "Origin leg to Calama not confirmed."
+      }
+    ],
+    "policy": "No new records or routes until original event-level documentation and canonical duplicate checks pass. Existing expected counts unchanged."
   }
 }
