@@ -484,8 +484,8 @@
   "followup_batch_01": {
     "review_date": "2026-10-10",
     "scope": "LA-002, LA-015, LA-016, LA-052, LA-058, LA-059, LA-061, LA-063, LA-064, LA-066; source validation only, no unverified additions",
-    "status": "one_case_added_pending_canonical_build",
-    "new_cases": 1,
+    "status": "two_cases_added_pending_canonical_build",
+    "new_cases": 2,
     "new_routes": 0,
     "source_verified_notes": [
       {
@@ -503,6 +503,15 @@
         "sources": [
           "https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/9994/Images.aspx",
           "https://andina.pe/agencia/noticia-piura-incautan-29-tortugas-terrestres-pata-amarilla-peligro-extincion-663381.aspx"
+        ]
+      },
+      {
+        "candidate": "LA-059",
+        "status": "added_without_international_origin",
+        "details": "386 Chinese softshell turtle hatchlings intercepted by Vigiagro 2024-11-27 at Guarulhos. Most dead; remaining survivors moribund. The common name does not prove origin China or international route. No route recorded. Reported R$72k Ibama fine.",
+        "sources": [
+          "https://anffasindical.org.br/mapa-intercepta-386-tartaruguinhas-chinesas-no-aeroporto-de-guarulhos/",
+          "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2024/11/30/tartaruguinhas-chinesa-aeroporto-sp.htm"
         ]
       }
     ],
@@ -524,10 +533,6 @@
         "reason": "Seizure identity and source not reliably reconciled."
       },
       {
-        "candidate": "LA-059",
-        "reason": "Origin of animals does not establish international shipment."
-      },
-      {
         "candidate": "LA-063",
         "reason": "Passenger nationality is not proof of an international trafficking route."
       },
@@ -540,9 +545,10 @@
         "reason": "Origin leg to Calama not confirmed."
       }
     ],
-    "policy": "One qualified event added without undocumented international route; remaining nine pending. Canonical feed compilation must be verified.",
+    "policy": "Two cases added without undocumented international routes; eight candidates remain pending. Canonical feed compilation not confirmed.",
     "new_case_ids": [
-      "2017-04-17__piura-29-galapagos-tortoises"
+      "2017-04-17__piura-29-galapagos-tortoises",
+      "2024-11-27__guarulhos-386-chinese-softshell-turtles"
     ]
   }
 }
