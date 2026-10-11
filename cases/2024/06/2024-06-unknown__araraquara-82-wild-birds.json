@@ -1,0 +1,81 @@
+{
+  "id": "2024-06-unknown__araraquara-82-wild-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": null,
+  "publication_date": "2024-06-14",
+  "event_date_precision": "unknown_day_before_publication",
+  "coordinates": {
+    "lat": -21.79,
+    "lon": -48.18
+  },
+  "coordinate_precision": "city_generalized",
+  "source_label": "Rádio Sanca / Portal Morada (relato da PM Ambiental)",
+  "source_url": "https://www.radiosanca.com.br/cidades/araraquara/araraquara-policia-militar-ambiental-apreende-82-aves-silvestres",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves spp.; 44 canários-da-terra, 30 coleirinhos, 1 sabiá, 1 trinca-ferro, 2 curiós, 1 bicudo, 2 pintassilgos e 1 bigodinho",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 82,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 82
+  },
+  "quantity_unassigned": 0,
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "ingestion_batch": "vg24-recovery-2026-10-11",
+  "lead_id": "VG24-009",
+  "image_url": null,
+  "image_source_url": "https://www.radiosanca.com.br/cidades/araraquara/araraquara-policia-militar-ambiental-apreende-82-aves-silvestres",
+  "image_status": "SOURCE_PAGE_ONLY_IMAGE_UNRESOLVED",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "title": "Rádio Sanca / Portal Morada (relato da PM Ambiental)",
+      "label": "Rádio Sanca / Portal Morada (relato da PM Ambiental)",
+      "url": "https://www.radiosanca.com.br/cidades/araraquara/araraquara-policia-militar-ambiental-apreende-82-aves-silvestres"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "title": "Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "label": "Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "url": "https://doi.org/10.1111/acv.70052"
+    }
+  ],
+  "location_label_pt": "Araraquara, São Paulo",
+  "title_pt": "Araraquara — 82 aves silvestres mantidas sem documentação",
+  "card_text_pt": "Fiscalização ambiental encontrou 82 aves sem documentos ou anilhas em residência de Araraquara; notícia publicada em 14/06/2024.",
+  "fauna_label_pt": "Aves spp.; 44 canários-da-terra, 30 coleirinhos, 1 sabiá, 1 trinca-ferro, 2 curiós, 1 bicudo, 2 pintassilgos e 1 bigodinho",
+  "quantity_note_pt": "82 aves vivas; a apreensão ocorreu até 14/06/2024, mas o dia exato não é divulgado.",
+  "geographic_note_pt": "Localização generalizada para o mapa; não indica endereço exato.",
+  "context_pt": "[O1] Reportagem publicada em 14/06/2024 atribui à Polícia Ambiental apreensão de 82 aves em uma residência: 44 canários-da-terra, 30 coleirinhos, um sabiá, um trinca-ferro, dois curiós, um bicudo, dois pintassilgos e um bigodinho. O morador não apresentou documentação e as aves não possuíam anilhas. Foram apreendidas as gaiolas, posteriormente destruídas, e a notícia relata soltura das aves. A data exata da diligência e a origem dos indivíduos não foram informadas.\n\n[S1] Brasileiro et al. (2026) avaliaram isótopos em penas de 58 espécies de aves canoras brasileiras para diferenciar origem silvestre e cativa. A ausência de anilhas e documentos neste caso evidencia uma lacuna de procedência para a qual métodos independentes de identificação de origem poderiam ser relevantes; não há notícia de análise isotópica das 82 aves.",
+  "references_text_pt": "[O1] Rádio Sanca / Portal Morada (relato da PM Ambiental) — https://www.radiosanca.com.br/cidades/araraquara/araraquara-policia-militar-ambiental-apreende-82-aves-silvestres; [S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "route_audit_note_pt": "Origem e destino da fauna não documentados; nenhuma rota inferida.",
+  "location_label_en": "Araraquara, São Paulo",
+  "title_en": "Araraquara — 82 undocumented wild birds held at home",
+  "card_text_en": "Environmental police found 82 birds without documents or identification rings at a residence; news published on 14 June 2024.",
+  "fauna_label_en": "Aves spp.; 44 canários-da-terra, 30 coleirinhos, 1 sabiá, 1 trinca-ferro, 2 curiós, 1 bicudo, 2 pintassilgos e 1 bigodinho",
+  "quantity_note_en": "82 live birds; seizure took place no later than 14 June 2024, but the precise day is unknown.",
+  "geographic_note_en": "Generalized map point; not an exact address.",
+  "context_en": "[O1] A report published on 14 June 2024 attributes the seizure of 82 birds from a residence to environmental police: 44 saffron finches, 30 seedeaters, one thrush, one green-winged saltator, two curiós, one seed-finch, two siskins and one additional songbird known locally as bigodinho. The resident lacked documentation, and none of the birds had rings. Cages were seized and reportedly destroyed, and the birds released. The inspection date and the birds' origins were not reported.\n\n[S1] Brasileiro et al. (2026) examined feather isotopes across 58 Brazilian songbird species to distinguish wild versus captive origin. Missing rings and documentation in this case reveal a provenance gap that independent forensic techniques could help assess; no isotope analysis was reported for these 82 birds.",
+  "references_text_en": "[O1] Rádio Sanca / Portal Morada (relato da PM Ambiental) — https://www.radiosanca.com.br/cidades/araraquara/araraquara-policia-militar-ambiental-apreende-82-aves-silvestres; [S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "route_audit_note_en": "Wildlife origin and destination unreported; no inferred route.",
+  "location_label_es": "Araraquara, São Paulo",
+  "title_es": "Araraquara — 82 aves silvestres mantenidas sin documentos",
+  "card_text_es": "La policía ambiental halló 82 aves sin documentos ni anillas en una vivienda; noticia publicada el 14/06/2024.",
+  "fauna_label_es": "Aves spp.; 44 canários-da-terra, 30 coleirinhos, 1 sabiá, 1 trinca-ferro, 2 curiós, 1 bicudo, 2 pintassilgos e 1 bigodinho",
+  "quantity_note_es": "82 aves vivas; el decomiso ocurrió hasta el 14/06/2024, sin fecha exacta publicada.",
+  "geographic_note_es": "Ubicación generalizada para el mapa; no es una dirección exacta.",
+  "context_es": "[O1] Una noticia publicada el 14/06/2024 atribuye a la policía ambiental el decomiso domiciliario de 82 aves: 44 canarios de la tierra, 30 semilleros, un zorzal, un trinca-ferro, dos curiós, un bicudo, dos jilgueros y un ave conocida como bigodinho. No había documentos ni anillas. Se decomisaron y destruyeron jaulas y se informó de la liberación de las aves. Se desconocen la fecha exacta de la inspección y la procedencia de los ejemplares.\n\n[S1] Brasileiro et al. (2026) analizaron isótopos en plumas de 58 especies de aves cantoras brasileñas para diferenciar origen silvestre y cautivo. La ausencia de anillas y documentos revela una laguna de procedencia donde podrían ser útiles pruebas independientes; no se notificaron análisis isotópicos de estas 82 aves.",
+  "references_text_es": "[O1] Rádio Sanca / Portal Morada (relato da PM Ambiental) — https://www.radiosanca.com.br/cidades/araraquara/araraquara-policia-militar-ambiental-apreende-82-aves-silvestres; [S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "route_audit_note_es": "Origen y destino de la fauna desconocidos; no se infiere ruta."
+}
