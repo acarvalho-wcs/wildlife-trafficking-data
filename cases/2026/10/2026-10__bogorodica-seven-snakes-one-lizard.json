@@ -1,0 +1,95 @@
+{
+  "id": "2026-10__bogorodica-seven-snakes-one-lizard",
+  "status": "VALIDATED",
+  "country": "Macedônia do Norte",
+  "event_date": null,
+  "publication_date": "2026-10-10",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": 41.14,
+    "lon": 22.55
+  },
+  "coordinate_precision": "border_crossing_generalized",
+  "source_label": "Customs Administration of North Macedonia",
+  "source_url": "https://customs.gov.mk/ns-newsarticle-na-bogorodica-sprecen-sverc-na-zastiteni-vidovi-zmii.nspx",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Serpentes spp. (incluindo Pythonidae); Lacertilia sp.",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 8,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 8
+  },
+  "quantity_unassigned": 0,
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "ingestion_batch": "vg24-2026-10-11-reviewed",
+  "lead_id": "VG24-006",
+  "image_source_url": "https://customs.gov.mk/ns-newsarticle-na-bogorodica-sprecen-sverc-na-zastiteni-vidovi-zmii.nspx",
+  "image_status": "SOURCE_PAGE_ONLY_IMAGE_UNRESOLVED",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Customs Administration of North Macedonia",
+      "title": "Customs Administration of North Macedonia",
+      "url": "https://customs.gov.mk/ns-newsarticle-na-bogorodica-sprecen-sverc-na-zastiteni-vidovi-zmii.nspx"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "title": "Global wildlife trade across the tree of life",
+      "url": "https://doi.org/10.1126/science.aav5327"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "MRT (albanês)",
+      "title": "MRT (albanês)",
+      "url": "https://al.mrt.com.mk/node/157854",
+      "same_as_occurrence_source": false
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report",
+      "title": "World Wildlife Crime Report (2024)",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Bogorodica (posto fronteiriço)",
+  "title_pt": "Bogorodica — sete serpentes e um lagarto ocultos em veículo",
+  "card_text_pt": "A alfândega apreendeu sete serpentes, incluindo quatro pítons, e um lagarto escondidos sob o banco de um veículo que tentava ingressar no país.",
+  "quantity_note_pt": "Sete serpentes e um lagarto; nomes comerciais/vernaculares do comunicado não são identificação taxonômica confirmada.",
+  "fauna_label_pt": "sete serpentes e um lagarto ocultos em veículo",
+  "geographic_note_pt": "Coordenada generalizada apenas para posicionamento cartográfico; não é endereço exato nem uma rota.",
+  "context_pt": "[O1] A alfândega reporta sete serpentes, quatro delas pítons, e um lagarto em veículo conduzido por cidadão do Kosovo. O país de origem dos animais não foi estabelecido.\n\n[S1] Scheffers et al. (2019) estudam a amplitude global do comércio de fauna; não identificam a origem, os autores ou o impacto populacional deste caso.\n\n[N1] Cobertura da MRT confirma a interceptação, mas não demonstra proveniência nem rede.\n\n[I1] O UNODC (2024) recomenda análise baseada em evidências; não extrapolar redes, rotas ou quantidades não documentadas.",
+  "references_text_pt": "[O1] Customs Administration of North Macedonia — https://customs.gov.mk/ns-newsarticle-na-bogorodica-sprecen-sverc-na-zastiteni-vidovi-zmii.nspx; [S1] Scheffers et al. (2019) — https://doi.org/10.1126/science.aav5327; [N1] MRT (albanês) — https://al.mrt.com.mk/node/157854; [I1] UNODC (2024) — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos geográficos documentados; não criar rota inferida.",
+  "location_label_en": "Bogorodica (posto fronteiriço)",
+  "title_en": "Bogorodica — seven snakes and one lizard concealed in a vehicle",
+  "card_text_en": "Customs officers seized seven snakes, including four pythons, and one lizard hidden beneath a vehicle seat during an attempted entry into the country.",
+  "quantity_note_en": "Seven snakes and one lizard; informal trade names in the release are not verified scientific identifications.",
+  "fauna_label_en": "seven snakes and one lizard concealed in a vehicle",
+  "geographic_note_en": "Generalized coordinate for map placement only; not an exact address or trafficking route.",
+  "context_en": "[O1] Customs reports seven snakes, four of them pythons, and one lizard in a vehicle driven by a Kosovo national. The animals' country of origin was not established.\n\n[S1] Scheffers et al. (2019) examine the global breadth of wildlife trade, not the origin, perpetrators or population impact of this case.\n\n[N1] MRT coverage reports the interception but does not establish provenance or a network.\n\n[I1] UNODC (2024) emphasizes evidence-led analysis; undocumented networks, routes and quantities are not inferred.",
+  "references_text_en": "[O1] Customs Administration of North Macedonia — https://customs.gov.mk/ns-newsarticle-na-bogorodica-sprecen-sverc-na-zastiteni-vidovi-zmii.nspx; [S1] Scheffers et al. (2019) — https://doi.org/10.1126/science.aav5327; [N1] MRT (albanês) — https://al.mrt.com.mk/node/157854; [I1] UNODC (2024) — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "No movement with documented origin and destination; do not create an inferred route.",
+  "location_label_es": "Bogorodica (posto fronteiriço)",
+  "title_es": "Bogorodica — siete serpientes y un lagarto ocultos en un vehículo",
+  "card_text_es": "La aduana decomisó siete serpientes, incluidas cuatro pitones, y un lagarto ocultos bajo el asiento de un vehículo que intentaba entrar al país.",
+  "quantity_note_es": "Siete serpientes y un lagarto; los nombres comerciales del comunicado no constituyen identificación científica verificada.",
+  "fauna_label_es": "siete serpientes y un lagarto ocultos en un vehículo",
+  "geographic_note_es": "Coordenada generalizada solo para ubicar el caso; no es dirección exacta ni ruta.",
+  "context_es": "[O1] Aduanas reporta siete serpientes, cuatro pitones, y un lagarto en un vehículo conducido por un ciudadano de Kosovo. No se estableció el país de origen de los animales.\n\n[S1] Scheffers et al. (2019) analizan el alcance mundial del comercio de fauna; no establecen origen, responsables ni impacto poblacional de este caso.\n\n[N1] La cobertura de MRT informa la interceptación pero no prueba la procedencia ni una red.\n\n[I1] UNODC (2024) destaca el análisis basado en evidencias; no se infieren redes, rutas ni cantidades no documentadas.",
+  "references_text_es": "[O1] Customs Administration of North Macedonia — https://customs.gov.mk/ns-newsarticle-na-bogorodica-sprecen-sverc-na-zastiteni-vidovi-zmii.nspx; [S1] Scheffers et al. (2019) — https://doi.org/10.1126/science.aav5327; [N1] MRT (albanês) — https://al.mrt.com.mk/node/157854; [I1] UNODC (2024) — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No hay desplazamiento con origen y destino documentados; no crear una ruta inferida."
+}

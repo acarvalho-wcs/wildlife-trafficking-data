@@ -1,0 +1,91 @@
+{
+  "id": "2026-10__tonala-chiapas-at-least-26-turtles-sale",
+  "status": "VALIDATED",
+  "country": "México",
+  "event_date": null,
+  "publication_date": "2026-10-10",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": 16.09,
+    "lon": -93.75
+  },
+  "coordinate_precision": "city_generalized",
+  "source_label": "Meganoticias",
+  "source_url": "https://www.meganoticias.mx/tuxtla-gutierrez/noticia/tres-detenidos-por-presunta-comercializaci%C3%B3n-de-fauna-silvestre/777953",
+  "fauna_groups_aggregated": [
+    "Répteis",
+    "Aves",
+    "Anfíbios",
+    "Peixes",
+    "Invertebrados"
+  ],
+  "taxon_text": "Testudines spp.; Aves spp.; Crocodylia sp.; Amphibia spp.; Arachnida spp.; Pisces spp.",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 26,
+  "quantity_qualifier": "minimum",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 26
+  },
+  "quantity_unassigned": 0,
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "ingestion_batch": "vg24-2026-10-11-reviewed",
+  "lead_id": "VG24-003",
+  "image_source_url": "https://www.meganoticias.mx/tuxtla-gutierrez/noticia/tres-detenidos-por-presunta-comercializaci%C3%B3n-de-fauna-silvestre/777953",
+  "image_status": "SOURCE_PAGE_ONLY_IMAGE_UNRESOLVED",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Meganoticias",
+      "title": "Meganoticias",
+      "url": "https://www.meganoticias.mx/tuxtla-gutierrez/noticia/tres-detenidos-por-presunta-comercializaci%C3%B3n-de-fauna-silvestre/777953"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Scheffers et al. (2019), Global wildlife trade across the tree of life",
+      "title": "Global wildlife trade across the tree of life",
+      "url": "https://doi.org/10.1126/science.aav5327"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_context",
+      "label": "UNODC (2024), World Wildlife Crime Report",
+      "title": "World Wildlife Crime Report (2024)",
+      "url": "https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf"
+    }
+  ],
+  "location_label_pt": "Tonalá, Chiapas",
+  "title_pt": "Tonalá, Chiapas — pelo menos 26 tartarugas e outras espécies",
+  "card_text_pt": "Três homens foram detidos durante investigação sobre venda ilegal de fauna. Pelo menos 26 tartarugas, além de aves e outros animais, foram apreendidos.",
+  "quantity_note_pt": "Contagem mínima: 26 tartarugas; demais espécies citadas sem quantificação, não somar indivíduos desconhecidos.",
+  "fauna_label_pt": "pelo menos 26 tartarugas e outras espécies",
+  "geographic_note_pt": "Coordenada generalizada apenas para posicionamento cartográfico; não é endereço exato nem uma rota.",
+  "context_pt": "[O1] A notícia descreve apreensão no centro de Tonalá, três detenções, 26 tartarugas e outras espécies à venda sem documentação; não identifica data exata, procedência nem rota.\n\n[S1] Scheffers et al. (2019) estudam a amplitude global do comércio de fauna; não identificam a origem, os autores ou o impacto populacional deste caso.\n\n[N1] A informação noticiosa disponível não estabelece relações verificadas com outras apreensões ou rotas.\n\n[I1] O UNODC (2024) recomenda análise baseada em evidências; não extrapolar redes, rotas ou quantidades não documentadas.",
+  "references_text_pt": "[O1] Meganoticias — https://www.meganoticias.mx/tuxtla-gutierrez/noticia/tres-detenidos-por-presunta-comercializaci%C3%B3n-de-fauna-silvestre/777953; [S1] Scheffers et al. (2019) — https://doi.org/10.1126/science.aav5327; [N1] no independently verified additional report; [I1] UNODC (2024) — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos geográficos documentados; não criar rota inferida.",
+  "location_label_en": "Tonalá, Chiapas",
+  "title_en": "Tonalá, Chiapas — at least 26 turtles and other wildlife",
+  "card_text_en": "Three men were detained during an investigation into alleged unlawful wildlife sales. At least 26 turtles, birds and other animals were seized.",
+  "quantity_note_en": "Minimum count: 26 turtles; other taxa are reported without counts and are not added to the total.",
+  "fauna_label_en": "at least 26 turtles and other wildlife",
+  "geographic_note_en": "Generalized coordinate for map placement only; not an exact address or trafficking route.",
+  "context_en": "[O1] The report describes a seizure in central Tonalá, three detentions, 26 turtles and other taxa allegedly sold without documents; the exact event date, provenance and route are unknown.\n\n[S1] Scheffers et al. (2019) examine the global breadth of wildlife trade, not the origin, perpetrators or population impact of this case.\n\n[N1] Available news reporting does not establish verified links to other seizures or routes.\n\n[I1] UNODC (2024) emphasizes evidence-led analysis; undocumented networks, routes and quantities are not inferred.",
+  "references_text_en": "[O1] Meganoticias — https://www.meganoticias.mx/tuxtla-gutierrez/noticia/tres-detenidos-por-presunta-comercializaci%C3%B3n-de-fauna-silvestre/777953; [S1] Scheffers et al. (2019) — https://doi.org/10.1126/science.aav5327; [N1] no independently verified additional report; [I1] UNODC (2024) — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_en": "No movement with documented origin and destination; do not create an inferred route.",
+  "location_label_es": "Tonalá, Chiapas",
+  "title_es": "Tonalá, Chiapas — al menos 26 tortugas y otras especies",
+  "card_text_es": "Tres hombres fueron detenidos durante una investigación por presunta venta ilegal de fauna. Se decomisaron al menos 26 tortugas, aves y otros animales.",
+  "quantity_note_es": "Recuento mínimo: 26 tortugas; los demás taxones se mencionan sin cifras y no se suman al total.",
+  "fauna_label_es": "al menos 26 tortugas y otras especies",
+  "geographic_note_es": "Coordenada generalizada solo para ubicar el caso; no es dirección exacta ni ruta.",
+  "context_es": "[O1] La noticia describe un decomiso en el centro de Tonalá, tres detenidos, 26 tortugas y otros animales presuntamente vendidos sin documentos; se desconocen la fecha exacta, el origen y la ruta.\n\n[S1] Scheffers et al. (2019) analizan el alcance mundial del comercio de fauna; no establecen origen, responsables ni impacto poblacional de este caso.\n\n[N1] La cobertura disponible no establece vínculos verificados con otras incautaciones o rutas.\n\n[I1] UNODC (2024) destaca el análisis basado en evidencias; no se infieren redes, rutas ni cantidades no documentadas.",
+  "references_text_es": "[O1] Meganoticias — https://www.meganoticias.mx/tuxtla-gutierrez/noticia/tres-detenidos-por-presunta-comercializaci%C3%B3n-de-fauna-silvestre/777953; [S1] Scheffers et al. (2019) — https://doi.org/10.1126/science.aav5327; [N1] no independently verified additional report; [I1] UNODC (2024) — https://www.unodc.org/documents/data-and-analysis/wildlife/2024/Wildlife_SpecialPoint_Final.pdf",
+  "route_audit_note_es": "No hay desplazamiento con origen y destino documentados; no crear una ruta inferida."
+}
