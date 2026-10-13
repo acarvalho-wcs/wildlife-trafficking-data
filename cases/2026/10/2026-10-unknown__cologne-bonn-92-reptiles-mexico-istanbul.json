@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-unknown__cologne-bonn-92-reptiles-mexico-istanbul",
+  "status": "VALIDATED",
+  "country": "Alemanha",
+  "event_date": null,
+  "publication_date": "2026-10-13",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": 50.8659,
+    "lon": 7.1427
+  },
+  "coordinate_precision": "airport_generalized",
+  "source_label": "Hauptzollamt Köln (comunicado de imprensa, reproduzido no Meinestadt)",
+  "source_url": "https://aktuell.meinestadt.de/koeln/polizeimeldungen/828845485",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Squamata spp. (serpentes e lagartos; espécies não confirmadas)",
+  "modal_primary": "Aéreo",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 92,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 92
+  },
+  "quantity_unassigned": 0,
+  "ingestion_batch": "global-2026-10-13-cologne-bonn-addendum",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "DOCUMENTED_PASSENGER_ITINERARY_NEEDS_ROUTE_RECORD",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_RESOLVED",
+  "occurrence_type": "wildlife_smuggling",
+  "specimen_state": "alive_at_seizure_some_later_died",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "official_press_statement",
+      "label": "Hauptzollamt Köln",
+      "title": "Kölner Zoll findet mehr als 90 lebende Giftschlangen und Echsen",
+      "url": "https://aktuell.meinestadt.de/koeln/polizeimeldungen/828845485"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Kölner Stadt-Anzeiger/dpa",
+      "title": "Zoll findet mehr als 90 Giftschlangen und Echsen im Gepäck",
+      "url": "https://www.ksta.de/koeln/koeln-zoll-findet-mehr-als-90-giftschlangen-und-echsen-im-gepaeck-1394931"
+    },
+    {
+      "id": "N2",
+      "type": "news_context",
+      "label": "Der Spiegel",
+      "title": "Mehr als 90 Schlangen und Echsen in Koffer entdeckt",
+      "url": "https://www.spiegel.de/panorama/justiz/flughafen-koeln-bonn-mehr-als-90-schlangen-und-echsen-in-koffer-entdeckt-a-0138aabd-b104-4c0e-a614-5acce75c46e6"
+    }
+  ],
+  "location_label_pt": "Aeroporto de Colônia/Bonn, Renânia do Norte-Vestfália",
+  "location_label_en": "Cologne/Bonn Airport, North Rhine-Westphalia",
+  "location_label_es": "Aeropuerto de Colonia/Bonn, Renania del Norte-Westfalia",
+  "fauna_label_pt": "55 lagartos e 37 serpentes",
+  "fauna_label_en": "55 lizards and 37 snakes",
+  "fauna_label_es": "55 lagartos y 37 serpientes",
+  "title_pt": "Aeroporto de Colônia/Bonn — 92 répteis apreendidos em bagagem",
+  "title_en": "Cologne/Bonn Airport — 92 reptiles seized in luggage",
+  "title_es": "Aeropuerto de Colonia/Bonn — 92 reptiles incautados en equipaje",
+  "card_text_pt": "A alfândega de Colônia encontrou e apreendeu 55 lagartos e 37 serpentes (92 répteis) escondidos na mala de um viajante mexicano no Aeroporto de Colônia/Bonn. Segundo a imprensa que citou a autoridade aduaneira, o itinerário aéreo foi Cidade do México–Istambul–Colônia/Bonn. Algumas espécies foram descritas como raras ou protegidas, mas a identificação científica não foi divulgada; alguns lagartos morreram após o resgate.",
+  "card_text_en": "Cologne customs seized 55 lizards and 37 snakes (92 reptiles) hidden in a Mexican traveller's suitcase at Cologne/Bonn Airport. Reporting attributed to customs identifies an air itinerary from Mexico City via Istanbul to Cologne/Bonn. Certain species were described as rare or protected, but scientific identifications were not released; some lizards died after seizure.",
+  "card_text_es": "La aduana de Colonia incautó 55 lagartos y 37 serpientes (92 reptiles) ocultos en la maleta de un viajero mexicano en el aeropuerto de Colonia/Bonn. La prensa, citando a la autoridad aduanera, informó de un itinerario Ciudad de México–Estambul–Colonia/Bonn. Algunas especies fueron descritas como raras o protegidas, pero no se divulgaron identificaciones científicas; algunos lagartos murieron después.",
+  "context_pt": "[O1] [N1] A alfândega de Colônia encontrou e apreendeu 55 lagartos e 37 serpentes (92 répteis) escondidos na mala de um viajante mexicano no Aeroporto de Colônia/Bonn. Segundo a imprensa que citou a autoridade aduaneira, o itinerário aéreo foi Cidade do México–Istambul–Colônia/Bonn. Algumas espécies foram descritas como raras ou protegidas, mas a identificação científica não foi divulgada; alguns lagartos morreram após o resgate.\n\nNota de verificação: A data exata da apreensão não consta da comunicação da alfândega divulgada em 13/10/2026. Não presumir que ocorreu em 11, 12 ou 13/10. A conferência de imprensa anunciada para 15/10 poderá fornecer novas informações. Não confundir a rota aérea do viajante com a origem biológica dos animais.",
+  "context_en": "[O1] [N1] Cologne customs seized 55 lizards and 37 snakes (92 reptiles) hidden in a Mexican traveller's suitcase at Cologne/Bonn Airport. Reporting attributed to customs identifies an air itinerary from Mexico City via Istanbul to Cologne/Bonn. Certain species were described as rare or protected, but scientific identifications were not released; some lizards died after seizure.\n\nVerification note: The precise seizure date was not reported by customs in its 13 October 2026 statement. Do not assume 11, 12 or 13 October as the seizure date. A press briefing was announced for 15 October. The passenger flight itinerary is not evidence of the animals' biological origin.",
+  "context_es": "[O1] [N1] La aduana de Colonia incautó 55 lagartos y 37 serpientes (92 reptiles) ocultos en la maleta de un viajero mexicano en el aeropuerto de Colonia/Bonn. La prensa, citando a la autoridad aduanera, informó de un itinerario Ciudad de México–Estambul–Colonia/Bonn. Algunas especies fueron descritas como raras o protegidas, pero no se divulgaron identificaciones científicas; algunos lagartos murieron después.\n\nNota de verificación: La fecha exacta de la incautación no consta en el comunicado aduanero del 13 de octubre de 2026. No asumir que ocurrió los días 11, 12 o 13. Se anunció una rueda de prensa para el 15 de octubre. El itinerario aéreo no indica el origen biológico de los animales.",
+  "route_audit_note_pt": "Rota aérea documentada do passageiro: Cidade do México → Istambul → Colônia/Bonn. Não implica procedência biológica dos répteis.",
+  "route_audit_note_en": "Reported passenger itinerary: Mexico City → Istanbul → Cologne/Bonn. This does not imply biological origin of the reptiles.",
+  "route_audit_note_es": "Itinerario aéreo declarado: Ciudad de México → Estambul → Colonia/Bonn. No implica origen biológico de los reptiles.",
+  "geographic_note_pt": "A data exata da apreensão não consta da comunicação da alfândega divulgada em 13/10/2026. Não presumir que ocorreu em 11, 12 ou 13/10. A conferência de imprensa anunciada para 15/10 poderá fornecer novas informações. Não confundir a rota aérea do viajante com a origem biológica dos animais.",
+  "geographic_note_en": "The precise seizure date was not reported by customs in its 13 October 2026 statement. Do not assume 11, 12 or 13 October as the seizure date. A press briefing was announced for 15 October. The passenger flight itinerary is not evidence of the animals' biological origin.",
+  "geographic_note_es": "La fecha exacta de la incautación no consta en el comunicado aduanero del 13 de octubre de 2026. No asumir que ocurrió los días 11, 12 o 13. Se anunció una rueda de prensa para el 15 de octubre. El itinerario aéreo no indica el origen biológico de los animales.",
+  "quantity_note_pt": "55 lagartos + 37 serpentes = 92 animais, incluindo indivíduos que morreram depois da apreensão.",
+  "quantity_note_en": "55 lizards + 37 snakes = 92 animals, including individuals that subsequently died.",
+  "quantity_note_es": "55 lagartos + 37 serpientes = 92 animales, incluidos ejemplares que murieron posteriormente.",
+  "references_text_pt": "[O1] https://aktuell.meinestadt.de/koeln/polizeimeldungen/828845485; [N1] https://www.ksta.de/koeln/koeln-zoll-findet-mehr-als-90-giftschlangen-und-echsen-im-gepaeck-1394931; [N2] https://www.spiegel.de/panorama/justiz/flughafen-koeln-bonn-mehr-als-90-schlangen-und-echsen-in-koffer-entdeckt-a-0138aabd-b104-4c0e-a614-5acce75c46e6",
+  "references_text_en": "[O1] https://aktuell.meinestadt.de/koeln/polizeimeldungen/828845485; [N1] https://www.ksta.de/koeln/koeln-zoll-findet-mehr-als-90-giftschlangen-und-echsen-im-gepaeck-1394931; [N2] https://www.spiegel.de/panorama/justiz/flughafen-koeln-bonn-mehr-als-90-schlangen-und-echsen-in-koffer-entdeckt-a-0138aabd-b104-4c0e-a614-5acce75c46e6",
+  "references_text_es": "[O1] https://aktuell.meinestadt.de/koeln/polizeimeldungen/828845485; [N1] https://www.ksta.de/koeln/koeln-zoll-findet-mehr-als-90-giftschlangen-und-echsen-im-gepaeck-1394931; [N2] https://www.spiegel.de/panorama/justiz/flughafen-koeln-bonn-mehr-als-90-schlangen-und-echsen-in-koffer-entdeckt-a-0138aabd-b104-4c0e-a614-5acce75c46e6"
+}
