@@ -1,0 +1,61 @@
+{
+  "id": "2018-01-01__ria-lagartos-jaguar-skin",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "jaguar_25_user_sources_20261013",
+  "country": "México",
+  "location_label_pt": "Ría Lagartos, Yucatán",
+  "location_label_en": "Ría Lagartos, Yucatán",
+  "location_label_es": "Ría Lagartos, Yucatán",
+  "coordinates": {
+    "lat": 21.6,
+    "lon": -88.16
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não endereço exato da apreensão; verificar geolocalização fina.",
+  "source_label": "Profepa",
+  "source_url": "https://www.gob.mx/profepa/prensa/asegura-profepa-piel-de-un-jaguar-en-domicilio-particular-dentro-de-la-reserva-de-la-biosfera-ria-lagartos-en-yucatan",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "approximate_or_unknown",
+  "fauna_label_pt": "Uma pele de jaguar macho",
+  "fauna_label_en": "Uma pele de jaguar macho",
+  "fauna_label_es": "Uma pele de jaguar macho",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "Uma pele de jaguar macho — Ría Lagartos, Yucatán",
+  "title_en": "Jaguar-related seizure or recovery — Ría Lagartos, Yucatán",
+  "title_es": "Decomiso o rescate relacionado con jaguar — Ría Lagartos, Yucatán",
+  "card_text_pt": "Pele apreendida em propriedade da reserva, com 12 perfurações de projéteis; origem da caça não demonstrada.",
+  "card_text_en": "Documented case: Uma pele de jaguar macho. Ría Lagartos, Yucatán. Original source: Profepa. Taxonomic, timing and quantity caveats are preserved in the case context.",
+  "card_text_es": "Caso documentado: Uma pele de jaguar macho. Ría Lagartos, Yucatán. Fuente original: Profepa. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
+  "context_pt": "Evidência primária [O1]: Pele apreendida em propriedade da reserva, com 12 perfurações de projéteis; origem da caça não demonstrada. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
+  "context_en": "Original evidence [O1]: Pele apreendida em propriedade da reserva, com 12 perfurações de projéteis; origem da caça não demonstrada. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
+  "context_es": "Evidencia original [O1]: Pele apreendida em propriedade da reserva, com 12 perfurações de projéteis; origem da caça não demonstrada. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Profepa",
+      "url": "https://www.gob.mx/profepa/prensa/asegura-profepa-piel-de-un-jaguar-en-domicilio-particular-dentro-de-la-reserva-de-la-biosfera-ria-lagartos-en-yucatan"
+    }
+  ],
+  "references_text_pt": "[O1] Profepa — https://www.gob.mx/profepa/prensa/asegura-profepa-piel-de-un-jaguar-en-domicilio-particular-dentro-de-la-reserva-de-la-biosfera-ria-lagartos-en-yucatan",
+  "references_text_en": "[O1] Profepa — https://www.gob.mx/profepa/prensa/asegura-profepa-piel-de-un-jaguar-en-domicilio-particular-dentro-de-la-reserva-de-la-biosfera-ria-lagartos-en-yucatan",
+  "references_text_es": "[O1] Profepa — https://www.gob.mx/profepa/prensa/asegura-profepa-piel-de-un-jaguar-en-domicilio-particular-dentro-de-la-reserva-de-la-biosfera-ria-lagartos-en-yucatan",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de partes, peças ou produtos; não de animais vivos.",
+  "image_url": null,
+  "image_source_url": "https://www.gob.mx/profepa/prensa/asegura-profepa-piel-de-un-jaguar-en-domicilio-particular-dentro-de-la-reserva-de-la-biosfera-ria-lagartos-en-yucatan",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
