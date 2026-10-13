@@ -27,10 +27,11 @@
   "fauna_label_pt": "129 lagartos, 36 escorpiões, 8 serpentes e 50 anfíbios",
   "fauna_label_en": "129 lizards, 36 scorpions, 8 snakes and 50 frogs",
   "fauna_label_es": "129 lagartos, 36 escorpiones, 8 serpientes y 50 ranas",
-  "taxon_text": null,
+  "taxon_text": "Scorpiones (36); Squamata (137, 129 lizards and 8 snakes); Anura (50)",
   "fauna_groups_aggregated": [
     "Répteis",
-    "Anfíbios"
+    "Anfíbios",
+    "Invertebrados"
   ],
   "modal_primary": "Aéreo",
   "modal_label_pt": "Aéreo",
@@ -59,9 +60,10 @@
   "quantity_kind": "animals",
   "quantity_by_group": {
     "Répteis": 137,
-    "Anfíbios": 50
+    "Anfíbios": 50,
+    "Invertebrados": 36
   },
-  "quantity_unassigned": 36,
+  "quantity_unassigned": 0,
   "quantity_note_pt": null,
   "quantity_note_en": null,
   "quantity_note_es": null,
@@ -70,5 +72,8 @@
   "image_checked_at": "2026-10-10T16:13:16Z",
   "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "image_url": "https://www.dubaicustoms.gov.ae/NewsImages/June_2026/ANIMALS_TH.jpg",
-  "image_resolution_method": "existing_direct"
+  "image_resolution_method": "existing_direct",
+  "correction_note_pt": "Composição reconciliada com o comunicado da Dubai Customs e a WAM: 36 escorpiões, 129 lagartos, oito serpentes e 50 anfíbios = 223 animais. Não constitui apreensão adicional.",
+  "correction_note_en": "Counts reconciled against Dubai Customs and WAM reports: 36 scorpions, 129 lizards, eight snakes and 50 frogs = 223 animals. Not a separate seizure.",
+  "correction_note_es": "Cantidades conciliadas con Dubai Customs y WAM: 36 escorpiones, 129 lagartos, ocho serpientes y 50 ranas = 223 animales. No es otro decomiso."
 }
