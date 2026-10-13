@@ -1,0 +1,68 @@
+{
+  "id": "2025-06-02__santa-clara-nanay-jaguar-skin-restobar",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "jaguar_source_verified_2026-10-13",
+  "reconstruction_confidence": "CONFIRMED_OFFICIAL_SOURCE_EVENT",
+  "country": "Peru",
+  "location_label_pt": "Santa Clara de Nanay, Loreto, Peru",
+  "location_label_en": "Santa Clara de Nanay, Loreto, Peru",
+  "location_label_es": "Santa Clara de Nanay, Loreto, Perú",
+  "coordinates": {
+    "lat": -3.8,
+    "lon": -73.31
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenadas aproximadas da localidade, não do ponto exato da apreensão.",
+  "geographic_note_en": "Approximate locality coordinates, not the exact seizure site.",
+  "geographic_note_es": "Coordenadas aproximadas de la localidad, no del lugar exacto del decomiso.",
+  "source_label": "Governo Regional de Loreto / GERFOR",
+  "source_url": "https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
+  "publication_date": "2025-06-18",
+  "event_date": "2025-06-02",
+  "fauna_label_pt": "1 pele de onça-pintada",
+  "fauna_label_en": "1 jaguar skin",
+  "fauna_label_es": "1 piel de jaguar",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "modal_label_pt": "Apreensão em fiscalização",
+  "modal_label_en": "Enforcement seizure",
+  "modal_label_es": "Decomiso en fiscalización",
+  "title_pt": "GERFOR apreende pele de onça-pintada em restobar de Santa Clara de Nanay",
+  "title_en": "GERFOR seizes jaguar skin at a Santa Clara de Nanay restobar",
+  "title_es": "GERFOR decomisa piel de jaguar en un restobar de Santa Clara de Nanay",
+  "card_text_pt": "Em fiscalização de 2 de junho de 2025, a GERFOR Maynas e a Polícia Ecológica apreenderam uma pele de Panthera onca exposta em um restobar de Santa Clara de Nanay.",
+  "card_text_en": "During a 2 June 2025 inspection, GERFOR Maynas and the Environmental Police seized one Panthera onca skin displayed at a Santa Clara de Nanay restobar.",
+  "card_text_es": "En un operativo del 2 de junio de 2025, GERFOR Maynas y la Policía Ecológica decomisaron una piel de Panthera onca exhibida en un restobar de Santa Clara de Nanay.",
+  "context_pt": "Fatos documentados [O1]: Em fiscalização de 2 de junho de 2025, a GERFOR Maynas e a Polícia Ecológica apreenderam uma pele de Panthera onca exposta em um restobar de Santa Clara de Nanay. Limites: A procedência da pele não foi estabelecida; não há rota documentada.",
+  "context_en": "Documented facts [O1]: During a 2 June 2025 inspection, GERFOR Maynas and the Environmental Police seized one Panthera onca skin displayed at a Santa Clara de Nanay restobar. Limits: The skin's provenance was not established; no route is documented.",
+  "context_es": "Hechos documentados [O1]: En un operativo del 2 de junio de 2025, GERFOR Maynas y la Policía Ecológica decomisaron una piel de Panthera onca exhibida en un restobar de Santa Clara de Nanay. Límites: No se estableció la procedencia de la piel ni se documentó una ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Governo Regional de Loreto / GERFOR",
+      "url": "https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar"
+    }
+  ],
+  "references_text_pt": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
+  "references_text_en": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
+  "references_text_es": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Contagem de partes/produtos, não de animais vivos.",
+  "quantity_note_en": "Count of parts/products, not live animals.",
+  "quantity_note_es": "Recuento de partes/productos, no de animales vivos.",
+  "image_url": null,
+  "image_source_url": "https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
