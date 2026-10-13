@@ -31,18 +31,24 @@
   "card_text_pt": "Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
   "card_text_en": "Historical jaguar parts seizure. Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
   "card_text_es": "Decomiso histórico de partes de jaguar. Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
-  "context_pt": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Não inferir mortes, rotas ou indivíduos a partir da quantidade de peças.",
-  "context_en": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Parts are not equivalent to individual animals; undocumented routes are not inferred.",
-  "context_es": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Las partes no equivalen a animales individuales ni permiten inferir rutas.",
+  "context_pt": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Não inferir mortes, rotas ou indivíduos a partir da quantidade de peças. [I1] Crânios são distintos de dentes isolados e não devem ser convertidos em número adicional de indivíduos. O relatório WCS (2022, pp. 6, 10, 13) separou dentes, peles, cabeças e corpos como tipos de produtos; a divergência entre 25 e 21 crânios exige auditoria de custódia do caso, não extrapolação de mercado.",
+  "context_en": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Parts are not equivalent to individual animals; undocumented routes are not inferred. [I1] Skulls must not be conflated with loose teeth or added to animal counts. WCS (2022, pp. 6, 10, 13) classified teeth, skins, heads and bodies separately; the 25-versus-21 discrepancy requires a case-specific custody audit.",
+  "context_es": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Las partes no equivalen a animales individuales ni permiten inferir rutas. [I1] Los cráneos no deben confundirse con dientes sueltos ni contarse como animales adicionales. WCS (2022, pp. 6, 10, 13) distinguió dientes, pieles, cabezas y cuerpos; la discrepancia entre 25 y 21 requiere auditoría de custodia.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "El Deber",
       "url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk"
     }
   ],
-  "references_text_pt": "[O1] El Deber — https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
+  "references_text_pt": "[O1] El Deber — https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
   "quantity_count": 25,
   "quantity_qualifier": "exact",
   "quantity_kind": "wildlife_items",
@@ -53,5 +59,8 @@
   "quantity_note_pt": "Quantidade de peças relatada; não de animais vivos.",
   "image_url": null,
   "image_source_url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "references_text_en": "\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_es": "\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "context_updated_at": "2026-10-13T05:00:00Z"
 }
