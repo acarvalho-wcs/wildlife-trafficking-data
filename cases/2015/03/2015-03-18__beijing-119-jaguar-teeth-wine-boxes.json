@@ -31,18 +31,24 @@
   "card_text_pt": "Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota.",
   "card_text_en": "Historical jaguar parts seizure. Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota.",
   "card_text_es": "Decomiso histórico de partes de jaguar. Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota.",
-  "context_pt": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Não inferir mortes, rotas ou indivíduos a partir da quantidade de peças.",
-  "context_en": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Parts are not equivalent to individual animals; undocumented routes are not inferred.",
-  "context_es": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Las partes no equivalen a animales individuales ni permiten inferir rutas.",
+  "context_pt": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Não inferir mortes, rotas ou indivíduos a partir da quantidade de peças. [I1] A apreensão em Pequim envolve dentes, categoria mais frequente dentre as 125 peças verificadas visualmente no estudo WCS (2022, pp. 12–16). Esse paralelo informa o tipo de produto e a relevância de mercados asiáticos, mas o estudo não prova que este carregamento tenha pertencido à sua amostra.",
+  "context_en": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Parts are not equivalent to individual animals; undocumented routes are not inferred. [I1] The seizure in Beijing involved teeth, the most common of 125 visually confirmed items in WCS (2022, pp. 12–16). The parallel concerns product type and Asian market relevance, not proof that this shipment was covered by the study.",
+  "context_es": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Las partes no equivalen a animales individuales ni permiten inferir rutas. [I1] El decomiso en Pekín incluyó dientes, la categoría más frecuente entre 125 piezas confirmadas visualmente en WCS (2022, pp. 12–16). Esto contextualiza el producto, sin vincular el envío a la muestra del estudio.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "La Región",
       "url": "https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk"
     }
   ],
-  "references_text_pt": "[O1] La Región — https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/",
+  "references_text_pt": "[O1] La Región — https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
   "quantity_count": 119,
   "quantity_qualifier": "exact",
   "quantity_kind": "wildlife_items",
@@ -53,5 +59,8 @@
   "quantity_note_pt": "Quantidade de peças relatada; não de animais vivos.",
   "image_url": null,
   "image_source_url": "https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "references_text_en": "\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_es": "\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "context_updated_at": "2026-10-13T05:00:00Z"
 }
