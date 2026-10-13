@@ -33,20 +33,26 @@
   "card_text_pt": "Pele encontrada durante buscas do Caso Gringo; espécie ainda não confirmada por laudo.",
   "card_text_en": "Documented case: Uma pele aparentemente de onça-pintada. Heredia. Original source: La Nación / OIJ. Taxonomic, timing and quantity caveats are preserved in the case context.",
   "card_text_es": "Caso documentado: Uma pele aparentemente de onça-pintada. Heredia. Fuente original: La Nación / OIJ. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
-  "context_pt": "Evidência primária [O1]: Pele encontrada durante buscas do Caso Gringo; espécie ainda não confirmada por laudo. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
-  "context_en": "Original evidence [O1]: Pele encontrada durante buscas do Caso Gringo; espécie ainda não confirmada por laudo. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
-  "context_es": "Evidencia original [O1]: Pele encontrada durante buscas do Caso Gringo; espécie ainda não confirmada por laudo. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_pt": "Evidência primária [O1]: Pele encontrada durante buscas do Caso Gringo; espécie ainda não confirmada por laudo. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais. [I1] A identificação da pele no Caso Gringo permanece preliminar. O relatório WCS (2022) separou imagens confirmadas, ambíguas e não pertencentes a jaguar; essa distinção é diretamente útil para não transformar uma atribuição visual provisória em confirmação de Panthera onca.",
+  "context_en": "Original evidence [O1]: Pele encontrada durante buscas do Caso Gringo; espécie ainda não confirmada por laudo. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking. [I1] Species identification of the skin found during the Caso Gringo searches remains provisional. WCS (2022) distinguished confirmed, ambiguous and excluded jaguar images; the same evidentiary caution applies here.",
+  "context_es": "Evidencia original [O1]: Pele encontrada durante buscas do Caso Gringo; espécie ainda não confirmada por laudo. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas. [I1] La identificación de la piel del Caso Gringo sigue siendo provisional. WCS (2022) distinguió imágenes confirmadas, ambiguas y descartadas, por lo que no debe asumirse Panthera onca sin verificación.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "La Nación / OIJ",
       "url": "https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk"
     }
   ],
-  "references_text_pt": "[O1] La Nación / OIJ — https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/",
-  "references_text_en": "[O1] La Nación / OIJ — https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/",
-  "references_text_es": "[O1] La Nación / OIJ — https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/",
+  "references_text_pt": "[O1] La Nación / OIJ — https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_en": "[O1] La Nación / OIJ — https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_es": "[O1] La Nación / OIJ — https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
   "quantity_count": 1,
   "quantity_qualifier": "exact",
   "quantity_kind": "wildlife_items",
@@ -57,5 +63,6 @@
   "quantity_note_pt": "Quantidade de partes, peças ou produtos; não de animais vivos.",
   "image_url": null,
   "image_source_url": "https://www.nacion.com/sucesos/piel-de-jaguar-fue-decomisada-en-allanamiento/TUFRKR2TCJA4PIPM4WDVSLLQZ4/story/",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "context_updated_at": "2026-10-13T05:00:00Z"
 }
