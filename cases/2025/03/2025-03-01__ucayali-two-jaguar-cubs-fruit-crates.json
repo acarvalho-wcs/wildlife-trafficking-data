@@ -1,0 +1,61 @@
+{
+  "id": "2025-03-01__ucayali-two-jaguar-cubs-fruit-crates",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "jaguar_25_user_sources_20261013",
+  "country": "Peru",
+  "location_label_pt": "Coronel Portillo, Ucayali",
+  "location_label_en": "Coronel Portillo, Ucayali",
+  "location_label_es": "Coronel Portillo, Ucayali",
+  "coordinates": {
+    "lat": -8.38,
+    "lon": -74.55
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não endereço exato da apreensão; verificar geolocalização fina.",
+  "source_label": "SPDA / Governo Regional de Ucayali",
+  "source_url": "https://www.actualidadambiental.pe/rescatan-dos-cachorros-de-jaguar-amarrados-dentro-de-cajones-de-frutas-en-ucayali/",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "approximate_or_unknown",
+  "fauna_label_pt": "Dois filhotes de onça-pintada",
+  "fauna_label_en": "Dois filhotes de onça-pintada",
+  "fauna_label_es": "Dois filhotes de onça-pintada",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "Dois filhotes de onça-pintada — Coronel Portillo, Ucayali",
+  "title_en": "Jaguar-related seizure or recovery — Coronel Portillo, Ucayali",
+  "title_es": "Decomiso o rescate relacionado con jaguar — Coronel Portillo, Ucayali",
+  "card_text_pt": "Dois filhotes encontrados amarrados em caixas de frutas em veículo; relato de deslocamento em direção a Puerto Súngaro não prova origem.",
+  "card_text_en": "Documented case: Dois filhotes de onça-pintada. Coronel Portillo, Ucayali. Original source: SPDA / Governo Regional de Ucayali. Taxonomic, timing and quantity caveats are preserved in the case context.",
+  "card_text_es": "Caso documentado: Dois filhotes de onça-pintada. Coronel Portillo, Ucayali. Fuente original: SPDA / Governo Regional de Ucayali. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
+  "context_pt": "Evidência primária [O1]: Dois filhotes encontrados amarrados em caixas de frutas em veículo; relato de deslocamento em direção a Puerto Súngaro não prova origem. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
+  "context_en": "Original evidence [O1]: Dois filhotes encontrados amarrados em caixas de frutas em veículo; relato de deslocamento em direção a Puerto Súngaro não prova origem. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
+  "context_es": "Evidencia original [O1]: Dois filhotes encontrados amarrados em caixas de frutas em veículo; relato de deslocamento em direção a Puerto Súngaro não prova origem. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "SPDA / Governo Regional de Ucayali",
+      "url": "https://www.actualidadambiental.pe/rescatan-dos-cachorros-de-jaguar-amarrados-dentro-de-cajones-de-frutas-en-ucayali/"
+    }
+  ],
+  "references_text_pt": "[O1] SPDA / Governo Regional de Ucayali — https://www.actualidadambiental.pe/rescatan-dos-cachorros-de-jaguar-amarrados-dentro-de-cajones-de-frutas-en-ucayali/",
+  "references_text_en": "[O1] SPDA / Governo Regional de Ucayali — https://www.actualidadambiental.pe/rescatan-dos-cachorros-de-jaguar-amarrados-dentro-de-cajones-de-frutas-en-ucayali/",
+  "references_text_es": "[O1] SPDA / Governo Regional de Ucayali — https://www.actualidadambiental.pe/rescatan-dos-cachorros-de-jaguar-amarrados-dentro-de-cajones-de-frutas-en-ucayali/",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de espécimes vivos quando indicada; não somar materiais da mesma apreensão.",
+  "image_url": null,
+  "image_source_url": "https://www.actualidadambiental.pe/rescatan-dos-cachorros-de-jaguar-amarrados-dentro-de-cajones-de-frutas-en-ucayali/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
