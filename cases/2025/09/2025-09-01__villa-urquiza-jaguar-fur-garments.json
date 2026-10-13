@@ -33,20 +33,26 @@
   "card_text_pt": "Operação recolheu produtos de várias espécies; quantidade atribuível a jaguar desconhecida, não imputar 200 à espécie.",
   "card_text_en": "Documented case: Casacos e acessórios de pele de onça entre 200+ peças. Villa Urquiza, Buenos Aires. Original source: Governo da Argentina. Taxonomic, timing and quantity caveats are preserved in the case context.",
   "card_text_es": "Caso documentado: Casacos e acessórios de pele de onça entre 200+ peças. Villa Urquiza, Buenos Aires. Fuente original: Governo da Argentina. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
-  "context_pt": "Evidência primária [O1]: Operação recolheu produtos de várias espécies; quantidade atribuível a jaguar desconhecida, não imputar 200 à espécie. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
-  "context_en": "Original evidence [O1]: Operação recolheu produtos de várias espécies; quantidade atribuível a jaguar desconhecida, não imputar 200 à espécie. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
-  "context_es": "Evidencia original [O1]: Operação recolheu produtos de várias espécies; quantidade atribuível a jaguar desconhecida, não imputar 200 à espécie. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_pt": "Evidência primária [O1]: Operação recolheu produtos de várias espécies; quantidade atribuível a jaguar desconhecida, não imputar 200 à espécie. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais. [I1] A operação envolvendo vestuário de diversas espécies demonstra um mercado de produtos processados, distinto de peles inteiras. A WCS (2022) documentou peles e fragmentos de onça em anúncios; a fonte institucional não permite atribuir a jaguares as mais de duzentas peças apreendidas no conjunto.",
+  "context_en": "Original evidence [O1]: Operação recolheu produtos de várias espécies; quantidade atribuível a jaguar desconhecida, não imputar 200 à espécie. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking. [I1] The seizure concerns processed garments from several taxa, rather than whole skins alone. WCS (2022) documented skins and fragments in online offerings; no evidence allocates all 200-plus garments from this operation to jaguar.",
+  "context_es": "Evidencia original [O1]: Operação recolheu produtos de várias espécies; quantidade atribuível a jaguar desconhecida, não imputar 200 à espécie. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas. [I1] El operativo incluyó prendas procesadas de varias especies. WCS (2022) documentó pieles y fragmentos anunciados en línea; no existe sustento para atribuir al jaguar las más de doscientas prendas del operativo.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "Governo da Argentina",
       "url": "https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk"
     }
   ],
-  "references_text_pt": "[O1] Governo da Argentina — https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles",
-  "references_text_en": "[O1] Governo da Argentina — https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles",
-  "references_text_es": "[O1] Governo da Argentina — https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles",
+  "references_text_pt": "[O1] Governo da Argentina — https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_en": "[O1] Governo da Argentina — https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_es": "[O1] Governo da Argentina — https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
   "quantity_count": null,
   "quantity_qualifier": "unknown",
   "quantity_kind": "unknown",
@@ -55,5 +61,6 @@
   "quantity_note_pt": "Quantidade de espécimes vivos quando indicada; não somar materiais da mesma apreensão.",
   "image_url": null,
   "image_source_url": "https://www.argentina.gob.ar/noticias/la-subsecretaria-de-ambiente-y-la-policia-federal-incautaron-mas-de-200-prendas-de-pieles",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "context_updated_at": "2026-10-13T05:00:00Z"
 }
