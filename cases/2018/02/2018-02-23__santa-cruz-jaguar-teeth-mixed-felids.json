@@ -33,20 +33,26 @@
   "card_text_pt": "Apreensão divulgada como 185 dentes de jaguar; perícia posterior atribuiu apenas 80 à espécie. Outras peças requerem verificação separada.",
   "card_text_en": "Documented case: Oitenta dentes identificados como jaguar de lote de 185. Santa Cruz de la Sierra. Original source: Agencia de Noticias Fides. Taxonomic, timing and quantity caveats are preserved in the case context.",
   "card_text_es": "Caso documentado: Oitenta dentes identificados como jaguar de lote de 185. Santa Cruz de la Sierra. Fuente original: Agencia de Noticias Fides. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
-  "context_pt": "Evidência primária [O1]: Apreensão divulgada como 185 dentes de jaguar; perícia posterior atribuiu apenas 80 à espécie. Outras peças requerem verificação separada. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
-  "context_en": "Original evidence [O1]: Apreensão divulgada como 185 dentes de jaguar; perícia posterior atribuiu apenas 80 à espécie. Outras peças requerem verificação separada. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
-  "context_es": "Evidencia original [O1]: Apreensão divulgada como 185 dentes de jaguar; perícia posterior atribuiu apenas 80 à espécie. Outras peças requerem verificação separada. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_pt": "Evidência primária [O1]: Apreensão divulgada como 185 dentes de jaguar; perícia posterior atribuiu apenas 80 à espécie. Outras peças requerem verificação separada. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais. [I1] A apreensão inicialmente descrita como 185 dentes de jaguar demonstra o risco de superatribuição taxonômica. A WCS (2022, pp. 10–13) utilizou revisão de imagens por especialistas e distinguiu peças confirmadas e ambíguas; isso reforça a necessidade de preservar a revisão pericial posterior que atribuiu somente 80 dentes a onças neste caso.",
+  "context_en": "Original evidence [O1]: Apreensão divulgada como 185 dentes de jaguar; perícia posterior atribuiu apenas 80 à espécie. Outras peças requerem verificação separada. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking. [I1] The reported 185 teeth were not all confirmed as jaguar. WCS (2022, pp. 10–13) distinguished verified and ambiguous items through expert review; the later forensic identification of 80 jaguar teeth must take precedence over the initial attribution.",
+  "context_es": "Evidencia original [O1]: Apreensão divulgada como 185 dentes de jaguar; perícia posterior atribuiu apenas 80 à espécie. Outras peças requerem verificação separada. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas. [I1] Los 185 dientes reportados inicialmente no eran todos de jaguar. WCS (2022, pp. 10–13) separó identificaciones confirmadas y ambiguas; la revisión posterior que atribuyó 80 dientes a jaguares debe prevalecer.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "Agencia de Noticias Fides",
       "url": "https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk"
     }
   ],
-  "references_text_pt": "[O1] Agencia de Noticias Fides — https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979",
-  "references_text_en": "[O1] Agencia de Noticias Fides — https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979",
-  "references_text_es": "[O1] Agencia de Noticias Fides — https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979",
+  "references_text_pt": "[O1] Agencia de Noticias Fides — https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_en": "[O1] Agencia de Noticias Fides — https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_es": "[O1] Agencia de Noticias Fides — https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
   "quantity_count": 80,
   "quantity_qualifier": "exact",
   "quantity_kind": "wildlife_items",
@@ -57,5 +63,6 @@
   "quantity_note_pt": "Quantidade de partes, peças ou produtos; não de animais vivos.",
   "image_url": null,
   "image_source_url": "https://www.noticiasfides.com/nacional/sociedad/incautan-colmillos-de-jaguar-en-un-negocio-de-comidas-en-santa-cruz-385979",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "context_updated_at": "2026-10-13T05:00:00Z"
 }
