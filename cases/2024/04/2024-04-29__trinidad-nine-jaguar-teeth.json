@@ -38,20 +38,26 @@
   "card_text_pt": "Em 29 de abril de 2024, a POFOMA encontrou nove dentes de jaguar com duas mulheres na Praça do Aviador, em Trinidad, após informação sobre oferta do material em redes sociais.",
   "card_text_en": "On 29 April 2024, POFOMA found nine jaguar teeth with two women at Plaza del Aviador in Trinidad after information about the items being offered on social media.",
   "card_text_es": "El 29 de abril de 2024, POFOMA encontró nueve dientes de jaguar en poder de dos mujeres en la Plaza del Aviador de Trinidad, tras información sobre su oferta en redes sociales.",
-  "context_pt": "Fatos documentados [O1]: Em 29 de abril de 2024, a POFOMA encontrou nove dentes de jaguar com duas mulheres na Praça do Aviador, em Trinidad, após informação sobre oferta do material em redes sociais. Limites: A fonte não estabelece quando ou onde os animais foram mortos, nem rota de transporte.",
-  "context_en": "Documented facts [O1]: On 29 April 2024, POFOMA found nine jaguar teeth with two women at Plaza del Aviador in Trinidad after information about the items being offered on social media. Limits: The source does not establish when or where animals were killed or any transport route.",
-  "context_es": "Hechos documentados [O1]: El 29 de abril de 2024, POFOMA encontró nueve dientes de jaguar en poder de dos mujeres en la Plaza del Aviador de Trinidad, tras información sobre su oferta en redes sociales. Límites: La fuente no establece cuándo o dónde se mataron los animales ni una ruta de transporte.",
+  "context_pt": "Fatos documentados [O1]: Em 29 de abril de 2024, a POFOMA encontrou nove dentes de jaguar com duas mulheres na Praça do Aviador, em Trinidad, após informação sobre oferta do material em redes sociais. Limites: A fonte não estabelece quando ou onde os animais foram mortos, nem rota de transporte. [I1] A oferta de nove dentes em redes sociais conecta o evento ao comércio digital de partes. No levantamento WCS (2022), os dentes corresponderam a 95 das 125 peças de jaguar confirmadas por imagem; o achado contextualiza o tipo de produto, mas não identifica rede ou compradores nesta apreensão.",
+  "context_en": "Documented facts [O1]: On 29 April 2024, POFOMA found nine jaguar teeth with two women at Plaza del Aviador in Trinidad after information about the items being offered on social media. Limits: The source does not establish when or where animals were killed or any transport route. [I1] The social-media offer of nine teeth links this seizure to online parts marketing. In WCS (2022), teeth accounted for 95 of 125 visually verified jaguar items; this comparison concerns product type, not a shared trafficking network.",
+  "context_es": "Hechos documentados [O1]: El 29 de abril de 2024, POFOMA encontró nueve dientes de jaguar en poder de dos mujeres en la Plaza del Aviador de Trinidad, tras información sobre su oferta en redes sociales. Límites: La fuente no establece cuándo o dónde se mataron los animales ni una ruta de transporte. [I1] La oferta de nueve dientes en redes sociales relaciona el decomiso con la comercialización digital. WCS (2022) identificó 95 dientes entre 125 piezas verificadas por imagen; ello contextualiza el producto, no acredita una red común.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "Fiscalía General del Estado (Bolívia)",
       "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk"
     }
   ],
-  "references_text_pt": "[O1] Fiscalía General del Estado (Bolívia) — https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad",
-  "references_text_en": "[O1] Fiscalía General del Estado (Bolívia) — https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad",
-  "references_text_es": "[O1] Fiscalía General del Estado (Bolívia) — https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad",
+  "references_text_pt": "[O1] Fiscalía General del Estado (Bolívia) — https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_en": "[O1] Fiscalía General del Estado (Bolívia) — https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_es": "[O1] Fiscalía General del Estado (Bolívia) — https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
   "quantity_count": 9,
   "quantity_qualifier": "exact",
   "quantity_kind": "wildlife_items",
@@ -64,5 +70,6 @@
   "quantity_note_es": "Recuento de partes/productos, no de animales vivos.",
   "image_url": null,
   "image_source_url": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-mujeres-son-investigadas-por-tenencia-y-comercializacion-de-nueve-colmillos-de-jaguar-en-trinidad",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "context_updated_at": "2026-10-13T05:00:00Z"
 }
