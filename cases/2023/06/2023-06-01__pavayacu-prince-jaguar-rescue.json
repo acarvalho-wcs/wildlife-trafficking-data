@@ -1,0 +1,61 @@
+{
+  "id": "2023-06-01__pavayacu-prince-jaguar-rescue",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "jaguar_25_user_sources_20261013",
+  "country": "Peru",
+  "location_label_pt": "San Juan de Pavayacu, Loreto",
+  "location_label_en": "San Juan de Pavayacu, Loreto",
+  "location_label_es": "San Juan de Pavayacu, Loreto",
+  "coordinates": {
+    "lat": -4,
+    "lon": -75.1
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não endereço exato da apreensão; verificar geolocalização fina.",
+  "source_label": "El Comercio",
+  "source_url": "https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "approximate_or_unknown",
+  "fauna_label_pt": "Jaguar Prince resgatado de posse doméstica",
+  "fauna_label_en": "Jaguar Prince resgatado de posse doméstica",
+  "fauna_label_es": "Jaguar Prince resgatado de posse doméstica",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "Jaguar Prince resgatado de posse doméstica — San Juan de Pavayacu, Loreto",
+  "title_en": "Jaguar-related seizure or recovery — San Juan de Pavayacu, Loreto",
+  "title_es": "Decomiso o rescate relacionado con jaguar — San Juan de Pavayacu, Loreto",
+  "card_text_pt": "Onça mantida por família e posteriormente resgatada; data aproximada e ponto geográfico generalizado; não comprova comércio.",
+  "card_text_en": "Documented case: Jaguar Prince resgatado de posse doméstica. San Juan de Pavayacu, Loreto. Original source: El Comercio. Taxonomic, timing and quantity caveats are preserved in the case context.",
+  "card_text_es": "Caso documentado: Jaguar Prince resgatado de posse doméstica. San Juan de Pavayacu, Loreto. Fuente original: El Comercio. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
+  "context_pt": "Evidência primária [O1]: Onça mantida por família e posteriormente resgatada; data aproximada e ponto geográfico generalizado; não comprova comércio. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
+  "context_en": "Original evidence [O1]: Onça mantida por família e posteriormente resgatada; data aproximada e ponto geográfico generalizado; não comprova comércio. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
+  "context_es": "Evidencia original [O1]: Onça mantida por família e posteriormente resgatada; data aproximada e ponto geográfico generalizado; não comprova comércio. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "El Comercio",
+      "url": "https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/"
+    }
+  ],
+  "references_text_pt": "[O1] El Comercio — https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "references_text_en": "[O1] El Comercio — https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "references_text_es": "[O1] El Comercio — https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de espécimes vivos quando indicada; não somar materiais da mesma apreensão.",
+  "image_url": null,
+  "image_source_url": "https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
