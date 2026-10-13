@@ -1,0 +1,68 @@
+{
+  "id": "2024-03-14__bom-jesus-jaguar-hide-business",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "jaguar_source_verified_2026-10-13",
+  "reconstruction_confidence": "CONFIRMED_OFFICIAL_SOURCE_EVENT",
+  "country": "Brasil",
+  "location_label_pt": "Bom Jesus, Rio Grande do Sul, Brasil",
+  "location_label_en": "Bom Jesus, Rio Grande do Sul, Brazil",
+  "location_label_es": "Bom Jesus, Rio Grande do Sul, Brasil",
+  "coordinates": {
+    "lat": -28.67,
+    "lon": -50.43
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenadas aproximadas da localidade, não do ponto exato da apreensão.",
+  "geographic_note_en": "Approximate locality coordinates, not the exact seizure site.",
+  "geographic_note_es": "Coordenadas aproximadas de la localidad, no del lugar exacto del decomiso.",
+  "source_label": "Brigada Militar do Rio Grande do Sul",
+  "source_url": "https://www.brigadamilitar.rs.gov.br/brigada-militar-flagra-empresa-sem-licenca-e-apreende-pele-de-onca-pintada-em-bom-jesus",
+  "publication_date": "2024-03-15",
+  "event_date": "2024-03-14",
+  "fauna_label_pt": "1 couro de onça-pintada",
+  "fauna_label_en": "1 jaguar hide",
+  "fauna_label_es": "1 cuero de jaguar",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "modal_label_pt": "Apreensão em fiscalização",
+  "modal_label_en": "Enforcement seizure",
+  "modal_label_es": "Decomiso en fiscalización",
+  "title_pt": "Brigada Militar apreende couro de onça-pintada em estabelecimento de Bom Jesus",
+  "title_en": "Police seize jaguar hide at business in Bom Jesus, Brazil",
+  "title_es": "Policía decomisa cuero de jaguar en establecimiento de Bom Jesus, Brasil",
+  "card_text_pt": "Em 14 de março de 2024, a Brigada Militar apreendeu um couro de Panthera onca sem documentação de origem em estabelecimento de Bom Jesus. A pele tinha perfurações compatíveis com projéteis.",
+  "card_text_en": "On 14 March 2024, police seized an undocumented Panthera onca hide at a business in Bom Jesus. The hide had holes consistent with firearm projectiles.",
+  "card_text_es": "El 14 de marzo de 2024, la policía decomisó un cuero de Panthera onca sin documentos de origen en un establecimiento de Bom Jesus. Presentaba perforaciones compatibles con proyectiles.",
+  "context_pt": "Fatos documentados [O1]: Em 14 de março de 2024, a Brigada Militar apreendeu um couro de Panthera onca sem documentação de origem em estabelecimento de Bom Jesus. A pele tinha perfurações compatíveis com projéteis. Limites: As perfurações não comprovam, isoladamente, local, data ou autoria da caça; nenhuma rota foi documentada.",
+  "context_en": "Documented facts [O1]: On 14 March 2024, police seized an undocumented Panthera onca hide at a business in Bom Jesus. The hide had holes consistent with firearm projectiles. Limits: The perforations alone do not prove the location, time or perpetrator of the hunt; no route was documented.",
+  "context_es": "Hechos documentados [O1]: El 14 de marzo de 2024, la policía decomisó un cuero de Panthera onca sin documentos de origen en un establecimiento de Bom Jesus. Presentaba perforaciones compatibles con proyectiles. Límites: Las perforaciones por sí solas no prueban lugar, fecha ni autoría de la caza; no se documentó una ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Brigada Militar do Rio Grande do Sul",
+      "url": "https://www.brigadamilitar.rs.gov.br/brigada-militar-flagra-empresa-sem-licenca-e-apreende-pele-de-onca-pintada-em-bom-jesus"
+    }
+  ],
+  "references_text_pt": "[O1] Brigada Militar do Rio Grande do Sul — https://www.brigadamilitar.rs.gov.br/brigada-militar-flagra-empresa-sem-licenca-e-apreende-pele-de-onca-pintada-em-bom-jesus",
+  "references_text_en": "[O1] Brigada Militar do Rio Grande do Sul — https://www.brigadamilitar.rs.gov.br/brigada-militar-flagra-empresa-sem-licenca-e-apreende-pele-de-onca-pintada-em-bom-jesus",
+  "references_text_es": "[O1] Brigada Militar do Rio Grande do Sul — https://www.brigadamilitar.rs.gov.br/brigada-militar-flagra-empresa-sem-licenca-e-apreende-pele-de-onca-pintada-em-bom-jesus",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Contagem de partes/produtos, não de animais vivos.",
+  "quantity_note_en": "Count of parts/products, not live animals.",
+  "quantity_note_es": "Recuento de partes/productos, no de animales vivos.",
+  "image_url": null,
+  "image_source_url": "https://www.brigadamilitar.rs.gov.br/brigada-militar-flagra-empresa-sem-licenca-e-apreende-pele-de-onca-pintada-em-bom-jesus",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
