@@ -1,0 +1,59 @@
+{
+  "id": "2023-05-01__beni-three-pofoma-operations-jaguar-goods",
+  "status": "VALIDATED",
+  "aggregate_operation": true,
+  "exclude_from_totals": true,
+  "reconstruction_batch": "jaguar_25_user_sources_20261013",
+  "country": "Bolívia",
+  "location_label_pt": "Beni",
+  "location_label_en": "Beni",
+  "location_label_es": "Beni",
+  "coordinates": {
+    "lat": -14.8,
+    "lon": -64.9
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não endereço exato da apreensão; verificar geolocalização fina.",
+  "source_label": "WCS Bolívia",
+  "source_url": "https://bolivia.wcs.org/es-es/Recursos-Informativos/Sala-de-noticias/articleType/ArticleView/articleId/21035/Monitoreo-semestral.aspx",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "approximate_or_unknown",
+  "fauna_label_pt": "Vinte produtos em três operações, incluindo bolsas, peles e cintos",
+  "fauna_label_en": "Vinte produtos em três operações, incluindo bolsas, peles e cintos",
+  "fauna_label_es": "Vinte produtos em três operações, incluindo bolsas, peles e cintos",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "Vinte produtos em três operações, incluindo bolsas, peles e cintos — Beni",
+  "title_en": "Jaguar-related seizure or recovery — Beni",
+  "title_es": "Decomiso o rescate relacionado con jaguar — Beni",
+  "card_text_pt": "WCS relatou três operações da POFOMA no Beni; até individualizar os três autos, registro agregado não entra nos totais.",
+  "card_text_en": "Documented case: Vinte produtos em três operações, incluindo bolsas, peles e cintos. Beni. Original source: WCS Bolívia. Taxonomic, timing and quantity caveats are preserved in the case context.",
+  "card_text_es": "Caso documentado: Vinte produtos em três operações, incluindo bolsas, peles e cintos. Beni. Fuente original: WCS Bolívia. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
+  "context_pt": "Evidência primária [O1]: WCS relatou três operações da POFOMA no Beni; até individualizar os três autos, registro agregado não entra nos totais. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
+  "context_en": "Original evidence [O1]: WCS relatou três operações da POFOMA no Beni; até individualizar os três autos, registro agregado não entra nos totais. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
+  "context_es": "Evidencia original [O1]: WCS relatou três operações da POFOMA no Beni; até individualizar os três autos, registro agregado não entra nos totais. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "WCS Bolívia",
+      "url": "https://bolivia.wcs.org/es-es/Recursos-Informativos/Sala-de-noticias/articleType/ArticleView/articleId/21035/Monitoreo-semestral.aspx"
+    }
+  ],
+  "references_text_pt": "[O1] WCS Bolívia — https://bolivia.wcs.org/es-es/Recursos-Informativos/Sala-de-noticias/articleType/ArticleView/articleId/21035/Monitoreo-semestral.aspx",
+  "references_text_en": "[O1] WCS Bolívia — https://bolivia.wcs.org/es-es/Recursos-Informativos/Sala-de-noticias/articleType/ArticleView/articleId/21035/Monitoreo-semestral.aspx",
+  "references_text_es": "[O1] WCS Bolívia — https://bolivia.wcs.org/es-es/Recursos-Informativos/Sala-de-noticias/articleType/ArticleView/articleId/21035/Monitoreo-semestral.aspx",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de espécimes vivos quando indicada; não somar materiais da mesma apreensão.",
+  "image_url": null,
+  "image_source_url": "https://bolivia.wcs.org/es-es/Recursos-Informativos/Sala-de-noticias/articleType/ArticleView/articleId/21035/Monitoreo-semestral.aspx",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
