@@ -1,0 +1,61 @@
+{
+  "id": "2025-06-01__estado-mexico-queretaro-juvenile-jaguar",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "jaguar_25_user_sources_20261013",
+  "country": "México",
+  "location_label_pt": "Estado do México / Querétaro",
+  "location_label_en": "Estado do México / Querétaro",
+  "location_label_es": "Estado do México / Querétaro",
+  "coordinates": {
+    "lat": 20.59,
+    "lon": -100.39
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não endereço exato da apreensão; verificar geolocalização fina.",
+  "source_label": "Profepa",
+  "source_url": "https://www.gob.mx/profepa/prensa/profepa-realiza-el-manejo-y-traslado-de-19-ejemplares-de-vida-silvestre-asegurados-en-operativos-por-la-fgr",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "approximate_or_unknown",
+  "fauna_label_pt": "Jaguar juvenil apreendido",
+  "fauna_label_en": "Jaguar juvenil apreendido",
+  "fauna_label_es": "Jaguar juvenil apreendido",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "Jaguar juvenil apreendido — Estado do México / Querétaro",
+  "title_en": "Jaguar-related seizure or recovery — Estado do México / Querétaro",
+  "title_es": "Decomiso o rescate relacionado con jaguar — Estado do México / Querétaro",
+  "card_text_pt": "Jaguar entre 19 animais assegurados em operações da FGR; município da apreensão do felino não individualizado.",
+  "card_text_en": "Documented case: Jaguar juvenil apreendido. Estado do México / Querétaro. Original source: Profepa. Taxonomic, timing and quantity caveats are preserved in the case context.",
+  "card_text_es": "Caso documentado: Jaguar juvenil apreendido. Estado do México / Querétaro. Fuente original: Profepa. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
+  "context_pt": "Evidência primária [O1]: Jaguar entre 19 animais assegurados em operações da FGR; município da apreensão do felino não individualizado. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
+  "context_en": "Original evidence [O1]: Jaguar entre 19 animais assegurados em operações da FGR; município da apreensão do felino não individualizado. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
+  "context_es": "Evidencia original [O1]: Jaguar entre 19 animais assegurados em operações da FGR; município da apreensão do felino não individualizado. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Profepa",
+      "url": "https://www.gob.mx/profepa/prensa/profepa-realiza-el-manejo-y-traslado-de-19-ejemplares-de-vida-silvestre-asegurados-en-operativos-por-la-fgr"
+    }
+  ],
+  "references_text_pt": "[O1] Profepa — https://www.gob.mx/profepa/prensa/profepa-realiza-el-manejo-y-traslado-de-19-ejemplares-de-vida-silvestre-asegurados-en-operativos-por-la-fgr",
+  "references_text_en": "[O1] Profepa — https://www.gob.mx/profepa/prensa/profepa-realiza-el-manejo-y-traslado-de-19-ejemplares-de-vida-silvestre-asegurados-en-operativos-por-la-fgr",
+  "references_text_es": "[O1] Profepa — https://www.gob.mx/profepa/prensa/profepa-realiza-el-manejo-y-traslado-de-19-ejemplares-de-vida-silvestre-asegurados-en-operativos-por-la-fgr",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de espécimes vivos quando indicada; não somar materiais da mesma apreensão.",
+  "image_url": null,
+  "image_source_url": "https://www.gob.mx/profepa/prensa/profepa-realiza-el-manejo-y-traslado-de-19-ejemplares-de-vida-silvestre-asegurados-en-operativos-por-la-fgr",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
