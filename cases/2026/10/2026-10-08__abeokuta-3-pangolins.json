@@ -58,15 +58,24 @@
     "Pangolins": 3
   },
   "quantity_unassigned": 0,
-  "context_pt": "[O1] Fatos documentados: 3 pangolins vivos apreendidos; a data exata da operação não foi informada. Síntese: apreensão individualizada. Limites: nenhuma rota ou origem não documentada inferida.",
-  "context_en": "[O1] Documented facts: Three live pangolins seized; actual operation date unreported.",
-  "context_es": "[O1] Hechos documentados: Tres pangolines vivos decomisados; no se informó la fecha exacta. Síntesis: decomiso individualizado. Límites: no se infieren rutas ni orígenes sin fuentes.",
-  "references_text_pt": "[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html",
-  "references_text_en": "[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html",
-  "references_text_es": "[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html",
+  "context_pt": "[O1] Fatos documentados: 3 pangolins vivos apreendidos; a data exata da operação não foi informada. Síntese: apreensão individualizada. Limites: nenhuma rota ou origem não documentada inferida.\n\n[O1] Premium Times relata três pangolins vivos apreendidos pela alfândega em Ogun. A data da notícia não estabelece a data exata da operação; origem, destino e espécie não foram comprovados.",
+  "context_en": "[O1] Documented facts: Three live pangolins seized; actual operation date unreported.\n\n[O1] Premium Times reports three live pangolins seized by customs in Ogun. Publication date does not establish the operation date; origin, destination and species remain unconfirmed.",
+  "context_es": "[O1] Hechos documentados: Tres pangolines vivos decomisados; no se informó la fecha exacta. Síntesis: decomiso individualizado. Límites: no se infieren rutas ni orígenes sin fuentes.\n\n[O1] Premium Times informa de tres pangolines vivos decomisados por aduanas en Ogun. La publicación no establece fecha exacta de operación, origen, destino ni especie.",
+  "references_text_pt": "[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html\n[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html",
+  "references_text_en": "[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html\n[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html",
+  "references_text_es": "[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html\n[O1] Premium Times — https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html",
   "image_source_url": "https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html",
   "image_url": "https://media.premiumtimesng.com/wp-content/files/2026/10/IMG_8570.jpeg",
   "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "image_resolution_method": "og:image",
-  "image_checked_at": "2026-10-10T16:33:10Z"
+  "image_checked_at": "2026-10-10T16:33:10Z",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Premium Times / Customs",
+      "url": "https://www.premiumtimesng.com/regional/ssouth-west/915512-customs-seize-three-live-pangolins-in-suspected-wildlife-trafficking-operation-in-ogun.html"
+    }
+  ],
+  "context_updated_at": "2026-10-13T06:20:00Z"
 }
