@@ -1,0 +1,59 @@
+{
+  "id": "2024-09-01__iquitos-multi-market-jaguar-parts",
+  "status": "VALIDATED",
+  "aggregate_operation": true,
+  "exclude_from_totals": true,
+  "reconstruction_batch": "jaguar_25_user_sources_20261013",
+  "country": "Peru",
+  "location_label_pt": "Iquitos, Loreto",
+  "location_label_en": "Iquitos, Loreto",
+  "location_label_es": "Iquitos, Loreto",
+  "coordinates": {
+    "lat": -3.75,
+    "lon": -73.25
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não endereço exato da apreensão; verificar geolocalização fina.",
+  "source_label": "El Comercio",
+  "source_url": "https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "approximate_or_unknown",
+  "fauna_label_pt": "Peles, dentes, patas, crânio e produtos; seis peles relatadas",
+  "fauna_label_en": "Peles, dentes, patas, crânio e produtos; seis peles relatadas",
+  "fauna_label_es": "Peles, dentes, patas, crânio e produtos; seis peles relatadas",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "Peles, dentes, patas, crânio e produtos; seis peles relatadas — Iquitos, Loreto",
+  "title_en": "Jaguar-related seizure or recovery — Iquitos, Loreto",
+  "title_es": "Decomiso o rescate relacionado con jaguar — Iquitos, Loreto",
+  "card_text_pt": "Megaoperação em diferentes mercados de Iquitos, material de jaguar apreendido. Sem discriminação por estabelecimento, manter agregado e fora dos totais para evitar sobrecontagem.",
+  "card_text_en": "Documented case: Peles, dentes, patas, crânio e produtos; seis peles relatadas. Iquitos, Loreto. Original source: El Comercio. Taxonomic, timing and quantity caveats are preserved in the case context.",
+  "card_text_es": "Caso documentado: Peles, dentes, patas, crânio e produtos; seis peles relatadas. Iquitos, Loreto. Fuente original: El Comercio. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
+  "context_pt": "Evidência primária [O1]: Megaoperação em diferentes mercados de Iquitos, material de jaguar apreendido. Sem discriminação por estabelecimento, manter agregado e fora dos totais para evitar sobrecontagem. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
+  "context_en": "Original evidence [O1]: Megaoperação em diferentes mercados de Iquitos, material de jaguar apreendido. Sem discriminação por estabelecimento, manter agregado e fora dos totais para evitar sobrecontagem. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
+  "context_es": "Evidencia original [O1]: Megaoperação em diferentes mercados de Iquitos, material de jaguar apreendido. Sem discriminação por estabelecimento, manter agregado e fora dos totais para evitar sobrecontagem. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "El Comercio",
+      "url": "https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/"
+    }
+  ],
+  "references_text_pt": "[O1] El Comercio — https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "references_text_en": "[O1] El Comercio — https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "references_text_es": "[O1] El Comercio — https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de espécimes vivos quando indicada; não somar materiais da mesma apreensão.",
+  "image_url": null,
+  "image_source_url": "https://elcomercio.pe/tecnologia/ecologia/un-refugio-para-prince-la-historia-del-rescate-de-un-jaguar-que-no-podra-regresar-a-la-selva-en-peru-noticia/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
