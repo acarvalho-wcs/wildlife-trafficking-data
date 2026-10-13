@@ -38,20 +38,26 @@
   "card_text_pt": "Em fiscalização de 2 de junho de 2025, a GERFOR Maynas e a Polícia Ecológica apreenderam uma pele de Panthera onca exposta em um restobar de Santa Clara de Nanay.",
   "card_text_en": "During a 2 June 2025 inspection, GERFOR Maynas and the Environmental Police seized one Panthera onca skin displayed at a Santa Clara de Nanay restobar.",
   "card_text_es": "En un operativo del 2 de junio de 2025, GERFOR Maynas y la Policía Ecológica decomisaron una piel de Panthera onca exhibida en un restobar de Santa Clara de Nanay.",
-  "context_pt": "Fatos documentados [O1]: Em fiscalização de 2 de junho de 2025, a GERFOR Maynas e a Polícia Ecológica apreenderam uma pele de Panthera onca exposta em um restobar de Santa Clara de Nanay. Limites: A procedência da pele não foi estabelecida; não há rota documentada.",
-  "context_en": "Documented facts [O1]: During a 2 June 2025 inspection, GERFOR Maynas and the Environmental Police seized one Panthera onca skin displayed at a Santa Clara de Nanay restobar. Limits: The skin's provenance was not established; no route is documented.",
-  "context_es": "Hechos documentados [O1]: En un operativo del 2 de junio de 2025, GERFOR Maynas y la Policía Ecológica decomisaron una piel de Panthera onca exhibida en un restobar de Santa Clara de Nanay. Límites: No se estableció la procedencia de la piel ni se documentó una ruta.",
+  "context_pt": "Fatos documentados [O1]: Em fiscalização de 2 de junho de 2025, a GERFOR Maynas e a Polícia Ecológica apreenderam uma pele de Panthera onca exposta em um restobar de Santa Clara de Nanay. Limites: A procedência da pele não foi estabelecida; não há rota documentada. [I1] A pele exposta em estabelecimento comercial representa disponibilidade física de produtos, não anúncio online confirmado. A WCS (2022, pp. 15–16) identificou peles verificadas em anúncios ligados ao Peru, demonstrando a pertinência geográfica e do produto, sem qualquer vínculo demonstrado com este restobar.",
+  "context_en": "Documented facts [O1]: During a 2 June 2025 inspection, GERFOR Maynas and the Environmental Police seized one Panthera onca skin displayed at a Santa Clara de Nanay restobar. Limits: The skin's provenance was not established; no route is documented. [I1] The skin displayed at a business was a physical-market finding, not a confirmed online listing. WCS (2022, pp. 15–16) documented verified skins advertised from Peru, providing geographic and commodity context but no link to this restobar.",
+  "context_es": "Hechos documentados [O1]: En un operativo del 2 de junio de 2025, GERFOR Maynas y la Policía Ecológica decomisaron una piel de Panthera onca exhibida en un restobar de Santa Clara de Nanay. Límites: No se estableció la procedencia de la piel ni se documentó una ruta. [I1] La piel exhibida en un establecimiento corresponde a un hallazgo físico y no a una oferta digital confirmada. WCS (2022, pp. 15–16) documentó pieles verificadas en anuncios vinculados con Perú, sin relación demostrada con este restobar.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "Governo Regional de Loreto / GERFOR",
       "url": "https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk"
     }
   ],
-  "references_text_pt": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
-  "references_text_en": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
-  "references_text_es": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
+  "references_text_pt": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_en": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
+  "references_text_es": "[O1] Governo Regional de Loreto / GERFOR — https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar\n[I1] Polisar et al. (2022), WCS, Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view?usp=drivesdk",
   "quantity_count": 1,
   "quantity_qualifier": "exact",
   "quantity_kind": "wildlife_items",
@@ -64,5 +70,6 @@
   "quantity_note_es": "Recuento de partes/productos, no de animales vivos.",
   "image_url": null,
   "image_source_url": "https://www.gob.pe/institucion/regionloreto/noticias/1189997-en-balneario-de-santa-clara-de-nanay-la-gerfor-decomisa-piel-de-jaguar",
-  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "context_updated_at": "2026-10-13T05:00:00Z"
 }
