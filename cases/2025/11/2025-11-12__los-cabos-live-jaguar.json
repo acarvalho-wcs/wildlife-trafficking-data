@@ -1,0 +1,61 @@
+{
+  "id": "2025-11-12__los-cabos-live-jaguar",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "jaguar_25_user_sources_20261013",
+  "country": "México",
+  "location_label_pt": "Los Cabos, Baja California Sur",
+  "location_label_en": "Los Cabos, Baja California Sur",
+  "location_label_es": "Los Cabos, Baja California Sur",
+  "coordinates": {
+    "lat": 22.89,
+    "lon": -109.91
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não endereço exato da apreensão; verificar geolocalização fina.",
+  "source_label": "Profepa / FGR",
+  "source_url": "https://www.gob.mx/profepa/prensa/profepa-y-fgr-catean-inmueble-en-baja-california-sur-y-aseguran-ejemplares-de-vida-silvestre",
+  "publication_date": null,
+  "event_date": "2025-11-12",
+  "event_date_precision": "day",
+  "fauna_label_pt": "Um jaguar vivo apreendido",
+  "fauna_label_en": "Um jaguar vivo apreendido",
+  "fauna_label_es": "Um jaguar vivo apreendido",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "Um jaguar vivo apreendido — Los Cabos, Baja California Sur",
+  "title_en": "Jaguar-related seizure or recovery — Los Cabos, Baja California Sur",
+  "title_es": "Decomiso o rescate relacionado con jaguar — Los Cabos, Baja California Sur",
+  "card_text_pt": "FGR e Profepa apreenderam onça em propriedade privada, junto a outros animais; nenhum transporte inferido.",
+  "card_text_en": "Documented case: Um jaguar vivo apreendido. Los Cabos, Baja California Sur. Original source: Profepa / FGR. Taxonomic, timing and quantity caveats are preserved in the case context.",
+  "card_text_es": "Caso documentado: Um jaguar vivo apreendido. Los Cabos, Baja California Sur. Fuente original: Profepa / FGR. Las reservas taxonómicas, temporales y cuantitativas se conservan en el contexto.",
+  "context_pt": "Evidência primária [O1]: FGR e Profepa apreenderam onça em propriedade privada, junto a outros animais; nenhum transporte inferido. Contexto analítico: ocorrência relacionada à posse, apreensão ou recuperação de Panthera onca, sem inferir redes, origens ou rotas não documentadas. Limites: precisão de data, taxonomia e quantidades conforme ressalvas específicas; não transformar publicação, sentença ou operação agregada em eventos adicionais.",
+  "context_en": "Original evidence [O1]: FGR e Profepa apreenderam onça em propriedade privada, junto a outros animais; nenhum transporte inferido. This record is limited to documented seizure or recovery facts; unreported networks, source locations, transport routes and quantities are not inferred. Original source retained for checking.",
+  "context_es": "Evidencia original [O1]: FGR e Profepa apreenderam onça em propriedade privada, junto a outros animais; nenhum transporte inferido. El registro se limita a hechos documentados; no se infieren redes, lugares de origen, rutas ni cantidades no descritas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Profepa / FGR",
+      "url": "https://www.gob.mx/profepa/prensa/profepa-y-fgr-catean-inmueble-en-baja-california-sur-y-aseguran-ejemplares-de-vida-silvestre"
+    }
+  ],
+  "references_text_pt": "[O1] Profepa / FGR — https://www.gob.mx/profepa/prensa/profepa-y-fgr-catean-inmueble-en-baja-california-sur-y-aseguran-ejemplares-de-vida-silvestre",
+  "references_text_en": "[O1] Profepa / FGR — https://www.gob.mx/profepa/prensa/profepa-y-fgr-catean-inmueble-en-baja-california-sur-y-aseguran-ejemplares-de-vida-silvestre",
+  "references_text_es": "[O1] Profepa / FGR — https://www.gob.mx/profepa/prensa/profepa-y-fgr-catean-inmueble-en-baja-california-sur-y-aseguran-ejemplares-de-vida-silvestre",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de espécimes vivos quando indicada; não somar materiais da mesma apreensão.",
+  "image_url": null,
+  "image_source_url": "https://www.gob.mx/profepa/prensa/profepa-y-fgr-catean-inmueble-en-baja-california-sur-y-aseguran-ejemplares-de-vida-silvestre",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
