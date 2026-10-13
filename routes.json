@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-10T20:44:11Z",
-  "audited_through": "2026-10-10",
+  "updated_at": "2026-10-13T18:30:00Z",
+  "audited_through": "2026-10-13",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -8997,6 +8997,58 @@
       "evidence_es": "[O1] Agentes del aeropuerto Juanda interceptaron 39.927 postlarvas de langosta ocultas en equipaje destinado al vuelo SQ929 de Singapore Airlines hacia Singapur, divulgado el 25–26/04/2026. Nota: La rueda de prensa del 30/06 refiere el mismo decomiso de abril, no otro evento. Día exacto por confirmar.",
       "source_label": "Kilas Jatim / Satgaspam Juanda",
       "source_url": "https://kilasjatim.com/2026/04/26/satgaspam-juanda-gagalkan-penyelundupan-39-927-benih-lobster-senilai-rp11-miliar-ke-singapura/"
+    },
+    {
+      "id": "mexico-city-istanbul-cologne-bonn-92-reptiles-2026-10",
+      "event_match": {
+        "event_id": "2026-10-unknown__cologne-bonn-92-reptiles-mexico-istanbul"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "documented_air_transit",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Cidade do México → Istambul → Colônia/Bonn",
+      "label_en": "Mexico City → Istanbul → Cologne/Bonn",
+      "label_es": "Ciudad de México → Estambul → Colonia/Bonn",
+      "segments": [
+        {
+          "from": {
+            "name": "Cidade do México",
+            "country": "México",
+            "lat": 19.4326,
+            "lon": -99.1332,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Istambul",
+            "country": "Turquia",
+            "lat": 41.0082,
+            "lon": 28.9784,
+            "precision": "city_transit_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Istambul",
+            "country": "Turquia",
+            "lat": 41.0082,
+            "lon": 28.9784,
+            "precision": "city_transit_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Colônia/Bonn",
+            "country": "Alemanha",
+            "lat": 50.8659,
+            "lon": 7.1427,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] [N1] A alfândega apreendeu 92 répteis na bagagem de um passageiro no aeroporto de Colônia/Bonn. Conforme reportagem atribuída à alfândega, o passageiro viajou da Cidade do México via Istambul. A rota representa o itinerário informado do passageiro, não a origem biológica dos animais; aeroportos de partida e conexão não foram especificados.",
+      "evidence_en": "[O1] [N1] Customs seized 92 reptiles in a passenger's luggage at Cologne/Bonn Airport. Reporting attributed to customs describes travel from Mexico City via Istanbul. The route represents the reported passenger itinerary, not the reptiles' biological origin; departure and transit airports were not specified.",
+      "evidence_es": "[O1] [N1] Aduanas incautó 92 reptiles en el equipaje de un pasajero en el aeropuerto de Colonia/Bonn. La prensa, citando a aduanas, informó de un viaje desde Ciudad de México vía Estambul. La ruta representa el itinerario declarado del pasajero, no el origen biológico de los animales; no se especificaron aeropuertos de salida ni conexión.",
+      "source_label": "Kölner Stadt-Anzeiger / dpa, segundo Hauptzollamt Köln",
+      "source_url": "https://www.ksta.de/koeln/koeln-zoll-findet-mehr-als-90-giftschlangen-und-echsen-im-gepaeck-1394931"
     }
   ],
   "network_context": [
