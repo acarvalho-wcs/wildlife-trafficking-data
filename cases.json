@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_929_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_931_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 929,
+  "count": 931,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -71090,6 +71090,124 @@
       "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
       "occurred_at": "2026-08-25T00:00:00Z",
       "occurred_at_precision": "day"
+    },
+    {
+      "id": "2015-03-18__beijing-119-jaguar-teeth-wine-boxes",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "China",
+      "location_label_pt": "Aeroporto de Pequim",
+      "location_label_en": "Aeroporto de Pequim",
+      "location_label_es": "Aeroporto de Pequim",
+      "coordinates": {
+        "lat": 40.08,
+        "lon": 116.59
+      },
+      "coordinate_precision": "locality_generalized",
+      "geographic_note_pt": "Coordenada aproximada do município/aeroporto; ponto exato não verificado.",
+      "source_label": "La Región",
+      "source_url": "https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/",
+      "event_date": null,
+      "publication_date": null,
+      "fauna_label_pt": "119 dentes atribuídos a onça-pintada",
+      "fauna_label_en": "119 dentes atribuídos a onça-pintada",
+      "fauna_label_es": "119 dentes atribuídos a onça-pintada",
+      "taxon_text": "Panthera onca",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "modal_primary": "Outro",
+      "title_pt": "119 dentes atribuídos a onça-pintada — Aeroporto de Pequim",
+      "title_en": "Jaguar-part seizure — Aeroporto de Pequim",
+      "title_es": "Decomiso de partes de jaguar — Aeroporto de Pequim",
+      "card_text_pt": "Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota.",
+      "card_text_en": "Historical jaguar parts seizure. Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota.",
+      "card_text_es": "Decomiso histórico de partes de jaguar. Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota.",
+      "context_pt": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Não inferir mortes, rotas ou indivíduos a partir da quantidade de peças.",
+      "context_en": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Parts are not equivalent to individual animals; undocumented routes are not inferred.",
+      "context_es": "[O1] Apreensão no aeroporto de Pequim de 119 dentes ocultos em caixas de vinho, relatada em investigação sobre comércio de jaguar. Ligação comercial com a Bolívia não documenta todos os segmentos da rota. Las partes no equivalen a animales individuales ni permiten inferir rutas.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "La Región",
+          "url": "https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/"
+        }
+      ],
+      "references_text_pt": "[O1] La Región — https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/",
+      "quantity_count": 119,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 119
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Quantidade de peças relatada; não de animais vivos.",
+      "image_url": null,
+      "image_source_url": "https://www.laregion.bo/un-viaje-al-mercado-negro-del-jaguar/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown"
+    },
+    {
+      "id": "2016-12-01__santa-ana-yacuma-jaguar-skulls",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Bolívia",
+      "location_label_pt": "Santa Ana del Yacuma, Beni",
+      "location_label_en": "Santa Ana del Yacuma, Beni",
+      "location_label_es": "Santa Ana del Yacuma, Beni",
+      "coordinates": {
+        "lat": -13.74,
+        "lon": -65.43
+      },
+      "coordinate_precision": "locality_generalized",
+      "geographic_note_pt": "Coordenada aproximada do município/aeroporto; ponto exato não verificado.",
+      "source_label": "El Deber",
+      "source_url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
+      "event_date": null,
+      "publication_date": null,
+      "fauna_label_pt": "25 crânios atribuídos a onça-pintada",
+      "fauna_label_en": "25 crânios atribuídos a onça-pintada",
+      "fauna_label_es": "25 crânios atribuídos a onça-pintada",
+      "taxon_text": "Panthera onca",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "modal_primary": "Outro",
+      "title_pt": "25 crânios atribuídos a onça-pintada — Santa Ana del Yacuma, Beni",
+      "title_en": "Jaguar-part seizure — Santa Ana del Yacuma, Beni",
+      "title_es": "Decomiso de partes de jaguar — Santa Ana del Yacuma, Beni",
+      "card_text_pt": "Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
+      "card_text_en": "Historical jaguar parts seizure. Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
+      "card_text_es": "Decomiso histórico de partes de jaguar. Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
+      "context_pt": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Não inferir mortes, rotas ou indivíduos a partir da quantidade de peças.",
+      "context_en": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Parts are not equivalent to individual animals; undocumented routes are not inferred.",
+      "context_es": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Las partes no equivalen a animales individuales ni permiten inferir rutas.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "El Deber",
+          "url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828"
+        }
+      ],
+      "references_text_pt": "[O1] El Deber — https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
+      "quantity_count": 25,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 25
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Quantidade de peças relatada; não de animais vivos.",
+      "image_url": null,
+      "image_source_url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown"
     }
   ]
 }
