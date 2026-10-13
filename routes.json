@@ -8853,6 +8853,150 @@
       "evidence_es": "El informe TRAFFIC de 1993 relata cinco Leontopithecus chrysomelas incautados en Foz do Iguaçu en 1991–1992, con Ciudad del Este como destino previsto; no se demuestra un cruce consumado.",
       "source_label": "TRAFFIC (Mazzarella, 1993)",
       "source_url": "https://www.traffic.org/site/assets/files/9973/transito-de-comercio-ilegal-de-animais-silvestres-no-brasil.pdf"
+    },
+    {
+      "id": "el-salto-laos-105-queen-ants-2026-07-09",
+      "event_match": {
+        "event_id": "2026-07-09__el-salto-105-queen-ants-laos"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "El Salto → Laos (envio pretendido)",
+      "label_en": "El Salto → Laos (planned shipment)",
+      "label_es": "El Salto → Laos (envío previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "El Salto, Jalisco",
+            "country": "México",
+            "lat": 20.518,
+            "lon": -103.18,
+            "precision": "municipality_generalized"
+          },
+          "to": {
+            "name": "Laos",
+            "country": "Laos",
+            "lat": 18,
+            "lon": 103.8,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] A Profepa interceptou 105 formigas-rainhas escondidas em brinquedos plásticos para envio a Laos. Eram 87 vivas e 18 mortas; sobreviventes foram soltas. Nota: El Salto → Laos era envio pretendido e interrompido; não inferir endereço do destinatário.",
+      "evidence_en": "[O1] Profepa intercepted 105 queen ants hidden in plastic toys for shipment to Laos. Eighty-seven survived and 18 died; survivors were released. Note: El Salto → Laos was an attempted shipment, not a completed movement; recipient address unknown.",
+      "evidence_es": "[O1] La Profepa interceptó 105 hormigas reina escondidas en juguetes plásticos para envío a Laos. Sobrevivieron 87 y murieron 18; las sobrevivientes fueron liberadas. Nota: El Salto → Laos era un envío previsto e interceptado; no se conoce la dirección del destinatario.",
+      "source_label": "PROFEPA (México)",
+      "source_url": "https://www.gob.mx/profepa/prensa/detectan-trafico-ilegal-de-hormigas-reina-en-jalisco"
+    },
+    {
+      "id": "mombasa-bangkok-ants-2026-03-10",
+      "event_match": {
+        "event_id": "2026-03-10__bangkok-ants-consignment-mombasa"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Mombasa → Bangkok",
+      "label_en": "Mombasa → Bangkok",
+      "label_es": "Mombasa → Bangkok",
+      "segments": [
+        {
+          "from": {
+            "name": "Mombasa, Quênia",
+            "country": "Quênia",
+            "lat": -4.043,
+            "lon": 39.668,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Bangkok, Tailândia",
+            "country": "Tailândia",
+            "lat": 13.756,
+            "lon": 100.502,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Investigadores relataram apreensão em Bangkok, em 10/03/2026, de um carregamento de formigas enviado de Mombasa, Quênia. Quantidade e unidade responsável não foram divulgadas. Nota: Relacionada à investigação queniana, mas a apreensão física ocorreu em Bangkok; não somar com as formigas apreendidas em Nairóbi.",
+      "evidence_en": "[O1] Investigators reported a consignment of ants shipped from Mombasa, Kenya, seized in Bangkok on 10 March 2026. Count and exact facility were not reported. Note: Related to the Kenyan investigation, but seized in Bangkok; do not merge its unknown count into Nairobi seizures.",
+      "evidence_es": "[O1] Investigadores informaron de un envío de hormigas desde Mombasa, Kenia, incautado en Bangkok el 10 de marzo de 2026. No se divulgó cantidad ni instalación exacta. Nota: Vinculada a investigación keniana, pero incautada en Bangkok; no sumar a decomisos de Nairobi.",
+      "source_label": "Reuters / The Nation Thailand",
+      "source_url": "https://www.nationthailand.com/blogs/news/world/40063955"
+    },
+    {
+      "id": "bahia-chilota-punta-arenas-marine-2026-09-10",
+      "event_match": {
+        "event_id": "2026-09-10__bahia-chilota-crab-octopus-ferry"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Bahía Chilota → Punta Arenas (ferry)",
+      "label_en": "Bahía Chilota → Punta Arenas (ferry)",
+      "label_es": "Bahía Chilota → Punta Arenas (ferri)",
+      "segments": [
+        {
+          "from": {
+            "name": "Bahía Chilota, Porvenir",
+            "country": "Chile",
+            "lat": -53.3,
+            "lon": -70.366,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Punta Arenas",
+            "country": "Chile",
+            "lat": -53.163,
+            "lon": -70.91,
+            "precision": "port_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Polícia Marítima reteve centolla e polvo processados transportados sem conformidade documental em bagagem de ferry em Bahía Chilota, na ligação com Punta Arenas. Nota: A reportagem não divulga quantidade, peso ou identidade de espécies exatas; transporte no ferry é documentado, mas não origem de captura.",
+      "evidence_en": "[O1] Maritime police seized irregularly transported processed king crab and octopus products in unclaimed baggage on a ferry at Bahía Chilota, connecting Tierra del Fuego to Punta Arenas. Note: No specimen count, weight or exact species reported; ferry movement documented, harvest origin unknown.",
+      "evidence_es": "[O1] La Policía Marítima decomisó centolla y pulpo procesados transportados irregularmente en equipaje sin propietario en un ferry de Bahía Chilota rumbo a Punta Arenas. Nota: No se publican cifras, pesos ni especies exactas; trayecto del ferry documentado, origen de captura desconocido.",
+      "source_label": "Radio Magallanes / Capitanía de Puerto",
+      "source_url": "https://radiomagallanes.cl/decomisan-centolla-y-pulpo-procesado-transportados-irregularmente-en-ferry-de-bahia-chilota/"
+    },
+    {
+      "id": "juanda-singapore-lobster-seedlings-2026-04",
+      "event_match": {
+        "event_id": "2026-04__juanda-39927-lobster-seedlings-singapore"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Juanda → Singapura (voo pretendido)",
+      "label_en": "Juanda → Singapore (planned flight)",
+      "label_es": "Juanda → Singapur (vuelo previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Juanda, Sidoarjo",
+            "country": "Indonésia",
+            "lat": -7.379,
+            "lon": 112.787,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto Changi, Singapura",
+            "country": "Singapura",
+            "lat": 1.364,
+            "lon": 103.992,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Segurança do aeroporto de Juanda interceptou 39.927 pós-larvas de lagosta escondidas em malas destinadas a um voo Singapore Airlines SQ929 rumo a Singapura; caso divulgado em 25–26/04/2026. Nota: A coletiva de 30/06 trata da mesma apreensão de abril, não de novo evento. Dia exato da interceptação não foi confirmado.",
+      "evidence_en": "[O1] Juanda airport officers intercepted 39,927 lobster post-larvae hidden in luggage intended for Singapore Airlines flight SQ929 to Singapore, reported 25–26 April 2026. Note: The 30 June briefing revisits the same April seizure, not a second event. Exact interception date remains unclear.",
+      "evidence_es": "[O1] Agentes del aeropuerto Juanda interceptaron 39.927 postlarvas de langosta ocultas en equipaje destinado al vuelo SQ929 de Singapore Airlines hacia Singapur, divulgado el 25–26/04/2026. Nota: La rueda de prensa del 30/06 refiere el mismo decomiso de abril, no otro evento. Día exacto por confirmar.",
+      "source_label": "Kilas Jatim / Satgaspam Juanda",
+      "source_url": "https://kilasjatim.com/2026/04/26/satgaspam-juanda-gagalkan-penyelundupan-39-927-benih-lobster-senilai-rp11-miliar-ke-singapura/"
     }
   ],
   "network_context": [
