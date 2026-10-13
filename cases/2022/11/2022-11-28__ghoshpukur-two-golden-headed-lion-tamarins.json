@@ -1,0 +1,83 @@
+{
+  "id": "2022-11-28__ghoshpukur-two-golden-headed-lion-tamarins",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2022-11-28",
+  "publication_date": "2022-11-28",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": 26.5894,
+    "lon": 88.2772
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Directorate of Revenue Intelligence (DRI), Significant Seizures",
+  "source_url": "https://dri.nic.in/main/allsigseizure",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Leontopithecus chrysomelas (2); Cebus capucinus (2, reported); Saguinus labiatus (3)",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 7
+  },
+  "quantity_unassigned": 0,
+  "ingestion_batch": "golden-headed-lion-tamarin-20261013",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "translation_status": "EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "DOCUMENTED_ATTRIBUTED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_RESOLVED",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Directorate of Revenue Intelligence (DRI), Significant Seizures",
+      "title": "Directorate of Revenue Intelligence (DRI), Significant Seizures",
+      "url": "https://dri.nic.in/main/allsigseizure"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "The Telegraph India, 30 November 2022",
+      "title": "The Telegraph India, 30 November 2022",
+      "url": "https://www.telegraphindia.com/west-bengal/directorate-of-revenue-intelligence-rescue-seven-rare-monkeys-from-outskirts-of-siliguri/cid/1901058"
+    }
+  ],
+  "occurrence_type": "wildlife_trafficking_seizure",
+  "specimen_state": "alive_at_detection",
+  "physical_seizure_documented": true,
+  "location_label_pt": "Ghoshpukur, distrito de Darjeeling, Bengala Ocidental",
+  "fauna_label_pt": "2 micos-leões-da-cara-dourada e 5 outros primatas",
+  "title_pt": "Sete primatas são apreendidos em Ghoshpukur, incluindo dois micos-leões-da-cara-dourada",
+  "card_text_pt": "Em 28/11/2022, a Diretoria de Inteligência Tributária da Índia (DRI) apreendeu perto de Siliguri sete primatas transportados num veículo: dois micos-leões-da-cara-dourada, dois macacos-prego-de-cara-branca e três sauins-de-lábios-brancos. Três suspeitos foram detidos, segundo reportagem local.",
+  "context_pt": "[O1] Em 28/11/2022, a Diretoria de Inteligência Tributária da Índia (DRI) apreendeu perto de Siliguri sete primatas transportados num veículo: dois micos-leões-da-cara-dourada, dois macacos-prego-de-cara-branca e três sauins-de-lábios-brancos. Três suspeitos foram detidos, segundo reportagem local.\n\nLimites da evidência / Evidence limitations: A DRI confirma data, total e grupos. Segundo reportagem local, a remessa havia entrado a partir de Myanmar e seguia para Gorakhpur; o local de passagem da fronteira e a procedência biológica permanecem desconhecidos.",
+  "quantity_note_pt": "Total de 7 indivíduos apreendidos/documentados no caso; 2 micos-leões-da-cara-dourada e 5 outros primatas.",
+  "geographic_note_pt": "Ponto generalizado; não corresponde ao endereço exato.",
+  "route_audit_note_pt": "A DRI confirma data, total e grupos. Segundo reportagem local, a remessa havia entrado a partir de Myanmar e seguia para Gorakhpur; o local de passagem da fronteira e a procedência biológica permanecem desconhecidos.",
+  "references_text_pt": "[O1] Directorate of Revenue Intelligence (DRI), Significant Seizures — https://dri.nic.in/main/allsigseizure; [O2] The Telegraph India, 30 November 2022 — https://www.telegraphindia.com/west-bengal/directorate-of-revenue-intelligence-rescue-seven-rare-monkeys-from-outskirts-of-siliguri/cid/1901058",
+  "location_label_en": "Ghoshpukur, distrito de Darjeeling, Bengala Ocidental",
+  "fauna_label_en": "2 golden-headed lion tamarins and 5 other primates",
+  "title_en": "Seven primates seized in Ghoshpukur, including two golden-headed lion tamarins",
+  "card_text_en": "On 28 November 2022, India's Directorate of Revenue Intelligence (DRI) seized seven primates from a vehicle near Siliguri: two golden-headed lion tamarins, two white-faced capuchins and three white-lipped tamarins. Local reporting describes three arrests.",
+  "context_en": "[O1] On 28 November 2022, India's Directorate of Revenue Intelligence (DRI) seized seven primates from a vehicle near Siliguri: two golden-headed lion tamarins, two white-faced capuchins and three white-lipped tamarins. Local reporting describes three arrests.\n\nLimites da evidência / Evidence limitations: The DRI confirms the date and species composition. Local reporting alleges entry from Myanmar and onward travel to Gorakhpur; the border crossing and biological origin were not established.",
+  "quantity_note_en": "7 documented individuals associated with the incident; 2 golden-headed lion tamarins and 5 other primates.",
+  "geographic_note_en": "Generalized location, not an exact street address.",
+  "route_audit_note_en": "The DRI confirms the date and species composition. Local reporting alleges entry from Myanmar and onward travel to Gorakhpur; the border crossing and biological origin were not established.",
+  "references_text_en": "[O1] Directorate of Revenue Intelligence (DRI), Significant Seizures — https://dri.nic.in/main/allsigseizure; [O2] The Telegraph India, 30 November 2022 — https://www.telegraphindia.com/west-bengal/directorate-of-revenue-intelligence-rescue-seven-rare-monkeys-from-outskirts-of-siliguri/cid/1901058",
+  "location_label_es": "Ghoshpukur, distrito de Darjeeling, Bengala Ocidental",
+  "fauna_label_es": "2 titíes león de cabeza dorada y otros 5 primates",
+  "title_es": "Siete primates decomisados en Ghoshpukur, incluidos dos titíes león de cabeza dorada",
+  "card_text_es": "El 28 de noviembre de 2022, la Dirección de Inteligencia Fiscal de la India (DRI) incautó siete primates de un vehículo cerca de Siliguri: dos titíes león de cabeza dorada, dos capuchinos de cara blanca y tres titíes de labios blancos. Prensa local informó de tres detenidos.",
+  "context_es": "[O1] El 28 de noviembre de 2022, la Dirección de Inteligencia Fiscal de la India (DRI) incautó siete primates de un vehículo cerca de Siliguri: dos titíes león de cabeza dorada, dos capuchinos de cara blanca y tres titíes de labios blancos. Prensa local informó de tres detenidos.\n\nLimites da evidência / Evidence limitations: La DRI confirma la fecha y la composición. Según prensa local, la carga procedía de Myanmar y se dirigía a Gorakhpur; se desconocen el paso fronterizo y el origen biológico.",
+  "quantity_note_es": "7 documented individuals associated with the incident; 2 titíes león de cabeza dorada y otros 5 primates.",
+  "geographic_note_es": "Punto generalizado, no dirección exacta.",
+  "route_audit_note_es": "La DRI confirma la fecha y la composición. Según prensa local, la carga procedía de Myanmar y se dirigía a Gorakhpur; se desconocen el paso fronterizo y el origen biológico.",
+  "references_text_es": "[O1] Directorate of Revenue Intelligence (DRI), Significant Seizures — https://dri.nic.in/main/allsigseizure; [O2] The Telegraph India, 30 November 2022 — https://www.telegraphindia.com/west-bengal/directorate-of-revenue-intelligence-rescue-seven-rare-monkeys-from-outskirts-of-siliguri/cid/1901058"
+}

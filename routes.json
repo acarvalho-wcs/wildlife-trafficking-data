@@ -8729,6 +8729,130 @@
       "evidence_es": "[O1] ANTARA documenta Kendari como destino declarado de los 1.728 caballitos de mar interceptados en el aeropuerto RHF; envío no completado.",
       "source_label": "ANTARA / Karantina Kepri",
       "source_url": "https://kepri.antaranews.com/berita/269725/petugas-gagalkan-pengiriman-1728-ekor-kuda-laut-kering-di-bandara-rhf"
+    },
+    {
+      "id": "imphal-golaghat-chennai-ghlt-2021-03-14",
+      "event_match": {
+        "event_id": "2021-03-14__golaghat-two-golden-headed-lion-tamarins"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_transport_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Imphal → Golaghat → Chennai (trecho final pretendido)",
+      "label_en": "Imphal → Golaghat → Chennai (planned final leg)",
+      "label_es": "Imphal → Golaghat → Chennai (último tramo previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Imphal, Manipur",
+            "country": "Índia",
+            "lat": 24.817,
+            "lon": 93.936,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Golaghat, Assam",
+            "country": "Índia",
+            "lat": 26.5108,
+            "lon": 93.9744,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Golaghat, Assam",
+            "country": "Índia",
+            "lat": 26.5108,
+            "lon": 93.9744,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Chennai, Tamil Nadu",
+            "country": "Índia",
+            "lat": 13.0827,
+            "lon": 80.2707,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Decisão judicial do Gauhati High Court registra declaração dos ocupantes de que obtiveram os animais em Imphal e viajavam para Chennai; abordagem em Golaghat em 14/03/2021. O trecho até Chennai não foi concluído.",
+      "evidence_en": "The Gauhati High Court judgment records the occupants' statement that animals were obtained in Imphal and headed for Chennai; interception in Golaghat on 14 March 2021. The final leg was not completed.",
+      "evidence_es": "La resolución del Gauhati High Court recoge que los ocupantes declararon haber adquirido los animales en Imphal con destino a Chennai; interceptación en Golaghat el 14/03/2021. El tramo final no se realizó.",
+      "source_label": "Gauhati High Court",
+      "source_url": "https://indiankanoon.org/doc/60815182/"
+    },
+    {
+      "id": "ghoshpukur-gorakhpur-tamarins-2022-11-28",
+      "event_match": {
+        "event_id": "2022-11-28__ghoshpukur-two-golden-headed-lion-tamarins"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Ghoshpukur → Gorakhpur (destino atribuído)",
+      "label_en": "Ghoshpukur → Gorakhpur (reported planned destination)",
+      "label_es": "Ghoshpukur → Gorakhpur (destino previsto según prensa)",
+      "segments": [
+        {
+          "from": {
+            "name": "Ghoshpukur, Bengala Ocidental",
+            "country": "Índia",
+            "lat": 26.5894,
+            "lon": 88.2772,
+            "precision": "locality_generalized"
+          },
+          "to": {
+            "name": "Gorakhpur, Uttar Pradesh",
+            "country": "Índia",
+            "lat": 26.7606,
+            "lon": 83.3732,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A DRI confirma a apreensão em 28/11/2022 perto de Siliguri; o jornal The Telegraph, citando fontes da investigação, aponta Gorakhpur como destino e entrada prévia atribuída a Myanmar. Não foi identificada a passagem fronteiriça; só se desenha o destino dentro da Índia.",
+      "evidence_en": "DRI confirms a 28 November 2022 seizure near Siliguri; The Telegraph, citing investigators, names Gorakhpur as the intended destination and Myanmar as the alleged prior source country. The border crossing is unknown and not drawn.",
+      "evidence_es": "La DRI confirma la incautación del 28/11/2022 cerca de Siliguri; The Telegraph, citando investigadores, indica Gorakhpur como destino y Myanmar como origen previo atribuido. No se localiza el cruce fronterizo.",
+      "source_label": "DRI / The Telegraph India",
+      "source_url": "https://www.telegraphindia.com/west-bengal/directorate-of-revenue-intelligence-rescue-seven-rare-monkeys-from-outskirts-of-siliguri/cid/1901058"
+    },
+    {
+      "id": "foz-ciudad-del-este-ghlt-1991-1992",
+      "event_match": {
+        "event_id": "1991-1992__foz-do-iguacu-five-golden-headed-lion-tamarins"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Foz do Iguaçu → Ciudad del Este (destino pretendido, 1991–1992)",
+      "label_en": "Foz do Iguaçu → Ciudad del Este (planned, 1991–1992)",
+      "label_es": "Foz do Iguaçu → Ciudad del Este (destino previsto, 1991–1992)",
+      "segments": [
+        {
+          "from": {
+            "name": "Foz do Iguaçu, Paraná",
+            "country": "Brasil",
+            "lat": -25.5453,
+            "lon": -54.5882,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Ciudad del Este, Alto Paraná",
+            "country": "Paraguai",
+            "lat": -25.5097,
+            "lon": -54.6111,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O relatório TRAFFIC (1993) registra cinco Leontopithecus chrysomelas apreendidos em Foz do Iguaçu em observações de 1991–1992, cujo destino informado era Ciudad del Este; a passagem internacional não se completou.",
+      "evidence_en": "TRAFFIC's 1993 report describes five Leontopithecus chrysomelas seized in Foz do Iguaçu during 1991–1992 observations, with Ciudad del Este reported as the intended destination; no completed cross-border movement is established.",
+      "evidence_es": "El informe TRAFFIC de 1993 relata cinco Leontopithecus chrysomelas incautados en Foz do Iguaçu en 1991–1992, con Ciudad del Este como destino previsto; no se demuestra un cruce consumado.",
+      "source_label": "TRAFFIC (Mazzarella, 1993)",
+      "source_url": "https://www.traffic.org/site/assets/files/9973/transito-de-comercio-ilegal-de-animais-silvestres-no-brasil.pdf"
     }
   ],
   "network_context": [
