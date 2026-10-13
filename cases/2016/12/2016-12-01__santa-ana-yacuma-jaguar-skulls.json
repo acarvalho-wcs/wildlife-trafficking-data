@@ -1,0 +1,57 @@
+{
+  "id": "2016-12-01__santa-ana-yacuma-jaguar-skulls",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Bolívia",
+  "location_label_pt": "Santa Ana del Yacuma, Beni",
+  "location_label_en": "Santa Ana del Yacuma, Beni",
+  "location_label_es": "Santa Ana del Yacuma, Beni",
+  "coordinates": {
+    "lat": -13.74,
+    "lon": -65.43
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Coordenada aproximada do município/aeroporto; ponto exato não verificado.",
+  "source_label": "El Deber",
+  "source_url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
+  "event_date": null,
+  "publication_date": null,
+  "fauna_label_pt": "25 crânios atribuídos a onça-pintada",
+  "fauna_label_en": "25 crânios atribuídos a onça-pintada",
+  "fauna_label_es": "25 crânios atribuídos a onça-pintada",
+  "taxon_text": "Panthera onca",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Outro",
+  "title_pt": "25 crânios atribuídos a onça-pintada — Santa Ana del Yacuma, Beni",
+  "title_en": "Jaguar-part seizure — Santa Ana del Yacuma, Beni",
+  "title_es": "Decomiso de partes de jaguar — Santa Ana del Yacuma, Beni",
+  "card_text_pt": "Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
+  "card_text_en": "Historical jaguar parts seizure. Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
+  "card_text_es": "Decomiso histórico de partes de jaguar. Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão.",
+  "context_pt": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Não inferir mortes, rotas ou indivíduos a partir da quantidade de peças.",
+  "context_en": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Parts are not equivalent to individual animals; undocumented routes are not inferred.",
+  "context_es": "[O1] Investigação relatou 25 crânios de jaguar apreendidos em dezembro de 2016. Referência posterior a 21 crânios formalmente transferidos constitui inconsistência de cadeia de custódia, não nova apreensão. Las partes no equivalen a animales individuales ni permiten inferir rutas.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "El Deber",
+      "url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828"
+    }
+  ],
+  "references_text_pt": "[O1] El Deber — https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
+  "quantity_count": 25,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 25
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade de peças relatada; não de animais vivos.",
+  "image_url": null,
+  "image_source_url": "https://eldeber.com.bo/pais/trafico-de-jaguares-en-bolivia-donde-estan-los-colmillos-incautados_219828",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}
