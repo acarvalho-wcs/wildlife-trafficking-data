@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-11__praia-grande-illegal-birdsong-tournament-81-birds",
+  "status": "VALIDATED",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "global_13_14oct2026_source_audit",
+  "event_date": "2026-10-11",
+  "publication_date": "2026-10-12",
+  "event_date_precision": "day",
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -24.005,
+    "lon": -46.412
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Polícia Militar do Estado de São Paulo",
+  "source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+  "modal_primary": "Terrestre",
+  "quantity_count": 81,
+  "quantity_qualifier": "exact_reported",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 81
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polícia Militar do Estado de São Paulo",
+      "url": "https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Reportagem complementar do mesmo evento",
+      "url": "https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/"
+    }
+  ],
+  "image_url": null,
+  "image_source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/",
+  "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "location_label_pt": "Praia Grande, São Paulo",
+  "title_pt": "Polícia Ambiental apreende 81 aves em torneio irregular em Praia Grande",
+  "card_text_pt": "Em 11/10, a PM Ambiental fiscalizou torneio de canto não autorizado em Praia Grande, apreendeu 81 aves, vistoriou 41 participantes e emitiu 40 autos, com R$ 81 mil em multas.",
+  "fauna_label_pt": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+  "context_pt": "[O1] Em 11/10, a PM Ambiental fiscalizou torneio de canto não autorizado em Praia Grande, apreendeu 81 aves, vistoriou 41 participantes e emitiu 40 autos, com R$ 81 mil em multas.\n\nO comunicado institucional de 12/10 relata um único flagrante no domingo 11/10, envolvendo aves registradas e não registradas, sem discriminar espécies. Um participante com mandado judicial também foi localizado; isso não prova participação individual em comércio de aves. As 41 pessoas e 40 autos não devem ser convertidos em outras apreensões. A reportagem de 13/10 trata do mesmo evento. Transporte, procedência e rota comercial não foram estabelecidos. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_pt": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_pt": "[O1] Polícia Militar do Estado de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/\n[N1] Reportagem complementar do mesmo evento — https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/",
+  "location_label_en": "Praia Grande, São Paulo",
+  "title_en": "Environmental police seize 81 birds at unauthorized singing contest in Praia Grande",
+  "card_text_en": "On 11 October, environmental police inspected an unauthorized birdsong contest in Praia Grande, seizing 81 birds, inspecting 41 people and issuing 40 infringement notices totalling R$81,000.",
+  "fauna_label_en": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+  "context_en": "[O1] On 11 October, environmental police inspected an unauthorized birdsong contest in Praia Grande, seizing 81 birds, inspecting 41 people and issuing 40 infringement notices totalling R$81,000.\n\nThe official 12 October statement concerns a single 11 October raid involving both registered and unregistered birds, without a taxonomic breakdown. One attendee subject to an unrelated warrant was detained, which alone does not prove wildlife trade. Forty-one people and 40 notices are not additional seizures; a 13 October report covers the same operation. No trade route or capture origin was established. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_en": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_en": "[O1] Polícia Militar do Estado de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/\n[N1] Reportagem complementar do mesmo evento — https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/",
+  "location_label_es": "Praia Grande, São Paulo",
+  "title_es": "Policía Ambiental decomisa 81 aves en concurso irregular de canto en Praia Grande",
+  "card_text_es": "El 11/10, la policía ambiental fiscalizó un concurso de canto no autorizado en Praia Grande: 81 aves decomisadas, 41 personas inspeccionadas y 40 actas por R$81.000.",
+  "fauna_label_es": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+  "context_es": "[O1] El 11/10, la policía ambiental fiscalizó un concurso de canto no autorizado en Praia Grande: 81 aves decomisadas, 41 personas inspeccionadas y 40 actas por R$81.000.\n\nEl parte oficial del 12/10 documenta un único operativo el 11/10 con aves registradas y no registradas, sin detalle de especies. Se localizó una persona buscada judicialmente, sin probar comercio de fauna. Los 41 participantes y 40 actas no constituyen otros decomisos. La noticia del 13/10 trata el mismo hecho, sin ruta ni procedencia demostradas. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_es": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_es": "[O1] Polícia Militar do Estado de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/\n[N1] Reportagem complementar do mesmo evento — https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/"
+}
