@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-13T23:59:00Z",
-  "audited_through": "2026-10-13",
+  "updated_at": "2026-10-14T14:25:00Z",
+  "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
     "default_layer": "documented_routes",
@@ -9569,6 +9569,1438 @@
       "evidence_es": "Movimiento realizado según la fuente: Manaus → Tabatinga. Evidencia: PF atribuiu origem em Manaus aos peixes apreendidos no aeroporto de Tabatinga; destino estrangeiro desconhecido.",
       "source_label": "Fonte do evento / fiscalização",
       "source_url": "https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0001",
+      "event_match": {
+        "event_id": "2015-12-14__shark-products-aeroporto-internacional-de-hong-kong-tub-0001"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Moçambique → Joanesburgo → Aeroporto Internacional de Hong Kong",
+      "label_en": "Mozambique → Johannesburg → Hong Kong International Airport",
+      "label_es": "Mozambique → Johannesburgo → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Moçambique",
+            "country": "Moçambique",
+            "lat": -18.66,
+            "lon": 35.52,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Joanesburgo",
+            "country": "África do Sul",
+            "lat": -26.204,
+            "lon": 28.046,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Joanesburgo",
+            "country": "África do Sul",
+            "lat": -26.204,
+            "lon": 28.046,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Moçambique → Joanesburgo → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Mozambique → Johannesburg → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Mozambique → Johannesburgo → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_3290.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0001"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0003",
+      "event_match": {
+        "event_id": "2017-09-18__shark-products-tub-0003-tsing-yi-cargo-examination-compound"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Emirados Árabes Unidos → Kwai Chung/Tsing Yi",
+      "label_en": "United Arab Emirates → Kwai Chung/Tsing Yi",
+      "label_es": "Emiratos Árabes Unidos → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Emirados Árabes Unidos",
+            "country": "Emirados Árabes Unidos",
+            "lat": 23.424,
+            "lon": 53.848,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Emirados Árabes Unidos → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: United Arab Emirates → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Emiratos Árabes Unidos → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.info.gov.hk/gia/general/201709/18/P2017091801098.htm",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0003"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0005",
+      "event_match": {
+        "event_id": "2017-12-29__shark-products-kwai-chung-tub-0005"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Peru → Kwai Chung/Tsing Yi",
+      "label_en": "Peru → Kwai Chung/Tsing Yi",
+      "label_es": "Perú → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Peru",
+            "country": "Peru",
+            "lat": -9.19,
+            "lon": -75.015,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Peru → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Peru → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Perú → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_2605.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0005"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0009",
+      "event_match": {
+        "event_id": "2018-06-04__shark-products-kwai-chung-tub-0009"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Indonésia → Kwai Chung/Tsing Yi",
+      "label_en": "Indonesia → Kwai Chung/Tsing Yi",
+      "label_es": "Indonesia → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Indonésia",
+            "country": "Indonésia",
+            "lat": -2.55,
+            "lon": 118.015,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Indonésia → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Indonesia → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Indonesia → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_2886.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0009"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0010",
+      "event_match": {
+        "event_id": "2018-07-05__shark-products-kwai-chung-tub-0010"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Emirados Árabes Unidos → Kwai Chung/Tsing Yi",
+      "label_en": "United Arab Emirates → Kwai Chung/Tsing Yi",
+      "label_es": "Emiratos Árabes Unidos → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Emirados Árabes Unidos",
+            "country": "Emirados Árabes Unidos",
+            "lat": 23.424,
+            "lon": 53.848,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Emirados Árabes Unidos → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: United Arab Emirates → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Emiratos Árabes Unidos → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_2928.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0010"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0012",
+      "event_match": {
+        "event_id": "2019-08-23__shark-products-aeroporto-internacional-de-hong-kong-tub-0012"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Filipinas → Aeroporto Internacional de Hong Kong",
+      "label_en": "Philippines → Hong Kong International Airport",
+      "label_es": "Filipinas → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Filipinas",
+            "country": "Filipinas",
+            "lat": 12.879,
+            "lon": 121.774,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Filipinas → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Philippines → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Filipinas → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_2260.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0012"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0013",
+      "event_match": {
+        "event_id": "2019-10-14__shark-products-aeroporto-internacional-de-hong-kong-tub-0013"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Kinshasa → Adis Abeba → Aeroporto Internacional de Hong Kong",
+      "label_en": "Kinshasa → Addis Ababa → Hong Kong International Airport",
+      "label_es": "Kinshasa → Adís Abeba → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Kinshasa",
+            "country": "RDC",
+            "lat": -4.322,
+            "lon": 15.313,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Adis Abeba",
+            "country": "Etiópia",
+            "lat": 8.98,
+            "lon": 38.8,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Adis Abeba",
+            "country": "Etiópia",
+            "lat": 8.98,
+            "lon": 38.8,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Kinshasa → Adis Abeba → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Kinshasa → Addis Ababa → Hong Kong International Airport. This is not evidence of the fishing location.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Kinshasa → Adís Abeba → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_2369.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0013"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0015",
+      "event_match": {
+        "event_id": "2019-12-23__shark-products-tsing-yi-cargo-examination-compound-tub-0015"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "label_en": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "label_es": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Sri Lanka",
+            "country": "Sri Lanka",
+            "lat": 6.927,
+            "lon": 79.861,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Sri Lanka → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Sri Lanka → Kwai Chung/Tsing Yi. This is not evidence of the fishing location.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Sri Lanka → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_2596.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0015"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0016",
+      "event_match": {
+        "event_id": "2020-01-15__shark-products-kwai-chung-tub-0016"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "label_en": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "label_es": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Sri Lanka",
+            "country": "Sri Lanka",
+            "lat": 6.927,
+            "lon": 79.861,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Sri Lanka → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Sri Lanka → Kwai Chung/Tsing Yi. This is not evidence of the fishing location.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Sri Lanka → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_605.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0016"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0017",
+      "event_match": {
+        "event_id": "2020-03-31__shark-products-kwai-chung-tub-0017"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Marrocos → Kwai Chung/Tsing Yi",
+      "label_en": "Morocco → Kwai Chung/Tsing Yi",
+      "label_es": "Marruecos → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Marrocos",
+            "country": "Marrocos",
+            "lat": 31.791,
+            "lon": -7.093,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Marrocos → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Morocco → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Marruecos → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_755.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0017"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0018",
+      "event_match": {
+        "event_id": "2020-04-28__shark-products-kwai-chung-conteiner-1-tub-0018"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Equador → Kwai Chung/Tsing Yi",
+      "label_en": "Ecuador → Kwai Chung/Tsing Yi",
+      "label_es": "Ecuador → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Equador",
+            "country": "Equador",
+            "lat": -1.832,
+            "lon": -78.183,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Equador → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Ecuador → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Ecuador → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_832.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0018"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0019",
+      "event_match": {
+        "event_id": "2020-05-04__shark-products-kwai-chung-conteiner-2-tub-0019"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Equador → Kwai Chung/Tsing Yi",
+      "label_en": "Ecuador → Kwai Chung/Tsing Yi",
+      "label_es": "Ecuador → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Equador",
+            "country": "Equador",
+            "lat": -1.832,
+            "lon": -78.183,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Equador → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Ecuador → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Ecuador → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_832.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0019"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0020",
+      "event_match": {
+        "event_id": "2020-10-28__shark-products-aeroporto-de-chennai-tub-0020"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Chennai → Dubai",
+      "label_en": "Chennai → Dubai",
+      "label_es": "Chennai → Dubái",
+      "segments": [
+        {
+          "from": {
+            "name": "Chennai",
+            "country": "Índia",
+            "lat": 12.995,
+            "lon": 80.169,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Dubai",
+            "country": "Emirados Árabes Unidos",
+            "lat": 25.253,
+            "lon": 55.366,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Chennai → Dubai. O deslocamento final foi impedido ou não comprovado. ",
+      "evidence_en": "[O1] Intended or not completed movement: Chennai → Dubai; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Chennai → Dubái; su realización no está comprobada. ",
+      "source_label": "Press Information Bureau (Chennai Customs)",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1668198&lang=1&reg=6",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0020"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0021",
+      "event_match": {
+        "event_id": "2020-11-09__shark-products-kwai-chung-tub-0021"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Indonésia → Kwai Chung/Tsing Yi",
+      "label_en": "Indonesia → Kwai Chung/Tsing Yi",
+      "label_es": "Indonesia → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Indonésia",
+            "country": "Indonésia",
+            "lat": -2.55,
+            "lon": 118.015,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Indonésia → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Indonesia → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Indonesia → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_1362.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0021"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0022",
+      "event_match": {
+        "event_id": "2021-01-07__shark-products-aeroporto-internacional-de-hong-kong-tub-0022"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Filipinas → Aeroporto Internacional de Hong Kong",
+      "label_en": "Philippines → Hong Kong International Airport",
+      "label_es": "Filipinas → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Filipinas",
+            "country": "Filipinas",
+            "lat": 12.879,
+            "lon": 121.774,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Filipinas → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Philippines → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Filipinas → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_548.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0022"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0023",
+      "event_match": {
+        "event_id": "2021-03-22__shark-products-centro-de-facilitacao-de-exportacoes-da-aduana-tub-0023"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "label_en": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "label_es": "Sri Lanka → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Sri Lanka",
+            "country": "Sri Lanka",
+            "lat": 6.927,
+            "lon": 79.861,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Sri Lanka → Kwai Chung/Tsing Yi. O deslocamento final foi impedido ou não comprovado. ",
+      "evidence_en": "[O1] Intended or not completed movement: Sri Lanka → Kwai Chung/Tsing Yi; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Sri Lanka → Kwai Chung/Tsing Yi; su realización no está comprobada. ",
+      "source_label": "Sri Lanka Customs",
+      "source_url": "https://www.customs.gov.lk/seizure-of-dried-fins-of-cites-listed-sharks-22-03-2021/",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0023"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0024",
+      "event_match": {
+        "event_id": "2021-05-29__shark-products-aeroporto-internacional-de-hong-kong-tub-0024"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "México → Aeroporto Internacional de Hong Kong",
+      "label_en": "Mexico → Hong Kong International Airport",
+      "label_es": "México → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "México",
+            "country": "México",
+            "lat": 23.635,
+            "lon": -102.553,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: México → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Mexico → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: México → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_351.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0024"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0025",
+      "event_match": {
+        "event_id": "2021-06-07__shark-products-kwai-chung-tub-0025"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guiné → Kwai Chung/Tsing Yi",
+      "label_en": "Guinea → Kwai Chung/Tsing Yi",
+      "label_es": "Guinea → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Guiné",
+            "country": "Guiné",
+            "lat": 9.946,
+            "lon": -9.697,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Guiné → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Guinea → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Guinea → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_337.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0025"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0026",
+      "event_match": {
+        "event_id": "2021-06-23__shark-products-kwai-chung-tub-0026"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guiné → Kwai Chung/Tsing Yi",
+      "label_en": "Guinea → Kwai Chung/Tsing Yi",
+      "label_es": "Guinea → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Guiné",
+            "country": "Guiné",
+            "lat": 9.946,
+            "lon": -9.697,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Guiné → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Guinea → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Guinea → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_318.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0026"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0027",
+      "event_match": {
+        "event_id": "2021-08-12__shark-products-kwai-chung-tub-0027"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "República Democrática do Congo → Kwai Chung/Tsing Yi",
+      "label_en": "DR Congo → Kwai Chung/Tsing Yi",
+      "label_es": "RD del Congo → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "República Democrática do Congo",
+            "country": "RDC",
+            "lat": -4.322,
+            "lon": 15.313,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: República Democrática do Congo → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: DR Congo → Kwai Chung/Tsing Yi. This is not evidence of the fishing location.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: RD del Congo → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_258.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0027"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0031",
+      "event_match": {
+        "event_id": "2023-02-17__shark-products-aeroporto-internacional-de-hong-kong-tub-0031"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "México → Aeroporto Internacional de Hong Kong",
+      "label_en": "Mexico → Hong Kong International Airport",
+      "label_es": "México → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "México",
+            "country": "México",
+            "lat": 23.635,
+            "lon": -102.553,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: México → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Mexico → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: México → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_3660.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0031"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0032",
+      "event_match": {
+        "event_id": "2023-03-09__shark-products-aeroporto-internacional-de-hong-kong-tub-0032"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangladesh → Aeroporto Internacional de Hong Kong",
+      "label_en": "Bangladesh → Hong Kong International Airport",
+      "label_es": "Bangladés → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangladesh",
+            "country": "Bangladesh",
+            "lat": 23.685,
+            "lon": 90.356,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Bangladesh → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Bangladesh → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Bangladés → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Governo de Hong Kong",
+      "source_url": "https://www.info.gov.hk/gia/general/202303/13/P2023031300458.htm",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0032"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0033",
+      "event_match": {
+        "event_id": "2023-11-23__shark-products-aeroporto-internacional-de-hong-kong-tub-0033"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Brasil → Etiópia → Aeroporto Internacional de Hong Kong",
+      "label_en": "Brazil → Ethiopia → Hong Kong International Airport",
+      "label_es": "Brasil → Etiopía → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Brasil",
+            "country": "Brasil",
+            "lat": -14.235,
+            "lon": -51.925,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Etiópia",
+            "country": "Etiópia",
+            "lat": 8.98,
+            "lon": 38.8,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Etiópia",
+            "country": "Etiópia",
+            "lat": 8.98,
+            "lon": 38.8,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Brasil → Etiópia → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Brazil → Ethiopia → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Brasil → Etiopía → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_3983.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0033"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0034",
+      "event_match": {
+        "event_id": "2023-11-24__shark-products-aeroporto-internacional-de-hong-kong-tub-0034"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Brasil → Etiópia → Aeroporto Internacional de Hong Kong",
+      "label_en": "Brazil → Ethiopia → Hong Kong International Airport",
+      "label_es": "Brasil → Etiopía → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Brasil",
+            "country": "Brasil",
+            "lat": -14.235,
+            "lon": -51.925,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Etiópia",
+            "country": "Etiópia",
+            "lat": 8.98,
+            "lon": 38.8,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Etiópia",
+            "country": "Etiópia",
+            "lat": 8.98,
+            "lon": 38.8,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Brasil → Etiópia → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Brazil → Ethiopia → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Brasil → Etiopía → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_3987.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0034"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0035",
+      "event_match": {
+        "event_id": "2024-01-10__shark-products-kwai-chung-tub-0035"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Omã → Kwai Chung/Tsing Yi",
+      "label_en": "Oman → Kwai Chung/Tsing Yi",
+      "label_es": "Omán → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Omã",
+            "country": "Omã",
+            "lat": 21.473,
+            "lon": 55.975,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Omã → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Oman → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Omán → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.info.gov.hk/gia/general/202401/11/P2024011100537.htm",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0035"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0036",
+      "event_match": {
+        "event_id": "2024-01-15__shark-products-aeroporto-internacional-de-hong-kong-tub-0036"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Dubai → Aeroporto Internacional de Hong Kong",
+      "label_en": "Dubai → Hong Kong International Airport",
+      "label_es": "Dubái → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Dubai",
+            "country": "Emirados Árabes Unidos",
+            "lat": 25.253,
+            "lon": 55.366,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Dubai → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Dubai → Hong Kong International Airport. This is not evidence of the fishing location.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Dubái → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4054.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0036"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0037",
+      "event_match": {
+        "event_id": "2024-01-22__shark-products-aeroporto-internacional-de-hong-kong-tub-0037"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bahrein → Aeroporto Internacional de Hong Kong",
+      "label_en": "Bahrain → Hong Kong International Airport",
+      "label_es": "Baréin → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Bahrein",
+            "country": "Bahrein",
+            "lat": 26.066,
+            "lon": 50.557,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Bahrein → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Bahrain → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Baréin → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4059.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0037"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0038",
+      "event_match": {
+        "event_id": "2024-02-15__shark-products-kwai-chung-tub-0038"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guiana → Kwai Chung/Tsing Yi",
+      "label_en": "Guyana → Kwai Chung/Tsing Yi",
+      "label_es": "Guyana → Kwai Chung/Tsing Yi",
+      "segments": [
+        {
+          "from": {
+            "name": "Guiana",
+            "country": "Guiana",
+            "lat": 4.861,
+            "lon": -58.93,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Kwai Chung/Tsing Yi",
+            "country": "Hong Kong",
+            "lat": 22.358,
+            "lon": 114.13,
+            "precision": "cargo_terminal_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Guiana → Kwai Chung/Tsing Yi. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Guyana → Kwai Chung/Tsing Yi. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Guyana → Kwai Chung/Tsing Yi. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4079.html?m=&p=58&y=",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0038"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0039",
+      "event_match": {
+        "event_id": "2024-02-27__shark-products-aguas-de-black-point-navio-fluvial-tub-0039"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Macau",
+      "label_en": "Hong Kong → Macao",
+      "label_es": "Hong Kong → Macao",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.31,
+            "lon": 114.17,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Macau",
+            "country": "Macau",
+            "lat": 22.19,
+            "lon": 113.54,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Hong Kong → Macau. O deslocamento final foi impedido ou não comprovado. ",
+      "evidence_en": "[O1] Intended or not completed movement: Hong Kong → Macao; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Hong Kong → Macao; su realización no está comprobada. ",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4092.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0039"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0040",
+      "event_match": {
+        "event_id": "2024-03-15__shark-products-aguas-de-black-point-navio-fluvial-tub-0040"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Macau",
+      "label_en": "Hong Kong → Macao",
+      "label_es": "Hong Kong → Macao",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.31,
+            "lon": 114.17,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Macau",
+            "country": "Macau",
+            "lat": 22.19,
+            "lon": 113.54,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Hong Kong → Macau. O deslocamento final foi impedido ou não comprovado. ",
+      "evidence_en": "[O1] Intended or not completed movement: Hong Kong → Macao; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Hong Kong → Macao; su realización no está comprobada. ",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4119.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0040"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0041",
+      "event_match": {
+        "event_id": "2024-04-16__shark-products-aguas-de-fan-lau-navio-fluvial-tub-0041"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Macau",
+      "label_en": "Hong Kong → Macao",
+      "label_es": "Hong Kong → Macao",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.31,
+            "lon": 114.17,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Macau",
+            "country": "Macau",
+            "lat": 22.19,
+            "lon": 113.54,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Hong Kong → Macau. O deslocamento final foi impedido ou não comprovado. ",
+      "evidence_en": "[O1] Intended or not completed movement: Hong Kong → Macao; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Hong Kong → Macao; su realización no está comprobada. ",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4163.html",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0041"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0044",
+      "event_match": {
+        "event_id": "2024-10-10__shark-products-aeroporto-internacional-de-hong-kong-tub-0044"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Indonésia → Aeroporto Internacional de Hong Kong",
+      "label_en": "Indonesia → Hong Kong International Airport",
+      "label_es": "Indonesia → Aeropuerto Internacional de Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Indonésia",
+            "country": "Indonésia",
+            "lat": -2.55,
+            "lon": 118.015,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308,
+            "lon": 113.918,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Itinerário de transporte informado: Indonésia → Aeroporto Internacional de Hong Kong. O trajeto não é evidência da área onde os tubarões foram capturados. Coordenadas representativas dos países não indicam aeroportos ou portos concretos.",
+      "evidence_en": "[O1] Reported trade/transport itinerary: Indonesia → Hong Kong International Airport. This is not evidence of the fishing location. Country points are generalized rather than documented export ports.",
+      "evidence_es": "[O1] Itinerario de transporte declarado: Indonesia → Aeropuerto Internacional de Hong Kong. No demuestra el lugar de pesca de los tiburones. Los puntos nacionales son representativos, no puertos de origen documentados.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.customs.gov.hk/en/customs-announcement/press-release/index_id_4351.html",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0044"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0048",
+      "event_match": {
+        "event_id": "2025-05-09__shark-products-embarcacao-fluvial-tub-0048"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Macau",
+      "label_en": "Hong Kong → Macao",
+      "label_es": "Hong Kong → Macao",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.31,
+            "lon": 114.17,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Macau",
+            "country": "Macau",
+            "lat": 22.19,
+            "lon": 113.54,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Hong Kong → Macau. O deslocamento final foi impedido ou não comprovado. ",
+      "evidence_en": "[O1] Intended or not completed movement: Hong Kong → Macao; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Hong Kong → Macao; su realización no está comprobada. ",
+      "source_label": "Governo de Hong Kong",
+      "source_url": "https://www.info.gov.hk/gia/general/202505/22/P2025052200300.htm",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0048"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0049",
+      "event_match": {
+        "event_id": "2025-06-05__shark-products-porto-de-ensenada-baja-california-tub-0049"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Porto de Ensenada → Xangai",
+      "label_en": "Port of Ensenada → Shanghai",
+      "label_es": "Puerto de Ensenada → Shanghái",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto de Ensenada",
+            "country": "México",
+            "lat": 31.86,
+            "lon": -116.61,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Xangai",
+            "country": "China",
+            "lat": 31.2304,
+            "lon": 121.4737,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Porto de Ensenada → Xangai. A apreensão ocorreu antes da exportação. ",
+      "evidence_en": "[O1] Intended or not completed movement: Port of Ensenada → Shanghai; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Puerto de Ensenada → Shanghái; su realización no está comprobada. ",
+      "source_label": "PROFEPA / SEMAR",
+      "source_url": "https://www.gob.mx/profepa/prensa/profepa-asegura-2-433-kilos-de-aletas-de-tiburon-que-pretendian-llevar-a-shanghai",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0049"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0060",
+      "event_match": {
+        "event_id": "2025-12__shark-products-kotoka-international-airport-accra-tub-0060"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Acra, aeroporto Kotoka → Mauritânia",
+      "label_en": "Accra, Kotoka Airport → Mauritania",
+      "label_es": "Acra, aeropuerto de Kotoka → Mauritania",
+      "segments": [
+        {
+          "from": {
+            "name": "Acra, aeroporto Kotoka",
+            "country": "Gana",
+            "lat": 5.605,
+            "lon": -0.167,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Mauritânia",
+            "country": "Mauritânia",
+            "lat": 20.254,
+            "lon": -10.298,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Acra, aeroporto Kotoka → Mauritânia. O deslocamento final foi impedido ou não comprovado. Os países são representados por pontos generalizados, sem presumir o porto de partida.",
+      "evidence_en": "[O1] Intended or not completed movement: Accra, Kotoka Airport → Mauritania; completion is not documented. Country-level endpoints are generalized, not inferred departure ports.",
+      "evidence_es": "[O1] Traslado previsto o no completado: Acra, aeropuerto de Kotoka → Mauritania; su realización no está comprobada. Los puntos nacionales son generalizados, no puertos inferidos.",
+      "source_label": "Ghana News Agency / Forestry Commission",
+      "source_url": "https://gna.org.gh/2025/12/forestry-commission-seizes-3967-dried-shark-fins/",
+      "source_evidence_type": "documented_country_or_city_itinerary_with_generalized_endpoints",
+      "case_source_id": "TUB-0060"
+    },
+    {
+      "id": "shark-products-historical-20261014-tub-0061",
+      "event_match": {
+        "event_id": "2026-01__shark-products-duas-embarcacoes-fluviais-tub-0061"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Hong Kong → Macau",
+      "label_en": "Hong Kong → Macao",
+      "label_es": "Hong Kong → Macao",
+      "segments": [
+        {
+          "from": {
+            "name": "Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.31,
+            "lon": 114.17,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Macau",
+            "country": "Macau",
+            "lat": 22.19,
+            "lon": 113.54,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] Rota prevista ou ainda não concluída: Hong Kong → Macau. O deslocamento final foi impedido ou não comprovado. ",
+      "evidence_en": "[O1] Intended or not completed movement: Hong Kong → Macao; completion is not documented. ",
+      "evidence_es": "[O1] Traslado previsto o no completado: Hong Kong → Macao; su realización no está comprobada. ",
+      "source_label": "Governo de Hong Kong",
+      "source_url": "https://www.info.gov.hk/gia/general/202601/21/P2026012100393.htm",
+      "source_evidence_type": "documented_transport_itinerary",
+      "case_source_id": "TUB-0061"
     }
   ],
   "network_context": [
@@ -9931,5 +11363,12 @@
       "reason": "AGGREGATE_LOCAL_HUNTING_NO_ROUTE",
       "detail_pt": "Série agregada de fiscalizações locais sem trajetos individualizados ou cadeia de transporte documentada."
     }
-  ]
+  ],
+  "last_historical_shark_batch": {
+    "cases_examined": 54,
+    "routes_added": 36,
+    "undocumented_routes_skipped": 18,
+    "rule": "documented shipments only, no biological provenance inferred",
+    "batch": "historical_shark_products_2015_2026"
+  }
 }
