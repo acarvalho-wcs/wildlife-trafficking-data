@@ -1,0 +1,85 @@
+{
+  "id": "2026-10-12__varanasi-cantt-24-live-softshell-turtles",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "global_13_14oct2026_source_audit",
+  "source_reconciliation_status": "PRIMARY_SECONDARY_CROSSCHECKED",
+  "event_date": "2026-10-12",
+  "publication_date": "2026-10-13",
+  "event_date_precision": "day",
+  "country": "Índia",
+  "coordinates": {
+    "lat": 25.33,
+    "lon": 82.984
+  },
+  "coordinate_precision": "railway_station_generalized",
+  "source_label": "GRP / RPF / Forest Department, por Navbharat Live",
+  "source_url": "https://navbharatlive.com/uttar-pradesh/varanasi/24-indian-softshell-turtles-12-lakh-seized-varanasi-cantt-railway-station-sns03",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Tartarugas-de-carapaça-mole (Indian softshell turtle, identificação relatada pelo órgão florestal; espécie científica não confirmada)",
+  "modal_primary": "Ferroviário",
+  "quantity_count": 24,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 24
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "GRP / RPF / Forest Department, por Navbharat Live",
+      "url": "https://navbharatlive.com/uttar-pradesh/varanasi/24-indian-softshell-turtles-12-lakh-seized-varanasi-cantt-railway-station-sns03"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Hindustan (12/10/2026), primeira reportagem",
+      "url": "https://www.livehindustan.com/uttar-pradesh/varanasi/story-varanasi-grp-arrests-turtle-smuggler-with-24-turtles-at-cantt-station-201791826403510.html"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "Ministry of Finance / PIB, apreensões de tartarugas e transporte ferroviário (2024)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2003822&lang=1&reg=37"
+    }
+  ],
+  "context_status": "CONTEXTUALIZED_MULTILINGUAL",
+  "translation_status": "REVIEWED_TRILINGUAL",
+  "route_audit_status": "NO_ROUTE_COMMITTED",
+  "image_url": null,
+  "image_source_url": "https://navbharatlive.com/uttar-pradesh/varanasi/24-indian-softshell-turtles-12-lakh-seized-varanasi-cantt-railway-station-sns03",
+  "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+  "added_at": "2026-10-14T11:00:00Z",
+  "location_label_pt": "Estação Varanasi Cantt, plataforma 9, Uttar Pradesh",
+  "title_pt": "Polícia ferroviária apreende 24 tartarugas vivas em Varanasi",
+  "fauna_label_pt": "Tartarugas-de-carapaça-mole (Indian softshell turtle, identificação relatada pelo órgão florestal; espécie científica não confirmada)",
+  "card_text_pt": "Em 12/10, por volta das 19h59, GRP e RPF apreenderam 24 tartarugas vivas (seis grandes e 18 pequenas) em malas e sacos do trem Kumbh Express na plataforma 9 da estação Varanasi Cantt. Suspeito foi detido e animais entregues ao Departamento Florestal.",
+  "context_pt": "[O1] Em 12/10, por volta das 19h59, GRP e RPF apreenderam 24 tartarugas vivas (seis grandes e 18 pequenas) em malas e sacos do trem Kumbh Express na plataforma 9 da estação Varanasi Cantt. Suspeito foi detido e animais entregues ao Departamento Florestal.\n\n[O1] O comunicado policial reproduzido relata apreensão em 12/10/2026, diferente da data da notícia de 13/10. Os 24 exemplares foram descritos como Indian softshell turtle, mas não há laudo acessível com identificação científica definitiva. O detido informou coleta em lagoas de Amethi/Sultanpur e intenção de venda em Bengala Ocidental: são declarações sob investigação, não rotas ou pontos de captura independentemente validados. Os 12 lakh rúpias são avaliação jornalística de mercado, não venda consumada. [N1] O Hindustan registrou a ocorrência já em 12/10; trata-se de uma única apreensão. [I1] O DRI registrou outras interceptações ferroviárias de tartarugas rumo a Kolkata, oferecendo contexto modal sem conexão demonstrada entre os autores.",
+  "quantity_note_pt": "24 indivíduos: seis grandes e 18 pequenos; não estimar espécie científica além do comunicado.",
+  "geographic_note_pt": "Localidade de referência, não localização exata da apreensão ou procedência dos animais.",
+  "route_audit_note_pt": "Não representar rota sem extremos documentados e sem resolver destino contraditório.",
+  "references_text_pt": "[O1] GRP / RPF / Forest Department, por Navbharat Live — https://navbharatlive.com/uttar-pradesh/varanasi/24-indian-softshell-turtles-12-lakh-seized-varanasi-cantt-railway-station-sns03\n[N1] Hindustan (12/10/2026), primeira reportagem — https://www.livehindustan.com/uttar-pradesh/varanasi/story-varanasi-grp-arrests-turtle-smuggler-with-24-turtles-at-cantt-station-201791826403510.html\n[I1] Ministry of Finance / PIB, apreensões de tartarugas e transporte ferroviário (2024) — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2003822&lang=1&reg=37",
+  "location_label_en": "Estação Varanasi Cantt, plataforma 9, Uttar Pradesh",
+  "title_en": "Railway police seize 24 live softshell turtles at Varanasi station",
+  "fauna_label_en": "Tartarugas-de-carapaça-mole (Indian softshell turtle, identificação relatada pelo órgão florestal; espécie científica não confirmada)",
+  "card_text_en": "On 12 October at around 19:59, GRP and RPF seized 24 live turtles (six large, 18 small) from bags on Kumbh Express at platform 9, Varanasi Cantt. A suspect was detained and the turtles transferred to the Forest Department.",
+  "context_en": "[O1] On 12 October at around 19:59, GRP and RPF seized 24 live turtles (six large, 18 small) from bags on Kumbh Express at platform 9, Varanasi Cantt. A suspect was detained and the turtles transferred to the Forest Department.\n\n[O1] A police statement describes the seizure on 12 October, preceding the 13 October news update. All 24 animals were identified in news as Indian softshell turtles, without an independently available species-level forensic assessment. The suspect reportedly mentioned Amethi/Sultanpur ponds and intended sale in West Bengal; these are unverified claims, not independently confirmed collection sites or completed routes. The alleged market value is not a completed sale. [N1] Hindustan reported the same case already on 12 October. [I1] DRI previously documented rail transport of turtles towards Kolkata, offering comparable trafficking-method context but no shared network link.",
+  "quantity_note_en": "24 individuals: six larger and 18 smaller; scientific species not independently established.",
+  "geographic_note_en": "Generalized locality; not the exact interception or collection site.",
+  "route_audit_note_en": "Do not draw route without documented endpoints or resolved destination.",
+  "references_text_en": "[O1] GRP / RPF / Forest Department, por Navbharat Live — https://navbharatlive.com/uttar-pradesh/varanasi/24-indian-softshell-turtles-12-lakh-seized-varanasi-cantt-railway-station-sns03\n[N1] Hindustan (12/10/2026), primeira reportagem — https://www.livehindustan.com/uttar-pradesh/varanasi/story-varanasi-grp-arrests-turtle-smuggler-with-24-turtles-at-cantt-station-201791826403510.html\n[I1] Ministry of Finance / PIB, apreensões de tartarugas e transporte ferroviário (2024) — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2003822&lang=1&reg=37",
+  "location_label_es": "Estação Varanasi Cantt, plataforma 9, Uttar Pradesh",
+  "title_es": "Policía ferroviaria decomisa 24 tortugas vivas en Varanasi",
+  "fauna_label_es": "Tartarugas-de-carapaça-mole (Indian softshell turtle, identificação relatada pelo órgão florestal; espécie científica não confirmada)",
+  "card_text_es": "El 12/10, cerca de las 19:59, GRP y RPF decomisaron 24 tortugas vivas (seis grandes y 18 pequeñas) en bolsas del Kumbh Express, andén 9 de Varanasi Cantt. Hubo un detenido y entrega al Departamento Forestal.",
+  "context_es": "[O1] El 12/10, cerca de las 19:59, GRP y RPF decomisaron 24 tortugas vivas (seis grandes y 18 pequeñas) en bolsas del Kumbh Express, andén 9 de Varanasi Cantt. Hubo un detenido y entrega al Departamento Forestal.\n\n[O1] La policía informó de un decomiso ocurrido el 12/10, antes de las noticias del día 13. Las 24 tortugas fueron descritas como Indian softshell turtle, sin informe forense específico disponible. El detenido habría indicado captura en estanques de Amethi/Sultanpur y venta prevista en Bengala Occidental: afirmaciones preliminares, no origen probado ni ruta consumada. El valor de mercado no demuestra venta. [N1] Hindustan informó del mismo hecho el 12/10. [I1] DRI documentó otros transportes ferroviarios hacia Kolkata, como comparación metodológica sin vínculo criminal demostrado.",
+  "quantity_note_es": "24 ejemplares: seis grandes y 18 pequeños; especie científica no confirmada.",
+  "geographic_note_es": "Localidad aproximada, no lugar exacto de decomiso ni captura.",
+  "route_audit_note_es": "No representar rutas sin extremos documentados ni destino reconciliado.",
+  "references_text_es": "[O1] GRP / RPF / Forest Department, por Navbharat Live — https://navbharatlive.com/uttar-pradesh/varanasi/24-indian-softshell-turtles-12-lakh-seized-varanasi-cantt-railway-station-sns03\n[N1] Hindustan (12/10/2026), primeira reportagem — https://www.livehindustan.com/uttar-pradesh/varanasi/story-varanasi-grp-arrests-turtle-smuggler-with-24-turtles-at-cantt-station-201791826403510.html\n[I1] Ministry of Finance / PIB, apreensões de tartarugas e transporte ferroviário (2024) — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2003822&lang=1&reg=37"
+}
