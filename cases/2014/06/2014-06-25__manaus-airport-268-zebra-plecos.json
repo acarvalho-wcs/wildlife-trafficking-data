@@ -1,0 +1,68 @@
+{
+  "id": "2014-06-25__manaus-airport-268-zebra-plecos",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_c",
+  "country": "Brasil",
+  "location_label_pt": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "location_label_en": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "location_label_es": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "coordinates": {
+    "lat": -3.039,
+    "lon": -60.048
+  },
+  "coordinate_precision": "city_or_airport_generalized",
+  "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+  "source_label": "Fauna News / G1 / PF / Ibama",
+  "source_url": "https://faunanews.blogspot.com/2014/06/",
+  "publication_date": "2014-06-26",
+  "event_date": "2014-06-25",
+  "event_date_precision": "day",
+  "fauna_label_pt": "268 Hypancistrus zebra, vivos",
+  "fauna_label_en": "268 Hypancistrus zebra, vivos",
+  "fauna_label_es": "268 Hypancistrus zebra, vivos",
+  "taxon_text": "Hypancistrus zebra",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "268 Hypancistrus zebra, vivos — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "title_en": "Ornamental fish enforcement — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "title_es": "Fiscalización de peces ornamentales — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "card_text_pt": "Em 25/06, PF e Ibama detiveram passageira vinda de Altamira com 268 H. zebra no aeroporto de Manaus. O flagrante interceptou tentativa de deslocamento subsequente até Tabatinga para possível saída pela Colômbia. A captura em Altamira é atribuída especificamente a este carregamento, e a etapa para a fronteira era pretendida, não concluída. O estudo de Sousa et al. situa a espécie como endêmica do Xingu; apreensão distinta do lote de 161 em julho.",
+  "card_text_en": "On 25 June, Federal Police and Ibama stopped a woman from Altamira carrying 268 zebra plecos at Manaus airport. A subsequent journey to Tabatinga and onward export via Colombia were reportedly planned but interrupted. Altamira was reported as this consignment's collection area. Sousa et al. document the Xingu endemism; the 161-fish July interception is separate.",
+  "card_text_es": "El 25 de junio, PF e Ibama detuvieron a una mujer procedente de Altamira con 268 plecos cebra en el aeropuerto de Manaos. Se preveía traslado a Tabatinga y posible salida por Colombia, sin realizarse. La captura se atribuyó a Altamira. Sousa et al. describen el endemismo del Xingu; el operativo de 161 peces en julio es distinto.",
+  "context_pt": "[O1] Em 25/06, PF e Ibama detiveram passageira vinda de Altamira com 268 H. zebra no aeroporto de Manaus. O flagrante interceptou tentativa de deslocamento subsequente até Tabatinga para possível saída pela Colômbia. A captura em Altamira é atribuída especificamente a este carregamento, e a etapa para a fronteira era pretendida, não concluída. O estudo de Sousa et al. situa a espécie como endêmica do Xingu; apreensão distinta do lote de 161 em julho. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+  "context_en": "[O1] On 25 June, Federal Police and Ibama stopped a woman from Altamira carrying 268 zebra plecos at Manaus airport. A subsequent journey to Tabatinga and onward export via Colombia were reportedly planned but interrupted. Altamira was reported as this consignment's collection area. Sousa et al. document the Xingu endemism; the 161-fish July interception is separate. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+  "context_es": "[O1] El 25 de junio, PF e Ibama detuvieron a una mujer procedente de Altamira con 268 plecos cebra en el aeropuerto de Manaos. Se preveía traslado a Tabatinga y posible salida por Colombia, sin realizarse. La captura se atribuyó a Altamira. Sousa et al. describen el endemismo del Xingu; el operativo de 161 peces en julio es distinto. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Fauna News / G1 / PF / Ibama",
+      "url": "https://faunanews.blogspot.com/2014/06/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    }
+  ],
+  "quantity_count": 268,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 268
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+  "image_url": null,
+  "image_source_url": "https://faunanews.blogspot.com/2014/06/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+  "references_text_pt": "[O1] Fauna News / G1 / PF / Ibama — https://faunanews.blogspot.com/2014/06/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_en": "[O1] Fauna News / G1 / PF / Ibama — https://faunanews.blogspot.com/2014/06/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_es": "[O1] Fauna News / G1 / PF / Ibama — https://faunanews.blogspot.com/2014/06/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570"
+}
