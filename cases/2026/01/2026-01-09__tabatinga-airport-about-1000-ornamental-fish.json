@@ -1,0 +1,78 @@
+{
+  "id": "2026-01-09__tabatinga-airport-about-1000-ornamental-fish",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_a",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "country": "Brasil",
+  "location_label_pt": "Aeroporto Internacional de Tabatinga, Amazonas, Brasil",
+  "location_label_en": "Aeroporto Internacional de Tabatinga, Amazonas, Brasil",
+  "location_label_es": "Aeroporto Internacional de Tabatinga, Amazonas, Brasil",
+  "coordinates": {
+    "lat": -4.254,
+    "lon": -69.938
+  },
+  "coordinate_precision": "airport_or_city_generalized",
+  "geographic_note_pt": "Coordenada de referência da localidade/aeroporto; posição exata da fiscalização não verificada.",
+  "geographic_note_en": "Generalized city/airport reference; exact seizure position not verified.",
+  "geographic_note_es": "Punto de referencia de la ciudad/aeropuerto; lugar exacto no verificado.",
+  "source_label": "Polícia Federal / Amazonas Atual",
+  "source_url": "https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/",
+  "publication_date": "2026-01-10",
+  "event_date": "2026-01-09",
+  "fauna_label_pt": "Cerca de 1.000 peixes ornamentais, espécies não informadas",
+  "fauna_label_en": "Cerca de 1.000 peixes ornamentais, espécies não informadas",
+  "fauna_label_es": "Cerca de 1.000 peixes ornamentais, espécies não informadas",
+  "taxon_text": "Peixes ornamentais; espécies não determinadas",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "1000 peixes ornamentais apreendidos — Aeroporto Internacional de Tabatinga, Amazonas, Brasil",
+  "title_en": "Ornamental fish interception — Aeroporto Internacional de Tabatinga, Amazonas, Brasil",
+  "title_es": "Decomiso de peces ornamentales — Aeroporto Internacional de Tabatinga, Amazonas, Brasil",
+  "card_text_pt": "Em 9 de janeiro, a PF apreendeu aproximadamente mil peixes ornamentais em sacos com pouca água no aeroporto de Tabatinga. A investigação apontou circulação a partir de Manaus e intenção de saída internacional pela fronteira, sem identificar país de destino nem espécies. O acondicionamento inadequado é parte relevante do risco de mortalidade associado à cadeia ilícita; o deslocamento para o exterior não se consumou.",
+  "card_text_en": "On 9 January, Federal Police seized roughly 1,000 ornamental fish in inadequately watered bags at Tabatinga airport. Investigators described a Manaus origin and intended cross-border export, but named neither species nor destination country. Poor packing raises welfare concerns; no completed international crossing was documented.",
+  "card_text_es": "El 9 de enero la Policía Federal decomisó aproximadamente mil peces ornamentales en bolsas con agua insuficiente en el aeropuerto de Tabatinga. Se informó transporte desde Manaos e intención de salida por la frontera, sin indicar especie ni país receptor. El cruce internacional no se completó.",
+  "context_pt": "[O1] Em 9 de janeiro, a PF apreendeu aproximadamente mil peixes ornamentais em sacos com pouca água no aeroporto de Tabatinga. A investigação apontou circulação a partir de Manaus e intenção de saída internacional pela fronteira, sem identificar país de destino nem espécies. O acondicionamento inadequado é parte relevante do risco de mortalidade associado à cadeia ilícita; o deslocamento para o exterior não se consumou. [I1] O diagnóstico da TRAFFIC sobre apreensões aeroportuárias brasileiras documenta a importância dos peixes ornamentais e alerta para a diversidade de espécies e canais; não identifica participantes deste caso. [N1] A cobertura jornalística complementar relata os mesmos fatos operacionais; não corresponde a uma segunda apreensão.",
+  "context_en": "[O1] On 9 January, Federal Police seized roughly 1,000 ornamental fish in inadequately watered bags at Tabatinga airport. Investigators described a Manaus origin and intended cross-border export, but named neither species nor destination country. Poor packing raises welfare concerns; no completed international crossing was documented. [I1] TRAFFIC's Brazilian seizure assessment shows the importance of ornamental fish in airport enforcement; it does not identify participants in this case. [N1] The supplementary news account concerns the same seizure, not a second event.",
+  "context_es": "[O1] El 9 de enero la Policía Federal decomisó aproximadamente mil peces ornamentales en bolsas con agua insuficiente en el aeropuerto de Tabatinga. Se informó transporte desde Manaos e intención de salida por la frontera, sin indicar especie ni país receptor. El cruce internacional no se completó. [I1] TRAFFIC identifica importancia de peces ornamentales en los decomisos aeroportuarios brasileños; no vincula autores de este caso. [N1] La nota complementaria trata el mismo decomiso, no otro suceso.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polícia Federal / Amazonas Atual",
+      "url": "https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "TRAFFIC (2020), Brazil's widespread wildlife trafficking",
+      "url": "https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "((o))eco, Tabatinga ornamental fish trafficking, 12 Jan 2026",
+      "url": "https://oeco.org.br/salada-verde/pf-prende-homem-por-contrabando-de-peixes-ornamentais-da-amazonia-em-tabatinga/"
+    }
+  ],
+  "quantity_count": 1000,
+  "quantity_qualifier": "approximate",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 1000
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Cerca de mil indivíduos, quantidade aproximada.",
+  "quantity_note_en": "Live specimens; estimates remain approximate when reported.",
+  "quantity_note_es": "Ejemplares vivos; las cantidades aproximadas no son recuentos exactos.",
+  "image_url": null,
+  "image_source_url": "https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Somente etapas e destinos citados explicitamente; sem inferir captura ou segmentos internacionais.",
+  "references_text_pt": "[O1] Polícia Federal / Amazonas Atual — https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/\n[I1] TRAFFIC (2020), Brazil's widespread wildlife trafficking — https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/\n[N1] ((o))eco, Tabatinga ornamental fish trafficking, 12 Jan 2026 — https://oeco.org.br/salada-verde/pf-prende-homem-por-contrabando-de-peixes-ornamentais-da-amazonia-em-tabatinga/",
+  "references_text_en": "[O1] Polícia Federal / Amazonas Atual — https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/\n[I1] TRAFFIC (2020), Brazil's widespread wildlife trafficking — https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/\n[N1] ((o))eco, Tabatinga ornamental fish trafficking, 12 Jan 2026 — https://oeco.org.br/salada-verde/pf-prende-homem-por-contrabando-de-peixes-ornamentais-da-amazonia-em-tabatinga/",
+  "references_text_es": "[O1] Polícia Federal / Amazonas Atual — https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/\n[I1] TRAFFIC (2020), Brazil's widespread wildlife trafficking — https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/\n[N1] ((o))eco, Tabatinga ornamental fish trafficking, 12 Jan 2026 — https://oeco.org.br/salada-verde/pf-prende-homem-por-contrabando-de-peixes-ornamentais-da-amazonia-em-tabatinga/"
+}
