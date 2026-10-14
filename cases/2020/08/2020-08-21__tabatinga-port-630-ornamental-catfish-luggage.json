@@ -1,0 +1,76 @@
+{
+  "id": "2020-08-21__tabatinga-port-630-ornamental-catfish-luggage",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_b",
+  "country": "Brasil",
+  "location_label_pt": "Porto de Tabatinga, Amazonas",
+  "location_label_en": "Porto de Tabatinga, Amazonas",
+  "location_label_es": "Porto de Tabatinga, Amazonas",
+  "coordinates": {
+    "lat": -4.255,
+    "lon": -69.936
+  },
+  "coordinate_precision": "locality_or_airport_generalized",
+  "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+  "source_label": "Amazonas Atual / Polícia Federal",
+  "source_url": "https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/",
+  "publication_date": "2020-08-24",
+  "event_date": "2020-08-21",
+  "event_date_precision": "day",
+  "fauna_label_pt": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente",
+  "fauna_label_en": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente",
+  "fauna_label_es": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente",
+  "taxon_text": "Siluriformes; Hypancistrus zebra e Ancistrus spp. (identificação provisória)",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Fluvial",
+  "title_pt": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente — Porto de Tabatinga, Amazonas",
+  "title_en": "Ornamental fish seizure — Porto de Tabatinga, Amazonas",
+  "title_es": "Decomiso de peces ornamentales — Porto de Tabatinga, Amazonas",
+  "card_text_pt": "Na inspeção do porto em 21/08, a PF apreendeu duas malas abandonadas por passageiro de lancha rápida oriunda de Manaus, com 107 sacos plásticos contendo aproximadamente 630 alevinos de bagres ornamentais. Hypancistrus zebra e Ancistrus foram identificados apenas preliminarmente; laudo posterior foi encaminhado ao IFAM. A etapa Manaus–Tabatinga é comprovada pelo deslocamento descrito; a travessia para Letícia ou outros países é hipótese de rota regional, não uma etapa realizada neste evento.",
+  "card_text_en": "On 21 August, Federal Police found two bags abandoned by a passenger arriving at Tabatinga port on a fast boat from Manaus, with roughly 630 juvenile ornamental catfish in 107 plastic bags. Zebra plecos and Ancistrus were provisional identifications pending IFAM assessment. Manaus–Tabatinga was a documented completed segment; a subsequent crossing to Leticia is not verified for this event.",
+  "card_text_es": "El 21 de agosto, la PF recuperó dos maletas abandonadas por un pasajero de lancha procedente de Manaos, con aproximadamente 630 alevines de bagres ornamentales en 107 bolsas. Hypancistrus zebra y Ancistrus eran identificaciones preliminares pendientes de evaluación del IFAM. Manaos–Tabatinga es tramo documentado, no así un cruce posterior a Leticia.",
+  "context_pt": "[O1] Na inspeção do porto em 21/08, a PF apreendeu duas malas abandonadas por passageiro de lancha rápida oriunda de Manaus, com 107 sacos plásticos contendo aproximadamente 630 alevinos de bagres ornamentais. Hypancistrus zebra e Ancistrus foram identificados apenas preliminarmente; laudo posterior foi encaminhado ao IFAM. A etapa Manaus–Tabatinga é comprovada pelo deslocamento descrito; a travessia para Letícia ou outros países é hipótese de rota regional, não uma etapa realizada neste evento. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão.",
+  "context_en": "[O1] On 21 August, Federal Police found two bags abandoned by a passenger arriving at Tabatinga port on a fast boat from Manaus, with roughly 630 juvenile ornamental catfish in 107 plastic bags. Zebra plecos and Ancistrus were provisional identifications pending IFAM assessment. Manaus–Tabatinga was a documented completed segment; a subsequent crossing to Leticia is not verified for this event. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution. [N1] The supplementary report is not a separate seizure event.",
+  "context_es": "[O1] El 21 de agosto, la PF recuperó dos maletas abandonadas por un pasajero de lancha procedente de Manaos, con aproximadamente 630 alevines de bagres ornamentales en 107 bolsas. Hypancistrus zebra y Ancistrus eran identificaciones preliminares pendientes de evaluación del IFAM. Manaos–Tabatinga es tramo documentado, no así un cruce posterior a Leticia. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso. [N1] La noticia adicional no constituye otro decomiso.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Amazonas Atual / Polícia Federal",
+      "url": "https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Portal do Holanda, 24 Aug 2020",
+      "url": "https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas"
+    }
+  ],
+  "quantity_count": 630,
+  "quantity_qualifier": "approximate",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 630
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+  "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+  "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+  "image_url": null,
+  "image_source_url": "https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+  "references_text_pt": "[O1] Amazonas Atual / Polícia Federal — https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Portal do Holanda, 24 Aug 2020 — https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas",
+  "references_text_en": "[O1] Amazonas Atual / Polícia Federal — https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Portal do Holanda, 24 Aug 2020 — https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas",
+  "references_text_es": "[O1] Amazonas Atual / Polícia Federal — https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Portal do Holanda, 24 Aug 2020 — https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas"
+}
