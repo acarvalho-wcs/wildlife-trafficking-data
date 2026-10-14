@@ -1,0 +1,68 @@
+{
+  "id": "2021-07__bogota-more-than-200-zebra-plecos",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_c",
+  "country": "Colômbia",
+  "location_label_pt": "Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+  "location_label_en": "Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+  "location_label_es": "Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+  "coordinates": {
+    "lat": 4.702,
+    "lon": -74.147
+  },
+  "coordinate_precision": "city_or_airport_generalized",
+  "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+  "source_label": "Autopistas de Depredación — investigação jornalística",
+  "source_url": "https://autopistasdedepredacion.com/colombia/",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "month",
+  "fauna_label_pt": "Mais de 200 Hypancistrus zebra, mínimo 201",
+  "fauna_label_en": "Mais de 200 Hypancistrus zebra, mínimo 201",
+  "fauna_label_es": "Mais de 200 Hypancistrus zebra, mínimo 201",
+  "taxon_text": "Hypancistrus zebra",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "Mais de 200 Hypancistrus zebra, mínimo 201 — Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+  "title_en": "Ornamental fish enforcement — Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+  "title_es": "Fiscalización de peces ornamentales — Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+  "card_text_pt": "Investigação de Autopistas de Depredación, baseada em registros da Secretaría de Ambiente, relata mais de 200 cascudos-zebra confiscados em Bogotá em julho de 2021. A espécie é endêmica do Xingu, de modo que a detecção em um centro exportador colombiano sinaliza potencial circulação transfronteiriça, mas o documento não descreve a origem, intermediários ou itinerário dos exemplares desta apreensão. Nem dia exato nem total exato são informados; registrar 201 apenas como limite mínimo estrito, e não contagem exata.",
+  "card_text_en": "The Autopistas de Depredación investigation, drawing on Bogotá Environmental Secretariat records, reports more than 200 zebra plecos seized in Bogotá in July 2021. Their Xingu endemism makes the Colombian market a potentially significant cross-border setting, but the consignment's capture site, couriers and path were not recorded. The exact day and count are undisclosed; 201 is only the strict minimum consistent with 'more than 200'.",
+  "card_text_es": "La investigación Autopistas de Depredación, basada en registros de la Secretaría de Ambiente, informa más de 200 plecos cebra decomisados en Bogotá en julio de 2021. Su endemismo en el Xingu vuelve relevante el posible comercio transfronterizo, pero no se documentaron origen preciso, intermediarios ni ruta del lote. El día exacto y la cantidad exacta no constan; 201 es únicamente el mínimo estricto.",
+  "context_pt": "[O1] Investigação de Autopistas de Depredación, baseada em registros da Secretaría de Ambiente, relata mais de 200 cascudos-zebra confiscados em Bogotá em julho de 2021. A espécie é endêmica do Xingu, de modo que a detecção em um centro exportador colombiano sinaliza potencial circulação transfronteiriça, mas o documento não descreve a origem, intermediários ou itinerário dos exemplares desta apreensão. Nem dia exato nem total exato são informados; registrar 201 apenas como limite mínimo estrito, e não contagem exata. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+  "context_en": "[O1] The Autopistas de Depredación investigation, drawing on Bogotá Environmental Secretariat records, reports more than 200 zebra plecos seized in Bogotá in July 2021. Their Xingu endemism makes the Colombian market a potentially significant cross-border setting, but the consignment's capture site, couriers and path were not recorded. The exact day and count are undisclosed; 201 is only the strict minimum consistent with 'more than 200'. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+  "context_es": "[O1] La investigación Autopistas de Depredación, basada en registros de la Secretaría de Ambiente, informa más de 200 plecos cebra decomisados en Bogotá en julio de 2021. Su endemismo en el Xingu vuelve relevante el posible comercio transfronterizo, pero no se documentaron origen preciso, intermediarios ni ruta del lote. El día exacto y la cantidad exacta no constan; 201 es únicamente el mínimo estricto. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Autopistas de Depredación — investigação jornalística",
+      "url": "https://autopistasdedepredacion.com/colombia/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    }
+  ],
+  "quantity_count": 201,
+  "quantity_qualifier": "minimum",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 201
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "'Mais de 200' significa pelo menos 201; não atribuir contagem exata.",
+  "image_url": null,
+  "image_source_url": "https://autopistasdedepredacion.com/colombia/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+  "references_text_pt": "[O1] Autopistas de Depredación — investigação jornalística — https://autopistasdedepredacion.com/colombia/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_en": "[O1] Autopistas de Depredación — investigação jornalística — https://autopistasdedepredacion.com/colombia/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_es": "[O1] Autopistas de Depredación — investigação jornalística — https://autopistasdedepredacion.com/colombia/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570"
+}
