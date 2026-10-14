@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-11__sao-jose-pousada-vale-nine-captive-birds",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "global_13_14oct2026_source_audit",
+  "event_date": "2026-10-11",
+  "publication_date": "2026-10-13",
+  "event_date_precision": "day",
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -23.17,
+    "lon": -45.83
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "PM Ambiental SP / Informa Life",
+  "source_url": "https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves silvestres nativas, espécies não individualizadas",
+  "modal_primary": "Terrestre",
+  "quantity_count": 9,
+  "quantity_qualifier": "exact_reported",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 9
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "PM Ambiental SP / Informa Life",
+      "url": "https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/"
+    }
+  ],
+  "image_url": null,
+  "image_source_url": "https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+  "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "location_label_pt": "Pousada do Vale, São José dos Campos, São Paulo",
+  "title_pt": "Polícia Ambiental apreende nove aves sem autorização em São José dos Campos",
+  "card_text_pt": "Em 11/10, policiais encontraram nove aves mantidas sem autorização em residência no bairro Pousada do Vale. O responsável recebeu autuação de R$ 4.500.",
+  "fauna_label_pt": "Aves silvestres nativas, espécies não individualizadas",
+  "context_pt": "[O1] Em 11/10, policiais encontraram nove aves mantidas sem autorização em residência no bairro Pousada do Vale. O responsável recebeu autuação de R$ 4.500.\n\nA fonte atribui a fiscalização de domingo 11/10 à Polícia Militar Ambiental e descreve a localização de ave em gaiola antes da verificação de residência. Documenta posse irregular de nove aves, não comercialização comprovada ou origem geográfica de captura. A publicação em 13/10 não deve ser interpretada como data da ocorrência, nem misturada a apreensões anteriores no município.",
+  "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_pt": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_pt": "[O1] PM Ambiental SP / Informa Life — https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+  "location_label_en": "Pousada do Vale, São José dos Campos, São Paulo",
+  "title_en": "Environmental police seize nine illegally held birds in São José dos Campos",
+  "card_text_en": "On 11 October, officers discovered nine wild birds kept without authorization in a Pousada do Vale residence, São José dos Campos. The keeper was fined R$4,500.",
+  "fauna_label_en": "Aves silvestres nativas, espécies não individualizadas",
+  "context_en": "[O1] On 11 October, officers discovered nine wild birds kept without authorization in a Pousada do Vale residence, São José dos Campos. The keeper was fined R$4,500.\n\nThe 11 October environmental police inspection followed officers observing a caged bird and checking a nearby residence. The case proves unlicensed keeping of nine birds, not a commercial network, origin or transport itinerary. News publication on 13 October is separate from the operational date and this must not be merged with other local seizures.",
+  "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_en": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_en": "[O1] PM Ambiental SP / Informa Life — https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+  "location_label_es": "Pousada do Vale, São José dos Campos, São Paulo",
+  "title_es": "Policía Ambiental decomisa nueve aves sin autorización en São José dos Campos",
+  "card_text_es": "El 11/10, agentes encontraron nueve aves mantenidas sin permiso en una vivienda de Pousada do Vale, São José dos Campos. Se impuso una multa de R$4.500.",
+  "fauna_label_es": "Aves silvestres nativas, espécies não individualizadas",
+  "context_es": "[O1] El 11/10, agentes encontraron nueve aves mantenidas sin permiso en una vivienda de Pousada do Vale, São José dos Campos. Se impuso una multa de R$4.500.\n\nLa fiscalización policial del domingo 11/10 siguió la observación de un ave en jaula y la inspección de una vivienda. Se acredita tenencia no autorizada de nueve aves, no venta, origen ni transporte. La publicación del 13/10 no es la fecha del operativo ni debe mezclarse con otros hechos locales.",
+  "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_es": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_es": "[O1] PM Ambiental SP / Informa Life — https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/"
+}
