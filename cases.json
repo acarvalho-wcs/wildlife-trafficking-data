@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_964_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_968_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 964,
+  "count": 968,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -73878,6 +73878,308 @@
       "references_text_es": "[O1] Environment Authority / Royal Oman Police / Oman Customs, conforme Oman Observer — https://www.omanobserver.om/article/1197799/oman/attempt-to-smuggle-snakes-foiled-at-muscat-airport\n[N1] Times of Oman, 14/10/2026 — https://cdn-1.timesofoman.com/article/177988-illegal-wildlife-trade-foiled-at-muscat-international-airport-as-royal-pythons-seized\n[I1] CITES Animals Committee, Review Python regius (Appendix II) — https://cites.org/sites/default/files/documents/E-AC32-15-01.pdf",
       "occurred_at": null,
       "occurred_at_precision": "not_disclosed_or_disputed"
+    },
+    {
+      "id": "2026-10-11__copiapo-ruta-c390-seven-trapped-birds",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "global_13_14oct2026_source_audit",
+      "event_date": "2026-10-11",
+      "publication_date": "2026-10-13",
+      "event_date_precision": "day",
+      "country": "Chile",
+      "coordinates": {
+        "lat": -27.385,
+        "lon": -70.315
+      },
+      "coordinate_precision": "locality_generalized",
+      "source_label": "PDI / BIDEMA Atacama, segundo Radio Gennesis",
+      "source_url": "https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+      "modal_primary": "Terrestre",
+      "quantity_count": 7,
+      "quantity_qualifier": "exact_reported",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 7
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "PDI / BIDEMA Atacama, segundo Radio Gennesis",
+          "url": "https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Reportagem complementar do mesmo evento",
+          "url": "https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/"
+        }
+      ],
+      "image_url": null,
+      "image_source_url": "https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/",
+      "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "location_label_pt": "Ruta C-390, Copiapó, Atacama",
+      "title_pt": "PDI apreende sete aves capturadas em armadilhas no Deserto Florido",
+      "card_text_pt": "No domingo 11/10, a PDI encontrou seis yales e um cometocino de Gay em gaiolas-armadilha perto de Copiapó; um suspeito foi detido e os animais entregues ao SAG para soltura.",
+      "fauna_label_pt": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+      "context_pt": "[O1] No domingo 11/10, a PDI encontrou seis yales e um cometocino de Gay em gaiolas-armadilha perto de Copiapó; um suspeito foi detido e os animais entregues ao SAG para soltura.\n\nO flagrante de 11/10 junto à Ruta C-390 envolveu quatro gaiolas-armadilha, uma gaiola comum e sete aves. A formalização do suspeito em 12/10 e notícias de 13/10 não constituem novas apreensões. O relato jornalístico menciona investigação de eventual ligação a outro episódio em Huasco, ainda não comprovada. Os espécimes foram encaminhados ao SAG; a soltura não é um evento de tráfico adicional. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_pt": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_pt": "[O1] PDI / BIDEMA Atacama, segundo Radio Gennesis — https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/\n[N1] Reportagem complementar do mesmo evento — https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/",
+      "location_label_en": "Ruta C-390, Copiapó, Atacama",
+      "title_en": "Chilean police recover seven birds caught in traps in the flowering desert",
+      "card_text_en": "On Sunday 11 October, PDI recovered six yales and one Gay's sierra finch from traps near Copiapó. A suspect was detained and birds were handed to SAG for release.",
+      "fauna_label_en": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+      "context_en": "[O1] On Sunday 11 October, PDI recovered six yales and one Gay's sierra finch from traps near Copiapó. A suspect was detained and birds were handed to SAG for release.\n\nThe 11 October interception by Ruta C-390 involved four trap cages, a standard cage and seven birds. Charging the suspect on 12 October and 13 October news reports do not constitute new seizures. A potential link to another Huasco incident remains unproven. Transfer to SAG and release are not trafficking routes. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_en": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_en": "[O1] PDI / BIDEMA Atacama, segundo Radio Gennesis — https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/\n[N1] Reportagem complementar do mesmo evento — https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/",
+      "location_label_es": "Ruta C-390, Copiapó, Atacama",
+      "title_es": "PDI recupera siete aves capturadas en trampas en el Desierto Florido",
+      "card_text_es": "El domingo 11/10, la PDI recuperó seis yales y un cometocino de Gay en jaulas trampa cerca de Copiapó; hubo un detenido y entrega al SAG para liberación.",
+      "fauna_label_es": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+      "context_es": "[O1] El domingo 11/10, la PDI recuperó seis yales y un cometocino de Gay en jaulas trampa cerca de Copiapó; hubo un detenido y entrega al SAG para liberación.\n\nLa intervención del 11/10 en Ruta C-390 recuperó cuatro jaulas trampa, una jaula común y siete aves. La formalización judicial del 12/10 y noticias del 13/10 no generan decomisos adicionales. La posible conexión con Huasco no fue demostrada. La liberación a cargo de SAG no representa otra operación. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_es": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_es": "[O1] PDI / BIDEMA Atacama, segundo Radio Gennesis — https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/\n[N1] Reportagem complementar do mesmo evento — https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/",
+      "occurred_at": "2026-10-11T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-11__praia-grande-illegal-birdsong-tournament-81-birds",
+      "status": "VALIDATED",
+      "aggregate_operation": true,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "global_13_14oct2026_source_audit",
+      "event_date": "2026-10-11",
+      "publication_date": "2026-10-12",
+      "event_date_precision": "day",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -24.005,
+        "lon": -46.412
+      },
+      "coordinate_precision": "locality_generalized",
+      "source_label": "Polícia Militar do Estado de São Paulo",
+      "source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+      "modal_primary": "Terrestre",
+      "quantity_count": 81,
+      "quantity_qualifier": "exact_reported",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 81
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Polícia Militar do Estado de São Paulo",
+          "url": "https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Reportagem complementar do mesmo evento",
+          "url": "https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/"
+        }
+      ],
+      "image_url": null,
+      "image_source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/",
+      "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "location_label_pt": "Praia Grande, São Paulo",
+      "title_pt": "Polícia Ambiental apreende 81 aves em torneio irregular em Praia Grande",
+      "card_text_pt": "Em 11/10, a PM Ambiental fiscalizou torneio de canto não autorizado em Praia Grande, apreendeu 81 aves, vistoriou 41 participantes e emitiu 40 autos, com R$ 81 mil em multas.",
+      "fauna_label_pt": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+      "context_pt": "[O1] Em 11/10, a PM Ambiental fiscalizou torneio de canto não autorizado em Praia Grande, apreendeu 81 aves, vistoriou 41 participantes e emitiu 40 autos, com R$ 81 mil em multas.\n\nO comunicado institucional de 12/10 relata um único flagrante no domingo 11/10, envolvendo aves registradas e não registradas, sem discriminar espécies. Um participante com mandado judicial também foi localizado; isso não prova participação individual em comércio de aves. As 41 pessoas e 40 autos não devem ser convertidos em outras apreensões. A reportagem de 13/10 trata do mesmo evento. Transporte, procedência e rota comercial não foram estabelecidos. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_pt": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_pt": "[O1] Polícia Militar do Estado de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/\n[N1] Reportagem complementar do mesmo evento — https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/",
+      "location_label_en": "Praia Grande, São Paulo",
+      "title_en": "Environmental police seize 81 birds at unauthorized singing contest in Praia Grande",
+      "card_text_en": "On 11 October, environmental police inspected an unauthorized birdsong contest in Praia Grande, seizing 81 birds, inspecting 41 people and issuing 40 infringement notices totalling R$81,000.",
+      "fauna_label_en": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+      "context_en": "[O1] On 11 October, environmental police inspected an unauthorized birdsong contest in Praia Grande, seizing 81 birds, inspecting 41 people and issuing 40 infringement notices totalling R$81,000.\n\nThe official 12 October statement concerns a single 11 October raid involving both registered and unregistered birds, without a taxonomic breakdown. One attendee subject to an unrelated warrant was detained, which alone does not prove wildlife trade. Forty-one people and 40 notices are not additional seizures; a 13 October report covers the same operation. No trade route or capture origin was established. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_en": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_en": "[O1] Polícia Militar do Estado de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/\n[N1] Reportagem complementar do mesmo evento — https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/",
+      "location_label_es": "Praia Grande, São Paulo",
+      "title_es": "Policía Ambiental decomisa 81 aves en concurso irregular de canto en Praia Grande",
+      "card_text_es": "El 11/10, la policía ambiental fiscalizó un concurso de canto no autorizado en Praia Grande: 81 aves decomisadas, 41 personas inspeccionadas y 40 actas por R$81.000.",
+      "fauna_label_es": "81 aves de torneio de canto; espécies e quantidades individuais não discriminadas",
+      "context_es": "[O1] El 11/10, la policía ambiental fiscalizó un concurso de canto no autorizado en Praia Grande: 81 aves decomisadas, 41 personas inspeccionadas y 40 actas por R$81.000.\n\nEl parte oficial del 12/10 documenta un único operativo el 11/10 con aves registradas y no registradas, sin detalle de especies. Se localizó una persona buscada judicialmente, sin probar comercio de fauna. Los 41 participantes y 40 actas no constituyen otros decomisos. La noticia del 13/10 trata el mismo hecho, sin ruta ni procedencia demostradas. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_es": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_es": "[O1] Polícia Militar do Estado de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/torneio-ilegal-de-passaros-em-praia-grande-termina-com-81-aves-apreendidas/\n[N1] Reportagem complementar do mesmo evento — https://santaportal.com.br/policia/pm-apreende-81-aves-em-torneio-ilegal-de-passaros-em-praia-grande/",
+      "occurred_at": "2026-10-11T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-11__sao-jose-pousada-vale-nine-captive-birds",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "global_13_14oct2026_source_audit",
+      "event_date": "2026-10-11",
+      "publication_date": "2026-10-13",
+      "event_date_precision": "day",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -23.17,
+        "lon": -45.83
+      },
+      "coordinate_precision": "locality_generalized",
+      "source_label": "PM Ambiental SP / Informa Life",
+      "source_url": "https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "Aves silvestres nativas, espécies não individualizadas",
+      "modal_primary": "Terrestre",
+      "quantity_count": 9,
+      "quantity_qualifier": "exact_reported",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 9
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "PM Ambiental SP / Informa Life",
+          "url": "https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/"
+        }
+      ],
+      "image_url": null,
+      "image_source_url": "https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+      "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "location_label_pt": "Pousada do Vale, São José dos Campos, São Paulo",
+      "title_pt": "Polícia Ambiental apreende nove aves sem autorização em São José dos Campos",
+      "card_text_pt": "Em 11/10, policiais encontraram nove aves mantidas sem autorização em residência no bairro Pousada do Vale. O responsável recebeu autuação de R$ 4.500.",
+      "fauna_label_pt": "Aves silvestres nativas, espécies não individualizadas",
+      "context_pt": "[O1] Em 11/10, policiais encontraram nove aves mantidas sem autorização em residência no bairro Pousada do Vale. O responsável recebeu autuação de R$ 4.500.\n\nA fonte atribui a fiscalização de domingo 11/10 à Polícia Militar Ambiental e descreve a localização de ave em gaiola antes da verificação de residência. Documenta posse irregular de nove aves, não comercialização comprovada ou origem geográfica de captura. A publicação em 13/10 não deve ser interpretada como data da ocorrência, nem misturada a apreensões anteriores no município.",
+      "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_pt": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_pt": "[O1] PM Ambiental SP / Informa Life — https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+      "location_label_en": "Pousada do Vale, São José dos Campos, São Paulo",
+      "title_en": "Environmental police seize nine illegally held birds in São José dos Campos",
+      "card_text_en": "On 11 October, officers discovered nine wild birds kept without authorization in a Pousada do Vale residence, São José dos Campos. The keeper was fined R$4,500.",
+      "fauna_label_en": "Aves silvestres nativas, espécies não individualizadas",
+      "context_en": "[O1] On 11 October, officers discovered nine wild birds kept without authorization in a Pousada do Vale residence, São José dos Campos. The keeper was fined R$4,500.\n\nThe 11 October environmental police inspection followed officers observing a caged bird and checking a nearby residence. The case proves unlicensed keeping of nine birds, not a commercial network, origin or transport itinerary. News publication on 13 October is separate from the operational date and this must not be merged with other local seizures.",
+      "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_en": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_en": "[O1] PM Ambiental SP / Informa Life — https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+      "location_label_es": "Pousada do Vale, São José dos Campos, São Paulo",
+      "title_es": "Policía Ambiental decomisa nueve aves sin autorización en São José dos Campos",
+      "card_text_es": "El 11/10, agentes encontraron nueve aves mantenidas sin permiso en una vivienda de Pousada do Vale, São José dos Campos. Se impuso una multa de R$4.500.",
+      "fauna_label_es": "Aves silvestres nativas, espécies não individualizadas",
+      "context_es": "[O1] El 11/10, agentes encontraron nueve aves mantenidas sin permiso en una vivienda de Pousada do Vale, São José dos Campos. Se impuso una multa de R$4.500.\n\nLa fiscalización policial del domingo 11/10 siguió la observación de un ave en jaula y la inspección de una vivienda. Se acredita tenencia no autorizada de nueve aves, no venta, origen ni transporte. La publicación del 13/10 no es la fecha del operativo ni debe mezclarse con otros hechos locales.",
+      "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_es": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+      "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_es": "[O1] PM Ambiental SP / Informa Life — https://informa.life/policia-ambiental-apreende-nove-aves-silvestres-em-sao-jose-dos-campos/",
+      "occurred_at": "2026-10-11T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-12__planaltina-df-27-birds-ten-premises",
+      "status": "VALIDATED",
+      "aggregate_operation": true,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "global_13_14oct2026_source_audit",
+      "event_date": "2026-10-12",
+      "publication_date": "2026-10-13",
+      "event_date_precision": "day",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -15.62,
+        "lon": -47.66
+      },
+      "coordinate_precision": "locality_generalized",
+      "source_label": "PMDF / Brasília Online",
+      "source_url": "https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+      "modal_primary": "Terrestre",
+      "quantity_count": 27,
+      "quantity_qualifier": "exact_reported",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 27
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "PMDF / Brasília Online",
+          "url": "https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Reportagem complementar do mesmo evento",
+          "url": "https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/"
+        }
+      ],
+      "image_url": null,
+      "image_source_url": "https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/",
+      "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "location_label_pt": "Planaltina, Distrito Federal, dez residências",
+      "title_pt": "PMDF apreende 27 aves em dez residências de Planaltina",
+      "card_text_pt": "Em 12/10, a PMDF vistoriou dez residências, anunciou 27 aves apreendidas e 22 gaiolas, com dez termos circunstanciados. A lista de grupos publicada soma 30, e não 27.",
+      "fauna_label_pt": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+      "context_pt": "[O1] Em 12/10, a PMDF vistoriou dez residências, anunciou 27 aves apreendidas e 22 gaiolas, com dez termos circunstanciados. A lista de grupos publicada soma 30, e não 27.\n\nA fonte policial reproduzida descreve uma única operação coordenada no dia 12/10. Os subtotais de 11 baianos, oito trinca-ferros, quatro coleiros, dois pássaros-pretos e cinco aves de outros grupos somam 30, contradizendo o total geral de 27. Mantém-se 27 como quantidade institucional relatada, explicitamente não reconciliada; não se devem somar os subtotais nem converter dez imóveis em dez eventos. O caso documenta posse irregular, não rotas ou venda comprovada. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_pt": "Total relatado 27, mas discriminação publicada soma 30; quantidade não reconciliada.",
+      "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_pt": "[O1] PMDF / Brasília Online — https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/\n[N1] Reportagem complementar do mesmo evento — https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/",
+      "location_label_en": "Planaltina, Distrito Federal, dez residências",
+      "title_en": "Environmental police seize 27 birds from ten homes in Planaltina",
+      "card_text_en": "On 12 October, PMDF inspected ten homes and reported 27 birds, 22 cages and ten incident reports. The published species breakdown adds up to 30 rather than 27.",
+      "fauna_label_en": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+      "context_en": "[O1] On 12 October, PMDF inspected ten homes and reported 27 birds, 22 cages and ten incident reports. The published species breakdown adds up to 30 rather than 27.\n\nThe coordinated police operation occurred on 12 October. Reported subcounts of 11, eight, four, two, and five additional individual birds total 30 rather than the stated 27. The institutional total of 27 is retained with a clear unresolved discrepancy; ten inspected premises are not ten independently verified seizures. Unlawful keeping is documented, but trade and routes are not. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_en": "Total relatado 27, mas discriminação publicada soma 30; quantidade não reconciliada.",
+      "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_en": "[O1] PMDF / Brasília Online — https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/\n[N1] Reportagem complementar do mesmo evento — https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/",
+      "location_label_es": "Planaltina, Distrito Federal, dez residências",
+      "title_es": "Policía Ambiental decomisa 27 aves en diez casas de Planaltina",
+      "card_text_es": "El 12/10, la PMDF inspeccionó diez viviendas e informó 27 aves, 22 jaulas y diez actas. El desglose de tipos publicado suma 30 en vez de 27.",
+      "fauna_label_es": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+      "context_es": "[O1] El 12/10, la PMDF inspeccionó diez viviendas e informó 27 aves, 22 jaulas y diez actas. El desglose de tipos publicado suma 30 en vez de 27.\n\nEl operativo coordinado fue el 12/10. Los subtotales publicados, 11, ocho, cuatro, dos y cinco aves adicionales, suman 30, no las 27 declaradas. Se conserva el total informado de 27 como discrepancia pendiente y no se desdobla la intervención de diez domicilios en diez casos. Se comprueba tenencia irregular, sin rutas ni ventas acreditadas. [N1] Fonte complementar referente ao mesmo evento.",
+      "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+      "quantity_note_es": "Total relatado 27, mas discriminação publicada soma 30; quantidade não reconciliada.",
+      "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+      "references_text_es": "[O1] PMDF / Brasília Online — https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/\n[N1] Reportagem complementar do mesmo evento — https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/",
+      "occurred_at": "2026-10-12T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }
