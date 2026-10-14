@@ -1,0 +1,66 @@
+{
+  "id": "2021-06-19__bogota-25-panaque-hong-kong-shipment",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_a",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "country": "Colômbia",
+  "location_label_pt": "Aeroporto El Dorado, Bogotá, Colômbia",
+  "location_label_en": "Aeroporto El Dorado, Bogotá, Colômbia",
+  "location_label_es": "Aeroporto El Dorado, Bogotá, Colômbia",
+  "coordinates": {
+    "lat": 4.702,
+    "lon": -74.147
+  },
+  "coordinate_precision": "airport_or_city_generalized",
+  "geographic_note_pt": "Coordenada de referência da localidade/aeroporto; posição exata da fiscalização não verificada.",
+  "geographic_note_en": "Generalized city/airport reference; exact seizure position not verified.",
+  "geographic_note_es": "Punto de referencia de la ciudad/aeropuerto; lugar exacto no verificado.",
+  "source_label": "Secretaría Distrital de Ambiente de Bogotá",
+  "source_url": "https://bogota.gov.co/mi-ciudad/ambiente/incautan-25-peces-que-iban-ser-exportados-hong-kong",
+  "publication_date": "2021-06-19",
+  "event_date": "2021-06-19",
+  "fauna_label_pt": "25 Panaque sp., cuchas de ojos azules",
+  "fauna_label_en": "25 Panaque sp., cuchas de ojos azules",
+  "fauna_label_es": "25 Panaque sp., cuchas de ojos azules",
+  "taxon_text": "Panaque sp.",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "25 peixes ornamentais apreendidos — Aeroporto El Dorado, Bogotá, Colômbia",
+  "title_en": "Ornamental fish interception — Aeroporto El Dorado, Bogotá, Colômbia",
+  "title_es": "Decomiso de peces ornamentales — Aeroporto El Dorado, Bogotá, Colômbia",
+  "card_text_pt": "Durante fiscalização na área de cargas de El Dorado, as autoridades apreenderam 25 Panaque conhecidos como cuchas de ojos azules sem autorizações de captura, transporte ou exportação, com destino comercial declarado Hong Kong. Condições inadequadas motivaram encaminhamento a centro de atendimento. É evento independente da remessa de 26 indivíduos com destino ao Vietnã em 2022.",
+  "card_text_en": "Authorities seized 25 blue-eyed Panaque catfish in El Dorado cargo facilities without required capture, movement or export permits on a Hong Kong-bound consignment. Poor packing led to rescue-centre transfer. This is distinct from the 26-fish Vietnam-bound seizure in 2022.",
+  "card_text_es": "Durante el control de carga de El Dorado se decomisaron 25 cuchas de ojos azules del género Panaque sin permisos de captura, traslado o exportación, con destino previsto a Hong Kong. Fueron trasladadas a un centro de atención. Es un evento diferente del lote de 26 con destino a Vietnam en 2022.",
+  "context_pt": "[O1] Durante fiscalização na área de cargas de El Dorado, as autoridades apreenderam 25 Panaque conhecidos como cuchas de ojos azules sem autorizações de captura, transporte ou exportação, com destino comercial declarado Hong Kong. Condições inadequadas motivaram encaminhamento a centro de atendimento. É evento independente da remessa de 26 indivíduos com destino ao Vietnã em 2022.",
+  "context_en": "[O1] Authorities seized 25 blue-eyed Panaque catfish in El Dorado cargo facilities without required capture, movement or export permits on a Hong Kong-bound consignment. Poor packing led to rescue-centre transfer. This is distinct from the 26-fish Vietnam-bound seizure in 2022.",
+  "context_es": "[O1] Durante el control de carga de El Dorado se decomisaron 25 cuchas de ojos azules del género Panaque sin permisos de captura, traslado o exportación, con destino previsto a Hong Kong. Fueron trasladadas a un centro de atención. Es un evento diferente del lote de 26 con destino a Vietnam en 2022.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Secretaría Distrital de Ambiente de Bogotá",
+      "url": "https://bogota.gov.co/mi-ciudad/ambiente/incautan-25-peces-que-iban-ser-exportados-hong-kong"
+    }
+  ],
+  "quantity_count": 25,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 25
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Indivíduos vivos; cada lote pertence a um único evento.",
+  "quantity_note_en": "Live specimens; estimates remain approximate when reported.",
+  "quantity_note_es": "Ejemplares vivos; las cantidades aproximadas no son recuentos exactos.",
+  "image_url": null,
+  "image_source_url": "https://bogota.gov.co/mi-ciudad/ambiente/incautan-25-peces-que-iban-ser-exportados-hong-kong",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Somente etapas e destinos citados explicitamente; sem inferir captura ou segmentos internacionais.",
+  "references_text_pt": "[O1] Secretaría Distrital de Ambiente de Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/incautan-25-peces-que-iban-ser-exportados-hong-kong",
+  "references_text_en": "[O1] Secretaría Distrital de Ambiente de Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/incautan-25-peces-que-iban-ser-exportados-hong-kong",
+  "references_text_es": "[O1] Secretaría Distrital de Ambiente de Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/incautan-25-peces-que-iban-ser-exportados-hong-kong"
+}
