@@ -1,0 +1,78 @@
+{
+  "id": "2021-09-09__altamira-100-hypancistrus-zebra-road",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_a",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "country": "Brasil",
+  "location_label_pt": "Altamira, Pará, Brasil",
+  "location_label_en": "Altamira, Pará, Brasil",
+  "location_label_es": "Altamira, Pará, Brasil",
+  "coordinates": {
+    "lat": -3.202,
+    "lon": -52.207
+  },
+  "coordinate_precision": "airport_or_city_generalized",
+  "geographic_note_pt": "Coordenada de referência da localidade/aeroporto; posição exata da fiscalização não verificada.",
+  "geographic_note_en": "Generalized city/airport reference; exact seizure position not verified.",
+  "geographic_note_es": "Punto de referencia de la ciudad/aeropuerto; lugar exacto no verificado.",
+  "source_label": "PRF / Polícia Federal",
+  "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/para/anteriores/setembro/prf-e-pf-em-acao-conjunta-apreendem-100-peixes-de-especie-ameacada-de-extincao-no-municipio-de-altamira-pa",
+  "publication_date": "2021-09-09",
+  "event_date": "2021-09-09",
+  "fauna_label_pt": "100 Hypancistrus zebra",
+  "fauna_label_en": "100 Hypancistrus zebra",
+  "fauna_label_es": "100 Hypancistrus zebra",
+  "taxon_text": "Hypancistrus zebra",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Terrestre",
+  "title_pt": "100 peixes ornamentais apreendidos — Altamira, Pará, Brasil",
+  "title_en": "Ornamental fish interception — Altamira, Pará, Brasil",
+  "title_es": "Decomiso de peces ornamentales — Altamira, Pará, Brasil",
+  "card_text_pt": "Na madrugada de 9 de setembro, a PRF abordou um automóvel Volkswagen Virtus em Altamira e encontrou 100 cascudos-zebra transportados ilegalmente. O passageiro disse reconhecer a irregularidade; ambos foram encaminhados à PF. Por ser endêmica do Xingu, H. zebra apresenta risco adicional pela coleta em área de distribuição restrita. O estudo de Sousa et al. descreve redes históricas via Manaus, Colômbia e Peru, mas não demonstra esse trajeto neste veículo.",
+  "card_text_en": "Early on 9 September, PRF intercepted a Volkswagen Virtus car in Altamira carrying 100 illegally transported zebra plecos. Police referred both occupants to Federal Police. The species' narrow endemic range in the Xingu makes wild collection conservation-relevant. Sousa et al. document wider historical networks via Manaus, Colombia and Peru, but none is proven for this car.",
+  "card_text_es": "El 9 de septiembre de madrugada la PRF intervino un automóvil Volkswagen Virtus en Altamira con 100 plecos cebra transportados ilegalmente. Los ocupantes fueron remitidos a la Policía Federal. El endemismo del Xingu aumenta la vulnerabilidad de la especie. Sousa et al. describen rutas históricas por Manaos, Colombia y Perú, sin probarlas para este vehículo.",
+  "context_pt": "[O1] Na madrugada de 9 de setembro, a PRF abordou um automóvel Volkswagen Virtus em Altamira e encontrou 100 cascudos-zebra transportados ilegalmente. O passageiro disse reconhecer a irregularidade; ambos foram encaminhados à PF. Por ser endêmica do Xingu, H. zebra apresenta risco adicional pela coleta em área de distribuição restrita. O estudo de Sousa et al. descreve redes históricas via Manaus, Colômbia e Peru, mas não demonstra esse trajeto neste veículo. [S1] Sousa et al. (2021) identificaram pressão de coleta sobre a espécie endêmica do Xingu e diferenciação entre circuitos ilícitos e criação em cativeiro; essas rotas descritas na literatura não são atribuídas automaticamente ao flagrante. [I1] O diagnóstico da TRAFFIC sobre apreensões aeroportuárias brasileiras documenta a importância dos peixes ornamentais e alerta para a diversidade de espécies e canais; não identifica participantes deste caso.",
+  "context_en": "[O1] Early on 9 September, PRF intercepted a Volkswagen Virtus car in Altamira carrying 100 illegally transported zebra plecos. Police referred both occupants to Federal Police. The species' narrow endemic range in the Xingu makes wild collection conservation-relevant. Sousa et al. document wider historical networks via Manaus, Colombia and Peru, but none is proven for this car. [S1] Sousa et al. (2021) documented collection pressures on the Xingu endemic and distinct illegal and captive-bred supply chains; research-level routes are not assumed for this interception. [I1] TRAFFIC's Brazilian seizure assessment shows the importance of ornamental fish in airport enforcement; it does not identify participants in this case.",
+  "context_es": "[O1] El 9 de septiembre de madrugada la PRF intervino un automóvil Volkswagen Virtus en Altamira con 100 plecos cebra transportados ilegalmente. Los ocupantes fueron remitidos a la Policía Federal. El endemismo del Xingu aumenta la vulnerabilidad de la especie. Sousa et al. describen rutas históricas por Manaos, Colombia y Perú, sin probarlas para este vehículo. [S1] Sousa et al. (2021) documentaron presión de captura sobre el endemismo del Xingu y cadenas ilícitas y de cría; las rutas generales del estudio no se atribuyen al caso. [I1] TRAFFIC identifica importancia de peces ornamentales en los decomisos aeroportuarios brasileños; no vincula autores de este caso.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "PRF / Polícia Federal",
+      "url": "https://www.gov.br/prf/pt-br/noticias/estaduais/para/anteriores/setembro/prf-e-pf-em-acao-conjunta-apreendem-100-peixes-de-especie-ameacada-de-extincao-no-municipio-de-altamira-pa"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "TRAFFIC (2020), Brazil's widespread wildlife trafficking",
+      "url": "https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/"
+    }
+  ],
+  "quantity_count": 100,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 100
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Indivíduos vivos; cada lote pertence a um único evento.",
+  "quantity_note_en": "Live specimens; estimates remain approximate when reported.",
+  "quantity_note_es": "Ejemplares vivos; las cantidades aproximadas no son recuentos exactos.",
+  "image_url": null,
+  "image_source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/para/anteriores/setembro/prf-e-pf-em-acao-conjunta-apreendem-100-peixes-de-especie-ameacada-de-extincao-no-municipio-de-altamira-pa",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Somente etapas e destinos citados explicitamente; sem inferir captura ou segmentos internacionais.",
+  "references_text_pt": "[O1] PRF / Polícia Federal — https://www.gov.br/prf/pt-br/noticias/estaduais/para/anteriores/setembro/prf-e-pf-em-acao-conjunta-apreendem-100-peixes-de-especie-ameacada-de-extincao-no-municipio-de-altamira-pa\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[I1] TRAFFIC (2020), Brazil's widespread wildlife trafficking — https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/",
+  "references_text_en": "[O1] PRF / Polícia Federal — https://www.gov.br/prf/pt-br/noticias/estaduais/para/anteriores/setembro/prf-e-pf-em-acao-conjunta-apreendem-100-peixes-de-especie-ameacada-de-extincao-no-municipio-de-altamira-pa\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[I1] TRAFFIC (2020), Brazil's widespread wildlife trafficking — https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/",
+  "references_text_es": "[O1] PRF / Polícia Federal — https://www.gov.br/prf/pt-br/noticias/estaduais/para/anteriores/setembro/prf-e-pf-em-acao-conjunta-apreendem-100-peixes-de-especie-ameacada-de-extincao-no-municipio-de-altamira-pa\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[I1] TRAFFIC (2020), Brazil's widespread wildlife trafficking — https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/"
+}
