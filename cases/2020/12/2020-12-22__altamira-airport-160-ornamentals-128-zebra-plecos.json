@@ -1,0 +1,76 @@
+{
+  "id": "2020-12-22__altamira-airport-160-ornamentals-128-zebra-plecos",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_b",
+  "country": "Brasil",
+  "location_label_pt": "Aeroporto de Altamira, Pará",
+  "location_label_en": "Aeroporto de Altamira, Pará",
+  "location_label_es": "Aeroporto de Altamira, Pará",
+  "coordinates": {
+    "lat": -3.253,
+    "lon": -52.253
+  },
+  "coordinate_precision": "locality_or_airport_generalized",
+  "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+  "source_label": "A Voz do Xingu / Polícia Federal",
+  "source_url": "https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/",
+  "publication_date": "2020-12-22",
+  "event_date": "2020-12-22",
+  "event_date_precision": "day",
+  "fauna_label_pt": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164",
+  "fauna_label_en": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164",
+  "fauna_label_es": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164",
+  "taxon_text": "Hypancistrus zebra; peixes ornamentais não identificados",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164 — Aeroporto de Altamira, Pará",
+  "title_en": "Ornamental fish seizure — Aeroporto de Altamira, Pará",
+  "title_es": "Decomiso de peces ornamentales — Aeroporto de Altamira, Pará",
+  "card_text_pt": "Em 22/12, a PF interceptou mala com peixes ornamentais transportada por passageira no aeroporto de Altamira, em viagem com conexão em Belém até Manaus. Sousa et al. (2021), com fotografia do lote, contabilizaram 160 peixes, incluindo 128 H. zebra; outra reportagem registra 164 e pelo menos três espécies. Preservo o desacordo quantitativo entre versões sem criar uma segunda ocorrência. Condições de acondicionamento e mortalidade potencial são relevantes para proteção do endemismo do Xingu, mas não foi descrita exportação efetiva.",
+  "card_text_en": "On 22 December, Federal Police intercepted luggage containing ornamental fish at Altamira airport on a passenger's planned flight via Belém to Manaus. Sousa et al. (2021), using a photograph of the batch, counted 160 fish, including 128 H. zebra; another report stated 164 fish across at least three species. The quantitative discrepancy is preserved rather than entered as a second case. The attempted domestic flight does not establish completed international export.",
+  "card_text_es": "El 22/12, la Policía Federal interceptó una maleta con peces ornamentales en Altamira, en un vuelo previsto vía Belém hasta Manaos. Sousa et al. (2021) documentaron 160 peces, incluidos 128 H. zebra; otra noticia señaló 164 y al menos tres especies. Se conserva la divergencia sin duplicar el hecho. No se documentó exportación internacional consumada.",
+  "context_pt": "[O1] Em 22/12, a PF interceptou mala com peixes ornamentais transportada por passageira no aeroporto de Altamira, em viagem com conexão em Belém até Manaus. Sousa et al. (2021), com fotografia do lote, contabilizaram 160 peixes, incluindo 128 H. zebra; outra reportagem registra 164 e pelo menos três espécies. Preservo o desacordo quantitativo entre versões sem criar uma segunda ocorrência. Condições de acondicionamento e mortalidade potencial são relevantes para proteção do endemismo do Xingu, mas não foi descrita exportação efetiva. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão.",
+  "context_en": "[O1] On 22 December, Federal Police intercepted luggage containing ornamental fish at Altamira airport on a passenger's planned flight via Belém to Manaus. Sousa et al. (2021), using a photograph of the batch, counted 160 fish, including 128 H. zebra; another report stated 164 fish across at least three species. The quantitative discrepancy is preserved rather than entered as a second case. The attempted domestic flight does not establish completed international export. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution. [N1] The supplementary report is not a separate seizure event.",
+  "context_es": "[O1] El 22/12, la Policía Federal interceptó una maleta con peces ornamentales en Altamira, en un vuelo previsto vía Belém hasta Manaos. Sousa et al. (2021) documentaron 160 peces, incluidos 128 H. zebra; otra noticia señaló 164 y al menos tres especies. Se conserva la divergencia sin duplicar el hecho. No se documentó exportación internacional consumada. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso. [N1] La noticia adicional no constituye otro decomiso.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "A Voz do Xingu / Polícia Federal",
+      "url": "https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "O Liberal, retrospective recounting Altamira operations",
+      "url": "https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950"
+    }
+  ],
+  "quantity_count": 160,
+  "quantity_qualifier": "minimum",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 160
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Valor conservador de 160 na literatura; há notícia de 164 sobre a mesma apreensão.",
+  "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+  "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+  "image_url": null,
+  "image_source_url": "https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+  "references_text_pt": "[O1] A Voz do Xingu / Polícia Federal — https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal, retrospective recounting Altamira operations — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
+  "references_text_en": "[O1] A Voz do Xingu / Polícia Federal — https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal, retrospective recounting Altamira operations — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
+  "references_text_es": "[O1] A Voz do Xingu / Polícia Federal — https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal, retrospective recounting Altamira operations — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950"
+}
