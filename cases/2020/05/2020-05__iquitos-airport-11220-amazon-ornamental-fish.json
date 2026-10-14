@@ -1,0 +1,70 @@
+{
+  "id": "2020-05__iquitos-airport-11220-amazon-ornamental-fish",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_b",
+  "country": "Peru",
+  "location_label_pt": "Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+  "location_label_en": "Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+  "location_label_es": "Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+  "coordinates": {
+    "lat": -3.785,
+    "lon": -73.308
+  },
+  "coordinate_precision": "locality_or_airport_generalized",
+  "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+  "source_label": "Ministerio de la Producción (Produce), Peru",
+  "source_url": "https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos",
+  "publication_date": "2020-05-04",
+  "event_date": null,
+  "event_date_precision": "month",
+  "fauna_label_pt": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón",
+  "fauna_label_en": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón",
+  "fauna_label_es": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón",
+  "taxon_text": "Bagres amazônicos, identificação específica não confirmada",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón — Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+  "title_en": "Ornamental fish seizure — Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+  "title_es": "Decomiso de peces ornamentales — Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+  "card_text_pt": "O Produce, Aduanas e autoridades regionais interceptaram 39 caixas com 11.220 bagres amazônicos sem comprovação da procedência legal: 10.000 denominados banda-negra, 960 zúngaro-tigrinus, 200 zúngaro-dourado e 60 zúngaro-saltón. A exportação havia sido preparada para a China e a investigação indicou comprador em Hong Kong, mas o carregamento não saiu do Peru. Segundo o órgão, os peixes foram devolvidos à bacia amazônica. Os nomes comuns não autorizam converter os quatro grupos em espécies taxonômicas exatas; a data operacional não foi explicitada, apenas a publicação de 04/05.",
+  "card_text_en": "Produce, Customs and regional authorities intercepted 39 boxes containing 11,220 Amazonian catfish without lawful provenance: 10,000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado and 60 zúngaro saltón. China was the attempted export destination and the investigation indicated a Hong Kong buyer; the shipment was stopped in Peru. Authorities reported returning the fish to the Amazon basin. Vernacular trade names do not establish species-level identification, and 4 May is the press-release date, not necessarily the raid date.",
+  "card_text_es": "Produce, Aduanas y autoridades regionales intervinieron 39 cajas con 11.220 peces amazónicos sin procedencia legal: 10.000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado y 60 zúngaro saltón. El envío previsto era a China y la investigación señaló un comprador en Hong Kong; fue interrumpido en Perú. Los peces fueron devueltos a la cuenca amazónica. Los nombres comerciales no confirman identificación científica, y 4 de mayo es fecha de nota de prensa.",
+  "context_pt": "[O1] O Produce, Aduanas e autoridades regionais interceptaram 39 caixas com 11.220 bagres amazônicos sem comprovação da procedência legal: 10.000 denominados banda-negra, 960 zúngaro-tigrinus, 200 zúngaro-dourado e 60 zúngaro-saltón. A exportação havia sido preparada para a China e a investigação indicou comprador em Hong Kong, mas o carregamento não saiu do Peru. Segundo o órgão, os peixes foram devolvidos à bacia amazônica. Os nomes comuns não autorizam converter os quatro grupos em espécies taxonômicas exatas; a data operacional não foi explicitada, apenas a publicação de 04/05. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão.",
+  "context_en": "[O1] Produce, Customs and regional authorities intercepted 39 boxes containing 11,220 Amazonian catfish without lawful provenance: 10,000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado and 60 zúngaro saltón. China was the attempted export destination and the investigation indicated a Hong Kong buyer; the shipment was stopped in Peru. Authorities reported returning the fish to the Amazon basin. Vernacular trade names do not establish species-level identification, and 4 May is the press-release date, not necessarily the raid date. [N1] The supplementary report is not a separate seizure event.",
+  "context_es": "[O1] Produce, Aduanas y autoridades regionales intervinieron 39 cajas con 11.220 peces amazónicos sin procedencia legal: 10.000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado y 60 zúngaro saltón. El envío previsto era a China y la investigación señaló un comprador en Hong Kong; fue interrumpido en Perú. Los peces fueron devueltos a la cuenca amazónica. Los nombres comerciales no confirman identificación científica, y 4 de mayo es fecha de nota de prensa. [N1] La noticia adicional no constituye otro decomiso.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Ministerio de la Producción (Produce), Peru",
+      "url": "https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Agencia Andina, 4 May 2020",
+      "url": "https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx"
+    }
+  ],
+  "quantity_count": 11220,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 11220
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+  "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+  "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+  "image_url": null,
+  "image_source_url": "https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+  "references_text_pt": "[O1] Ministerio de la Producción (Produce), Peru — https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos\n[N1] Agencia Andina, 4 May 2020 — https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx",
+  "references_text_en": "[O1] Ministerio de la Producción (Produce), Peru — https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos\n[N1] Agencia Andina, 4 May 2020 — https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx",
+  "references_text_es": "[O1] Ministerio de la Producción (Produce), Peru — https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos\n[N1] Agencia Andina, 4 May 2020 — https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx"
+}
