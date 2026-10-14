@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14__muscat-airport-royal-pythons-number-unspecified",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "global_13_14oct2026_source_audit",
+  "source_reconciliation_status": "PRIMARY_SECONDARY_CROSSCHECKED",
+  "event_date": null,
+  "publication_date": "2026-10-14",
+  "event_date_precision": "not_disclosed_or_disputed",
+  "country": "Omã",
+  "coordinates": {
+    "lat": 23.5933,
+    "lon": 58.2844
+  },
+  "coordinate_precision": "airport_generalized",
+  "source_label": "Environment Authority / Royal Oman Police / Oman Customs, conforme Oman Observer",
+  "source_url": "https://www.omanobserver.om/article/1197799/oman/attempt-to-smuggle-snakes-foiled-at-muscat-airport",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Python regius",
+  "modal_primary": "Aéreo",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Environment Authority / Royal Oman Police / Oman Customs, conforme Oman Observer",
+      "url": "https://www.omanobserver.om/article/1197799/oman/attempt-to-smuggle-snakes-foiled-at-muscat-airport"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Times of Oman, 14/10/2026",
+      "url": "https://cdn-1.timesofoman.com/article/177988-illegal-wildlife-trade-foiled-at-muscat-international-airport-as-royal-pythons-seized"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "CITES Animals Committee, Review Python regius (Appendix II)",
+      "url": "https://cites.org/sites/default/files/documents/E-AC32-15-01.pdf"
+    }
+  ],
+  "context_status": "CONTEXTUALIZED_MULTILINGUAL",
+  "translation_status": "REVIEWED_TRILINGUAL",
+  "route_audit_status": "NO_ROUTE_COMMITTED",
+  "image_url": null,
+  "image_source_url": "https://www.omanobserver.om/article/1197799/oman/attempt-to-smuggle-snakes-foiled-at-muscat-airport",
+  "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+  "added_at": "2026-10-14T11:00:00Z",
+  "location_label_pt": "Aeroporto Internacional de Mascate, Omã",
+  "title_pt": "Omã intercepta tentativa de importação irregular de pítons-reais no aeroporto de Mascate",
+  "fauna_label_pt": "Python regius",
+  "card_text_pt": "A Autoridade Ambiental de Omã, com Polícia Real e Alfândega, deteve viajante que tentava introduzir várias pítons-reais no aeroporto de Mascate sem documentação exigida. Ocorrência divulgada em 14/10; quantidade e data operacional não publicadas.",
+  "context_pt": "[O1] A Autoridade Ambiental de Omã, com Polícia Real e Alfândega, deteve viajante que tentava introduzir várias pítons-reais no aeroporto de Mascate sem documentação exigida. Ocorrência divulgada em 14/10; quantidade e data operacional não publicadas.\n\n[O1] O órgão ambiental comunicou importação irregular de *Python regius*, espécie do Apêndice II da CITES, em fiscalização conjunta aeroportuária. Não constam número de indivíduos, país de embarque ou data precisa da abordagem. Portanto, publicação em 14/10 não é confirmação de flagrante realizado naquele dia. [N1] O Times of Oman corrobora o mesmo caso e não deve originar outro evento. [I1] A CITES documenta comércio internacional significativo dessa espécie; a literatura contextualiza exigências de rastreabilidade e licenças, mas não esclarece se os exemplares deste flagrante eram selvagens ou criados em cativeiro.",
+  "quantity_note_pt": "Várias pítons-reais; quantidade de indivíduos não divulgada.",
+  "geographic_note_pt": "Localidade de referência, não localização exata da apreensão ou procedência dos animais.",
+  "route_audit_note_pt": "Não representar rota sem extremos documentados e sem resolver destino contraditório.",
+  "references_text_pt": "[O1] Environment Authority / Royal Oman Police / Oman Customs, conforme Oman Observer — https://www.omanobserver.om/article/1197799/oman/attempt-to-smuggle-snakes-foiled-at-muscat-airport\n[N1] Times of Oman, 14/10/2026 — https://cdn-1.timesofoman.com/article/177988-illegal-wildlife-trade-foiled-at-muscat-international-airport-as-royal-pythons-seized\n[I1] CITES Animals Committee, Review Python regius (Appendix II) — https://cites.org/sites/default/files/documents/E-AC32-15-01.pdf",
+  "location_label_en": "Aeroporto Internacional de Mascate, Omã",
+  "title_en": "Oman intercepts illegal royal python imports at Muscat airport",
+  "fauna_label_en": "Python regius",
+  "card_text_en": "Oman's Environment Authority, Royal Police and Customs detained a traveller attempting to import several royal pythons without the requisite documentation at Muscat airport. Reported on 14 October; quantity and operational date were not published.",
+  "context_en": "[O1] Oman's Environment Authority, Royal Police and Customs detained a traveller attempting to import several royal pythons without the requisite documentation at Muscat airport. Reported on 14 October; quantity and operational date were not published.\n\n[O1] Authorities reported an attempted illegal import of CITES Appendix-II *Python regius* at Muscat airport. Number, departure country and precise interception date were not disclosed. The 14 October report is not proof that the seizure occurred that day. [N1] Times of Oman covers the same event. [I1] CITES reviews sizeable international trade in this species but does not establish the wild or captive-bred source of these specimens.",
+  "quantity_note_en": "Several royal pythons; no number disclosed.",
+  "geographic_note_en": "Generalized locality; not the exact interception or collection site.",
+  "route_audit_note_en": "Do not draw route without documented endpoints or resolved destination.",
+  "references_text_en": "[O1] Environment Authority / Royal Oman Police / Oman Customs, conforme Oman Observer — https://www.omanobserver.om/article/1197799/oman/attempt-to-smuggle-snakes-foiled-at-muscat-airport\n[N1] Times of Oman, 14/10/2026 — https://cdn-1.timesofoman.com/article/177988-illegal-wildlife-trade-foiled-at-muscat-international-airport-as-royal-pythons-seized\n[I1] CITES Animals Committee, Review Python regius (Appendix II) — https://cites.org/sites/default/files/documents/E-AC32-15-01.pdf",
+  "location_label_es": "Aeroporto Internacional de Mascate, Omã",
+  "title_es": "Omán intercepta importación irregular de pitones reales en aeropuerto de Mascate",
+  "fauna_label_es": "Python regius",
+  "card_text_es": "La Autoridad Ambiental de Omán, Policía Real y Aduanas detuvieron a un viajero que intentaba introducir varias pitones reales sin documentación en Mascate. Publicado el 14/10; no se informó cantidad ni fecha operativa.",
+  "context_es": "[O1] La Autoridad Ambiental de Omán, Policía Real y Aduanas detuvieron a un viajero que intentaba introducir varias pitones reales sin documentación en Mascate. Publicado el 14/10; no se informó cantidad ni fecha operativa.\n\n[O1] Las autoridades comunicaron un intento de importación irregular de *Python regius* (Apéndice II CITES) en el aeropuerto de Mascate. No se revelaron cantidad, país de salida ni fecha precisa. La noticia del 14/10 no certifica que el decomiso ocurriera ese día. [N1] Times of Oman trata el mismo caso. [I1] La CITES documenta comercio significativo de esta especie, sin acreditar origen silvestre o de cría de los animales concretos.",
+  "quantity_note_es": "Varias pitones reales; cantidad no divulgada.",
+  "geographic_note_es": "Localidad aproximada, no lugar exacto de decomiso ni captura.",
+  "route_audit_note_es": "No representar rutas sin extremos documentados ni destino reconciliado.",
+  "references_text_es": "[O1] Environment Authority / Royal Oman Police / Oman Customs, conforme Oman Observer — https://www.omanobserver.om/article/1197799/oman/attempt-to-smuggle-snakes-foiled-at-muscat-airport\n[N1] Times of Oman, 14/10/2026 — https://cdn-1.timesofoman.com/article/177988-illegal-wildlife-trade-foiled-at-muscat-international-airport-as-royal-pythons-seized\n[I1] CITES Animals Committee, Review Python regius (Appendix II) — https://cites.org/sites/default/files/documents/E-AC32-15-01.pdf"
+}
