@@ -1,0 +1,78 @@
+{
+  "id": "2021-08-25__altamira-airport-457-zebra-plecos",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_a",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "country": "Brasil",
+  "location_label_pt": "Aeroporto de Altamira, Pará, Brasil",
+  "location_label_en": "Aeroporto de Altamira, Pará, Brasil",
+  "location_label_es": "Aeroporto de Altamira, Pará, Brasil",
+  "coordinates": {
+    "lat": -3.253,
+    "lon": -52.253
+  },
+  "coordinate_precision": "airport_or_city_generalized",
+  "geographic_note_pt": "Coordenada de referência da localidade/aeroporto; posição exata da fiscalização não verificada.",
+  "geographic_note_en": "Generalized city/airport reference; exact seizure position not verified.",
+  "geographic_note_es": "Punto de referencia de la ciudad/aeropuerto; lugar exacto no verificado.",
+  "source_label": "Polícia Federal / A Voz do Xingu",
+  "source_url": "https://avozdoxingu.com.br/policia-federal-realiza-novo-flagrante-de-trafico-de-peixes-ornamentais-altamira-pa/",
+  "publication_date": "2021-08-25",
+  "event_date": "2021-08-25",
+  "fauna_label_pt": "457 Hypancistrus zebra",
+  "fauna_label_en": "457 Hypancistrus zebra",
+  "fauna_label_es": "457 Hypancistrus zebra",
+  "taxon_text": "Hypancistrus zebra",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "457 peixes ornamentais apreendidos — Aeroporto de Altamira, Pará, Brasil",
+  "title_en": "Ornamental fish interception — Aeroporto de Altamira, Pará, Brasil",
+  "title_es": "Decomiso de peces ornamentales — Aeroporto de Altamira, Pará, Brasil",
+  "card_text_pt": "A PF prendeu um passageiro no aeroporto de Altamira quando tentava viajar a Manaus com 457 cascudos-zebra do Xingu em uma mala. Os exemplares foram encaminhados ao LAQUAX/UFPA. A etapa Altamira–Manaus é destino declarado do voo, não prova de exportação internacional; a apreensão de 277 indivíduos em 23/08 é independente.",
+  "card_text_en": "Federal Police arrested a passenger at Altamira airport attempting to fly to Manaus with 457 Xingu zebra plecos in luggage. Fish were transferred to LAQUAX/UFPA. Altamira–Manaus was the intended flight segment, not proof of completed international export; the 23 August 277-fish seizure was separate.",
+  "card_text_es": "La Policía Federal detuvo a un pasajero en Altamira cuando pretendía volar a Manaos con 457 plecos cebra del Xingu en una maleta; fueron trasladados a LAQUAX/UFPA. Altamira–Manaos era el vuelo previsto, no evidencia de exportación internacional. Los 277 del 23/08 constituyen otro hecho.",
+  "context_pt": "[O1] A PF prendeu um passageiro no aeroporto de Altamira quando tentava viajar a Manaus com 457 cascudos-zebra do Xingu em uma mala. Os exemplares foram encaminhados ao LAQUAX/UFPA. A etapa Altamira–Manaus é destino declarado do voo, não prova de exportação internacional; a apreensão de 277 indivíduos em 23/08 é independente. [S1] Sousa et al. (2021) identificaram pressão de coleta sobre a espécie endêmica do Xingu e diferenciação entre circuitos ilícitos e criação em cativeiro; essas rotas descritas na literatura não são atribuídas automaticamente ao flagrante. [N1] A cobertura jornalística complementar relata os mesmos fatos operacionais; não corresponde a uma segunda apreensão.",
+  "context_en": "[O1] Federal Police arrested a passenger at Altamira airport attempting to fly to Manaus with 457 Xingu zebra plecos in luggage. Fish were transferred to LAQUAX/UFPA. Altamira–Manaus was the intended flight segment, not proof of completed international export; the 23 August 277-fish seizure was separate. [S1] Sousa et al. (2021) documented collection pressures on the Xingu endemic and distinct illegal and captive-bred supply chains; research-level routes are not assumed for this interception. [N1] The supplementary news account concerns the same seizure, not a second event.",
+  "context_es": "[O1] La Policía Federal detuvo a un pasajero en Altamira cuando pretendía volar a Manaos con 457 plecos cebra del Xingu en una maleta; fueron trasladados a LAQUAX/UFPA. Altamira–Manaos era el vuelo previsto, no evidencia de exportación internacional. Los 277 del 23/08 constituyen otro hecho. [S1] Sousa et al. (2021) documentaron presión de captura sobre el endemismo del Xingu y cadenas ilícitas y de cría; las rutas generales del estudio no se atribuyen al caso. [N1] La nota complementaria trata el mismo decomiso, no otro suceso.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polícia Federal / A Voz do Xingu",
+      "url": "https://avozdoxingu.com.br/policia-federal-realiza-novo-flagrante-de-trafico-de-peixes-ornamentais-altamira-pa/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Fauna News (2021), two separate Altamira seizures",
+      "url": "https://faunanews.com.br/traficantes-de-peixes-ornamentais-da-amazonia-pf-esta-prendendo-mas-o-crime-continua-intenso/"
+    }
+  ],
+  "quantity_count": 457,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 457
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Indivíduos vivos; cada lote pertence a um único evento.",
+  "quantity_note_en": "Live specimens; estimates remain approximate when reported.",
+  "quantity_note_es": "Ejemplares vivos; las cantidades aproximadas no son recuentos exactos.",
+  "image_url": null,
+  "image_source_url": "https://avozdoxingu.com.br/policia-federal-realiza-novo-flagrante-de-trafico-de-peixes-ornamentais-altamira-pa/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Somente etapas e destinos citados explicitamente; sem inferir captura ou segmentos internacionais.",
+  "references_text_pt": "[O1] Polícia Federal / A Voz do Xingu — https://avozdoxingu.com.br/policia-federal-realiza-novo-flagrante-de-trafico-de-peixes-ornamentais-altamira-pa/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Fauna News (2021), two separate Altamira seizures — https://faunanews.com.br/traficantes-de-peixes-ornamentais-da-amazonia-pf-esta-prendendo-mas-o-crime-continua-intenso/",
+  "references_text_en": "[O1] Polícia Federal / A Voz do Xingu — https://avozdoxingu.com.br/policia-federal-realiza-novo-flagrante-de-trafico-de-peixes-ornamentais-altamira-pa/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Fauna News (2021), two separate Altamira seizures — https://faunanews.com.br/traficantes-de-peixes-ornamentais-da-amazonia-pf-esta-prendendo-mas-o-crime-continua-intenso/",
+  "references_text_es": "[O1] Polícia Federal / A Voz do Xingu — https://avozdoxingu.com.br/policia-federal-realiza-novo-flagrante-de-trafico-de-peixes-ornamentais-altamira-pa/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Fauna News (2021), two separate Altamira seizures — https://faunanews.com.br/traficantes-de-peixes-ornamentais-da-amazonia-pf-esta-prendendo-mas-o-crime-continua-intenso/"
+}
