@@ -72781,9 +72781,9 @@
       "card_text_pt": "O retrospecto da PF sobre o aeroporto de Altamira identifica apreensão de três malas contendo pirá-tamanduá Conorhynchos conirostris em 23/11/2020. Três passageiras estavam associadas às bagagens e duas foram detidas, conforme o relato. A espécie é vinculada ao rio São Francisco no noticiário e não deve ser descrita como endêmica do Xingu apenas por ter sido apreendida em Altamira. O número de peixes não foi divulgado; não confundir esta apreensão com o lote de 160 peixes de dezembro.",
       "card_text_en": "Federal Police's retrospective account identifies three bags containing Conorhynchos conirostris catfish at Altamira airport on 23 November 2020. Three women were associated with the luggage; two were arrested according to the account. The species is linked to the São Francisco River, not presumed native to the Xingu merely because the baggage was seized in Altamira. No fish count was published; this is distinct from the December seizure.",
       "card_text_es": "El relato retrospectivo de la PF identifica tres maletas con peces Conorhynchos conirostris en Altamira el 23/11/2020, asociadas a tres pasajeras, dos de las cuales fueron detenidas. La especie corresponde al São Francisco y no debe atribuirse al Xingu por el lugar del decomiso. No se informó la cantidad; es otro caso diferente al de diciembre.",
-      "context_pt": "[O1] O retrospecto da PF sobre o aeroporto de Altamira identifica apreensão de três malas contendo pirá-tamanduá Conorhynchos conirostris em 23/11/2020. Três passageiras estavam associadas às bagagens e duas foram detidas, conforme o relato. A espécie é vinculada ao rio São Francisco no noticiário e não deve ser descrita como endêmica do Xingu apenas por ter sido apreendida em Altamira. O número de peixes não foi divulgado; não confundir esta apreensão com o lote de 160 peixes de dezembro. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado.",
-      "context_en": "[O1] Federal Police's retrospective account identifies three bags containing Conorhynchos conirostris catfish at Altamira airport on 23 November 2020. Three women were associated with the luggage; two were arrested according to the account. The species is linked to the São Francisco River, not presumed native to the Xingu merely because the baggage was seized in Altamira. No fish count was published; this is distinct from the December seizure. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution.",
-      "context_es": "[O1] El relato retrospectivo de la PF identifica tres maletas con peces Conorhynchos conirostris en Altamira el 23/11/2020, asociadas a tres pasajeras, dos de las cuales fueron detenidas. La especie corresponde al São Francisco y no debe atribuirse al Xingu por el lugar del decomiso. No se informó la cantidad; es otro caso diferente al de diciembre. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso.",
+      "context_pt": "[O1] O retrospecto da PF sobre o aeroporto de Altamira identifica apreensão de três malas contendo pirá-tamanduá Conorhynchos conirostris em 23/11/2020. Três passageiras estavam associadas às bagagens e duas foram detidas, conforme o relato. A espécie é vinculada ao rio São Francisco no noticiário e não deve ser descrita como endêmica do Xingu apenas por ter sido apreendida em Altamira. O número de peixes não foi divulgado; não confundir esta apreensão com o lote de 160 peixes de dezembro. [I1] O PAN São Francisco do ICMBio documenta Conorhynchos conirostris como espécie-alvo de conservação na bacia do São Francisco. A identificação por laudo após a apreensão deve prevalecer sobre uma suposição de origem amazônica fundada apenas no local da interceptação; não foi documentado de qual região os peixes foram coletados.",
+      "context_en": "[O1] Federal Police's retrospective account identifies three bags containing Conorhynchos conirostris catfish at Altamira airport on 23 November 2020. Three women were associated with the luggage; two were arrested according to the account. The species is linked to the São Francisco River, not presumed native to the Xingu merely because the baggage was seized in Altamira. No fish count was published; this is distinct from the December seizure. [I1] ICMBio's São Francisco conservation action plan includes Conorhynchos conirostris among the basin's conservation concerns. The post-seizure taxonomic identification must not be replaced by assumptions of Amazonian origin merely because the bags were stopped at Altamira; collection locality was not reported.",
+      "context_es": "[O1] El relato retrospectivo de la PF identifica tres maletas con peces Conorhynchos conirostris en Altamira el 23/11/2020, asociadas a tres pasajeras, dos de las cuales fueron detenidas. La especie corresponde al São Francisco y no debe atribuirse al Xingu por el lugar del decomiso. No se informó la cantidad; es otro caso diferente al de diciembre. [I1] El plan de conservación del São Francisco del ICMBio incluye Conorhynchos conirostris entre los taxones de interés. La identificación científica posterior al decomiso debe prevalecer sobre una presunción de origen amazónico basada en Altamira; no se informó el lugar de captura.",
       "context_references": [
         {
           "id": "O1",
@@ -72792,10 +72792,10 @@
           "url": "https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950"
         },
         {
-          "id": "S1",
-          "type": "scientific_context",
-          "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
-          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "ICMBio — PAN São Francisco, proteção de Conorhynchos conirostris",
+          "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-sao-francisco/2-ciclo/pan-sao-francisco-sumario.pdf"
         }
       ],
       "quantity_count": null,
@@ -72810,9 +72810,9 @@
       "image_source_url": "https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
       "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
       "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
-      "references_text_pt": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570",
-      "references_text_en": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570",
-      "references_text_es": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_pt": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[I1] ICMBio — PAN São Francisco, proteção de Conorhynchos conirostris — https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-sao-francisco/2-ciclo/pan-sao-francisco-sumario.pdf",
+      "references_text_en": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[I1] ICMBio — PAN São Francisco, proteção de Conorhynchos conirostris — https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-sao-francisco/2-ciclo/pan-sao-francisco-sumario.pdf",
+      "references_text_es": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[I1] ICMBio — PAN São Francisco, proteção de Conorhynchos conirostris — https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-sao-francisco/2-ciclo/pan-sao-francisco-sumario.pdf",
       "occurred_at": "2020-11-23T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -73147,9 +73147,9 @@
       "card_text_pt": "Em 16/02, a Polícia Civil apreendeu numa picape abandonada próximo ao aeroporto municipal 38 raias de água doce da família Potamotrygonidae, 31 vivas e sete mortas. Três adultos foram presos e um adolescente apreendido; segundo relato policial, o grupo pretendia encaminhar as raias oriundas do Pará pela Colômbia até os Estados Unidos. Esses destinos eram planos declarados, não transporte comprovadamente executado. A espécie exata não foi identificada; não presumir Potamotrygon leopoldi nem converter 38 raias em 38 novos eventos.",
       "card_text_en": "On 16 February, civil police seized 38 freshwater stingrays (Potamotrygonidae), 31 alive and seven dead, from an abandoned pickup near the town airport. Three adults were arrested and one juvenile detained. Police reported intended movement from Pará through Colombia to the United States, not completed carriage. Species-level identity is not established, and all 38 animals belong to one seizure.",
       "card_text_es": "El 16 de febrero, la Policía Civil decomisó 38 rayas de agua dulce Potamotrygonidae —31 vivas y siete muertas— en una camioneta abandonada cerca del aeropuerto. Tres adultos fueron detenidos y un adolescente retenido. Según la policía, el itinerario previsto iba de Pará por Colombia hacia Estados Unidos, sin haberse ejecutado. La especie exacta no se confirmó.",
-      "context_pt": "[O1] Em 16/02, a Polícia Civil apreendeu numa picape abandonada próximo ao aeroporto municipal 38 raias de água doce da família Potamotrygonidae, 31 vivas e sete mortas. Três adultos foram presos e um adolescente apreendido; segundo relato policial, o grupo pretendia encaminhar as raias oriundas do Pará pela Colômbia até os Estados Unidos. Esses destinos eram planos declarados, não transporte comprovadamente executado. A espécie exata não foi identificada; não presumir Potamotrygon leopoldi nem converter 38 raias em 38 novos eventos. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
-      "context_en": "[O1] On 16 February, civil police seized 38 freshwater stingrays (Potamotrygonidae), 31 alive and seven dead, from an abandoned pickup near the town airport. Three adults were arrested and one juvenile detained. Police reported intended movement from Pará through Colombia to the United States, not completed carriage. Species-level identity is not established, and all 38 animals belong to one seizure. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
-      "context_es": "[O1] El 16 de febrero, la Policía Civil decomisó 38 rayas de agua dulce Potamotrygonidae —31 vivas y siete muertas— en una camioneta abandonada cerca del aeropuerto. Tres adultos fueron detenidos y un adolescente retenido. Según la policía, el itinerario previsto iba de Pará por Colombia hacia Estados Unidos, sin haberse ejecutado. La especie exacta no se confirmó. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+      "context_pt": "[O1] Em 16/02, a Polícia Civil apreendeu numa picape abandonada próximo ao aeroporto municipal 38 raias de água doce da família Potamotrygonidae, 31 vivas e sete mortas. Três adultos foram presos e um adolescente apreendido; segundo relato policial, o grupo pretendia encaminhar as raias oriundas do Pará pela Colômbia até os Estados Unidos. Esses destinos eram planos declarados, não transporte comprovadamente executado. A espécie exata não foi identificada; não presumir Potamotrygon leopoldi nem converter 38 raias em 38 novos eventos.",
+      "context_en": "[O1] On 16 February, civil police seized 38 freshwater stingrays (Potamotrygonidae), 31 alive and seven dead, from an abandoned pickup near the town airport. Three adults were arrested and one juvenile detained. Police reported intended movement from Pará through Colombia to the United States, not completed carriage. Species-level identity is not established, and all 38 animals belong to one seizure.",
+      "context_es": "[O1] El 16 de febrero, la Policía Civil decomisó 38 rayas de agua dulce Potamotrygonidae —31 vivas y siete muertas— en una camioneta abandonada cerca del aeropuerto. Tres adultos fueron detenidos y un adolescente retenido. Según la policía, el itinerario previsto iba de Pará por Colombia hacia Estados Unidos, sin haberse ejecutado. La especie exacta no se confirmó.",
       "context_references": [
         {
           "id": "O1",
@@ -73162,12 +73162,6 @@
           "type": "news_context",
           "label": "G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015",
           "url": "https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867"
-        },
-        {
-          "id": "S1",
-          "type": "scientific_context",
-          "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
-          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
         }
       ],
       "quantity_count": 38,
@@ -73182,9 +73176,9 @@
       "image_source_url": "https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca",
       "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
       "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
-      "references_text_pt": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
-      "references_text_en": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
-      "references_text_es": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_pt": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867",
+      "references_text_en": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867",
+      "references_text_es": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867",
       "occurred_at": "2015-02-16T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -73403,17 +73397,17 @@
       "exclude_from_totals": false,
       "reconstruction_batch": "ornamental_fish_global_20261013_d",
       "country": "Brasil",
-      "location_label_pt": "Comunidades Feijoal e Prosperidade, Alto Solimões, Amazonas, Brasil",
-      "location_label_en": "Feijoal and Prosperidade communities, Upper Solimões, Amazonas, Brazil",
-      "location_label_es": "Comunidades Feijoal y Prosperidade, Alto Solimões, Amazonas, Brasil",
+      "location_label_pt": "Feijoal e comunidades Prosperidade, Benjamin Constant, Amazonas, Brasil",
+      "location_label_en": "Feijoal and Prosperidade communities, Benjamin Constant, Amazonas, Brazil",
+      "location_label_es": "Feijoal y comunidades Prosperidade, Benjamin Constant, Amazonas, Brasil",
       "coordinates": {
-        "lat": -3.85,
-        "lon": -69.25
+        "lat": -4.29833,
+        "lon": -69.54039
       },
-      "coordinate_precision": "upper_solimoes_region_generalized",
-      "geographic_note_pt": "Coordenada aproximada para o Alto Solimões, sem representar local exato das comunidades nem ponto de captura. Município exato pendente de georreferenciamento independente.",
-      "geographic_note_en": "Generalized Upper Solimões point, neither precise community location nor site of collection. Municipality-level validation is pending.",
-      "geographic_note_es": "Punto generalizado del Alto Solimões, no localización exacta de comunidades o captura. Falta confirmar municipio.",
+      "coordinate_precision": "Feijoal_community_reference_not_seizure_site",
+      "geographic_note_pt": "Coordenada aproximada da aldeia Feijoal, Benjamin Constant, conforme base geográfica OSM; a fonte judicial não identifica o ponto exato da abordagem fluvial entre Feijoal e Prosperidade. Não inferir local de captura.",
+      "geographic_note_en": "OSM reference coordinates for Feijoal community in Benjamin Constant; the court record does not provide the precise interception point between Feijoal and Prosperidade. Do not infer the fish collection site.",
+      "geographic_note_es": "Coordenadas de referencia OSM para Feijoal, Benjamin Constant; el expediente no precisa lugar exacto de la intervención entre Feijoal y Prosperidade ni lugar de captura.",
       "source_label": "Tribunal de Justiça do Amazonas — autos judiciais",
       "source_url": "https://www.jusbrasil.com.br/jurisprudencia/tj-am/5421551598/inteiro-teor-5421551601",
       "publication_date": null,
