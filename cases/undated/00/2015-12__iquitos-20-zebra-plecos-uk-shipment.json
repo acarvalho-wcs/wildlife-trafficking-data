@@ -1,0 +1,68 @@
+{
+  "id": "2015-12__iquitos-20-zebra-plecos-uk-shipment",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_c",
+  "country": "Peru",
+  "location_label_pt": "Iquitos, Loreto, Peru",
+  "location_label_en": "Iquitos, Loreto, Peru",
+  "location_label_es": "Iquitos, Loreto, Peru",
+  "coordinates": {
+    "lat": -3.75,
+    "lon": -73.25
+  },
+  "coordinate_precision": "city_or_airport_generalized",
+  "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+  "source_label": "Ojo Público (reproduzido por Oannes), expediente fiscalizatório",
+  "source_url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/",
+  "publication_date": null,
+  "event_date": null,
+  "event_date_precision": "month",
+  "fauna_label_pt": "20 Hypancistrus zebra não declarados em remessa a Inglaterra",
+  "fauna_label_en": "20 Hypancistrus zebra não declarados em remessa a Inglaterra",
+  "fauna_label_es": "20 Hypancistrus zebra não declarados em remessa a Inglaterra",
+  "taxon_text": "Hypancistrus zebra",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "20 Hypancistrus zebra não declarados em remessa a Inglaterra — Iquitos, Loreto, Peru",
+  "title_en": "Ornamental fish enforcement — Iquitos, Loreto, Peru",
+  "title_es": "Fiscalización de peces ornamentales — Iquitos, Loreto, Peru",
+  "card_text_pt": "Em dezembro de 2015, fiscal da Direpro relatou apreensão de uma caixa contendo 20 H. zebra não declarados no certificado de procedência de um exportador de Iquitos. O documento listava 1.018 peixes ornamentais, mas não os cascudos-zebra; a remessa pretendia seguir à Inglaterra. É fiscalização distinta do incidente com tentativa de retenção e agressão em novembro, envolvendo o mesmo estabelecimento. A discrepância documental sugere inserção de espécie proibida sob cobertura de outros táxons, mas não demonstra cadeia completa de origem.",
+  "card_text_en": "In December 2015, a Direpro inspector reported seizing a box with 20 undeclared zebra plecos from an Iquitos export consignment intended for England. Its provenance certificate listed 1,018 ornamental fish but omitted H. zebra. This is distinct from the November inspection involving contested custody, although the exporter was the same. The misdeclaration illustrates potential species substitution without establishing the entire collection-to-buyer chain.",
+  "card_text_es": "En diciembre de 2015, un inspector de Direpro relató el decomiso de una caja con 20 plecos cebra no declarados en un envío de Iquitos destinado a Inglaterra. El certificado registraba 1.018 peces ornamentales, pero no H. zebra. Es diferente del incidente de noviembre con custodia disputada, aunque implicaba el mismo exportador. La omisión sugiere sustitución de especies declaradas, sin probar toda la cadena de captura y venta.",
+  "context_pt": "[O1] Em dezembro de 2015, fiscal da Direpro relatou apreensão de uma caixa contendo 20 H. zebra não declarados no certificado de procedência de um exportador de Iquitos. O documento listava 1.018 peixes ornamentais, mas não os cascudos-zebra; a remessa pretendia seguir à Inglaterra. É fiscalização distinta do incidente com tentativa de retenção e agressão em novembro, envolvendo o mesmo estabelecimento. A discrepância documental sugere inserção de espécie proibida sob cobertura de outros táxons, mas não demonstra cadeia completa de origem. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+  "context_en": "[O1] In December 2015, a Direpro inspector reported seizing a box with 20 undeclared zebra plecos from an Iquitos export consignment intended for England. Its provenance certificate listed 1,018 ornamental fish but omitted H. zebra. This is distinct from the November inspection involving contested custody, although the exporter was the same. The misdeclaration illustrates potential species substitution without establishing the entire collection-to-buyer chain. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+  "context_es": "[O1] En diciembre de 2015, un inspector de Direpro relató el decomiso de una caja con 20 plecos cebra no declarados en un envío de Iquitos destinado a Inglaterra. El certificado registraba 1.018 peces ornamentales, pero no H. zebra. Es diferente del incidente de noviembre con custodia disputada, aunque implicaba el mismo exportador. La omisión sugiere sustitución de especies declaradas, sin probar toda la cadena de captura y venta. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Ojo Público (reproduzido por Oannes), expediente fiscalizatório",
+      "url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    }
+  ],
+  "quantity_count": 20,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 20
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+  "image_url": null,
+  "image_source_url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+  "references_text_pt": "[O1] Ojo Público (reproduzido por Oannes), expediente fiscalizatório — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_en": "[O1] Ojo Público (reproduzido por Oannes), expediente fiscalizatório — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_es": "[O1] Ojo Público (reproduzido por Oannes), expediente fiscalizatório — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570"
+}
