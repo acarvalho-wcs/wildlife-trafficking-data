@@ -1,0 +1,68 @@
+{
+  "id": "2014-07-23__manaus-airport-161-zebra-plecos",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_c",
+  "country": "Brasil",
+  "location_label_pt": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "location_label_en": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "location_label_es": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "coordinates": {
+    "lat": -3.039,
+    "lon": -60.048
+  },
+  "coordinate_precision": "city_or_airport_generalized",
+  "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+  "source_label": "AquaA3 / Ibama / PF",
+  "source_url": "https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/",
+  "publication_date": "2014-07-26",
+  "event_date": "2014-07-23",
+  "event_date_precision": "day",
+  "fauna_label_pt": "161 Hypancistrus zebra em sacos na bagagem",
+  "fauna_label_en": "161 Hypancistrus zebra em sacos na bagagem",
+  "fauna_label_es": "161 Hypancistrus zebra em sacos na bagagem",
+  "taxon_text": "Hypancistrus zebra",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "161 Hypancistrus zebra em sacos na bagagem — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "title_en": "Ornamental fish enforcement — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "title_es": "Fiscalización de peces ornamentales — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+  "card_text_pt": "Em 23/07, Ibama apreendeu 161 H. zebra divididos em sacos plásticos numa mala no aeroporto de Manaus, em tentativa de contrabando para a Colômbia. O infrator foi encaminhado à PF, e o lote ao INPA. Fiscalização identificou o voo, mas não comprovou que a carga chegou a Tabatinga nem à Colômbia. A referência de Sousa et al. documenta apreensões mensais distintas, não repetição da remessa de 268 exemplares do mês anterior.",
+  "card_text_en": "On 23 July, Ibama intercepted 161 zebra plecos packed in plastic bags inside baggage at Manaus airport, in an attempted onward trafficking operation towards Colombia. The suspect was referred to police and fish to INPA. The border flight and Colombia leg were not completed. Sousa et al. distinguish this July seizure from the 268-fish June seizure.",
+  "card_text_es": "El 23 de julio, Ibama decomisó 161 plecos cebra en bolsas plásticas dentro de una maleta en Manaos, en un intento de traslado hacia Colombia. El intervenido fue remitido a la PF y los peces al INPA. La etapa fronteriza no se consumó. Sousa et al. distinguen este caso del lote de 268 del mes anterior.",
+  "context_pt": "[O1] Em 23/07, Ibama apreendeu 161 H. zebra divididos em sacos plásticos numa mala no aeroporto de Manaus, em tentativa de contrabando para a Colômbia. O infrator foi encaminhado à PF, e o lote ao INPA. Fiscalização identificou o voo, mas não comprovou que a carga chegou a Tabatinga nem à Colômbia. A referência de Sousa et al. documenta apreensões mensais distintas, não repetição da remessa de 268 exemplares do mês anterior. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+  "context_en": "[O1] On 23 July, Ibama intercepted 161 zebra plecos packed in plastic bags inside baggage at Manaus airport, in an attempted onward trafficking operation towards Colombia. The suspect was referred to police and fish to INPA. The border flight and Colombia leg were not completed. Sousa et al. distinguish this July seizure from the 268-fish June seizure. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+  "context_es": "[O1] El 23 de julio, Ibama decomisó 161 plecos cebra en bolsas plásticas dentro de una maleta en Manaos, en un intento de traslado hacia Colombia. El intervenido fue remitido a la PF y los peces al INPA. La etapa fronteriza no se consumó. Sousa et al. distinguen este caso del lote de 268 del mes anterior. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "AquaA3 / Ibama / PF",
+      "url": "https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    }
+  ],
+  "quantity_count": 161,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 161
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+  "image_url": null,
+  "image_source_url": "https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+  "references_text_pt": "[O1] AquaA3 / Ibama / PF — https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_en": "[O1] AquaA3 / Ibama / PF — https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_es": "[O1] AquaA3 / Ibama / PF — https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570"
+}
