@@ -1,0 +1,74 @@
+{
+  "id": "2015-02-16__sao-paulo-olivenca-38-freshwater-stingrays",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_c",
+  "country": "Brasil",
+  "location_label_pt": "São Paulo de Olivença, Amazonas",
+  "location_label_en": "São Paulo de Olivença, Amazonas",
+  "location_label_es": "São Paulo de Olivença, Amazonas",
+  "coordinates": {
+    "lat": -3.47,
+    "lon": -68.95
+  },
+  "coordinate_precision": "city_or_airport_generalized",
+  "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+  "source_label": "Polícia Civil Amazonas / Portal do Holanda",
+  "source_url": "https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca",
+  "publication_date": "2015-02-18",
+  "event_date": "2015-02-16",
+  "event_date_precision": "day",
+  "fauna_label_pt": "38 raias Potamotrygonidae, 31 vivas e 7 mortas",
+  "fauna_label_en": "38 raias Potamotrygonidae, 31 vivas e 7 mortas",
+  "fauna_label_es": "38 raias Potamotrygonidae, 31 vivas e 7 mortas",
+  "taxon_text": "Potamotrygonidae; espécie não confirmada",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Terrestre",
+  "title_pt": "38 raias Potamotrygonidae, 31 vivas e 7 mortas — São Paulo de Olivença, Amazonas",
+  "title_en": "Ornamental fish enforcement — São Paulo de Olivença, Amazonas",
+  "title_es": "Fiscalización de peces ornamentales — São Paulo de Olivença, Amazonas",
+  "card_text_pt": "Em 16/02, a Polícia Civil apreendeu numa picape abandonada próximo ao aeroporto municipal 38 raias de água doce da família Potamotrygonidae, 31 vivas e sete mortas. Três adultos foram presos e um adolescente apreendido; segundo relato policial, o grupo pretendia encaminhar as raias oriundas do Pará pela Colômbia até os Estados Unidos. Esses destinos eram planos declarados, não transporte comprovadamente executado. A espécie exata não foi identificada; não presumir Potamotrygon leopoldi nem converter 38 raias em 38 novos eventos.",
+  "card_text_en": "On 16 February, civil police seized 38 freshwater stingrays (Potamotrygonidae), 31 alive and seven dead, from an abandoned pickup near the town airport. Three adults were arrested and one juvenile detained. Police reported intended movement from Pará through Colombia to the United States, not completed carriage. Species-level identity is not established, and all 38 animals belong to one seizure.",
+  "card_text_es": "El 16 de febrero, la Policía Civil decomisó 38 rayas de agua dulce Potamotrygonidae —31 vivas y siete muertas— en una camioneta abandonada cerca del aeropuerto. Tres adultos fueron detenidos y un adolescente retenido. Según la policía, el itinerario previsto iba de Pará por Colombia hacia Estados Unidos, sin haberse ejecutado. La especie exacta no se confirmó.",
+  "context_pt": "[O1] Em 16/02, a Polícia Civil apreendeu numa picape abandonada próximo ao aeroporto municipal 38 raias de água doce da família Potamotrygonidae, 31 vivas e sete mortas. Três adultos foram presos e um adolescente apreendido; segundo relato policial, o grupo pretendia encaminhar as raias oriundas do Pará pela Colômbia até os Estados Unidos. Esses destinos eram planos declarados, não transporte comprovadamente executado. A espécie exata não foi identificada; não presumir Potamotrygon leopoldi nem converter 38 raias em 38 novos eventos. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+  "context_en": "[O1] On 16 February, civil police seized 38 freshwater stingrays (Potamotrygonidae), 31 alive and seven dead, from an abandoned pickup near the town airport. Three adults were arrested and one juvenile detained. Police reported intended movement from Pará through Colombia to the United States, not completed carriage. Species-level identity is not established, and all 38 animals belong to one seizure. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+  "context_es": "[O1] El 16 de febrero, la Policía Civil decomisó 38 rayas de agua dulce Potamotrygonidae —31 vivas y siete muertas— en una camioneta abandonada cerca del aeropuerto. Tres adultos fueron detenidos y un adolescente retenido. Según la policía, el itinerario previsto iba de Pará por Colombia hacia Estados Unidos, sin haberse ejecutado. La especie exacta no se confirmó. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polícia Civil Amazonas / Portal do Holanda",
+      "url": "https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015",
+      "url": "https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_context",
+      "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+      "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+    }
+  ],
+  "quantity_count": 38,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 38
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+  "image_url": null,
+  "image_source_url": "https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+  "references_text_pt": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_en": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+  "references_text_es": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570"
+}
