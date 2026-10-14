@@ -21,7 +21,7 @@
       "Verify rendered MAP, GLOBE, filters, counters, cards and Case Context against the current site after cutover"
     ],
     "next_phase": "LIVE_DASHBOARD_CUTOVER_AND_RENDER_VALIDATION",
-    "current_case_count": 110,
+    "current_case_count": 1022,
     "post_migration_ingestion_count": 19
   },
   "files": {
@@ -30,7 +30,7 @@
     "schema": "schemas/case.schema.json",
     "raw_archive": "archives/dashboard-2026-09-21.raw.json"
   },
-  "updated_at": "2026-09-22T04:17:31Z",
+  "updated_at": "2026-10-14T14:35:00Z",
   "dashboard_feeds": {
     "cases": "https://acarvalho-wcs.github.io/wildlife-trafficking-data/cases.json",
     "routes_legacy_compatible": "https://acarvalho-wcs.github.io/wildlife-trafficking-reports/routes.json",
@@ -38,17 +38,17 @@
   },
   "quantity_layer": {
     "ready": true,
-    "case_count": 110,
+    "case_count": 1022,
     "rule": "countable animals/items only; weights and volumes are not converted",
-    "updated_at": "2026-09-22T04:17:31Z"
+    "updated_at": "2026-10-14T14:35:00Z"
   },
   "last_ingestion": {
-    "batch": "brazil_2026_batch1",
-    "cases_added": 18,
-    "routes_added": 8,
-    "resulting_case_count": 110,
-    "source_validation": "primary-source-first; uncertainties preserved",
-    "updated_at": "2026-09-22T04:17:31Z"
+    "batch": "shark_products_historical_2015_2026_20261014",
+    "cases_added": 54,
+    "routes_added": 36,
+    "resulting_case_count": 1022,
+    "source_validation": "Official-first with journalistic corroboration and case-specific uncertainty; contextual references O S N I; multilingual PT EN ES",
+    "updated_at": "2026-10-14T14:35:00Z"
   },
   "pages_redeploy_requested_at": "2026-10-05T15:10:00Z",
   "pages_redeploy_reason": "Refresh GitHub Pages after canonical feed reached 621 cases."
