@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-12__bakauheni-832-undocumented-birds-minibus",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "global_13_14oct2026_source_audit",
+  "source_reconciliation_status": "PRIMARY_SECONDARY_CROSSCHECKED",
+  "event_date": null,
+  "publication_date": "2026-10-13",
+  "event_date_precision": "not_disclosed_or_disputed",
+  "country": "Indonésia",
+  "coordinates": {
+    "lat": -5.87,
+    "lon": 105.75
+  },
+  "coordinate_precision": "port_generalized",
+  "source_label": "KSKP Bakauheni / Polícia de Lampung Selatan",
+  "source_url": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-serahkan-832-ekor-burung-ke-balai-karantina-dua-pria-dan-mobil-apv-ikut-diserahkan",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Múltiplos grupos de aves; jalak kerbau, pleci, ciblek, gelatik batu, pentet, siri-siri, kepodang e srigunting abu-abu (nomes locais, sem identificação pericial)",
+  "modal_primary": "Terrestre",
+  "quantity_count": 832,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 832
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "KSKP Bakauheni / Polícia de Lampung Selatan",
+      "url": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-serahkan-832-ekor-burung-ke-balai-karantina-dua-pria-dan-mobil-apv-ikut-diserahkan"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Polícia de Lampung Selatan, apreensão de 832 aves",
+      "url": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/bawa-832-ekor-burung-tanpa-dokumen-dua-pria-dan-suzuki-apv-diamankan-di-bakauheni"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Warta Palapa, data de 13/10 e destino para Banten",
+      "url": "https://www.warta-palapa.com/2026/10/minibus-tanpa-kursi-angkut-832-burung.html"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "TRAFFIC — Chng & Eaton (2016), In the market for extinction: Eastern and Central Java",
+      "url": "https://www.traffic.org/publications/reports/in-the-market-for-extinction/"
+    }
+  ],
+  "context_status": "CONTEXTUALIZED_MULTILINGUAL",
+  "translation_status": "REVIEWED_TRILINGUAL",
+  "route_audit_status": "NO_ROUTE_COMMITTED",
+  "image_url": null,
+  "image_source_url": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-serahkan-832-ekor-burung-ke-balai-karantina-dua-pria-dan-mobil-apv-ikut-diserahkan",
+  "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+  "added_at": "2026-10-14T11:00:00Z",
+  "location_label_pt": "Porto de Bakauheni, Lampung Selatan",
+  "title_pt": "Bakauheni intercepta 832 aves sem documentos em veículo vindo de Palembang",
+  "fauna_label_pt": "Múltiplos grupos de aves; jalak kerbau, pleci, ciblek, gelatik batu, pentet, siri-siri, kepodang e srigunting abu-abu (nomes locais, sem identificação pericial)",
+  "card_text_pt": "A polícia interceptou 832 aves transportadas em Suzuki APV modificado com 59 cestos e dez caixas. Dois homens foram detidos e o lote entregue à quarentena de Bakauheni em 12/10 às 5h. A data exata da apreensão não é consensual nas fontes.",
+  "context_pt": "[O1] A polícia interceptou 832 aves transportadas em Suzuki APV modificado com 59 cestos e dez caixas. Dois homens foram detidos e o lote entregue à quarentena de Bakauheni em 12/10 às 5h. A data exata da apreensão não é consensual nas fontes.\n\n[O1] A transferência formal em 12/10 às 5h impede aceitar sem ressalvas o flagrante em 13/10 reportado por [N1]; event_date foi mantido nulo. [O2] A polícia lista 240 jalak kerbau, 120 pleci, 100 ciblek, 80 gelatik batu, 75 pentet, 41 siri-siri, 40 kepodang e 40 srigunting abu-abu, além de outras aves; subtotais não cobrem as 832. O veículo procedia de Palembang e a polícia aponta Kampung Rambutan/Jacarta como destino; a imprensa [N1] menciona Pasar Kemis/Banten. A divergência impede traçar destino final sem auditoria adicional. [I1] TRAFFIC demonstra pressão comercial histórica nos mercados de aves de Java, sem ligação comprovada com estes transportadores. O lote não é duplicata das 1.689 aves de 09/10 em Bakauheni.",
+  "quantity_note_pt": "832 aves em um lote; data da apreensão anterior ou igual a 12/10, dia exato não comprovado.",
+  "geographic_note_pt": "Localidade de referência, não localização exata da apreensão ou procedência dos animais.",
+  "route_audit_note_pt": "Não representar rota sem extremos documentados e sem resolver destino contraditório.",
+  "references_text_pt": "[O1] KSKP Bakauheni / Polícia de Lampung Selatan — https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-serahkan-832-ekor-burung-ke-balai-karantina-dua-pria-dan-mobil-apv-ikut-diserahkan\n[O2] Polícia de Lampung Selatan, apreensão de 832 aves — https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/bawa-832-ekor-burung-tanpa-dokumen-dua-pria-dan-suzuki-apv-diamankan-di-bakauheni\n[N1] Warta Palapa, data de 13/10 e destino para Banten — https://www.warta-palapa.com/2026/10/minibus-tanpa-kursi-angkut-832-burung.html\n[I1] TRAFFIC — Chng & Eaton (2016), In the market for extinction: Eastern and Central Java — https://www.traffic.org/publications/reports/in-the-market-for-extinction/",
+  "location_label_en": "Porto de Bakauheni, Lampung Selatan",
+  "title_en": "Bakauheni officers intercept 832 undocumented birds from Palembang",
+  "fauna_label_en": "Múltiplos grupos de aves; jalak kerbau, pleci, ciblek, gelatik batu, pentet, siri-siri, kepodang e srigunting abu-abu (nomes locais, sem identificação pericial)",
+  "card_text_en": "Police recovered 832 birds in 59 baskets and ten boxes from a modified Suzuki APV. Two men were detained; a documented quarantine handover occurred on 12 October at 05:00. Reports disagree on the exact seizure date.",
+  "context_en": "[O1] Police recovered 832 birds in 59 baskets and ten boxes from a modified Suzuki APV. Two men were detained; a documented quarantine handover occurred on 12 October at 05:00. Reports disagree on the exact seizure date.\n\n[O1] A police handover at 05:00 on 12 October contradicts [N1]'s suggestion that the birds were first intercepted on the 13th; event_date remains null. [O2] Officers listed 240 jalak kerbau, 120 pleci, 100 ciblek, 80 gelatik batu, 75 pentet, 41 siri-siri, 40 kepodang and 40 srigunting abu-abu, plus other birds; the named subtotals do not exhaust 832. The load came from Palembang; police name Kampung Rambutan/Jakarta as the destination, whereas [N1] says Pasar Kemis/Banten. Do not infer a reconciled endpoint. [I1] TRAFFIC documents historical bird markets in Java, not the actors in this shipment. This is distinct from Bakauheni's 1,689-bird batch of 9 October.",
+  "quantity_note_en": "832 birds in one batch; seizure not later than 12 October, precise day unconfirmed.",
+  "geographic_note_en": "Generalized locality; not the exact interception or collection site.",
+  "route_audit_note_en": "Do not draw route without documented endpoints or resolved destination.",
+  "references_text_en": "[O1] KSKP Bakauheni / Polícia de Lampung Selatan — https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-serahkan-832-ekor-burung-ke-balai-karantina-dua-pria-dan-mobil-apv-ikut-diserahkan\n[O2] Polícia de Lampung Selatan, apreensão de 832 aves — https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/bawa-832-ekor-burung-tanpa-dokumen-dua-pria-dan-suzuki-apv-diamankan-di-bakauheni\n[N1] Warta Palapa, data de 13/10 e destino para Banten — https://www.warta-palapa.com/2026/10/minibus-tanpa-kursi-angkut-832-burung.html\n[I1] TRAFFIC — Chng & Eaton (2016), In the market for extinction: Eastern and Central Java — https://www.traffic.org/publications/reports/in-the-market-for-extinction/",
+  "location_label_es": "Porto de Bakauheni, Lampung Selatan",
+  "title_es": "Interceptan 832 aves sin documentos procedentes de Palembang",
+  "fauna_label_es": "Múltiplos grupos de aves; jalak kerbau, pleci, ciblek, gelatik batu, pentet, siri-siri, kepodang e srigunting abu-abu (nomes locais, sem identificação pericial)",
+  "card_text_es": "La policía recuperó 832 aves en 59 cestas y diez cajas transportadas en un Suzuki APV modificado. Dos hombres fueron retenidos y la entrega a cuarentena consta el 12/10 a las 05:00. Hay discrepancias sobre la fecha de interceptación.",
+  "context_es": "[O1] La policía recuperó 832 aves en 59 cestas y diez cajas transportadas en un Suzuki APV modificado. Dos hombres fueron retenidos y la entrega a cuarentena consta el 12/10 a las 05:00. Hay discrepancias sobre la fecha de interceptación.\n\n[O1] La entrega oficial a cuarentena el 12/10 a las 05:00 contradice la primera interceptación el 13/10 afirmada por [N1]; event_date queda nulo. [O2] La policía detalló 240 jalak kerbau, 120 pleci, 100 ciblek, 80 gelatik batu, 75 pentet, 41 siri-siri, 40 kepodang y 40 srigunting abu-abu, además de otras aves; el desglose es parcial. Origen del viaje Palembang; destino Jakarta/Kampung Rambutan según policía, pero Banten/Pasar Kemis según [N1]. No fijar destino contradictorio. [I1] TRAFFIC aporta antecedentes comerciales de Java, no relación operativa. Es distinto del decomiso de 1.689 aves el 9/10.",
+  "quantity_note_es": "832 aves de una remesa; decomiso no posterior al 12/10, día exacto no confirmado.",
+  "geographic_note_es": "Localidad aproximada, no lugar exacto de decomiso ni captura.",
+  "route_audit_note_es": "No representar rutas sin extremos documentados ni destino reconciliado.",
+  "references_text_es": "[O1] KSKP Bakauheni / Polícia de Lampung Selatan — https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-serahkan-832-ekor-burung-ke-balai-karantina-dua-pria-dan-mobil-apv-ikut-diserahkan\n[O2] Polícia de Lampung Selatan, apreensão de 832 aves — https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/bawa-832-ekor-burung-tanpa-dokumen-dua-pria-dan-suzuki-apv-diamankan-di-bakauheni\n[N1] Warta Palapa, data de 13/10 e destino para Banten — https://www.warta-palapa.com/2026/10/minibus-tanpa-kursi-angkut-832-burung.html\n[I1] TRAFFIC — Chng & Eaton (2016), In the market for extinction: Eastern and Central Java — https://www.traffic.org/publications/reports/in-the-market-for-extinction/"
+}
