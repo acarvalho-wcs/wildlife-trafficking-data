@@ -20,7 +20,7 @@
   "source_label": "Secretaría Distrital de Ambiente de Bogotá",
   "source_url": "https://bogota.gov.co/mi-ciudad/ambiente/policia-incauto-26-peces-cuchas-que-iban-ser-enviados-vietnam",
   "publication_date": "2022-10-04",
-  "event_date": "2022-10-04",
+  "event_date": null,
   "fauna_label_pt": "26 Panaque (cuchas ojiazules), identificação específica conforme fonte",
   "fauna_label_en": "26 Panaque (cuchas ojiazules), identificação específica conforme fonte",
   "fauna_label_es": "26 Panaque (cuchas ojiazules), identificação específica conforme fonte",
@@ -35,9 +35,9 @@
   "card_text_pt": "Autoridades ambientais e policiais recuperaram 26 cascudos do gênero Panaque em sacos com pouco espaço e oxigênio na carga de El Dorado, com remessa planejada para o Vietnã. A fonte emprega a designação Panaque cochliodon sp., que deve ser preservada como identificação publicada, sem afirmar confirmação taxonômica independente. A rota Bogotá–Vietnã é destino declarado, não transporte completado.",
   "card_text_en": "Environmental and police officers recovered 26 Panaque catfish from oxygen-poor bags at El Dorado cargo terminal in an attempted Vietnam-bound consignment. The authority used the form Panaque cochliodon sp.; independent species-level identification is not established. Bogotá–Vietnam was the intended, interrupted export, not completed carriage.",
   "card_text_es": "Autoridades ambientales y policiales recuperaron 26 cuchas Panaque en bolsas con espacio y oxígeno insuficientes en El Dorado, en un envío previsto a Vietnam. La fuente usa Panaque cochliodon sp.; no se presume identificación taxonómica independiente. Bogotá–Vietnam fue destino declarado e interrumpido.",
-  "context_pt": "[O1] Autoridades ambientais e policiais recuperaram 26 cascudos do gênero Panaque em sacos com pouco espaço e oxigênio na carga de El Dorado, com remessa planejada para o Vietnã. A fonte emprega a designação Panaque cochliodon sp., que deve ser preservada como identificação publicada, sem afirmar confirmação taxonômica independente. A rota Bogotá–Vietnã é destino declarado, não transporte completado.",
-  "context_en": "[O1] Environmental and police officers recovered 26 Panaque catfish from oxygen-poor bags at El Dorado cargo terminal in an attempted Vietnam-bound consignment. The authority used the form Panaque cochliodon sp.; independent species-level identification is not established. Bogotá–Vietnam was the intended, interrupted export, not completed carriage.",
-  "context_es": "[O1] Autoridades ambientales y policiales recuperaron 26 cuchas Panaque en bolsas con espacio y oxígeno insuficientes en El Dorado, en un envío previsto a Vietnam. La fuente usa Panaque cochliodon sp.; no se presume identificación taxonómica independiente. Bogotá–Vietnam fue destino declarado e interrumpido.",
+  "context_pt": "[O1] A nota institucional foi publicada em 04/10/2022, mas informa que a apreensão dos 26 Panaque ocorreu nos dias anteriores, sem especificar o dia exato; 04/10 não deve ser utilizado como data operacional. Autoridades ambientais e policiais recuperaram 26 cascudos do gênero Panaque em sacos com pouco espaço e oxigênio na carga de El Dorado, com remessa planejada para o Vietnã. A fonte emprega a designação Panaque cochliodon sp., que deve ser preservada como identificação publicada, sem afirmar confirmação taxonômica independente. A rota Bogotá–Vietnã é destino declarado, não transporte completado.",
+  "context_en": "[O1] The official report was published on 4 October 2022 but describes a seizure in previous days, without identifying the exact operational date. Publication date must not be mistaken for seizure date. Environmental and police officers recovered 26 Panaque catfish from oxygen-poor bags at El Dorado cargo terminal in an attempted Vietnam-bound consignment. The authority used the form Panaque cochliodon sp.; independent species-level identification is not established. Bogotá–Vietnam was the intended, interrupted export, not completed carriage.",
+  "context_es": "[O1] La nota oficial se publicó el 04/10/2022, pero indica que el decomiso ocurrió días antes, sin fecha operativa exacta. No usar la fecha de publicación como fecha del hecho. Autoridades ambientales y policiales recuperaron 26 cuchas Panaque en bolsas con espacio y oxígeno insuficientes en El Dorado, en un envío previsto a Vietnam. La fuente usa Panaque cochliodon sp.; no se presume identificación taxonómica independiente. Bogotá–Vietnam fue destino declarado e interrumpido.",
   "context_references": [
     {
       "id": "O1",
@@ -62,5 +62,7 @@
   "route_audit_note_pt": "Somente etapas e destinos citados explicitamente; sem inferir captura ou segmentos internacionais.",
   "references_text_pt": "[O1] Secretaría Distrital de Ambiente de Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/policia-incauto-26-peces-cuchas-que-iban-ser-enviados-vietnam",
   "references_text_en": "[O1] Secretaría Distrital de Ambiente de Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/policia-incauto-26-peces-cuchas-que-iban-ser-enviados-vietnam",
-  "references_text_es": "[O1] Secretaría Distrital de Ambiente de Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/policia-incauto-26-peces-cuchas-que-iban-ser-enviados-vietnam"
+  "references_text_es": "[O1] Secretaría Distrital de Ambiente de Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/policia-incauto-26-peces-cuchas-que-iban-ser-enviados-vietnam",
+  "event_date_precision": "unknown_day_before_or_by_publication_2022-10-04",
+  "context_updated_at": "2026-10-13T21:45:00-04:00"
 }
