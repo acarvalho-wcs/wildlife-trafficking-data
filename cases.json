@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_944_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_952_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 944,
+  "count": 952,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -72365,6 +72365,610 @@
       "references_text_es": "[O1] Polícia Federal / Amazonas Atual — https://amazonasatual.com.br/pf-prende-no-am-homem-que-por-contrabando-de-peixes-ornamentais-da-amazonia/\n[I1] TRAFFIC (2020), Brazil's widespread wildlife trafficking — https://www.traffic.org/publications/reports/brazils-widespread-wildlife-trafficking/\n[N1] ((o))eco, Tabatinga ornamental fish trafficking, 12 Jan 2026 — https://oeco.org.br/salada-verde/pf-prende-homem-por-contrabando-de-peixes-ornamentais-da-amazonia-em-tabatinga/",
       "occurred_at": "2026-01-09T00:00:00Z",
       "occurred_at_precision": "day"
+    },
+    {
+      "id": "2014-06-12__manaus-airport-910-black-arowana-alevins",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "location_label_en": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "location_label_es": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "coordinates": {
+        "lat": -3.0386,
+        "lon": -60.048
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "Ibama (2014), transcrito em dissertação da UEA",
+      "source_url": "https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf",
+      "publication_date": "2014-06-13",
+      "event_date": "2014-06-12",
+      "event_date_precision": "day",
+      "fauna_label_pt": "910 alevinos de aruanã-negra (Osteoglossum ferreirai)",
+      "fauna_label_en": "910 alevinos de aruanã-negra (Osteoglossum ferreirai)",
+      "fauna_label_es": "910 alevinos de aruanã-negra (Osteoglossum ferreirai)",
+      "taxon_text": "Osteoglossum ferreirai",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "910 alevinos de aruanã-negra (Osteoglossum ferreirai) — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "title_en": "Ornamental fish seizure — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "title_es": "Decomiso de peces ornamentales — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "card_text_pt": "Ibama e PF apreenderam 910 alevinos de Osteoglossum ferreirai no aeroporto de Manaus em 12/06. Segundo o comunicado oficial reproduzido pela UEA, os peixes foram capturados em Barcelos, bacia do rio Negro, e seriam levados de Manaus a Tabatinga e depois Letícia, Colômbia. Essa é uma sequência explicitamente atribuída à operação, mas o transporte planejado a partir do aeroporto não se consumou. A espécie exibe incubação bucal paterna, aspecto relevante para a pressão de coleta de juvenis. Os espécimes foram encaminhados ao INPA.",
+      "card_text_en": "Ibama and Federal Police seized 910 juvenile black arowanas Osteoglossum ferreirai at Manaus airport on 12 June. An official statement reproduced by UEA says the fish were collected at Barcelos in the Rio Negro basin and intended for Tabatinga and then Leticia, Colombia. The planned onward carriage was interrupted; only the stated origin and intended itinerary are established. Male mouthbrooding biology makes juvenile collection a conservation concern. Fish were placed with INPA.",
+      "card_text_es": "Ibama y Policía Federal decomisaron 910 alevines de aruaná negra Osteoglossum ferreirai en Manaos el 12 de junio. El comunicado oficial reproducido por UEA indica captura en Barcelos, cuenca del río Negro, y traslado previsto a Tabatinga y Leticia, Colombia. La continuación del transporte fue interrumpida. La incubación bucal paterna de las crías aporta contexto conservacionista; quedaron bajo custodia del INPA.",
+      "context_pt": "[O1] Ibama e PF apreenderam 910 alevinos de Osteoglossum ferreirai no aeroporto de Manaus em 12/06. Segundo o comunicado oficial reproduzido pela UEA, os peixes foram capturados em Barcelos, bacia do rio Negro, e seriam levados de Manaus a Tabatinga e depois Letícia, Colômbia. Essa é uma sequência explicitamente atribuída à operação, mas o transporte planejado a partir do aeroporto não se consumou. A espécie exibe incubação bucal paterna, aspecto relevante para a pressão de coleta de juvenis. Os espécimes foram encaminhados ao INPA. [I1] TRAFFIC (2022) documenta padrões de tráfico de peixes ornamentais e reforça a necessidade de distinguir apreensões individuais de estatísticas agregadas.",
+      "context_en": "[O1] Ibama and Federal Police seized 910 juvenile black arowanas Osteoglossum ferreirai at Manaus airport on 12 June. An official statement reproduced by UEA says the fish were collected at Barcelos in the Rio Negro basin and intended for Tabatinga and then Leticia, Colombia. The planned onward carriage was interrupted; only the stated origin and intended itinerary are established. Male mouthbrooding biology makes juvenile collection a conservation concern. Fish were placed with INPA. [I1] TRAFFIC (2022) provides regional historical seizure context distinct from this event.",
+      "context_es": "[O1] Ibama y Policía Federal decomisaron 910 alevines de aruaná negra Osteoglossum ferreirai en Manaos el 12 de junio. El comunicado oficial reproducido por UEA indica captura en Barcelos, cuenca del río Negro, y traslado previsto a Tabatinga y Leticia, Colombia. La continuación del transporte fue interrumpida. La incubación bucal paterna de las crías aporta contexto conservacionista; quedaron bajo custodia del INPA. [I1] TRAFFIC (2022) ofrece contexto histórico regional distinto de esta actuación.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ibama (2014), transcrito em dissertação da UEA",
+          "url": "https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69",
+          "url": "https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf"
+        }
+      ],
+      "quantity_count": 910,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 910
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] Ibama (2014), transcrito em dissertação da UEA — https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_en": "[O1] Ibama (2014), transcrito em dissertação da UEA — https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_es": "[O1] Ibama (2014), transcrito em dissertação da UEA — https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "occurred_at": "2014-06-12T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2017-10-14__manaus-airport-672-mixed-ornamental-fish",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "location_label_en": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "location_label_es": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "coordinates": {
+        "lat": -3.0386,
+        "lon": -60.048
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "A Crítica / PF / INPA",
+      "source_url": "https://www.acritica.com/manaus/pf-apreende-672-peixes-ornamentais-no-aeroporto-de-manaus-especies-morreram-1.170918",
+      "publication_date": "2017-10-18",
+      "event_date": "2017-10-14",
+      "event_date_precision": "day",
+      "fauna_label_pt": "672 ornamentais: 302 Hypancistrus zebra; 74 Hypancistrus sp.; 20 Pseudacanthicus sp.; 42 Corydoras sp.; 181 acarás-anões; 45 Scobinancistrus sp.; 8 Potamotrygon orbignyi",
+      "fauna_label_en": "672 ornamentais: 302 Hypancistrus zebra; 74 Hypancistrus sp.; 20 Pseudacanthicus sp.; 42 Corydoras sp.; 181 acarás-anões; 45 Scobinancistrus sp.; 8 Potamotrygon orbignyi",
+      "fauna_label_es": "672 ornamentais: 302 Hypancistrus zebra; 74 Hypancistrus sp.; 20 Pseudacanthicus sp.; 42 Corydoras sp.; 181 acarás-anões; 45 Scobinancistrus sp.; 8 Potamotrygon orbignyi",
+      "taxon_text": "Hypancistrus zebra; Hypancistrus sp.; Pseudacanthicus sp.; Corydoras sp.; Scobinancistrus sp.; Potamotrygon orbignyi",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "672 ornamentais: 302 Hypancistrus zebra; 74 Hypancistrus sp.; 20 Pseudacanthicus sp.; 42 Corydoras sp.; 181 acarás-anões; 45 Scobinancistrus sp.; 8 Potamotrygon orbignyi — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "title_en": "Ornamental fish seizure — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "title_es": "Decomiso de peces ornamentales — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+      "card_text_pt": "Em 14/10, dois passageiros foram detidos ao tentar embarcar com três malas contendo 672 peixes ornamentais de vários táxons amazônicos. A composição relatada soma exatamente 672: 302 H. zebra, 74 Hypancistrus sp., 20 Pseudacanthicus sp., 42 Corydoras sp., 181 acarás-anões, 45 Scobinancistrus sp. e 8 Potamotrygon orbignyi. Pesquisador do INPA relatou mortalidade após a apreensão devido às condições de transporte. Os 302 H. zebra são subconjunto do total e não outro evento. O estudo Sousa et al. contextualiza endemismo do Xingu e mortalidade no comércio clandestino; não fornece evidência da origem de cada indivíduo presente neste lote.",
+      "card_text_en": "Two travellers were detained on 14 October with three checked bags containing 672 Amazonian ornamental fish. The recorded breakdown totals 672: 302 H. zebra, 74 Hypancistrus sp., 20 Pseudacanthicus sp., 42 Corydoras sp., 181 dwarf cichlids, 45 Scobinancistrus sp. and eight Potamotrygon orbignyi. An INPA researcher reported deaths following seizure due to poor carriage conditions. The 302 zebra plecos form part of the 672, not a separate event. Sousa et al. discuss Xingu endemism and smuggling mortality, without establishing the source of each seized fish.",
+      "card_text_es": "Dos viajeros fueron detenidos el 14 de octubre con tres maletas y 672 peces ornamentales: 302 H. zebra, 74 Hypancistrus sp., 20 Pseudacanthicus sp., 42 Corydoras sp., 181 cíclidos enanos, 45 Scobinancistrus sp. y ocho Potamotrygon orbignyi. Un investigador del INPA informó mortalidad posterior por transporte inadecuado. Los 302 cascudos cebra están incluidos en el total de 672. Sousa et al. contextualizan el endemismo y los riesgos, sin establecer procedencia individual.",
+      "context_pt": "[O1] Em 14/10, dois passageiros foram detidos ao tentar embarcar com três malas contendo 672 peixes ornamentais de vários táxons amazônicos. A composição relatada soma exatamente 672: 302 H. zebra, 74 Hypancistrus sp., 20 Pseudacanthicus sp., 42 Corydoras sp., 181 acarás-anões, 45 Scobinancistrus sp. e 8 Potamotrygon orbignyi. Pesquisador do INPA relatou mortalidade após a apreensão devido às condições de transporte. Os 302 H. zebra são subconjunto do total e não outro evento. O estudo Sousa et al. contextualiza endemismo do Xingu e mortalidade no comércio clandestino; não fornece evidência da origem de cada indivíduo presente neste lote. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado. [I1] TRAFFIC (2022) documenta padrões de tráfico de peixes ornamentais e reforça a necessidade de distinguir apreensões individuais de estatísticas agregadas.",
+      "context_en": "[O1] Two travellers were detained on 14 October with three checked bags containing 672 Amazonian ornamental fish. The recorded breakdown totals 672: 302 H. zebra, 74 Hypancistrus sp., 20 Pseudacanthicus sp., 42 Corydoras sp., 181 dwarf cichlids, 45 Scobinancistrus sp. and eight Potamotrygon orbignyi. An INPA researcher reported deaths following seizure due to poor carriage conditions. The 302 zebra plecos form part of the 672, not a separate event. Sousa et al. discuss Xingu endemism and smuggling mortality, without establishing the source of each seized fish. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution. [I1] TRAFFIC (2022) provides regional historical seizure context distinct from this event.",
+      "context_es": "[O1] Dos viajeros fueron detenidos el 14 de octubre con tres maletas y 672 peces ornamentales: 302 H. zebra, 74 Hypancistrus sp., 20 Pseudacanthicus sp., 42 Corydoras sp., 181 cíclidos enanos, 45 Scobinancistrus sp. y ocho Potamotrygon orbignyi. Un investigador del INPA informó mortalidad posterior por transporte inadecuado. Los 302 cascudos cebra están incluidos en el total de 672. Sousa et al. contextualizan el endemismo y los riesgos, sin establecer procedencia individual. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso. [I1] TRAFFIC (2022) ofrece contexto histórico regional distinto de esta actuación.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "A Crítica / PF / INPA",
+          "url": "https://www.acritica.com/manaus/pf-apreende-672-peixes-ornamentais-no-aeroporto-de-manaus-especies-morreram-1.170918"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69",
+          "url": "https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf"
+        }
+      ],
+      "quantity_count": 672,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 672
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://www.acritica.com/manaus/pf-apreende-672-peixes-ornamentais-no-aeroporto-de-manaus-especies-morreram-1.170918",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] A Crítica / PF / INPA — https://www.acritica.com/manaus/pf-apreende-672-peixes-ornamentais-no-aeroporto-de-manaus-especies-morreram-1.170918\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_en": "[O1] A Crítica / PF / INPA — https://www.acritica.com/manaus/pf-apreende-672-peixes-ornamentais-no-aeroporto-de-manaus-especies-morreram-1.170918\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_es": "[O1] A Crítica / PF / INPA — https://www.acritica.com/manaus/pf-apreende-672-peixes-ornamentais-no-aeroporto-de-manaus-especies-morreram-1.170918\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "occurred_at": "2017-10-14T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2019-06-12__altamira-airport-zebra-plecos-ibama-pf-discrepancy",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto de Altamira, Pará",
+      "location_label_en": "Aeroporto de Altamira, Pará",
+      "location_label_es": "Aeroporto de Altamira, Pará",
+      "coordinates": {
+        "lat": -3.253,
+        "lon": -52.253
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "Ibama (via AmbienteBrasil) / PF",
+      "source_url": "https://noticias.ambientebrasil.com.br/clipping/2019/06/13/152457-ibama-apreende-505-peixes-ameacados-de-extincao-em-altamira-pa.html",
+      "publication_date": "2019-06-13",
+      "event_date": "2019-06-12",
+      "event_date_precision": "day",
+      "fauna_label_pt": "Ibama: 505 Hypancistrus zebra e 2 Scobinancistrus sp.; imprensa atribuída à PF: 487 cascudos-zebra",
+      "fauna_label_en": "Ibama: 505 Hypancistrus zebra e 2 Scobinancistrus sp.; imprensa atribuída à PF: 487 cascudos-zebra",
+      "fauna_label_es": "Ibama: 505 Hypancistrus zebra e 2 Scobinancistrus sp.; imprensa atribuída à PF: 487 cascudos-zebra",
+      "taxon_text": "Hypancistrus zebra; Scobinancistrus sp.",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "Ibama: 505 Hypancistrus zebra e 2 Scobinancistrus sp.; imprensa atribuída à PF: 487 cascudos-zebra — Aeroporto de Altamira, Pará",
+      "title_en": "Ornamental fish seizure — Aeroporto de Altamira, Pará",
+      "title_es": "Decomiso de peces ornamentales — Aeroporto de Altamira, Pará",
+      "card_text_pt": "Em 12/06, PF e Ibama apreenderam uma bagagem em embarque previsto de Altamira a Manaus. A nota atribuída ao Ibama discrimina 505 cascudos-zebra e dois Scobinancistrus L82 (507 peixes), enquanto notícia baseada na PF aponta 487 exemplares descritos como zebra. Essas fontes referem-se à mesma interceptação, mas diferem na contagem. Adota-se a composição da fonte institucional com ressalva explícita, sem criar evento adicional de 505, 507 ou 487. O material foi encaminhado ao LAQUAX/UFPA; destinos estrangeiros citados em notícias como mercados possíveis não são etapa comprovada deste lote.",
+      "card_text_en": "On 12 June, PF and Ibama intercepted baggage on an intended Altamira-to-Manaus flight. An Ibama-attributed release specifies 505 zebra plecos plus two Scobinancistrus L82 (507 total), while PF-attributed media report 487 zebra fish. The sources describe one seizure but disagree on counts. The institutional breakdown is used with explicit caution, not multiplied into separate events. The fish were referred to LAQUAX/UFPA; foreign markets mentioned in news are not proven segments of this consignment.",
+      "card_text_es": "El 12 de junio, PF e Ibama interceptaron equipaje para un vuelo previsto Altamira–Manaos. La versión atribuida a Ibama precisa 505 plecos cebra y dos Scobinancistrus L82 (507 en total), mientras prensa atribuida a PF habla de 487. Se trata de un decomiso con discrepancia de recuento; prevalece provisionalmente el desglose institucional. Los animales fueron enviados a LAQUAX/UFPA; los mercados extranjeros citados no son rutas demostradas.",
+      "context_pt": "[O1] Em 12/06, PF e Ibama apreenderam uma bagagem em embarque previsto de Altamira a Manaus. A nota atribuída ao Ibama discrimina 505 cascudos-zebra e dois Scobinancistrus L82 (507 peixes), enquanto notícia baseada na PF aponta 487 exemplares descritos como zebra. Essas fontes referem-se à mesma interceptação, mas diferem na contagem. Adota-se a composição da fonte institucional com ressalva explícita, sem criar evento adicional de 505, 507 ou 487. O material foi encaminhado ao LAQUAX/UFPA; destinos estrangeiros citados em notícias como mercados possíveis não são etapa comprovada deste lote. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão.",
+      "context_en": "[O1] On 12 June, PF and Ibama intercepted baggage on an intended Altamira-to-Manaus flight. An Ibama-attributed release specifies 505 zebra plecos plus two Scobinancistrus L82 (507 total), while PF-attributed media report 487 zebra fish. The sources describe one seizure but disagree on counts. The institutional breakdown is used with explicit caution, not multiplied into separate events. The fish were referred to LAQUAX/UFPA; foreign markets mentioned in news are not proven segments of this consignment. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution. [N1] The supplementary report is not a separate seizure event.",
+      "context_es": "[O1] El 12 de junio, PF e Ibama interceptaron equipaje para un vuelo previsto Altamira–Manaos. La versión atribuida a Ibama precisa 505 plecos cebra y dos Scobinancistrus L82 (507 en total), mientras prensa atribuida a PF habla de 487. Se trata de un decomiso con discrepancia de recuento; prevalece provisionalmente el desglose institucional. Los animales fueron enviados a LAQUAX/UFPA; los mercados extranjeros citados no son rutas demostradas. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso. [N1] La noticia adicional no constituye otro decomiso.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ibama (via AmbienteBrasil) / PF",
+          "url": "https://noticias.ambientebrasil.com.br/clipping/2019/06/13/152457-ibama-apreende-505-peixes-ameacados-de-extincao-em-altamira-pa.html"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "O Liberal / PF (alternate 487 fish), 13 Jun 2019",
+          "url": "https://www.oliberal.com/para/pf-e-ibama-apreendem-peixes-ornamentais-amea%C3%A7ados-de-extin%C3%A7%C3%A3o-em-altamira-1.160893"
+        }
+      ],
+      "quantity_count": 507,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 507
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://noticias.ambientebrasil.com.br/clipping/2019/06/13/152457-ibama-apreende-505-peixes-ameacados-de-extincao-em-altamira-pa.html",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] Ibama (via AmbienteBrasil) / PF — https://noticias.ambientebrasil.com.br/clipping/2019/06/13/152457-ibama-apreende-505-peixes-ameacados-de-extincao-em-altamira-pa.html\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal / PF (alternate 487 fish), 13 Jun 2019 — https://www.oliberal.com/para/pf-e-ibama-apreendem-peixes-ornamentais-amea%C3%A7ados-de-extin%C3%A7%C3%A3o-em-altamira-1.160893",
+      "references_text_en": "[O1] Ibama (via AmbienteBrasil) / PF — https://noticias.ambientebrasil.com.br/clipping/2019/06/13/152457-ibama-apreende-505-peixes-ameacados-de-extincao-em-altamira-pa.html\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal / PF (alternate 487 fish), 13 Jun 2019 — https://www.oliberal.com/para/pf-e-ibama-apreendem-peixes-ornamentais-amea%C3%A7ados-de-extin%C3%A7%C3%A3o-em-altamira-1.160893",
+      "references_text_es": "[O1] Ibama (via AmbienteBrasil) / PF — https://noticias.ambientebrasil.com.br/clipping/2019/06/13/152457-ibama-apreende-505-peixes-ameacados-de-extincao-em-altamira-pa.html\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal / PF (alternate 487 fish), 13 Jun 2019 — https://www.oliberal.com/para/pf-e-ibama-apreendem-peixes-ornamentais-amea%C3%A7ados-de-extin%C3%A7%C3%A3o-em-altamira-1.160893",
+      "occurred_at": "2019-06-12T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2020-05__iquitos-airport-11220-amazon-ornamental-fish",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Peru",
+      "location_label_pt": "Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+      "location_label_en": "Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+      "location_label_es": "Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+      "coordinates": {
+        "lat": -3.785,
+        "lon": -73.308
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "Ministerio de la Producción (Produce), Peru",
+      "source_url": "https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos",
+      "publication_date": "2020-05-04",
+      "event_date": null,
+      "event_date_precision": "month",
+      "fauna_label_pt": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón",
+      "fauna_label_en": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón",
+      "fauna_label_es": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón",
+      "taxon_text": "Bagres amazônicos, identificação específica não confirmada",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "11.220 peixes: 10.000 banda-negra; 960 zúngaro-tigrinus; 200 zúngaro-dourado; 60 zúngaro-saltón — Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+      "title_en": "Ornamental fish seizure — Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+      "title_es": "Decomiso de peces ornamentales — Aeroporto Internacional Coronel FAP Francisco Secada, Iquitos, Loreto",
+      "card_text_pt": "O Produce, Aduanas e autoridades regionais interceptaram 39 caixas com 11.220 bagres amazônicos sem comprovação da procedência legal: 10.000 denominados banda-negra, 960 zúngaro-tigrinus, 200 zúngaro-dourado e 60 zúngaro-saltón. A exportação havia sido preparada para a China e a investigação indicou comprador em Hong Kong, mas o carregamento não saiu do Peru. Segundo o órgão, os peixes foram devolvidos à bacia amazônica. Os nomes comuns não autorizam converter os quatro grupos em espécies taxonômicas exatas; a data operacional não foi explicitada, apenas a publicação de 04/05.",
+      "card_text_en": "Produce, Customs and regional authorities intercepted 39 boxes containing 11,220 Amazonian catfish without lawful provenance: 10,000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado and 60 zúngaro saltón. China was the attempted export destination and the investigation indicated a Hong Kong buyer; the shipment was stopped in Peru. Authorities reported returning the fish to the Amazon basin. Vernacular trade names do not establish species-level identification, and 4 May is the press-release date, not necessarily the raid date.",
+      "card_text_es": "Produce, Aduanas y autoridades regionales intervinieron 39 cajas con 11.220 peces amazónicos sin procedencia legal: 10.000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado y 60 zúngaro saltón. El envío previsto era a China y la investigación señaló un comprador en Hong Kong; fue interrumpido en Perú. Los peces fueron devueltos a la cuenca amazónica. Los nombres comerciales no confirman identificación científica, y 4 de mayo es fecha de nota de prensa.",
+      "context_pt": "[O1] O Produce, Aduanas e autoridades regionais interceptaram 39 caixas com 11.220 bagres amazônicos sem comprovação da procedência legal: 10.000 denominados banda-negra, 960 zúngaro-tigrinus, 200 zúngaro-dourado e 60 zúngaro-saltón. A exportação havia sido preparada para a China e a investigação indicou comprador em Hong Kong, mas o carregamento não saiu do Peru. Segundo o órgão, os peixes foram devolvidos à bacia amazônica. Os nomes comuns não autorizam converter os quatro grupos em espécies taxonômicas exatas; a data operacional não foi explicitada, apenas a publicação de 04/05. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão.",
+      "context_en": "[O1] Produce, Customs and regional authorities intercepted 39 boxes containing 11,220 Amazonian catfish without lawful provenance: 10,000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado and 60 zúngaro saltón. China was the attempted export destination and the investigation indicated a Hong Kong buyer; the shipment was stopped in Peru. Authorities reported returning the fish to the Amazon basin. Vernacular trade names do not establish species-level identification, and 4 May is the press-release date, not necessarily the raid date. [N1] The supplementary report is not a separate seizure event.",
+      "context_es": "[O1] Produce, Aduanas y autoridades regionales intervinieron 39 cajas con 11.220 peces amazónicos sin procedencia legal: 10.000 banda negra, 960 zúngaro tigrinus, 200 zúngaro dorado y 60 zúngaro saltón. El envío previsto era a China y la investigación señaló un comprador en Hong Kong; fue interrumpido en Perú. Los peces fueron devueltos a la cuenca amazónica. Los nombres comerciales no confirman identificación científica, y 4 de mayo es fecha de nota de prensa. [N1] La noticia adicional no constituye otro decomiso.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ministerio de la Producción (Produce), Peru",
+          "url": "https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Agencia Andina, 4 May 2020",
+          "url": "https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx"
+        }
+      ],
+      "quantity_count": 11220,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 11220
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] Ministerio de la Producción (Produce), Peru — https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos\n[N1] Agencia Andina, 4 May 2020 — https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx",
+      "references_text_en": "[O1] Ministerio de la Producción (Produce), Peru — https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos\n[N1] Agencia Andina, 4 May 2020 — https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx",
+      "references_text_es": "[O1] Ministerio de la Producción (Produce), Peru — https://www.gob.pe/institucion/produce/noticias/143685-produce-decomisa-11-220-peces-ornamentales-amazonicos-extraidos-ilegalmente-en-iquitos\n[N1] Agencia Andina, 4 May 2020 — https://andina.pe/agencia/noticia-produce-decomisa-11220-peces-amazonicos-extraidos-ilegalmente-iquitos-795787.aspx",
+      "occurred_at": null,
+      "occurred_at_precision": "month"
+    },
+    {
+      "id": "2020-08-21__tabatinga-port-630-ornamental-catfish-luggage",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Brasil",
+      "location_label_pt": "Porto de Tabatinga, Amazonas",
+      "location_label_en": "Porto de Tabatinga, Amazonas",
+      "location_label_es": "Porto de Tabatinga, Amazonas",
+      "coordinates": {
+        "lat": -4.255,
+        "lon": -69.936
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "Amazonas Atual / Polícia Federal",
+      "source_url": "https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/",
+      "publication_date": "2020-08-24",
+      "event_date": "2020-08-21",
+      "event_date_precision": "day",
+      "fauna_label_pt": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente",
+      "fauna_label_en": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente",
+      "fauna_label_es": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente",
+      "taxon_text": "Siluriformes; Hypancistrus zebra e Ancistrus spp. (identificação provisória)",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Fluvial",
+      "title_pt": "Cerca de 630 bagres ornamentais; Ancistrus e Hypancistrus zebra mencionados preliminarmente — Porto de Tabatinga, Amazonas",
+      "title_en": "Ornamental fish seizure — Porto de Tabatinga, Amazonas",
+      "title_es": "Decomiso de peces ornamentales — Porto de Tabatinga, Amazonas",
+      "card_text_pt": "Na inspeção do porto em 21/08, a PF apreendeu duas malas abandonadas por passageiro de lancha rápida oriunda de Manaus, com 107 sacos plásticos contendo aproximadamente 630 alevinos de bagres ornamentais. Hypancistrus zebra e Ancistrus foram identificados apenas preliminarmente; laudo posterior foi encaminhado ao IFAM. A etapa Manaus–Tabatinga é comprovada pelo deslocamento descrito; a travessia para Letícia ou outros países é hipótese de rota regional, não uma etapa realizada neste evento.",
+      "card_text_en": "On 21 August, Federal Police found two bags abandoned by a passenger arriving at Tabatinga port on a fast boat from Manaus, with roughly 630 juvenile ornamental catfish in 107 plastic bags. Zebra plecos and Ancistrus were provisional identifications pending IFAM assessment. Manaus–Tabatinga was a documented completed segment; a subsequent crossing to Leticia is not verified for this event.",
+      "card_text_es": "El 21 de agosto, la PF recuperó dos maletas abandonadas por un pasajero de lancha procedente de Manaos, con aproximadamente 630 alevines de bagres ornamentales en 107 bolsas. Hypancistrus zebra y Ancistrus eran identificaciones preliminares pendientes de evaluación del IFAM. Manaos–Tabatinga es tramo documentado, no así un cruce posterior a Leticia.",
+      "context_pt": "[O1] Na inspeção do porto em 21/08, a PF apreendeu duas malas abandonadas por passageiro de lancha rápida oriunda de Manaus, com 107 sacos plásticos contendo aproximadamente 630 alevinos de bagres ornamentais. Hypancistrus zebra e Ancistrus foram identificados apenas preliminarmente; laudo posterior foi encaminhado ao IFAM. A etapa Manaus–Tabatinga é comprovada pelo deslocamento descrito; a travessia para Letícia ou outros países é hipótese de rota regional, não uma etapa realizada neste evento. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão.",
+      "context_en": "[O1] On 21 August, Federal Police found two bags abandoned by a passenger arriving at Tabatinga port on a fast boat from Manaus, with roughly 630 juvenile ornamental catfish in 107 plastic bags. Zebra plecos and Ancistrus were provisional identifications pending IFAM assessment. Manaus–Tabatinga was a documented completed segment; a subsequent crossing to Leticia is not verified for this event. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution. [N1] The supplementary report is not a separate seizure event.",
+      "context_es": "[O1] El 21 de agosto, la PF recuperó dos maletas abandonadas por un pasajero de lancha procedente de Manaos, con aproximadamente 630 alevines de bagres ornamentales en 107 bolsas. Hypancistrus zebra y Ancistrus eran identificaciones preliminares pendientes de evaluación del IFAM. Manaos–Tabatinga es tramo documentado, no así un cruce posterior a Leticia. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso. [N1] La noticia adicional no constituye otro decomiso.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Amazonas Atual / Polícia Federal",
+          "url": "https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Portal do Holanda, 24 Aug 2020",
+          "url": "https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas"
+        }
+      ],
+      "quantity_count": 630,
+      "quantity_qualifier": "approximate",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 630
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] Amazonas Atual / Polícia Federal — https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Portal do Holanda, 24 Aug 2020 — https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas",
+      "references_text_en": "[O1] Amazonas Atual / Polícia Federal — https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Portal do Holanda, 24 Aug 2020 — https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas",
+      "references_text_es": "[O1] Amazonas Atual / Polícia Federal — https://amazonasatual.com.br/policia-federal-apreende-630-peixes-ornamentais-em-tabatinga-no-amazonas/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] Portal do Holanda, 24 Aug 2020 — https://novo2026.portaldoholanda.com.br/policial/mais-de-600-peixes-ornamentais-sao-apreendidos-pela-pf-no-amazonas",
+      "occurred_at": "2020-08-21T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2020-11-23__altamira-airport-conorhynchos-conirostris-luggage",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto de Altamira, Pará",
+      "location_label_en": "Aeroporto de Altamira, Pará",
+      "location_label_es": "Aeroporto de Altamira, Pará",
+      "coordinates": {
+        "lat": -3.253,
+        "lon": -52.253
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "O Liberal / Polícia Federal",
+      "source_url": "https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
+      "publication_date": "2021-08-23",
+      "event_date": "2020-11-23",
+      "event_date_precision": "day",
+      "fauna_label_pt": "Peixes pirá-tamanduá (Conorhynchos conirostris), quantidade não informada",
+      "fauna_label_en": "Peixes pirá-tamanduá (Conorhynchos conirostris), quantidade não informada",
+      "fauna_label_es": "Peixes pirá-tamanduá (Conorhynchos conirostris), quantidade não informada",
+      "taxon_text": "Conorhynchos conirostris",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "Peixes pirá-tamanduá (Conorhynchos conirostris), quantidade não informada — Aeroporto de Altamira, Pará",
+      "title_en": "Ornamental fish seizure — Aeroporto de Altamira, Pará",
+      "title_es": "Decomiso de peces ornamentales — Aeroporto de Altamira, Pará",
+      "card_text_pt": "O retrospecto da PF sobre o aeroporto de Altamira identifica apreensão de três malas contendo pirá-tamanduá Conorhynchos conirostris em 23/11/2020. Três passageiras estavam associadas às bagagens e duas foram detidas, conforme o relato. A espécie é vinculada ao rio São Francisco no noticiário e não deve ser descrita como endêmica do Xingu apenas por ter sido apreendida em Altamira. O número de peixes não foi divulgado; não confundir esta apreensão com o lote de 160 peixes de dezembro.",
+      "card_text_en": "Federal Police's retrospective account identifies three bags containing Conorhynchos conirostris catfish at Altamira airport on 23 November 2020. Three women were associated with the luggage; two were arrested according to the account. The species is linked to the São Francisco River, not presumed native to the Xingu merely because the baggage was seized in Altamira. No fish count was published; this is distinct from the December seizure.",
+      "card_text_es": "El relato retrospectivo de la PF identifica tres maletas con peces Conorhynchos conirostris en Altamira el 23/11/2020, asociadas a tres pasajeras, dos de las cuales fueron detenidas. La especie corresponde al São Francisco y no debe atribuirse al Xingu por el lugar del decomiso. No se informó la cantidad; es otro caso diferente al de diciembre.",
+      "context_pt": "[O1] O retrospecto da PF sobre o aeroporto de Altamira identifica apreensão de três malas contendo pirá-tamanduá Conorhynchos conirostris em 23/11/2020. Três passageiras estavam associadas às bagagens e duas foram detidas, conforme o relato. A espécie é vinculada ao rio São Francisco no noticiário e não deve ser descrita como endêmica do Xingu apenas por ter sido apreendida em Altamira. O número de peixes não foi divulgado; não confundir esta apreensão com o lote de 160 peixes de dezembro. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado.",
+      "context_en": "[O1] Federal Police's retrospective account identifies three bags containing Conorhynchos conirostris catfish at Altamira airport on 23 November 2020. Three women were associated with the luggage; two were arrested according to the account. The species is linked to the São Francisco River, not presumed native to the Xingu merely because the baggage was seized in Altamira. No fish count was published; this is distinct from the December seizure. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution.",
+      "context_es": "[O1] El relato retrospectivo de la PF identifica tres maletas con peces Conorhynchos conirostris en Altamira el 23/11/2020, asociadas a tres pasajeras, dos de las cuales fueron detenidas. La especie corresponde al São Francisco y no debe atribuirse al Xingu por el lugar del decomiso. No se informó la cantidad; es otro caso diferente al de diciembre. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "O Liberal / Polícia Federal",
+          "url": "https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        }
+      ],
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Quantidade indeterminada: não inventar número de espécimes.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_en": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_es": "[O1] O Liberal / Polícia Federal — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "occurred_at": "2020-11-23T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2020-12-22__altamira-airport-160-ornamentals-128-zebra-plecos",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto de Altamira, Pará",
+      "location_label_en": "Aeroporto de Altamira, Pará",
+      "location_label_es": "Aeroporto de Altamira, Pará",
+      "coordinates": {
+        "lat": -3.253,
+        "lon": -52.253
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "A Voz do Xingu / Polícia Federal",
+      "source_url": "https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/",
+      "publication_date": "2020-12-22",
+      "event_date": "2020-12-22",
+      "event_date_precision": "day",
+      "fauna_label_pt": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164",
+      "fauna_label_en": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164",
+      "fauna_label_es": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164",
+      "taxon_text": "Hypancistrus zebra; peixes ornamentais não identificados",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "160 peixes ornamentais na literatura (128 Hypancistrus zebra); notícia alternativa informa 164 — Aeroporto de Altamira, Pará",
+      "title_en": "Ornamental fish seizure — Aeroporto de Altamira, Pará",
+      "title_es": "Decomiso de peces ornamentales — Aeroporto de Altamira, Pará",
+      "card_text_pt": "Em 22/12, a PF interceptou mala com peixes ornamentais transportada por passageira no aeroporto de Altamira, em viagem com conexão em Belém até Manaus. Sousa et al. (2021), com fotografia do lote, contabilizaram 160 peixes, incluindo 128 H. zebra; outra reportagem registra 164 e pelo menos três espécies. Preservo o desacordo quantitativo entre versões sem criar uma segunda ocorrência. Condições de acondicionamento e mortalidade potencial são relevantes para proteção do endemismo do Xingu, mas não foi descrita exportação efetiva.",
+      "card_text_en": "On 22 December, Federal Police intercepted luggage containing ornamental fish at Altamira airport on a passenger's planned flight via Belém to Manaus. Sousa et al. (2021), using a photograph of the batch, counted 160 fish, including 128 H. zebra; another report stated 164 fish across at least three species. The quantitative discrepancy is preserved rather than entered as a second case. The attempted domestic flight does not establish completed international export.",
+      "card_text_es": "El 22/12, la Policía Federal interceptó una maleta con peces ornamentales en Altamira, en un vuelo previsto vía Belém hasta Manaos. Sousa et al. (2021) documentaron 160 peces, incluidos 128 H. zebra; otra noticia señaló 164 y al menos tres especies. Se conserva la divergencia sin duplicar el hecho. No se documentó exportación internacional consumada.",
+      "context_pt": "[O1] Em 22/12, a PF interceptou mala com peixes ornamentais transportada por passageira no aeroporto de Altamira, em viagem com conexão em Belém até Manaus. Sousa et al. (2021), com fotografia do lote, contabilizaram 160 peixes, incluindo 128 H. zebra; outra reportagem registra 164 e pelo menos três espécies. Preservo o desacordo quantitativo entre versões sem criar uma segunda ocorrência. Condições de acondicionamento e mortalidade potencial são relevantes para proteção do endemismo do Xingu, mas não foi descrita exportação efetiva. [S1] Sousa et al. (2021) fornecem contexto taxonômico e de cadeias de transporte, sem comprovar participação neste evento quando não explicitado. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão.",
+      "context_en": "[O1] On 22 December, Federal Police intercepted luggage containing ornamental fish at Altamira airport on a passenger's planned flight via Belém to Manaus. Sousa et al. (2021), using a photograph of the batch, counted 160 fish, including 128 H. zebra; another report stated 164 fish across at least three species. The quantitative discrepancy is preserved rather than entered as a second case. The attempted domestic flight does not establish completed international export. [S1] Sousa et al. (2021) supply species and supply-chain context, not an event-level network attribution. [N1] The supplementary report is not a separate seizure event.",
+      "context_es": "[O1] El 22/12, la Policía Federal interceptó una maleta con peces ornamentales en Altamira, en un vuelo previsto vía Belém hasta Manaos. Sousa et al. (2021) documentaron 160 peces, incluidos 128 H. zebra; otra noticia señaló 164 y al menos tres especies. Se conserva la divergencia sin duplicar el hecho. No se documentó exportación internacional consumada. [S1] Sousa et al. (2021) ofrecen contexto de especies y rutas, no identificación de una red en este caso. [N1] La noticia adicional no constituye otro decomiso.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "A Voz do Xingu / Polícia Federal",
+          "url": "https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "O Liberal, retrospective recounting Altamira operations",
+          "url": "https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950"
+        }
+      ],
+      "quantity_count": 160,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 160
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Valor conservador de 160 na literatura; há notícia de 164 sobre a mesma apreensão.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] A Voz do Xingu / Polícia Federal — https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal, retrospective recounting Altamira operations — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
+      "references_text_en": "[O1] A Voz do Xingu / Polícia Federal — https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal, retrospective recounting Altamira operations — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
+      "references_text_es": "[O1] A Voz do Xingu / Polícia Federal — https://avozdoxingu.com.br/pf-apreende-peixes-ornamentais-no-aeroporto-de-altamira/\n[S1] Sousa et al. (2021), Conservation and trade of the endangered Hypancistrus zebra — https://doi.org/10.1016/j.gecco.2021.e01570\n[N1] O Liberal, retrospective recounting Altamira operations — https://www.oliberal.com/policia/em-menos-de-um-ano-pf-realiza-terceira-apreensao-de-peixes-ornamentais-no-aeroporto-de-altamira-1.425950",
+      "occurred_at": "2020-12-22T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2024-10__guarulhos-916-ornamental-fish-hong-kong-false-invoice",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_b",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+      "location_label_en": "Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+      "location_label_es": "Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+      "coordinates": {
+        "lat": -23.432,
+        "lon": -46.473
+      },
+      "coordinate_precision": "locality_or_airport_generalized",
+      "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+      "source_label": "Ibama, comunicado de 08/10/2024",
+      "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong",
+      "publication_date": "2024-10-08",
+      "event_date": null,
+      "event_date_precision": "month",
+      "fauna_label_pt": "916 peixes ornamentais nativos; espécies não divulgadas",
+      "fauna_label_en": "916 peixes ornamentais nativos; espécies não divulgadas",
+      "fauna_label_es": "916 peixes ornamentais nativos; espécies não divulgadas",
+      "taxon_text": "Peixes ornamentais não identificados",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "916 peixes ornamentais nativos; espécies não divulgadas — Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+      "title_en": "Ornamental fish seizure — Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+      "title_es": "Decomiso de peces ornamentales — Aeroporto Internacional de São Paulo/Guarulhos, São Paulo",
+      "card_text_pt": "O Ibama apreendeu 916 peixes ornamentais nativos preparados para exportação a Hong Kong após identificar irregularidades em documentos de origem. Segundo a investigação, o exportador sediado em Belém apresentou no Siscomex nota fiscal emitida por empresa de Santarém para tentar obter autorização. Ambas tiveram atividades pertinentes suspensas no CTF e foram multadas. O caso evidencia possível uso de documentação comercial para dar aparência legal à carga; as cidades das empresas não provam local de captura. Dia exato do flagrante não divulgado no comunicado datado de 08/10/2024.",
+      "card_text_en": "Ibama seized 916 native ornamental fish prepared for export to Hong Kong after finding origin-document irregularities. Investigators reported that a Belém exporter submitted an invoice issued by a Santarém firm through Siscomex to obtain authorization; both firms were fined and relevant CTF activities suspended. The case illustrates suspected document-based laundering of supply, without establishing capture sites from company addresses. The 8 October date refers to the statement; the precise seizure date is not specified.",
+      "card_text_es": "Ibama decomisó 916 peces ornamentales nativos destinados a Hong Kong tras hallar irregularidades documentales. Según la investigación, una empresa exportadora de Belém presentó en Siscomex una factura emitida por otra de Santarém; ambas recibieron sanciones y suspensión de actividades en el CTF. Los domicilios empresariales no son lugares probados de captura. El 8 de octubre corresponde al comunicado, no necesariamente al decomiso.",
+      "context_pt": "[O1] O Ibama apreendeu 916 peixes ornamentais nativos preparados para exportação a Hong Kong após identificar irregularidades em documentos de origem. Segundo a investigação, o exportador sediado em Belém apresentou no Siscomex nota fiscal emitida por empresa de Santarém para tentar obter autorização. Ambas tiveram atividades pertinentes suspensas no CTF e foram multadas. O caso evidencia possível uso de documentação comercial para dar aparência legal à carga; as cidades das empresas não provam local de captura. Dia exato do flagrante não divulgado no comunicado datado de 08/10/2024. [N1] A reportagem complementar refere-se à mesma ocorrência ou ao contexto explicitamente indicado; não constitui nova apreensão. [I1] TRAFFIC (2022) documenta padrões de tráfico de peixes ornamentais e reforça a necessidade de distinguir apreensões individuais de estatísticas agregadas.",
+      "context_en": "[O1] Ibama seized 916 native ornamental fish prepared for export to Hong Kong after finding origin-document irregularities. Investigators reported that a Belém exporter submitted an invoice issued by a Santarém firm through Siscomex to obtain authorization; both firms were fined and relevant CTF activities suspended. The case illustrates suspected document-based laundering of supply, without establishing capture sites from company addresses. The 8 October date refers to the statement; the precise seizure date is not specified. [N1] The supplementary report is not a separate seizure event. [I1] TRAFFIC (2022) provides regional historical seizure context distinct from this event.",
+      "context_es": "[O1] Ibama decomisó 916 peces ornamentales nativos destinados a Hong Kong tras hallar irregularidades documentales. Según la investigación, una empresa exportadora de Belém presentó en Siscomex una factura emitida por otra de Santarém; ambas recibieron sanciones y suspensión de actividades en el CTF. Los domicilios empresariales no son lugares probados de captura. El 8 de octubre corresponde al comunicado, no necesariamente al decomiso. [N1] La noticia adicional no constituye otro decomiso. [I1] TRAFFIC (2022) ofrece contexto histórico regional distinto de esta actuación.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ibama, comunicado de 08/10/2024",
+          "url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "Folha de S.Paulo, 9 Oct 2024",
+          "url": "https://www1.folha.uol.com.br/ambiente/2024/10/ibama-apreende-peixes-ornamentais-no-aeroporto-de-guarulhos.shtml"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69",
+          "url": "https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf"
+        }
+      ],
+      "quantity_count": 916,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 916
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+      "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+      "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+      "image_url": null,
+      "image_source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+      "references_text_pt": "[O1] Ibama, comunicado de 08/10/2024 — https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong\n[N1] Folha de S.Paulo, 9 Oct 2024 — https://www1.folha.uol.com.br/ambiente/2024/10/ibama-apreende-peixes-ornamentais-no-aeroporto-de-guarulhos.shtml\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_en": "[O1] Ibama, comunicado de 08/10/2024 — https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong\n[N1] Folha de S.Paulo, 9 Oct 2024 — https://www1.folha.uol.com.br/ambiente/2024/10/ibama-apreende-peixes-ornamentais-no-aeroporto-de-guarulhos.shtml\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_es": "[O1] Ibama, comunicado de 08/10/2024 — https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong\n[N1] Folha de S.Paulo, 9 Oct 2024 — https://www1.folha.uol.com.br/ambiente/2024/10/ibama-apreende-peixes-ornamentais-no-aeroporto-de-guarulhos.shtml\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "occurred_at": null,
+      "occurred_at_precision": "month"
     }
   ]
 }
