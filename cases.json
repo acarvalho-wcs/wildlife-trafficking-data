@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_952_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_958_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 952,
+  "count": 958,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -72967,6 +72967,430 @@
       "references_text_pt": "[O1] Ibama, comunicado de 08/10/2024 — https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong\n[N1] Folha de S.Paulo, 9 Oct 2024 — https://www1.folha.uol.com.br/ambiente/2024/10/ibama-apreende-peixes-ornamentais-no-aeroporto-de-guarulhos.shtml\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
       "references_text_en": "[O1] Ibama, comunicado de 08/10/2024 — https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong\n[N1] Folha de S.Paulo, 9 Oct 2024 — https://www1.folha.uol.com.br/ambiente/2024/10/ibama-apreende-peixes-ornamentais-no-aeroporto-de-guarulhos.shtml\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
       "references_text_es": "[O1] Ibama, comunicado de 08/10/2024 — https://www.gov.br/ibama/pt-br/assuntos/noticias/2024/ibama-apreende-peixes-ornamentais-nativos-que-iriam-para-hong-kong\n[N1] Folha de S.Paulo, 9 Oct 2024 — https://www1.folha.uol.com.br/ambiente/2024/10/ibama-apreende-peixes-ornamentais-no-aeroporto-de-guarulhos.shtml\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "occurred_at": null,
+      "occurred_at_precision": "month"
+    },
+    {
+      "id": "2014-06-25__manaus-airport-268-zebra-plecos",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_c",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "location_label_en": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "location_label_es": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "coordinates": {
+        "lat": -3.039,
+        "lon": -60.048
+      },
+      "coordinate_precision": "city_or_airport_generalized",
+      "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+      "source_label": "Fauna News / G1 / PF / Ibama",
+      "source_url": "https://faunanews.blogspot.com/2014/06/",
+      "publication_date": "2014-06-26",
+      "event_date": "2014-06-25",
+      "event_date_precision": "day",
+      "fauna_label_pt": "268 Hypancistrus zebra, vivos",
+      "fauna_label_en": "268 Hypancistrus zebra, vivos",
+      "fauna_label_es": "268 Hypancistrus zebra, vivos",
+      "taxon_text": "Hypancistrus zebra",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "268 Hypancistrus zebra, vivos — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "title_en": "Ornamental fish enforcement — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "title_es": "Fiscalización de peces ornamentales — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "card_text_pt": "Em 25/06, PF e Ibama detiveram passageira vinda de Altamira com 268 H. zebra no aeroporto de Manaus. O flagrante interceptou tentativa de deslocamento subsequente até Tabatinga para possível saída pela Colômbia. A captura em Altamira é atribuída especificamente a este carregamento, e a etapa para a fronteira era pretendida, não concluída. O estudo de Sousa et al. situa a espécie como endêmica do Xingu; apreensão distinta do lote de 161 em julho.",
+      "card_text_en": "On 25 June, Federal Police and Ibama stopped a woman from Altamira carrying 268 zebra plecos at Manaus airport. A subsequent journey to Tabatinga and onward export via Colombia were reportedly planned but interrupted. Altamira was reported as this consignment's collection area. Sousa et al. document the Xingu endemism; the 161-fish July interception is separate.",
+      "card_text_es": "El 25 de junio, PF e Ibama detuvieron a una mujer procedente de Altamira con 268 plecos cebra en el aeropuerto de Manaos. Se preveía traslado a Tabatinga y posible salida por Colombia, sin realizarse. La captura se atribuyó a Altamira. Sousa et al. describen el endemismo del Xingu; el operativo de 161 peces en julio es distinto.",
+      "context_pt": "[O1] Em 25/06, PF e Ibama detiveram passageira vinda de Altamira com 268 H. zebra no aeroporto de Manaus. O flagrante interceptou tentativa de deslocamento subsequente até Tabatinga para possível saída pela Colômbia. A captura em Altamira é atribuída especificamente a este carregamento, e a etapa para a fronteira era pretendida, não concluída. O estudo de Sousa et al. situa a espécie como endêmica do Xingu; apreensão distinta do lote de 161 em julho. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+      "context_en": "[O1] On 25 June, Federal Police and Ibama stopped a woman from Altamira carrying 268 zebra plecos at Manaus airport. A subsequent journey to Tabatinga and onward export via Colombia were reportedly planned but interrupted. Altamira was reported as this consignment's collection area. Sousa et al. document the Xingu endemism; the 161-fish July interception is separate. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+      "context_es": "[O1] El 25 de junio, PF e Ibama detuvieron a una mujer procedente de Altamira con 268 plecos cebra en el aeropuerto de Manaos. Se preveía traslado a Tabatinga y posible salida por Colombia, sin realizarse. La captura se atribuyó a Altamira. Sousa et al. describen el endemismo del Xingu; el operativo de 161 peces en julio es distinto. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Fauna News / G1 / PF / Ibama",
+          "url": "https://faunanews.blogspot.com/2014/06/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        }
+      ],
+      "quantity_count": 268,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 268
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+      "image_url": null,
+      "image_source_url": "https://faunanews.blogspot.com/2014/06/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+      "references_text_pt": "[O1] Fauna News / G1 / PF / Ibama — https://faunanews.blogspot.com/2014/06/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_en": "[O1] Fauna News / G1 / PF / Ibama — https://faunanews.blogspot.com/2014/06/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_es": "[O1] Fauna News / G1 / PF / Ibama — https://faunanews.blogspot.com/2014/06/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "occurred_at": "2014-06-25T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2014-07-23__manaus-airport-161-zebra-plecos",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_c",
+      "country": "Brasil",
+      "location_label_pt": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "location_label_en": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "location_label_es": "Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "coordinates": {
+        "lat": -3.039,
+        "lon": -60.048
+      },
+      "coordinate_precision": "city_or_airport_generalized",
+      "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+      "source_label": "AquaA3 / Ibama / PF",
+      "source_url": "https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/",
+      "publication_date": "2014-07-26",
+      "event_date": "2014-07-23",
+      "event_date_precision": "day",
+      "fauna_label_pt": "161 Hypancistrus zebra em sacos na bagagem",
+      "fauna_label_en": "161 Hypancistrus zebra em sacos na bagagem",
+      "fauna_label_es": "161 Hypancistrus zebra em sacos na bagagem",
+      "taxon_text": "Hypancistrus zebra",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "161 Hypancistrus zebra em sacos na bagagem — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "title_en": "Ornamental fish enforcement — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "title_es": "Fiscalización de peces ornamentales — Aeroporto Eduardo Gomes, Manaus, Amazonas",
+      "card_text_pt": "Em 23/07, Ibama apreendeu 161 H. zebra divididos em sacos plásticos numa mala no aeroporto de Manaus, em tentativa de contrabando para a Colômbia. O infrator foi encaminhado à PF, e o lote ao INPA. Fiscalização identificou o voo, mas não comprovou que a carga chegou a Tabatinga nem à Colômbia. A referência de Sousa et al. documenta apreensões mensais distintas, não repetição da remessa de 268 exemplares do mês anterior.",
+      "card_text_en": "On 23 July, Ibama intercepted 161 zebra plecos packed in plastic bags inside baggage at Manaus airport, in an attempted onward trafficking operation towards Colombia. The suspect was referred to police and fish to INPA. The border flight and Colombia leg were not completed. Sousa et al. distinguish this July seizure from the 268-fish June seizure.",
+      "card_text_es": "El 23 de julio, Ibama decomisó 161 plecos cebra en bolsas plásticas dentro de una maleta en Manaos, en un intento de traslado hacia Colombia. El intervenido fue remitido a la PF y los peces al INPA. La etapa fronteriza no se consumó. Sousa et al. distinguen este caso del lote de 268 del mes anterior.",
+      "context_pt": "[O1] Em 23/07, Ibama apreendeu 161 H. zebra divididos em sacos plásticos numa mala no aeroporto de Manaus, em tentativa de contrabando para a Colômbia. O infrator foi encaminhado à PF, e o lote ao INPA. Fiscalização identificou o voo, mas não comprovou que a carga chegou a Tabatinga nem à Colômbia. A referência de Sousa et al. documenta apreensões mensais distintas, não repetição da remessa de 268 exemplares do mês anterior. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+      "context_en": "[O1] On 23 July, Ibama intercepted 161 zebra plecos packed in plastic bags inside baggage at Manaus airport, in an attempted onward trafficking operation towards Colombia. The suspect was referred to police and fish to INPA. The border flight and Colombia leg were not completed. Sousa et al. distinguish this July seizure from the 268-fish June seizure. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+      "context_es": "[O1] El 23 de julio, Ibama decomisó 161 plecos cebra en bolsas plásticas dentro de una maleta en Manaos, en un intento de traslado hacia Colombia. El intervenido fue remitido a la PF y los peces al INPA. La etapa fronteriza no se consumó. Sousa et al. distinguen este caso del lote de 268 del mes anterior. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "AquaA3 / Ibama / PF",
+          "url": "https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        }
+      ],
+      "quantity_count": 161,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 161
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+      "image_url": null,
+      "image_source_url": "https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+      "references_text_pt": "[O1] AquaA3 / Ibama / PF — https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_en": "[O1] AquaA3 / Ibama / PF — https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_es": "[O1] AquaA3 / Ibama / PF — https://www.aquaa3.com.br/161-cascudos-zebra-apreendidos-em-aeroporto/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "occurred_at": "2014-07-23T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2015-02-16__sao-paulo-olivenca-38-freshwater-stingrays",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_c",
+      "country": "Brasil",
+      "location_label_pt": "São Paulo de Olivença, Amazonas",
+      "location_label_en": "São Paulo de Olivença, Amazonas",
+      "location_label_es": "São Paulo de Olivença, Amazonas",
+      "coordinates": {
+        "lat": -3.47,
+        "lon": -68.95
+      },
+      "coordinate_precision": "city_or_airport_generalized",
+      "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+      "source_label": "Polícia Civil Amazonas / Portal do Holanda",
+      "source_url": "https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca",
+      "publication_date": "2015-02-18",
+      "event_date": "2015-02-16",
+      "event_date_precision": "day",
+      "fauna_label_pt": "38 raias Potamotrygonidae, 31 vivas e 7 mortas",
+      "fauna_label_en": "38 raias Potamotrygonidae, 31 vivas e 7 mortas",
+      "fauna_label_es": "38 raias Potamotrygonidae, 31 vivas e 7 mortas",
+      "taxon_text": "Potamotrygonidae; espécie não confirmada",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Terrestre",
+      "title_pt": "38 raias Potamotrygonidae, 31 vivas e 7 mortas — São Paulo de Olivença, Amazonas",
+      "title_en": "Ornamental fish enforcement — São Paulo de Olivença, Amazonas",
+      "title_es": "Fiscalización de peces ornamentales — São Paulo de Olivença, Amazonas",
+      "card_text_pt": "Em 16/02, a Polícia Civil apreendeu numa picape abandonada próximo ao aeroporto municipal 38 raias de água doce da família Potamotrygonidae, 31 vivas e sete mortas. Três adultos foram presos e um adolescente apreendido; segundo relato policial, o grupo pretendia encaminhar as raias oriundas do Pará pela Colômbia até os Estados Unidos. Esses destinos eram planos declarados, não transporte comprovadamente executado. A espécie exata não foi identificada; não presumir Potamotrygon leopoldi nem converter 38 raias em 38 novos eventos.",
+      "card_text_en": "On 16 February, civil police seized 38 freshwater stingrays (Potamotrygonidae), 31 alive and seven dead, from an abandoned pickup near the town airport. Three adults were arrested and one juvenile detained. Police reported intended movement from Pará through Colombia to the United States, not completed carriage. Species-level identity is not established, and all 38 animals belong to one seizure.",
+      "card_text_es": "El 16 de febrero, la Policía Civil decomisó 38 rayas de agua dulce Potamotrygonidae —31 vivas y siete muertas— en una camioneta abandonada cerca del aeropuerto. Tres adultos fueron detenidos y un adolescente retenido. Según la policía, el itinerario previsto iba de Pará por Colombia hacia Estados Unidos, sin haberse ejecutado. La especie exacta no se confirmó.",
+      "context_pt": "[O1] Em 16/02, a Polícia Civil apreendeu numa picape abandonada próximo ao aeroporto municipal 38 raias de água doce da família Potamotrygonidae, 31 vivas e sete mortas. Três adultos foram presos e um adolescente apreendido; segundo relato policial, o grupo pretendia encaminhar as raias oriundas do Pará pela Colômbia até os Estados Unidos. Esses destinos eram planos declarados, não transporte comprovadamente executado. A espécie exata não foi identificada; não presumir Potamotrygon leopoldi nem converter 38 raias em 38 novos eventos. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+      "context_en": "[O1] On 16 February, civil police seized 38 freshwater stingrays (Potamotrygonidae), 31 alive and seven dead, from an abandoned pickup near the town airport. Three adults were arrested and one juvenile detained. Police reported intended movement from Pará through Colombia to the United States, not completed carriage. Species-level identity is not established, and all 38 animals belong to one seizure. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+      "context_es": "[O1] El 16 de febrero, la Policía Civil decomisó 38 rayas de agua dulce Potamotrygonidae —31 vivas y siete muertas— en una camioneta abandonada cerca del aeropuerto. Tres adultos fueron detenidos y un adolescente retenido. Según la policía, el itinerario previsto iba de Pará por Colombia hacia Estados Unidos, sin haberse ejecutado. La especie exacta no se confirmó. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Polícia Civil Amazonas / Portal do Holanda",
+          "url": "https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca"
+        },
+        {
+          "id": "N1",
+          "type": "news_context",
+          "label": "G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015",
+          "url": "https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        }
+      ],
+      "quantity_count": 38,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 38
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+      "image_url": null,
+      "image_source_url": "https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+      "references_text_pt": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_en": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_es": "[O1] Polícia Civil Amazonas / Portal do Holanda — https://novo2026.portaldoholanda.com.br/policial/contrabandistas-de-arraias-sao-presos-em-sao-paulo-de-olivenca\n[N1] G1 Amazonas (reproduzido no Jusbrasil), 19 Feb 2015 — https://www.jusbrasil.com.br/noticias/38-arraias-sao-apreendidas-com-grupo-no-interior-do-am-diz-policia/168058867\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "occurred_at": "2015-02-16T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2015-11__iquitos-zebra-plecos-mislabeled-osaka-custody-disputed",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": true,
+      "reconstruction_batch": "ornamental_fish_global_20261013_c",
+      "country": "Peru",
+      "location_label_pt": "Iquitos, Loreto, Peru",
+      "location_label_en": "Iquitos, Loreto, Peru",
+      "location_label_es": "Iquitos, Loreto, Peru",
+      "coordinates": {
+        "lat": -3.75,
+        "lon": -73.25
+      },
+      "coordinate_precision": "city_or_airport_generalized",
+      "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+      "source_label": "Ojo Público (reproduzido por Oannes) / relatório de fiscalização",
+      "source_url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/",
+      "publication_date": null,
+      "event_date": null,
+      "event_date_precision": "month",
+      "fauna_label_pt": "Hypancistrus zebra ocultos em cinco caixas; quantidade incerta; custódia contestada",
+      "fauna_label_en": "Hypancistrus zebra ocultos em cinco caixas; quantidade incerta; custódia contestada",
+      "fauna_label_es": "Hypancistrus zebra ocultos em cinco caixas; quantidade incerta; custódia contestada",
+      "taxon_text": "Hypancistrus zebra",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "Hypancistrus zebra ocultos em cinco caixas; quantidade incerta; custódia contestada — Iquitos, Loreto, Peru",
+      "title_en": "Ornamental fish enforcement — Iquitos, Loreto, Peru",
+      "title_es": "Fiscalización de peces ornamentales — Iquitos, Loreto, Peru",
+      "card_text_pt": "Em novembro de 2015, fiscal encontrou cascudos-zebra não declarados em cinco caixas associadas a exportador em Iquitos, em envio destinado a Osaka, Japão. Os documentos listavam 105 Peckoltia vittata e 60 'loricarias camaleón', mas não os H. zebra. A fiscal tentou reter a carga e relatou agressão e retirada dos volumes pelos operadores, portanto a apreensão e preservação de custódia ficaram contestadas. Registrar como incidente fiscalizatório ligado à substituição de espécies declaradas, sem contar espécimes confiscados nem inferir quantidade de H. zebra.",
+      "card_text_en": "In November 2015, an inspector found undeclared zebra plecos in five boxes linked to an Iquitos exporter, reportedly intended for Osaka, Japan. Documentation listed 105 Peckoltia vittata and 60 'chameleon loricarias' but omitted H. zebra. The inspector attempted detention, reporting assault and removal of cargo by operators; successful seizure and custody are therefore disputed. Record the inspection and species misdeclaration without inventing a zebra-pleco count.",
+      "card_text_es": "En noviembre de 2015, una inspectora encontró plecos cebra sin declarar en cinco cajas de un exportador de Iquitos destinadas a Osaka. La documentación declaraba 105 Peckoltia vittata y 60 loricarias camaleón, omitiendo H. zebra. La inspectora intentó inmovilizar la carga y denunció agresión y retiro de los bultos, por lo que el decomiso efectivo y la custodia no están comprobados. No se asigna cantidad a los plecos cebra.",
+      "context_pt": "[O1] Em novembro de 2015, fiscal encontrou cascudos-zebra não declarados em cinco caixas associadas a exportador em Iquitos, em envio destinado a Osaka, Japão. Os documentos listavam 105 Peckoltia vittata e 60 'loricarias camaleón', mas não os H. zebra. A fiscal tentou reter a carga e relatou agressão e retirada dos volumes pelos operadores, portanto a apreensão e preservação de custódia ficaram contestadas. Registrar como incidente fiscalizatório ligado à substituição de espécies declaradas, sem contar espécimes confiscados nem inferir quantidade de H. zebra. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+      "context_en": "[O1] In November 2015, an inspector found undeclared zebra plecos in five boxes linked to an Iquitos exporter, reportedly intended for Osaka, Japan. Documentation listed 105 Peckoltia vittata and 60 'chameleon loricarias' but omitted H. zebra. The inspector attempted detention, reporting assault and removal of cargo by operators; successful seizure and custody are therefore disputed. Record the inspection and species misdeclaration without inventing a zebra-pleco count. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+      "context_es": "[O1] En noviembre de 2015, una inspectora encontró plecos cebra sin declarar en cinco cajas de un exportador de Iquitos destinadas a Osaka. La documentación declaraba 105 Peckoltia vittata y 60 loricarias camaleón, omitiendo H. zebra. La inspectora intentó inmovilizar la carga y denunció agresión y retiro de los bultos, por lo que el decomiso efectivo y la custodia no están comprobados. No se asigna cantidad a los plecos cebra. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ojo Público (reproduzido por Oannes) / relatório de fiscalização",
+          "url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        }
+      ],
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Apreensão efetiva/custódia e quantidade de H. zebra não confirmadas; fora dos totais.",
+      "image_url": null,
+      "image_source_url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+      "references_text_pt": "[O1] Ojo Público (reproduzido por Oannes) / relatório de fiscalização — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_en": "[O1] Ojo Público (reproduzido por Oannes) / relatório de fiscalização — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_es": "[O1] Ojo Público (reproduzido por Oannes) / relatório de fiscalização — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "occurred_at": null,
+      "occurred_at_precision": "month"
+    },
+    {
+      "id": "2015-12__iquitos-20-zebra-plecos-uk-shipment",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_c",
+      "country": "Peru",
+      "location_label_pt": "Iquitos, Loreto, Peru",
+      "location_label_en": "Iquitos, Loreto, Peru",
+      "location_label_es": "Iquitos, Loreto, Peru",
+      "coordinates": {
+        "lat": -3.75,
+        "lon": -73.25
+      },
+      "coordinate_precision": "city_or_airport_generalized",
+      "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+      "source_label": "Ojo Público (reproduzido por Oannes), expediente fiscalizatório",
+      "source_url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/",
+      "publication_date": null,
+      "event_date": null,
+      "event_date_precision": "month",
+      "fauna_label_pt": "20 Hypancistrus zebra não declarados em remessa a Inglaterra",
+      "fauna_label_en": "20 Hypancistrus zebra não declarados em remessa a Inglaterra",
+      "fauna_label_es": "20 Hypancistrus zebra não declarados em remessa a Inglaterra",
+      "taxon_text": "Hypancistrus zebra",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "20 Hypancistrus zebra não declarados em remessa a Inglaterra — Iquitos, Loreto, Peru",
+      "title_en": "Ornamental fish enforcement — Iquitos, Loreto, Peru",
+      "title_es": "Fiscalización de peces ornamentales — Iquitos, Loreto, Peru",
+      "card_text_pt": "Em dezembro de 2015, fiscal da Direpro relatou apreensão de uma caixa contendo 20 H. zebra não declarados no certificado de procedência de um exportador de Iquitos. O documento listava 1.018 peixes ornamentais, mas não os cascudos-zebra; a remessa pretendia seguir à Inglaterra. É fiscalização distinta do incidente com tentativa de retenção e agressão em novembro, envolvendo o mesmo estabelecimento. A discrepância documental sugere inserção de espécie proibida sob cobertura de outros táxons, mas não demonstra cadeia completa de origem.",
+      "card_text_en": "In December 2015, a Direpro inspector reported seizing a box with 20 undeclared zebra plecos from an Iquitos export consignment intended for England. Its provenance certificate listed 1,018 ornamental fish but omitted H. zebra. This is distinct from the November inspection involving contested custody, although the exporter was the same. The misdeclaration illustrates potential species substitution without establishing the entire collection-to-buyer chain.",
+      "card_text_es": "En diciembre de 2015, un inspector de Direpro relató el decomiso de una caja con 20 plecos cebra no declarados en un envío de Iquitos destinado a Inglaterra. El certificado registraba 1.018 peces ornamentales, pero no H. zebra. Es diferente del incidente de noviembre con custodia disputada, aunque implicaba el mismo exportador. La omisión sugiere sustitución de especies declaradas, sin probar toda la cadena de captura y venta.",
+      "context_pt": "[O1] Em dezembro de 2015, fiscal da Direpro relatou apreensão de uma caixa contendo 20 H. zebra não declarados no certificado de procedência de um exportador de Iquitos. O documento listava 1.018 peixes ornamentais, mas não os cascudos-zebra; a remessa pretendia seguir à Inglaterra. É fiscalização distinta do incidente com tentativa de retenção e agressão em novembro, envolvendo o mesmo estabelecimento. A discrepância documental sugere inserção de espécie proibida sob cobertura de outros táxons, mas não demonstra cadeia completa de origem. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+      "context_en": "[O1] In December 2015, a Direpro inspector reported seizing a box with 20 undeclared zebra plecos from an Iquitos export consignment intended for England. Its provenance certificate listed 1,018 ornamental fish but omitted H. zebra. This is distinct from the November inspection involving contested custody, although the exporter was the same. The misdeclaration illustrates potential species substitution without establishing the entire collection-to-buyer chain. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+      "context_es": "[O1] En diciembre de 2015, un inspector de Direpro relató el decomiso de una caja con 20 plecos cebra no declarados en un envío de Iquitos destinado a Inglaterra. El certificado registraba 1.018 peces ornamentales, pero no H. zebra. Es diferente del incidente de noviembre con custodia disputada, aunque implicaba el mismo exportador. La omisión sugiere sustitución de especies declaradas, sin probar toda la cadena de captura y venta. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Ojo Público (reproduzido por Oannes), expediente fiscalizatório",
+          "url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        }
+      ],
+      "quantity_count": 20,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 20
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Cada exemplar é um peixe, não uma nova ocorrência.",
+      "image_url": null,
+      "image_source_url": "https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+      "references_text_pt": "[O1] Ojo Público (reproduzido por Oannes), expediente fiscalizatório — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_en": "[O1] Ojo Público (reproduzido por Oannes), expediente fiscalizatório — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_es": "[O1] Ojo Público (reproduzido por Oannes), expediente fiscalizatório — https://www.oannes.org.pe/noticias/pesca-y-acuicultura/peru-el-mercado-negro-de-los-acuaristas-del-amazonas/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "occurred_at": null,
+      "occurred_at_precision": "month"
+    },
+    {
+      "id": "2021-07__bogota-more-than-200-zebra-plecos",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_c",
+      "country": "Colômbia",
+      "location_label_pt": "Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+      "location_label_en": "Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+      "location_label_es": "Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+      "coordinates": {
+        "lat": 4.702,
+        "lon": -74.147
+      },
+      "coordinate_precision": "city_or_airport_generalized",
+      "geographic_note_pt": "Local de fiscalização aproximado. A identificação do centro urbano não estabelece local de captura ou origem biológica.",
+      "source_label": "Autopistas de Depredación — investigação jornalística",
+      "source_url": "https://autopistasdedepredacion.com/colombia/",
+      "publication_date": null,
+      "event_date": null,
+      "event_date_precision": "month",
+      "fauna_label_pt": "Mais de 200 Hypancistrus zebra, mínimo 201",
+      "fauna_label_en": "Mais de 200 Hypancistrus zebra, mínimo 201",
+      "fauna_label_es": "Mais de 200 Hypancistrus zebra, mínimo 201",
+      "taxon_text": "Hypancistrus zebra",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Aéreo",
+      "title_pt": "Mais de 200 Hypancistrus zebra, mínimo 201 — Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+      "title_en": "Ornamental fish enforcement — Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+      "title_es": "Fiscalización de peces ornamentales — Bogotá, Colômbia, aeroporto El Dorado conforme contexto da investigação",
+      "card_text_pt": "Investigação de Autopistas de Depredación, baseada em registros da Secretaría de Ambiente, relata mais de 200 cascudos-zebra confiscados em Bogotá em julho de 2021. A espécie é endêmica do Xingu, de modo que a detecção em um centro exportador colombiano sinaliza potencial circulação transfronteiriça, mas o documento não descreve a origem, intermediários ou itinerário dos exemplares desta apreensão. Nem dia exato nem total exato são informados; registrar 201 apenas como limite mínimo estrito, e não contagem exata.",
+      "card_text_en": "The Autopistas de Depredación investigation, drawing on Bogotá Environmental Secretariat records, reports more than 200 zebra plecos seized in Bogotá in July 2021. Their Xingu endemism makes the Colombian market a potentially significant cross-border setting, but the consignment's capture site, couriers and path were not recorded. The exact day and count are undisclosed; 201 is only the strict minimum consistent with 'more than 200'.",
+      "card_text_es": "La investigación Autopistas de Depredación, basada en registros de la Secretaría de Ambiente, informa más de 200 plecos cebra decomisados en Bogotá en julio de 2021. Su endemismo en el Xingu vuelve relevante el posible comercio transfronterizo, pero no se documentaron origen preciso, intermediarios ni ruta del lote. El día exacto y la cantidad exacta no constan; 201 es únicamente el mínimo estricto.",
+      "context_pt": "[O1] Investigação de Autopistas de Depredación, baseada em registros da Secretaría de Ambiente, relata mais de 200 cascudos-zebra confiscados em Bogotá em julho de 2021. A espécie é endêmica do Xingu, de modo que a detecção em um centro exportador colombiano sinaliza potencial circulação transfronteiriça, mas o documento não descreve a origem, intermediários ou itinerário dos exemplares desta apreensão. Nem dia exato nem total exato são informados; registrar 201 apenas como limite mínimo estrito, e não contagem exata. [S1] Sousa et al. (2021) examinam o comércio de H. zebra e registram o papel das áreas de captura do Xingu e a incerteza de registros transfronteiriços. A fonte é contexto, não prova de uma rede comum.",
+      "context_en": "[O1] The Autopistas de Depredación investigation, drawing on Bogotá Environmental Secretariat records, reports more than 200 zebra plecos seized in Bogotá in July 2021. Their Xingu endemism makes the Colombian market a potentially significant cross-border setting, but the consignment's capture site, couriers and path were not recorded. The exact day and count are undisclosed; 201 is only the strict minimum consistent with 'more than 200'. [S1] Sousa et al. (2021) document Xingu zebra-pleco trading and limited visibility of cross-border seizures; the study provides context, not evidence of a shared network.",
+      "context_es": "[O1] La investigación Autopistas de Depredación, basada en registros de la Secretaría de Ambiente, informa más de 200 plecos cebra decomisados en Bogotá en julio de 2021. Su endemismo en el Xingu vuelve relevante el posible comercio transfronterizo, pero no se documentaron origen preciso, intermediarios ni ruta del lote. El día exacto y la cantidad exacta no constan; 201 es únicamente el mínimo estricto. [S1] Sousa et al. (2021) documentan comercio de plecos cebra del Xingu y la limitada visibilidad de decomisos transfronterizos; el estudio contextualiza sin acreditar una red común.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Autopistas de Depredación — investigação jornalística",
+          "url": "https://autopistasdedepredacion.com/colombia/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific_context",
+          "label": "Sousa et al. (2021), Global Ecology and Conservation 27:e01570",
+          "url": "https://doi.org/10.1016/j.gecco.2021.e01570"
+        }
+      ],
+      "quantity_count": 201,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 201
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "'Mais de 200' significa pelo menos 201; não atribuir contagem exata.",
+      "image_url": null,
+      "image_source_url": "https://autopistasdedepredacion.com/colombia/",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "route_audit_note_pt": "Sem traçar rotas apenas presumidas; distinguir segmentos completados e destinos declarados.",
+      "references_text_pt": "[O1] Autopistas de Depredación — investigação jornalística — https://autopistasdedepredacion.com/colombia/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_en": "[O1] Autopistas de Depredación — investigação jornalística — https://autopistasdedepredacion.com/colombia/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
+      "references_text_es": "[O1] Autopistas de Depredación — investigação jornalística — https://autopistasdedepredacion.com/colombia/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
       "occurred_at": null,
       "occurred_at_precision": "month"
     }
