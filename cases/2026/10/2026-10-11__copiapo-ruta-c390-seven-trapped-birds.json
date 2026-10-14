@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-11__copiapo-ruta-c390-seven-trapped-birds",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "global_13_14oct2026_source_audit",
+  "event_date": "2026-10-11",
+  "publication_date": "2026-10-13",
+  "event_date_precision": "day",
+  "country": "Chile",
+  "coordinates": {
+    "lat": -27.385,
+    "lon": -70.315
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "PDI / BIDEMA Atacama, segundo Radio Gennesis",
+  "source_url": "https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+  "modal_primary": "Terrestre",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact_reported",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "PDI / BIDEMA Atacama, segundo Radio Gennesis",
+      "url": "https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Reportagem complementar do mesmo evento",
+      "url": "https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/"
+    }
+  ],
+  "image_url": null,
+  "image_source_url": "https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/",
+  "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "location_label_pt": "Ruta C-390, Copiapó, Atacama",
+  "title_pt": "PDI apreende sete aves capturadas em armadilhas no Deserto Florido",
+  "card_text_pt": "No domingo 11/10, a PDI encontrou seis yales e um cometocino de Gay em gaiolas-armadilha perto de Copiapó; um suspeito foi detido e os animais entregues ao SAG para soltura.",
+  "fauna_label_pt": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+  "context_pt": "[O1] No domingo 11/10, a PDI encontrou seis yales e um cometocino de Gay em gaiolas-armadilha perto de Copiapó; um suspeito foi detido e os animais entregues ao SAG para soltura.\n\nO flagrante de 11/10 junto à Ruta C-390 envolveu quatro gaiolas-armadilha, uma gaiola comum e sete aves. A formalização do suspeito em 12/10 e notícias de 13/10 não constituem novas apreensões. O relato jornalístico menciona investigação de eventual ligação a outro episódio em Huasco, ainda não comprovada. Os espécimes foram encaminhados ao SAG; a soltura não é um evento de tráfico adicional. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_pt": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_pt": "[O1] PDI / BIDEMA Atacama, segundo Radio Gennesis — https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/\n[N1] Reportagem complementar do mesmo evento — https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/",
+  "location_label_en": "Ruta C-390, Copiapó, Atacama",
+  "title_en": "Chilean police recover seven birds caught in traps in the flowering desert",
+  "card_text_en": "On Sunday 11 October, PDI recovered six yales and one Gay's sierra finch from traps near Copiapó. A suspect was detained and birds were handed to SAG for release.",
+  "fauna_label_en": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+  "context_en": "[O1] On Sunday 11 October, PDI recovered six yales and one Gay's sierra finch from traps near Copiapó. A suspect was detained and birds were handed to SAG for release.\n\nThe 11 October interception by Ruta C-390 involved four trap cages, a standard cage and seven birds. Charging the suspect on 12 October and 13 October news reports do not constitute new seizures. A potential link to another Huasco incident remains unproven. Transfer to SAG and release are not trafficking routes. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_en": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_en": "[O1] PDI / BIDEMA Atacama, segundo Radio Gennesis — https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/\n[N1] Reportagem complementar do mesmo evento — https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/",
+  "location_label_es": "Ruta C-390, Copiapó, Atacama",
+  "title_es": "PDI recupera siete aves capturadas en trampas en el Desierto Florido",
+  "card_text_es": "El domingo 11/10, la PDI recuperó seis yales y un cometocino de Gay en jaulas trampa cerca de Copiapó; hubo un detenido y entrega al SAG para liberación.",
+  "fauna_label_es": "6 yal e 1 cometocino de Gay; nomes vernaculares atribuídos à PDI",
+  "context_es": "[O1] El domingo 11/10, la PDI recuperó seis yales y un cometocino de Gay en jaulas trampa cerca de Copiapó; hubo un detenido y entrega al SAG para liberación.\n\nLa intervención del 11/10 en Ruta C-390 recuperó cuatro jaulas trampa, una jaula común y siete aves. La formalización judicial del 12/10 y noticias del 13/10 no generan decomisos adicionales. La posible conexión con Huasco no fue demostrada. La liberación a cargo de SAG no representa otra operación. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_es": "Total de aves relatado para esta ocorrência, sem extrapolar múltiplas operações.",
+  "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_es": "[O1] PDI / BIDEMA Atacama, segundo Radio Gennesis — https://www.radiogennesis.cl/2026/10/13/pdi-atacama-detuvo-a-una-persona-que-capturaba-aves-protegidas-en-el-desierto-florido/\n[N1] Reportagem complementar do mesmo evento — https://www.atacamanoticias.cl/2026/10/13/hombre-capturaba-aves-con-jaulas-trampa-en-pleno-desierto-florido-fue-detenido-con-siete-ejemplares-protegidos/"
+}
