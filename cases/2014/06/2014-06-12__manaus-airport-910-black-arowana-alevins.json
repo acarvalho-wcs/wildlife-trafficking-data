@@ -1,0 +1,70 @@
+{
+  "id": "2014-06-12__manaus-airport-910-black-arowana-alevins",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "ornamental_fish_global_20261013_b",
+  "country": "Brasil",
+  "location_label_pt": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+  "location_label_en": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+  "location_label_es": "Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+  "coordinates": {
+    "lat": -3.0386,
+    "lon": -60.048
+  },
+  "coordinate_precision": "locality_or_airport_generalized",
+  "geographic_note_pt": "Ponto da cidade ou aeroporto conforme referência da operação; sem extrapolar local de captura.",
+  "source_label": "Ibama (2014), transcrito em dissertação da UEA",
+  "source_url": "https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf",
+  "publication_date": "2014-06-13",
+  "event_date": "2014-06-12",
+  "event_date_precision": "day",
+  "fauna_label_pt": "910 alevinos de aruanã-negra (Osteoglossum ferreirai)",
+  "fauna_label_en": "910 alevinos de aruanã-negra (Osteoglossum ferreirai)",
+  "fauna_label_es": "910 alevinos de aruanã-negra (Osteoglossum ferreirai)",
+  "taxon_text": "Osteoglossum ferreirai",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Aéreo",
+  "title_pt": "910 alevinos de aruanã-negra (Osteoglossum ferreirai) — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+  "title_en": "Ornamental fish seizure — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+  "title_es": "Decomiso de peces ornamentales — Aeroporto Internacional Eduardo Gomes, Manaus, Amazonas",
+  "card_text_pt": "Ibama e PF apreenderam 910 alevinos de Osteoglossum ferreirai no aeroporto de Manaus em 12/06. Segundo o comunicado oficial reproduzido pela UEA, os peixes foram capturados em Barcelos, bacia do rio Negro, e seriam levados de Manaus a Tabatinga e depois Letícia, Colômbia. Essa é uma sequência explicitamente atribuída à operação, mas o transporte planejado a partir do aeroporto não se consumou. A espécie exibe incubação bucal paterna, aspecto relevante para a pressão de coleta de juvenis. Os espécimes foram encaminhados ao INPA.",
+  "card_text_en": "Ibama and Federal Police seized 910 juvenile black arowanas Osteoglossum ferreirai at Manaus airport on 12 June. An official statement reproduced by UEA says the fish were collected at Barcelos in the Rio Negro basin and intended for Tabatinga and then Leticia, Colombia. The planned onward carriage was interrupted; only the stated origin and intended itinerary are established. Male mouthbrooding biology makes juvenile collection a conservation concern. Fish were placed with INPA.",
+  "card_text_es": "Ibama y Policía Federal decomisaron 910 alevines de aruaná negra Osteoglossum ferreirai en Manaos el 12 de junio. El comunicado oficial reproducido por UEA indica captura en Barcelos, cuenca del río Negro, y traslado previsto a Tabatinga y Leticia, Colombia. La continuación del transporte fue interrumpida. La incubación bucal paterna de las crías aporta contexto conservacionista; quedaron bajo custodia del INPA.",
+  "context_pt": "[O1] Ibama e PF apreenderam 910 alevinos de Osteoglossum ferreirai no aeroporto de Manaus em 12/06. Segundo o comunicado oficial reproduzido pela UEA, os peixes foram capturados em Barcelos, bacia do rio Negro, e seriam levados de Manaus a Tabatinga e depois Letícia, Colômbia. Essa é uma sequência explicitamente atribuída à operação, mas o transporte planejado a partir do aeroporto não se consumou. A espécie exibe incubação bucal paterna, aspecto relevante para a pressão de coleta de juvenis. Os espécimes foram encaminhados ao INPA. [I1] TRAFFIC (2022) documenta padrões de tráfico de peixes ornamentais e reforça a necessidade de distinguir apreensões individuais de estatísticas agregadas.",
+  "context_en": "[O1] Ibama and Federal Police seized 910 juvenile black arowanas Osteoglossum ferreirai at Manaus airport on 12 June. An official statement reproduced by UEA says the fish were collected at Barcelos in the Rio Negro basin and intended for Tabatinga and then Leticia, Colombia. The planned onward carriage was interrupted; only the stated origin and intended itinerary are established. Male mouthbrooding biology makes juvenile collection a conservation concern. Fish were placed with INPA. [I1] TRAFFIC (2022) provides regional historical seizure context distinct from this event.",
+  "context_es": "[O1] Ibama y Policía Federal decomisaron 910 alevines de aruaná negra Osteoglossum ferreirai en Manaos el 12 de junio. El comunicado oficial reproducido por UEA indica captura en Barcelos, cuenca del río Negro, y traslado previsto a Tabatinga y Leticia, Colombia. La continuación del transporte fue interrumpida. La incubación bucal paterna de las crías aporta contexto conservacionista; quedaron bajo custodia del INPA. [I1] TRAFFIC (2022) ofrece contexto histórico regional distinto de esta actuación.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Ibama (2014), transcrito em dissertação da UEA",
+      "url": "https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69",
+      "url": "https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf"
+    }
+  ],
+  "quantity_count": 910,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 910
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Número de indivíduos apreendidos; subdivisões taxonômicas já estão incluídas no total.",
+  "quantity_note_en": "Counts are of individuals, not distinct seizure events; documented discrepancies are retained.",
+  "quantity_note_es": "El total corresponde a ejemplares, no a hechos distintos; se conservan divergencias documentadas.",
+  "image_url": null,
+  "image_source_url": "https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+  "route_audit_note_pt": "Apenas deslocamentos explicitamente atribuídos à carga; itinerários hipotéticos não geram rotas confirmadas.",
+  "references_text_pt": "[O1] Ibama (2014), transcrito em dissertação da UEA — https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+  "references_text_en": "[O1] Ibama (2014), transcrito em dissertação da UEA — https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+  "references_text_es": "[O1] Ibama (2014), transcrito em dissertação da UEA — https://pos.uea.edu.br/data/area/titulado/download/62-5.pdf\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil, pp. 68-69 — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf"
+}
