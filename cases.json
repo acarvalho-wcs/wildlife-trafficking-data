@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_958_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_959_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 958,
+  "count": 959,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -73393,6 +73393,79 @@
       "references_text_es": "[O1] Autopistas de Depredación — investigação jornalística — https://autopistasdedepredacion.com/colombia/\n[S1] Sousa et al. (2021), Global Ecology and Conservation 27:e01570 — https://doi.org/10.1016/j.gecco.2021.e01570",
       "occurred_at": null,
       "occurred_at_precision": "month"
+    },
+    {
+      "id": "2015-11-30__alto-solimoes-feijoal-prosperidade-5040-arowanas",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "reconstruction_batch": "ornamental_fish_global_20261013_d",
+      "country": "Brasil",
+      "location_label_pt": "Comunidades Feijoal e Prosperidade, Alto Solimões, Amazonas, Brasil",
+      "location_label_en": "Feijoal and Prosperidade communities, Upper Solimões, Amazonas, Brazil",
+      "location_label_es": "Comunidades Feijoal y Prosperidade, Alto Solimões, Amazonas, Brasil",
+      "coordinates": {
+        "lat": -3.85,
+        "lon": -69.25
+      },
+      "coordinate_precision": "upper_solimoes_region_generalized",
+      "geographic_note_pt": "Coordenada aproximada para o Alto Solimões, sem representar local exato das comunidades nem ponto de captura. Município exato pendente de georreferenciamento independente.",
+      "geographic_note_en": "Generalized Upper Solimões point, neither precise community location nor site of collection. Municipality-level validation is pending.",
+      "geographic_note_es": "Punto generalizado del Alto Solimões, no localización exacta de comunidades o captura. Falta confirmar municipio.",
+      "source_label": "Tribunal de Justiça do Amazonas — autos judiciais",
+      "source_url": "https://www.jusbrasil.com.br/jurisprudencia/tj-am/5421551598/inteiro-teor-5421551601",
+      "publication_date": null,
+      "event_date": "2015-11-30",
+      "fauna_label_pt": "5.040 aruanãs vivas em 63 sacos",
+      "fauna_label_en": "5,040 live arowanas in 63 bags",
+      "fauna_label_es": "5.040 arowanas vivas en 63 bolsas",
+      "taxon_text": "Aruanã (Osteoglossum sp.; espécie não confirmada)",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "modal_primary": "Fluvial",
+      "title_pt": "5.040 aruanãs apreendidas em canoa no Alto Solimões; venda pretendida em Letícia",
+      "title_en": "5,040 arowanas seized from canoe on Upper Solimões; intended sale in Leticia",
+      "title_es": "Decomisan 5.040 arowanas en canoa del Alto Solimões; venta prevista en Leticia",
+      "card_text_pt": "Em 30/11/2015, uma fiscalização em região fluvial do Alto Solimões flagrou 63 sacos com 80 aruanãs cada, totalizando 5.040 peixes vivos, acondicionados em uma canoa de madeira com motor Yamaha de 12 HP. Conforme os autos judiciais, os responsáveis pretendiam comercializar os espécimes em Letícia, Colômbia. O trajeto transfronteiriço era pretendido e não foi comprovado como completado. A documentação consultada emprega o nome comum aruanã, mas não identifica inequivocamente a espécie científica; por isso o registro não atribui os indivíduos a Osteoglossum bicirrhosum nem a O. ferreirai. O número de sacos não corresponde ao número de ocorrências. A decisão judicial documenta a apreensão; não permite extrapolar toda a cadeia de fornecedores ou compradores.",
+      "card_text_en": "On 30 November 2015, an enforcement action in the Upper Solimões region found 63 bags containing 80 live arowanas each, totalling 5,040 fish, in a wooden canoe fitted with a 12-hp Yamaha engine. Court records describe an intended sale in Leticia, Colombia, but do not establish a completed border crossing. The documents use the common name 'arowana' without a conclusive scientific species identification; neither Osteoglossum bicirrhosum nor O. ferreirai is assumed. The 63 bags form one enforcement event, not 63 seizures. The court record does not establish the full supplier or buyer network.",
+      "card_text_es": "El 30 de noviembre de 2015, una actuación de fiscalización en el Alto Solimões halló 63 bolsas con 80 arowanas vivas cada una, un total de 5.040 peces, transportadas en una canoa de madera con motor Yamaha de 12 HP. El expediente judicial menciona intención de venderlos en Leticia, Colombia, sin demostrar que se cruzara la frontera. La documentación usa el nombre común 'aruanã', sin identificar con certeza la especie: no se presupone Osteoglossum bicirrhosum ni O. ferreirai. Las 63 bolsas corresponden a un solo evento, y no se conoce toda la cadena de abastecimiento o compradores.",
+      "context_pt": "[O1] Em 30/11/2015, uma fiscalização em região fluvial do Alto Solimões flagrou 63 sacos com 80 aruanãs cada, totalizando 5.040 peixes vivos, acondicionados em uma canoa de madeira com motor Yamaha de 12 HP. Conforme os autos judiciais, os responsáveis pretendiam comercializar os espécimes em Letícia, Colômbia. O trajeto transfronteiriço era pretendido e não foi comprovado como completado. A documentação consultada emprega o nome comum aruanã, mas não identifica inequivocamente a espécie científica; por isso o registro não atribui os indivíduos a Osteoglossum bicirrhosum nem a O. ferreirai. O número de sacos não corresponde ao número de ocorrências. A decisão judicial documenta a apreensão; não permite extrapolar toda a cadeia de fornecedores ou compradores. [I1] O levantamento da TRAFFIC sobre o tráfico de fauna no Brasil descreve a circulação clandestina de peixes ornamentais amazônicos, mas não pode ser tratado como prova de origem, exportação efetiva ou comprador específico neste episódio.",
+      "context_en": "[O1] On 30 November 2015, an enforcement action in the Upper Solimões region found 63 bags containing 80 live arowanas each, totalling 5,040 fish, in a wooden canoe fitted with a 12-hp Yamaha engine. Court records describe an intended sale in Leticia, Colombia, but do not establish a completed border crossing. The documents use the common name 'arowana' without a conclusive scientific species identification; neither Osteoglossum bicirrhosum nor O. ferreirai is assumed. The 63 bags form one enforcement event, not 63 seizures. The court record does not establish the full supplier or buyer network. [I1] TRAFFIC's Brazilian wildlife trafficking assessment supplies broader evidence on Amazon ornamental-fish trade, not proof of this shipment's exact origin, completed export or final buyer.",
+      "context_es": "[O1] El 30 de noviembre de 2015, una actuación de fiscalización en el Alto Solimões halló 63 bolsas con 80 arowanas vivas cada una, un total de 5.040 peces, transportadas en una canoa de madera con motor Yamaha de 12 HP. El expediente judicial menciona intención de venderlos en Leticia, Colombia, sin demostrar que se cruzara la frontera. La documentación usa el nombre común 'aruanã', sin identificar con certeza la especie: no se presupone Osteoglossum bicirrhosum ni O. ferreirai. Las 63 bolsas corresponden a un solo evento, y no se conoce toda la cadena de abastecimiento o compradores. [I1] El análisis de TRAFFIC sobre tráfico de fauna en Brasil ofrece contexto sobre peces ornamentales amazónicos, sin demostrar el origen exacto, exportación consumada o comprador de esta remesa.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "court_document",
+          "label": "TJ-AM, inteiro teor judicial sobre apreensão de aruanãs no Alto Solimões",
+          "url": "https://www.jusbrasil.com.br/jurisprudencia/tj-am/5421551598/inteiro-teor-5421551601"
+        },
+        {
+          "id": "I1",
+          "type": "institutional_report",
+          "label": "TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil",
+          "url": "https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf"
+        }
+      ],
+      "references_text_pt": "[O1] TJ-AM, inteiro teor judicial sobre apreensão de aruanãs no Alto Solimões — https://www.jusbrasil.com.br/jurisprudencia/tj-am/5421551598/inteiro-teor-5421551601\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_en": "[O1] TJ-AM, inteiro teor judicial sobre apreensão de aruanãs no Alto Solimões — https://www.jusbrasil.com.br/jurisprudencia/tj-am/5421551598/inteiro-teor-5421551601\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "references_text_es": "[O1] TJ-AM, inteiro teor judicial sobre apreensão de aruanãs no Alto Solimões — https://www.jusbrasil.com.br/jurisprudencia/tj-am/5421551598/inteiro-teor-5421551601\n[I1] TRAFFIC (2022), Tráfico de Fauna Silvestre no Brasil — https://www.traffic.org/site/assets/files/13031/iwt_wildlife_trafficking_in_brazil_portuguese_july_2022-xs.pdf",
+      "quantity_count": 5040,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 5040
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "63 sacos × 80 aruanãs = 5.040 indivíduos; um único evento.",
+      "quantity_note_en": "63 bags × 80 fish = 5,040 animals; one seizure.",
+      "quantity_note_es": "63 bolsas × 80 peces = 5.040 individuos; un solo evento.",
+      "route_audit_note_pt": "Comercialização em Letícia pretendida segundo autos; travessia não comprovada. Não construir rota factual concluída.",
+      "image_url": null,
+      "image_source_url": "https://www.jusbrasil.com.br/jurisprudencia/tj-am/5421551598/inteiro-teor-5421551601",
+      "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
+      "occurred_at": "2015-11-30T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }
