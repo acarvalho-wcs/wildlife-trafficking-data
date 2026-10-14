@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-12__planaltina-df-27-birds-ten-premises",
+  "status": "VALIDATED",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "reconstruction_batch": "global_13_14oct2026_source_audit",
+  "event_date": "2026-10-12",
+  "publication_date": "2026-10-13",
+  "event_date_precision": "day",
+  "country": "Brasil",
+  "coordinates": {
+    "lat": -15.62,
+    "lon": -47.66
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "PMDF / Brasília Online",
+  "source_url": "https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+  "modal_primary": "Terrestre",
+  "quantity_count": 27,
+  "quantity_qualifier": "exact_reported",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 27
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "PMDF / Brasília Online",
+      "url": "https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/"
+    },
+    {
+      "id": "N1",
+      "type": "news_context",
+      "label": "Reportagem complementar do mesmo evento",
+      "url": "https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/"
+    }
+  ],
+  "image_url": null,
+  "image_source_url": "https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/",
+  "image_status": "DIRECT_IMAGE_NOT_VERIFIED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "location_label_pt": "Planaltina, Distrito Federal, dez residências",
+  "title_pt": "PMDF apreende 27 aves em dez residências de Planaltina",
+  "card_text_pt": "Em 12/10, a PMDF vistoriou dez residências, anunciou 27 aves apreendidas e 22 gaiolas, com dez termos circunstanciados. A lista de grupos publicada soma 30, e não 27.",
+  "fauna_label_pt": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+  "context_pt": "[O1] Em 12/10, a PMDF vistoriou dez residências, anunciou 27 aves apreendidas e 22 gaiolas, com dez termos circunstanciados. A lista de grupos publicada soma 30, e não 27.\n\nA fonte policial reproduzida descreve uma única operação coordenada no dia 12/10. Os subtotais de 11 baianos, oito trinca-ferros, quatro coleiros, dois pássaros-pretos e cinco aves de outros grupos somam 30, contradizendo o total geral de 27. Mantém-se 27 como quantidade institucional relatada, explicitamente não reconciliada; não se devem somar os subtotais nem converter dez imóveis em dez eventos. O caso documenta posse irregular, não rotas ou venda comprovada. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_pt": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_pt": "Total relatado 27, mas discriminação publicada soma 30; quantidade não reconciliada.",
+  "route_audit_note_pt": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_pt": "[O1] PMDF / Brasília Online — https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/\n[N1] Reportagem complementar do mesmo evento — https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/",
+  "location_label_en": "Planaltina, Distrito Federal, dez residências",
+  "title_en": "Environmental police seize 27 birds from ten homes in Planaltina",
+  "card_text_en": "On 12 October, PMDF inspected ten homes and reported 27 birds, 22 cages and ten incident reports. The published species breakdown adds up to 30 rather than 27.",
+  "fauna_label_en": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+  "context_en": "[O1] On 12 October, PMDF inspected ten homes and reported 27 birds, 22 cages and ten incident reports. The published species breakdown adds up to 30 rather than 27.\n\nThe coordinated police operation occurred on 12 October. Reported subcounts of 11, eight, four, two, and five additional individual birds total 30 rather than the stated 27. The institutional total of 27 is retained with a clear unresolved discrepancy; ten inspected premises are not ten independently verified seizures. Unlawful keeping is documented, but trade and routes are not. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_en": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_en": "Total relatado 27, mas discriminação publicada soma 30; quantidade não reconciliada.",
+  "route_audit_note_en": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_en": "[O1] PMDF / Brasília Online — https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/\n[N1] Reportagem complementar do mesmo evento — https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/",
+  "location_label_es": "Planaltina, Distrito Federal, dez residências",
+  "title_es": "Policía Ambiental decomisa 27 aves en diez casas de Planaltina",
+  "card_text_es": "El 12/10, la PMDF inspeccionó diez viviendas e informó 27 aves, 22 jaulas y diez actas. El desglose de tipos publicado suma 30 en vez de 27.",
+  "fauna_label_es": "Aves silvestres, identificação taxonômica por nomes comuns; composição não conciliada",
+  "context_es": "[O1] El 12/10, la PMDF inspeccionó diez viviendas e informó 27 aves, 22 jaulas y diez actas. El desglose de tipos publicado suma 30 en vez de 27.\n\nEl operativo coordinado fue el 12/10. Los subtotales publicados, 11, ocho, cuatro, dos y cinco aves adicionales, suman 30, no las 27 declaradas. Se conserva el total informado de 27 como discrepancia pendiente y no se desdobla la intervención de diez domicilios en diez casos. Se comprueba tenencia irregular, sin rutas ni ventas acreditadas. [N1] Fonte complementar referente ao mesmo evento.",
+  "geographic_note_es": "Coordenada generalizada da localidade, sem endereço exato da ocorrência.",
+  "quantity_note_es": "Total relatado 27, mas discriminação publicada soma 30; quantidade não reconciliada.",
+  "route_audit_note_es": "Não há dois extremos geográficos documentados para rota.",
+  "references_text_es": "[O1] PMDF / Brasília Online — https://bsbonline.com.br/pmdf-apreende-27-aves-silvestres-e-autua-10-pessoas-por-crime-ambiental-em-planaltina/\n[N1] Reportagem complementar do mesmo evento — https://fatosonline.com.br/pmdf-resgata-27-aves-silvestres-mantidas-ilegalmente-em-cativeiro-em-planaltina/"
+}
