@@ -31,9 +31,9 @@
   "image_source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/",
   "image_status": "IMAGE_UNVERIFIED",
   "added_at": "2026-10-15T10:33:42.944Z",
-  "context_updated_at": "2026-10-15T10:47:16.416Z",
+  "context_updated_at": "2026-10-15T14:55:27.640Z",
   "ingestion_batch": "global-six-sweeps-20261015",
-  "route_audit_status": "ATTRIBUTED_ROUTE_PENDING_LINK",
+  "route_audit_status": "ATTRIBUTED_ROUTE_DOCUMENTED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
   "geographic_note_pt": "Ponto de referência territorial generalizado, não coordenada exata da apreensão.",
@@ -47,20 +47,8 @@
     {
       "id": "S1",
       "type": "scientific",
-      "label": "Alves et al. (2013), The live bird trade in Brazil and its conservation implications",
+      "label": "Alves et al. (2013), The live bird trade in Brazil and its conservation implications: an overview",
       "url": "https://doi.org/10.1017/S095927091200010X"
-    },
-    {
-      "id": "N1",
-      "type": "news_context",
-      "label": "Mongabay Brasil (2026), Feiras livres e vírus em araras e papagaios",
-      "url": "https://brasil.mongabay.com/2026/03/feiras-livres-viram-focos-de-disseminacao-de-virus-letal-para-araras-e-papagaios/"
-    },
-    {
-      "id": "I1",
-      "type": "institutional_report",
-      "label": "WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil",
-      "url": "https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk"
     }
   ],
   "specimen_state": "live_or_unknown",
@@ -68,18 +56,18 @@
   "fauna_label_pt": "Três araras-canindé amarradas em uma caixa",
   "title_pt": "Três araras-canindé amarradas em uma caixa — Camburi, Ubatuba, São Paulo",
   "card_text_pt": "Nota da Polícia Militar publicada em 14/10 relata quatro prisões e o resgate de três araras-canindé mantidas amarradas dentro de uma caixa na região de Camburi, Ubatuba.",
-  "context_pt": "[O1] A Polícia Militar paulista noticiou quatro detenções após localizar três araras-canindé amarradas dentro de uma caixa em Camburi, Ubatuba. Segundo a nota, os abordados afirmaram ter saído do Rio de Janeiro e que pretendiam comercializar as aves. Essa declaração sustenta um deslocamento atribuído Rio de Janeiro → Ubatuba, mas não demonstra o local de captura das araras ou uma venda concluída. O acondicionamento e a imobilização são relevantes para o bem-estar; não há laudo veterinário divulgado sobre lesões específicas. O dia exato da apreensão não foi informado.\n\n[S1] Um panorama do comércio de aves vivas no Brasil descreve demanda doméstica e diversidade de espécies exploradas; é contexto histórico, não comprovação de origem silvestre das três araras ou de organização criminosa.\n\n[N1] Reportagem sobre patógenos associados à concentração e circulação de psitacídeos mostra por que quarentena e avaliação sanitária podem ser pertinentes após apreensões, sem indicar que estas três aves estejam infectadas.\n\n[I1] O diagnóstico jurídico da WCS examina posse, transporte, comércio e instrumentos de resposta a crimes de fauna; a declaração de venda pretendida deve ser diferenciada de comércio consumado.",
-  "references_text_pt": "[O1] Polícia Militar de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/\n[S1] Alves et al. (2013), The live bird trade in Brazil and its conservation implications — https://doi.org/10.1017/S095927091200010X\n[N1] Mongabay Brasil (2026), Feiras livres e vírus em araras e papagaios — https://brasil.mongabay.com/2026/03/feiras-livres-viram-focos-de-disseminacao-de-virus-letal-para-araras-e-papagaios/\n[I1] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk",
+  "context_pt": "[O1] A Polícia Militar de São Paulo relatou quatro detenções e a apreensão de três araras-canindé (*Ara ararauna*) amarradas em uma caixa em Camburi, Ubatuba. Segundo o relato atribuído aos envolvidos na fonte oficial, o grupo deslocou-se do Rio de Janeiro em direção a Ubatuba com intenção de vender as aves; essa informação permite registrar um percurso declarado, sem supor local de captura ou comprador. O confinamento documentado coloca o bem-estar das aves em questão, mas não fornece diagnóstico veterinário. O dia do flagrante deve permanecer distinto da data da nota oficial enquanto não for documentalmente confirmado.\n\n[S1] A revisão documenta diversidade de espécies e canais de comércio de aves no Brasil, ajudando a situar a apreensão em dinâmica nacional. Não estabelece fornecedores ou vínculos dessa ocorrência.",
+  "references_text_pt": "[O1] Polícia Militar de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/\n[S1] Alves et al. (2013), The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X",
   "location_label_en": "Camburi, Ubatuba, São Paulo",
   "fauna_label_en": "Três araras-canindé amarradas em uma caixa",
   "title_en": "Três araras-canindé amarradas em uma caixa — Camburi, Ubatuba, São Paulo",
   "card_text_en": "A São Paulo Military Police release published on 14 October reports four arrests and the recovery of three blue-and-yellow macaws tied inside a box near Camburi, Ubatuba.",
-  "context_en": "[O1] São Paulo Military Police reported four arrests after finding three blue-and-yellow macaws tied inside a box at Camburi, Ubatuba. According to the official report, the suspects said they had travelled from Rio de Janeiro intending to sell the birds. This supports an attributed Rio de Janeiro → Ubatuba movement, but not the macaws' capture sites or a completed sale. The restraint raises welfare concerns without a published veterinary diagnosis. The exact seizure day is not documented.\n\n[S1] A review of Brazil's live-bird trade describes domestic demand and species diversity; it is historical background, not proof of the three macaws' capture origins or involvement of organised crime.\n\n[N1] Reporting on pathogens associated with psittacine trade explains the relevance of quarantine and health checks after seizures; it provides no evidence that these three macaws were infected.\n\n[I1] The WCS legal review examines wildlife possession, transport and sale as separate enforcement questions; declared intent to sell must be distinguished from a completed transaction.",
-  "references_text_en": "[O1] Polícia Militar de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/\n[S1] Alves et al. (2013), The live bird trade in Brazil and its conservation implications — https://doi.org/10.1017/S095927091200010X\n[N1] Mongabay Brasil (2026), Feiras livres e vírus em araras e papagaios — https://brasil.mongabay.com/2026/03/feiras-livres-viram-focos-de-disseminacao-de-virus-letal-para-araras-e-papagaios/\n[I1] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk",
+  "context_en": "[O1] São Paulo Military Police reported four arrests and the seizure of three blue-and-yellow macaws (*Ara ararauna*) tied inside a box at Camburi, Ubatuba. According to the suspects' account as reported by police, the group travelled from Rio de Janeiro toward Ubatuba intending to sell the birds. This supports an attributed movement, but not an inferred capture site or confirmed purchaser. The restraint raises welfare concerns without documenting veterinary outcomes. The incident date should not be automatically equated with publication date.\n\n[S1] The overview documents species diversity and bird-trade channels in Brazil, providing national background but no evidence about these suspects' suppliers.",
+  "references_text_en": "[O1] Polícia Militar de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/\n[S1] Alves et al. (2013), The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X",
   "location_label_es": "Camburi, Ubatuba, São Paulo",
   "fauna_label_es": "Três araras-canindé amarradas em uma caixa",
   "title_es": "Três araras-canindé amarradas em uma caixa — Camburi, Ubatuba, São Paulo",
   "card_text_es": "Un comunicado de la Policía Militar de São Paulo publicado el 14 de octubre describe cuatro detenciones y el rescate de tres guacamayos azules y amarillos atados dentro de una caja en Camburi, Ubatuba.",
-  "context_es": "[O1] La Policía Militar de São Paulo informó cuatro detenciones después de hallar tres guacamayos azules y amarillos atados dentro de una caja en Camburi, Ubatuba. Según la nota oficial, los interceptados dijeron haber salido de Río de Janeiro con intención de vender las aves. Esta declaración respalda un desplazamiento atribuido Río de Janeiro → Ubatuba, pero no prueba el sitio de captura ni una venta realizada. La inmovilización plantea riesgos de bienestar sin diagnóstico veterinario publicado. Se desconoce el día exacto.\n\n[S1] Una revisión del comercio de aves vivas en Brasil describe demanda interna y diversidad de especies; es contexto histórico, no prueba del origen de estas araras ni de crimen organizado.\n\n[N1] Una investigación sobre patógenos asociados al comercio de psitácidos explica la relevancia de cuarentena y evaluación sanitaria, sin demostrar infección en estos tres guacamayos.\n\n[I1] El análisis jurídico de WCS distingue tenencia, transporte y comercio de fauna; la intención declarada de vender debe diferenciarse de una transacción consumada.",
-  "references_text_es": "[O1] Polícia Militar de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/\n[S1] Alves et al. (2013), The live bird trade in Brazil and its conservation implications — https://doi.org/10.1017/S095927091200010X\n[N1] Mongabay Brasil (2026), Feiras livres e vírus em araras e papagaios — https://brasil.mongabay.com/2026/03/feiras-livres-viram-focos-de-disseminacao-de-virus-letal-para-araras-e-papagaios/\n[I1] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk"
+  "context_es": "[O1] La Policía Militar de São Paulo informó cuatro detenciones y la incautación de tres guacamayos azules y amarillos (*Ara ararauna*) atados dentro de una caja en Camburi, Ubatuba. Según el relato de los implicados recogido por la policía, viajaron desde Río de Janeiro hacia Ubatuba para venderlos. Es un desplazamiento declarado, no prueba del lugar de captura o comprador. Las condiciones de inmovilización plantean preocupaciones de bienestar sin diagnóstico veterinario documentado. La fecha del hecho se mantiene separada de la publicación.\n\n[S1] La revisión documenta especies y circuitos del comercio de aves brasileño como contexto nacional, sin establecer proveedores de esta incautación.",
+  "references_text_es": "[O1] Polícia Militar de São Paulo — https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/\n[S1] Alves et al. (2013), The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X"
 }
