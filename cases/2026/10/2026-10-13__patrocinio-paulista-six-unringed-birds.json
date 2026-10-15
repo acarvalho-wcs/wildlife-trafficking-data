@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-13__patrocinio-paulista-six-unringed-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-13",
+  "publication_date": "2026-10-14",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -20.639,
+    "lon": -47.281
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Guaíra Informa / Polícia Militar Ambiental",
+  "source_url": "https://guairainforma.com.br/2026/10/14/regiao-criador-de-aves-e-autuado-pela-policia-ambiental-em-patrocinio-paulista-sp/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Aves (espécies não divulgadas)",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 6,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "live_animals",
+  "quantity_by_group": {
+    "Aves": 6
+  },
+  "quantity_unassigned": 0,
+  "image_url": null,
+  "image_source_url": "https://guairainforma.com.br/2026/10/14/regiao-criador-de-aves-e-autuado-pela-policia-ambiental-em-patrocinio-paulista-sp/",
+  "image_status": "IMAGE_UNVERIFIED",
+  "added_at": "2026-10-15T23:29:47.122739+00:00",
+  "ingestion_batch": "resume-20261015-listed-seizures",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ENDPOINT_PAIR",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Guaíra Informa / Polícia Militar Ambiental",
+      "url": "https://guairainforma.com.br/2026/10/14/regiao-criador-de-aves-e-autuado-pela-policia-ambiental-em-patrocinio-paulista-sp/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "url": "https://doi.org/10.1111/acv.70052",
+      "catalog_id": "doi-10.1111-acv.70052"
+    }
+  ],
+  "event_category": "illegal_possession_seizure",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "location_label_pt": "Patrocínio Paulista, São Paulo",
+  "fauna_label_pt": "Seis aves sem anilhas apreendidas",
+  "title_pt": "Seis aves sem anilhas apreendidas — Patrocínio Paulista, São Paulo",
+  "card_text_pt": "Fiscalização de criador amador encontrou seis aves sem identificação; foram apreendidas e soltas.",
+  "context_pt": "[O1] As seis aves apreendidas são distintas das seis anilhadas que o criador declarou ter soltado sem autorização. Não se somam os dois conjuntos nem se presume substituição fraudulenta. A divergência entre plantel e cadastro motivou sanções e suspensão do SISPASS; venda e espécies não foram documentadas.\n\n[S1] Isótopos em penas distinguiram origem cativa e silvestre e sinalizaram possíveis aves silvestres entre exemplares anilhados. É pertinente à conferência de plantéis, mas não prova lavagem neste criador.",
+  "quantity_note_pt": "Seis aves sem anilhas apreendidas",
+  "references_text_pt": "[O1] Guaíra Informa / Polícia Militar Ambiental — https://guairainforma.com.br/2026/10/14/regiao-criador-de-aves-e-autuado-pela-policia-ambiental-em-patrocinio-paulista-sp/\n[S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "modal_label_pt": "Não informado",
+  "geographic_note_pt": "Referência territorial aproximada; não representa o ponto exato da apreensão.",
+  "location_label_en": "Patrocínio Paulista, São Paulo",
+  "fauna_label_en": "Six unringed birds seized",
+  "title_en": "Six unringed birds seized — Patrocínio Paulista, São Paulo",
+  "card_text_en": "An amateur breeder inspection found six unringed birds, which were seized and released.",
+  "context_en": "[O1] The seized birds are distinct from six ringed birds the breeder said he released without permission. The sets are not added together, and fraudulent substitution is not presumed. The inventory discrepancy prompted penalties and SISPASS suspension; sales and species are not documented.\n\n[S1] Feather isotopes distinguished captive and wild origins and flagged potentially wild birds among ringed specimens. Relevant to breeder audits, this does not prove laundering here.",
+  "quantity_note_en": "Six unringed birds seized",
+  "references_text_en": "[O1] Guaíra Informa / Polícia Militar Ambiental — https://guairainforma.com.br/2026/10/14/regiao-criador-de-aves-e-autuado-pela-policia-ambiental-em-patrocinio-paulista-sp/\n[S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "modal_label_en": "Not reported",
+  "geographic_note_en": "Approximate territorial reference, not the exact seizure location.",
+  "location_label_es": "Patrocínio Paulista, São Paulo",
+  "fauna_label_es": "Seis aves sin anillas decomisadas",
+  "title_es": "Seis aves sin anillas decomisadas — Patrocínio Paulista, São Paulo",
+  "card_text_es": "La inspección de un criador aficionado localizó seis aves sin anillas; fueron incautadas y liberadas.",
+  "context_es": "[O1] Las aves decomisadas son distintas de seis anilladas que el criador dijo haber liberado sin autorización. No se suman los conjuntos ni se presume sustitución fraudulenta. La discrepancia registral motivó sanciones y suspensión de SISPASS; no se documentan ventas ni especies.\n\n[S1] Isótopos de plumas distinguieron origen cautivo y silvestre y señalaron posibles aves silvestres entre ejemplares anillados. Es pertinente al control de planteles, sin probar blanqueo aquí.",
+  "quantity_note_es": "Seis aves sin anillas decomisadas",
+  "references_text_es": "[O1] Guaíra Informa / Polícia Militar Ambiental — https://guairainforma.com.br/2026/10/14/regiao-criador-de-aves-e-autuado-pela-policia-ambiental-em-patrocinio-paulista-sp/\n[S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "modal_label_es": "No informado",
+  "geographic_note_es": "Referencia territorial aproximada, no el punto exacto del decomiso."
+}

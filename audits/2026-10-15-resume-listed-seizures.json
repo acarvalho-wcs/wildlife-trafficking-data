@@ -1,0 +1,57 @@
+{
+  "batch": "resume-20261015-listed-seizures",
+  "checked_at": "2026-10-15T23:29:47.122739+00:00",
+  "baseline_commit": "c9d21fc",
+  "baseline_count": 1035,
+  "added_count": 12,
+  "expected_count": 1047,
+  "added_ids": [
+    "2026-10__cartagena-bazurto-nine-wildlife-specimens",
+    "2026-10__maduru-oya-porcupine-meat",
+    "2026-10__maduru-oya-slaughtered-mouse-deer",
+    "2026-10__lavalleja-capybara-social-media-sale",
+    "2026-10__kosh-agach-argali-parts",
+    "2026-10__kuranze-ranch-dikdik-carcasses-usalama-xii",
+    "2026-10__tsavo-east-zebra-meat-usalama-xii",
+    "2026-10__lake-nakuru-fish-usalama-xii",
+    "2026-10-13__lo-wu-18kg-dried-shark-fins",
+    "2026-10-13__bebedouro-38-wild-birds",
+    "2026-10-13__patrocinio-paulista-six-unringed-birds",
+    "2026-10-13__atafona-vila-esperanca-wild-birds"
+  ],
+  "scope": "Os 12 itens apresentados pelo usuário; Maduru Oya separado em duas abordagens; Tana River retido por deduplicação inconclusiva.",
+  "previous_blocker": "Nenhuma inclusão da rodada estava materializada no store; fontes e elegibilidade ainda precisavam de revisão.",
+  "source_validation": "Fontes lidas e reconciliadas; prioridade oficial em Lo Wu e Lavalleja. Demais fontes jornalísticas atribuem informações às autoridades.",
+  "deduplication": "Comparação de IDs, URLs e busca territorial/taxonômica em todos os 1035 registros; múltiplas fontes de Atafona consolidadas; Tana River pendente.",
+  "context_catalogs": {
+    "scientific": 125,
+    "news": 172,
+    "institutional": 15
+  },
+  "context_decision": "S1 apenas em Lo Wu e Patrocínio Paulista, com resultados conferidos nas publicações. Nenhum N/I suficientemente específico; sem citações artificiais.",
+  "route_audit": "Nenhum par origem/destino da carga suficientemente documentado. Nacionalidade, residência e destino de soltura não geram rotas; routes.json preservado.",
+  "quantitative_controls": "Pesos não convertidos em indivíduos; Atafona sem contagem numérica enquanto divergir 13/17; Cartagena nove indivíduos, não espécies; Maduru Oya sem soma de suspeitos.",
+  "pending": [
+    {
+      "id": "tana-river-37-5kg-usalama-xii",
+      "status": "PENDING_DEDUPLICATION",
+      "source_url": "https://eastleighvoice.co.ke/headlines/412240/29-arrested-as-dci-led-operation-nets-suspected-contraband-goods-worth-sh627-million",
+      "publication_date": "2026-10-15",
+      "event_date": null,
+      "weight_kg": 37.5,
+      "reason_pt": "A fonte é balanço multidiário sem data individual; não permite excluir sobreposição com as apreensões de Tana River de 6 e 9 de outubro. Ausência de correspondência por peso não comprova evento independente.",
+      "possible_existing_ids": [
+        "2026-10-06__komorjila-tana-river-bushmeat-dikdik-impala",
+        "2026-10-09__bangale-areri-16-carcasses"
+      ],
+      "release_condition": "Fonte primária ou data/local operacional que demonstre lote independente. Não adicionado a cases/ nem aos totais."
+    }
+  ],
+  "language_review": "Títulos, fauna, cartões, contextos, notas e referências revisados em PT/EN/ES.",
+  "validation": {
+    "case_store": "PASS: 1047 records; unique IDs and required fields",
+    "context_audit": "PASS: zero heuristic warnings in 12 new records",
+    "lossless_baseline": "PASS: all 1035 pre-existing records identical",
+    "routes_unchanged": 274
+  }
+}
