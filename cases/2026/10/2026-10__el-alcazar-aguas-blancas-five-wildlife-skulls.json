@@ -26,12 +26,12 @@
     "Mamíferos": 5
   },
   "quantity_unassigned": 0,
-  "quantity_note_pt": "Cinco crânios de pecaris e cervídeos",
+  "quantity_note_pt": "Cinco crânios, três de pecari e dois de cervídeo; cinco itens e não cinco indivíduos vivos.",
   "image_url": null,
   "image_source_url": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte",
   "image_status": "IMAGE_UNVERIFIED",
   "added_at": "2026-10-15T10:32:16.775Z",
-  "context_updated_at": "2026-10-15T10:32:16.775Z",
+  "context_updated_at": "2026-10-15T10:45:28.581Z",
   "ingestion_batch": "global-six-sweeps-20261015",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "translation_status": "EN_ES_COMPLETE",
@@ -43,25 +43,31 @@
       "type": "case_source",
       "label": "Noticias de la Calle",
       "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y"
     }
   ],
   "specimen_state": "wildlife_material",
   "location_label_pt": "Colonia Aguas Blancas, El Alcázar, Misiones",
-  "fauna_label_pt": "Cinco crânios de pecaris e cervídeos",
+  "fauna_label_pt": "Três crânios de pecari e dois de cervídeo",
   "title_pt": "Cinco crânios de pecaris e cervídeos — Colonia Aguas Blancas, El Alcázar, Misiones",
   "card_text_pt": "Em patrulhamento contra caça furtiva em Colonia Aguas Blancas, policiais desmantelaram armadilhas e localizaram seis armas escondidas na mata, além de cinco crânios atribuídos a pecaris e cervídeos.",
-  "context_pt": "[O1] Em patrulhamento contra caça furtiva em Colonia Aguas Blancas, policiais desmantelaram armadilhas e localizaram seis armas escondidas na mata, além de cinco crânios atribuídos a pecaris e cervídeos. A reportagem de 12/10 não fixa o dia exato da diligência nem identifica as espécies até nível específico. Os cinco crânios são itens de fauna, não estimativa segura de cinco animais adicionais apreendidos. A ocorrência não comprova área de caça, rota de venda nem destinatários.",
-  "references_text_pt": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte",
+  "context_pt": "[O1] Em Colonia Aguas Blancas, El Alcázar, policiais desmontaram armadilhas 'cazabobos', encontraram três rifles .22, uma espingarda calibre 14, duas armas-armadilha, munição e cinco crânios: três de pecaris e dois de cervídeos. A notícia de 12/10 não informa o dia da fiscalização nem identifica espécies exatas. Os crânios são cinco produtos de fauna, não cinco animais vivos e não permitem datar mortes. Sem destinatário, transporte ou comprador reportados, não há rota comercial documentada.\n\n[S1] Uma meta-análise sobre exploração de vertebrados terrestres demonstra declínios de abundância associados ao comércio, contextualizando os riscos da remoção recorrente. Não quantifica efeitos sobre os pecaris ou cervídeos desta ocorrência.",
+  "references_text_pt": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte\n[S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y",
   "location_label_en": "Colonia Aguas Blancas, El Alcázar, Misiones",
   "fauna_label_en": "Cinco crânios de pecaris e cervídeos",
   "title_en": "Cinco crânios de pecaris e cervídeos — Colonia Aguas Blancas, El Alcázar, Misiones",
   "card_text_en": "During an anti-poaching operation in Colonia Aguas Blancas, police dismantled traps and recovered six weapons hidden in woodland, alongside five skulls attributed to peccaries and deer.",
-  "context_en": "[O1] During an anti-poaching operation in Colonia Aguas Blancas, police dismantled traps and recovered six weapons hidden in woodland, alongside five skulls attributed to peccaries and deer. The 12 October report does not establish the precise operation date or identify species beyond those groups. Five skulls are five wildlife items, not a separately verified count of live animals. Hunting grounds, trade destinations and buyers were not documented.",
-  "references_text_en": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte",
+  "context_en": "[O1] At Colonia Aguas Blancas, El Alcázar, police dismantled improvised firearm traps ('cazabobos') and found three .22 rifles, a 14-gauge shotgun, two gun traps, ammunition and five skulls: three peccary and two deer. The 12 October report does not securely date the operation or identify species. Five skulls are five wildlife items, not five live animals, and provide no killing dates. No purchaser, consignment or transport route is documented.\n\n[S1] A meta-analysis links vertebrate exploitation and trade to population declines, showing why repeated removal matters. It does not quantify effects on the peccaries or deer in this seizure.",
+  "references_text_en": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte\n[S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y",
   "location_label_es": "Colonia Aguas Blancas, El Alcázar, Misiones",
   "fauna_label_es": "Cinco crânios de pecaris e cervídeos",
   "title_es": "Cinco crânios de pecaris e cervídeos — Colonia Aguas Blancas, El Alcázar, Misiones",
   "card_text_es": "Durante una actuación contra la caza furtiva en Colonia Aguas Blancas, la policía desmanteló trampas y encontró seis armas ocultas en el monte, además de cinco cráneos atribuidos a pecaríes y cérvidos.",
-  "context_es": "[O1] Durante una actuación contra la caza furtiva en Colonia Aguas Blancas, la policía desmanteló trampas y encontró seis armas ocultas en el monte, además de cinco cráneos atribuidos a pecaríes y cérvidos. La noticia del 12 de octubre no determina el día de la intervención ni la especie precisa. Los cinco cráneos se cuentan como piezas de fauna y no como individuos vivos. Tampoco se documentan áreas de caza, compradores ni rutas comerciales.",
-  "references_text_es": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte"
+  "context_es": "[O1] En Colonia Aguas Blancas, El Alcázar, la policía desmontó trampas de disparo artesanales ('cazabobos') y halló tres rifles .22, una escopeta calibre 14, dos armas-trampa, municiones y cinco cráneos: tres de pecaríes y dos de cérvidos. La noticia del 12 de octubre no fija fecha del operativo ni especie exacta. Los cráneos son cinco piezas, no cinco animales vivos, y no indican cuándo murieron. No hay comprador, envío ni ruta comercial documentados.\n\n[S1] Un metaanálisis relaciona extracción y comercio de vertebrados con disminuciones poblacionales y explica el riesgo de extracción recurrente. No cuantifica efectos sobre estos pecaríes o cérvidos.",
+  "references_text_es": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte\n[S1] Morton et al. (2021), Impacts of wildlife trade on terrestrial biodiversity — https://doi.org/10.1038/s41559-021-01399-y"
 }
