@@ -1,0 +1,67 @@
+{
+  "id": "2026-10__niteroi-itaipu-450-uca-crabs",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": null,
+  "publication_date": "2026-10-13",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": -22.95,
+    "lon": -43.04
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Secretaria de Ordem Pública de Niterói",
+  "source_url": "https://www.seop.niteroi.rj.gov.br/coordenadoria-de-meio-ambiente-devolve-450-caranguejos-uca-a-natureza-em-itaipu/",
+  "fauna_groups_aggregated": [
+    "Crustáceos"
+  ],
+  "taxon_text": "Ucides cordatus",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 450,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Crustáceos": 450
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "450 caranguejos-uçá devolvidos ao ambiente após apreensão",
+  "image_url": null,
+  "image_source_url": "https://www.seop.niteroi.rj.gov.br/coordenadoria-de-meio-ambiente-devolve-450-caranguejos-uca-a-natureza-em-itaipu/",
+  "image_status": "IMAGE_UNVERIFIED",
+  "added_at": "2026-10-15T10:33:42.944Z",
+  "context_updated_at": "2026-10-15T10:33:42.944Z",
+  "ingestion_batch": "global-six-sweeps-20261015",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "geographic_note_pt": "Ponto de referência territorial generalizado, não coordenada exata da apreensão.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Secretaria de Ordem Pública de Niterói",
+      "url": "https://www.seop.niteroi.rj.gov.br/coordenadoria-de-meio-ambiente-devolve-450-caranguejos-uca-a-natureza-em-itaipu/"
+    }
+  ],
+  "specimen_state": "live_or_unknown",
+  "location_label_pt": "Itaipu, Niterói, Rio de Janeiro",
+  "fauna_label_pt": "450 caranguejos-uçá devolvidos ao ambiente após apreensão",
+  "title_pt": "450 caranguejos-uçá devolvidos ao ambiente após apreensão — Itaipu, Niterói, Rio de Janeiro",
+  "card_text_pt": "Divulgação municipal registra a devolução de 450 caranguejos-uçá apreendidos em ação de fiscalização na região de Itaipu, Niterói.",
+  "context_pt": "[O1] Divulgação municipal registra a devolução de 450 caranguejos-uçá apreendidos em ação de fiscalização na região de Itaipu, Niterói. A fonte documenta a quantidade de crustáceos e sua soltura posterior, mas o dia exato da apreensão não é informado de forma segura. O resgate e a soltura integram a destinação pós-apreensão, não um deslocamento realizado por traficantes. A espécie tem papel ecológico no manguezal, mas esse contexto não permite presumir local de captura ou cadeia comercial.",
+  "references_text_pt": "[O1] Secretaria de Ordem Pública de Niterói — https://www.seop.niteroi.rj.gov.br/coordenadoria-de-meio-ambiente-devolve-450-caranguejos-uca-a-natureza-em-itaipu/",
+  "location_label_en": "Itaipu, Niterói, Rio de Janeiro",
+  "fauna_label_en": "450 caranguejos-uçá devolvidos ao ambiente após apreensão",
+  "title_en": "450 caranguejos-uçá devolvidos ao ambiente após apreensão — Itaipu, Niterói, Rio de Janeiro",
+  "card_text_en": "A Niterói municipal release documents the return of 450 seized mangrove crabs (Ucides cordatus) to the environment in the Itaipu area.",
+  "context_en": "[O1] A Niterói municipal release documents the return of 450 seized mangrove crabs (Ucides cordatus) to the environment in the Itaipu area. The number of crabs and their subsequent release are reported, but the precise seizure date is not securely established. Rehabilitation and release are post-seizure management, not a trafficking movement. The species is ecologically important in mangroves, but its habitat association is not evidence of the capture location or a commercial route.",
+  "references_text_en": "[O1] Secretaria de Ordem Pública de Niterói — https://www.seop.niteroi.rj.gov.br/coordenadoria-de-meio-ambiente-devolve-450-caranguejos-uca-a-natureza-em-itaipu/",
+  "location_label_es": "Itaipu, Niterói, Rio de Janeiro",
+  "fauna_label_es": "450 caranguejos-uçá devolvidos ao ambiente após apreensão",
+  "title_es": "450 caranguejos-uçá devolvidos ao ambiente após apreensão — Itaipu, Niterói, Rio de Janeiro",
+  "card_text_es": "Una comunicación municipal de Niterói documenta la liberación de 450 cangrejos de manglar (Ucides cordatus) previamente incautados en la zona de Itaipu.",
+  "context_es": "[O1] Una comunicación municipal de Niterói documenta la liberación de 450 cangrejos de manglar (Ucides cordatus) previamente incautados en la zona de Itaipu. Se conoce la cantidad y el destino de liberación, pero no se establece con certeza el día del decomiso. La devolución al ambiente es una medida posterior a la intervención y no una ruta del tráfico. La asociación ecológica con manglares tampoco identifica el lugar de captura o una cadena comercial.",
+  "references_text_es": "[O1] Secretaria de Ordem Pública de Niterói — https://www.seop.niteroi.rj.gov.br/coordenadoria-de-meio-ambiente-devolve-450-caranguejos-uca-a-natureza-em-itaipu/"
+}
