@@ -31,7 +31,7 @@
   "image_source_url": "https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/",
   "image_status": "IMAGE_UNVERIFIED",
   "added_at": "2026-10-15T10:33:42.944Z",
-  "context_updated_at": "2026-10-15T10:33:42.944Z",
+  "context_updated_at": "2026-10-15T10:46:14.116Z",
   "ingestion_batch": "global-six-sweeps-20261015",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "translation_status": "EN_ES_COMPLETE",
@@ -43,6 +43,18 @@
       "type": "case_source",
       "label": "Polícia Militar do Ceará",
       "url": "https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "url": "https://doi.org/10.1111/acv.70052"
+    },
+    {
+      "id": "I1",
+      "type": "institutional_report",
+      "label": "WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil",
+      "url": "https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk"
     }
   ],
   "specimen_state": "live_or_unknown",
@@ -50,18 +62,18 @@
   "fauna_label_pt": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha",
   "title_pt": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha — Mulungu dos Paivas, Ipu, Ceará",
   "card_text_pt": "Em 13/10, policiais militares receberam denúncia e localizaram sete aves mantidas irregularmente em cativeiro na localidade de Mulungu dos Paivas, Ipu: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha.",
-  "context_pt": "[O1] Em 13/10, policiais militares receberam denúncia e localizaram sete aves mantidas irregularmente em cativeiro na localidade de Mulungu dos Paivas, Ipu: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha. O suspeito foi conduzido para procedimentos de crime ambiental. Os nomes populares estão preservados como divulgados; 'cupido' e 'golinha' não permitem identificar automaticamente espécie científica. A fonte documenta posse em residência, mas não origem dos animais, fornecedores nem rota de tráfico.",
-  "references_text_pt": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/",
+  "context_pt": "[O1] Em 13/10, após denúncia, policiais militares localizaram sete aves em cativeiro irregular em Mulungu dos Paivas, Ipu: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha. O responsável foi conduzido aos procedimentos pertinentes. Os nomes vernáculos foram mantidos como publicados; 'cupido' e 'golinha' não garantem determinação taxonômica sem evidência adicional. Não há informação sobre origem, captura ou transporte, portanto a residência não se transforma em destino comercial demonstrado.\n\n[S1] Estudo de isótopos em penas de aves canoras brasileiras indica potencial para avaliar origem silvestre versus cativeiro, uma pergunta que permanece aberta nestes sete exemplares; a análise isotópica não foi realizada neste caso.\n\n[I1] A análise jurídica da WCS diferencia instrumentos de fiscalização e enquadramento da posse irregular; o caso documenta manutenção não autorizada, sem prova de uma cadeia de traficantes.",
+  "references_text_pt": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/\n[S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[I1] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk",
   "location_label_en": "Mulungu dos Paivas, Ipu, Ceará",
   "fauna_label_en": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha",
   "title_en": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha — Mulungu dos Paivas, Ipu, Ceará",
   "card_text_en": "On 13 October, military police responding to a tip found seven wild birds kept without authorisation in Mulungu dos Paivas, Ipu: two locally called galos-de-campina, two cupidos, two canários-da-terra and one golinha.",
-  "context_en": "[O1] On 13 October, military police responding to a tip found seven wild birds kept without authorisation in Mulungu dos Paivas, Ipu: two locally called galos-de-campina, two cupidos, two canários-da-terra and one golinha. A suspect was referred for environmental-offence procedures. The original vernacular names are retained, since 'cupido' and 'golinha' do not support reliable species-level identification without further evidence. The source documents unlawful captivity, not where the birds were captured or transported.",
-  "references_text_en": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/",
+  "context_en": "[O1] Following a tip on 13 October, military police found seven unlawfully kept wild birds at Mulungu dos Paivas, Ipu: two locally called galos-de-campina, two cupidos, two canários-da-terra and one golinha. The keeper was referred for proceedings. Original vernacular names are retained: 'cupido' and 'golinha' do not alone support definitive scientific identification. The source establishes captivity but not capture origin, transport or a commercial destination.\n\n[S1] Stable-isotope research on Brazilian songbirds offers a possible way to investigate wild versus captive origin, which remains unresolved for these seven birds; no such testing is reported here.\n\n[I1] The WCS legal analysis distinguishes unlawful possession and enforcement tools from proof of a trafficking chain; this report establishes captivity, not a documented network.",
+  "references_text_en": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/\n[S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[I1] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk",
   "location_label_es": "Mulungu dos Paivas, Ipu, Ceará",
   "fauna_label_es": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha",
   "title_es": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha — Mulungu dos Paivas, Ipu, Ceará",
   "card_text_es": "El 13 de octubre, la Policía Militar recibió una denuncia y encontró siete aves silvestres mantenidas irregularmente en Mulungu dos Paivas, Ipu: dos galos-de-campina, dos cupidos, dos canários-da-terra y una golinha.",
-  "context_es": "[O1] El 13 de octubre, la Policía Militar recibió una denuncia y encontró siete aves silvestres mantenidas irregularmente en Mulungu dos Paivas, Ipu: dos galos-de-campina, dos cupidos, dos canários-da-terra y una golinha. El responsable fue conducido por posible delito ambiental. Se mantienen los nombres locales porque 'cupido' y 'golinha' no permiten determinar con seguridad la especie sin más datos. Se verifica cautiverio irregular, no origen ni ruta de comercio.",
-  "references_text_es": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/"
+  "context_es": "[O1] Tras una denuncia del 13 de octubre, la Policía Militar halló siete aves silvestres en cautiverio irregular en Mulungu dos Paivas, Ipu: dos galos-de-campina, dos cupidos, dos canários-da-terra y una golinha. El responsable fue trasladado para actuaciones. Se conservan los nombres populares, pues 'cupido' y 'golinha' no permiten identificación científica definitiva. Se documenta la posesión, no el origen, transporte ni destino comercial.\n\n[S1] Los isótopos estables en plumas de aves canoras brasileñas pueden ayudar a investigar el origen silvestre o cautivo, todavía desconocido en estas siete aves; aquí no se informa de tales análisis.\n\n[I1] El análisis jurídico de WCS distingue posesión irregular y procedimientos de control de una cadena delictiva demostrada; aquí se documenta cautiverio, no una red.",
+  "references_text_es": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/\n[S1] Brasileiro et al. (2026), Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[I1] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view?usp=drivesdk"
 }
