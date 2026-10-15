@@ -29,7 +29,7 @@
   "image_source_url": "https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/",
   "image_status": "IMAGE_UNVERIFIED",
   "added_at": "2026-10-15T10:32:16.775Z",
-  "context_updated_at": "2026-10-15T10:32:16.775Z",
+  "context_updated_at": "2026-10-15T10:45:19.225Z",
   "ingestion_batch": "global-six-sweeps-20261015",
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "translation_status": "EN_ES_COMPLETE",
@@ -41,6 +41,12 @@
       "type": "case_source",
       "label": "Ecosistema Córdoba / Policía Rural",
       "url": "https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "López et al. (2025), Illegal trade of wild birds in a social network, Argentina",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012"
     }
   ],
   "specimen_state": "wildlife_material",
@@ -48,18 +54,18 @@
   "fauna_label_pt": "Aves silvestres em gaiolas e carne de caça, sem quantidade identificada",
   "title_pt": "Aves silvestres em gaiolas e carne de caça, sem quantidade identificada — Cruz del Eje, Totoral, Tulumba, Pocho e Cinturón Verde Sur, Córdoba",
   "card_text_pt": "Balanço publicado em 6/10 reúne diligências da Polícia Rural em cinco áreas da província de Córdoba, com duas detenções e apreensões de aves em gaiolas, carne, armas e um veículo.",
-  "context_pt": "[O1] Balanço publicado em 6/10 reúne diligências da Polícia Rural em cinco áreas da província de Córdoba, com duas detenções e apreensões de aves em gaiolas, carne, armas e um veículo. A notícia não discrimina que materiais estavam em cada local nem informa espécies ou quantidades dos animais. Por ser um resumo de operações distintas, é cadastrado como agregado e excluído dos totais: as localidades não representam uma cadeia de transporte e a data de cada diligência não está estabelecida.",
-  "references_text_pt": "[O1] Ecosistema Córdoba / Policía Rural — https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/",
+  "context_pt": "[O1] O informe da Polícia Rural divulgado em 6/10 reúne ações em Cruz del Eje, Totoral, Tulumba, Pocho e Cinturón Verde Sur, com duas detenções, aves em gaiolas, carne, armas e um veículo. Não discrimina o número de animais, espécies nem a distribuição de itens entre localidades. Trata-se de balanço multissítio: manter agregado e excluído dos totais, sem transformar áreas de fiscalização em rota. A data da publicação não prova a data de cada ação.\n\n[S1] Um estudo de anúncios de aves em redes sociais argentinas encontrou comércio ilegal persistente e diversidade de espécies. É antecedente nacional para investigar possíveis canais de oferta, mas não documenta o uso de redes sociais nesta operação.",
+  "references_text_pt": "[O1] Ecosistema Córdoba / Policía Rural — https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/\n[S1] López et al. (2025), Illegal trade of wild birds in a social network, Argentina — https://doi.org/10.1093/ornithapp/duaf012",
   "location_label_en": "Cruz del Eje, Totoral, Tulumba, Pocho e Cinturón Verde Sur, Córdoba",
   "fauna_label_en": "Aves silvestres em gaiolas e carne de caça, sem quantidade identificada",
   "title_en": "Aves silvestres em gaiolas e carne de caça, sem quantidade identificada — Cruz del Eje, Totoral, Tulumba, Pocho e Cinturón Verde Sur, Córdoba",
   "card_text_en": "The 6 October police roundup combines enforcement actions across five Córdoba districts, reporting two arrests and seizures of caged birds, meat, weapons and a vehicle.",
-  "context_en": "[O1] The 6 October police roundup combines enforcement actions across five Córdoba districts, reporting two arrests and seizures of caged birds, meat, weapons and a vehicle. It does not distinguish the items seized in each district or give species and specimen counts. This multi-site report is marked as an aggregate and excluded from wildlife totals, avoiding duplicate counting if individual operations are subsequently registered; the listed places do not establish a transport chain.",
-  "references_text_en": "[O1] Ecosistema Córdoba / Policía Rural — https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/",
+  "context_en": "[O1] The Rural Police roundup published on 6 October combines operations in Cruz del Eje, Totoral, Tulumba, Pocho and the southern Córdoba greenbelt, with two arrests and seizures of caged birds, meat, weapons and a vehicle. It provides neither specimen counts nor an item-by-location breakdown. This multi-site summary must remain aggregated and excluded from totals; enforcement sites cannot be joined into a trafficking route. Publication date does not establish each operation's date.\n\n[S1] A study of Argentine social-media bird advertisements documents persistent illegal trade and species diversity. It motivates inquiry into potential sales channels, but does not establish social-media involvement in these operations.",
+  "references_text_en": "[O1] Ecosistema Córdoba / Policía Rural — https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/\n[S1] López et al. (2025), Illegal trade of wild birds in a social network, Argentina — https://doi.org/10.1093/ornithapp/duaf012",
   "location_label_es": "Cruz del Eje, Totoral, Tulumba, Pocho e Cinturón Verde Sur, Córdoba",
   "fauna_label_es": "Aves silvestres em gaiolas e carne de caça, sem quantidade identificada",
   "title_es": "Aves silvestres em gaiolas e carne de caça, sem quantidade identificada — Cruz del Eje, Totoral, Tulumba, Pocho e Cinturón Verde Sur, Córdoba",
   "card_text_es": "El balance policial publicado el 6 de octubre agrupa operativos en cinco áreas de Córdoba, con dos detenciones e incautaciones de aves enjauladas, carne, armas y un vehículo.",
-  "context_es": "[O1] El balance policial publicado el 6 de octubre agrupa operativos en cinco áreas de Córdoba, con dos detenciones e incautaciones de aves enjauladas, carne, armas y un vehículo. No desglosa los materiales por lugar ni identifica especies o cantidades de ejemplares. El informe se registra como agregado y se excluye de los totales para evitar duplicaciones futuras. Los lugares mencionados no constituyen etapas de una ruta y no se conoce la fecha precisa de cada procedimiento.",
-  "references_text_es": "[O1] Ecosistema Córdoba / Policía Rural — https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/"
+  "context_es": "[O1] El balance de la Policía Rural difundido el 6 de octubre agrupa actuaciones en Cruz del Eje, Totoral, Tulumba, Pocho y el Cinturón Verde Sur, con dos detenciones e incautaciones de aves en jaulas, carne, armas y un vehículo. No indica ejemplares ni distribuye materiales por localidad. Debe conservarse como resumen agregado excluido de totales, sin convertir los lugares de inspección en una ruta. La publicación no determina la fecha de cada actuación.\n\n[S1] Un estudio argentino de anuncios de aves en redes sociales documentó comercio ilegal persistente y diversidad de especies. Es un antecedente para investigar canales de venta, no una prueba de uso de redes sociales en estos operativos.",
+  "references_text_es": "[O1] Ecosistema Córdoba / Policía Rural — https://ecosistemacordoba.com/2026/10/06/operativos-rurales-cordoba-secuestraron-armas-aves-silvestres-carne/\n[S1] López et al. (2025), Illegal trade of wild birds in a social network, Argentina — https://doi.org/10.1093/ornithapp/duaf012"
 }
