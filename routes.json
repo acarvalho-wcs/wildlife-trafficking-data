@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-15T10:34:17.438Z",
+  "updated_at": "2026-10-15T10:47:46.745Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11038,6 +11038,43 @@
       "source_label": "NBC 6 South Florida / judicial records",
       "source_url": "https://www.nbcmiami.com/news/local/2nd-man-accused-of-trying-to-smuggle-birds-arrested-at-mia-this-week/3870556/",
       "source_evidence_type": "documented_flight_origin_and_arrival"
+    },
+    {
+      "id": "2026-10-ubatuba-macaws-rio-de-janeiro-attributed",
+      "event_match": {
+        "event_id": "2026-10__ubatuba-camburi-three-blue-yellow-macaws"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "attributed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Rio de Janeiro → Ubatuba (declaração dos suspeitos)",
+      "label_en": "Rio de Janeiro → Ubatuba (suspects' account)",
+      "label_es": "Río de Janeiro → Ubatuba (declaración de los sospechosos)",
+      "segments": [
+        {
+          "from": {
+            "name": "Rio de Janeiro",
+            "country": "Brasil",
+            "lat": -22.9068,
+            "lon": -43.1729,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Camburi, Ubatuba",
+            "country": "Brasil",
+            "lat": -23.38,
+            "lon": -44.98,
+            "precision": "locality_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] A PM-SP informa que os envolvidos declararam ter saído do Rio de Janeiro para vender as aves em Ubatuba. Origem do deslocamento atribuída; não confundir com local de captura ou venda consumada.",
+      "evidence_en": "[O1] São Paulo police report suspects said they travelled from Rio de Janeiro to sell the macaws in Ubatuba. The attributed departure is not proof of capture origin or completed sale.",
+      "evidence_es": "[O1] La Policía Militar recoge que los sospechosos declararon salir de Río de Janeiro para vender las aves en Ubatuba. Punto de partida atribuido, no origen de captura ni venta consumada.",
+      "source_label": "Polícia Militar de São Paulo",
+      "source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/",
+      "source_evidence_type": "attributed_suspect_statement"
     }
   ],
   "network_context": [
