@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-13__ipu-ceara-seven-captive-songbirds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-13",
+  "publication_date": "2026-10-14",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -4.32,
+    "lon": -40.71
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Polícia Militar do Ceará",
+  "source_url": "https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Paroaria dominicana; Sicalis flaveola; outras aves com nomes vernaculares sem identificação conclusiva",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha",
+  "image_url": null,
+  "image_source_url": "https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/",
+  "image_status": "IMAGE_UNVERIFIED",
+  "added_at": "2026-10-15T10:33:42.944Z",
+  "context_updated_at": "2026-10-15T10:33:42.944Z",
+  "ingestion_batch": "global-six-sweeps-20261015",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "geographic_note_pt": "Ponto de referência territorial generalizado, não coordenada exata da apreensão.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Polícia Militar do Ceará",
+      "url": "https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/"
+    }
+  ],
+  "specimen_state": "live_or_unknown",
+  "location_label_pt": "Mulungu dos Paivas, Ipu, Ceará",
+  "fauna_label_pt": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha",
+  "title_pt": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha — Mulungu dos Paivas, Ipu, Ceará",
+  "card_text_pt": "Em 13/10, policiais militares receberam denúncia e localizaram sete aves mantidas irregularmente em cativeiro na localidade de Mulungu dos Paivas, Ipu: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha.",
+  "context_pt": "[O1] Em 13/10, policiais militares receberam denúncia e localizaram sete aves mantidas irregularmente em cativeiro na localidade de Mulungu dos Paivas, Ipu: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha. O suspeito foi conduzido para procedimentos de crime ambiental. Os nomes populares estão preservados como divulgados; 'cupido' e 'golinha' não permitem identificar automaticamente espécie científica. A fonte documenta posse em residência, mas não origem dos animais, fornecedores nem rota de tráfico.",
+  "references_text_pt": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/",
+  "location_label_en": "Mulungu dos Paivas, Ipu, Ceará",
+  "fauna_label_en": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha",
+  "title_en": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha — Mulungu dos Paivas, Ipu, Ceará",
+  "card_text_en": "On 13 October, military police responding to a tip found seven wild birds kept without authorisation in Mulungu dos Paivas, Ipu: two locally called galos-de-campina, two cupidos, two canários-da-terra and one golinha.",
+  "context_en": "[O1] On 13 October, military police responding to a tip found seven wild birds kept without authorisation in Mulungu dos Paivas, Ipu: two locally called galos-de-campina, two cupidos, two canários-da-terra and one golinha. A suspect was referred for environmental-offence procedures. The original vernacular names are retained, since 'cupido' and 'golinha' do not support reliable species-level identification without further evidence. The source documents unlawful captivity, not where the birds were captured or transported.",
+  "references_text_en": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/",
+  "location_label_es": "Mulungu dos Paivas, Ipu, Ceará",
+  "fauna_label_es": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha",
+  "title_es": "Sete aves: dois galos-de-campina, dois cupidos, dois canários-da-terra e uma golinha — Mulungu dos Paivas, Ipu, Ceará",
+  "card_text_es": "El 13 de octubre, la Policía Militar recibió una denuncia y encontró siete aves silvestres mantenidas irregularmente en Mulungu dos Paivas, Ipu: dos galos-de-campina, dos cupidos, dos canários-da-terra y una golinha.",
+  "context_es": "[O1] El 13 de octubre, la Policía Militar recibió una denuncia y encontró siete aves silvestres mantenidas irregularmente en Mulungu dos Paivas, Ipu: dos galos-de-campina, dos cupidos, dos canários-da-terra y una golinha. El responsable fue conducido por posible delito ambiental. Se mantienen los nombres locales porque 'cupido' y 'golinha' no permiten determinar con seguridad la especie sin más datos. Se verifica cautiverio irregular, no origen ni ruta de comercio.",
+  "references_text_es": "[O1] Polícia Militar do Ceará — https://www.pm.ce.gov.br/2026/10/14/pmce-resgata-sete-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-em-ipu/"
+}
