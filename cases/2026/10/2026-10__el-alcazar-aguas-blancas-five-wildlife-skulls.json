@@ -1,0 +1,67 @@
+{
+  "id": "2026-10__el-alcazar-aguas-blancas-five-wildlife-skulls",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "event_date": null,
+  "publication_date": "2026-10-12",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": -26.73,
+    "lon": -54.72
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Noticias de la Calle",
+  "source_url": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Tayassuidae spp.; Cervidae spp.",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 5,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 5
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Cinco crânios de pecaris e cervídeos",
+  "image_url": null,
+  "image_source_url": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte",
+  "image_status": "IMAGE_UNVERIFIED",
+  "added_at": "2026-10-15T10:32:16.775Z",
+  "context_updated_at": "2026-10-15T10:32:16.775Z",
+  "ingestion_batch": "global-six-sweeps-20261015",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "geographic_note_pt": "Localidade de referência generalizada; não corresponde ao local exato da apreensão.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Noticias de la Calle",
+      "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte"
+    }
+  ],
+  "specimen_state": "wildlife_material",
+  "location_label_pt": "Colonia Aguas Blancas, El Alcázar, Misiones",
+  "fauna_label_pt": "Cinco crânios de pecaris e cervídeos",
+  "title_pt": "Cinco crânios de pecaris e cervídeos — Colonia Aguas Blancas, El Alcázar, Misiones",
+  "card_text_pt": "Em patrulhamento contra caça furtiva em Colonia Aguas Blancas, policiais desmantelaram armadilhas e localizaram seis armas escondidas na mata, além de cinco crânios atribuídos a pecaris e cervídeos.",
+  "context_pt": "[O1] Em patrulhamento contra caça furtiva em Colonia Aguas Blancas, policiais desmantelaram armadilhas e localizaram seis armas escondidas na mata, além de cinco crânios atribuídos a pecaris e cervídeos. A reportagem de 12/10 não fixa o dia exato da diligência nem identifica as espécies até nível específico. Os cinco crânios são itens de fauna, não estimativa segura de cinco animais adicionais apreendidos. A ocorrência não comprova área de caça, rota de venda nem destinatários.",
+  "references_text_pt": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte",
+  "location_label_en": "Colonia Aguas Blancas, El Alcázar, Misiones",
+  "fauna_label_en": "Cinco crânios de pecaris e cervídeos",
+  "title_en": "Cinco crânios de pecaris e cervídeos — Colonia Aguas Blancas, El Alcázar, Misiones",
+  "card_text_en": "During an anti-poaching operation in Colonia Aguas Blancas, police dismantled traps and recovered six weapons hidden in woodland, alongside five skulls attributed to peccaries and deer.",
+  "context_en": "[O1] During an anti-poaching operation in Colonia Aguas Blancas, police dismantled traps and recovered six weapons hidden in woodland, alongside five skulls attributed to peccaries and deer. The 12 October report does not establish the precise operation date or identify species beyond those groups. Five skulls are five wildlife items, not a separately verified count of live animals. Hunting grounds, trade destinations and buyers were not documented.",
+  "references_text_en": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte",
+  "location_label_es": "Colonia Aguas Blancas, El Alcázar, Misiones",
+  "fauna_label_es": "Cinco crânios de pecaris e cervídeos",
+  "title_es": "Cinco crânios de pecaris e cervídeos — Colonia Aguas Blancas, El Alcázar, Misiones",
+  "card_text_es": "Durante una actuación contra la caza furtiva en Colonia Aguas Blancas, la policía desmanteló trampas y encontró seis armas ocultas en el monte, además de cinco cráneos atribuidos a pecaríes y cérvidos.",
+  "context_es": "[O1] Durante una actuación contra la caza furtiva en Colonia Aguas Blancas, la policía desmanteló trampas y encontró seis armas ocultas en el monte, además de cinco cráneos atribuidos a pecaríes y cérvidos. La noticia del 12 de octubre no determina el día de la intervención ni la especie precisa. Los cinco cráneos se cuentan como piezas de fauna y no como individuos vivos. Tampoco se documentan áreas de caza, compradores ni rutas comerciales.",
+  "references_text_es": "[O1] Noticias de la Calle — https://www.noticiasdelacalle.com.ar/noticias/2026/10/12/200343-desmantelaron-trampas-cazabobos-armadas-por-cazadores-furtivos-en-el-alcazar-y-secuestraron-seis-armas-ocultas-en-el-monte"
+}
