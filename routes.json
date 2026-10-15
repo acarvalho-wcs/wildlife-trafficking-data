@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-14T14:25:00Z",
+  "updated_at": "2026-10-15T10:34:17.438Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11001,6 +11001,43 @@
       "source_url": "https://www.info.gov.hk/gia/general/202601/21/P2026012100393.htm",
       "source_evidence_type": "documented_transport_itinerary",
       "case_source_id": "TUB-0061"
+    },
+    {
+      "id": "2026-10-06-miami-11-cuban-finches-havana-flight",
+      "event_match": {
+        "event_id": "2026-10-06__miami-11-cuban-finches-havana-flight"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "confirmed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Havana → Miami (11 aves, 6/10/2026)",
+      "label_en": "Havana → Miami (11 birds, 6 Oct 2026)",
+      "label_es": "La Habana → Miami (11 aves, 6/10/2026)",
+      "segments": [
+        {
+          "from": {
+            "name": "Havana, aeroporto José Martí",
+            "country": "Cuba",
+            "lat": 22.9892,
+            "lon": -82.4091,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Miami",
+            "country": "Estados Unidos",
+            "lat": 25.795,
+            "lon": -80.29,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] A notícia e documentos judiciais citados registram o desembarque em Miami de passageiro vindo de Havana com 11 aves em 6/10/2026. O voo Havana–Miami é documentado; não se atribui a Havana como local de captura. Caso distinto da apreensão de dez aves em 4/10.",
+      "evidence_en": "[O1] Press coverage citing court records establishes an arrival in Miami from Havana with 11 concealed birds on 6 October 2026. This documents the Havana–Miami flight, not their capture site. Separate from the ten-bird seizure on 4 October.",
+      "evidence_es": "[O1] Una noticia basada en documentos judiciales acredita la llegada a Miami desde La Habana con 11 aves ocultas el 6 de octubre de 2026. Se documenta el vuelo, no el origen de captura. Caso distinto de la incautación de diez aves del día 4.",
+      "source_label": "NBC 6 South Florida / judicial records",
+      "source_url": "https://www.nbcmiami.com/news/local/2nd-man-accused-of-trying-to-smuggle-birds-arrested-at-mia-this-week/3870556/",
+      "source_evidence_type": "documented_flight_origin_and_arrival"
     }
   ],
   "network_context": [
