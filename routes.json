@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-15T10:47:46.745Z",
+  "updated_at": "2026-10-16T21:50:00Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11075,6 +11075,42 @@
       "source_label": "Polícia Militar de São Paulo",
       "source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/quatro-sao-presos-com-araras-amarradas-dentro-de-caixa-em-ubatuba/",
       "source_evidence_type": "attributed_suspect_statement"
+    },
+    {
+      "id": "bangkok-kolkata-251-live-animals-2026-05-24",
+      "event_match": {
+        "event_id": "2026-05-24__bangkok-kolkata-251-live-animals"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_air_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Kolkata",
+      "label_en": "Bangkok → Kolkata",
+      "label_es": "Bangkok → Calcuta",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Suvarnabhumi, Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.7501,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Kolkata",
+            "country": "Índia",
+            "lat": 22.6547,
+            "lon": 88.4467,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte informa que o passageiro foi interceptado em Suvarnabhumi com 251 animais vivos ocultos em bagagem preparada para voo a Kolkata.",
+      "evidence_en": "The source reports that the passenger was intercepted at Suvarnabhumi with 251 live animals concealed in luggage prepared for a flight to Kolkata.",
+      "evidence_es": "La fuente informa que el pasajero fue interceptado en Suvarnabhumi con 251 animales vivos ocultos en equipaje preparado para un vuelo a Calcuta.",
+      "source_label": "Nation Thailand",
+      "source_url": "https://www.nationthailand.com/news/general/40066669"
     }
   ],
   "network_context": [
