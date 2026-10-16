@@ -1,0 +1,101 @@
+{
+  "id": "2024-09-18_10-07__perak-154-prohibited-ornamental-fish-aggregate",
+  "added_at": "2026-10-16T21:55:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Perak — Ipoh, Teluk Intan, Ayer Tawar e outros estabelecimentos",
+  "location_label_en": "Perak — Ipoh, Teluk Intan, Ayer Tawar and other premises",
+  "location_label_es": "Perak — Ipoh, Teluk Intan, Ayer Tawar y otros establecimientos",
+  "country": "Malásia",
+  "title_pt": "Perak apreende 154 peixes proibidos em 24 fiscalizações de estabelecimentos",
+  "title_en": "Perak seizes 154 prohibited fish across 24 premises inspections",
+  "title_es": "Perak decomisa 154 peces prohibidos en 24 inspecciones de establecimientos",
+  "source_label": "Bernama; Berita RTM",
+  "source_url": "https://www.bernama.com/bm/news.php?id=2348766",
+  "additional_source_urls": [
+    "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/150-ekor-ikan-hiasan-larangan-dirampas-di-perak/"
+  ],
+  "publication_date": "2024-10-07",
+  "event_date": "2024-09-18",
+  "event_end_date": "2024-10-07",
+  "event_date_precision": "range_start",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "fauna_label_pt": "154 peixes proibidos, incluindo Amazon Redtail, Gulper Catfish, Flower Horn, Alligator Gar e *Arapaima*",
+  "fauna_label_en": "154 prohibited fish including Amazon Redtail, Gulper Catfish, Flower Horn, Alligator Gar and *Arapaima*",
+  "fauna_label_es": "154 peces prohibidos, incluidos Amazon Redtail, Gulper Catfish, Flower Horn, Alligator Gar y *Arapaima*",
+  "taxon_text": "Phractocephalus hemioliopterus; Gulper Catfish (taxon unresolved); Flower Horn hybrid; Atractosteus spatula; Arapaima sp.",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Land",
+  "modal_label_es": "Terrestre",
+  "coordinates": {
+    "lat": 4.5975,
+    "lon": 101.0901
+  },
+  "coordinate_precision": "state_aggregate_anchor",
+  "geographic_note_pt": "Ponto de referência em Ipoh para um agregado estadual. As 24 fiscalizações envolveram 30 estabelecimentos em diferentes localidades de Perak; a coordenada não representa todos os locais.",
+  "geographic_note_en": "Ipoh is used as a reference point for a state-wide aggregate. The 24 inspections involved 30 premises in different parts of Perak; the coordinate does not represent every site.",
+  "geographic_note_es": "Ipoh se usa como punto de referencia para un agregado estatal. Las 24 inspecciones abarcaron 30 establecimientos en distintas localidades de Perak; la coordenada no representa todos los sitios.",
+  "quantity_count": 154,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 154
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Total consolidado de 154 peixes em 24 operações de monitoramento; não corresponde a uma única apreensão pontual em 07/10.",
+  "quantity_note_en": "Consolidated total of 154 fish across 24 monitoring operations; this is not a single point seizure on 7 Oct.",
+  "quantity_note_es": "Total consolidado de 154 peces en 24 operaciones de monitoreo; no corresponde a un único decomiso puntual el 7 de octubre.",
+  "specimen_state": "live",
+  "card_text_pt": "Entre 18/09 e 07/10/2024, o Departamento de Pesca de Perak consolidou 154 peixes proibidos apreendidos em 24 operações de monitoramento envolvendo 30 estabelecimentos. Entre os tipos divulgados estavam Amazon Redtail, Gulper Catfish, Flower Horn, Alligator Gar e *Arapaima*. O valor estimado do conjunto foi RM13.000.",
+  "card_text_en": "Between 18 Sep and 7 Oct 2024, the Perak Fisheries Department reported a consolidated 154 prohibited fish seized across 24 monitoring operations involving 30 premises. Reported types included Amazon Redtail, Gulper Catfish, Flower Horn, Alligator Gar and *Arapaima*. The combined estimated value was RM13,000.",
+  "card_text_es": "Entre el 18/09 y el 07/10/2024, el Departamento de Pesca de Perak informó un total consolidado de 154 peces prohibidos decomisados en 24 operaciones de monitoreo que abarcaron 30 establecimientos. Entre los tipos reportados figuraban Amazon Redtail, Gulper Catfish, Flower Horn, Alligator Gar y *Arapaima*. El valor estimado conjunto fue de RM13.000.",
+  "context_pt": "[O1][N1] O total de 154 resulta de uma campanha com 24 fiscalizações em 30 estabelecimentos, não de um único evento em uma loja; o registro é mantido como operação agregada. A lista inclui táxons sul-americanos associados ao comércio de peixes ornamentais, como *Arapaima* e o bagre amazônico de cauda vermelha. [S1][N2][N3] Literatura e jornalismo sobre comércio de organismos vivos e peixes amazônicos fornecem contexto para a demanda internacional e os riscos de cadeias de pets. Entretanto, a presença desses táxons em estabelecimentos malaios não demonstra que os indivíduos foram capturados na Amazônia, exportados ilegalmente do Brasil ou transportados por uma rota internacional específica. Nenhuma rota é criada.",
+  "context_en": "[O1][N1] The total of 154 comes from a campaign comprising 24 inspections at 30 premises, not from a single shop seizure; the record is therefore retained as an aggregate operation. The list includes South American taxa associated with the ornamental-fish trade, such as *Arapaima* and Amazon redtail catfish. [S1][N2][N3] Research and reporting on live-organism trade and Amazonian ornamental fish provide context for international demand and pet-supply-chain risks. However, the presence of these taxa in Malaysian premises does not establish that the individuals were captured in the Amazon, illegally exported from Brazil or moved along any specific international route. No route is created.",
+  "context_es": "[O1][N1] El total de 154 procede de una campaña con 24 inspecciones en 30 establecimientos, no de un único decomiso en una tienda; por ello el registro se conserva como operación agregada. La lista incluye taxones sudamericanos vinculados al comercio ornamental, como *Arapaima* y el bagre amazónico de cola roja. [S1][N2][N3] La literatura y el periodismo sobre comercio de organismos vivos y peces amazónicos aportan contexto sobre demanda internacional y riesgos de las cadenas de mascotas. Sin embargo, la presencia de estos taxones en establecimientos malasios no demuestra que los ejemplares fueran capturados en la Amazonía, exportados ilegalmente desde Brasil ni transportados por una ruta internacional específica. No se crea ninguna ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Bernama — 154 Ikan Larangan Bernilai RM13,000 Dirampas Di Perak",
+      "url": "https://www.bernama.com/bm/news.php?id=2348766"
+    },
+    {
+      "id": "N1",
+      "type": "case_source",
+      "label": "Berita RTM — prohibited ornamental fish seized in Perak",
+      "url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/150-ekor-ikan-hiasan-larangan-dirampas-di-perak/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Review of unsustainable wildlife trade",
+      "url": "https://doi.org/10.1007/s10344-025-01990-9"
+    },
+    {
+      "id": "N2",
+      "type": "news_repository",
+      "label": "((o))eco — comércio internacional de peixes ornamentais amazônicos",
+      "url": "https://oeco.org.br/reportagens/traficantes-de-peixes-ornamentais-lucram-enquanto-condenam-especie-amazonica-a-extincao/"
+    },
+    {
+      "id": "N3",
+      "type": "news_repository",
+      "label": "Mongabay — Amazonian wildlife in Bangkok pet markets",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    }
+  ],
+  "references_text_pt": "[O1] Bernama — https://www.bernama.com/bm/news.php?id=2348766\n[N1] Berita RTM — https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/150-ekor-ikan-hiasan-larangan-dirampas-di-perak/\n[S1] https://doi.org/10.1007/s10344-025-01990-9\n[N2] ((o))eco — https://oeco.org.br/reportagens/traficantes-de-peixes-ornamentais-lucram-enquanto-condenam-especie-amazonica-a-extincao/\n[N3] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] Bernama — https://www.bernama.com/bm/news.php?id=2348766\n[N1] Berita RTM — https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/150-ekor-ikan-hiasan-larangan-dirampas-di-perak/\n[S1] https://doi.org/10.1007/s10344-025-01990-9\n[N2] ((o))eco — https://oeco.org.br/reportagens/traficantes-de-peixes-ornamentais-lucram-enquanto-condenam-especie-amazonica-a-extincao/\n[N3] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] Bernama — https://www.bernama.com/bm/news.php?id=2348766\n[N1] Berita RTM — https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/150-ekor-ikan-hiasan-larangan-dirampas-di-perak/\n[S1] https://doi.org/10.1007/s10344-025-01990-9\n[N2] ((o))eco — https://oeco.org.br/reportagens/traficantes-de-peixes-ornamentais-lucram-enquanto-condenam-especie-amazonica-a-extincao/\n[N3] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "image_url": null,
+  "image_source_url": "https://www.bernama.com/bm/news.php?id=2348766",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}

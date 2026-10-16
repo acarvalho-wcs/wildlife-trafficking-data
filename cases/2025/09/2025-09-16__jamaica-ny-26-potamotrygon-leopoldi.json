@@ -1,0 +1,79 @@
+{
+  "id": "2025-09-16__jamaica-ny-26-potamotrygon-leopoldi",
+  "added_at": "2026-10-16T21:55:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Jamaica, Nova York",
+  "location_label_en": "Jamaica, New York",
+  "location_label_es": "Jamaica, Nueva York",
+  "country": "Estados Unidos",
+  "title_pt": "USFWS apreende 26 raias-do-Xingu *Potamotrygon leopoldi* vivas em Nova York",
+  "title_en": "USFWS seizes 26 live Xingu river stingrays *Potamotrygon leopoldi* in New York",
+  "title_es": "USFWS decomisa 26 rayas del Xingu *Potamotrygon leopoldi* vivas en Nueva York",
+  "source_label": "U.S. Fish and Wildlife Service",
+  "source_url": "https://www.fws.gov/fwsforfeiture/notices/publishedNOS/November%2005%2C%202025?post=7082",
+  "publication_date": "2025-11-05",
+  "event_date": "2025-09-16",
+  "event_date_precision": "day",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "fauna_label_pt": "26 raias-do-Xingu *Potamotrygon leopoldi* vivas",
+  "fauna_label_en": "26 live Xingu river stingrays *Potamotrygon leopoldi*",
+  "fauna_label_es": "26 rayas del Xingu *Potamotrygon leopoldi* vivas",
+  "taxon_text": "Potamotrygon leopoldi (26)",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "coordinates": {
+    "lat": 40.7027,
+    "lon": -73.789
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Coordenadas generalizadas para Jamaica, Queens; o aviso do USFWS não informa o ponto exato de apreensão.",
+  "geographic_note_en": "Generalized coordinates for Jamaica, Queens; the USFWS notice does not provide the exact seizure point.",
+  "geographic_note_es": "Coordenadas generalizadas para Jamaica, Queens; el aviso del USFWS no informa el punto exacto del decomiso.",
+  "quantity_count": 26,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 26
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "A fonte repete a mesma linha de inventário; trata-se de 26 indivíduos, não 52.",
+  "quantity_note_en": "The source repeats the same inventory row; this is 26 individuals, not 52.",
+  "quantity_note_es": "La fuente repite la misma fila del inventario; son 26 individuos, no 52.",
+  "specimen_state": "live",
+  "card_text_pt": "Em 16/09/2025, o USFWS apreendeu em Jamaica, Nova York, 26 raias-do-Xingu *Potamotrygon leopoldi* vivas importadas em violação às exigências aplicáveis da CITES. O aviso de perda administrativa não informa país de origem, aeroporto de embarque, remetente ou itinerário.",
+  "card_text_en": "On 16 Sep 2025, USFWS seized 26 live Xingu river stingrays *Potamotrygon leopoldi* in Jamaica, New York, after import violations involving applicable CITES requirements. The forfeiture notice does not disclose country of origin, departure airport, shipper or itinerary.",
+  "card_text_es": "El 16/09/2025, el USFWS decomisó en Jamaica, Nueva York, 26 rayas del Xingu *Potamotrygon leopoldi* vivas importadas con infracciones de los requisitos aplicables de CITES. El aviso de decomiso no informa país de origen, aeropuerto de salida, remitente ni itinerario.",
+  "context_pt": "[O1] O aviso oficial registra 26 *Potamotrygon leopoldi* vivas apreendidas em Jamaica, Nova York, em 16/09/2025, por comércio/importação em desacordo com requisitos CITES. A linha do inventário aparece duplicada na página e foi consolidada uma única vez. [S1] Estudos recentes descrevem *P. leopoldi* como uma raia endêmica do rio Xingu, na Amazônia brasileira, explorada pelo comércio ornamental. Essa biogeografia torna o caso especialmente relevante para o monitoramento de fauna amazônica no exterior, mas não demonstra que estes 26 exemplares tenham sido retirados diretamente do Xingu ou exportados ilegalmente do Brasil. Limites: origem, remetente, modal e rota internacional não foram publicados; portanto, nenhuma rota é criada.",
+  "context_en": "[O1] The official notice records 26 live *Potamotrygon leopoldi* seized in Jamaica, New York, on 16 Sep 2025 for trade/import contrary to applicable CITES requirements. The inventory row is duplicated on the webpage and is counted only once. [S1] Recent research describes *P. leopoldi* as endemic to the Xingu River in the Brazilian Amazon and exploited by the ornamental trade. This biogeography makes the seizure highly relevant to monitoring Amazonian fauna abroad, but it does not establish that these 26 individuals were taken directly from the Xingu or illegally exported from Brazil. Limits: origin, shipper, transport mode and international route were not published; therefore no route is created.",
+  "context_es": "[O1] El aviso oficial registra 26 *Potamotrygon leopoldi* vivas decomisadas en Jamaica, Nueva York, el 16/09/2025 por comercio/importación contrarios a requisitos aplicables de CITES. La fila del inventario está duplicada en la página y se contabiliza una sola vez. [S1] Estudios recientes describen *P. leopoldi* como una raya endémica del río Xingu, en la Amazonía brasileña, explotada por el comercio ornamental. Esta biogeografía hace que el caso sea muy relevante para monitorear fauna amazónica en el exterior, pero no demuestra que estos 26 ejemplares fueran extraídos directamente del Xingu ni exportados ilegalmente desde Brasil. Límites: no se publicaron origen, remitente, modo de transporte ni ruta internacional; por ello no se crea una ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "U.S. Fish and Wildlife Service — Notice of Seizure and Proposed Forfeiture",
+      "url": "https://www.fws.gov/fwsforfeiture/notices/publishedNOS/November%2005%2C%202025?post=7082"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Analysis of the Entire Mitogenome of the Threatened Freshwater Stingray Potamotrygon leopoldi (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40943176/"
+    }
+  ],
+  "references_text_pt": "[O1] U.S. Fish and Wildlife Service — https://www.fws.gov/fwsforfeiture/notices/publishedNOS/November%2005%2C%202025?post=7082\n[S1] Potamotrygon leopoldi mitogenome/Xingu study — https://pubmed.ncbi.nlm.nih.gov/40943176/",
+  "references_text_en": "[O1] U.S. Fish and Wildlife Service — https://www.fws.gov/fwsforfeiture/notices/publishedNOS/November%2005%2C%202025?post=7082\n[S1] Potamotrygon leopoldi mitogenome/Xingu study — https://pubmed.ncbi.nlm.nih.gov/40943176/",
+  "references_text_es": "[O1] U.S. Fish and Wildlife Service — https://www.fws.gov/fwsforfeiture/notices/publishedNOS/November%2005%2C%202025?post=7082\n[S1] Potamotrygon leopoldi mitogenome/Xingu study — https://pubmed.ncbi.nlm.nih.gov/40943176/",
+  "image_url": null,
+  "image_source_url": "https://www.fws.gov/fwsforfeiture/notices/publishedNOS/November%2005%2C%202025?post=7082",
+  "image_status": "SOURCE_PAGE_IMAGE_NOT_RESOLVED"
+}

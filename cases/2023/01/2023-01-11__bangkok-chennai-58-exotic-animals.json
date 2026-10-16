@@ -1,0 +1,81 @@
+{
+  "id": "2023-01-11__bangkok-chennai-58-exotic-animals",
+  "added_at": "2026-10-16T21:55:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Aeroporto Internacional de Chennai",
+  "location_label_en": "Chennai International Airport",
+  "location_label_es": "Aeropuerto Internacional de Chennai",
+  "country": "Índia",
+  "title_pt": "Chennai encontra 58 animais vivos em bagagens abandonadas de passageiro vindo de Bangkok",
+  "title_en": "Chennai finds 58 live animals in unattended baggage from Bangkok passenger",
+  "title_es": "Chennai encuentra 58 animales vivos en equipaje abandonado de pasajero procedente de Bangkok",
+  "source_label": "Press Information Bureau / Chennai Air Customs",
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1891621&lang=2&reg=48",
+  "publication_date": "2023-01-16",
+  "event_date": "2023-01-11",
+  "event_date_precision": "day",
+  "fauna_groups_aggregated": [
+    "Mamíferos",
+    "Répteis"
+  ],
+  "fauna_label_pt": "58 animais vivos: 3 *Cebuella pygmaea*, 45 pítons-bola, 2 tartarugas-estrela e 8 corn snakes",
+  "fauna_label_en": "58 live animals: 3 *Cebuella pygmaea*, 45 ball pythons, 2 star tortoises and 8 corn snakes",
+  "fauna_label_es": "58 animales vivos: 3 *Cebuella pygmaea*, 45 pitones bola, 2 tortugas estrella y 8 serpientes del maíz",
+  "taxon_text": "Cebuella pygmaea (3); ball python (45); star tortoise (2; species unresolved); corn snake (8)",
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "coordinates": {
+    "lat": 12.9941,
+    "lon": 80.1709
+  },
+  "coordinate_precision": "airport",
+  "geographic_note_pt": "Coordenadas do Aeroporto Internacional de Chennai; as duas malas foram encontradas junto à esteira de bagagens do voo FD153.",
+  "geographic_note_en": "Coordinates of Chennai International Airport; the two bags were found near the baggage belt for flight FD153.",
+  "geographic_note_es": "Coordenadas del Aeropuerto Internacional de Chennai; las dos maletas fueron halladas junto a la cinta de equipaje del vuelo FD153.",
+  "quantity_count": 58,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 3,
+    "Répteis": 55
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "3 mamíferos e 55 répteis; todos vivos segundo a fonte.",
+  "quantity_note_en": "3 mammals and 55 reptiles; all reported alive.",
+  "quantity_note_es": "3 mamíferos y 55 reptiles; todos reportados vivos.",
+  "specimen_state": "live",
+  "card_text_pt": "Em 11/01/2023, duas malas de um passageiro chegado de Bangkok no voo FD153 foram encontradas sem acompanhamento perto da esteira de bagagens em Chennai. A fiscalização encontrou 58 animais vivos: três saguis-pigmeus, 45 pítons-bola, duas tartarugas-estrela e oito corn snakes.",
+  "card_text_en": "On 11 Jan 2023, two unattended bags belonging to a passenger arriving from Bangkok on flight FD153 were found near the baggage belt in Chennai. Officers discovered 58 live animals: three pygmy marmosets, 45 ball pythons, two star tortoises and eight corn snakes.",
+  "card_text_es": "El 11/01/2023, dos maletas sin acompañamiento de un pasajero llegado de Bangkok en el vuelo FD153 fueron halladas cerca de la cinta de equipaje en Chennai. La inspección encontró 58 animales vivos: tres titíes pigmeos, 45 pitones bola, dos tortugas estrella y ocho serpientes del maíz.",
+  "context_pt": "[O1] A alfândega de Chennai documentou o movimento Bangkok → Chennai e 58 animais ocultos nas bagagens. O lote foi posteriormente devolvido a Bangkok; essa devolução administrativa não é representada como rota de tráfico. [N1] A apreensão ocorre poucos meses após outro caso Bangkok → Chennai com *Cebuella pygmaea*, reforçando a recorrência observacional do corredor aeroportuário para fauna exótica. Reportagens posteriores sobre mercados de Bangkok fornecem contexto regional, mas não comprovam fornecedor, loja ou rede comum entre os dois episódios. Limites: a espécie das duas 'star tortoises' não foi esclarecida na fonte oficial, e nenhuma origem anterior à Tailândia foi publicada.",
+  "context_en": "[O1] Chennai Customs documented Bangkok → Chennai movement and 58 animals concealed in the baggage. The lot was later returned to Bangkok; that administrative return is not mapped as a trafficking route. [N1] The seizure occurred only months after another Bangkok → Chennai case involving *Cebuella pygmaea*, adding observational evidence of recurrence along the airport corridor for exotic wildlife. Later reporting on Bangkok markets provides regional context but does not establish a common supplier, shop or network between the two events. Limits: the species of the two 'star tortoises' was not clarified by the official source, and no origin preceding Thailand was published.",
+  "context_es": "[O1] La aduana de Chennai documentó el movimiento Bangkok → Chennai y 58 animales ocultos en el equipaje. El lote fue posteriormente devuelto a Bangkok; esa devolución administrativa no se representa como ruta de tráfico. [N1] El decomiso ocurrió pocos meses después de otro caso Bangkok → Chennai con *Cebuella pygmaea*, aportando evidencia observacional de recurrencia del corredor aeroportuario para fauna exótica. Reportajes posteriores sobre mercados de Bangkok brindan contexto regional, pero no demuestran un proveedor, tienda o red común entre ambos episodios. Límites: la especie de las dos 'star tortoises' no fue aclarada por la fuente oficial y no se publicó ningún origen anterior a Tailandia.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Press Information Bureau / Chennai Air Customs — 16 Jan 2023",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1891621&lang=2&reg=48"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    }
+  ],
+  "references_text_pt": "[O1] PIB / Chennai Air Customs — https://www.pib.gov.in/PressReleasePage.aspx?PRID=1891621&lang=2&reg=48\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] PIB / Chennai Air Customs — https://www.pib.gov.in/PressReleasePage.aspx?PRID=1891621&lang=2&reg=48\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] PIB / Chennai Air Customs — https://www.pib.gov.in/PressReleasePage.aspx?PRID=1891621&lang=2&reg=48\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "image_url": null,
+  "image_source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1891621&lang=2&reg=48",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}

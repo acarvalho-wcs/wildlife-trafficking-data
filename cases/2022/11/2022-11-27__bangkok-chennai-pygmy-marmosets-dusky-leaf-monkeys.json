@@ -1,0 +1,79 @@
+{
+  "id": "2022-11-27__bangkok-chennai-pygmy-marmosets-dusky-leaf-monkeys",
+  "added_at": "2026-10-16T21:55:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Aeroporto Internacional de Chennai",
+  "location_label_en": "Chennai International Airport",
+  "location_label_es": "Aeropuerto Internacional de Chennai",
+  "country": "Índia",
+  "title_pt": "Chennai intercepta dois saguis-pigmeus vivos e dois dusky leaf monkeys mortos vindos de Bangkok",
+  "title_en": "Chennai intercepts two live pygmy marmosets and two dead dusky leaf monkeys from Bangkok",
+  "title_es": "Chennai intercepta dos titíes pigmeos vivos y dos dusky leaf monkeys muertos procedentes de Bangkok",
+  "source_label": "Press Information Bureau / Chennai Air Customs",
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1879622&lang=2&reg=48",
+  "publication_date": "2022-11-28",
+  "event_date": "2022-11-27",
+  "event_date_precision": "day",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "fauna_label_pt": "4 primatas: 2 *Cebuella pygmaea* vivos e 2 dusky leaf monkeys mortos",
+  "fauna_label_en": "4 primates: 2 live *Cebuella pygmaea* and 2 dead dusky leaf monkeys",
+  "fauna_label_es": "4 primates: 2 *Cebuella pygmaea* vivos y 2 dusky leaf monkeys muertos",
+  "taxon_text": "Cebuella pygmaea (2); dusky leaf monkey (2; species not specified by source)",
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "coordinates": {
+    "lat": 12.9941,
+    "lon": 80.1709
+  },
+  "coordinate_precision": "airport",
+  "geographic_note_pt": "Coordenadas do Aeroporto Internacional de Chennai, onde a bagagem foi examinada.",
+  "geographic_note_en": "Coordinates of Chennai International Airport, where the baggage was examined.",
+  "geographic_note_es": "Coordenadas del Aeropuerto Internacional de Chennai, donde se examinó el equipaje.",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Dois saguis-pigmeus vivos e dois dusky leaf monkeys mortos; todos pertencem ao mesmo evento.",
+  "quantity_note_en": "Two live pygmy marmosets and two dead dusky leaf monkeys; all belong to the same event.",
+  "quantity_note_es": "Dos titíes pigmeos vivos y dos dusky leaf monkeys muertos; todos pertenecen al mismo evento.",
+  "specimen_state": "mixed_live_dead",
+  "card_text_pt": "Em 27/11/2022, um passageiro do voo TG337, vindo de Bangkok, foi interceptado pela alfândega aérea de Chennai. Na bagagem foram encontrados dois *Cebuella pygmaea* vivos e dois dusky leaf monkeys mortos. Os saguis seriam devolvidos a Bangkok; a devolução administrativa não é tratada como rota de tráfico.",
+  "card_text_en": "On 27 Nov 2022, a passenger arriving from Bangkok on flight TG337 was intercepted by Chennai Air Customs. His baggage contained two live *Cebuella pygmaea* and two dead dusky leaf monkeys. The marmosets were to be returned to Bangkok; that administrative return is not treated as a trafficking route.",
+  "card_text_es": "El 27/11/2022, un pasajero llegado de Bangkok en el vuelo TG337 fue interceptado por la aduana aérea de Chennai. En su equipaje había dos *Cebuella pygmaea* vivos y dos dusky leaf monkeys muertos. Los titíes serían devueltos a Bangkok; esa devolución administrativa no se considera una ruta de tráfico.",
+  "context_pt": "[O1] A fonte oficial confirma o deslocamento Bangkok → Chennai no voo TG337 e a apreensão de quatro primatas. Dois dusky leaf monkeys já estavam mortos na chegada. [N1] Reportagens posteriores sobre mercados de pets no Sudeste Asiático documentam Bangkok como um importante ponto de oferta e circulação de fauna exótica, incluindo espécies neotropicais. Esse contexto ajuda a interpretar a recorrência do corredor, mas não liga esta apreensão específica a vendedores, mercados ou redes identificados posteriormente. Limites: a fonte não publica a origem biológica dos saguis, o ponto de aquisição em Bangkok nem a rota anterior à Tailândia.",
+  "context_en": "[O1] The official source confirms Bangkok → Chennai movement on flight TG337 and the seizure of four primates. Two dusky leaf monkeys were already dead on arrival. [N1] Later reporting on Southeast Asian pet markets documents Bangkok as a major point for the sale and circulation of exotic wildlife, including Neotropical species. This helps contextualize recurrence of the corridor but does not connect this specific seizure to sellers, markets or networks identified later. Limits: the source does not publish the marmosets' biological origin, purchase location in Bangkok or any route preceding Thailand.",
+  "context_es": "[O1] La fuente oficial confirma el desplazamiento Bangkok → Chennai en el vuelo TG337 y el decomiso de cuatro primates. Dos dusky leaf monkeys ya estaban muertos al llegar. [N1] Reportajes posteriores sobre mercados de mascotas del Sudeste Asiático documentan Bangkok como un punto importante de oferta y circulación de fauna exótica, incluidas especies neotropicales. Este contexto ayuda a interpretar la recurrencia del corredor, pero no vincula este decomiso con vendedores, mercados o redes identificados posteriormente. Límites: la fuente no publica el origen biológico de los titíes, el punto de adquisición en Bangkok ni una ruta previa a Tailandia.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Press Information Bureau / Chennai Air Customs — 28 Nov 2022",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1879622&lang=2&reg=48"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    }
+  ],
+  "references_text_pt": "[O1] PIB / Chennai Air Customs — https://www.pib.gov.in/PressReleasePage.aspx?PRID=1879622&lang=2&reg=48\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] PIB / Chennai Air Customs — https://www.pib.gov.in/PressReleasePage.aspx?PRID=1879622&lang=2&reg=48\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] PIB / Chennai Air Customs — https://www.pib.gov.in/PressReleasePage.aspx?PRID=1879622&lang=2&reg=48\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "image_url": null,
+  "image_source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1879622&lang=2&reg=48",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}

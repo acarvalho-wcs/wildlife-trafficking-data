@@ -1,0 +1,81 @@
+{
+  "id": "2025-08-08__bangkok-mumbai-54-exotic-animals",
+  "added_at": "2026-10-16T21:55:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Aeroporto Internacional Chhatrapati Shivaji Maharaj, Mumbai",
+  "location_label_en": "Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+  "location_label_es": "Aeropuerto Internacional Chhatrapati Shivaji Maharaj, Mumbai",
+  "country": "Índia",
+  "title_pt": "Mumbai apreende 54 animais vivos de passageiro vindo de Bangkok, incluindo saguis-pigmeus e kinkajous",
+  "title_en": "Mumbai seizes 54 live animals from Bangkok passenger, including pygmy marmosets and kinkajous",
+  "title_es": "Mumbai decomisa 54 animales vivos de pasajero procedente de Bangkok, incluidos titíes pigmeos y kinkajús",
+  "source_label": "The Indian Express / Mumbai Customs",
+  "source_url": "https://indianexpress.com/article/cities/mumbai/customs-arrest-passenger-mumbai-airport-smuggling-endangered-wildlife-species-10179262/lite/",
+  "publication_date": "2025-08-09",
+  "event_date": "2025-08-08",
+  "event_date_precision": "day",
+  "fauna_groups_aggregated": [
+    "Mamíferos",
+    "Répteis"
+  ],
+  "fauna_label_pt": "54 animais vivos: 2 *Cebuella pygmaea*, 2 kinkajous e 50 tartarugas-de-orelha-vermelha albinas",
+  "fauna_label_en": "54 live animals: 2 *Cebuella pygmaea*, 2 kinkajous and 50 albino red-eared sliders",
+  "fauna_label_es": "54 animales vivos: 2 *Cebuella pygmaea*, 2 kinkajús y 50 tortugas de orejas rojas albinas",
+  "taxon_text": "Cebuella pygmaea (2); Potos flavus (2); Trachemys scripta elegans (50; albino morph)",
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "coordinates": {
+    "lat": 19.0896,
+    "lon": 72.8656
+  },
+  "coordinate_precision": "airport",
+  "geographic_note_pt": "Coordenadas do Aeroporto Internacional Chhatrapati Shivaji Maharaj.",
+  "geographic_note_en": "Coordinates of Chhatrapati Shivaji Maharaj International Airport.",
+  "geographic_note_es": "Coordenadas del Aeropuerto Internacional Chhatrapati Shivaji Maharaj.",
+  "quantity_count": 54,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 4,
+    "Répteis": 50
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 saguis-pigmeus + 2 kinkajous + 50 tartarugas; total exato de 54 animais vivos.",
+  "quantity_note_en": "2 pygmy marmosets + 2 kinkajous + 50 turtles; exact total of 54 live animals.",
+  "quantity_note_es": "2 titíes pigmeos + 2 kinkajús + 50 tortugas; total exacto de 54 animales vivos.",
+  "specimen_state": "live",
+  "card_text_pt": "Na noite de 08/08/2025, a alfândega de Mumbai interceptou um passageiro vindo de Bangkok com 54 animais vivos em uma mala: dois saguis-pigmeus, dois kinkajous e 50 tartarugas-de-orelha-vermelha albinas. O passageiro foi preso sob a legislação aduaneira e de proteção da fauna.",
+  "card_text_en": "On the evening of 8 Aug 2025, Mumbai Customs intercepted a passenger arriving from Bangkok with 54 live animals in a trolley bag: two pygmy marmosets, two kinkajous and 50 albino red-eared sliders. The passenger was arrested under customs and wildlife-protection law.",
+  "card_text_es": "La noche del 08/08/2025, la aduana de Mumbai interceptó a un pasajero procedente de Bangkok con 54 animales vivos en una maleta: dos titíes pigmeos, dos kinkajús y 50 tortugas de orejas rojas albinas. El pasajero fue detenido conforme a la legislación aduanera y de protección de fauna.",
+  "context_pt": "[O1] O caso confirma o deslocamento Bangkok → Mumbai e combina fauna neotropical com répteis amplamente comercializados como pets. A fonte informa que o kinkajou está no Apêndice III da CITES e o sagui-pigmeu no Apêndice II. [N1] O episódio integra uma sequência de apreensões de fauna exótica em aeroportos indianos e é consistente com o papel de Bangkok como mercado regional de pets documentado em reportagens posteriores. Isso não demonstra que os mamíferos tenham sido capturados na Amazônia nem que os diferentes casos indianos pertençam à mesma rede. Limites: origem biológica, vendedor e trajeto anterior a Bangkok não foram publicados.",
+  "context_en": "[O1] The case confirms Bangkok → Mumbai movement and combines Neotropical mammals with reptiles widely traded as pets. The source notes that kinkajou is listed in CITES Appendix III and pygmy marmoset in Appendix II. [N1] The event forms part of a broader pattern of exotic-wildlife interceptions at Indian airports and is consistent with Bangkok's role as a regional pet market documented by later reporting. This does not establish that the mammals were taken from the Amazon or that different Indian seizures belong to the same network. Limits: biological origin, seller and any route preceding Bangkok were not published.",
+  "context_es": "[O1] El caso confirma el desplazamiento Bangkok → Mumbai y combina mamíferos neotropicales con reptiles ampliamente comercializados como mascotas. La fuente señala que el kinkajú figura en el Apéndice III de CITES y el tití pigmeo en el Apéndice II. [N1] El episodio forma parte de un patrón más amplio de interceptaciones de fauna exótica en aeropuertos indios y es consistente con el papel de Bangkok como mercado regional de mascotas documentado posteriormente. Esto no demuestra que los mamíferos hayan sido extraídos de la Amazonía ni que distintos casos indios pertenezcan a la misma red. Límites: no se publicaron origen biológico, vendedor ni trayecto anterior a Bangkok.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "The Indian Express / Mumbai Customs — 9 Aug 2025",
+      "url": "https://indianexpress.com/article/cities/mumbai/customs-arrest-passenger-mumbai-airport-smuggling-endangered-wildlife-species-10179262/lite/"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    }
+  ],
+  "references_text_pt": "[O1] The Indian Express / Mumbai Customs — https://indianexpress.com/article/cities/mumbai/customs-arrest-passenger-mumbai-airport-smuggling-endangered-wildlife-species-10179262/lite/\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] The Indian Express / Mumbai Customs — https://indianexpress.com/article/cities/mumbai/customs-arrest-passenger-mumbai-airport-smuggling-endangered-wildlife-species-10179262/lite/\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] The Indian Express / Mumbai Customs — https://indianexpress.com/article/cities/mumbai/customs-arrest-passenger-mumbai-airport-smuggling-endangered-wildlife-species-10179262/lite/\n[N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "image_url": null,
+  "image_source_url": "https://indianexpress.com/article/cities/mumbai/customs-arrest-passenger-mumbai-airport-smuggling-endangered-wildlife-species-10179262/lite/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}

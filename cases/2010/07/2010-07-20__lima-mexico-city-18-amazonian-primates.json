@@ -1,0 +1,73 @@
+{
+  "id": "2010-07-20__lima-mexico-city-18-amazonian-primates",
+  "added_at": "2026-10-16T21:55:00Z",
+  "status": "VALIDATED",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "migration_status": "READY_FOR_CUTOVER",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "location_label_pt": "Aeroporto Internacional da Cidade do México",
+  "location_label_en": "Mexico City International Airport",
+  "location_label_es": "Aeropuerto Internacional de Ciudad de México",
+  "country": "México",
+  "title_pt": "Passageiro vindo de Lima é interceptado na Cidade do México com 18 primatas amazônicos",
+  "title_en": "Passenger from Lima intercepted in Mexico City with 18 Amazonian primates",
+  "title_es": "Pasajero procedente de Lima interceptado en Ciudad de México con 18 primates amazónicos",
+  "source_label": "TRAFFIC",
+  "source_url": "https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/",
+  "publication_date": "2010-07-20",
+  "event_date": "2010-07-20",
+  "event_date_precision": "day",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "fauna_label_pt": "18 primatas: 15 *Cebuella pygmaea*, 2 *Saguinus nigricollis* e 1 *Callimico goeldii*; dois chegaram mortos",
+  "fauna_label_en": "18 primates: 15 *Cebuella pygmaea*, 2 *Saguinus nigricollis* and 1 *Callimico goeldii*; two arrived dead",
+  "fauna_label_es": "18 primates: 15 *Cebuella pygmaea*, 2 *Saguinus nigricollis* y 1 *Callimico goeldii*; dos llegaron muertos",
+  "taxon_text": "Cebuella pygmaea (15); Saguinus nigricollis (2); Callimico goeldii (1)",
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "coordinates": {
+    "lat": 19.4361,
+    "lon": -99.0719
+  },
+  "coordinate_precision": "airport",
+  "geographic_note_pt": "Coordenadas do Aeroporto Internacional da Cidade do México, onde o passageiro foi fiscalizado após chegar de Lima.",
+  "geographic_note_en": "Coordinates of Mexico City International Airport, where the passenger was checked after arriving from Lima.",
+  "geographic_note_es": "Coordenadas del Aeropuerto Internacional de Ciudad de México, donde el pasajero fue inspeccionado tras llegar de Lima.",
+  "quantity_count": 18,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 18
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "18 primatas em um único evento; dois já estavam mortos quando descobertos.",
+  "quantity_note_en": "18 primates in one event; two were already dead when discovered.",
+  "quantity_note_es": "18 primates en un solo evento; dos ya estaban muertos al ser descubiertos.",
+  "specimen_state": "mixed_live_dead",
+  "card_text_pt": "Em 20/07/2010, autoridades mexicanas interceptaram no aeroporto da Cidade do México um passageiro recém-chegado de Lima com 18 primatas escondidos junto ao corpo e na bagagem: 15 *Cebuella pygmaea*, dois *Saguinus nigricollis* e um *Callimico goeldii*. Dois animais estavam mortos.",
+  "card_text_en": "On 20 Jul 2010, Mexican authorities intercepted at Mexico City airport a passenger who had just arrived from Lima carrying 18 primates concealed on his body and in luggage: 15 *Cebuella pygmaea*, two *Saguinus nigricollis* and one *Callimico goeldii*. Two animals were dead.",
+  "card_text_es": "El 20/07/2010, autoridades mexicanas interceptaron en el aeropuerto de Ciudad de México a un pasajero recién llegado de Lima con 18 primates ocultos en el cuerpo y el equipaje: 15 *Cebuella pygmaea*, dos *Saguinus nigricollis* y un *Callimico goeldii*. Dos animales estaban muertos.",
+  "context_pt": "[O1] A TRAFFIC documentou a chegada do passageiro de Lima e a composição exata do lote, constituído por três táxons de primatas distribuídos na Amazônia ocidental. O movimento comprovado é Lima → Cidade do México. A própria TRAFFIC descreveu o México, em termos gerais, como um gateway para fauna latino-americana destinada também a outros mercados; essa avaliação não prova que este lote seguiria para os Estados Unidos, Europa ou Ásia. Limites: local de captura, cadeia de fornecedores no Peru e destino final após o México não foram confirmados.",
+  "context_en": "[O1] TRAFFIC documented the passenger's arrival from Lima and the exact composition of the shipment, involving three primate taxa distributed in the western Amazon. The documented movement is Lima → Mexico City. TRAFFIC also described Mexico in general terms as a gateway for Latin American wildlife moving toward other markets; that assessment does not prove this shipment was bound for the United States, Europe or Asia. Limits: capture location, supplier chain in Peru and final destination beyond Mexico were not confirmed.",
+  "context_es": "[O1] TRAFFIC documentó la llegada del pasajero desde Lima y la composición exacta del lote, integrado por tres taxones de primates distribuidos en la Amazonía occidental. El movimiento comprobado es Lima → Ciudad de México. TRAFFIC también describió a México, en términos generales, como un gateway para fauna latinoamericana hacia otros mercados; esa evaluación no demuestra que este lote tuviera como destino Estados Unidos, Europa o Asia. Límites: no se confirmaron el lugar de captura, la cadena de proveedores en Perú ni el destino final después de México.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "TRAFFIC — Monkey smuggler arrested in Mexico, 20 Jul 2010",
+      "url": "https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/"
+    }
+  ],
+  "references_text_pt": "[O1] TRAFFIC — https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/",
+  "references_text_en": "[O1] TRAFFIC — https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/",
+  "references_text_es": "[O1] TRAFFIC — https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/",
+  "image_url": null,
+  "image_source_url": "https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/",
+  "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL"
+}

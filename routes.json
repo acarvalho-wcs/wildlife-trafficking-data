@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-16T21:50:00Z",
+  "updated_at": "2026-10-16T21:55:00Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11111,6 +11111,150 @@
       "evidence_es": "La fuente informa que el pasajero fue interceptado en Suvarnabhumi con 251 animales vivos ocultos en equipaje preparado para un vuelo a Calcuta.",
       "source_label": "Nation Thailand",
       "source_url": "https://www.nationthailand.com/news/general/40066669"
+    },
+    {
+      "id": "bangkok-chennai-pygmy-marmosets-2022-11-27",
+      "event_match": {
+        "event_id": "2022-11-27__bangkok-chennai-pygmy-marmosets-dusky-leaf-monkeys"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Chennai",
+      "label_en": "Bangkok → Chennai",
+      "label_es": "Bangkok → Chennai",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok / Aeroporto Suvarnabhumi",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.7501,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Chennai",
+            "country": "Índia",
+            "lat": 12.9941,
+            "lon": 80.1709,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "O passageiro chegou a Chennai vindo de Bangkok no voo TG337 em 27/11/2022.",
+      "evidence_en": "The passenger arrived in Chennai from Bangkok on flight TG337 on 27 Nov 2022.",
+      "evidence_es": "El pasajero llegó a Chennai desde Bangkok en el vuelo TG337 el 27/11/2022.",
+      "source_label": "Press Information Bureau / Chennai Air Customs",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1879622&lang=2&reg=48"
+    },
+    {
+      "id": "bangkok-chennai-58-exotic-animals-2023-01-11",
+      "event_match": {
+        "event_id": "2023-01-11__bangkok-chennai-58-exotic-animals"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Chennai",
+      "label_en": "Bangkok → Chennai",
+      "label_es": "Bangkok → Chennai",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.7501,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Chennai",
+            "country": "Índia",
+            "lat": 12.9941,
+            "lon": 80.1709,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "As bagagens pertenciam a passageiro que chegou de Bangkok no voo FD153 em 11/01/2023.",
+      "evidence_en": "The bags belonged to a passenger who arrived from Bangkok on flight FD153 on 11 Jan 2023.",
+      "evidence_es": "Las maletas pertenecían a un pasajero que llegó desde Bangkok en el vuelo FD153 el 11/01/2023.",
+      "source_label": "Press Information Bureau / Chennai Air Customs",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1891621&lang=2&reg=48"
+    },
+    {
+      "id": "bangkok-mumbai-54-exotic-animals-2025-08-08",
+      "event_match": {
+        "event_id": "2025-08-08__bangkok-mumbai-54-exotic-animals"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Mumbai",
+      "label_en": "Bangkok → Mumbai",
+      "label_es": "Bangkok → Mumbai",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.7501,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional Chhatrapati Shivaji Maharaj",
+            "country": "Índia",
+            "lat": 19.0896,
+            "lon": 72.8656,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "A alfândega interceptou o passageiro em Mumbai após sua chegada de Bangkok.",
+      "evidence_en": "Customs intercepted the passenger in Mumbai after his arrival from Bangkok.",
+      "evidence_es": "La aduana interceptó al pasajero en Mumbai tras su llegada desde Bangkok.",
+      "source_label": "The Indian Express / Mumbai Customs",
+      "source_url": "https://indianexpress.com/article/cities/mumbai/customs-arrest-passenger-mumbai-airport-smuggling-endangered-wildlife-species-10179262/lite/"
+    },
+    {
+      "id": "lima-mexico-city-18-primates-2010-07-20",
+      "event_match": {
+        "event_id": "2010-07-20__lima-mexico-city-18-amazonian-primates"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Lima → Cidade do México",
+      "label_en": "Lima → Mexico City",
+      "label_es": "Lima → Ciudad de México",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional Jorge Chávez, Lima",
+            "country": "Peru",
+            "lat": -12.0219,
+            "lon": -77.1143,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Aeroporto Internacional da Cidade do México",
+            "country": "México",
+            "lat": 19.4361,
+            "lon": -99.0719,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "O passageiro foi detido no aeroporto da Cidade do México após chegar de Lima com 18 primatas.",
+      "evidence_en": "The passenger was stopped at Mexico City airport after arriving from Lima with 18 primates.",
+      "evidence_es": "El pasajero fue detenido en el aeropuerto de Ciudad de México tras llegar desde Lima con 18 primates.",
+      "source_label": "TRAFFIC",
+      "source_url": "https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/"
     }
   ],
   "network_context": [
