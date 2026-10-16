@@ -47,13 +47,13 @@
   "geographic_note_pt": "Coordenadas generalizadas para a localidade informada; não representam necessariamente o ponto exato da apreensão.",
   "geographic_note_en": "Generalized coordinates for the reported locality; they do not necessarily represent the exact seizure point.",
   "geographic_note_es": "Coordenadas generalizadas para la localidad informada; no representan necesariamente el punto exacto del decomiso.",
-  "context_pt": "Fatos documentados: o passageiro preparava-se para viajar de Bangkok a Kolkata com 251 animais vivos na bagagem. Contexto analítico: o caso documenta uma tentativa de transporte aéreo internacional em grande volume. Limites da evidência: a fonte não demonstra o local de captura dos animais nem vínculos com outras apreensões.",
-  "context_en": "Documented facts: the passenger was preparing to travel from Bangkok to Kolkata with 251 live animals in luggage. Analytical context: the case documents an attempted high-volume international air movement. Evidence limits: the source does not establish the animals' capture location or links to other seizures.",
-  "context_es": "Hechos documentados: el pasajero se preparaba para viajar de Bangkok a Kolkata con 251 animales vivos en el equipaje. Contexto analítico: el caso documenta un intento de transporte aéreo internacional de gran volumen. Límites de la evidencia: la fuente no establece el lugar de captura de los animales ni vínculos con otros decomisos.",
-  "context_updated_at": "2026-09-24T02:22:00Z",
-  "references_text_pt": "Nation Thailand — https://www.nationthailand.com/news/general/40066669",
-  "references_text_en": "Nation Thailand — https://www.nationthailand.com/news/general/40066669",
-  "references_text_es": "Nation Thailand — https://www.nationthailand.com/news/general/40066669",
+  "context_pt": "[O1] Fatos documentados: um passageiro preparava-se para viajar de Bangkok a Kolkata com 251 animais vivos na bagagem, incluindo duas maras-patagônicas e 62 iguanas, além de calaus, varanos, escincos-de-língua-azul e tartarugas aquáticas. [N1] Coberturas de feiras comerciais de pets em Bangkok documentam presença de espécies sul-americanas, incluindo capivaras, maras, cutias, macacos-esquilo e saguis. [N2] A Mongabay documenta oferta crescente de fauna latino-americana e amazônica no mercado de animais exóticos de Bangkok. A sobreposição geográfica e taxonômica é relevante como contexto de mercado, mas não demonstra que os animais desta apreensão tenham sido adquiridos nessas feiras ou em Chatuchak, nem identifica sua origem biológica. Síntese: Bangkok funciona aqui como ponto documentado de saída de uma remessa internacional contendo fauna sul-americana, o que é compatível com um papel regional de redistribuição, sem provar uma rede comum.",
+  "context_en": "[O1] Documented facts: a passenger was preparing to travel from Bangkok to Kolkata with 251 live animals in luggage, including two Patagonian maras and 62 iguanas, along with hornbills, monitor lizards, blue-tongued skinks and aquatic turtles. [N1] Reporting on commercial pet fairs in Bangkok documents the presence of South American species including capybaras, maras, agoutis, squirrel monkeys and marmosets. [N2] Mongabay documents a growing offer of Latin American and Amazonian wildlife in Bangkok's exotic-animal market. This geographic and taxonomic overlap is relevant market context but does not establish that the animals in this seizure were purchased at those fairs or at Chatuchak, nor does it identify their biological origin. Synthesis: Bangkok is a documented departure point for an international shipment containing South American wildlife, consistent with a possible regional redistribution role without proving a shared network.",
+  "context_es": "[O1] Hechos documentados: un pasajero se preparaba para viajar de Bangkok a Calcuta con 251 animales vivos en el equipaje, incluidas dos maras patagónicas y 62 iguanas, además de cálaos, varanos, escincos de lengua azul y tortugas acuáticas. [N1] Coberturas de ferias comerciales de mascotas en Bangkok documentan la presencia de especies sudamericanas, incluidas capibaras, maras, agutíes, monos ardilla y titíes. [N2] Mongabay documenta una oferta creciente de fauna latinoamericana y amazónica en el mercado de animales exóticos de Bangkok. Esta superposición geográfica y taxonómica es relevante como contexto de mercado, pero no demuestra que los animales de este decomiso hayan sido comprados en esas ferias o en Chatuchak, ni identifica su origen biológico. Síntesis: Bangkok funciona aquí como punto documentado de salida de un envío internacional que contenía fauna sudamericana, compatible con un posible papel regional de redistribución sin demostrar una red común.",
+  "context_updated_at": "2026-10-16T21:45:00Z",
+  "references_text_pt": "[O1] Nation Thailand — https://www.nationthailand.com/news/general/40066669; [N1] Khaosod — https://www.khaosod.co.th/economics/news_10229645; [N2] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_en": "[O1] Nation Thailand — https://www.nationthailand.com/news/general/40066669; [N1] Khaosod — https://www.khaosod.co.th/economics/news_10229645; [N2] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
+  "references_text_es": "[O1] Nation Thailand — https://www.nationthailand.com/news/general/40066669; [N1] Khaosod — https://www.khaosod.co.th/economics/news_10229645; [N2] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/",
   "quantity_count": 251,
   "quantity_qualifier": "exact",
   "quantity_kind": "animals",
@@ -71,5 +71,25 @@
   "image_checked_at": "2026-10-10T16:13:33Z",
   "image_status": "DIRECT_IMAGE_URL_VALIDATED",
   "image_url": "https://media.nationthailand.com/uploads/images/md/2026/05/7YDG1Y60rcbPH9ej722M.webp",
-  "image_resolution_method": "existing_direct"
+  "image_resolution_method": "existing_direct",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Nation Thailand — 251 live animals seized before Bangkok-to-Kolkata flight",
+      "url": "https://www.nationthailand.com/news/general/40066669"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Khaosod — Pet Expo Thailand 2026",
+      "url": "https://www.khaosod.co.th/economics/news_10229645"
+    },
+    {
+      "id": "N2",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    }
+  ]
 }
