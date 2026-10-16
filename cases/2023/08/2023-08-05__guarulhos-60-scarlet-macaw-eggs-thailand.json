@@ -57,9 +57,9 @@
   "geographic_note_pt": "A fonte documenta a tentativa de embarque Guarulhos → Tailândia. A origem biológica dos ovos dentro do Brasil não é informada.",
   "geographic_note_en": "The source documents attempted travel Guarulhos → Thailand. The biological origin of the eggs within Brazil is not reported.",
   "geographic_note_es": "La fuente documenta el intento de viaje Guarulhos → Tailandia. No se informa el origen biológico de los huevos dentro de Brasil.",
-  "context_pt": "[O1] Sessenta ovos de *Ara chloropterus* foram interceptados em bagagem de mão antes de voo para a Tailândia. [S1] A literatura sobre redes aeroportuárias contextualiza o uso de hubs internacionais, sem inferir conexões adicionais. Limites: não há local de coleta publicado.",
-  "context_en": "[O1] Sixty *Ara chloropterus* eggs were intercepted in hand luggage before a flight to Thailand. [S1] Airport-network literature contextualizes international hub use without inferring additional connections. Limits: no collection site is published.",
-  "context_es": "[O1] Sesenta huevos de *Ara chloropterus* fueron interceptados en equipaje de mano antes de un vuelo a Tailandia. [S1] La literatura sobre redes aeroportuarias contextualiza el uso de hubs internacionales sin inferir conexiones adicionales. Límites: no se publica el lugar de extracción.",
+  "context_pt": "[O1] Sessenta ovos de *Ara chloropterus* foram interceptados em bagagem de mão antes de voo para a Tailândia. [S1] A literatura sobre redes aeroportuárias contextualiza o uso de hubs internacionais, sem inferir conexões adicionais. [N1] Reportagem da Mongabay documenta oferta crescente de fauna amazônica e sul-americana no mercado de animais exóticos de Bangkok. [N2] A Agência Nacional de Inteligência da Tailândia também registrou preocupação institucional com a chegada e comercialização de fauna latino-americana e amazônica no país. Essas fontes fortalecem o contexto de demanda no destino, mas não demonstram que os 60 ovos deste caso tinham Chatuchak, Bangkok ou qualquer comerciante específico como destino final. Limites: não há local de coleta publicado, e a origem biológica dentro do Brasil não foi estabelecida.",
+  "context_en": "[O1] Sixty *Ara chloropterus* eggs were intercepted in hand luggage before a flight to Thailand. [S1] Airport-network literature contextualizes the use of international hubs without inferring additional connections. [N1] Mongabay reporting documents a growing offer of Amazonian and South American wildlife in Bangkok's exotic-animal market. [N2] Thailand's National Intelligence Agency has also recorded institutional concern about Latin American and Amazonian wildlife entering and being commercialized in the country. These sources strengthen destination-market context but do not establish that the 60 eggs in this case were destined for Chatuchak, Bangkok, or any specific trader. Limits: no collection locality was published and biological origin within Brazil was not established.",
+  "context_es": "[O1] Sesenta huevos de *Ara chloropterus* fueron interceptados en equipaje de mano antes de un vuelo hacia Tailandia. [S1] La literatura sobre redes aeroportuarias contextualiza el uso de hubs internacionales sin inferir conexiones adicionales. [N1] Un reportaje de Mongabay documenta una oferta creciente de fauna amazónica y sudamericana en el mercado de animales exóticos de Bangkok. [N2] La Agencia Nacional de Inteligencia de Tailandia también registró preocupación institucional por la llegada y comercialización de fauna latinoamericana y amazónica en el país. Estas fuentes refuerzan el contexto de demanda en el destino, pero no demuestran que los 60 huevos de este caso tuvieran como destino final Chatuchak, Bangkok o un comerciante específico. Límites: no se publicó el lugar de colecta y no se estableció el origen biológico dentro de Brasil.",
   "context_references": [
     {
       "id": "O1",
@@ -72,13 +72,25 @@
       "type": "research_repository",
       "label": "Encoding and decoding illegal wildlife trade networks reveals key airport characteristics and undetected hotspots",
       "url": "https://doi.org/10.1038/s43247-025-02371-5"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    },
+    {
+      "id": "N2",
+      "type": "news_repository",
+      "label": "National Intelligence Agency of Thailand — Latin American and Amazon wildlife in Thai exotic-pet markets",
+      "url": "https://www.nia.go.th/news/page/detail/15268/"
     }
   ],
-  "references_text_pt": "[O1] WCO Illicit Trade Report 2023; [S1] DOI 10.1038/s43247-025-02371-5.",
-  "references_text_en": "[O1] WCO Illicit Trade Report 2023; [S1] DOI 10.1038/s43247-025-02371-5.",
-  "references_text_es": "[O1] WCO Illicit Trade Report 2023; [S1] DOI 10.1038/s43247-025-02371-5.",
+  "references_text_pt": "[O1] WCO Illicit Trade Report 2023; [S1] DOI 10.1038/s43247-025-02371-5; [N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/; [N2] National Intelligence Agency of Thailand — https://www.nia.go.th/news/page/detail/15268/",
+  "references_text_en": "[O1] WCO Illicit Trade Report 2023; [S1] DOI 10.1038/s43247-025-02371-5; [N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/; [N2] National Intelligence Agency of Thailand — https://www.nia.go.th/news/page/detail/15268/",
+  "references_text_es": "[O1] WCO Illicit Trade Report 2023; [S1] DOI 10.1038/s43247-025-02371-5; [N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/; [N2] National Intelligence Agency of Thailand — https://www.nia.go.th/news/page/detail/15268/",
   "route_audited_at": "2026-10-03T00:55:00Z",
-  "context_updated_at": "2026-10-03T00:55:00Z",
+  "context_updated_at": "2026-10-16T21:45:00Z",
   "image_url": null,
   "image_source_url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/enforcement-and-compliance/activities-and-programmes/illicit-trade-report/itr_2023_en.pdf",
   "image_status": "SOURCE_PAGE_HAS_IMAGE_UNRESOLVED_DIRECT_URL",
