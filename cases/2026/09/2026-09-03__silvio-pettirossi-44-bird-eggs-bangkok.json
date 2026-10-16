@@ -57,22 +57,34 @@
   "geographic_note_pt": "Itinerário documentado: Assunção → São Paulo → Bangkok. Isso representa a viagem planejada das passageiras, não a origem biológica dos ovos.",
   "geographic_note_en": "Documented itinerary: Asunción → São Paulo → Bangkok. This represents planned passenger travel, not biological origin of the eggs.",
   "geographic_note_es": "Itinerario documentado: Asunción → São Paulo → Bangkok. Representa el viaje previsto de las pasajeras, no el origen biológico de los huevos.",
-  "context_pt": "[O1] O caso confirma 44 ovos ocultos no corpo e itinerário Assunção–São Paulo–Bangkok. Síntese: a espécie permanece apenas provável até conclusão técnica. Limites: não foi estabelecido onde os ovos foram coletados nem sua identificação definitiva.",
-  "context_en": "[O1] The case confirms 44 eggs concealed on the body and an Asunción–São Paulo–Bangkok itinerary. Synthesis: species remains only probable pending technical confirmation. Limits: collection location and definitive identification were not established.",
-  "context_es": "[O1] El caso confirma 44 huevos ocultos en el cuerpo y un itinerario Asunción–São Paulo–Bangkok. Síntesis: la especie permanece solo probable hasta confirmación técnica. Límites: no se establecieron el lugar de extracción ni la identificación definitiva.",
+  "context_pt": "[O1] O caso confirma 44 ovos ocultos no corpo e itinerário Assunção → São Paulo → Bangkok; a avaliação preliminar apontou possível *Ara ararauna*, sem confirmação definitiva. [N1] A Mongabay documenta oferta crescente de araras e outras espécies amazônicas e latino-americanas no comércio de animais exóticos de Bangkok. [N2] A Agência Nacional de Inteligência da Tailândia registrou preocupação institucional com a entrada e venda de fauna latino-americana e amazônica no país. A coincidência entre destino declarado e mercado documentado é analiticamente relevante, mas não demonstra que estes ovos seriam destinados a Chatuchak ou a qualquer comprador específico. Limites: não foi estabelecido onde os ovos foram coletados nem sua identificação definitiva.",
+  "context_en": "[O1] The case confirms 44 eggs concealed on the body and an Asunción → São Paulo → Bangkok itinerary; preliminary assessment indicated possible *Ara ararauna*, without definitive confirmation. [N1] Mongabay documents a growing offer of macaws and other Amazonian and Latin American species in Bangkok's exotic-animal trade. [N2] Thailand's National Intelligence Agency has recorded institutional concern about Latin American and Amazonian wildlife entering and being sold in the country. The overlap between declared destination and documented market is analytically relevant but does not establish that these eggs were destined for Chatuchak or any specific buyer. Limits: the collection locality and definitive identification were not established.",
+  "context_es": "[O1] El caso confirma 44 huevos ocultos en el cuerpo y un itinerario Asunción → São Paulo → Bangkok; la evaluación preliminar indicó posible *Ara ararauna*, sin confirmación definitiva. [N1] Mongabay documenta una oferta creciente de guacamayos y otras especies amazónicas y latinoamericanas en el comercio de animales exóticos de Bangkok. [N2] La Agencia Nacional de Inteligencia de Tailandia registró preocupación institucional por la entrada y venta de fauna latinoamericana y amazónica en el país. La coincidencia entre el destino declarado y el mercado documentado es analíticamente relevante, pero no demuestra que estos huevos estuvieran destinados a Chatuchak ni a un comprador específico. Límites: no se estableció dónde fueron recolectados los huevos ni su identificación definitiva.",
   "context_references": [
     {
       "id": "O1",
       "type": "case_source",
       "label": "ABC Color — 44 bird eggs at Silvio Pettirossi",
       "url": "https://www.abc.com.py/policiales/2026/09/03/insolito-intentaron-llevar-44-huevos-de-presuntos-guacamayos-hasta-tailandia/"
+    },
+    {
+      "id": "N1",
+      "type": "news_repository",
+      "label": "Mongabay — Why is Amazonian wildlife turning up at a Bangkok market?",
+      "url": "https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/"
+    },
+    {
+      "id": "N2",
+      "type": "news_repository",
+      "label": "National Intelligence Agency of Thailand — Latin American and Amazon wildlife in Thai exotic-pet markets",
+      "url": "https://www.nia.go.th/news/page/detail/15268/"
     }
   ],
-  "references_text_pt": "[O1] ABC Color / Policía Aeroportuaria / MADES, 03/09/2026.",
-  "references_text_en": "[O1] ABC Color / Airport Police / MADES, 3 Sep 2026.",
-  "references_text_es": "[O1] ABC Color / Policía Aeroportuaria / MADES, 03/09/2026.",
+  "references_text_pt": "[O1] ABC Color / Policía Aeroportuaria / MADES, 03/09/2026; [N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/; [N2] National Intelligence Agency of Thailand — https://www.nia.go.th/news/page/detail/15268/",
+  "references_text_en": "[O1] ABC Color / Policía Aeroportuaria / MADES, 03/09/2026; [N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/; [N2] National Intelligence Agency of Thailand — https://www.nia.go.th/news/page/detail/15268/",
+  "references_text_es": "[O1] ABC Color / Policía Aeroportuaria / MADES, 03/09/2026; [N1] Mongabay — https://news.mongabay.com/2026/09/why-is-amazonian-wildlife-turning-up-at-a-bangkok-market/; [N2] National Intelligence Agency of Thailand — https://www.nia.go.th/news/page/detail/15268/",
   "route_audited_at": "2026-10-03T01:20:00Z",
-  "context_updated_at": "2026-10-03T01:20:00Z",
+  "context_updated_at": "2026-10-16T21:45:00Z",
   "image_url": "https://www.abc.com.py/resizer/v2/KIFWLSBXRJH53IWZFHUSKGJ664.jpg?auth=af9863310014cb88d87f083b9c7889f48d85acd46546f17d77095a34471d927b&width=770&focal=346,520",
   "image_source_url": "https://www.abc.com.py/policiales/2026/09/03/insolito-intentaron-llevar-44-huevos-de-presuntos-guacamayos-hasta-tailandia/",
   "image_status": "DIRECT_IMAGE_URL_VALIDATED",
