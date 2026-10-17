@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-14__jacupiranga-bushmeat-five-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-14",
+  "publication_date": "2026-10-15",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -24.695,
+    "lon": -48.006
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Polícia Militar Ambiental de São Paulo",
+  "source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-armas-e-carne-de-caca-em-jacupiranga/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Cinco aves nativas (pixoxó, trinca-ferro e curió); carne de caça de espécie não informada",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 5,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 5
+  },
+  "quantity_unassigned": 0,
+  "ingestion_batch": "validated-multilingual-seizures-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ENDPOINT_PAIR",
+  "image_url": null,
+  "image_source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-armas-e-carne-de-caca-em-jacupiranga/",
+  "image_status": "IMAGE_UNVERIFIED",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "PMESP",
+      "url": "https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-armas-e-carne-de-caca-em-jacupiranga/"
+    }
+  ],
+  "quantity_note_pt": "Contar apenas 5 aves; registrar separadamente 13,1 kg de carne, sem inferir indivíduos.",
+  "quantity_note_en": "Count only 5 birds; keep 13.1 kg of meat separately; no inferred individuals.",
+  "quantity_note_es": "Contar solo 5 aves; registrar 13,1 kg de carne aparte, sin inferir individuos.",
+  "quantity_weight_kg": 13.1,
+  "location_label_pt": "Jacupiranga, São Paulo",
+  "fauna_label_pt": "13,1 kg de carne de caça e cinco aves nativas",
+  "title_pt": "Carne de caça destinada à venda e cinco aves apreendidas em Jacupiranga",
+  "card_text_pt": "Em 14/10, a PM Ambiental apreendeu 13,1 kg de carne de caça, armas e munições; cinco aves cativas foram resgatadas. O suspeito declarou que a carne seria vendida, mas não há prova de comércio das aves.",
+  "context_pt": "[O1] Em 14/10, durante fiscalização em uma propriedade no município de Jacupiranga, zona de amortecimento do Parque Estadual Rio Turvo, a PM Ambiental apreendeu 13,1 kg de carne de animais silvestres, duas espingardas, munições e petrechos de caça. Conforme o registro policial, o suspeito admitiu caçar e afirmou que destinaria a carne à venda sem autorização; trata-se de comercialização pretendida, e não de transação consumada ou comprador identificado. Cinco aves nativas, entre pixoxó, trinca-ferro e curió, eram mantidas irregularmente e foram soltas após avaliação. Não há evidência de venda dessas aves. A espécie da carne não foi determinada; o peso não pode ser convertido em número de animais. A propriedade e a região são conhecidas, mas nenhuma rota comercial possui extremos documentados.",
+  "references_text_pt": "[O1] PMESP — https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-armas-e-carne-de-caca-em-jacupiranga/",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não ponto exato da apreensão.",
+  "route_audit_note_pt": "Sem pares documentados de origem e destino; nenhuma rota gerada.",
+  "location_label_en": "Jacupiranga, São Paulo",
+  "fauna_label_en": "13.1 kg of bushmeat and five native birds",
+  "title_en": "Bushmeat allegedly destined for sale and five birds seized in Jacupiranga",
+  "card_text_en": "On 14 October, environmental police seized 13.1 kg of bushmeat and weapons and rescued five captive wild birds. The suspect said the meat would be sold; no evidence of bird sales was reported.",
+  "context_en": "[O1] During a 14 October inspection of a property in Jacupiranga, inside Rio Turvo State Park's buffer zone, São Paulo environmental police seized 13.1 kg of wildlife meat, two shotguns, ammunition and hunting gear. According to officers, the detainee admitted poaching and stated that the meat was intended for unauthorized sale; this is reported intent, not a confirmed transaction or identified purchaser. Five native birds, locally called pixoxó, trinca-ferro and curió, were being held unlawfully and were released after inspection, with no allegation that they were offered for sale. The meat's species were not identified, and kilograms cannot be converted into animal numbers. The seized property is a documented point, but no verified supply or destination endpoints exist.",
+  "references_text_en": "[O1] PMESP — https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-armas-e-carne-de-caca-em-jacupiranga/",
+  "geographic_note_en": "Approximate locality reference, not exact seizure point.",
+  "route_audit_note_en": "No documented origin-destination endpoints; no route drawn.",
+  "location_label_es": "Jacupiranga, São Paulo",
+  "fauna_label_es": "13,1 kg de carne de caza y cinco aves nativas",
+  "title_es": "Carne de caza destinada a la venta y cinco aves decomisadas en Jacupiranga",
+  "card_text_es": "El 14 de octubre, la policía ambiental incautó 13,1 kg de carne de fauna, armas y municiones y rescató cinco aves cautivas. El sospechoso dijo que vendería la carne; no se informó venta de aves.",
+  "context_es": "[O1] El 14 de octubre, durante una inspección en Jacupiranga, dentro de la zona de amortiguamiento del Parque Estatal Rio Turvo, la policía ambiental decomisó 13,1 kg de carne silvestre, dos escopetas, municiones y equipo de caza. Según la policía, el detenido reconoció que cazaba y que pretendía vender la carne sin autorización; esto indica intención comercial, no una venta consumada o comprador identificado. Cinco aves nativas, conocidas como pixoxó, trinca-ferro y curió, estaban en cautiverio irregular y fueron liberadas tras evaluación; no se documentó su venta. No se identificaron las especies de la carne y el peso no equivale a número de animales. No hay extremos geográficos para dibujar una ruta.",
+  "references_text_es": "[O1] PMESP — https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-armas-e-carne-de-caca-em-jacupiranga/",
+  "geographic_note_es": "Referencia geográfica aproximada, no lugar exacto del decomiso.",
+  "route_audit_note_es": "No hay extremos documentados de origen y destino; sin ruta."
+}

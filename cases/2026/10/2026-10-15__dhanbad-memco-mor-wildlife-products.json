@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-15__dhanbad-memco-mor-wildlife-products",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-10-15",
+  "publication_date": "2026-10-15",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": 23.805,
+    "lon": 86.43
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Dainik Jagran / Hindustan / Navbharat Times",
+  "source_url": "https://www.jagran.com/jharkhand/dhanbad-dhanbad-wildlife-trafficking-3-arrested-animal-parts-seized-40405987.html",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Escamas suspeitas de pangolim; peles, ossos e garras possivelmente de felinos; taxonomia em análise",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "ingestion_batch": "validated-multilingual-seizures-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ENDPOINT_PAIR",
+  "image_url": null,
+  "image_source_url": "https://www.jagran.com/jharkhand/dhanbad-dhanbad-wildlife-trafficking-3-arrested-animal-parts-seized-40405987.html",
+  "image_status": "IMAGE_UNVERIFIED",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Dainik Jagran",
+      "url": "https://www.jagran.com/jharkhand/dhanbad-dhanbad-wildlife-trafficking-3-arrested-animal-parts-seized-40405987.html"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Hindustan",
+      "url": "https://www.livehindustan.com/jharkhand/dhanbad/story-dhanbad-wildlife-trafficking-three-arrested-70-wildlife-products-worth-50-lakh-seized-201792098674816.amp.html"
+    },
+    {
+      "id": "O3",
+      "type": "case_source",
+      "label": "Navbharat Times",
+      "url": "https://navbharattimes.indiatimes.com/state/jharkhand/dhanbad/dhanbad-wildlife-organ-smuggling-racket-busted-40-lakh-worth-banned-items-seized-three-arrested/articleshow/134971388.cms"
+    }
+  ],
+  "quantity_note_pt": "Divergência de fontes (35 ou 70 produtos); contagem numérica indeterminada.",
+  "quantity_note_en": "Conflicting reports (35 or 70 items); numeric count unknown.",
+  "quantity_note_es": "Fuentes divergentes (35 o 70 piezas); recuento desconocido.",
+  "location_label_pt": "Memco Mor, Dhanbad, Jharkhand",
+  "fauna_label_pt": "Escamas, peles, ossos e garras; relatados 35 ou 70 itens",
+  "title_pt": "Produtos de fauna apreendidos em negociação clandestina investigada em Dhanbad",
+  "card_text_pt": "Em 15/10, três suspeitos foram detidos com produtos de fauna em hotel de Dhanbad. Fontes divulgam 35 ou 70 peças; escamas de pangolim e partes de felinos ainda dependem de análise.",
+  "context_pt": "[O1–O3] Em 15/10, o Departamento Florestal realizou operação em hotel próximo a Memco Mor, Dhanbad, após informações sobre uma possível negociação de partes de animais silvestres; agentes atuaram como compradores e detiveram três suspeitos. Foram relatados materiais atribuídos a escamas de pangolim e a peles, garras e ossos de felinos, mas a identificação específica dos itens depende de laudos, com amostras enviadas a Dehradun. Dainik Jagran e Hindustan falam em cerca de 70 produtos; outra cobertura apresenta 35 itens proibidos. Sem inventário oficial conciliado, não se somam esses números e a contagem canônica permanece indeterminada. Uma proposta de negócio ou a alegação de mercado internacional não demonstra origem de caça, fornecedores nem país de destino. Não desenhar rota.",
+  "references_text_pt": "[O1] Dainik Jagran — https://www.jagran.com/jharkhand/dhanbad-dhanbad-wildlife-trafficking-3-arrested-animal-parts-seized-40405987.html\n[O2] Hindustan — https://www.livehindustan.com/jharkhand/dhanbad/story-dhanbad-wildlife-trafficking-three-arrested-70-wildlife-products-worth-50-lakh-seized-201792098674816.amp.html\n[O3] Navbharat Times — https://navbharattimes.indiatimes.com/state/jharkhand/dhanbad/dhanbad-wildlife-organ-smuggling-racket-busted-40-lakh-worth-banned-items-seized-three-arrested/articleshow/134971388.cms",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não ponto exato da apreensão.",
+  "route_audit_note_pt": "Sem pares documentados de origem e destino; nenhuma rota gerada.",
+  "location_label_en": "Memco Mor, Dhanbad, Jharkhand",
+  "fauna_label_en": "Wildlife scales, skins, bones and claws; reports differ (35 or 70)",
+  "title_en": "Wildlife parts seized during suspected illicit deal in Dhanbad",
+  "card_text_en": "On 15 October, three suspects were detained with wildlife products at a Dhanbad hotel. Reports disagree on 35 versus 70 items; suspected pangolin and felid parts require testing.",
+  "context_en": "[O1–O3] On 15 October, forest officers raided a hotel near Memco Mor in Dhanbad after receiving intelligence about a suspected wildlife-parts transaction; officers reportedly posed as buyers and detained three suspects. Seized materials were described as suspected pangolin scales and felid skins, bones and claws, but species identification is subject to forensic tests, with samples sent to Dehradun. Dainik Jagran and Hindustan mention approximately 70 items, while other coverage lists 35 prohibited articles. These figures cannot be summed or reconciled without the official inventory; the canonical numeric count remains unknown. A proposed deal or reference to international market value does not establish the poaching site, suppliers or destination country, so no geographic route is drawn.",
+  "references_text_en": "[O1] Dainik Jagran — https://www.jagran.com/jharkhand/dhanbad-dhanbad-wildlife-trafficking-3-arrested-animal-parts-seized-40405987.html\n[O2] Hindustan — https://www.livehindustan.com/jharkhand/dhanbad/story-dhanbad-wildlife-trafficking-three-arrested-70-wildlife-products-worth-50-lakh-seized-201792098674816.amp.html\n[O3] Navbharat Times — https://navbharattimes.indiatimes.com/state/jharkhand/dhanbad/dhanbad-wildlife-organ-smuggling-racket-busted-40-lakh-worth-banned-items-seized-three-arrested/articleshow/134971388.cms",
+  "geographic_note_en": "Approximate locality reference, not exact seizure point.",
+  "route_audit_note_en": "No documented origin-destination endpoints; no route drawn.",
+  "location_label_es": "Memco Mor, Dhanbad, Jharkhand",
+  "fauna_label_es": "Escamas, pieles, huesos y garras; cifras divergentes (35 o 70)",
+  "title_es": "Partes de fauna decomisadas durante presunta negociación ilegal en Dhanbad",
+  "card_text_es": "El 15 de octubre, tres sospechosos fueron detenidos con productos de fauna en un hotel de Dhanbad. Las fuentes informan 35 o 70 piezas; los restos de pangolín y felinos requieren peritajes.",
+  "context_es": "[O1–O3] El 15 de octubre, agentes forestales allanaron un hotel cercano a Memco Mor, Dhanbad, tras recibir información de una presunta negociación de partes de fauna; los agentes se hicieron pasar por compradores y detuvieron a tres sospechosos. Se describieron escamas posiblemente de pangolín y pieles, garras y huesos atribuidos a felinos, cuya identificación requiere análisis de muestras remitidas a Dehradun. Dainik Jagran y Hindustan mencionan unos 70 artículos, mientras otras fuentes informan 35. No se suman ni concilian sin inventario oficial y el recuento permanece desconocido. Una negociación proyectada o supuesto destino internacional no comprueba sitios de captura, proveedores ni países destinatarios. No se infiere ruta.",
+  "references_text_es": "[O1] Dainik Jagran — https://www.jagran.com/jharkhand/dhanbad-dhanbad-wildlife-trafficking-3-arrested-animal-parts-seized-40405987.html\n[O2] Hindustan — https://www.livehindustan.com/jharkhand/dhanbad/story-dhanbad-wildlife-trafficking-three-arrested-70-wildlife-products-worth-50-lakh-seized-201792098674816.amp.html\n[O3] Navbharat Times — https://navbharattimes.indiatimes.com/state/jharkhand/dhanbad/dhanbad-wildlife-organ-smuggling-racket-busted-40-lakh-worth-banned-items-seized-three-arrested/articleshow/134971388.cms",
+  "geographic_note_es": "Referencia geográfica aproximada, no lugar exacto del decomiso.",
+  "route_audit_note_es": "No hay extremos documentados de origen y destino; sin ruta."
+}

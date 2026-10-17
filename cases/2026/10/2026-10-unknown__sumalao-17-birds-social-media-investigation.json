@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-unknown__sumalao-17-birds-social-media-investigation",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "event_date": null,
+  "publication_date": "2026-10-15",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": -28.51,
+    "lon": -65.73
+  },
+  "coordinate_precision": "locality_generalized",
+  "source_label": "Extra Catamarca / Diario Inforama",
+  "source_url": "https://extracatamarca.com/secuestro-17-aves-20-jaulas-sumalao",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "17 aves silvestres, espécies não divulgadas",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 17,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 17
+  },
+  "quantity_unassigned": 0,
+  "ingestion_batch": "validated-multilingual-seizures-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ENDPOINT_PAIR",
+  "image_url": null,
+  "image_source_url": "https://extracatamarca.com/secuestro-17-aves-20-jaulas-sumalao",
+  "image_status": "IMAGE_UNVERIFIED",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Extra Catamarca",
+      "url": "https://extracatamarca.com/secuestro-17-aves-20-jaulas-sumalao"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Diario Inforama",
+      "url": "https://inforama.com.ar/actualidad/2026/10/16/secuestraron-17-aves-silvestres-durante-un-allanamiento-en-sumalao/"
+    }
+  ],
+  "quantity_note_pt": "Contar 17 aves, não as 20 gaiolas. Data exata desconhecida.",
+  "quantity_note_en": "Count 17 birds, not 20 cages. Exact event date unknown.",
+  "quantity_note_es": "Contar 17 aves, no las 20 jaulas. Fecha exacta desconocida.",
+  "location_label_pt": "Sumalao, Valle Viejo, Catamarca",
+  "fauna_label_pt": "Dezessete aves silvestres e 20 gaiolas",
+  "title_pt": "Dezessete aves apreendidas em investigação de venda online em Sumalao",
+  "card_text_pt": "Busca judicial em Sumalao apreendeu 17 aves, 20 gaiolas e um celular em investigação sobre possível venda pelas redes sociais, divulgada em 15–16/10. Dia da diligência não informado.",
+  "context_pt": "[O1–O2] A Divisão de Delitos Culturais e Ambientais, com ordem judicial, fez uma busca em residência da rua Samuel Molina, Sumalao, Valle Viejo, na província de Catamarca. Foram apreendidas 17 aves silvestres não identificadas por espécie, 20 gaiolas e um telefone celular. A apuração envolve possível oferta ilegal por redes sociais, ainda sem comprador identificado ou transação demonstrada. A imprensa divulgou o boletim em 15/10 e nova matéria em 16/10, mas a fonte inicial informa explicitamente que não fixa a data da ação; a data operacional permanece desconhecida. A ocorrência não é a apreensão anterior de 09/10 na rua 9 de Julio, em San Fernando del Valle de Catamarca, embora o total de aves seja coincidentemente igual a 17; aquele caso teve 15 gaiolas e dois imóveis. Não há rota documentada.",
+  "references_text_pt": "[O1] Extra Catamarca — https://extracatamarca.com/secuestro-17-aves-20-jaulas-sumalao\n[O2] Diario Inforama — https://inforama.com.ar/actualidad/2026/10/16/secuestraron-17-aves-silvestres-durante-un-allanamiento-en-sumalao/",
+  "geographic_note_pt": "Coordenada aproximada da localidade, não ponto exato da apreensão.",
+  "route_audit_note_pt": "Sem pares documentados de origem e destino; nenhuma rota gerada.",
+  "location_label_en": "Sumalao, Valle Viejo, Catamarca",
+  "fauna_label_en": "Seventeen wild birds and 20 cages",
+  "title_en": "Seventeen birds seized in suspected online wildlife trade in Sumalao",
+  "card_text_en": "A Sumalao search seized 17 birds, 20 cages and a phone in an investigation of suspected social-media sales, reported 15–16 October. The search date was not specified.",
+  "context_en": "[O1–O2] Acting on a judicial warrant, Catamarca's Cultural and Environmental Crimes Division searched a property on Samuel Molina Street in Sumalao, Valle Viejo. Officers seized 17 wild birds of undisclosed species, 20 cages and a cell phone. Investigators suspect illegal advertising and sale through social media; no identified customer or completed transaction is established. The initial report was published on 15 October and another on 16 October, but the first explicitly states that the search date was not specified. The event date must remain null. This case differs from the 9 October searches on 9 de Julio Street in San Fernando del Valle de Catamarca, which also found 17 birds but 15 cages at two premises. No commercial movement between locations is proven.",
+  "references_text_en": "[O1] Extra Catamarca — https://extracatamarca.com/secuestro-17-aves-20-jaulas-sumalao\n[O2] Diario Inforama — https://inforama.com.ar/actualidad/2026/10/16/secuestraron-17-aves-silvestres-durante-un-allanamiento-en-sumalao/",
+  "geographic_note_en": "Approximate locality reference, not exact seizure point.",
+  "route_audit_note_en": "No documented origin-destination endpoints; no route drawn.",
+  "location_label_es": "Sumalao, Valle Viejo, Catamarca",
+  "fauna_label_es": "Diecisiete aves silvestres y 20 jaulas",
+  "title_es": "Diecisiete aves decomisadas en investigación de venta online en Sumalao",
+  "card_text_es": "Un allanamiento en Sumalao decomisó 17 aves, 20 jaulas y un celular en una investigación de ventas en redes, difundida el 15–16 de octubre. No consta fecha exacta del registro.",
+  "context_es": "[O1–O2] La División Delitos Culturales y Ambientales de Catamarca allanó con orden judicial un inmueble en calle Samuel Molina de Sumalao, Valle Viejo. Se secuestraron 17 aves silvestres sin determinación específica, 20 jaulas y un teléfono. Se investiga la presunta comercialización por redes sociales, sin comprador identificado ni venta consumada comprobada. La primera noticia es del 15 de octubre y otra del 16, pero el primer parte señala que no consta el día del allanamiento, por lo que la fecha del evento sigue desconocida. Este episodio es distinto del operativo del 9 de octubre en dos domicilios de calle 9 de Julio en San Fernando del Valle de Catamarca, también con 17 aves pero 15 jaulas. No existe ruta documentada.",
+  "references_text_es": "[O1] Extra Catamarca — https://extracatamarca.com/secuestro-17-aves-20-jaulas-sumalao\n[O2] Diario Inforama — https://inforama.com.ar/actualidad/2026/10/16/secuestraron-17-aves-silvestres-durante-un-allanamiento-en-sumalao/",
+  "geographic_note_es": "Referencia geográfica aproximada, no lugar exacto del decomiso.",
+  "route_audit_note_es": "No hay extremos documentados de origen y destino; sin ruta."
+}
