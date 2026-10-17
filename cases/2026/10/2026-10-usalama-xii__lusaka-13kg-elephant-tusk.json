@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-usalama-xii__lusaka-13kg-elephant-tusk",
+  "status": "VALIDATED",
+  "country": "Zâmbia",
+  "event_date": null,
+  "publication_date": "2026-10-17",
+  "event_date_precision": "range",
+  "coordinates": {
+    "lat": -15.4167,
+    "lon": 28.2833
+  },
+  "coordinate_precision": "city_generalized",
+  "source_label": "MUVI TV / polícia da Zâmbia",
+  "source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Elephant ivory, species not identified",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Uma peça com 13 kg; não inferir quantidade de elefantes.",
+  "quantity_note_en": "Uma peça com 13 kg; não inferir quantidade de elefantes.",
+  "quantity_note_es": "Uma peça com 13 kg; não inferir quantidade de elefantes.",
+  "ingestion_batch": "usalama-zambia-dagestan-sarmiento-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "image_status": "IMAGE_UNVERIFIED",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "occurrence_type": "illegal_wildlife_possession_usalama_xii",
+  "event_date_range_start": "2026-10-05",
+  "event_date_range_end": "2026-10-09",
+  "operation_id": "2026-zambia-usalama-xii",
+  "quantity_weight_kg": 13,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "MUVI TV / polícia da Zâmbia",
+      "url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "ZNBC / polícia da Zâmbia",
+      "url": "https://znbc.co.zm/?p=16326"
+    },
+    {
+      "id": "N1",
+      "type": "news",
+      "label": "Mongabay (2026), ivory trafficking networks",
+      "url": "https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+      "catalog_id": "mongabay-2026-08-11-ivory-networks-commentary"
+    }
+  ],
+  "location_label_pt": "Lusaka, bairro não divulgado",
+  "fauna_label_pt": "Uma presa de elefante de 13 kg",
+  "title_pt": "Uma presa de elefante de 13 kg apreendida em Lusaka",
+  "card_text_pt": "Um homem foi detido em Lusaka por posse presumidamente ilegal de uma presa de elefante de 13 kg avaliada em K103.341 durante a Usalama XII.",
+  "context_pt": "[O1] [O2] Na operação Usalama XII (5–9/10), a polícia apreendeu em Lusaka uma presa de elefante com 13 kg, avaliada em K103.341; um homem foi detido por posse supostamente ilegal. Não foram divulgados espécie, origem, data individual, preço de venda, destinatário ou itinerário. Uma presa é um produto apreendido, não um elefante vivo nem um indicador seguro de número de animais abatidos. É distinta da apreensão de quatro peças no distrito de Zimba, não havendo base para somá-las como carregamento único.\n\n[N1] Análise jornalística sobre marfim na África Austral destaca que identificar intermediários e financiadores pode ser tão importante quanto a apreensão física. A questão aplicável aqui é a documentação de posse e circulação da presa; não existem vínculos demonstrados com os atores mencionados na reportagem.",
+  "references_text_pt": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[N1] Mongabay (2026), ivory trafficking networks — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "geographic_note_pt": "Ponto urbano ou distrital generalizado, não endereço do flagrante.",
+  "route_audit_note_pt": "Não há origem e destino documentalmente identificados; não gerar rotas.",
+  "location_label_en": "Lusaka, bairro não divulgado",
+  "fauna_label_en": "One 13 kg elephant tusk",
+  "title_en": "13 kg elephant tusk seized in Lusaka",
+  "card_text_en": "One man was arrested in Lusaka over alleged illegal possession of an elephant tusk weighing 13 kg, valued at K103,341, during Usalama XII.",
+  "context_en": "[O1] [O2] During Usalama XII (5–9 October), Lusaka police seized an elephant tusk weighing 13 kg, valued at K103,341, and detained one man over suspected unlawful possession. Species, origin, exact day, sale price, consignee and route were not provided. One tusk is one wildlife item, not a live elephant or proof of how many animals were killed. This case is distinct from the four-piece Zimba seizure and should not be conflated with it.\n\n[N1] Reporting on Southern African ivory networks argues that identifying buyers, intermediaries and financiers matters beyond the physical seizure. Relevant questions here concern the tusk's ownership and movement documents; the article identifies no actors or routes linked to this item.",
+  "references_text_en": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[N1] Mongabay (2026), ivory trafficking networks — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "geographic_note_en": "Generalized urban or district marker, not the seizure address.",
+  "route_audit_note_en": "No documented origin/destination pair; no route generated.",
+  "location_label_es": "Lusaka, bairro não divulgado",
+  "fauna_label_es": "Un colmillo de elefante de 13 kg",
+  "title_es": "Colmillo de elefante de 13 kg decomisado en Lusaka",
+  "card_text_es": "Un hombre fue detenido en Lusaka por presunta posesión ilegal de un colmillo de elefante de 13 kg, valorado en K103.341, durante Usalama XII.",
+  "context_es": "[O1] [O2] Durante Usalama XII (5–9 de octubre), la policía decomisó en Lusaka un colmillo de elefante de 13 kg, valorado en K103.341, y detuvo a un hombre por presunta posesión ilícita. No se comunicaron especie, procedencia, día exacto, precio de venta, destinatario ni ruta. Un colmillo es una pieza de fauna, no un elefante vivo ni una medida del número sacrificado. Es un episodio distinto de las cuatro piezas de Zimba.\n\n[N1] Un análisis sobre las redes de marfil de África Austral enfatiza que identificar intermediarios y financiadores importa más allá de decomisar objetos. Aquí deben verificarse documentos de tenencia y movimiento; el reportaje no vincula a sus protagonistas con esta pieza.",
+  "references_text_es": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[N1] Mongabay (2026), ivory trafficking networks — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "geographic_note_es": "Marcador urbano o distrital generalizado, no el domicilio del decomiso.",
+  "route_audit_note_es": "Sin pareja documentada de origen/destino; no se genera ruta."
+}

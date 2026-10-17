@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-usalama-xii__zimba-44kg-elephant-ivory",
+  "status": "VALIDATED",
+  "country": "Zâmbia",
+  "event_date": null,
+  "publication_date": "2026-10-17",
+  "event_date_precision": "range",
+  "coordinates": {
+    "lat": -17.61733,
+    "lon": 26.54468
+  },
+  "coordinate_precision": "district_generalized",
+  "source_label": "MUVI TV / polícia da Zâmbia",
+  "source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Elephant ivory pieces, species not identified",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quatro peças, 44,5 kg; não converter em número de elefantes.",
+  "quantity_note_en": "Quatro peças, 44,5 kg; não converter em número de elefantes.",
+  "quantity_note_es": "Quatro peças, 44,5 kg; não converter em número de elefantes.",
+  "ingestion_batch": "usalama-zambia-dagestan-sarmiento-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "image_status": "IMAGE_UNVERIFIED",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "occurrence_type": "illegal_wildlife_possession_usalama_xii",
+  "event_date_range_start": "2026-10-05",
+  "event_date_range_end": "2026-10-09",
+  "operation_id": "2026-zambia-usalama-xii",
+  "quantity_weight_kg": 44.5,
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "MUVI TV / polícia da Zâmbia",
+      "url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "ZNBC / polícia da Zâmbia",
+      "url": "https://znbc.co.zm/?p=16326"
+    },
+    {
+      "id": "N1",
+      "type": "news",
+      "label": "Mongabay (2026), ivory trafficking networks",
+      "url": "https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+      "catalog_id": "mongabay-2026-08-11-ivory-networks-commentary"
+    }
+  ],
+  "location_label_pt": "Distrito de Zimba, Província Sul",
+  "fauna_label_pt": "Quatro peças de marfim (44,5 kg)",
+  "title_pt": "Quatro peças de marfim apreendidas em Zimba",
+  "card_text_pt": "Um homem foi detido no distrito de Zimba com quatro peças de marfim, totalizando 44,5 kg e avaliadas em K115.000, durante Usalama XII.",
+  "context_pt": "[O1] [O2] Durante Usalama XII (5–9/10), um homem foi detido no distrito de Zimba, Província Sul, com quatro peças de marfim de elefante pesando 44,5 kg no total e avaliadas em K115.000. O distrito é conhecido, mas o flagrante não foi georreferenciado com precisão. Quatro partes não equivalem necessariamente a quatro elefantes e nenhuma origem ou comprador foi identificado. A proximidade de fronteira internacional não comprova uma rota entre países. Este episódio é independente da presa de 13 kg apreendida em Lusaka.\n\n[N1] Reportagem sobre redes de marfim na África Austral sugere que investigações comparem materiais, documentos e conexões entre casos para não encerrar a apuração no portador. Essa abordagem fornece uma pergunta para as quatro peças de Zimba, mas não identifica ligação com outra apreensão nem percurso fronteiriço.",
+  "references_text_pt": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[N1] Mongabay (2026), ivory trafficking networks — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "geographic_note_pt": "Ponto urbano ou distrital generalizado, não endereço do flagrante.",
+  "route_audit_note_pt": "Não há origem e destino documentalmente identificados; não gerar rotas.",
+  "location_label_en": "Distrito de Zimba, Província Sul",
+  "fauna_label_en": "Four ivory pieces (44.5 kg)",
+  "title_en": "Four elephant ivory pieces seized in Zimba",
+  "card_text_en": "One man in Zimba District was detained with four ivory pieces weighing 44.5 kg, valued at K115,000, during Usalama XII.",
+  "context_en": "[O1] [O2] During Usalama XII (5–9 October), one man was detained in Zimba District, Southern Province, with four elephant ivory pieces weighing 44.5 kg altogether and valued at K115,000. The district is known, but the exact seizure point is not. Four pieces do not mean four elephants, and neither source nor buyer is identified. Proximity to an international border is not proof of cross-border transit. This is distinct from the 13 kg tusk seized in Lusaka.\n\n[N1] Analysis of Southern African ivory networks calls for examining materials, paperwork and links between seizures beyond the arrested carrier. This is an investigative approach for the four Zimba pieces, not evidence connecting them to another consignment or any cross-border route.",
+  "references_text_en": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[N1] Mongabay (2026), ivory trafficking networks — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "geographic_note_en": "Generalized urban or district marker, not the seizure address.",
+  "route_audit_note_en": "No documented origin/destination pair; no route generated.",
+  "location_label_es": "Distrito de Zimba, Província Sul",
+  "fauna_label_es": "Cuatro piezas de marfil (44,5 kg)",
+  "title_es": "Cuatro piezas de marfil de elefante decomisadas en Zimba",
+  "card_text_es": "Un hombre fue detenido en el distrito de Zimba con cuatro piezas de marfil, 44,5 kg en total, valoradas en K115.000, durante Usalama XII.",
+  "context_es": "[O1] [O2] Durante Usalama XII (5–9 de octubre), un hombre fue detenido en el distrito de Zimba, Provincia Sur, con cuatro piezas de marfil de elefante, 44,5 kg en total y valoradas en K115.000. El distrito es conocido pero no el punto exacto. Cuatro piezas no equivalen a cuatro elefantes, y no se identificaron procedencia ni compradores. La proximidad de frontera no demuestra tráfico transfronterizo. Es distinto del colmillo de 13 kg decomisado en Lusaka.\n\n[N1] Un reportaje sobre redes de marfil de África Austral recomienda comparar piezas, documentos y relaciones entre decomisos, sin limitar la investigación al portador. Es una línea de trabajo para Zimba, no evidencia de conexión entre cargamentos ni itinerario fronterizo.",
+  "references_text_es": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[N1] Mongabay (2026), ivory trafficking networks — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "geographic_note_es": "Marcador urbano o distrital generalizado, no el domicilio del decomiso.",
+  "route_audit_note_es": "Sin pareja documentada de origen/destino; no se genera ruta."
+}

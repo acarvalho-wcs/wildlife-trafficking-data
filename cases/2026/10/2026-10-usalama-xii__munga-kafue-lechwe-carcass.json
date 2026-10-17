@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-usalama-xii__munga-kafue-lechwe-carcass",
+  "status": "VALIDATED",
+  "country": "Zâmbia",
+  "event_date": null,
+  "publication_date": "2026-10-17",
+  "event_date_precision": "range",
+  "coordinates": {
+    "lat": -13.1339,
+    "lon": 27.8493
+  },
+  "coordinate_precision": "country_generalized_unresolved_locality",
+  "source_label": "MUVI TV / polícia da Zâmbia",
+  "source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Kobus leche kafuensis (reported carcass)",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Uma carcaça. Identidade subnacional de Munga não confirmada.",
+  "quantity_note_en": "Uma carcaça. Identidade subnacional de Munga não confirmada.",
+  "quantity_note_es": "Uma carcaça. Identidade subnacional de Munga não confirmada.",
+  "ingestion_batch": "usalama-zambia-dagestan-sarmiento-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "image_status": "IMAGE_UNVERIFIED",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "occurrence_type": "illegal_wildlife_possession_usalama_xii",
+  "event_date_range_start": "2026-10-05",
+  "event_date_range_end": "2026-10-09",
+  "operation_id": "2026-zambia-usalama-xii",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "MUVI TV / polícia da Zâmbia",
+      "url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "ZNBC / polícia da Zâmbia",
+      "url": "https://znbc.co.zm/?p=16326"
+    }
+  ],
+  "location_label_pt": "Munga, província não identificada",
+  "fauna_label_pt": "Uma carcaça de lechwe-do-Kafue",
+  "title_pt": "Carcaça de lechwe-do-Kafue apreendida na área de Munga",
+  "card_text_pt": "Três homens foram detidos na área de Munga na posse presumidamente irregular de uma carcaça de lechwe-do-Kafue, avaliada em K10.000. Província não divulgada.",
+  "context_pt": "[O1] [O2] No intervalo Usalama XII (5–9/10), três homens foram detidos na área chamada Munga por suposta posse ilegal de uma carcaça de lechwe-do-Kafue (*Kobus leche kafuensis*), avaliada em K10.000. A notícia não informa província, local de captura, data individual, licenças ou destino comercial. Não se deve situar o evento em bairro homônimo sem confirmação; o ponto nacional é explicitamente provisório. Uma carcaça conta como um item, não como três animais, e não se infere rota a partir da distribuição natural da espécie.",
+  "references_text_pt": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326",
+  "geographic_note_pt": "Coordenada nacional provisória, localidade subnacional não verificada.",
+  "route_audit_note_pt": "Não há origem e destino documentalmente identificados; não gerar rotas.",
+  "location_label_en": "Munga, província não identificada",
+  "fauna_label_en": "One Kafue lechwe carcass",
+  "title_en": "Kafue lechwe carcass seized in Munga area",
+  "card_text_en": "Three men were arrested in Munga over alleged unlawful possession of one Kafue lechwe carcass, valued at K10,000. Province unknown.",
+  "context_en": "[O1] [O2] In the Usalama XII operation (5–9 October), three men were arrested in an area named Munga over suspected unlawful possession of a Kafue lechwe (*Kobus leche kafuensis*) carcass, valued at K10,000. The province, harvest location, specific day, permits and commercial purpose were not reported. The place must not be assigned to a namesake suburb without confirmation: the national map coordinate is explicitly provisional. One carcass is one item, not three animals, and native range does not establish a trade route.",
+  "references_text_en": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326",
+  "geographic_note_en": "Provisional national coordinate; subnational locality unverified.",
+  "route_audit_note_en": "No documented origin/destination pair; no route generated.",
+  "location_label_es": "Munga, província não identificada",
+  "fauna_label_es": "Una carcasa de lechwe del Kafue",
+  "title_es": "Carcasa de lechwe del Kafue decomisada en Munga",
+  "card_text_es": "Tres hombres fueron detenidos en Munga por presunta tenencia ilegal de una carcasa de lechwe del Kafue, valorada en K10.000; provincia sin confirmar.",
+  "context_es": "[O1] [O2] Durante Usalama XII (5–9 de octubre), tres hombres fueron detenidos en una zona llamada Munga por presunta tenencia ilegal de una carcasa de lechwe del Kafue (*Kobus leche kafuensis*), valorada en K10.000. Se desconocen provincia, lugar de captura, día exacto, permisos y finalidad comercial. No debe ubicarse el caso en un barrio homónimo sin confirmación; la coordenada nacional es provisional. Una carcasa es una pieza, no tres animales, y su área natural no demuestra ruta.",
+  "references_text_es": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326",
+  "geographic_note_es": "Coordenada nacional provisional; localidad subnacional no verificada.",
+  "route_audit_note_es": "Sin pareja documentada de origen/destino; no se genera ruta."
+}

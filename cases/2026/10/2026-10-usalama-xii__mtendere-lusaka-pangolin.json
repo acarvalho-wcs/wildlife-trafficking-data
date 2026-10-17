@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-usalama-xii__mtendere-lusaka-pangolin",
+  "status": "VALIDATED",
+  "country": "Zâmbia",
+  "event_date": null,
+  "publication_date": "2026-10-17",
+  "event_date_precision": "range",
+  "coordinates": {
+    "lat": -15.39882,
+    "lon": 28.35537
+  },
+  "coordinate_precision": "neighborhood_generalized",
+  "source_label": "MUVI TV / polícia da Zâmbia",
+  "source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Pangolin, species not disclosed",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Um pangolim; sem informação sobre condição vital ou espécie.",
+  "quantity_note_en": "Um pangolim; sem informação sobre condição vital ou espécie.",
+  "quantity_note_es": "Um pangolim; sem informação sobre condição vital ou espécie.",
+  "ingestion_batch": "usalama-zambia-dagestan-sarmiento-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio",
+  "image_status": "IMAGE_UNVERIFIED",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "occurrence_type": "illegal_wildlife_possession_usalama_xii",
+  "event_date_range_start": "2026-10-05",
+  "event_date_range_end": "2026-10-09",
+  "operation_id": "2026-zambia-usalama-xii",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "MUVI TV / polícia da Zâmbia",
+      "url": "https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "ZNBC / polícia da Zâmbia",
+      "url": "https://znbc.co.zm/?p=16326"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Tracking the traffickers: Temminck's pangolin in South Africa (2016–2024)",
+      "url": "https://doi.org/10.1016/j.gecco.2025.e03924",
+      "catalog_id": "doi-10.1016-j.gecco.2025.e03924"
+    },
+    {
+      "id": "N1",
+      "type": "news",
+      "label": "Mongabay (2026), wildlife crime drivers in Zambia",
+      "url": "https://news.mongabay.com/2026/09/how-did-you-come-to-be-here-study-digs-into-origins-of-zambian-wildlife-crime/",
+      "catalog_id": "mongabay-2026-09-19-zambia-wildlife-crime-drivers"
+    }
+  ],
+  "location_label_pt": "Mtendere, Lusaka",
+  "fauna_label_pt": "Um pangolim apreendido",
+  "title_pt": "Pangolim apreendido em Mtendere na operação Usalama XII",
+  "card_text_pt": "Na Usalama XII, polícia deteve um homem em Mtendere, Lusaka, por suposta posse ilícita de um pangolim avaliado em K340.000. Condição e espécie não divulgadas.",
+  "context_pt": "[O1] [O2] A investigação multiagência Usalama XII decorreu de 5 a 9/10/2026; o comunicado divulgado em 17/10 registra um homem detido no bairro Mtendere, Lusaka, por posse presumidamente ilegal de um pangolim com valor policial estimado em K340.000. Não se indicam espécie, condição vital, origem, fornecedor, cliente, trânsito ou dia específico. O valor é avaliação, não preço de venda comprovada. O caso é separado das outras apreensões do mesmo balanço.\n\n[S1] Um estudo sobre 276 operações e 679 suspeitos de comércio ilegal de pangolins na África do Sul entre 2016 e 2024 analisa valores, papéis e resultados judiciais. É referência regional, não evidência sobre Mtendere; ressalta por que se deve recuperar documentação da espécie, do preço e do destino do animal. [N1] Reportagem baseada em entrevistas com mais de 300 infratores de fauna na Zâmbia descreve recrutamento e intermediários em outros episódios. Esses fatores merecem averiguação, não presunção neste caso.",
+  "references_text_pt": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[S1] Tracking the traffickers: Temminck's pangolin in South Africa (2016–2024) — https://doi.org/10.1016/j.gecco.2025.e03924\n[N1] Mongabay (2026), wildlife crime drivers in Zambia — https://news.mongabay.com/2026/09/how-did-you-come-to-be-here-study-digs-into-origins-of-zambian-wildlife-crime/",
+  "geographic_note_pt": "Ponto urbano ou distrital generalizado, não endereço do flagrante.",
+  "route_audit_note_pt": "Não há origem e destino documentalmente identificados; não gerar rotas.",
+  "location_label_en": "Mtendere, Lusaka",
+  "fauna_label_en": "One pangolin seized",
+  "title_en": "Pangolin seized in Mtendere during Operation Usalama XII",
+  "card_text_en": "During Usalama XII, police detained a man in Mtendere, Lusaka, over alleged unlawful possession of one pangolin valued at K340,000. Species and condition undisclosed.",
+  "context_en": "[O1] [O2] Usalama XII ran from 5 to 9 October 2026; the 17 October report identifies one man detained in Mtendere, Lusaka, over allegedly unlawful possession of a pangolin assigned an estimated value of K340,000. No species, survival condition, source, supplier, customer, movement or specific day is reported. This appraisal is not proof of a completed sale. It is a distinct incident within a wider operation.\n\n[S1] A study of 276 operations and 679 suspects in South African pangolin trafficking (2016–2024) investigates valuations, roles and judicial outcomes. It offers a regional comparator, not direct evidence about Mtendere, and identifies why species, valuation and disposition records matter. [N1] Reporting drawing on over 300 interviews with Zambian wildlife offenders finds recruitment and middlemen in other cases; these are investigative possibilities, not established facts here.",
+  "references_text_en": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[S1] Tracking the traffickers: Temminck's pangolin in South Africa (2016–2024) — https://doi.org/10.1016/j.gecco.2025.e03924\n[N1] Mongabay (2026), wildlife crime drivers in Zambia — https://news.mongabay.com/2026/09/how-did-you-come-to-be-here-study-digs-into-origins-of-zambian-wildlife-crime/",
+  "geographic_note_en": "Generalized urban or district marker, not the seizure address.",
+  "route_audit_note_en": "No documented origin/destination pair; no route generated.",
+  "location_label_es": "Mtendere, Lusaka",
+  "fauna_label_es": "Un pangolín decomisado",
+  "title_es": "Pangolín decomisado en Mtendere durante Usalama XII",
+  "card_text_es": "Durante Usalama XII, la policía detuvo a un hombre en Mtendere, Lusaka, por presunta tenencia ilegal de un pangolín valorado en K340.000; especie y estado no divulgados.",
+  "context_es": "[O1] [O2] Usalama XII se realizó del 5 al 9 de octubre de 2026; el informe difundido el 17/10 registra a un hombre detenido en Mtendere, Lusaka, por presunta tenencia ilegal de un pangolín con valoración policial de K340.000. No se informó especie, estado vital, procedencia, proveedor, comprador, desplazamiento ni día exacto. La valoración no acredita venta. Es un episodio independiente dentro de un operativo más amplio.\n\n[S1] Un estudio sobre 276 operativos y 679 sospechosos del tráfico de pangolines en Sudáfrica (2016–2024) analiza precios, funciones y resultados judiciales. Es contexto regional, no prueba sobre Mtendere; destaca la necesidad de documentos de especie, valoración y destino. [N1] Un reportaje basado en más de 300 entrevistas con infractores de fauna en Zambia describe intermediarios y reclutamiento en otros hechos, no demostrados en este episodio.",
+  "references_text_es": "[O1] MUVI TV / polícia da Zâmbia — https://muvitv.com/article/zambia-police-seize-stolen-vehicles-wildlife-products-in-joint-regional-operatio\n[O2] ZNBC / polícia da Zâmbia — https://znbc.co.zm/?p=16326\n[S1] Tracking the traffickers: Temminck's pangolin in South Africa (2016–2024) — https://doi.org/10.1016/j.gecco.2025.e03924\n[N1] Mongabay (2026), wildlife crime drivers in Zambia — https://news.mongabay.com/2026/09/how-did-you-come-to-be-here-study-digs-into-origins-of-zambian-wildlife-crime/",
+  "geographic_note_es": "Marcador urbano o distrital generalizado, no el domicilio del decomiso.",
+  "route_audit_note_es": "Sin pareja documentada de origen/destino; no se genera ruta."
+}

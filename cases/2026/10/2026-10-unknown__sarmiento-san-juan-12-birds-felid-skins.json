@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-unknown__sarmiento-san-juan-12-birds-felid-skins",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "event_date": null,
+  "publication_date": "2026-10-16",
+  "event_date_precision": "unknown",
+  "coordinates": {
+    "lat": -31.98139,
+    "lon": -68.42683
+  },
+  "coordinate_precision": "municipality_generalized",
+  "source_label": "San Juan 8 / Policía Rural",
+  "source_url": "https://www.sanjuan8.com/policiales/operativo-rural-termino-dos-detenidos-y-secuestro-aves-armas-y-cueros-n1607371/amp",
+  "fauna_groups_aggregated": [
+    "Aves",
+    "Mamíferos"
+  ],
+  "taxon_text": "12 unidentified wild birds; two gato montés skins; one Puma concolor skin; three hares and one martineta (conditions unreported)",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "quantity_count": 12,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 12
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "12 aves contadas; peles, lebres e martineta descritas separadamente; três buscas reunidas.",
+  "quantity_note_en": "12 aves contadas; peles, lebres e martineta descritas separadamente; três buscas reunidas.",
+  "quantity_note_es": "12 aves contadas; peles, lebres e martineta descritas separadamente; três buscas reunidas.",
+  "ingestion_batch": "usalama-zambia-dagestan-sarmiento-20261017",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://www.sanjuan8.com/policiales/operativo-rural-termino-dos-detenidos-y-secuestro-aves-armas-y-cueros-n1607371/amp",
+  "image_status": "IMAGE_UNVERIFIED",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "occurrence_type": "wildlife_enforcement_trade_unconfirmed",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "San Juan 8 / Policía Rural",
+      "url": "https://www.sanjuan8.com/policiales/operativo-rural-termino-dos-detenidos-y-secuestro-aves-armas-y-cueros-n1607371/amp"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "InfoValleFertil / Polícia Rural",
+      "url": "https://infovallefertil.com/contenido/70747/golpe-a-la-caza-ilegal-caen-dos-hombres-con-escopetas-y-animales-silvestres"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Illegal trade in wild cats in Central and South America",
+      "url": "https://doi.org/10.1111/cobi.13498",
+      "catalog_id": "doi-10.1111-cobi.13498"
+    }
+  ],
+  "location_label_pt": "Departamento Sarmiento, San Juan",
+  "fauna_label_pt": "12 aves, peles de felinos, 3 lebres e 1 martineta",
+  "title_pt": "Aves e peles de felinos apreendidas em três buscas em Sarmiento",
+  "card_text_pt": "Polícia Rural realizou três buscas em Sarmiento com apreensão de 12 aves, 15 gaiolas, duas peles de gato-do-mato e uma de puma, outros animais e armas. Dois detidos; sem venda comprovada.",
+  "context_pt": "[O1] [O2] Reportagens de 16/10/2026 relatam três buscas judiciais realizadas pela Polícia Rural de San Juan em imóveis do departamento Sarmiento, processo 21317/26. Os agentes apreenderam 12 aves silvestres de espécies não informadas, 15 gaiolas, três transportadores, armadilha de piso, duas peles de 'gato montés', uma de puma, três lebres crioulas, uma martineta, armas e petrechos de caça. Dois homens foram detidos. Não há discriminação quantitativa por imóvel, data operacional inequívoca, identificação dos pássaros, prova de oferta, comprador ou rota. Registra-se fiscalização sobre fauna e produtos potencialmente explorados, não tráfico demonstrado. O mapa usa a sede departamental Media Agua, não os endereços das buscas. Contar as 12 aves uma única vez; peles e demais animais ficam descritos à parte, sem presumir condição vital.\n\n[S1] Um estudo de mais de mil felinos silvestres apreendidos na América Central e do Sul inclui pumas e examina padrões de comércio de partes de felinos, mas não liga esta apreensão a mercado externo. A investigação de Sarmiento precisaria identificar origem e destinação das peles; a designação comum 'gato montés' não permite identificação taxonômica segura.",
+  "references_text_pt": "[O1] San Juan 8 / Policía Rural — https://www.sanjuan8.com/policiales/operativo-rural-termino-dos-detenidos-y-secuestro-aves-armas-y-cueros-n1607371/amp\n[O2] InfoValleFertil / Polícia Rural — https://infovallefertil.com/contenido/70747/golpe-a-la-caza-ilegal-caen-dos-hombres-con-escopetas-y-animales-silvestres\n[S1] Illegal trade in wild cats in Central and South America — https://doi.org/10.1111/cobi.13498",
+  "geographic_note_pt": "Ponto urbano ou distrital generalizado, não endereço do flagrante.",
+  "route_audit_note_pt": "Não há origem e destino documentalmente identificados; não gerar rotas.",
+  "location_label_en": "Departamento Sarmiento, San Juan",
+  "fauna_label_en": "12 birds, felid hides, 3 hares and 1 martineta",
+  "title_en": "Birds and felid skins seized in three Sarmiento searches",
+  "card_text_en": "Three Sarmiento searches seized 12 birds, 15 cages, two wildcat hides, one puma hide, other wildlife and weapons. Two men detained; no trade proven.",
+  "context_en": "[O1] [O2] Reporting dated 16 October 2026 describes three court-authorized searches by San Juan Rural Police in Sarmiento Department, file 21317/26. Seizures included 12 wild birds of undisclosed species, 15 cages, three carriers, one trap, two 'gato montés' skins, one puma hide, three hares, one martineta, firearms and hunting gear. Two men were detained. Counts by premises, precise operational date, bird identities, offers for sale, buyers and trade routes were not documented. This is a wildlife enforcement event with potentially exploited products, not established trafficking. Media Agua is a generalized departmental reference, not a seized property. Count the 12 birds once; list hides and other wildlife separately, without assuming their survival status.\n\n[S1] A study of over a thousand wild cats seized in Central and South America includes pumas and examines trade in felid parts, but does not connect this case to foreign markets. Establishing origin and use of the seized hides would be relevant in Sarmiento; the vernacular 'gato montés' is not a reliable species-level identification.",
+  "references_text_en": "[O1] San Juan 8 / Policía Rural — https://www.sanjuan8.com/policiales/operativo-rural-termino-dos-detenidos-y-secuestro-aves-armas-y-cueros-n1607371/amp\n[O2] InfoValleFertil / Polícia Rural — https://infovallefertil.com/contenido/70747/golpe-a-la-caza-ilegal-caen-dos-hombres-con-escopetas-y-animales-silvestres\n[S1] Illegal trade in wild cats in Central and South America — https://doi.org/10.1111/cobi.13498",
+  "geographic_note_en": "Generalized urban or district marker, not the seizure address.",
+  "route_audit_note_en": "No documented origin/destination pair; no route generated.",
+  "location_label_es": "Departamento Sarmiento, San Juan",
+  "fauna_label_es": "12 aves, cueros de felinos, 3 liebres y 1 martineta",
+  "title_es": "Aves y pieles de felinos decomisadas en tres allanamientos en Sarmiento",
+  "card_text_es": "Tres allanamientos en Sarmiento permitieron incautar 12 aves, 15 jaulas, dos pieles de gato montés, una de puma, otros animales y armas. Dos detenidos; venta no probada.",
+  "context_es": "[O1] [O2] Reportajes del 16 de octubre de 2026 describen tres allanamientos judiciales de la Policía Rural en el departamento Sarmiento, San Juan, expediente 21317/26. Se incautaron 12 aves silvestres sin identificación, 15 jaulas, tres transportines, una trampa, dos cueros de 'gato montés', uno de puma, tres liebres, una martineta, armas y materiales de caza. Detuvieron a dos hombres. No se divulgó el desglose por inmueble, fecha operacional exacta, especies de aves, anuncios de venta, compradores ni rutas. Se trata de fiscalización de fauna y productos potencialmente explotados, no tráfico probado. Media Agua es solo una referencia departamental, no un domicilio. Las 12 aves se contabilizan una vez; pieles y demás fauna se describen aparte sin suponer su estado vital.\n\n[S1] Un estudio de más de mil felinos decomisados en Centro y Sudamérica incluye pumas y examina comercio de partes de felinos, sin vincular este caso con mercados extranjeros. En Sarmiento se necesitan pruebas del origen y destino de las pieles; el nombre popular 'gato montés' no asegura identificación taxonómica.",
+  "references_text_es": "[O1] San Juan 8 / Policía Rural — https://www.sanjuan8.com/policiales/operativo-rural-termino-dos-detenidos-y-secuestro-aves-armas-y-cueros-n1607371/amp\n[O2] InfoValleFertil / Polícia Rural — https://infovallefertil.com/contenido/70747/golpe-a-la-caza-ilegal-caen-dos-hombres-con-escopetas-y-animales-silvestres\n[S1] Illegal trade in wild cats in Central and South America — https://doi.org/10.1111/cobi.13498",
+  "geographic_note_es": "Marcador urbano o distrital generalizado, no el domicilio del decomiso.",
+  "route_audit_note_es": "Sin pareja documentada de origen/destino; no se genera ruta."
+}
