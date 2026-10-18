@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-16__alagoas-four-municipalities-85-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-16",
+  "publication_date": "2026-10-18",
+  "event_date_precision": "day",
+  "occurred_at": "2026-10-16T00:00:00Z",
+  "occurred_at_precision": "day",
+  "coordinates": {
+    "lat": -9.817,
+    "lon": -36.195
+  },
+  "coordinate_precision": "multi_municipality_centroid_generalized",
+  "source_label": "GazetaWeb / assessoria da PM de Alagoas",
+  "source_url": "https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "85 aves silvestres sem identificação taxonômica divulgada",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "quantity_count": 85,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 85
+  },
+  "quantity_unassigned": 0,
+  "ingestion_batch": "audit-omitted-seizures-20261018",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "context_status": "VALIDATED",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "route_audit_status": "NO_DOCUMENTED_ORIGIN_DESTINATION_PAIR",
+  "image_url": null,
+  "image_source_url": "https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247",
+  "image_status": "IMAGE_UNVERIFIED",
+  "occurrence_type": "multi_municipality_anti_illegal_wildlife_trade_operation_aggregate",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "GazetaWeb / assessoria da PM de Alagoas",
+      "url": "https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Jornal Online Alagoas / SECOM Alagoas",
+      "url": "https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas"
+    }
+  ],
+  "location_label_pt": "São Miguel dos Campos, Jequiá da Praia, Anadia e Campo Alegre, Alagoas",
+  "title_pt": "85 aves apreendidas em ações contra comércio ilegal em quatro municípios de Alagoas",
+  "fauna_label_pt": "85 aves silvestres (balanço conjunto de quatro municípios)",
+  "card_text_pt": "Na sexta-feira, 16/10/2026, a Polícia Militar Ambiental de Alagoas apreendeu um total de 85 aves durante fiscalizações em São Miguel dos Campos, Jequiá da Praia, Anadia e Campo Alegre. O balanço não separa quantidades por município.",
+  "context_pt": "[O1] [O2] Na sexta-feira, 16/10/2026, durante a sexta fase da Operação Protetor dos Biomas, equipes do Batalhão de Polícia Ambiental da PMAL fiscalizaram quatro municípios de Alagoas — São Miguel dos Campos, Jequiá da Praia, Anadia e Campo Alegre — e relataram apreensão total de 85 aves, com oito Comunicações de Ocorrência Policial. A operação geral combate tráfico e comércio em feiras, mas a informação publicada não discrimina quais dessas 85 aves estavam à venda, em cativeiro irregular ou em quais locais exatos. Tampouco especifica espécies, vendedores, origens ou destinos.\n\n[O1] [O2] Trata-se de um registro agregado operacional com contagem própria, relativo apenas a 16/10. As apreensões de domingo, 18/10, somaram 357 animais: 338 em Arapiraca e 19 em Anadia. Assim, 85 + 357 = 442 no balanço dos três dias. Não cadastrar 442 como terceiro evento, nem repartir artificialmente as 85 aves entre os quatro municípios. O marcador é um centroide regional aproximado e não um ponto de fiscalização documentado.",
+  "references_text_pt": "[O1] GazetaWeb / assessoria da PM de Alagoas — https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247\n[O2] Jornal Online Alagoas / SECOM Alagoas — https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas",
+  "geographic_note_pt": "Centroide regional aproximado entre quatro municípios citados; cada apreensão individual não foi localizada.",
+  "route_audit_note_pt": "Fiscalização multiterritorial sem origem ou destino para as aves; nenhuma rota.",
+  "quantity_note_pt": "85 aves do dia 16, distintas das 357 apreendidas no dia 18; total geral 442 não somado novamente.",
+  "location_label_en": "São Miguel dos Campos, Jequiá da Praia, Anadia and Campo Alegre, Alagoas",
+  "title_en": "Eighty-five birds seized in anti-illegal-wildlife-trade actions across four Alagoas municipalities",
+  "fauna_label_en": "85 wild birds (four-municipality operational subtotal)",
+  "card_text_en": "On Friday 16 October 2026, Alagoas environmental police reported seizing 85 wild birds during inspections across São Miguel dos Campos, Jequiá da Praia, Anadia and Campo Alegre. Municipality-by-municipality counts were not published.",
+  "context_en": "[O1] [O2] On Friday 16 October 2026, during the sixth phase of Operation Protector of the Biomes, Alagoas environmental police inspected four municipalities — São Miguel dos Campos, Jequiá da Praia, Anadia and Campo Alegre — and reported a combined seizure of 85 birds and eight police occurrence notices. The wider operation focused on wildlife trafficking and illegal market sales, but reporting does not specify which of these 85 birds were offered for sale, held unlawfully or seized at which exact address. Species, suppliers, capture sites and destinations are also unreported.\n\n[O1] [O2] This is an aggregate operational record confined to 16 October. On Sunday 18 October, 357 other animals were seized: 338 in Arapiraca and 19 in Anadia. Thus 85 + 357 = 442 in the three-day total. Do not count the 442 again, or artificially distribute the 85 birds among four municipalities. The map point is an approximate regional centroid, not a verified enforcement address.",
+  "references_text_en": "[O1] GazetaWeb / assessoria da PM de Alagoas — https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247\n[O2] Jornal Online Alagoas / SECOM Alagoas — https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas",
+  "geographic_note_en": "Approximate regional centroid between the four named municipalities; no individual seizure site is geolocated.",
+  "route_audit_note_en": "Multi-municipality enforcement without documented bird movement; no route.",
+  "quantity_note_en": "85 birds on the 16th, distinct from the 357 on the 18th; the 442 overall total is not counted again.",
+  "location_label_es": "São Miguel dos Campos, Jequiá da Praia, Anadia y Campo Alegre, Alagoas",
+  "title_es": "Incautan 85 aves durante acciones contra comercio ilegal en cuatro municipios de Alagoas",
+  "fauna_label_es": "85 aves silvestres (subtotal conjunto de cuatro municipios)",
+  "card_text_es": "El viernes 16/10/2026, la policía ambiental de Alagoas informó del decomiso conjunto de 85 aves en São Miguel dos Campos, Jequiá da Praia, Anadia y Campo Alegre. No se publicó un desglose por municipio.",
+  "context_es": "[O1] [O2] El viernes 16/10/2026, durante la sexta fase de la Operación Protector de los Biomas, la policía ambiental de Alagoas inspeccionó São Miguel dos Campos, Jequiá da Praia, Anadia y Campo Alegre, comunicando 85 aves incautadas y ocho notificaciones policiales. El operativo general combatía el tráfico y la venta ilegal en ferias, pero las noticias no detallan cuáles de estas aves estaban a la venta, cuáles en cautiverio irregular ni el lugar exacto de cada incautación. No identifican especies, proveedores, procedencias ni destinos.\n\n[O1] [O2] El registro es un subtotal conjunto correspondiente exclusivamente al 16/10. El domingo 18/10 se decomisaron otros 357 animales: 338 en Arapiraca y 19 en Anadia. Así, 85 + 357 = 442 en el balance de tres días. No duplicar los 442 ni distribuir artificialmente las 85 aves por municipios. El marcador es un centroide regional aproximado y no una ubicación de fiscalización demostrada.",
+  "references_text_es": "[O1] GazetaWeb / assessoria da PM de Alagoas — https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247\n[O2] Jornal Online Alagoas / SECOM Alagoas — https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas",
+  "geographic_note_es": "Centroide regional aproximado de los cuatro municipios mencionados; ningún decomiso individual está localizado.",
+  "route_audit_note_es": "Operativo en varios municipios sin desplazamiento de aves documentado; sin ruta.",
+  "quantity_note_es": "85 aves del día 16, distintas de las 357 del 18; no se suma otra vez el total general de 442."
+}
