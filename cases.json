@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1077_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1080_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1077,
+  "count": 1080,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -82552,6 +82552,256 @@
       "geographic_note_es": "Marcador aproximado de la localidad, no dirección exacta.",
       "quantity_note_es": "1 ave disecada y 2 huevos",
       "route_audit_note_es": "Envío previsto documentado, no completado."
+    },
+    {
+      "id": "2026-10-16__alagoas-four-municipalities-85-birds",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-10-16",
+      "publication_date": "2026-10-18",
+      "event_date_precision": "day",
+      "occurred_at": "2026-10-16T00:00:00Z",
+      "occurred_at_precision": "day",
+      "coordinates": {
+        "lat": -9.817,
+        "lon": -36.195
+      },
+      "coordinate_precision": "multi_municipality_centroid_generalized",
+      "source_label": "GazetaWeb / assessoria da PM de Alagoas",
+      "source_url": "https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "85 aves silvestres sem identificação taxonômica divulgada",
+      "modal_primary": "Terrestre",
+      "aggregate_operation": true,
+      "exclude_from_totals": false,
+      "quantity_count": 85,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 85
+      },
+      "quantity_unassigned": 0,
+      "ingestion_batch": "audit-omitted-seizures-20261018",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "context_status": "VALIDATED",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "route_audit_status": "NO_DOCUMENTED_ORIGIN_DESTINATION_PAIR",
+      "image_url": null,
+      "image_source_url": "https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247",
+      "image_status": "IMAGE_UNVERIFIED",
+      "occurrence_type": "multi_municipality_anti_illegal_wildlife_trade_operation_aggregate",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "GazetaWeb / assessoria da PM de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "Jornal Online Alagoas / SECOM Alagoas",
+          "url": "https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas"
+        }
+      ],
+      "location_label_pt": "São Miguel dos Campos, Jequiá da Praia, Anadia e Campo Alegre, Alagoas",
+      "title_pt": "85 aves apreendidas em ações contra comércio ilegal em quatro municípios de Alagoas",
+      "fauna_label_pt": "85 aves silvestres (balanço conjunto de quatro municípios)",
+      "card_text_pt": "Na sexta-feira, 16/10/2026, a Polícia Militar Ambiental de Alagoas apreendeu um total de 85 aves durante fiscalizações em São Miguel dos Campos, Jequiá da Praia, Anadia e Campo Alegre. O balanço não separa quantidades por município.",
+      "context_pt": "[O1] [O2] Na sexta-feira, 16/10/2026, durante a sexta fase da Operação Protetor dos Biomas, equipes do Batalhão de Polícia Ambiental da PMAL fiscalizaram quatro municípios de Alagoas — São Miguel dos Campos, Jequiá da Praia, Anadia e Campo Alegre — e relataram apreensão total de 85 aves, com oito Comunicações de Ocorrência Policial. A operação geral combate tráfico e comércio em feiras, mas a informação publicada não discrimina quais dessas 85 aves estavam à venda, em cativeiro irregular ou em quais locais exatos. Tampouco especifica espécies, vendedores, origens ou destinos.\n\n[O1] [O2] Trata-se de um registro agregado operacional com contagem própria, relativo apenas a 16/10. As apreensões de domingo, 18/10, somaram 357 animais: 338 em Arapiraca e 19 em Anadia. Assim, 85 + 357 = 442 no balanço dos três dias. Não cadastrar 442 como terceiro evento, nem repartir artificialmente as 85 aves entre os quatro municípios. O marcador é um centroide regional aproximado e não um ponto de fiscalização documentado.",
+      "references_text_pt": "[O1] GazetaWeb / assessoria da PM de Alagoas — https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247\n[O2] Jornal Online Alagoas / SECOM Alagoas — https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas",
+      "geographic_note_pt": "Centroide regional aproximado entre quatro municípios citados; cada apreensão individual não foi localizada.",
+      "route_audit_note_pt": "Fiscalização multiterritorial sem origem ou destino para as aves; nenhuma rota.",
+      "quantity_note_pt": "85 aves do dia 16, distintas das 357 apreendidas no dia 18; total geral 442 não somado novamente.",
+      "location_label_en": "São Miguel dos Campos, Jequiá da Praia, Anadia and Campo Alegre, Alagoas",
+      "title_en": "Eighty-five birds seized in anti-illegal-wildlife-trade actions across four Alagoas municipalities",
+      "fauna_label_en": "85 wild birds (four-municipality operational subtotal)",
+      "card_text_en": "On Friday 16 October 2026, Alagoas environmental police reported seizing 85 wild birds during inspections across São Miguel dos Campos, Jequiá da Praia, Anadia and Campo Alegre. Municipality-by-municipality counts were not published.",
+      "context_en": "[O1] [O2] On Friday 16 October 2026, during the sixth phase of Operation Protector of the Biomes, Alagoas environmental police inspected four municipalities — São Miguel dos Campos, Jequiá da Praia, Anadia and Campo Alegre — and reported a combined seizure of 85 birds and eight police occurrence notices. The wider operation focused on wildlife trafficking and illegal market sales, but reporting does not specify which of these 85 birds were offered for sale, held unlawfully or seized at which exact address. Species, suppliers, capture sites and destinations are also unreported.\n\n[O1] [O2] This is an aggregate operational record confined to 16 October. On Sunday 18 October, 357 other animals were seized: 338 in Arapiraca and 19 in Anadia. Thus 85 + 357 = 442 in the three-day total. Do not count the 442 again, or artificially distribute the 85 birds among four municipalities. The map point is an approximate regional centroid, not a verified enforcement address.",
+      "references_text_en": "[O1] GazetaWeb / assessoria da PM de Alagoas — https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247\n[O2] Jornal Online Alagoas / SECOM Alagoas — https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas",
+      "geographic_note_en": "Approximate regional centroid between the four named municipalities; no individual seizure site is geolocated.",
+      "route_audit_note_en": "Multi-municipality enforcement without documented bird movement; no route.",
+      "quantity_note_en": "85 birds on the 16th, distinct from the 357 on the 18th; the 442 overall total is not counted again.",
+      "location_label_es": "São Miguel dos Campos, Jequiá da Praia, Anadia y Campo Alegre, Alagoas",
+      "title_es": "Incautan 85 aves durante acciones contra comercio ilegal en cuatro municipios de Alagoas",
+      "fauna_label_es": "85 aves silvestres (subtotal conjunto de cuatro municipios)",
+      "card_text_es": "El viernes 16/10/2026, la policía ambiental de Alagoas informó del decomiso conjunto de 85 aves en São Miguel dos Campos, Jequiá da Praia, Anadia y Campo Alegre. No se publicó un desglose por municipio.",
+      "context_es": "[O1] [O2] El viernes 16/10/2026, durante la sexta fase de la Operación Protector de los Biomas, la policía ambiental de Alagoas inspeccionó São Miguel dos Campos, Jequiá da Praia, Anadia y Campo Alegre, comunicando 85 aves incautadas y ocho notificaciones policiales. El operativo general combatía el tráfico y la venta ilegal en ferias, pero las noticias no detallan cuáles de estas aves estaban a la venta, cuáles en cautiverio irregular ni el lugar exacto de cada incautación. No identifican especies, proveedores, procedencias ni destinos.\n\n[O1] [O2] El registro es un subtotal conjunto correspondiente exclusivamente al 16/10. El domingo 18/10 se decomisaron otros 357 animales: 338 en Arapiraca y 19 en Anadia. Así, 85 + 357 = 442 en el balance de tres días. No duplicar los 442 ni distribuir artificialmente las 85 aves por municipios. El marcador es un centroide regional aproximado y no una ubicación de fiscalización demostrada.",
+      "references_text_es": "[O1] GazetaWeb / assessoria da PM de Alagoas — https://www.gazetaweb.com/noticias/policia/mais-de-350-animais-silvestres-sao-resgatados-em-feiras-de-arapiraca-e-anadia-943247\n[O2] Jornal Online Alagoas / SECOM Alagoas — https://jornalonlinealagoas.com/noticia/86023/protetor-dos-biomas-pm-apreende-442-animais-silvestres-em-alagoas",
+      "geographic_note_es": "Centroide regional aproximado de los cuatro municipios mencionados; ningún decomiso individual está localizado.",
+      "route_audit_note_es": "Operativo en varios municipios sin desplazamiento de aves documentado; sin ruta.",
+      "quantity_note_es": "85 aves del día 16, distintas de las 357 del 18; no se suma otra vez el total general de 442."
+    },
+    {
+      "id": "2026-10-16-17__deodapolis-17-protected-fish-38kg",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": null,
+      "publication_date": "2026-10-18",
+      "event_date_precision": "range",
+      "occurred_at": null,
+      "occurred_at_precision": "range",
+      "coordinates": {
+        "lat": -22.276,
+        "lon": -54.165
+      },
+      "coordinate_precision": "municipality_generalized",
+      "source_label": "MS em Foco / Polícia Militar Ambiental de MS",
+      "source_url": "https://msemfoco.com.br/noticia/4206/pma-apreende-38-kg-de-pescado-irregular-e-aplica-r-88-mil-em-multas-em-deodapolis",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "taxon_text": "5 Salminus brasiliensis (dourado); 12 Brycon orbignyanus (piracanjuba), pescado apreendido",
+      "modal_primary": "Terrestre",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 17,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "dead_animals",
+      "quantity_by_group": {
+        "Peixes": 17
+      },
+      "quantity_unassigned": 0,
+      "ingestion_batch": "audit-omitted-seizures-20261018",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "context_status": "VALIDATED",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "route_audit_status": "NO_DOCUMENTED_ORIGIN_DESTINATION_PAIR",
+      "image_url": null,
+      "image_source_url": "https://msemfoco.com.br/noticia/4206/pma-apreende-38-kg-de-pescado-irregular-e-aplica-r-88-mil-em-multas-em-deodapolis",
+      "image_status": "IMAGE_UNVERIFIED",
+      "occurrence_type": "illegal_possession_and_third_party_acquisition_of_protected_fish",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "MS em Foco / Polícia Militar Ambiental de MS",
+          "url": "https://msemfoco.com.br/noticia/4206/pma-apreende-38-kg-de-pescado-irregular-e-aplica-r-88-mil-em-multas-em-deodapolis"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "Angivi / Polícia Militar Ambiental de MS",
+          "url": "https://angivi.com.br/noticia/14193/deodapolis-homem-e-preso-com-dezenas-de-peixes-proibidos-arma-e-municoes-em-ms"
+        }
+      ],
+      "event_date_range_start": "2026-10-16",
+      "event_date_range_end": "2026-10-17",
+      "location_label_pt": "Deodápolis, Mato Grosso do Sul, Brasil",
+      "title_pt": "17 peixes de captura restrita apreendidos após aquisição de terceiros em Deodápolis",
+      "fauna_label_pt": "5 dourados e 12 piracanjubas, 38,09 kg",
+      "card_text_pt": "Entre a noite de 16 e a madrugada de 17/10/2026, a PMA apreendeu 17 peixes (38,09 kg) no freezer de uma residência em Deodápolis: cinco dourados e 12 piracanjubas. Segundo a polícia, o responsável relatou ter adquirido os dourados de terceiros.",
+      "context_pt": "[O1] [O2] A Polícia Militar Ambiental de Mato Grosso do Sul atuou em Deodápolis da noite de 16 até a madrugada de 17/10/2026 e apreendeu 5 dourados (Salminus brasiliensis; 15,234 kg) e 12 piracanjubas (Brycon orbignyanus; 22,856 kg), totalizando 17 peixes inteiros e 38,09 kg, além de 21 anzóis de galho e 12 m de rede. O pescado estava em freezer residencial. O responsável declarou ter adquirido os dourados de terceiros, indicando transferência anterior de exemplares sob restrição legal; o relato não demonstra pagamento, vendedor, comercialização organizada ou que as piracanjubas tenham sido adquiridas da mesma forma.\n\n[O1] [O2] Foram reportadas multas de R$ 88.207,12; piracanjuba foi referida como criticamente ameaçada segundo lista nacional. A apreensão constitui infração relacionada à fauna e possível circulação ilícita, sem evidência de uma rede comercial, rota fluvial ou ponto de pesca. A coordenada é a sede municipal, não o endereço da residência. Registra-se contagem de 17 indivíduos mortos, separando o peso em kg e sem somar 38,09 unidades.",
+      "references_text_pt": "[O1] MS em Foco / Polícia Militar Ambiental de MS — https://msemfoco.com.br/noticia/4206/pma-apreende-38-kg-de-pescado-irregular-e-aplica-r-88-mil-em-multas-em-deodapolis\n[O2] Angivi / Polícia Militar Ambiental de MS — https://angivi.com.br/noticia/14193/deodapolis-homem-e-preso-com-dezenas-de-peixes-proibidos-arma-e-municoes-em-ms",
+      "geographic_note_pt": "Coordenada da sede municipal de Deodápolis; não identifica a residência fiscalizada.",
+      "route_audit_note_pt": "O relato de aquisição de terceiros não identifica procedência, vendedor, itinerário ou destino; não gerar rota.",
+      "quantity_note_pt": "17 peixes inteiros (não vivos) = 5 dourados + 12 piracanjubas; peso 38,09 kg registrado separadamente.",
+      "location_label_en": "Deodápolis, Mato Grosso do Sul, Brazil",
+      "title_en": "Seventeen restricted fish seized after third-party acquisition in Deodápolis",
+      "fauna_label_en": "5 dourado and 12 piracanjuba, 38.09 kg",
+      "card_text_en": "Between late 16 and early 17 October 2026, environmental police found 17 whole fish (38.09 kg) in a household freezer in Deodápolis: five dourado and 12 piracanjuba. The resident reportedly said the dourado had been obtained from third parties.",
+      "context_en": "[O1] [O2] Mato Grosso do Sul environmental police inspected premises in Deodápolis overnight on 16–17 October 2026, seizing five dourado (Salminus brasiliensis, 15.234 kg) and twelve piracanjuba (Brycon orbignyanus, 22.856 kg): 17 whole fish weighing 38.09 kg. A household freezer held the fish; officers also seized 21 set hooks and 12 metres of fishing net. The resident reportedly told police that the dourado had been acquired from third parties, implying a previous transfer but not proving payment, organised trade, an identified vendor or equivalent third-party acquisition of the piracanjuba.\n\n[O1] [O2] Authorities imposed reported fines totalling BRL 88,207.12, and piracanjuba was described as critically endangered in Brazil's national listing. This is a wildlife offence with indications of prior circulation, not evidence of a trafficking network, fishing site or transport route. The map locates the municipality, not the residence. Count 17 dead fish; 38.09 kg is mass, not additional animals.",
+      "references_text_en": "[O1] MS em Foco / Polícia Militar Ambiental de MS — https://msemfoco.com.br/noticia/4206/pma-apreende-38-kg-de-pescado-irregular-e-aplica-r-88-mil-em-multas-em-deodapolis\n[O2] Angivi / Polícia Militar Ambiental de MS — https://angivi.com.br/noticia/14193/deodapolis-homem-e-preso-com-dezenas-de-peixes-proibidos-arma-e-municoes-em-ms",
+      "geographic_note_en": "Generalized Deodápolis municipal seat coordinate, not the household address.",
+      "route_audit_note_en": "Third-party acquisition does not establish supplier address, route or destination; no route.",
+      "quantity_note_en": "17 whole dead fish = 5 dourado + 12 piracanjuba; 38.09 kg stored separately as weight.",
+      "location_label_es": "Deodápolis, Mato Grosso do Sul, Brasil",
+      "title_es": "Decomisan 17 peces de captura restringida tras adquisición a terceros en Deodápolis",
+      "fauna_label_es": "5 dorados y 12 piracanjubas, 38,09 kg",
+      "card_text_es": "Entre la noche del 16 y la madrugada del 17/10/2026, la policía ambiental encontró 17 peces enteros (38,09 kg) en un congelador residencial en Deodápolis: cinco dorados y 12 piracanjubas. El residente declaró haber adquirido los dorados a terceros.",
+      "context_es": "[O1] [O2] La policía ambiental de Mato Grosso do Sul inspeccionó un inmueble de Deodápolis entre la noche del 16 y la madrugada del 17/10/2026 y confiscó cinco dorados (Salminus brasiliensis; 15,234 kg) y doce piracanjubas (Brycon orbignyanus; 22,856 kg): 17 peces enteros y 38,09 kg. Estaban en un congelador residencial; también se confiscaron 21 anzuelos y 12 metros de red. El responsable declaró haber obtenido los dorados de terceros, indicando transferencia previa, pero no probando pago, comercio organizado, vendedor identificado ni adquisición equivalente de las piracanjubas.\n\n[O1] [O2] Las multas ascendieron a R$ 88.207,12 y la piracanjuba fue señalada como críticamente amenazada en la lista nacional brasileña. Se trata de infracción contra fauna con indicios de circulación previa, no de una red de tráfico, ruta o sitio de pesca demostrado. El punto identifica el municipio y no el domicilio. Contar 17 peces muertos; 38,09 kg es peso y no otro número de animales.",
+      "references_text_es": "[O1] MS em Foco / Polícia Militar Ambiental de MS — https://msemfoco.com.br/noticia/4206/pma-apreende-38-kg-de-pescado-irregular-e-aplica-r-88-mil-em-multas-em-deodapolis\n[O2] Angivi / Polícia Militar Ambiental de MS — https://angivi.com.br/noticia/14193/deodapolis-homem-e-preso-com-dezenas-de-peixes-proibidos-arma-e-municoes-em-ms",
+      "geographic_note_es": "Coordenada de la cabecera municipal de Deodápolis, no de la vivienda.",
+      "route_audit_note_es": "Adquisición a terceros no identifica procedencia, vendedor, itinerario ni destino; sin ruta.",
+      "quantity_note_es": "17 peces enteros muertos = 5 dorados + 12 piracanjubas; 38,09 kg como peso aparte."
+    },
+    {
+      "id": "2026-unknown__shenzhen-bay-226-marine-ornamental-fish",
+      "status": "VALIDATED",
+      "country": "China",
+      "event_date": null,
+      "publication_date": null,
+      "event_date_precision": "unknown",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown",
+      "coordinates": {
+        "lat": 22.504,
+        "lon": 113.943
+      },
+      "coordinate_precision": "border_checkpoint_generalized",
+      "source_label": "Sam Inglis MSc, relato sobre Shenzhen Customs reproduzido no LinkedIn",
+      "source_url": "https://my.linkedin.com/in/nick-mays-1201968a",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "taxon_text": "226 peixes marinhos ornamentais vivos; 14 espécies reportadas, incluindo Siganus uspi, Chaetodontoplus duboulayi, Pomacanthus arcuatus e Holacanthus ciliaris",
+      "modal_primary": "Terrestre",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 226,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 226
+      },
+      "quantity_unassigned": 0,
+      "ingestion_batch": "audit-omitted-seizures-20261018",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "context_status": "VALIDATED",
+      "source_reconciliation_status": "SECONDARY_SOURCE_PENDING_PRIMARY_DATE",
+      "route_audit_status": "NO_DOCUMENTED_ORIGIN_DESTINATION_PAIR",
+      "image_url": null,
+      "image_source_url": "https://my.linkedin.com/in/nick-mays-1201968a",
+      "image_status": "IMAGE_UNVERIFIED",
+      "occurrence_type": "irregular_cross_border_live_ornamental_fish_importation",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Sam Inglis MSc, relato sobre Shenzhen Customs reproduzido no LinkedIn",
+          "url": "https://my.linkedin.com/in/nick-mays-1201968a"
+        }
+      ],
+      "location_label_pt": "Posto de fronteira Shenzhen Bay, Shenzhen, Guangdong, China",
+      "title_pt": "226 peixes ornamentais marinhos interceptados na entrada de Shenzhen Bay",
+      "fauna_label_pt": "226 peixes vivos de 14 espécies reportadas",
+      "card_text_pt": "Um relato que atribui informações à Alfândega de Shenzhen descreve a interceptação de 226 peixes ornamentais marinhos vivos de 14 espécies, ocultos em cinco sacos grandes no compartimento traseiro de veículo transfronteiriço que entrava na China via Shenzhen Bay. Data do evento ainda não confirmada.",
+      "context_pt": "[O1] Em relato publicado por Sam Inglis e reproduzido no LinkedIn, uma fiscalização da Alfândega de Shenzhen teria identificado 226 peixes marinhos ornamentais vivos, agrupados em pequenos sacos plásticos com água e ar dentro de cinco sacos maiores escondidos junto à tampa traseira de veículo de passageiros que ingressava na China por Shenzhen Bay. O relato atribui ao centro técnico da alfândega identificação de 14 espécies e cita Siganus uspi, Chaetodontoplus duboulayi, Pomacanthus arcuatus e Holacanthus ciliaris. A operação indica introdução transfronteiriça irregular de animais vivos, mas não demonstra venda nem confirma que essas quatro espécies estejam ameaçadas ou listadas pela CITES.\n\n[O1] A data exata do flagrante, a publicação original da autoridade e a íntegra do vídeo oficial não foram recuperadas independentemente. O link para vídeo da China Customs foi divulgado como referência secundária, mas não foi verificado. Não atribuir data 18/10/2026 somente pelo dia de republicação, nem presumir origem biológica, país fornecedor, clientes ou rota anterior ao posto Shenzhen Bay. A ficha é documentada como fonte secundária pendente de reconciliação primária.",
+      "references_text_pt": "[O1] Sam Inglis MSc, relato sobre Shenzhen Customs reproduzido no LinkedIn — https://my.linkedin.com/in/nick-mays-1201968a",
+      "geographic_note_pt": "Marcador aproximado do posto de fronteira Shenzhen Bay; sem posição exata da faixa fiscalizada.",
+      "route_audit_note_pt": "Documentada apenas a passagem de entrada em Shenzhen Bay; não inferir local anterior, destino ulterior ou rota completa.",
+      "quantity_note_pt": "226 peixes vivos, 14 espécies reportadas; taxa específicos não alocados quantitativamente.",
+      "location_label_en": "Shenzhen Bay border crossing, Shenzhen, Guangdong, China",
+      "title_en": "226 live marine ornamental fish intercepted at Shenzhen Bay entry",
+      "fauna_label_en": "226 live fish from 14 reported species",
+      "card_text_en": "A report citing Shenzhen Customs describes 226 live marine ornamental fish of 14 species concealed in five large bags in the rear of a cross-border passenger vehicle entering mainland China through Shenzhen Bay. The event date remains unconfirmed.",
+      "context_en": "[O1] A report by Sam Inglis republished on LinkedIn describes Shenzhen Customs officers finding 226 live marine ornamental fish in water-filled individual bags packed into five large grey bags concealed near the trunk lid of a cross-border passenger vehicle entering mainland China at Shenzhen Bay. The report attributes identification of 14 species to the customs technical centre, including Siganus uspi, Chaetodontoplus duboulayi, Pomacanthus arcuatus and Holacanthus ciliaris. The incident suggests irregular cross-border introduction of live animals, but no completed sale is documented, and none of the named species should automatically be labelled CITES-listed or threatened.\n\n[O1] The exact event date, primary customs notice and original official video were not independently retrieved. A link purportedly leading to a China Customs video is listed as an unverified supplementary pointer. The event must not be dated 18 October solely based on a repost, nor used to infer collection origins, trading networks, customers or movement before Shenzhen Bay. Source reconciliation remains pending.",
+      "references_text_en": "[O1] Sam Inglis MSc, relato sobre Shenzhen Customs reproduzido no LinkedIn — https://my.linkedin.com/in/nick-mays-1201968a",
+      "geographic_note_en": "Approximate Shenzhen Bay border checkpoint marker, not the precise inspected lane.",
+      "route_audit_note_en": "Only inbound passage at Shenzhen Bay is documented; no upstream origin or onward destination is inferred.",
+      "quantity_note_en": "226 live fish across 14 reported species; no species-by-species quantities.",
+      "location_label_es": "Paso fronterizo Shenzhen Bay, Shenzhen, Guangdong, China",
+      "title_es": "Interceptan 226 peces ornamentales marinos vivos en el acceso Shenzhen Bay",
+      "fauna_label_es": "226 peces vivos de 14 especies comunicadas",
+      "card_text_es": "Un relato atribuido a la aduana de Shenzhen describe 226 peces ornamentales marinos vivos de 14 especies ocultos en cinco bolsas grandes en un vehículo transfronterizo que ingresaba a China continental por Shenzhen Bay. La fecha del hecho aún no está confirmada.",
+      "context_es": "[O1] Un relato de Sam Inglis reproducido en LinkedIn señala que la aduana de Shenzhen halló 226 peces ornamentales marinos vivos distribuidos en bolsas con agua dentro de cinco grandes sacos ocultos junto a la tapa trasera de un vehículo transfronterizo que ingresaba a China continental por Shenzhen Bay. La fuente atribuye a un centro técnico de aduanas la identificación de 14 especies, entre ellas Siganus uspi, Chaetodontoplus duboulayi, Pomacanthus arcuatus y Holacanthus ciliaris. El hecho apunta a introducción transfronteriza irregular, pero no prueba venta, ni que las especies citadas sean necesariamente amenazadas o CITES.\n\n[O1] No se recuperaron de forma independiente la fecha exacta, el comunicado aduanero primario ni el vídeo oficial original. El enlace atribuido a China Customs es una pista adicional sin verificación independiente. No se asigna la fecha 18/10 por una republicación ni se infieren procedencias, clientes, proveedores o rutas previas al puesto Shenzhen Bay. Pendiente conciliación de fuente primaria.",
+      "references_text_es": "[O1] Sam Inglis MSc, relato sobre Shenzhen Customs reproduzido no LinkedIn — https://my.linkedin.com/in/nick-mays-1201968a",
+      "geographic_note_es": "Marcador aproximado del control fronterizo Shenzhen Bay, no del carril exacto.",
+      "route_audit_note_es": "Solo se documenta ingreso por Shenzhen Bay; sin inferir origen previo, destino posterior ni ruta.",
+      "quantity_note_es": "226 peces vivos de 14 especies comunicadas; sin desglose de individuos por especie.",
+      "unverified_source_leads": [
+        {
+          "id": "N1",
+          "label": "Link secundário que remete a vídeo China Customs; destino ainda não acessado de forma independente",
+          "url": "https://lnkd.in/gMJfTnjy",
+          "status": "NOT_VERIFIED"
+        }
+      ]
     }
   ]
 }
