@@ -11255,6 +11255,42 @@
       "evidence_es": "El pasajero fue detenido en el aeropuerto de Ciudad de México tras llegar desde Lima con 18 primates.",
       "source_label": "TRAFFIC",
       "source_url": "https://www.traffic.org/news/monkey-smuggler-arrested-in-mexico/"
+    },
+    {
+      "id": "merauke-ogan-komering-ulu-selatan-2026-10-18",
+      "event_match": {
+        "event_id": "2026-10-18__merauke-mopah-stuffed-bird-2-cassowary-eggs"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Merauke → Ogan Komering Ulu Selatan (envio pretendido)",
+      "label_en": "Merauke → South Ogan Komering Ulu (intended shipment)",
+      "label_es": "Merauke → Ogan Komering Ulu Selatan (envío previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Mopah, Merauke",
+            "country": "Indonésia",
+            "lat": -8.52392,
+            "lon": 140.41962,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Ogan Komering Ulu Selatan, Sumatra Meridional",
+            "country": "Indonésia",
+            "lat": -4.44,
+            "lon": 104.13,
+            "precision": "regency_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A encomenda com um exemplar de ave-do-paraíso taxidermizado e dois ovos de casuar foi interceptada em Merauke antes de envio por Lion Parcel a Ogan Komering Ulu Selatan. Apenas destino previsto; voo, escalas e chegada não documentados.",
+      "evidence_en": "The package holding one taxidermied bird-of-paradise and two cassowary eggs was intercepted in Merauke before planned Lion Parcel dispatch to South Ogan Komering Ulu. Intended shipment only; flight, transfers and arrival undocumented.",
+      "evidence_es": "El paquete con un ave del paraíso disecada y dos huevos de casuario fue interceptado en Merauke antes de su envío previsto por Lion Parcel a Ogan Komering Ulu Selatan. No se documentaron vuelo, escalas ni llegada.",
+      "source_label": "Koran Papua / autoridades aeroportuárias de Merauke",
+      "source_url": "https://koranpapua.id/2026/10/18/pasgat-gagalkan-pengiriman-cenderawasih-awetan-dan-dua-telur-kasuari-di-merauke/"
     }
   ],
   "network_context": [
