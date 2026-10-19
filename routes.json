@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-16T21:55:00Z",
+  "updated_at": "2026-10-19T19:50:59.250Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11291,6 +11291,42 @@
       "evidence_es": "El paquete con un ave del paraíso disecada y dos huevos de casuario fue interceptado en Merauke antes de su envío previsto por Lion Parcel a Ogan Komering Ulu Selatan. No se documentaron vuelo, escalas ni llegada.",
       "source_label": "Koran Papua / autoridades aeroportuárias de Merauke",
       "source_url": "https://koranpapua.id/2026/10/18/pasgat-gagalkan-pengiriman-cenderawasih-awetan-dan-dua-telur-kasuari-di-merauke/"
+    },
+    {
+      "id": "ucayali-lima-998-wild-birds-planned-2026-10",
+      "event_match": {
+        "event_id": "2026-10__ucayali-km20-federico-basadre-998-wild-birds"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement_intercepted_before_departure",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ucayali (km 20) → Lima — envio planejado e interrompido",
+      "label_en": "Ucayali (km 20) → Lima — intended shipment intercepted",
+      "label_es": "Ucayali (km 20) → Lima — traslado previsto y frustrado",
+      "segments": [
+        {
+          "from": {
+            "name": "Km 20 da carretera Federico Basadre, Ucayali",
+            "country": "Peru",
+            "lat": -8.42017,
+            "lon": -74.70699,
+            "precision": "road_km20_generalized_not_exact_seizure_site"
+          },
+          "to": {
+            "name": "Lima",
+            "country": "Peru",
+            "lat": -12.0464,
+            "lon": -77.0428,
+            "precision": "city_generalized_destination_only"
+          }
+        }
+      ],
+      "evidence_pt": "[O1][O2] Segundo as reportagens de 05/10/2026, as aves seriam levadas de madrugada do ponto de acúmulo em Ucayali até Lima para venda ilegal. O deslocamento não ocorreu: foi impedido antes da saída. Origem de captura, modal, paradas e trajeto efetivo são desconhecidos; linha reta esquemática, não rodovia percorrida.",
+      "evidence_en": "[O1][O2] Reports dated 5 October 2026 say the birds were to be moved overnight from their Ucayali holding site to Lima for alleged illegal sale. Police intervened before departure. Capture origins, vehicle, stops and actual itinerary are unknown; schematic direct segment, not travelled road.",
+      "evidence_es": "[O1][O2] Las noticias del 05/10/2026 indican que las aves iban a trasladarse de madrugada desde su lugar de acopio en Ucayali hasta Lima para venta ilegal presunta. Se impidió la salida. Origen de captura, transporte, escalas y recorrido real desconocidos; tramo directo esquemático, no vía recorrida.",
+      "source_label": "Inforegión / Diario Ahora",
+      "source_url": "https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/"
     }
   ],
   "network_context": [
