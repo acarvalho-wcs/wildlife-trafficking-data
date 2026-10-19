@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1080_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1081_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1080,
+  "count": 1081,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -82823,6 +82823,128 @@
       "publication_date_note_pt": "06/10/2026: publicação secundária no LinkedIn de Sam Inglis, inferida do identificador temporal do post. Data da publicação governamental original no Weibo permanece sem confirmação direta.",
       "publication_date_note_en": "6 October 2026: secondary LinkedIn publication by Sam Inglis, inferred from the time-encoded post ID. Original government Weibo posting date remains unverified.",
       "publication_date_note_es": "06/10/2026: publicación secundaria de Sam Inglis en LinkedIn, inferida del identificador temporal de la publicación. La fecha del post original gubernamental de Weibo sigue sin confirmarse."
+    },
+    {
+      "id": "2026-10__ucayali-km20-federico-basadre-998-wild-birds",
+      "status": "VALIDATED",
+      "country": "Peru",
+      "event_date": null,
+      "event_date_text": "Data operacional não divulgada; notícia publicada em 05/10/2026",
+      "event_date_precision": "unknown",
+      "publication_date": "2026-10-05",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown",
+      "coordinates": {
+        "lat": -8.42017,
+        "lon": -74.70699
+      },
+      "coordinate_precision": "road_km20_generalized_from_official_reference",
+      "source_label": "Inforegión / Diario Ahora / UNIDPMA Ucayali",
+      "source_url": "https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "Brotogeris versicolurus (922; nome vernacular); Aratinga weddellii (52; 'Pedrito'); Psittacara leucophthalmus (22; 'Shamiro'); guacamayo não identificado (1); diferença de 1 ave sem identificação no desdobramento",
+      "modal_primary": "Terrestre",
+      "modal_label_pt": "Terrestre (meio de envio não comprovado)",
+      "modal_label_en": "Terrestrial (transport means unconfirmed)",
+      "modal_label_es": "Terrestre (medio de traslado no confirmado)",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 998,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 998
+      },
+      "quantity_unassigned": 1,
+      "ingestion_batch": "canonical-ucayali-998-20261019",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "context_status": "VALIDATED_WITH_REPORTED_COUNT_DISCREPANCY",
+      "route_audit_status": "PLANNED_ROUTE_INTERCEPTED_BEFORE_DEPARTURE",
+      "source_reconciliation_status": "SOURCES_RECONCILED_COUNT_COMPONENTS_INCONSISTENT",
+      "occurrence_type": "wild_bird_recovery_suspected_illegal_trade_planned_transport",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Inforegión (05/10/2026) — 998 aves en Ucayali",
+          "url": "https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "Diario Ahora (05/10/2026) — 998 aves en km 20 de CFB",
+          "url": "https://diarioahora.pe/ucayali/policiales-pucallpa/rescatan-998-aves-silvestres/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Gastañaga et al. (2011), parrot trade in Peru, Bird Conservation International",
+          "url": "https://doi.org/10.1017/S0959270910000249"
+        },
+        {
+          "id": "S2",
+          "type": "scientific",
+          "label": "Romero-Vidal et al. (2023), poaching sources and trade routes in Peru and Ecuador, Conservation Science and Practice",
+          "url": "https://doi.org/10.1111/csp2.12936"
+        },
+        {
+          "id": "N1",
+          "type": "news",
+          "label": "Agencia Andina (13/05/2026) — 195 aves recuperadas en otra operación en Ucayali",
+          "url": "https://andina.pe/agencia/noticia-ucayali-autoridades-rescatan-195-aves-victimas-del-trafico-ilegal-fauna-silvestre-1074951.aspx"
+        },
+        {
+          "id": "I1",
+          "type": "institutional",
+          "label": "WCS Perú (12/03/2019) — 1.125 aves en bus por carretera Federico Basadre hacia Lima",
+          "url": "https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/11964/Images.aspx"
+        },
+        {
+          "id": "I2",
+          "type": "institutional",
+          "label": "SERFOR–WCS (2017) — Guía de identificación y cuidados iniciales de animales silvestres decomisados",
+          "url": "https://repositorio.serfor.gob.pe/bitstream/SERFOR/573/1/SERFOR%202017%20Guia-de-identificacion2017.pdf"
+        },
+        {
+          "id": "G1",
+          "type": "geospatial_reference",
+          "label": "Osinergmin (2018) — km 20 carretera Federico Basadre, UTM WGS84 18L 532256 E/9069239 N",
+          "url": "https://www.osinergmin.gob.pe/seccion/centro_documental/gas_natural/Documentos/Emergencias/Osinergmin-DSGN-CR-AEP-Ago-2018.pdf"
+        }
+      ],
+      "image_url": null,
+      "image_source_url": "https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/",
+      "image_status": "IMAGE_UNVERIFIED",
+      "location_label_pt": "Km 20 da rodovia Federico Basadre, Campo Verde, Ucayali (aprox.)",
+      "location_label_en": "Federico Basadre highway km 20, Campo Verde, Ucayali (approx.)",
+      "location_label_es": "Km 20 de la carretera Federico Basadre, Campo Verde, Ucayali (aprox.)",
+      "title_pt": "Polícia recupera 998 aves no Ucayali antes de envio planejado para Lima",
+      "title_en": "Police recover 998 birds in Ucayali ahead of planned shipment to Lima",
+      "title_es": "Policía rescata 998 aves en Ucayali antes de su traslado previsto hacia Lima",
+      "fauna_label_pt": "998 aves reportadas: 922 pihuichos-de-asa-amarela, 52 loros Pedrito, 22 Shamiro, 1 arara e 1 não alocada",
+      "fauna_label_en": "998 reported birds: 922 yellow-winged parakeets, 52 Pedrito parakeets, 22 Shamiro parakeets, 1 macaw and 1 unallocated",
+      "fauna_label_es": "998 aves reportadas: 922 pihuichos aliamarillos, 52 loros Pedrito, 22 loros Shamiro, 1 guacamayo y 1 sin asignar",
+      "card_text_pt": "[O1][O2] A UNIDPMA recuperou aves em cinco gaiolas em um terreno no km 20 da rodovia Federico Basadre, Ucayali. A polícia informou 998 aves destinadas a suposta venda ilegal mediante envio noturno planejado a Lima. O desdobramento por táxons soma 997 e foi localizada uma ave morta (inclusão no total incerta). Publicado em 05/10; data exata do flagrante desconhecida.",
+      "card_text_en": "[O1][O2] Environmental police found birds in five cages on land near km 20 of the Federico Basadre highway, Ucayali. Reports describe 998 birds allegedly intended for illegal sale through a planned overnight shipment to Lima. Itemized groups add to 997; one dead bird was found (inclusion in total unclear). Published 5 Oct; actual seizure date unknown.",
+      "card_text_es": "[O1][O2] La UNIDPMA halló aves en cinco jaulas en el km 20 de la carretera Federico Basadre, Ucayali. Se comunicó que 998 ejemplares serían trasladados de madrugada a Lima para una presunta venta ilegal. El desglose por grupos suma 997; se halló un ave muerta sin aclarar si figura en la cifra. Publicación: 05/10; fecha exacta del operativo desconocida.",
+      "context_pt": "[O1][O2] Em Ucayali, agentes da unidade ambiental UNIDPMA encontraram cinco gaiolas com aves silvestres num terreno no km 20 da rodovia Federico Basadre. A Fiscalía Ambiental e a autoridade regional de fauna foram informadas. As notícias de 05/10/2026 dizem que 998 aves seriam levadas de madrugada a Lima para suposta comercialização ilegal. A transferência não chegou a ocorrer. O Diario Ahora menciona asas amarradas e uma pessoa abordada; não há comprovação de responsabilidade definitiva. Não foram estabelecidos pontos de captura, fornecedores, veículo, compradores nem itinerário rodoviário. A data exata da apreensão não foi publicada.\n\n[O1][O2][I2] A fonte discrimina 922 pihuichos-de-asa-amarela (*Brotogeris versicolurus*), 52 loros Pedrito (*Aratinga weddellii*), 22 loros Shamiro (*Psittacara leucophthalmus*) e um guacamayo de espécie não identificada. Correspondências com os nomes científicos são baseadas no vocabulário da guia de identificação SERFOR–WCS, não em verificação morfológica independente. A soma é 997, ao contrário dos 998 divulgados; também foi relatada uma ave morta, mas não se esclarece se esta integra a contagem discriminada. Mantemos o total divulgado, com diferença de uma unidade sem atribuição, sem somar o óbito novamente. Não se assume que as demais 997 aves estivessem vivas.\n\n[S1] Gastañaga et al. (2011) documentaram comércio doméstico expressivo de psitacídeos no Peru, incluindo Pucallpa como centro de mercado. O estudo fornece contexto para acúmulo de aves e demanda interna, mas não analisou este flagrante.\n\n[S2] Romero-Vidal et al. (2023) estudaram captura seletiva e deslocamento de psitacídeos no Peru e Equador. Seus resultados justificam separar etapas de captura, acúmulo e destino, sem estabelecer a procedência ou o trajeto das aves deste caso.\n\n[N1] A agência Andina relatou outro resgate de 195 aves em Ucayali, em maio de 2026, incluindo *B. versicolurus* e *P. leucophthalmus*. O episódio é distinto, sem associação documentada de autores ou redes com a apreensão de outubro.\n\n[I1] A WCS Peru documentou em março de 2019 outra apreensão de 1.125 aves, 1.100 delas *B. versicolurus*, em ônibus efetivamente deslocando-se de Pucallpa para Lima no km 111 da mesma rodovia. Trata-se de antecedente direto do corredor logístico e do táxon predominante, não evidência de grupo criminoso compartilhado.\n\n[G1] A coordenada é uma referência aproximada do km 20, transformada de UTM WGS84 publicada pelo Osinergmin para uma localização diferente nessa altura da rodovia; não indica o terreno exato. A rota Ucayali→Lima representa somente a intenção de deslocamento reportada em [O1][O2], nunca um transporte confirmado.",
+      "context_en": "[O1][O2] Environmental police (UNIDPMA) recovered wild birds held in five cages on a property near km 20 of the Federico Basadre highway, Ucayali. The specialized environmental prosecutor and regional wildlife authority were informed. Reports published on 5 October 2026 say 998 birds were to be shipped overnight to Lima for alleged illegal sale. The transfer had not taken place. Diario Ahora mentions restrained wings and one person questioned, without an established final finding of responsibility. The capture sites, suppliers, vehicle, buyers and actual road itinerary remain undocumented. The operation date was not specified.\n\n[O1][O2][I2] Published groups comprise 922 yellow-winged parakeets (*Brotogeris versicolurus*), 52 'Pedrito' parrots (*Aratinga weddellii*), 22 'Shamiro' parrots (*Psittacara leucophthalmus*) and one unidentified macaw. Scientific-name mappings are drawn from the local names in the SERFOR–WCS identification guide rather than independent morphological confirmation. The components total 997, not the reported 998. One bird was found dead, but it is unclear if this bird was already included. The reported total is retained with one unassigned individual and an unresolved discrepancy; the dead bird is not counted again. No assertion is made that all other birds survived.\n\n[S1] Gastañaga et al. (2011) documented extensive domestic parrot trading in Peru, identifying Pucallpa as an important market centre. Their research explains why holding sites and domestic demand merit investigation but did not examine this operation.\n\n[S2] Romero-Vidal et al. (2023) examined selective parrot poaching and movement across Peru and Ecuador. It supports distinguishing collection, aggregation and destination stages, but cannot establish these birds' capture locations or the route travelled.\n\n[N1] Andina reported a separate May 2026 recovery of 195 birds in Ucayali, including *B. versicolurus* and *P. leucophthalmus*. This is distinct regional context, with no established link between people, premises or networks.\n\n[I1] WCS Peru reported a different March 2019 seizure of 1,125 birds, including 1,100 *B. versicolurus*, aboard a bus actually travelling Pucallpa–Lima at km 111 of the same highway. The common corridor and predominant taxon are pertinent historical context, not proof of shared actors or organization.\n\n[G1] The point approximates highway km 20 using 2018 Osinergmin UTM coordinates for another site at that road marker; it does not locate the actual property. Ucayali→Lima is an intended, intercepted transfer reported in [O1][O2], never a completed journey.",
+      "context_es": "[O1][O2] Agentes ambientales de la UNIDPMA recuperaron aves silvestres en cinco jaulas dentro de un terreno del km 20 de la carretera Federico Basadre, en Ucayali. Se comunicó el hecho a la Fiscalía Ambiental y a la autoridad regional de fauna. Las noticias del 05/10/2026 indican que 998 aves iban a enviarse de madrugada a Lima para su presunta venta ilegal. El traslado no llegó a iniciarse. Diario Ahora menciona alas atadas y una persona intervenida, sin responsabilidad definitiva acreditada. No constan lugares de captura, proveedores, vehículo, compradores ni recorrido efectivo. No se publicó la fecha exacta del operativo.\n\n[O1][O2][I2] Los grupos reportados son 922 pihuichos aliamarillos (*Brotogeris versicolurus*), 52 loros Pedrito (*Aratinga weddellii*), 22 loros Shamiro (*Psittacara leucophthalmus*) y un guacamayo de especie no precisada. Los nombres científicos se corresponden con denominaciones locales en la guía SERFOR–WCS; no son identificaciones morfológicas independientes. La suma es 997, no los 998 del titular. Se halló un ave muerta, pero no se sabe si ya está contemplada. Se conserva el total divulgado, con una unidad sin asignar y discrepancia pendiente; no se agrega por separado el animal muerto ni se presume que todas las demás aves sobrevivieron.\n\n[S1] Gastañaga et al. (2011) documentaron el comercio interno de psitácidos en el Perú y a Pucallpa como importante centro comercial. Es contexto para estudiar acopio y demanda, pero no analizó esta intervención.\n\n[S2] Romero-Vidal et al. (2023) investigaron la captura selectiva y desplazamientos de loros en Perú y Ecuador. Sus resultados ayudan a diferenciar extracción, acopio y destino, sin demostrar el origen ni el recorrido de los animales aquí intervenidos.\n\n[N1] Andina informó de otra recuperación de 195 aves en Ucayali, en mayo de 2026, incluidos *B. versicolurus* y *P. leucophthalmus*. Es un hecho independiente, sin relación documentada de personas o redes.\n\n[I1] En marzo de 2019, WCS Perú publicó otra incautación de 1.125 aves, 1.100 de ellas *B. versicolurus*, en un autobús que efectivamente circulaba desde Pucallpa a Lima, en el km 111 de la misma carretera. Coinciden el corredor y la especie dominante; ello no prueba la existencia de una misma estructura criminal.\n\n[G1] El punto cartográfico aproxima el km 20 con coordenadas UTM publicadas por Osinergmin en 2018 para otro lugar a esa altura; no identifica la parcela intervenida. Ucayali→Lima representa solamente un traslado previsto y frustrado, no un viaje realizado.",
+      "quantity_note_pt": "998 aves reportadas; desdobramento 922+52+22+1=997. Diferença de 1 não identificada e uma ave morta cuja inclusão não está clara; não somar o óbito à contagem.",
+      "quantity_note_en": "Reported 998 birds, although 922+52+22+1=997. One unallocated individual and a dead bird with unclear inclusion; do not double-count the death.",
+      "quantity_note_es": "Se reportan 998 aves pero 922+52+22+1=997. Un individuo sin asignar y un ave muerta cuya inclusión no se aclara; no duplicar el óbito.",
+      "geographic_note_pt": "Referência aproximada do km 20 em Campo Verde. Convertidas coordenadas UTM WGS84 18L 532256 E/9069239 N do Osinergmin (2018), relativas a outro ponto no mesmo km, não ao terreno apreendido.",
+      "geographic_note_en": "Generalized km-20 marker in Campo Verde. Converted Osinergmin 2018 UTM WGS84 18L 532256 E/9069239 N coordinates describe another site near the same road km, not the seizure property.",
+      "geographic_note_es": "Marcador generalizado del km 20 en Campo Verde. Las coordenadas UTM WGS84 18L 532256 E/9069239 N del Osinergmin (2018) corresponden a otro lugar próximo, no al terreno del operativo.",
+      "route_audit_note_pt": "Km 20, Ucayali → Lima; apenas rota planejada e impedida antes da partida. Origem de captura, modal exato, itinerário intermediário e comprador não informados.",
+      "route_audit_note_en": "Km 20 Ucayali → Lima: only a planned, intercepted movement; capture origin, exact mode, stops and buyer unreported.",
+      "route_audit_note_es": "Km 20 Ucayali → Lima: exclusivamente traslado previsto y frustrado; origen de captura, medio exacto, escalas y comprador desconocidos.",
+      "references_text_pt": "[O1] Inforegión (05/10/2026) — 998 aves en Ucayali — https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/\n[O2] Diario Ahora (05/10/2026) — 998 aves en km 20 de CFB — https://diarioahora.pe/ucayali/policiales-pucallpa/rescatan-998-aves-silvestres/\n[S1] Gastañaga et al. (2011), parrot trade in Peru, Bird Conservation International — https://doi.org/10.1017/S0959270910000249\n[S2] Romero-Vidal et al. (2023), poaching sources and trade routes in Peru and Ecuador, Conservation Science and Practice — https://doi.org/10.1111/csp2.12936\n[N1] Agencia Andina (13/05/2026) — 195 aves recuperadas en otra operación en Ucayali — https://andina.pe/agencia/noticia-ucayali-autoridades-rescatan-195-aves-victimas-del-trafico-ilegal-fauna-silvestre-1074951.aspx\n[I1] WCS Perú (12/03/2019) — 1.125 aves en bus por carretera Federico Basadre hacia Lima — https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/11964/Images.aspx\n[I2] SERFOR–WCS (2017) — Guía de identificación y cuidados iniciales de animales silvestres decomisados — https://repositorio.serfor.gob.pe/bitstream/SERFOR/573/1/SERFOR%202017%20Guia-de-identificacion2017.pdf\n[G1] Osinergmin (2018) — km 20 carretera Federico Basadre, UTM WGS84 18L 532256 E/9069239 N — https://www.osinergmin.gob.pe/seccion/centro_documental/gas_natural/Documentos/Emergencias/Osinergmin-DSGN-CR-AEP-Ago-2018.pdf",
+      "references_text_en": "[O1] Inforegión (05/10/2026) — 998 aves en Ucayali — https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/\n[O2] Diario Ahora (05/10/2026) — 998 aves en km 20 de CFB — https://diarioahora.pe/ucayali/policiales-pucallpa/rescatan-998-aves-silvestres/\n[S1] Gastañaga et al. (2011), parrot trade in Peru, Bird Conservation International — https://doi.org/10.1017/S0959270910000249\n[S2] Romero-Vidal et al. (2023), poaching sources and trade routes in Peru and Ecuador, Conservation Science and Practice — https://doi.org/10.1111/csp2.12936\n[N1] Agencia Andina (13/05/2026) — 195 aves recuperadas en otra operación en Ucayali — https://andina.pe/agencia/noticia-ucayali-autoridades-rescatan-195-aves-victimas-del-trafico-ilegal-fauna-silvestre-1074951.aspx\n[I1] WCS Perú (12/03/2019) — 1.125 aves en bus por carretera Federico Basadre hacia Lima — https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/11964/Images.aspx\n[I2] SERFOR–WCS (2017) — Guía de identificación y cuidados iniciales de animales silvestres decomisados — https://repositorio.serfor.gob.pe/bitstream/SERFOR/573/1/SERFOR%202017%20Guia-de-identificacion2017.pdf\n[G1] Osinergmin (2018) — km 20 carretera Federico Basadre, UTM WGS84 18L 532256 E/9069239 N — https://www.osinergmin.gob.pe/seccion/centro_documental/gas_natural/Documentos/Emergencias/Osinergmin-DSGN-CR-AEP-Ago-2018.pdf",
+      "references_text_es": "[O1] Inforegión (05/10/2026) — 998 aves en Ucayali — https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/\n[O2] Diario Ahora (05/10/2026) — 998 aves en km 20 de CFB — https://diarioahora.pe/ucayali/policiales-pucallpa/rescatan-998-aves-silvestres/\n[S1] Gastañaga et al. (2011), parrot trade in Peru, Bird Conservation International — https://doi.org/10.1017/S0959270910000249\n[S2] Romero-Vidal et al. (2023), poaching sources and trade routes in Peru and Ecuador, Conservation Science and Practice — https://doi.org/10.1111/csp2.12936\n[N1] Agencia Andina (13/05/2026) — 195 aves recuperadas en otra operación en Ucayali — https://andina.pe/agencia/noticia-ucayali-autoridades-rescatan-195-aves-victimas-del-trafico-ilegal-fauna-silvestre-1074951.aspx\n[I1] WCS Perú (12/03/2019) — 1.125 aves en bus por carretera Federico Basadre hacia Lima — https://peru.wcs.org/es-es/WCS-Peru/Noticias/articleType/ArticleView/articleId/11964/Images.aspx\n[I2] SERFOR–WCS (2017) — Guía de identificación y cuidados iniciales de animales silvestres decomisados — https://repositorio.serfor.gob.pe/bitstream/SERFOR/573/1/SERFOR%202017%20Guia-de-identificacion2017.pdf\n[G1] Osinergmin (2018) — km 20 carretera Federico Basadre, UTM WGS84 18L 532256 E/9069239 N — https://www.osinergmin.gob.pe/seccion/centro_documental/gas_natural/Documentos/Emergencias/Osinergmin-DSGN-CR-AEP-Ago-2018.pdf"
     }
   ]
 }
