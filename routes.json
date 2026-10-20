@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-19T19:50:59.250Z",
+  "updated_at": "2026-10-20T00:00:00Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11327,6 +11327,57 @@
       "evidence_es": "[O1][O2] Las noticias del 05/10/2026 indican que las aves iban a trasladarse de madrugada desde su lugar de acopio en Ucayali hasta Lima para venta ilegal presunta. Se impidió la salida. Origen de captura, transporte, escalas y recorrido real desconocidos; tramo directo esquemático, no vía recorrida.",
       "source_label": "Inforegión / Diario Ahora",
       "source_url": "https://inforegion.pe/rescatan-casi-1000-aves-silvestres-en-ucayali-que-iban-a-ser-trasladadas-de-madrugada-a-lima-para-su-venta-ilegal-en-el-mercado-negro/"
+    },
+    {
+      "id": "galeao-switzerland-parrot-eggs-2025-10-26",
+      "event_match": {
+        "event_id": "2025-10-26__galeao-24-threatened-amazon-eggs"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Galeão, Rio de Janeiro → Suíça (destino pretendido; cidade não informada)",
+      "label_en": "Galeão, Rio de Janeiro → Switzerland (intended destination; city not reported)",
+      "label_es": "Galeão, Río de Janeiro → Suiza (destino previsto; ciudad no informada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional do Galeão, Rio de Janeiro",
+            "country": "Brasil",
+            "lat": -22.809,
+            "lon": -43.2506,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "Suíça — destino nacional não especificado",
+            "country": "Suíça",
+            "lat": 46.8182,
+            "lon": 8.2275,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Em 26/10/2025, uma passageira suíça foi interceptada antes de embarcar no Aeroporto Internacional do Galeão (Rio de Janeiro) com 24 ovos de aves silvestres ocultos sob as roupas. A Polícia Federal confirma a apreensão e seu vínculo com a Operação Ninho Vazio; a reportagem do Diário do Rio informa que o embarque pretendido tinha como destino o país de origem da passageira, a Suíça. A cidade, o aeroporto e possíveis escalas de destino não foram documentados. O ponto suíço é um centroide nacional cartográfico e não indica destino efetivo; a linha representa exclusivamente o transporte pretendido, impedido pela apreensão, e não um voo concluído nem um percurso aéreo exato. Weinfelden e Gran Canaria, locais de ações da investigação de 2026, não são escalas documentadas desta carga.",
+      "evidence_en": "On 26 October 2025, a Swiss passenger was intercepted before boarding at Rio de Janeiro/Galeão International Airport with 24 wild bird eggs concealed beneath her clothes. Brazilian Federal Police confirm the seizure and its link to Operation Ninho Vazio; Diário do Rio reports that the intended flight was to the passenger's home country, Switzerland. The destination city, airport and possible stops were not documented. The Swiss point is a cartographic national centroid, not an actual endpoint; the line depicts intended transport interrupted by seizure, not a completed flight or exact flight path. Weinfelden and Gran Canaria, locations of investigation actions in 2026, are not documented stops for these eggs.",
+      "evidence_es": "El 26/10/2025, una pasajera suiza fue interceptada antes de embarcar en el Aeropuerto Internacional de Galeão (Río de Janeiro) con 24 huevos de aves silvestres ocultos bajo su ropa. La Policía Federal confirma la incautación y su vínculo con la Operación Ninho Vazio; Diário do Rio informa que el destino previsto era el país de origen de la pasajera, Suiza. No se documentaron ciudad, aeropuerto ni posibles escalas. El punto suizo es un centroide cartográfico nacional, no el destino real; la línea representa únicamente un transporte previsto e interrumpido por la incautación, no un vuelo completado ni una trayectoria exacta. Weinfelden y Gran Canaria, lugares de actuaciones investigativas en 2026, no son escalas documentadas de esta carga.",
+      "source_label": "Polícia Federal (F1, apreensão) / Diário do Rio (F5, destino pretendido)",
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres",
+      "source_evidence": [
+        {
+          "tier": "F1",
+          "name": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres",
+          "role": "official_event_and_investigation"
+        },
+        {
+          "tier": "F5",
+          "name": "Diário do Rio",
+          "url": "https://diariodorio.com/meio-ambiente/2026/10/20/pf-prende-contrabandistas-de-ovos-de-aves-silvestres-brasileiras.html",
+          "role": "reported_intended_destination_switzerland"
+        }
+      ],
+      "route_audit": "TG-H 1.5 — intended transport, country-level endpoint only, evidence verified 2026-10-20"
     }
   ],
   "network_context": [
