@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-19__sorong-km-sinabung-22-birds",
+  "status": "VALIDATED",
+  "country": "Indonésia",
+  "event_date": "2026-10-19",
+  "publication_date": "2026-10-20",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -0.8777,
+    "lon": 131.24686
+  },
+  "coordinate_precision": "seaport_generalized",
+  "source_label": "TNI AL/Kodaeral XIV via Pelopor Wiratama",
+  "source_url": "https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "21 *Chalcopsitta atra*; 1 kasturi kepala hitam (identificação científica não confirmada)",
+  "modal_primary": "Marítimo",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 22,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 22
+  },
+  "quantity_unassigned": 0,
+  "ingestion_batch": "tgh-48h-human-mediated-20261020",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "image_url": null,
+  "image_source_url": "https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/",
+  "image_status": "IMAGE_UNVERIFIED",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "location_label_pt": "Porto Pelindo, Sorong, Papua Sudoeste",
+  "location_label_en": "Pelindo Port, Sorong, Southwest Papua",
+  "location_label_es": "Puerto Pelindo, Sorong, Papúa Sudoccidental",
+  "fauna_label_pt": "22 aves vivas (21 lóris-pretos e outra ave da família Psittacidae)",
+  "fauna_label_en": "22 live birds (21 black lories and one additional parrot)",
+  "fauna_label_es": "22 aves vivas (21 loris negros y otro psitácido)",
+  "title_pt": "Vinte e duas aves interceptadas a bordo do KM Sinabung em Sorong",
+  "title_en": "Twenty-two birds intercepted aboard KM Sinabung in Sorong",
+  "title_es": "Interceptan veintidós aves a bordo del KM Sinabung en Sorong",
+  "card_text_pt": "Em 19/10/2026, agentes indonésios localizaram 21 lóris-pretos e um segundo psitacídeo no KM Sinabung, atracado em Sorong. Seis orquídeas também foram encontradas, sem integrar a contagem de fauna.",
+  "card_text_en": "On 19 October 2026, Indonesian officers found 21 black lories and another parrot aboard KM Sinabung at Sorong Port. Six orchids were also recovered, but are excluded from wildlife-animal totals.",
+  "card_text_es": "El 19/10/2026, agentes indonesios encontraron 21 loris negros y otro psitácido a bordo del KM Sinabung en Sorong. También hallaron seis orquídeas, excluidas del recuento de fauna.",
+  "context_pt": "[O1] Em 19/10/2026, uma fiscalização conjunta de segurança portuária, polícia marítima, conservação e quarentena encontrou 21 *Chalcopsitta atra* escondidos no bote salva-vidas do convés 7 do KM Sinabung e uma ave descrita como kasturi kepala hitam em um alojamento do convés 4. Também foram encontradas seis orquídeas *Grammatophyllum scriptum* sob cama no convés 3. A divulgação policial anterior que registra apenas 21 aves [O2] é subconjunto do relato conjunto, não outra apreensão. A identificação científica da ave adicional não foi confirmada na fonte. Proprietários, origem dos animais, local de embarque e destino pretendido não foram estabelecidos. O itinerário comercial do navio não constitui rota documentada para esses animais. As orquídeas não entram nos totais de fauna.",
+  "context_en": "[O1] On 19 October 2026, a joint inspection involving maritime police, port security, conservation and quarantine officials found 21 *Chalcopsitta atra* concealed in a lifeboat on deck 7 of KM Sinabung and one bird described locally as kasturi kepala hitam under a bed on deck 4. Six *Grammatophyllum scriptum* orchids were also recovered from deck 3. An earlier police account reporting 21 birds [O2] refers to a subset of the same inspection, not a second event. The additional bird's scientific identification remains unconfirmed. Ownership, animal origins, loading point and intended destination were not established. The ship's scheduled itinerary is not evidence of the animals' route. Orchids are excluded from animal totals.",
+  "context_es": "[O1] El 19/10/2026, una inspección conjunta de policía marítima, seguridad portuaria, conservación y cuarentena encontró 21 *Chalcopsitta atra* ocultos en un bote salvavidas de la cubierta 7 del KM Sinabung y un ave denominada localmente kasturi kepala hitam bajo una cama de la cubierta 4. También recuperaron seis orquídeas *Grammatophyllum scriptum* en la cubierta 3. El informe policial previo que menciona 21 aves [O2] es un subconjunto de la misma intervención, no otro evento. No se confirmó científicamente la identificación del ave adicional. Tampoco se documentaron propietarios, origen, lugar de embarque ni destino previsto de los animales. El itinerario comercial del barco no demuestra una ruta de fauna. Las orquídeas quedan fuera del total de animales.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "TNI AL/Kodaeral XIV via Pelopor Wiratama (20 October 2026)",
+      "url": "https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Polda Papua Barat Daya via Radar Sorong (19 October 2026)",
+      "url": "https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/"
+    }
+  ],
+  "references_text_pt": "[O1] TNI AL/Kodaeral XIV — https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/\n[O2] Polda Papua Barat Daya — https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/",
+  "references_text_en": "[O1] TNI AL/Kodaeral XIV — https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/\n[O2] Southwest Papua regional police — https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/",
+  "references_text_es": "[O1] TNI AL/Kodaeral XIV — https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/\n[O2] Policía regional de Papúa Sudoeste — https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/",
+  "geographic_note_pt": "Coordenada aproximada da área portuária de Sorong; não identifica o ponto exato no navio.",
+  "geographic_note_en": "Generalized Sorong port coordinate; not the exact position aboard the vessel.",
+  "geographic_note_es": "Coordenada aproximada del puerto de Sorong, no posición exacta a bordo.",
+  "quantity_note_pt": "22 aves da mesma operação; seis orquídeas documentadas apenas no contexto.",
+  "quantity_note_en": "22 birds in one operation; six orchids noted only in context.",
+  "quantity_note_es": "22 aves en un operativo; seis orquídeas solo en contexto.",
+  "route_audit_note_pt": "Nenhuma origem ou destino dos animais comprovada; não usar itinerário do navio.",
+  "route_audit_note_en": "No confirmed animal origin or destination; do not use the vessel itinerary.",
+  "route_audit_note_es": "Sin origen ni destino animal confirmados; no usar el itinerario del barco."
+}
