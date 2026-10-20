@@ -9,18 +9,18 @@
   "aggregate_operation": false,
   "exclude_from_totals": false,
   "migration_status": "READY_FOR_CUTOVER",
-  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "source_reconciliation_status": "PRIMARY_F1_RECOVERED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "TG-H-1.5_VERIFIED_WITH_COMPARATIVE_S_N",
   "country": "Brasil",
   "coordinates": {
     "lat": -22.809,
     "lon": -43.2506
   },
   "coordinate_precision": "airport",
-  "source_label": "Ibama / São Paulo Zoo reporting",
-  "source_url": "https://noticias.r7.com/sao-paulo/papagaios-vitimas-de-trafico-ganham-novo-espaco-no-zoo-sp-e-ja-podem-receber-visitacao-15082026/",
-  "publication_date": "2026-08-15",
+  "source_label": "Polícia Federal — Operação Ninho Vazio (fonte oficial F1)",
+  "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres",
+  "publication_date": "2026-10-19",
   "event_date": "2025-10-26",
   "event_end_date": null,
   "event_datetime": null,
@@ -42,12 +42,12 @@
   "modal_label_en": "Air",
   "modal_label_es": "Aéreo",
   "taxon_text": "*Amazona brasiliensis* e *Amazona pretrei* confirmados entre sobreviventes",
-  "title_pt": "Ibama apreende 24 ovos de papagaios ameaçados no Galeão em tentativa de tráfico internacional",
-  "title_en": "Ibama seizes 24 threatened-parrot eggs at Galeão in international trafficking attempt",
-  "title_es": "Ibama incauta 24 huevos de loros amenazados en Galeão en intento de tráfico internacional",
-  "card_text_pt": "Uma passageira suíça foi flagrada em 26/10/2025 no Galeão com 24 ovos de papagaios ocultos ao corpo, quando pretendia viajar à Suíça. Doze filhotes eclodiram, nove sobreviveram: seis *Amazona brasiliensis* e três *A. pretrei*. O episódio motivou a Operação Ninho Vazio, deflagrada em 19/10/2026.",
-  "card_text_en": "A Swiss passenger was intercepted at Galeão Airport on 26 October 2025 with 24 parrot eggs concealed against her body while intending to travel to Switzerland. Twelve chicks hatched, nine survived: six *Amazona brasiliensis* and three *A. pretrei*. This seizure prompted Operation Ninho Vazio on 19 October 2026.",
-  "card_text_es": "Una pasajera suiza fue interceptada en Galeão el 26/10/2025 con 24 huevos de loros ocultos junto al cuerpo cuando pretendía viajar a Suiza. Eclosionaron doce polluelos y sobrevivieron nueve: seis *Amazona brasiliensis* y tres *A. pretrei*. El hecho dio origen a la Operación Ninho Vazio del 19/10/2026.",
+  "title_pt": "Apreensão de 24 ovos de papagaios no Galeão desencadeia investigação internacional",
+  "title_en": "Seizure of 24 parrot eggs at Galeão Airport triggers international investigation",
+  "title_es": "La incautación de 24 huevos de loros en Galeão desencadena una investigación internacional",
+  "card_text_pt": "Em 26/10/2025, o Ibama apreendeu 24 ovos de aves silvestres ocultos sob a roupa de uma passageira com passaporte suíço no Aeroporto do Galeão (RJ). Doze filhotes eclodiram; nove sobreviveram, incluindo seis *Amazona brasiliensis* e três *A. pretrei*. A Polícia Federal confirma que a apreensão desencadeou a investigação culminada na Operação Ninho Vazio (19/10/2026).",
+  "card_text_en": "On 26 October 2025, Ibama inspectors seized 24 wild bird eggs concealed under the clothing of a passenger holding a Swiss passport at Galeão Airport, Rio de Janeiro. Twelve chicks hatched and nine survived, including six *Amazona brasiliensis* and three *A. pretrei*. Federal Police confirm that the seizure triggered the investigation culminating in Operation Ninho Vazio (19 October 2026).",
+  "card_text_es": "El 26/10/2025, agentes del Ibama incautaron 24 huevos de aves silvestres ocultos bajo la ropa de una pasajera con pasaporte suizo en el aeropuerto de Galeão, Río de Janeiro. Eclosionaron doce polluelos y sobrevivieron nueve: seis *Amazona brasiliensis* y tres *A. pretrei*. La Policía Federal confirma que esta incautación desencadenó la investigación que culminó en la Operación Ninho Vazio (19/10/2026).",
   "fauna_label_pt": "24 ovos de aves; sobreviventes identificados como *Amazona brasiliensis* e *A. pretrei*",
   "fauna_label_en": "24 bird eggs; survivors identified as *Amazona brasiliensis* and *A. pretrei*",
   "fauna_label_es": "24 huevos de aves; sobrevivientes identificados como *Amazona brasiliensis* y *A. pretrei*",
@@ -57,34 +57,50 @@
   "geographic_note_pt": "Destino planejado da passageira: Suíça, sem cidade ou aeroporto comprovado. Não confundir buscas policiais posteriores na Suíça e em Gran Canaria com locais efetivamente percorridos pelos 24 ovos.",
   "geographic_note_en": "Intended destination: Switzerland, without a verified city or airport. Later searches in Switzerland and Gran Canaria are not evidence the eggs travelled through those places.",
   "geographic_note_es": "Destino previsto: Suiza, sin ciudad ni aeropuerto confirmado. Los registros policiales posteriores en Suiza y Gran Canaria no prueban que los huevos pasaran por esos lugares.",
-  "context_pt": "[O1] Nove filhotes sobreviventes identificados não permitem determinar a espécie dos 24 ovos individualmente. [O2] A Polícia Federal relaciona a apreensão à Operação Ninho Vazio, com prisões e buscas no Brasil, Espanha e Suíça em 19/10/2026 e indícios de transporte internacional organizado de ovos de aves. [N1] A imprensa identifica a passageira como suíça e a Suíça como destino pretendido. Apreensão de espécimes taxidermizados e ossadas em Curitiba em 2026 é evento distinto. As suspeitas não constituem condenação.",
-  "context_en": "[O1] The nine identified surviving chicks do not establish the species of each of the 24 eggs. [O2] Brazil's Federal Police linked the seizure to Operation Ninho Vazio, with arrests and searches in Brazil, Spain and Switzerland on 19 October 2026 and evidence suggesting organized transnational trafficking in bird eggs. [N1] Reporting identifies the passenger as Swiss and Switzerland as her intended destination. Taxidermied wildlife and bones seized in Curitiba in 2026 are a separate event. Allegations do not constitute a criminal conviction.",
-  "context_es": "[O1] Los nueve polluelos sobrevivientes identificados no permiten asignar especie a cada uno de los 24 huevos. [O2] La Policía Federal vinculó la incautación con la Operación Ninho Vazio, con detenciones y registros en Brasil, España y Suiza el 19/10/2026 e indicios de tráfico transnacional organizado de huevos. [N1] La prensa identifica a la pasajera como suiza y a Suiza como destino previsto. Los animales disecados y huesos incautados en Curitiba en 2026 constituyen otro evento. Las sospechas no equivalen a condenas.",
+  "context_pt": "[F1] A Polícia Federal confirma que a apreensão de 24 ovos no Galeão iniciou a investigação que culminou na Operação Ninho Vazio (19/10/2026), com ações policiais no Brasil, na Suíça e na Espanha. Foram identificados indícios de transporte reiterado de ovos e de divisão de funções entre obtenção, organização de viagens, transporte e recepção no exterior; são conclusões investigativas, não condenações. [F5a/F5b] A cobertura da apreensão documenta 12 eclosões e nove sobreviventes, identificados como seis *Amazona brasiliensis* e três *A. pretrei*; isso não identifica os 24 ovos individualmente. [S1] Uma revisão científica sobre o comércio ilegal de psitacídeos descreve a participação de capturadores, intermediários e vendedores, oferecendo enquadramento criminológico comparativo, sem documentar esta rede. [N1] O repositório jornalístico registra outras apreensões de 79 ovos em Guarulhos (2026), uma comparação de modalidade sem vínculo operacional comprovado com o Galeão.",
+  "context_en": "[F1] Brazilian Federal Police confirm that the seizure of 24 eggs at Galeão initiated the investigation leading to Operation Ninho Vazio (19 October 2026), with police actions in Brazil, Switzerland and Spain. Investigators identified indications of repeated egg trafficking and of distinct roles in procurement, travel organization, transport and overseas reception; these are investigative findings, not convictions. [F5a/F5b] Reporting documents 12 hatchings and nine surviving chicks, identified as six *Amazona brasiliensis* and three *A. pretrei*; this does not identify every one of the 24 eggs. [S1] A scientific review of illegal parrot trade examines poachers, intermediaries and sellers, providing a comparative criminological framework without documenting this particular network. [N1] The Observatory's journalism repository describes separate seizures totalling 79 eggs at Guarulhos Airport in 2026; these represent a similar smuggling modality, not a proven operational connection.",
+  "context_es": "[F1] La Policía Federal de Brasil confirma que la incautación de 24 huevos en Galeão inició la investigación que culminó en la Operación Ninho Vazio (19/10/2026), con actuaciones policiales en Brasil, Suiza y España. Se identificaron indicios de tráfico reiterado de huevos y de distintas funciones relacionadas con obtención, organización de viajes, transporte y recepción en el exterior; son conclusiones de investigación, no condenas. [F5a/F5b] La cobertura documenta 12 eclosiones y nueve polluelos supervivientes, identificados como seis *Amazona brasiliensis* y tres *A. pretrei*; esto no permite identificar individualmente los 24 huevos. [S1] Una revisión científica del comercio ilegal de psitácidos examina capturadores, intermediarios y vendedores como marco criminológico comparativo, sin documentar esta red específica. [N1] El repositorio periodístico del Observatorio documenta otras incautaciones que sumaron 79 huevos en Guarulhos (2026), comparables por modalidad pero sin conexión operativa comprobada.",
   "context_references": [
     {
-      "id": "O1",
-      "type": "case_source",
-      "label": "R7 / São Paulo Zoo / Ibama — 24 Galeão eggs",
-      "url": "https://noticias.r7.com/sao-paulo/papagaios-vitimas-de-trafico-ganham-novo-espaco-no-zoo-sp-e-ja-podem-receber-visitacao-15082026/"
-    },
-    {
-      "id": "O2",
+      "id": "F1",
       "type": "official_source",
-      "label": "Polícia Federal — Operação Ninho Vazio",
+      "label": "Polícia Federal — Operação Ninho Vazio (19/10/2026)",
       "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres"
     },
     {
+      "id": "F5a",
+      "type": "event_news_source",
+      "label": "R7 — apreensão e destinação dos sobreviventes (15/08/2026)",
+      "url": "https://noticias.r7.com/sao-paulo/papagaios-vitimas-de-trafico-ganham-novo-espaco-no-zoo-sp-e-ja-podem-receber-visitacao-15082026/"
+    },
+    {
+      "id": "F5b",
+      "type": "event_news_source",
+      "label": "Veja Rio — apreensão com passaporte suíço (31/03/2026)",
+      "url": "https://vejario.abril.com.br/cidade/papagaios-trafico-voltar-natureza/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific_repository",
+      "repository_id": "doi-10.1080-17440572.2012.700180",
+      "label": "Pires (2012) — The illegal parrot trade: a literature review",
+      "url": "https://doi.org/10.1080/17440572.2012.700180",
+      "relation": "C3 — criminological background on illegal parrot trade; not about this specific investigation"
+    },
+    {
       "id": "N1",
-      "type": "news_source",
-      "label": "O Globo — Operação Ninho Vazio",
-      "url": "https://oglobo.globo.com/rio/noticia/2026/10/19/das-ilhas-canarias-a-suica-pf-prende-suspeitos-de-trafico-de-ovos-de-papagaios-e-apreende-animais-empalhados-e-ossadas.ghtml"
+      "type": "journalism_repository",
+      "repository_id": "conexao-planeta-guarulhos-quase-80-ovos-aves",
+      "label": "Conexão Planeta (2026) — apreensões distintas de ovos em Guarulhos",
+      "url": "https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/",
+      "relation": "C3 — independently documented comparison; no proven operational link"
     }
   ],
-  "references_text_pt": "[O1] R7/Ibama, 15/08/2026. [O2] Polícia Federal, 19/10/2026. [N1] O Globo, 19/10/2026.",
-  "references_text_en": "[O1] R7/Ibama, 15/08/2026. [O2] Polícia Federal, 19/10/2026. [N1] O Globo, 19/10/2026.",
-  "references_text_es": "[O1] R7/Ibama, 15/08/2026. [O2] Polícia Federal, 19/10/2026. [N1] O Globo, 19/10/2026.",
+  "references_text_pt": "[F1] Polícia Federal (19/10/2026). [F5a] R7 (15/08/2026). [F5b] Veja Rio (31/03/2026). [S1] Pires (2012), Global Crime, DOI 10.1080/17440572.2012.700180. [N1] Camargo, Conexão Planeta (06/10/2026). Nenhum relatório [I] pertinente identificado.",
+  "references_text_en": "[F1] Brazilian Federal Police (19 Oct 2026). [F5a] R7 (15 Aug 2026). [F5b] Veja Rio (31 Mar 2026). [S1] Pires (2012), Global Crime, DOI 10.1080/17440572.2012.700180. [N1] Camargo, Conexão Planeta (6 Oct 2026). No relevant [I] report identified.",
+  "references_text_es": "[F1] Policía Federal de Brasil (19/10/2026). [F5a] R7 (15/08/2026). [F5b] Veja Rio (31/03/2026). [S1] Pires (2012), Global Crime, DOI 10.1080/17440572.2012.700180. [N1] Camargo, Conexão Planeta (06/10/2026). No se identificaron informes [I] pertinentes.",
   "route_audited_at": "2026-10-03T01:20:00Z",
-  "context_updated_at": "2026-10-19T23:59:00Z",
+  "context_updated_at": "2026-10-20",
   "image_url": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/UOG2IWJG3RD73HOCBWIX4EBPYU.jpeg?smart=true&auth=007970e089f9bde1d37448e55bbe17e5ac7b6176b727a68bb07757433268b8eb&width=1200&height=630",
   "image_source_url": "https://noticias.r7.com/sao-paulo/papagaios-vitimas-de-trafico-ganham-novo-espaco-no-zoo-sp-e-ja-podem-receber-visitacao-15082026/",
   "image_status": "DIRECT_IMAGE_URL_VALIDATED",
@@ -92,5 +108,53 @@
   "image_resolution_method": "existing_direct",
   "related_case_ids": [
     "2026-10-19__curitiba-ninho-vazio-taxidermy-bones-skulls"
-  ]
+  ],
+  "investigation_name": "Operação Ninho Vazio",
+  "investigation_role": "triggering_seizure",
+  "primary_source_id": "PF-2026-10-19-ninho-vazio",
+  "sources": [
+    {
+      "id": "PF-2026-10-19-ninho-vazio",
+      "tier": "F1",
+      "role": "primary",
+      "name": "Polícia Federal",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres",
+      "publication_date": "2026-10-19",
+      "verified": true,
+      "verification_note": "Comunicado governamental retrospectivo sobre a apreensão de outubro de 2025 e início da investigação."
+    },
+    {
+      "id": "R7-2026-08-15-galeao",
+      "tier": "F5",
+      "role": "supporting",
+      "name": "R7",
+      "url": "https://noticias.r7.com/sao-paulo/papagaios-vitimas-de-trafico-ganham-novo-espaco-no-zoo-sp-e-ja-podem-receber-visitacao-15082026/",
+      "publication_date": "2026-08-15",
+      "verified": true,
+      "verification_note": "Detalha a data da apreensão, a participação do Ibama, a sobrevivência dos filhotes e sua destinação."
+    },
+    {
+      "id": "VEJA-RIO-2026-03-31-galeao",
+      "tier": "F5",
+      "role": "supporting",
+      "name": "Veja Rio",
+      "url": "https://vejario.abril.com.br/cidade/papagaios-trafico-voltar-natureza/",
+      "publication_date": "2026-03-31",
+      "verified": true,
+      "verification_note": "Identifica a passageira como portadora de passaporte suíço e descreve incubação e sobreviventes."
+    }
+  ],
+  "source_audit_status": "VERIFIED",
+  "source_audit_date": "2026-10-20",
+  "source_classification_version": "TG-H-1.5",
+  "primary_source_selection_reason": "F1 — Polícia Federal é autoridade diretamente envolvida na investigação desencadeada pela apreensão. A fonte original da fiscalização do Ibama não foi localizada nas buscas; R7 e Veja Rio permanecem como F5.",
+  "source_recovery_status": "official_retrospective_found_original_2025_ibama_release_not_identified",
+  "event_relationships": [
+    {
+      "case_id": "2026-10-19__curitiba-ninho-vazio-taxidermy-bones-skulls",
+      "relation": "triggered_investigation_leading_to_operation",
+      "evidence_source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres"
+    }
+  ],
+  "route_audit_status": "DESTINATION_COUNTRY_ONLY_NO_DOCUMENTED_CITY"
 }
