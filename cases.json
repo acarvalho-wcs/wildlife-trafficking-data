@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1085_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1086_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1085,
+  "count": 1086,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -83393,6 +83393,96 @@
       "route_audit_note_pt": "Travessia rumo à China continental descrita, sem destino municipal nem origem específicos; não traçar rota.",
       "route_audit_note_en": "Mainland-bound journey documented, but no specific origin or destination city; no route.",
       "route_audit_note_es": "Viaje hacia China continental documentado, sin origen ni destino urbano específico; sin ruta.",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown"
+    },
+    {
+      "id": "2026-10-undated__borgo-ticino-27-exotic-animals",
+      "status": "VALIDATED",
+      "country": "Itália",
+      "event_date": null,
+      "publication_date": "2026-10-19",
+      "event_date_precision": "unknown",
+      "coordinates": {
+        "lat": 45.68931,
+        "lon": 8.60448
+      },
+      "coordinate_precision": "municipality_generalized",
+      "source_label": "Carabinieri Forestali via Buongiorno Novara",
+      "source_url": "https://www.buongiornonovara.com/novara-vende-su-facebook-animali-esotici-i-carabinieri-forestali-perquisiscono-labitazione-e-sequetrano-27-esemplari-detenuti-in-condizioni-inidonee/",
+      "fauna_groups_aggregated": [
+        "Mamíferos",
+        "Aves",
+        "Invertebrados"
+      ],
+      "taxon_text": "Gerbos, ouriços-africanos, periquitos, canários, ratos, caracóis-gigantes, hamsters e porquinhos-da-índia (nomes comuns; quantidades por grupo, táxons científicos e origem silvestre não confirmados)",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "modal_label_en": "Not reported",
+      "modal_label_es": "No informado",
+      "aggregate_operation": false,
+      "exclude_from_totals": true,
+      "quantity_count": 27,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 27,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "case_eligibility_status": "VALIDATED_ILLEGAL_EXOTIC_PET_TRADE_WILDLIFE_ORIGIN_UNVERIFIED",
+      "ingestion_batch": "tg-h-20261020-illegal-exotic-pet-trade",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "image_url": null,
+      "image_source_url": "https://www.buongiornonovara.com/novara-vende-su-facebook-animali-esotici-i-carabinieri-forestali-perquisiscono-labitazione-e-sequetrano-27-esemplari-detenuti-in-condizioni-inidonee/",
+      "image_status": "IMAGE_UNVERIFIED",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Carabinieri Forestali via Buongiorno Novara (19/10/2026)",
+          "url": "https://www.buongiornonovara.com/novara-vende-su-facebook-animali-esotici-i-carabinieri-forestali-perquisiscono-labitazione-e-sequetrano-27-esemplari-detenuti-in-condizioni-inidonee/"
+        },
+        {
+          "id": "N1",
+          "type": "news",
+          "label": "La Stampa (19/10/2026)",
+          "url": "https://www.lastampa.it/novara/2026/10/19/news/vendita_illegale_social_animali_maltrattati_novarese_carabinieri_forestali-15770987/amp/"
+        },
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Exotic pet trade in Canada: The influence of social media on public sentiment and behaviour (2024)",
+          "url": "https://doi.org/10.1016/j.jnc.2023.126522"
+        }
+      ],
+      "location_label_pt": "Borgo Ticino, província de Novara, Piemonte",
+      "title_pt": "27 animais exóticos apreendidos por comércio sem licença em Borgo Ticino",
+      "fauna_label_pt": "27 animais exóticos; quantidades individuais por grupo desconhecidas",
+      "card_text_pt": "Carabinieri Forestali apreenderam 27 animais exóticos em Borgo Ticino, Itália, após investigar anúncios online e comércio sem autorização. A origem silvestre não foi confirmada; os animais ficam excluídos dos totais de tráfico de fauna.",
+      "context_pt": "[O1] [N1] Os Carabinieri Forestali de Lesa e Gozzano, com veterinários da ASL Novara, apreenderam em Borgo Ticino 27 animais exóticos alojados em porão sem condições adequadas de ventilação, iluminação e bem-estar. A investigação partiu de anúncios na plataforma Facebook e, conforme outra reportagem, no Subito.it. A pessoa responsável foi denunciada por suspeita de comércio ilegal de espécies exóticas sem autorizações comerciais e sanitárias e manutenção incompatível com o bem-estar animal. Foram citados gerbos, ouriços-africanos, periquitos, canários, ratos, caracóis-gigantes, hamsters e porquinhos-da-índia, mas as quantidades por grupo e identificações científicas não foram fornecidas. A reportagem de 19/10/2026 situa a diligência na semana anterior, sem data exata: event_date=null. A procedência ainda é investigada; não há prova de captura silvestre, comércio transfronteiriço ou infração CITES individual. Apesar da denúncia por comércio sem licença, os 27 animais não são contados como fauna silvestre traficada (exclude_from_totals=true). Não há origem nem destino de transporte demonstrados; nenhuma rota é desenhada.\n\n[S1] Literatura científica sobre redes sociais e mercados de animais exóticos contextualiza modalidades de comércio, sem associar o presente caso a redes já estudadas.",
+      "geographic_note_pt": "Coordenadas aproximadas do centro municipal, não do estabelecimento investigado.",
+      "quantity_note_pt": "27 animais efetivamente apreendidos, sem discriminação numérica por grupo; excluídos dos totais de tráfico de fauna silvestre.",
+      "route_audit_note_pt": "Não foi documentado transporte com origem e destino identificados.",
+      "references_text_pt": "[O1] Carabinieri Forestali / Buongiorno Novara — https://www.buongiornonovara.com/novara-vende-su-facebook-animali-esotici-i-carabinieri-forestali-perquisiscono-labitazione-e-sequetrano-27-esemplari-detenuti-in-condizioni-inidonee/\n[N1] La Stampa — https://www.lastampa.it/novara/2026/10/19/news/vendita_illegale_social_animali_maltrattati_novarese_carabinieri_forestali-15770987/amp/\n[S1] Exotic pet trade in Canada (2024) — https://doi.org/10.1016/j.jnc.2023.126522",
+      "location_label_en": "Borgo Ticino, Novara Province, Piedmont",
+      "title_en": "27 exotic animals seized in unlicensed trade investigation in Borgo Ticino",
+      "fauna_label_en": "27 exotic animals; numbers per group undisclosed",
+      "card_text_en": "Italian Forest Carabinieri seized 27 exotic animals in Borgo Ticino after investigating online advertisements and unlicensed sales. Wild origin remains unconfirmed; animals are excluded from wildlife-trafficking totals.",
+      "context_en": "[O1] [N1] Forest Carabinieri from Lesa and Gozzano, assisted by ASL Novara veterinarians, seized 27 exotic animals in a poorly ventilated and inadequately lit basement in Borgo Ticino. The inquiry began with advertisements on Facebook and, according to another report, Subito.it. The person responsible was reported to prosecutors for suspected unlawful sales of exotic species without the required commercial and health authorizations and for unsuitable animal keeping. Reported animals included gerbils, African hedgehogs, budgerigars, canaries, rats, giant snails, hamsters and guinea pigs, with no per-group count or confirmed scientific species identification. A report dated 19 October 2026 states that the search happened the previous week but does not give an exact date; event_date is null. Provenance is under investigation; wild capture, international trafficking and specimen-specific CITES violations have not been established. The 27 animals are therefore excluded from wildlife-trafficking numerical totals (exclude_from_totals=true), although the suspected unlicensed exotic animal trade is documented. No animal transport route was reported.\n\n[S1] Literature on exotic pet trade and social media provides general context, without linking this incident to any previously studied network.",
+      "geographic_note_en": "Generalized town-center reference, not the investigated business address.",
+      "quantity_note_en": "27 seized animals; per-group allocation not reported, excluded from wildlife-trafficking totals.",
+      "route_audit_note_en": "No documented origin-to-destination movement.",
+      "references_text_en": "[O1] Carabinieri Forestali / Buongiorno Novara — https://www.buongiornonovara.com/novara-vende-su-facebook-animali-esotici-i-carabinieri-forestali-perquisiscono-labitazione-e-sequetrano-27-esemplari-detenuti-in-condizioni-inidonee/\n[N1] La Stampa — https://www.lastampa.it/novara/2026/10/19/news/vendita_illegale_social_animali_maltrattati_novarese_carabinieri_forestali-15770987/amp/\n[S1] Exotic pet trade in Canada (2024) — https://doi.org/10.1016/j.jnc.2023.126522",
+      "location_label_es": "Borgo Ticino, provincia de Novara, Piamonte",
+      "title_es": "Decomisan 27 animales exóticos en investigación por venta sin licencia en Borgo Ticino",
+      "fauna_label_es": "27 animales exóticos; cantidades por grupo no informadas",
+      "card_text_es": "Los Carabinieri Forestali decomisaron 27 animales exóticos en Borgo Ticino tras investigar anuncios en línea y ventas sin autorización. Su origen silvestre no fue confirmado; se excluyen de los totales de tráfico de fauna.",
+      "context_es": "[O1] [N1] Los Carabinieri Forestali de Lesa y Gozzano, junto con veterinarios de ASL Novara, decomisaron 27 animales exóticos mantenidos en un sótano sin ventilación ni iluminación adecuadas en Borgo Ticino. La investigación surgió de anuncios en Facebook y, según otra crónica, Subito.it. La persona responsable fue denunciada por presunto comercio ilegal de especies exóticas sin las autorizaciones comerciales y sanitarias correspondientes y tenencia incompatible con el bienestar animal. Se mencionaron jerbos, erizos africanos, periquitos, canarios, ratas, caracoles gigantes, hámsteres y cobayas, sin desglose por grupo ni identificación científica comprobada. La publicación de 19/10/2026 ubica el registro la semana anterior sin fecha exacta, de modo que event_date=null. El origen de los animales sigue bajo investigación; no se acreditó captura silvestre, tráfico internacional ni infracción CITES de ejemplares concretos. Los 27 animales se excluyen de los totales de tráfico de fauna (exclude_from_totals=true), aunque la investigación del comercio sin licencia está documentada. No existe ruta de transporte demostrada.\n\n[S1] Los estudios sobre el comercio de mascotas exóticas y las redes sociales aportan contexto general, no una conexión con este caso.",
+      "geographic_note_es": "Referencia aproximada del centro municipal, no dirección del negocio intervenido.",
+      "quantity_note_es": "27 animales decomisados, sin desglose por grupo y excluidos de los totales de tráfico de fauna.",
+      "route_audit_note_es": "Sin desplazamiento documentado entre origen y destino.",
+      "references_text_es": "[O1] Carabinieri Forestali / Buongiorno Novara — https://www.buongiornonovara.com/novara-vende-su-facebook-animali-esotici-i-carabinieri-forestali-perquisiscono-labitazione-e-sequetrano-27-esemplari-detenuti-in-condizioni-inidonee/\n[N1] La Stampa — https://www.lastampa.it/novara/2026/10/19/news/vendita_illegale_social_animali_maltrattati_novarese_carabinieri_forestali-15770987/amp/\n[S1] Exotic pet trade in Canada (2024) — https://doi.org/10.1016/j.jnc.2023.126522",
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     }
