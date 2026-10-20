@@ -11,8 +11,8 @@
     "lon": -49.2713
   },
   "coordinate_precision": "city_generalized",
-  "source_label": "Polícia Federal / O Globo",
-  "source_url": "https://oglobo.globo.com/rio/noticia/2026/10/19/das-ilhas-canarias-a-suica-pf-prende-suspeitos-de-trafico-de-ovos-de-papagaios-e-apreende-animais-empalhados-e-ossadas.ghtml",
+  "source_label": "Polícia Federal — Operação Ninho Vazio (fonte oficial F1)",
+  "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres",
   "fauna_groups_aggregated": [
     "Aves",
     "Mamíferos"
@@ -30,22 +30,22 @@
   "quantity_by_group": {},
   "quantity_unassigned": 0,
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE",
-  "source_reconciliation_status": "SOURCE_RECONCILED_QUANTITY_UNKNOWN",
+  "case_context_status": "TG-H-1.5_VERIFIED_FACTUAL_LINKAGE_NO_ADDED_S_N_I",
+  "source_reconciliation_status": "PRIMARY_F1_RECOVERED",
   "occurrence_type": "wildlife_remains_seized_during_international_trafficking_investigation",
   "related_case_ids": [
     "2025-10-26__galeao-24-threatened-amazon-eggs"
   ],
   "investigation_name": "Operação Ninho Vazio",
-  "title_pt": "PF apreende animais taxidermizados, crânios e ossadas em Curitiba na Operação Ninho Vazio",
-  "title_en": "Federal Police seize taxidermied wildlife, skulls and bones in Curitiba during Operation Ninho Vazio",
-  "title_es": "Policía Federal incauta animales disecados, cráneos y huesos en Curitiba en la Operación Ninho Vazio",
+  "title_pt": "Operação Ninho Vazio: fauna taxidermizada, crânios e ossadas apreendidos em Curitiba",
+  "title_en": "Operation Ninho Vazio: taxidermied wildlife, skulls and bones seized in Curitiba",
+  "title_es": "Operación Ninho Vazio: incautan fauna disecada, cráneos y restos óseos en Curitiba",
   "location_label_pt": "Curitiba (PR), Brasil — localização exata não divulgada",
   "location_label_en": "Curitiba, Paraná, Brazil — exact location undisclosed",
   "location_label_es": "Curitiba (PR), Brasil — lugar exacto no divulgado",
-  "card_text_pt": "Em 19/10/2026, durante a Operação Ninho Vazio, a PF cumpriu três mandados de busca e apreensão e dois de prisão temporária em Curitiba. Segundo O Globo, apreendeu em imóvel vinculado a investigados animais taxidermizados, incluindo aves e macacos, além de crânios e ossadas. A quantidade exata, as espécies e a procedência não foram informadas. Não há confirmação de animais vivos.",
-  "card_text_en": "On 19 October 2026, Federal Police executed three search warrants and two temporary arrest warrants in Curitiba during Operation Ninho Vazio. O Globo reported seized taxidermied animals, including birds and monkeys, along with skulls and bones at a property linked to suspects. Exact quantity, species and provenance were not reported. No live animals were confirmed.",
-  "card_text_es": "El 19/10/2026, la Policía Federal ejecutó tres registros y dos órdenes de detención temporal en Curitiba durante la Operación Ninho Vazio. Según O Globo, se incautaron animales disecados, incluidos aves y monos, además de cráneos y huesos, en un inmueble vinculado a investigados. No se informaron cantidad exacta, especies ni procedencia. No se confirmaron animales vivos.",
+  "card_text_pt": "Em 19/10/2026, na Operação Ninho Vazio, a PF cumpriu em Curitiba três mandados de busca e apreensão e dois de prisão temporária. A imprensa documentou a apreensão de aves e primatas taxidermizados, crânios e ossadas; não foi divulgado inventário taxonômico nem quantidade exata. A operação decorre da investigação iniciada com 24 ovos apreendidos no Galeão em 2025. Não há confirmação de animais vivos nesse local.",
+  "card_text_en": "On 19 October 2026, during Operation Ninho Vazio, Federal Police executed three search-and-seizure warrants and two temporary arrest warrants in Curitiba. News reporting documented taxidermied birds and primates, skulls and bones; neither a scientific inventory nor an exact count was released. The operation followed the investigation initiated by the seizure of 24 eggs at Galeão Airport in 2025. No live wildlife seizure at these premises is confirmed.",
+  "card_text_es": "El 19/10/2026, durante la Operación Ninho Vazio, la Policía Federal ejecutó en Curitiba tres órdenes de registro e incautación y dos de detención temporal. La prensa documentó aves y primates disecados, cráneos y restos óseos; no se publicó inventario taxonómico ni cantidad exacta. La operación deriva de la investigación iniciada tras la incautación de 24 huevos en Galeão en 2025. No se confirmó incautación de animales vivos en estos inmuebles.",
   "fauna_label_pt": "Animais taxidermizados (aves e macacos), crânios e ossadas; quantidade desconhecida",
   "fauna_label_en": "Taxidermied wildlife (birds and monkeys), skulls and bones; quantity unknown",
   "fauna_label_es": "Animales disecados (aves y monos), cráneos y huesos; cantidad desconocida",
@@ -55,37 +55,83 @@
   "geographic_note_pt": "Coordenadas do centro de Curitiba, não dos imóveis fiscalizados, cujos endereços não foram divulgados. Não há rota documentada para os espécimes apreendidos; buscas na Espanha e na Suíça não indicam a proveniência ou o destino desses materiais.",
   "geographic_note_en": "Coordinates represent central Curitiba, not the searched properties; addresses are undisclosed. No route is documented for these seized specimens; searches in Spain and Switzerland do not identify their origin or destination.",
   "geographic_note_es": "Coordenadas del centro de Curitiba, no de los inmuebles registrados; no se publicaron direcciones. No hay ruta documentada de los especímenes incautados; los registros en España y Suiza no indican su origen o destino.",
-  "context_pt": "[O1] A PF anunciou em 19/10/2026 a Operação Ninho Vazio contra suspeito tráfico internacional de ovos de aves e confirmou buscas e prisões temporárias em Curitiba, além de diligências na Espanha e Suíça. [N1] O Globo reporta apreensão de animais taxidermizados, crânios e ossadas em domicílio vinculado aos investigados, inclusive espécimes de aves e macacos. Inventário, identificação das espécies, origem, licenças e situação jurídica de cada item não foram divulgados. Esta é apreensão distinta da interceptação de 24 ovos no Galeão em 26/10/2025, que motivou a investigação. Não há prova publicada de tráfico internacional de todos os itens recolhidos ou de animais vivos nesse domicílio. [N2] As fotografias oficiais mostram crânios, ossadas e espécimes preservados de aves e mamíferos; não permitem inferir a quantidade de indivíduos nem identificar espécies com segurança.",
-  "context_en": "[O1] On 19 October 2026, Federal Police announced Operation Ninho Vazio investigating suspected international bird-egg trafficking and reported search and temporary arrest warrants in Curitiba, alongside actions in Spain and Switzerland. [N1] O Globo reported a seizure of taxidermied animals, skulls and bones at a suspect-linked property, including birds and monkeys. Inventory, scientific identifications, origins, permits and legal status of individual items were not published. This event is separate from the 24 eggs intercepted at Galeão on 26 October 2025, which prompted the investigation. Public reporting does not establish international trafficking of every seized object or the presence of living wildlife at the premises. [N2] Official photographs depict skulls, bones and preserved bird and mammal specimens; they cannot establish the number of individuals or reliably identify species.",
-  "context_es": "[O1] El 19/10/2026, la Policía Federal anunció la Operación Ninho Vazio para investigar presunto tráfico internacional de huevos de aves y confirmó registros y órdenes de detención temporal en Curitiba, además de actuaciones en España y Suiza. [N1] O Globo informó del decomiso de animales disecados, cráneos y huesos en un inmueble vinculado a investigados, incluidos aves y monos. No se publicaron inventario, identificaciones científicas, procedencia, permisos ni situación jurídica de cada pieza. Este evento es independiente de los 24 huevos interceptados en Galeão el 26/10/2025, hecho que originó la investigación. No hay pruebas publicadas de tráfico internacional de todos los objetos ni de fauna viva en el inmueble. [N2] Las fotografías oficiales muestran cráneos, huesos y ejemplares preservados de aves y mamíferos; no permiten determinar el número de individuos ni identificar especies con seguridad.",
+  "context_pt": "[F1] A Polícia Federal relaciona diretamente a Operação Ninho Vazio à apreensão de 24 ovos no Galeão, em 26/10/2025. Em 19/10/2026 houve diligências coordenadas: mandados em Curitiba, três buscas em Weinfelden (Suíça) e prisões de dois investigados em Gran Canaria (Espanha). A PF descreve indícios de divisão de tarefas e transporte reiterado de ovos, sem que isso represente condenação. [F5a/F5b] A imprensa noticiou a apreensão de espécimes taxidermizados, crânios e ossadas em Curitiba; espécies, números, procedência e situação jurídica individual não foram apresentados em inventário público. A ação investigativa na Suíça e na Espanha não demonstra que esses materiais de Curitiba percorreram qualquer rota internacional. Não foi identificada contextualização adicional específica e justificável nos repositórios [S], [N] e [I] para esses materiais de identificação incerta.",
+  "context_en": "[F1] Federal Police directly link Operation Ninho Vazio to the seizure of 24 eggs at Galeão on 26 October 2025. On 19 October 2026, coordinated actions included warrants in Curitiba, three searches in Weinfelden (Switzerland) and the arrest of two suspects in Gran Canaria (Spain). Federal Police describe indications of distinct roles and repeated egg trafficking, not criminal convictions. [F5a/F5b] News outlets reported taxidermied specimens, skulls and bones seized in Curitiba; species, exact numbers, provenance and individual legal status were not established in a public inventory. Searches in Switzerland and arrests in Spain do not demonstrate that the Curitiba materials followed an international route. No specific, warranted additional context for these unidentified materials was identified in repositories [S], [N] or [I].",
+  "context_es": "[F1] La Policía Federal vincula directamente la Operación Ninho Vazio con la incautación de 24 huevos en Galeão el 26/10/2025. El 19/10/2026 se realizaron actuaciones coordinadas: registros en Curitiba, tres registros en Weinfelden (Suiza) y la detención de dos sospechosos en Gran Canaria (España). La PF señala indicios de división de tareas y tráfico reiterado de huevos, no condenas penales. [F5a/F5b] La prensa informó de especímenes disecados, cráneos y restos óseos incautados en Curitiba; no se difundió inventario público de especies, cantidades exactas, procedencia o situación jurídica individual. Los registros en Suiza y las detenciones en España no prueban ninguna ruta internacional para los materiales de Curitiba. No se encontró contextualización adicional suficientemente específica en los repositorios [S], [N] e [I] para estos materiales de identificación incierta.",
   "context_references": [
     {
-      "id": "O1",
+      "id": "F1",
       "type": "official_source",
-      "label": "Polícia Federal — Operação Ninho Vazio 19/10/2026",
+      "label": "Polícia Federal — Operação Ninho Vazio (19/10/2026)",
       "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres"
     },
     {
-      "id": "N1",
-      "type": "news_source",
-      "label": "O Globo — materiais apreendidos em Curitiba 19/10/2026",
+      "id": "F5a",
+      "type": "event_news_source",
+      "label": "O Globo — taxidermias, crânios e ossadas em Curitiba",
       "url": "https://oglobo.globo.com/rio/noticia/2026/10/19/das-ilhas-canarias-a-suica-pf-prende-suspeitos-de-trafico-de-ovos-de-papagaios-e-apreende-animais-empalhados-e-ossadas.ghtml"
     },
     {
-      "id": "N2",
-      "type": "news_source",
-      "label": "Boletim RJ — fotografias PF, 19/10/2026",
-      "url": "https://boletimrj.com.br/das-ilhas-canarias-a-suica-pf-prende-suspeitos-de-trafico-de-ovos-de-papagaios-e-apreende-animais-empalhados-e-ossadas/"
+      "id": "F5b",
+      "type": "event_news_source",
+      "label": "Veja — animais empalhados e ossadas em Curitiba (19/10/2026)",
+      "url": "https://veja.abril.com.br/brasil/como-pf-desmontou-quadrilha-que-traficou-ovos-de-aves-silvestres-por-duas-decadas/"
     }
   ],
-  "references_text_pt": "[O1] Polícia Federal, 19/10/2026. [N1] O Globo, 19/10/2026. [N2] Boletim RJ, imagens PF, 19/10/2026.",
-  "references_text_en": "[O1] Brazilian Federal Police, 19 Oct 2026. [N1] O Globo, 19 Oct 2026. [N2] Boletim RJ, PF photos, 19 Oct 2026.",
-  "references_text_es": "[O1] Policía Federal de Brasil, 19/10/2026. [N1] O Globo, 19/10/2026. [N2] Boletim RJ, fotos PF, 19/10/2026.",
+  "references_text_pt": "[F1] Polícia Federal (19/10/2026). [F5a] O Globo (19/10/2026). [F5b] Veja (19/10/2026). Sem [S]/[N]/[I] pertinentes à identificação dos materiais apreendidos.",
+  "references_text_en": "[F1] Brazilian Federal Police (19 Oct 2026). [F5a] O Globo (19 Oct 2026). [F5b] Veja (19 Oct 2026). No relevant [S]/[N]/[I] reference on the seized materials' identities.",
+  "references_text_es": "[F1] Policía Federal de Brasil (19/10/2026). [F5a] O Globo (19/10/2026). [F5b] Veja (19/10/2026). Sin referencias [S]/[N]/[I] pertinentes a la identidad de los materiales incautados.",
   "image_url": "https://boletimrj.com.br/wp-content/uploads/2026/10/Das-Ilhas-Canarias-a-Suica-PF-prende-suspeitos-de-trafico-860x468.jpg",
   "image_source_url": "https://boletimrj.com.br/das-ilhas-canarias-a-suica-pf-prende-suspeitos-de-trafico-de-ovos-de-papagaios-e-apreende-animais-empalhados-e-ossadas/",
   "image_status": "PRESS_IMAGE_URL_IDENTIFIED",
   "route_audit_status": "NO_DOCUMENTED_SPECIMEN_ROUTE",
   "added_at": "2026-10-19T23:59:00Z",
   "image_credit": "Polícia Federal / reprodução Boletim RJ",
-  "context_updated_at": "2026-10-20T00:59:52.639Z"
+  "context_updated_at": "2026-10-20",
+  "investigation_role": "investigative_follow_up",
+  "primary_source_id": "PF-2026-10-19-ninho-vazio",
+  "sources": [
+    {
+      "id": "PF-2026-10-19-ninho-vazio",
+      "tier": "F1",
+      "role": "primary",
+      "name": "Polícia Federal",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres",
+      "publication_date": "2026-10-19",
+      "verified": true,
+      "verification_note": "Documenta a operação, os mandados cumpridos em Curitiba e a conexão com a apreensão de 2025; não inventaria materiais taxidermizados."
+    },
+    {
+      "id": "OGLOBO-2026-10-19-curitiba",
+      "tier": "F5",
+      "role": "supporting",
+      "name": "O Globo",
+      "url": "https://oglobo.globo.com/rio/noticia/2026/10/19/das-ilhas-canarias-a-suica-pf-prende-suspeitos-de-trafico-de-ovos-de-papagaios-e-apreende-animais-empalhados-e-ossadas.ghtml",
+      "publication_date": "2026-10-19",
+      "verified": true,
+      "verification_note": "Documenta especificamente animais taxidermizados, crânios e ossadas; inventário de espécies/quantidades não publicado."
+    },
+    {
+      "id": "VEJA-2026-10-19-curitiba",
+      "tier": "F5",
+      "role": "supporting",
+      "name": "Veja",
+      "url": "https://veja.abril.com.br/brasil/como-pf-desmontou-quadrilha-que-traficou-ovos-de-aves-silvestres-por-duas-decadas/",
+      "publication_date": "2026-10-19",
+      "verified": true,
+      "verification_note": "Corrobora notícias sobre apreensão de ossadas e animais empalhados em Curitiba."
+    }
+  ],
+  "source_audit_status": "VERIFIED",
+  "source_audit_date": "2026-10-20",
+  "source_classification_version": "TG-H-1.5",
+  "primary_source_selection_reason": "F1 — comunicado da Polícia Federal diretamente responsável pela Operação Ninho Vazio; apreensão de taxidermias e ossadas é especificada pela imprensa F5.",
+  "source_recovery_status": "direct_event_authority_found",
+  "event_relationships": [
+    {
+      "case_id": "2025-10-26__galeao-24-threatened-amazon-eggs",
+      "relation": "investigation_triggered_by_prior_seizure",
+      "evidence_source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres"
+    }
+  ]
 }
