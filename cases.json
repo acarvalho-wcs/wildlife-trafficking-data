@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1082_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1085_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1082,
+  "count": 1085,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -83161,6 +83161,240 @@
           "evidence_source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-combate-trafico-internacional-de-ovos-de-aves-silvestres"
         }
       ]
+    },
+    {
+      "id": "2026-10-19__portel-marajo-wildmeat-boat",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-10-19",
+      "publication_date": "2026-10-19",
+      "event_date_precision": "day",
+      "coordinates": {
+        "lat": -1.94,
+        "lon": -50.81
+      },
+      "coordinate_precision": "city_port_generalized",
+      "source_label": "Roma News / SEMMA e Guarda Civil Municipal de Portel",
+      "source_url": "https://www.romanews.com.br/cidades/operacao-apreende-grande-quantidade-de-carnes-de-caca-em-portel-no-para-1026",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "taxon_text": "Carne atribuída a paca, tatu, veado e anta (nomes populares; espécies e quantidade não confirmadas)",
+      "modal_primary": "Fluvial",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "ingestion_batch": "tgh-48h-human-mediated-20261020",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "image_url": null,
+      "image_source_url": "https://www.romanews.com.br/cidades/operacao-apreende-grande-quantidade-de-carnes-de-caca-em-portel-no-para-1026",
+      "image_status": "IMAGE_UNVERIFIED",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "location_label_pt": "Porto de Portel, Pará",
+      "location_label_en": "Port of Portel, Pará, Brazil",
+      "location_label_es": "Puerto de Portel, Pará, Brasil",
+      "fauna_label_pt": "Carne de mamíferos silvestres; quantidade indeterminada",
+      "fauna_label_en": "Wild mammal meat; quantity unknown",
+      "fauna_label_es": "Carne de mamíferos silvestres; cantidad desconocida",
+      "title_pt": "Carne de caça destinada à venda ilegal apreendida em Portel",
+      "title_en": "Wild meat intended for illegal sale seized in Portel",
+      "title_es": "Decomisan carne silvestre destinada a venta ilegal en Portel",
+      "card_text_pt": "Em 19/10/2026, agentes municipais apreenderam carne de caça após denúncia da chegada de uma embarcação a Portel, Pará. Foram mencionados paca, tatu, veado e anta; o peso e o número de animais não foram divulgados.",
+      "card_text_en": "On 19 October 2026, municipal officers seized wild meat after a tip about an arriving boat in Portel, Pará. Reported animals included pacas, armadillos, deer and tapirs; neither the weight nor the number of animals was disclosed.",
+      "card_text_es": "El 19/10/2026, agentes municipales decomisaron carne de fauna silvestre tras una denuncia sobre la llegada de una embarcación a Portel, Pará. Se mencionaron pacas, armadillos, venados y tapires; no se divulgó peso ni cantidad de animales.",
+      "context_pt": "[O1] Uma ação da Secretaria Municipal de Meio Ambiente e da Guarda Civil Municipal de Portel apreendeu carne de caça no porto da cidade em 19/10/2026, após denúncia de que uma embarcação chegaria com carga irregular. A notícia menciona carnes de paca, tatu, veado e anta, supostamente destinadas à venda em feiras de Portel e municípios vizinhos. Peso, quantidade de indivíduos, espécies científicas, procedência da embarcação, remetente e compradores não foram informados. A reportagem registra encaminhamento para verificação sanitária. Os nomes populares não autorizam atribuir espécies científicas. Não há origem ou destino georreferenciáveis comprovados para desenhar rota. Peso não é convertido em número de animais.",
+      "context_en": "[O1] The Portel municipal environmental department and municipal guard seized wild meat at the town's port on 19 October 2026 after receiving information about a vessel arriving with an irregular shipment. The report mentions meat from pacas, armadillos, deer and tapirs, reportedly intended for sale at markets in Portel and neighboring municipalities. Weight, specimen counts, exact scientific species, vessel origin, senders and buyers were not disclosed. Sanitary inspection was planned. Common names are not treated as scientific species identifications, and no proven geographical endpoints justify a route. Meat quantities are not converted to animal counts.",
+      "context_es": "[O1] La Secretaría Municipal de Medio Ambiente y la Guardia Civil Municipal de Portel decomisaron carne silvestre en el puerto el 19/10/2026, después de recibir una denuncia sobre la llegada de una embarcación con carga irregular. La noticia menciona carne de pacas, armadillos, venados y tapires, supuestamente destinada a ferias de Portel y municipios vecinos. No se informaron peso, número de individuos, especies científicas, procedencia de la embarcación, remitentes ni compradores. Se preveía una inspección sanitaria. Los nombres comunes no permiten asignar especies científicas y no existen extremos geográficos comprobados para una ruta. La carne no se convierte en cantidad de animales.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "Roma News (19 October 2026), SEMMA/GCM Portel",
+          "url": "https://www.romanews.com.br/cidades/operacao-apreende-grande-quantidade-de-carnes-de-caca-em-portel-no-para-1026"
+        }
+      ],
+      "references_text_pt": "[O1] Roma News — https://www.romanews.com.br/cidades/operacao-apreende-grande-quantidade-de-carnes-de-caca-em-portel-no-para-1026",
+      "references_text_en": "[O1] Roma News — https://www.romanews.com.br/cidades/operacao-apreende-grande-quantidade-de-carnes-de-caca-em-portel-no-para-1026",
+      "references_text_es": "[O1] Roma News — https://www.romanews.com.br/cidades/operacao-apreende-grande-quantidade-de-carnes-de-caca-em-portel-no-para-1026",
+      "geographic_note_pt": "Centro portuário de Portel, aproximado; não representa o berço da embarcação.",
+      "geographic_note_en": "Generalized Portel waterfront reference, not the vessel's exact berth.",
+      "geographic_note_es": "Referencia aproximada del puerto de Portel, no del atraque exacto.",
+      "quantity_note_pt": "Quantidade e massa não divulgadas; não converter carne em espécimes.",
+      "quantity_note_en": "No weight or specimen count published; no conversion of meat into animals.",
+      "quantity_note_es": "Sin peso ni ejemplares cuantificados; no convertir carne en animales.",
+      "route_audit_note_pt": "Apenas porto de abordagem é conhecido; origem fluvial e destinos específicos não divulgados.",
+      "route_audit_note_en": "Only the interception port is known; departure port and specific destinations undisclosed.",
+      "route_audit_note_es": "Solo se conoce el puerto de intervención; origen y destinos específicos no divulgados.",
+      "occurred_at": "2026-10-19T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-19__sorong-km-sinabung-22-birds",
+      "status": "VALIDATED",
+      "country": "Indonésia",
+      "event_date": "2026-10-19",
+      "publication_date": "2026-10-20",
+      "event_date_precision": "day",
+      "coordinates": {
+        "lat": -0.8777,
+        "lon": 131.24686
+      },
+      "coordinate_precision": "seaport_generalized",
+      "source_label": "TNI AL/Kodaeral XIV via Pelopor Wiratama",
+      "source_url": "https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "21 *Chalcopsitta atra*; 1 kasturi kepala hitam (identificação científica não confirmada)",
+      "modal_primary": "Marítimo",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 22,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 22
+      },
+      "quantity_unassigned": 0,
+      "ingestion_batch": "tgh-48h-human-mediated-20261020",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "image_url": null,
+      "image_source_url": "https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/",
+      "image_status": "IMAGE_UNVERIFIED",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "location_label_pt": "Porto Pelindo, Sorong, Papua Sudoeste",
+      "location_label_en": "Pelindo Port, Sorong, Southwest Papua",
+      "location_label_es": "Puerto Pelindo, Sorong, Papúa Sudoccidental",
+      "fauna_label_pt": "22 aves vivas (21 lóris-pretos e outra ave da família Psittacidae)",
+      "fauna_label_en": "22 live birds (21 black lories and one additional parrot)",
+      "fauna_label_es": "22 aves vivas (21 loris negros y otro psitácido)",
+      "title_pt": "Vinte e duas aves interceptadas a bordo do KM Sinabung em Sorong",
+      "title_en": "Twenty-two birds intercepted aboard KM Sinabung in Sorong",
+      "title_es": "Interceptan veintidós aves a bordo del KM Sinabung en Sorong",
+      "card_text_pt": "Em 19/10/2026, agentes indonésios localizaram 21 lóris-pretos e um segundo psitacídeo no KM Sinabung, atracado em Sorong. Seis orquídeas também foram encontradas, sem integrar a contagem de fauna.",
+      "card_text_en": "On 19 October 2026, Indonesian officers found 21 black lories and another parrot aboard KM Sinabung at Sorong Port. Six orchids were also recovered, but are excluded from wildlife-animal totals.",
+      "card_text_es": "El 19/10/2026, agentes indonesios encontraron 21 loris negros y otro psitácido a bordo del KM Sinabung en Sorong. También hallaron seis orquídeas, excluidas del recuento de fauna.",
+      "context_pt": "[O1] Em 19/10/2026, uma fiscalização conjunta de segurança portuária, polícia marítima, conservação e quarentena encontrou 21 *Chalcopsitta atra* escondidos no bote salva-vidas do convés 7 do KM Sinabung e uma ave descrita como kasturi kepala hitam em um alojamento do convés 4. Também foram encontradas seis orquídeas *Grammatophyllum scriptum* sob cama no convés 3. A divulgação policial anterior que registra apenas 21 aves [O2] é subconjunto do relato conjunto, não outra apreensão. A identificação científica da ave adicional não foi confirmada na fonte. Proprietários, origem dos animais, local de embarque e destino pretendido não foram estabelecidos. O itinerário comercial do navio não constitui rota documentada para esses animais. As orquídeas não entram nos totais de fauna.",
+      "context_en": "[O1] On 19 October 2026, a joint inspection involving maritime police, port security, conservation and quarantine officials found 21 *Chalcopsitta atra* concealed in a lifeboat on deck 7 of KM Sinabung and one bird described locally as kasturi kepala hitam under a bed on deck 4. Six *Grammatophyllum scriptum* orchids were also recovered from deck 3. An earlier police account reporting 21 birds [O2] refers to a subset of the same inspection, not a second event. The additional bird's scientific identification remains unconfirmed. Ownership, animal origins, loading point and intended destination were not established. The ship's scheduled itinerary is not evidence of the animals' route. Orchids are excluded from animal totals.",
+      "context_es": "[O1] El 19/10/2026, una inspección conjunta de policía marítima, seguridad portuaria, conservación y cuarentena encontró 21 *Chalcopsitta atra* ocultos en un bote salvavidas de la cubierta 7 del KM Sinabung y un ave denominada localmente kasturi kepala hitam bajo una cama de la cubierta 4. También recuperaron seis orquídeas *Grammatophyllum scriptum* en la cubierta 3. El informe policial previo que menciona 21 aves [O2] es un subconjunto de la misma intervención, no otro evento. No se confirmó científicamente la identificación del ave adicional. Tampoco se documentaron propietarios, origen, lugar de embarque ni destino previsto de los animales. El itinerario comercial del barco no demuestra una ruta de fauna. Las orquídeas quedan fuera del total de animales.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "TNI AL/Kodaeral XIV via Pelopor Wiratama (20 October 2026)",
+          "url": "https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/"
+        },
+        {
+          "id": "O2",
+          "type": "case_source",
+          "label": "Polda Papua Barat Daya via Radar Sorong (19 October 2026)",
+          "url": "https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/"
+        }
+      ],
+      "references_text_pt": "[O1] TNI AL/Kodaeral XIV — https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/\n[O2] Polda Papua Barat Daya — https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/",
+      "references_text_en": "[O1] TNI AL/Kodaeral XIV — https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/\n[O2] Southwest Papua regional police — https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/",
+      "references_text_es": "[O1] TNI AL/Kodaeral XIV — https://peloporwiratama.co.id/2026/10/20/kodaeral-xiv-bersama-tim-gabungan-kembali-gagalkan-penyelundupan-22-ekor-burung-dan-6-batang-anggrek-macan-papua/\n[O2] Policía regional de Papúa Sudoeste — https://www.radarsorong.id/ditpolairud-polda-papua-barat-daya-temukan-21-ekor-nuri-hitam-di-km-sinabung/",
+      "geographic_note_pt": "Coordenada aproximada da área portuária de Sorong; não identifica o ponto exato no navio.",
+      "geographic_note_en": "Generalized Sorong port coordinate; not the exact position aboard the vessel.",
+      "geographic_note_es": "Coordenada aproximada del puerto de Sorong, no posición exacta a bordo.",
+      "quantity_note_pt": "22 aves da mesma operação; seis orquídeas documentadas apenas no contexto.",
+      "quantity_note_en": "22 birds in one operation; six orchids noted only in context.",
+      "quantity_note_es": "22 aves en un operativo; seis orquídeas solo en contexto.",
+      "route_audit_note_pt": "Nenhuma origem ou destino dos animais comprovada; não usar itinerário do navio.",
+      "route_audit_note_en": "No confirmed animal origin or destination; do not use the vessel itinerary.",
+      "route_audit_note_es": "Sin origen ni destino animal confirmados; no usar el itinerario del barco.",
+      "occurred_at": "2026-10-19T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-undated__west-kowloon-398-live-animals",
+      "status": "VALIDATED",
+      "country": "Hong Kong",
+      "event_date": null,
+      "publication_date": "2026-10-19",
+      "event_date_precision": "unknown",
+      "coordinates": {
+        "lat": 22.30368,
+        "lon": 114.16493
+      },
+      "coordinate_precision": "railway_station_generalized",
+      "source_label": "HK01 / China Customs (海关发布)",
+      "source_url": "https://global.hk01.com/%E5%A4%A7%E5%9B%BD%E5%B0%8F%E4%BA%8B/60401183/%E8%A1%8C%E6%9D%8E%E7%AE%B1%E5%8F%98%E5%8A%A8%E7%89%A9%E5%9B%AD-%E7%94%B7%E5%AE%A2%E6%8B%96%E7%AE%A7%E8%B5%B0%E7%A7%81398%E5%8F%AA%E6%B4%BB%E4%BD%93%E5%8A%A8%E7%89%A9-%E8%A5%BF%E4%B9%9D%E9%BE%99%E7%AB%99%E6%B5%B7%E5%85%B3%E6%96%AD%E6%AD%A3",
+      "fauna_groups_aggregated": [
+        "Répteis",
+        "Invertebrados"
+      ],
+      "taxon_text": "Serpentes (4); invertebrados diversos (394), incluindo escorpiões, louva-a-deus, aranhas, bichos-pau e isópodes terrestres",
+      "modal_primary": "Ferroviário",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 398,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 4,
+        "Invertebrados": 394
+      },
+      "quantity_unassigned": 0,
+      "ingestion_batch": "tgh-48h-human-mediated-20261020",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "image_url": null,
+      "image_source_url": "https://global.hk01.com/%E5%A4%A7%E5%9B%BD%E5%B0%8F%E4%BA%8B/60401183/%E8%A1%8C%E6%9D%8E%E7%AE%B1%E5%8F%98%E5%8A%A8%E7%89%A9%E5%9B%AD-%E7%94%B7%E5%AE%A2%E6%8B%96%E7%AE%A7%E8%B5%B0%E7%A7%81398%E5%8F%AA%E6%B4%BB%E4%BD%93%E5%8A%A8%E7%89%A9-%E8%A5%BF%E4%B9%9D%E9%BE%99%E7%AB%99%E6%B5%B7%E5%85%B3%E6%96%AD%E6%AD%A3",
+      "image_status": "IMAGE_UNVERIFIED",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "location_label_pt": "Estação ferroviária West Kowloon, Hong Kong",
+      "location_label_en": "West Kowloon railway station, Hong Kong",
+      "location_label_es": "Estación ferroviaria West Kowloon, Hong Kong",
+      "fauna_label_pt": "398 animais vivos: 4 serpentes e 394 invertebrados",
+      "fauna_label_en": "398 live animals: 4 snakes and 394 invertebrates",
+      "fauna_label_es": "398 animales vivos: 4 serpientes y 394 invertebrados",
+      "title_pt": "Aduana encontra 398 animais vivos ocultos em bagagem em West Kowloon",
+      "title_en": "Customs seize 398 live animals concealed in luggage at West Kowloon",
+      "title_es": "Aduanas decomisa 398 animales vivos ocultos en equipaje en West Kowloon",
+      "card_text_pt": "A alfândega chinesa encontrou 398 animais vivos não declarados na bagagem de um passageiro em West Kowloon. O homem afirmou que pretendia revendê-los na China continental; o dia da apreensão não foi divulgado.",
+      "card_text_en": "Chinese customs officers found 398 undeclared live animals in a passenger's luggage at West Kowloon. He reportedly intended to resell them in mainland China; the seizure date was not disclosed.",
+      "card_text_es": "Agentes de aduanas chinos hallaron 398 animales vivos sin declarar en el equipaje de un pasajero en West Kowloon. Según la fuente, pretendía revenderlos en China continental; no se divulgó la fecha del decomiso.",
+      "context_pt": "[O1] [N1] Notícias publicadas em 19/10/2026, com referência à divulgação da alfândega chinesa (海关发布), descrevem a inspeção da bagagem de um passageiro que se dirigia à China continental pela estação West Kowloon. Foram encontrados 398 animais vivos não declarados, incluindo quatro serpentes e 394 invertebrados (escorpiões, aranhas/tarântulas, louva-a-deus, bichos-pau, isópodes e outros organismos). O passageiro teria declarado intenção de revender a carga. As publicações não informam o dia exato da apreensão, o local de procedência do passageiro nem cidade específica de destino. Embora o movimento em direção à China continental seja relatado, não é possível traçar uma rota com dois pontos comprovados. Não atribuir espécie científica individual ou proteção CITES universal à remessa; há menção jornalística a algumas aranhas sob controle comercial.",
+      "context_en": "[O1] [N1] Reports published on 19 October 2026 citing China Customs (海关发布) describe a passenger entering mainland China through West Kowloon Station with 398 undeclared live animals concealed in luggage. They included four snakes and 394 invertebrates, among them scorpions, spiders/tarantulas, mantises, stick insects, isopods and other organisms. The passenger reportedly intended to resell them. The exact seizure day, the passenger's geographic origin and a specific mainland destination were not given. Direction of travel is reported, but two documented geographical endpoints are lacking, so no route is rendered. Taxonomic and CITES status must not be inferred for the entire consignment.",
+      "context_es": "[O1] [N1] Informaciones publicadas el 19/10/2026 que citan a la Aduana de China (海关发布) describen a un pasajero que ingresaba en China continental por la estación West Kowloon con 398 animales vivos sin declarar ocultos en equipaje. Eran cuatro serpientes y 394 invertebrados, incluidos escorpiones, arañas/tarántulas, mantis, insectos palo, isópodos y otros organismos. El viajero pretendía revenderlos, según las fuentes. No se divulgó el día exacto del decomiso, el origen geográfico del pasajero ni una ciudad de destino concreta. Se informó la dirección de viaje, pero faltan dos extremos geográficos comprobados para representar una ruta. No se infiere identificación específica ni condición CITES para todo el lote.",
+      "context_references": [
+        {
+          "id": "O1",
+          "type": "case_source",
+          "label": "China Customs (海关发布) as reproduced by HK01 (19 October 2026)",
+          "url": "https://global.hk01.com/%E5%A4%A7%E5%9B%BD%E5%B0%8F%E4%BA%8B/60401183/%E8%A1%8C%E6%9D%8E%E7%AE%B1%E5%8F%98%E5%8A%A8%E7%89%A9%E5%9B%AD-%E7%94%B7%E5%AE%A2%E6%8B%96%E7%AE%A7%E8%B5%B0%E7%A7%81398%E5%8F%AA%E6%B4%BB%E4%BD%93%E5%8A%A8%E7%89%A9-%E8%A5%BF%E4%B9%9D%E9%BE%99%E7%AB%99%E6%B5%B7%E5%85%B3%E6%96%AD%E6%AD%A3"
+        },
+        {
+          "id": "N1",
+          "type": "news",
+          "label": "Sing Tao (19 October 2026)",
+          "url": "https://www.singtao.ca/googleamp/amp.php?cat=145&post_id=7659482&region=toronto_hk"
+        }
+      ],
+      "references_text_pt": "[O1] China Customs via HK01 — https://global.hk01.com/%E5%A4%A7%E5%9B%BD%E5%B0%8F%E4%BA%8B/60401183/%E8%A1%8C%E6%9D%8E%E7%AE%B1%E5%8F%98%E5%8A%A8%E7%89%A9%E5%9B%AD-%E7%94%B7%E5%AE%A2%E6%8B%96%E7%AE%A7%E8%B5%B0%E7%A7%81398%E5%8F%AA%E6%B4%BB%E4%BD%93%E5%8A%A8%E7%89%A9-%E8%A5%BF%E4%B9%9D%E9%BE%99%E7%AB%99%E6%B5%B7%E5%85%B3%E6%96%AD%E6%AD%A3\n[N1] Sing Tao — https://www.singtao.ca/googleamp/amp.php?cat=145&post_id=7659482&region=toronto_hk",
+      "references_text_en": "[O1] China Customs via HK01 — https://global.hk01.com/%E5%A4%A7%E5%9B%BD%E5%B0%8F%E4%BA%8B/60401183/%E8%A1%8C%E6%9D%8E%E7%AE%B1%E5%8F%98%E5%8A%A8%E7%89%A9%E5%9B%AD-%E7%94%B7%E5%AE%A2%E6%8B%96%E7%AE%A7%E8%B5%B0%E7%A7%81398%E5%8F%AA%E6%B4%BB%E4%BD%93%E5%8A%A8%E7%89%A9-%E8%A5%BF%E4%B9%9D%E9%BE%99%E7%AB%99%E6%B5%B7%E5%85%B3%E6%96%AD%E6%AD%A3\n[N1] Sing Tao — https://www.singtao.ca/googleamp/amp.php?cat=145&post_id=7659482&region=toronto_hk",
+      "references_text_es": "[O1] Aduana de China vía HK01 — https://global.hk01.com/%E5%A4%A7%E5%9B%BD%E5%B0%8F%E4%BA%8B/60401183/%E8%A1%8C%E6%9D%8E%E7%AE%B1%E5%8F%98%E5%8A%A8%E7%89%A9%E5%9B%AD-%E7%94%B7%E5%AE%A2%E6%8B%96%E7%AE%A7%E8%B5%B0%E7%A7%81398%E5%8F%AA%E6%B4%BB%E4%BD%93%E5%8A%A8%E7%89%A9-%E8%A5%BF%E4%B9%9D%E9%BE%99%E7%AB%99%E6%B5%B7%E5%85%B3%E6%96%AD%E6%AD%A3\n[N1] Sing Tao — https://www.singtao.ca/googleamp/amp.php?cat=145&post_id=7659482&region=toronto_hk",
+      "geographic_note_pt": "Referência generalizada da estação ferroviária; não é posição exata da inspeção.",
+      "geographic_note_en": "Generalized railway station coordinate, not the exact inspection position.",
+      "geographic_note_es": "Coordenada generalizada de la estación, no del punto exacto de revisión.",
+      "quantity_note_pt": "398 animais vivos: quatro serpentes e 394 invertebrados; categorias científicas finas incertas.",
+      "quantity_note_en": "398 live animals: four snakes and 394 invertebrates; finer taxonomy uncertain.",
+      "quantity_note_es": "398 animales vivos: cuatro serpientes y 394 invertebrados; taxonomía específica incierta.",
+      "route_audit_note_pt": "Travessia rumo à China continental descrita, sem destino municipal nem origem específicos; não traçar rota.",
+      "route_audit_note_en": "Mainland-bound journey documented, but no specific origin or destination city; no route.",
+      "route_audit_note_es": "Viaje hacia China continental documentado, sin origen ni destino urbano específico; sin ruta.",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown"
     }
   ]
 }
