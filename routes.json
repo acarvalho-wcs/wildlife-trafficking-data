@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-20T00:00:00Z",
+  "updated_at": "2026-10-21T17:20:00Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11378,6 +11378,43 @@
         }
       ],
       "route_audit": "TG-H 1.5 — intended transport, country-level endpoint only, evidence verified 2026-10-20"
+    },
+    {
+      "id": "suriname-saint-laurent-maroni-amazonica-2025-05-04",
+      "event_match": {
+        "event_id": "2025-05-04__saint-laurent-amazonica-orthopsittaca"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Suriname → Saint-Laurent-du-Maroni (travessia documentada)",
+      "label_en": "Suriname → Saint-Laurent-du-Maroni (documented crossing)",
+      "label_es": "Surinam → Saint-Laurent-du-Maroni (cruce documentado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Margem surinamesa do rio Maroni — ponto esquemático",
+            "country": "Suriname",
+            "lat": 5.504,
+            "lon": -54.059,
+            "precision": "river_border_country_side_generalized_not_departure_point"
+          },
+          "to": {
+            "name": "Saint-Laurent-du-Maroni — zona do terminal fluvial",
+            "country": "Guiana Francesa",
+            "lat": 5.503,
+            "lon": -54.029,
+            "precision": "city_river_terminal_generalized_not_exact_landing"
+          }
+        }
+      ],
+      "evidence_pt": "[O] A alfândega francesa informou que em 04/05/2025 uma piroga procedente do Suriname atracou fora da via legal e foi interceptada em Saint-Laurent-du-Maroni com um Amazona amazonica e um Orthopsittaca manilatus. Os pontos indicam somente margens e jurisdições documentadas; não representam local de captura, porto exato ou percurso real. A segunda apreensão do mesmo dia não está vinculada a esta linha.",
+      "evidence_en": "[O] French customs stated that on 4 May 2025 a canoe arriving from Suriname landed outside the legal crossing and was intercepted at Saint-Laurent-du-Maroni carrying one Amazona amazonica and one Orthopsittaca manilatus. Endpoints are schematic jurisdictional riverbank markers, not capture locations, exact ports or the actual track. The separate second seizure that day is not linked to this line.",
+      "evidence_es": "[O] La aduana francesa informó que el 04/05/2025 una piragua procedente de Surinam arribó fuera del cruce legal y fue interceptada en Saint-Laurent-du-Maroni con un Amazona amazonica y un Orthopsittaca manilatus. Los extremos son marcadores ribereños esquemáticos, no lugares de captura, puertos exactos ni trayecto real. La segunda incautación de ese día no se vincula a esta línea.",
+      "source_label": "Douane française — communiqué du 16 mai 2025",
+      "source_url": "https://www.douane.gouv.fr/sites/default/files/2025-05/16/CP-CITES-perroquets_0.pdf",
+      "route_audit": "TG-H Amazona amazonica global 2026-10-21 — 1 of 2 seizures; solid line; documentary river crossing only"
     }
   ],
   "network_context": [
