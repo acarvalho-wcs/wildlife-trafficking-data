@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1113_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1114_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1113,
+  "count": 1114,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -85570,6 +85570,76 @@
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "audit_note": "TG-H 2026-10-21. CPRH 2021-11-03 confirms 180 Amazona amazonica (385 animals total), Balsas origin and Caruaru intended destination; independent local report attributes enforcement action to 2021-10-30. Preserve uncertain stop/interception point.",
       "occurred_at": "2021-10-30T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2023-08-29__sao-luis-coroadinho-one-amazona-amazonica",
+      "legacy_index": null,
+      "legacy_site_id": null,
+      "reconstruction_batch": "TG-H_Amazona_amazonica_Maranhao_2026-10-21",
+      "added_at": "2026-10-21T19:25:00Z",
+      "status": "VALIDATED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "location_label_pt": "São Luís, bairro Coroadinho (MA)",
+      "location_label_en": "São Luís, Coroadinho neighborhood (Maranhão)",
+      "location_label_es": "São Luís, barrio Coroadinho (Maranhão)",
+      "country": "Brasil",
+      "source_label": "Polícia Militar do Maranhão — Batalhão de Polícia Ambiental (PMMA)",
+      "source_url": "https://pm.ssp.ma.gov.br/2023/08/batalhao-ambiental-confecciona-primeiro-tco-em-sao-luis-no-bairro-coroadinho/",
+      "publication_date": null,
+      "event_date": "2023-08-29",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "*Amazona amazonica* (papagaio-do-mangue)",
+      "fauna_label_pt": "1 papagaio-do-mangue apreendido",
+      "fauna_label_en": "1 orange-winged amazon seized",
+      "fauna_label_es": "1 loro alinaranja incautado",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Cativeiro irregular; sem transporte documentado",
+      "modal_label_en": "Illegal captive keeping; no documented transport",
+      "modal_label_es": "Tenencia ilegal en cautiverio; sin transporte documentado",
+      "coordinates": {
+        "lat": -2.53,
+        "lon": -44.3
+      },
+      "coordinate_precision": "city_generalized",
+      "geographic_note_pt": "Coordenadas generalizadas para São Luís, não para o endereço exato da apreensão no Coroadinho.",
+      "geographic_note_en": "Generalized São Luís coordinates, not the exact seizure location in Coroadinho.",
+      "geographic_note_es": "Coordenadas generales de São Luís, no del lugar exacto de la incautación en Coroadinho.",
+      "title_pt": "Batalhão Ambiental apreende papagaio-do-mangue mantido irregularmente no Coroadinho, em São Luís",
+      "title_en": "Environmental Police seize illegally held orange-winged amazon in Coroadinho, São Luís",
+      "title_es": "Policía Ambiental incauta un loro alinaranja mantenido ilegalmente en Coroadinho, São Luís",
+      "card_text_pt": "Em 29 de agosto de 2023, durante patrulhamento no bairro Coroadinho, em São Luís (MA), o Grupo Tático Ambiental da PMMA encontrou um papagaio-do-mangue em uma gaiola no muro de um bar. O responsável declarou manter a ave havia 17 anos sem autorização. A equipe lavrou termo circunstanciado de ocorrência, termo de apreensão e auto de infração ambiental.",
+      "card_text_en": "On 29 August 2023, Maranhão Environmental Police officers patrolling Coroadinho, São Luís, found an orange-winged amazon in a cage on the wall outside a bar. The keeper reported holding the bird for 17 years without authorization. Officers issued an incident report, seizure document and environmental infraction notice.",
+      "card_text_es": "El 29 de agosto de 2023, agentes de la Policía Ambiental de Maranhão encontraron un loro alinaranja en una jaula junto a un bar en Coroadinho, São Luís. Su poseedor declaró mantenerlo desde hacía 17 años sin autorización. Los agentes emitieron acta de ocurrencia, acta de incautación y notificación de infracción ambiental.",
+      "context_pt": "A fonte oficial identifica a ave pelo nome popular papagaio-do-mangue, associado a Amazona amazonica. Trata-se de apreensão por cativeiro irregular, sem origem de captura, movimentação comercial ou rota de tráfico documentadas. A declaração de posse por 17 anos não estabelece a data de captura.",
+      "context_en": "The official source identifies the bird by its common name, orange-winged amazon (Amazona amazonica). This is an unlawful captivity case; capture origin, commercial movement and trafficking route are undocumented. Reported 17-year possession does not establish capture date.",
+      "context_es": "La fuente oficial identifica al ave por su nombre común, loro alinaranja (Amazona amazonica). Es un caso de cautiverio ilegal sin origen de captura, movimiento comercial ni ruta de tráfico documentados. La declaración de posesión durante 17 años no establece fecha de captura.",
+      "references_text_pt": "PMMA — https://pm.ssp.ma.gov.br/2023/08/batalhao-ambiental-confecciona-primeiro-tco-em-sao-luis-no-bairro-coroadinho/",
+      "references_text_en": "PMMA — https://pm.ssp.ma.gov.br/2023/08/batalhao-ambiental-confecciona-primeiro-tco-em-sao-luis-no-bairro-coroadinho/",
+      "references_text_es": "PMMA — https://pm.ssp.ma.gov.br/2023/08/batalhao-ambiental-confecciona-primeiro-tco-em-sao-luis-no-bairro-coroadinho/",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Um papagaio-do-mangue documentado.",
+      "quantity_note_en": "One orange-winged amazon documented.",
+      "quantity_note_es": "Un loro alinaranja documentado.",
+      "target_taxon": "Amazona amazonica",
+      "target_taxon_quantity": 1,
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audited_at": "2026-10-21T19:25:00Z",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VERIFIED_NO_IMAGE",
+      "audit_note": "PMMA original report for Tuesday 29 August 2023. No movement inferred. Publication date deliberately null because page offers month/year only.",
+      "occurred_at": "2023-08-29T00:00:00Z",
       "occurred_at_precision": "day"
     }
   ]
