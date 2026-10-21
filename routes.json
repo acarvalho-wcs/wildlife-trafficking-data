@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-21T17:20:00Z",
+  "updated_at": "2026-10-21T19:15:00Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11415,6 +11415,43 @@
       "source_label": "Douane française — communiqué du 16 mai 2025",
       "source_url": "https://www.douane.gouv.fr/sites/default/files/2025-05/16/CP-CITES-perroquets_0.pdf",
       "route_audit": "TG-H Amazona amazonica global 2026-10-21 — 1 of 2 seizures; solid line; documentary river crossing only"
+    },
+    {
+      "id": "balsas-ma-caruaru-pe-amazonica-2021-10-30",
+      "event_match": {
+        "event_id": "2021-10__balsas-ouricuri-385-wildlife-180-amazonica"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Balsas (MA) → Caruaru (PE), destino pretendido",
+      "label_en": "Balsas (MA) → Caruaru (PE), intended destination",
+      "label_es": "Balsas (MA) → Caruaru (PE), destino previsto",
+      "segments": [
+        {
+          "from": {
+            "name": "Balsas (MA)",
+            "country": "Brasil",
+            "lat": -7.532,
+            "lon": -46.037,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Caruaru (PE), destino comercial pretendido",
+            "country": "Brasil",
+            "lat": -8.2846,
+            "lon": -35.9702,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A CPRH informa que 340 filhotes de psitacídeos, entre eles 180 Amazona amazonica, estavam sendo transportados de Balsas (MA) para venda na feira de Caruaru (PE). A linha representa somente a origem declarada e o destino pretendido, sem indicar percurso viário real nem chegada ao destino.",
+      "evidence_en": "CPRH reports that 340 young psittacines, including 180 Amazona amazonica, were being transported from Balsas (Maranhão) to be sold at the Caruaru market (Pernambuco). The line shows reported origin and intended destination only; it does not indicate the actual road itinerary or confirmed arrival.",
+      "evidence_es": "La CPRH señala que 340 crías de psitácidos, incluidos 180 Amazona amazonica, eran transportados desde Balsas (Maranhão) para venderse en la feria de Caruaru (Pernambuco). La línea representa origen informado y destino previsto, sin implicar itinerario vial real ni llegada confirmada.",
+      "source_label": "CPRH, 3/11/2021",
+      "source_url": "https://www2.cprh.pe.gov.br/2026/10/05/cprh-apreende-385-aves-silvestres-por-maus-tratos-e-trafico-de-animais-silvestres/",
+      "route_audit": "TG-H Amazona amazonica Maranhão 2026-10-21 — planned destination; continuous line, no inferred itinerary."
     }
   ],
   "network_context": [
