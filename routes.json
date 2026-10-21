@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-21T20:52:18.900925Z",
+  "updated_at": "2026-10-21T21:58:33.943060Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11596,6 +11596,43 @@
       "evidence_es": "[O] Movimiento documentado, línea esquemática y no recorrido vial exacto.",
       "source_label": "Polícia Militar Ambiental de São Paulo",
       "source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-aves-silvestres-transportadas-irregularmente-e-vitimas-de-maus-tratos/"
+    },
+    {
+      "id": "umuarama-campo-mourao-166-aestiva-2022",
+      "event_match": {
+        "event_id": "2022-10-06__campo-mourao-166-aestiva"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Umuarama → Campo Mourão (veículo interceptado)",
+      "label_en": "Umuarama → Campo Mourão (intercepted vehicle)",
+      "label_es": "Umuarama → Campo Mourão (vehículo interceptado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Umuarama (PR), saída declarada",
+            "country": "Brasil",
+            "lat": -23.7986,
+            "lon": -53.3133,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Campo Mourão (PR), interceptação",
+            "country": "Brasil",
+            "lat": -24.04,
+            "lon": -52.38,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[N] A imprensa local informa saída do carro em Umuarama e interceptação em Campo Mourão no dia 06/10/2022; [O] autos do IAT confirmam a apreensão de 166 filhotes. Linha contínua esquemática; não indica local de captura ou trajeto viário exato.",
+      "evidence_en": "[N] Local reporting identifies vehicle departure from Umuarama and interception in Campo Mourão on 6 October 2022; [O] IAT records confirm 166 chicks. Schematic solid line, not capture location or precise road.",
+      "evidence_es": "[N] Prensa local señala salida del vehículo de Umuarama e interceptación en Campo Mourão el 06/10/2022; [O] actas del IAT confirman 166 pichones. Línea continua esquemática; no indica origen de captura ni vía exacta.",
+      "source_label": "IAT Paraná; CGN / Tribuna do Interior",
+      "source_url": "https://cgn.inf.br/noticia/937968/prf-apreende-166-filhotes-depapagaios-em-campo-mourao",
+      "route_audit": "TG-H2 Amazona aestiva; 2026-10-21; solid line only for documented origin/interception."
     }
   ],
   "network_context": [
