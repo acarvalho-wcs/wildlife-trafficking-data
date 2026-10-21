@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-17__missao-velha-twenty-captive-wild-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-17",
+  "publication_date": "2026-10-18",
+  "event_date_precision": "day",
+  "coordinates": {
+    "lat": -7.25,
+    "lon": -39.14
+  },
+  "coordinate_precision": "municipality_generalized",
+  "source_label": "PMCE/BPMA comunicado oficial",
+  "source_url": "https://www.pm.ce.gov.br/2026/10/18/pmce-resgata-20-aves-silvestres-mantidas-em-cativeiro-irregular-em-missao-velha/",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "6 golas; 4 canários-da-terra; 2 sabiás; 3 campinas; 2 abre-e-fecha; 1 bigodeiro; 1 papa-capim; 1 azulão (nomes comuns)",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "modal_label_en": "Terrestrial",
+  "modal_label_es": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 20,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 20
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não há dois extremos geográficos comprovados para movimento comercial da fauna; nenhuma rota deve ser criada.",
+  "route_audit_note_en": "Two substantiated geographic endpoints for wildlife commercial movement are unavailable; no route should be created.",
+  "route_audit_note_es": "Faltan dos extremos geográficos comprobados del movimiento comercial de fauna; no se debe crear ruta.",
+  "geographic_note_pt": "Coordenada da sede municipal de Missão Velha; propriedade rural não divulgada.",
+  "geographic_note_en": "Generalized area marker; does not pinpoint the seizure location.",
+  "geographic_note_es": "Marcador territorial aproximado; no indica el punto exacto de intervención.",
+  "quantity_note_pt": "Quantidade referente apenas aos animais documentados; não confundir apreensão, produtos e transferências administrativas.",
+  "quantity_note_en": "Animal quantity refers only to documented individuals; administrative custody transfers and products are not additional animals.",
+  "quantity_note_es": "La cifra animal se refiere solo a individuos documentados; traslados administrativos y productos no son animales adicionales.",
+  "ingestion_batch": "tg-h-20261021-validation-13-candidates",
+  "translation_status": "EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+  "image_url": null,
+  "image_source_url": "https://www.pm.ce.gov.br/2026/10/18/pmce-resgata-20-aves-silvestres-mantidas-em-cativeiro-irregular-em-missao-velha/",
+  "image_status": "IMAGE_UNVERIFIED",
+  "occurrence_type": "illegal_captive_wild_bird_possession",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "PMCE/BPMA comunicado oficial",
+      "url": "https://www.pm.ce.gov.br/2026/10/18/pmce-resgata-20-aves-silvestres-mantidas-em-cativeiro-irregular-em-missao-velha/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Governo do Ceará",
+      "url": "https://www.ce.gov.br/2026/10/19/pmce-resgata-20-aves-silvestres-em-cativeiro-irregular-em-missao-velha/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "de Oliveira et al. (2020), Illegal trade of songbirds in northeast Brazil",
+      "url": "https://doi.org/10.1186/s13002-020-00365-5"
+    }
+  ],
+  "location_label_pt": "Zona rural de Missão Velha, Ceará",
+  "title_pt": "PMCE apreende 20 aves silvestres em cativeiro irregular em Missão Velha",
+  "fauna_label_pt": "20 animais da fauna; 6 golas; 4 canários-da-terra; 2 sabiás; 3 campinas; 2 abre-e-fecha; 1 bigodeiro; 1 papa-capim; 1 azulão (nomes comuns)",
+  "card_text_pt": "Em 17/10/2026, o BPMA da PMCE resgatou 20 aves silvestres sem autorização na zona rural de Missão Velha. Dois responsáveis foram autuados e o lote encaminhado para avaliação na BiodiverSe.",
+  "context_pt": "[O1, O2] A fiscalização do BPMA/PMCE em 17/10 na zona rural de Missão Velha ocorreu após denúncia ao CIOPS e resultou na apreensão de 20 aves: seis golas, quatro canários-da-terra, dois sabiás, três campinas, dois abre-e-fecha, um bigodeiro, um papa-capim e um azulão (nomes populares). Dois homens receberam autuações administrativas somando R$ 10 mil. Os espécimes foram encaminhados à BiodiverSe, no Crato, para triagem, sem constituir rota de comércio; não foram apurados local de captura, valores de venda ou intermediários. Identificações científicas não devem ser inferidas apenas dos nomes comuns.\n\n[S1] Pesquisa sobre comércio de aves canoras no Nordeste brasileiro oferece contexto regional, sem comprovar venda nem rede de tráfico neste flagrante.\n\n[I] Nenhuma associação institucional da WCS específica para esta ocorrência foi documentada.",
+  "references_text_pt": "[O1] PMCE/BPMA comunicado oficial — https://www.pm.ce.gov.br/2026/10/18/pmce-resgata-20-aves-silvestres-mantidas-em-cativeiro-irregular-em-missao-velha/\n[O2] Governo do Ceará — https://www.ce.gov.br/2026/10/19/pmce-resgata-20-aves-silvestres-em-cativeiro-irregular-em-missao-velha/\n[S1] de Oliveira et al. (2020), Illegal trade of songbirds in northeast Brazil — https://doi.org/10.1186/s13002-020-00365-5",
+  "location_label_en": "Rural Missão Velha, Ceará",
+  "title_en": "Ceará police seize 20 wild birds kept without authorization in Missão Velha",
+  "fauna_label_en": "20 wildlife animals; 6 golas; 4 canários-da-terra; 2 sabiás; 3 campinas; 2 abre-e-fecha; 1 bigodeiro; 1 papa-capim; 1 azulão (nomes comuns)",
+  "card_text_en": "On 17 October 2026, Ceará environmental police recovered 20 wild birds kept without authorization in rural Missão Velha. Two people were fined and the birds referred to BiodiverSe for assessment.",
+  "context_en": "[O1, O2] Ceará's environmental police inspected rural Missão Velha on 17 October after an emergency-service tip and seized 20 unlicensed wild birds: six golas, four canários-da-terra, two sabiás, three campinas, two abre-e-fecha, one bigodeiro, one papa-capim and one azulão, using reported local names. Two men were administratively fined a combined R$10,000. The animals went to BiodiverSe in Crato for assessment, an official custody transfer rather than a trade route. Capture locations, sales, suppliers and precise scientific identities remain undetermined.\n\n[S1] Research on songbird trade in Northeast Brazil supplies regional context without establishing a sale or trafficking network in this event.\n\n[I] No incident-specific WCS institutional involvement is documented.",
+  "references_text_en": "[O1] PMCE/BPMA comunicado oficial — https://www.pm.ce.gov.br/2026/10/18/pmce-resgata-20-aves-silvestres-mantidas-em-cativeiro-irregular-em-missao-velha/\n[O2] Governo do Ceará — https://www.ce.gov.br/2026/10/19/pmce-resgata-20-aves-silvestres-em-cativeiro-irregular-em-missao-velha/\n[S1] de Oliveira et al. (2020), Illegal trade of songbirds in northeast Brazil — https://doi.org/10.1186/s13002-020-00365-5",
+  "location_label_es": "Zona rural de Missão Velha, Ceará",
+  "title_es": "La policía de Ceará decomisa 20 aves silvestres en cautiverio irregular en Missão Velha",
+  "fauna_label_es": "20 animales silvestres; 6 golas; 4 canários-da-terra; 2 sabiás; 3 campinas; 2 abre-e-fecha; 1 bigodeiro; 1 papa-capim; 1 azulão (nomes comuns)",
+  "card_text_es": "El 17/10/2026, la policía ambiental de Ceará rescató 20 aves silvestres sin autorización en la zona rural de Missão Velha. Dos responsables fueron sancionados y las aves trasladadas a BiodiverSe.",
+  "context_es": "[O1, O2] La policía ambiental de Ceará inspeccionó una zona rural de Missão Velha el 17/10 tras una denuncia y decomisó 20 aves silvestres sin permisos: seis golas, cuatro canários-da-terra, dos sabiás, tres campinas, dos abre-e-fecha, un bigodeiro, un papa-capim y un azulão, según denominaciones locales. Dos hombres recibieron multas administrativas por R$ 10.000 en total. Las aves fueron remitidas a BiodiverSe en Crato para evaluación, un traslado de custodia y no una ruta comercial. No se conocen captura, ventas ni identificaciones científicas individuales.\n\n[S1] Un estudio del comercio de aves canoras en el nordeste brasileño ofrece contexto regional, sin probar una venta o red en este operativo.\n\n[I] No consta participación institucional de WCS específica en este caso.",
+  "references_text_es": "[O1] PMCE/BPMA comunicado oficial — https://www.pm.ce.gov.br/2026/10/18/pmce-resgata-20-aves-silvestres-mantidas-em-cativeiro-irregular-em-missao-velha/\n[O2] Governo do Ceará — https://www.ce.gov.br/2026/10/19/pmce-resgata-20-aves-silvestres-em-cativeiro-irregular-em-missao-velha/\n[S1] de Oliveira et al. (2020), Illegal trade of songbirds in northeast Brazil — https://doi.org/10.1186/s13002-020-00365-5"
+}
