@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-21T19:15:00Z",
+  "updated_at": "2026-10-21T20:52:18.900925Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11452,6 +11452,150 @@
       "source_label": "CPRH, 3/11/2021",
       "source_url": "https://www2.cprh.pe.gov.br/2026/10/05/cprh-apreende-385-aves-silvestres-por-maus-tratos-e-trafico-de-animais-silvestres/",
       "route_audit": "TG-H Amazona amazonica Maranhão 2026-10-21 — planned destination; continuous line, no inferred itinerary."
+    },
+    {
+      "id": "oran-sinsacate-7-aestiva-2025",
+      "event_match": {
+        "event_id": "2025-06__sinsacate-7-aestiva"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ônibus procedente de Orán fiscalizado em Sinsacate",
+      "label_en": "Ônibus procedente de Orán fiscalizado em Sinsacate",
+      "label_es": "Ônibus procedente de Orán fiscalizado em Sinsacate",
+      "segments": [
+        {
+          "from": {
+            "name": "Orán",
+            "country": "Argentina",
+            "lat": -23.137,
+            "lon": -64.324,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Sinsacate",
+            "country": "Argentina",
+            "lat": -30.9428,
+            "lon": -64.0939,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O] Ônibus procedente de Orán fiscalizado em Sinsacate. Segmento esquemático, não trajeto rodoviário real.",
+      "evidence_en": "[O] Reported vehicle movement, schematic line not actual road track.",
+      "evidence_es": "[O] Movimiento documentado, línea esquemática y no recorrido vial exacto.",
+      "source_label": "Gendarmería Nacional Argentina",
+      "source_url": "https://www.argentina.gob.ar/noticias/cordoba-hallaron-aves-silvestres-dentro-de-cajas-y-caprinos-en-el-baul-de-un-automovil"
+    },
+    {
+      "id": "saenz-pena-tostado-100-aestiva-2022",
+      "event_match": {
+        "event_id": "2022-01-11__villa-angela-100-aestiva"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Transporte procedente de Sáenz Peña para Tostado, interceptado antes da chegada",
+      "label_en": "Transporte procedente de Sáenz Peña para Tostado, interceptado antes da chegada",
+      "label_es": "Transporte procedente de Sáenz Peña para Tostado, interceptado antes da chegada",
+      "segments": [
+        {
+          "from": {
+            "name": "Presidencia Roque Sáenz Peña",
+            "country": "Argentina",
+            "lat": -26.7916,
+            "lon": -60.4421,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Tostado (destino previsto)",
+            "country": "Argentina",
+            "lat": -29.2327,
+            "lon": -61.7687,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O] Transporte procedente de Sáenz Peña para Tostado, interceptado antes da chegada. Segmento esquemático, não trajeto rodoviário real.",
+      "evidence_en": "[O] Reported vehicle movement, schematic line not actual road track.",
+      "evidence_es": "[O] Movimiento documentado, línea esquemática y no recorrido vial exacto.",
+      "source_label": "Gendarmería Nacional Argentina",
+      "source_url": "https://www.argentina.gob.ar/noticias/viajaban-hacia-santa-fe-trasladando-100-loros-ocultos-en-el-baul-de-un-automovil"
+    },
+    {
+      "id": "sachayoj-carcarana-194-aestiva-2018",
+      "event_match": {
+        "event_id": "2018-12-30__sachayoj-194-aestiva"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Caminhonete interceptada em Sacháyoj com destino previsto Carcarañá",
+      "label_en": "Caminhonete interceptada em Sacháyoj com destino previsto Carcarañá",
+      "label_es": "Caminhonete interceptada em Sacháyoj com destino previsto Carcarañá",
+      "segments": [
+        {
+          "from": {
+            "name": "Sacháyoj (interceptação)",
+            "country": "Argentina",
+            "lat": -26.6833,
+            "lon": -61.8333,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Carcarañá (destino previsto)",
+            "country": "Argentina",
+            "lat": -32.857,
+            "lon": -61.1511,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O] Caminhonete interceptada em Sacháyoj com destino previsto Carcarañá. Segmento esquemático, não trajeto rodoviário real.",
+      "evidence_en": "[O] Reported vehicle movement, schematic line not actual road track.",
+      "evidence_es": "[O] Movimiento documentado, línea esquemática y no recorrido vial exacto.",
+      "source_label": "Gendarmería Nacional Argentina",
+      "source_url": "https://www.argentina.gob.ar/noticias/rescatan-194-loros-trasladados-en-una-camioneta-ilegalmente"
+    },
+    {
+      "id": "caraguatatuba-ubatuba-2-aestiva-2025",
+      "event_match": {
+        "event_id": "2025-10-21__caraguatatuba-2-aestiva"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Filhotes interceptados em Caraguatatuba antes da revenda planejada em Ubatuba",
+      "label_en": "Filhotes interceptados em Caraguatatuba antes da revenda planejada em Ubatuba",
+      "label_es": "Filhotes interceptados em Caraguatatuba antes da revenda planejada em Ubatuba",
+      "segments": [
+        {
+          "from": {
+            "name": "Caraguatatuba (interceptação)",
+            "country": "Brasil",
+            "lat": -23.6203,
+            "lon": -45.4131,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Ubatuba (destino previsto)",
+            "country": "Brasil",
+            "lat": -23.4339,
+            "lon": -45.0711,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O] Filhotes interceptados em Caraguatatuba antes da revenda planejada em Ubatuba. Segmento esquemático, não trajeto rodoviário real.",
+      "evidence_en": "[O] Reported vehicle movement, schematic line not actual road track.",
+      "evidence_es": "[O] Movimiento documentado, línea esquemática y no recorrido vial exacto.",
+      "source_label": "Polícia Militar Ambiental de São Paulo",
+      "source_url": "https://portaldenoticias.policiamilitar.sp.gov.br/policia-ambiental-apreende-aves-silvestres-transportadas-irregularmente-e-vitimas-de-maus-tratos/"
     }
   ],
   "network_context": [
