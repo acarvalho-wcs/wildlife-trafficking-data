@@ -1,0 +1,132 @@
+{
+  "round": "TG-H3",
+  "taxon": "Amazona aestiva",
+  "date": "2026-10-21",
+  "scope": "global, sem limite temporal",
+  "status": "PESQUISA_BRUTA_SEM_DEDUPLICACAO",
+  "published": false,
+  "focus": "Ocorrencias contemporaneas; fontes oficiais e locais, principalmente America do Sul",
+  "search_queries": [
+    "Amazona aestiva apreensão papagaios polícia ambiental 2024 2025 2026",
+    "papagaio verdadeiro apreendidos fiscalização Brasil 2023 2024 2025",
+    "Amazona aestiva incautación tráfico Paraguay Bolivia Uruguay",
+    "Amazona aestiva rescatados Argentina 2024 2025 2026"
+  ],
+  "candidate_fields": [
+    "id",
+    "country",
+    "location",
+    "event_date",
+    "publication_date",
+    "aestiva_count",
+    "source_url",
+    "source_type",
+    "notes"
+  ],
+  "candidates": [
+    [
+      "H3-01",
+      "Brasil",
+      "Recanto das Emas DF",
+      "2024-05-17",
+      "2024-05-18",
+      1,
+      "https://dfnamidia.com.br/distrito-federal/seguranca-publica/pmdf/pmdf-apreende-papagaio-verdadeiro-na-df-180/",
+      "N/PMDF",
+      "Ave transportada em carro interceptado em barreira ambiental"
+    ],
+    [
+      "H3-02",
+      "Brasil",
+      "Américo de Campos SP",
+      "2024-06-14",
+      "2024-06-15",
+      5,
+      "https://www.votunews.com.br/policia-ambiental-resgata-aves-nativas-em-americo-de-campos/",
+      "N/PM",
+      "Cinco A. aestiva entre especies mantidas em cativeiro"
+    ],
+    [
+      "H3-03",
+      "Brasil",
+      "Canoeiros MG",
+      "2025-09-09",
+      "2025-09-10",
+      3,
+      "https://paracatunews.com.br/noticia/71385/policia-militar-de-meio-ambiente-apreende-papagaios-mantidos-em-cativeiro-irregular-no-distrito-de-canoeiros/amp",
+      "N/PM",
+      "Tres aves sem autorizacao"
+    ],
+    [
+      "H3-04",
+      "Brasil",
+      "Paranavaí PR",
+      null,
+      "2026-10-01",
+      1,
+      "https://diariodonoroeste.com.br/acao-conjunta-apreende-aves-silvestres-mantidas-irregularmente-em-cativeiro/",
+      "N/IAT",
+      "Um A. aestiva e sete coleirinhos; verificar data do evento"
+    ],
+    [
+      "H3-05",
+      "Brasil",
+      "Poxoréu MT",
+      "2026-10-06",
+      "2026-10-08",
+      2,
+      "https://nmt.com.br/2026/10/08/policia-ambiental-apreende-papagaios-mantidos-irregularmente-em-residencia-de-poxoreu/",
+      "N/PM",
+      "Dois papagaios verdadeiros sem documentacao"
+    ],
+    [
+      "H3-06",
+      "Brasil",
+      "Franca SP",
+      "2026-09-30",
+      "2026-10-01",
+      3,
+      "https://verdadeon.com.br/portal/2026/10/01/pm-ambiental-combate-trafico-de-animais-silvestres-e-resgata-quatro-aves-em-franca/",
+      "N/PM",
+      "Tres filhotes A. aestiva; quarta ave e um canario de outra especie"
+    ],
+    [
+      "H3-07",
+      "Brasil",
+      "Votorantim SP",
+      "2026-09-10",
+      "2026-09-11",
+      1,
+      "https://www.band.com.br/nacional/sp/trafico-e-animais-votorantim",
+      "N/PM",
+      "Um A. aestiva; infracao ambiental em ocorrencia tambem relacionada a drogas, sem inferir elo entre crimes"
+    ],
+    [
+      "H3-08",
+      "Brasil",
+      "Guachos, Martinópolis SP",
+      "2026-09-09",
+      "2026-09-10",
+      1,
+      "https://ifronteira.com/regiao/2085/policia-ambiental-apreende-armas-municoes-e-carne-de-caca-no-distrito-de-guachos",
+      "N/PM",
+      "Um A. aestiva em cativeiro irregular; outros materiais apreendidos"
+    ],
+    [
+      "H3-09",
+      "Brasil",
+      "Niterói RJ",
+      null,
+      null,
+      null,
+      "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/07/pf-investiga-trafico-e-maus-tratos-a-animais-silvestres-em-niteroi-rj/",
+      "O/PF",
+      "Papagaio verdadeiro em apreensao multiespecies, quantidade e binomio precisam ser confirmados"
+    ]
+  ],
+  "caveats": [
+    "Todos podem ser duplicados de registros existentes; nao checado.",
+    "Sem georreferenciamento final, sem textos PT/EN/ES canonicos, sem rotas inferidas.",
+    "Nao somar quantidades ate deduplicar."
+  ]
+}
