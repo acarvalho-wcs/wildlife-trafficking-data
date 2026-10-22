@@ -2,15 +2,15 @@
   "batch": "TG-H3_to_TG-H6_Amazona_aestiva_2026-10-22_DRAFT",
   "publication_allowed": false,
   "branch_only": true,
-  "dedup_caveat": "No index match and five confirmed duplicates were documented in initial audit. 11 staged records are still subject to exhaustive semantic full-store review and direct source/geodata QA before publish.",
+  "dedup_caveat": "Original stubs pending full source QA / semantic full-store comparison. Record status is PENDING_REVIEW, NOT VALIDATED, to prevent accidental import. Multispecies incident alone is NOT an aggregate_operation.",
   "source_verified_drafts": 11,
   "records": [
     {
       "id": "2025-09-09__tgh-h3-03-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -73,17 +73,19 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H3-03: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Ocorrência individualizada; fonte jornalística com informações da polícia; nenhum trajeto descrito."
+      "audit_note": "H3-03: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Ocorrência individualizada; fonte jornalística com informações da polícia; nenhum trajeto descrito.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2026-09-30__tgh-h3-04-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
-      "aggregate_operation": true,
+      "aggregate_operation": false,
       "exclude_from_totals": false,
       "location_label_pt": "Vila Operária, Paranavaí (PR)",
       "location_label_en": "Vila Operária, Paranavaí (PR)",
@@ -143,14 +145,16 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H3-04: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Data do evento corrigida com notícia independente de 30/09/2026: https://paranavai.portaldacidade.com/noticias/policial/oito-aves-silvestres-sao-apreendidas-em-cativeiro-irregular-em-paranavai-5729 . Não confundir 8 aves com 8 A. aestiva."
+      "audit_note": "H3-04: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Data do evento corrigida com notícia independente de 30/09/2026: https://paranavai.portaldacidade.com/noticias/policial/oito-aves-silvestres-sao-apreendidas-em-cativeiro-irregular-em-paranavai-5729 . Não confundir 8 aves com 8 A. aestiva.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2026-09-09__tgh-h3-08-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -213,17 +217,19 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H3-08: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Quantidade numérica cobre somente 1 ave; carnes de fauna não quantificadas NÃO são convertidas em animais. Crimes relativos a armas não implicam rede de tráfico."
+      "audit_note": "H3-08: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Quantidade numérica cobre somente 1 ave; carnes de fauna não quantificadas NÃO são convertidas em animais. Crimes relativos a armas não implicam rede de tráfico.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2019-03-28__tgh-h4-01-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
-      "aggregate_operation": true,
+      "aggregate_operation": false,
       "exclude_from_totals": false,
       "location_label_pt": "Alcantarilla (Murcia)",
       "location_label_en": "Alcantarilla (Murcia)",
@@ -285,14 +291,16 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H4-01: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. 3 animais em dois grupos (Aves=1, Répteis=2). Data de publicação preservada separadamente."
+      "audit_note": "H4-01: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. 3 animais em dois grupos (Aves=1, Répteis=2). Data de publicação preservada separadamente.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2021-12-07__tgh-h5-02-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -355,14 +363,16 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H5-02: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Rota planejada parcial María Luisa → Rosario, não concluída; não presumir origem anterior."
+      "audit_note": "H5-02: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Rota planejada parcial María Luisa → Rosario, não concluída; não presumir origem anterior.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2021-01-10__tgh-h5-03-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -425,14 +435,16 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H5-03: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Trajeto declarado Pampa de los Guanacos → Pinto (interceptação) → San Lorenzo (destino pretendido). Segmento final não foi percorrido."
+      "audit_note": "H5-03: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Trajeto declarado Pampa de los Guanacos → Pinto (interceptação) → San Lorenzo (destino pretendido). Segmento final não foi percorrido.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2020-10-05__tgh-h6-01-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -495,14 +507,16 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H6-01: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Não atribuir motivação comercial à guarda irregular."
+      "audit_note": "H6-01: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Não atribuir motivação comercial à guarda irregular.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2021-01-15__tgh-h6-02-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -565,14 +579,16 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H6-02: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Fonte reproduz nota da Polícia Militar Ambiental; não estabelecer rede nem captura original."
+      "audit_note": "H6-02: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Fonte reproduz nota da Polícia Militar Ambiental; não estabelecer rede nem captura original.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2022-11-28__tgh-h6-03-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -635,14 +651,16 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H6-03: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Apreensão em transporte; NÃO criar linha de rota sem dois pontos do itinerário documentados."
+      "audit_note": "H6-03: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Apreensão em transporte; NÃO criar linha de rota sem dois pontos do itinerário documentados.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2017-06-26__tgh-h6-06-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
       "aggregate_operation": false,
@@ -705,17 +723,19 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H6-06: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Data 26/06/2017 é publicação, não data exata da fiscalização; encaminhamento a Porto Alegre excluído do mapa de tráfico."
+      "audit_note": "H6-06: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Data 26/06/2017 é publicação, não data exata da fiscalização; encaminhamento a Porto Alegre excluído do mapa de tráfico.",
+      "canonical_validated": false,
+      "publication_approved": false
     },
     {
       "id": "2017-07-20__tgh-h6-07-aestiva",
       "legacy_index": null,
       "reconstruction_batch": "TG-H3_H6_Amazona_aestiva_staging_2026-10-22",
-      "status": "VALIDATED",
-      "audit_stage": "EVIDENCE_CHECKED_STAGED_NOT_PUBLISHED_PENDING_FINAL_SEMANTIC_BASE_CHECK",
+      "status": "PENDING_REVIEW",
+      "audit_stage": "SOURCE_REVIEWED_PREPUBLICATION_SEMANTIC_DEDUP_PENDING",
       "do_not_publish": true,
       "source_reconciliation_status": "CANDIDATE_SOURCE_EXAMINED",
-      "aggregate_operation": true,
+      "aggregate_operation": false,
       "exclude_from_totals": false,
       "location_label_pt": "Pirapozinho (SP)",
       "location_label_en": "Pirapozinho (SP)",
@@ -777,7 +797,10 @@
       "image_url": null,
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
-      "audit_note": "H6-07: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Data do fato corrigida de 21/07 para 20/07 conforme outras duas fontes: https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2017/07/21/policia-ambiental-resgata-arara-caninde-com-criador-ilegal-em-sp.amp.htm. 10 aves e 12 répteis no evento."
+      "audit_note": "H6-07: source checked; canonical full-text global dedup and inclusion NOT authorized. No new route inferred. Data do fato corrigida de 21/07 para 20/07 conforme outras duas fontes: https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2017/07/21/policia-ambiental-resgata-arara-caninde-com-criador-ilegal-em-sp.amp.htm. 10 aves e 12 répteis no evento.",
+      "canonical_validated": false,
+      "publication_approved": false
     }
-  ]
+  ],
+  "state": "PREPUBLICATION_QA"
 }
