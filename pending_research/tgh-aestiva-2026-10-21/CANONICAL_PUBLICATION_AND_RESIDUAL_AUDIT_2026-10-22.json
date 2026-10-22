@@ -1,0 +1,146 @@
+{
+  "title": "TG-H3–TG-H6 Amazona aestiva: canonical publication and exclusions",
+  "timestamp": "2026-10-22",
+  "species": "Amazona aestiva",
+  "rounds": [
+    "TG-H3",
+    "TG-H4",
+    "TG-H5",
+    "TG-H6"
+  ],
+  "canonical_repository": "acarvalho-wcs/wildlife-trafficking-data",
+  "canonical_commit": "464087ae1c5a3fc1e6b7f26849d42d5f75792bbd",
+  "publication_status": "PUBLISHED_TO_CANONICAL_GITHUB; dashboard may refresh separately",
+  "case_count_before": 1134,
+  "case_count_after": 1149,
+  "new_routes": 2,
+  "route_ids": [
+    "maria-luisa-rosario-154-aestiva-2021",
+    "pampa-guanacos-pinto-216-aestiva-2021"
+  ],
+  "source_manifest_is_authoritative": true,
+  "source_file_ids": [
+    "H3-01",
+    "H3-03",
+    "H3-04",
+    "H3-08",
+    "H4-01",
+    "H5-01",
+    "H5-02",
+    "H5-03",
+    "H5-05",
+    "H5-09",
+    "H6-01",
+    "H6-02",
+    "H6-03",
+    "H6-06",
+    "H6-07"
+  ],
+  "publication_notes": "H5-01 one 2019 interception conflicting official counts 560/630; quantity_count=null and exclude_from_totals=true. Neuland 211 based on 2013 publication; exact event date unknown.",
+  "disposition": {
+    "published": [
+      "H3-01",
+      "H3-03",
+      "H3-04",
+      "H3-08",
+      "H4-01",
+      "H5-01",
+      "H5-02",
+      "H5-03",
+      "H5-05",
+      "H5-09",
+      "H6-01",
+      "H6-02",
+      "H6-03",
+      "H6-06",
+      "H6-07"
+    ],
+    "duplicated": [
+      {
+        "id": "H3-05",
+        "reason": "Já em cases.json: Poxoréu, dois A. aestiva, 06/10/2026"
+      },
+      {
+        "id": "H3-06",
+        "reason": "Já em cases.json: Franca, três A. aestiva entre quatro aves, 30/09/2026"
+      },
+      {
+        "id": "H3-07",
+        "reason": "Já em cases.json: Votorantim, uma A. aestiva entre vários animais"
+      },
+      {
+        "id": "H3-09",
+        "reason": "Operação Bicho Solto em Niterói já registrada, sem comprovação adicional de A. aestiva"
+      },
+      {
+        "id": "H4-02",
+        "reason": "Castelli Romani 2022 já em TG-H1; fonte OIPA idêntica"
+      }
+    ],
+    "source_pending": [
+      {
+        "id": "H3-02",
+        "reason": "Cinco exemplares relatados entre 41 aves em cativeiro; identificação de quais foram efetivamente apreendidos e fonte primária precisam de confirmação."
+      },
+      {
+        "id": "H4-05",
+        "reason": "Registro retrospectivo em PDF para sete A. aestiva; localidade limitada a Tarapacá; sem município ou ponto de interceptação confirmado."
+      },
+      {
+        "id": "H5-04",
+        "reason": "547 animais documentados, 219 chamados loros habladores; atribuição científica a A. aestiva não comprovada em documentação do evento."
+      },
+      {
+        "id": "H5-06",
+        "reason": "143 loros habladores na Ruta 92 de Campo Gallo; fonte oficial não informa binômio científico e necessita identificação taxonômica adicional."
+      },
+      {
+        "id": "H5-08",
+        "reason": "MADES registra A. aestiva e Cariama cristata em fiscalização distinta do fato hídrico de Potrero de Carapeguá; cidade e quantidade da apreensão de aves desconhecidas."
+      },
+      {
+        "id": "H6-04",
+        "reason": "Quatro aves observadas em Matinhos e duas sem documentação; notícia não confirma apreensão física. Proibir contagem de duas apreendidas sem prova."
+      },
+      {
+        "id": "H6-05",
+        "reason": "Guarda irregular de uma A. aestiva em Traipu mencionada em decisão reproduzida; falta confirmação de apreensão física em fonte judicial primária."
+      },
+      {
+        "id": "H6-10",
+        "reason": "Boletim secundário lista quatro A. aestiva em Regente Feijó entre seis aves, mas a notícia primária não foi recuperada e conferida."
+      }
+    ],
+    "aggregates_unfit_as_single_event": [
+      {
+        "id": "H4-03",
+        "reason": "TRAFFIC 2021 França: 97 aves; sem número específico de A. aestiva nem município confirmado"
+      },
+      {
+        "id": "H4-04",
+        "reason": "Tarapacá 2024: 28 A. aestiva é resumo anual; não é evento único"
+      },
+      {
+        "id": "H5-07",
+        "reason": "Operação em 12 endereços na Argentina: não desagregar artificialmente ou inferir quantidade"
+      },
+      {
+        "id": "H6-08",
+        "reason": "Operação Bocaiúva MS: soma operacional de 180 papagaios + cinco periquitos, não um só evento"
+      },
+      {
+        "id": "H6-09",
+        "reason": "Autos SIFISC/IBAMA em Barra do Garças requerem conciliação sem divulgar dados pessoais"
+      }
+    ]
+  },
+  "counts": {
+    "candidates": 33,
+    "published": 15,
+    "duplicate": 5,
+    "pending": 8,
+    "nonindividual_or_blocked": 5
+  },
+  "validation": "GitHub Actions Build canonical cases feed completed successfully, regenerating canonical manifest with 1149 records. Two solid routes linked to published cases. GitHub Pages deploy may remain pending at save time.",
+  "followup": "Review eight held cases when primary source, taxon, seizure disposition or location becomes independently verifiable; do not auto publish. Retain five aggregate entries for contextual reports only."
+}
