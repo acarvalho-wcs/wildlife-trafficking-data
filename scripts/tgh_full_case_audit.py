@@ -92,6 +92,9 @@ for c in drafts:
     for k in ("aggregate_operation","exclude_from_totals"):
         if type(c.get(k))!=bool:flags.append("INVALID_BOOL_"+k)
     if c.get("status")=="VALIDATED":flags.append("UNSAFE_VALIDATED_STAGING_STATUS")
+    if c.get("status")!="PENDING_REVIEW":flags.append("REQUIRE_PENDING_REVIEW")
+    if c.get("canonical_validated") is not False:flags.append("NOT_EXPLICITLY_UNVALIDATED")
+    if c.get("do_not_publish") is not True:flags.append("MISSING_DO_NOT_PUBLISH_GUARD")
     if c.get("id") in ids:flags.append("COLLIDING_ID")
     q=c.get("quantity_count")
     if type(q)==int and isinstance(c.get("quantity_by_group"),dict):
