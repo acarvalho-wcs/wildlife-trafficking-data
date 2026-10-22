@@ -1,0 +1,39 @@
+name: TG-H Aestiva research-only full-store audit
+on:
+  push:
+    branches:
+      - 'research/tgh-aestiva-h3-h6-2026-10-21'
+    paths:
+      - '.github/workflows/tgh-aestiva-research-audit.yml'
+      - 'scripts/tgh_full_case_audit.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tgh-aestiva-research-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    if: github.ref == 'refs/heads/research/tgh-aestiva-h3-h6-2026-10-21'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout research branch, never main
+        uses: actions/checkout@v4
+        with:
+          ref: research/tgh-aestiva-h3-h6-2026-10-21
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Execute read-only audit
+        run: python scripts/tgh_full_case_audit.py
+      - name: Save audit reports only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pending_research/tgh-aestiva-2026-10-21/FULL_STORE_SEMANTIC_AUDIT.json pending_research/tgh-aestiva-2026-10-21/FULL_STORE_SEMANTIC_AUDIT.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save full-store TG-H research audit results only'
+            git push origin HEAD:research/tgh-aestiva-h3-h6-2026-10-21
+          fi
