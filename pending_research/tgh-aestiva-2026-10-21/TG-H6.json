@@ -1,0 +1,150 @@
+{
+  "round": "TG-H6",
+  "taxon": "Amazona aestiva",
+  "date": "2026-10-21",
+  "scope": "global sem limite temporal",
+  "status": "PESQUISA_BRUTA_SEM_DEDUPLICACAO",
+  "published": false,
+  "focus": "Ocorrencias municipais menores, judicializadas e series de fiscalizacao no Brasil",
+  "search_queries": [
+    "Amazona aestiva apreendidos 2021 Polícia Ambiental",
+    "Amazona aestiva apreende 2020 papagaio Pará Minas",
+    "Amazona aestiva apreensão 2017 PRF papagaios",
+    "Amazona aestiva apreendidos 2019 Mato Grosso do Sul",
+    "Amazona aestiva 2017 Viamão dois papagaios",
+    "Amazona aestiva Pirapozinho 2017 seis",
+    "Amazona aestiva Matinhos 2023 fiscalizacao",
+    "Amazona aestiva Operação Bocaiúva 2019 180",
+    "Amazona aestiva Barra do Garças 2025 termo apreensao"
+  ],
+  "candidate_fields": [
+    "id",
+    "country",
+    "location",
+    "event_date",
+    "publication_date",
+    "aestiva_count",
+    "source_url",
+    "source_type",
+    "notes"
+  ],
+  "candidates": [
+    [
+      "H6-01",
+      "Brasil",
+      "Santa Maria, Distrito Federal",
+      "2020-10-05",
+      "2020-10-06",
+      1,
+      "https://jornaldebrasilia.com.br/brasilia/papagaio-de-40-anos-e-apreendido-em-santa-maria/",
+      "N/PMDF",
+      "Um A. aestiva de aproximadamente 40 anos apreendido de posse sem licenca"
+    ],
+    [
+      "H6-02",
+      "Brasil",
+      "Bataguassu, Mato Grosso do Sul",
+      "2021-01-15",
+      "2021-01-16",
+      1,
+      "https://iviagora.com.br/noticia/10384/policia-militar-ambiental-de-bataguassu-autua-jovem-de-21-anos-em-r-5-mil-por-manter-papagaio-ilegalmente-em-cativeiro",
+      "N/PMA",
+      "Um A. aestiva adulto apreendido de cativeiro ilegal"
+    ],
+    [
+      "H6-03",
+      "Brasil",
+      "Dracena, São Paulo",
+      "2022-11-28",
+      "2022-11-29",
+      2,
+      "https://www.imparcial.com.br/noticias/idoso-e-autuado-por-maus-tratos-e-transporte-ilegal-de-papagaios-verdadeiros%2C55144",
+      "N/PMA",
+      "Dois filhotes transportados dentro do compartimento do estepe"
+    ],
+    [
+      "H6-04",
+      "Brasil",
+      "Matinhos, Paraná",
+      "2023-05-26",
+      "2023-06-04",
+      2,
+      "https://www.correiodolitoral.com/fiscalizacao-encontra-papagaios-sem-registro-em-matinhos/64692",
+      "N/BPAmb",
+      "Quatro A. aestiva observados, dois sem anilhas/documentos: verificar quantos foram efetivamente apreendidos, nao assumir quatro"
+    ],
+    [
+      "H6-05",
+      "Brasil",
+      "Traipu, Alagoas",
+      "2024-04-30",
+      "2026-08-29",
+      1,
+      "https://www.jusbrasil.com.br/jurisprudencia/tj-al/4882813734/inteiro-teor-4884066614",
+      "J/reproducao_judicial",
+      "Um A. aestiva e um papa-capim em guarda sem autorizacao; procurar fonte judicial primaria"
+    ],
+    [
+      "H6-06",
+      "Brasil",
+      "Viamão, Rio Grande do Sul",
+      null,
+      "2017-06-26",
+      2,
+      "https://www.viamao.rs.gov.br/portal/noticias/0/3/3166/apreensao-de-possivel-comercializacao-de-aves-silvestres",
+      "O/Prefeitura",
+      "Dois papagaios-verdadeiros sem anilhas apreendidos em apuracao de comercio"
+    ],
+    [
+      "H6-07",
+      "Brasil",
+      "Pirapozinho, São Paulo",
+      null,
+      "2017-07-21",
+      6,
+      "https://www.imparcial.com.br/noticias/policiais-apreendem-22-animais-em-cativeiro%2C14225",
+      "N/PMA",
+      "Seis A. aestiva entre 22 animais apreendidos em sitio"
+    ],
+    [
+      "H6-08",
+      "Brasil",
+      "Mato Grosso do Sul (varios locais)",
+      null,
+      "2019-12-27",
+      180,
+      "https://www.capitaldopantanal.com.br/geral/2019/12/27/operacao-bocaiuva-contra-o-trafego-de-papagaios-apreende-185-aves.html",
+      "N/PMA_IBAMA",
+      "Total da Operacao Bocaiuva em 2019: 180 A. aestiva e 5 periquitos, agregado de varias ocorrencias, nao publicar como um evento"
+    ],
+    [
+      "H6-09",
+      "Brasil",
+      "Barra do Garças, Mato Grosso",
+      "2025-03-19",
+      null,
+      null,
+      "https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_apreensao/termo_apreensao.html",
+      "O/IBAMA",
+      "Fontes SIFISC contem ao menos tres termos separados de apreensao relativos a A. aestiva; NAO registrar dados pessoais e NAO somar como tres eventos antes de auditar"
+    ],
+    [
+      "H6-10",
+      "Brasil",
+      "Regente Feijó, São Paulo",
+      "2016-07-22",
+      null,
+      4,
+      "https://robindesbois.org/wp-content/uploads/ON_THE_TRAIL_14.pdf",
+      "S/boletim_PDF",
+      "Fonte secundaria informa quatro A. aestiva em domicilio rural; PDF e jornal local original precisam de verificacao"
+    ]
+  ],
+  "review_flags": [
+    "H6-04 observado nao implica integralmente apreendido",
+    "H6-08 agregado operacional com multiplas apreensoes; excluir de totais por evento ate desagregar",
+    "H6-09 dados abertos contem dados pessoais que NAO serao copiados",
+    "H6-10 PDF nao revisado visualmente",
+    "Nao deduplicado com TG-H1/2, cases.json ou entre H3-6"
+  ]
+}
