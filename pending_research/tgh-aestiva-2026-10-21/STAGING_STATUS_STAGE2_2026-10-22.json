@@ -1,0 +1,31 @@
+{
+  "batch": "TG-H3-H6 Amazona aestiva",
+  "state": "PREPUBLICATION_RESEARCH",
+  "total_candidates": 33,
+  "confirmed_duplicates": 5,
+  "stage1_trilingual_drafts": 11,
+  "stage2_trilingual_provisional_cards": 12,
+  "stage2_blocked_individual_event_inclusions": 5,
+  "stage2_blocked_ids": [
+    "H4-03",
+    "H4-04",
+    "H5-07",
+    "H6-08",
+    "H6-09"
+  ],
+  "stage2_cards_file": "pending_research/tgh-aestiva-2026-10-21/CANONICAL_CARDS_STAGE2_PT_EN_ES_PENDING.json",
+  "stage1_cards_file": "pending_research/tgh-aestiva-2026-10-21/CANONICAL_CARDS_STAGED_PT_EN_ES.json",
+  "publication": false,
+  "canonical_changes": false,
+  "unfinished_checks": [
+    "Semantic comparisons across full canonical case contents, rather than filenames and indexed matches alone",
+    "Source-by-source verification of 12 provisional entries and regional geocoding",
+    "Resolve San Nicolás 560/630 discrepancy",
+    "Taxonomic confirmation for Susana and Campo Gallo",
+    "Physical seizure confirmation for Américo de Campos, Matinhos and Traipu",
+    "Document original and locality for Tarapacá seven birds",
+    "PDF document verification and original sources for Regente Feijó",
+    "Review route geometries only if endpoints documented"
+  ],
+  "important": "Stage2 files include provisional entries that must NEVER be merged directly as VALIDATED without review. Unresolved records use null quantities/geocoordinates and block flags."
+}
