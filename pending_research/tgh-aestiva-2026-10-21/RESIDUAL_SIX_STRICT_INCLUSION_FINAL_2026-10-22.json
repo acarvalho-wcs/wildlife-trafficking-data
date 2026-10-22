@@ -1,0 +1,52 @@
+{
+  "title": "TG-H3–TG-H6 — decisão final de inclusão apenas de evidências inequívocas",
+  "date": "2026-10-22",
+  "repository": "acarvalho-wcs/wildlife-trafficking-data",
+  "publication_commit": "fbe29a6f5006d16b78cc8131a50860ea1567e1f4",
+  "before_count": 1151,
+  "after_count": 1153,
+  "added": [
+    {
+      "lead_id": "H6-10",
+      "path": "cases/2016/07/2016-07-22__tgh-h6-10-aestiva.json",
+      "event": "Regente Feijó, São Paulo, 22/07/2016",
+      "count": 6,
+      "aestiva_count": 4,
+      "source": "Robin des Bois On the Trail No.14 p.28",
+      "evidence_class": "specialist_secondary_incident_report",
+      "limitations": "Original police source not recovered; specialist bulletin directly identifies date, locality, taxa and quantities. No additional corroboration independently asserted."
+    },
+    {
+      "lead_id": "H5-04",
+      "path": "cases/2026/02/2026-02-11__susana-santa-fe-550-wild-animals.json",
+      "event": "Susana, Santa Fe, 11/02/2026",
+      "count": 550,
+      "aestiva_count": null,
+      "source": "Poder Judicial de la Nación, Rafaela, 22/04/2026",
+      "evidence_class": "federal_judicial_record",
+      "limitations": "219 loros habladores not identified to scientific taxon; DO NOT count as Amazona aestiva. Preliminary reporting 547 replaced by 550 in court count. Postseizure 161 deaths not additional animals. Suspected actors not convicted by seizure record."
+    }
+  ],
+  "excluded": [
+    {
+      "lead_id": "H4-05",
+      "reason": "Chile Tarapacá: seven aestiva retrospectively reported but locality only regional and original seizure report not verified; no invented municipality or pinpoint."
+    },
+    {
+      "lead_id": "H5-08",
+      "reason": "Paraguarí Paraguay: MADES confirms wildlife seizure but only department and no counts; Potrero de Carapeguá refers to separate watercourse investigation; avoid false point."
+    },
+    {
+      "lead_id": "H6-04",
+      "reason": "Matinhos: four birds found, two undocumented; physical confiscation not documented; do not add to seizure totals."
+    },
+    {
+      "lead_id": "H6-05",
+      "reason": "Traipu: decision recorded summary acquittal; no proven confiscation or illegal trade, not suitable as documented trafficking seizure."
+    }
+  ],
+  "route_additions": 0,
+  "reason_routes_not_created": "No reliable pair of wildlife-shipment locations; commercial goods' planned Germany destination does not establish wildlife route; veterinary transfers or mere regional provenance are not trafficking segments.",
+  "deduplication": "Checked main 1151-case manifest/tree for conflicts and prior complete semantic audit, no matching events identified for H6-10 and H5-04.",
+  "status": "CANONICAL_FILES_COMMITTED; MANIFEST_CONFIRMED_1153; GITHUB_PAGES_DEPLOY_VERIFY_SEPARATELY"
+}
