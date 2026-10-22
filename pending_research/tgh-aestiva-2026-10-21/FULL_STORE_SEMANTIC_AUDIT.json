@@ -1,0 +1,545 @@
+{
+  "title": "Full 1134-record semantic audit: Amazona aestiva TG-H3-H6",
+  "run_utc": "2026-10-22T11:25:33.647384+00:00",
+  "canonical_records_read": 1134,
+  "canonical_unique_ids": true,
+  "source_manifest_sha256": "614bf0da8a85a45d345fe3f80f11ffa7630aa2bcc5b77fa8195bb3a7a242b5c6",
+  "draft_count": 23,
+  "result_counts": {
+    "EXACT_SOURCE_DUPLICATE": 0,
+    "POTENTIAL_SEMANTIC_DUPLICATE": 0,
+    "NO_STRONG_MATCH_IN_FULL_STORE": 23
+  },
+  "method": "All individual canonical JSON bodies compared, exact source URL, date, generalized location, geographic distance, quantities and card similarity.",
+  "limits": "Possible matches require human review. No match does not establish publication eligibility or corroborate source validity.",
+  "structural_issues": [
+    {
+      "lead_id": "H3-01",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H3-02",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H4-05",
+      "issues": [
+        "MISSING_id",
+        "INVALID_COORDINATES"
+      ]
+    },
+    {
+      "lead_id": "H5-01",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H5-04",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H5-05",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H5-06",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H5-08",
+      "issues": [
+        "MISSING_id",
+        "INVALID_COORDINATES"
+      ]
+    },
+    {
+      "lead_id": "H5-09",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H6-04",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H6-05",
+      "issues": [
+        "MISSING_id"
+      ]
+    },
+    {
+      "lead_id": "H6-10",
+      "issues": [
+        "MISSING_id"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "lead_id": "H3-03",
+      "staging_id": "2025-09-09__tgh-h3-03-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "hyacinth-2025-09-10-presidente-franco-juvenile-social-media__batch-20261004b",
+          "path": "cases/2025/09/hyacinth-2025-09-10-presidente-franco-juvenile-social-media__batch-20261004b.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 1256.0,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H3-04",
+      "staging_id": "2026-09-30__tgh-h3-04-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2026-10__rodeo-del-medio-eight-wild-birds",
+          "path": "cases/2026/10/2026-10__rodeo-del-medio-eight-wild-birds.json",
+          "score": 43,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 1932.5,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-09-30__operacao-iurara-araguaia-turtles",
+          "path": "cases/2026/09/2026-09-30__operacao-iurara-araguaia-turtles.json",
+          "score": 39,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 1129.2,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-10-01__operacao-tarantulas-ii-brazil",
+          "path": "cases/2026/10/2026-10-01__operacao-tarantulas-ii-brazil.json",
+          "score": 39,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 1852.5,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-09-29__mangaratiba-four-wild-birds",
+          "path": "cases/2026/09/2026-09-29__mangaratiba-four-wild-birds.json",
+          "score": 39,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 862.2,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-10-02__guarulhos-34-wild-bird-eggs-vietnam",
+          "path": "cases/2026/10/2026-10-02__guarulhos-34-wild-bird-eggs-vietnam.json",
+          "score": 39,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 613.5,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H3-08",
+      "staging_id": "2026-09-09__tgh-h3-08-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2026-09-10__vila-de-cava-nova-iguacu-rj",
+          "path": "cases/2026/09/2026-09-10__vila-de-cava-nova-iguacu-rj.json",
+          "score": 61,
+          "evidence": [
+            "same_day",
+            "same_locality"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 782.7,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-09-07__jeypore-odisha",
+          "path": "cases/2026/09/2026-09-07__jeypore-odisha.json",
+          "score": 43,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 15185.2,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-09-05__sidhi-madhya-pradesh",
+          "path": "cases/2026/09/2026-09-05__sidhi-madhya-pradesh.json",
+          "score": 43,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 15217.5,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-09-09__teofilo-otoni-mg",
+          "path": "cases/2026/09/2026-09-09__teofilo-otoni-mg.json",
+          "score": 39,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 1096.2,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-09-10__votorantim-sp",
+          "path": "cases/2026/09/2026-09-10__votorantim-sp.json",
+          "score": 39,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 406.4,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H4-01",
+      "staging_id": "2019-03-28__tgh-h4-01-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H5-02",
+      "staging_id": "2021-12-07__tgh-h5-02-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H5-03",
+      "staging_id": "2021-01-10__tgh-h5-03-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H6-01",
+      "staging_id": "2020-10-05__tgh-h6-01-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2026-09-25__recanto-das-emas-five-canaries",
+          "path": "cases/2026/09/2026-09-25__recanto-das-emas-five-canaries.json",
+          "score": 50,
+          "evidence": [
+            "nearby_35km",
+            "same_locality"
+          ],
+          "date_delta_days": 2180,
+          "distance_km": 13.5,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-10-12__planaltina-df-27-birds-ten-premises",
+          "path": "cases/2026/10/2026-10-12__planaltina-df-27-birds-ten-premises.json",
+          "score": 38,
+          "evidence": [
+            "same_locality"
+          ],
+          "date_delta_days": 2197,
+          "distance_km": 58.0,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-10-20__brazlandia-six-wild-birds-two-homes",
+          "path": "cases/2026/10/2026-10-20__brazlandia-six-wild-birds-two-homes.json",
+          "score": 38,
+          "evidence": [
+            "same_locality"
+          ],
+          "date_delta_days": 2205,
+          "distance_km": 41.9,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H6-02",
+      "staging_id": "2021-01-15__tgh-h6-02-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2017-09-15__bataguassu-175-parrots",
+          "path": "cases/2017/09/2017-09-15__bataguassu-175-parrots.json",
+          "score": 58,
+          "evidence": [
+            "nearby_8km",
+            "same_locality"
+          ],
+          "date_delta_days": 1215,
+          "distance_km": 0.2,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H6-03",
+      "staging_id": "2022-11-28__tgh-h6-03-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2022-11-28__ghoshpukur-two-golden-headed-lion-tamarins",
+          "path": "cases/2022/11/2022-11-28__ghoshpukur-two-golden-headed-lion-tamarins.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 15910.8,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2022-11-27__bangkok-chennai-pygmy-marmosets-dusky-leaf-monkeys",
+          "path": "cases/2022/11/2022-11-27__bangkok-chennai-pygmy-marmosets-dusky-leaf-monkeys.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 14820.0,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H6-06",
+      "staging_id": "2017-06-26__tgh-h6-06-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H6-07",
+      "staging_id": "2017-07-20__tgh-h6-07-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H3-01",
+      "staging_id": "2024-05-17__tgh-h3-01-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2026-09-25__recanto-das-emas-five-canaries",
+          "path": "cases/2026/09/2026-09-25__recanto-das-emas-five-canaries.json",
+          "score": 63,
+          "evidence": [
+            "nearby_8km",
+            "same_locality"
+          ],
+          "date_delta_days": 860,
+          "distance_km": 4.6,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H3-02",
+      "staging_id": "2024-06-14__tgh-h3-02-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2024-06-unknown__araraquara-82-wild-birds",
+          "path": "cases/2024/06/2024-06-unknown__araraquara-82-wild-birds.json",
+          "score": 39,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 230.9,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H4-05",
+      "staging_id": "2022-01-15__tgh-h4-05-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2025-10-08__sao-paulo-algae-1-aestiva-capuchin",
+          "path": "cases/2025/10/2025-10-08__sao-paulo-algae-1-aestiva-capuchin.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": null,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H5-01",
+      "staging_id": "2019-01-20__tgh-h5-01-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H5-04",
+      "staging_id": "2026-02-11__tgh-h5-04-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2026-02-06__vitoria-da-conquista-ba-43-birds",
+          "path": "cases/2026/02/2026-02-06__vitoria-da-conquista-ba-43-birds.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 2788.8,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-02-11__bangkok-chennai-31-exotic-reptiles",
+          "path": "cases/2026/02/2026-02-11__bangkok-chennai-31-exotic-reptiles.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 15606.1,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H5-05",
+      "staging_id": "2017-01-04__tgh-h5-05-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H5-06",
+      "staging_id": "2023-12-23__tgh-h5-06-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H5-08",
+      "staging_id": "2020-12-16__tgh-h5-08-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H5-09",
+      "staging_id": "2013-01-02__tgh-h5-09-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    },
+    {
+      "lead_id": "H6-04",
+      "staging_id": "2023-05-25__tgh-h6-04-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2023-03-23__miami-29-parrot-eggs-nicaragua-taiwan",
+          "path": "cases/2023/03/2023-03-23__miami-29-parrot-eggs-nicaragua-taiwan.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 6670.2,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H6-05",
+      "staging_id": "2024-04-30__tgh-h6-05-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": [
+        {
+          "canonical_id": "2026-08-29__porto-de-jamrud-surabaya",
+          "path": "cases/2026/08/2026-08-29__porto-de-jamrud-surabaya.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 16156.4,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-08-29__tamaulipas",
+          "path": "cases/2026/08/2026-08-29__tamaulipas.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 7711.5,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2026-08-29__khndzorut-six-quails-over-quota",
+          "path": "cases/2026/08/2026-08-29__khndzorut-six-quails-over-quota.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 10070.5,
+          "same_source": false
+        },
+        {
+          "canonical_id": "2024-04-29__trinidad-nine-jaguar-teeth",
+          "path": "cases/2024/04/2024-04-29__trinidad-nine-jaguar-teeth.json",
+          "score": 36,
+          "evidence": [
+            "same_day"
+          ],
+          "date_delta_days": 0,
+          "distance_km": 3075.4,
+          "same_source": false
+        }
+      ]
+    },
+    {
+      "lead_id": "H6-10",
+      "staging_id": "2016-07-22__tgh-h6-10-aestiva",
+      "status": "NO_STRONG_MATCH_IN_FULL_STORE",
+      "top_matches": []
+    }
+  ],
+  "publication": false
+}
