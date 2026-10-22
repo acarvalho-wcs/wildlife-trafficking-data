@@ -1,0 +1,137 @@
+{
+  "round": "TG-H5",
+  "taxon": "Amazona aestiva",
+  "date": "2026-10-21",
+  "scope": "global sem periodo",
+  "status": "PESQUISA_BRUTA_SEM_DEDUPLICACAO",
+  "published": false,
+  "focus": "Apreensoes historicas e operacoes de maior magnitude na Argentina e Paraguai",
+  "search_queries": [
+    "Amazona aestiva gendarmería argentina.gob.ar/noticias",
+    "Amazona aestiva 2017 San Cosme 85",
+    "Amazona aestiva Campo Gallo 143 diciembre 2023",
+    "Amazona aestiva Paraguay Neuland 211",
+    "Amazona aestiva decomiso Carapegua Paraguay",
+    "Amazona aestiva loros habladores 219 ruta 34 Santa Fe",
+    "Amazona aestiva 2024 red tráfico Brigada Control Ambiental Argentina"
+  ],
+  "candidate_fields": [
+    "id",
+    "country",
+    "location",
+    "event_date",
+    "publication_date",
+    "aestiva_count",
+    "source_url",
+    "source_type",
+    "notes"
+  ],
+  "candidates": [
+    [
+      "H5-01",
+      "Argentina",
+      "San Nicolás, Buenos Aires",
+      "2019-01-20",
+      "2019-01-21",
+      630,
+      "https://www.argentina.gob.ar/noticias/rescatan-630-aves-trasladadas-en-un-camion",
+      "O/Gendarmeria",
+      "Caminhao com 630 A. aestiva, Santiago del Estero a Buenos Aires; outra fonte oficial https://www.argentina.gob.ar/noticias/trafico-de-fauna-ambiente-incauto-mas-de-500-aves-de-un-camion-en-la-rn-9 informa 560; verificar se mesmo episodio e reconciliar quantidades"
+    ],
+    [
+      "H5-02",
+      "Argentina",
+      "María Luisa, Santa Fe",
+      "2021-12-07",
+      "2021-12-08",
+      154,
+      "https://www.argentina.gob.ar/node/291856",
+      "O/Gendarmeria",
+      "154 A. aestiva ocultos em caixas, veiculo seguia em direcao a Rosario; nao inferir origem"
+    ],
+    [
+      "H5-03",
+      "Argentina",
+      "Pinto, Santiago del Estero",
+      "2021-01-10",
+      "2021-01-12",
+      216,
+      "https://tn.com.ar/policiales/2021/01/12/traficantes-llevaban-mas-de-200-loros-en-el-baul-de-un-auto-en-santiago-del-estero/",
+      "N/Gendarmeria",
+      "216 A. aestiva no porta-malas; itinerario Pampa de los Guanacos -> Pinto -> San Lorenzo, Santa Fe, documentado nas reportagens"
+    ],
+    [
+      "H5-04",
+      "Argentina",
+      "Susana, Santa Fe; Ruta 34",
+      null,
+      "2026-02-17",
+      219,
+      "https://www.airedesantafe.com.ar/santa-fe/santa-fe-recibio-mas-500-animales-silvestres-decomisados-un-control-ruta-nacional-34-n646899",
+      "N/Governo_SantaFe",
+      "219 loros habladores no caminhao procedente de Santiago del Estero para Buenos Aires; necessario confirmar binomio em fonte original; total outros taxa nao somar"
+    ],
+    [
+      "H5-05",
+      "Argentina",
+      "San Cosme, Corrientes",
+      null,
+      "2017-01-05",
+      85,
+      "https://www.ellitoral.com.ar/corrientes/2017-1-5-1-0-0-ruta-12-interceptan-vehiculo-con-loros-habladores-y-evitan-trafico-ilegal-de-aves",
+      "N/Gendarmeria",
+      "85 A. aestiva em caixas no porta-malas, RN12; confirmacao secundaria https://www.corrienteshoy.com/policiales/san-cosme-incautan-loros-que-eran-transportados-en-el-baul-de-un-coche.htm"
+    ],
+    [
+      "H5-06",
+      "Argentina",
+      "Campo Gallo, Santiago del Estero",
+      "2023-12-23",
+      "2023-12-23",
+      143,
+      "https://sde.gob.ar/2023/12/23/un-operativo-de-control-vehicular-en-campo-gallo-permitio-rescatar-143-loros-habladores/",
+      "O/Governo_Provincial",
+      "143 loros habladores em veiculo vindo do Chaco, interceptado Ruta 92; confirmar binomio na fonte primaria"
+    ],
+    [
+      "H5-07",
+      "Argentina",
+      "Buenos Aires e Santa Fe, operacao multi-enderecos",
+      "2024-05-21",
+      "2024-05-24",
+      null,
+      "https://www.argentina.gob.ar/noticias/la-brigada-de-control-ambiental-desarticulo-una-red-de-trafico-de-fauna-que-operaba-en",
+      "O/Ambiente",
+      "Doze diligencias contra rede e apreensoes multiespecies incluindo A. aestiva; quantidade da especie desconhecida; operacao agregada, nao inventar pontos ou somar"
+    ],
+    [
+      "H5-08",
+      "Paraguai",
+      "Potrero de Carapeguá, Paraguarí",
+      null,
+      "2020-12-16",
+      null,
+      "https://www.mades.gov.py/2020/12/16/alteraron-el-curso-de-una-naciente-en-carapegua/",
+      "O/MADES",
+      "Fiscalizacao de comercializacao ilegal de Cariama cristata e A. aestiva, sem quantidades informadas"
+    ],
+    [
+      "H5-09",
+      "Paraguai",
+      "Neuland, Chaco Boreal",
+      null,
+      "2015-11-14",
+      211,
+      "https://www.noroeste.com.mx/internacional/aseguran-cargamento-de-loros-en-paraguay-HANO769691",
+      "N/AP_republicada",
+      "211 filhotes A. aestiva apreendidos em caminhao no Chaco perto de fronteira boliviana; checar data original da agencia: a republicacao pode nao coincidir com o ano da apreensao"
+    ]
+  ],
+  "review_flags": [
+    "Conflito 630 vs 560: NAO somar como casos separados sem conciliacao",
+    "H5-04 e H5-06 dependem confirmacao taxonomica a partir do nome comum",
+    "H5-07 operacao agregada e sem quantitativo",
+    "Nao criar rotas novas sem validacao das declaracoes exatas",
+    "Nenhuma deduplicacao com TG-H1/2 ou cases.json realizada"
+  ]
+}
