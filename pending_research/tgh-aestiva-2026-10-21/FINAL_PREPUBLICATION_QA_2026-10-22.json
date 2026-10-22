@@ -1,0 +1,105 @@
+{
+  "title": "TG-H3-H6 A. aestiva — final prepublication evidence gate",
+  "created_date": "2026-10-22",
+  "species": "Amazona aestiva",
+  "target": "deduplicate, qualify evidence and stage cases without publication",
+  "sample_size": 33,
+  "source_canonical_case_count": 1134,
+  "classification": {
+    "drafts_with_no_major_specific_blocker_but_not_final_approved": [
+      "H3-01",
+      "H3-03",
+      "H3-04",
+      "H3-08",
+      "H4-01",
+      "H5-02",
+      "H5-03",
+      "H5-05",
+      "H5-09",
+      "H6-01",
+      "H6-02",
+      "H6-03",
+      "H6-06",
+      "H6-07"
+    ],
+    "additional_source_or_count_resolution_required": [
+      "H3-02",
+      "H4-05",
+      "H5-01",
+      "H5-04",
+      "H5-06",
+      "H5-08",
+      "H6-04",
+      "H6-05",
+      "H6-10"
+    ],
+    "duplicates_confirmed": [
+      "H3-05",
+      "H3-06",
+      "H3-07",
+      "H3-09",
+      "H4-02"
+    ],
+    "blocked_aggregate_or_unresolved": [
+      "H4-03",
+      "H4-04",
+      "H5-07",
+      "H6-08",
+      "H6-09"
+    ]
+  },
+  "counts": {
+    "prepared_drafts": 23,
+    "source_based_candidates_for_final_validation": 14,
+    "flagged_drafts": 9,
+    "duplicates": 5,
+    "excluded_or_blocked": 5
+  },
+  "critical_fixes": [
+    "All eleven stage1 records corrected from VALIDATED to PENDING_REVIEW; no staged file may be directly imported into the canonical store.",
+    "Stage1 three multi-taxon records corrected aggregate_operation=false: mixed species in one discrete seizure does not imply aggregate across events.",
+    "Franca, Poxoréu, Votorantim, Niterói and Castelli Romani duplicate already-published events; no new records.",
+    "2019 San Nicolás: 630 versus 560 official counts refer to the same interception; quantity_count=null until reconciliation.",
+    "2013 Paraguay Neuland 211 chicks: republication dated 2015 must not create a 2015 event.",
+    "Susana 547 total animals including 219 birds called loros habladores: species-specific A. aestiva determination remains unproven.",
+    "Campo Gallo 143 'loros habladores' from official release: taxon assignment remains conditional.",
+    "Matinhos and Traipu: caged/held without documents does not demonstrate physical seizure; no asserted seized animal total.",
+    "H3-02 Americo de Campos: five specimens reported among 41 captive birds, do not count all as confiscated without confirmation.",
+    "An annual aggregate of 28 birds in Tarapacá and Operation Bocaiúva aggregate 180 A. aestiva are not unique event records.",
+    "MADES Paraguarí: watercourse inspection at Potrero is separate from bird seizure; do not assign that locality to birds."
+  ],
+  "route_audit": {
+    "status": "DRAFT_ONLY",
+    "candidates": [
+      {
+        "lead_id": "H5-02",
+        "observed": "Maria Luisa interception",
+        "intended_destination": "Rosario",
+        "origin": "UNKNOWN",
+        "route_type": "attributed_planned_partial",
+        "precision": "municipality-level",
+        "render": "Do not publish route until audited coordinates and case-link verified"
+      },
+      {
+        "lead_id": "H5-03",
+        "attributed_origin": "Pampa de los Guanacos",
+        "observed": "Pinto interception",
+        "intended_destination": "San Lorenzo",
+        "route_type": "declared itinerary with uncompleted final leg",
+        "precision": "municipality-level",
+        "render": "Do not present intended leg as completed"
+      }
+    ],
+    "excluded": "All transfers to wildlife-care centers are not criminal routes. Do not infer capture origins."
+  },
+  "qa_exceptions": [
+    "Full-body comparison of all 1134 canonical JSONs has not been executed; initial dedup searched IDs, paths, and directed matching content. Unmatched candidates not certified novel.",
+    "Staging coordinate estimates and media URL were not individually checked for 23 cases.",
+    "External source availability and asserted facts should be checked one-by-one before final status VALIDATED.",
+    "Schema validation of the staged JSON has not been run against local case_store.py. The staging object intentionally differs from the publishable case shape."
+  ],
+  "approval": "NONE",
+  "publication": false,
+  "changed_main": false,
+  "release_gate": "Perform complete event-level semantic comparison and source-by-source validation, harmonize map coordinates, confirm all uncertainty handling, then produce independent canonical JSON records. Explicitly not published."
+}
