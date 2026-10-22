@@ -1,0 +1,112 @@
+{
+  "round": "TG-H4",
+  "taxon": "Amazona aestiva",
+  "date": "2026-10-21",
+  "scope": "global sem periodo",
+  "status": "PESQUISA_BRUTA_SEM_DEDUPLICACAO",
+  "published": false,
+  "focus": "Apreensoes extraterritoriais, reportagens e registros CITES",
+  "search_queries": [
+    "Amazona aestiva seized customs Germany Netherlands UK USA Spain Italy",
+    "Amazona aestiva sequestro pappagalli CITES",
+    "Amazona aestiva saisie perroquets France",
+    "Amazona aestiva incautacion Chile SAG Aduanas",
+    "Amazona aestiva confiscated South Africa India Thailand",
+    "Amazona aestiva seized Australia New Zealand",
+    "Amazona aestiva 押収 密輸 オウム",
+    "Amazona aestiva ถูกยึด นกแก้ว trafficking Thailand",
+    "Amazona aestiva confiscated Costa Rica Panama Mexico"
+  ],
+  "candidate_fields": [
+    "id",
+    "country",
+    "location",
+    "event_date",
+    "publication_date",
+    "aestiva_count",
+    "source_url",
+    "source_type",
+    "notes"
+  ],
+  "candidates": [
+    [
+      "H4-01",
+      "Espanha",
+      "Alcantarilla, Murcia",
+      null,
+      "2019-03-28",
+      1,
+      "https://www.europapress.es/murcia/noticia-recuperan-antes-ser-vendidas-pareja-tortugas-moras-loro-cara-azul-ejemplares-protegidos-20190328133943.html",
+      "N/EuropaPress",
+      "Um A. aestiva apreendido antes da venda, junto a duas tartarugas"
+    ],
+    [
+      "H4-02",
+      "Italia",
+      "Castelli Romani, Lazio",
+      null,
+      "2022-04-29",
+      1,
+      "https://www.oipa.org/italia/tre-pappagalli-sequestrati-in-un-negozio-dalle-guardie-zoofile-delloipa-di-roma/",
+      "I/OIPA",
+      "Um A. aestiva entre tres psitacideos; fonte de TG-H1, provável duplicado (nao deduplicar agora)"
+    ],
+    [
+      "H4-03",
+      "França",
+      "Localizacao nao divulgada",
+      null,
+      null,
+      null,
+      "https://www.traffic.org/site/assets/files/21923/eu_wildlife_seizures_2021-final_1.pdf",
+      "S/TRAFFIC_PDF",
+      "Resumo menciona 97 psitacideos apreendidos em jan/2021 incluindo A. aestiva; nao se conhece quantidade da especie; PDF nao foi inspecionado visualmente"
+    ],
+    [
+      "H4-04",
+      "Chile",
+      "Tarapacá",
+      null,
+      "2025-01-23",
+      28,
+      "https://www.litoralpress.cl/SimbiuPDF/2025/01/23/5657574.pdf",
+      "N/PDF",
+      "Somatorio anual de 28 A. aestiva apreendidos em 2024 pelo SAG; agregado, nao evento unico; PDF pendente de inspecao"
+    ],
+    [
+      "H4-05",
+      "Chile",
+      "Tarapacá",
+      "2022-01-15",
+      null,
+      7,
+      "https://puranoticia.pnt.cl/cms/site/docs/20251008/20251008201214/edicion_459_digital_puranoticia_miercoles_08_de_octubre_de_2025.pdf",
+      "N/PDF",
+      "Tabela retrospectiva aponta sete A. aestiva apreendidos pela Aduana; confrontar com dados primarios e visualizar PDF"
+    ]
+  ],
+  "false_positives": [
+    {
+      "url": "https://www.gob.mx/profepa/prensa/asegura-profepa-dos-psitacidos-en-inmueble-en-la-alcaldia-de-coyoacan-en-la-cdmx",
+      "reason": "Mexico Coyoacan 2018: A. aestiva presente no local, mas exemplares apreendidos preventivamente eram A. autumnalis. Nao incluir A. aestiva como apreensao."
+    },
+    {
+      "url": "https://www.mdpi.com/2306-7381/13/3/306",
+      "reason": "Um A. aestiva listado entre individuos confiscados de 2021 a 2024 em centro de recuperacao; nao ha evento individual suficientemente identificado."
+    }
+  ],
+  "coverage_notes": {
+    "America do Norte": "Mexico falsa correspondencia; sem novos casos individualizados",
+    "America Central e Caribe": "sem novo caso especifico confirmado",
+    "America do Sul": "Chile: registros secundarios a verificar",
+    "Europa": "Espanha/Italia eventos individuais; Franca registro sumario a verificar",
+    "Africa": "sem resultado elegivel especifico",
+    "Asia": "sem resultado elegivel especifico",
+    "Oceania": "sem resultado elegivel especifico"
+  },
+  "caveats": [
+    "Fontes em PDF nao foram analisadas visualmente e nao sao eventos validados.",
+    "Agregados nao entram como apreensoes individuais.",
+    "Sem publicar e sem deduplicar."
+  ]
+}
