@@ -17,17 +17,17 @@
 | H6-03 | NO_STRONG_MATCH_IN_FULL_STORE | 2022-11-28__ghoshpukur-two-golden-headed-lion-tamarins | 36 | nenhuma |
 | H6-06 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | nenhuma |
 | H6-07 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | nenhuma |
-| H3-01 | NO_STRONG_MATCH_IN_FULL_STORE | 2026-09-25__recanto-das-emas-five-canaries | 63 | MISSING_id |
-| H3-02 | NO_STRONG_MATCH_IN_FULL_STORE | 2024-06-unknown__araraquara-82-wild-birds | 39 | MISSING_id |
-| H4-05 | NO_STRONG_MATCH_IN_FULL_STORE | 2025-10-08__sao-paulo-algae-1-aestiva-capuchin | 36 | MISSING_id, INVALID_COORDINATES |
-| H5-01 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | MISSING_id |
-| H5-04 | NO_STRONG_MATCH_IN_FULL_STORE | 2026-02-06__vitoria-da-conquista-ba-43-birds | 36 | MISSING_id |
-| H5-05 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | MISSING_id |
-| H5-06 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | MISSING_id |
-| H5-08 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | MISSING_id, INVALID_COORDINATES |
-| H5-09 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | MISSING_id |
-| H6-04 | NO_STRONG_MATCH_IN_FULL_STORE | 2023-03-23__miami-29-parrot-eggs-nicaragua-taiwan | 36 | MISSING_id |
-| H6-05 | NO_STRONG_MATCH_IN_FULL_STORE | 2026-08-29__porto-de-jamrud-surabaya | 36 | MISSING_id |
-| H6-10 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | MISSING_id |
+| H3-01 | NO_STRONG_MATCH_IN_FULL_STORE | 2026-09-25__recanto-das-emas-five-canaries | 63 | nenhuma |
+| H3-02 | NO_STRONG_MATCH_IN_FULL_STORE | 2024-06-unknown__araraquara-82-wild-birds | 39 | nenhuma |
+| H4-05 | NO_STRONG_MATCH_IN_FULL_STORE | 2025-10-08__sao-paulo-algae-1-aestiva-capuchin | 36 | INVALID_COORDINATES |
+| H5-01 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | nenhuma |
+| H5-04 | NO_STRONG_MATCH_IN_FULL_STORE | 2026-02-06__vitoria-da-conquista-ba-43-birds | 36 | nenhuma |
+| H5-05 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | nenhuma |
+| H5-06 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | nenhuma |
+| H5-08 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | INVALID_COORDINATES |
+| H5-09 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | nenhuma |
+| H6-04 | NO_STRONG_MATCH_IN_FULL_STORE | 2023-03-23__miami-29-parrot-eggs-nicaragua-taiwan | 36 | nenhuma |
+| H6-05 | NO_STRONG_MATCH_IN_FULL_STORE | 2026-08-29__porto-de-jamrud-surabaya | 36 | nenhuma |
+| H6-10 | NO_STRONG_MATCH_IN_FULL_STORE | — | 0 | nenhuma |
 
 **Não publicar automaticamente.** A comparação é semântica e abrangente da base canônica, mas não equivale à auditoria de todas as fontes primárias e georreferenciamentos.

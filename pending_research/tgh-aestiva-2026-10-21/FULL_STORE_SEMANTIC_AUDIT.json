@@ -1,6 +1,6 @@
 {
   "title": "Full 1134-record semantic audit: Amazona aestiva TG-H3-H6",
-  "run_utc": "2026-10-22T11:25:33.647384+00:00",
+  "run_utc": "2026-10-22T12:03:13.813153+00:00",
   "canonical_records_read": 1134,
   "canonical_unique_ids": true,
   "source_manifest_sha256": "614bf0da8a85a45d345fe3f80f11ffa7630aa2bcc5b77fa8195bb3a7a242b5c6",
@@ -14,77 +14,15 @@
   "limits": "Possible matches require human review. No match does not establish publication eligibility or corroborate source validity.",
   "structural_issues": [
     {
-      "lead_id": "H3-01",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
-      "lead_id": "H3-02",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
       "lead_id": "H4-05",
       "issues": [
-        "MISSING_id",
         "INVALID_COORDINATES"
-      ]
-    },
-    {
-      "lead_id": "H5-01",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
-      "lead_id": "H5-04",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
-      "lead_id": "H5-05",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
-      "lead_id": "H5-06",
-      "issues": [
-        "MISSING_id"
       ]
     },
     {
       "lead_id": "H5-08",
       "issues": [
-        "MISSING_id",
         "INVALID_COORDINATES"
-      ]
-    },
-    {
-      "lead_id": "H5-09",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
-      "lead_id": "H6-04",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
-      "lead_id": "H6-05",
-      "issues": [
-        "MISSING_id"
-      ]
-    },
-    {
-      "lead_id": "H6-10",
-      "issues": [
-        "MISSING_id"
       ]
     }
   ],
