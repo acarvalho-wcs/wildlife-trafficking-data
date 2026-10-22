@@ -1,0 +1,71 @@
+{
+  "batch": "TG-H3_to_TG-H6_Amazona_aestiva",
+  "stage": "CANONICAL_DRAFTS_PREPUBLICATION",
+  "date": "2026-10-22",
+  "source_leads": 33,
+  "confirmed_duplicates": [
+    "H3-05",
+    "H3-06",
+    "H3-07",
+    "H3-09",
+    "H4-02"
+  ],
+  "trilingual_drafts": [
+    "H3-03",
+    "H3-04",
+    "H3-08",
+    "H4-01",
+    "H5-02",
+    "H5-03",
+    "H6-01",
+    "H6-02",
+    "H6-03",
+    "H6-06",
+    "H6-07"
+  ],
+  "draft_file": "pending_research/tgh-aestiva-2026-10-21/CANONICAL_CARDS_STAGED_PT_EN_ES.json",
+  "remaining_review": [
+    "H3-01",
+    "H3-02",
+    "H4-03",
+    "H4-04",
+    "H4-05",
+    "H5-01",
+    "H5-04",
+    "H5-05",
+    "H5-06",
+    "H5-07",
+    "H5-08",
+    "H5-09",
+    "H6-04",
+    "H6-05",
+    "H6-08",
+    "H6-09",
+    "H6-10"
+  ],
+  "route_candidates": [
+    {
+      "lead_id": "H5-02",
+      "route": "María Luisa → Rosario",
+      "class": "documented_intended_destination_only",
+      "status": "NOT_STAGED_PENDING_ENDPOINT_AND_SOURCE_FINAL_REVIEW"
+    },
+    {
+      "lead_id": "H5-03",
+      "route": "Pampa de los Guanacos → Pinto → San Lorenzo",
+      "class": "declared_travel_route_intended_final_destination",
+      "status": "NOT_STAGED_PENDING_ENDPOINT_AND_SOURCE_FINAL_REVIEW"
+    }
+  ],
+  "no_routes_reason": "No confirmed route JSON staged without independent endpoint precision/source audit; all other cases lack documented movement with at least two valid endpoints.",
+  "not_published": true,
+  "restrictions": [
+    "No writes to main",
+    "No updates to cases.json or routes.json",
+    "11 cards are staged drafts pending final semantic deduplication, not already validated publication records",
+    "No generic [S] [N] [I] cross-references inserted without case-specific support",
+    "Geodata approximate; geolocation source recorded separately",
+    "Event date null when unestablished; never substituted from publication date"
+  ],
+  "additional_caution": "Cards were structurally checked in staging; source reliability, cross-check of all canonical event bodies and geocoordinate verification must be completed before any publication. Quantity of target species distinguished from total of all taxa."
+}
