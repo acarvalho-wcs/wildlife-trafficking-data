@@ -1,0 +1,38 @@
+{
+  "species": "Amazona aestiva",
+  "study": "TG-H3 a TG-H6",
+  "research_date": "2026-10-21",
+  "rounds": [
+    "TG-H3",
+    "TG-H4",
+    "TG-H5",
+    "TG-H6"
+  ],
+  "candidate_counts": {
+    "TG-H3": 9,
+    "TG-H4": 5,
+    "TG-H5": 9,
+    "TG-H6": 10
+  },
+  "total_candidate_rows": 33,
+  "status": "UNDeduplicated raw candidates",
+  "published": false,
+  "validated": false,
+  "files": [
+    "TG-H3.json",
+    "TG-H4.json",
+    "TG-H5.json",
+    "TG-H6.json"
+  ],
+  "instructions_for_next_session": "Deduplicate against TG-H1/TG-H2 and current cases.json semantically by location, date, source, operation and quantities. Confirm original URLs, taxonomic identification, dates, source PDF contents, possible aggregate counts, route evidence, and create a review list. Do not publish or merge this research branch. Do not expose personal information. Some links and candidate claims may not survive verification.",
+  "search_coverage": [
+    "South America",
+    "Europe",
+    "North America",
+    "Central America and Caribbean",
+    "Africa",
+    "Asia",
+    "Oceania"
+  ],
+  "caveat": "Most candidates are South American; no confirmed seizure emerged for several other regions. The 33 rows are NOT 33 unique validated cases."
+}
