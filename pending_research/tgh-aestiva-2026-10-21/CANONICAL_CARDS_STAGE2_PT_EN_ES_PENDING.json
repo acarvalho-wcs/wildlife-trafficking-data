@@ -70,7 +70,10 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2024-05-17__tgh-h3-01-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "SOURCE_REVIEW_PENDING"
     },
     {
       "lead_id": "H3-02",
@@ -133,7 +136,10 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2024-06-14__tgh-h3-02-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "QUANTITY_UNRESOLVED"
     },
     {
       "lead_id": "H4-05",
@@ -195,7 +201,11 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2022-01-15__tgh-h4-05-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "GEOCODE_BLOCKED",
+      "geolocation_block": true
     },
     {
       "lead_id": "H5-01",
@@ -263,7 +273,10 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2019-01-20__tgh-h5-01-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "QUANTITY_UNRESOLVED"
     },
     {
       "lead_id": "H5-04",
@@ -290,7 +303,7 @@
       "event_date": "2026-02-11",
       "publication_date": "2026-02-13",
       "event_date_precision": "day",
-      "target_taxon": "Amazona aestiva",
+      "target_taxon": null,
       "target_taxon_quantity": null,
       "reported_quantity_alternates": null,
       "observed_multi_species_total": null,
@@ -330,7 +343,11 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2026-02-11__tgh-h5-04-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "SOURCE_REVIEW_PENDING",
+      "taxon_identification_status": "UNCONFIRMED_COMMON_NAME"
     },
     {
       "lead_id": "H5-05",
@@ -397,7 +414,10 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2017-01-04__tgh-h5-05-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "SOURCE_REVIEW_PENDING"
     },
     {
       "lead_id": "H5-06",
@@ -424,7 +444,7 @@
       "event_date": "2023-12-23",
       "publication_date": "2023-12-23",
       "event_date_precision": "day",
-      "target_taxon": "Amazona aestiva",
+      "target_taxon": null,
       "target_taxon_quantity": null,
       "reported_quantity_alternates": null,
       "observed_multi_species_total": null,
@@ -462,7 +482,11 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2023-12-23__tgh-h5-06-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "SOURCE_REVIEW_PENDING",
+      "taxon_identification_status": "UNCONFIRMED_COMMON_NAME"
     },
     {
       "lead_id": "H5-08",
@@ -522,7 +546,11 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2020-12-16__tgh-h5-08-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "GEOCODE_BLOCKED",
+      "geolocation_block": true
     },
     {
       "lead_id": "H5-09",
@@ -589,7 +617,10 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2013-01-02__tgh-h5-09-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "SOURCE_REVIEW_PENDING"
     },
     {
       "lead_id": "H6-04",
@@ -654,7 +685,12 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2023-05-25__tgh-h6-04-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "QUANTITY_UNRESOLVED",
+      "observed_target_taxon_quantity": 4,
+      "reported_irregular_target_taxon_quantity": 2
     },
     {
       "lead_id": "H6-05",
@@ -717,7 +753,10 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2024-04-30__tgh-h6-05-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "QUANTITY_UNRESOLVED"
     },
     {
       "lead_id": "H6-10",
@@ -782,7 +821,10 @@
       "image_source_url": null,
       "image_status": "NOT_VERIFIED_NO_IMAGE",
       "source_checked_during_round": true,
-      "final_semantic_dedup_pending": true
+      "final_semantic_dedup_pending": true,
+      "id": "2016-07-22__tgh-h6-10-aestiva",
+      "do_not_publish": true,
+      "release_readiness": "SOURCE_REVIEW_PENDING"
     }
   ],
   "excluded_from_individual_cases": {
