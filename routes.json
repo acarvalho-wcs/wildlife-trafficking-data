@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-21T21:58:33.943060Z",
+  "updated_at": "2026-10-22T12:00:00Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11633,6 +11633,78 @@
       "source_label": "IAT Paraná; CGN / Tribuna do Interior",
       "source_url": "https://cgn.inf.br/noticia/937968/prf-apreende-166-filhotes-depapagaios-em-campo-mourao",
       "route_audit": "TG-H2 Amazona aestiva; 2026-10-21; solid line only for documented origin/interception."
+    },
+    {
+      "id": "maria-luisa-rosario-154-aestiva-2021",
+      "event_match": {
+        "event_id": "2021-12-07__tgh-h5-02-aestiva"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "María Luisa → Rosario (destino pretendido)",
+      "label_en": "María Luisa → Rosario (intended destination)",
+      "label_es": "María Luisa → Rosario (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "María Luisa — interceptação",
+            "country": "Argentina",
+            "lat": -31.01264,
+            "lon": -60.91143,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Rosario — destino declarado, não alcançado",
+            "country": "Argentina",
+            "lat": -32.9442,
+            "lon": -60.6505,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O] Gendarmería indica destino a Rosario, mas o veículo foi interceptado em María Luisa. Segmento apenas planejado, linha esquemática sólida.",
+      "evidence_en": "[O] Rosario was the declared destination but the vehicle was intercepted in María Luisa. Planned leg only; schematic solid line.",
+      "evidence_es": "[O] Rosario era el destino declarado, pero el vehículo fue interceptado en María Luisa. Tramo previsto, línea continua esquemática.",
+      "source_label": "Gendarmería Nacional Argentina",
+      "source_url": "https://www.argentina.gob.ar/node/291856"
+    },
+    {
+      "id": "pampa-guanacos-pinto-216-aestiva-2021",
+      "event_match": {
+        "event_id": "2021-01-10__tgh-h5-03-aestiva"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Pampa de los Guanacos → Pinto (interceptação)",
+      "label_en": "Pampa de los Guanacos → Pinto (interception)",
+      "label_es": "Pampa de los Guanacos → Pinto (intercepción)",
+      "segments": [
+        {
+          "from": {
+            "name": "Pampa de los Guanacos — saída declarada",
+            "country": "Argentina",
+            "lat": -26.23157,
+            "lon": -61.83453,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Pinto — interceptação",
+            "country": "Argentina",
+            "lat": -29.14206,
+            "lon": -62.65473,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O] O condutor declarou saída de Pampa de los Guanacos, com flagrante em Pinto. Destino final San Lorenzo não é representado como viagem concluída. Linha contínua esquemática.",
+      "evidence_en": "[O] Travelers reported departing Pampa de los Guanacos; intercepted in Pinto. Intended destination San Lorenzo is not shown as completed. Schematic solid line.",
+      "evidence_es": "[O] Los ocupantes declararon salida de Pampa de los Guanacos; interceptación en Pinto. No se muestra como completado el destino San Lorenzo. Línea continua esquemática.",
+      "source_label": "Gendarmería Nacional Argentina",
+      "source_url": "https://www.argentina.gob.ar/noticias/rescatan-216-loros-del-baul-de-un-automovil"
     }
   ],
   "network_context": [
