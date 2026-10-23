@@ -88150,11 +88150,11 @@
       "location_label_pt": "Moti Nagar, Nova Délhi",
       "location_label_en": "Moti Nagar, Nova Délhi",
       "location_label_es": "Moti Nagar, Nova Délhi",
-      "event_date": "2026-10-21",
+      "event_date": null,
       "publication_date": "2026-10-21",
-      "occurred_at": "2026-10-21T00:00:00Z",
-      "occurred_at_precision": "day",
-      "event_date_precision": "day",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown",
+      "event_date_precision": "unknown",
       "coordinates": {
         "lat": 28.659,
         "lon": 77.141
@@ -88163,18 +88163,18 @@
       "geographic_note_pt": "Coordenadas aproximadas da localidade citada, não do ponto exato da apreensão.",
       "geographic_note_en": "Generalised reported locality; not an exact seizure-point location.",
       "geographic_note_es": "Localidad aproximada; no representa el punto exacto del decomiso.",
-      "source_label": "Times of India / declaração pública do ministro de Meio Ambiente de Délhi",
+      "source_label": "Times of India (TNN) / Delhi Forest Department and Delhi Police",
       "source_url": "https://timesofindia.indiatimes.com/city/delhi/over-100-birds-reptiles-rescued-from-pet-shop/articleshow/135095726.cms",
       "source_reconciliation_status": "SOURCE_URL_RECONCILED",
       "title_pt": "Autoridades resgatam 103 aves e quelônios de pet shop em Moti Nagar",
       "title_en": "Authorities rescue 103 birds and chelonians from Moti Nagar pet shop",
       "title_es": "Rescatan 103 aves y quelonios de tienda en Moti Nagar",
-      "card_text_pt": "Em 21/10, fiscalização em loja de Moti Nagar resgatou 54 periquitos e 49 quelônios protegidos, incluindo três tartarugas-estrela-indianas. Houve registro policial e atendimento veterinário.",
-      "card_text_en": "On 21 October, officers rescued 54 parakeets and 49 protected chelonians from a Moti Nagar shop, including three Indian star tortoises. Police registered a case and arranged veterinary care.",
-      "card_text_es": "El 21/10, autoridades rescataron 54 periquitos y 49 quelonios protegidos de una tienda en Moti Nagar, incluidas tres tortugas estrelladas de la India. Se inició expediente y atención veterinaria.",
-      "context_pt": "A imprensa local informa discriminação: 52 periquitos-de-colar, dois periquitos-de-Alexandre e 49 quelônios de cinco grupos, somando 103 animais. A atuação envolveu Departamento Florestal e Polícia de Délhi; não foi descrito percurso comercial da fauna. Coordenada do bairro, não da loja.",
-      "context_en": "Local reporting specifies 52 rose-ringed and two Alexandrine parakeets, plus 49 chelonians in five reported groups, totalling 103 animals. Forest officers and Delhi Police were involved. No wildlife transport itinerary was documented. The map pin denotes the neighbourhood, not the shop.",
-      "context_es": "La prensa informa 52 cotorras de Kramer, dos alejandrinas y 49 quelonios de cinco grupos, sumando 103 individuos. Intervinieron autoridades forestales y Policía de Delhi. Sin itinerario comercial demostrado; el punto es aproximado al barrio.",
+      "card_text_pt": "Noticiada em 21/10, fiscalização em loja de Moti Nagar resgatou 54 periquitos e 49 quelônios protegidos, incluindo três tartarugas-estrela-indianas. Houve registro policial e atendimento veterinário.",
+      "card_text_en": "Reported on 21 October, officers rescued 54 parakeets and 49 protected chelonians from a Moti Nagar shop, including three Indian star tortoises. Police registered a case and arranged veterinary care.",
+      "card_text_es": "Noticiado el 21/10, autoridades rescataron 54 periquitos y 49 quelonios protegidos de una tienda en Moti Nagar, incluidas tres tortugas estrelladas de la India. Se inició expediente y atención veterinaria.",
+      "context_pt": "A imprensa local informa discriminação: 52 periquitos-de-colar, dois periquitos-de-Alexandre e 49 quelônios de cinco grupos, somando 103 animais. A atuação envolveu Departamento Florestal e Polícia de Délhi; não foi descrito percurso comercial da fauna. Coordenada do bairro, não da loja. O dia exato da fiscalização não consta explicitamente da fonte consultada.",
+      "context_en": "Local reporting specifies 52 rose-ringed and two Alexandrine parakeets, plus 49 chelonians in five reported groups, totalling 103 animals. Forest officers and Delhi Police were involved. No wildlife transport itinerary was documented. The map pin denotes the neighbourhood, not the shop. The exact raid date is not stated in the cited report.",
+      "context_es": "La prensa informa 52 cotorras de Kramer, dos alejandrinas y 49 quelonios de cinco grupos, sumando 103 individuos. Intervinieron autoridades forestales y Policía de Delhi. Sin itinerario comercial demostrado; el punto es aproximado al barrio. La fecha exacta del operativo no se especifica en la fuente.",
       "references_text_pt": "[N1] Times of India / declaração pública do ministro de Meio Ambiente de Délhi — https://timesofindia.indiatimes.com/city/delhi/over-100-birds-reptiles-rescued-from-pet-shop/articleshow/135095726.cms",
       "references_text_en": "[N1] Times of India / declaração pública do ministro de Meio Ambiente de Délhi — https://timesofindia.indiatimes.com/city/delhi/over-100-birds-reptiles-rescued-from-pet-shop/articleshow/135095726.cms",
       "references_text_es": "[N1] Times of India / declaração pública do ministro de Meio Ambiente de Délhi — https://timesofindia.indiatimes.com/city/delhi/over-100-birds-reptiles-rescued-from-pet-shop/articleshow/135095726.cms",
@@ -88185,7 +88185,7 @@
         "Aves",
         "Répteis"
       ],
-      "taxon_text": "Psittacula krameri (52); Psittacula eupatria (2); Geochelone elegans (3); outros Testudines spp. (46)",
+      "taxon_text": "Psittacula krameri (52); Psittacula eupatria (2); Geochelone elegans (3); Indian flapshell turtles (2); Indian tent turtles (3); Indian roofed turtles (28); black-spotted pond turtles (13), identifications as reported",
       "modal_primary": "Terrestre",
       "modal_label_pt": "Terrestre",
       "aggregate_operation": false,
@@ -88205,8 +88205,7 @@
       "image_status": "IMAGE_UNVERIFIED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "audit_note": "TG-H 21-23 October 2026; event and publication dates separated; source-based quantities; deduplicated against 1,150 canonical cases.",
-      "last_update_text": "2026-10-23T10:30:00Z"
+      "audit_note": "TG-H 21-23 October 2026; event and publication dates separated; source-based quantities; deduplicated against 1,150 canonical cases. Event date set to null after verifying publication does not explicitly date raid."
     },
     {
       "id": "2026-10-undated__albardon-four-birds-guanaco-meat",
@@ -88759,7 +88758,7 @@
       "fauna_groups_aggregated": [
         "Répteis"
       ],
-      "taxon_text": "Melanochelys trijuga (19, segundo notícia, tartarugas-de-lago indianas); Geochelone elegans (2)",
+      "taxon_text": "Indian pond turtles (19; scientific species identification not supplied); Indian star tortoises (2; name as reported)",
       "modal_primary": "Terrestre",
       "modal_label_pt": "Terrestre",
       "aggregate_operation": false,
@@ -88778,7 +88777,7 @@
       "image_status": "IMAGE_UNVERIFIED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
-      "audit_note": "TG-H 21-23 October 2026; source-grounded and deduplicated; cumulative operation totals excluded."
+      "audit_note": "TG-H 21-23 October 2026; source-grounded and deduplicated; cumulative operation totals excluded. Scientific names withheld where official release provides only common names."
     }
   ]
 }
