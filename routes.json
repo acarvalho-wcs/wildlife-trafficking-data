@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-22T12:00:00Z",
+  "updated_at": "2026-10-23T10:50:28.371Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11705,6 +11705,96 @@
       "evidence_es": "[O] Los ocupantes declararon salida de Pampa de los Guanacos; interceptación en Pinto. No se muestra como completado el destino San Lorenzo. Línea continua esquemática.",
       "source_label": "Gendarmería Nacional Argentina",
       "source_url": "https://www.argentina.gob.ar/noticias/rescatan-216-loros-del-baul-de-un-automovil"
+    },
+    {
+      "id": "uberaba-betim-contagem-three-blue-macaws-2026-10-21",
+      "event_match": {
+        "event_id": "2026-10-21__betim-three-blue-macaws-prf"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "mixed_reported_completed_and_planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Uberaba → Betim (interceptação) → Contagem (destino pretendido)",
+      "label_en": "Uberaba → Betim (interception) → Contagem (intended destination)",
+      "label_es": "Uberaba → Betim (interceptación) → Contagem (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Uberaba (MG), local de retirada informado pelo motorista",
+            "country": "Brasil",
+            "lat": -19.747,
+            "lon": -47.939,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Betim (MG), interceptação confirmada BR-381",
+            "country": "Brasil",
+            "lat": -19.968,
+            "lon": -44.197,
+            "precision": "city_generalized"
+          },
+          "status": "REPORTED_COMPLETED_MOVEMENT"
+        },
+        {
+          "from": {
+            "name": "Betim (MG), interceptação",
+            "country": "Brasil",
+            "lat": -19.968,
+            "lon": -44.197,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Contagem (MG), destino previsto não alcançado",
+            "country": "Brasil",
+            "lat": -19.932,
+            "lon": -44.054,
+            "precision": "city_generalized"
+          },
+          "status": "INTENDED_NOT_COMPLETED"
+        }
+      ],
+      "evidence_pt": "[O] PRF em 21/10/2026: motorista declarou coleta em Uberaba e transporte para Contagem; as três araras-azuis foram interceptadas em Betim na BR-381. Primeiro segmento segundo o relato do motorista; segundo segmento não realizado. Ambos linhas contínuas esquemáticas, com distinção no texto. Transporte posterior ao Ibama é custodial, não rota de comércio.",
+      "evidence_en": "[O] PRF, 21 Oct 2026: the driver reported collection in Uberaba and intended delivery to Contagem; intercepted with three blue macaws on BR-381 in Betim. First segment driver-reported; second intended but not completed, both represented schematically by solid lines and distinguished in labels. Subsequent Ibama transfer is custody management.",
+      "evidence_es": "[O] PRF, 21/10/2026: el conductor declaró recogida en Uberaba y destino Contagem; las tres araras azules fueron interceptadas en Betim. Primer tramo declarado por el conductor; segundo tramo proyectado y no realizado. Líneas continuas esquemáticas con distinción en las etiquetas; el traslado al Ibama es custodia.",
+      "source_label": "Polícia Rodoviária Federal (PRF)",
+      "source_url": "https://www.gov.br/prf/pt-br/noticias/nacionais/2026/outubro/prf-resgata-tres-araras-azuis-durante-transporte-irregular-em-betim-mg"
+    },
+    {
+      "id": "dolisie-nkayi-leopard-skin-ivory-2026-10-18",
+      "event_match": {
+        "event_id": "2026-10-18__nkayi-dolisie-leopard-skin-elephant-tusks"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Dolisie → Nkayi (transporte documentado)",
+      "label_en": "Dolisie → Nkayi (documented transport)",
+      "label_es": "Dolisie → Nkayi (traslado documentado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Dolisie, Niari",
+            "country": "República do Congo",
+            "lat": -4.199,
+            "lon": 12.673,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Nkayi, Bouenza",
+            "country": "República do Congo",
+            "lat": -4.183,
+            "lon": 13.286,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[N] Tribune Eco relata explicitamente que três suspeitos transportaram uma pele de leopardo e duas pontas de marfim de Dolisie até Nkayi para comercializar; prisões em 18/10/2026. Origem dos animais não estabelecida; rota apenas entre as duas cidades documentadas.",
+      "evidence_en": "[N] Tribune Eco explicitly reports that three suspects moved a leopard skin and two tusks from Dolisie to Nkayi for sale; arrested on 18 October 2026. Biological source of the products unknown; only this city-to-city leg is represented.",
+      "evidence_es": "[N] Tribune Eco afirma que tres sospechosos trasladaron una piel de leopardo y dos colmillos de Dolisie a Nkayi para venderlos; detenciones el 18/10/2026. Origen biológico desconocido; solo este tramo está documentado.",
+      "source_label": "Tribune Eco / PALF / Gendarmerie Nationale",
+      "source_url": "https://www.tribune-eco.cg/trois-presumes-trafiquants-interpelles-pour-trafic-des-produits-de-faune-a-nkayi-et-dolisie/"
     }
   ],
   "network_context": [
