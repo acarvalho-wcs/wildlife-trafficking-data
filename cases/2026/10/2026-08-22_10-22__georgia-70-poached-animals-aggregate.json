@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-14-24-round-ongoing-20261024",
   "country": "Geórgia",
   "location_label_pt": "Âmbito nacional, Geórgia",
-  "location_label_en": "Âmbito nacional, Geórgia",
-  "location_label_es": "Âmbito nacional, Geórgia",
+  "location_label_en": "Nationwide, Georgia",
+  "location_label_es": "Ámbito nacional, Georgia",
   "event_date": null,
   "event_end_date": "2026-10-22",
   "publication_date": "2026-10-23",
@@ -34,8 +34,8 @@
   "references_text_en": "https://des.gov.ge/En/News/Details/17218",
   "references_text_es": "https://des.gov.ge/En/News/Details/17218",
   "fauna_label_pt": "70 animais silvestres abatidos (balanço agregado)",
-  "fauna_label_en": "70 animais silvestres abatidos (balanço agregado)",
-  "fauna_label_es": "70 animais silvestres abatidos (balanço agregado)",
+  "fauna_label_en": "70 illegally hunted wild animals (national aggregate)",
+  "fauna_label_es": "70 animales silvestres cazados ilegalmente (balance nacional)",
   "fauna_groups_aggregated": [
     "Aves",
     "Mamíferos"
@@ -57,5 +57,14 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+  "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+  "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+  "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary-field localization"
+  }
 }

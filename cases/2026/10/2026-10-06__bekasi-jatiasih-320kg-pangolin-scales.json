@@ -34,8 +34,8 @@
   "route_audit_status": "DECLARED_DISTRIBUTION_ENDPOINTS_NOT_VERIFIED_FOR_SEIZED_LOT",
   "status": "VALIDATED",
   "ingestion_batch": "TG-H-2026-10-14-24-global-expansion",
-  "location_label_en": "Jatiasih, Kota Bekasi, Java Ocidental, Indonésia",
-  "location_label_es": "Jatiasih, Kota Bekasi, Java Ocidental, Indonésia",
+  "location_label_en": "Jatiasih, Kota Bekasi, West Java, Indonesia",
+  "location_label_es": "Jatiasih, Kota Bekasi, Java Occidental, Indonesia",
   "geographic_note_pt": "Localidade aproximada citada pela fonte; não representa imóvel ou local exato da abordagem.",
   "geographic_note_en": "Approximate reported place, not an exact enforcement address.",
   "geographic_note_es": "Referencia geográfica aproximada, no dirección exacta.",
@@ -43,8 +43,8 @@
   "references_text_pt": "[O/N] Polda Metro Jaya, declarações de Dadang Hartanto à detikNews (23/10) — https://news.detik.com/berita/d-8721303/polisi-bongkar-penjualan-sisik-trenggiling-dikamuflase-jadi-ikan-asin-di-bekasi",
   "references_text_en": "[O/N] Polda Metro Jaya, declarações de Dadang Hartanto à detikNews (23/10) — https://news.detik.com/berita/d-8721303/polisi-bongkar-penjualan-sisik-trenggiling-dikamuflase-jadi-ikan-asin-di-bekasi",
   "references_text_es": "[O/N] Polda Metro Jaya, declarações de Dadang Hartanto à detikNews (23/10) — https://news.detik.com/berita/d-8721303/polisi-bongkar-penjualan-sisik-trenggiling-dikamuflase-jadi-ikan-asin-di-bekasi",
-  "fauna_label_en": "Escamas de pangolim, aproximadamente 320 kg",
-  "fauna_label_es": "Escamas de pangolim, aproximadamente 320 kg",
+  "fauna_label_en": "Approximately 320 kg of pangolin scales",
+  "fauna_label_es": "Aproximadamente 320 kg de escamas de pangolín",
   "modal_label_pt": "Terrestre",
   "aggregate_operation": false,
   "exclude_from_totals": false,
@@ -54,5 +54,14 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "event_date_precision": "day"
+  "event_date_precision": "day",
+  "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+  "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+  "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+  "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary-field localization"
+  }
 }

@@ -4,7 +4,7 @@
   "ingestion_batch": "TG-H-2026-10-14-24-round-ongoing-20261024",
   "country": "Brasil",
   "location_label_pt": "BR-116 km 830, Vitória da Conquista (BA), Brasil",
-  "location_label_en": "BR-116 km 830, Vitória da Conquista (BA), Brasil",
+  "location_label_en": "BR-116 km 830, Vitória da Conquista (BA), Brazil",
   "location_label_es": "BR-116 km 830, Vitória da Conquista (BA), Brasil",
   "event_date": "2026-10-23",
   "event_end_date": null,
@@ -34,8 +34,8 @@
   "references_text_en": "https://www.acordacidade.com.br/policia/policia-resgata-cinco-aves-mantidas-em-maus-tratos-dentro-de-onibus-em-conquista/ ; https://blogdocaiquesantos.com.br/prf-resgata-aves-onibus-br-116-vitoria-da-conquista/ ; https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=563429",
   "references_text_es": "https://www.acordacidade.com.br/policia/policia-resgata-cinco-aves-mantidas-em-maus-tratos-dentro-de-onibus-em-conquista/ ; https://blogdocaiquesantos.com.br/prf-resgata-aves-onibus-br-116-vitoria-da-conquista/ ; https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=563429",
   "fauna_label_pt": "5 sanhaços-cinzentos",
-  "fauna_label_en": "5 sanhaços-cinzentos",
-  "fauna_label_es": "5 sanhaços-cinzentos",
+  "fauna_label_en": "5 sayaca tanagers",
+  "fauna_label_es": "5 tangaras azulejas",
   "fauna_groups_aggregated": [
     "Aves"
   ],
@@ -56,5 +56,14 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+  "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+  "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+  "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary-field localization"
+  }
 }
