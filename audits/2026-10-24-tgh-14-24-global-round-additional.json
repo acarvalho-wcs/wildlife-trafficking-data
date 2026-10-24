@@ -1,0 +1,84 @@
+{
+  "batch": "TG-H-2026-10-14-24-continuation-international-fourth",
+  "discovery_window": {
+    "start": "2026-10-14",
+    "end": "2026-10-24",
+    "kind": "publication_date"
+  },
+  "original_baseline": 1206,
+  "newly_committed": [
+    {
+      "id": "2026-10-14__alas-purwo-one-poached-banteng-carcass",
+      "country": "Indonésia",
+      "pub": "2026-10-14",
+      "event": "2026-10-14",
+      "quantity": "one dead Bos javanicus",
+      "source": "https://surabaya.inews.id/read/722855/geger-banteng-jawa-ditemukan-dimutilasi-di-alas-purwo-banyuwangi-terdengar-suara-tembakan"
+    },
+    {
+      "id": "2026-10-18__korishe-prizren-one-poached-pheasant",
+      "country": "Kosovo",
+      "pub": "2026-10-19",
+      "event": "2026-10-18",
+      "quantity": "one dead pheasant",
+      "source": "https://www.kosovopolice.com/arrestohen-4-persona-te-dyshuar-per-gjueti-te-paligjshme-dhe-armembajtje-pa-leje/"
+    },
+    {
+      "id": "2025-04__kyneton-victoria-over-700-dead-15-live-wildlife",
+      "country": "Austrália",
+      "pub": "2026-10-21",
+      "event": "2025-04 (exact day unknown)",
+      "quantity": "over 700 deceased native specimens and 15 live reptiles; exact combined count unknown",
+      "source": "https://www.vic.gov.au/conviction-follows-seizure-illegal-wildlife-collection",
+      "note": "2026 conviction is not a 2026 wildlife seizure"
+    },
+    {
+      "id": "2026-09-09__north-wessel-70kg-flying-fish-roe-30kg-fish",
+      "country": "Austrália",
+      "pub": "2026-10-14",
+      "event": "2026-09-09",
+      "quantity": "70kg roe plus 30kg dried fish, not 100 fish",
+      "source": "https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters",
+      "note": "Original September Operation LUNAR story and October court update are the same vessel; not separate cases"
+    },
+    {
+      "id": "2026-09-14__torres-strait-600kg-shark-500kg-reef-fish",
+      "country": "Austrália",
+      "pub": "2026-10-14",
+      "event": "2026-09-14 supported by September Operation BROADSTAFF release; cross-update match provisional",
+      "quantity": "600kg shark and 500kg reef fish; do not add 108 fish+29 sharks until source reconciled",
+      "source": "https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters"
+    }
+  ],
+  "not_published": [
+    {
+      "place": "Goleta Pier, California, United States",
+      "event": "five lobster-poaching enforcement encounters before 02 October; publication Oct 14–18",
+      "quantity": "43 lobsters, derived from 5+10+28 across interventions",
+      "source": "https://www.independent.com/2026/10/18/five-fishermen-arrested-for-poaching-lobsters-off-goleta-pier/",
+      "status": "COMMIT_BLOCKED_BY_TOOL_SECURITY",
+      "note": "One attempted GitHub case creation was blocked by OpenAI tool policy. Do not count as published. May require separate authorized human review."
+    }
+  ],
+  "other_evaluated": [
+    {
+      "case": "Rio Grande do Sul, Brazil Operation Convergência",
+      "publication": "2026-10-20",
+      "source": "https://www.brigadamilitar.rs.gov.br/brigada-militar-reforca-combate-a-crimes-ambientais-e-resgata-1-020-animais-na-operacao-convergencia",
+      "reason": "May–13 Oct cumulative 819 illegal captive animals plus 201 roadkill/mistreatment victims, mixed wildlife crime and rehabilitation; not an individual new seizure. Risk of double count with territorial events. Not inserted."
+    },
+    {
+      "case": "Mexico-US repatriation 26 parrots",
+      "publication": "2026-10-16",
+      "source": "https://www.gob.mx/profepa/archivo/prensa",
+      "reason": "Return/repatriation rather than new seizure during October; check underlying event before counting."
+    },
+    {
+      "case": "Goleta Pier additional same report",
+      "reason": "Do not split 5+10+28 as 43 individual seizures; one candidate aggregate with five enforcement encounters."
+    }
+  ],
+  "route_policy": "No new route; locations of fishing interception or nationality of crew cannot establish shipment origin. Kyneton property transfer is custody not trafficking.",
+  "status": "Case files committed; verify automatic case-store build before treating them as compiled.",
+  "notes": "Four previous 14–24 Oct round cases plus this batch kept separate. Candidate dates can precede October because search window is defined by publication date, not event date."
+}
