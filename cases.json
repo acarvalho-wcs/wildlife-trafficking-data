@@ -89159,10 +89159,10 @@
       "card_text_pt": "Em busca residencial realizada em 22/10 no bairro Jorge Newbery, policiais localizaram um cardeal, um tordo e duas caturritas; a investigação principal envolvia outros delitos.",
       "card_text_en": "During a 22 October home search in Jorge Newbery, police found one cardinal, one cowbird and two parakeets; the primary investigation concerned other offences.",
       "card_text_es": "Durante un allanamiento el 22 de octubre en Jorge Newbery, la policía halló un cardenal, un tordo renegrido y dos cotorras; la causa principal investigaba otros delitos.",
-      "context_pt": "[N] Matéria de 23/10 data a diligência de 22/10. Quatro aves distintas foram localizadas e incorporadas às atuações por possível infração à proteção da fauna. Sem procedência ou rota de tráfico demonstrada.",
-      "context_en": "[N] Published 23 October, describing a 22 October search. Four distinct wild birds were found during an investigation chiefly concerning other offences. No wildlife trafficking movement established.",
-      "context_es": "[N] Publicada el 23/10, describe un allanamiento del 22/10. Se encontraron cuatro aves; no hay evidencia de traslado comercial u origen.",
-      "references_text_pt": "[O/N] Infobrisas (polícia local) — https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery",
+      "context_pt": "[N] Matéria de 23/10 data a diligência de 22/10. Quatro aves distintas foram localizadas e incorporadas às atuações por possível infração à proteção da fauna. Sem procedência ou rota de tráfico demonstrada.\n\n[S1] Estudo argentino comparou grupos de Facebook de comércio de aves em 2017 e 2023; em três grupos examinados detalhadamente registrou 67 espécies oferecidas, evidenciando um mercado digital que pode escapar a fiscalizações exclusivamente residenciais. A apreensão de quatro aves em Mar del Plata, porém, não informa anúncios online: o vínculo entre a residência, vendedores e eventuais ofertas depende de prova específica, sem inferir rede de comércio a partir da posse.",
+      "context_en": "[N] Published 23 October, describing a 22 October search. Four distinct wild birds were found during an investigation chiefly concerning other offences. No wildlife trafficking movement established.\n\n[S1] An Argentine study compared bird-trade Facebook groups in 2017 and 2023 and documented 67 offered species across three groups examined in detail, illustrating a digital channel not captured by residential searches alone. The Mar del Plata search gives no evidence of online advertisements; any connection between these four birds and sellers or listings requires independent verification.",
+      "context_es": "[N] Publicada el 23/10, describe un allanamiento del 22/10. Se encontraron cuatro aves; no hay evidencia de traslado comercial u origen.\n\n[S1] Un estudio argentino comparó grupos de Facebook de comercio de aves de 2017 y 2023 y registró 67 especies ofertadas en tres grupos analizados con detalle, mostrando una vía digital no visible solo mediante registros domiciliarios. El hallazgo de cuatro aves en Mar del Plata no demuestra anuncios online; cualquier relación con vendedores o perfiles debe verificarse con pruebas del caso.",
+      "references_text_pt": "[O/N] Infobrisas (polícia local) — https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery\n[S1] The illegal trade of wild birds in a social network: A call for action from Argentina (Ornithological Applications) — https://doi.org/10.1093/ornithapp/duaf012",
       "fauna_label_pt": "Aves",
       "fauna_label_en": "4 wild birds",
       "fauna_label_es": "4 aves silvestres",
@@ -89191,15 +89191,29 @@
       "quantity_note_es": "Cuatro aves distintas halladas en un único allanamiento.",
       "geographic_note_en": "Generalized coordinates of the reported area, not the exact enforcement location.",
       "geographic_note_es": "Coordenadas aproximadas de la zona informada, no el punto exacto de intervención.",
-      "references_text_en": "Sources: https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery",
+      "references_text_en": "Sources: https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery\n[S1] The illegal trade of wild birds in a social network: A call for action from Argentina (Ornithological Applications) — https://doi.org/10.1093/ornithapp/duaf012",
       "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
-      "references_text_es": "Fuentes: https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery",
+      "references_text_es": "Fuentes: https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery\n[S1] The illegal trade of wild birds in a social network: A call for action from Argentina (Ornithological Applications) — https://doi.org/10.1093/ornithapp/duaf012",
       "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
       "editorial_review": {
         "date": "2026-10-24",
         "batch": "TG-H 47-case multilingual QA",
         "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
         "severity": "metadata_localization"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "The illegal trade of wild birds in a social network: A call for action from Argentina (Ornithological Applications)",
+          "url": "https://doi.org/10.1093/ornithapp/duaf012",
+          "catalog_id": "doi-10.1093-ornithapp-duaf012"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation",
+        "grade": "A/B",
+        "basis": "specific article/report findings and case-specific applicability; no operational association implied"
       },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
@@ -89311,9 +89325,9 @@
       "card_text_pt": "Em 22/10, agentes interceptaram um passageiro que chegava ao posto Lok Ma Chau Spur Line com duas tartarugas vivas em saco plástico; AFCD indicou preliminarmente espécies abrangidas pela CITES.",
       "card_text_en": "On 22 October officers intercepted an incoming passenger at Lok Ma Chau Spur Line carrying two live turtles in a plastic bag; AFCD preliminarily identified CITES-regulated endangered species.",
       "card_text_es": "El 22 de octubre, agentes interceptaron a un pasajero entrante en Lok Ma Chau Spur Line con dos tortugas vivas en una bolsa; AFCD identificó preliminarmente especies reguladas por CITES.",
-      "context_pt": "[O] Comunicado oficial publicado em 23/10 sobre fiscalização de 22/10. Valor estimado HK$ 3.000. Identificação preliminar sem espécie nominal publicada. Deslocamento de entrada ao território comprovado, mas origem geográfica específica anterior e itinerário não definidos; não desenhar rota inferida.",
-      "context_en": "[O] Official release 23 October dates the interception to 22 October. Estimated value HKD 3,000. No confirmed species-level names. Incoming passenger known, but geographic origin and specific itinerary not evidenced: no inferred route.",
-      "context_es": "[O] Comunicado oficial del 23/10 sobre la intervención del 22/10. Valor estimado HKD 3.000. Sin identificación taxonómica específica confirmada. No hay origen ni itinerario suficientemente documentados para trazar ruta.",
+      "context_pt": "[O] Comunicado oficial publicado em 23/10 sobre fiscalização de 22/10. Valor estimado HK$ 3.000. Identificação preliminar sem espécie nominal publicada. Deslocamento de entrada ao território comprovado, mas origem geográfica específica anterior e itinerário não definidos; não desenhar rota inferida.\n\n[S1] Monitoramento durante 12 meses comparou redes sociais, fórum online e o maior mercado físico de quelônios de Hong Kong e registrou maior diversidade de espécies e vendedores nas redes sociais, inclusive anúncios potencialmente ilegais e de táxons CITES. Para os dois quelônios interceptados em Lok Ma Chau, o resultado orienta a busca por ofertas digitais e documentação de origem caso existam indícios adicionais; não demonstra que esses exemplares foram anunciados online, nem identifica espécie ou rota anterior à fronteira.",
+      "context_en": "[O] Official release 23 October dates the interception to 22 October. Estimated value HKD 3,000. No confirmed species-level names. Incoming passenger known, but geographic origin and specific itinerary not evidenced: no inferred route.\n\n[S1] A 12-month Hong Kong study compared social media, an internet forum and the largest physical turtle market; social media hosted the most species and sellers, including potentially illegal and CITES-listed offers. For the two turtles intercepted at Lok Ma Chau, this suggests checking advertisements and provenance documents if case-specific leads exist. It does not show that these animals were advertised online or reveal species or earlier routes.",
+      "context_es": "[O] Comunicado oficial del 23/10 sobre la intervención del 22/10. Valor estimado HKD 3.000. Sin identificación taxonómica específica confirmada. No hay origen ni itinerario suficientemente documentados para trazar ruta.\n\n[S1] Un estudio de 12 meses en Hong Kong comparó redes sociales, foro digital y el mayor mercado físico de quelonios; las redes reunían más especies y vendedores, incluidas ofertas potencialmente ilegales y de taxones CITES. En Lok Ma Chau sugiere verificar anuncios y documentos de procedencia solo si existen indicios específicos; no demuestra que las dos tortugas fueran ofertadas online ni identifica especies o trayectos anteriores.",
       "fauna_groups_aggregated": [
         "Répteis"
       ],
@@ -89333,7 +89347,7 @@
       "geographic_note_pt": "Coordenada generalizada da região citada, não representa o ponto exato da apreensão.",
       "geographic_note_en": "Generalized reported area, not the exact seizure point.",
       "geographic_note_es": "Zona aproximada, no el punto exacto de incautación.",
-      "references_text_pt": "[O/N] Hong Kong Customs (comunicado oficial) — https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+      "references_text_pt": "[O/N] Hong Kong Customs (comunicado oficial) — https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm\n[S1] Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong — https://doi.org/10.1016/j.biocon.2021.109245",
       "route_audit_note_pt": "Nenhum segmento de rota origem–destino comprovado com precisão suficiente.",
       "quantity_unassigned": 0,
       "quantity_note_pt": "Contagem de espécimes, sem inferir grupos adicionais.",
@@ -89349,15 +89363,29 @@
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "quantity_note_en": "Two live turtles seized; species identification preliminary.",
       "quantity_note_es": "Dos tortugas vivas decomisadas; identificación específica preliminar.",
-      "references_text_en": "Sources: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+      "references_text_en": "Sources: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm\n[S1] Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong — https://doi.org/10.1016/j.biocon.2021.109245",
       "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
-      "references_text_es": "Fuentes: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+      "references_text_es": "Fuentes: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm\n[S1] Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong — https://doi.org/10.1016/j.biocon.2021.109245",
       "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
       "editorial_review": {
         "date": "2026-10-24",
         "batch": "TG-H 47-case multilingual QA",
         "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
         "severity": "metadata_localization"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong",
+          "url": "https://doi.org/10.1016/j.biocon.2021.109245",
+          "catalog_id": "doi-10.1016-j.biocon.2021.109245"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation",
+        "grade": "A/B",
+        "basis": "specific article/report findings and case-specific applicability; no operational association implied"
       },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
@@ -89546,9 +89574,9 @@
       "card_text_pt": "Notícia de 22/10 informa resgate de quatro araras em residência de Villa Moscú por equipes municipais, departamentais e policiais; havia problemas de saúde associados ao cativeiro.",
       "card_text_en": "A 22 October report describes municipal and environmental police recovery of four macaws kept at a private home in Villa Moscú, with health concerns associated with captivity.",
       "card_text_es": "La noticia del 22 de octubre describe el rescate de cuatro parabas en una vivienda de Villa Moscú por equipos municipales y policiales; presentaban problemas de salud vinculados al cautiverio.",
-      "context_pt": "[O/N] Jornal Opinión de 22/10 cita Prefeitura, Governo departamental e FELCDA, sem informar data exata da operação. Caso de posse e resgate de fauna, não necessariamente comércio. Espécie não identificada e nenhuma rota documentada. Distinto da apreensão de cinco animais em Alto Cochabamba em 07/10.",
-      "context_en": "[O/N] Opinión report dated 22 October quotes municipal, departmental and environmental police officials; date of operation not specified. Captive possession and rescue are supported, but commercial trade, species and trafficking route are not. Separate from Alto Cochabamba 7 October.",
-      "context_es": "[O/N] Opinión del 22/10 cita a autoridades municipales, departamentales y policía ambiental; fecha exacta del operativo no publicada. Posesión y rescate acreditados, no comercio ni ruta. Diferente de Alto Cochabamba 07/10.",
+      "context_pt": "[O/N] Jornal Opinión de 22/10 cita Prefeitura, Governo departamental e FELCDA, sem informar data exata da operação. Caso de posse e resgate de fauna, não necessariamente comércio. Espécie não identificada e nenhuma rota documentada. Distinto da apreensão de cinco animais em Alto Cochabamba em 07/10.\n\n[S1] Pesquisa de campo na Bolívia estimou 300–500 mil psitacídeos retirados da natureza em um ano para criação local ou comércio, valor cerca de 20–70 vezes superior ao observado no principal mercado estudado; muitos exemplares permaneceram como animais domésticos fora do mercado aberto. A posse de quatro araras em Villa Moscú merece, portanto, investigar captura, origem e tempo de manutenção mesmo sem prova de venda. Essa estimativa nacional do estudo não é contagem desta ocorrência nem demonstra que as quatro aves tenham sido traficadas comercialmente.",
+      "context_en": "[O/N] Opinión report dated 22 October quotes municipal, departmental and environmental police officials; date of operation not specified. Captive possession and rescue are supported, but commercial trade, species and trafficking route are not. Separate from Alto Cochabamba 7 October.\n\n[S1] A Bolivian field study estimated 300,000–500,000 parrots taken from the wild in one year for local pets or trade, roughly 20–70 times the number observed in the main market studied; many birds remained in households rather than open commerce. Thus four captive macaws in Villa Moscú warrant checking capture origin and holding history even without evidence of sale. Those national estimates do not count these four birds or establish their commercial trafficking.",
+      "context_es": "[O/N] Opinión del 22/10 cita a autoridades municipales, departamentales y policía ambiental; fecha exacta del operativo no publicada. Posesión y rescate acreditados, no comercio ni ruta. Diferente de Alto Cochabamba 07/10.\n\n[S1] Un estudio de campo boliviano estimó entre 300.000 y 500.000 psitácidos extraídos de la naturaleza en un año para tenencia local o comercio, unas 20–70 veces los registrados en el mercado principal estudiado; muchos permanecían en hogares. Por ello, las cuatro guacamayas de Villa Moscú requieren investigar origen y tiempo en cautiverio, sin presumir venta. La estimación nacional no cuenta estos ejemplares ni acredita tráfico comercial.",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -89578,21 +89606,35 @@
       "fauna_label_en": "4 captive macaws",
       "fauna_label_es": "4 guacamayos en cautiverio",
       "geographic_note_pt": "Coordenadas generalizadas; não representam o ponto exato da apreensão.",
-      "references_text_pt": "[O/N] Opinión Cochabamba / Prefeitura e polícia ambiental — https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html",
+      "references_text_pt": "[O/N] Opinión Cochabamba / Prefeitura e polícia ambiental — https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html\n[S1] Tella et al., Biological Conservation (2025), levantamento de captura e manutenção de psitacídeos na Bolívia — https://doi.org/10.1016/j.biocon.2025.111029",
       "route_audit_note_pt": "Não criar segmento de rota sem extremos suficientemente documentados.",
       "quantity_note_en": "Four live macaws; specific taxonomic identification unavailable.",
       "quantity_note_es": "Cuatro guacamayos vivos; especies no identificadas con certeza.",
       "geographic_note_en": "Generalized coordinates of the reported area, not the exact enforcement location.",
       "geographic_note_es": "Coordenadas aproximadas de la zona informada, no el punto exacto de intervención.",
-      "references_text_en": "Sources: https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html",
+      "references_text_en": "Sources: https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html\n[S1] Tella et al., Biological Conservation (2025), levantamento de captura e manutenção de psitacídeos na Bolívia — https://doi.org/10.1016/j.biocon.2025.111029",
       "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
-      "references_text_es": "Fuentes: https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html",
+      "references_text_es": "Fuentes: https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html\n[S1] Tella et al., Biological Conservation (2025), levantamento de captura e manutenção de psitacídeos na Bolívia — https://doi.org/10.1016/j.biocon.2025.111029",
       "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
       "editorial_review": {
         "date": "2026-10-24",
         "batch": "TG-H 47-case multilingual QA",
         "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
         "severity": "metadata_localization"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Tella et al., Biological Conservation (2025), levantamento de captura e manutenção de psitacídeos na Bolívia",
+          "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+          "catalog_id": "doi-10-1016-j-biocon-2025-111029"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation",
+        "grade": "A/B",
+        "basis": "specific article/report findings and case-specific applicability; no operational association implied"
       },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
@@ -90237,12 +90279,12 @@
       "card_text_pt": "Fiscalização aeroportuária apreendeu cinco corais, oito acessórios feitos de couro de píton e um tambor revestido com pele de varano, em bagagens de passageiros procedentes de Zanzibar, República Dominicana, Senegal e Egito. Comunicado de 23/10.",
       "card_text_en": "Airport inspections yielded five corals, eight python-leather accessories and one monitor-lizard-skinned drum from passengers arriving from Zanzibar, Dominican Republic, Senegal and Egypt. Announced 23 October.",
       "card_text_es": "Controles del aeropuerto hallaron cinco corales, ocho accesorios de piel de pitón y un tambor con piel de varano en equipajes de pasajeros procedentes de Zanzíbar, República Dominicana, Senegal y Egipto. Comunicado del 23/10.",
-      "context_pt": "[O1] Nota oficial da Guardia di Finanza difundida em 23/10 soma 5 corais + 8 artigos de couro de píton + 1 tambor com pele de varano = 14 espécimes/artigos apreendidos; sanções administrativas de €25 mil. Trata-se de balanço de múltiplos passageiros, sem datas individuais nem associação comprovada entre cada artigo e cada país mencionado. Não mapear rotas individuais Zanzibar/Egito/Senegal/República Dominicana → Verona para artigos não atribuídos; nem interpretar os 14 itens como 14 animais vivos. Classificar como balanço agregado e rever caso ocorrências individuais sejam documentadas.",
-      "context_en": "[O1] Guardia di Finanza press statement released 23 October reports 5 corals, 8 python-leather accessories and 1 monitor-lizard-skinned drum: 14 counted specimens/articles, with EUR 25,000 in fines. Multiple passengers arrived from Zanzibar, Dominican Republic, Senegal and Egypt, but the statement does not link specific goods to specific journeys or dates. No individual route can be drawn. Not 14 live animals.",
-      "context_es": "[O1] Comunicado oficial del 23/10: cinco corales, ocho artículos de piel de pitón y un tambor con piel de varano, 14 ejemplares/artículos; multas por 25.000 euros. Comprende varios pasajeros, sin asociar cada objeto a cada procedencia o fecha. No trazar rutas individualizadas ni contabilizar como 14 animales vivos.",
-      "references_text_pt": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/",
-      "references_text_en": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/",
-      "references_text_es": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/",
+      "context_pt": "[O1] Nota oficial da Guardia di Finanza difundida em 23/10 soma 5 corais + 8 artigos de couro de píton + 1 tambor com pele de varano = 14 espécimes/artigos apreendidos; sanções administrativas de €25 mil. Trata-se de balanço de múltiplos passageiros, sem datas individuais nem associação comprovada entre cada artigo e cada país mencionado. Não mapear rotas individuais Zanzibar/Egito/Senegal/República Dominicana → Verona para artigos não atribuídos; nem interpretar os 14 itens como 14 animais vivos. Classificar como balanço agregado e rever caso ocorrências individuais sejam documentadas.\n\n[S1] Análise de mais de 14 mil anúncios de artigos de couro de répteis em plataforma digital encontrou concentração em produtos de crocodilianos, serpentes e lagartos; o resultado orienta a identificação material dos oito acessórios de píton e do tambor com pele de varano, mas anúncios não são equivalentes a infrações comprovadas e não indicam que os artigos de Verona foram vendidos online. [N1] Investigação Mongabay com base em dados da TRAFFIC identificou mais de 1.300 episódios de tráfico de corais desde 2000 em 43 países, incluindo ocultação em mercadorias declaradas de outra forma. Isso demonstra a relevância de classificar os cinco corais de Verona por espécie e estado do produto; não prova país de coleta, fraude documental ou destino comercial desses itens.",
+      "context_en": "[O1] Guardia di Finanza press statement released 23 October reports 5 corals, 8 python-leather accessories and 1 monitor-lizard-skinned drum: 14 counted specimens/articles, with EUR 25,000 in fines. Multiple passengers arrived from Zanzibar, Dominican Republic, Senegal and Egypt, but the statement does not link specific goods to specific journeys or dates. No individual route can be drawn. Not 14 live animals.\n\n[S1] A study of over 14,000 online reptile-leather listings found concentration in crocodilian, snake and lizard products. This motivates material-level examination of Verona's eight python accessories and monitor-lizard-skinned drum; listings are not proven violations, nor evidence that the seized items were sold online. [N1] Mongabay's TRAFFIC-based investigation documented over 1,300 coral-trafficking incidents across 43 countries since 2000, including misdeclared cargo. The five Verona corals require species/product identification, but no collection country, false declaration or final buyer can be inferred for them.",
+      "context_es": "[O1] Comunicado oficial del 23/10: cinco corales, ocho artículos de piel de pitón y un tambor con piel de varano, 14 ejemplares/artículos; multas por 25.000 euros. Comprende varios pasajeros, sin asociar cada objeto a cada procedencia o fecha. No trazar rutas individualizadas ni contabilizar como 14 animales vivos.\n\n[S1] Un estudio de más de 14.000 anuncios online de cuero de reptiles halló concentración en artículos de cocodrilos, serpientes y lagartos. Esto orienta el examen material de los ocho accesorios de pitón y del tambor con piel de varano de Verona; los anuncios no equivalen a delitos comprobados ni prueban venta digital de estos objetos. [N1] Una investigación de Mongabay basada en datos de TRAFFIC documentó más de 1.300 episodios de tráfico de corales en 43 países desde 2000, con casos de declaración engañosa. Los cinco corales requieren identificación, sin presumir país de extracción, fraude ni comprador.",
+      "references_text_pt": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/\n[S1] Scaling the web: Unraveling online reptile leather trade networks (Biological Conservation, 2026) — https://doi.org/10.1016/j.biocon.2025.111672; [N1] Mongabay/TRAFFIC (31/8/2026), 1.300+ episódios mundiais de tráfico de corais — https://news.mongabay.com/2026/08/the-worlds-reefs-are-disappearing-coral-trafficking-is-booming/",
+      "references_text_en": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/\n[S1] Scaling the web: Unraveling online reptile leather trade networks (Biological Conservation, 2026) — https://doi.org/10.1016/j.biocon.2025.111672; [N1] Mongabay/TRAFFIC (31/8/2026), 1.300+ episódios mundiais de tráfico de corais — https://news.mongabay.com/2026/08/the-worlds-reefs-are-disappearing-coral-trafficking-is-booming/",
+      "references_text_es": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/\n[S1] Scaling the web: Unraveling online reptile leather trade networks (Biological Conservation, 2026) — https://doi.org/10.1016/j.biocon.2025.111672; [N1] Mongabay/TRAFFIC (31/8/2026), 1.300+ episódios mundiais de tráfico de corais — https://news.mongabay.com/2026/08/the-worlds-reefs-are-disappearing-coral-trafficking-is-booming/",
       "fauna_label_pt": "5 corais, 8 acessórios de píton, 1 tambor com pele de varano",
       "fauna_label_en": "5 corals, 8 python leather articles, 1 monitor-lizard-skinned drum",
       "fauna_label_es": "5 corales, 8 artículos de piel de pitón y 1 tambor con piel de varano",
@@ -90279,6 +90321,27 @@
         "date": "2026-10-24",
         "batch": "TG-H 47-case multilingual QA",
         "scope": "translated metadata, no factual changes"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Scaling the web: Unraveling online reptile leather trade networks (Biological Conservation, 2026)",
+          "url": "https://doi.org/10.1016/j.biocon.2025.111672",
+          "catalog_id": "doi-10-1016-j-biocon-2025-111672"
+        },
+        {
+          "id": "N1",
+          "type": "news",
+          "label": "Mongabay/TRAFFIC (31/8/2026), 1.300+ episódios mundiais de tráfico de corais",
+          "url": "https://news.mongabay.com/2026/08/the-worlds-reefs-are-disappearing-coral-trafficking-is-booming/",
+          "catalog_id": "mongabay-2026-08-31-coral-trafficking"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation",
+        "grade": "A/B",
+        "basis": "specific article/report findings and case-specific applicability; no operational association implied"
       },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
@@ -90669,12 +90732,12 @@
       "card_text_pt": "Em 19/10, após denúncia, a PROFEPA encontrou quatro papagaios em gaiolas sem comprovação de procedência legal: dois de cabeça-amarela, um de bochecha-amarela e um de nuca-amarela.",
       "card_text_en": "On 19 October, PROFEPA found four parrots in cages without valid provenance records following a complaint: two yellow-headed, one yellow-cheeked and one yellow-naped parrot.",
       "card_text_es": "El 19/10, tras una denuncia, PROFEPA encontró cuatro loros en jaulas sin acreditar procedencia legal: dos de cabeza amarilla, uno de cachetes amarillos y uno de nuca amarilla.",
-      "context_pt": "[O/N] Imprensa de 20/10, baseada em relatos da PROFEPA, informa apreensão de quatro aves em estacionamento em Atotonilco el Grande em 19/10. Dois indivíduos cabeça-amarela, um bochecha-amarela e um nuca-amarela. Sem sistemas de marcação; animais encaminhados a instalação autorizada. Não somar aos seis psitacídeos apreendidos em Colima, que constituem outra ocorrência. Espécies científicas não determinadas pela fonte, logo nomes comuns preservados.",
-      "context_en": "[O/N] 20 October report based on PROFEPA attributes the 19 October parking-lot inspection to Atotonilco el Grande. Four parrots seized: two yellow-headed, one yellow-cheeked and one yellow-naped. This is a separate event from Colima's six parrots. Scientific identifications remain unconfirmed and no trade route is documented.",
-      "context_es": "[O/N] Reportaje del 20/10 basado en PROFEPA sitúa el decomiso de cuatro loros el 19/10 en Atotonilco el Grande. Es independiente de los seis de Colima. No se identificaron científicamente ni se documentó origen o ruta.",
-      "references_text_pt": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
-      "references_text_en": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
-      "references_text_es": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
+      "context_pt": "[O/N] Imprensa de 20/10, baseada em relatos da PROFEPA, informa apreensão de quatro aves em estacionamento em Atotonilco el Grande em 19/10. Dois indivíduos cabeça-amarela, um bochecha-amarela e um nuca-amarela. Sem sistemas de marcação; animais encaminhados a instalação autorizada. Não somar aos seis psitacídeos apreendidos em Colima, que constituem outra ocorrência. Espécies científicas não determinadas pela fonte, logo nomes comuns preservados.\n\n[S1] Análise histórica de 31.019 indivíduos de 22 espécies de psitacídeos mexicanos em dados legais e ilegais (1981–2005) encontrou associação entre atributos atrativos, como coloração e capacidade vocal, preços e captura seletiva. Como a fonte da apreensão de Atotonilco distingue papagaios por nomes populares de cabeça ou nuca amarela, identificar cientificamente os quatro indivíduos e conferir marcação/procedência é essencial para avaliar pressão sobre espécies específicas. O estudo não identifica estes exemplares nem prova um mercado de destino.",
+      "context_en": "[O/N] 20 October report based on PROFEPA attributes the 19 October parking-lot inspection to Atotonilco el Grande. Four parrots seized: two yellow-headed, one yellow-cheeked and one yellow-naped. This is a separate event from Colima's six parrots. Scientific identifications remain unconfirmed and no trade route is documented.\n\n[S1] A historical Mexican analysis of 31,019 parrots from 22 species in legal and illegal trade (1981–2005) associated attractive traits such as coloration and vocal ability with prices and selective capture. Because the Atotonilco report differentiates the four parrots only by yellow head, cheek or nape common names, species-level identification and provenance checks matter. The study neither identifies these individuals nor proves a destination market.",
+      "context_es": "[O/N] Reportaje del 20/10 basado en PROFEPA sitúa el decomiso de cuatro loros el 19/10 en Atotonilco el Grande. Es independiente de los seis de Colima. No se identificaron científicamente ni se documentó origen o ruta.\n\n[S1] Un análisis histórico mexicano de 31.019 individuos de 22 especies de psitácidos (1981–2005) relacionó coloración y capacidad de imitación con precios y captura selectiva. Como el reporte de Atotonilco diferencia los cuatro loros por nombres comunes asociados a cabeza, mejillas y nuca amarillas, resulta importante confirmar especie, marcado y procedencia. El estudio no identifica estos animales ni demuestra mercado final.",
+      "references_text_pt": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/\n[S1] Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE — https://doi.org/10.1371/journal.pone.0107546",
+      "references_text_en": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/\n[S1] Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE — https://doi.org/10.1371/journal.pone.0107546",
+      "references_text_es": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/\n[S1] Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE — https://doi.org/10.1371/journal.pone.0107546",
       "fauna_label_pt": "4 papagaios",
       "fauna_label_en": "4 parrots",
       "fauna_label_es": "4 loros",
@@ -90708,6 +90771,20 @@
         "batch": "TG-H 47-case multilingual QA",
         "scope": "secondary field localization"
       },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0107546",
+          "catalog_id": "doi-10.1371-journal.pone.0107546"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation",
+        "grade": "A/B",
+        "basis": "specific article/report findings and case-specific applicability; no operational association implied"
+      },
       "occurred_at": "2026-10-19T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90739,12 +90816,12 @@
       "card_text_pt": "Fiscalização constatou seis psitacídeos mantidos sem comprovação de procedência legal em residência de Colima: quatro periquitos-atoleros e dois periquitos-guayaberos. Os animais ficaram sob custódia de uma UMA.",
       "card_text_en": "Inspectors found six parrots held without proof of legal origin in a residence in Colima: four orange-fronted parakeets and two lilac-crowned parrots. They were transferred into authorized wildlife custody.",
       "card_text_es": "Inspectores hallaron seis psitácidos sin acreditar procedencia legal en un domicilio de Colima: cuatro pericos atoleros y dos guayaberos, trasladados a una UMA.",
-      "context_pt": "[O/N] Arquivo de comunicados PROFEPA relaciona a notícia à data de publicação 16/10, enquanto imprensa local detalhou o caso em 20–21/10. Fonte relata denúncia atendida em 16/10, mas a data exata da apreensão não foi comprovada inequivocamente; event_date=null. Seis exemplares contados individualmente, sem rota nem localidade de coleta documentadas. Não confundir com outra apreensão de cinco psitacídeos em Comala/Colima de fevereiro de 2026.",
-      "context_en": "[O/N] PROFEPA's archive lists a 16 October release while local coverage dated 20–21 October details the six birds. The exact seizure date is unclear; event_date=null. No documented origin or trade route. Distinct from February 2026 five-parrot seizure in Comala.",
-      "context_es": "[O/N] El archivo de PROFEPA indica comunicado del 16/10, detallado por medios locales el 20–21/10. No consta fecha exacta del aseguramiento; event_date=null. Sin ruta comercial documentada y distinto del decomiso de cinco aves en Comala en febrero.",
-      "references_text_pt": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
-      "references_text_en": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
-      "references_text_es": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
+      "context_pt": "[O/N] Arquivo de comunicados PROFEPA relaciona a notícia à data de publicação 16/10, enquanto imprensa local detalhou o caso em 20–21/10. Fonte relata denúncia atendida em 16/10, mas a data exata da apreensão não foi comprovada inequivocamente; event_date=null. Seis exemplares contados individualmente, sem rota nem localidade de coleta documentadas. Não confundir com outra apreensão de cinco psitacídeos em Comala/Colima de fevereiro de 2026.\n\n[S1] Série histórica mexicana de comércio legal e ilegal envolvendo 31.019 psitacídeos de 22 espécies encontrou captura seletiva associada à atratividade e ao preço. Diferentemente da ocorrência de Atotonilco, a fiscalização de Colima distingue quatro periquitos-atoleros e dois guayaberos; essa composição permite checar documentação espécie por espécie e eventual distribuição desigual da captura. A literatura não confirma que essas seis aves tenham vindo da natureza ou passado pelo mesmo fornecedor de outros episódios.",
+      "context_en": "[O/N] PROFEPA's archive lists a 16 October release while local coverage dated 20–21 October details the six birds. The exact seizure date is unclear; event_date=null. No documented origin or trade route. Distinct from February 2026 five-parrot seizure in Comala.\n\n[S1] A Mexican historical dataset of 31,019 legally and illegally traded parrots from 22 species found selective capture patterns associated with attractiveness and price. Unlike the separate Atotonilco incident, the Colima account distinguishes four atolero and two guayabero parakeets, allowing species-by-species scrutiny of legal provenance. The paper does not prove these six were wild-caught or share suppliers with other seizures.",
+      "context_es": "[O/N] El archivo de PROFEPA indica comunicado del 16/10, detallado por medios locales el 20–21/10. No consta fecha exacta del aseguramiento; event_date=null. Sin ruta comercial documentada y distinto del decomiso de cinco aves en Comala en febrero.\n\n[S1] Una serie histórica mexicana de 31.019 psitácidos de 22 especies en comercio legal e ilegal detectó captura selectiva asociada a atractivo y precio. A diferencia del caso independiente de Atotonilco, en Colima se describen cuatro pericos atoleros y dos guayaberos, lo que permite comprobar procedencia por especie. El estudio no prueba captura silvestre de estas seis aves ni proveedores comunes.",
+      "references_text_pt": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/\n[S1] Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos — https://doi.org/10.1371/journal.pone.0107546",
+      "references_text_en": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/\n[S1] Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos — https://doi.org/10.1371/journal.pone.0107546",
+      "references_text_es": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/\n[S1] Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos — https://doi.org/10.1371/journal.pone.0107546",
       "fauna_label_pt": "6 psitacídeos",
       "fauna_label_en": "6 parrots / parakeets",
       "fauna_label_es": "6 psitácidos",
@@ -90777,6 +90854,20 @@
         "date": "2026-10-24",
         "batch": "TG-H 47-case multilingual QA",
         "scope": "secondary field localization"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos",
+          "url": "https://doi.org/10.1371/journal.pone.0107546",
+          "catalog_id": "doi-10.1371-journal.pone.0107546"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation",
+        "grade": "A/B",
+        "basis": "specific article/report findings and case-specific applicability; no operational association implied"
       },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
