@@ -1,0 +1,131 @@
+{
+  "batch": "TG-H-2026-10-14-24-global-followup",
+  "publication_window_start": "2026-10-14",
+  "publication_window_end": "2026-10-24",
+  "scope": "Publication-date search window, event dates preserved distinctly. Seven global geographic fronts; searches PT/ES/EN/FR/DE/ID/TH/RU/AR with local press and official authority preference.",
+  "newly_created_cases": [
+    {
+      "id": "2026-10-16__registro-arapongal-42-captive-birds",
+      "country": "Brasil",
+      "publication_date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "quantity": "42 birds (36 native, 6 exotic)"
+    },
+    {
+      "id": "2026-10-16__ilha-grande-baixao-das-flores-12-wild-birds",
+      "country": "Brasil",
+      "publication_date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "quantity": "12 wild birds"
+    },
+    {
+      "id": "2026-10-14__doornlaagte-groot-marico-waterbuck-meat",
+      "country": "África do Sul",
+      "publication_date": "2026-10-23",
+      "event_date": "2026-10-14",
+      "quantity": "one waterbuck carcass, additional meat unquantified"
+    },
+    {
+      "id": "2026-10-undated__sharqia-eight-illegally-kept-primates",
+      "country": "Egito",
+      "publication_date": "2026-10-20",
+      "event_date": null,
+      "quantity": "eight primates, species unknown"
+    },
+    {
+      "id": "2026-10-16__cariacica-vila-grauna-seven-birds",
+      "country": "Brasil",
+      "publication_date": "2026-10-16",
+      "event_date": "2026-10-16",
+      "quantity": "seven native birds"
+    },
+    {
+      "id": "2026-10-06__bekasi-jatiasih-320kg-pangolin-scales",
+      "country": "Indonésia",
+      "publication_date": "2026-10-23",
+      "event_date": "2026-10-06",
+      "quantity": "approximately 320kg pangolin scales; no individual count"
+    }
+  ],
+  "deduplicated": [
+    {
+      "country": "Alemanha",
+      "case": "Cologne/Bonn 92 reptiles arriving via Istanbul, publicized 15/10",
+      "existing_id": "2026-10-unknown__cologne-bonn-92-reptiles-mexico-istanbul",
+      "source": "https://www.presseportal.de/blaulicht/pm/121251/6371804"
+    },
+    {
+      "country": "Argentina",
+      "case": "Sumalao 17 seized birds, publication 16/10",
+      "existing_id": "2026-10-unknown__sumalao-17-birds-social-media-investigation",
+      "source": "https://inforama.com.ar/actualidad/2026/10/16/secuestraron-17-aves-silvestres-durante-un-allanamiento-en-sumalao/"
+    },
+    {
+      "country": "Filipinas",
+      "case": "General Santos four exotic reptiles (Dadiangas West), 14 Oct",
+      "existing_id": "2026-10-14__general-santos-dadiangas-four-exotic-reptiles",
+      "source": "https://tribune.net.ph/2026/10/21/p70k-in-exotic-wildlife-seized-in-gensan"
+    },
+    {
+      "country": "Omã",
+      "case": "Royal pythons intercepted at Muscat airport, event reported 14 Oct",
+      "existing_id": "2026-10-14__muscat-airport-royal-pythons-number-unspecified"
+    },
+    {
+      "country": "Indonésia",
+      "case": "Merauke taxidermied bird and two cassowary eggs, 18 Oct",
+      "existing_id": "2026-10-18__merauke-mopah-stuffed-bird-2-cassowary-eggs"
+    },
+    {
+      "country": "Indonésia",
+      "case": "Sorong KM Sinabung black lories, 19 Oct",
+      "existing_id": "2026-10-19__sorong-km-sinabung-22-birds"
+    },
+    {
+      "country": "Congo",
+      "case": "Dolisie to Nkayi leopard skin and ivory, 18 Oct",
+      "existing_id": "2026-10-18__nkayi-dolisie-leopard-skin-elephant-tusks"
+    }
+  ],
+  "excluded_not_seizures": [
+    {
+      "country": "México",
+      "case": "Wounded wild owl rescued near El Chinero on 22 Oct",
+      "reason": "Injured free-ranging bird, no human capture/possession or criminal confiscation documented",
+      "source": "https://www.gob.mx/profepa/prensa/marina-guardia-nacional-y-profepa-rescatan-un-ejemplar-de-buho-cornudo-en-el-chinero-baja-california?idiom=es"
+    },
+    {
+      "country": "México",
+      "case": "98 sea turtles hatchlings from 163 confiscated eggs reported 21 Oct",
+      "reason": "August resowing and October recovery announcement; no distinct seizure/date for the eggs; not 98 new confiscations",
+      "source": "https://www.gob.mx/profepa/prensa/en-nayarit-nacen-98-tortugas-marinas-de-huevos-recuperados-de-la-extraccion-ilegal?state=published"
+    },
+    {
+      "country": "México",
+      "case": "17 green iguanas released in Guerrero after voluntary surrender in Querétaro",
+      "reason": "Voluntary surrender, rehabilitation/release; do not count as new trafficking seizure",
+      "source": "https://www.gob.mx/profepa/prensa/profepa-reubica-y-libera-17-iguanas-verdes-en-guerrero"
+    },
+    {
+      "country": "Indonésia",
+      "case": "Banturung weak free-ranging male orangutan rescue 18 Oct",
+      "reason": "Natural injury/dehydration rescue, no illegal possession/trade documented",
+      "source": "https://kabarkalteng.net/2026/10/18/orangutan-jantan-kondisi-lemah-ditemukan-di-kebun-warga-banturung-diamankan/"
+    },
+    {
+      "country": "Índia/Indonésia",
+      "case": "Orangutan repatriation to Indonesia 19 Oct",
+      "reason": "2024 confiscation followed by 2026 repatriation, not a new 2026 seizure",
+      "source": "https://indianexpress.com/article/india/orangutan-rescued-maharashtra-repatriated-indonesia-10927691/"
+    }
+  ],
+  "routes": "No new cartographic route inserted in this follow-up. For Bekasi police mentioned Medan and Tanjung Pinang as distribution endpoints; not proven completed for the confiscated lot. Groot Marico farm and home are investigation sites, not confirmed commercial movement.",
+  "notes": [
+    "Shariqia animal label نسناس left as Primates spp., not a species.",
+    "Bekasi about 320kg versus media 320.85kg explicitly flagged pending evidence.",
+    "Caution: existing Sorong record totals 22 while some sources mention 21 black lories; audit reconciliation separately, not treated as new.",
+    "All individual records generated in PT/EN/ES with approximate coordinates; GitHub case-store workflow compiles asynchronously."
+  ],
+  "audited_on": "2026-10-24",
+  "status": "New sharded files written; latest manifest compilation may lag final two"
+}
