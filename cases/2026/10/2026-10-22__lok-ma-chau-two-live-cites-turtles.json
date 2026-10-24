@@ -17,9 +17,9 @@
   "card_text_pt": "Em 22/10, agentes interceptaram um passageiro que chegava ao posto Lok Ma Chau Spur Line com duas tartarugas vivas em saco plástico; AFCD indicou preliminarmente espécies abrangidas pela CITES.",
   "card_text_en": "On 22 October officers intercepted an incoming passenger at Lok Ma Chau Spur Line carrying two live turtles in a plastic bag; AFCD preliminarily identified CITES-regulated endangered species.",
   "card_text_es": "El 22 de octubre, agentes interceptaron a un pasajero entrante en Lok Ma Chau Spur Line con dos tortugas vivas en una bolsa; AFCD identificó preliminarmente especies reguladas por CITES.",
-  "context_pt": "[O] Comunicado oficial publicado em 23/10 sobre fiscalização de 22/10. Valor estimado HK$ 3.000. Identificação preliminar sem espécie nominal publicada. Deslocamento de entrada ao território comprovado, mas origem geográfica específica anterior e itinerário não definidos; não desenhar rota inferida.",
-  "context_en": "[O] Official release 23 October dates the interception to 22 October. Estimated value HKD 3,000. No confirmed species-level names. Incoming passenger known, but geographic origin and specific itinerary not evidenced: no inferred route.",
-  "context_es": "[O] Comunicado oficial del 23/10 sobre la intervención del 22/10. Valor estimado HKD 3.000. Sin identificación taxonómica específica confirmada. No hay origen ni itinerario suficientemente documentados para trazar ruta.",
+  "context_pt": "[O] Comunicado oficial publicado em 23/10 sobre fiscalização de 22/10. Valor estimado HK$ 3.000. Identificação preliminar sem espécie nominal publicada. Deslocamento de entrada ao território comprovado, mas origem geográfica específica anterior e itinerário não definidos; não desenhar rota inferida.\n\n[S1] Monitoramento durante 12 meses comparou redes sociais, fórum online e o maior mercado físico de quelônios de Hong Kong e registrou maior diversidade de espécies e vendedores nas redes sociais, inclusive anúncios potencialmente ilegais e de táxons CITES. Para os dois quelônios interceptados em Lok Ma Chau, o resultado orienta a busca por ofertas digitais e documentação de origem caso existam indícios adicionais; não demonstra que esses exemplares foram anunciados online, nem identifica espécie ou rota anterior à fronteira.",
+  "context_en": "[O] Official release 23 October dates the interception to 22 October. Estimated value HKD 3,000. No confirmed species-level names. Incoming passenger known, but geographic origin and specific itinerary not evidenced: no inferred route.\n\n[S1] A 12-month Hong Kong study compared social media, an internet forum and the largest physical turtle market; social media hosted the most species and sellers, including potentially illegal and CITES-listed offers. For the two turtles intercepted at Lok Ma Chau, this suggests checking advertisements and provenance documents if case-specific leads exist. It does not show that these animals were advertised online or reveal species or earlier routes.",
+  "context_es": "[O] Comunicado oficial del 23/10 sobre la intervención del 22/10. Valor estimado HKD 3.000. Sin identificación taxonómica específica confirmada. No hay origen ni itinerario suficientemente documentados para trazar ruta.\n\n[S1] Un estudio de 12 meses en Hong Kong comparó redes sociales, foro digital y el mayor mercado físico de quelonios; las redes reunían más especies y vendedores, incluidas ofertas potencialmente ilegales y de taxones CITES. En Lok Ma Chau sugiere verificar anuncios y documentos de procedencia solo si existen indicios específicos; no demuestra que las dos tortugas fueran ofertadas online ni identifica especies o trayectos anteriores.",
   "fauna_groups_aggregated": [
     "Répteis"
   ],
@@ -39,7 +39,7 @@
   "geographic_note_pt": "Coordenada generalizada da região citada, não representa o ponto exato da apreensão.",
   "geographic_note_en": "Generalized reported area, not the exact seizure point.",
   "geographic_note_es": "Zona aproximada, no el punto exacto de incautación.",
-  "references_text_pt": "[O/N] Hong Kong Customs (comunicado oficial) — https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+  "references_text_pt": "[O/N] Hong Kong Customs (comunicado oficial) — https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm\n[S1] Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong — https://doi.org/10.1016/j.biocon.2021.109245",
   "route_audit_note_pt": "Nenhum segmento de rota origem–destino comprovado com precisão suficiente.",
   "quantity_unassigned": 0,
   "quantity_note_pt": "Contagem de espécimes, sem inferir grupos adicionais.",
@@ -55,14 +55,28 @@
   "route_audit_status": "NO_DOCUMENTED_ROUTE",
   "quantity_note_en": "Two live turtles seized; species identification preliminary.",
   "quantity_note_es": "Dos tortugas vivas decomisadas; identificación específica preliminar.",
-  "references_text_en": "Sources: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+  "references_text_en": "Sources: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm\n[S1] Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong — https://doi.org/10.1016/j.biocon.2021.109245",
   "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
-  "references_text_es": "Fuentes: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+  "references_text_es": "Fuentes: https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm\n[S1] Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong — https://doi.org/10.1016/j.biocon.2021.109245",
   "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
   "editorial_review": {
     "date": "2026-10-24",
     "batch": "TG-H 47-case multilingual QA",
     "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
     "severity": "metadata_localization"
+  },
+  "context_references": [
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Sung et al., Biological Conservation (2021), estudo de 12 meses do comércio de quelônios em Hong Kong",
+      "url": "https://doi.org/10.1016/j.biocon.2021.109245",
+      "catalog_id": "doi-10.1016-j.biocon.2021.109245"
+    }
+  ],
+  "context_enrichment": {
+    "version": "2026-10-24-SN-continuation",
+    "grade": "A/B",
+    "basis": "specific article/report findings and case-specific applicability; no operational association implied"
   }
 }

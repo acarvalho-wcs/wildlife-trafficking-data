@@ -26,12 +26,12 @@
   "card_text_pt": "Em 19/10, após denúncia, a PROFEPA encontrou quatro papagaios em gaiolas sem comprovação de procedência legal: dois de cabeça-amarela, um de bochecha-amarela e um de nuca-amarela.",
   "card_text_en": "On 19 October, PROFEPA found four parrots in cages without valid provenance records following a complaint: two yellow-headed, one yellow-cheeked and one yellow-naped parrot.",
   "card_text_es": "El 19/10, tras una denuncia, PROFEPA encontró cuatro loros en jaulas sin acreditar procedencia legal: dos de cabeza amarilla, uno de cachetes amarillos y uno de nuca amarilla.",
-  "context_pt": "[O/N] Imprensa de 20/10, baseada em relatos da PROFEPA, informa apreensão de quatro aves em estacionamento em Atotonilco el Grande em 19/10. Dois indivíduos cabeça-amarela, um bochecha-amarela e um nuca-amarela. Sem sistemas de marcação; animais encaminhados a instalação autorizada. Não somar aos seis psitacídeos apreendidos em Colima, que constituem outra ocorrência. Espécies científicas não determinadas pela fonte, logo nomes comuns preservados.",
-  "context_en": "[O/N] 20 October report based on PROFEPA attributes the 19 October parking-lot inspection to Atotonilco el Grande. Four parrots seized: two yellow-headed, one yellow-cheeked and one yellow-naped. This is a separate event from Colima's six parrots. Scientific identifications remain unconfirmed and no trade route is documented.",
-  "context_es": "[O/N] Reportaje del 20/10 basado en PROFEPA sitúa el decomiso de cuatro loros el 19/10 en Atotonilco el Grande. Es independiente de los seis de Colima. No se identificaron científicamente ni se documentó origen o ruta.",
-  "references_text_pt": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
-  "references_text_en": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
-  "references_text_es": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
+  "context_pt": "[O/N] Imprensa de 20/10, baseada em relatos da PROFEPA, informa apreensão de quatro aves em estacionamento em Atotonilco el Grande em 19/10. Dois indivíduos cabeça-amarela, um bochecha-amarela e um nuca-amarela. Sem sistemas de marcação; animais encaminhados a instalação autorizada. Não somar aos seis psitacídeos apreendidos em Colima, que constituem outra ocorrência. Espécies científicas não determinadas pela fonte, logo nomes comuns preservados.\n\n[S1] Análise histórica de 31.019 indivíduos de 22 espécies de psitacídeos mexicanos em dados legais e ilegais (1981–2005) encontrou associação entre atributos atrativos, como coloração e capacidade vocal, preços e captura seletiva. Como a fonte da apreensão de Atotonilco distingue papagaios por nomes populares de cabeça ou nuca amarela, identificar cientificamente os quatro indivíduos e conferir marcação/procedência é essencial para avaliar pressão sobre espécies específicas. O estudo não identifica estes exemplares nem prova um mercado de destino.",
+  "context_en": "[O/N] 20 October report based on PROFEPA attributes the 19 October parking-lot inspection to Atotonilco el Grande. Four parrots seized: two yellow-headed, one yellow-cheeked and one yellow-naped. This is a separate event from Colima's six parrots. Scientific identifications remain unconfirmed and no trade route is documented.\n\n[S1] A historical Mexican analysis of 31,019 parrots from 22 species in legal and illegal trade (1981–2005) associated attractive traits such as coloration and vocal ability with prices and selective capture. Because the Atotonilco report differentiates the four parrots only by yellow head, cheek or nape common names, species-level identification and provenance checks matter. The study neither identifies these individuals nor proves a destination market.",
+  "context_es": "[O/N] Reportaje del 20/10 basado en PROFEPA sitúa el decomiso de cuatro loros el 19/10 en Atotonilco el Grande. Es independiente de los seis de Colima. No se identificaron científicamente ni se documentó origen o ruta.\n\n[S1] Un análisis histórico mexicano de 31.019 individuos de 22 especies de psitácidos (1981–2005) relacionó coloración y capacidad de imitación con precios y captura selectiva. Como el reporte de Atotonilco diferencia los cuatro loros por nombres comunes asociados a cabeza, mejillas y nuca amarillas, resulta importante confirmar especie, marcado y procedencia. El estudio no identifica estos animales ni demuestra mercado final.",
+  "references_text_pt": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/\n[S1] Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE — https://doi.org/10.1371/journal.pone.0107546",
+  "references_text_en": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/\n[S1] Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE — https://doi.org/10.1371/journal.pone.0107546",
+  "references_text_es": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/\n[S1] Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE — https://doi.org/10.1371/journal.pone.0107546",
   "fauna_label_pt": "4 papagaios",
   "fauna_label_en": "4 parrots",
   "fauna_label_es": "4 loros",
@@ -64,5 +64,19 @@
     "date": "2026-10-24",
     "batch": "TG-H 47-case multilingual QA",
     "scope": "secondary field localization"
+  },
+  "context_references": [
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Tella & Hiraldo (2014), preferência seletiva por psitacídeos no México, PLOS ONE",
+      "url": "https://doi.org/10.1371/journal.pone.0107546",
+      "catalog_id": "doi-10.1371-journal.pone.0107546"
+    }
+  ],
+  "context_enrichment": {
+    "version": "2026-10-24-SN-continuation",
+    "grade": "A/B",
+    "basis": "specific article/report findings and case-specific applicability; no operational association implied"
   }
 }

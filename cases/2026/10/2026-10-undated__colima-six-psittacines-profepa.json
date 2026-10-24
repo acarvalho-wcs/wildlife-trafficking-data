@@ -26,12 +26,12 @@
   "card_text_pt": "Fiscalização constatou seis psitacídeos mantidos sem comprovação de procedência legal em residência de Colima: quatro periquitos-atoleros e dois periquitos-guayaberos. Os animais ficaram sob custódia de uma UMA.",
   "card_text_en": "Inspectors found six parrots held without proof of legal origin in a residence in Colima: four orange-fronted parakeets and two lilac-crowned parrots. They were transferred into authorized wildlife custody.",
   "card_text_es": "Inspectores hallaron seis psitácidos sin acreditar procedencia legal en un domicilio de Colima: cuatro pericos atoleros y dos guayaberos, trasladados a una UMA.",
-  "context_pt": "[O/N] Arquivo de comunicados PROFEPA relaciona a notícia à data de publicação 16/10, enquanto imprensa local detalhou o caso em 20–21/10. Fonte relata denúncia atendida em 16/10, mas a data exata da apreensão não foi comprovada inequivocamente; event_date=null. Seis exemplares contados individualmente, sem rota nem localidade de coleta documentadas. Não confundir com outra apreensão de cinco psitacídeos em Comala/Colima de fevereiro de 2026.",
-  "context_en": "[O/N] PROFEPA's archive lists a 16 October release while local coverage dated 20–21 October details the six birds. The exact seizure date is unclear; event_date=null. No documented origin or trade route. Distinct from February 2026 five-parrot seizure in Comala.",
-  "context_es": "[O/N] El archivo de PROFEPA indica comunicado del 16/10, detallado por medios locales el 20–21/10. No consta fecha exacta del aseguramiento; event_date=null. Sin ruta comercial documentada y distinto del decomiso de cinco aves en Comala en febrero.",
-  "references_text_pt": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
-  "references_text_en": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
-  "references_text_es": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
+  "context_pt": "[O/N] Arquivo de comunicados PROFEPA relaciona a notícia à data de publicação 16/10, enquanto imprensa local detalhou o caso em 20–21/10. Fonte relata denúncia atendida em 16/10, mas a data exata da apreensão não foi comprovada inequivocamente; event_date=null. Seis exemplares contados individualmente, sem rota nem localidade de coleta documentadas. Não confundir com outra apreensão de cinco psitacídeos em Comala/Colima de fevereiro de 2026.\n\n[S1] Série histórica mexicana de comércio legal e ilegal envolvendo 31.019 psitacídeos de 22 espécies encontrou captura seletiva associada à atratividade e ao preço. Diferentemente da ocorrência de Atotonilco, a fiscalização de Colima distingue quatro periquitos-atoleros e dois guayaberos; essa composição permite checar documentação espécie por espécie e eventual distribuição desigual da captura. A literatura não confirma que essas seis aves tenham vindo da natureza ou passado pelo mesmo fornecedor de outros episódios.",
+  "context_en": "[O/N] PROFEPA's archive lists a 16 October release while local coverage dated 20–21 October details the six birds. The exact seizure date is unclear; event_date=null. No documented origin or trade route. Distinct from February 2026 five-parrot seizure in Comala.\n\n[S1] A Mexican historical dataset of 31,019 legally and illegally traded parrots from 22 species found selective capture patterns associated with attractiveness and price. Unlike the separate Atotonilco incident, the Colima account distinguishes four atolero and two guayabero parakeets, allowing species-by-species scrutiny of legal provenance. The paper does not prove these six were wild-caught or share suppliers with other seizures.",
+  "context_es": "[O/N] El archivo de PROFEPA indica comunicado del 16/10, detallado por medios locales el 20–21/10. No consta fecha exacta del aseguramiento; event_date=null. Sin ruta comercial documentada y distinto del decomiso de cinco aves en Comala en febrero.\n\n[S1] Una serie histórica mexicana de 31.019 psitácidos de 22 especies en comercio legal e ilegal detectó captura selectiva asociada a atractivo y precio. A diferencia del caso independiente de Atotonilco, en Colima se describen cuatro pericos atoleros y dos guayaberos, lo que permite comprobar procedencia por especie. El estudio no prueba captura silvestre de estas seis aves ni proveedores comunes.",
+  "references_text_pt": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/\n[S1] Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos — https://doi.org/10.1371/journal.pone.0107546",
+  "references_text_en": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/\n[S1] Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos — https://doi.org/10.1371/journal.pone.0107546",
+  "references_text_es": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/\n[S1] Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos — https://doi.org/10.1371/journal.pone.0107546",
   "fauna_label_pt": "6 psitacídeos",
   "fauna_label_en": "6 parrots / parakeets",
   "fauna_label_es": "6 psitácidos",
@@ -64,5 +64,19 @@
     "date": "2026-10-24",
     "batch": "TG-H 47-case multilingual QA",
     "scope": "secondary field localization"
+  },
+  "context_references": [
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Tella & Hiraldo (2014), comércio de 22 espécies mexicanas de psitacídeos",
+      "url": "https://doi.org/10.1371/journal.pone.0107546",
+      "catalog_id": "doi-10.1371-journal.pone.0107546"
+    }
+  ],
+  "context_enrichment": {
+    "version": "2026-10-24-SN-continuation",
+    "grade": "A/B",
+    "basis": "specific article/report findings and case-specific applicability; no operational association implied"
   }
 }
