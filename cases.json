@@ -90474,8 +90474,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-twohour-live-1",
       "country": "Itália",
       "location_label_pt": "Vermezzo con Zelo, Milão, Itália",
-      "location_label_en": "Vermezzo con Zelo, Milão, Itália",
-      "location_label_es": "Vermezzo con Zelo, Milão, Itália",
+      "location_label_en": "Vermezzo con Zelo, Milan, Italy",
+      "location_label_es": "Vermezzo con Zelo, Milán, Italia",
       "event_date": null,
       "publication_date": "2026-10-23",
       "event_date_precision": "unknown",
@@ -90501,8 +90501,8 @@
       "context_es": "[N] ANSA del 23/10 indica intervención en días anteriores sin fecha exacta. 67 aves muertas; armas excluidas. Evento diferente al de Ozzero, sin ruta documentada.",
       "references_text_pt": "[O/N] ANSA / Carabinieri Forestali di Magenta — https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
       "fauna_label_pt": "Aves",
-      "fauna_label_en": "Aves",
-      "fauna_label_es": "Aves",
+      "fauna_label_en": "67 illegally hunted birds",
+      "fauna_label_es": "67 aves cazadas ilegalmente",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -90526,6 +90526,17 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting.",
+      "references_text_en": "Source: https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "references_text_es": "Fuente: https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -90564,8 +90575,8 @@
       "references_text_en": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
       "references_text_es": "https://ventanaver.mx/principal/profepa-asegura-10-loros-y-pericos-en-visitas-de-inspeccion-vivian-en-condiciones-insalubres-en-colima-e-hidalgo/",
       "fauna_label_pt": "4 papagaios",
-      "fauna_label_en": "4 papagaios",
-      "fauna_label_es": "4 papagaios",
+      "fauna_label_en": "4 parrots",
+      "fauna_label_es": "4 loros",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -90587,6 +90598,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": "2026-10-19T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90625,8 +90645,8 @@
       "references_text_en": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
       "references_text_es": "https://www.gob.mx/profepa/archivo/prensa ; https://www.colimanoticias.com/decomisa-la-profepa-4-pericos-atoleros-y-2-guayaberos-en-colima/",
       "fauna_label_pt": "6 psitacídeos",
-      "fauna_label_en": "6 psitacídeos",
-      "fauna_label_es": "6 psitacídeos",
+      "fauna_label_en": "6 parrots / parakeets",
+      "fauna_label_es": "6 psitácidos",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -90648,6 +90668,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -90665,8 +90694,8 @@
       },
       "coordinate_precision": "terminal_city_generalized",
       "location_label_pt": "Terminal de transporte de Ipiales, Nariño, Colômbia",
-      "location_label_en": "Terminal de transporte de Ipiales, Nariño, Colômbia",
-      "location_label_es": "Terminal de transporte de Ipiales, Nariño, Colômbia",
+      "location_label_en": "Transport terminal in Ipiales, Nariño, Colombia",
+      "location_label_es": "Terminal de transporte de Ipiales, Nariño, Colombia",
       "geographic_note_pt": "Coordenada generalizada para a localidade citada; não representa o ponto exato da apreensão.",
       "geographic_note_en": "Generalized locality, not exact seizure site.",
       "geographic_note_es": "Ubicación aproximada, no punto exacto de intervención.",
@@ -90686,8 +90715,8 @@
       "references_text_en": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en",
       "references_text_es": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en",
       "fauna_label_pt": "1 macaco-de-cheiro",
-      "fauna_label_en": "1 macaco-de-cheiro",
-      "fauna_label_es": "1 macaco-de-cheiro",
+      "fauna_label_en": "1 squirrel monkey",
+      "fauna_label_es": "1 mono ardilla",
       "fauna_groups_aggregated": [
         "Mamíferos"
       ],
@@ -90709,6 +90738,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -90718,7 +90756,7 @@
       "ingestion_batch": "TG-H-2026-10-14-24-continuation",
       "country": "Brasil",
       "location_label_pt": "Baixão das Flores, Ilha Grande (PI), Brasil",
-      "location_label_en": "Baixão das Flores, Ilha Grande (PI), Brasil",
+      "location_label_en": "Baixão das Flores, Ilha Grande (PI), Brazil",
       "location_label_es": "Baixão das Flores, Ilha Grande (PI), Brasil",
       "publication_date": "2026-10-17",
       "event_date": "2026-10-16",
@@ -90747,7 +90785,7 @@
       "references_text_en": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/",
       "references_text_es": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/",
       "fauna_label_pt": "12 aves silvestres",
-      "fauna_label_en": "12 aves silvestres",
+      "fauna_label_en": "12 wild birds",
       "fauna_label_es": "12 aves silvestres",
       "fauna_groups_aggregated": [
         "Aves"
@@ -90770,6 +90808,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": "2026-10-16T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90779,8 +90826,8 @@
       "ingestion_batch": "TG-H-2026-10-14-24-continuation",
       "country": "Brasil",
       "location_label_pt": "Bairro Arapongal, Registro (SP), Brasil",
-      "location_label_en": "Bairro Arapongal, Registro (SP), Brasil",
-      "location_label_es": "Bairro Arapongal, Registro (SP), Brasil",
+      "location_label_en": "Neighborhood Arapongal, Registro (SP), Brazil",
+      "location_label_es": "Barrio Arapongal, Registro (SP), Brasil",
       "publication_date": "2026-10-17",
       "event_date": "2026-10-16",
       "event_date_precision": "day",
@@ -90808,8 +90855,8 @@
       "references_text_en": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/",
       "references_text_es": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/",
       "fauna_label_pt": "42 aves (36 nativas silvestres; 6 exóticas)",
-      "fauna_label_en": "42 aves (36 nativas silvestres; 6 exóticas)",
-      "fauna_label_es": "42 aves (36 nativas silvestres; 6 exóticas)",
+      "fauna_label_en": "42 birds (36 native wild, 6 exotic)",
+      "fauna_label_es": "42 aves (36 nativas silvestres y 6 exóticas)",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -90831,6 +90878,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": "2026-10-16T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90840,8 +90896,8 @@
       "ingestion_batch": "TG-H-2026-10-14-24-pending-resolution-20261024",
       "country": "Quênia",
       "location_label_pt": "Região de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Quênia",
-      "location_label_en": "Região de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Quênia",
-      "location_label_es": "Região de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Quênia",
+      "location_label_en": "Region of Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Kenya",
+      "location_label_es": "Región de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Kenia",
       "publication_date": "2026-10-17",
       "event_date": "2026-10-17",
       "event_date_precision": "day",
@@ -90869,8 +90925,8 @@
       "references_text_en": "https://peopledaily.digital/news/4-persons-of-interest-arrested-with-38-6-kg-of-suspected-game-meat-in-laikipia; https://nation.africa/kenya/news/boda-to-border-report-lays-bare-thriving-bush-meat-pipeline-in-kenya-5641018",
       "references_text_es": "https://peopledaily.digital/news/4-persons-of-interest-arrested-with-38-6-kg-of-suspected-game-meat-in-laikipia; https://nation.africa/kenya/news/boda-to-border-report-lays-bare-thriving-bush-meat-pipeline-in-kenya-5641018",
       "fauna_label_pt": "38,6 kg de carne silvestre (espécie não informada)",
-      "fauna_label_en": "38,6 kg de carne silvestre (espécie não informada)",
-      "fauna_label_es": "38,6 kg de carne silvestre (espécie não informada)",
+      "fauna_label_en": "38.6 kg of suspected wild meat (species unknown)",
+      "fauna_label_es": "38,6 kg de presunta carne silvestre (especie desconocida)",
       "fauna_groups_aggregated": [],
       "taxon_text": "Mamíferos? origem taxonômica não identificada; carne silvestre suspeita de espécie não divulgada",
       "modal_primary": "Não informado",
@@ -90890,6 +90946,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty.",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": "2026-10-17T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90899,7 +90964,7 @@
       "ingestion_batch": "TG-H-2026-10-14-24-pending-resolution-20261024",
       "country": "Brasil",
       "location_label_pt": "Maquiné, Rio Grande do Sul, Brasil",
-      "location_label_en": "Maquiné, Rio Grande do Sul, Brasil",
+      "location_label_en": "Maquiné, Rio Grande do Sul, Brazil",
       "location_label_es": "Maquiné, Rio Grande do Sul, Brasil",
       "publication_date": "2026-10-22",
       "event_date": "2026-10-22",
@@ -90928,8 +90993,8 @@
       "references_text_en": "https://litoralmania.com.br/fiscalizacao-reciclagens-arma-municoes-maquine/",
       "references_text_es": "https://litoralmania.com.br/fiscalizacao-reciclagens-arma-municoes-maquine/",
       "fauna_label_pt": "Aves silvestres em número desconhecido",
-      "fauna_label_en": "Aves silvestres em número desconhecido",
-      "fauna_label_es": "Aves silvestres em número desconhecido",
+      "fauna_label_en": "Wild birds, number unknown",
+      "fauna_label_es": "Aves silvestres, cantidad desconocida",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -90951,6 +91016,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty.",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90960,7 +91034,7 @@
       "ingestion_batch": "TG-H-2026-10-14-24-pending-resolution-20261024",
       "country": "Estados Unidos",
       "location_label_pt": "Condado de Angelina, Texas, Estados Unidos",
-      "location_label_en": "Condado de Angelina, Texas, Estados Unidos",
+      "location_label_en": "County of Angelina, Texas, United States",
       "location_label_es": "Condado de Angelina, Texas, Estados Unidos",
       "publication_date": "2026-10-24",
       "event_date": null,
@@ -90989,8 +91063,8 @@
       "references_text_en": "https://www.fox4news.com/news/texas-game-wardens-cite-man-after-located-alligator-tied-up-pond",
       "references_text_es": "https://www.fox4news.com/news/texas-game-wardens-cite-man-after-located-alligator-tied-up-pond",
       "fauna_label_pt": "1 jacaré vivo",
-      "fauna_label_en": "1 jacaré vivo",
-      "fauna_label_es": "1 jacaré vivo",
+      "fauna_label_en": "1 live alligator",
+      "fauna_label_es": "1 aligátor vivo",
       "fauna_groups_aggregated": [
         "Répteis"
       ],
@@ -91014,6 +91088,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty.",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -91023,8 +91106,8 @@
       "ingestion_batch": "TG-H-2026-10-14-24-pending-resolution-20261024",
       "country": "África do Sul",
       "location_label_pt": "Área de Groblersdal / Bloompoort–Vaalfontein Road, Limpopo, África do Sul",
-      "location_label_en": "Área de Groblersdal / Bloompoort–Vaalfontein Road, Limpopo, África do Sul",
-      "location_label_es": "Área de Groblersdal / Bloompoort–Vaalfontein Road, Limpopo, África do Sul",
+      "location_label_en": "Area of Groblersdal / Bloompoort–Vaalfontein Road, Limpopo, South Africa",
+      "location_label_es": "Área de Groblersdal / Bloompoort–Vaalfontein Road, Limpopo, Sudáfrica",
       "publication_date": "2026-10-24",
       "event_date": null,
       "event_date_precision": "unknown",
@@ -91052,8 +91135,8 @@
       "references_text_en": "https://www.accidents.co.za/2026/10/24/zimbabwean-national-arrested-for-illegal-hunting/; https://www.thesouthafrican.com/news/zimbabwe/zimbabwean-man-arrested-after-two-sable-antelopes-killed-in-limpopo/",
       "references_text_es": "https://www.accidents.co.za/2026/10/24/zimbabwean-national-arrested-for-illegal-hunting/; https://www.thesouthafrican.com/news/zimbabwe/zimbabwean-man-arrested-after-two-sable-antelopes-killed-in-limpopo/",
       "fauna_label_pt": "2 antílopes-sable mortos",
-      "fauna_label_en": "2 antílopes-sable mortos",
-      "fauna_label_es": "2 antílopes-sable mortos",
+      "fauna_label_en": "2 dead sable antelopes",
+      "fauna_label_es": "2 antílopes sable muertos",
       "fauna_groups_aggregated": [
         "Mamíferos"
       ],
@@ -91077,6 +91160,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty.",
+      "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+      "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+      "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+      "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
