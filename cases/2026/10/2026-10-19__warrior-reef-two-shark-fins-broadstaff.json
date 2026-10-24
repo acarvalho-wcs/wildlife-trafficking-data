@@ -26,10 +26,10 @@
   "card_text_pt": "Em 19/10, o HMAS Cape Naturaliste interceptou próximo a Warrior Reef barco com tripulação de Papua-Nova Guiné e duas barbatanas de tubarão, além de equipamento pesqueiro; embarcação apreendida.",
   "card_text_en": "On 19 October, HMAS Cape Naturaliste intercepted a vessel with Papua New Guinea crew near Warrior Reef, finding two shark fins and fishing gear; the vessel was seized.",
   "card_text_es": "El 19/10, HMAS Cape Naturaliste interceptó cerca de Warrior Reef una embarcación tripulada por ciudadanos de Papúa Nueva Guinea con dos aletas de tiburón y equipos de pesca; fue decomisada.",
-  "context_pt": "[O] Comunicado oficial Australian Border Force de 23/10 confirma a abordagem de 19/10 em águas australianas perto de Warrior Reef. Duas barbatanas são dois itens e não dois animais. A nacionalidade da tripulação não prova porto de origem, embarque do material nem rota com Papua-Nova Guiné. A transferência posterior de tripulantes a autoridades de PNG é medida administrativa, não trecho de tráfico.",
-  "context_en": "[O] ABF release dated 23 October confirms 19 October interception near Warrior Reef, two shark fins aboard a suspected illegal-fishing vessel. Two fins are items rather than two sharks. PNG nationality of crew and later handover do not establish a wildlife transport route or source port.",
-  "context_es": "[O] Comunicado de ABF del 23/10 confirma interceptación del 19/10 cerca de Warrior Reef, con dos aletas. Son dos piezas, no dos tiburones. Nacionalidad de tripulación de PNG y entrega posterior no prueban puerto de origen ni ruta de tráfico.",
-  "references_text_pt": "[O/N] Australian Border Force / Maritime Border Command — https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx",
+  "context_pt": "[O] Comunicado oficial Australian Border Force de 23/10 confirma a abordagem de 19/10 em águas australianas perto de Warrior Reef. Duas barbatanas são dois itens e não dois animais. A nacionalidade da tripulação não prova porto de origem, embarque do material nem rota com Papua-Nova Guiné. A transferência posterior de tripulantes a autoridades de PNG é medida administrativa, não trecho de tráfico.\n\n[S1] Pesquisa no Atlântico Sudoeste testou barcoding e mini-barcoding de DNA para identificar tubarões e raias em produtos processados, nos quais caracteres morfológicos são insuficientes. A aplicação potencial às duas barbatanas de Warrior Reef é esclarecer a espécie para avaliação de proteção e rastreabilidade, mas o estudo ocorreu em outra região e não determina a origem das barbatanas australianas. Duas barbatanas continuam sendo dois itens, não necessariamente dois animais.",
+  "context_en": "[O] ABF release dated 23 October confirms 19 October interception near Warrior Reef, two shark fins aboard a suspected illegal-fishing vessel. Two fins are items rather than two sharks. PNG nationality of crew and later handover do not establish a wildlife transport route or source port.\n\n[S1] Southwestern Atlantic research tested DNA barcoding and mini-barcoding to identify sharks and rays from processed products when morphology is inadequate. Such forensic identification could establish the species represented by two Warrior Reef fins, but the Atlantic study neither identifies these fins nor proves their provenance. Two fins are two items, not necessarily two sharks.",
+  "context_es": "[O] Comunicado de ABF del 23/10 confirma interceptación del 19/10 cerca de Warrior Reef, con dos aletas. Son dos piezas, no dos tiburones. Nacionalidad de tripulación de PNG y entrega posterior no prueban puerto de origen ni ruta de tráfico.\n\n[S1] Una investigación del Atlántico sudoccidental evaluó códigos de barras y mini-barcoding de ADN para identificar tiburones y rayas a partir de productos procesados. Esa técnica podría esclarecer qué especie representan las dos aletas de Warrior Reef, pero el estudio atlántico no las identifica ni demuestra procedencia. Dos aletas son dos piezas, no necesariamente dos tiburones.",
+  "references_text_pt": "[O/N] Australian Border Force / Maritime Border Command — https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx\n[S1] Coupled DNA barcoding and mini-barcoding approaches expose illegal trade of endangered elasmobranchs from the Southwestern Atlantic — https://doi.org/10.1007/s11160-025-09977-0",
   "fauna_label_pt": "Peixes",
   "fauna_label_en": "2 shark fins (wildlife items)",
   "fauna_label_es": "2 aletas de tiburón (piezas)",
@@ -58,14 +58,27 @@
   "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null.",
   "quantity_note_en": "Two shark fins, not evidence of two individual sharks.",
   "quantity_note_es": "Dos aletas de tiburón, sin demostrar que procedan de dos tiburones.",
-  "references_text_en": "Sources: https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx",
+  "references_text_en": "Sources: https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx\n[S1] Coupled DNA barcoding and mini-barcoding approaches expose illegal trade of endangered elasmobranchs from the Southwestern Atlantic — https://doi.org/10.1007/s11160-025-09977-0",
   "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
-  "references_text_es": "Fuentes: https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx",
+  "references_text_es": "Fuentes: https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx\n[S1] Coupled DNA barcoding and mini-barcoding approaches expose illegal trade of endangered elasmobranchs from the Southwestern Atlantic — https://doi.org/10.1007/s11160-025-09977-0",
   "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
   "editorial_review": {
     "date": "2026-10-24",
     "batch": "TG-H 47-case multilingual QA",
     "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
     "severity": "metadata_localization"
+  },
+  "context_references": [
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Coupled DNA barcoding and mini-barcoding approaches expose illegal trade of endangered elasmobranchs from the Southwestern Atlantic",
+      "url": "https://doi.org/10.1007/s11160-025-09977-0",
+      "catalog_id": "doi-10.1007-s11160-025-09977-0"
+    }
+  ],
+  "context_enrichment": {
+    "version": "2026-10-24-SN-4",
+    "basis": "specific literature finding linked to case method/species; no case association assumed"
   }
 }
