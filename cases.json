@@ -89788,7 +89788,7 @@
       "fauna_groups_aggregated": [
         "Invertebrados"
       ],
-      "taxon_text": "Cangrejo rojo spp. (identificação específica não confirmada)",
+      "taxon_text": "Brachyura (caranguejos-vermelhos; espécie não identificada)",
       "modal_primary": "Aéreo",
       "modal_label_pt": "Aéreo",
       "aggregate_operation": false,
@@ -89816,8 +89816,7 @@
       "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
       "editorial_review": {
         "date": "2026-10-24",
-        "batch": "TG-H 47-case multilingual QA",
-        "scope": "translated metadata, no factual changes"
+        "scope": "Evidence-bounded taxonomy and event-date QA"
       },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
@@ -90928,7 +90927,7 @@
       "fauna_label_en": "38.6 kg of suspected wild meat (species unknown)",
       "fauna_label_es": "38,6 kg de presunta carne silvestre (especie desconocida)",
       "fauna_groups_aggregated": [],
-      "taxon_text": "Mamíferos? origem taxonômica não identificada; carne silvestre suspeita de espécie não divulgada",
+      "taxon_text": "Carne de fauna silvestre suspeita; identificação taxonômica desconhecida",
       "modal_primary": "Não informado",
       "modal_label_pt": "Não informado",
       "aggregate_operation": false,
@@ -90952,8 +90951,7 @@
       "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
       "editorial_review": {
         "date": "2026-10-24",
-        "batch": "TG-H 47-case multilingual QA",
-        "scope": "secondary field localization"
+        "scope": "Evidence-bounded taxonomy and event-date QA"
       },
       "occurred_at": "2026-10-17T00:00:00Z",
       "occurred_at_precision": "day"
@@ -91283,7 +91281,7 @@
       "fauna_groups_aggregated": [
         "Mamíferos"
       ],
-      "taxon_text": "Primates spp. (denominação árabe vernacular النسناس; espécie indeterminada)",
+      "taxon_text": "Primates (gênero e espécie não identificados; termo árabe النسناس)",
       "modal_primary": "Não informado",
       "modal_label_pt": "Não informado",
       "aggregate_operation": false,
@@ -91308,8 +91306,7 @@
       "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
       "editorial_review": {
         "date": "2026-10-24",
-        "batch": "TG-H 47-case multilingual QA",
-        "scope": "secondary-field localization"
+        "scope": "Evidence-bounded taxonomy and event-date QA"
       },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
@@ -91834,7 +91831,7 @@
       "fauna_groups_aggregated": [
         "Peixes"
       ],
-      "taxon_text": "Actinopterygii spp. (espécies não identificadas)",
+      "taxon_text": "Actinopterygii (espécies não identificadas)",
       "modal_primary": "Não informado",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -91865,8 +91862,7 @@
       "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
       "editorial_review": {
         "date": "2026-10-24",
-        "batch": "TG-H 47-case multilingual QA",
-        "scope": "secondary-field localization"
+        "scope": "Evidence-bounded taxonomy and event-date QA"
       },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
@@ -92163,8 +92159,8 @@
       "location_label_en": "Torres Strait, northwest of Badu Island, Queensland, Australia",
       "location_label_es": "Estrecho de Torres, noroeste de Badu Island, Queensland, Australia",
       "publication_date": "2026-10-14",
-      "event_date": "2026-09-14",
-      "event_date_precision": "day",
+      "event_date": null,
+      "event_date_precision": "month_only_unresolved_exact_day",
       "coordinates": {
         "lat": -10.05,
         "lon": 142.08
@@ -92182,9 +92178,9 @@
       "card_text_pt": "Barco pesqueiro com oito tripulantes foi interceptado no Estreito de Torres durante a Operação BROADSTAFF. Relatório judicial publicado em 14–15/10 cita 600 kg de tubarões e 500 kg de peixes de recife, correspondentes a intervenção de setembro.",
       "card_text_en": "An eight-crew fishing vessel was intercepted during Operation BROADSTAFF in Torres Strait. A 14–15 October court release reports 600 kg of shark and 500 kg of reef fish from the September interdiction.",
       "card_text_es": "Una embarcación de ocho tripulantes fue interceptada en el estrecho de Torres durante Operación BROADSTAFF. Informe judicial del 14–15 de octubre cita 600 kg de tiburón y 500 kg de pescado de arrecife de la intervención de septiembre.",
-      "context_pt": "[O1–O2] AFMA/ABF divulgaram em 14–15/10 a condenação em Darwin de oito tripulantes de barco interceptado sob Operação BROADSTAFF em setembro. A mesma autoridade anunciou em 22/09 abordagem de 14/09 ao noroeste de Badu Island, com 108 peixes de recife e 29 tubarões, sem massa. O comunicado de outubro apresenta 600 kg de tubarões e 500 kg de peixes de recife, mas não vincula por identificador explícito a publicação anterior: associação operacional provável pela operação, região e data, sujeita à reconciliação com auto oficial. Até confirmação, manter apenas pesos no campo quantitativo, não adicionar 108+29 como indivíduos nem publicar um segundo caso. Sem porto indonésio ou destino documentado: nacionalidade dos oito tripulantes não determina rota.",
-      "context_en": "[O1–O2] AFMA/ABF's October 14–15 court release details a September BROADSTAFF interception with eight crew: 600 kg shark and 500 kg reef fish. ABF's September 22 release separately described a 14 September interception northwest of Badu Island with 108 reef fish and 29 sharks. The likely match is based on operation, area and month, without a shared vessel identifier; reconcile before asserting specimen counts or separate events. Keep weight only; no documented cargo route from Indonesia.",
-      "context_es": "[O1–O2] Informe judicial AFMA/ABF del 14–15/10 sobre interceptación BROADSTAFF en septiembre: ocho tripulantes, 600 kg de tiburón y 500 kg de peces de arrecife. ABF del 22/09 informó una acción del 14/09 al noroeste de Badu Island con 108 peces y 29 tiburones. La equivalencia es probable pero no confirmada por identificador; conservar solo pesos, sin agregar 137 individuos ni crear una segunda incautación. Sin ruta internacional documentada.",
+      "context_pt": "[O1–O2] AFMA/ABF divulgaram em 14–15/10 a condenação em Darwin de oito tripulantes de barco interceptado sob Operação BROADSTAFF em setembro. A mesma autoridade anunciou em 22/09 abordagem de 14/09 ao noroeste de Badu Island, com 108 peixes de recife e 29 tubarões, sem massa. O comunicado de outubro apresenta 600 kg de tubarões e 500 kg de peixes de recife, mas não vincula por identificador explícito a publicação anterior: associação operacional provável pela operação, região e data, sujeita à reconciliação com auto oficial. Até confirmação, manter apenas pesos no campo quantitativo, não adicionar 108+29 como indivíduos nem publicar um segundo caso. Sem porto indonésio ou destino documentado: nacionalidade dos oito tripulantes não determina rota.\n\n[QA] O comunicado de outubro não fornece identificador do navio que permita associá-lo inequivocamente à apreensão de 14/09. Assim, a data específica foi retirada até reconciliação com registro operacional.",
+      "context_en": "[O1–O2] AFMA/ABF's October 14–15 court release details a September BROADSTAFF interception with eight crew: 600 kg shark and 500 kg reef fish. ABF's September 22 release separately described a 14 September interception northwest of Badu Island with 108 reef fish and 29 sharks. The likely match is based on operation, area and month, without a shared vessel identifier; reconcile before asserting specimen counts or separate events. Keep weight only; no documented cargo route from Indonesia.\n\n[QA] The October update lacks a vessel identifier proving this was the 14 September stop. The exact event day is therefore withheld pending official reconciliation.",
+      "context_es": "[O1–O2] Informe judicial AFMA/ABF del 14–15/10 sobre interceptación BROADSTAFF en septiembre: ocho tripulantes, 600 kg de tiburón y 500 kg de peces de arrecife. ABF del 22/09 informó una acción del 14/09 al noroeste de Badu Island con 108 peces y 29 tiburones. La equivalencia es probable pero no confirmada por identificador; conservar solo pesos, sin agregar 137 individuos ni crear una segunda incautación. Sin ruta internacional documentada.\n\n[QA] La actualización de octubre no identifica la embarcación para confirmar que sea la interceptada el 14/09. Se mantiene el día exacto sin determinar.",
       "references_text_pt": "[O1] AFMA, 14/10 — https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters; [O2] ABF — https://www.abf.gov.au/newsroom-subsite/Pages/Operation-BROADSTAFF-maintains-pressure-on-illegal-foreign-fishing-in-Torres-Strait-.aspx",
       "references_text_en": "[O1] AFMA, 14 Oct — https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters; [O2] ABF — https://www.abf.gov.au/newsroom-subsite/Pages/Operation-BROADSTAFF-maintains-pressure-on-illegal-foreign-fishing-in-Torres-Strait-.aspx",
       "references_text_es": "[O1] AFMA, 14/10 — https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters; [O2] ABF — https://www.abf.gov.au/newsroom-subsite/Pages/Operation-BROADSTAFF-maintains-pressure-on-illegal-foreign-fishing-in-Torres-Strait-.aspx",
@@ -92194,7 +92190,7 @@
       "fauna_groups_aggregated": [
         "Peixes"
       ],
-      "taxon_text": "Elasmobranchii spp. (tubarões); Actinopterygii spp. (peixes de recife, espécies não identificadas)",
+      "taxon_text": "Elasmobranchii (tubarões não identificados); Actinopterygii (peixes de recife não identificados)",
       "modal_primary": "Marítimo",
       "modal_label_pt": "Marítimo",
       "aggregate_operation": false,
@@ -92218,11 +92214,11 @@
       "route_audit_note_es": "Este caso no demuestra ruta de mercancía silvestre para cartografiar.",
       "editorial_review": {
         "date": "2026-10-24",
-        "batch": "TG-H 47-case multilingual QA",
-        "scope": "secondary-field localization"
+        "scope": "Evidence-bounded taxonomy and event-date QA"
       },
-      "occurred_at": "2026-09-14T00:00:00Z",
-      "occurred_at_precision": "day"
+      "event_date_month": "2026-09",
+      "occurred_at": null,
+      "occurred_at_precision": "month_only_unresolved_exact_day"
     }
   ]
 }
