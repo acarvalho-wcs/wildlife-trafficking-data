@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-23T10:50:28.371Z",
+  "updated_at": "2026-10-24T21:01:50Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11795,6 +11795,44 @@
       "evidence_es": "[N] Tribune Eco afirma que tres sospechosos trasladaron una piel de leopardo y dos colmillos de Dolisie a Nkayi para venderlos; detenciones el 18/10/2026. Origen biológico desconocido; solo este tramo está documentado.",
       "source_label": "Tribune Eco / PALF / Gendarmerie Nationale",
       "source_url": "https://www.tribune-eco.cg/trois-presumes-trafiquants-interpelles-pour-trafic-des-produits-de-faune-a-nkayi-et-dolisie/"
+    },
+    {
+      "id": "foz-do-iguacu-galeao-32-eggs-2026-10-24",
+      "event_match": {
+        "event_id": "2026-10-24__foz-do-iguacu-32-wild-bird-eggs-galeao"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Foz do Iguaçu → Galeão (destino declarado; não concluído)",
+      "label_en": "Foz do Iguaçu → Galeão (reported intended destination; not completed)",
+      "label_es": "Foz do Iguaçu → Galeão (destino declarado; no completado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Foz do Iguaçu (PR)",
+            "country": "Brasil",
+            "lat": -25.5453,
+            "lon": -54.5882,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional do Galeão, Rio de Janeiro (RJ)",
+            "country": "Brasil",
+            "lat": -22.809,
+            "lon": -43.2506,
+            "precision": "airport"
+          },
+          "status": "INTENDED_NOT_COMPLETED"
+        }
+      ],
+      "evidence_pt": "[O1–O2] Passageiros declararam que transportariam os 32 ovos de Foz do Iguaçu até o aeroporto do Galeão (RJ), por R$ 3 mil. Interceptação em Foz impediu a conclusão da viagem. Não inferir destino internacional ou origem biológica dos ovos.",
+      "evidence_en": "[O1–O2] Passengers said they would transport 32 eggs from Foz do Iguaçu to Galeão Airport in Rio de Janeiro for BRL 3,000. The Foz seizure interrupted the journey. No international destination or biological provenance is inferred.",
+      "evidence_es": "[O1–O2] Los pasajeros declararon que llevarían 32 huevos de Foz do Iguaçu a Galeão (Río de Janeiro) por R$ 3.000. El decomiso impidió completar el trayecto. No inferir destino internacional ni origen biológico.",
+      "source_label": "H2FOZ (informações da Receita Federal)",
+      "source_url": "https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/",
+      "source_evidence_type": "attributed_passenger_statement"
     }
   ],
   "network_context": [
