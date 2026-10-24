@@ -1,0 +1,118 @@
+{
+  "batch": "TG-H-2026-10-14-24-new-global-cases",
+  "date": "2026-10-24",
+  "discovery_window": {
+    "publication_start": "2026-10-14",
+    "publication_end": "2026-10-24"
+  },
+  "scope": "Seven geographic fronts, local-language press and source authority hierarchy; no country priorities. Discovery dates are not automatically event dates.",
+  "baseline_cases": 1200,
+  "final_manifest_count": 1206,
+  "cases_added": [
+    {
+      "id": "2026-10-23__vitoria-da-conquista-five-sayaca-barreiros",
+      "country": "Brasil",
+      "publication_date": "2026-10-24",
+      "event_date": "2026-10-23",
+      "quantity_count": 5,
+      "route_id": "vitoria-da-conquista-barreiros-five-sayaca-2026-10-23",
+      "route_type": "attributed_intended_not_completed",
+      "source_url": "https://www.acordacidade.com.br/policia/policia-resgata-cinco-aves-mantidas-em-maus-tratos-dentro-de-onibus-em-conquista/"
+    },
+    {
+      "id": "2026-10-22__monteiro-pb-illegal-captive-wild-birds",
+      "country": "Brasil",
+      "publication_date": "2026-10-22",
+      "event_date": "2026-10-22",
+      "quantity_count": null,
+      "source_url": "https://agorapb.com.br/?p=79675",
+      "note": "Possession confirmed, physical seizure/number/species not securely reported."
+    },
+    {
+      "id": "2026-10-undated__arraijan-burunga-wild-meat-two-bags",
+      "country": "Panamá",
+      "publication_date": "2026-10-22",
+      "event_date": null,
+      "quantity_count": null,
+      "source_url": "https://policia.gob.pa/31363-en-arraijn-un-hombre-es-aprehendido-por-presunta-caza-ilegal-en-rea-ptotegida.php",
+      "note": "Two packs are bags, not animal numbers or biomass; taxonomic identity unconfirmed."
+    },
+    {
+      "id": "2026-08-22_10-22__georgia-70-poached-animals-aggregate",
+      "country": "Geórgia",
+      "publication_date": "2026-10-23",
+      "event_date": null,
+      "quantity_count": 70,
+      "exclude_from_totals": true,
+      "aggregate_operation": true,
+      "source_url": "https://des.gov.ge/En/News/Details/17218",
+      "note": "National summary across Aug 22-Oct 22. Excluded from numerical totals to prevent overlap with individual seizure records."
+    },
+    {
+      "id": "2026-10-undated__lake-zhukey-burabay-33kg-illegal-fish",
+      "country": "Cazaquistão",
+      "publication_date": "2026-10-16",
+      "event_date": null,
+      "quantity_count": null,
+      "source_url": "https://www.inform.kz/amp/zhiteley-astani-i-kosshi-zaderzhali-za-nezakonnuyu-ribalku-nazapovednom-ozere-bdf75d47",
+      "note": "33 kg, reported again 20 Oct, same case."
+    },
+    {
+      "id": "2026-10-05_06__reunion-west-marine-reserve-79kg-illegal-catch",
+      "country": "França (La Réunion)",
+      "publication_date": "2026-10-23",
+      "event_date": "2026-10-05",
+      "event_end_date": "2026-10-06",
+      "quantity_count": null,
+      "aggregate_operation": true,
+      "source_url": "https://imazpress.com/toute-l-actu/lutte-contre-braconnage-nocturne-reserve-naturelle-marine",
+      "note": "Three zones, 28 + 30 + 21 kg = 79 kg total, without inference of individual fish/crustaceans or routes."
+    }
+  ],
+  "existing_case_reconciled": {
+    "id": "2026-10-unknown__laem-chabang-446-ivory-pieces",
+    "source_early": "https://www.thaipbs.th/news/content/559308",
+    "source_update": "https://wildlifejustice.org/thai-authorities-seize-31-tonnes-of-ivory-following-intelligence-provided-by-the-wildlife-justice-commission/",
+    "date_discrepancy": "Wildlife Justice reports seizure 29 Sep; Thai Customs 7 Oct detailed inspection/announcement. Event date kept null pending chronology reconciliation.",
+    "same_shipment": true,
+    "original_quantity_items": 446,
+    "new_evidence_total_weight": "3.1 tonnes",
+    "additional_animals_counted": 0,
+    "existing_route": "zambia-laem-chabang-446-ivory-2026",
+    "new_route_added": false,
+    "forensic_update": "14-15 Oct additional animal remains sampled; unconfirmed big-cat identity, no extra quantitative tally."
+  },
+  "routes": {
+    "before": 295,
+    "after": 296,
+    "added": [
+      "vitoria-da-conquista-barreiros-five-sayaca-2026-10-23"
+    ],
+    "notes": "Intended journey declared by passenger. The Brazil route is not a completed leg, and origin rural site unknown. Other 5 new events have no route."
+  },
+  "exclusions_and_dedup": [
+    {
+      "case": "Kazakhstan Burabay 16 Oct and 20 Oct 33kg updates",
+      "reason": "One documented event; a single case created."
+    },
+    {
+      "case": "La Réunion 28kg Grand-Fond / 30kg La Saline / 21kg Saint-Leu",
+      "reason": "One consolidated night-operation report with three locations; 79 kg counted once; future disaggregation should not duplicate."
+    },
+    {
+      "case": "Wildlife Justice Commission 22 Oct 3.1 tonnes Laem Chabang",
+      "reason": "Same 446-item seizure in 32 logs as Thai Customs Oct 7, upgraded context, no new case."
+    },
+    {
+      "case": "Indonesia Seruyan 23 Oct sun bear and mother+infant orangutans rescue",
+      "reason": "Fire/forest-injury response, not police seizure linked to illegal trade or possession; excluded from IWT TG-H.",
+      "source": "https://restabengkulukota.bengkulu.polri.go.id/tak-hanya-padamkan-api-polri-selamatkan-anak-beruang-madu-terdampak-karhutla/"
+    },
+    {
+      "case": "Australia Operation DJANGO 23 Oct release",
+      "reason": "2025 seizure of 108 invasive koi carp and Sep 2026 sentencing; native-wildlife offense not itemized; insufficient independent native-wildlife seizure for this 2026 window.",
+      "source": "https://agriculture.vic.gov.au/about/media-centre/media-releases/2026-releases/operation-django-fighting-illegal-exotic-animal-trade"
+    }
+  ],
+  "status": "Confirmed in canonical sharded manifest; compiled cases count 1206; routes.json count 296; dashboard rendering not visually audited."
+}
