@@ -90117,12 +90117,12 @@
       "card_text_pt": "Após denúncia de perturbação, policiais identificaram nove aves nativas sem licença em residência de Vila Mariana, Prudentópolis, em 22/10. Foram citados tiê-preto, azulões, coleirinha, bico-de-pimenta, canário-da-terra e pintassilgos.",
       "card_text_en": "On 22 October, police responding to a noise complaint found nine unlicensed native birds at a home in Vila Mariana, Prudentópolis. Species were listed by Portuguese common names, without counts per species.",
       "card_text_es": "El 22/10, policías que atendían una queja por ruido hallaron nueve aves nativas sin licencia en una vivienda de Vila Mariana, Prudentópolis; solo se publicaron nombres comunes sin cantidades por especie.",
-      "context_pt": "[O/N] Polícia Militar e Ambiental foram acionadas em 22/10 e lavraram termo circunstanciado por manutenção não autorizada de nove aves nativas. A ocorrência começou como perturbação do sossego; não há indício publicado de venda, proveniência ou circulação. Nomes comuns diversos sem número individual por espécie, de modo que não há conversão taxonômica específica. Caso distinto de Guarapuava em 19/10.",
-      "context_en": "[O/N] Paraná Central reproduces police account of 22 October. Nine native birds held without authorization; the initial call concerned noise, with no published trade, origin, or transport. Common names do not support specific counts by taxon. Separate from Guarapuava on 19 October.",
-      "context_es": "[O/N] Información policial del 22/10: nueve aves nativas en cautiverio sin licencia. La intervención surgió por ruido vecinal y no demuestra venta ni traslado. Nombres comunes sin desglose taxonómico. Distinto de Guarapuava.",
-      "references_text_pt": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
-      "references_text_en": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
-      "references_text_es": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
+      "context_pt": "[O/N] Polícia Militar e Ambiental foram acionadas em 22/10 e lavraram termo circunstanciado por manutenção não autorizada de nove aves nativas. A ocorrência começou como perturbação do sossego; não há indício publicado de venda, proveniência ou circulação. Nomes comuns diversos sem número individual por espécie, de modo que não há conversão taxonômica específica. Caso distinto de Guarapuava em 19/10.\n\n[S1] Estudo com perfis isotópicos de penas de 58 espécies de aves canoras brasileiras explorou formas de distinguir origem silvestre de cativa e detectar possível lavagem. Como as nove aves de Prudentópolis foram identificadas sobretudo por nomes populares e sem procedência legal, sua identificação taxonômica e histórico de origem são lacunas relevantes. A técnica constitui possibilidade pericial, não resultado obtido com estas aves nem evidência de comercialização.",
+      "context_en": "[O/N] Paraná Central reproduces police account of 22 October. Nine native birds held without authorization; the initial call concerned noise, with no published trade, origin, or transport. Common names do not support specific counts by taxon. Separate from Guarapuava on 19 October.\n\n[S1] A study of feather isotope profiles spanning 58 Brazilian songbird species explored discrimination between wild and captive origins and potential laundering. With nine Prudentópolis birds listed mostly by common names and lacking provenance documents, identification and origin histories remain key gaps. Isotope testing is a potential forensic approach, not a result obtained for these animals or proof of sales.",
+      "context_es": "[O/N] Información policial del 22/10: nueve aves nativas en cautiverio sin licencia. La intervención surgió por ruido vecinal y no demuestra venta ni traslado. Nombres comunes sin desglose taxonómico. Distinto de Guarapuava.\n\n[S1] Una investigación de perfiles isotópicos en plumas de 58 especies brasileñas de aves canoras exploró cómo distinguir origen silvestre y cautivo y posible blanqueo. Las nueve aves de Prudentópolis se describieron principalmente por nombres comunes y carecían de procedencia acreditada; requieren identificación e historial. La prueba isotópica es una posibilidad pericial, no una prueba realizada ni evidencia de venta.",
+      "references_text_pt": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis\n[S1] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+      "references_text_en": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis\n[S1] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+      "references_text_es": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis\n[S1] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
       "fauna_label_pt": "9 aves silvestres nativas",
       "fauna_label_en": "9 native wild birds",
       "fauna_label_es": "9 aves silvestres nativas",
@@ -90157,6 +90157,20 @@
         "date": "2026-10-24",
         "batch": "TG-H 47-case multilingual QA",
         "scope": "translated metadata, no factual changes"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+          "url": "https://doi.org/10.1111/acv.70052",
+          "catalog_id": "doi-10.1111-acv.70052"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation-3",
+        "grade": "B",
+        "limits": "Distinct broader studies; no link between actors, sources or routes asserted."
       },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
@@ -90988,12 +91002,12 @@
       "card_text_pt": "Em 16/10, PMPI e Ibama apreenderam 12 aves mantidas sem licença em residência na comunidade Baixão das Flores: seis bigodinhos, dois corrupiões, duas primaveras, um bigode e um xexéu. As aves foram posteriormente soltas em reserva credenciada.",
       "card_text_en": "On 16 October, Piauí environmental police and Ibama seized 12 unlicensed wild birds from a home in Baixão das Flores: six bigodinhos, two corrupiões, two primaveras, one bigode and one xexéu (local names). The birds were subsequently released in an authorized reserve.",
       "card_text_es": "El 16/10, PMPI e Ibama decomisaron 12 aves mantenidas sin licencia en Baixão das Flores: seis bigodinhos, dos corrupiões, dos primaveras, un bigode y un xexéu (nombres locales). Posteriormente fueron liberadas en una reserva autorizada.",
-      "context_pt": "[O1] Comunicado oficial do Governo do Piauí de 17/10 fixa a data da fiscalização em 16/10 e identifica contagem total de 12 aves: 6 bigodinhos, 2 corrupiões, 2 primaveras, 1 bigode, 1 xexéu. O texto emprega nomes vernaculares potencialmente regionais, sem informação taxonômica para converter em espécie latina com certeza. Soltura em reserva autorizada é destinação posterior, não rota comercial. Localização apenas municipal.",
-      "context_en": "[O1] Piauí government report on 17 October confirms 16 October action: 12 wild birds in unauthorized captivity, six bigodinhos, two corrupiões, two primaveras, one bigode and one xexéu. Local names do not warrant unverified scientific-species identifications. Later release in authorized reserve is custody/disposition, not a trafficking route.",
-      "context_es": "[O1] Fuente oficial del gobierno del Piauí del 17/10: incautación el 16/10 de 12 aves, seis bigodinhos, dos corrupiões, dos primaveras, un bigode y un xexéu. Los nombres comunes no prueban especies científicas específicas. La liberación posterior no constituye ruta de tráfico.",
-      "references_text_pt": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/",
-      "references_text_en": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/",
-      "references_text_es": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/",
+      "context_pt": "[O1] Comunicado oficial do Governo do Piauí de 17/10 fixa a data da fiscalização em 16/10 e identifica contagem total de 12 aves: 6 bigodinhos, 2 corrupiões, 2 primaveras, 1 bigode, 1 xexéu. O texto emprega nomes vernaculares potencialmente regionais, sem informação taxonômica para converter em espécie latina com certeza. Soltura em reserva autorizada é destinação posterior, não rota comercial. Localização apenas municipal.\n\n[S1] A revisão histórica do comércio brasileiro de aves vivas identificou pelo menos 295 espécies envolvidas, destacando que a diversidade taxonômica é elemento central para dimensionar pressões de captura. As 12 aves de Ilha Grande devem ser identificadas individualmente e relacionadas à origem e condição de cativeiro documentadas; o levantamento nacional não permite afirmar venda ou participação dessas aves em mercados específicos.",
+      "context_en": "[O1] Piauí government report on 17 October confirms 16 October action: 12 wild birds in unauthorized captivity, six bigodinhos, two corrupiões, two primaveras, one bigode and one xexéu. Local names do not warrant unverified scientific-species identifications. Later release in authorized reserve is custody/disposition, not a trafficking route.\n\n[S1] A historical Brazilian live-bird trade review recorded at least 295 species, underscoring the importance of taxonomic resolution when evaluating trapping pressure. The 12 Ilha Grande birds require individual species and provenance records. That wider study does not establish that these birds were offered for sale or linked to any particular market.",
+      "context_es": "[O1] Fuente oficial del gobierno del Piauí del 17/10: incautación el 16/10 de 12 aves, seis bigodinhos, dos corrupiões, dos primaveras, un bigode y un xexéu. Los nombres comunes no prueban especies científicas específicas. La liberación posterior no constituye ruta de tráfico.\n\n[S1] Una revisión histórica del comercio de aves vivas en Brasil registró al menos 295 especies, subrayando la importancia de identificarlas para evaluar presión de captura. Para las 12 aves de Ilha Grande deben registrarse especie y procedencia individuales; la revisión no acredita su venta ni vinculación con un mercado concreto.",
+      "references_text_pt": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/\n[S1] The live bird trade in Brazil and its conservation implications — https://doi.org/10.1017/S095927091200010X",
+      "references_text_en": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/\n[S1] The live bird trade in Brazil and its conservation implications — https://doi.org/10.1017/S095927091200010X",
+      "references_text_es": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/\n[S1] The live bird trade in Brazil and its conservation implications — https://doi.org/10.1017/S095927091200010X",
       "fauna_label_pt": "12 aves silvestres",
       "fauna_label_en": "12 wild birds",
       "fauna_label_es": "12 aves silvestres",
@@ -91027,6 +91041,20 @@
         "batch": "TG-H 47-case multilingual QA",
         "scope": "secondary field localization"
       },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "The live bird trade in Brazil and its conservation implications",
+          "url": "https://doi.org/10.1017/S095927091200010X",
+          "catalog_id": "doi-10.1017-S095927091200010X"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation-3",
+        "grade": "B",
+        "limits": "Distinct broader studies; no link between actors, sources or routes asserted."
+      },
       "occurred_at": "2026-10-16T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -91058,12 +91086,12 @@
       "card_text_pt": "Em 16/10, fiscais resgataram 42 aves mantidas em gaiolas em condições inadequadas no bairro Arapongal: 36 nativas silvestres e seis exóticas. Havia 47 gaiolas; aves encaminhadas ao Cetras, sem origem comercial documentada.",
       "card_text_en": "On 16 October, inspectors rescued 42 caged birds in poor conditions in Registro's Arapongal district: 36 native wild birds and six exotic birds. Forty-seven cages were seized; the birds were sent to Cetras for care. No trade route was documented.",
       "card_text_es": "El 16/10, agentes rescataron 42 aves enjauladas en malas condiciones en Arapongal: 36 aves silvestres nativas y seis exóticas. Se incautaron 47 jaulas y las aves fueron remitidas al Cetras. Sin ruta comercial documentada.",
-      "context_pt": "[O1] Fonte oficial da PMESP, publicada em 17/10, data a fiscalização ao dia 16/10. Detalha 36 aves nativas (canários-da-terra, coleirinhas e azulões) e seis aves exóticas (calopsitas e periquitos-australianos). Total 42 indivíduos, sem atribuir os seis exóticos à fauna nativa brasileira; 47 gaiolas são equipamentos, não indivíduos adicionais. Referência de coordenadas ao município, não ao imóvel. Investigação por posse sem autorização e maus-tratos; não há rota ou local de captura documentados.",
-      "context_en": "[O1] Official São Paulo Military Police news of 17 October dates the seizure to 16 October. The 42 birds comprise 36 native wild birds and six exotic pet birds. The 47 cages are equipment, not animals. No origin, sale or trafficking transport leg was documented; coordinates are generalized to the city.",
-      "context_es": "[O1] Fuente oficial de Policía Militar de São Paulo del 17/10: operativo el 16/10 con 36 aves nativas silvestres y seis exóticas, 42 individuos en total; 47 jaulas excluidas. Sin origen de captura ni ruta de comercio demostrados. Georreferencia municipal, no domicilio.",
-      "references_text_pt": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/",
-      "references_text_en": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/",
-      "references_text_es": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/",
+      "context_pt": "[O1] Fonte oficial da PMESP, publicada em 17/10, data a fiscalização ao dia 16/10. Detalha 36 aves nativas (canários-da-terra, coleirinhas e azulões) e seis aves exóticas (calopsitas e periquitos-australianos). Total 42 indivíduos, sem atribuir os seis exóticos à fauna nativa brasileira; 47 gaiolas são equipamentos, não indivíduos adicionais. Referência de coordenadas ao município, não ao imóvel. Investigação por posse sem autorização e maus-tratos; não há rota ou local de captura documentados.\n\n[S1] Panorama nacional do comércio de aves vivas registrou pelo menos 295 espécies negociadas, mas sua série histórica não descreve os animais de Registro. Como esta ocorrência reúne 36 aves nativas e seis exóticas, o dado analítico relevante é conservar a identificação e a situação jurídica de cada grupo separadamente, antes de inferir captura, reprodução ou comércio. A convivência dos grupos no mesmo imóvel não prova origem ou fornecedor comum.",
+      "context_en": "[O1] Official São Paulo Military Police news of 17 October dates the seizure to 16 October. The 42 birds comprise 36 native wild birds and six exotic pet birds. The 47 cages are equipment, not animals. No origin, sale or trafficking transport leg was documented; coordinates are generalized to the city.\n\n[S1] A Brazilian live-bird trade overview documented at least 295 traded species in its historical dataset, not the birds seized in Registro. Since this case involves 36 native and six exotic birds, distinguishing each group's species and legal provenance is essential before inferring wild capture, breeding or sale. Their presence in one property does not prove a shared supplier.",
+      "context_es": "[O1] Fuente oficial de Policía Militar de São Paulo del 17/10: operativo el 16/10 con 36 aves nativas silvestres y seis exóticas, 42 individuos en total; 47 jaulas excluidas. Sin origen de captura ni ruta de comercio demostrados. Georreferencia municipal, no domicilio.\n\n[S1] Una revisión histórica del comercio brasileño de aves vivas registró al menos 295 especies comercializadas, sin incluir necesariamente las aves de Registro. Aquí hay 36 aves nativas y seis exóticas; corresponde distinguir identificación y procedencia legal por grupo antes de inferir captura, cría o venta. Compartir inmueble no demuestra proveedor común.",
+      "references_text_pt": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/\n[S1] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X",
+      "references_text_en": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/\n[S1] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X",
+      "references_text_es": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/\n[S1] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X",
       "fauna_label_pt": "42 aves (36 nativas silvestres; 6 exóticas)",
       "fauna_label_en": "42 birds (36 native wild, 6 exotic)",
       "fauna_label_es": "42 aves (36 nativas silvestres y 6 exóticas)",
@@ -91096,6 +91124,20 @@
         "date": "2026-10-24",
         "batch": "TG-H 47-case multilingual QA",
         "scope": "secondary field localization"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "The live bird trade in Brazil and its conservation implications: an overview",
+          "url": "https://doi.org/10.1017/S095927091200010X",
+          "catalog_id": "doi-10.1017-S095927091200010X"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation-3",
+        "grade": "B",
+        "limits": "Distinct broader studies; no link between actors, sources or routes asserted."
       },
       "occurred_at": "2026-10-16T00:00:00Z",
       "occurred_at_precision": "day"
@@ -91480,12 +91522,12 @@
       "card_text_pt": "Divulgada em 20/10, ação da Diretoria Veterinária de Sharqia e órgãos ambientais apreendeu oito primatas em posse irregular de um cidadão. Os animais foram encaminhados ao zoológico de Zagazig por decisão da promotoria. Espécies e data exata da fiscalização não divulgadas.",
       "card_text_en": "Reported on 20 October, Sharqia veterinary authorities and environmental agencies seized eight primates illegally held by a resident. The animals were sent to Zagazig Zoo under a prosecution order. Exact species and intervention date were not released.",
       "card_text_es": "Divulgado el 20/10, autoridades veterinarias y ambientales decomisaron ocho primates mantenidos sin autorización en Sharqia. Los animales fueron enviados al zoológico de Zagazig por orden de fiscalía. Sin especies ni fecha exacta publicadas.",
-      "context_pt": "[O/N] El Balad (20/10/2026) atribui declaração ao diretor veterinário Mohamed El-Sayed Ibrahim Bashar: oito animais descritos em árabe como 'النسناس' foram retirados de um particular por posse contrária às normas ambientais, com apoio dos órgãos ambientais de Sharqia e Ismailia. Taxonomia não comprovada: 'نسناس' é rótulo vernacular impreciso e não autoriza identificação ao nível de espécie ou gênero. A data da apreensão não é expressa. Transporte administrativo para o zoológico de Zagazig não configura rota de tráfico. Quantidade exata de 8 indivíduos.",
-      "context_en": "[O/N] El Balad's 20 October article quotes Sharqia veterinary director Mohamed El-Sayed Ibrahim Bashar: eight monkeys/primates were confiscated from unlawful private possession with environmental-authority support. The Arabic vernacular term 'nesnas' does not substantiate genus or species. Exact seizure date not reported. Transfer to Zagazig Zoo is administrative custody, not a trafficking route.",
-      "context_es": "[O/N] El Balad del 20/10 cita al director veterinario de Sharqia: ocho primates descritos en árabe como 'nesnas' fueron incautados por tenencia irregular, con coordinación ambiental. El nombre común no permite identificar género ni especie. Sin fecha exacta del operativo. Traslado al zoológico de Zagazig es administrativo, no ruta comercial.",
-      "references_text_pt": "[O/N] El Balad — https://www.elbalad.news/7149144; [N] Ahl Masr — https://ahlmasrnews.com/news/local-news/13498482/بيطري-الشرقية-يضبط-8-حيوانات-من-فصيلة-النسناس-ويودعها-بحديقة-الحيوان-بالزقازيق",
-      "references_text_en": "[O/N] El Balad — https://www.elbalad.news/7149144",
-      "references_text_es": "[O/N] El Balad — https://www.elbalad.news/7149144",
+      "context_pt": "[O/N] El Balad (20/10/2026) atribui declaração ao diretor veterinário Mohamed El-Sayed Ibrahim Bashar: oito animais descritos em árabe como 'النسناس' foram retirados de um particular por posse contrária às normas ambientais, com apoio dos órgãos ambientais de Sharqia e Ismailia. Taxonomia não comprovada: 'نسناس' é rótulo vernacular impreciso e não autoriza identificação ao nível de espécie ou gênero. A data da apreensão não é expressa. Transporte administrativo para o zoológico de Zagazig não configura rota de tráfico. Quantidade exata de 8 indivíduos.\n\n[S1] Revisão sobre o comércio de primatas identifica múltiplas finalidades — animais de estimação, alimentação, medicina e outros usos —, além de efeitos de bem-estar, conservação e saúde. Isso reforça a necessidade de determinar espécie, origem e finalidade de manutenção dos oito primatas em Sharqia antes de atribuir a operação a um mercado específico. O encaminhamento ao zoológico é custódia administrativa e não evidencia trânsito comercial.",
+      "context_en": "[O/N] El Balad's 20 October article quotes Sharqia veterinary director Mohamed El-Sayed Ibrahim Bashar: eight monkeys/primates were confiscated from unlawful private possession with environmental-authority support. The Arabic vernacular term 'nesnas' does not substantiate genus or species. Exact seizure date not reported. Transfer to Zagazig Zoo is administrative custody, not a trafficking route.\n\n[S1] A review of primate trade identifies different uses—pets, wild meat, traditional medicine and others—and related welfare, conservation and health impacts. The eight primates in Sharqia need species, source and intended-use verification before any market type is assigned. Transfer to a zoo was administrative custody, not documented commercial trafficking.",
+      "context_es": "[O/N] El Balad del 20/10 cita al director veterinario de Sharqia: ocho primates descritos en árabe como 'nesnas' fueron incautados por tenencia irregular, con coordinación ambiental. El nombre común no permite identificar género ni especie. Sin fecha exacta del operativo. Traslado al zoológico de Zagazig es administrativo, no ruta comercial.\n\n[S1] Una revisión del comercio de primates distingue mascotas, carne silvestre, medicina tradicional y otros usos, con riesgos de bienestar, conservación y salud. Los ocho ejemplares de Sharqia requieren identificación, origen y finalidad de tenencia antes de atribuir un mercado. Su traslado al zoológico es custodia administrativa, no ruta comercial.",
+      "references_text_pt": "[O/N] El Balad — https://www.elbalad.news/7149144; [N] Ahl Masr — https://ahlmasrnews.com/news/local-news/13498482/بيطري-الشرقية-يضبط-8-حيوانات-من-فصيلة-النسناس-ويودعها-بحديقة-الحيوان-بالزقازيق\n[S1] Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+      "references_text_en": "[O/N] El Balad — https://www.elbalad.news/7149144\n[S1] Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+      "references_text_es": "[O/N] El Balad — https://www.elbalad.news/7149144\n[S1] Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
       "fauna_label_pt": "8 primatas vivos (identificação taxonômica não publicada)",
       "fauna_label_en": "8 live primates (species not identified)",
       "fauna_label_es": "8 primates vivos (especies desconocidas)",
@@ -91518,6 +91560,20 @@
       "editorial_review": {
         "date": "2026-10-24",
         "scope": "Evidence-bounded taxonomy and event-date QA"
+      },
+      "context_references": [
+        {
+          "id": "S1",
+          "type": "scientific",
+          "label": "Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis",
+          "url": "https://doi.org/10.3389/fcosc.2024.1400613",
+          "catalog_id": "doi-10.3389-fcosc.2024.1400613"
+        }
+      ],
+      "context_enrichment": {
+        "version": "2026-10-24-SN-continuation-3",
+        "grade": "B",
+        "limits": "Distinct broader studies; no link between actors, sources or routes asserted."
       },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
