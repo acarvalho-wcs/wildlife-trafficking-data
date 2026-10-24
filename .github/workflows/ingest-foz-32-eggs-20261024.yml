@@ -73,5 +73,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add cases.json routes.json
-          git commit -m 'Add canonical Foz 32 eggs case and documented intended route (2026-10-24)'
+          git commit -m 'Add TG-H comparative context for Foz 32 eggs (2026-10-24)'
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
