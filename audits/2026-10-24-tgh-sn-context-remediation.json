@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "name": "TG-H S/N substantive-context remediation audit",
+  "scope": {
+    "cases_added_today": 47,
+    "cases_substantively_enriched_this_pass": 8,
+    "scientific_catalog": "acarvalho-wcs/wildlife-trafficking-research/papers.json",
+    "scientific_entries": 125,
+    "news_catalog": "acarvalho-wcs/wildlife-trafficking-news/news.json",
+    "news_entries": 230,
+    "institutional_catalog": "acarvalho-wcs/wildlife-trafficking-reports/reports-institutional.json",
+    "institutional_entries": 15
+  },
+  "failure_analysis": [
+    "Prior QA was mostly nonempty-field and localization validation, missing explicit retrieval of the research and news catalogs.",
+    "Previous case contexts were generally event summaries plus negative claims (not a route, don't infer species), without substantive cross-case intelligence.",
+    "Placing the primary event news article in [O] is appropriate; [N] should be another independently cataloged relevant report, not a duplicate event retelling.",
+    "A fixed minimum count of S/N/I would create artificial contexts. Sources must have specific factual findings and clear limits.",
+    "Scientific and news catalog descriptions are discovery aids; empirical claims may require independent source-text verification before stronger interpretation."
+  ],
+  "remediated_cases": [
+    "2026-10-24__foz-do-iguacu-32-wild-bird-eggs-galeao",
+    "2026-10-19__davao-toril-31-cockatoos-eclectus",
+    "2026-10-23__igbo-ora-imeko-afon-five-live-pangolins",
+    "2026-10-06__bekasi-jatiasih-320kg-pangolin-scales",
+    "2026-10-22__cariacica-two-captive-macaw-parrot",
+    "2026-10-23__vitoria-da-conquista-five-sayaca-barreiros",
+    "2026-10-undated__ipiales-terminal-one-squirrel-monkey",
+    "2026-10-undated__korczowa-hawksbill-taxidermy-ukraine-to-poland"
+  ],
+  "method": "Primary [O] preserved; where specifically relevant, [S] paper DOI and/or [N] separately cataloged report appended with concrete findings, relevance and non-linkage caveat in PT/EN/ES; same marker and URL in all bibliography fields and context_references.",
+  "standards_ref": "docs/contextualization-standard.md",
+  "remaining_work": [
+    "The other 39 new cases have not received substantive S/N additions this turn; individually review A/B match and record justified absence rather than forcing citations.",
+    "Institutional reports [I] are a 15-item catalog, but their PDF content has not been read/validated in this pass; no I citations added.",
+    "Review live rendered card, full bibliographic source links and future ingestion checks.",
+    "Run repository heuristic context-quality audit; requires checked-out repository or automation pipeline and is not proof of semantic quality."
+  ],
+  "status": "8 records updated and committed; no quantities, routes or dates changed."
+}
