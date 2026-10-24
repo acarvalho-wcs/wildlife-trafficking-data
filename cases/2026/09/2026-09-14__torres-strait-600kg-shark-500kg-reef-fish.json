@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-14-24-discovery-Australia",
   "country": "Austrália",
   "location_label_pt": "Estreito de Torres, noroeste de Badu Island, Queensland, Austrália",
-  "location_label_en": "Estreito de Torres, noroeste de Badu Island, Queensland, Austrália",
-  "location_label_es": "Estreito de Torres, noroeste de Badu Island, Queensland, Austrália",
+  "location_label_en": "Torres Strait, northwest of Badu Island, Queensland, Australia",
+  "location_label_es": "Estrecho de Torres, noroeste de Badu Island, Queensland, Australia",
   "publication_date": "2026-10-14",
   "event_date": "2026-09-14",
   "event_date_precision": "day",
@@ -33,8 +33,8 @@
   "references_text_en": "[O1] AFMA, 14 Oct — https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters; [O2] ABF — https://www.abf.gov.au/newsroom-subsite/Pages/Operation-BROADSTAFF-maintains-pressure-on-illegal-foreign-fishing-in-Torres-Strait-.aspx",
   "references_text_es": "[O1] AFMA, 14/10 — https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters; [O2] ABF — https://www.abf.gov.au/newsroom-subsite/Pages/Operation-BROADSTAFF-maintains-pressure-on-illegal-foreign-fishing-in-Torres-Strait-.aspx",
   "fauna_label_pt": "600 kg de tubarões e 500 kg de peixes de recife",
-  "fauna_label_en": "600 kg de tubarões e 500 kg de peixes de recife",
-  "fauna_label_es": "600 kg de tubarões e 500 kg de peixes de recife",
+  "fauna_label_en": "600 kg shark and 500 kg reef fish",
+  "fauna_label_es": "600 kg de tiburón y 500 kg de peces de arrecife",
   "fauna_groups_aggregated": [
     "Peixes"
   ],
@@ -55,5 +55,14 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "Discovered from official AFMA bulletin published 14 Oct 2026 (window), original seizure in September. No duplicate between September initial release and October judicial follow-up."
+  "audit_note": "Discovered from official AFMA bulletin published 14 Oct 2026 (window), original seizure in September. No duplicate between September initial release and October judicial follow-up.",
+  "quantity_note_en": "Reported original units are retained; do not infer specimen counts from products, approximate quantities or weights.",
+  "route_audit_note_en": "No evidence-supported cargo route may be added from this case.",
+  "quantity_note_es": "Se mantienen las unidades originales; no inferir número de animales a partir de productos, cantidades aproximadas o pesos.",
+  "route_audit_note_es": "Este caso no demuestra ruta de mercancía silvestre para cartografiar.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary-field localization"
+  }
 }

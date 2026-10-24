@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-14-24-continuation-round",
   "country": "Indonésia",
   "location_label_pt": "Setor Sadengan/Rowobendo, Parque Nacional Alas Purwo, Tegaldlimo, Banyuwangi, Java Oriental",
-  "location_label_en": "Setor Sadengan/Rowobendo, Parque Nacional Alas Purwo, Tegaldlimo, Banyuwangi, Java Oriental",
-  "location_label_es": "Setor Sadengan/Rowobendo, Parque Nacional Alas Purwo, Tegaldlimo, Banyuwangi, Java Oriental",
+  "location_label_en": "Sector Sadengan/Rowobendo, National Park Alas Purwo, Tegaldlimo, Banyuwangi, East Java",
+  "location_label_es": "Sector Sadengan/Rowobendo, Parque Nacional Alas Purwo, Tegaldlimo, Banyuwangi, Java Oriental",
   "publication_date": "2026-10-14",
   "event_date": "2026-10-14",
   "event_date_precision": "day",
@@ -33,8 +33,8 @@
   "references_text_en": "https://surabaya.inews.id/read/722855/geger-banteng-jawa-ditemukan-dimutilasi-di-alas-purwo-banyuwangi-terdengar-suara-tembakan ; https://www.detik.com/jatim/berita/d-8709765/banteng-jawa-alas-purwo-yang-dilindungi-mati-dikuliti-diambil-dagingnya",
   "references_text_es": "https://surabaya.inews.id/read/722855/geger-banteng-jawa-ditemukan-dimutilasi-di-alas-purwo-banyuwangi-terdengar-suara-tembakan ; https://www.detik.com/jatim/berita/d-8709765/banteng-jawa-alas-purwo-yang-dilindungi-mati-dikuliti-diambil-dagingnya",
   "fauna_label_pt": "1 banteng-de-java morto",
-  "fauna_label_en": "1 banteng-de-java morto",
-  "fauna_label_es": "1 banteng-de-java morto",
+  "fauna_label_en": "1 dead Javan banteng",
+  "fauna_label_es": "1 banteng de Java muerto",
   "fauna_groups_aggregated": [
     "Mamíferos"
   ],
@@ -56,5 +56,14 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "TG-H discovery period 14–24 October 2026; original event timing and publication explicitly separated, no speculative routes."
+  "audit_note": "TG-H discovery period 14–24 October 2026; original event timing and publication explicitly separated, no speculative routes.",
+  "quantity_note_en": "Reported original units are retained; do not infer specimen counts from products, approximate quantities or weights.",
+  "route_audit_note_en": "No evidence-supported cargo route may be added from this case.",
+  "quantity_note_es": "Se mantienen las unidades originales; no inferir número de animales a partir de productos, cantidades aproximadas o pesos.",
+  "route_audit_note_es": "Este caso no demuestra ruta de mercancía silvestre para cartografiar.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary-field localization"
+  }
 }
