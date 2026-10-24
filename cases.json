@@ -91178,8 +91178,8 @@
       "ingestion_batch": "TG-H-2026-10-14-24-global-followup",
       "country": "África do Sul",
       "location_label_pt": "Doornlaagte e área de Groot Marico, North West, África do Sul",
-      "location_label_en": "Doornlaagte and Groot Marico area, North West, South Africa",
-      "location_label_es": "Doornlaagte y zona de Groot Marico, North West, Sudáfrica",
+      "location_label_en": "Doornlaagte and area of Groot Marico, North West, South Africa",
+      "location_label_es": "Doornlaagte y zona de  Groot Marico, North West, Sudáfrica",
       "event_date": "2026-10-14",
       "publication_date": "2026-10-23",
       "event_date_precision": "day",
@@ -91207,8 +91207,8 @@
       "references_text_en": "[N/O] Platinum Weekly (police account) — https://platinumweekly.co.za/community.php?story=4375",
       "references_text_es": "[N/O] Platinum Weekly (declaración policial) — https://platinumweekly.co.za/community.php?story=4375",
       "fauna_label_pt": "1 antílope-aquático morto e carne possivelmente associada",
-      "fauna_label_en": "1 slaughtered waterbuck and potentially related meat",
-      "fauna_label_es": "1 antílope acuático abatido y carne posiblemente asociada",
+      "fauna_label_en": "1 dead waterbuck and potentially related meat",
+      "fauna_label_es": "1 antílope acuático muerto y carne posiblemente relacionada",
       "fauna_groups_aggregated": [
         "Mamíferos"
       ],
@@ -91231,6 +91231,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": "2026-10-14T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -91240,8 +91249,8 @@
       "ingestion_batch": "TG-H-2026-10-14-24-global-followup",
       "country": "Egito",
       "location_label_pt": "Local não especificado da governadoria de Sharqia (Al Sharqia), Egito",
-      "location_label_en": "Unspecified locality in Sharqia Governorate, Egypt",
-      "location_label_es": "Localidad no especificada de la gobernación de Sharqia, Egipto",
+      "location_label_en": "Unspecified locality in governorate of Sharqia (Al Sharqia), Egypt",
+      "location_label_es": "Localidad no especificada de gobernación de Sharqia (Al Sharqia), Egipto",
       "event_date": null,
       "publication_date": "2026-10-20",
       "event_date_precision": "unknown",
@@ -91269,8 +91278,8 @@
       "references_text_en": "[O/N] El Balad — https://www.elbalad.news/7149144",
       "references_text_es": "[O/N] El Balad — https://www.elbalad.news/7149144",
       "fauna_label_pt": "8 primatas vivos (identificação taxonômica não publicada)",
-      "fauna_label_en": "8 live primates (taxonomy unspecified)",
-      "fauna_label_es": "8 primates vivos (taxonomía no especificada)",
+      "fauna_label_en": "8 live primates (species not identified)",
+      "fauna_label_es": "8 primates vivos (especies desconocidas)",
       "fauna_groups_aggregated": [
         "Mamíferos"
       ],
@@ -91293,6 +91302,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -91332,8 +91350,8 @@
       "route_audit_status": "DECLARED_DISTRIBUTION_ENDPOINTS_NOT_VERIFIED_FOR_SEIZED_LOT",
       "status": "VALIDATED",
       "ingestion_batch": "TG-H-2026-10-14-24-global-expansion",
-      "location_label_en": "Jatiasih, Kota Bekasi, Java Ocidental, Indonésia",
-      "location_label_es": "Jatiasih, Kota Bekasi, Java Ocidental, Indonésia",
+      "location_label_en": "Jatiasih, Kota Bekasi, West Java, Indonesia",
+      "location_label_es": "Jatiasih, Kota Bekasi, Java Occidental, Indonesia",
       "geographic_note_pt": "Localidade aproximada citada pela fonte; não representa imóvel ou local exato da abordagem.",
       "geographic_note_en": "Approximate reported place, not an exact enforcement address.",
       "geographic_note_es": "Referencia geográfica aproximada, no dirección exacta.",
@@ -91341,8 +91359,8 @@
       "references_text_pt": "[O/N] Polda Metro Jaya, declarações de Dadang Hartanto à detikNews (23/10) — https://news.detik.com/berita/d-8721303/polisi-bongkar-penjualan-sisik-trenggiling-dikamuflase-jadi-ikan-asin-di-bekasi",
       "references_text_en": "[O/N] Polda Metro Jaya, declarações de Dadang Hartanto à detikNews (23/10) — https://news.detik.com/berita/d-8721303/polisi-bongkar-penjualan-sisik-trenggiling-dikamuflase-jadi-ikan-asin-di-bekasi",
       "references_text_es": "[O/N] Polda Metro Jaya, declarações de Dadang Hartanto à detikNews (23/10) — https://news.detik.com/berita/d-8721303/polisi-bongkar-penjualan-sisik-trenggiling-dikamuflase-jadi-ikan-asin-di-bekasi",
-      "fauna_label_en": "Escamas de pangolim, aproximadamente 320 kg",
-      "fauna_label_es": "Escamas de pangolim, aproximadamente 320 kg",
+      "fauna_label_en": "Approximately 320 kg of pangolin scales",
+      "fauna_label_es": "Aproximadamente 320 kg de escamas de pangolín",
       "modal_label_pt": "Terrestre",
       "aggregate_operation": false,
       "exclude_from_totals": false,
@@ -91353,6 +91371,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "event_date_precision": "day",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": "2026-10-06T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -91394,7 +91421,7 @@
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
       "status": "VALIDATED",
       "ingestion_batch": "TG-H-2026-10-14-24-global-expansion",
-      "location_label_en": "Vila Graúna, Cariacica (ES), Brasil",
+      "location_label_en": "Vila Graúna, Cariacica (ES), Brazil",
       "location_label_es": "Vila Graúna, Cariacica (ES), Brasil",
       "geographic_note_pt": "Localidade aproximada citada pela fonte; não representa imóvel ou local exato da abordagem.",
       "geographic_note_en": "Approximate reported place, not an exact enforcement address.",
@@ -91403,7 +91430,7 @@
       "references_text_pt": "[O/N] Polícia Civil do Espírito Santo (DEPMA) via Folha Vitória — https://www.folhavitoria.com.br/meio-ambiente/sabia-sanhacos-e-tico-ticos-sete-aves-silvestres-sao-apreendidas-em-cariacica/",
       "references_text_en": "[O/N] Polícia Civil do Espírito Santo (DEPMA) via Folha Vitória — https://www.folhavitoria.com.br/meio-ambiente/sabia-sanhacos-e-tico-ticos-sete-aves-silvestres-sao-apreendidas-em-cariacica/",
       "references_text_es": "[O/N] Polícia Civil do Espírito Santo (DEPMA) via Folha Vitória — https://www.folhavitoria.com.br/meio-ambiente/sabia-sanhacos-e-tico-ticos-sete-aves-silvestres-sao-apreendidas-em-cariacica/",
-      "fauna_label_en": "7 aves silvestres nativas",
+      "fauna_label_en": "7 native wild birds",
       "fauna_label_es": "7 aves silvestres nativas",
       "modal_label_pt": "Não informado",
       "aggregate_operation": false,
@@ -91415,6 +91442,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "event_date_precision": "day",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": "2026-10-16T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -91424,8 +91460,8 @@
       "ingestion_batch": "TG-H-2026-10-14-24-round-ongoing-20261024",
       "country": "Geórgia",
       "location_label_pt": "Âmbito nacional, Geórgia",
-      "location_label_en": "Âmbito nacional, Geórgia",
-      "location_label_es": "Âmbito nacional, Geórgia",
+      "location_label_en": "Nationwide, Georgia",
+      "location_label_es": "Ámbito nacional, Georgia",
       "event_date": null,
       "event_end_date": "2026-10-22",
       "publication_date": "2026-10-23",
@@ -91454,8 +91490,8 @@
       "references_text_en": "https://des.gov.ge/En/News/Details/17218",
       "references_text_es": "https://des.gov.ge/En/News/Details/17218",
       "fauna_label_pt": "70 animais silvestres abatidos (balanço agregado)",
-      "fauna_label_en": "70 animais silvestres abatidos (balanço agregado)",
-      "fauna_label_es": "70 animais silvestres abatidos (balanço agregado)",
+      "fauna_label_en": "70 illegally hunted wild animals (national aggregate)",
+      "fauna_label_es": "70 animales silvestres cazados ilegalmente (balance nacional)",
       "fauna_groups_aggregated": [
         "Aves",
         "Mamíferos"
@@ -91478,6 +91514,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -91487,7 +91532,7 @@
       "ingestion_batch": "TG-H-2026-10-14-24-round-ongoing-20261024",
       "country": "Brasil",
       "location_label_pt": "Monteiro, Paraíba, Brasil",
-      "location_label_en": "Monteiro, Paraíba, Brasil",
+      "location_label_en": "Monteiro, Paraíba, Brazil",
       "location_label_es": "Monteiro, Paraíba, Brasil",
       "event_date": "2026-10-22",
       "event_end_date": null,
@@ -91517,8 +91562,8 @@
       "references_text_en": "https://agorapb.com.br/?p=79675 ; https://serrabrancafm.com.br/2026/10/23/policia-militar-apreende-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-a-delegacia-de-monteiro/",
       "references_text_es": "https://agorapb.com.br/?p=79675 ; https://serrabrancafm.com.br/2026/10/23/policia-militar-apreende-aves-silvestres-e-conduz-suspeito-por-crime-ambiental-a-delegacia-de-monteiro/",
       "fauna_label_pt": "Aves silvestres, quantidade indeterminada",
-      "fauna_label_en": "Aves silvestres, quantidade indeterminada",
-      "fauna_label_es": "Aves silvestres, quantidade indeterminada",
+      "fauna_label_en": "Wild birds, quantity unknown",
+      "fauna_label_es": "Aves silvestres, cantidad desconocida",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -91538,6 +91583,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -91547,7 +91601,7 @@
       "ingestion_batch": "TG-H-2026-10-14-24-round-ongoing-20261024",
       "country": "Brasil",
       "location_label_pt": "BR-116 km 830, Vitória da Conquista (BA), Brasil",
-      "location_label_en": "BR-116 km 830, Vitória da Conquista (BA), Brasil",
+      "location_label_en": "BR-116 km 830, Vitória da Conquista (BA), Brazil",
       "location_label_es": "BR-116 km 830, Vitória da Conquista (BA), Brasil",
       "event_date": "2026-10-23",
       "event_end_date": null,
@@ -91577,8 +91631,8 @@
       "references_text_en": "https://www.acordacidade.com.br/policia/policia-resgata-cinco-aves-mantidas-em-maus-tratos-dentro-de-onibus-em-conquista/ ; https://blogdocaiquesantos.com.br/prf-resgata-aves-onibus-br-116-vitoria-da-conquista/ ; https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=563429",
       "references_text_es": "https://www.acordacidade.com.br/policia/policia-resgata-cinco-aves-mantidas-em-maus-tratos-dentro-de-onibus-em-conquista/ ; https://blogdocaiquesantos.com.br/prf-resgata-aves-onibus-br-116-vitoria-da-conquista/ ; https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=563429",
       "fauna_label_pt": "5 sanhaços-cinzentos",
-      "fauna_label_en": "5 sanhaços-cinzentos",
-      "fauna_label_es": "5 sanhaços-cinzentos",
+      "fauna_label_en": "5 sayaca tanagers",
+      "fauna_label_es": "5 tangaras azulejas",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -91600,6 +91654,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": "2026-10-23T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -91639,8 +91702,8 @@
       "references_text_en": "https://policia.gob.pa/31363-en-arraijn-un-hombre-es-aprehendido-por-presunta-caza-ilegal-en-rea-ptotegida.php",
       "references_text_es": "https://policia.gob.pa/31363-en-arraijn-un-hombre-es-aprehendido-por-presunta-caza-ilegal-en-rea-ptotegida.php",
       "fauna_label_pt": "Carne possivelmente silvestre, quantidade indeterminada",
-      "fauna_label_en": "Carne possivelmente silvestre, quantidade indeterminada",
-      "fauna_label_es": "Carne possivelmente silvestre, quantidade indeterminada",
+      "fauna_label_en": "Suspected wild meat, quantity unknown",
+      "fauna_label_es": "Presunta carne de fauna silvestre, cantidad desconocida",
       "fauna_groups_aggregated": [],
       "taxon_text": "Fauna silvestre não identificada (identificação dependente de perícia)",
       "modal_primary": "Não informado",
@@ -91658,6 +91721,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -91665,8 +91737,8 @@
       "id": "2026-10-05_06__reunion-west-marine-reserve-79kg-illegal-catch",
       "country": "França (La Réunion)",
       "location_label_pt": "Reserva Natural Marinha de La Réunion: Grand-Fond/Saint-Gilles, La Saline-les-Bains e Saint-Leu",
-      "location_label_en": "La Réunion Marine Nature Reserve: Grand-Fond/Saint-Gilles, La Saline-les-Bains and Saint-Leu",
-      "location_label_es": "Reserva Natural Marina de La Reunión: Grand-Fond/Saint-Gilles, La Saline-les-Bains y Saint-Leu",
+      "location_label_en": "Marine Nature Reserve of La Réunion: Grand-Fond/Saint-Gilles, La Saline-les-Bains e Saint-Leu",
+      "location_label_es": "Reserva Natural Marina de La Réunion: Grand-Fond/Saint-Gilles, La Saline-les-Bains e Saint-Leu",
       "publication_date": "2026-10-23",
       "event_date": "2026-10-05",
       "event_end_date": "2026-10-06",
@@ -91719,6 +91791,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": "2026-10-05T00:00:00Z",
       "occurred_at_precision": "date_range"
     },
@@ -91726,8 +91807,8 @@
       "id": "2026-10-undated__lake-zhukey-burabay-33kg-illegal-fish",
       "country": "Cazaquistão",
       "location_label_pt": "Lago Zhukey (Жукей), Parque Nacional Burabay, região de Akmola, Cazaquistão",
-      "location_label_en": "Lake Zhukey, Burabay National Park, Akmola Region, Kazakhstan",
-      "location_label_es": "Lago Zhukey, Parque Nacional Burabay, región de Akmola, Kazajistán",
+      "location_label_en": "Lake Zhukey (Жукей), National Park Burabay, region of Akmola, Kazakhstan",
+      "location_label_es": "Lago Zhukey (Жукей), Parque Nacional Burabay, región de Akmola, Kazajistán",
       "publication_date": "2026-10-16",
       "event_date": null,
       "event_date_precision": "unknown",
@@ -91748,8 +91829,8 @@
       "context_en": "[O/N] Kazinform's 16 October police-attributed report describes 33 kg of illegal net-caught fish from Lake Zhukey inside Burabay National Park, involving men from Astana and Kosshy. The 20 October story is an update of the same case, not a separate seizure. Species and number of fish unknown; suspect residences do not establish wildlife origin or a commercial route. The operation's exact date was not stated.",
       "context_es": "[O/N] Kazinform publicó el 16/10, citando a la Policía de Akmola, la extracción ilegal con redes de 33 kg de pescado del lago Zhukey por personas procedentes de Astaná y Kosshy. La nota del 20/10 es actualización del mismo hecho. Peso no convertido a individuos, especies y fecha exacta desconocidas. La residencia de los sospechosos no acredita ruta comercial.",
       "fauna_label_pt": "33 kg de pescado (espécies não informadas)",
-      "fauna_label_en": "33 kg of fish, species unknown",
-      "fauna_label_es": "33 kg de pescado, especies desconocidas",
+      "fauna_label_en": "33 kg of fish (species unknown)",
+      "fauna_label_es": "33 kg de pescado (especies desconocidas)",
       "fauna_groups_aggregated": [
         "Peixes"
       ],
@@ -91778,6 +91859,15 @@
       "image_status": "NOT_VALIDATED",
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
+      "quantity_note_en": "Keep reported animals, parts and weights in their original units; do not infer unreported counts.",
+      "route_audit_note_en": "Only evidence-supported movement may be mapped; no unverified biological origin or cargo route.",
+      "quantity_note_es": "Conservar individuos, partes y pesos en sus unidades originales; no inferir cantidades no publicadas.",
+      "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "secondary-field localization"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
