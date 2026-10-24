@@ -1,0 +1,33 @@
+{
+  "period": {
+    "publication_start": "2026-10-22",
+    "publication_end": "2026-10-24"
+  },
+  "round": "TG-H fourth",
+  "new_case_count": 5,
+  "case_ids": [
+    "2026-10-undated__korczowa-hawksbill-taxidermy-ukraine-to-poland",
+    "2026-10-undated__verona-airport-five-corals-nine-reptile-items",
+    "2026-10-22__cariacica-two-captive-macaw-parrot",
+    "2026-10-22__prudentopolis-vila-mariana-nine-wild-birds",
+    "2026-10-22__ipanguacu-venezia-captive-birds-unknown-number"
+  ],
+  "route_added": "krakowiec-korczowa-hawksbill-taxidermy-2026-10",
+  "route_scope": "Only documented Ukraine-to-Poland border crossing, not biological origin of the specimen or unproven itinerary.",
+  "count_rule": "Verona is multi-passenger aggregate of 14 wildlife articles; unknown bird count in Ipanguaçu remains null.",
+  "deduplication": "Manifest checked before ingestion; distinct from October 21–22 Serra and prior Prudentópolis/Guarapuava incidents.",
+  "verified_manifest_count": 1182,
+  "verified_routes_count": 295,
+  "remaining_limits": [
+    "No complete article-to-country pairing for the items seized in Verona; do not draw presumed multiple routes.",
+    "Unknown exact event dates in Korczowa and Verona; preserve null.",
+    "Live MAP/GLOBE rendering not visually verified."
+  ],
+  "sources": [
+    "https://www.gov.pl/web/ias-rzeszow/chroniony-zolw-szylkretowy-wykryty-w-bagazu",
+    "https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/",
+    "https://www.agazeta.com.br/es/policia/aves-mantidas-ilegalmente-em-cativeiro-sao-apreendidas-em-cariacica-1026",
+    "https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
+    "https://agorarn.com.br/rn/homem-preso-aves-silvestres-cativeiro-rn/"
+  ]
+}
