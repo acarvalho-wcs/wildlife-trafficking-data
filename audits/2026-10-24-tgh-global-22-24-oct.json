@@ -1,0 +1,115 @@
+{
+  "title": "TG-H global sweep: 22-24 October 2026",
+  "period": {
+    "publication_start": "2026-10-22",
+    "publication_end": "2026-10-24",
+    "event_date_policy": "Keep original event date; publication dates are not event dates."
+  },
+  "methodology": "Human-mediated multilingual discovery across North America, Central America and Caribbean, South America, Africa, Asia, Europe, Oceania. Original-source preference, canonical deduplication, PT/EN/ES metadata, generalized geolocation, quantity and documented-route safeguards. Search is nonexhaustive, especially in geographies without confirmed matches.",
+  "canonical_repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-data",
+  "summary": {
+    "new_sharded_cases": 3,
+    "existing_foz_case_preserved_in_shards": 1,
+    "new_routes_from_this_round": 0,
+    "latest_manifest_record_count": 1168,
+    "scope_note": "Count of newly created individual records in this round; not exhaustive count of all published wildlife seizures during period."
+  },
+  "new_cases": [
+    {
+      "case_id": "2026-10-22__mar-del-plata-newbery-four-wild-birds",
+      "publication_date": "2026-10-23",
+      "event_date": "2026-10-22",
+      "location": "Mar del Plata, Argentina",
+      "individuals": 4,
+      "status": "VALIDATED_IN_CANONICAL_STORE",
+      "source": "https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery"
+    },
+    {
+      "case_id": "2026-10-22__koyra-golkhali-deer-meat-head-hide",
+      "publication_date": "2026-10-24",
+      "event_date": "2026-10-22",
+      "location": "Golkhali, Koyra, Bangladesh",
+      "individuals": null,
+      "material": "13.7 kg meat, four legs, one head, one hide; no conversion to individuals",
+      "status": "VALIDATED_IN_CANONICAL_STORE",
+      "source": "https://dailynewnation.com/news/865055"
+    },
+    {
+      "case_id": "2026-10-21_22__serra-jardim-limoeiro-14-birds",
+      "publication_date": "2026-10-23",
+      "event_date_start": "2026-10-21",
+      "event_date_end": "2026-10-22",
+      "location": "Serra, ES, Brazil",
+      "individuals": 14,
+      "status": "VALIDATED_IN_CANONICAL_STORE",
+      "source": "https://esemrede.com.br/fiscalizacao-ambiental-resgata-aves-silvestres-em-operacao/"
+    }
+  ],
+  "already_canonical": [
+    {
+      "case_id": "2026-10-24__foz-do-iguacu-32-wild-bird-eggs-galeao",
+      "action": "Preserved existing canonical case in cases/2026/10 for lossless regeneration",
+      "source": "https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/"
+    },
+    {
+      "case_id": "2026-10-05__pozzallo-377-tortoises-parrots-malta",
+      "reason": "News republished 22 Oct, event 5 Oct"
+    },
+    {
+      "case_id": "2026-10-unknown__tumaco-4235-shark-fins",
+      "reason": "22 Oct report of earlier seizure; already recorded"
+    },
+    {
+      "case_id": "2026-10-21__betim-three-blue-macaws-prf",
+      "reason": "22 Oct local coverage of 21 Oct PRF seizure"
+    },
+    {
+      "case_id": "2026-10-21__joaquim-gomes-three-wildlife-carcasses",
+      "reason": "22 Oct broader Alagoas roundup; no duplicate aggregate"
+    }
+  ],
+  "review_not_added": [
+    {
+      "country": "Mexico",
+      "source": "https://www.gob.mx/profepa/prensa/vinculan-a-proceso-a-una-persona-por-posesion-de-fauna-silvestre-amenazada?idiom=es",
+      "reason": "23 Oct procedural update for earlier Querétaro seizure, event date uncertain. Check canonical event before any insertion."
+    },
+    {
+      "country": "Thailand",
+      "source": "https://aseannow.com/topic/1407831-vietnamese-wildlife-trader-held-in-nakhon-phanom-sting/",
+      "reason": "22 Oct arrest tied to 5 Oct 58 kg scales and additional live reptiles; verify police first-party report and avoid duplication of October 5 shipment."
+    },
+    {
+      "country": "Uruguay/Argentina",
+      "source": "https://www.subrayado.com.uy/cardenales-amarillos-loros-tortugas-y-soldadito-comun-uruguay-devolvio-argentina-animales-incautados-del-trafico-ilegal-n1021646",
+      "reason": "23 Oct repatriation of 48 previously seized animals, not 48 new seizures."
+    },
+    {
+      "country": "Thailand",
+      "source": "https://wildlifejustice.org/thai-authorities-seize-31-tonnes-of-ivory-following-intelligence-provided-by-the-wildlife-justice-commission/",
+      "reason": "22 Oct announcement of 29 Sept port seizure; check separate archived record and historic count before adding."
+    },
+    {
+      "country": "Brazil",
+      "source": "https://guairainforma.com.br/2026/10/22/38-aves-silvestres-sao-apreendidas-em-bebedouro-sp-criador-foi-autuado-em-quase-r-30-mil-pela-policia-ambiental/",
+      "reason": "Reported 22 Oct but seizure 13 Oct; Bebedouro case already canonical."
+    },
+    {
+      "country": "Brazil",
+      "source": "https://litoralmania.com.br/fiscalizacao-reciclagens-arma-municoes-maquine/",
+      "reason": "22 Oct Maquiné cagebirds; exact count omitted; candidate for further official verification."
+    }
+  ],
+  "regions": {
+    "north_america": "Mexico candidate, no new validated insertion",
+    "central_america_caribbean": "No independently verified new insertion",
+    "south_america": "Argentina and Brazil confirmed; Colombia deduplicated",
+    "africa": "No independently verified new insertion",
+    "asia": "Bangladesh confirmed; Thailand queued for origin and event reconciliation",
+    "europe": "Italy deduplicated",
+    "oceania": "No independently verified new insertion"
+  },
+  "route_policy": "No inferred commercial route was added. Foz-to-Galeao documented intended route predates this round. Repatriation and administrative transfers are not trafficking legs.",
+  "prepared_on": "2026-10-24",
+  "disclaimer": "Records reflect only the verified subset located in this TG-H pass, not all worldwide events."
+}
