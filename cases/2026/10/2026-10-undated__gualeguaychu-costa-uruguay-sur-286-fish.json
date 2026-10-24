@@ -31,8 +31,8 @@
   "context_es": "[O] Prefectura Naval reporta 286 peces en un camión en Costa Uruguay Sur, km 87 del río Uruguay. Refrigeración apagada y precintos irregulares. Los 710 kg no se suman al recuento de ejemplares. Sin origen o destino acreditados.",
   "references_text_pt": "[O/N] Prefectura Naval Argentina / Argentina.gob.ar — https://www.argentina.gob.ar/noticias/entre-rios-prefectura-incauto-mas-de-700-kilos-de-pescado-transportados-de-manera-irregular",
   "fauna_label_pt": "Peixes",
-  "fauna_label_en": "Peixes",
-  "fauna_label_es": "Peixes",
+  "fauna_label_en": "286 fish (710 kg)",
+  "fauna_label_es": "286 peces (710 kg)",
   "fauna_groups_aggregated": [
     "Peixes"
   ],
@@ -55,5 +55,17 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null."
+  "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null.",
+  "quantity_note_en": "286 fish individuals, weighing 710 kg in total; the weight is not a second count.",
+  "quantity_note_es": "286 peces, con 710 kg de peso total; el peso no se suma como otro recuento.",
+  "references_text_en": "Sources: https://www.argentina.gob.ar/noticias/entre-rios-prefectura-incauto-mas-de-700-kilos-de-pescado-transportados-de-manera-irregular",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://www.argentina.gob.ar/noticias/entre-rios-prefectura-incauto-mas-de-700-kilos-de-pescado-transportados-de-manera-irregular",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }

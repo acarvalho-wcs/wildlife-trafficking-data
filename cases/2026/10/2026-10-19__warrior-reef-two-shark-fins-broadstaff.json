@@ -12,8 +12,8 @@
   },
   "coordinate_precision": "marine_region_approximate",
   "location_label_pt": "Proximidades de Warrior Reef, Estreito de Torres, Queensland, Austrália",
-  "location_label_en": "Proximidades de Warrior Reef, Estreito de Torres, Queensland, Austrália",
-  "location_label_es": "Proximidades de Warrior Reef, Estreito de Torres, Queensland, Austrália",
+  "location_label_en": "Near Warrior Reef, Torres Strait, Queensland, Australia",
+  "location_label_es": "Cerca de Warrior Reef, Estrecho de Torres, Queensland, Australia",
   "geographic_note_pt": "Coordenadas representativas e generalizadas da localidade; não correspondem ao ponto exato da apreensão.",
   "geographic_note_en": "Generalized reported locality, not the exact seizure site.",
   "geographic_note_es": "Ubicación aproximada, no punto exacto de la intervención.",
@@ -31,8 +31,8 @@
   "context_es": "[O] Comunicado de ABF del 23/10 confirma interceptación del 19/10 cerca de Warrior Reef, con dos aletas. Son dos piezas, no dos tiburones. Nacionalidad de tripulación de PNG y entrega posterior no prueban puerto de origen ni ruta de tráfico.",
   "references_text_pt": "[O/N] Australian Border Force / Maritime Border Command — https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx",
   "fauna_label_pt": "Peixes",
-  "fauna_label_en": "Peixes",
-  "fauna_label_es": "Peixes",
+  "fauna_label_en": "2 shark fins (wildlife items)",
+  "fauna_label_es": "2 aletas de tiburón (piezas)",
   "fauna_groups_aggregated": [
     "Peixes"
   ],
@@ -55,5 +55,17 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null."
+  "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null.",
+  "quantity_note_en": "Two shark fins, not evidence of two individual sharks.",
+  "quantity_note_es": "Dos aletas de tiburón, sin demostrar que procedan de dos tiburones.",
+  "references_text_en": "Sources: https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }

@@ -44,11 +44,25 @@
   "image_status": "NOT_VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_FULL_ROUTE",
   "quantity_unassigned": 0,
-  "location_label_en": "Villa Moscú, Cochabamba, Bolívia",
-  "location_label_es": "Villa Moscú, Cochabamba, Bolívia",
-  "fauna_label_en": "Quatro araras em cativeiro",
-  "fauna_label_es": "Quatro araras em cativeiro",
+  "location_label_en": "Villa Moscú, Cochabamba, Bolivia",
+  "location_label_es": "Villa Moscú, Cochabamba, Bolivia",
+  "fauna_label_en": "4 captive macaws",
+  "fauna_label_es": "4 guacamayos en cautiverio",
   "geographic_note_pt": "Coordenadas generalizadas; não representam o ponto exato da apreensão.",
   "references_text_pt": "[O/N] Opinión Cochabamba / Prefeitura e polícia ambiental — https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html",
-  "route_audit_note_pt": "Não criar segmento de rota sem extremos suficientemente documentados."
+  "route_audit_note_pt": "Não criar segmento de rota sem extremos suficientemente documentados.",
+  "quantity_note_en": "Four live macaws; specific taxonomic identification unavailable.",
+  "quantity_note_es": "Cuatro guacamayos vivos; especies no identificadas con certeza.",
+  "geographic_note_en": "Generalized coordinates of the reported area, not the exact enforcement location.",
+  "geographic_note_es": "Coordenadas aproximadas de la zona informada, no el punto exacto de intervención.",
+  "references_text_en": "Sources: https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://www.opinion.com.bo/cochabamba/rescatan-cuatro-parabas-domicilio-biologo-zona-norte-cochabamba/20261022173142998033.html",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }

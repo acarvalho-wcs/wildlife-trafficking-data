@@ -30,8 +30,8 @@
   "context_es": "[N] La nota del 23/10 atribuye la incautación a inspectores municipales los días 21–22/10. Es un evento de dos días, sin desglose por fecha. Sin origen ni ruta comercial probados.",
   "references_text_pt": "[O/N] RedeTV! ES / Fiscalização de Meio Ambiente da Serra — https://esemrede.com.br/fiscalizacao-ambiental-resgata-aves-silvestres-em-operacao/",
   "fauna_label_pt": "Aves",
-  "fauna_label_en": "Aves",
-  "fauna_label_es": "Aves",
+  "fauna_label_en": "14 wild birds",
+  "fauna_label_es": "14 aves silvestres",
   "fauna_groups_aggregated": [
     "Aves"
   ],
@@ -52,5 +52,19 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "14 birds total; one event across 21–22 October, not 14 per day.",
+  "quantity_note_es": "14 aves en total, un evento entre el 21 y el 22 de octubre; no 14 por día.",
+  "geographic_note_en": "Generalized coordinates of the reported area, not the exact enforcement location.",
+  "geographic_note_es": "Coordenadas aproximadas de la zona informada, no el punto exacto de intervención.",
+  "references_text_en": "Sources: https://esemrede.com.br/fiscalizacao-ambiental-resgata-aves-silvestres-em-operacao/",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://esemrede.com.br/fiscalizacao-ambiental-resgata-aves-silvestres-em-operacao/",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }

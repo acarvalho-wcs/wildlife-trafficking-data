@@ -13,8 +13,8 @@
   },
   "coordinate_precision": "city_generalized",
   "location_label_pt": "Bairro Jorge Newbery, Mar del Plata, Buenos Aires",
-  "location_label_en": "Bairro Jorge Newbery, Mar del Plata, Buenos Aires",
-  "location_label_es": "Bairro Jorge Newbery, Mar del Plata, Buenos Aires",
+  "location_label_en": "Neighborhood Jorge Newbery, Mar del Plata, Buenos Aires",
+  "location_label_es": "Barrio Jorge Newbery, Mar del Plata, Buenos Aires",
   "geographic_note_pt": "Coordenada generalizada da localidade indicada; não representa endereço ou local exato de apreensão.",
   "source_label": "Infobrisas (polícia local)",
   "source_url": "https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery",
@@ -30,8 +30,8 @@
   "context_es": "[N] Publicada el 23/10, describe un allanamiento del 22/10. Se encontraron cuatro aves; no hay evidencia de traslado comercial u origen.",
   "references_text_pt": "[O/N] Infobrisas (polícia local) — https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery",
   "fauna_label_pt": "Aves",
-  "fauna_label_en": "Aves",
-  "fauna_label_es": "Aves",
+  "fauna_label_en": "4 wild birds",
+  "fauna_label_es": "4 aves silvestres",
   "fauna_groups_aggregated": [
     "Aves"
   ],
@@ -52,5 +52,19 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "Four individual birds recovered in one residential search.",
+  "quantity_note_es": "Cuatro aves distintas halladas en un único allanamiento.",
+  "geographic_note_en": "Generalized coordinates of the reported area, not the exact enforcement location.",
+  "geographic_note_es": "Coordenadas aproximadas de la zona informada, no el punto exacto de intervención.",
+  "references_text_en": "Sources: https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://www.infobrisas.com/noticias/2026/10/23/112425-secuestran-hojas-de-coca-municiones-y-aves-silvestres-protegidas-en-vivienda-de-barrio-newbery",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }

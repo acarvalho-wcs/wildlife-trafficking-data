@@ -32,10 +32,10 @@
   "quantity_by_group": {
     "Aves": 31
   },
-  "location_label_en": "Barangay Eden, Toril, Davao City, Filipinas",
+  "location_label_en": "Barangay Eden, Toril, Davao City, Philippines",
   "location_label_es": "Barangay Eden, Toril, Davao City, Filipinas",
-  "fauna_label_en": "31 aves (30 vivas, 1 morta)",
-  "fauna_label_es": "31 aves (30 vivas, 1 morta)",
+  "fauna_label_en": "31 birds (30 alive, 1 dead)",
+  "fauna_label_es": "31 aves (30 vivas, 1 muerta)",
   "geographic_note_pt": "Coordenada generalizada da região citada, não representa o ponto exato da apreensão.",
   "geographic_note_en": "Generalized reported area, not the exact seizure point.",
   "geographic_note_es": "Zona aproximada, no el punto exacto de incautación.",
@@ -52,5 +52,17 @@
   "case_context_status": "PT_EN_ES_COMPLETE",
   "image_url": null,
   "image_status": "NOT_VALIDATED",
-  "route_audit_status": "NO_DOCUMENTED_ROUTE"
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "quantity_note_en": "31 birds total: 30 alive and one dead cockatoo; no additional birds inferred.",
+  "quantity_note_es": "31 aves en total: 30 vivas y una cacatúa muerta; sin sumar ejemplares adicionales.",
+  "references_text_en": "Sources: https://www.mindanaotimes.com.ph/illegal-transport-of-31-exotic-birds-intercepted-in-toril-davao-city/",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://www.mindanaotimes.com.ph/illegal-transport-of-31-exotic-birds-intercepted-in-toril-davao-city/",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }

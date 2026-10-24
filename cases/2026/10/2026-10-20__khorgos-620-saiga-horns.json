@@ -44,11 +44,25 @@
   "image_status": "NOT_VALIDATED",
   "route_audit_status": "NO_DOCUMENTED_FULL_ROUTE",
   "quantity_unassigned": 0,
-  "location_label_en": "Khorgos, fronteira Cazaquistão–China",
-  "location_label_es": "Khorgos, fronteira Cazaquistão–China",
-  "fauna_label_en": "620 chifres de saiga",
-  "fauna_label_es": "620 chifres de saiga",
+  "location_label_en": "Khorgos, border Kazakhstan–China",
+  "location_label_es": "Khorgos, frontera Kazajistán–China",
+  "fauna_label_en": "620 saiga horns",
+  "fauna_label_es": "620 cuernos de saiga",
   "geographic_note_pt": "Coordenadas generalizadas; não representam o ponto exato da apreensão.",
   "references_text_pt": "[O/N] Comitê de Segurança Nacional do Cazaquistão, via Informburo.kz — https://informburo.kz/novosti/roga-saigaka-stoimostiu-180-mln-tenge-pytalis-nezakonno-vyvezti-iz-kazaxstana",
-  "route_audit_note_pt": "Não criar segmento de rota sem extremos suficientemente documentados."
+  "route_audit_note_pt": "Não criar segmento de rota sem extremos suficientemente documentados.",
+  "quantity_note_en": "620 horns are wildlife-derived items, not 620 individual saiga antelopes.",
+  "quantity_note_es": "620 cuernos son partes de fauna, no 620 antílopes saiga.",
+  "geographic_note_en": "Generalized coordinates of the reported area, not the exact enforcement location.",
+  "geographic_note_es": "Coordenadas aproximadas de la zona informada, no el punto exacto de intervención.",
+  "references_text_en": "Sources: https://informburo.kz/novosti/roga-saigaka-stoimostiu-180-mln-tenge-pytalis-nezakonno-vyvezti-iz-kazaxstana",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://informburo.kz/novosti/roga-saigaka-stoimostiu-180-mln-tenge-pytalis-nezakonno-vyvezti-iz-kazaxstana",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }

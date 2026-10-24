@@ -30,8 +30,8 @@
   "context_es": "[O/N] La fuente cita al portavoz de Guardacostas; el operativo ocurrió el jueves 22 de octubre cerca de Singer Bandh, Golkhali. No convertir peso a animales ni sumar partes como individuos. Entregado al puesto forestal de Kobadak. Sin ruta acreditada.",
   "references_text_pt": "[O/N] Daily New Nation / Bangladesh Coast Guard — https://dailynewnation.com/news/865055",
   "fauna_label_pt": "Mamíferos",
-  "fauna_label_en": "Mamíferos",
-  "fauna_label_es": "Mamíferos",
+  "fauna_label_en": "13.7 kg of deer meat plus head, hide and legs",
+  "fauna_label_es": "13,7 kg de carne de ciervo, cabeza, piel y patas",
   "fauna_groups_aggregated": [
     "Mamíferos"
   ],
@@ -50,5 +50,19 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "13.7 kg of meat plus four legs, one head and one hide; not converted into a number of deer.",
+  "quantity_note_es": "13,7 kg de carne, cuatro patas, una cabeza y una piel; no se convierte en número de ciervos.",
+  "geographic_note_en": "Generalized coordinates of the reported area, not the exact enforcement location.",
+  "geographic_note_es": "Coordenadas aproximadas de la zona informada, no el punto exacto de intervención.",
+  "references_text_en": "Sources: https://dailynewnation.com/news/865055",
+  "route_audit_note_en": "No independently documented wildlife origin-to-destination route; do not infer one from passenger nationality, enforcement site or custody transfer.",
+  "references_text_es": "Fuentes: https://dailynewnation.com/news/865055",
+  "route_audit_note_es": "No se documentó una ruta independiente de origen a destino de fauna; no inferirla de nacionalidad, lugar de control ni traslado de custodia.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "PT/EN/ES metadata completeness and source-bounded editorial note review",
+    "severity": "metadata_localization"
+  }
 }
