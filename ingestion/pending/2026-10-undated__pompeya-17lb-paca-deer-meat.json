@@ -1,6 +1,6 @@
 {
   "id": "2026-10-undated__pompeya-17lb-paca-deer-meat",
-  "status": "VALIDATED_PENDING_MERGE",
+  "status": "PUBLISHED",
   "country": "Equador",
   "location_label_pt": "Pompeya, Orellana",
   "publication_date": "2026-10-19",
@@ -18,5 +18,12 @@
   "quantity_kind": "wildlife_products_weight",
   "quantity_note_pt": "10 libras de paca e 7 de veado; peso não convertido em indivíduos.",
   "route_audit_status": "NO_DOCUMENTED_TRADE_ROUTE",
-  "audit_note": "Deduplicado contra 1163 casos em 23/10/2026; Imbabura é registro da placa do veículo; ponto de abordagem em Pompeya; data do evento não determinada; não inserir origem Yasuní como rota comprovada."
+  "audit_note": "Deduplicado contra 1.163 casos em 23/10/2026; registro canônico validado e publicado com compilação para 1.164 ocorrências. Pompeya é ponto aproximado da abordagem; a referência a Imbabura é da placa do automóvel; a data operacional é desconhecida; atribuição de origem ao Yasuní não constitui itinerário comprovado; nenhuma rota foi inserida.",
+  "canonical_status": "VALIDATED",
+  "canonical_path": "cases/2026/10/2026-10-undated__pompeya-17lb-paca-deer-meat.json",
+  "canonical_case_id": "2026-10-undated__pompeya-17lb-paca-deer-meat",
+  "canonical_case_commit": "19009f47bd9c57b22905a89bbb1dcbaf68292586",
+  "compiled_feed_commit": "b5717eed435b8d5d6a6c8b5311f7d5605f183fee",
+  "published_on": "2026-10-23",
+  "dashboard_sync_status": "CANONICAL_FEED_REBUILT"
 }
