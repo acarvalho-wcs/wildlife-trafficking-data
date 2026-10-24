@@ -1,0 +1,36 @@
+{
+  "window": [
+    "2026-10-22",
+    "2026-10-24"
+  ],
+  "round": "TG-H third sweep",
+  "created_ids": [
+    "2026-10-undated__cayo-zapatilla-2-33-marine-invertebrates",
+    "2026-10-undated__gualeguaychu-costa-uruguay-sur-286-fish",
+    "2026-10-undated__quito-mariscal-sucre-199-red-crabs",
+    "2026-10-19__warrior-reef-two-shark-fins-broadstaff"
+  ],
+  "added_files": 4,
+  "additional_candidates": [
+    {
+      "place": "Verona, Italy",
+      "publication_date": "2026-10-23",
+      "reason": "CITES corals and python/monitor lizard products; verify full species and count before canonical insertion"
+    },
+    {
+      "place": "Korczowa, Poland",
+      "reason": "Hawksbill taxidermy reportedly intercepted at Ukraine border; confirm source and route endpoints before insertion"
+    }
+  ],
+  "deduplication": "Checked manifest of 1173 records before batch; none of the four IDs present.",
+  "date_policy": "Publication discovery window; event_date null unless supported by source.",
+  "route_policy": "No trafficking path inferred from passenger nationality, vehicle detention, planned export with unknown destination, or customs custody transfer.",
+  "compiled_feed_status": "pending automated canonical workflow at time of audit",
+  "coverage": "Additional searches across seven regions, multilingual PT ES EN IT PL, priority to primary government sources",
+  "sources": [
+    "https://miambiente.gob.pa/guardaparques-detectan-presunta-extraccion-ilegal-de-langostas-caracoles-y-pulpos-en-isla-bastimentos/",
+    "https://www.argentina.gob.ar/noticias/entre-rios-prefectura-incauto-mas-de-700-kilos-de-pescado-transportados-de-manera-irregular",
+    "https://www.primicias.ec/sucesos/cangrejos-rojos-aeropuerto-quito-exportacion-prohicion-135665/",
+    "https://www.abf.gov.au/newsroom-subsite/Pages/Op-BROADSTAFF-Foreign-fishing-vessel-in-Torres-Strait-intercepted-by-ABF-.aspx"
+  ]
+}
