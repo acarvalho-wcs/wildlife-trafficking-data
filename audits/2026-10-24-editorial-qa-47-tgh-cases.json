@@ -1,0 +1,90 @@
+{
+  "title": "Auditoria editorial e canônica TG-H — 47 registros incluídos em 24/10/2026",
+  "date": "2026-10-24",
+  "repository": "acarvalho-wcs/wildlife-trafficking-data",
+  "scope": {
+    "cases": 47,
+    "manifest_count_initial": 1211,
+    "original_first_case": "2026-10-24__foz-do-iguacu-32-wild-bird-eggs-galeao",
+    "time_window": "Commit date 24 October, even for older event dates"
+  },
+  "findings": {
+    "core_trilingual_fields": "47/47 with titles, cards and context non-empty PT/EN/ES",
+    "secondary_localization": "46 records improved; Foz 32-eggs already complete",
+    "nontrivial_factual_corrections": 5,
+    "records_created_by_audit": 0,
+    "counts_changed": 0,
+    "route_count_changed": 0
+  },
+  "strengths": [
+    "Event/publication dates generally separate; unknown dates explicit",
+    "Strong caveats for eggs versus live animals, parts versus animals, kg versus animal count",
+    "Route itinerary, intended movement, administrative custody and provenance differentiated",
+    "Most records contextualize neighboring duplicates and protect against unrelated cross-border claims",
+    "Sources usually attributed to authorities, with occasional official primary links"
+  ],
+  "deficiencies": [
+    "Secondary notes in English and Spanish had been absent or copied from PT; translation pass applied to 46 cases",
+    "F1–F7 source hierarchy not structurally stored across every record",
+    "Some EN/ES context blocks are shorter than PT and deserve fuller semantic parity, beyond presence checks",
+    "Several scientific taxon fields used invalid rank + spp. or vernacular + spp.; five corrected now",
+    "Some source URLs point to news accounts rather than involved agency's primary publication",
+    "The website's rendering of all locale fields and source links has not been visually audited"
+  ],
+  "priority_reviews": [
+    {
+      "case": "2026-09-14__torres-strait-600kg-shark-500kg-reef-fish",
+      "reason": "Earlier 14 Sep boat possibly differs from October AFMA case; event_date nulled pending vessel ID"
+    },
+    {
+      "case": "2026-08-22_10-22__georgia-70-poached-animals-aggregate",
+      "reason": "Ensure exclude_from_totals=true, 70 animals from nationwide aggregate not added to individual case totals"
+    },
+    {
+      "case": "2026-10-22__nakhon-phanom-31-reptiles-storage-trafficking",
+      "reason": "Case ID suggests 22 Oct but source reports event day unclear; reptile interception distinct from 5 Oct pangolin scales"
+    },
+    {
+      "case": "2026-10-undated__verona-airport-five-corals-nine-reptile-items",
+      "reason": "Multiple countries of passenger origin not mapped to each seized item"
+    },
+    {
+      "case": "2026-10-24__foz-do-iguacu-32-wild-bird-eggs-galeao",
+      "reason": "Potential unit value and China nationality must not be treated as verified destination/network"
+    },
+    {
+      "case": "2026-10-undated__korczowa-hawksbill-taxidermy-ukraine-to-poland",
+      "reason": "Country of border crossing not biological provenance of turtle"
+    },
+    {
+      "case": "2026-10-06__bekasi-jatiasih-320kg-pangolin-scales",
+      "reason": "320 vs 320.85 kg discrepancy; distribution endpoints not proven movement of seized lot"
+    },
+    {
+      "case": "2025-04__kyneton-victoria-over-700-dead-15-live-wildlife",
+      "reason": "April 2025 search, October 2026 verdict; preserve non-exact combined animal count"
+    },
+    {
+      "case": "2026-10-17__matanya-laikipia-38_6kg-game-meat",
+      "reason": "Animal group and number unknown; source says suspected bushmeat"
+    },
+    {
+      "case": "2026-10-05_06__reunion-west-marine-reserve-79kg-illegal-catch",
+      "reason": "Multi-location 28 + 30 + 21 kg aggregate, do not count subevents twice"
+    },
+    {
+      "case": "2026-10-23__vitoria-da-conquista-five-sayaca-barreiros",
+      "reason": "Destination Barreiros only intended and not reached"
+    }
+  ],
+  "rules_to_implement": [
+    "Make all displayed localized fields required for PT/EN/ES, including quantity, route and source notes",
+    "Implement semantic parity review, not just nonempty checks",
+    "Validate event_date independently from publication date and avoid assigning exact days based on possible matches",
+    "Require genus for standard 'sp.' or 'spp.' expressions, otherwise use formal taxon rank without spp.",
+    "Record source tier, directness, event timestamp and uncertainty as structured fields",
+    "Record route leg as completed/intended/alleged/custody and only map documented source-supported movements",
+    "Suppress aggregate entries from animal totals whenever individual cases may overlap"
+  ],
+  "limitations": "Editorial GitHub-data audit; each external source and the live website display were not individually revalidated by visual browsing."
+}

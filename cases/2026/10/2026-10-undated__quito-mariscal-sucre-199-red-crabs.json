@@ -36,7 +36,7 @@
   "fauna_groups_aggregated": [
     "Invertebrados"
   ],
-  "taxon_text": "Cangrejo rojo spp. (identificação específica não confirmada)",
+  "taxon_text": "Brachyura (caranguejos-vermelhos; espécie não identificada)",
   "modal_primary": "Aéreo",
   "modal_label_pt": "Aéreo",
   "aggregate_operation": false,
@@ -64,7 +64,6 @@
   "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
   "editorial_review": {
     "date": "2026-10-24",
-    "batch": "TG-H 47-case multilingual QA",
-    "scope": "translated metadata, no factual changes"
+    "scope": "Evidence-bounded taxonomy and event-date QA"
   }
 }

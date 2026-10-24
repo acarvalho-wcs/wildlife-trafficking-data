@@ -38,7 +38,7 @@
   "fauna_groups_aggregated": [
     "Mamíferos"
   ],
-  "taxon_text": "Primates spp. (denominação árabe vernacular النسناس; espécie indeterminada)",
+  "taxon_text": "Primates (gênero e espécie não identificados; termo árabe النسناس)",
   "modal_primary": "Não informado",
   "modal_label_pt": "Não informado",
   "aggregate_operation": false,
@@ -63,7 +63,6 @@
   "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
   "editorial_review": {
     "date": "2026-10-24",
-    "batch": "TG-H 47-case multilingual QA",
-    "scope": "secondary-field localization"
+    "scope": "Evidence-bounded taxonomy and event-date QA"
   }
 }

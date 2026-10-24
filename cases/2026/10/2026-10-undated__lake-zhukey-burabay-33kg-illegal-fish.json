@@ -29,7 +29,7 @@
   "fauna_groups_aggregated": [
     "Peixes"
   ],
-  "taxon_text": "Actinopterygii spp. (espécies não identificadas)",
+  "taxon_text": "Actinopterygii (espécies não identificadas)",
   "modal_primary": "Não informado",
   "aggregate_operation": false,
   "exclude_from_totals": false,
@@ -60,7 +60,6 @@
   "route_audit_note_es": "Solo cartografiar movimientos documentados; no atribuir origen biológico ni ruta no demostrada.",
   "editorial_review": {
     "date": "2026-10-24",
-    "batch": "TG-H 47-case multilingual QA",
-    "scope": "secondary-field localization"
+    "scope": "Evidence-bounded taxonomy and event-date QA"
   }
 }
