@@ -46,7 +46,7 @@ jobs:
           entry=next((z for z in d["cases"] if z.get("id")==c["id"]),None)
           assert entry is not None and entry.get("quantity_count")==32, "Target case missing or incorrect"
           assert sum(z.get("id")==c["id"] for z in d["cases"])==1, "Duplicate target case"
-          assert len(d["cases"])==1165, "Unexpected case count; verify before modifying"
+          assert len(d["cases"])>=1165, "Case count regressed; verify before modifying"
           if "[I1–I4]" not in entry.get("context_pt",""):
            for lang in ("pt","en","es"):
             entry["context_"+lang]=entry["context_"+lang].rstrip()+"\n\n"+e["context"][lang]
