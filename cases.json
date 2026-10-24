@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1168_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1171_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1168,
+  "count": 1171,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -531,7 +531,7 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-10-24T21:12:00Z",
+  "updated_at": "2026-10-10T11:32:58Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -88915,9 +88915,9 @@
       "card_text_pt": "Receita Federal apreendeu 32 ovos de aves nativas com casal chinês em ônibus Foz do Iguaçu–Rio de Janeiro. Passageiros disseram que receberiam R$ 3 mil para entregar ovos no aeroporto do Galeão. Parte estava em caixas com circuitos de controle de temperatura inoperantes e parte oculta em jaqueta. Material encaminhado ao Ibama; espécies e destino internacional não confirmados.",
       "card_text_en": "Brazilian customs seized 32 native bird eggs from a Chinese couple aboard a Foz do Iguaçu–Rio de Janeiro bus. The passengers said they would receive BRL 3,000 to deliver the eggs at Galeão Airport. Some eggs were in boxes with inoperative temperature-control devices, others concealed in a jacket. Transferred to Ibama; species and international destination remain unconfirmed.",
       "card_text_es": "La Receita Federal decomisó 32 huevos de aves nativas a una pareja china en autobús Foz do Iguaçu–Río de Janeiro. Los pasajeros dijeron que cobrarían R$ 3.000 por entregarlos en el aeropuerto de Galeão. Había huevos en cajas con sistemas de temperatura inoperantes y otros escondidos en una chaqueta. Entregados al Ibama; especies y destino internacional sin confirmar.",
-      "context_pt": "[O1–O2] Em 24/10/2026, a Receita Federal apreendeu 32 ovos de aves nativas com um casal chinês em ônibus abordado em Foz do Iguaçu. Os passageiros declararam que pegaram os ovos em Foz e receberiam R$ 3 mil para entregá-los no aeroporto do Galeão, RJ. Foram encontradas caixas com ventoinhas, sensores e circuitos eletrônicos desligados ou inoperantes, além de ovos ocultos na jaqueta. Os ovos foram encaminhados ao Ibama para cuidados e identificação; envolvidos, à PF. A cifra de até € 50 mil por ovo é estimativa potencial de mercado atribuída à Receita, não avaliação individual. Limites: não foram confirmadas espécies, origem biológica, viabilidade dos embriões, comprador nem destino internacional. O trecho Foz → Galeão foi declarado como destino pretendido, não como transporte concluído. A nacionalidade dos passageiros não comprova a existência de uma rede comum com outros casos.\n\n[I1–I4] Comparação TG-H com quatro ocorrências já validadas no Observatório: 18/09 (8 ovos), 01/10 (34), 04/10 (16) e 05/10 (21), somando 79 ovos. As fontes desses registros documentam passageiros chineses; com os 32 ovos de 24/10 são cinco apreensões distintas e 111 ovos entre 18/09 e 24/10/2026. Em 05/10, a PF documentou o trecho Foz do Iguaçu → Guarulhos; neste caso de 24/10, Foz do Iguaçu → Galeão corresponde apenas a destino pretendido e não alcançado. A repetição de Foz como local de passagem/retirada declarado sugere prioridade de verificação, mas não comprova mesma origem biológica, organizadores, destinatários nem rede criminosa. O lote de 18/09 não teve itinerário individualizado; relatos sobre destinos dos lotes de outubro divergem. Não combinar rotas, somar agregados nem inferir China como destino dos ovos deste caso. Comparação interna de inteligência, não prova de vínculo entre as cinco ocorrências.",
-      "context_en": "[O1–O2] On 24 Oct 2026, Brazilian customs seized 32 native bird eggs from two Chinese passengers on a bus inspected in Foz do Iguaçu. The passengers reported collecting the eggs in Foz and expecting BRL 3,000 for delivery to Rio de Janeiro's Galeão Airport. The eggs were hidden in a jacket and in boxes with disabled or inoperative fans, sensors and electronic circuits. The eggs went to Ibama for care and identification; the passengers were referred to Federal Police. The possible value of up to EUR 50,000 per egg is a customs-attributed market estimate, not an individual valuation. Species, biological origin, embryo viability, buyer and international destination are unknown. Foz → Galeão was an intended, uncompleted leg. Shared nationality alone does not establish a criminal linkage with other events.\n\n[I1–I4] TG-H comparison against four separately validated Observatory events: 18 Sep (8 eggs), 1 Oct (34), 4 Oct (16), and 5 Oct (21), totalling 79 eggs. Sources attached to those records document Chinese passengers; adding the 32 eggs seized on 24 Oct yields five distinct seizures and 111 eggs from 18 Sep to 24 Oct 2026. On 5 Oct, Federal Police documented passenger movement from Foz do Iguaçu to Guarulhos; for 24 Oct, Foz do Iguaçu → Galeão was only a reported intended, uncompleted route. Foz recurring as a reported collection/transit point merits scrutiny but does not prove shared biological provenance, organizers, buyers or a trafficking network. The 18 Sep lot had no individually documented itinerary, and the October destinations have source discrepancies. Do not merge routes, add aggregate totals or infer China as the destination of the 24 Oct eggs. This is intelligence comparison, not evidence linking the five incidents.",
-      "context_es": "[O1–O2] El 24/10/2026, la Receita Federal decomisó 32 huevos de aves nativas a dos pasajeros chinos en un autobús inspeccionado en Foz do Iguaçu. Dijeron haber recogido los huevos en Foz y esperar R$ 3.000 por entregarlos al aeropuerto de Galeão, Río de Janeiro. Había huevos ocultos en una chaqueta y en cajas con ventiladores, sensores y circuitos inoperantes. Los huevos fueron llevados al Ibama para cuidados e identificación, y los pasajeros a la Policía Federal. El posible precio de hasta 50.000 euros por huevo es una estimación atribuida a aduanas, no una valoración individual. Especies, origen biológico, viabilidad embrionaria, comprador y destino internacional son desconocidos. Foz → Galeão era una etapa prevista y no completada. La nacionalidad no prueba vínculo con otros casos.\n\n[I1–I4] Comparación TG-H con cuatro eventos individualizados y validados en el Observatorio: 18/09 (8 huevos), 01/10 (34), 04/10 (16) y 05/10 (21), que suman 79 huevos. Las fuentes de esos registros documentan pasajeros chinos; con los 32 huevos del 24/10 son cinco decomisos distintos y 111 huevos entre el 18/09 y el 24/10/2026. El 05/10, la Policía Federal documentó el traslado Foz do Iguaçu → Guarulhos; en este caso de 24/10, Foz do Iguaçu → Galeão fue únicamente un destino previsto y no alcanzado. La recurrencia de Foz como lugar de tránsito/recogida declarado merece investigación, pero no demuestra origen biológico común, organizadores, compradores ni una red criminal. El lote del 18/09 no tiene itinerario individualizado y los destinos de los casos de octubre presentan divergencias entre fuentes. No fusionar rutas, sumar totales agregados ni inferir que China sea el destino de los huevos del 24/10. Es una comparación de inteligencia, no prueba de vínculo entre los cinco episodios.",
+      "context_pt": "[O1–O2] Em 24/10/2026, a Receita Federal apreendeu 32 ovos de aves nativas com um casal chinês em ônibus abordado em Foz do Iguaçu. Os passageiros declararam que pegaram os ovos em Foz e receberiam R$ 3 mil para entregá-los no aeroporto do Galeão, RJ. Foram encontradas caixas com ventoinhas, sensores e circuitos eletrônicos desligados ou inoperantes, além de ovos ocultos na jaqueta. Os ovos foram encaminhados ao Ibama para cuidados e identificação; envolvidos, à PF. A cifra de até € 50 mil por ovo é estimativa potencial de mercado atribuída à Receita, não avaliação individual. Limites: não foram confirmadas espécies, origem biológica, viabilidade dos embriões, comprador nem destino internacional. O trecho Foz → Galeão foi declarado como destino pretendido, não como transporte concluído. A nacionalidade dos passageiros não comprova a existência de uma rede comum com outros casos.",
+      "context_en": "[O1–O2] On 24 Oct 2026, Brazilian customs seized 32 native bird eggs from two Chinese passengers on a bus inspected in Foz do Iguaçu. The passengers reported collecting the eggs in Foz and expecting BRL 3,000 for delivery to Rio de Janeiro's Galeão Airport. The eggs were hidden in a jacket and in boxes with disabled or inoperative fans, sensors and electronic circuits. The eggs went to Ibama for care and identification; the passengers were referred to Federal Police. The possible value of up to EUR 50,000 per egg is a customs-attributed market estimate, not an individual valuation. Species, biological origin, embryo viability, buyer and international destination are unknown. Foz → Galeão was an intended, uncompleted leg. Shared nationality alone does not establish a criminal linkage with other events.",
+      "context_es": "[O1–O2] El 24/10/2026, la Receita Federal decomisó 32 huevos de aves nativas a dos pasajeros chinos en un autobús inspeccionado en Foz do Iguaçu. Dijeron haber recogido los huevos en Foz y esperar R$ 3.000 por entregarlos al aeropuerto de Galeão, Río de Janeiro. Había huevos ocultos en una chaqueta y en cajas con ventiladores, sensores y circuitos inoperantes. Los huevos fueron llevados al Ibama para cuidados e identificación, y los pasajeros a la Policía Federal. El posible precio de hasta 50.000 euros por huevo es una estimación atribuida a aduanas, no una valoración individual. Especies, origen biológico, viabilidad embrionaria, comprador y destino internacional son desconocidos. Foz → Galeão era una etapa prevista y no completada. La nacionalidad no prueba vínculo con otros casos.",
       "context_references": [
         {
           "id": "O1",
@@ -88930,43 +88930,11 @@
           "type": "case_source",
           "label": "SOT, comunicado da Receita Federal reproduzido",
           "url": "https://sot.inf.br/noticia/60994/receita-federal-apreende-32-ovos-de-aves-nativas-transportados-clandestinamente-em-onibus"
-        },
-        {
-          "id": "I1",
-          "type": "observatory_comparative_case_not_evidence_of_link",
-          "case_id": "2026-09-18__guarulhos-8-wild-bird-eggs",
-          "label": "Apreensão de oito ovos de aves silvestres em Guarulhos",
-          "url": "https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/",
-          "event_date": "2026-09-18"
-        },
-        {
-          "id": "I2",
-          "type": "observatory_comparative_case_not_evidence_of_link",
-          "case_id": "2026-10-02__guarulhos-34-wild-bird-eggs-vietnam",
-          "label": "Apreensão de 34 ovos de aves silvestres em Guarulhos",
-          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos",
-          "event_date": "2026-10-01"
-        },
-        {
-          "id": "I3",
-          "type": "observatory_comparative_case_not_evidence_of_link",
-          "case_id": "2026-10-02_04__guarulhos-16-wild-bird-eggs-doha",
-          "label": "Apreensão de 16 ovos de aves silvestres em Guarulhos",
-          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos",
-          "event_date": "2026-10-04"
-        },
-        {
-          "id": "I4",
-          "type": "observatory_comparative_case_not_evidence_of_link",
-          "case_id": "2026-10-05__guarulhos-21-wild-bird-eggs-china-ticket",
-          "label": "Ibama apreende 21 ovos de aves em Guarulhos; passageiro tinha passagem para a China",
-          "url": "https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
-          "event_date": "2026-10-05"
         }
       ],
-      "references_text_pt": "[O1] H2FOZ — https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/; [O2] SOT — https://sot.inf.br/noticia/60994/receita-federal-apreende-32-ovos-de-aves-nativas-transportados-clandestinamente-em-onibus; [I1] Observatório — 2026-09-18__guarulhos-8-wild-bird-eggs — https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/; [I2] Observatório — 2026-10-02__guarulhos-34-wild-bird-eggs-vietnam — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos; [I3] Observatório — 2026-10-02_04__guarulhos-16-wild-bird-eggs-doha — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos; [I4] Observatório — 2026-10-05__guarulhos-21-wild-bird-eggs-china-ticket — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
-      "references_text_en": "[O1] H2FOZ — https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/; [O2] SOT — https://sot.inf.br/noticia/60994/receita-federal-apreende-32-ovos-de-aves-nativas-transportados-clandestinamente-em-onibus; [I1] Observatório — 2026-09-18__guarulhos-8-wild-bird-eggs — https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/; [I2] Observatório — 2026-10-02__guarulhos-34-wild-bird-eggs-vietnam — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos; [I3] Observatório — 2026-10-02_04__guarulhos-16-wild-bird-eggs-doha — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos; [I4] Observatório — 2026-10-05__guarulhos-21-wild-bird-eggs-china-ticket — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
-      "references_text_es": "[O1] H2FOZ — https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/; [O2] SOT — https://sot.inf.br/noticia/60994/receita-federal-apreende-32-ovos-de-aves-nativas-transportados-clandestinamente-em-onibus; [I1] Observatório — 2026-09-18__guarulhos-8-wild-bird-eggs — https://conexaoplaneta.com.br/blog/em-poucas-semanas-quase-80-ovos-de-aves-sao-apreendidos-com-passageiros-no-aeroporto-de-guarulhos/; [I2] Observatório — 2026-10-02__guarulhos-34-wild-bird-eggs-vietnam — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-apreende-34-ovos-de-aves-silvestres-no-aeroporto-internacional-de-guarulhos; [I3] Observatório — 2026-10-02_04__guarulhos-16-wild-bird-eggs-doha — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-prende-passageira-com-cocaina-e-registra-ocorrencias-no-aeroporto-de-guarulhos; [I4] Observatório — 2026-10-05__guarulhos-21-wild-bird-eggs-china-ticket — https://semil.sp.gov.br/2026/10/nova-apreensao-no-aeroporto-de-guarulhos-eleva-para-71-o-numero-de-ovos-recebidos-pelo-cetras-sp/",
+      "references_text_pt": "[O1] H2FOZ — https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/; [O2] SOT — https://sot.inf.br/noticia/60994/receita-federal-apreende-32-ovos-de-aves-nativas-transportados-clandestinamente-em-onibus",
+      "references_text_en": "[O1] H2FOZ — https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/; [O2] SOT — https://sot.inf.br/noticia/60994/receita-federal-apreende-32-ovos-de-aves-nativas-transportados-clandestinamente-em-onibus",
+      "references_text_es": "[O1] H2FOZ — https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/; [O2] SOT — https://sot.inf.br/noticia/60994/receita-federal-apreende-32-ovos-de-aves-nativas-transportados-clandestinamente-em-onibus",
       "route_audit_status": "DOCUMENTED_ATTRIBUTED_INTENDED_ROUTE",
       "route_audit_note_pt": "Foz do Iguaçu → Galeão segundo relato dos passageiros; destino pretendido, não deslocamento concluído. Sem rota internacional.",
       "route_audit_note_en": "Foz do Iguaçu → Galeão attributed to passengers; intended rather than completed, no international route.",
@@ -88984,11 +88952,7 @@
       "reconstruction_batch": "manual_tgh_2026-10-24_foz_32_eggs",
       "reconstruction_confidence": "CUSTOMS_STATEMENT_REPORTED_BY_LOCAL_NEWS",
       "ingestion_batch": "manual_tgh_2026-10-24_foz_32_eggs",
-      "added_at": "2026-10-24T21:01:50Z",
-      "source_evidence_note_pt": "H2FOZ e SOT reproduzem informações atribuídas à Alfândega da Receita Federal em Foz do Iguaçu; publicação direta no portal oficial não identificada nesta triagem. Não contar essas duas reproduções como duas confirmações oficiais independentes.",
-      "source_evidence_note_en": "H2FOZ and SOT relay information attributed to Brazilian customs in Foz do Iguaçu; no directly issued official government webpage was identified in this screening. Do not treat these two news reproductions as independent primary confirmations.",
-      "source_evidence_note_es": "H2FOZ y SOT reproducen información atribuida a la Aduana de la Receita Federal en Foz do Iguaçu; en esta revisión no se encontró una publicación gubernamental directa. No considerar los dos medios como dos confirmaciones oficiales independientes.",
-      "context_updated_at": "2026-10-24T21:12:00Z"
+      "added_at": "2026-10-24T21:01:50Z"
     },
     {
       "id": "2026-10-21_22__serra-jardim-limoeiro-14-birds",
@@ -89160,6 +89124,180 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "occurred_at": "2026-10-22T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-19__davao-toril-31-cockatoos-eclectus",
+      "country": "Filipinas",
+      "event_date": "2026-10-19",
+      "publication_date": "2026-10-23",
+      "coordinates": {
+        "lat": 7.03,
+        "lon": 125.49
+      },
+      "coordinate_precision": "district_generalized",
+      "location_label_pt": "Barangay Eden, Toril, Davao City, Filipinas",
+      "source_label": "Mindanao Times / DENR Davao, PNP Station 19",
+      "source_url": "https://www.mindanaotimes.com.ph/illegal-transport-of-31-exotic-birds-intercepted-in-toril-davao-city/",
+      "title_pt": "Polícia intercepta 31 aves exóticas transportadas sem licença em Davao",
+      "title_en": "Police intercept 31 exotic birds illegally transported in Davao",
+      "title_es": "Policía intercepta 31 aves exóticas transportadas sin permiso en Davao",
+      "card_text_pt": "Em 19/10, fiscalização em veículo no distrito de Toril encontrou 15 cacatuas-de-crista-amarela (14 vivas, uma morta) e 16 papagaios-ecletos vivos, sem licenças apresentadas.",
+      "card_text_en": "At a Toril checkpoint on 19 October, officers found 15 sulphur-crested cockatoos (14 alive, one dead) and 16 live Eclectus parrots in a van without the required transport documents.",
+      "card_text_es": "En un control vehicular en Toril el 19 de octubre, agentes hallaron 15 cacatúas de cresta amarilla (14 vivas, una muerta) y 16 loros eclécticos vivos, sin los permisos requeridos.",
+      "context_pt": "[O/N] Mindanao Times publicou em 23/10 o relato da DENR/PNP sobre a intervenção de 19/10 em Purok 2, Sitio Uguis, Barangay Eden. Total de 31 espécimes: 30 vivos e uma cacatua morta. É diferente da apreensão de General Santos em 20/10; números desta última apresentam divergências entre fontes e não são atualizados aqui. Sem rota origem–destino documental.",
+      "context_en": "[O/N] Published 23 October based on DENR/PNP account of the 19 October stop in Purok 2, Sitio Uguis, Barangay Eden. 31 specimens, of which 30 live and one dead cockatoo. Separate from the 20 October General Santos seizure, whose figures vary across reports. No documented movement endpoints.",
+      "context_es": "[O/N] Publicado el 23/10 a partir del relato de DENR/PNP del control del 19/10 en Purok 2, Sitio Uguis, Barangay Eden. 31 ejemplares, de los cuales 30 vivos y una cacatúa muerta. Distinto del caso de General Santos (20/10). Sin ruta documentada.",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "fauna_label_pt": "31 aves (30 vivas, 1 morta)",
+      "taxon_text": "Cacatua galerita (15, uma morta); Eclectus roratus (16)",
+      "modal_primary": "Terrestre",
+      "quantity_count": 31,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 31
+      },
+      "location_label_en": "Barangay Eden, Toril, Davao City, Filipinas",
+      "location_label_es": "Barangay Eden, Toril, Davao City, Filipinas",
+      "fauna_label_en": "31 aves (30 vivas, 1 morta)",
+      "fauna_label_es": "31 aves (30 vivas, 1 morta)",
+      "geographic_note_pt": "Coordenada generalizada da região citada, não representa o ponto exato da apreensão.",
+      "geographic_note_en": "Generalized reported area, not the exact seizure point.",
+      "geographic_note_es": "Zona aproximada, no el punto exacto de incautación.",
+      "references_text_pt": "[O/N] Mindanao Times / DENR Davao, PNP Station 19 — https://www.mindanaotimes.com.ph/illegal-transport-of-31-exotic-birds-intercepted-in-toril-davao-city/",
+      "route_audit_note_pt": "Nenhum segmento de rota origem–destino comprovado com precisão suficiente.",
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Contagem de espécimes, sem inferir grupos adicionais.",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-2026-10-22-24-complementary",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "occurred_at": "2026-10-19T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-22__lok-ma-chau-two-live-cites-turtles",
+      "country": "Hong Kong",
+      "event_date": "2026-10-22",
+      "publication_date": "2026-10-23",
+      "coordinates": {
+        "lat": 22.515,
+        "lon": 114.066
+      },
+      "coordinate_precision": "border_control_generalized",
+      "location_label_pt": "Posto fronteiriço Lok Ma Chau Spur Line, Hong Kong",
+      "source_label": "Hong Kong Customs (comunicado oficial)",
+      "source_url": "https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+      "title_pt": "Alfândega de Hong Kong apreende duas tartarugas vivas na fronteira",
+      "title_en": "Hong Kong Customs seizes two live turtles at border crossing",
+      "title_es": "Aduanas de Hong Kong decomisa dos tortugas vivas en control fronterizo",
+      "card_text_pt": "Em 22/10, agentes interceptaram um passageiro que chegava ao posto Lok Ma Chau Spur Line com duas tartarugas vivas em saco plástico; AFCD indicou preliminarmente espécies abrangidas pela CITES.",
+      "card_text_en": "On 22 October officers intercepted an incoming passenger at Lok Ma Chau Spur Line carrying two live turtles in a plastic bag; AFCD preliminarily identified CITES-regulated endangered species.",
+      "card_text_es": "El 22 de octubre, agentes interceptaron a un pasajero entrante en Lok Ma Chau Spur Line con dos tortugas vivas en una bolsa; AFCD identificó preliminarmente especies reguladas por CITES.",
+      "context_pt": "[O] Comunicado oficial publicado em 23/10 sobre fiscalização de 22/10. Valor estimado HK$ 3.000. Identificação preliminar sem espécie nominal publicada. Deslocamento de entrada ao território comprovado, mas origem geográfica específica anterior e itinerário não definidos; não desenhar rota inferida.",
+      "context_en": "[O] Official release 23 October dates the interception to 22 October. Estimated value HKD 3,000. No confirmed species-level names. Incoming passenger known, but geographic origin and specific itinerary not evidenced: no inferred route.",
+      "context_es": "[O] Comunicado oficial del 23/10 sobre la intervención del 22/10. Valor estimado HKD 3.000. Sin identificación taxonómica específica confirmada. No hay origen ni itinerario suficientemente documentados para trazar ruta.",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "fauna_label_pt": "2 tartarugas vivas",
+      "taxon_text": "Testudines spp. (identificação preliminar CITES; espécie não informada)",
+      "modal_primary": "Terrestre",
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 2
+      },
+      "location_label_en": "Posto fronteiriço Lok Ma Chau Spur Line, Hong Kong",
+      "location_label_es": "Posto fronteiriço Lok Ma Chau Spur Line, Hong Kong",
+      "fauna_label_en": "2 tartarugas vivas",
+      "fauna_label_es": "2 tartarugas vivas",
+      "geographic_note_pt": "Coordenada generalizada da região citada, não representa o ponto exato da apreensão.",
+      "geographic_note_en": "Generalized reported area, not the exact seizure point.",
+      "geographic_note_es": "Zona aproximada, no el punto exacto de incautación.",
+      "references_text_pt": "[O/N] Hong Kong Customs (comunicado oficial) — https://www.info.gov.hk/gia/general/202610/23/P2026102300392.htm",
+      "route_audit_note_pt": "Nenhum segmento de rota origem–destino comprovado com precisão suficiente.",
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Contagem de espécimes, sem inferir grupos adicionais.",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-2026-10-22-24-complementary",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "occurred_at": "2026-10-22T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-23__igbo-ora-imeko-afon-five-live-pangolins",
+      "country": "Nigéria",
+      "event_date": "2026-10-23",
+      "publication_date": "2026-10-23",
+      "coordinates": {
+        "lat": 7.45,
+        "lon": 3
+      },
+      "coordinate_precision": "corridor_generalized",
+      "location_label_pt": "Eixo Igbo-Ora / Imeko-Afon, Nigéria (localização incerta)",
+      "source_label": "Nigeria Customs Service FOU Zone A (nota citada pelo Guardian Nigeria)",
+      "source_url": "https://guardian.ng/news/customs-fou-zone-a-rescues-another-five-live-pangolins-in-ogun-state/",
+      "title_pt": "Alfândega nigeriana intercepta cinco pangolins vivos no corredor Igbo-Ora–Imeko-Afon",
+      "title_en": "Nigeria Customs intercepts five live pangolins near Igbo-Ora–Imeko-Afon",
+      "title_es": "Aduanas de Nigeria intercepta cinco pangolines vivos en el corredor Igbo-Ora–Imeko-Afon",
+      "card_text_pt": "Às 1h18 de 23/10, equipe da alfândega interceptou cinco pangolins vivos em gaiolas de arame; os suspeitos fugiram e os animais foram encaminhados à Greenfingers Wildlife Initiative.",
+      "card_text_en": "At about 1:18am on 23 October, customs intercepted five live pangolins concealed in wire cages. Suspects fled; the animals were handed to Greenfingers Wildlife Initiative.",
+      "card_text_es": "Hacia la 1:18 del 23 de octubre, aduaneros interceptaron cinco pangolines vivos ocultos en jaulas metálicas. Los sospechosos huyeron; los animales fueron entregados a Greenfingers Wildlife Initiative.",
+      "context_pt": "[O/N] Comunicado de Hussaini Abdullahi (NCS) reproduzido em 23/10. Incidente distinto da apreensão de três pangolins divulgada em 12–13/10. A descrição 'Igbo-Ora/Imeko-Afon axis of Ogun State' contém possível inconsistência administrativa: Igbo-Ora fica em Oyo, Imeko-Afon em Ogun. Coordenada representativa e sem ponto exato. Não inferir rota.",
+      "context_en": "[O/N] Nigerian Customs spokesman's statement reported 23 October. Distinct from the three-pangolin seizure of 12 October. Location phrase straddles Igbo-Ora (Oyo) and Imeko-Afon (Ogun), so a generalized corridor point is used; no route inferred.",
+      "context_es": "[O/N] Declaración de Aduanas publicada el 23/10. Diferente de la incautación de tres pangolines del 12/10. La localización Igbo-Ora (Oyo)/Imeko-Afon (Ogun) es imprecisa; punto aproximado y sin ruta inferida.",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "fauna_label_pt": "5 pangolins vivos",
+      "taxon_text": "Pholidota spp. (espécies não confirmadas)",
+      "modal_primary": "Terrestre",
+      "quantity_count": 5,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 5
+      },
+      "location_label_en": "Eixo Igbo-Ora / Imeko-Afon, Nigéria (localização incerta)",
+      "location_label_es": "Eixo Igbo-Ora / Imeko-Afon, Nigéria (localização incerta)",
+      "fauna_label_en": "5 pangolins vivos",
+      "fauna_label_es": "5 pangolins vivos",
+      "geographic_note_pt": "Coordenada generalizada da região citada, não representa o ponto exato da apreensão.",
+      "geographic_note_en": "Generalized reported area, not the exact seizure point.",
+      "geographic_note_es": "Zona aproximada, no el punto exacto de incautación.",
+      "references_text_pt": "[O/N] Nigeria Customs Service FOU Zone A (nota citada pelo Guardian Nigeria) — https://guardian.ng/news/customs-fou-zone-a-rescues-another-five-live-pangolins-in-ogun-state/",
+      "route_audit_note_pt": "Nenhum segmento de rota origem–destino comprovado com precisão suficiente.",
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Contagem de espécimes, sem inferir grupos adicionais.",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-2026-10-22-24-complementary",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "occurred_at": "2026-10-23T00:00:00Z",
       "occurred_at_precision": "day"
     }
   ]
