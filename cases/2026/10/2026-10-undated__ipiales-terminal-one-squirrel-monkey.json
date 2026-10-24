@@ -26,12 +26,12 @@
   "card_text_pt": "Polícia Ambiental localizou um macaco-de-cheiro sendo transportado por uma mulher no terminal rodoviário de Ipiales, usando roupas e fralda. A possível comercialização está sob investigação; não há origem ou destino informados.",
   "card_text_en": "Environmental police found one squirrel monkey being transported by a woman at Ipiales bus terminal, dressed in clothes and a diaper. Possible illegal trade remains under investigation; no origin or destination is given.",
   "card_text_es": "Policía Ambiental encontró un mono ardilla transportado por una mujer en la terminal de Ipiales, vestido y con pañal. Se investiga una posible comercialización ilegal; no constan origen ni destino.",
-  "context_pt": "[O] A Polícia Nacional publicou o relato em 17/10. A passageira, de nacionalidade venezuelana, transportava um primata no terminal de Ipiales. A nacionalidade não demonstra origem ou rota desde a Venezuela. A fonte menciona provisoriamente Saimiri oerstedii, mas ressalva que a identificação deve ser confirmada por autoridade ambiental; registrar Saimiri sp., sem forçar nível específico. Não foram divulgados data exata da abordagem nem destino pretendido.",
-  "context_en": "[O] Colombian National Police report of 17 October describes one squirrel monkey carried through Ipiales transport terminal. The passenger's Venezuelan nationality does not prove a Venezuelan route. Species-level identification is explicitly preliminary (Saimiri oerstedii suggested); retain Saimiri sp. Intervention date and destination unknown.",
-  "context_es": "[O] Policía Nacional del 17/10: un mono ardilla transportado en terminal de Ipiales. La nacionalidad venezolana de la pasajera no demuestra origen o itinerario desde Venezuela. La identificación propuesta como Saimiri oerstedii debe corroborarse; registrar Saimiri sp. No hay fecha exacta del control ni destino.",
-  "references_text_pt": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en",
-  "references_text_en": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en",
-  "references_text_es": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en",
+  "context_pt": "[O] A Polícia Nacional publicou o relato em 17/10. A passageira, de nacionalidade venezuelana, transportava um primata no terminal de Ipiales. A nacionalidade não demonstra origem ou rota desde a Venezuela. A fonte menciona provisoriamente Saimiri oerstedii, mas ressalva que a identificação deve ser confirmada por autoridade ambiental; registrar Saimiri sp., sem forçar nível específico. Não foram divulgados data exata da abordagem nem destino pretendido.\n\n[S1] Pesquisa colombiana de 2018–2022 analisou 1.584 mamíferos apreendidos de 79 espécies e identificou lacunas de registro que dificultam estimar padrões espaciais. O caso de Ipiales é um exemplo concreto da necessidade de validar a determinação de *Saimiri* sp. e informar o percurso documentado; a pesquisa não demonstrou origem venezuelana para esse indivíduo nem associação com um corredor específico.",
+  "context_en": "[O] Colombian National Police report of 17 October describes one squirrel monkey carried through Ipiales transport terminal. The passenger's Venezuelan nationality does not prove a Venezuelan route. Species-level identification is explicitly preliminary (Saimiri oerstedii suggested); retain Saimiri sp. Intervention date and destination unknown.\n\n[S1] A Colombian analysis of 1,584 confiscated mammals from 79 species during 2018–2022 found recording gaps that obstruct spatial interpretation. This Ipiales case particularly requires validated *Saimiri* sp. identification and source-backed transit details. The paper does not establish Venezuelan origin for this individual or a particular trafficking corridor.",
+  "context_es": "[O] Policía Nacional del 17/10: un mono ardilla transportado en terminal de Ipiales. La nacionalidad venezolana de la pasajera no demuestra origen o itinerario desde Venezuela. La identificación propuesta como Saimiri oerstedii debe corroborarse; registrar Saimiri sp. No hay fecha exacta del control ni destino.\n\n[S1] Un análisis colombiano de 1.584 mamíferos decomisados de 79 especies entre 2018 y 2022 encontró vacíos de registro que dificultan analizar patrones espaciales. En Ipiales debe verificarse la identificación de *Saimiri* sp. y el trayecto sustentado; el estudio no demuestra origen venezolano del animal ni pertenencia a una ruta específica.",
+  "references_text_pt": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en\n[S1] Impacto del tráfico ilegal de mamíferos en Colombia con enfoque en los análisis de biodiversidad — https://doi.org/10.18257/raccefyn.2660",
+  "references_text_en": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en\n[S1] Impacto del tráfico ilegal de mamíferos en Colombia con enfoque en los análisis de biodiversidad — https://doi.org/10.18257/raccefyn.2660",
+  "references_text_es": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en\n[S1] Impacto del tráfico ilegal de mamíferos en Colombia con enfoque en los análisis de biodiversidad — https://doi.org/10.18257/raccefyn.2660",
   "fauna_label_pt": "1 macaco-de-cheiro",
   "fauna_label_en": "1 squirrel monkey",
   "fauna_label_es": "1 mono ardilla",
@@ -64,5 +64,23 @@
     "date": "2026-10-24",
     "batch": "TG-H 47-case multilingual QA",
     "scope": "secondary field localization"
+  },
+  "context_references": [
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Impacto del tráfico ilegal de mamíferos en Colombia con enfoque en los análisis de biodiversidad",
+      "url": "https://doi.org/10.18257/raccefyn.2660",
+      "doi": "10.18257/raccefyn.2660"
+    }
+  ],
+  "context_enrichment": {
+    "version": "2026-10-24-SN-2",
+    "evidence_grade": "A/B",
+    "source_catalogs": [
+      "research/papers.json",
+      "news/news.json"
+    ],
+    "linkage": "Comparative method/theme, no operational connection presumed"
   }
 }
