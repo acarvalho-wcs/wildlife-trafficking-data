@@ -1,0 +1,21 @@
+{
+  "window": "2026-10-14 through 2026-10-24 (publication discovery)",
+  "round": "Pending candidates adjudication",
+  "new_cases": [
+    "2026-10-undated__groblersdal-two-sable-antelopes-illegal-hunting",
+    "2026-10-22__maquine-rs-captive-wild-birds-unknown-quantity",
+    "2026-10-undated__angelina-county-tx-one-alligator-illegal-possession",
+    "2026-10-17__matanya-laikipia-38_6kg-game-meat"
+  ],
+  "excluded_from_new_cases": [
+    {
+      "id": "tana-river-37-5kg-usalama-xii",
+      "reason": "Possible duplicates within multi-day Usalama XII crackdown, including Komorjila and Bangale/Areri; no independent operation date or batch delineation confirmed.",
+      "status": "PENDING_DEDUPLICATION",
+      "source": "https://eastleighvoice.co.ke/headlines/412240/29-arrested-as-dci-led-operation-nets-suspected-contraband-goods-worth-sh627-million"
+    }
+  ],
+  "constraints": "Maquine: confirm environmental infraction but not physical seizure. Groblersdal: inconsistent weekdays with day-of-month; event_date null. Matanya: 38.6kg weight, not individuals. Angelina: custody violation with no trafficking route. No new routes. All record source uncertainties in PT/EN/ES.",
+  "verification": "Files committed to sharded store; automatic compile pending confirmation.",
+  "previous_manifest_count": 1190
+}
