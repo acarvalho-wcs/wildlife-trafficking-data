@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-24T21:01:50Z",
+  "updated_at": "2026-10-24",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11833,6 +11833,42 @@
       "source_label": "H2FOZ (informações da Receita Federal)",
       "source_url": "https://www.h2foz.com.br/seguranca-publica/casal-e-flagrado-com-32-ovos-de-aves-que-podem-valer-50-mil-euros-cada-um/",
       "source_evidence_type": "attributed_passenger_statement"
+    },
+    {
+      "id": "krakowiec-korczowa-hawksbill-taxidermy-2026-10",
+      "event_match": {
+        "event_id": "2026-10-undated__korczowa-hawksbill-taxidermy-ukraine-to-poland"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_border_crossing",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Krakowiec (Ucrânia) → Korczowa (Polônia): travessia documentada",
+      "label_en": "Krakovets (Ukraine) → Korczowa (Poland): documented border crossing",
+      "label_es": "Krakovets (Ucrania) → Korczowa (Polonia): cruce documentado",
+      "segments": [
+        {
+          "from": {
+            "name": "Krakowiec / Krakovets (posto fronteiriço)",
+            "country": "Ucrânia",
+            "lat": 49.952,
+            "lon": 23.11,
+            "precision": "border_crossing_generalized"
+          },
+          "to": {
+            "name": "Korczowa (posto fronteiriço)",
+            "country": "Polônia",
+            "lat": 49.957644,
+            "lon": 23.109442,
+            "precision": "border_crossing_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O1] A KAS de Rzeszów documenta ingresso na Polônia a partir da Ucrânia pelo posto de Korczowa com uma tartaruga-de-pente taxidermizada. O segmento é exclusivamente a travessia documentada; não demonstra origem biológica na Ucrânia nem itinerário anterior ou posterior.",
+      "evidence_en": "[O1] Rzeszów Customs confirms a vehicle entering Poland from Ukraine at Korczowa carrying one taxidermied hawksbill turtle. Only the checkpoint crossing is shown; no claim of biological origin or prior/further journey.",
+      "evidence_es": "[O1] Aduanas de Rzeszów confirma entrada desde Ucrania a Polonia por Korczowa con una tortuga carey disecada. Solo el cruce fronterizo está documentado, no el origen biológico ni etapas anteriores o posteriores.",
+      "source_label": "Krajowa Administracja Skarbowa / Izba Administracji Skarbowej w Rzeszowie",
+      "source_url": "https://www.gov.pl/web/ias-rzeszow/chroniony-zolw-szylkretowy-wykryty-w-bagazu"
     }
   ],
   "network_context": [
