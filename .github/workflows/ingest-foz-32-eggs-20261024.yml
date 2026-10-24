@@ -1,5 +1,6 @@
 name: One-off canonical ingestion - Foz 32 eggs 2026-10-24
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/ingest-foz-32-eggs-20261024.yml'
