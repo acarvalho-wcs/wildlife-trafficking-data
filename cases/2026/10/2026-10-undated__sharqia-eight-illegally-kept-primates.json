@@ -26,12 +26,12 @@
   "card_text_pt": "Divulgada em 20/10, ação da Diretoria Veterinária de Sharqia e órgãos ambientais apreendeu oito primatas em posse irregular de um cidadão. Os animais foram encaminhados ao zoológico de Zagazig por decisão da promotoria. Espécies e data exata da fiscalização não divulgadas.",
   "card_text_en": "Reported on 20 October, Sharqia veterinary authorities and environmental agencies seized eight primates illegally held by a resident. The animals were sent to Zagazig Zoo under a prosecution order. Exact species and intervention date were not released.",
   "card_text_es": "Divulgado el 20/10, autoridades veterinarias y ambientales decomisaron ocho primates mantenidos sin autorización en Sharqia. Los animales fueron enviados al zoológico de Zagazig por orden de fiscalía. Sin especies ni fecha exacta publicadas.",
-  "context_pt": "[O/N] El Balad (20/10/2026) atribui declaração ao diretor veterinário Mohamed El-Sayed Ibrahim Bashar: oito animais descritos em árabe como 'النسناس' foram retirados de um particular por posse contrária às normas ambientais, com apoio dos órgãos ambientais de Sharqia e Ismailia. Taxonomia não comprovada: 'نسناس' é rótulo vernacular impreciso e não autoriza identificação ao nível de espécie ou gênero. A data da apreensão não é expressa. Transporte administrativo para o zoológico de Zagazig não configura rota de tráfico. Quantidade exata de 8 indivíduos.",
-  "context_en": "[O/N] El Balad's 20 October article quotes Sharqia veterinary director Mohamed El-Sayed Ibrahim Bashar: eight monkeys/primates were confiscated from unlawful private possession with environmental-authority support. The Arabic vernacular term 'nesnas' does not substantiate genus or species. Exact seizure date not reported. Transfer to Zagazig Zoo is administrative custody, not a trafficking route.",
-  "context_es": "[O/N] El Balad del 20/10 cita al director veterinario de Sharqia: ocho primates descritos en árabe como 'nesnas' fueron incautados por tenencia irregular, con coordinación ambiental. El nombre común no permite identificar género ni especie. Sin fecha exacta del operativo. Traslado al zoológico de Zagazig es administrativo, no ruta comercial.",
-  "references_text_pt": "[O/N] El Balad — https://www.elbalad.news/7149144; [N] Ahl Masr — https://ahlmasrnews.com/news/local-news/13498482/بيطري-الشرقية-يضبط-8-حيوانات-من-فصيلة-النسناس-ويودعها-بحديقة-الحيوان-بالزقازيق",
-  "references_text_en": "[O/N] El Balad — https://www.elbalad.news/7149144",
-  "references_text_es": "[O/N] El Balad — https://www.elbalad.news/7149144",
+  "context_pt": "[O/N] El Balad (20/10/2026) atribui declaração ao diretor veterinário Mohamed El-Sayed Ibrahim Bashar: oito animais descritos em árabe como 'النسناس' foram retirados de um particular por posse contrária às normas ambientais, com apoio dos órgãos ambientais de Sharqia e Ismailia. Taxonomia não comprovada: 'نسناس' é rótulo vernacular impreciso e não autoriza identificação ao nível de espécie ou gênero. A data da apreensão não é expressa. Transporte administrativo para o zoológico de Zagazig não configura rota de tráfico. Quantidade exata de 8 indivíduos.\n\n[S1] Revisão sobre o comércio de primatas identifica múltiplas finalidades — animais de estimação, alimentação, medicina e outros usos —, além de efeitos de bem-estar, conservação e saúde. Isso reforça a necessidade de determinar espécie, origem e finalidade de manutenção dos oito primatas em Sharqia antes de atribuir a operação a um mercado específico. O encaminhamento ao zoológico é custódia administrativa e não evidencia trânsito comercial.",
+  "context_en": "[O/N] El Balad's 20 October article quotes Sharqia veterinary director Mohamed El-Sayed Ibrahim Bashar: eight monkeys/primates were confiscated from unlawful private possession with environmental-authority support. The Arabic vernacular term 'nesnas' does not substantiate genus or species. Exact seizure date not reported. Transfer to Zagazig Zoo is administrative custody, not a trafficking route.\n\n[S1] A review of primate trade identifies different uses—pets, wild meat, traditional medicine and others—and related welfare, conservation and health impacts. The eight primates in Sharqia need species, source and intended-use verification before any market type is assigned. Transfer to a zoo was administrative custody, not documented commercial trafficking.",
+  "context_es": "[O/N] El Balad del 20/10 cita al director veterinario de Sharqia: ocho primates descritos en árabe como 'nesnas' fueron incautados por tenencia irregular, con coordinación ambiental. El nombre común no permite identificar género ni especie. Sin fecha exacta del operativo. Traslado al zoológico de Zagazig es administrativo, no ruta comercial.\n\n[S1] Una revisión del comercio de primates distingue mascotas, carne silvestre, medicina tradicional y otros usos, con riesgos de bienestar, conservación y salud. Los ocho ejemplares de Sharqia requieren identificación, origen y finalidad de tenencia antes de atribuir un mercado. Su traslado al zoológico es custodia administrativa, no ruta comercial.",
+  "references_text_pt": "[O/N] El Balad — https://www.elbalad.news/7149144; [N] Ahl Masr — https://ahlmasrnews.com/news/local-news/13498482/بيطري-الشرقية-يضبط-8-حيوانات-من-فصيلة-النسناس-ويودعها-بحديقة-الحيوان-بالزقازيق\n[S1] Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "references_text_en": "[O/N] El Balad — https://www.elbalad.news/7149144\n[S1] Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "references_text_es": "[O/N] El Balad — https://www.elbalad.news/7149144\n[S1] Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
   "fauna_label_pt": "8 primatas vivos (identificação taxonômica não publicada)",
   "fauna_label_en": "8 live primates (species not identified)",
   "fauna_label_es": "8 primates vivos (especies desconocidas)",
@@ -64,5 +64,19 @@
   "editorial_review": {
     "date": "2026-10-24",
     "scope": "Evidence-bounded taxonomy and event-date QA"
+  },
+  "context_references": [
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Global wildlife trade and trafficking contribute to the world's nonhuman primate conservation crisis",
+      "url": "https://doi.org/10.3389/fcosc.2024.1400613",
+      "catalog_id": "doi-10.3389-fcosc.2024.1400613"
+    }
+  ],
+  "context_enrichment": {
+    "version": "2026-10-24-SN-continuation-3",
+    "grade": "B",
+    "limits": "Distinct broader studies; no link between actors, sources or routes asserted."
   }
 }

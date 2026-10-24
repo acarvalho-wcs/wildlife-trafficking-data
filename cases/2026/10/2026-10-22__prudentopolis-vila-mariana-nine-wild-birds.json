@@ -26,12 +26,12 @@
   "card_text_pt": "Após denúncia de perturbação, policiais identificaram nove aves nativas sem licença em residência de Vila Mariana, Prudentópolis, em 22/10. Foram citados tiê-preto, azulões, coleirinha, bico-de-pimenta, canário-da-terra e pintassilgos.",
   "card_text_en": "On 22 October, police responding to a noise complaint found nine unlicensed native birds at a home in Vila Mariana, Prudentópolis. Species were listed by Portuguese common names, without counts per species.",
   "card_text_es": "El 22/10, policías que atendían una queja por ruido hallaron nueve aves nativas sin licencia en una vivienda de Vila Mariana, Prudentópolis; solo se publicaron nombres comunes sin cantidades por especie.",
-  "context_pt": "[O/N] Polícia Militar e Ambiental foram acionadas em 22/10 e lavraram termo circunstanciado por manutenção não autorizada de nove aves nativas. A ocorrência começou como perturbação do sossego; não há indício publicado de venda, proveniência ou circulação. Nomes comuns diversos sem número individual por espécie, de modo que não há conversão taxonômica específica. Caso distinto de Guarapuava em 19/10.",
-  "context_en": "[O/N] Paraná Central reproduces police account of 22 October. Nine native birds held without authorization; the initial call concerned noise, with no published trade, origin, or transport. Common names do not support specific counts by taxon. Separate from Guarapuava on 19 October.",
-  "context_es": "[O/N] Información policial del 22/10: nueve aves nativas en cautiverio sin licencia. La intervención surgió por ruido vecinal y no demuestra venta ni traslado. Nombres comunes sin desglose taxonómico. Distinto de Guarapuava.",
-  "references_text_pt": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
-  "references_text_en": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
-  "references_text_es": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
+  "context_pt": "[O/N] Polícia Militar e Ambiental foram acionadas em 22/10 e lavraram termo circunstanciado por manutenção não autorizada de nove aves nativas. A ocorrência começou como perturbação do sossego; não há indício publicado de venda, proveniência ou circulação. Nomes comuns diversos sem número individual por espécie, de modo que não há conversão taxonômica específica. Caso distinto de Guarapuava em 19/10.\n\n[S1] Estudo com perfis isotópicos de penas de 58 espécies de aves canoras brasileiras explorou formas de distinguir origem silvestre de cativa e detectar possível lavagem. Como as nove aves de Prudentópolis foram identificadas sobretudo por nomes populares e sem procedência legal, sua identificação taxonômica e histórico de origem são lacunas relevantes. A técnica constitui possibilidade pericial, não resultado obtido com estas aves nem evidência de comercialização.",
+  "context_en": "[O/N] Paraná Central reproduces police account of 22 October. Nine native birds held without authorization; the initial call concerned noise, with no published trade, origin, or transport. Common names do not support specific counts by taxon. Separate from Guarapuava on 19 October.\n\n[S1] A study of feather isotope profiles spanning 58 Brazilian songbird species explored discrimination between wild and captive origins and potential laundering. With nine Prudentópolis birds listed mostly by common names and lacking provenance documents, identification and origin histories remain key gaps. Isotope testing is a potential forensic approach, not a result obtained for these animals or proof of sales.",
+  "context_es": "[O/N] Información policial del 22/10: nueve aves nativas en cautiverio sin licencia. La intervención surgió por ruido vecinal y no demuestra venta ni traslado. Nombres comunes sin desglose taxonómico. Distinto de Guarapuava.\n\n[S1] Una investigación de perfiles isotópicos en plumas de 58 especies brasileñas de aves canoras exploró cómo distinguir origen silvestre y cautivo y posible blanqueo. Las nueve aves de Prudentópolis se describieron principalmente por nombres comunes y carecían de procedencia acreditada; requieren identificación e historial. La prueba isotópica es una posibilidad pericial, no una prueba realizada ni evidencia de venta.",
+  "references_text_pt": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis\n[S1] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "references_text_en": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis\n[S1] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
+  "references_text_es": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis\n[S1] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052",
   "fauna_label_pt": "9 aves silvestres nativas",
   "fauna_label_en": "9 native wild birds",
   "fauna_label_es": "9 aves silvestres nativas",
@@ -66,5 +66,19 @@
     "date": "2026-10-24",
     "batch": "TG-H 47-case multilingual QA",
     "scope": "translated metadata, no factual changes"
+  },
+  "context_references": [
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "url": "https://doi.org/10.1111/acv.70052",
+      "catalog_id": "doi-10.1111-acv.70052"
+    }
+  ],
+  "context_enrichment": {
+    "version": "2026-10-24-SN-continuation-3",
+    "grade": "B",
+    "limits": "Distinct broader studies; no link between actors, sources or routes asserted."
   }
 }
