@@ -11869,6 +11869,44 @@
       "evidence_es": "[O1] Aduanas de Rzeszów confirma entrada desde Ucrania a Polonia por Korczowa con una tortuga carey disecada. Solo el cruce fronterizo está documentado, no el origen biológico ni etapas anteriores o posteriores.",
       "source_label": "Krajowa Administracja Skarbowa / Izba Administracji Skarbowej w Rzeszowie",
       "source_url": "https://www.gov.pl/web/ias-rzeszow/chroniony-zolw-szylkretowy-wykryty-w-bagazu"
+    },
+    {
+      "id": "vitoria-da-conquista-barreiros-five-sayaca-2026-10-23",
+      "event_match": {
+        "event_id": "2026-10-23__vitoria-da-conquista-five-sayaca-barreiros"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Vitória da Conquista → Barreiros (destino declarado, não alcançado)",
+      "label_en": "Vitória da Conquista → Barreiros (reported intended, not completed)",
+      "label_es": "Vitória da Conquista → Barreiros (destino declarado, no completado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Vitória da Conquista, Bahia (abordagem na BR-116)",
+            "country": "Brasil",
+            "lat": -14.861,
+            "lon": -40.844,
+            "precision": "city_road_generalized"
+          },
+          "to": {
+            "name": "Barreiros, Pernambuco (residência declarada)",
+            "country": "Brasil",
+            "lat": -8.82,
+            "lon": -35.19,
+            "precision": "municipality_generalized"
+          },
+          "status": "INTENDED_NOT_COMPLETED"
+        }
+      ],
+      "evidence_pt": "[N/PRF] Em 23/10/2026, a PRF apreendeu cinco sanhaços no km 830 da BR-116 em Vitória da Conquista (BA). O passageiro afirmou que pretendia levá-los à sua residência em Barreiros (PE). O trecho proposto não foi concluído e a origem rural da captura não foi identificada; nunca tratar Barreiros como local de entrega comprovada. Coordenadas generalizadas para cidades. Não representa rota biológica das aves.",
+      "evidence_en": "[N/PRF] On 23 October, federal highway police seized five sayaca tanagers at BR-116 km 830 in Vitória da Conquista. The passenger said he intended to take them to his residence in Barreiros, Pernambuco. This intended leg was not completed, rural collection origin was not specified, and no biological origin is inferred.",
+      "evidence_es": "[N/PRF] El 23/10, la PRF decomisó cinco aves en BR-116 km 830 en Vitória da Conquista. El pasajero declaró que pretendía llevarlas a su casa en Barreiros (PE), pero no llegó a ese destino. Origen rural no identificado y georreferencia generalizada.",
+      "source_label": "NUCOM/PRF Bahia via Acorda Cidade e Blog do Caique Santos",
+      "source_url": "https://www.acordacidade.com.br/policia/policia-resgata-cinco-aves-mantidas-em-maus-tratos-dentro-de-onibus-em-conquista/",
+      "source_evidence_type": "attributed_passenger_statement"
     }
   ],
   "network_context": [
