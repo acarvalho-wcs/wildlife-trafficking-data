@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-22-24-twohour-live-1",
   "country": "Nova Zelândia",
   "location_label_pt": "Costa de Pihama, South Taranaki, Nova Zelândia",
-  "location_label_en": "Costa de Pihama, South Taranaki, Nova Zelândia",
-  "location_label_es": "Costa de Pihama, South Taranaki, Nova Zelândia",
+  "location_label_en": "Coast of Pihama, South Taranaki, New Zealand",
+  "location_label_es": "Costa de Pihama, South Taranaki, Nueva Zelanda",
   "event_date": "2026-10-09",
   "publication_date": "2026-10-22",
   "event_date_precision": "day",
@@ -31,8 +31,8 @@
   "context_es": "[O] Policía NZ informó el 22/10 una inspección del 9/10 en Pihama. 73 ejemplares en total, 20 de talla inferior, no se suman de nuevo. Remisión a control pesquero; sin ruta.",
   "references_text_pt": "[O/N] New Zealand Police — https://www.police.govt.nz/news/release/man-facing-prosecution-relation-p%C4%81ua-catch?cmax=&cmin=&search=",
   "fauna_label_pt": "Invertebrados",
-  "fauna_label_en": "Invertebrados",
-  "fauna_label_es": "Invertebrados",
+  "fauna_label_en": "73 pāua (abalone)",
+  "fauna_label_es": "73 abulones pāua",
   "fauna_groups_aggregated": [
     "Invertebrados"
   ],
@@ -55,5 +55,16 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting."
+  "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting.",
+  "references_text_en": "Source: https://www.police.govt.nz/news/release/man-facing-prosecution-relation-p%C4%81ua-catch?cmax=&cmin=&search=",
+  "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+  "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+  "references_text_es": "Fuente: https://www.police.govt.nz/news/release/man-facing-prosecution-relation-p%C4%81ua-catch?cmax=&cmin=&search=",
+  "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+  "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "translated metadata, no factual changes"
+  }
 }

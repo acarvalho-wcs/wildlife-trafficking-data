@@ -12,8 +12,8 @@
   },
   "coordinate_precision": "airport_generalized",
   "location_label_pt": "Aeroporto Internacional Mariscal Sucre, Quito, Equador",
-  "location_label_en": "Aeroporto Internacional Mariscal Sucre, Quito, Equador",
-  "location_label_es": "Aeroporto Internacional Mariscal Sucre, Quito, Equador",
+  "location_label_en": "Airport Internacional Mariscal Sucre, Quito, Ecuador",
+  "location_label_es": "Aeropuerto Internacional Mariscal Sucre, Quito, Ecuador",
   "geographic_note_pt": "Coordenadas representativas e generalizadas da localidade; não correspondem ao ponto exato da apreensão.",
   "geographic_note_en": "Generalized reported locality, not the exact seizure site.",
   "geographic_note_es": "Ubicación aproximada, no punto exacto de la intervención.",
@@ -31,8 +31,8 @@
   "context_es": "[O/N] Declaración de la Policía Zona 9 del 24/10 recogida por Primicias y Teleamazonas. Los cangrejos estaban embalados para exportación; sin confirmar especie, estado vital, fecha exacta del decomiso ni destino exterior. No se infiere ruta internacional.",
   "references_text_pt": "[O/N] Policía Nacional del Ecuador / UPMA Zona 9, via Primicias — https://www.primicias.ec/sucesos/cangrejos-rojos-aeropuerto-quito-exportacion-prohicion-135665/",
   "fauna_label_pt": "Invertebrados",
-  "fauna_label_en": "Invertebrados",
-  "fauna_label_es": "Invertebrados",
+  "fauna_label_en": "199 red crabs",
+  "fauna_label_es": "199 cangrejos rojos",
   "fauna_groups_aggregated": [
     "Invertebrados"
   ],
@@ -55,5 +55,16 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null."
+  "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null.",
+  "references_text_en": "Source: https://www.primicias.ec/sucesos/cangrejos-rojos-aeropuerto-quito-exportacion-prohicion-135665/",
+  "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+  "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+  "references_text_es": "Fuente: https://www.primicias.ec/sucesos/cangrejos-rojos-aeropuerto-quito-exportacion-prohicion-135665/",
+  "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+  "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "translated metadata, no factual changes"
+  }
 }

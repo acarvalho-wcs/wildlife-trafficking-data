@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-22-24-round-4",
   "country": "Polônia",
   "location_label_pt": "Posto fronteiriço Korczowa–Krakowiec, Polônia–Ucrânia",
-  "location_label_en": "Posto fronteiriço Korczowa–Krakowiec, Polônia–Ucrânia",
-  "location_label_es": "Posto fronteiriço Korczowa–Krakowiec, Polônia–Ucrânia",
+  "location_label_en": "Border crossing Korczowa–Krakowiec, Poland–Ukraine",
+  "location_label_es": "Paso fronterizo Korczowa–Krakowiec, Polonia–Ucrania",
   "publication_date": "2026-10-22",
   "event_date": null,
   "event_date_precision": "unknown",
@@ -33,8 +33,8 @@
   "references_text_en": "[O1] Izba Administracji Skarbowej w Rzeszowie (KAS, fonte oficial); Polskie Radio Rzeszów 22/10 — https://www.gov.pl/web/ias-rzeszow/chroniony-zolw-szylkretowy-wykryty-w-bagazu ; [N2] https://radio.rzeszow.pl/367300/chroniony-zolw-zatrzymany-na-granicy-w-korczowej-28-latek-nie-mial-wymaganych-dokumentow/",
   "references_text_es": "[O1] Izba Administracji Skarbowej w Rzeszowie (KAS, fonte oficial); Polskie Radio Rzeszów 22/10 — https://www.gov.pl/web/ias-rzeszow/chroniony-zolw-szylkretowy-wykryty-w-bagazu ; [N2] https://radio.rzeszow.pl/367300/chroniony-zolw-zatrzymany-na-granicy-w-korczowej-28-latek-nie-mial-wymaganych-dokumentow/",
   "fauna_label_pt": "Uma tartaruga-de-pente taxidermizada",
-  "fauna_label_en": "Uma tartaruga-de-pente taxidermizada",
-  "fauna_label_es": "Uma tartaruga-de-pente taxidermizada",
+  "fauna_label_en": "1 taxidermied hawksbill turtle",
+  "fauna_label_es": "1 tortuga carey disecada",
   "fauna_groups_aggregated": [
     "Répteis"
   ],
@@ -57,5 +57,14 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion."
+  "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion.",
+  "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+  "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+  "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+  "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "translated metadata, no factual changes"
+  }
 }

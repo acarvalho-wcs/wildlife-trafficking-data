@@ -4,7 +4,7 @@
   "ingestion_batch": "TG-H-2026-10-22-24-round-4",
   "country": "Brasil",
   "location_label_pt": "Vila Mariana, Prudentópolis, Paraná, Brasil",
-  "location_label_en": "Vila Mariana, Prudentópolis, Paraná, Brasil",
+  "location_label_en": "Vila Mariana, Prudentópolis, Paraná, Brazil",
   "location_label_es": "Vila Mariana, Prudentópolis, Paraná, Brasil",
   "publication_date": "2026-10-23",
   "event_date": "2026-10-22",
@@ -33,7 +33,7 @@
   "references_text_en": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
   "references_text_es": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
   "fauna_label_pt": "9 aves silvestres nativas",
-  "fauna_label_en": "9 aves silvestres nativas",
+  "fauna_label_en": "9 native wild birds",
   "fauna_label_es": "9 aves silvestres nativas",
   "fauna_groups_aggregated": [
     "Aves"
@@ -57,5 +57,14 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion."
+  "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion.",
+  "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+  "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+  "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+  "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "translated metadata, no factual changes"
+  }
 }
