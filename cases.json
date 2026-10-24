@@ -89764,8 +89764,8 @@
       },
       "coordinate_precision": "airport_generalized",
       "location_label_pt": "Aeroporto Internacional Mariscal Sucre, Quito, Equador",
-      "location_label_en": "Aeroporto Internacional Mariscal Sucre, Quito, Equador",
-      "location_label_es": "Aeroporto Internacional Mariscal Sucre, Quito, Equador",
+      "location_label_en": "Airport Internacional Mariscal Sucre, Quito, Ecuador",
+      "location_label_es": "Aeropuerto Internacional Mariscal Sucre, Quito, Ecuador",
       "geographic_note_pt": "Coordenadas representativas e generalizadas da localidade; não correspondem ao ponto exato da apreensão.",
       "geographic_note_en": "Generalized reported locality, not the exact seizure site.",
       "geographic_note_es": "Ubicación aproximada, no punto exacto de la intervención.",
@@ -89783,8 +89783,8 @@
       "context_es": "[O/N] Declaración de la Policía Zona 9 del 24/10 recogida por Primicias y Teleamazonas. Los cangrejos estaban embalados para exportación; sin confirmar especie, estado vital, fecha exacta del decomiso ni destino exterior. No se infiere ruta internacional.",
       "references_text_pt": "[O/N] Policía Nacional del Ecuador / UPMA Zona 9, via Primicias — https://www.primicias.ec/sucesos/cangrejos-rojos-aeropuerto-quito-exportacion-prohicion-135665/",
       "fauna_label_pt": "Invertebrados",
-      "fauna_label_en": "Invertebrados",
-      "fauna_label_es": "Invertebrados",
+      "fauna_label_en": "199 red crabs",
+      "fauna_label_es": "199 cangrejos rojos",
       "fauna_groups_aggregated": [
         "Invertebrados"
       ],
@@ -89808,6 +89808,17 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "Discovery publications 22–24 Oct 2026; event date retained separately or null.",
+      "references_text_en": "Source: https://www.primicias.ec/sucesos/cangrejos-rojos-aeropuerto-quito-exportacion-prohicion-135665/",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "references_text_es": "Fuente: https://www.primicias.ec/sucesos/cangrejos-rojos-aeropuerto-quito-exportacion-prohicion-135665/",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -89817,7 +89828,7 @@
       "ingestion_batch": "TG-H-2026-10-22-24-round-4",
       "country": "Brasil",
       "location_label_pt": "Cariacica, Espírito Santo, Brasil",
-      "location_label_en": "Cariacica, Espírito Santo, Brasil",
+      "location_label_en": "Cariacica, Espírito Santo, Brazil",
       "location_label_es": "Cariacica, Espírito Santo, Brasil",
       "publication_date": "2026-10-23",
       "event_date": "2026-10-22",
@@ -89846,8 +89857,8 @@
       "references_text_en": "[O1] Batalhão de Polícia Militar Ambiental do Espírito Santo via A Gazeta — https://www.agazeta.com.br/es/policia/aves-mantidas-ilegalmente-em-cativeiro-sao-apreendidas-em-cariacica-1026",
       "references_text_es": "[O1] Batalhão de Polícia Militar Ambiental do Espírito Santo via A Gazeta — https://www.agazeta.com.br/es/policia/aves-mantidas-ilegalmente-em-cativeiro-sao-apreendidas-em-cariacica-1026",
       "fauna_label_pt": "1 arara-canindé e 1 papagaio-verdadeiro",
-      "fauna_label_en": "1 arara-canindé e 1 papagaio-verdadeiro",
-      "fauna_label_es": "1 arara-canindé e 1 papagaio-verdadeiro",
+      "fauna_label_en": "1 blue-and-yellow macaw and 1 blue-fronted amazon",
+      "fauna_label_es": "1 guacamayo azulamarillo y 1 loro de frente azul",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -89871,6 +89882,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion.",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -89880,8 +89900,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-round-4",
       "country": "Brasil",
       "location_label_pt": "Bairro Veneza, Ipanguaçu, Rio Grande do Norte, Brasil",
-      "location_label_en": "Bairro Veneza, Ipanguaçu, Rio Grande do Norte, Brasil",
-      "location_label_es": "Bairro Veneza, Ipanguaçu, Rio Grande do Norte, Brasil",
+      "location_label_en": "Neighborhood Veneza, Ipanguaçu, Rio Grande do Norte, Brazil",
+      "location_label_es": "Barrio Veneza, Ipanguaçu, Rio Grande do Norte, Brasil",
       "publication_date": "2026-10-23",
       "event_date": "2026-10-22",
       "event_date_precision": "day",
@@ -89909,8 +89929,8 @@
       "references_text_en": "[O1] PMRN / Batalhão de Policiamento Ambiental via Agora RN — https://agorarn.com.br/rn/homem-preso-aves-silvestres-cativeiro-rn/",
       "references_text_es": "[O1] PMRN / Batalhão de Policiamento Ambiental via Agora RN — https://agorarn.com.br/rn/homem-preso-aves-silvestres-cativeiro-rn/",
       "fauna_label_pt": "Aves nativas em número não divulgado",
-      "fauna_label_en": "Aves nativas em número não divulgado",
-      "fauna_label_es": "Aves nativas em número não divulgado",
+      "fauna_label_en": "Native wild birds, number unreported",
+      "fauna_label_es": "Aves silvestres nativas, cantidad no informada",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -89932,6 +89952,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion.",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -89941,7 +89970,7 @@
       "ingestion_batch": "TG-H-2026-10-22-24-round-4",
       "country": "Brasil",
       "location_label_pt": "Vila Mariana, Prudentópolis, Paraná, Brasil",
-      "location_label_en": "Vila Mariana, Prudentópolis, Paraná, Brasil",
+      "location_label_en": "Vila Mariana, Prudentópolis, Paraná, Brazil",
       "location_label_es": "Vila Mariana, Prudentópolis, Paraná, Brasil",
       "publication_date": "2026-10-23",
       "event_date": "2026-10-22",
@@ -89970,7 +89999,7 @@
       "references_text_en": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
       "references_text_es": "[O1] Polícia Militar do Paraná / Polícia Militar Ambiental via Paraná Central — https://paranacentral.com.br/queixa-de-som-alto-leva-pm-a-encontrar-nove-aves-sem-licenca-em-prudentopolis",
       "fauna_label_pt": "9 aves silvestres nativas",
-      "fauna_label_en": "9 aves silvestres nativas",
+      "fauna_label_en": "9 native wild birds",
       "fauna_label_es": "9 aves silvestres nativas",
       "fauna_groups_aggregated": [
         "Aves"
@@ -89995,6 +90024,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion.",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": "2026-10-22T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90004,8 +90042,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-round-4",
       "country": "Polônia",
       "location_label_pt": "Posto fronteiriço Korczowa–Krakowiec, Polônia–Ucrânia",
-      "location_label_en": "Posto fronteiriço Korczowa–Krakowiec, Polônia–Ucrânia",
-      "location_label_es": "Posto fronteiriço Korczowa–Krakowiec, Polônia–Ucrânia",
+      "location_label_en": "Border crossing Korczowa–Krakowiec, Poland–Ukraine",
+      "location_label_es": "Paso fronterizo Korczowa–Krakowiec, Polonia–Ucrania",
       "publication_date": "2026-10-22",
       "event_date": null,
       "event_date_precision": "unknown",
@@ -90033,8 +90071,8 @@
       "references_text_en": "[O1] Izba Administracji Skarbowej w Rzeszowie (KAS, fonte oficial); Polskie Radio Rzeszów 22/10 — https://www.gov.pl/web/ias-rzeszow/chroniony-zolw-szylkretowy-wykryty-w-bagazu ; [N2] https://radio.rzeszow.pl/367300/chroniony-zolw-zatrzymany-na-granicy-w-korczowej-28-latek-nie-mial-wymaganych-dokumentow/",
       "references_text_es": "[O1] Izba Administracji Skarbowej w Rzeszowie (KAS, fonte oficial); Polskie Radio Rzeszów 22/10 — https://www.gov.pl/web/ias-rzeszow/chroniony-zolw-szylkretowy-wykryty-w-bagazu ; [N2] https://radio.rzeszow.pl/367300/chroniony-zolw-zatrzymany-na-granicy-w-korczowej-28-latek-nie-mial-wymaganych-dokumentow/",
       "fauna_label_pt": "Uma tartaruga-de-pente taxidermizada",
-      "fauna_label_en": "Uma tartaruga-de-pente taxidermizada",
-      "fauna_label_es": "Uma tartaruga-de-pente taxidermizada",
+      "fauna_label_en": "1 taxidermied hawksbill turtle",
+      "fauna_label_es": "1 tortuga carey disecada",
       "fauna_groups_aggregated": [
         "Répteis"
       ],
@@ -90058,6 +90096,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion.",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -90067,8 +90114,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-round-4",
       "country": "Itália",
       "location_label_pt": "Aeroporto Valerio Catullo, Verona, Itália",
-      "location_label_en": "Aeroporto Valerio Catullo, Verona, Itália",
-      "location_label_es": "Aeroporto Valerio Catullo, Verona, Itália",
+      "location_label_en": "Airport Valerio Catullo, Verona, Italy",
+      "location_label_es": "Aeropuerto Valerio Catullo, Verona, Italia",
       "publication_date": "2026-10-23",
       "event_date": null,
       "event_date_precision": "unknown",
@@ -90096,8 +90143,8 @@
       "references_text_en": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/",
       "references_text_es": "[O1] Guardia di Finanza / Agenzia delle Dogane e dei Monopoli (comunicado oficial reproduzido por Agenzia Opinione) — https://www.agenziagiornalisticaopinione.it/opinionmix/gdf-guardia-di-finanza-verona-commercio-illegale-di-specie-protette-sequestrati-coralli-accessori-e-strumenti-musicali-presso-laeroporto-di-verona/",
       "fauna_label_pt": "5 corais, 8 acessórios de píton, 1 tambor com pele de varano",
-      "fauna_label_en": "5 corais, 8 acessórios de píton, 1 tambor com pele de varano",
-      "fauna_label_es": "5 corais, 8 acessórios de píton, 1 tambor com pele de varano",
+      "fauna_label_en": "5 corals, 8 python leather articles, 1 monitor-lizard-skinned drum",
+      "fauna_label_es": "5 corales, 8 artículos de piel de pitón y 1 tambor con piel de varano",
       "fauna_groups_aggregated": [
         "Invertebrados",
         "Répteis"
@@ -90123,6 +90170,15 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "TG-H 22–24 October 2026 fourth discovery round; event/publication distinguished; deduped with manifest before insertion.",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -90132,8 +90188,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-twohour-live-1",
       "country": "Nova Zelândia",
       "location_label_pt": "Costa de Pihama, South Taranaki, Nova Zelândia",
-      "location_label_en": "Costa de Pihama, South Taranaki, Nova Zelândia",
-      "location_label_es": "Costa de Pihama, South Taranaki, Nova Zelândia",
+      "location_label_en": "Coast of Pihama, South Taranaki, New Zealand",
+      "location_label_es": "Costa de Pihama, South Taranaki, Nueva Zelanda",
       "event_date": "2026-10-09",
       "publication_date": "2026-10-22",
       "event_date_precision": "day",
@@ -90159,8 +90215,8 @@
       "context_es": "[O] Policía NZ informó el 22/10 una inspección del 9/10 en Pihama. 73 ejemplares en total, 20 de talla inferior, no se suman de nuevo. Remisión a control pesquero; sin ruta.",
       "references_text_pt": "[O/N] New Zealand Police — https://www.police.govt.nz/news/release/man-facing-prosecution-relation-p%C4%81ua-catch?cmax=&cmin=&search=",
       "fauna_label_pt": "Invertebrados",
-      "fauna_label_en": "Invertebrados",
-      "fauna_label_es": "Invertebrados",
+      "fauna_label_en": "73 pāua (abalone)",
+      "fauna_label_es": "73 abulones pāua",
       "fauna_groups_aggregated": [
         "Invertebrados"
       ],
@@ -90184,6 +90240,17 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting.",
+      "references_text_en": "Source: https://www.police.govt.nz/news/release/man-facing-prosecution-relation-p%C4%81ua-catch?cmax=&cmin=&search=",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "references_text_es": "Fuente: https://www.police.govt.nz/news/release/man-facing-prosecution-relation-p%C4%81ua-catch?cmax=&cmin=&search=",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": "2026-10-09T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -90193,8 +90260,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-twohour-live-1",
       "country": "Tailândia",
       "location_label_pt": "Região de Nakhon Phanom–Mukdahan, Tailândia; depósito exato não confirmado",
-      "location_label_en": "Região de Nakhon Phanom–Mukdahan, Tailândia; depósito exato não confirmado",
-      "location_label_es": "Região de Nakhon Phanom–Mukdahan, Tailândia; depósito exato não confirmado",
+      "location_label_en": "Area of Nakhon Phanom–Mukdahan, Thailand; exact storage site unconfirmed",
+      "location_label_es": "Región de Nakhon Phanom–Mukdahan, Tailandia; almacén exacto no confirmado",
       "event_date": null,
       "publication_date": "2026-10-22",
       "event_date_precision": "unknown",
@@ -90220,8 +90287,8 @@
       "context_es": "[O/N] Reportes policiales del 22/10: arresto fronterizo y recuperación de 31 reptiles en depósito cercano a empresa de transporte; sitio/fecha exactos inciertos. Los 58 kg de escamas fueron decomisados el 05/10 en Mukdahan y no se suman. Sin ruta de los reptiles suficientemente verificada.",
       "references_text_pt": "[O/N] MGR Online, relato da Polícia de Recursos Naturais tailandesa — https://mgronline.com/crime/detail/9690000102127",
       "fauna_label_pt": "Répteis",
-      "fauna_label_en": "Répteis",
-      "fauna_label_es": "Répteis",
+      "fauna_label_en": "31 reptiles",
+      "fauna_label_es": "31 reptiles",
       "fauna_groups_aggregated": [
         "Répteis"
       ],
@@ -90245,6 +90312,17 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting.",
+      "references_text_en": "Source: https://mgronline.com/crime/detail/9690000102127",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "references_text_es": "Fuente: https://mgronline.com/crime/detail/9690000102127",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -90254,8 +90332,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-twohour-live-1",
       "country": "Itália",
       "location_label_pt": "Ozzero, Milão, Itália",
-      "location_label_en": "Ozzero, Milão, Itália",
-      "location_label_es": "Ozzero, Milão, Itália",
+      "location_label_en": "Ozzero, Milan, Italy",
+      "location_label_es": "Ozzero, Milán, Italia",
       "event_date": null,
       "publication_date": "2026-10-23",
       "event_date_precision": "unknown",
@@ -90281,8 +90359,8 @@
       "context_es": "[N] ANSA diferencia una segunda operación en Ozzero unos días después de Vermezzo. Aves cinegéticas decomisadas por medios prohibidos; cantidad no publicada. No duplicar 67 de Vermezzo.",
       "references_text_pt": "[O/N] ANSA / Carabinieri Forestali di Magenta — https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
       "fauna_label_pt": "Aves",
-      "fauna_label_en": "Aves",
-      "fauna_label_es": "Aves",
+      "fauna_label_en": "Illegally hunted wild birds, unquantified",
+      "fauna_label_es": "Aves silvestres cazadas ilegalmente, cantidad desconocida",
       "fauna_groups_aggregated": [
         "Aves"
       ],
@@ -90304,6 +90382,17 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting.",
+      "references_text_en": "Source: https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "references_text_es": "Fuente: https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
@@ -90313,8 +90402,8 @@
       "ingestion_batch": "TG-H-2026-10-22-24-twohour-live-1",
       "country": "México",
       "location_label_pt": "Pedágio de Palmillas, Querétaro, México",
-      "location_label_en": "Pedágio de Palmillas, Querétaro, México",
-      "location_label_es": "Pedágio de Palmillas, Querétaro, México",
+      "location_label_en": "Toll station of Palmillas, Querétaro, Mexico",
+      "location_label_es": "Peaje de Palmillas, Querétaro, México",
       "event_date": null,
       "publication_date": "2026-10-23",
       "event_date_precision": "unknown",
@@ -90340,8 +90429,8 @@
       "context_es": "[O] Comunicado PROFEPA del 23/10 sobre incautación anterior a audiencia del 18/10, sin fecha exacta del operativo. Un Crotalus sp. y un Heloderma suspectum en automóvil Guadalajara → Ciudad de México detenido en Palmillas. Solo trayecto Guadalajara–Palmillas realizado; destino CDMX previsto. Sin inferir origen biológico.",
       "references_text_pt": "[O/N] PROFEPA (comunicado 643/2026) — https://www.gob.mx/profepa/prensa/vinculan-a-proceso-a-una-persona-por-posesion-de-fauna-silvestre-amenazada?idiom=es",
       "fauna_label_pt": "Répteis",
-      "fauna_label_en": "Répteis",
-      "fauna_label_es": "Répteis",
+      "fauna_label_en": "1 rattlesnake and 1 Gila monster",
+      "fauna_label_es": "1 serpiente de cascabel y 1 monstruo de Gila",
       "fauna_groups_aggregated": [
         "Répteis"
       ],
@@ -90365,6 +90454,17 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting.",
+      "references_text_en": "Source: https://www.gob.mx/profepa/prensa/vinculan-a-proceso-a-una-persona-por-posesion-de-fauna-silvestre-amenazada?idiom=es",
+      "quantity_note_en": "Wildlife amounts retain the original source units and uncertainty; do not convert wildlife products or weights into animal counts.",
+      "route_audit_note_en": "Map only source-supported movement; do not infer origin, destination or route.",
+      "references_text_es": "Fuente: https://www.gob.mx/profepa/prensa/vinculan-a-proceso-a-una-persona-por-posesion-de-fauna-silvestre-amenazada?idiom=es",
+      "quantity_note_es": "Las cantidades respetan las unidades originales y su incertidumbre; no convertir productos o pesos en número de animales.",
+      "route_audit_note_es": "Cartografiar solo movimientos documentados; no inferir origen, destino o ruta.",
+      "editorial_review": {
+        "date": "2026-10-24",
+        "batch": "TG-H 47-case multilingual QA",
+        "scope": "translated metadata, no factual changes"
+      },
       "occurred_at": null,
       "occurred_at_precision": "unknown"
     },
