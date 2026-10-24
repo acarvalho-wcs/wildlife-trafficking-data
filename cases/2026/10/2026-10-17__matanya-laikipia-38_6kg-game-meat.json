@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-14-24-pending-resolution-20261024",
   "country": "Quênia",
   "location_label_pt": "Região de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Quênia",
-  "location_label_en": "Região de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Quênia",
-  "location_label_es": "Região de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Quênia",
+  "location_label_en": "Region of Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Kenya",
+  "location_label_es": "Región de Matanya, Weru-ine, Waguthiru e Mitero, condado de Laikipia, Kenia",
   "publication_date": "2026-10-17",
   "event_date": "2026-10-17",
   "event_date_precision": "day",
@@ -33,8 +33,8 @@
   "references_text_en": "https://peopledaily.digital/news/4-persons-of-interest-arrested-with-38-6-kg-of-suspected-game-meat-in-laikipia; https://nation.africa/kenya/news/boda-to-border-report-lays-bare-thriving-bush-meat-pipeline-in-kenya-5641018",
   "references_text_es": "https://peopledaily.digital/news/4-persons-of-interest-arrested-with-38-6-kg-of-suspected-game-meat-in-laikipia; https://nation.africa/kenya/news/boda-to-border-report-lays-bare-thriving-bush-meat-pipeline-in-kenya-5641018",
   "fauna_label_pt": "38,6 kg de carne silvestre (espécie não informada)",
-  "fauna_label_en": "38,6 kg de carne silvestre (espécie não informada)",
-  "fauna_label_es": "38,6 kg de carne silvestre (espécie não informada)",
+  "fauna_label_en": "38.6 kg of suspected wild meat (species unknown)",
+  "fauna_label_es": "38,6 kg de presunta carne silvestre (especie desconocida)",
   "fauna_groups_aggregated": [],
   "taxon_text": "Mamíferos? origem taxonômica não identificada; carne silvestre suspeita de espécie não divulgada",
   "modal_primary": "Não informado",
@@ -53,5 +53,14 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty."
+  "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty.",
+  "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+  "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+  "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+  "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary field localization"
+  }
 }

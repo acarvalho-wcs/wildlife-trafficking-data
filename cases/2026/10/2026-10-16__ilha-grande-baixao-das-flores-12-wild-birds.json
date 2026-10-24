@@ -4,7 +4,7 @@
   "ingestion_batch": "TG-H-2026-10-14-24-continuation",
   "country": "Brasil",
   "location_label_pt": "Baixão das Flores, Ilha Grande (PI), Brasil",
-  "location_label_en": "Baixão das Flores, Ilha Grande (PI), Brasil",
+  "location_label_en": "Baixão das Flores, Ilha Grande (PI), Brazil",
   "location_label_es": "Baixão das Flores, Ilha Grande (PI), Brasil",
   "publication_date": "2026-10-17",
   "event_date": "2026-10-16",
@@ -33,7 +33,7 @@
   "references_text_en": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/",
   "references_text_es": "[O1] Governo do Piauí / Polícia Militar do Piauí e Ibama — https://www.pi.gov.br/pm-pi-e-ibama-apreendem-aves-silvestres-mantidas-em-cativeiro-no-municipio-de-ilha-grande/",
   "fauna_label_pt": "12 aves silvestres",
-  "fauna_label_en": "12 aves silvestres",
+  "fauna_label_en": "12 wild birds",
   "fauna_label_es": "12 aves silvestres",
   "fauna_groups_aggregated": [
     "Aves"
@@ -55,5 +55,14 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+  "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+  "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+  "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary field localization"
+  }
 }

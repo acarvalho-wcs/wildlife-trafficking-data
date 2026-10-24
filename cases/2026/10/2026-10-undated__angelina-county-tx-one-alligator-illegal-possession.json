@@ -4,7 +4,7 @@
   "ingestion_batch": "TG-H-2026-10-14-24-pending-resolution-20261024",
   "country": "Estados Unidos",
   "location_label_pt": "Condado de Angelina, Texas, Estados Unidos",
-  "location_label_en": "Condado de Angelina, Texas, Estados Unidos",
+  "location_label_en": "County of Angelina, Texas, United States",
   "location_label_es": "Condado de Angelina, Texas, Estados Unidos",
   "publication_date": "2026-10-24",
   "event_date": null,
@@ -33,8 +33,8 @@
   "references_text_en": "https://www.fox4news.com/news/texas-game-wardens-cite-man-after-located-alligator-tied-up-pond",
   "references_text_es": "https://www.fox4news.com/news/texas-game-wardens-cite-man-after-located-alligator-tied-up-pond",
   "fauna_label_pt": "1 jacaré vivo",
-  "fauna_label_en": "1 jacaré vivo",
-  "fauna_label_es": "1 jacaré vivo",
+  "fauna_label_en": "1 live alligator",
+  "fauna_label_es": "1 aligátor vivo",
   "fauna_groups_aggregated": [
     "Répteis"
   ],
@@ -57,5 +57,14 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty."
+  "audit_note": "TG-H 14-24 October 2026. Distinct event; primary or primary-attributed statement; dates and quantities preserve source uncertainty.",
+  "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+  "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+  "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+  "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary field localization"
+  }
 }

@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-14-24-continuation",
   "country": "Brasil",
   "location_label_pt": "Bairro Arapongal, Registro (SP), Brasil",
-  "location_label_en": "Bairro Arapongal, Registro (SP), Brasil",
-  "location_label_es": "Bairro Arapongal, Registro (SP), Brasil",
+  "location_label_en": "Neighborhood Arapongal, Registro (SP), Brazil",
+  "location_label_es": "Barrio Arapongal, Registro (SP), Brasil",
   "publication_date": "2026-10-17",
   "event_date": "2026-10-16",
   "event_date_precision": "day",
@@ -33,8 +33,8 @@
   "references_text_en": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/",
   "references_text_es": "[O1] Polícia Militar do Estado de São Paulo (PMESP), comunicação oficial — https://portaldenoticias.policiamilitar.sp.gov.br/42-aves-sao-resgatadas-de-cativeiro-em-situacao-de-maus-tratos-em-registro/",
   "fauna_label_pt": "42 aves (36 nativas silvestres; 6 exóticas)",
-  "fauna_label_en": "42 aves (36 nativas silvestres; 6 exóticas)",
-  "fauna_label_es": "42 aves (36 nativas silvestres; 6 exóticas)",
+  "fauna_label_en": "42 birds (36 native wild, 6 exotic)",
+  "fauna_label_es": "42 aves (36 nativas silvestres y 6 exóticas)",
   "fauna_groups_aggregated": [
     "Aves"
   ],
@@ -55,5 +55,14 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+  "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+  "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+  "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary field localization"
+  }
 }

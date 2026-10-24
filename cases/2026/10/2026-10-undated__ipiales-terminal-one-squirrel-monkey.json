@@ -12,8 +12,8 @@
   },
   "coordinate_precision": "terminal_city_generalized",
   "location_label_pt": "Terminal de transporte de Ipiales, Nariño, Colômbia",
-  "location_label_en": "Terminal de transporte de Ipiales, Nariño, Colômbia",
-  "location_label_es": "Terminal de transporte de Ipiales, Nariño, Colômbia",
+  "location_label_en": "Transport terminal in Ipiales, Nariño, Colombia",
+  "location_label_es": "Terminal de transporte de Ipiales, Nariño, Colombia",
   "geographic_note_pt": "Coordenada generalizada para a localidade citada; não representa o ponto exato da apreensão.",
   "geographic_note_en": "Generalized locality, not exact seizure site.",
   "geographic_note_es": "Ubicación aproximada, no punto exacto de intervención.",
@@ -33,8 +33,8 @@
   "references_text_en": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en",
   "references_text_es": "https://proton.policia.gov.co/noticia/un-mono-ardilla-vestido-con-panal-caso-presunto-trafico-fauna-silvestre-detectado-en",
   "fauna_label_pt": "1 macaco-de-cheiro",
-  "fauna_label_en": "1 macaco-de-cheiro",
-  "fauna_label_es": "1 macaco-de-cheiro",
+  "fauna_label_en": "1 squirrel monkey",
+  "fauna_label_es": "1 mono ardilla",
   "fauna_groups_aggregated": [
     "Mamíferos"
   ],
@@ -55,5 +55,14 @@
   "image_url": null,
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
-  "case_context_status": "PT_EN_ES_COMPLETE"
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+  "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+  "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+  "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary field localization"
+  }
 }

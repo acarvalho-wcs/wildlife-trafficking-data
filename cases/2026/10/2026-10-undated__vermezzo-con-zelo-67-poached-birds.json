@@ -4,8 +4,8 @@
   "ingestion_batch": "TG-H-2026-10-22-24-twohour-live-1",
   "country": "Itália",
   "location_label_pt": "Vermezzo con Zelo, Milão, Itália",
-  "location_label_en": "Vermezzo con Zelo, Milão, Itália",
-  "location_label_es": "Vermezzo con Zelo, Milão, Itália",
+  "location_label_en": "Vermezzo con Zelo, Milan, Italy",
+  "location_label_es": "Vermezzo con Zelo, Milán, Italia",
   "event_date": null,
   "publication_date": "2026-10-23",
   "event_date_precision": "unknown",
@@ -31,8 +31,8 @@
   "context_es": "[N] ANSA del 23/10 indica intervención en días anteriores sin fecha exacta. 67 aves muertas; armas excluidas. Evento diferente al de Ozzero, sin ruta documentada.",
   "references_text_pt": "[O/N] ANSA / Carabinieri Forestali di Magenta — https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
   "fauna_label_pt": "Aves",
-  "fauna_label_en": "Aves",
-  "fauna_label_es": "Aves",
+  "fauna_label_en": "67 illegally hunted birds",
+  "fauna_label_es": "67 aves cazadas ilegalmente",
   "fauna_groups_aggregated": [
     "Aves"
   ],
@@ -55,5 +55,16 @@
   "image_status": "NOT_VALIDATED",
   "translation_status": "EN_ES_COMPLETE",
   "case_context_status": "PT_EN_ES_COMPLETE",
-  "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting."
+  "audit_note": "Two-hour TG-H scheduled cycle, initial live sweep; primary sources when available, no double counting.",
+  "references_text_en": "Source: https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
+  "quantity_note_en": "Retain original specimen, item or weight units without inferential conversion or double counting.",
+  "route_audit_note_en": "No unproven wildlife movement or source/destination inferred.",
+  "references_text_es": "Fuente: https://www.ansa.it/amp/lombardia/notizie/2026/10/23/controlli-antibracconaggio-nel-milanese-denunce-e-sequestri-dei-carabinieri_865092ff-ef94-4af7-b319-1cdf28354727.html",
+  "quantity_note_es": "Mantener cantidades de especímenes, piezas o peso sin conversión inferida ni duplicidades.",
+  "route_audit_note_es": "No inferir desplazamientos, origen ni destino de fauna no documentados.",
+  "editorial_review": {
+    "date": "2026-10-24",
+    "batch": "TG-H 47-case multilingual QA",
+    "scope": "secondary field localization"
+  }
 }
