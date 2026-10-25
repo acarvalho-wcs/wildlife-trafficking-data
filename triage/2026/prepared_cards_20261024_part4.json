@@ -51,7 +51,7 @@
     {
       "country": "Peru",
       "id": "2026-06-tomasiri-three-tortoises-encomienda-tacna",
-      "event_date": "2026-06",
+      "event_date": null,
       "publication_date": "2026-09-17",
       "location": "puesto de control aduanero Tomasiri, Tacna",
       "source_url": "https://www.gob.pe/institucion/serfor/noticias/1445885-tacna-serfor-recupera-tres-tortugas-halladas-ocultas-en-una-encomienda-y-avanza-en-su-rehabilitacion",
@@ -84,7 +84,9 @@
         "es": "[O1/N1] El comunicado oficial fecha el hallazgo en Tomasiri en **junio**, aunque la nota sobre rehabilitación se publicó el 17 de septiembre; esa fecha no es la del decomiso. La encomienda viajaba hacia Tacna, sin origen ni trayecto previo conocidos. Un traslado posterior previsto a Iquitos para rehabilitación no forma parte del tráfico ilícito. Los tres ejemplares y sus especies están documentados; este caso es diferente a las 12 taricayas intervenidas en Vila Vila en abril."
       },
       "route_status": "DESTINATION_TACNA_ONLY",
-      "qa_status": "DRAFT_SOURCE_VERIFIED"
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "event_date_precision": "month",
+      "event_month": "2026-06"
     },
     {
       "country": "Colômbia",
