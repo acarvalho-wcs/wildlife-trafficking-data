@@ -1,0 +1,385 @@
+{
+  "schema": "tgh_review_draft_v1",
+  "created": "2026-10-24",
+  "not_for_publication": true,
+  "count": 10,
+  "records": [
+    {
+      "country": "Peru",
+      "id": "2026-07-arequipa-taruca-lizard-hummingbird-products",
+      "event_date": null,
+      "publication_date": "2026-07-02",
+      "location": "Arequipa, Perú",
+      "source_url": "https://www.diarioviral.pe/cercado/arequipa-intervienen-a-mujer-con-especies-protegidas-y-restos-de-fauna-silvestre-57815",
+      "source_rank": "N1",
+      "quantities": [
+        {
+          "value": 9,
+          "unit": "antlers_taruca"
+        },
+        {
+          "value": 25,
+          "unit": "dried_lizards"
+        },
+        {
+          "value": 5,
+          "unit": "hummingbird_specimens"
+        },
+        {
+          "value": 1,
+          "unit": "fox_hide_fragment"
+        }
+      ],
+      "title": {
+        "pt": "Polícia apreende chifres de taruca, lagartos dissecados e beija-flores em Arequipa",
+        "en": "Police seize taruca antlers, dried lizards and hummingbirds in Arequipa",
+        "es": "Policía decomisa astas de taruca, lagartijas disecadas y colibríes en Arequipa"
+      },
+      "card": {
+        "pt": "Uma ação conjunta da Polícia, SERFOR e FEMA encontrou nove chifres de taruca, 25 lagartos dissecados, cinco beija-flores e um fragmento de pele de raposa. Também foram encontrados materiais vegetais, que não integram a quantificação de fauna.",
+        "en": "A joint police, SERFOR and environmental prosecution operation found nine taruca antlers, 25 dried lizards, five hummingbirds and a fragment of fox hide. Plant materials were also found and are excluded from wildlife counts.",
+        "es": "Un operativo conjunto de la Policía, SERFOR y FEMA halló nueve astas de taruca, 25 lagartijas disecadas, cinco colibríes y un fragmento de piel de zorro. También se encontraron productos vegetales que no forman parte del conteo de fauna."
+      },
+      "context": {
+        "pt": "[N1] A notícia de 02/07 informa apreensão de derivados em posse de uma mulher, não nove tarucas inteiras nem animais vivos. Chifres, espécimes secos e um fragmento de pele têm unidades diferentes; não agregar em '40 animais'. A reportagem não especifica espécie dos lagartos, beija-flores ou raposa nem localidades de extração, fornecedores ou compradores. A avaliação monetária aproximada (S/ 1.220) é atribuída ao material apreendido e não representa prova de preço por espécime. O desfecho processual não foi apresentado.",
+        "en": "[N1] The 2 July report concerns preserved specimens and wildlife parts in a woman's possession, not nine whole taruca deer or live animals. Antlers, dried lizards, bird specimens and a hide fragment are different units; they must not be summed as '40 animals'. Species of lizards, hummingbirds and fox are not confirmed, nor are origin sites, suppliers or buyers. The approximate S/1,220 appraisal refers to the whole seizure, not a verified price per animal. No final judicial outcome is reported.",
+        "es": "[N1] La noticia del 2 de julio describe especímenes y derivados en poder de una mujer, no nueve tarucas enteras ni animales vivos. Astas, lagartijas secas, colibríes y un fragmento de piel tienen unidades distintas; no deben sumarse como '40 animales'. No se confirman especies concretas de lagartijas, colibríes o zorro, procedencia, proveedores ni compradores. El valor aproximado de S/1.220 corresponde al conjunto, no a precios unitarios comprobados. No se informa desenlace judicial."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_SOURCE_REVIEWED"
+    },
+    {
+      "country": "Peru",
+      "id": "2026-06-tomasiri-three-tortoises-encomienda-tacna",
+      "event_date": "2026-06",
+      "publication_date": "2026-09-17",
+      "location": "puesto de control aduanero Tomasiri, Tacna",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1445885-tacna-serfor-recupera-tres-tortugas-halladas-ocultas-en-una-encomienda-y-avanza-en-su-rehabilitacion",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "value": 2,
+          "unit": "live_tortoises",
+          "taxon": "Chelonoidis denticulatus"
+        },
+        {
+          "value": 1,
+          "unit": "live_tortoise",
+          "taxon": "Chelonoidis carbonaria"
+        }
+      ],
+      "title": {
+        "pt": "SUNAT intercepta três jabutis ocultos em encomenda com destino a Tacna",
+        "en": "SUNAT intercepts three tortoises concealed in a parcel bound for Tacna",
+        "es": "SUNAT intercepta tres tortugas ocultas en encomienda con destino a Tacna"
+      },
+      "card": {
+        "pt": "Em junho de 2026, fiscais da SUNAT encontraram dois *Chelonoidis denticulatus* e um *Chelonoidis carbonaria* escondidos em uma caixa no compartimento de encomendas de um ônibus interprovincial com destino a Tacna. O SERFOR divulgou detalhes da reabilitação apenas em 17 de setembro.",
+        "en": "In June 2026, SUNAT officers found two *Chelonoidis denticulatus* and one *Chelonoidis carbonaria* hidden inside a parcel on an interprovincial bus bound for Tacna. SERFOR reported on their rehabilitation on 17 September.",
+        "es": "En junio de 2026, personal de SUNAT halló dos *Chelonoidis denticulatus* y una *Chelonoidis carbonaria* ocultas en una encomienda transportada en un autobús interprovincial con destino a Tacna. SERFOR difundió su rehabilitación el 17 de septiembre."
+      },
+      "context": {
+        "pt": "[O1/N1] A fonte oficial identifica expressamente o **mês de junho** como data da interceptação em Tomasiri, embora a publicação sobre reabilitação seja de 17/09; não datar o evento como 17/09. As três tartarugas estavam em trânsito numa encomenda; conhece-se o destino **Tacna**, mas não o município de origem ou trajeto anterior. A futura transferência a Iquitos foi anunciada para reabilitação pelo SERFOR, e não constitui rota criminosa. Espécies e número são confirmados; a operação não deve ser confundida com outra apreensão de 12 taricayas na unidade Vila Vila em abril.",
+        "en": "[O1/N1] The official source explicitly dates the interception at Tomasiri to **June**, although the rehabilitation story was published on 17 September. Do not use 17 September as the seizure date. The parcel was travelling to Tacna, but origin and prior stops are unknown. A planned official transfer to Iquitos for rehabilitation is not a smuggling route. The three animals and their taxa are documented; this is distinct from the April seizure of 12 taricaya turtles at Vila Vila.",
+        "es": "[O1/N1] El comunicado oficial fecha el hallazgo en Tomasiri en **junio**, aunque la nota sobre rehabilitación se publicó el 17 de septiembre; esa fecha no es la del decomiso. La encomienda viajaba hacia Tacna, sin origen ni trayecto previo conocidos. Un traslado posterior previsto a Iquitos para rehabilitación no forma parte del tráfico ilícito. Los tres ejemplares y sus especies están documentados; este caso es diferente a las 12 taricayas intervenidas en Vila Vila en abril."
+      },
+      "route_status": "DESTINATION_TACNA_ONLY",
+      "qa_status": "DRAFT_SOURCE_VERIFIED"
+    },
+    {
+      "country": "Colômbia",
+      "id": "2026-02-bogota-seven-live-33-items-multisite",
+      "event_date": null,
+      "publication_date": "2026-02-25",
+      "location": "Usme, San Cristóbal, Kennedy e Barrios Unidos; Bogotá",
+      "source_url": "https://bogota.gov.co/mi-ciudad/ambiente/en-bogota-son-recuperados-siete-animales-por-trafico-ilegal-de-fauna",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "value": 7,
+          "unit": "live_wild_animals",
+          "breakdown": "6 birds (Usme 4 and San Cristóbal 2), 1 capuchin monkey (Kennedy)"
+        },
+        {
+          "value": 33,
+          "unit": "wildlife_products",
+          "breakdown": "mounted butterflies, cast spider and snake skins in Barrios Unidos"
+        }
+      ],
+      "title": {
+        "pt": "Fiscalizações em quatro localidades de Bogotá recuperam sete animais e 33 produtos de fauna",
+        "en": "Bogotá controls recover seven wild animals and 33 wildlife products across four localities",
+        "es": "Controles en cuatro localidades de Bogotá recuperan siete animales y 33 productos de fauna"
+      },
+      "card": {
+        "pt": "A Secretaria Distrital do Ambiente e a Polícia recuperaram seis aves em Usme e San Cristóbal, um macaco-prego entregue à Polícia em Kennedy e 33 produtos de fauna (borboletas dissecadas e mudas de peles) em Barrios Unidos. O balanço reúne intervenções separadas.",
+        "en": "Bogotá environmental officers and police recovered six birds in Usme and San Cristóbal, a capuchin handed over to police in Kennedy and 33 wildlife products (preserved butterflies and shed skins) in Barrios Unidos. These are separate interventions reported together.",
+        "es": "La Secretaría de Ambiente y la Policía recuperaron seis aves en Usme y San Cristóbal, un mono capuchino entregado a la Policía en Kennedy y 33 productos de fauna (mariposas disecadas y mudas de piel) en Barrios Unidos. Son actuaciones distintas difundidas en un mismo balance."
+      },
+      "context": {
+        "pt": "[O1] A nota de 25/02 combina intervenções de diferentes dias e localidades: em Usme, dois *Ara ararauna*, um *Amazona ochrocephala* e um *A. amazonica*; em San Cristóbal, dois *Eupsittula pertinax*; em Kennedy, um *Cebus* sp. recebido em posto policial; em Barrios Unidos, 33 itens de borboletas e mudas de exúvias. O macaco não foi necessariamente apreendido junto às aves. Sete é total de animais vivos, 33 é número separado de partes/produtos. Para evitar falsa concentração espacial, desagregar em casos filhos ou mapear o conjunto somente em escala municipal e excluir os agregados de duplicação. O boletim não identifica rotas, vendedores nem origem.",
+        "en": "[O1] The 25 February bulletin combines distinct dates and locations: Usme (two *Ara ararauna*, one *Amazona ochrocephala*, one *A. amazonica*), San Cristóbal (two *Eupsittula pertinax*), Kennedy (a *Cebus* sp. handed to police) and Barrios Unidos (33 preserved butterflies and shed-skin items). The monkey was not necessarily seized with the birds. Seven are live animals; 33 are separate wildlife items. Split into child cases or use a generalized city-level parent excluded from duplicated totals. No suppliers, capture sites or routes are reported.",
+        "es": "[O1] La publicación del 25 de febrero combina fechas y localidades: Usme (dos *Ara ararauna*, un *Amazona ochrocephala*, un *A. amazonica*), San Cristóbal (dos *Eupsittula pertinax*), Kennedy (un *Cebus* sp. entregado a la Policía) y Barrios Unidos (33 piezas de mariposas disecadas y mudas de piel). El mono no fue necesariamente decomisado con las aves. Siete corresponde a animales vivos y 33 a productos, por separado. Desagregar por sitio o crear un agregado distrital sin duplicar totales. No constan proveedores ni rutas."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_MULTIPOINT_SPLIT_RECOMMENDED"
+    },
+    {
+      "country": "Colômbia",
+      "id": "2026-04-mamonal-cartagena-hicotea-meat-iguana-eggs",
+      "event_date": null,
+      "publication_date": "2026-04-01",
+      "location": "setor Mamonal, Cartagena",
+      "source_url": "https://www.cartagena.gov.co/noticias/incautan-carne-hicotea-huevos-iguana-operativo-liderado-epa-cartagena",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "value": 1.4,
+          "unit": "kg_hicotea_meat"
+        },
+        {
+          "value": null,
+          "unit": "iguana_eggs",
+          "qualifier": "quantity_not_reported"
+        }
+      ],
+      "title": {
+        "pt": "Cartagena apreende 1,4 kg de carne de tartaruga e ovos de iguana sem contagem divulgada",
+        "en": "Cartagena seizes 1.4 kg of turtle meat and an unreported number of iguana eggs",
+        "es": "Cartagena incauta 1,4 kg de carne de hicotea y una cantidad no precisada de huevos de iguana"
+      },
+      "card": {
+        "pt": "Uma fiscalização a veículos e passageiros no setor Mamonal apreendeu 1,4 kg de carne de hicotea e ovos de iguana cujo número não foi informado. A mesma ação encontrou 595 g de bagre triturado e 355 g de bagre branco sem condições adequadas de conservação.",
+        "en": "Inspectors checking vehicles and passengers in Mamonal seized 1.4 kg of hicotea turtle meat and iguana eggs, with no egg count reported. The operation also found 595 g of ground catfish and 355 g of white catfish that failed food-storage requirements.",
+        "es": "Controles a vehículos y pasajeros en Mamonal incautaron 1,4 kg de carne de hicotea y huevos de iguana sin cantidad informada. También se hallaron 595 g de bagre triturado y 355 g de bagre blanco sin condiciones adecuadas de conservación."
+      },
+      "context": {
+        "pt": "[O1] A autoridade EPA Cartagena publicou o caso em 01/04 no contexto da fiscalização de Semana Santa. O núcleo da apreensão de fauna inclui carne de tartaruga por peso e ovos de iguana sem contagem; não se deve converter 1,4 kg em número de animais ou inventar quantidade de ovos. Os dois itens de bagre foram citados por condição inadequada de conservação e não constituem, automaticamente, prova de tráfico de fauna; devem ser anotados como achado separado. O comunicado também menciona 29,4 kg de carne de capivara, dois tatus e 8 kg de carne de hicotea **recebidos pelo centro em dias anteriores**, cuja atribuição ao mesmo evento não está documentada.",
+        "en": "[O1] EPA Cartagena published the case on 1 April during Easter-related controls. The wildlife seizure consists of turtle meat measured by mass and iguana eggs without a stated count; neither a killed-animal estimate nor an egg quantity can be inferred. The two catfish products were cited for unsuitable storage rather than as clearly established wildlife-trafficking evidence and must be tracked separately. A further 29.4 kg of capybara meat, two armadillos and 8 kg of turtle meat were **received by the centre during previous days**, not necessarily confiscated in this roadside inspection.",
+        "es": "[O1] EPA Cartagena informó el caso el 1 de abril durante controles de Semana Santa. La incautación de fauna comprende carne de hicotea por peso y huevos de iguana sin número divulgado; no se puede estimar cuántos animales fueron sacrificados ni inventar huevos. Los productos de bagre fueron señalados por almacenamiento inadecuado, no como tráfico necesariamente probado. El comunicado alude además a 29,4 kg de carne de chigüiro, dos armadillos y 8 kg de carne de hicotea **ingresados al centro en días anteriores**, sin atribución clara a este operativo."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_SOURCE_VERIFIED"
+    },
+    {
+      "country": "Colômbia",
+      "id": "2026-06-bahia-solano-cali-bushmeat-air",
+      "event_date": null,
+      "publication_date": "2026-06-12",
+      "location": "Aeropuerto Alfonso Bonilla Aragón, Valle del Cauca",
+      "source_url": "https://www.semana.com/nacion/cali/articulo/alerta-incautan-carne-de-armadillo-y-guagua-en-el-valle-del-cauca/202628/",
+      "source_rank": "N1_CVC_quoted",
+      "quantities": [
+        {
+          "value": 0.85,
+          "unit": "kg_armadillo_meat",
+          "taxon": "Dasypus sp."
+        },
+        {
+          "value": 1.65,
+          "unit": "kg_paca_meat",
+          "taxon": "Cuniculus sp."
+        }
+      ],
+      "title": {
+        "pt": "Carga aérea de Bahía Solano é interceptada com carne de tatu e paca em Valle del Cauca",
+        "en": "Air shipment from Bahía Solano intercepted with armadillo and paca meat in Valle del Cauca",
+        "es": "Interceptan carga aérea desde Bahía Solano con carne de armadillo y guagua en Valle del Cauca"
+      },
+      "card": {
+        "pt": "A CVC apreendeu 0,85 kg de carne de tatu (*Dasypus* sp.) e 1,65 kg de paca (*Cuniculus* sp.) em caixa de isopor transportada num voo procedente de Bahía Solano, Chocó, sem guia de transporte. A apreensão ocorreu no aeroporto Alfonso Bonilla Aragón.",
+        "en": "CVC officers found 0.85 kg of armadillo (*Dasypus* sp.) meat and 1.65 kg of paca (*Cuniculus* sp.) meat in a foam cooler on a flight from Bahía Solano, Chocó, without wildlife movement authorization. The material was intercepted at Alfonso Bonilla Aragón airport.",
+        "es": "La CVC incautó 0,85 kg de carne de armadillo (*Dasypus* sp.) y 1,65 kg de guagua (*Cuniculus* sp.) en una cava de icopor transportada en vuelo procedente de Bahía Solano, Chocó, sin salvoconducto. La incautación ocurrió en el aeropuerto Alfonso Bonilla Aragón."
+      },
+      "context": {
+        "pt": "[N1 com fonte CVC] A reportagem informa expressamente a procedência do voo (Bahía Solano) e a interceptação no aeroporto do Valle del Cauca, permitindo registrar **um segmento aéreo efetivamente percorrido** entre esses pontos, sem afirmar que Bahía Solano seja o local de abate. O material totaliza 2,5 kg de carne de dois táxons definidos apenas até gênero. A pessoa flagrada alegou transportar a encomenda para terceiro e desconhecer a irregularidade; essa versão é declaração do envolvido, não constatação investigativa. A carne foi encaminhada à CVC para cadeia de custódia.",
+        "en": "[N1 citing CVC] The report explicitly identifies the flight's departure point (Bahía Solano) and interception at the Valle del Cauca airport, supporting **one documented completed air segment**, without implying the animals were hunted in Bahía Solano. The material totals 2.5 kg of meat identified only to genus. The carrier claimed to be doing someone a favour and not to know the rules; that remains their statement, not an official determination. The meat entered CVC custody.",
+        "es": "[N1 con declaraciones de CVC] La nota identifica el vuelo procedente de Bahía Solano y la interceptación en el aeropuerto del Valle del Cauca, por lo que existe **un segmento aéreo realizado y documentado**; esto no demuestra que la caza ocurriera en Bahía Solano. Son 2,5 kg de carne de dos géneros. La persona dijo transportar una encomienda como favor y desconocer la norma; es su declaración, no una conclusión oficial. La carne quedó bajo custodia de la CVC."
+      },
+      "route_status": "COMPLETED_BAHIA_SOLANO_TO_ALFONSO_BONILLA_AIRPORT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED"
+    },
+    {
+      "country": "Colômbia",
+      "id": "2026-08-bogota-university-23-wildlife-provisional",
+      "event_date": null,
+      "publication_date": "2026-08-02",
+      "location": "universidade em Usaquén, Bogotá",
+      "source_url": "https://cambiocolombia.com/medio-ambiente/articulo/2026/8/hallan-23-animales-silvestres-en-universidad-en-bogota-incautan-15-boas-y-8-tortugas-por-irregularidades-en-su-tenencia",
+      "source_rank": "N1_CONTESTED",
+      "quantities": [
+        {
+          "value": 15,
+          "unit": "live_boas",
+          "taxon": "Boa constrictor (reported)"
+        },
+        {
+          "value": 8,
+          "unit": "live_turtles",
+          "taxon": "species_unspecified"
+        }
+      ],
+      "title": {
+        "pt": "Autoridades recebem preventivamente 23 répteis de universidade de Bogotá após questionamento documental",
+        "en": "Bogotá authorities take preventive custody of 23 reptiles from university amid documentation dispute",
+        "es": "Autoridades reciben preventivamente 23 reptiles de universidad bogotana por controversia documental"
+      },
+      "card": {
+        "pt": "Uma ação de verificação numa universidade de Usaquén resultou na transferência de 15 boas e oito tartarugas para a autoridade ambiental. Polícia e imprensa citam inconsistências nos documentos; a universidade afirma ter realizado entrega voluntária em acordo com a Secretaria Distrital.",
+        "en": "An inspection at a university in Usaquén resulted in 15 boas and eight turtles being transferred to the environmental authority. Police and media reported documentation issues, while the university described an agreed voluntary handover.",
+        "es": "Una inspección en una universidad de Usaquén terminó con el traslado de 15 boas y ocho tortugas a la autoridad ambiental. La Policía y la prensa mencionaron inconsistencias documentales; la universidad sostuvo que fue una entrega voluntaria coordinada."
+      },
+      "context": {
+        "pt": "[N1, alegações divergentes] A reportagem publicada em 02/08 apresenta versões diferentes sobre a natureza do procedimento. A autoridade policial anunciou apreensão preventiva por inconsistências documentais, enquanto a universidade contestou a caracterização e disse que optou por entrega voluntária de animais recebidos por doação pública. Não há, nessa fonte, prova de aquisição criminosa, tráfico internacional ou origem ilegal dos 23 indivíduos. Assim, a ocorrência precisa de validação de escopo antes de ser classificada como apreensão por tráfico; não incluir como crime consumado nem atribuir responsabilidade penal.",
+        "en": "[N1, conflicting accounts] The 2 August report presents opposing descriptions: police called it preventive seizure over documentation inconsistencies, whereas the university disputed that description and said animals originally donated by a public agency were transferred voluntarily by agreement. The source does not establish criminal acquisition, international trafficking or illegal origin of the 23 animals. Keep under scope review rather than present as proven trafficking or criminal liability.",
+        "es": "[N1, versiones divergentes] La noticia del 2 de agosto recoge dos interpretaciones: la Policía describió una incautación preventiva por documentación inconsistente y la universidad afirmó que fue entrega voluntaria coordinada de ejemplares donados por entidad pública. No se demuestra compra delictiva, tráfico internacional ni procedencia ilícita de los 23 animales. Debe quedar en revisión de alcance, no registrarse como delito probado ni atribuir responsabilidad penal."
+      },
+      "route_status": "NONE",
+      "qa_status": "HOLD_CONTESTED_NOT_AUTOMATIC_IWT"
+    },
+    {
+      "country": "Bolívia",
+      "id": "2026-02-trinidad-pompeya-market-two-blue-macaw-chicks",
+      "event_date": "2026-02-10",
+      "publication_date": "2026-02-12",
+      "location": "mercado Pompeya, Trinidad, Beni, Bolívia",
+      "source_url": "https://www.fiscalia.gob.bo/comunicacion/noticias/mujer-es-sentenciada-por-trafico-ilegal-de-vida-silvestre-en-trinidad",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "value": 2,
+          "unit": "live_blue_macaw_chicks",
+          "taxon": "unconfirmed by scientific name"
+        }
+      ],
+      "title": {
+        "pt": "Mulher é condenada após apreensão de dois filhotes de arara-azul no mercado Pompeya",
+        "en": "Woman convicted after seizure of two blue macaw chicks at Pompeya market",
+        "es": "Mujer condenada tras decomiso de dos pichones de paraba azul en mercado Pompeya"
+      },
+      "card": {
+        "pt": "A POFOMA e o Ministério Público apreenderam em 10 de fevereiro dois filhotes de arara-azul oferecidos para venda no mercado Pompeya, Trinidad. Em 12 de fevereiro, a Fiscalía anunciou condenação de uma mulher a três anos de prisão por tráfico ilegal de fauna.",
+        "en": "POFOMA and prosecutors seized two blue macaw chicks offered for sale at Pompeya market in Trinidad on 10 February. On 12 February the prosecution service announced a three-year prison sentence against a woman for illegal wildlife trafficking.",
+        "es": "POFOMA y la Fiscalía incautaron el 10 de febrero dos pichones de paraba azul ofrecidos en venta en el mercado Pompeya, Trinidad. El 12 de febrero el Ministerio Público anunció una sentencia de tres años de prisión contra una mujer por tráfico ilegal de fauna."
+      },
+      "context": {
+        "pt": "[O1] Diferentemente de muitos registros baseados apenas em suspeitas, o Ministério Público boliviano documenta resultado judicial: procedimento abreviado e pena de três anos após ação em flagrante de 10/02. O comunicado informa apreensão de dois filhotes, celular e outras evidências investigativas. A Fiscalía descreve a 'paraba azul' como criticamente ameaçada, mas o nome popular, sem identificação científica no comunicado, não permite afirmar automaticamente *Anodorhynchus hyacinthinus* ou outra espécie. A fonte demonstra comercialização no mercado de Trinidad, não origem de captura ou rota internacional.",
+        "en": "[O1] Unlike many seizure reports that stop at suspicion, Bolivia's prosecution service documents a judicial outcome: an abbreviated proceeding and three-year prison sentence after a 10 February operation. Two chicks, a phone and other evidence were reported. Prosecutors describe the 'paraba azul' as critically endangered, but the local common name without a scientific name does not safely establish *Anodorhynchus hyacinthinus* or any specific species. The documented sale location is Trinidad's market; wild source and international route remain unknown.",
+        "es": "[O1] A diferencia de numerosos partes sobre simples sospechas, la Fiscalía documentó un desenlace judicial: procedimiento abreviado y condena de tres años tras la intervención del 10 de febrero. Se decomisaron dos pichones, un celular y otros indicios. El Ministerio Público califica a la 'paraba azul' como críticamente amenazada, pero el nombre común sin identificación científica no autoriza asignar automáticamente *Anodorhynchus hyacinthinus* u otra especie. Se acredita oferta en mercado de Trinidad, no lugar de captura ni ruta internacional."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_SOURCE_VERIFIED_CONVICTION"
+    },
+    {
+      "country": "Bolívia",
+      "id": "2026-08-24-el-alto-ceja-taxidermied-wildlife",
+      "event_date": null,
+      "publication_date": "2026-08-24",
+      "location": "chiflerías da Ceja, El Alto, Bolívia",
+      "source_url": "https://hemeroteca.larazon.bo/sociedad/2026/08/24/pofoma-incauta-en-chiflerias-quirquinchos-ranas-y-buhos-disecados/",
+      "source_rank": "N1_POFOMA_quoted",
+      "quantities": [
+        {
+          "value": 19,
+          "unit": "taxidermied_armadillos"
+        },
+        {
+          "value": 8,
+          "unit": "taxidermied_toads"
+        },
+        {
+          "value": 4,
+          "unit": "taxidermied_owls"
+        },
+        {
+          "value": null,
+          "unit": "other_wildlife_items",
+          "qualifier": "unspecified"
+        }
+      ],
+      "title": {
+        "pt": "POFOMA apreende tatus, sapos e corujas taxidermizados em comércio de El Alto",
+        "en": "POFOMA seizes preserved armadillos, toads and owls at El Alto stalls",
+        "es": "POFOMA decomisa quirquinchos, sapos y búhos disecados en puestos de El Alto"
+      },
+      "card": {
+        "pt": "Fiscalização de POFOMA em barracas de artigos tradicionais na Ceja de El Alto identificou 19 quirquinchos, oito sapos e quatro corujas dissecados, além de outros produtos não quantificados. Os materiais eram oferecidos em chiflerías.",
+        "en": "POFOMA inspected traditional-goods stalls in La Ceja, El Alto, and seized 19 preserved armadillos, eight toads and four owls, plus other unquantified wildlife products sold at chiflerías.",
+        "es": "POFOMA inspeccionó chiflerías en La Ceja de El Alto e incautó 19 quirquinchos, ocho sapos y cuatro búhos disecados, además de otros productos de fauna sin cantidad precisada."
+      },
+      "context": {
+        "pt": "[N1 com declarações da POFOMA] O balanço divulgado em 24/08 descreve comércio de espécimes dissecados em estabelecimentos de artigos usados em oferendas tradicionais. As três categorias explicitadas somam **31 itens**; como a matéria diz 'entre outros', não se deve apresentar 31 como total absoluto. Os nomes populares não estabelecem identificação científica individual. O cenário de venda explica o tipo de demanda observada, sem permitir inferir a motivação dos fornecedores, regiões de caça ou rotas. Não misturar com apreensão de quatro quirquinchos, quatro rãs e 11 bolsas suspeitas realizada em outro mercado de La Paz, possivelmente em data próxima.",
+        "en": "[N1 quoting POFOMA] The 24 August report concerns preserved animal specimens offered at traditional-goods stalls. The three quantified groups total **31 items**; the phrase 'among others' means this is not the complete seizure count. Common names do not establish the taxonomic identity of each specimen. The retail setting is documented, but suppliers' motivations, collection localities and routes are not. Do not merge with a separate La Paz market report involving four armadillos, four frogs and 11 suspected felid-skin bags.",
+        "es": "[N1 con declaraciones de POFOMA] La nota del 24 de agosto documenta especímenes disecados en chiflerías. Los tres grupos cuantificados suman **31 piezas**, pero el texto dice 'entre otros' y por eso 31 no es necesariamente el total. Los nombres comunes no permiten identificar cada especie. El comercio observado no determina motivaciones de proveedores, sitios de captura ni rutas. No fusionar con otro operativo en un mercado de La Paz que mencionó cuatro quirquinchos, cuatro ranas y 11 bolsos de supuesta piel felina."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_SOURCE_VERIFIED"
+    },
+    {
+      "country": "Bolívia",
+      "id": "2026-09-06-urubo-two-howler-monkeys-offered",
+      "event_date": null,
+      "publication_date": "2026-09-06",
+      "location": "zona Urubó, Santa Cruz, Bolívia",
+      "source_url": "https://abi.bo/santa-cruz-rescatan-a-dos-monos-aulladores-que-pretendian-ser-comercializados/",
+      "source_rank": "N1_official_agency",
+      "quantities": [
+        {
+          "value": 2,
+          "unit": "live_howler_monkeys",
+          "taxon": "Alouatta sp. (genus only; verify)"
+        }
+      ],
+      "title": {
+        "pt": "Dois bugios são resgatados de suposta venda clandestina em Santa Cruz",
+        "en": "Two howler monkeys rescued from alleged illegal sale in Santa Cruz",
+        "es": "Rescatan dos monos aulladores ante presunta venta ilegal en Santa Cruz"
+      },
+      "card": {
+        "pt": "Uma operação policial na região de Urubó, Santa Cruz, recuperou dois bugios que estariam sendo oferecidos ilegalmente. A Agência Boliviana de Informação menciona pedido de pelo menos 2.800 bolivianos e duas pessoas detidas.",
+        "en": "Police recovered two howler monkeys in the Urubó area of Santa Cruz amid allegations that they were being sold illegally. Bolivia's state news agency reported an asking figure of at least 2,800 bolivianos and two arrests.",
+        "es": "La Policía rescató dos monos aulladores en la zona del Urubó, Santa Cruz, ante denuncias de venta ilegal. La Agencia Boliviana de Información mencionó un monto de al menos 2.800 bolivianos y dos personas aprehendidas."
+      },
+      "context": {
+        "pt": "[N1/ABI] Segundo a notícia de 06/09, uma denúncia de ativista motivou intervenção policial, com dois primatas e duas pessoas detidas. O preço divulgado é alegação de oferta, não transação concluída nem valor confirmado por indivíduo. A agência descreve os animais como bugios e não indica espécie científica; conservar *Alouatta* sp. apenas se o gênero puder ser confirmado em avaliação independente. Não há evidência publicada de local de captura, rede de compradores, deslocamento ou exportação. A frase da ONG sobre práticas violentas de captura é contexto geral, não prova de que a mãe desses dois indivíduos foi morta.",
+        "en": "[N1/ABI] The 6 September agency report says an activist's tip led to a police operation involving two monkeys and two arrests. The reported 2,800-boliviano figure is an alleged offer, not a completed sale or a verified price per individual. The animals are described as howler monkeys without a scientific species; *Alouatta* sp. is provisional pending verification. Capture localities, buyer network, movement and export are not established. An NGO's general remarks about violent capture must not be turned into a claim about the mothers of these two animals.",
+        "es": "[N1/ABI] La nota del 6 de septiembre señala que la denuncia de una activista motivó un operativo con dos monos y dos aprehendidos. Los 2.800 bolivianos son una oferta alegada, no compraventa consumada ni precio comprobado por ejemplar. Se habla de monos aulladores sin especie científica; *Alouatta* sp. sigue siendo provisional. No se acreditan captura, red de compradores, traslado ni exportación. La descripción general de una ONG sobre prácticas violentas de extracción no demuestra que las madres de estos individuos fueran asesinadas."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_SOURCE_REVIEWED"
+    },
+    {
+      "country": "Bolívia",
+      "id": "2026-09-16-villa-primero-mayo-fourteen-parrot-chicks",
+      "event_date": "2026-09-16",
+      "publication_date": "2026-09-16",
+      "location": "mercado Villa Primero de Mayo, Santa Cruz de la Sierra",
+      "source_url": "https://abi.bo/santa-cruz-rescatan-a-14-loritos-neonatos-tras-establecerse-su-presunta-venta/",
+      "source_rank": "N1_official_agency",
+      "quantities": [
+        {
+          "value": 14,
+          "unit": "live_neonate_parrots",
+          "taxon": "Psittacidae species unconfirmed"
+        }
+      ],
+      "title": {
+        "pt": "Polícia encontra 14 filhotes de psitacídeos abandonados em feira de Santa Cruz",
+        "en": "Police find 14 newborn parrots abandoned at Santa Cruz market",
+        "es": "Policía encuentra 14 loritos neonatos abandonados en feria de Santa Cruz"
+      },
+      "card": {
+        "pt": "Em fiscalização na região do mercado Villa Primero de Mayo, a polícia boliviana recolheu 14 filhotes de psitacídeos abandonados em caixa de papelão por suspeitos que fugiram. Aves ainda sem penas e com olhos fechados foram encaminhadas à DIRENA.",
+        "en": "During an inspection near Villa Primero de Mayo market, Bolivian officers recovered 14 parrot chicks abandoned in a cardboard box after suspected sellers fled. The featherless, closed-eyed chicks were transferred to DIRENA for emergency care.",
+        "es": "Durante un operativo cerca del mercado Villa Primero de Mayo, la Policía recuperó 14 loritos neonatos abandonados en una caja de cartón por presuntos vendedores que huyeron. Los polluelos, sin plumas y con ojos cerrados, fueron llevados a DIRENA para atención urgente."
+      },
+      "context": {
+        "pt": "[N1/ABI e N2] As fontes descrevem um controle motivado por denúncias de oferta de fauna durante feira e fuga de suspeitos após chegada da FELCDA. A condição neonatal, ausência de penas e olhos fechados é observada, mas não permite determinar a espécie nem origem do ninho. Nenhum envolvido foi identificado como detido na notícia; logo, não atribuir prisões. O lote de 14 aves é uma única ocorrência, distinta dos 12 animais resgatados em Warnes em março e dos 29 papagaios do mercado La Pampa de Cochabamba em junho.",
+        "en": "[N1/ABI and N2] Reports describe a market inspection prompted by suspected wildlife sales; sellers reportedly fled when environmental police arrived. The chicks' featherless, closed-eyed condition is documented but does not establish species or nest origin. No arrest is documented, so none should be asserted. Fourteen birds belong to one event, distinct from the March Warnes seizure of 12 animals and the June Cochabamba La Pampa recovery of 29 parrots.",
+        "es": "[N1/ABI y N2] Las fuentes describen un control motivado por denuncias de oferta de fauna y la fuga de presuntos vendedores al llegar la FELCDA. La condición neonatal, sin plumas y con ojos cerrados, no permite precisar especies ni procedencia de nidos. No se informó captura de responsables; no inventar detenciones. Los 14 ejemplares integran un solo hecho, diferente a los 12 animales de Warnes en marzo y los 29 loros de La Pampa de Cochabamba en junio."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_SOURCE_VERIFIED"
+    }
+  ]
+}
