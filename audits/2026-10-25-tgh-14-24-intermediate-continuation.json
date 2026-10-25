@@ -1,0 +1,198 @@
+{
+  "audit_type": "TG-H interim continuation",
+  "batch_id": "TG-H-2026-10-14-24-intermediate-20261025",
+  "audit_date": "2026-10-25",
+  "publication_discovery_window": {
+    "start": "2026-10-14",
+    "end": "2026-10-24",
+    "inclusive": true,
+    "field": "publication_date",
+    "event_date_policy": "Separate from publication date. Earlier events, including 2025, are eligible when a new source in the publication window reports the original event. Court updates are not fresh seizures."
+  },
+  "origin": "Follow-up to the 14-24 Oct worldwide discovery effort, without replacing earlier 22-24 Oct or 14-24 Oct audits. Original two-hour scheduled consolidation completed on 2026-10-24; no automation schedules changed by this continuation.",
+  "scope": {
+    "regions": [
+      "América do Norte",
+      "América Central e Caribe",
+      "América do Sul",
+      "África",
+      "Ásia",
+      "Europa",
+      "Oceania"
+    ],
+    "languages_tried": [
+      "English",
+      "Spanish",
+      "Portuguese",
+      "French"
+    ],
+    "supplementary_local_language_sources_from_preexisting_rounds": [
+      "Indonesian",
+      "Thai",
+      "German",
+      "Russian",
+      "Arabic",
+      "Italian"
+    ],
+    "search_note": "Global multi-front queries attempted; only the source-supported new cases below are claimed as newly inserted in this continuation. Zero validated insertions in a geographic front does not mean zero events occurred there.",
+    "source_hierarchy": "Government directly involved first (F1); official-attributed established local reporting second (F2/F3), with uncertainty carried forward. Independent reports compared against canonical files; no unsupported routes, species, or weight conversions."
+  },
+  "baseline": {
+    "before_new_writes_manifest_record_count": 1211,
+    "after_new_writes_manifest_record_count": 1214,
+    "post_correction_rebuild_check": "pending final workflow status",
+    "warning": "Manifest count before this continuation was 1211 at 2026-10-24; do not interpret global master-data growth as coverage of this discovery window. The number 1214 was observed after the three new cases compiled."
+  },
+  "new_case_files": [
+    {
+      "id": "2026-10-08__buffalo-erie-county-undercover-marmoset-sale",
+      "path": "cases/2026/10/2026-10-08__buffalo-erie-county-undercover-marmoset-sale.json",
+      "front": "América do Norte",
+      "country": "Estados Unidos",
+      "locality": "Buffalo, NY",
+      "publication_date": "2026-10-20",
+      "event_date": "2026-10-08",
+      "animal_count": 1,
+      "kind": "live animals",
+      "source_hierarchy": "F1 official",
+      "source_url": "https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "notes": "One live marmoset offered for USD 7,000; undercover officers and permit check. Species unresolved, no commercial source/destination route.",
+      "commit": "e396498da9d53b9949d246512e87f2650e9ea51e"
+    },
+    {
+      "id": "2026-10-10__kings-county-erie-basin-40-tautog-out-of-season",
+      "path": "cases/2026/10/2026-10-10__kings-county-erie-basin-40-tautog-out-of-season.json",
+      "front": "América do Norte",
+      "country": "Estados Unidos",
+      "locality": "Erie Basin Pier area, Brooklyn NY",
+      "publication_date": "2026-10-20",
+      "event_date": "2026-10-10",
+      "animal_count": 40,
+      "kind": "marine fish unlawfully possessed/out-of-season; physical confiscation unverified",
+      "source_hierarchy": "F1 official",
+      "source_url": "https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "notes": "Forty fish are the two people's combined count; not 40 each, no seizure claim, no route.",
+      "commit": "bf59e4d50ab51b71da188257ccb94402d41c669f"
+    },
+    {
+      "id": "2025-07-23__taveta-four-pangolin-scales-undercover-operation",
+      "path": "cases/2025/07/2025-07-23__taveta-four-pangolin-scales-undercover-operation.json",
+      "front": "África",
+      "country": "Quênia",
+      "locality": "Taveta",
+      "publication_date": "2026-10-21",
+      "event_date": "2025-07-23",
+      "wildlife_items_count": 4,
+      "animal_individual_count": null,
+      "kind": "pangolin scales, four items, no animal-count inference",
+      "source_hierarchy": "F2 official-attributed local press (ODPP/KWS), original direct ODPP publication not located",
+      "source_url": "https://sports.thestar.ke/news/2026-10-21-man-jailed-7-years-over-pangolin-scales-in-taveta",
+      "corroborating_url": "https://test.citizen.digital/article/taita-taveta-man-jailed-7-years-for-dealing-in-pangolin-scales-worth-ksh300k-n392472",
+      "notes": "2026 conviction disclosed 2025 seizure. Mass '0.096 grams' as reported is implausible/possibly a unit error; no weight used. Value KSh300,000 attributed. Original species not confirmed.",
+      "commit": "b5a5707178b92c1aa68959847811b0aa6cb8403b",
+      "schema_fix_commit": "c29b16779198c2aa9f274bd81cc4eefb0a5c9ff2"
+    }
+  ],
+  "count_verification": {
+    "new_sharded_cases": 3,
+    "new_documented_routes": 0,
+    "existing_cases_edited_other_than_new_kenya_schema_fix": 0,
+    "live_dashboard_visual_check": false,
+    "manifest_compiled_count_seen": 1214,
+    "manifest_includes_all_three": true
+  },
+  "validation": {
+    "semantic_dedup": "Compared new ids/locations/event dates/taxa/quantities against current 1211-entry canonical sharded manifest and Oct 22-24 audit files. Neither Buffalo, Erie Basin 40 tautog nor Taveta 2025 four scales appeared in that manifest.",
+    "quantity_rule": "Two separate totals: 41 living/illegally caught animal individuals (1 marmoset, 40 fish) and 4 pangolin scale items; not 45 animals. No unverified mass or wildlife trade route.",
+    "date_rule": "2026 publication discovery window does not imply 2026 event date.",
+    "geolocation_rule": "Generalized point labels; no private seizure address inferred.",
+    "translations": "PT/EN/ES narrative, titles and factual captions populated; taxon names at best evidenced rank.",
+    "route_rule": "No new route: Buffalo to sanctuary is welfare custody; Kings County is local fishing; Taveta origin/destination unknown.",
+    "aggregate_rule": "No aggregate produced in this continuation. Pre-existing Georgia statewide aggregate excluded from totals remains untouched.",
+    "schema_validation": "Kenya quantity_kind corrected from unsupported items to accepted wildlife_items. Full workflow success to be checked after rebuild."
+  },
+  "considered_but_not_added": [
+    {
+      "id": "NYSDEC-2026-10-20-other-fisheries",
+      "front": "América do Norte",
+      "source_url": "https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "note": "Official bulletin describes additional older events: 30 oyster toadfish in Manhattan (event date not specified), 33 bluefish confiscated 18 Sep 2026 in Bronx, 20 bluefish possessed 20 Sep in Mamaroneck, and salmon after-hours citations on 3 Oct. Remain candidate pool for separately establishing eligibility and precise disposition; not counted in this continuation."
+    },
+    {
+      "id": "GOLETA-2026-10-18-five-lobster-enforcement-encounters",
+      "front": "América do Norte",
+      "source_url": "https://www.independent.com/2026/10/18/five-fishermen-arrested-for-poaching-lobsters-off-goleta-pier/",
+      "note": "Previously evaluated, case commit blocked; retain HOLD, do not silently claim published. See earlier 2026-10-24-tgh-14-24-global-round-additional.json."
+    },
+    {
+      "id": "Southeast-Asia-Sorong-repeat",
+      "front": "Ásia",
+      "source_url": "https://github.com/acarvalho-wcs/wildlife-trafficking-data/blob/main/cases/2026/10/2026-10-19__sorong-km-sinabung-22-birds.json",
+      "note": "Already canonical in earlier 19-21 round. Pre-existing audit flags 21 versus 22 birds for source reconciliation. No duplicate created."
+    },
+    {
+      "id": "Laem-Chabang-2026-10-22-ivory-update",
+      "front": "Ásia",
+      "source_url": "https://wildlifejustice.org/thai-authorities-seize-31-tonnes-of-ivory-following-intelligence-provided-by-the-wildlife-justice-commission/",
+      "note": "Already reconciled to 446 ivory pieces event, weight 3.1 tonnes, see preceding audit. No duplicate case or route."
+    },
+    {
+      "id": "Kenya-Taveta-weight-ambiguity",
+      "front": "África",
+      "source_url": "https://sports.thestar.ke/news/2026-10-21-man-jailed-7-years-over-pangolin-scales-in-taveta",
+      "note": "Four scales secure; reported total 0.096 grams warrants ODPP original and unit review. Species and capture origin unknown; retain pending metadata note."
+    }
+  ],
+  "regional_continuity": [
+    {
+      "front": "América do Norte",
+      "new_cases_in_this_continuation": 2,
+      "notes": "NYSDEC official bulletin; other regional candidate retained without insertion."
+    },
+    {
+      "front": "América Central e Caribe",
+      "new_cases_in_this_continuation": 0,
+      "notes": "Earlier Panama case Arraiján/Burunga recorded; no repeat or unsupported new event."
+    },
+    {
+      "front": "América do Sul",
+      "new_cases_in_this_continuation": 0,
+      "notes": "Earlier Brazilian, Argentine, Ecuadorian records reviewed through 22-24 Oct audit baselines; no duplicate publication."
+    },
+    {
+      "front": "África",
+      "new_cases_in_this_continuation": 1,
+      "notes": "Kenya: 2025 original seizure and 2026 prosecution report, two distinct dates."
+    },
+    {
+      "front": "Ásia",
+      "new_cases_in_this_continuation": 0,
+      "notes": "Existing Indonesian, Hong Kong, Bangladesh, Thailand records and earlier audit exclusion safeguards preserved."
+    },
+    {
+      "front": "Europa",
+      "new_cases_in_this_continuation": 0,
+      "notes": "Earlier Kosovo/Italy/Germany validated/deduplicated per pre-existing 14-24 audit; no repeat."
+    },
+    {
+      "front": "Oceania",
+      "new_cases_in_this_continuation": 0,
+      "notes": "Earlier Australia and Réunion region handled in 14-24 audits; no additional verified case inserted in this pass."
+    }
+  ],
+  "prior_audit_files": [
+    "audits/2026-10-24-tgh-global-22-24-oct.json",
+    "audits/2026-10-24-tgh-14-24-worldwide-continuation-6cases.json",
+    "audits/2026-10-24-tgh-14-24-global-followup.json",
+    "audits/2026-10-24-tgh-14-24-global-round-additional.json",
+    "audits/2026-10-24-tgh-pending-candidates-resolution.json"
+  ],
+  "publication_status": {
+    "canonical_shards": "committed for all three new cases",
+    "compiled_feed": "1214 observed, includes all three",
+    "pages_deployment": "not yet verified completed at audit writing",
+    "routes": "not modified",
+    "original_two_hour_task": "already completed, schedule unchanged",
+    "scope_limit": "Partial additional research, not a new exhaustive seven-front two-hour session."
+  }
+}
