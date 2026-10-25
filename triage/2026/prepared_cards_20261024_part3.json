@@ -82,7 +82,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_MULTIPOINT_SPLIT_RECOMMENDED",
-      "notes": "Recommend 2 child cases for each locality, or single aggregate with multipoint coordinates and totals excluded for children."
+      "notes": "Recommend 2 child cases for each locality, or single aggregate with multipoint coordinates and totals excluded for children.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1111/csp2.12936",
+          "url": "https://doi.org/10.1111/csp2.12936"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Pesquisas em comunidades rurais do Peru e sul do Equador examinaram origem doméstica versus aquisição de papagaios e evidenciaram circuitos de captura e posse. Esse quadro permite interpretar a pressão da demanda doméstica sem pressupor que as três aves resgatadas compartilhem origem ou tenham sido importadas.",
+        "en": "Rural surveys in Peru and southern Ecuador explored household capture versus acquisition of parrots and demonstrate the importance of domestic capture-and-keeping systems. This helps interpret demand without implying that the three rescued birds share a capture site or were imported.",
+        "es": "Estudios rurales en Perú y sur de Ecuador analizaron captura doméstica y adquisición de loros y documentaron circuitos locales de tenencia. Ese marco permite entender la demanda sin suponer que las tres aves compartan procedencia o fueran importadas."
+      }
     },
     {
       "id": "2026-06-pomabamba-capuchin-caracara",
@@ -121,7 +133,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "Caution source reports animals in 'viviendas' plural; no addresses."
+      "notes": "Caution source reports animals in 'viviendas' plural; no addresses.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1002/ajp.22516",
+          "url": "https://doi.org/10.1002/ajp.22516"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Estudo baseado em 2.070 ocorrências relacionadas a primatas no Peru constatou que apreensões institucionais frequentemente incidem sobre animais mantidos como mascotas, não necessariamente sobre os agentes centrais do comércio. Essa distinção é pertinente ao macaco deste caso, mas não identifica sua origem nem os responsáveis pela captura.",
+        "en": "An empirical Peruvian study examining 2,070 primate-related wildlife-crime incidents found that enforcement often reaches private pet holders rather than the main traffickers. That distinction is relevant to this capuchin but does not identify its wild source or original captors.",
+        "es": "Un estudio peruano de 2.070 incidentes con primates observó que las autoridades suelen intervenir a tenedores particulares antes que a los principales traficantes. La distinción es pertinente al mono de este caso, pero no permite atribuirle origen o responsables de captura."
+      }
     },
     {
       "id": "2026-08-andahuaylas-eight-psittacara-mitratus",
@@ -155,7 +179,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "Date of original seizure not proven from article; event_date null."
+      "notes": "Date of original seizure not proven from article; event_date null.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.35626/sapientia.6.3.51",
+          "url": "https://doi.org/10.35626/sapientia.6.3.51"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Análise de expedientes da FEMA em Apurímac (2015–2021) apontou confusão recorrente entre *Psittacara mitratus*, *P. wagleri* e *P. erythrogenys*, chamados de 'loro cabeza roja'. O estudo oferece precedente territorial e recomenda cautela taxonômica: o registro de 2026 adota *P. mitratus* porque essa é a identificação expressa na notícia, não por inferência a partir do nome popular.",
+        "en": "An analysis of Apurímac prosecution files (2015–2021) documented recurring confusion among *Psittacara mitratus*, *P. wagleri* and *P. erythrogenys* under the shared common name 'loro cabeza roja'. This provides local historical context and supports taxonomic caution: the 2026 record uses *P. mitratus* only because the reporting agency states that identification.",
+        "es": "Un análisis de expedientes fiscales de Apurímac (2015–2021) detectó confusiones frecuentes entre *Psittacara mitratus*, *P. wagleri* y *P. erythrogenys*, agrupados bajo 'loro cabeza roja'. El antecedente es territorial y aconseja prudencia taxonómica: se conserva *P. mitratus* porque así lo indica expresamente la fuente de 2026."
+      }
     },
     {
       "id": "2026-01-bogota-plaza-20-julio-seven-wild-parakeets",
@@ -268,7 +304,19 @@
       },
       "route_status": "INTERNATIONAL_EXIT_ATTEMPT_DESTINATION_UNKNOWN",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "Do not assign Mexico as destination; Barranquilla transfer is rehabilitation, not illegal route."
+      "notes": "Do not assign Mexico as destination; Barranquilla transfer is rehabilitation, not illegal route.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.59517/oc.e373",
+          "url": "https://doi.org/10.59517/oc.e373"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Estudo nacional de ingressos em centros de fauna colombianos constatou que a reabilitação de psitacídeos envolve riscos relevantes de mortalidade e soltura inadequada. Embora este lote inclua diferentes passeriformes, o resultado científico serve apenas como cautela geral sobre reabilitação, não como prognóstico para as 18 aves.",
+        "en": "A nationwide study of Colombian wildlife-centre admissions documented survival and release risks for confiscated parrots. Because this seizure involves different bird groups, that research is a general caution about post-seizure care only, not a prognosis for these 18 birds.",
+        "es": "Un estudio nacional sobre ingresos de loros a centros colombianos documentó riesgos de mortalidad y liberación. Como esta incautación incluye otros grupos de aves, el trabajo es solo una advertencia general sobre rehabilitación, no un pronóstico para las 18 aves."
+      }
     },
     {
       "id": "2026-05-cartagena-airport-three-primates-dominican-republic",
