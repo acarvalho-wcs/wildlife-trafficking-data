@@ -104,6 +104,8 @@
         {
           "value": 22,
           "unit": "live_wild_animals",
+          "qualifier": "official_total_CONTESTED",
+          "component_sum": 23,
           "breakdown": "10 canarios; 2 morrocoyes; 2 babillas; 2 búhos; 2 toches; 1 rosita; 1 mochuelo; 1 perezoso; 1 perico real; 1 potoo"
         }
       ],
@@ -118,12 +120,17 @@
         "es": "Puestos de control policial en Montería, dentro de la operación internacional Green Shield, recuperaron preventivamente 22 animales, incluidas aves, dos morrocoyes, dos babillas y un perezoso. Los ejemplares fueron entregados al centro de la CVS."
       },
       "context": {
-        "pt": "[O1] O comunicado da Polícia Nacional de 22/07 discrimina os 22 espécimes em dez categorias de nomes populares, sem identificação científica de cada ave; a conversão direta dos nomes 'rosita', 'toche' ou 'canario' em táxons específicos seria arriscada. Trata-se de apreensão preventiva em controles de Montería, não necessariamente de uma única busca em imóvel ou de 22 ações independentes. Como a ação integra **Green Shield II**, o total local de 22 não deve ser somado novamente como ocorrência adicional aos números nacionais ou multinacionais agregados da operação. Não há compradores, origem e rotas geográficas descritos.",
-        "en": "[O1] Colombia's 22 July police bulletin breaks down the 22 recovered animals into ten common-name categories. Names such as 'rosita', 'toche' and 'canario' cannot safely be converted to species without verification. This was a preventive seizure during local checkpoints, not necessarily one household search or 22 separate cases. Because the action is part of **Green Shield II**, these 22 must not be counted again as an additional seizure on top of national or multinational parent-operation totals. Sources, customers and routes are not identified.",
-        "es": "[O1] El boletín policial del 22 de julio desglosa los 22 ejemplares en diez categorías de nombres comunes. Denominaciones como 'rosita', 'toche' o 'canario' no permiten atribuir especies sin validación. Fue una aprehensión preventiva en controles de Montería, no necesariamente un allanamiento único ni 22 casos distintos. Como integra **Green Shield II**, los 22 no se deben sumar otra vez a los resultados agregados nacionales o multinacionales. No constan proveedores, compradores ni rutas."
+        "pt": "[O1] O comunicado da Polícia Nacional de 22/07 discrimina os 22 espécimes em dez categorias de nomes populares, sem identificação científica de cada ave; a conversão direta dos nomes 'rosita', 'toche' ou 'canario' em táxons específicos seria arriscada. Trata-se de apreensão preventiva em controles de Montería, não necessariamente de uma única busca em imóvel ou de 22 ações independentes. Como a ação integra **Green Shield II**, o total local de 22 não deve ser somado novamente como ocorrência adicional aos números nacionais ou multinacionais agregados da operação. Não há compradores, origem e rotas geográficas descritos. ALERTA DE AUDITORIA: a soma das dez categorias listadas pela própria fonte é 23, embora a manchete e o texto afirmem 22. A quantidade não deve ser publicada como exata até esclarecimento oficial.",
+        "en": "[O1] Colombia's 22 July police bulletin breaks down the 22 recovered animals into ten common-name categories. Names such as 'rosita', 'toche' and 'canario' cannot safely be converted to species without verification. This was a preventive seizure during local checkpoints, not necessarily one household search or 22 separate cases. Because the action is part of **Green Shield II**, these 22 must not be counted again as an additional seizure on top of national or multinational parent-operation totals. Sources, customers and routes are not identified. AUDIT ALERT: the ten itemized categories in the police report add to 23 although the headline and text say 22. Do not publish an exact case total until reconciled.",
+        "es": "[O1] El boletín policial del 22 de julio desglosa los 22 ejemplares en diez categorías de nombres comunes. Denominaciones como 'rosita', 'toche' o 'canario' no permiten atribuir especies sin validación. Fue una aprehensión preventiva en controles de Montería, no necesariamente un allanamiento único ni 22 casos distintos. Como integra **Green Shield II**, los 22 no se deben sumar otra vez a los resultados agregados nacionales o multinacionales. No constan proveedores, compradores ni rutas. ALERTA DE AUDITORÍA: las diez categorías del parte suman 23, pero el titular y el texto indican 22. No publicar un total exacto hasta aclararlo con la fuente."
       },
       "route_status": "NONE",
-      "qa_status": "DRAFT_OPERATION_CHILD_NO_DOUBLE_COUNT"
+      "qa_status": "HOLD_SOURCE_ARITHMETIC_CONFLICT",
+      "quantity_conflict": {
+        "declared_total": 22,
+        "sum_of_components": 23,
+        "status": "UNRESOLVED_OFFICIAL_ARITHMETIC_DISCREPANCY"
+      }
     },
     {
       "id": "2026-05-25-ecuador-multiregion-15-live-3-heads",
