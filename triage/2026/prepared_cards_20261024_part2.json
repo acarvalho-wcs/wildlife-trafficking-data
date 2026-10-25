@@ -16,10 +16,10 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 3,
           "qualifier": "exact",
           "unit": "live_parrots",
-          "taxon": "unspecified"
+          "taxon": "unspecified",
+          "value": 3
         }
       ],
       "title": {
@@ -63,10 +63,10 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 109,
           "qualifier": "exact",
           "unit": "live_wildlife",
-          "note": "aggregate across three search warrants and two municipalities; operational total"
+          "note": "aggregate across three search warrants and two municipalities; operational total",
+          "value": 109
         }
       ],
       "title": {
@@ -98,45 +98,45 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 278,
           "qualifier": "exact",
           "unit": "seahorse_specimens",
-          "taxon": "Hippocampus ingens"
+          "taxon": "Hippocampus ingens",
+          "value": 278
         },
         {
-          "count": 175,
           "qualifier": "exact",
           "unit": "Spondylus_shells",
-          "breakdown": "125 Spondylus princeps; 50 Spondylus limbatus"
+          "breakdown": "125 Spondylus princeps; 50 Spondylus limbatus",
+          "value": 175
         },
         {
-          "count": 82,
           "qualifier": "exact",
           "unit": "hard_coral_items",
-          "taxon": "Pocillopora sp."
+          "taxon": "Pocillopora sp.",
+          "value": 82
         },
         {
-          "count": 3,
           "qualifier": "exact",
           "unit": "hawksbill_turtle_carapaces",
-          "taxon": "Eretmochelys imbricata"
+          "taxon": "Eretmochelys imbricata",
+          "value": 3
         },
         {
-          "count": 9,
           "qualifier": "exact",
           "unit": "sea_stars",
-          "taxon": "Pharia sp."
+          "taxon": "Pharia sp.",
+          "value": 9
         },
         {
-          "count": 2,
           "qualifier": "exact",
           "unit": "black_coral_items",
-          "taxon": "Antipathes virgata"
+          "taxon": "Antipathes virgata",
+          "value": 2
         },
         {
-          "count": 36,
           "qualifier": "exact",
-          "unit": "kg_coral_fragments"
+          "unit": "kg_coral_fragments",
+          "value": 36
         }
       ],
       "title": {
@@ -180,14 +180,14 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 40,
           "qualifier": "exact",
-          "unit": "lb_shrimp"
+          "unit": "lb_shrimp",
+          "value": 40
         },
         {
-          "count": 880,
           "qualifier": "exact",
-          "unit": "lb_mixed_fish"
+          "unit": "lb_mixed_fish",
+          "value": 880
         }
       ],
       "title": {
@@ -219,10 +219,10 @@
       "source_rank": "N1_official_agency",
       "quantities": [
         {
-          "count": 12,
           "qualifier": "exact",
           "unit": "live_wildlife",
-          "breakdown": "4 tortoises; 4 parrots; 4 blue macaws"
+          "breakdown": "4 tortoises; 4 parrots; 4 blue macaws",
+          "value": 12
         }
       ],
       "title": {
@@ -254,10 +254,10 @@
       "source_rank": "N1_POFOMA_quoted",
       "quantities": [
         {
-          "count": 9,
           "qualifier": "exact",
           "unit": "taxidermied_armadillos",
-          "breakdown": "4 Morenada Central; 5 Morenada Cocanis"
+          "breakdown": "4 Morenada Central; 5 Morenada Cocanis",
+          "value": 9
         }
       ],
       "title": {
@@ -289,10 +289,10 @@
       "source_rank": "N1_Cochabamba_authority_quoted",
       "quantities": [
         {
-          "count": 29,
           "qualifier": "exact",
           "unit": "live_parrots",
-          "note": "subset of 32 parrots reported in week; 3 more in other stalls, one capuchin rescued separately"
+          "note": "subset of 32 parrots reported in week; 3 more in other stalls, one capuchin rescued separately",
+          "value": 29
         }
       ],
       "title": {
