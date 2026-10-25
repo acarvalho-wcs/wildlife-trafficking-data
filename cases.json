@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1212_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1213_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1212,
+  "count": 1213,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -92645,6 +92645,75 @@
       },
       "quantity_note_pt": "Um indivíduo vivo; espécie não determinada na fonte oficial.",
       "occurred_at": "2026-10-08T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-10__kings-county-erie-basin-40-tautog-out-of-season",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-2026-10-14-24-intermediate-20261025",
+      "country": "Estados Unidos",
+      "publication_date": "2026-10-20",
+      "event_date": "2026-10-10",
+      "event_date_precision": "day",
+      "coordinates": {
+        "lat": 40.673,
+        "lon": -74.015
+      },
+      "coordinate_precision": "locality_generalized",
+      "location_label_pt": "Arredores do píer Erie Basin, Brooklyn (condado de Kings), Nova York, EUA",
+      "location_label_en": "Near Erie Basin Pier, Brooklyn (Kings County), New York, USA",
+      "location_label_es": "Alrededores del muelle Erie Basin, Brooklyn (condado de Kings), Nueva York, EE. UU.",
+      "geographic_note_pt": "Ponto aproximado da região portuária indicada, não a posição exata da fiscalização.",
+      "geographic_note_en": "Approximate harbor reference, not the exact patrol point.",
+      "geographic_note_es": "Referencia aproximada de la zona portuaria, no ubicación exacta del control.",
+      "source_label": "New York State Department of Environmental Conservation (NYSDEC), comunicado oficial, 20/10/2026",
+      "source_url": "https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "title_pt": "Agentes identificam 40 tautogas capturadas fora da temporada em Brooklyn",
+      "title_en": "Officers find 40 out-of-season tautog in Brooklyn",
+      "title_es": "Agentes detectan 40 tautogas capturadas fuera de temporada en Brooklyn",
+      "card_text_pt": "Em 10/10, agentes de fiscalização marinha de Nova York encontraram 40 tautogas (*Tautoga onitis*) na posse de duas pessoas próximo ao píer Erie Basin, Brooklyn. Ambas foram autuadas por captura fora da temporada; não há confirmação de confisco físico dos peixes.",
+      "card_text_en": "On 10 October, New York marine enforcement officers found 40 tautog (*Tautoga onitis*) possessed by two individuals near Erie Basin Pier, Brooklyn. Both were cited for taking fish out of season; physical confiscation was not reported.",
+      "card_text_es": "El 10/10, agentes de fiscalización marina de Nueva York hallaron 40 tautogas (*Tautoga onitis*) en posesión de dos personas cerca del muelle Erie Basin, Brooklyn. Ambas fueron sancionadas por captura fuera de temporada; la fuente no confirma decomiso físico.",
+      "context_pt": "[O1] Em boletim de 20/10, o NYSDEC descreveu patrulha embarcada realizada em 10/10/2026 nas proximidades de Erie Basin Pier. Cinco agentes encontraram duas pessoas com 40 peixes tautoga. A temporada no condado de Kings começaria em 15/10, razão pela qual ambas receberam autuações. A fonte confirma posse e captura irregular, mas não afirma apreensão física, destino dos peixes, venda, comércio ou origem fora da localidade. O número 40 refere-se aos peixes encontrados na posse conjunta das duas pessoas, não a cada uma.",
+      "context_en": "[O1] A 20 October NYSDEC bulletin describes a 10 October vessel patrol near Erie Basin Pier in Kings County. Officers encountered two individuals possessing 40 tautog before the local season opened on 15 October and cited both for taking fish out of season. The source confirms unlawful catch/possession, not physical confiscation, sale, downstream destination or an external source. Forty is the combined tally, not the per-person quantity.",
+      "context_es": "[O1] El boletín del NYSDEC del 20/10 describe una patrulla marítima del 10/10 cerca de Erie Basin Pier, condado de Kings. Dos personas poseían en conjunto 40 tautogas antes de la apertura de temporada del 15/10 y recibieron citaciones. La fuente acredita captura y tenencia fuera de temporada, pero no decomiso físico, venta, destino o procedencia externa. Los 40 peces son un total conjunto.",
+      "references_text_pt": "[O1] NYSDEC, Environmental Conservation Police on Patrol, 20/10/2026 (seção Statewide Fishing Compliance Checks) — https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "references_text_en": "[O1] NYSDEC, Environmental Conservation Police on Patrol, 20 October 2026 (Statewide Fishing Compliance Checks) — https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "references_text_es": "[O1] NYSDEC, Environmental Conservation Police on Patrol, 20/10/2026 (Statewide Fishing Compliance Checks) — https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "fauna_label_pt": "40 peixes marinhos capturados irregularmente",
+      "fauna_label_en": "40 illegally caught marine fish",
+      "fauna_label_es": "40 peces marinos capturados ilegalmente",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "taxon_text": "Tautoga onitis",
+      "modal_primary": "Marítimo",
+      "modal_label_pt": "Marítimo",
+      "modal_label_en": "Marine",
+      "modal_label_es": "Marítimo",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 40,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Peixes": 40
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "40 peixes na posse conjunta de dois indivíduos. Não há informação expressa de confisco ou soltura; contabilizar como captura irregular, não como 40 animais confiscados.",
+      "quantity_note_en": "40 fish in joint possession of two individuals, not each. Confiscation or release not reported.",
+      "quantity_note_es": "40 peces poseídos entre dos personas; decomiso físico o liberación no informados.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Nenhum deslocamento comercial origem–destino ou rota de tráfico documentado.",
+      "route_audit_note_en": "No documented commercial movement from source to destination.",
+      "route_audit_note_es": "Sin desplazamiento comercial de origen a destino documentado.",
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "audit_note": "NYSDEC primary-source candidate; publication 20 Oct, event 10 Oct, distinct case from Buffalo Oct 8 and other 2026 previous rounds; no invented seizures, routes or animal totals.",
+      "occurred_at": "2026-10-10T00:00:00Z",
       "occurred_at_precision": "day"
     }
   ]
