@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1211_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1212_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1211,
+  "count": 1212,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -92577,6 +92577,75 @@
       "event_date_month": "2026-09",
       "occurred_at": null,
       "occurred_at_precision": "month_only_unresolved_exact_day"
+    },
+    {
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-2026-10-14-24-intermediate-20261025",
+      "event_date_precision": "day",
+      "coordinate_precision": "city_generalized",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_qualifier": "exact",
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "modal_label_en": "Not reported",
+      "modal_label_es": "No informado",
+      "route_audit_note_pt": "Sem origem e destino comercial documentalmente comprovados. Não criar rota a partir do local da ocorrência, custódia ou nacionalidade.",
+      "route_audit_note_en": "No evidenced source-to-destination wildlife movement. Do not create inferred routes.",
+      "route_audit_note_es": "Sin origen y destino del movimiento comercial comprobados; no inferir rutas.",
+      "geographic_note_pt": "Marcador urbano generalizado, não o endereço exato da ocorrência.",
+      "geographic_note_en": "Generalized locality marker, not the exact enforcement address.",
+      "geographic_note_es": "Referencia geográfica generalizada, no la dirección exacta.",
+      "audit_note": "TG-H 14-24 Oct 2026 publication window. Event date stored separately; no route inferred. Complement to 22-24 Oct earlier rounds, indexed against 1211-case canonical manifest.",
+      "quantity_note_en": "Do not infer individual animals from weights or objects.",
+      "quantity_note_es": "No inferir individuos a partir de pesos u objetos.",
+      "id": "2026-10-08__buffalo-erie-county-undercover-marmoset-sale",
+      "country": "Estados Unidos",
+      "publication_date": "2026-10-20",
+      "event_date": "2026-10-08",
+      "coordinates": {
+        "lat": 42.8864,
+        "lon": -78.8784
+      },
+      "location_label_pt": "Buffalo, condado de Erie, Nova York, EUA",
+      "location_label_en": "Buffalo, Erie County, New York, United States",
+      "location_label_es": "Buffalo, condado de Erie, Nueva York, Estados Unidos",
+      "source_label": "New York State Department of Environmental Conservation (NYSDEC), comunicado oficial de 20/10/2026",
+      "source_url": "https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "title_pt": "Venda ilegal de um sagui é identificada em operação encoberta em Buffalo",
+      "title_en": "Undercover investigation uncovers illegal marmoset sale in Buffalo",
+      "title_es": "Investigación encubierta detecta venta ilegal de un tití en Buffalo",
+      "card_text_pt": "Em 08/10, investigadores ambientais de Nova York realizaram uma compra encoberta de um sagui oferecido por US$ 7.000 em Buffalo. O vendedor não possuía licença; o animal foi confiscado e destinado a um santuário licenciado.",
+      "card_text_en": "On 8 October, New York environmental investigators completed an undercover purchase of one marmoset offered for US$7,000 in Buffalo. The seller lacked required permits; the primate was confiscated and transferred to a licensed sanctuary.",
+      "card_text_es": "El 8/10, investigadores ambientales de Nueva York realizaron una compra encubierta de un tití anunciado por 7.000 USD en Buffalo. El vendedor carecía de permisos; el primate fue decomisado y trasladado a un santuario autorizado.",
+      "context_pt": "[O1] O NYSDEC publicou em 20/10 a operação encoberta realizada em 08/10/2026. Depois de confirmar que o vendedor não tinha autorização, investigadores concordaram em pagar US$ 7.000 por um sagui; houve acusação de comercialização ilegal de fauna (felony classe E). O exemplar seguiu a um santuário. A fonte não identifica a espécie, origem de captura ou trajetória comercial. O preço refere-se à negociação encoberta, não a faturamento confirmado de rede criminosa.",
+      "context_en": "[O1] NYSDEC's 20 October official bulletin dates the undercover operation to 8 October. Investigators checked that a Buffalo seller lacked permits and agreed to pay US$7,000 for one marmoset. The subject was charged with illegal commercialization of wildlife, a class E felony; the animal went to a licensed sanctuary. The source does not identify species, capture origin or a commercial route. The undercover agreed price is not evidence of network turnover.",
+      "context_es": "[O1] El boletín oficial del NYSDEC publicado el 20/10 fecha la operación encubierta el 8/10. Tras verificar que el vendedor no tenía licencia, investigadores pactaron una compra de un tití por 7.000 USD. Se formuló un cargo por comercialización ilegal de fauna y el animal fue transferido a un santuario. Especie, origen e itinerario comercial no documentados.",
+      "references_text_pt": "[O1] NYSDEC, Environmental Conservation Police on Patrol, 20/10/2026 — https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "references_text_en": "[O1] NYSDEC, Environmental Conservation Police on Patrol, 20 October 2026 — https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "references_text_es": "[O1] NYSDEC, Environmental Conservation Police on Patrol, 20/10/2026 — https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "fauna_label_pt": "1 sagui vivo",
+      "fauna_label_en": "1 live marmoset",
+      "fauna_label_es": "1 tití vivo",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "taxon_text": "Callitrichidae sp. (sagui; espécie não determinada)",
+      "quantity_count": 1,
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_note_pt": "Um indivíduo vivo; espécie não determinada na fonte oficial.",
+      "occurred_at": "2026-10-08T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }
