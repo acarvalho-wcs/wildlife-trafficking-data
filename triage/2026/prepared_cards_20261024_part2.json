@@ -1,0 +1,294 @@
+{
+  "schema": "tgh_review_draft_v1",
+  "created": "2026-10-24",
+  "branch": "tgh-2026-peru-colombia-ecuador-bolivia-20261024",
+  "not_for_publication": true,
+  "language_validation": "handcrafted_PT_EN_ES",
+  "count": 7,
+  "records": [
+    {
+      "id": "2026-04-sogamoso-pajarito-three-parrots",
+      "country": "Colômbia",
+      "location": "km 13+200, via Sogamoso–Pajarito, Boyacá",
+      "publication_date": "2026-04-10",
+      "event_date": null,
+      "source_url": "https://www.policia.gov.co/noticia/contundente-golpe-al-trafico-fauna-silvestre-en-boyaca",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 3,
+          "qualifier": "exact",
+          "unit": "live_parrots",
+          "taxon": "unspecified"
+        }
+      ],
+      "title": {
+        "pt": "Polícia intercepta três papagaios em fiscalização na estrada Sogamoso–Pajarito",
+        "en": "Police intercept three parrots on the Sogamoso–Pajarito road",
+        "es": "Policía intercepta tres loros en la vía Sogamoso–Pajarito"
+      },
+      "card": {
+        "pt": "Dois ocupantes de um veículo foram detidos no km 13+200 da estrada Sogamoso–Pajarito, em Boyacá, quando transportavam três papagaios chamados localmente de 'pico verde' sem amparo legal. As aves foram entregues às autoridades.",
+        "en": "Police stopped a man and a woman at kilometre 13+200 of the Sogamoso–Pajarito road in Boyacá and recovered three illegally transported parrots locally called 'pico verde'. The birds were handed over to the authorities.",
+        "es": "La Policía interceptó a un hombre y una mujer en el kilómetro 13+200 de la vía Sogamoso–Pajarito, Boyacá, cuando transportaban ilegalmente tres loros conocidos como 'pico verde'. Las aves quedaron a disposición de las autoridades."
+      },
+      "context": {
+        "pt": "[O1] A fonte policial documenta local específico de abordagem, transporte rodoviário e três aves vivas. Entretanto, o nome da estrada não identifica necessariamente origem e destino da carga: a notícia não informa onde as aves foram capturadas, embarcadas ou aonde seriam levadas. O nome comum 'pico verde' tampouco permite determinar com segurança uma espécie científica. As duas pessoas foram detidas em flagrante por suspeita de tráfico; o desfecho judicial não foi comunicado. Não registrar uma rota Sogamoso→Pajarito sem outra fonte.",
+        "en": "[O1] The official police report establishes a precise roadside inspection point, road transport and three live birds. The road name does not establish the cargo's origin and destination: the report does not say where the birds were captured, loaded or intended to go. The common name 'pico verde' is insufficient for species-level identification. Two people were arrested on suspicion of trafficking, but no judicial outcome was reported. Do not draw a Sogamoso-to-Pajarito wildlife route based solely on the road name.",
+        "es": "[O1] El comunicado policial documenta un control vial en un punto preciso, el transporte terrestre y tres aves vivas. El nombre de la carretera no establece origen y destino de la carga: no se informa dónde fueron capturadas, embarcadas o hacia dónde se dirigían. 'Pico verde' no permite identificar con certeza una especie científica. Dos personas fueron capturadas por presunto tráfico, sin resultado judicial informado. No trazar una ruta Sogamoso–Pajarito a partir del nombre de la vía."
+      },
+      "route_status": "ROAD_INTERCEPTION_ONLY_NO_ORIGIN_DESTINATION",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Do not infer route direction; event date differs from published date or unspecified."
+    },
+    {
+      "id": "2026-07-27-escudo-silvestre-atlantico-bolivar-109",
+      "country": "Colômbia",
+      "location": "barrio Galán, Barranquilla (Atlántico) and La Cata, Turbaco (Bolívar)",
+      "publication_date": "2026-07-27",
+      "event_date": null,
+      "source_url": "https://chat.policia.gov.co/noticia/desarticulada-red-dedicada-al-trafico-ilegal-fauna-silvestre-en-region-carib",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 109,
+          "qualifier": "exact",
+          "unit": "live_wildlife",
+          "note": "aggregate across three search warrants and two municipalities; operational total"
+        }
+      ],
+      "title": {
+        "pt": "Operação Escudo Silvestre recupera 109 animais em Barranquilla e Turbaco",
+        "en": "Escudo Silvestre operation recovers 109 animals in Barranquilla and Turbaco",
+        "es": "Operación Escudo Silvestre recupera 109 animales en Barranquilla y Turbaco"
+      },
+      "card": {
+        "pt": "Três buscas policiais em imóveis de Barranquilla e Turbaco recuperaram 109 animais silvestres que estariam destinados ao comércio ilegal. Três pessoas foram detidas. Trata-se do resultado conjunto da Operação Escudo Silvestre, vinculada à iniciativa multinacional Green Shield II.",
+        "en": "Three police searches at properties in Barranquilla and Turbaco recovered 109 wild animals allegedly intended for illegal trade. Three people were arrested. The figure is the combined outcome of Escudo Silvestre, carried out in the framework of multinational Green Shield II.",
+        "es": "Tres allanamientos en inmuebles de Barranquilla y Turbaco permitieron recuperar 109 animales silvestres presuntamente destinados al comercio ilegal. Tres personas fueron capturadas. La cifra es el resultado conjunto de Escudo Silvestre, en el marco de Green Shield II."
+      },
+      "context": {
+        "pt": "[O1] A Polícia Nacional descreve três mandados de busca em dois municípios, nos bairros Galán (Barranquilla) e La Cata (Turbaco). Os 109 animais são o total da operação, sem repartição por imóvel nem lista taxonômica completa. A instituição afirmou que os exemplares teriam sido retirados ilegalmente da Amazônia colombiana; trata-se de informação atribuída à investigação, não da confirmação de localidades de captura ou trajetos. O caso é uma operação filha da iniciativa multinacional Green Shield II: não somar 109 animais novamente aos totais agregados da operação multinacional. Georreferenciamento e distribuição dos indivíduos por ponto exigem fontes adicionais.",
+        "en": "[O1] Colombia's police reported three search warrants across two municipalities: Galán in Barranquilla and La Cata in Turbaco. The 109 animals form an operational total, with no breakdown by property or complete species list. Police alleged illegal extraction from the Colombian Amazon; that assertion does not identify capture localities or documented movements. This is a national operation within multinational Green Shield II, so the 109 must not be added again to parent-operation totals. Do not assign all animals to a single map point without additional evidence.",
+        "es": "[O1] La Policía informó de tres allanamientos en dos municipios: el barrio Galán de Barranquilla y el sector La Cata de Turbaco. Los 109 ejemplares son un total operacional, sin desglose por inmueble ni identificación taxonómica completa. La institución indicó una supuesta extracción de la Amazonía colombiana, sin precisar capturas o recorridos comprobados. Es una operación vinculada a Green Shield II: no volver a sumar los 109 animales al consolidado multinacional. No adjudicar todos los ejemplares a un solo punto del mapa."
+      },
+      "route_status": "ALLEGED_AMAZON_ORIGIN_NO_SEGMENT",
+      "qa_status": "DRAFT_OPERATION_AGGREGATE_NEEDS_MAP_REVIEW",
+      "notes": "Nested in Green Shield II: avoid totals duplication and false pin."
+    },
+    {
+      "id": "2026-07-24-libertador-bolivar-549-marine-items",
+      "country": "Equador",
+      "location": "comuna Libertador Bolívar, Santa Elena",
+      "publication_date": "2026-07-28",
+      "event_date": "2026-07-24",
+      "source_url": "https://www.ambienteyenergia.gob.ec/gobierno-nacional-golpea-al-trafico-de-vida-silvestre-en-santa-elena-operativo-interinstitucional-saca-del-mercado-ilegal-549-especies-marinas/",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 278,
+          "qualifier": "exact",
+          "unit": "seahorse_specimens",
+          "taxon": "Hippocampus ingens"
+        },
+        {
+          "count": 175,
+          "qualifier": "exact",
+          "unit": "Spondylus_shells",
+          "breakdown": "125 Spondylus princeps; 50 Spondylus limbatus"
+        },
+        {
+          "count": 82,
+          "qualifier": "exact",
+          "unit": "hard_coral_items",
+          "taxon": "Pocillopora sp."
+        },
+        {
+          "count": 3,
+          "qualifier": "exact",
+          "unit": "hawksbill_turtle_carapaces",
+          "taxon": "Eretmochelys imbricata"
+        },
+        {
+          "count": 9,
+          "qualifier": "exact",
+          "unit": "sea_stars",
+          "taxon": "Pharia sp."
+        },
+        {
+          "count": 2,
+          "qualifier": "exact",
+          "unit": "black_coral_items",
+          "taxon": "Antipathes virgata"
+        },
+        {
+          "count": 36,
+          "qualifier": "exact",
+          "unit": "kg_coral_fragments"
+        }
+      ],
+      "title": {
+        "pt": "Equador apreende 549 espécimes e peças marinhas, além de 36 kg de coral",
+        "en": "Ecuador seizes 549 marine specimens and items plus 36 kg of coral fragments",
+        "es": "Ecuador incauta 549 ejemplares y piezas marinas más 36 kg de coral"
+      },
+      "card": {
+        "pt": "Inspeções em lojas e espaços artesanais de Libertador Bolívar, Santa Elena, resultaram na apreensão de 278 cavalos-marinhos, 175 conchas *Spondylus*, 82 peças de coral duro, três carapaças de tartaruga-de-pente, nove estrelas-do-mar e duas peças de coral-negro. Também foram recolhidos 36 kg de fragmentos de coral.",
+        "en": "Inspections of shops and artisan premises in Libertador Bolívar, Santa Elena, recovered 278 seahorses, 175 *Spondylus* shells, 82 pieces of hard coral, three hawksbill turtle carapaces, nine sea stars and two pieces of black coral, plus 36 kg of coral fragments.",
+        "es": "Inspecciones a locales comerciales y artesanales en Libertador Bolívar, Santa Elena, decomisaron 278 caballitos de mar, 175 conchas *Spondylus*, 82 piezas de coral duro, tres caparazones de tortuga carey, nueve estrellas de mar y dos piezas de coral negro. También se incautaron 36 kg de fragmentos de coral."
+      },
+      "context": {
+        "pt": "[O1] O Ministério do Ambiente e Energia informa que uma denúncia de 13/07 motivou a inspeção interinstitucional em 24/07, com apoio técnico-logístico da WCS Equador. A soma das seis categorias numeradas é 549 itens/espécimes; os 36 kg de fragmentos de coral constituem uma quantidade adicional em massa, jamais 36 indivíduos. Há produtos derivados (conchas, peças, carapaças) e organismos, mas a fonte não permite dizer que os 549 eram animais vivos. Foram identificados *Hippocampus ingens*, *Spondylus princeps*, *S. limbatus*, *Pocillopora* sp., *Eretmochelys imbricata*, *Pharia* sp. e *Antipathes virgata*. O comunicado cita CITES e ações administrativas e judiciais, sem apontar rotas de origem ou exportação.",
+        "en": "[O1] Ecuador's Ministry of Environment and Energy reports that a 13 July tip prompted a 24 July multi-agency inspection with technical and logistical support from WCS Ecuador. The six enumerated categories add up to 549 specimens/items; 36 kg of coral fragments is an additional weight, never 36 individuals. Shells, coral pieces and carapaces are derivatives, so 549 must not be labelled live animals. The source identifies *Hippocampus ingens*, *Spondylus princeps*, *S. limbatus*, *Pocillopora* sp., *Eretmochelys imbricata*, *Pharia* sp. and *Antipathes virgata*. It reports administrative and judicial follow-up, but no verified capture-to-market or export route.",
+        "es": "[O1] El Ministerio del Ambiente y Energía informó que una alerta del 13 de julio motivó controles el 24 de julio, con apoyo técnico y logístico de WCS Ecuador. Las seis categorías numeradas suman 549 ejemplares/piezas; los 36 kg de fragmentos de coral constituyen una cantidad adicional en masa, no 36 individuos. Hay conchas, corales y caparazones, por lo que no se debe presentar el total como animales vivos. Se identificaron *Hippocampus ingens*, *Spondylus princeps*, *S. limbatus*, *Pocillopora* sp., *Eretmochelys imbricata*, *Pharia* sp. y *Antipathes virgata*. Se informaron actuaciones administrativas y judiciales, sin ruta de captura o exportación comprobada."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "549 = 278+175+82+3+9+2; 36kg additional. Government phrase '549 especies' is taxonomically inaccurate; use items/specimens. Event 24/07 published 28/07."
+    },
+    {
+      "id": "2026-09-11-manta-machalilla-illegal-fishing",
+      "country": "Equador",
+      "location": "águas protegidas do Parque Nacional Machalilla; abordagem no píer do Yacht Club de Manta",
+      "publication_date": "2026-09-11",
+      "event_date": "2026-09-11",
+      "source_url": "https://noticias.policia.gob.ec/policia-nacional-del-ecuador-aprehendio-a-seis-sujetos-por-el-presunto-delito-contra-la-flora-y-fauna/",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 40,
+          "qualifier": "exact",
+          "unit": "lb_shrimp"
+        },
+        {
+          "count": 880,
+          "qualifier": "exact",
+          "unit": "lb_mixed_fish"
+        }
+      ],
+      "title": {
+        "pt": "Pesca não autorizada em Machalilla resulta em apreensão de 920 libras de produtos pesqueiros",
+        "en": "Unauthorized fishing in Machalilla leads to seizure of 920 pounds of seafood",
+        "es": "Pesca no autorizada en Machalilla termina con 920 libras de producto pesquero incautado"
+      },
+      "card": {
+        "pt": "A Armada equatoriana interceptou uma embarcação que pescava sem autorização em área protegida do Parque Nacional Machalilla. A Polícia apresentou seis detidos e 40 lb de camarão e 880 lb de pescado variado como evidências, além da embarcação.",
+        "en": "Ecuadorian naval personnel intercepted a vessel fishing without authorization inside a protected part of Machalilla National Park. Police took six people into custody and documented 40 lb of shrimp, 880 lb of mixed fish and the vessel as evidence.",
+        "es": "Personal naval interceptó una embarcación que pescaba sin autorización en aguas protegidas del Parque Nacional Machalilla. La Policía reportó seis aprehendidos, 40 libras de camarón, 880 libras de pescado variado y la embarcación como indicios."
+      },
+      "context": {
+        "pt": "[O1] A notícia policial fornece data e hora da operação (11/09/2026, 17h30), mas descreve dois locais com funções diferentes: atividade de pesca detectada no perímetro protegido de Machalilla e procedimento policial junto ao Yacht Club de Manta. As 920 libras representam peso combinado de camarão e peixes, não número de animais. Trata-se de suposta pesca ilegal/invasão de área protegida, não de tráfico de animais vivos; se a camada do Observatório for restrita a apreensões de tráfico de fauna, o registro deve permanecer em revisão de escopo. Não desenhar rota de navegação sem trajetória documentada.",
+        "en": "[O1] Police reported a dated operation (11 September 2026, 17:30) but two distinct location roles: fishing detected within protected waters of Machalilla and a police procedure near Manta's Yacht Club. The 920 pounds combine shrimp and mixed fish by weight; they are not an animal count. The alleged offence is unauthorized fishing in a protected area, rather than live-wildlife trafficking. Keep the event under scope review if the Observatory covers only wildlife-trafficking seizures, and do not draw a vessel track without documented movement.",
+        "es": "[O1] El parte policial precisa la fecha y hora (11/09/2026 a las 17:30) pero distingue dos lugares: pesca detectada en aguas protegidas de Machalilla y actuación policial cerca del Yacht Club de Manta. Las 920 libras suman camarón y pescado diverso por peso, no animales individuales. El supuesto ilícito es la pesca no autorizada en área protegida, no tráfico de fauna viva; debe revisarse su inclusión si la base solo registra decomisos por tráfico. No trazar un recorrido marítimo sin trayectoria documentada."
+      },
+      "route_status": "VESSEL_TRACK_UNDOCUMENTED",
+      "qa_status": "DRAFT_SCOPE_REVIEW_FISHERIES",
+      "notes": "Check scope: illegal fishing may be outside current IWT Observatory. 40+880 lb not convert to animal counts."
+    },
+    {
+      "id": "2026-03-01-warnes-satelite-norte-twelve-wildlife",
+      "country": "Bolívia",
+      "location": "feira, Satélite Norte, Warnes, Santa Cruz",
+      "publication_date": "2026-03-02",
+      "event_date": "2026-03-01",
+      "source_url": "https://abi.bo/rescatan-loros-tortugas-y-parabas-azules-que-eran-comercializados-ilegalmente-en-warnes/",
+      "source_rank": "N1_official_agency",
+      "quantities": [
+        {
+          "count": 12,
+          "qualifier": "exact",
+          "unit": "live_wildlife",
+          "breakdown": "4 tortoises; 4 parrots; 4 blue macaws"
+        }
+      ],
+      "title": {
+        "pt": "POFOMA recupera 12 animais oferecidos ilegalmente em feira de Warnes",
+        "en": "POFOMA recovers 12 wild animals offered illegally at a Warnes market",
+        "es": "POFOMA recupera 12 animales ofrecidos ilegalmente en una feria de Warnes"
+      },
+      "card": {
+        "pt": "Uma operação de POFOMA e do governo regional em feira da zona Satélite Norte, Warnes, recuperou quatro tartarugas, quatro papagaios e quatro araras azuis que eram oferecidos ilegalmente. Uma pessoa foi detida.",
+        "en": "A joint POFOMA and regional-government operation at a market in Satélite Norte, Warnes, recovered four turtles, four parrots and four blue macaws allegedly offered for unlawful sale. One person was detained.",
+        "es": "Un operativo de POFOMA y del gobierno departamental en una feria de Satélite Norte, Warnes, recuperó cuatro tortugas, cuatro loros y cuatro parabas azules ofrecidos ilegalmente. Una persona fue aprehendida."
+      },
+      "context": {
+        "pt": "[N1/O declarado] A Agência Boliviana de Informação relata que a ação ocorreu em 01/03, após denúncia de moradores, e identifica 12 animais de três grupos, quatro de cada. O caso foi encaminhado ao Ministério Público. O vocábulo popular 'parabas azules' não permite por si só escolher uma espécie científica, pois nomes locais podem ser aplicados a diferentes araras. O número 12 é de animais vivos apreendidos no mercado, não de anúncios ou indivíduos de uma única espécie. Nenhuma origem, comprador final ou rota foi confirmada.",
+        "en": "[N1/official account] Bolivia's ABI news agency reports that the 1 March seizure followed a residents' tip and involved 12 live animals: four turtles, four parrots and four blue macaws. One person was detained and the matter was referred to prosecutors. The local name 'parabas azules' does not reliably establish species identity on its own. Twelve is the combined live-animal count, not a single-species total. The source identifies neither capture sites nor purchasers or a transit route.",
+        "es": "[N1/fuente oficial] La Agencia Boliviana de Información señala que el operativo del 1 de marzo siguió a una denuncia vecinal y permitió recuperar 12 animales vivos: cuatro tortugas, cuatro loros y cuatro parabas azules. Una persona fue aprehendida y el caso pasó al Ministerio Público. El nombre popular 'parabas azules' no basta para precisar la especie. Doce es el total de los tres grupos; no se documentan zonas de captura, compradores ni rutas."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "ABI source indexed via search; fetch timeout in web open. Date Sunday preceding 2 March = 1 March."
+    },
+    {
+      "id": "2026-02-oruro-nine-taxidermied-armadillos",
+      "country": "Bolívia",
+      "location": "convite de Carnaval, Oruro",
+      "publication_date": "2026-02-09",
+      "event_date": null,
+      "source_url": "https://eldeber.com.bo/pais/decomisan-nueve-quirquinchos-usados-matracas-convite-oruro_1770655986",
+      "source_rank": "N1_POFOMA_quoted",
+      "quantities": [
+        {
+          "count": 9,
+          "qualifier": "exact",
+          "unit": "taxidermied_armadillos",
+          "breakdown": "4 Morenada Central; 5 Morenada Cocanis"
+        }
+      ],
+      "title": {
+        "pt": "POFOMA apreende nove tatus taxidermizados usados como matracas em Oruro",
+        "en": "POFOMA seizes nine taxidermied armadillos used as carnival rattles in Oruro",
+        "es": "POFOMA decomisa nueve quirquinchos disecados usados como matracas en Oruro"
+      },
+      "card": {
+        "pt": "POFOMA apreendeu nove quirquinchos taxidermizados usados como matracas em apresentações de morenada no convite do Carnaval de Oruro: quatro associados ao grupo Central e cinco ao Cocanis. Segundo a polícia, não havia registros autorizativos.",
+        "en": "POFOMA seized nine taxidermied armadillos used as rattles in morenada performances during Oruro's pre-carnival event: four associated with the Central group and five with Cocanis. Police reported that the specimens lacked required registration.",
+        "es": "POFOMA decomisó nueve quirquinchos taxidermizados utilizados como matracas durante el convite del Carnaval de Oruro: cuatro vinculados a la Morenada Central y cinco a la Cocanis. La Policía informó que carecían de registro autorizado."
+      },
+      "context": {
+        "pt": "[N1] A reportagem reproduz declarações do chefe departamental da POFOMA e identifica o uso de fauna taxidermizada em instrumentos de apresentações carnavalescas. O total de nove corresponde a espécimes mortos preservados, e não a nove animais vivos. A divisão 4+5 indica a associação às duas morenadas, não necessariamente dois eventos criminais independentes. A fonte não oferece data exata da apreensão, locais de obtenção das carcaças, compradores ou cadeias de fornecimento. Não atribuir nome científico específico apenas pelo termo 'quirquincho'.",
+        "en": "[N1] The newspaper quotes POFOMA's departmental chief regarding preserved armadillos used as rattles in carnival performances. Nine refers to preserved dead specimens, not live animals. The four/five breakdown identifies associations with two morenada groups, not automatically two separate criminal events. The report does not give an exact seizure date, source of the carcasses, vendors or supply routes. 'Quirquincho' alone is insufficient for a robust scientific species identification.",
+        "es": "[N1] El diario recoge declaraciones del jefe departamental de POFOMA sobre quirquinchos taxidermizados empleados como matracas en el Carnaval. Los nueve son especímenes muertos preservados, no animales vivos. La distribución de cuatro y cinco corresponde a dos morenadas, no necesariamente a dos delitos independientes. La nota no precisa la fecha exacta del decomiso, procedencia de los cuerpos, proveedores ni rutas. 'Quirquincho' por sí solo no permite una identificación científica segura."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Published 9 February; actual date of 'último convite' needs confirmation."
+    },
+    {
+      "id": "2026-06-27-cochabamba-la-pampa-29-parrots",
+      "country": "Bolívia",
+      "location": "mercado La Pampa, Cochabamba",
+      "publication_date": "2026-07-01",
+      "event_date": "2026-06-27",
+      "source_url": "https://lapatria.bo/enfoque-nacional/gestion/rescatan-loros-mono-capuchino-trafico-ilegal/",
+      "source_rank": "N1_Cochabamba_authority_quoted",
+      "quantities": [
+        {
+          "count": 29,
+          "qualifier": "exact",
+          "unit": "live_parrots",
+          "note": "subset of 32 parrots reported in week; 3 more in other stalls, one capuchin rescued separately"
+        }
+      ],
+      "title": {
+        "pt": "Fiscalização recupera 29 papagaios abandonados em mercado de Cochabamba",
+        "en": "Market inspection recovers 29 abandoned parrots in Cochabamba",
+        "es": "Operativo recupera 29 loros abandonados en mercado de Cochabamba"
+      },
+      "card": {
+        "pt": "Agentes municipais e POFOMA encontraram 29 papagaios abandonados por um comerciante que fugiu durante fiscalização no mercado La Pampa, em Cochabamba. Outros três papagaios foram apreendidos em pontos de venda distintos e um filhote de macaco-prego foi recuperado em outra ação, segundo balanço semanal.",
+        "en": "Municipal inspectors and POFOMA found 29 parrots abandoned by a fleeing seller during an inspection of La Pampa market in Cochabamba. Three further parrots were seized at other stalls, and a young capuchin monkey was recovered separately, according to the weekly account.",
+        "es": "Inspectores municipales y POFOMA encontraron 29 loros abandonados por un comerciante que huyó durante un control en el mercado La Pampa de Cochabamba. Se incautaron otros tres loros en distintos puestos y se rescató un mono capuchino juvenil en otra intervención, según el balance semanal."
+      },
+      "context": {
+        "pt": "[N1] A notícia sobre '32 papagaios e um macaco-prego' combina ações diferentes: 29 aves encontradas em 27/06 no mercado La Pampa, outras três em barracas distintas e um macaco-prego resgatado após denúncia sobre cativeiro particular. Este registro trata especificamente dos 29; uma ficha agregada dos 33 não deve ser somada novamente aos eventos individuais. A fonte relata desnutrição e mutilação de penas em parte das aves e posterior reabilitação, mas não confirma espécies de papagaios, origem geográfica ou rede internacional. O comerciante teria fugido, sem identificação conclusiva divulgada.",
+        "en": "[N1] The report headlined '32 parrots and one capuchin' combines distinct incidents: 29 birds found on 27 June at La Pampa market, three more at other stalls and a capuchin recovered after a private-captivity complaint. This case records the 29-bird subset; any weekly total of 33 must be excluded from additional sums. The source reports malnutrition and feather damage among birds undergoing rehabilitation but gives no confirmed parrot species, capture origins or international network. The suspected seller reportedly fled; no conclusive identification was reported.",
+        "es": "[N1] La noticia sobre '32 loros y un mono capuchino' reúne actuaciones diferentes: 29 aves halladas el 27 de junio en La Pampa, otras tres en puestos distintos y un mono rescatado por una denuncia de cautiverio particular. Esta ficha registra únicamente los 29; no se deben volver a sumar los 33 de un balance semanal. Se describen desnutrición y lesiones de plumas en aves bajo rehabilitación, sin especies confirmadas, zonas de captura ni red internacional acreditada. El vendedor presunto huyó y no se informó identificación concluyente."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "If individual 3 parrots and monkey become separate events, use parent aggregation with exclude_from_totals=true."
+    }
+  ]
+}
