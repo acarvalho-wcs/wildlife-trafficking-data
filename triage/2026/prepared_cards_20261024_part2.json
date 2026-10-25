@@ -39,7 +39,19 @@
       },
       "route_status": "ROAD_INTERCEPTION_ONLY_NO_ORIGIN_DESTINATION",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "Do not infer route direction; event date differs from published date or unspecified."
+      "notes": "Do not infer route direction; event date differs from published date or unspecified.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1002/ece3.73335",
+          "url": "https://doi.org/10.1002/ece3.73335"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Estudo colombiano de 2026 demonstrou que marcadores mitocondriais auxiliam a identificação de psitacídeos recuperados do tráfico. Isso reforça por que o nome popular 'pico verde' não deve ser convertido em espécie científica sem validação adicional; o trabalho não analisou diretamente as aves desta abordagem.",
+        "en": "A 2026 Colombian study demonstrated the use of mitochondrial markers to identify confiscated psittacines. It underscores why the common name 'pico verde' should not become a species identification without validation; the study did not test these seized birds.",
+        "es": "Un estudio colombiano de 2026 mostró la utilidad de marcadores mitocondriales para identificar psitácidos recuperados. Refuerza la necesidad de no convertir 'pico verde' en especie científica sin validación; el estudio no examinó estas aves."
+      }
     },
     {
       "id": "2026-07-27-escudo-silvestre-atlantico-bolivar-109",
@@ -144,7 +156,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "549 = 278+175+82+3+9+2; 36kg additional. Government phrase '549 especies' is taxonomically inaccurate; use items/specimens. Event 24/07 published 28/07."
+      "notes": "549 = 278+175+82+3+9+2; 36kg additional. Government phrase '549 especies' is taxonomically inaccurate; use items/specimens. Event 24/07 published 28/07.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1111/cobi.70047",
+          "url": "https://doi.org/10.1111/cobi.70047"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Foster e colaboradores analisaram 297 apreensões únicas de cavalos-marinhos reportadas online entre 2010 e 2021 e demonstraram a importância dos produtos desidratados e das falhas de cobertura nas notícias de apreensões. Trata-se de contexto global para os 278 *Hippocampus ingens*, não evidência de que esse lote tivesse destino asiático ou estivesse desidratado.",
+        "en": "Foster and colleagues analysed 297 unique online-reported seahorse seizures from 2010–2021 and documented the significance of dried products and reporting gaps. This is global context for the 278 *Hippocampus ingens*, not evidence that this batch was dried or headed to Asia.",
+        "es": "Foster y colaboradores analizaron 297 decomisos únicos de caballitos de mar reportados en línea entre 2010 y 2021 y señalaron la relevancia del comercio de ejemplares secos y de sesgos de información. Es contexto global para los 278 *Hippocampus ingens*, no prueba de que este lote estuviera seco ni destinado a Asia."
+      }
     },
     {
       "id": "2026-09-11-manta-machalilla-illegal-fishing",
