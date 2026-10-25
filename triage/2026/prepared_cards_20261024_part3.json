@@ -14,14 +14,14 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 15,
           "unit": "condor_feathers",
-          "taxon": "Vultur gryphus"
+          "taxon": "Vultur gryphus",
+          "value": 15
         },
         {
-          "count": 2,
           "unit": "taruca_feet",
-          "taxon": "Hippocamelus antisensis"
+          "taxon": "Hippocamelus antisensis",
+          "value": 2
         }
       ],
       "title": {
@@ -53,16 +53,16 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 1,
           "unit": "live_bird",
           "taxon": "Psittacara erythrogenys",
-          "location": "Lambayeque district"
+          "location": "Lambayeque district",
+          "value": 1
         },
         {
-          "count": 2,
           "unit": "live_birds",
           "taxon": "Aratinga weddellii",
-          "location": "La Victoria district"
+          "location": "La Victoria district",
+          "value": 2
         }
       ],
       "title": {
@@ -106,14 +106,14 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 1,
           "unit": "live_mammal",
-          "taxon": "Sapajus macrocephalus"
+          "taxon": "Sapajus macrocephalus",
+          "value": 1
         },
         {
-          "count": 1,
           "unit": "live_bird",
-          "taxon": "Phalcoboenus megalopterus"
+          "taxon": "Phalcoboenus megalopterus",
+          "value": 1
         }
       ],
       "title": {
@@ -157,9 +157,9 @@
       "source_rank": "N1_official_news_agency",
       "quantities": [
         {
-          "count": 8,
           "unit": "live_birds",
-          "taxon": "Psittacara mitratus"
+          "taxon": "Psittacara mitratus",
+          "value": 8
         }
       ],
       "title": {
@@ -203,9 +203,9 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 7,
           "unit": "live_native_parakeets",
-          "taxon": "unspecified 'pericos bronceados'"
+          "taxon": "unspecified 'pericos bronceados'",
+          "value": 7
         }
       ],
       "title": {
@@ -237,20 +237,20 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 13.9,
           "unit": "kg_bushmeat",
-          "taxon": "Hydrochoerus hydrochaeris / chigüiro"
+          "taxon": "Hydrochoerus hydrochaeris / chigüiro",
+          "value": 13.9
         },
         {
-          "count": 6.6,
           "unit": "kg_bushmeat",
-          "taxon": "conejo silvestre (species unspecified)"
+          "taxon": "conejo silvestre (species unspecified)",
+          "value": 6.6
         },
         {
-          "count": 22.2,
           "unit": "kg_bushmeat",
           "taxon": "Caiman crocodilus / babilla",
-          "taxonomy_status": "CHECK SCIENTIFIC ID"
+          "taxonomy_status": "CHECK SCIENTIFIC ID",
+          "value": 22.2
         }
       ],
       "title": {
@@ -282,9 +282,9 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 18,
           "unit": "live_birds",
-          "breakdown": "8 cardenales guajiros; 3 mieleros patirrojos; 1 mielero patiamarillo; 6 soldaditos capirotados"
+          "breakdown": "8 cardenales guajiros; 3 mieleros patirrojos; 1 mielero patiamarillo; 6 soldaditos capirotados",
+          "value": 18
         }
       ],
       "title": {
@@ -316,14 +316,14 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 2,
           "unit": "live_primates",
-          "taxon": "two 'monos cariblancos', taxonomy uncertain"
+          "taxon": "two 'monos cariblancos', taxonomy uncertain",
+          "value": 2
         },
         {
-          "count": 1,
           "unit": "dead_primate",
-          "taxon": "howler monkey; species uncertain"
+          "taxon": "howler monkey; species uncertain",
+          "value": 1
         }
       ],
       "title": {
@@ -355,12 +355,12 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 1,
-          "unit": "live_squirrel"
+          "unit": "live_squirrel",
+          "value": 1
         },
         {
-          "count": 1,
-          "unit": "dead_squirrel"
+          "unit": "dead_squirrel",
+          "value": 1
         }
       ],
       "title": {
