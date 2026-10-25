@@ -1,0 +1,197 @@
+{
+  "title": "TG-H global 14-24 October 2026: consolidated two-hour cycle and subsequent continuation",
+  "prepared_at": "2026-10-25",
+  "scope": "Publication dates 2026-10-14 through 2026-10-24 inclusive; event dates can be earlier or unresolved. Seven geographic fronts. Occurrence does not imply trafficking unless reported.",
+  "source_of_truth": "https://github.com/acarvalho-wcs/wildlife-trafficking-data",
+  "original_two_hour_cycle": {
+    "baseline_commit": "7eca11485800287e03d74b57ba99e3188013cccd",
+    "closure_commit": "b61472e0aa4164aed63f66f2326fd31e2fd6e3a7",
+    "baseline_manifest": 1165,
+    "closure_manifest": 1211,
+    "new_canonical_case_files": 46,
+    "case_file_ids_by_region": {
+      "América do Norte": [
+        "2026-10-19__atotonilco-el-grande-four-psittacines",
+        "2026-10-undated__colima-six-psittacines-profepa",
+        "2026-10-undated__palmillas-queretaro-rattlesnake-gila-monster",
+        "2026-10-undated__angelina-county-tx-one-alligator-illegal-possession"
+      ],
+      "América Central e Caribe": [
+        "2026-10-undated__arraijan-burunga-wild-meat-two-bags",
+        "2026-10-undated__cayo-zapatilla-2-33-marine-invertebrates"
+      ],
+      "América do Sul": [
+        "2026-10-16__cariacica-vila-grauna-seven-birds",
+        "2026-10-16__ilha-grande-baixao-das-flores-12-wild-birds",
+        "2026-10-16__registro-arapongal-42-captive-birds",
+        "2026-10-21_22__serra-jardim-limoeiro-14-birds",
+        "2026-10-22__cariacica-two-captive-macaw-parrot",
+        "2026-10-22__ipanguacu-venezia-captive-birds-unknown-number",
+        "2026-10-22__maquine-rs-captive-wild-birds-unknown-quantity",
+        "2026-10-22__monteiro-pb-illegal-captive-wild-birds",
+        "2026-10-22__prudentopolis-vila-mariana-nine-wild-birds",
+        "2026-10-23__vitoria-da-conquista-five-sayaca-barreiros",
+        "2026-10-22__mar-del-plata-newbery-four-wild-birds",
+        "2026-10-undated__gualeguaychu-costa-uruguay-sur-286-fish",
+        "2026-10-undated__ipiales-terminal-one-squirrel-monkey",
+        "2026-10-undated__quito-mariscal-sucre-199-red-crabs",
+        "2026-10-undated__villa-moscu-cochabamba-four-macaws"
+      ],
+      "África": [
+        "2026-10-05_06__reunion-west-marine-reserve-79kg-illegal-catch",
+        "2026-10-14__doornlaagte-groot-marico-waterbuck-meat",
+        "2026-10-17__matanya-laikipia-38_6kg-game-meat",
+        "2026-10-23__igbo-ora-imeko-afon-five-live-pangolins",
+        "2026-10-undated__groblersdal-two-sable-antelopes-illegal-hunting",
+        "2026-10-undated__sharqia-eight-illegally-kept-primates"
+      ],
+      "Ásia": [
+        "2026-10-06__bekasi-jatiasih-320kg-pangolin-scales",
+        "2026-10-14__alas-purwo-one-poached-banteng-carcass",
+        "2026-10-19__davao-toril-31-cockatoos-eclectus",
+        "2026-10-22__koyra-golkhali-deer-meat-head-hide",
+        "2026-10-22__lok-ma-chau-two-live-cites-turtles",
+        "2026-10-22__nakhon-phanom-31-reptiles-storage-trafficking",
+        "2026-10-20__khorgos-620-saiga-horns",
+        "2026-10-undated__lake-zhukey-burabay-33kg-illegal-fish"
+      ],
+      "Europa": [
+        "2026-08-22_10-22__georgia-70-poached-animals-aggregate",
+        "2026-10-18__korishe-prizren-one-poached-pheasant",
+        "2026-10-undated__ozzero-illegal-lure-hunted-birds-unquantified",
+        "2026-10-undated__vermezzo-con-zelo-67-poached-birds",
+        "2026-10-undated__verona-airport-five-corals-nine-reptile-items",
+        "2026-10-undated__korczowa-hawksbill-taxidermy-ukraine-to-poland"
+      ],
+      "Oceania": [
+        "2025-04__kyneton-victoria-over-700-dead-15-live-wildlife",
+        "2026-09-09__north-wessel-70kg-flying-fish-roe-30kg-fish",
+        "2026-09-14__torres-strait-600kg-shark-500kg-reef-fish",
+        "2026-10-19__warrior-reef-two-shark-fins-broadstaff",
+        "2026-10-09__pihama-73-paua-oversized-catch"
+      ]
+    },
+    "route_baseline": 294,
+    "route_closure": 296,
+    "route_ids_added": [
+      "krakowiec-korczowa-hawksbill-taxidermy-2026-10",
+      "vitoria-da-conquista-barreiros-five-sayaca-2026-10-23"
+    ],
+    "compare": "https://github.com/acarvalho-wcs/wildlife-trafficking-data/compare/7eca11485800287e03d74b57ba99e3188013cccd...b61472e0aa4164aed63f66f2326fd31e2fd6e3a7",
+    "note": "Foz do Iguaçu 32 eggs was already in baseline and never counted as one of 46 new files. Georgia 70 animals is a national aggregate excluded from dashboard individual totals."
+  },
+  "after_original_cycle": {
+    "starting_count": 1211,
+    "final_count": 1215,
+    "new_canonical_case_files": 4,
+    "case_ids": [
+      "2026-10-08__buffalo-erie-county-undercover-marmoset-sale",
+      "2026-10-10__kings-county-erie-basin-40-tautog-out-of-season",
+      "2025-07-23__taveta-four-pangolin-scales-undercover-operation",
+      "2026-10-undated__afyonkarahisar-one-illegally-imported-macaque"
+    ],
+    "notes": "Three cases were from an intermediate continuation (NYSDEC 2 + Taveta 1), plus Afyonkarahisar 1; NOT counted inside the original two-hour interval."
+  },
+  "combined_verified_growth": {
+    "initial": 1165,
+    "final": 1215,
+    "net_growth": 50,
+    "regions_original_counts": {
+      "América do Norte": 4,
+      "América Central e Caribe": 2,
+      "América do Sul": 15,
+      "África": 6,
+      "Ásia": 8,
+      "Europa": 6,
+      "Oceania": 5
+    },
+    "regions_additional_counts": {
+      "América do Norte": 2,
+      "América Central e Caribe": 0,
+      "América do Sul": 0,
+      "África": 1,
+      "Ásia": 1,
+      "Europa": 0,
+      "Oceania": 0
+    },
+    "countable_animals_or_illegally_caught_fish": 895,
+    "countable_wildlife_items": 641,
+    "quantities_policy": "895 animal specimens across countable individual entries, plus 641 wildlife items, never interchangeable. Excludes weights, unquantified fauna and Georgia's 70-animal potentially overlapping national aggregate. 40 Erie Basin fish were unlawfully held, confiscation not established."
+  },
+  "existing_or_not_new_examples": [
+    {
+      "id": "2026-10-24__foz-do-iguacu-32-wild-bird-eggs-galeao",
+      "reason": "Already present before TG-H two-hour baseline"
+    },
+    {
+      "id": "2026-10-unknown__laem-chabang-446-ivory-pieces",
+      "reason": "3.1t follow-up reporting concerns same 446-item seizure; no duplicate"
+    },
+    {
+      "id": "2026-10-21__betim-three-blue-macaws-prf",
+      "reason": "22 Oct follow-up to canonical 21 Oct event"
+    },
+    {
+      "id": "2026-10-19__sorong-km-sinabung-22-birds",
+      "reason": "Already canonical, 21 versus 22 birds discrepancy requires source reconciliation"
+    },
+    {
+      "id": "2026-10-13__bebedouro-38-wild-birds",
+      "reason": "22 Oct report of already canonical 13 Oct seizure; identify by municipality and date"
+    }
+  ],
+  "pending": [
+    {
+      "candidate": "Goleta Pier, California: five lobster enforcement encounters and 43 lobsters from report",
+      "source_url": "https://www.independent.com/2026/10/18/five-fishermen-arrested-for-poaching-lobsters-off-goleta-pier/",
+      "status": "HOLD: GitHub case creation blocked previously; not included in final count"
+    },
+    {
+      "candidate": "Tana River, Kenya: Usalama XII confiscated bushmeat",
+      "source_url": "https://eastleighvoice.co.ke/headlines/412240/29-arrested-as-dci-led-operation-nets-suspected-contraband-goods-worth-sh627-million",
+      "status": "HOLD: may duplicate Komorjila/Bangale operation"
+    },
+    {
+      "candidate": "NYSDEC other fishing interventions (oyster toadfish, bluefish)",
+      "source_url": "https://content.govdelivery.com/accounts/NYSDECPO/bulletins/42fcd34",
+      "status": "HOLD: case-level eligibility and exact event dates not all reconciled"
+    },
+    {
+      "candidate": "AFMA Torres Strait 2026 Sep vessel match",
+      "source_url": "https://www.afma.gov.au/news/14-foreign-fishers-face-court-fishing-illegal-australian-waters",
+      "status": "HOLD: match to 14 Sep 108 reef fish + 29 sharks not proven by vessel identifier"
+    },
+    {
+      "candidate": "Taveta four pangolin scales",
+      "source_url": "https://sports.thestar.ke/news/2026-10-21-man-jailed-7-years-over-pangolin-scales-in-taveta",
+      "status": "Record included; reported 0.096 g mass needs verification against ODPP, not used quantitatively"
+    }
+  ],
+  "build": {
+    "compiled_feed_manifest_count": 1215,
+    "compiled_feed_workflow": "https://github.com/acarvalho-wcs/wildlife-trafficking-data/actions/runs/40184064067",
+    "compiled_feed_workflow_conclusion": "success",
+    "pages_deploy_workflow": "https://github.com/acarvalho-wcs/wildlife-trafficking-data/actions/runs/40184077193",
+    "pages_deploy_conclusion": "success",
+    "routes_count": 296,
+    "live_dashboard_visual_verification": false
+  },
+  "limitations": [
+    "Not a proof of exhaustive global capture across seven fronts; local-language searches are opportunistic and sources reflect recorded discovery rounds.",
+    "Individual source pages were not all re-opened in this closure; cross-check relies on preceding editorial and source-reconciliation audits.",
+    "Status 'VALIDATED' is canonical review status, not a judicial finding.",
+    "S/N/I cross-case substantive review remains incomplete for 39 of the 47 cases audited earlier."
+  ],
+  "audit_dependencies": [
+    "audits/2026-10-24-tgh-global-22-24-oct.json",
+    "audits/2026-10-24-tgh-global-round-3.json",
+    "audits/2026-10-24-tgh-global-round-4.json",
+    "audits/2026-10-24-tgh-complement-2.json",
+    "audits/2026-10-24-tgh-pending-candidates-resolution.json",
+    "audits/2026-10-24-tgh-14-24-global-followup.json",
+    "audits/2026-10-24-tgh-14-24-worldwide-continuation-6cases.json",
+    "audits/2026-10-24-tgh-14-24-global-round-additional.json",
+    "audits/2026-10-25-tgh-14-24-intermediate-continuation.json",
+    "audits/2026-10-24-tgh-sn-context-remediation.json"
+  ]
+}
