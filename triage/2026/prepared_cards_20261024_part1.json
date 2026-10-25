@@ -1,0 +1,263 @@
+{
+  "schema": "tgh_review_draft_v1",
+  "created": "2026-10-24",
+  "branch": "tgh-2026-peru-colombia-ecuador-bolivia-20261024",
+  "not_for_publication": true,
+  "language_validation": "handcrafted_PT_EN_ES",
+  "count": 7,
+  "records": [
+    {
+      "id": "2026-02-calleria-ucayali-approx500-psittacines",
+      "country": "Peru",
+      "location": "km 13 Federico Basadre road, Callería, Ucayali",
+      "publication_date": "2026-02-10",
+      "event_date": null,
+      "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1350971-fema-consigue-el-rescate-de-500-aves-silvestres-que-iban-a-ser-comercializadas-ilegalmente-en-ucayali",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 500,
+          "qualifier": "approximate",
+          "unit": "live_birds",
+          "taxonomy": "psittacines, species not established"
+        }
+      ],
+      "title": {
+        "pt": "Fiscalia resgata cerca de 500 aves em centro de armazenamento em Ucayali",
+        "en": "Prosecutors recover approximately 500 birds from a Ucayali holding site",
+        "es": "Fiscalía rescata aproximadamente 500 aves en un centro de acopio de Ucayali"
+      },
+      "card": {
+        "pt": "A FEMA de Ucayali e a Polícia Ambiental encontraram aproximadamente 500 aves silvestres em três gaiolas dentro de um imóvel no km 13 da rodovia Federico Basadre, em Callería. Doze gaiolas vazias e dois mototáxis foram apreendidos. As aves foram transferidas para avaliação e custódia.",
+        "en": "Ucayali environmental prosecutors and police found approximately 500 wild birds in three cages at a property near kilometre 13 of the Federico Basadre road in Callería. Twelve empty cages and two three-wheel vehicles were seized. The birds were transferred for assessment and custody.",
+        "es": "La fiscalía ambiental de Ucayali y la Policía encontraron aproximadamente 500 aves silvestres en tres jaulas de un inmueble del kilómetro 13 de la carretera Federico Basadre, Callería. Se incautaron doce jaulas vacías y dos mototaxis. Las aves fueron trasladadas para evaluación y custodia."
+      },
+      "context": {
+        "pt": "[O1] A ação decorreu de informação de inteligência sobre um suposto ponto de acúmulo de aves para comércio ilegal. A fonte menciona possível abastecimento de mercados internos e externos, mas não identifica comprador, fronteira, país de destino nem deslocamento efetivamente realizado. Os dois mototáxis e as gaiolas vazias são indícios de logística local, não prova de rota internacional. A quantidade é aproximada e não deve ser convertida em 500 indivíduos exatos. Outra apreensão de 998 aves em Ucayali em outubro de 2026 consta do Observatório como caso independente; proximidade regional não comprova relação entre os envolvidos.",
+        "en": "[O1] The raid followed intelligence concerning a suspected holding facility for birds intended for illegal trade. The official report mentions possible domestic and international markets but identifies no buyer, border crossing, destination country or completed movement. The two three-wheel vehicles and empty cages indicate local logistical capacity, not a proven international route. Approximately 500 is an estimate, not an exact count. A separate October 2026 seizure of 998 birds in Ucayali appears in the Observatory; geographical proximity does not establish links between the suspects.",
+        "es": "[O1] La intervención respondió a información de inteligencia sobre un supuesto centro de acopio para comercio ilegal. El comunicado menciona posibles mercados nacionales e internacionales, pero no identifica comprador, paso fronterizo, país de destino ni traslado realizado. Los mototaxis y las jaulas vacías sugieren capacidad logística local, no una ruta internacional demostrada. Los aproximadamente 500 ejemplares constituyen una estimación. Otra incautación de 998 aves en Ucayali, registrada en octubre de 2026, es un caso independiente; la proximidad territorial no acredita vínculos entre responsables."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Publication date confirmed; exact intervention date not given. No geocoordinates until review."
+    },
+    {
+      "id": "2026-02-chincha-baja-six-captive-wildlife",
+      "country": "Peru",
+      "location": "Chincha Baja, Ica",
+      "publication_date": "2026-02-20",
+      "event_date": null,
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1357036-ica-serfor-decomisa-seis-especimenes-de-fauna-silvestre-en-operativo-inopinado-en-parque-recreacional-de-chincha",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 6,
+          "qualifier": "exact",
+          "unit": "live_wildlife",
+          "breakdown": "2 Psittacara mitratus; 1 Chelonoidis denticulatus; 1 Dinomys branickii; 1 Hydrochoerus hydrochaeris; 1 Pulsatrix perspicillata"
+        }
+      ],
+      "title": {
+        "pt": "SERFOR apreende seis animais mantidos sem documentação em parque de Chincha Baja",
+        "en": "SERFOR seizes six undocumented wild animals at a Chincha Baja park",
+        "es": "SERFOR decomisa seis animales silvestres sin documentación en parque de Chincha Baja"
+      },
+      "card": {
+        "pt": "Fiscalização do SERFOR e da Polícia encontrou seis animais vivos em parque recreativo de Chincha Baja: dois periquitões, um jabuti, uma pacarana, uma capivara e uma coruja. O responsável não apresentou documentos de origem legal; houve apreensão preventiva e encaminhamento para avaliação.",
+        "en": "SERFOR and police inspectors found six live wild animals at a recreation park in Chincha Baja: two parakeets, one tortoise, one pacarana, one capybara and one owl. The operator lacked legal-origin documentation, prompting preventive seizure and assessment.",
+        "es": "SERFOR y la Policía encontraron seis animales vivos en un parque recreacional de Chincha Baja: dos loros, una tortuga, una pacarana, un capibara y una lechuza. No se acreditó la procedencia legal; se efectuó el decomiso preventivo y la evaluación de los ejemplares."
+      },
+      "context": {
+        "pt": "[O1] O procedimento decorreu de inspeção administrativa ao estabelecimento, e não de interceptação de transporte. As espécies foram informadas nominalmente pelo SERFOR: *Psittacara mitratus*, *Chelonoidis denticulatus*, *Dinomys branickii*, *Hydrochoerus hydrochaeris* e *Pulsatrix perspicillata*. A falta de autorização motivou a apreensão preventiva e a avaliação de eventual processo sancionador; não há confirmação de condenação penal, origem geográfica dos animais ou rede comercial. O card deve usar 'posse irregular investigada', sem transformar automaticamente ausência de licença em tráfico internacional.",
+        "en": "[O1] This was an administrative inspection at a recreational venue, not an interception in transit. SERFOR identified *Psittacara mitratus*, *Chelonoidis denticulatus*, *Dinomys branickii*, *Hydrochoerus hydrochaeris* and *Pulsatrix perspicillata*. The absence of authorization led to preventive seizure and consideration of administrative proceedings; no criminal conviction, animals' geographical origin or organized trading network was established. Describe alleged unlawful possession rather than asserting international trafficking.",
+        "es": "[O1] La actuación fue una inspección administrativa en un centro recreacional, no una interceptación durante el transporte. SERFOR identificó *Psittacara mitratus*, *Chelonoidis denticulatus*, *Dinomys branickii*, *Hydrochoerus hydrochaeris* y *Pulsatrix perspicillata*. La falta de autorización motivó el decomiso preventivo y la evaluación de un procedimiento administrativo; no se acreditan condena penal, procedencia geográfica ni red organizada de tráfico. Corresponde describir la presunta tenencia irregular, sin afirmar tráfico internacional."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "No exact operational date in source; types and counts verified."
+    },
+    {
+      "id": "2026-03-juliaca-five-taxidermy-products",
+      "country": "Peru",
+      "location": "Feria dominical, Juliaca, Puno",
+      "publication_date": "2026-03-16",
+      "event_date": null,
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1366619-puno-serfor-recupera-especimenes-disecados-de-boa-caiman-e-iguana-en-operativo-inopinado-en-juliaca",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 5,
+          "qualifier": "exact",
+          "unit": "taxidermied_specimens",
+          "breakdown": "Boa constrictor / Melanosuchus niger / Iguana iguana; individual species counts not stated"
+        }
+      ],
+      "title": {
+        "pt": "SERFOR apreende cinco espécimes dissecados vendidos como remédios em Juliaca",
+        "en": "SERFOR seizes five dried wildlife specimens marketed as remedies in Juliaca",
+        "es": "SERFOR decomisa cinco especímenes disecados ofrecidos como remedios en Juliaca"
+      },
+      "card": {
+        "pt": "SERFOR e Polícia apreenderam cinco espécimes dissecados de boa, jacaré-negro e iguana-verde vendidos em recipientes com ervas e líquido na feira dominical de Juliaca. O vendedor foi interceptado e o SERFOR iniciou procedimento administrativo por comércio irregular.",
+        "en": "SERFOR and police seized five dried specimens of boa, black caiman and green iguana sold in herb-filled containers with liquid at Juliaca's Sunday market. The seller was stopped and SERFOR began administrative proceedings over alleged illegal trade.",
+        "es": "SERFOR y la Policía recuperaron cinco especímenes disecados de boa, caimán negro e iguana verde comercializados en recipientes con hierbas y líquido en la feria dominical de Juliaca. Se intervino al vendedor y se inició un procedimiento sancionador."
+      },
+      "context": {
+        "pt": "[O1] O comércio foi apresentado como uso medicinal: os espécimes, misturados a ervas e líquido, eram anunciados para fricções corporais. O órgão identificou três táxons (*Boa constrictor*, *Melanosuchus niger* e *Iguana iguana*), mas não divulgou quantas peças pertenciam a cada um. Logo, cinco corresponde a espécimes dissecados, não a cinco animais vivos; tampouco se deve atribuir números por espécie. O SERFOR registrou procedimento administrativo contra o interveniente, sem informar a origem da fauna nem uma cadeia logística comprovada.",
+        "en": "[O1] The specimens were marketed for purported medicinal rubbing preparations, stored with herbs and liquid. The authority named three taxa—*Boa constrictor*, *Melanosuchus niger* and *Iguana iguana*—but did not break down the five items by species. Five refers to preserved specimens, not live animals; per-species counts cannot be inferred. SERFOR reported administrative proceedings, but neither the wildlife's source nor a documented transport chain was disclosed.",
+        "es": "[O1] Los especímenes se ofrecían como preparados para fricciones supuestamente medicinales, mezclados con hierbas y líquido. La entidad identificó *Boa constrictor*, *Melanosuchus niger* e *Iguana iguana*, sin asignar a cada especie una cantidad del total de cinco. Son ejemplares disecados, no animales vivos; tampoco puede inferirse el número por taxón. SERFOR informó el inicio de actuaciones administrativas, pero no precisó procedencia ni cadena de transporte."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Publication date is not necessarily event date."
+    },
+    {
+      "id": "2026-03-04-calima-nine-wild-animals",
+      "country": "Colômbia",
+      "location": "zona rural, Calima El Darién, Valle del Cauca",
+      "publication_date": "2026-03-04",
+      "event_date": null,
+      "source_url": "https://www.policia.gov.co/noticia/operativo-en-defensa-fauna-silvestre-en-valle-del-cauca",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 9,
+          "qualifier": "exact",
+          "unit": "live_wildlife",
+          "breakdown": "1 ocelot; 3 howler monkeys; 3 blue macaws; 2 yellow-eared parrots"
+        }
+      ],
+      "title": {
+        "pt": "Polícia colombiana recupera nove animais silvestres em Calima El Darién",
+        "en": "Colombian police recover nine captive wild animals in Calima El Darién",
+        "es": "Policía colombiana recupera nueve animales silvestres en Calima El Darién"
+      },
+      "card": {
+        "pt": "Em uma propriedade rural de Calima El Darién, a Polícia recuperou uma jaguatirica, três bugios, três araras azuis e dois papagaios-de-orelha-amarela mantidos em cativeiro. Os nove animais foram entregues à autoridade ambiental para avaliação e reabilitação.",
+        "en": "Police recovered an ocelot, three howler monkeys, three blue macaws and two yellow-eared parrots held in captivity on rural property in Calima El Darién. All nine animals were transferred to the environmental authority for assessment and rehabilitation.",
+        "es": "La Policía recuperó un ocelote, tres monos aulladores, tres guacamayas azules y dos loros orejiamarillos mantenidos en cautiverio en una propiedad rural de Calima El Darién. Los nueve ejemplares fueron entregados a la autoridad ambiental para valoración y rehabilitación."
+      },
+      "context": {
+        "pt": "[O1] A fonte policial descreve um controle em imóvel rural, não uma apreensão em rodovia ou aeroporto. A composição do lote permite distinguir um felino, três primatas e cinco aves, somando nove animais vivos. A Polícia informou recuperação e transferência para cuidados veterinários, sem especificar o histórico de captura, compradores ou rota. Embora o nome popular 'papagaio-de-orelha-amarela' possa corresponder a espécie determinada, o registro deve conservar a identificação textual fornecida até confirmação taxonômica, especialmente para as araras denominadas apenas 'azuis'.",
+        "en": "[O1] The police account describes a rural-property inspection rather than an interception on a road or at an airport. Its breakdown is one felid, three primates and five birds, totalling nine live animals. The animals were transferred for veterinary care, but the original capture sites, buyers and transport route were not disclosed. Common names such as 'blue macaws' are insufficient for a confident species-level identification; retain the wording and avoid assigning an unsupported scientific name.",
+        "es": "[O1] El parte policial corresponde a una inspección de un predio rural, no a una interceptación en carretera ni aeropuerto. El conjunto comprende un felino, tres primates y cinco aves: nueve animales vivos. La Policía informó su entrega para atención veterinaria, pero no indicó lugar de captura, compradores ni ruta. Nombres comunes como 'guacamayas azules' no justifican identificación taxonómica específica; se debe conservar la denominación documentada sin inventar una especie."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Taxonomy requires further confirmation. Date of action not separately stated."
+    },
+    {
+      "id": "2026-03-02-san-carlos-seventeen-birds",
+      "country": "Colômbia",
+      "location": "bairro Guarumal, San Carlos",
+      "publication_date": "2026-03-02",
+      "event_date": null,
+      "source_url": "https://www.policia.gov.co/noticia/policia-recupera-fauna-silvestre-en-cautiverio-en-san-carlos",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 17,
+          "qualifier": "exact",
+          "unit": "live_birds"
+        }
+      ],
+      "title": {
+        "pt": "Polícia apreende 17 aves mantidas em imóvel de San Carlos",
+        "en": "Police seize 17 captive birds from a property in San Carlos",
+        "es": "Policía incauta 17 aves en cautiverio en inmueble de San Carlos"
+      },
+      "card": {
+        "pt": "Uma busca policial no bairro Guarumal, San Carlos, encontrou 17 aves silvestres em cativeiro e uma espingarda. Um homem foi detido sob suspeita de delitos envolvendo fauna e arma; as aves seguiram para avaliação ambiental.",
+        "en": "A police search of a property in Guarumal, San Carlos, found 17 captive wild birds and a shotgun. A man was detained in connection with suspected wildlife and firearms offences, and the birds were transferred for environmental assessment.",
+        "es": "Un allanamiento policial en el barrio Guarumal, San Carlos, halló 17 aves silvestres en cautiverio y una escopeta. Un hombre fue capturado por presuntos delitos relacionados con fauna y armas; las aves quedaron a disposición de la autoridad ambiental."
+      },
+      "context": {
+        "pt": "[O1] A polícia descreveu apreensão em imóvel e suspeita de comércio ilegal, mas não apresentou registros de transações ou destino. Entre os nomes populares estão sinsonte, congo, mochuelo e pico gordo, sem base suficiente para atribuir espécie científica a todos os exemplares. O suspeito foi posteriormente posto em liberdade pela autoridade judicial, o que não equivale a condenação ou absolvição. O total de 17 refere-se exclusivamente às aves; a arma de fogo é evidência separada, fora da contagem de fauna.",
+        "en": "[O1] Police described a property search and suspected illegal sales, but provided no transaction records or destination. The reported common names include sinsonte, congo, mochuelo and pico gordo; these do not reliably establish species-level identification for all birds. The suspect was subsequently released by judicial authorities, which should not be described as either a conviction or an acquittal. Seventeen counts birds only; the firearm is separate evidence.",
+        "es": "[O1] La Policía informó el allanamiento de un inmueble y una sospecha de venta ilegal, sin documentar compradores ni destinos. Los nombres comunes citados, como sinsonte, congo, mochuelo y pico gordo, no permiten identificar científicamente a todos los ejemplares. El capturado quedó posteriormente en libertad por decisión judicial, lo que no equivale a condena ni absolución. Los 17 corresponden solo a aves; el arma es una evidencia distinta."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Check municipality state before geocoding; official page labels San Carlos."
+    },
+    {
+      "id": "2026-03-04-monteria-five-captive-birds",
+      "country": "Colômbia",
+      "location": "Montería, Córdoba",
+      "publication_date": "2026-03-04",
+      "event_date": null,
+      "source_url": "https://www.policia.gov.co/noticia/incautadas-cinco-aves-silvestres-que-eran-mantenidas-en-cautiverio-en-monteria",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 5,
+          "qualifier": "exact",
+          "unit": "live_birds",
+          "breakdown": "3 canarios, 2 pericos"
+        }
+      ],
+      "title": {
+        "pt": "Cinco aves mantidas em cativeiro irregular são recuperadas em Montería",
+        "en": "Five unlawfully held birds recovered in Montería",
+        "es": "Recuperan cinco aves mantenidas irregularmente en cautiverio en Montería"
+      },
+      "card": {
+        "pt": "Fiscalização policial em Montería identificou três aves chamadas localmente de canários sem documentação de origem legal e recuperou outros dois periquitos. Cinco aves foram encaminhadas à autoridade ambiental CVS e foi aplicada medida administrativa.",
+        "en": "A police inspection in Montería found three birds locally called canaries without legal-origin documents and recovered two additional parakeets. Five birds were handed to the environmental authority CVS, and an administrative citation was issued.",
+        "es": "Un control policial en Montería halló tres aves llamadas canarios sin documentos de procedencia legal y recuperó otros dos pericos. Los cinco ejemplares fueron entregados a la autoridad ambiental CVS y se impuso una medida administrativa."
+      },
+      "context": {
+        "pt": "[O1] A manchete refere cinco aves, mas a narrativa apresenta dois momentos: três 'canários' encontrados na posse de um cidadão e outros dois 'periquitos' recuperados. Para evitar erro de quantificação, o total do evento é cinco aves, sem presumir que os cinco estavam com a mesma pessoa. Os nomes comuns não permitem afirmar espécies científicas. A fonte registra apreensão preventiva e ordem de comparecimento administrativa, sem indicar prova de venda, origem, comprador ou rota transfronteiriça.",
+        "en": "[O1] Although the headline refers to five birds, the report details two components: three birds called canaries in a person's possession and two additional parakeets recovered. Count five birds in total without asserting that the same individual held all five. Common names do not justify species identification. The source records preventive seizure and an administrative citation, not proven sales, origin, purchaser or a cross-border route.",
+        "es": "[O1] Aunque el titular señala cinco aves, la noticia describe tres canarios hallados en poder de un ciudadano y otros dos pericos recuperados. Deben contarse cinco aves sin afirmar que una sola persona tenía los cinco ejemplares. Los nombres comunes no bastan para identificar especies científicas. La fuente acredita incautación preventiva y comparendo administrativo, no compraventa probada, origen, comprador ni ruta transfronteriza."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Preserve two intervention components; no specific scientific name."
+    },
+    {
+      "id": "2026-03-26-cienaga-oro-207-live-hicoteas-10-dead-100-eggs",
+      "country": "Colômbia",
+      "location": "Berástegui, Ciénaga de Oro, Córdoba",
+      "publication_date": "2026-03-26",
+      "event_date": null,
+      "source_url": "https://oas.policia.gov.co/index.php/noticia/autoridades-ambientales-policiales-golpean-trafico-ilegal-fauna-silvestre-en-zona-rural",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "count": 207,
+          "qualifier": "exact",
+          "unit": "live_turtles"
+        },
+        {
+          "count": 10,
+          "qualifier": "exact",
+          "unit": "butchered_turtles"
+        },
+        {
+          "count": 100,
+          "qualifier": "exact",
+          "unit": "eggs"
+        }
+      ],
+      "title": {
+        "pt": "Polícia apreende 207 tartarugas vivas, dez abatidas e cem ovos em Córdoba",
+        "en": "Police seize 207 live turtles, ten butchered turtles and 100 eggs in Córdoba",
+        "es": "Policía incauta 207 hicoteas vivas, diez sacrificadas y cien huevos en Córdoba"
+      },
+      "card": {
+        "pt": "Busca policial no corregimento de Berástegui, Ciénaga de Oro, resultou na apreensão de 207 hicoteas vivas, dez exemplares abatidos e cem ovos. Duas pessoas foram detidas por suspeita de exploração ilícita de recursos naturais.",
+        "en": "A police search in Berástegui, Ciénaga de Oro, recovered 207 live hicotea turtles, ten butchered individuals and 100 eggs. Two people were arrested on suspicion of unlawful exploitation of natural resources.",
+        "es": "Un allanamiento en Berástegui, Ciénaga de Oro, permitió incautar 207 hicoteas vivas, diez individuos despostados y cien huevos. Dos personas fueron capturadas por presunto aprovechamiento ilícito de recursos naturales."
+      },
+      "context": {
+        "pt": "[O1] A intervenção ocorreu em um imóvel da zona rural, mediante mandado de busca, com apoio da autoridade ambiental CVS. O comunicado separa 207 répteis vivos, dez indivíduos abatidos e cem ovos; são três métricas distintas, sem conversão de ovos em animais e sem soma enganosa em '317 tartarugas'. O caso sugere extração voltada a uso/consumo e eventual comercialização local, mas a fonte não identifica compradores, transporte, origem precisa na natureza ou rota. As duas prisões correspondem à suspeita investigada, não a condenação.",
+        "en": "[O1] Police executed a search warrant at a rural property with environmental authority CVS. The official report separates 207 live reptiles, ten butchered individuals and 100 eggs; these are distinct measures, and the eggs must not be converted into animals or combined misleadingly as '317 turtles'. The evidence indicates unlawful exploitation, but buyers, movement, exact capture sites and routes were not established. Two arrests reflect a criminal investigation, not convictions.",
+        "es": "[O1] La Policía ejecutó un allanamiento en un predio rural con apoyo de la autoridad ambiental CVS. El parte distingue 207 reptiles vivos, diez individuos despostados y cien huevos: tres métricas separadas. No corresponde convertir los huevos en animales ni sumar todo como '317 tortugas'. Se investiga el aprovechamiento ilícito, pero no se identifican compradores, transporte, lugares de captura precisos ni rutas. Las dos capturas no constituyen condenas."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Do not combine animals with eggs; regional name hicotea not confirmed to species on official page."
+    }
+  ]
+}
