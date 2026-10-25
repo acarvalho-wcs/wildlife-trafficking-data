@@ -16,10 +16,10 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 500,
           "qualifier": "approximate",
           "unit": "live_birds",
-          "taxonomy": "psittacines, species not established"
+          "taxonomy": "psittacines, species not established",
+          "value": 500
         }
       ],
       "title": {
@@ -63,10 +63,10 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 6,
           "qualifier": "exact",
           "unit": "live_wildlife",
-          "breakdown": "2 Psittacara mitratus; 1 Chelonoidis denticulatus; 1 Dinomys branickii; 1 Hydrochoerus hydrochaeris; 1 Pulsatrix perspicillata"
+          "breakdown": "2 Psittacara mitratus; 1 Chelonoidis denticulatus; 1 Dinomys branickii; 1 Hydrochoerus hydrochaeris; 1 Pulsatrix perspicillata",
+          "value": 6
         }
       ],
       "title": {
@@ -110,10 +110,10 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 5,
           "qualifier": "exact",
           "unit": "taxidermied_specimens",
-          "breakdown": "Boa constrictor / Melanosuchus niger / Iguana iguana; individual species counts not stated"
+          "breakdown": "Boa constrictor / Melanosuchus niger / Iguana iguana; individual species counts not stated",
+          "value": 5
         }
       ],
       "title": {
@@ -145,10 +145,10 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 9,
           "qualifier": "exact",
           "unit": "live_wildlife",
-          "breakdown": "1 ocelot; 3 howler monkeys; 3 blue macaws; 2 yellow-eared parrots"
+          "breakdown": "1 ocelot; 3 howler monkeys; 3 blue macaws; 2 yellow-eared parrots",
+          "value": 9
         }
       ],
       "title": {
@@ -192,9 +192,9 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 17,
           "qualifier": "exact",
-          "unit": "live_birds"
+          "unit": "live_birds",
+          "value": 17
         }
       ],
       "title": {
@@ -226,10 +226,10 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 5,
           "qualifier": "exact",
           "unit": "live_birds",
-          "breakdown": "3 canarios, 2 pericos"
+          "breakdown": "3 canarios, 2 pericos",
+          "value": 5
         }
       ],
       "title": {
@@ -273,19 +273,19 @@
       "source_rank": "O1",
       "quantities": [
         {
-          "count": 207,
           "qualifier": "exact",
-          "unit": "live_turtles"
+          "unit": "live_turtles",
+          "value": 207
         },
         {
-          "count": 10,
           "qualifier": "exact",
-          "unit": "butchered_turtles"
+          "unit": "butchered_turtles",
+          "value": 10
         },
         {
-          "count": 100,
           "qualifier": "exact",
-          "unit": "eggs"
+          "unit": "eggs",
+          "value": 100
         }
       ],
       "title": {
