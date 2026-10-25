@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1213_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1214_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1213,
+  "count": 1214,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -92714,6 +92714,75 @@
       "case_context_status": "PT_EN_ES_COMPLETE",
       "audit_note": "NYSDEC primary-source candidate; publication 20 Oct, event 10 Oct, distinct case from Buffalo Oct 8 and other 2026 previous rounds; no invented seizures, routes or animal totals.",
       "occurred_at": "2026-10-10T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2025-07-23__taveta-four-pangolin-scales-undercover-operation",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-2026-10-14-24-intermediate-20261025",
+      "country": "Quênia",
+      "publication_date": "2026-10-21",
+      "event_date": "2025-07-23",
+      "event_date_precision": "day",
+      "coordinates": {
+        "lat": -3.395,
+        "lon": 37.682
+      },
+      "coordinate_precision": "town_generalized",
+      "location_label_pt": "Taveta, condado de Taita-Taveta, Quênia",
+      "location_label_en": "Taveta, Taita-Taveta County, Kenya",
+      "location_label_es": "Taveta, condado de Taita-Taveta, Kenia",
+      "geographic_note_pt": "Referência urbana generalizada de Taveta; não é a localização exata do estabelecimento citado.",
+      "geographic_note_en": "Generalized Taveta town reference, not the specific venue.",
+      "geographic_note_es": "Referencia urbana de Taveta, no la dirección exacta del establecimiento.",
+      "source_label": "The Star Kenya, 21/10/2026, com relato atribuído ao Office of the Director of Public Prosecutions (ODPP)",
+      "source_url": "https://sports.thestar.ke/news/2026-10-21-man-jailed-7-years-over-pangolin-scales-in-taveta",
+      "source_reconciliation_status": "SOURCE_URL_RECONCILED_SECONDARY_ATTRIBUTED_OFFICIAL",
+      "title_pt": "Operação de 2025 em Taveta com quatro escamas de pangolim resulta em condenação divulgada em 2026",
+      "title_en": "2025 Taveta undercover pangolin-scale case leads to conviction reported in 2026",
+      "title_es": "Operación de 2025 en Taveta con cuatro escamas de pangolín deriva en condena divulgada en 2026",
+      "card_text_pt": "Reportagem publicada em 21/10/2026 relatou condenação a sete anos de prisão após investigação do Kenya Wildlife Service em 23/07/2025. Um suspeito foi encontrado oferecendo quatro escamas de pangolim em Taveta; não se trata de nova apreensão em 2026.",
+      "card_text_en": "A 21 October 2026 report describes a seven-year sentence following a Kenya Wildlife Service undercover operation on 23 July 2025. A suspect offered four pangolin scales in Taveta; this is not a new 2026 seizure.",
+      "card_text_es": "Una noticia del 21/10/2026 informa de una pena de siete años tras una operación encubierta del Kenya Wildlife Service del 23/07/2025. Un sospechoso ofreció cuatro escamas de pangolín en Taveta; no es un decomiso nuevo de 2026.",
+      "context_pt": "[N1/O-attrib.] The Star, citando declaração da promotoria queniana ODPP, informou em 21/10/2026 que um tribunal condenou Musa Ngondi a sete anos por comercialização sem autorização de troféus de fauna. A ocorrência original se deu em 23/07/2025, no âmbito de uma operação do Kenya Wildlife Service em Taveta após denúncia de oferta de escamas. O suspeito apresentou quatro escamas a um agente encoberto. Valor atribuído aos produtos: KSh 300.000. As reportagens reproduzem o peso de '0,096 gramas', desproporcional para quatro escamas; unidade e massa ficam pendentes de conferência no registro original da ODPP. Não inferir quantidade de pangolins, local de captura ou rota.",
+      "context_en": "[N1/official-attributed] On 21 October 2026 The Star reported, citing Kenya's ODPP, a seven-year sentence for unlawful dealing in wildlife trophies. The underlying Kenya Wildlife Service undercover operation took place in Taveta on 23 July 2025 after a tip about pangolin scales offered for sale. The suspect displayed four scales to an undercover officer. Reported value was KSh300,000. Local reports repeat a weight of '0.096 grams', implausibly low for four scales; weight and unit await original ODPP clarification and are not used in totals. Do not infer pangolin individuals, capture origins or routes.",
+      "context_es": "[N1/O atrib.] The Star informó el 21/10/2026, citando a la fiscalía ODPP, una sentencia de siete años por comercio no autorizado de productos de fauna. La operación original del Kenya Wildlife Service ocurrió en Taveta el 23/07/2025, tras información sobre escamas de pangolín ofrecidas a la venta. El sospechoso mostró cuatro escamas a un agente encubierto. Valor reportado: 300.000 KSh. La prensa reprodujo un peso de '0,096 gramos' poco plausible para cuatro escamas: peso y unidad requieren verificación con ODPP; no se convierten en recuentos de animales. Sin origen ni ruta demostrados.",
+      "references_text_pt": "[N1/O-attrib.] The Star Kenya, 21/10/2026 — https://sports.thestar.ke/news/2026-10-21-man-jailed-7-years-over-pangolin-scales-in-taveta\n[N2/O-attrib.] Citizen Digital, 21/10/2026 — https://test.citizen.digital/article/taita-taveta-man-jailed-7-years-for-dealing-in-pangolin-scales-worth-ksh300k-n392472",
+      "references_text_en": "[N1/official-attributed] The Star Kenya, 21 October 2026 — https://sports.thestar.ke/news/2026-10-21-man-jailed-7-years-over-pangolin-scales-in-taveta\n[N2/official-attributed] Citizen Digital, 21 October 2026 — https://test.citizen.digital/article/taita-taveta-man-jailed-7-years-for-dealing-in-pangolin-scales-worth-ksh300k-n392472",
+      "references_text_es": "[N1/O atrib.] The Star Kenya, 21/10/2026 — https://sports.thestar.ke/news/2026-10-21-man-jailed-7-years-over-pangolin-scales-in-taveta\n[N2/O atrib.] Citizen Digital, 21/10/2026 — https://test.citizen.digital/article/taita-taveta-man-jailed-7-years-for-dealing-in-pangolin-scales-worth-ksh300k-n392472",
+      "fauna_label_pt": "4 escamas de pangolim (partes/derivados; número de animais desconhecido)",
+      "fauna_label_en": "4 pangolin scales (wildlife parts; animal count unknown)",
+      "fauna_label_es": "4 escamas de pangolín (partes; número de animales desconocido)",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "taxon_text": "Pholidota spp. (espécie não determinada)",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "modal_label_en": "Not reported",
+      "modal_label_es": "No informado",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 4,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "items",
+      "quantity_by_group": {
+        "Mamíferos": 4
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Quatro escamas, quatro itens de fauna; NÃO equivalem a quatro pangolins. Peso de 0,096 g citado pela imprensa foi retido como pendência e não utilizado como dado numérico.",
+      "quantity_note_en": "Four scales are four wildlife items, NOT four animals. Media-reported 0.096 g is disputed; no weight converted into individual counts.",
+      "quantity_note_es": "Cuatro escamas son cuatro piezas, NO cuatro animales. Peso de 0,096 g citado por la prensa queda pendiente, sin conversión.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Taveta foi o local de oferta/apreensão. Captura e destino dos produtos não documentados; não criar rota.",
+      "route_audit_note_en": "Taveta is the operation site, not evidence of origin or destination.",
+      "route_audit_note_es": "Taveta es lugar de intervención, no prueba de origen o destino.",
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "translation_status": "EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "audit_note": "2026 publication used as discovery date, 2025 original seizure date; prosecute/conviction 2026 is not new seizure. Official prosecutor statement only secondhand in accessible press. Weight unit pending.",
+      "occurred_at": "2025-07-23T00:00:00Z",
       "occurred_at_precision": "day"
     }
   ]
