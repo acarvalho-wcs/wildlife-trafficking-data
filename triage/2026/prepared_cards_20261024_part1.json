@@ -39,7 +39,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "Publication date confirmed; exact intervention date not given. No geocoordinates until review."
+      "notes": "Publication date confirmed; exact intervention date not given. No geocoordinates until review.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1016/j.gecco.2022.e02161",
+          "url": "https://doi.org/10.1016/j.gecco.2022.e02161"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Estudo de mercados urbanos peruanos identificou 193 espécies comercializadas vivas em 16 departamentos entre 2007 e 2012; esse padrão oferece contexto histórico para a existência de centros de acúmulo, mas não demonstra que as aves deste imóvel abasteceriam mercados específicos.",
+        "en": "A survey of Peruvian urban markets recorded 193 live wildlife species traded across 16 departments in 2007–2012. This is historical context for holding facilities, not evidence that the birds at this property supplied any particular market.",
+        "es": "Un estudio de mercados urbanos peruanos documentó 193 especies de fauna viva comercializadas en 16 departamentos entre 2007 y 2012. Es un antecedente del comercio interno, no prueba de que las aves del inmueble abastecieran mercados específicos."
+      }
     },
     {
       "id": "2026-02-chincha-baja-six-captive-wildlife",
@@ -74,7 +86,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "No exact operational date in source; types and counts verified."
+      "notes": "No exact operational date in source; types and counts verified.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1016/j.gecco.2022.e02161",
+          "url": "https://doi.org/10.1016/j.gecco.2022.e02161"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Pesquisa histórica em mercados peruanos documentou comércio doméstico ilegal de fauna viva e mostrou diversidade taxonômica elevada; a evidência é geral e não estabelece que os seis animais deste parque tenham passado por mercados urbanos.",
+        "en": "Historical research in Peruvian markets documented a diverse domestic illegal live-wildlife trade. That broad finding does not establish that the six individuals at this park came through urban markets.",
+        "es": "Investigaciones históricas en mercados peruanos documentaron un comercio ilegal interno de fauna viva muy diverso. Ese contexto general no demuestra que los seis ejemplares del parque procedieran de mercados urbanos."
+      }
     },
     {
       "id": "2026-03-juliaca-five-taxidermy-products",
@@ -144,7 +168,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "Taxonomy requires further confirmation. Date of action not separately stated."
+      "notes": "Taxonomy requires further confirmation. Date of action not separately stated.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1016/j.biocon.2025.111639",
+          "url": "https://doi.org/10.1016/j.biocon.2025.111639"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Pesquisa com registros colombianos de 2015–2021 identificou 643 eventos envolvendo 708 felinos pequenos e elevada participação de jaguatiricas. A recorrência histórica situa o felino desta apreensão num problema documentado, mas não prova elo com outros casos nem origem de captura.",
+        "en": "A study of Colombian records from 2015–2021 identified 643 enforcement and surrender events involving 708 small felids, with ocelots prominent. This contextualizes the captive ocelot but does not establish a link to those earlier incidents or a source locality.",
+        "es": "Una investigación de registros colombianos de 2015–2021 identificó 643 eventos con 708 pequeños felinos y una presencia destacada de ocelotes. Es contexto histórico para el felino intervenido, no evidencia de vínculo con esos casos ni de lugar de extracción."
+      }
     },
     {
       "id": "2026-03-02-san-carlos-seventeen-birds",
@@ -213,7 +249,19 @@
       },
       "route_status": "NO_DOCUMENTED_SEGMENT",
       "qa_status": "DRAFT_SOURCE_VERIFIED",
-      "notes": "Preserve two intervention components; no specific scientific name."
+      "notes": "Preserve two intervention components; no specific scientific name.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.59517/oc.e373",
+          "url": "https://doi.org/10.59517/oc.e373"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Pesquisa colombiana sobre 8.877 psitacídeos ingressados em centros de recepção (2005–2014) encontrou mortalidade e desafios de reabilitação relevantes. Esse antecedente esclarece por que a entrega à CVS é parte importante da resposta, sem permitir prever a sobrevivência destas cinco aves ou vincular seus proprietários a redes.",
+        "en": "A Colombian study of 8,877 psittacines admitted to wildlife centres in 2005–2014 documented mortality and rehabilitation challenges. It contextualizes handover to CVS but cannot predict outcomes for these five birds or link their holders to trafficking networks.",
+        "es": "Un estudio colombiano de 8.877 psitácidos ingresados en centros entre 2005 y 2014 documentó mortalidad y dificultades de rehabilitación. Explica la importancia de la entrega a la CVS sin permitir predecir el destino de estas cinco aves ni vincular a sus tenedores con redes."
+      }
     },
     {
       "id": "2026-03-26-cienaga-oro-207-live-hicoteas-10-dead-100-eggs",
