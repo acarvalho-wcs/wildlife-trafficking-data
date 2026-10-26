@@ -1,0 +1,103 @@
+{
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-2026-10-26-deduplicated-andes-3",
+  "event_date": null,
+  "event_date_precision": "unknown",
+  "occurred_at": null,
+  "occurred_at_precision": "unknown",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "quantity_unassigned": 0,
+  "modal_primary": "Não informado",
+  "id": "2026-02-undated__calleria-km13-approx500-captive-wild-birds",
+  "country": "Peru",
+  "publication_date": "2026-02-10",
+  "coordinates": {
+    "lat": -8.38333,
+    "lon": -74.55
+  },
+  "coordinate_precision": "district_urban_reference_only",
+  "location_label_pt": "Km 13 da rodovia Federico Basadre, distrito de Callería, Ucayali, Peru (ponto aproximado)",
+  "location_label_en": "Federico Basadre highway km 13, Callería district, Ucayali, Peru (generalized marker)",
+  "location_label_es": "Km 13 de la carretera Federico Basadre, distrito de Callería, Ucayali, Perú (marcador generalizado)",
+  "geographic_note_pt": "Marcador geral de Callería/Pucallpa, com referência à localização do distrito. Não foi possível confirmar a posição exata do km 13 e do imóvel; o ponto não representa o local do achado.",
+  "geographic_note_en": "General Callería/Pucallpa location. Neither the km 13 premises nor an exact intervention coordinate was verified; this is not the seizure site.",
+  "geographic_note_es": "Referencia general de Callería/Pucallpa. No se verificó la posición exacta del km 13 ni del predio intervenido; el punto no equivale al sitio de rescate.",
+  "source_label": "Ministerio Público / Segunda FEMA de Ucayali (fonte oficial)",
+  "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1350971-fema-consigue-el-rescate-de-500-aves-silvestres-que-iban-a-ser-comercializadas-ilegalmente-en-ucayali",
+  "title_pt": "FEMA resgata aproximadamente 500 aves mantidas em imóvel de Callería, Ucayali",
+  "title_en": "Peruvian environmental prosecutors recover approximately 500 captive wild birds in Ucayali",
+  "title_es": "FEMA rescata aproximadamente 500 aves silvestres en predio de Callería, Ucayali",
+  "card_text_pt": "A FEMA e a Polícia do Peru encontraram aproximadamente 500 aves, incluindo pihuichos, em três gaiolas no km 13 da rodovia Federico Basadre. A suspeita é de acúmulo para comércio ilegal, mas destinos não foram documentados. Publicação oficial em 10/02.",
+  "card_text_en": "Peruvian environmental prosecutors and police found about 500 wild birds, including parakeets, in three cages at km 13 of the Federico Basadre road. Authorities suspected illegal trade stockpiling; no actual destination was established. Published 10 February.",
+  "card_text_es": "La FEMA y la Policía hallaron cerca de 500 aves silvestres, incluidos pihuichos, en tres jaulas en el km 13 de la carretera Federico Basadre. Se investigó posible acopio para comercio ilegal, sin destino acreditado. Comunicado del 10/02.",
+  "fauna_label_pt": "Aproximadamente 500 aves silvestres, incluindo pihuichos-de-asa-branca e de-asa-amarela",
+  "fauna_label_en": "Approximately 500 wild birds, including white-winged and yellow-winged parakeets (reported names)",
+  "fauna_label_es": "Aproximadamente 500 aves silvestres, incluidos pihuichos de ala blanca y amarilla",
+  "taxon_text": "Psittacidae spp. (pihuichos de ala blanca y amarilla citados; espécies não confirmadas individualmente)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_label_pt": "Cativeiro/acúmulo; transporte não demonstrado",
+  "modal_label_en": "Captive stockpiling; movement not demonstrated",
+  "modal_label_es": "Acopio en cautiverio; traslado no acreditado",
+  "quantity_count": 500,
+  "quantity_qualifier": "approximate",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 500
+  },
+  "quantity_note_pt": "A fonte oficial diz 'aproximadamente 500' aves; 500 é aproximação, não contagem exata; veículos e gaiolas não entram no número de animais.",
+  "quantity_note_en": "Official source states approximately 500 birds; this is not an exact census. Vehicles and cages are excluded from animal totals.",
+  "quantity_note_es": "La fuente oficial declara aproximadamente 500 aves, no un conteo exacto. Vehículos y jaulas no se suman al total.",
+  "context_pt": "[O1] Em comunicado de 10/02/2026, a Segunda Fiscalía Especializada en Materia Ambiental (FEMA) de Ucayali informa que, após alerta de inteligência, fiscais e policiais localizaram aproximadamente 500 aves silvestres em três gaiolas metálicas num imóvel do km 13 da rodovia Federico Basadre, distrito de Callería, Coronel Portillo. Foram mencionados pihuichos-de-asa-branca e de-asa-amarela, 12 gaiolas vazias e dois veículos trimóveis suspeitos de uso no transporte. A Fiscalía suspeita de centro de acúmulo para comércio interno e externo; não documenta compradores, captura, rota percorrida nem destino específico. Os animais foram encaminhados à autoridade regional de fauna para avaliação e custódia. A data do fato não é explicitada: 10/02 é a data de publicação.\n\n[S1] Uma revisão sobre tráfico de psitacídeos descreve etapas de captura, intermediários e demanda doméstica, úteis para separar armazenamento de distribuição efetiva. [S2] Estudo de monitoramento de mercados em Belén e Modelo (Iquitos, Peru) identifica diversidade de fauna comercializada, sem demonstrar origem ou destino das aves de Callería.\n\n[I1] Documento WCS (2020) sobre zonas de tríplice fronteira identifica modalidades de tráfico na Amazônia, mas não comprova saída do Peru ou passagem pela fronteira neste caso. Esta ocorrência de fevereiro (km 13; ~500 aves) é distinta do registro de outubro em Ucayali (km 20; 998 aves). Nenhuma rota inferida.",
+  "context_en": "[O1] On 10 February 2026, Peru's Second Environmental Prosecutor's Office (FEMA) in Ucayali reported an intelligence-led inspection of a property at km 13 of the Federico Basadre road in Callería, Coronel Portillo. Officials found approximately 500 captive wild birds, including locally named white-winged and yellow-winged parakeets, in three metal cages, together with 12 empty cages and two three-wheeled vehicles allegedly linked to transportation. Prosecutors suspected a storage site for domestic and foreign illegal trade, but reported no confirmed capture sites, customers, completed journeys or specific destination. The birds were placed with the regional wildlife authority. The occurrence date was not given; 10 February is the release date.\n\n[S1] A scientific review of parrot trafficking provides context about poaching, intermediaries and domestic demand, relevant to separating stockpiling from actual shipment. [S2] A market monitoring study at Belén and Modelo in Iquitos illustrates wildlife-trade diversity in Peru, but does not establish any relation to this Callería stock.\n\n[I1] WCS (2020) describes illegal-trade patterns in Amazon border regions; the report cannot prove that these birds crossed or were intended to cross a specific border. The February km 13 incident (~500 birds) is distinct from the October km 20 incident (998 birds). No route is mapped.",
+  "context_es": "[O1] El comunicado del 10/02/2026 de la Segunda FEMA de Ucayali relata que, después de una alerta de inteligencia, fiscales y policías encontraron alrededor de 500 aves silvestres en tres jaulas metálicas dentro de un inmueble ubicado en el km 13 de la carretera Federico Basadre, distrito de Callería, Coronel Portillo. La fuente menciona pihuichos de ala blanca y amarilla, 12 jaulas vacías y dos vehículos trimóviles que presuntamente servían para trasladar aves. La Fiscalía investigó un posible centro de acopio para venta interna y externa, sin identificar sitios de captura, compradores, viajes realizados ni países de destino. Las aves fueron derivadas a la autoridad regional para su atención. No se informó fecha precisa del hecho; el 10/02 es la fecha del comunicado.\n\n[S1] Una revisión científica sobre tráfico de loros proporciona contexto sobre captura, intermediación y demanda doméstica, sin implicar a los responsables de este caso. [S2] El monitoreo de mercados Belén y Modelo en Iquitos documentó diversidad del comercio de fauna, no que estas aves hayan transitado por esos mercados.\n\n[I1] El informe WCS (2020) sobre fronteras amazónicas describe modalidades regionales, pero no demuestra una ruta fronteriza para esta incautación. El evento de febrero (km 13, ~500 aves) es distinto del caso de octubre (km 20, 998 aves). No se cartografía ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "Ministerio Público — Fiscalía de la Nación (Peru), 10/02/2026, notícia oficial FEMA Ucayali",
+      "url": "https://www.gob.pe/institucion/mpfn/noticias/1350971-fema-consigue-el-rescate-de-500-aves-silvestres-que-iban-a-ser-comercializadas-ilegalmente-en-ucayali"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "The illegal parrot trade: a literature review (2012), DOI 10.1080/17440572.2012.700180",
+      "url": "https://doi.org/10.1080/17440572.2012.700180",
+      "doi": "10.1080/17440572.2012.700180"
+    },
+    {
+      "id": "S2",
+      "type": "scientific",
+      "label": "Wildlife trade at Belén and Modelo market, Peru (2024), DOI 10.3389/fcosc.2024.1464332",
+      "url": "https://doi.org/10.3389/fcosc.2024.1464332",
+      "doi": "10.3389/fcosc.2024.1464332"
+    },
+    {
+      "id": "I1",
+      "type": "institutional",
+      "label": "WCS (2020), tráfico de fauna nas zonas de tríplice fronteira da Amazônia brasileira",
+      "url": "https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view"
+    },
+    {
+      "id": "G1",
+      "type": "geospatial_reference",
+      "label": "Universidad Nacional de Ucayali, localização geral do distrito Callería, sem referência ao imóvel no km 13",
+      "url": "https://apirepositorio.unu.edu.pe/server/api/core/bitstreams/d1038413-0555-4ee2-9dbb-e80277ae4382/content"
+    }
+  ],
+  "route_audit_note_pt": "A intenção genérica de comércio externo não identifica trecho ou destino. Veículos no imóvel não comprovam deslocamento. Não criar rota.",
+  "route_audit_note_en": "Suspected foreign-market trade and vehicles do not establish origin, destination or completed trip; no route.",
+  "route_audit_note_es": "Sospecha de comercialización externa y vehículos no acreditan origen, destino ni trayecto; no dibujar ruta.",
+  "audit_note": "TG-H 26/10/2026; fonte governamental de 10/02; 500 aproximado; distinto da ocorrência canônica de 998 aves em outubro.",
+  "references_text_pt": "[O1] Ministerio Público — Fiscalía de la Nación (Peru), 10/02/2026, notícia oficial FEMA Ucayali — https://www.gob.pe/institucion/mpfn/noticias/1350971-fema-consigue-el-rescate-de-500-aves-silvestres-que-iban-a-ser-comercializadas-ilegalmente-en-ucayali\n[S1] The illegal parrot trade: a literature review (2012), DOI 10.1080/17440572.2012.700180 — https://doi.org/10.1080/17440572.2012.700180\n[S2] Wildlife trade at Belén and Modelo market, Peru (2024), DOI 10.3389/fcosc.2024.1464332 — https://doi.org/10.3389/fcosc.2024.1464332\n[I1] WCS (2020), tráfico de fauna nas zonas de tríplice fronteira da Amazônia brasileira — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view\n[G1] Universidad Nacional de Ucayali, localização geral do distrito Callería, sem referência ao imóvel no km 13 — https://apirepositorio.unu.edu.pe/server/api/core/bitstreams/d1038413-0555-4ee2-9dbb-e80277ae4382/content",
+  "references_text_en": "[O1] Ministerio Público — Fiscalía de la Nación (Peru), 10/02/2026, notícia oficial FEMA Ucayali — https://www.gob.pe/institucion/mpfn/noticias/1350971-fema-consigue-el-rescate-de-500-aves-silvestres-que-iban-a-ser-comercializadas-ilegalmente-en-ucayali\n[S1] The illegal parrot trade: a literature review (2012), DOI 10.1080/17440572.2012.700180 — https://doi.org/10.1080/17440572.2012.700180\n[S2] Wildlife trade at Belén and Modelo market, Peru (2024), DOI 10.3389/fcosc.2024.1464332 — https://doi.org/10.3389/fcosc.2024.1464332\n[I1] WCS (2020), tráfico de fauna nas zonas de tríplice fronteira da Amazônia brasileira — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view\n[G1] Universidad Nacional de Ucayali, localização geral do distrito Callería, sem referência ao imóvel no km 13 — https://apirepositorio.unu.edu.pe/server/api/core/bitstreams/d1038413-0555-4ee2-9dbb-e80277ae4382/content",
+  "references_text_es": "[O1] Ministerio Público — Fiscalía de la Nación (Peru), 10/02/2026, notícia oficial FEMA Ucayali — https://www.gob.pe/institucion/mpfn/noticias/1350971-fema-consigue-el-rescate-de-500-aves-silvestres-que-iban-a-ser-comercializadas-ilegalmente-en-ucayali\n[S1] The illegal parrot trade: a literature review (2012), DOI 10.1080/17440572.2012.700180 — https://doi.org/10.1080/17440572.2012.700180\n[S2] Wildlife trade at Belén and Modelo market, Peru (2024), DOI 10.3389/fcosc.2024.1464332 — https://doi.org/10.3389/fcosc.2024.1464332\n[I1] WCS (2020), tráfico de fauna nas zonas de tríplice fronteira da Amazônia brasileira — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view\n[G1] Universidad Nacional de Ucayali, localização geral do distrito Callería, sem referência ao imóvel no km 13 — https://apirepositorio.unu.edu.pe/server/api/core/bitstreams/d1038413-0555-4ee2-9dbb-e80277ae4382/content"
+}
