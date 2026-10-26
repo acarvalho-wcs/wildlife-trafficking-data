@@ -1,0 +1,102 @@
+{
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-2026-10-26-deduplicated-andes-3",
+  "event_date": null,
+  "event_date_precision": "unknown",
+  "occurred_at": null,
+  "occurred_at_precision": "unknown",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "quantity_unassigned": 0,
+  "modal_primary": "Não informado",
+  "id": "2026-10-undated__calima-el-darien-seven-captive-psittacines",
+  "country": "Colômbia",
+  "publication_date": "2026-10-18",
+  "coordinates": {
+    "lat": 3.93135,
+    "lon": -76.48481
+  },
+  "coordinate_precision": "town_center_generalized",
+  "location_label_pt": "Zona urbana de Calima-El Darién, Valle del Cauca, Colômbia",
+  "location_label_en": "Urban Calima-El Darién, Valle del Cauca, Colombia",
+  "location_label_es": "Zona urbana de Calima-El Darién, Valle del Cauca, Colombia",
+  "geographic_note_pt": "Centro urbano aproximado de Darién; não corresponde ao endereço exato do cativeiro ou procedimento.",
+  "geographic_note_en": "Approximate Darién town center, not the precise captive-holding or enforcement address.",
+  "geographic_note_es": "Centro aproximado de Darién, no la dirección exacta del cautiverio ni del procedimiento.",
+  "source_label": "El Espectador / Departamento de Policía Valle e CVC",
+  "source_url": "https://www.elespectador.com/ambiente/incautan-seis-guacamayas-y-una-lora-amazonica-que-estaban-en-cautiverio-en-valle-del-cauca/",
+  "title_pt": "Autoridades recuperam sete psitacídeos mantidos em cativeiro em Calima-El Darién",
+  "title_en": "Seven captive macaws and a parrot recovered in Calima-El Darién, Colombia",
+  "title_es": "Autoridades incautan seis guacamayas y una lora amazónica en Calima-El Darién",
+  "card_text_pt": "Polícia Ambiental e CVC encontraram quatro araras-vermelhas, duas araras-canindé e uma lora amazônica em cativeiro urbano. Notícia de 18/10; dia exato da intervenção não divulgado. Comercialização e rota não comprovadas.",
+  "card_text_en": "Environmental police and the CVC found four scarlet macaws, two blue-and-yellow macaws and one Amazon parrot kept in urban captivity. Reported 18 October; the intervention date, sale and route were not established.",
+  "card_text_es": "Policía Ambiental y CVC encontraron cuatro guacamayas bandera, dos azulamarillas y una lora amazónica en cautiverio urbano. Publicado el 18/10; no consta la fecha exacta ni comercio o ruta demostrados.",
+  "fauna_label_pt": "Sete aves: 4 araras-vermelhas, 2 araras-canindé e 1 papagaio amazônico",
+  "fauna_label_en": "Seven birds: four scarlet macaws, two blue-and-yellow macaws and one Amazon parrot",
+  "fauna_label_es": "Siete aves: cuatro guacamayas bandera, dos azulamarillas y una lora amazónica",
+  "taxon_text": "*Ara macao* (4, identificação noticiada); *Ara ararauna* (2, identificação noticiada); Psittacidae sp. (1 lora amazónica, sem espécie confirmada)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_label_pt": "Cativeiro; transporte não informado",
+  "modal_label_en": "Captive possession; transport not reported",
+  "modal_label_es": "Tenencia en cautiverio; transporte no informado",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_note_pt": "Sete aves relatadas em um procedimento: 4 + 2 + 1; sem inferir outros indivíduos.",
+  "quantity_note_en": "Seven birds in one reported intervention: 4 + 2 + 1; no additional animals inferred.",
+  "quantity_note_es": "Siete aves en un procedimiento informado: 4 + 2 + 1; sin inferir otros ejemplares.",
+  "context_pt": "[O1] Em reportagem publicada em 18/10/2026, o Departamento de Polícia Valle e a CVC relatam a localização de quatro araras-vermelhas (*Ara macao*), duas araras-canindé (*Ara ararauna*) e uma lora amazônica mantidas em cativeiro na área urbana de Calima-El Darién. A notícia não estabelece a data exata do procedimento, origem dos animais, comprador, vendedor ou transporte entre localidades. Os valores atribuídos aos animais na declaração policial são estimativas e não comprovam venda.\n\n[S1] Tella e colaboradores examinaram captura e manutenção de psitacídeos neotropicais, incluindo demanda doméstica por animais de estimação. O estudo ajuda a evitar presumir que todo cativeiro decorre de uma cadeia transnacional, mas não determina a proveniência destas sete aves.\n\n[I1] O relatório WCS (2023) analisa apreensões fronteiriças entre 2010 e 2018 e seus vieses de detecção e registro. Não há evidência de conexão deste fato com aqueles fluxos ou com fronteiras.\n\n[N1] Uma investigação sobre papagaios como animais de estimação no Brasil oferece analogia de mercado, não prova vínculo operacional com a ocorrência colombiana. Nenhuma rota é representada.",
+  "context_en": "[O1] Reporting published on 18 October 2026 attributes to Valle Police and the CVC the recovery of four scarlet macaws (*Ara macao*), two blue-and-yellow macaws (*Ara ararauna*) and one Amazon parrot held in urban Calima-El Darién. The precise enforcement date, capture origin, seller, buyer and transport itinerary were not disclosed. A police valuation is not evidence of an actual sale.\n\n[S1] Tella and coauthors investigated capture and domestic possession of Neotropical parrots. Their work shows why captive ownership should not automatically be interpreted as transnational trafficking, but does not establish where these seven birds originated.\n\n[I1] WCS (2023) examined 2010–2018 border-area seizures and reporting biases. It provides historical regional background only; no linkage to the current intervention is established.\n\n[N1] Reporting on the illegal parrot-to-pet market in Brazil offers a comparative mechanism, not an operational link. No route is mapped.",
+  "context_es": "[O1] Según la publicación del 18/10/2026, la Policía Valle y la CVC localizaron cuatro guacamayas bandera (*Ara macao*), dos azulamarillas (*Ara ararauna*) y una lora amazónica mantenidas en cautiverio en el casco urbano de Calima-El Darién. No se informó el día exacto del procedimiento, la procedencia de las aves, vendedor, comprador ni itinerario. La valoración policial no acredita una compraventa.\n\n[S1] Tella y colaboradores estudiaron la extracción y tenencia doméstica de psitácidos neotropicales; el estudio ayuda a distinguir cautiverio de tráfico transnacional demostrado, pero no determina el origen de estos siete animales.\n\n[I1] El estudio WCS (2023) de decomisos fronterizos de 2010–2018 proporciona contexto histórico y advierte sesgos de registro; no relaciona el incidente con corredores fronterizos.\n\n[N1] Un reportaje sobre papagayos comercializados como mascotas en Brasil ofrece una analogía, no un vínculo operativo. No se cartografía ruta.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "El Espectador / Policía Valle y CVC, 18/10/2026",
+      "url": "https://www.elespectador.com/ambiente/incautan-seis-guacamayas-y-una-lora-amazonica-que-estaban-en-cautiverio-en-valle-del-cauca/"
+    },
+    {
+      "id": "S1",
+      "type": "scientific",
+      "label": "Tella et al., The hidden dimension of poaching (2025); comparação sobre demanda por psitacídeos neotropicais",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+      "doi": "10.1016/j.biocon.2025.111029"
+    },
+    {
+      "id": "I1",
+      "type": "institutional",
+      "label": "WCS (2023), análisis regional de confiscaciones fronterizas 2010–2018",
+      "url": "https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view"
+    },
+    {
+      "id": "N1",
+      "type": "news",
+      "label": "Veja (2020), comércio ilegal de papagaios no Brasil; analogia temática, não conexão com o evento",
+      "url": "https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/"
+    },
+    {
+      "id": "G1",
+      "type": "geospatial_reference",
+      "label": "Mapcarta / OSM, núcleo urbano de Darién",
+      "url": "https://mapcarta.com/es/19716224"
+    }
+  ],
+  "route_audit_note_pt": "Cativeiro documentado sem origem/destino do deslocamento; sem rota em routes.json.",
+  "route_audit_note_en": "Captive possession documented but no wildlife movement endpoints; no route.",
+  "route_audit_note_es": "Tenencia documentada sin extremos de desplazamiento; no se representa ruta.",
+  "audit_note": "TG-H 26/10/2026; deduplicado frente ao armazenamento individual de 1.215 casos em main; 7 aves; publicação não confundida com data da operação.",
+  "references_text_pt": "[O1] El Espectador / Policía Valle y CVC, 18/10/2026 — https://www.elespectador.com/ambiente/incautan-seis-guacamayas-y-una-lora-amazonica-que-estaban-en-cautiverio-en-valle-del-cauca/\n[S1] Tella et al., The hidden dimension of poaching (2025); comparação sobre demanda por psitacídeos neotropicais — https://doi.org/10.1016/j.biocon.2025.111029\n[I1] WCS (2023), análisis regional de confiscaciones fronterizas 2010–2018 — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view\n[N1] Veja (2020), comércio ilegal de papagaios no Brasil; analogia temática, não conexão com o evento — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/\n[G1] Mapcarta / OSM, núcleo urbano de Darién — https://mapcarta.com/es/19716224",
+  "references_text_en": "[O1] El Espectador / Policía Valle y CVC, 18/10/2026 — https://www.elespectador.com/ambiente/incautan-seis-guacamayas-y-una-lora-amazonica-que-estaban-en-cautiverio-en-valle-del-cauca/\n[S1] Tella et al., The hidden dimension of poaching (2025); comparação sobre demanda por psitacídeos neotropicais — https://doi.org/10.1016/j.biocon.2025.111029\n[I1] WCS (2023), análisis regional de confiscaciones fronterizas 2010–2018 — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view\n[N1] Veja (2020), comércio ilegal de papagaios no Brasil; analogia temática, não conexão com o evento — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/\n[G1] Mapcarta / OSM, núcleo urbano de Darién — https://mapcarta.com/es/19716224",
+  "references_text_es": "[O1] El Espectador / Policía Valle y CVC, 18/10/2026 — https://www.elespectador.com/ambiente/incautan-seis-guacamayas-y-una-lora-amazonica-que-estaban-en-cautiverio-en-valle-del-cauca/\n[S1] Tella et al., The hidden dimension of poaching (2025); comparação sobre demanda por psitacídeos neotropicais — https://doi.org/10.1016/j.biocon.2025.111029\n[I1] WCS (2023), análisis regional de confiscaciones fronterizas 2010–2018 — https://drive.google.com/file/d/1EueM82TEcpcW1Knhw0AE_4fk7ayzdA8X/view\n[N1] Veja (2020), comércio ilegal de papagaios no Brasil; analogia temática, não conexão com o evento — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/\n[G1] Mapcarta / OSM, núcleo urbano de Darién — https://mapcarta.com/es/19716224"
+}
