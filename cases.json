@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1218_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1226_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1218,
+  "count": 1226,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -93162,6 +93162,789 @@
       "references_text_pt": "[O1] ABI / Los Tiempos, 24/10/2026 — nota da Gobernación de Santa Cruz — https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas\n[O2] Bolivia TV, 24/10/2026 — registro secundário do comunicado — https://www.boliviatv.bo/principal/nota.php?noticia=2c3a8a0c7e4fb00ecf47d79408d2f8f4\n[T1] Gobernación Santa Cruz (2023), programa DIRENA de conservação e CAD — https://santacruz.gob.bo/sites/default/files/2023-Vrs.01-RSE.pdf\n[G1] GeoNames, departamento de Santa Cruz — marcador somente de escala departamental — https://www.geonames.org/3904907/departamento-de-santa-cruz.html",
       "references_text_en": "[O1] ABI / Los Tiempos, 24/10/2026 — nota da Gobernación de Santa Cruz — https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas\n[O2] Bolivia TV, 24/10/2026 — registro secundário do comunicado — https://www.boliviatv.bo/principal/nota.php?noticia=2c3a8a0c7e4fb00ecf47d79408d2f8f4\n[T1] Gobernación Santa Cruz (2023), programa DIRENA de conservação e CAD — https://santacruz.gob.bo/sites/default/files/2023-Vrs.01-RSE.pdf\n[G1] GeoNames, departamento de Santa Cruz — marcador somente de escala departamental — https://www.geonames.org/3904907/departamento-de-santa-cruz.html",
       "references_text_es": "[O1] ABI / Los Tiempos, 24/10/2026 — nota da Gobernación de Santa Cruz — https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas\n[O2] Bolivia TV, 24/10/2026 — registro secundário do comunicado — https://www.boliviatv.bo/principal/nota.php?noticia=2c3a8a0c7e4fb00ecf47d79408d2f8f4\n[T1] Gobernación Santa Cruz (2023), programa DIRENA de conservação e CAD — https://santacruz.gob.bo/sites/default/files/2023-Vrs.01-RSE.pdf\n[G1] GeoNames, departamento de Santa Cruz — marcador somente de escala departamental — https://www.geonames.org/3904907/departamento-de-santa-cruz.html"
+    },
+    {
+      "id": "2026-05-10__tan-an-bac-ninh-king-cobra-resale",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "confirmed_trade_or_transport",
+      "event_date": "2026-05-10",
+      "publication_date": "2026-10-24",
+      "event_date_precision": "day",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Vietnã",
+      "taxon_text": "*Ophiophagus hannah* (identificação pericial divulgada)",
+      "coordinates": {
+        "lat": 21.2,
+        "lon": 106.1
+      },
+      "coordinate_precision": "province_generalized_not_seizure_site",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "source_label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+      "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 1
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "VN_O_MPS",
+          "type": "case_source",
+          "label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+          "url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014"
+        },
+        {
+          "id": "VN_S_MONITOR",
+          "type": "scientific",
+          "label": "Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024)",
+          "url": "https://doi.org/10.1016/j.jnc.2026.127292"
+        },
+        {
+          "id": "VN_N_NETWORKS",
+          "type": "news",
+          "label": "Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026)",
+          "url": "https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "DOCUMENTED_GENERALIZED_ENDPOINTS",
+      "route_evidence": {
+        "verified": true,
+        "routes": [
+          {
+            "origin": "Quảng Ninh Province, Vietnam (forest area not specified)",
+            "destination": "Tân An, Bắc Ninh, Vietnam",
+            "commodities": "one king cobra purchased 7 May and found 10 May"
+          }
+        ],
+        "precision": "province-to-city inferred movement from documented possession history",
+        "warning": "No road sequence, transfer stops or exact forest source"
+      },
+      "review_notes": [
+        "Species identification, size and weight are explicitly in official source",
+        "Documented purchase in Quảng Ninh and discovery in Bắc Ninh; detailed transport path unknown",
+        "Publication 24 October 2026 is case update, not date of interdiction"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "Polícia vietnamita detalha compra e tentativa de revenda de cobra-rei em Bắc Ninh",
+      "location_label_pt": "Tân An, Bắc Ninh, Vietnã — ponto provincial generalizado",
+      "fauna_label_pt": "Uma cobra-rei, 4,2 kg, aproximadamente 3 m",
+      "card_text_pt": "Polícia encontrou uma cobra-rei em 10/05/2026 após compra em Quảng Ninh para revenda em Tân An. Atualização judicial publicada em 24/10; não é apreensão de outubro.",
+      "context_pt": "[O] Em 10/05/2026, policiais de Tân An encontraram uma cobra-rei em uma caixa de isopor junto de um homem em parada de ônibus no bairro Minh Đạo. Segundo investigação anunciada em 24/10, o suspeito havia comprado o animal em 07/05 de indivíduo não identificado em uma área de floresta de Quảng Ninh para revenda; um interessado o procurou em 09/05 para adquirir a cobra para maceração em álcool e exposição. O laudo identificou *Ophiophagus hannah*, 4,2 kg e aproximadamente 3 m, protegida no Grupo IB vietnamita. A polícia encaminhou o caso para acusação pelo artigo 244 e entregou a cobra a centro de resgate de Hanói. A ocorrência física é de maio, não de outubro.\n\n[S] Estudo de 912 processos vietnamitas (2014–2024) registra usos de animais como alimento, produtos medicinais, ornamentação e infusões alcoólicas de serpentes; é um paralelo diretamente temático e não evidencia participação do suspeito na série estudada.\n\n[N] Reportagem vietnamita no repositório sobre estruturas comerciais de fauna protegida contextualiza mercados e pontos de venda no país, mas não identifica vínculo com o suspeito ou o comprador deste réptil.",
+      "references_text_pt": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "title_en": "Vietnam police report king cobra bought and offered for resale in Bắc Ninh",
+      "location_label_en": "Tân An, Bắc Ninh, Vietnam — generalized provincial point",
+      "fauna_label_en": "One king cobra, 4.2 kg, approximately 3 m",
+      "card_text_en": "Police found a king cobra on 10 May 2026 after purchase in Quảng Ninh for resale in Tân An. Case update published 24 October; not an October seizure.",
+      "context_en": "[O] On 10 May 2026, Tân An police found a king cobra in a polystyrene box beside a man at the Minh Đạo bus stop. An investigation reported on 24 October states he had bought it from an unidentified person in a Quảng Ninh forest on 7 May for resale; on 9 May a prospective buyer sought the snake for alcohol infusion and display. Forensic examination identified *Ophiophagus hannah*, weighing 4.2 kg and about 3 m long, a Vietnamese Group IB protected species. Police referred the case for prosecution under Article 244 and handed the animal to a Hanoi rescue center. The interception occurred in May, not October.\n\n[S] A study of 912 Vietnamese wildlife-crime cases (2014–2024) documents uses including medicinal commodities, display and snakes in alcohol infusions. This is relevant national context, not evidence linking the suspect to the earlier dataset.\n\n[N] Vietnamese reporting indexed in the news repository examines wildlife sales through commercial premises and restaurants. It does not identify the seller or buyer in this king cobra case.",
+      "references_text_en": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "title_es": "Policía vietnamita documenta compra e intento de reventa de cobra real en Bắc Ninh",
+      "location_label_es": "Tân An, Bắc Ninh, Vietnam — punto provincial generalizado",
+      "fauna_label_es": "Una cobra real, 4,2 kg, aproximadamente 3 m",
+      "card_text_es": "La policía encontró una cobra real el 10/05/2026 tras su compra en Quảng Ninh para revenderla en Tân An. Actualización del 24/10; no es un decomiso de octubre.",
+      "context_es": "[O] El 10 de mayo de 2026, agentes de Tân An hallaron una cobra real en una caja de poliestireno junto a un hombre en una parada de autobús de Minh Đạo. La investigación divulgada el 24 de octubre indica que la compró el 7 de mayo a una persona no identificada en un bosque de Quảng Ninh para revenderla; el 9 de mayo un posible comprador la solicitó para macerarla en alcohol y exhibirla. El examen identificó *Ophiophagus hannah*, 4,2 kg y unos 3 m, especie protegida del grupo IB. La policía remitió el caso para acusación bajo el artículo 244 y entregó la serpiente a un centro de rescate de Hanói. La interceptación ocurrió en mayo.\n\n[S] Un estudio de 912 casos vietnamitas (2014–2024) documenta usos medicinales, decorativos y serpientes destinadas a infusiones alcohólicas. Es contexto nacional pertinente, no un vínculo del acusado con los casos estudiados.\n\n[N] Una noticia vietnamita del repositorio examina ventas de fauna en comercios y restaurantes, sin identificar a vendedor ni comprador vinculados a esta cobra.",
+      "references_text_es": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. O ponto é provincial e não localiza o bairro, mercado ou apreensão.",
+      "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem.",
+      "occurred_at": "2026-05-10T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2019-2021__oregon-vietnam-multispecies-parts-sentencing-20261023",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "confirmed_trade_or_transport",
+      "event_date": null,
+      "publication_date": "2026-10-23",
+      "event_date_precision": "unknown",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Estados Unidos",
+      "taxon_text": "*Ursus americanus*; *Puma concolor*; *Panthera leo*; *Panthera tigris*; *Diceros bicornis*; *Ceratotherium simum*",
+      "coordinates": {
+        "lat": 44.0521,
+        "lon": -123.0868
+      },
+      "coordinate_precision": "court_city_center_generalized",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "source_label": "U.S. Department of Justice, 23 Oct 2026",
+      "source_url": "https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "US_O_DOJ",
+          "type": "case_source",
+          "label": "U.S. Department of Justice, 23 Oct 2026",
+          "url": "https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife"
+        },
+        {
+          "id": "US_S_MULTISPECIES",
+          "type": "scientific",
+          "label": "Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs",
+          "url": "https://doi.org/10.1016/j.biocon.2025.111553"
+        },
+        {
+          "id": "US_N_LAOS",
+          "type": "news",
+          "label": "Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026)",
+          "url": "https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "DOCUMENTED_GENERALIZED_ENDPOINTS",
+      "route_evidence": {
+        "verified": true,
+        "routes": [
+          {
+            "origin": "Oregon, United States",
+            "destination": "Vietnam",
+            "commodities": "American black bear gallbladders; cougar bones"
+          },
+          {
+            "origin": "Vietnam",
+            "destination": "Oregon, United States",
+            "commodities": "lion teeth; black and white rhinoceros horn segments; tiger pelt"
+          }
+        ],
+        "precision": "regional/country endpoints only",
+        "warning": "Direct DOJ shipping directions; not enough precision for point-to-point local cartography"
+      },
+      "review_notes": [
+        "Event interval September 2019–May 2021; court decision 23 Oct 2026",
+        "Do not count individual animals or parts: detailed quantities absent",
+        "Separate directional Oregon-to-Vietnam and Vietnam-to-Oregon commodity flows, not individual specimen coordinates"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "Casal é condenado por tráfico de partes de fauna entre Oregon e Vietnã",
+      "location_label_pt": "Eugene, Oregon, Estados Unidos — decisão judicial; comércio Oregon–Vietnã",
+      "fauna_label_pt": "Partes de ursos, pumas, leões, tigres e rinocerontes",
+      "card_text_pt": "Decisão judicial divulgada em 23/10/2026 sobre comércio de partes de fauna entre Oregon e Vietnã em 2019–2021. Quantidades não divulgadas; não representa nova apreensão em 2026.",
+      "context_pt": "[O] Em 23/10/2026, a Justiça federal em Eugene (Oregon) condenou um casal a três anos de liberdade supervisionada e multa de US$ 10 mil cada por violar o Lacey Act. Segundo o Departamento de Justiça, entre setembro de 2019 e maio de 2021 eles processaram US$ 51.100 em pagamentos de operações ilegais envolvendo itens de fauna entre Oregon e Vietnã. Vesículas biliares de urso-negro-americano e ossos de puma foram enviados ao Vietnã; dentes de leão, fragmentos de chifres de rinocerontes-negro e branco e pele de tigre foram importados para Oregon. Os volumes por espécie não foram publicados. Esta é uma decisão judicial em 2026 relativa a transações anteriores, não uma nova apreensão de 2026.\n\n[S] Modelo de tráfico multiespécies no repositório científico analisa incentivos econômicos e efeitos da fiscalização em mercados de diferentes espécies. Isso contextualiza o conjunto de produtos, mas não estima a estrutura financeira concreta deste processo.\n\n[N] Reportagem de investigação no Laos documenta a oferta clandestina de derivados de fauna, incluindo partes de grandes mamíferos, em mercados asiáticos. Não há evidência de ligação entre esses mercados e os condenados.",
+      "references_text_pt": "[US_O_DOJ] U.S. Department of Justice, 23 Oct 2026 — https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife\n[US_S_MULTISPECIES] Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs — https://doi.org/10.1016/j.biocon.2025.111553\n[US_N_LAOS] Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026) — https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe",
+      "title_en": "Couple sentenced for trafficking wildlife parts between Oregon and Vietnam",
+      "location_label_en": "Eugene, Oregon, United States — court decision; Oregon–Vietnam trade",
+      "fauna_label_en": "Bear, cougar, lion, tiger and rhinoceros parts",
+      "card_text_en": "Court decision reported on 23 October 2026 concerns wildlife-parts trade between Oregon and Vietnam in 2019–2021. Quantities undisclosed; this is not a new 2026 seizure.",
+      "context_en": "[O] On 23 October 2026, a federal court in Eugene, Oregon, sentenced a couple to three years of probation and a US$10,000 fine each for violating the Lacey Act. The U.S. Department of Justice reports they processed US$51,100 in payments connected with illegal wildlife shipments between Oregon and Vietnam during September 2019–May 2021. American black bear gallbladders and cougar bones went to Vietnam; lion teeth, black and white rhinoceros horn sections and a tiger pelt entered Oregon. Commodity quantities were not disclosed. This is a 2026 judicial outcome concerning earlier trade, not a new 2026 seizure.\n\n[S] A multi-species trafficking model in the research repository examines economic incentives and detection effects across different species. It contextualizes mixed wildlife commodities without reconstructing this case’s specific financial network.\n\n[N] Investigative reporting from Laos documents illicit sales of wildlife derivatives, including large-mammal parts, in Asian markets; it does not link these outlets to the convicted defendants.",
+      "references_text_en": "[US_O_DOJ] U.S. Department of Justice, 23 Oct 2026 — https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife\n[US_S_MULTISPECIES] Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs — https://doi.org/10.1016/j.biocon.2025.111553\n[US_N_LAOS] Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026) — https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe",
+      "title_es": "Condenan a una pareja por tráfico de partes de fauna entre Oregón y Vietnam",
+      "location_label_es": "Eugene, Oregón, Estados Unidos — decisión judicial; comercio Oregón–Vietnam",
+      "fauna_label_es": "Partes de osos, pumas, leones, tigres y rinocerontes",
+      "card_text_es": "Decisión judicial publicada el 23/10/2026 por comercio de partes de fauna entre Oregón y Vietnam en 2019–2021. Cantidades no divulgadas; no es un nuevo decomiso de 2026.",
+      "context_es": "[O] El 23 de octubre de 2026, un tribunal federal de Eugene (Oregón) condenó a una pareja a tres años de libertad vigilada y una multa de US$10.000 por persona por infracciones de la Ley Lacey. Según el Departamento de Justicia, gestionaron pagos por US$51.100 asociados a envíos ilegales de fauna entre Oregón y Vietnam entre septiembre de 2019 y mayo de 2021. Vesículas biliares de oso negro americano y huesos de puma se enviaron a Vietnam; dientes de león, fragmentos de cuernos de rinocerontes negros y blancos y una piel de tigre llegaron a Oregón. No se difundieron cantidades por producto. Es una resolución judicial de 2026 sobre hechos anteriores, no un nuevo decomiso.\n\n[S] Un modelo científico de tráfico multiespecie examina incentivos económicos y efectos de detección entre diferentes especies. Contextualiza la variedad de productos sin reconstruir la red financiera de este expediente.\n\n[N] Una investigación periodística en Laos documenta ventas clandestinas de derivados de grandes mamíferos en mercados asiáticos, sin vínculo probado con los condenados.",
+      "references_text_es": "[US_O_DOJ] U.S. Department of Justice, 23 Oct 2026 — https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife\n[US_S_MULTISPECIES] Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs — https://doi.org/10.1016/j.biocon.2025.111553\n[US_N_LAOS] Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026) — https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+      "quantity_note_pt": "Partes de fauna sem contagem total confiável; valores monetários não convertidos em animais ou itens.",
+      "event_type": "judicial_decision",
+      "judicial_decision_date": "2026-10-23",
+      "event_period": "2019-09/2021-05",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown"
+    },
+    {
+      "id": "2026-10-05__tan-an-bac-ninh-58-wild-birds-resale",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "confirmed_trade_or_transport",
+      "event_date": "2026-10-05",
+      "publication_date": "2026-10-24",
+      "event_date_precision": "day",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Vietnã",
+      "taxon_text": "Aves spp.",
+      "coordinates": {
+        "lat": 21.2,
+        "lon": 106.1
+      },
+      "coordinate_precision": "province_generalized_not_seizure_site",
+      "modal_primary": "Terrestre",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "source_label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+      "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
+      "quantity_count": 58,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 58
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "VN_O_MPS",
+          "type": "case_source",
+          "label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+          "url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014"
+        },
+        {
+          "id": "VN_S_MONITOR",
+          "type": "scientific",
+          "label": "Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024)",
+          "url": "https://doi.org/10.1016/j.jnc.2026.127292"
+        },
+        {
+          "id": "VN_S_BIRDS",
+          "type": "scientific",
+          "label": "Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan",
+          "url": "https://doi.org/10.1016/j.gecco.2026.e04193"
+        },
+        {
+          "id": "VN_N_NETWORKS",
+          "type": "news",
+          "label": "Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026)",
+          "url": "https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_evidence": {
+        "verified": false,
+        "reason": "No source-supported origin-to-destination route suitable for mapping"
+      },
+      "review_notes": [
+        "58 total birds is confirmed: 19 Group IIB + 39 common",
+        "Do not invent individual taxonomic names",
+        "Previous administrative infraction is separate, not a duplicate wildlife case"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "Polícia de Bắc Ninh apreende 58 aves transportadas para venda",
+      "location_label_pt": "Tân An, Bắc Ninh, Vietnã — ponto provincial generalizado",
+      "fauna_label_pt": "58 aves: 19 do Grupo IIB e 39 comuns",
+      "card_text_pt": "Em 05/10, polícia interceptou motociclista com 58 aves para venda: 19 do Grupo IIB e 39 comuns. Espécies e origem não divulgadas. Notícia publicada em 24/10.",
+      "context_pt": "[O] Em 05/10/2026, às 16h, a polícia de Tân An flagrou um homem transportando em motocicleta gaiolas com 58 aves silvestres para comercialização na rua. Laudo oficial registrou 19 indivíduos no Grupo IIB de proteção vietnamita e 39 aves florestais comuns. Segundo a polícia, o homem habitualmente comprava e revendia aves com margem de lucro, tendo sido autuado administrativamente em 31/12/2025 por manter fauna irregularmente. Foi instaurado procedimento penal com base no artigo 234. Não foram divulgadas as espécies, as origens de captura ou os destinos previstos. A divulgação ocorreu em 24/10, mas a apreensão foi em 05/10.\n\n[S] O monitoramento científico nacional de 2014–2024 documenta apreensões de aves e outros táxons no Vietnã. Estudo de mercado de aves engaioladas em Kalimantan é comparável quanto à pressão de demanda e fiscalização, mas não cobre Bắc Ninh nem identifica estas espécies.\n\n[N] Reportagem vietnamita indexada sobre comércio de espécies protegidas oferece contexto do mercado doméstico de fauna, sem indicar que este vendedor integre uma rede ali descrita.",
+      "references_text_pt": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "title_en": "Bắc Ninh police seize 58 wild birds being transported for roadside sale",
+      "location_label_en": "Tân An, Bắc Ninh, Vietnam — generalized provincial point",
+      "fauna_label_en": "58 birds: 19 Group IIB and 39 common forest birds",
+      "card_text_en": "On 5 October, police intercepted a motorcyclist carrying 58 birds for sale: 19 Group IIB and 39 common birds. Species and origin undisclosed. Report published 24 October.",
+      "context_en": "[O] At about 16:00 on 5 October 2026, Tân An officers stopped a motorcyclist carrying cages with 58 wild birds for sale to passersby. The official examination classified 19 birds as Vietnamese protected Group IIB and 39 as common forest birds. Police stated that the seller habitually purchased and resold birds for profit and had been administratively penalized on 31 December 2025 for improper wildlife confinement. Criminal proceedings under Article 234 were initiated. Species, capture origins and intended destinations were not disclosed. The release was published on 24 October; the seizure was on 5 October.\n\n[S] A national 2014–2024 study documents bird and other taxon seizures in Vietnam. Research on caged-bird trade in Kalimantan provides an enforcement-and-demand comparison, but neither study investigates these 58 birds.\n\n[N] Indexed Vietnamese reporting on the sale of protected wildlife provides domestic-market context; it does not place this seller in any reported network.",
+      "references_text_en": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "title_es": "Policía de Bắc Ninh decomisa 58 aves transportadas para venta callejera",
+      "location_label_es": "Tân An, Bắc Ninh, Vietnam — punto provincial generalizado",
+      "fauna_label_es": "58 aves: 19 del Grupo IIB y 39 comunes",
+      "card_text_es": "El 05/10, la policía interceptó a un motociclista con 58 aves para venta: 19 del Grupo IIB y 39 comunes. Especies y origen no divulgados. Publicado el 24/10.",
+      "context_es": "[O] El 5 de octubre de 2026 a las 16:00, policías de Tân An detectaron una motocicleta que transportaba jaulas con 58 aves silvestres ofrecidas a transeúntes. El examen oficial clasificó 19 ejemplares en el grupo protegido IIB de Vietnam y 39 como aves forestales comunes. La policía indicó que el vendedor compraba y revendía habitualmente con fines de lucro y había sido sancionado administrativamente el 31 de diciembre de 2025 por cautiverio ilegal. Se inició proceso penal conforme al artículo 234. No se publicaron especies, lugares de captura ni destinos. La noticia es del 24 de octubre, pero el decomiso ocurrió el 5.\n\n[S] El estudio nacional 2014–2024 documenta decomisos de aves y otros grupos en Vietnam. Una investigación sobre aves enjauladas de Kalimantan aporta un paralelo de demanda y control, sin estudiar estas 58 aves.\n\n[N] Una noticia vietnamita indexada sobre venta de fauna protegida ofrece contexto del mercado interno; no atribuye al vendedor pertenencia a una red reseñada.",
+      "references_text_es": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. O ponto é provincial e não localiza o bairro, mercado ou apreensão.",
+      "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem.",
+      "occurred_at": "2026-10-05T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-22__santa-isabel-eldorado-27-caged-birds",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "illegal_possession_only_no_trade_evidence",
+      "event_date": "2026-10-22",
+      "publication_date": "2026-10-24",
+      "event_date_precision": "day",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Brasil",
+      "taxon_text": "Aves spp.",
+      "coordinates": {
+        "lat": -23.317,
+        "lon": -46.223
+      },
+      "coordinate_precision": "municipality_center_generalized",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "source_label": "Hoje Diário, 24 Oct 2026",
+      "source_url": "https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "BR_O_SANTA",
+          "type": "case_source",
+          "label": "Hoje Diário, 24 Oct 2026",
+          "url": "https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/"
+        },
+        {
+          "id": "BR_S_BIRD",
+          "type": "scientific",
+          "label": "The live bird trade in Brazil and its conservation implications: an overview",
+          "url": "https://doi.org/10.1017/S095927091200010X"
+        },
+        {
+          "id": "BR_S_ISOTOPE",
+          "type": "scientific",
+          "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+          "url": "https://doi.org/10.1111/acv.70052"
+        },
+        {
+          "id": "BR_I_LEGAL",
+          "type": "institutional",
+          "label": "WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021)",
+          "url": "https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view"
+        },
+        {
+          "id": "BR_N_BREEDING",
+          "type": "news",
+          "label": "Criação amadora abastece o contrabando de aves (O Eco, 2023)",
+          "url": "https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_evidence": {
+        "verified": false,
+        "reason": "No source-supported origin-to-destination route suitable for mapping"
+      },
+      "review_notes": [
+        "27 reported birds, but two described as species permitted for domestic keeping: do not automatically aggregate 27 as wild native individuals",
+        "A distinct Santa Isabel case with 56 birds occurred 6 Oct 2026; do not merge",
+        "Classify as unauthorized captivity, not proven trafficking"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "GCM recolhe 27 aves de cativeiro irregular em Santa Isabel",
+      "location_label_pt": "Bairro Eldorado, Santa Isabel, São Paulo, Brasil",
+      "fauna_label_pt": "27 aves recolhidas; composição silvestre/doméstica não esclarecida",
+      "card_text_pt": "GCM recolheu 27 aves em 22/10; duas foram descritas como de espécies de criação doméstica. Quantidade de fauna silvestre não confirmada. Cativeiro irregular; comércio não comprovado.",
+      "context_pt": "[O] Em 22/10/2026, após denúncia anônima, a GCM de Santa Isabel vistoriou um imóvel do bairro Eldorado e recolheu 27 aves mantidas em 27 gaiolas. A reportagem reproduz declarações da GCM e de veterinários municipais, que apontaram espécies silvestres sem autorização e condições inadequadas de manutenção. O morador prestou esclarecimentos e foi liberado. A quantidade exata de aves nativas, a lista taxonômica e o destino final não foram confirmados; o texto menciona duas aves de espécies que podem ser criadas domesticamente e uma liberação prevista para após avaliação ambiental. Não foi documentada venda ou transporte ligado a comércio.\n\n[S] Estudo brasileiro sobre o comércio de aves vivas documenta demanda por aves de estimação e diversidade de espécies comercializadas; pesquisa forense de 2026 demonstra que a origem silvestre de aves apreendidas nem sempre pode ser inferida apenas pelo anilhamento. Esses resultados não estabelecem comércio nesta ocorrência.\n\n[I] Relatório jurídico da WCS Brasil (2021) distingue, no art. 29, §1º, III, da Lei 9.605/1998, condutas de venda, aquisição, guarda e cativeiro sem autorização. Referência normativa geral; o relatório não analisa Santa Isabel.\n\n[N] Reportagem de O Eco examina fraudes em registros de criação amadora de aves no Brasil. Serve de paralelo sobre rastreabilidade, sem indicar irregularidade cadastral neste imóvel.",
+      "references_text_pt": "[BR_O_SANTA] Hoje Diário, 24 Oct 2026 — https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+      "title_en": "Municipal guards seize 27 caged birds in Santa Isabel",
+      "location_label_en": "Eldorado district, Santa Isabel, São Paulo, Brazil",
+      "fauna_label_en": "27 birds recovered; wild/domestic breakdown unclear",
+      "card_text_en": "Municipal guards recovered 27 birds on 22 October; two were described as domestic-keeping species. The wild-bird total remains uncertain. Illegal captivity; trade not established.",
+      "context_en": "[O] On 22 October 2026, following an anonymous tip, Santa Isabel municipal guards inspected a property in Eldorado and recovered 27 birds kept in 27 cages. Municipal veterinary assessment, as described by the reporting, indicated unauthorized wild species and poor conditions. The keeper was questioned and released. The exact number of native wild birds, species list and final disposition remain unclear; the report mentions two birds of species that may be kept domestically and only a planned release after environmental review. No sale or trade-related transport was documented.\n\n[S] A Brazilian review documents demand for live pet birds, while a 2026 forensic study shows that wild origin cannot always be inferred from official rings alone. Neither study establishes trade in this seizure.\n\n[I] A 2021 WCS Brasil legal review distinguishes unauthorized sale, acquisition, keeping and captivity under Article 29(1)(III) of Law 9,605/1998. This is background legal analysis, not an investigation of Santa Isabel.\n\n[N] O Eco examines false records in amateur bird breeding in Brazil; this provides traceability context without suggesting such fraud at this property.",
+      "references_text_en": "[BR_O_SANTA] Hoje Diário, 24 Oct 2026 — https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+      "title_es": "Guardia municipal decomisa 27 aves en cautiverio irregular en Santa Isabel",
+      "location_label_es": "Barrio Eldorado, Santa Isabel, São Paulo, Brasil",
+      "fauna_label_es": "27 aves recogidas; composición silvestre/doméstica no aclarada",
+      "card_text_es": "Guardias recogieron 27 aves el 22/10; dos fueron descritas como especies de cría doméstica. Total de fauna silvestre no confirmado. Cautiverio irregular; comercio no demostrado.",
+      "context_es": "[O] El 22 de octubre de 2026, tras una denuncia anónima, la guardia municipal de Santa Isabel inspeccionó una vivienda en Eldorado y recogió 27 aves mantenidas en 27 jaulas. Según la noticia y la evaluación veterinaria municipal, había especies silvestres sin autorización y condiciones deficientes. El responsable declaró y fue liberado. No se confirmó el número exacto de aves silvestres nativas, la lista taxonómica ni su destino final; la nota menciona dos aves de especies que pueden criarse en el ámbito doméstico y una liberación solamente prevista. No consta venta ni transporte comercial.\n\n[S] Una revisión brasileña documenta la demanda de aves vivas como mascotas; un estudio forense de 2026 muestra que el origen silvestre no siempre puede inferirse de las anillas oficiales. Ninguno demuestra comercio en este caso.\n\n[I] El análisis jurídico de WCS Brasil (2021) distingue venta, adquisición, tenencia y cautiverio sin autorización conforme al art. 29, §1, III, de la Ley 9.605/1998. Es contexto normativo, no un análisis de Santa Isabel.\n\n[N] O Eco examina registros falsos en la cría aficionada brasileña; aporta contexto de trazabilidad sin atribuir fraude a esta vivienda.",
+      "references_text_es": "[BR_O_SANTA] Hoje Diário, 24 Oct 2026 — https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+      "reported_birds_total": 27,
+      "quantity_note_pt": "27 aves recolhidas, duas descritas como de espécies de criação doméstica; não é possível confirmar total de fauna silvestre. quantity_count=null evita somar indiscriminadamente as 27 aves aos totais.",
+      "quantity_note_en": "27 birds recovered, including two described as domestic-keeping species; the wildlife total cannot be established. Excluded from numeric wildlife totals by null quantity_count.",
+      "quantity_note_es": "27 aves recogidas, incluidas dos descritas como especies de cría doméstica; total de fauna silvestre no confirmado. quantity_count=null evita sumarlas indiscriminadamente.",
+      "occurred_at": "2026-10-22T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-23__guaratuba-two-spinus-magellanicus",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "illegal_possession_only_no_trade_evidence",
+      "event_date": "2026-10-23",
+      "publication_date": "2026-10-24",
+      "event_date_precision": "day",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Brasil",
+      "taxon_text": "*Spinus magellanicus*",
+      "coordinates": {
+        "lat": -25.882,
+        "lon": -48.575
+      },
+      "coordinate_precision": "municipality_center_generalized",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "source_label": "Grupo Litorânea, 24 Oct 2026",
+      "source_url": "https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/",
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 2
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "BR_O_GUARA",
+          "type": "case_source",
+          "label": "Grupo Litorânea, 24 Oct 2026",
+          "url": "https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/"
+        },
+        {
+          "id": "BR_S_BIRD",
+          "type": "scientific",
+          "label": "The live bird trade in Brazil and its conservation implications: an overview",
+          "url": "https://doi.org/10.1017/S095927091200010X"
+        },
+        {
+          "id": "BR_S_ISOTOPE",
+          "type": "scientific",
+          "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+          "url": "https://doi.org/10.1111/acv.70052"
+        },
+        {
+          "id": "BR_I_LEGAL",
+          "type": "institutional",
+          "label": "WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021)",
+          "url": "https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view"
+        },
+        {
+          "id": "BR_N_BREEDING",
+          "type": "news",
+          "label": "Criação amadora abastece o contrabando de aves (O Eco, 2023)",
+          "url": "https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_evidence": {
+        "verified": false,
+        "reason": "No source-supported origin-to-destination route suitable for mapping"
+      },
+      "review_notes": [
+        "Species explicitly identified as Spinus magellanicus",
+        "Illegal keeping is substantiated, but no commercial trafficking activity is reported"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "Polícia Ambiental apreende dois pintassilgos sem autorização em Guaratuba",
+      "location_label_pt": "Guaratuba, Paraná, Brasil",
+      "fauna_label_pt": "Dois pintassilgos",
+      "card_text_pt": "Em 23/10, a Polícia Ambiental apreendeu dois pintassilgos mantidos sem autorização e os encaminhou ao IAT. Não há venda ou rota comercial documentada.",
+      "context_pt": "[O] Em 23/10/2026, a Polícia Militar Ambiental encontrou duas gaiolas contendo dois pintassilgos (*Spinus magellanicus*) na área externa de uma residência em Guaratuba (PR). As aves estavam sem a autorização exigida; houve um termo circunstanciado, um auto de infração e encaminhamento das aves e gaiolas ao Instituto Água e Terra, no Parque do Palmito. A fonte não indica captura original, compra, venda, comprador ou rota comercial.\n\n[S] A revisão sobre o comércio de aves vivas no Brasil documenta a importância das aves canoras no mercado ilegal. O estudo isotópico de 2026 fornece métodos para distinguir possíveis origens silvestres e cativas em passeriformes; não analisa estas duas aves.\n\n[I] O relatório jurídico WCS Brasil (2021) contextualiza a guarda e manutenção não autorizadas de espécimes nativos no art. 29, §1º, III, da Lei 9.605/1998, independentemente de prova de venda.\n\n[N] A investigação de O Eco sobre criação amadora e contrabando de aves discute falhas de rastreabilidade; trata de problema nacional, sem vínculo demonstrado com Guaratuba.",
+      "references_text_pt": "[BR_O_GUARA] Grupo Litorânea, 24 Oct 2026 — https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+      "title_en": "Environmental police seize two illegally kept hooded siskins in Guaratuba",
+      "location_label_en": "Guaratuba, Paraná, Brazil",
+      "fauna_label_en": "Two hooded siskins",
+      "card_text_en": "On 23 October, environmental police seized two hooded siskins kept without permission and transferred them to IAT. No sale or trade route was documented.",
+      "context_en": "[O] On 23 October 2026, environmental police found two cages holding two hooded siskins (*Spinus magellanicus*) outside a residence in Guaratuba, Paraná. Required permission was absent. Officers issued a police incident record and an environmental citation, forwarding the birds and cages to the state environmental institute at Parque do Palmito. Their origin, acquisition, sale, buyer and any trade route were not reported.\n\n[S] Research on Brazilian live-bird trade describes the market for songbirds. A 2026 isotope study presents methods to distinguish wild and captive provenance in songbirds, but did not test these two individuals.\n\n[I] A 2021 WCS Brasil legal report contextualizes unauthorized possession and captivity of native wildlife under Article 29(1)(III) of Law 9,605/1998, regardless of evidence of sale.\n\n[N] O Eco investigates traceability failures in amateur bird breeding; this is a national-level comparison, not evidence linking Guaratuba to a trafficking network.",
+      "references_text_en": "[BR_O_GUARA] Grupo Litorânea, 24 Oct 2026 — https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+      "title_es": "Policía Ambiental decomisa dos jilgueros encapuchados sin permiso en Guaratuba",
+      "location_label_es": "Guaratuba, Paraná, Brasil",
+      "fauna_label_es": "Dos jilgueros encapuchados",
+      "card_text_es": "El 23/10, la Policía Ambiental decomisó dos jilgueros encapuchados sin permiso y los trasladó al IAT. No se documentó venta ni ruta comercial.",
+      "context_es": "[O] El 23 de octubre de 2026, la Policía Ambiental encontró dos jaulas con dos jilgueros encapuchados (*Spinus magellanicus*) en el exterior de una vivienda de Guaratuba, Paraná. No existía autorización de tenencia. Se levantó un acta penal y una infracción administrativa, y las aves y jaulas fueron enviadas al Instituto Água e Terra en Parque do Palmito. No se documentaron origen, compra, venta, comprador ni ruta comercial.\n\n[S] La literatura sobre comercio de aves vivas en Brasil describe la demanda de aves canoras. Un estudio isotópico de 2026 presenta métodos para diferenciar su origen silvestre o cautivo, pero no examinó estos dos ejemplares.\n\n[I] El informe jurídico de WCS Brasil (2021) contextualiza la tenencia y el cautiverio no autorizados de fauna nativa conforme al art. 29, §1, III, de la Ley 9.605/1998, aun sin venta demostrada.\n\n[N] La investigación de O Eco analiza fallos de trazabilidad en la cría aficionada; es un paralelo nacional sin conexión comprobada con Guaratuba.",
+      "references_text_es": "[BR_O_GUARA] Grupo Litorânea, 24 Oct 2026 — https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+      "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem.",
+      "occurred_at": "2026-10-23T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-23__mae-sot-tha-sai-luat-one-red-panda",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "confirmed_trade_or_transport",
+      "event_date": "2026-10-23",
+      "publication_date": "2026-10-25",
+      "event_date_precision": "day",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Tailândia",
+      "taxon_text": "*Ailurus fulgens* sensu lato (identificação noticiada como panda-vermelho)",
+      "coordinates": {
+        "lat": 16.714,
+        "lon": 98.574
+      },
+      "coordinate_precision": "district_center_generalized",
+      "modal_primary": "Terrestre",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "source_label": "Thailand Department of National Parks, 25 Oct 2026",
+      "source_url": "https://news.dnp.go.th/news/50378",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "TH_O_DNP",
+          "type": "case_source",
+          "label": "Thailand Department of National Parks, 25 Oct 2026",
+          "url": "https://news.dnp.go.th/news/50378"
+        },
+        {
+          "id": "TH_S_REVIEW",
+          "type": "scientific",
+          "label": "A review of the threat of unsustainable wildlife trade to global biodiversity and society",
+          "url": "https://doi.org/10.1007/s10344-025-01990-9"
+        },
+        {
+          "id": "TH_N_AFP",
+          "type": "news",
+          "label": "En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026)",
+          "url": "https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021"
+        },
+        {
+          "id": "TH_O_CORROBORATION",
+          "type": "case_source",
+          "label": "Daily News, 25 October 2026 — independent corroboration of DNP account",
+          "url": "https://www.dailynews.co.th/news/6303808/"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_evidence": {
+        "verified": false,
+        "reason": "No source-supported origin-to-destination route suitable for mapping"
+      },
+      "review_notes": [
+        "Do not draw Thailand–Myanmar route merely because Mae Sot is a border city",
+        "Red panda identified by Thai Department of National Parks; consider Ailurus fulgens sensu lato if taxonomy revisited"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "Polícia tailandesa intercepta panda-vermelho oculto em picape em Mae Sot",
+      "location_label_pt": "Tha Sai Luat, Mae Sot, Tak, Tailândia",
+      "fauna_label_pt": "Um panda-vermelho vivo",
+      "card_text_pt": "Polícia interceptou uma picape com um panda-vermelho em 23/10, sem documentos de posse ou importação apresentados. Origem, destino e travessia internacional não comprovados.",
+      "context_pt": "[O] Às 19h30 de 23/10/2026, policiais em Mae Sot, província de Tak, pararam uma picape suspeita na rua Seree Thai, subdistrito de Tha Sai Luat, e encontraram um panda-vermelho vivo oculto no veículo. Dois homens foram detidos e não apresentaram licenças de posse ou importação. A estação de fiscalização de fauna recebeu o animal em 24/10 para cuidados veterinários. O DNP tailandês divulgou o caso em 25/10. A espécie é listada no Apêndice I da CITES. O ponto de origem, o país de proveniência, o destino e eventual cruzamento da fronteira com Mianmar não foram comprovados pela notícia oficial.\n\n[S] Revisão científica sobre comércio insustentável de fauna documenta impactos de captura e transporte sobre espécies ameaçadas, mas não investiga especificamente a origem deste panda-vermelho; não foi identificado no repositório um estudo específico que conecte a espécie ao evento.\n\n[N] Reportagem da AFP no repositório descreve unidades tailandesas de inteligência e operações contra o tráfico, inclusive transfronteiriço. É um paralelo institucional, não prova de rede ou rota neste evento.",
+      "references_text_pt": "[TH_O_DNP] Thailand Department of National Parks, 25 Oct 2026 — https://news.dnp.go.th/news/50378\n[TH_S_REVIEW] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9\n[TH_N_AFP] En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026) — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[TH_O_CORROBORATION] Daily News, 25 October 2026 — independent corroboration of DNP account — https://www.dailynews.co.th/news/6303808/",
+      "title_en": "Thai police find red panda concealed in pickup truck in Mae Sot",
+      "location_label_en": "Tha Sai Luat, Mae Sot, Tak, Thailand",
+      "fauna_label_en": "One live red panda",
+      "card_text_en": "Police intercepted a pickup carrying one red panda on 23 October; possession/import papers were not produced. Origin, destination and any border crossing remain unconfirmed.",
+      "context_en": "[O] At about 19:30 on 23 October 2026, Mae Sot police stopped a suspicious pickup truck on Seree Thai Road in Tha Sai Luat, Tak, finding one live red panda concealed inside. Two men could not produce possession or import permits and were detained. The Mae Sot wildlife checkpoint received the animal on 24 October for veterinary care, according to the 25 October Department of National Parks notice. The red panda is CITES Appendix I. Neither country of origin nor intended destination nor an actual Myanmar–Thailand border crossing was documented.\n\n[S] A review of unsustainable wildlife trade discusses conservation impacts of capture and movement of threatened species. It does not identify this animal’s origin; no repository study was found directly linking the red panda to the incident.\n\n[N] An AFP report in the news repository describes Thai wildlife intelligence and anti-trafficking operations, including cross-border investigations. It is institutional context, not evidence of this animal’s route or network.",
+      "references_text_en": "[TH_O_DNP] Thailand Department of National Parks, 25 Oct 2026 — https://news.dnp.go.th/news/50378\n[TH_S_REVIEW] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9\n[TH_N_AFP] En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026) — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[TH_O_CORROBORATION] Daily News, 25 October 2026 — independent corroboration of DNP account — https://www.dailynews.co.th/news/6303808/",
+      "title_es": "Policía tailandesa intercepta un panda rojo oculto en una camioneta en Mae Sot",
+      "location_label_es": "Tha Sai Luat, Mae Sot, Tak, Tailandia",
+      "fauna_label_es": "Un panda rojo vivo",
+      "card_text_es": "La policía interceptó una camioneta con un panda rojo el 23/10, sin documentos de tenencia o importación. Origen, destino y cruce fronterizo no confirmados.",
+      "context_es": "[O] Aproximadamente a las 19:30 del 23 de octubre de 2026, la policía de Mae Sot detuvo una camioneta en la carretera Seree Thai, Tha Sai Luat, provincia de Tak, y halló un panda rojo vivo oculto. Dos hombres fueron detenidos al no presentar permisos de tenencia o importación. La estación de control de fauna recibió al animal el 24 de octubre para atención veterinaria, según un comunicado del 25 de octubre del departamento tailandés. La especie figura en el Apéndice I de CITES. No se documentaron país de origen, destino previsto ni cruce efectivo de la frontera con Myanmar.\n\n[S] Una revisión del comercio insostenible de fauna examina impactos de captura y transporte sobre especies amenazadas; no determina el origen de este panda rojo y no se halló un estudio del repositorio que lo vincule al incidente.\n\n[N] Un reportaje de AFP examina inteligencia y operativos tailandeses contra el tráfico, incluidos casos transfronterizos. Aporta contexto institucional y no demuestra una ruta ni red concreta.",
+      "references_text_es": "[TH_O_DNP] Thailand Department of National Parks, 25 Oct 2026 — https://news.dnp.go.th/news/50378\n[TH_S_REVIEW] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9\n[TH_N_AFP] En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026) — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[TH_O_CORROBORATION] Daily News, 25 October 2026 — independent corroboration of DNP account — https://www.dailynews.co.th/news/6303808/",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+      "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem.",
+      "event_datetime": "2026-10-23T12:30:00Z",
+      "event_timezone": "Asia/Bangkok",
+      "occurred_at": "2026-10-23T12:30:00Z",
+      "occurred_at_precision": "datetime"
+    },
+    {
+      "id": "2026-10-23__mysuru-chikkahalli-one-elephant-tusk",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "confirmed_trade_or_transport",
+      "event_date": "2026-10-23",
+      "publication_date": "2026-10-25",
+      "event_date_precision": "day",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Índia",
+      "taxon_text": "Elephantidae indet.",
+      "coordinates": {
+        "lat": 12.2958,
+        "lon": 76.6394
+      },
+      "coordinate_precision": "district_city_center_generalized",
+      "modal_primary": "Terrestre",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "source_label": "Star of Mysore, 25 Oct 2026",
+      "source_url": "https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/",
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "IN_O_STAR",
+          "type": "case_source",
+          "label": "Star of Mysore, 25 Oct 2026",
+          "url": "https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/"
+        },
+        {
+          "id": "IN_O_SIASAT",
+          "type": "case_source",
+          "label": "The Siasat Daily, 25 Oct 2026",
+          "url": "https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/"
+        },
+        {
+          "id": "IN_O_NK",
+          "type": "case_source",
+          "label": "News Karnataka, 25 Oct 2026",
+          "url": "https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/"
+        },
+        {
+          "id": "IN_S_IVORY",
+          "type": "scientific",
+          "label": "A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory",
+          "url": "https://doi.org/10.3389/fevo.2025.1533703"
+        },
+        {
+          "id": "IN_N_IVORY",
+          "type": "news",
+          "label": "On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026)",
+          "url": "https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_evidence": {
+        "verified": false,
+        "reason": "No source-supported origin-to-destination route suitable for mapping"
+      },
+      "review_notes": [
+        "Media disagree on one suspect’s identity; personal names omitted.",
+        "Only one tusk reliably counted, 1.5 kg; do not infer a count of animals",
+        "Do not identify Elephas maximus without supporting laboratory or official species statement",
+        "Tamil Nadu is an asserted intended destination, not completed mapped route"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "Esquadrão florestal apreende uma presa de elefante de 1,5 kg perto de Mysuru",
+      "location_label_pt": "Próximo a Chikkahalli, distrito de Mysuru, Karnataka, Índia",
+      "fauna_label_pt": "Uma presa de elefante, aproximadamente 1,5 kg",
+      "card_text_pt": "Esquadrão florestal apreendeu uma presa de aproximadamente 1,5 kg em 23/10 durante investigação de tentativa de venda. Dois detidos. Espécie e origem do marfim não confirmadas.",
+      "context_pt": "[O] Em fiscalização próxima a Chikkahalli, no distrito de Mysuru (Karnataka), agentes da Forest Mobile Squad apreenderam uma presa de elefante de aproximadamente 1,5 kg, uma motocicleta e dois telefones durante investigação de tentativa de venda. Dois homens foram presos e um terceiro é procurado. A imprensa de 25/10 situa a ação na sexta-feira 23/10 e informa custódia judicial no sábado 24/10. Os nomes pessoais foram omitidos; as reportagens divergem na identificação de um dos envolvidos. Um possível deslocamento para Tamil Nadu foi informado como intenção declarada, não como rota concretizada. Não há confirmação da espécie nem de abate recente do elefante.\n\n[S] Estudo de 2025 demonstra potencial da análise isotópica multielementar para distinguir marfim de elefante de mamute e apoiar perícias; não foi realizado laudo isotópico conhecido desta presa nem foi determinada sua origem.\n\n[N] Comentário técnico de Mongabay/EIA discute por que apreensões de marfim devem alimentar investigações sobre compradores e redes. A análise enfoca sobretudo a África; não indica ligação com os suspeitos na Índia.",
+      "references_text_pt": "[IN_O_STAR] Star of Mysore, 25 Oct 2026 — https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/\n[IN_O_SIASAT] The Siasat Daily, 25 Oct 2026 — https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/\n[IN_O_NK] News Karnataka, 25 Oct 2026 — https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/\n[IN_S_IVORY] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[IN_N_IVORY] On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026) — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+      "title_en": "Forest squad seizes one 1.5 kg elephant tusk near Mysuru",
+      "location_label_en": "Near Chikkahalli, Mysuru district, Karnataka, India",
+      "fauna_label_en": "One elephant tusk, approximately 1.5 kg",
+      "card_text_en": "Forest officers seized one approximately 1.5 kg tusk on 23 October while investigating an attempted sale. Two arrested. Ivory species and origin unconfirmed.",
+      "context_en": "[O] In an operation near Chikkahalli, Mysuru district, Karnataka, the Forest Mobile Squad seized one approximately 1.5 kg elephant tusk, a motorcycle and two phones during an attempted-sale investigation. Two men were arrested and a third was sought. Reports published 25 October place the interception on Friday 23 October and judicial remand on Saturday 24 October. Personal names are omitted; reports disagree on one suspect’s identity. Tamil Nadu was mentioned only as an alleged intended sales destination, not a completed route. Species and whether an elephant was recently killed remain unverified.\n\n[S] A 2025 multi-isotope study shows potential to distinguish elephant from mammoth ivory in forensic work; no such test or provenance determination is reported for this tusk.\n\n[N] A Mongabay/EIA commentary argues that ivory seizures should trigger follow-up inquiries into buyers and networks. Its main examples concern Africa and do not connect to the Indian suspects.",
+      "references_text_en": "[IN_O_STAR] Star of Mysore, 25 Oct 2026 — https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/\n[IN_O_SIASAT] The Siasat Daily, 25 Oct 2026 — https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/\n[IN_O_NK] News Karnataka, 25 Oct 2026 — https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/\n[IN_S_IVORY] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[IN_N_IVORY] On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026) — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+      "title_es": "Brigada forestal decomisa un colmillo de elefante de 1,5 kg cerca de Mysuru",
+      "location_label_es": "Cerca de Chikkahalli, distrito de Mysuru, Karnataka, India",
+      "fauna_label_es": "Un colmillo de elefante, aproximadamente 1,5 kg",
+      "card_text_es": "Agentes forestales decomisaron un colmillo de aproximadamente 1,5 kg el 23/10 al investigar una tentativa de venta. Dos detenidos. Especie y origen no confirmados.",
+      "context_es": "[O] En un operativo cerca de Chikkahalli, distrito de Mysuru, Karnataka, la brigada forestal decomisó un colmillo de elefante de unos 1,5 kg, una motocicleta y dos teléfonos al investigar una posible venta. Dos hombres fueron detenidos y se buscaba a un tercero. Las noticias del 25 de octubre sitúan la intervención el viernes 23 y la detención judicial el sábado 24. Se omiten nombres personales; las noticias discrepan sobre la identidad de uno de los involucrados. Tamil Nadu fue mencionado solo como destino comercial previsto, no ruta completada. No se confirmó especie ni muerte reciente de un elefante.\n\n[S] Un estudio de 2025 muestra que los isótopos múltiples pueden diferenciar marfil de elefante y mamut; no consta tal examen ni determinación de procedencia para esta pieza.\n\n[N] Un comentario de Mongabay/EIA plantea que los decomisos de marfil deben iniciar investigaciones de compradores y redes. Sus ejemplos principales son africanos y no se vinculan a los sospechosos de India.",
+      "references_text_es": "[IN_O_STAR] Star of Mysore, 25 Oct 2026 — https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/\n[IN_O_SIASAT] The Siasat Daily, 25 Oct 2026 — https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/\n[IN_O_NK] News Karnataka, 25 Oct 2026 — https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/\n[IN_S_IVORY] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[IN_N_IVORY] On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026) — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+      "quantity_note_pt": "Um item (presa); massa de aproximadamente 1,5 kg registrada separadamente. Não equivale a um animal.",
+      "quantity_weight_kg": 1.5,
+      "occurred_at": "2026-10-23T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "2026-10-undated__giao-hung-ninh-binh-36-traded-birds",
+      "status": "VALIDATED",
+      "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+      "scope": "confirmed_trade_or_transport",
+      "event_date": null,
+      "publication_date": "2026-10-26",
+      "event_date_precision": "unknown",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "country": "Vietnã",
+      "taxon_text": "Aves spp.",
+      "coordinates": {
+        "lat": 20.25,
+        "lon": 105.97
+      },
+      "coordinate_precision": "province_generalized_not_market_site",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "source_label": "Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026",
+      "source_url": "https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm",
+      "quantity_count": 36,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 36
+      },
+      "quantity_unassigned": 0,
+      "context_references": [
+        {
+          "id": "VN_O_NINH",
+          "type": "case_source",
+          "label": "Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026",
+          "url": "https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm"
+        },
+        {
+          "id": "VN_S_MONITOR",
+          "type": "scientific",
+          "label": "Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024)",
+          "url": "https://doi.org/10.1016/j.jnc.2026.127292"
+        },
+        {
+          "id": "VN_S_BIRDS",
+          "type": "scientific",
+          "label": "Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan",
+          "url": "https://doi.org/10.1016/j.gecco.2026.e04193"
+        },
+        {
+          "id": "VN_N_NETWORKS",
+          "type": "news",
+          "label": "Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026)",
+          "url": "https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm"
+        }
+      ],
+      "source_reconciliation_status": "SOURCE_VERIFIED",
+      "translation_status": "PT_EN_ES_COMPLETE",
+      "case_context_status": "PT_EN_ES_COMPLETE",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_evidence": {
+        "verified": false,
+        "reason": "No source-supported origin-to-destination route suitable for mapping"
+      },
+      "review_notes": [
+        "Exact seizure date absent; publication date must not be copied into event_date",
+        "36 is total live birds: 17 Group IIB + 19 common",
+        "Different province, market and defendant from Bắc Ninh case"
+      ],
+      "image_url": null,
+      "image_status": "NOT_VALIDATED",
+      "title_pt": "Homem é indiciado por comércio de 36 aves silvestres em mercado de Ninh Bình",
+      "location_label_pt": "Mercado Chợ Bể, Giao Hưng, Ninh Bình, Vietnã — ponto provincial generalizado",
+      "fauna_label_pt": "36 aves: 17 do Grupo IIB e 19 comuns",
+      "card_text_pt": "Polícia anunciou em 26/10 processo por comércio de 36 aves no mercado Chợ Bể: 17 do Grupo IIB e 19 comuns. Data da fiscalização e espécies não divulgadas.",
+      "context_pt": "[O] Em 26/10/2026, a polícia da província de Ninh Bình anunciou procedimento criminal contra um homem por compra, venda ou troca de 36 aves no entorno do mercado Chợ Bể, comuna de Giao Hưng. Fiscalização conjunta com agentes florestais encontrou 17 indivíduos no Grupo IIB e 19 aves florestais comuns. O artigo 234 do Código Penal vietnamita foi citado. A data exata da fiscalização, os nomes científicos, a origem das aves e o destino pretendido não foram informados. Portanto, 26/10 é data da divulgação/processo, não uma data de apreensão comprovada.\n\n[S] Monitoramento científico de uma década no Vietnã demonstra que comércio de fauna inclui aves e operações com efeitos de fiscalização e responsabilização. Estudo comparativo de Kalimantan examina respostas de mercado de aves engaioladas; não comprova rotas ou vínculos em Ninh Bình.\n\n[N] Reportagem vietnamita de março de 2026 no repositório trata da venda de fauna protegida em pontos comerciais. O vínculo é apenas temático, não entre suspeitos.",
+      "references_text_pt": "[VN_O_NINH] Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026 — https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "title_en": "Man charged over trade in 36 wild birds at Ninh Bình market",
+      "location_label_en": "Chợ Bể market, Giao Hưng, Ninh Bình, Vietnam — generalized provincial point",
+      "fauna_label_en": "36 birds: 17 Group IIB and 19 common forest birds",
+      "card_text_en": "Police announced proceedings on 26 October over trade in 36 birds at Chợ Bể market: 17 Group IIB and 19 common birds. Seizure date and species undisclosed.",
+      "context_en": "[O] On 26 October 2026, Ninh Bình police announced criminal proceedings against a man for buying, selling or exchanging 36 wild birds near Chợ Bể Market in Giao Hưng Commune. A joint police-and-forest-service inspection found 17 protected Group IIB birds and 19 common forest birds. Article 234 of Vietnam’s Criminal Code was invoked. The exact inspection date, species, capture origins and intended destinations were not disclosed. The 26 October date denotes public announcement/prosecution, not a verified seizure date.\n\n[S] A decade-long Vietnam wildlife-crime study documents bird trade and law-enforcement outcomes. Kalimantan caged-bird research offers a comparative market perspective without identifying any Ninh Bình route or actor.\n\n[N] A March 2026 Vietnamese story indexed in the news repository discusses sales of protected wildlife at commercial outlets; the connection is thematic, not between suspects.",
+      "references_text_en": "[VN_O_NINH] Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026 — https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "title_es": "Imputan a un hombre por comercializar 36 aves silvestres en mercado de Ninh Bình",
+      "location_label_es": "Mercado Chợ Bể, Giao Hưng, Ninh Bình, Vietnam — punto provincial generalizado",
+      "fauna_label_es": "36 aves: 17 del Grupo IIB y 19 comunes",
+      "card_text_es": "La policía anunció el 26/10 un proceso por comercio de 36 aves en el mercado Chợ Bể: 17 del Grupo IIB y 19 comunes. Fecha del decomiso y especies no divulgadas.",
+      "context_es": "[O] El 26 de octubre de 2026, la policía de Ninh Bình informó de un proceso penal contra un hombre por compra, venta o intercambio de 36 aves silvestres cerca del mercado Chợ Bể, comuna de Giao Hưng. Una inspección con personal forestal encontró 17 ejemplares del grupo protegido IIB y 19 aves forestales comunes. Se citó el artículo 234 del Código Penal. No se indicó la fecha exacta de inspección, las especies, el origen ni el destino de las aves. El 26 de octubre corresponde al anuncio/proceso, no a un decomiso fechado.\n\n[S] Un estudio vietnamita de diez años documenta comercio de aves y resultados judiciales. Una investigación comparativa de Kalimantan examina mercados de aves enjauladas, sin identificar rutas ni participantes de Ninh Bình.\n\n[N] Una noticia vietnamita de marzo de 2026 analiza ventas de fauna protegida en establecimientos; la relación es temática, no entre sospechosos.",
+      "references_text_es": "[VN_O_NINH] Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026 — https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+      "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. O ponto é provincial e não localiza o bairro, mercado ou apreensão.",
+      "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem.",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown"
     }
   ]
 }
