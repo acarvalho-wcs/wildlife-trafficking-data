@@ -1,0 +1,100 @@
+{
+  "id": "2019-2021__oregon-vietnam-multispecies-parts-sentencing-20261023",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "confirmed_trade_or_transport",
+  "event_date": null,
+  "publication_date": "2026-10-23",
+  "event_date_precision": "unknown",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Estados Unidos",
+  "taxon_text": "*Ursus americanus*; *Puma concolor*; *Panthera leo*; *Panthera tigris*; *Diceros bicornis*; *Ceratotherium simum*",
+  "coordinates": {
+    "lat": 44.0521,
+    "lon": -123.0868
+  },
+  "coordinate_precision": "court_city_center_generalized",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "source_label": "U.S. Department of Justice, 23 Oct 2026",
+  "source_url": "https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "US_O_DOJ",
+      "type": "case_source",
+      "label": "U.S. Department of Justice, 23 Oct 2026",
+      "url": "https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife"
+    },
+    {
+      "id": "US_S_MULTISPECIES",
+      "type": "scientific",
+      "label": "Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111553"
+    },
+    {
+      "id": "US_N_LAOS",
+      "type": "news",
+      "label": "Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026)",
+      "url": "https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "DOCUMENTED_GENERALIZED_ENDPOINTS",
+  "route_evidence": {
+    "verified": true,
+    "routes": [
+      {
+        "origin": "Oregon, United States",
+        "destination": "Vietnam",
+        "commodities": "American black bear gallbladders; cougar bones"
+      },
+      {
+        "origin": "Vietnam",
+        "destination": "Oregon, United States",
+        "commodities": "lion teeth; black and white rhinoceros horn segments; tiger pelt"
+      }
+    ],
+    "precision": "regional/country endpoints only",
+    "warning": "Direct DOJ shipping directions; not enough precision for point-to-point local cartography"
+  },
+  "review_notes": [
+    "Event interval September 2019–May 2021; court decision 23 Oct 2026",
+    "Do not count individual animals or parts: detailed quantities absent",
+    "Separate directional Oregon-to-Vietnam and Vietnam-to-Oregon commodity flows, not individual specimen coordinates"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "Casal é condenado por tráfico de partes de fauna entre Oregon e Vietnã",
+  "location_label_pt": "Eugene, Oregon, Estados Unidos — decisão judicial; comércio Oregon–Vietnã",
+  "fauna_label_pt": "Partes de ursos, pumas, leões, tigres e rinocerontes",
+  "card_text_pt": "Decisão judicial divulgada em 23/10/2026 sobre comércio de partes de fauna entre Oregon e Vietnã em 2019–2021. Quantidades não divulgadas; não representa nova apreensão em 2026.",
+  "context_pt": "[O] Em 23/10/2026, a Justiça federal em Eugene (Oregon) condenou um casal a três anos de liberdade supervisionada e multa de US$ 10 mil cada por violar o Lacey Act. Segundo o Departamento de Justiça, entre setembro de 2019 e maio de 2021 eles processaram US$ 51.100 em pagamentos de operações ilegais envolvendo itens de fauna entre Oregon e Vietnã. Vesículas biliares de urso-negro-americano e ossos de puma foram enviados ao Vietnã; dentes de leão, fragmentos de chifres de rinocerontes-negro e branco e pele de tigre foram importados para Oregon. Os volumes por espécie não foram publicados. Esta é uma decisão judicial em 2026 relativa a transações anteriores, não uma nova apreensão de 2026.\n\n[S] Modelo de tráfico multiespécies no repositório científico analisa incentivos econômicos e efeitos da fiscalização em mercados de diferentes espécies. Isso contextualiza o conjunto de produtos, mas não estima a estrutura financeira concreta deste processo.\n\n[N] Reportagem de investigação no Laos documenta a oferta clandestina de derivados de fauna, incluindo partes de grandes mamíferos, em mercados asiáticos. Não há evidência de ligação entre esses mercados e os condenados.",
+  "references_text_pt": "[US_O_DOJ] U.S. Department of Justice, 23 Oct 2026 — https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife\n[US_S_MULTISPECIES] Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs — https://doi.org/10.1016/j.biocon.2025.111553\n[US_N_LAOS] Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026) — https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe",
+  "title_en": "Couple sentenced for trafficking wildlife parts between Oregon and Vietnam",
+  "location_label_en": "Eugene, Oregon, United States — court decision; Oregon–Vietnam trade",
+  "fauna_label_en": "Bear, cougar, lion, tiger and rhinoceros parts",
+  "card_text_en": "Court decision reported on 23 October 2026 concerns wildlife-parts trade between Oregon and Vietnam in 2019–2021. Quantities undisclosed; this is not a new 2026 seizure.",
+  "context_en": "[O] On 23 October 2026, a federal court in Eugene, Oregon, sentenced a couple to three years of probation and a US$10,000 fine each for violating the Lacey Act. The U.S. Department of Justice reports they processed US$51,100 in payments connected with illegal wildlife shipments between Oregon and Vietnam during September 2019–May 2021. American black bear gallbladders and cougar bones went to Vietnam; lion teeth, black and white rhinoceros horn sections and a tiger pelt entered Oregon. Commodity quantities were not disclosed. This is a 2026 judicial outcome concerning earlier trade, not a new 2026 seizure.\n\n[S] A multi-species trafficking model in the research repository examines economic incentives and detection effects across different species. It contextualizes mixed wildlife commodities without reconstructing this case’s specific financial network.\n\n[N] Investigative reporting from Laos documents illicit sales of wildlife derivatives, including large-mammal parts, in Asian markets; it does not link these outlets to the convicted defendants.",
+  "references_text_en": "[US_O_DOJ] U.S. Department of Justice, 23 Oct 2026 — https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife\n[US_S_MULTISPECIES] Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs — https://doi.org/10.1016/j.biocon.2025.111553\n[US_N_LAOS] Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026) — https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe",
+  "title_es": "Condenan a una pareja por tráfico de partes de fauna entre Oregón y Vietnam",
+  "location_label_es": "Eugene, Oregón, Estados Unidos — decisión judicial; comercio Oregón–Vietnam",
+  "fauna_label_es": "Partes de osos, pumas, leones, tigres y rinocerontes",
+  "card_text_es": "Decisión judicial publicada el 23/10/2026 por comercio de partes de fauna entre Oregón y Vietnam en 2019–2021. Cantidades no divulgadas; no es un nuevo decomiso de 2026.",
+  "context_es": "[O] El 23 de octubre de 2026, un tribunal federal de Eugene (Oregón) condenó a una pareja a tres años de libertad vigilada y una multa de US$10.000 por persona por infracciones de la Ley Lacey. Según el Departamento de Justicia, gestionaron pagos por US$51.100 asociados a envíos ilegales de fauna entre Oregón y Vietnam entre septiembre de 2019 y mayo de 2021. Vesículas biliares de oso negro americano y huesos de puma se enviaron a Vietnam; dientes de león, fragmentos de cuernos de rinocerontes negros y blancos y una piel de tigre llegaron a Oregón. No se difundieron cantidades por producto. Es una resolución judicial de 2026 sobre hechos anteriores, no un nuevo decomiso.\n\n[S] Un modelo científico de tráfico multiespecie examina incentivos económicos y efectos de detección entre diferentes especies. Contextualiza la variedad de productos sin reconstruir la red financiera de este expediente.\n\n[N] Una investigación periodística en Laos documenta ventas clandestinas de derivados de grandes mamíferos en mercados asiáticos, sin vínculo probado con los condenados.",
+  "references_text_es": "[US_O_DOJ] U.S. Department of Justice, 23 Oct 2026 — https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife\n[US_S_MULTISPECIES] Modeling multi-species wildlife trafficking: Economic incentives, ecological risks, and enforcement tradeoffs — https://doi.org/10.1016/j.biocon.2025.111553\n[US_N_LAOS] Inside the secret Laos shops selling pangolin scales, bear bile and tiger bones (The Guardian, 2026) — https://www.theguardian.com/environment/2026/jul/14/laos-wildlife-pangolin-scales-bear-bile-and-tiger-bones-tourists-chinese-aoe",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+  "quantity_note_pt": "Partes de fauna sem contagem total confiável; valores monetários não convertidos em animais ou itens.",
+  "event_type": "judicial_decision",
+  "judicial_decision_date": "2026-10-23",
+  "event_period": "2019-09/2021-05"
+}

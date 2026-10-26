@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-22__santa-isabel-eldorado-27-caged-birds",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "illegal_possession_only_no_trade_evidence",
+  "event_date": "2026-10-22",
+  "publication_date": "2026-10-24",
+  "event_date_precision": "day",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Brasil",
+  "taxon_text": "Aves spp.",
+  "coordinates": {
+    "lat": -23.317,
+    "lon": -46.223
+  },
+  "coordinate_precision": "municipality_center_generalized",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "source_label": "Hoje Diário, 24 Oct 2026",
+  "source_url": "https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "animals",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "BR_O_SANTA",
+      "type": "case_source",
+      "label": "Hoje Diário, 24 Oct 2026",
+      "url": "https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/"
+    },
+    {
+      "id": "BR_S_BIRD",
+      "type": "scientific",
+      "label": "The live bird trade in Brazil and its conservation implications: an overview",
+      "url": "https://doi.org/10.1017/S095927091200010X"
+    },
+    {
+      "id": "BR_S_ISOTOPE",
+      "type": "scientific",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "url": "https://doi.org/10.1111/acv.70052"
+    },
+    {
+      "id": "BR_I_LEGAL",
+      "type": "institutional",
+      "label": "WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021)",
+      "url": "https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view"
+    },
+    {
+      "id": "BR_N_BREEDING",
+      "type": "news",
+      "label": "Criação amadora abastece o contrabando de aves (O Eco, 2023)",
+      "url": "https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_evidence": {
+    "verified": false,
+    "reason": "No source-supported origin-to-destination route suitable for mapping"
+  },
+  "review_notes": [
+    "27 reported birds, but two described as species permitted for domestic keeping: do not automatically aggregate 27 as wild native individuals",
+    "A distinct Santa Isabel case with 56 birds occurred 6 Oct 2026; do not merge",
+    "Classify as unauthorized captivity, not proven trafficking"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "GCM recolhe 27 aves de cativeiro irregular em Santa Isabel",
+  "location_label_pt": "Bairro Eldorado, Santa Isabel, São Paulo, Brasil",
+  "fauna_label_pt": "27 aves recolhidas; composição silvestre/doméstica não esclarecida",
+  "card_text_pt": "GCM recolheu 27 aves em 22/10; duas foram descritas como de espécies de criação doméstica. Quantidade de fauna silvestre não confirmada. Cativeiro irregular; comércio não comprovado.",
+  "context_pt": "[O] Em 22/10/2026, após denúncia anônima, a GCM de Santa Isabel vistoriou um imóvel do bairro Eldorado e recolheu 27 aves mantidas em 27 gaiolas. A reportagem reproduz declarações da GCM e de veterinários municipais, que apontaram espécies silvestres sem autorização e condições inadequadas de manutenção. O morador prestou esclarecimentos e foi liberado. A quantidade exata de aves nativas, a lista taxonômica e o destino final não foram confirmados; o texto menciona duas aves de espécies que podem ser criadas domesticamente e uma liberação prevista para após avaliação ambiental. Não foi documentada venda ou transporte ligado a comércio.\n\n[S] Estudo brasileiro sobre o comércio de aves vivas documenta demanda por aves de estimação e diversidade de espécies comercializadas; pesquisa forense de 2026 demonstra que a origem silvestre de aves apreendidas nem sempre pode ser inferida apenas pelo anilhamento. Esses resultados não estabelecem comércio nesta ocorrência.\n\n[I] Relatório jurídico da WCS Brasil (2021) distingue, no art. 29, §1º, III, da Lei 9.605/1998, condutas de venda, aquisição, guarda e cativeiro sem autorização. Referência normativa geral; o relatório não analisa Santa Isabel.\n\n[N] Reportagem de O Eco examina fraudes em registros de criação amadora de aves no Brasil. Serve de paralelo sobre rastreabilidade, sem indicar irregularidade cadastral neste imóvel.",
+  "references_text_pt": "[BR_O_SANTA] Hoje Diário, 24 Oct 2026 — https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+  "title_en": "Municipal guards seize 27 caged birds in Santa Isabel",
+  "location_label_en": "Eldorado district, Santa Isabel, São Paulo, Brazil",
+  "fauna_label_en": "27 birds recovered; wild/domestic breakdown unclear",
+  "card_text_en": "Municipal guards recovered 27 birds on 22 October; two were described as domestic-keeping species. The wild-bird total remains uncertain. Illegal captivity; trade not established.",
+  "context_en": "[O] On 22 October 2026, following an anonymous tip, Santa Isabel municipal guards inspected a property in Eldorado and recovered 27 birds kept in 27 cages. Municipal veterinary assessment, as described by the reporting, indicated unauthorized wild species and poor conditions. The keeper was questioned and released. The exact number of native wild birds, species list and final disposition remain unclear; the report mentions two birds of species that may be kept domestically and only a planned release after environmental review. No sale or trade-related transport was documented.\n\n[S] A Brazilian review documents demand for live pet birds, while a 2026 forensic study shows that wild origin cannot always be inferred from official rings alone. Neither study establishes trade in this seizure.\n\n[I] A 2021 WCS Brasil legal review distinguishes unauthorized sale, acquisition, keeping and captivity under Article 29(1)(III) of Law 9,605/1998. This is background legal analysis, not an investigation of Santa Isabel.\n\n[N] O Eco examines false records in amateur bird breeding in Brazil; this provides traceability context without suggesting such fraud at this property.",
+  "references_text_en": "[BR_O_SANTA] Hoje Diário, 24 Oct 2026 — https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+  "title_es": "Guardia municipal decomisa 27 aves en cautiverio irregular en Santa Isabel",
+  "location_label_es": "Barrio Eldorado, Santa Isabel, São Paulo, Brasil",
+  "fauna_label_es": "27 aves recogidas; composición silvestre/doméstica no aclarada",
+  "card_text_es": "Guardias recogieron 27 aves el 22/10; dos fueron descritas como especies de cría doméstica. Total de fauna silvestre no confirmado. Cautiverio irregular; comercio no demostrado.",
+  "context_es": "[O] El 22 de octubre de 2026, tras una denuncia anónima, la guardia municipal de Santa Isabel inspeccionó una vivienda en Eldorado y recogió 27 aves mantenidas en 27 jaulas. Según la noticia y la evaluación veterinaria municipal, había especies silvestres sin autorización y condiciones deficientes. El responsable declaró y fue liberado. No se confirmó el número exacto de aves silvestres nativas, la lista taxonómica ni su destino final; la nota menciona dos aves de especies que pueden criarse en el ámbito doméstico y una liberación solamente prevista. No consta venta ni transporte comercial.\n\n[S] Una revisión brasileña documenta la demanda de aves vivas como mascotas; un estudio forense de 2026 muestra que el origen silvestre no siempre puede inferirse de las anillas oficiales. Ninguno demuestra comercio en este caso.\n\n[I] El análisis jurídico de WCS Brasil (2021) distingue venta, adquisición, tenencia y cautiverio sin autorización conforme al art. 29, §1, III, de la Ley 9.605/1998. Es contexto normativo, no un análisis de Santa Isabel.\n\n[N] O Eco examina registros falsos en la cría aficionada brasileña; aporta contexto de trazabilidad sin atribuir fraude a esta vivienda.",
+  "references_text_es": "[BR_O_SANTA] Hoje Diário, 24 Oct 2026 — https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+  "reported_birds_total": 27,
+  "quantity_note_pt": "27 aves recolhidas, duas descritas como de espécies de criação doméstica; não é possível confirmar total de fauna silvestre. quantity_count=null evita somar indiscriminadamente as 27 aves aos totais.",
+  "quantity_note_en": "27 birds recovered, including two described as domestic-keeping species; the wildlife total cannot be established. Excluded from numeric wildlife totals by null quantity_count.",
+  "quantity_note_es": "27 aves recogidas, incluidas dos descritas como especies de cría doméstica; total de fauna silvestre no confirmado. quantity_count=null evita sumarlas indiscriminadamente."
+}

@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-undated__giao-hung-ninh-binh-36-traded-birds",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "confirmed_trade_or_transport",
+  "event_date": null,
+  "publication_date": "2026-10-26",
+  "event_date_precision": "unknown",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Vietnã",
+  "taxon_text": "Aves spp.",
+  "coordinates": {
+    "lat": 20.25,
+    "lon": 105.97
+  },
+  "coordinate_precision": "province_generalized_not_market_site",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "source_label": "Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026",
+  "source_url": "https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm",
+  "quantity_count": 36,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 36
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "VN_O_NINH",
+      "type": "case_source",
+      "label": "Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026",
+      "url": "https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm"
+    },
+    {
+      "id": "VN_S_MONITOR",
+      "type": "scientific",
+      "label": "Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024)",
+      "url": "https://doi.org/10.1016/j.jnc.2026.127292"
+    },
+    {
+      "id": "VN_S_BIRDS",
+      "type": "scientific",
+      "label": "Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan",
+      "url": "https://doi.org/10.1016/j.gecco.2026.e04193"
+    },
+    {
+      "id": "VN_N_NETWORKS",
+      "type": "news",
+      "label": "Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026)",
+      "url": "https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_evidence": {
+    "verified": false,
+    "reason": "No source-supported origin-to-destination route suitable for mapping"
+  },
+  "review_notes": [
+    "Exact seizure date absent; publication date must not be copied into event_date",
+    "36 is total live birds: 17 Group IIB + 19 common",
+    "Different province, market and defendant from Bắc Ninh case"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "Homem é indiciado por comércio de 36 aves silvestres em mercado de Ninh Bình",
+  "location_label_pt": "Mercado Chợ Bể, Giao Hưng, Ninh Bình, Vietnã — ponto provincial generalizado",
+  "fauna_label_pt": "36 aves: 17 do Grupo IIB e 19 comuns",
+  "card_text_pt": "Polícia anunciou em 26/10 processo por comércio de 36 aves no mercado Chợ Bể: 17 do Grupo IIB e 19 comuns. Data da fiscalização e espécies não divulgadas.",
+  "context_pt": "[O] Em 26/10/2026, a polícia da província de Ninh Bình anunciou procedimento criminal contra um homem por compra, venda ou troca de 36 aves no entorno do mercado Chợ Bể, comuna de Giao Hưng. Fiscalização conjunta com agentes florestais encontrou 17 indivíduos no Grupo IIB e 19 aves florestais comuns. O artigo 234 do Código Penal vietnamita foi citado. A data exata da fiscalização, os nomes científicos, a origem das aves e o destino pretendido não foram informados. Portanto, 26/10 é data da divulgação/processo, não uma data de apreensão comprovada.\n\n[S] Monitoramento científico de uma década no Vietnã demonstra que comércio de fauna inclui aves e operações com efeitos de fiscalização e responsabilização. Estudo comparativo de Kalimantan examina respostas de mercado de aves engaioladas; não comprova rotas ou vínculos em Ninh Bình.\n\n[N] Reportagem vietnamita de março de 2026 no repositório trata da venda de fauna protegida em pontos comerciais. O vínculo é apenas temático, não entre suspeitos.",
+  "references_text_pt": "[VN_O_NINH] Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026 — https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "title_en": "Man charged over trade in 36 wild birds at Ninh Bình market",
+  "location_label_en": "Chợ Bể market, Giao Hưng, Ninh Bình, Vietnam — generalized provincial point",
+  "fauna_label_en": "36 birds: 17 Group IIB and 19 common forest birds",
+  "card_text_en": "Police announced proceedings on 26 October over trade in 36 birds at Chợ Bể market: 17 Group IIB and 19 common birds. Seizure date and species undisclosed.",
+  "context_en": "[O] On 26 October 2026, Ninh Bình police announced criminal proceedings against a man for buying, selling or exchanging 36 wild birds near Chợ Bể Market in Giao Hưng Commune. A joint police-and-forest-service inspection found 17 protected Group IIB birds and 19 common forest birds. Article 234 of Vietnam’s Criminal Code was invoked. The exact inspection date, species, capture origins and intended destinations were not disclosed. The 26 October date denotes public announcement/prosecution, not a verified seizure date.\n\n[S] A decade-long Vietnam wildlife-crime study documents bird trade and law-enforcement outcomes. Kalimantan caged-bird research offers a comparative market perspective without identifying any Ninh Bình route or actor.\n\n[N] A March 2026 Vietnamese story indexed in the news repository discusses sales of protected wildlife at commercial outlets; the connection is thematic, not between suspects.",
+  "references_text_en": "[VN_O_NINH] Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026 — https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "title_es": "Imputan a un hombre por comercializar 36 aves silvestres en mercado de Ninh Bình",
+  "location_label_es": "Mercado Chợ Bể, Giao Hưng, Ninh Bình, Vietnam — punto provincial generalizado",
+  "fauna_label_es": "36 aves: 17 del Grupo IIB y 19 comunes",
+  "card_text_es": "La policía anunció el 26/10 un proceso por comercio de 36 aves en el mercado Chợ Bể: 17 del Grupo IIB y 19 comunes. Fecha del decomiso y especies no divulgadas.",
+  "context_es": "[O] El 26 de octubre de 2026, la policía de Ninh Bình informó de un proceso penal contra un hombre por compra, venta o intercambio de 36 aves silvestres cerca del mercado Chợ Bể, comuna de Giao Hưng. Una inspección con personal forestal encontró 17 ejemplares del grupo protegido IIB y 19 aves forestales comunes. Se citó el artículo 234 del Código Penal. No se indicó la fecha exacta de inspección, las especies, el origen ni el destino de las aves. El 26 de octubre corresponde al anuncio/proceso, no a un decomiso fechado.\n\n[S] Un estudio vietnamita de diez años documenta comercio de aves y resultados judiciales. Una investigación comparativa de Kalimantan examina mercados de aves enjauladas, sin identificar rutas ni participantes de Ninh Bình.\n\n[N] Una noticia vietnamita de marzo de 2026 analiza ventas de fauna protegida en establecimientos; la relación es temática, no entre sospechosos.",
+  "references_text_es": "[VN_O_NINH] Tuổi Trẻ citing Ninh Bình provincial police, 26 Oct 2026 — https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. O ponto é provincial e não localiza o bairro, mercado ou apreensão.",
+  "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem."
+}

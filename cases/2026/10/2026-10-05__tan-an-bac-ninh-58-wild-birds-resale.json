@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-05__tan-an-bac-ninh-58-wild-birds-resale",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "confirmed_trade_or_transport",
+  "event_date": "2026-10-05",
+  "publication_date": "2026-10-24",
+  "event_date_precision": "day",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Vietnã",
+  "taxon_text": "Aves spp.",
+  "coordinates": {
+    "lat": 21.2,
+    "lon": 106.1
+  },
+  "coordinate_precision": "province_generalized_not_seizure_site",
+  "modal_primary": "Terrestre",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "source_label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+  "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
+  "quantity_count": 58,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 58
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "VN_O_MPS",
+      "type": "case_source",
+      "label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+      "url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014"
+    },
+    {
+      "id": "VN_S_MONITOR",
+      "type": "scientific",
+      "label": "Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024)",
+      "url": "https://doi.org/10.1016/j.jnc.2026.127292"
+    },
+    {
+      "id": "VN_S_BIRDS",
+      "type": "scientific",
+      "label": "Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan",
+      "url": "https://doi.org/10.1016/j.gecco.2026.e04193"
+    },
+    {
+      "id": "VN_N_NETWORKS",
+      "type": "news",
+      "label": "Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026)",
+      "url": "https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_evidence": {
+    "verified": false,
+    "reason": "No source-supported origin-to-destination route suitable for mapping"
+  },
+  "review_notes": [
+    "58 total birds is confirmed: 19 Group IIB + 39 common",
+    "Do not invent individual taxonomic names",
+    "Previous administrative infraction is separate, not a duplicate wildlife case"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "Polícia de Bắc Ninh apreende 58 aves transportadas para venda",
+  "location_label_pt": "Tân An, Bắc Ninh, Vietnã — ponto provincial generalizado",
+  "fauna_label_pt": "58 aves: 19 do Grupo IIB e 39 comuns",
+  "card_text_pt": "Em 05/10, polícia interceptou motociclista com 58 aves para venda: 19 do Grupo IIB e 39 comuns. Espécies e origem não divulgadas. Notícia publicada em 24/10.",
+  "context_pt": "[O] Em 05/10/2026, às 16h, a polícia de Tân An flagrou um homem transportando em motocicleta gaiolas com 58 aves silvestres para comercialização na rua. Laudo oficial registrou 19 indivíduos no Grupo IIB de proteção vietnamita e 39 aves florestais comuns. Segundo a polícia, o homem habitualmente comprava e revendia aves com margem de lucro, tendo sido autuado administrativamente em 31/12/2025 por manter fauna irregularmente. Foi instaurado procedimento penal com base no artigo 234. Não foram divulgadas as espécies, as origens de captura ou os destinos previstos. A divulgação ocorreu em 24/10, mas a apreensão foi em 05/10.\n\n[S] O monitoramento científico nacional de 2014–2024 documenta apreensões de aves e outros táxons no Vietnã. Estudo de mercado de aves engaioladas em Kalimantan é comparável quanto à pressão de demanda e fiscalização, mas não cobre Bắc Ninh nem identifica estas espécies.\n\n[N] Reportagem vietnamita indexada sobre comércio de espécies protegidas oferece contexto do mercado doméstico de fauna, sem indicar que este vendedor integre uma rede ali descrita.",
+  "references_text_pt": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "title_en": "Bắc Ninh police seize 58 wild birds being transported for roadside sale",
+  "location_label_en": "Tân An, Bắc Ninh, Vietnam — generalized provincial point",
+  "fauna_label_en": "58 birds: 19 Group IIB and 39 common forest birds",
+  "card_text_en": "On 5 October, police intercepted a motorcyclist carrying 58 birds for sale: 19 Group IIB and 39 common birds. Species and origin undisclosed. Report published 24 October.",
+  "context_en": "[O] At about 16:00 on 5 October 2026, Tân An officers stopped a motorcyclist carrying cages with 58 wild birds for sale to passersby. The official examination classified 19 birds as Vietnamese protected Group IIB and 39 as common forest birds. Police stated that the seller habitually purchased and resold birds for profit and had been administratively penalized on 31 December 2025 for improper wildlife confinement. Criminal proceedings under Article 234 were initiated. Species, capture origins and intended destinations were not disclosed. The release was published on 24 October; the seizure was on 5 October.\n\n[S] A national 2014–2024 study documents bird and other taxon seizures in Vietnam. Research on caged-bird trade in Kalimantan provides an enforcement-and-demand comparison, but neither study investigates these 58 birds.\n\n[N] Indexed Vietnamese reporting on the sale of protected wildlife provides domestic-market context; it does not place this seller in any reported network.",
+  "references_text_en": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "title_es": "Policía de Bắc Ninh decomisa 58 aves transportadas para venta callejera",
+  "location_label_es": "Tân An, Bắc Ninh, Vietnam — punto provincial generalizado",
+  "fauna_label_es": "58 aves: 19 del Grupo IIB y 39 comunes",
+  "card_text_es": "El 05/10, la policía interceptó a un motociclista con 58 aves para venta: 19 del Grupo IIB y 39 comunes. Especies y origen no divulgados. Publicado el 24/10.",
+  "context_es": "[O] El 5 de octubre de 2026 a las 16:00, policías de Tân An detectaron una motocicleta que transportaba jaulas con 58 aves silvestres ofrecidas a transeúntes. El examen oficial clasificó 19 ejemplares en el grupo protegido IIB de Vietnam y 39 como aves forestales comunes. La policía indicó que el vendedor compraba y revendía habitualmente con fines de lucro y había sido sancionado administrativamente el 31 de diciembre de 2025 por cautiverio ilegal. Se inició proceso penal conforme al artículo 234. No se publicaron especies, lugares de captura ni destinos. La noticia es del 24 de octubre, pero el decomiso ocurrió el 5.\n\n[S] El estudio nacional 2014–2024 documenta decomisos de aves y otros grupos en Vietnam. Una investigación sobre aves enjauladas de Kalimantan aporta un paralelo de demanda y control, sin estudiar estas 58 aves.\n\n[N] Una noticia vietnamita indexada sobre venta de fauna protegida ofrece contexto del mercado interno; no atribuye al vendedor pertenencia a una red reseñada.",
+  "references_text_es": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_S_BIRDS] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. O ponto é provincial e não localiza o bairro, mercado ou apreensão.",
+  "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem."
+}

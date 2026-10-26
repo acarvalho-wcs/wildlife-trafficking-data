@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-23__mae-sot-tha-sai-luat-one-red-panda",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "confirmed_trade_or_transport",
+  "event_date": "2026-10-23",
+  "publication_date": "2026-10-25",
+  "event_date_precision": "day",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Tailândia",
+  "taxon_text": "*Ailurus fulgens* sensu lato (identificação noticiada como panda-vermelho)",
+  "coordinates": {
+    "lat": 16.714,
+    "lon": 98.574
+  },
+  "coordinate_precision": "district_center_generalized",
+  "modal_primary": "Terrestre",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "source_label": "Thailand Department of National Parks, 25 Oct 2026",
+  "source_url": "https://news.dnp.go.th/news/50378",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "TH_O_DNP",
+      "type": "case_source",
+      "label": "Thailand Department of National Parks, 25 Oct 2026",
+      "url": "https://news.dnp.go.th/news/50378"
+    },
+    {
+      "id": "TH_S_REVIEW",
+      "type": "scientific",
+      "label": "A review of the threat of unsustainable wildlife trade to global biodiversity and society",
+      "url": "https://doi.org/10.1007/s10344-025-01990-9"
+    },
+    {
+      "id": "TH_N_AFP",
+      "type": "news",
+      "label": "En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026)",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021"
+    },
+    {
+      "id": "TH_O_CORROBORATION",
+      "type": "case_source",
+      "label": "Daily News, 25 October 2026 — independent corroboration of DNP account",
+      "url": "https://www.dailynews.co.th/news/6303808/"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_evidence": {
+    "verified": false,
+    "reason": "No source-supported origin-to-destination route suitable for mapping"
+  },
+  "review_notes": [
+    "Do not draw Thailand–Myanmar route merely because Mae Sot is a border city",
+    "Red panda identified by Thai Department of National Parks; consider Ailurus fulgens sensu lato if taxonomy revisited"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "Polícia tailandesa intercepta panda-vermelho oculto em picape em Mae Sot",
+  "location_label_pt": "Tha Sai Luat, Mae Sot, Tak, Tailândia",
+  "fauna_label_pt": "Um panda-vermelho vivo",
+  "card_text_pt": "Polícia interceptou uma picape com um panda-vermelho em 23/10, sem documentos de posse ou importação apresentados. Origem, destino e travessia internacional não comprovados.",
+  "context_pt": "[O] Às 19h30 de 23/10/2026, policiais em Mae Sot, província de Tak, pararam uma picape suspeita na rua Seree Thai, subdistrito de Tha Sai Luat, e encontraram um panda-vermelho vivo oculto no veículo. Dois homens foram detidos e não apresentaram licenças de posse ou importação. A estação de fiscalização de fauna recebeu o animal em 24/10 para cuidados veterinários. O DNP tailandês divulgou o caso em 25/10. A espécie é listada no Apêndice I da CITES. O ponto de origem, o país de proveniência, o destino e eventual cruzamento da fronteira com Mianmar não foram comprovados pela notícia oficial.\n\n[S] Revisão científica sobre comércio insustentável de fauna documenta impactos de captura e transporte sobre espécies ameaçadas, mas não investiga especificamente a origem deste panda-vermelho; não foi identificado no repositório um estudo específico que conecte a espécie ao evento.\n\n[N] Reportagem da AFP no repositório descreve unidades tailandesas de inteligência e operações contra o tráfico, inclusive transfronteiriço. É um paralelo institucional, não prova de rede ou rota neste evento.",
+  "references_text_pt": "[TH_O_DNP] Thailand Department of National Parks, 25 Oct 2026 — https://news.dnp.go.th/news/50378\n[TH_S_REVIEW] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9\n[TH_N_AFP] En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026) — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[TH_O_CORROBORATION] Daily News, 25 October 2026 — independent corroboration of DNP account — https://www.dailynews.co.th/news/6303808/",
+  "title_en": "Thai police find red panda concealed in pickup truck in Mae Sot",
+  "location_label_en": "Tha Sai Luat, Mae Sot, Tak, Thailand",
+  "fauna_label_en": "One live red panda",
+  "card_text_en": "Police intercepted a pickup carrying one red panda on 23 October; possession/import papers were not produced. Origin, destination and any border crossing remain unconfirmed.",
+  "context_en": "[O] At about 19:30 on 23 October 2026, Mae Sot police stopped a suspicious pickup truck on Seree Thai Road in Tha Sai Luat, Tak, finding one live red panda concealed inside. Two men could not produce possession or import permits and were detained. The Mae Sot wildlife checkpoint received the animal on 24 October for veterinary care, according to the 25 October Department of National Parks notice. The red panda is CITES Appendix I. Neither country of origin nor intended destination nor an actual Myanmar–Thailand border crossing was documented.\n\n[S] A review of unsustainable wildlife trade discusses conservation impacts of capture and movement of threatened species. It does not identify this animal’s origin; no repository study was found directly linking the red panda to the incident.\n\n[N] An AFP report in the news repository describes Thai wildlife intelligence and anti-trafficking operations, including cross-border investigations. It is institutional context, not evidence of this animal’s route or network.",
+  "references_text_en": "[TH_O_DNP] Thailand Department of National Parks, 25 Oct 2026 — https://news.dnp.go.th/news/50378\n[TH_S_REVIEW] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9\n[TH_N_AFP] En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026) — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[TH_O_CORROBORATION] Daily News, 25 October 2026 — independent corroboration of DNP account — https://www.dailynews.co.th/news/6303808/",
+  "title_es": "Policía tailandesa intercepta un panda rojo oculto en una camioneta en Mae Sot",
+  "location_label_es": "Tha Sai Luat, Mae Sot, Tak, Tailandia",
+  "fauna_label_es": "Un panda rojo vivo",
+  "card_text_es": "La policía interceptó una camioneta con un panda rojo el 23/10, sin documentos de tenencia o importación. Origen, destino y cruce fronterizo no confirmados.",
+  "context_es": "[O] Aproximadamente a las 19:30 del 23 de octubre de 2026, la policía de Mae Sot detuvo una camioneta en la carretera Seree Thai, Tha Sai Luat, provincia de Tak, y halló un panda rojo vivo oculto. Dos hombres fueron detenidos al no presentar permisos de tenencia o importación. La estación de control de fauna recibió al animal el 24 de octubre para atención veterinaria, según un comunicado del 25 de octubre del departamento tailandés. La especie figura en el Apéndice I de CITES. No se documentaron país de origen, destino previsto ni cruce efectivo de la frontera con Myanmar.\n\n[S] Una revisión del comercio insostenible de fauna examina impactos de captura y transporte sobre especies amenazadas; no determina el origen de este panda rojo y no se halló un estudio del repositorio que lo vincule al incidente.\n\n[N] Un reportaje de AFP examina inteligencia y operativos tailandeses contra el tráfico, incluidos casos transfronterizos. Aporta contexto institucional y no demuestra una ruta ni red concreta.",
+  "references_text_es": "[TH_O_DNP] Thailand Department of National Parks, 25 Oct 2026 — https://news.dnp.go.th/news/50378\n[TH_S_REVIEW] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9\n[TH_N_AFP] En ligne ou infiltrés, ils luttent contre le trafic d’animaux sauvages en Thaïlande (AFP, 2026) — https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[TH_O_CORROBORATION] Daily News, 25 October 2026 — independent corroboration of DNP account — https://www.dailynews.co.th/news/6303808/",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+  "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem.",
+  "event_datetime": "2026-10-23T12:30:00Z",
+  "event_timezone": "Asia/Bangkok"
+}

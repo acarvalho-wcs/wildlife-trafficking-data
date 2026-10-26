@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-26",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -11907,6 +11907,120 @@
       "source_label": "NUCOM/PRF Bahia via Acorda Cidade e Blog do Caique Santos",
       "source_url": "https://www.acordacidade.com.br/policia/policia-resgata-cinco-aves-mantidas-em-maus-tratos-dentro-de-onibus-em-conquista/",
       "source_evidence_type": "attributed_passenger_statement"
+    },
+    {
+      "id": "oregon-vietnam-wildlife-parts-2019-2021",
+      "event_id": "2019-2021__oregon-vietnam-multispecies-parts-sentencing-20261023",
+      "event_match": {
+        "event_id": "2019-2021__oregon-vietnam-multispecies-parts-sentencing-20261023"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Oregon → Vietnã (2019–2021)",
+      "label_en": "Oregon → Vietnam (2019–2021)",
+      "label_es": "Oregón → Vietnam (2019–2021)",
+      "segments": [
+        {
+          "from": {
+            "name": "Oregon",
+            "country": "Estados Unidos",
+            "lat": 44,
+            "lon": -120.5,
+            "precision": "state_generalized_not_shipping_address"
+          },
+          "to": {
+            "name": "Vietnã",
+            "country": "Vietnã",
+            "lat": 16,
+            "lon": 107.5,
+            "precision": "country_generalized_not_shipping_address"
+          }
+        }
+      ],
+      "evidence_pt": "O DOJ documenta remessas de vesículas de urso-negro-americano e ossos de puma de Oregon ao Vietnã entre 2019 e 2021. Não foram informados endereços, portos ou itinerários; decisão judicial de 23/10/2026.",
+      "evidence_en": "DOJ documents American black bear gallbladders and cougar bones shipped from Oregon to Vietnam in 2019–2021. Addresses, ports and itineraries undisclosed; court decision dated 23 October 2026.",
+      "evidence_es": "El DOJ documenta envíos de vesículas de oso negro americano y huesos de puma desde Oregón a Vietnam en 2019–2021. Direcciones, puertos e itinerarios no divulgados; sentencia del 23/10/2026.",
+      "source_label": "U.S. Department of Justice, 23 Oct 2026",
+      "source_url": "https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife",
+      "precision_note": "Generalized endpoints indicate documented movement between broad areas, not precise shipment/capture addresses or an actual travel itinerary."
+    },
+    {
+      "id": "vietnam-oregon-wildlife-parts-2019-2021",
+      "event_id": "2019-2021__oregon-vietnam-multispecies-parts-sentencing-20261023",
+      "event_match": {
+        "event_id": "2019-2021__oregon-vietnam-multispecies-parts-sentencing-20261023"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Vietnã → Oregon (2019–2021)",
+      "label_en": "Vietnam → Oregon (2019–2021)",
+      "label_es": "Vietnam → Oregón (2019–2021)",
+      "segments": [
+        {
+          "from": {
+            "name": "Vietnã",
+            "country": "Vietnã",
+            "lat": 16,
+            "lon": 107.5,
+            "precision": "country_generalized_not_shipping_address"
+          },
+          "to": {
+            "name": "Oregon",
+            "country": "Estados Unidos",
+            "lat": 44,
+            "lon": -120.5,
+            "precision": "state_generalized_not_shipping_address"
+          }
+        }
+      ],
+      "evidence_pt": "O DOJ documenta importação para Oregon de dentes de leão, fragmentos de chifres de rinocerontes-negro e branco e pele de tigre em transações com Vietnã. Pontos regionais generalizados; não são localidades de caça ou itinerários conhecidos.",
+      "evidence_en": "DOJ documents imports into Oregon of lion teeth, black and white rhinoceros horn segments and a tiger pelt in transactions with Vietnam. Broad regional endpoints are not known hunting sites or travel itineraries.",
+      "evidence_es": "El DOJ documenta importaciones hacia Oregón de dientes de león, fragmentos de cuernos de rinocerontes negro y blanco y piel de tigre en transacciones con Vietnam. Extremos regionales generalizados; no identifican lugares de caza ni itinerarios.",
+      "source_label": "U.S. Department of Justice, 23 Oct 2026",
+      "source_url": "https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife",
+      "precision_note": "Generalized endpoints indicate documented movement between broad areas, not precise shipment/capture addresses or an actual travel itinerary."
+    },
+    {
+      "id": "quang-ninh-tan-an-king-cobra-2026-05",
+      "event_id": "2026-05-10__tan-an-bac-ninh-king-cobra-resale",
+      "event_match": {
+        "event_id": "2026-05-10__tan-an-bac-ninh-king-cobra-resale"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Quảng Ninh → Tân An, Bắc Ninh (maio/2026)",
+      "label_en": "Quảng Ninh → Tân An, Bắc Ninh (May 2026)",
+      "label_es": "Quảng Ninh → Tân An, Bắc Ninh (mayo/2026)",
+      "segments": [
+        {
+          "from": {
+            "name": "Quảng Ninh",
+            "country": "Vietnã",
+            "lat": 21.05,
+            "lon": 107.3,
+            "precision": "province_generalized_not_capture_site"
+          },
+          "to": {
+            "name": "Tân An, Bắc Ninh — ponto provincial",
+            "country": "Vietnã",
+            "lat": 21.2,
+            "lon": 106.1,
+            "precision": "province_generalized_not_seizure_site"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo o Ministério da Segurança Pública, a cobra foi comprada em floresta não especificada de Quảng Ninh em 07/05 e levada para guarda e revenda; foi encontrada em Tân An, Bắc Ninh, em 10/05. O segmento liga apenas os locais documentados dessa sequência; sem estradas ou paradas intermediárias inferidas.",
+      "evidence_en": "According to the Ministry of Public Security, the cobra was purchased in an unspecified Quảng Ninh forest on 7 May and taken away for keeping and resale; police found it in Tân An, Bắc Ninh, on 10 May. The segment links documented locations only; no roads or intermediate stops are inferred.",
+      "evidence_es": "Según el Ministerio de Seguridad Pública, la cobra fue comprada en un bosque no especificado de Quảng Ninh el 07/05 y trasladada para mantenerla y revenderla; fue localizada en Tân An, Bắc Ninh, el 10/05. Solo se unen lugares documentados, sin inferir carreteras ni escalas.",
+      "source_label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+      "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
+      "precision_note": "Generalized endpoints indicate documented movement between broad areas, not precise shipment/capture addresses or an actual travel itinerary."
     }
   ],
   "network_context": [

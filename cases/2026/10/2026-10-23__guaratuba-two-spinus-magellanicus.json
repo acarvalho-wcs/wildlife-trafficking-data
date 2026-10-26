@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-23__guaratuba-two-spinus-magellanicus",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "illegal_possession_only_no_trade_evidence",
+  "event_date": "2026-10-23",
+  "publication_date": "2026-10-24",
+  "event_date_precision": "day",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Brasil",
+  "taxon_text": "*Spinus magellanicus*",
+  "coordinates": {
+    "lat": -25.882,
+    "lon": -48.575
+  },
+  "coordinate_precision": "municipality_center_generalized",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "source_label": "Grupo Litorânea, 24 Oct 2026",
+  "source_url": "https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "BR_O_GUARA",
+      "type": "case_source",
+      "label": "Grupo Litorânea, 24 Oct 2026",
+      "url": "https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/"
+    },
+    {
+      "id": "BR_S_BIRD",
+      "type": "scientific",
+      "label": "The live bird trade in Brazil and its conservation implications: an overview",
+      "url": "https://doi.org/10.1017/S095927091200010X"
+    },
+    {
+      "id": "BR_S_ISOTOPE",
+      "type": "scientific",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "url": "https://doi.org/10.1111/acv.70052"
+    },
+    {
+      "id": "BR_I_LEGAL",
+      "type": "institutional",
+      "label": "WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021)",
+      "url": "https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view"
+    },
+    {
+      "id": "BR_N_BREEDING",
+      "type": "news",
+      "label": "Criação amadora abastece o contrabando de aves (O Eco, 2023)",
+      "url": "https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_evidence": {
+    "verified": false,
+    "reason": "No source-supported origin-to-destination route suitable for mapping"
+  },
+  "review_notes": [
+    "Species explicitly identified as Spinus magellanicus",
+    "Illegal keeping is substantiated, but no commercial trafficking activity is reported"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "Polícia Ambiental apreende dois pintassilgos sem autorização em Guaratuba",
+  "location_label_pt": "Guaratuba, Paraná, Brasil",
+  "fauna_label_pt": "Dois pintassilgos",
+  "card_text_pt": "Em 23/10, a Polícia Ambiental apreendeu dois pintassilgos mantidos sem autorização e os encaminhou ao IAT. Não há venda ou rota comercial documentada.",
+  "context_pt": "[O] Em 23/10/2026, a Polícia Militar Ambiental encontrou duas gaiolas contendo dois pintassilgos (*Spinus magellanicus*) na área externa de uma residência em Guaratuba (PR). As aves estavam sem a autorização exigida; houve um termo circunstanciado, um auto de infração e encaminhamento das aves e gaiolas ao Instituto Água e Terra, no Parque do Palmito. A fonte não indica captura original, compra, venda, comprador ou rota comercial.\n\n[S] A revisão sobre o comércio de aves vivas no Brasil documenta a importância das aves canoras no mercado ilegal. O estudo isotópico de 2026 fornece métodos para distinguir possíveis origens silvestres e cativas em passeriformes; não analisa estas duas aves.\n\n[I] O relatório jurídico WCS Brasil (2021) contextualiza a guarda e manutenção não autorizadas de espécimes nativos no art. 29, §1º, III, da Lei 9.605/1998, independentemente de prova de venda.\n\n[N] A investigação de O Eco sobre criação amadora e contrabando de aves discute falhas de rastreabilidade; trata de problema nacional, sem vínculo demonstrado com Guaratuba.",
+  "references_text_pt": "[BR_O_GUARA] Grupo Litorânea, 24 Oct 2026 — https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+  "title_en": "Environmental police seize two illegally kept hooded siskins in Guaratuba",
+  "location_label_en": "Guaratuba, Paraná, Brazil",
+  "fauna_label_en": "Two hooded siskins",
+  "card_text_en": "On 23 October, environmental police seized two hooded siskins kept without permission and transferred them to IAT. No sale or trade route was documented.",
+  "context_en": "[O] On 23 October 2026, environmental police found two cages holding two hooded siskins (*Spinus magellanicus*) outside a residence in Guaratuba, Paraná. Required permission was absent. Officers issued a police incident record and an environmental citation, forwarding the birds and cages to the state environmental institute at Parque do Palmito. Their origin, acquisition, sale, buyer and any trade route were not reported.\n\n[S] Research on Brazilian live-bird trade describes the market for songbirds. A 2026 isotope study presents methods to distinguish wild and captive provenance in songbirds, but did not test these two individuals.\n\n[I] A 2021 WCS Brasil legal report contextualizes unauthorized possession and captivity of native wildlife under Article 29(1)(III) of Law 9,605/1998, regardless of evidence of sale.\n\n[N] O Eco investigates traceability failures in amateur bird breeding; this is a national-level comparison, not evidence linking Guaratuba to a trafficking network.",
+  "references_text_en": "[BR_O_GUARA] Grupo Litorânea, 24 Oct 2026 — https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+  "title_es": "Policía Ambiental decomisa dos jilgueros encapuchados sin permiso en Guaratuba",
+  "location_label_es": "Guaratuba, Paraná, Brasil",
+  "fauna_label_es": "Dos jilgueros encapuchados",
+  "card_text_es": "El 23/10, la Policía Ambiental decomisó dos jilgueros encapuchados sin permiso y los trasladó al IAT. No se documentó venta ni ruta comercial.",
+  "context_es": "[O] El 23 de octubre de 2026, la Policía Ambiental encontró dos jaulas con dos jilgueros encapuchados (*Spinus magellanicus*) en el exterior de una vivienda de Guaratuba, Paraná. No existía autorización de tenencia. Se levantó un acta penal y una infracción administrativa, y las aves y jaulas fueron enviadas al Instituto Água e Terra en Parque do Palmito. No se documentaron origen, compra, venta, comprador ni ruta comercial.\n\n[S] La literatura sobre comercio de aves vivas en Brasil describe la demanda de aves canoras. Un estudio isotópico de 2026 presenta métodos para diferenciar su origen silvestre o cautivo, pero no examinó estos dos ejemplares.\n\n[I] El informe jurídico de WCS Brasil (2021) contextualiza la tenencia y el cautiverio no autorizados de fauna nativa conforme al art. 29, §1, III, de la Ley 9.605/1998, aun sin venta demostrada.\n\n[N] La investigación de O Eco analiza fallos de trazabilidad en la cría aficionada; es un paralelo nacional sin conexión comprobada con Guaratuba.",
+  "references_text_es": "[BR_O_GUARA] Grupo Litorânea, 24 Oct 2026 — https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/\n[BR_S_BIRD] The live bird trade in Brazil and its conservation implications: an overview — https://doi.org/10.1017/S095927091200010X\n[BR_S_ISOTOPE] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[BR_I_LEGAL] WCS Brasil — Análise Jurídica do Tráfico de Animais Silvestres no Brasil (2021) — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[BR_N_BREEDING] Criação amadora abastece o contrabando de aves (O Eco, 2023) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+  "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem."
+}

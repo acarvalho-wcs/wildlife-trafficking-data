@@ -1,0 +1,107 @@
+{
+  "batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "date": "2026-10-26",
+  "base_commit": "24e40d0416728d333d6342234d21e452d21781cc",
+  "baseline_count": 1218,
+  "expected_count": 1226,
+  "records": [
+    {
+      "id": "2026-10-22__santa-isabel-eldorado-27-caged-birds",
+      "source_url": "https://hojediario.com/2026/10/24/gcm-apreende-aves-silvestres-mantidas-em-gaiolas-em-santa-isabel/",
+      "event_date": "2026-10-22",
+      "publication_date": "2026-10-24",
+      "quantity_count": null,
+      "quantity_kind": "animals",
+      "coordinate_precision": "municipality_center_generalized"
+    },
+    {
+      "id": "2026-10-23__guaratuba-two-spinus-magellanicus",
+      "source_url": "https://litoranea.fm/policia-ambiental-apreende-aves-silvestres-em-guaratuba/",
+      "event_date": "2026-10-23",
+      "publication_date": "2026-10-24",
+      "quantity_count": 2,
+      "quantity_kind": "animals",
+      "coordinate_precision": "municipality_center_generalized"
+    },
+    {
+      "id": "2019-2021__oregon-vietnam-multispecies-parts-sentencing-20261023",
+      "source_url": "https://www.justice.gov/opa/pr/california-couple-sentenced-trafficking-protected-wildlife",
+      "event_date": null,
+      "publication_date": "2026-10-23",
+      "quantity_count": null,
+      "quantity_kind": "wildlife_items",
+      "coordinate_precision": "court_city_center_generalized"
+    },
+    {
+      "id": "2026-10-23__mae-sot-tha-sai-luat-one-red-panda",
+      "source_url": "https://news.dnp.go.th/news/50378",
+      "event_date": "2026-10-23",
+      "publication_date": "2026-10-25",
+      "quantity_count": 1,
+      "quantity_kind": "animals",
+      "coordinate_precision": "district_center_generalized"
+    },
+    {
+      "id": "2026-05-10__tan-an-bac-ninh-king-cobra-resale",
+      "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
+      "event_date": "2026-05-10",
+      "publication_date": "2026-10-24",
+      "quantity_count": 1,
+      "quantity_kind": "animals",
+      "coordinate_precision": "province_generalized_not_seizure_site"
+    },
+    {
+      "id": "2026-10-05__tan-an-bac-ninh-58-wild-birds-resale",
+      "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
+      "event_date": "2026-10-05",
+      "publication_date": "2026-10-24",
+      "quantity_count": 58,
+      "quantity_kind": "animals",
+      "coordinate_precision": "province_generalized_not_seizure_site"
+    },
+    {
+      "id": "2026-10-undated__giao-hung-ninh-binh-36-traded-birds",
+      "source_url": "https://tuoitre.vn/buon-ban-36-con-chim-hoang-da-nguoi-dan-ong-o-ninh-binh-bi-khoi-to-100261026124738424.htm",
+      "event_date": null,
+      "publication_date": "2026-10-26",
+      "quantity_count": 36,
+      "quantity_kind": "animals",
+      "coordinate_precision": "province_generalized_not_market_site"
+    },
+    {
+      "id": "2026-10-23__mysuru-chikkahalli-one-elephant-tusk",
+      "source_url": "https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/",
+      "event_date": "2026-10-23",
+      "publication_date": "2026-10-25",
+      "quantity_count": 1,
+      "quantity_kind": "wildlife_items",
+      "coordinate_precision": "district_city_center_generalized"
+    }
+  ],
+  "deduplication": "All eight IDs and observed-source URLs checked against all 1218 canonical records. Existing Santa Isabel 56-bird case (6 October) and Mysuru May ivory case are distinct. Two Bac Ninh cases share an official article but have distinct dates, taxa and events.",
+  "validation": "case_store.py validate: 1226 records; no errors; unique IDs and explicit aggregate controls.",
+  "quantity_safeguards": [
+    "Santa Isabel: 27 reported birds include two described as domestic-keeping species; numeric wildlife count left null.",
+    "Oregon–Vietnam: unknown item total; no animal count inferred.",
+    "Mysuru: one tusk counted as one wildlife item; approximately 1.5 kg stored separately."
+  ],
+  "temporal_safeguards": [
+    "Oregon–Vietnam relates to 2019–2021 transactions, not a 2026 seizure.",
+    "King cobra physically seized 10 May 2026; official update 24 October.",
+    "Ninh Binh seizure date unknown; 26 October is publication/prosecution disclosure only."
+  ],
+  "routes_added": [
+    "oregon-vietnam-wildlife-parts-2019-2021",
+    "vietnam-oregon-wildlife-parts-2019-2021",
+    "quang-ninh-tan-an-king-cobra-2026-05"
+  ],
+  "no_route_for_other_records": true,
+  "source_recheck": {
+    "Brazil": "Both observed articles reread",
+    "US": "DOJ announcement reread",
+    "Vietnam": "MPS official article and Tuoi Tre article downloaded and reread",
+    "India": "Star of Mysore and Siasat reread; News Karnataka access denied",
+    "Thailand": "DNP endpoint unavailable on recheck; current Daily News report and DNP homepage search corroborate event"
+  },
+  "review_notes": "Broad geographic points explicitly labeled; species not inferred for unidentified birds or elephant ivory. PT/EN/ES narratives and source references retained from recovered contextualization."
+}

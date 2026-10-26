@@ -1,0 +1,94 @@
+{
+  "id": "2026-05-10__tan-an-bac-ninh-king-cobra-resale",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "confirmed_trade_or_transport",
+  "event_date": "2026-05-10",
+  "publication_date": "2026-10-24",
+  "event_date_precision": "day",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Vietnã",
+  "taxon_text": "*Ophiophagus hannah* (identificação pericial divulgada)",
+  "coordinates": {
+    "lat": 21.2,
+    "lon": 106.1
+  },
+  "coordinate_precision": "province_generalized_not_seizure_site",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "source_label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+  "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 1
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "VN_O_MPS",
+      "type": "case_source",
+      "label": "Vietnam Ministry of Public Security, 24 Oct 2026",
+      "url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014"
+    },
+    {
+      "id": "VN_S_MONITOR",
+      "type": "scientific",
+      "label": "Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024)",
+      "url": "https://doi.org/10.1016/j.jnc.2026.127292"
+    },
+    {
+      "id": "VN_N_NETWORKS",
+      "type": "news",
+      "label": "Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026)",
+      "url": "https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "DOCUMENTED_GENERALIZED_ENDPOINTS",
+  "route_evidence": {
+    "verified": true,
+    "routes": [
+      {
+        "origin": "Quảng Ninh Province, Vietnam (forest area not specified)",
+        "destination": "Tân An, Bắc Ninh, Vietnam",
+        "commodities": "one king cobra purchased 7 May and found 10 May"
+      }
+    ],
+    "precision": "province-to-city inferred movement from documented possession history",
+    "warning": "No road sequence, transfer stops or exact forest source"
+  },
+  "review_notes": [
+    "Species identification, size and weight are explicitly in official source",
+    "Documented purchase in Quảng Ninh and discovery in Bắc Ninh; detailed transport path unknown",
+    "Publication 24 October 2026 is case update, not date of interdiction"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "Polícia vietnamita detalha compra e tentativa de revenda de cobra-rei em Bắc Ninh",
+  "location_label_pt": "Tân An, Bắc Ninh, Vietnã — ponto provincial generalizado",
+  "fauna_label_pt": "Uma cobra-rei, 4,2 kg, aproximadamente 3 m",
+  "card_text_pt": "Polícia encontrou uma cobra-rei em 10/05/2026 após compra em Quảng Ninh para revenda em Tân An. Atualização judicial publicada em 24/10; não é apreensão de outubro.",
+  "context_pt": "[O] Em 10/05/2026, policiais de Tân An encontraram uma cobra-rei em uma caixa de isopor junto de um homem em parada de ônibus no bairro Minh Đạo. Segundo investigação anunciada em 24/10, o suspeito havia comprado o animal em 07/05 de indivíduo não identificado em uma área de floresta de Quảng Ninh para revenda; um interessado o procurou em 09/05 para adquirir a cobra para maceração em álcool e exposição. O laudo identificou *Ophiophagus hannah*, 4,2 kg e aproximadamente 3 m, protegida no Grupo IB vietnamita. A polícia encaminhou o caso para acusação pelo artigo 244 e entregou a cobra a centro de resgate de Hanói. A ocorrência física é de maio, não de outubro.\n\n[S] Estudo de 912 processos vietnamitas (2014–2024) registra usos de animais como alimento, produtos medicinais, ornamentação e infusões alcoólicas de serpentes; é um paralelo diretamente temático e não evidencia participação do suspeito na série estudada.\n\n[N] Reportagem vietnamita no repositório sobre estruturas comerciais de fauna protegida contextualiza mercados e pontos de venda no país, mas não identifica vínculo com o suspeito ou o comprador deste réptil.",
+  "references_text_pt": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "title_en": "Vietnam police report king cobra bought and offered for resale in Bắc Ninh",
+  "location_label_en": "Tân An, Bắc Ninh, Vietnam — generalized provincial point",
+  "fauna_label_en": "One king cobra, 4.2 kg, approximately 3 m",
+  "card_text_en": "Police found a king cobra on 10 May 2026 after purchase in Quảng Ninh for resale in Tân An. Case update published 24 October; not an October seizure.",
+  "context_en": "[O] On 10 May 2026, Tân An police found a king cobra in a polystyrene box beside a man at the Minh Đạo bus stop. An investigation reported on 24 October states he had bought it from an unidentified person in a Quảng Ninh forest on 7 May for resale; on 9 May a prospective buyer sought the snake for alcohol infusion and display. Forensic examination identified *Ophiophagus hannah*, weighing 4.2 kg and about 3 m long, a Vietnamese Group IB protected species. Police referred the case for prosecution under Article 244 and handed the animal to a Hanoi rescue center. The interception occurred in May, not October.\n\n[S] A study of 912 Vietnamese wildlife-crime cases (2014–2024) documents uses including medicinal commodities, display and snakes in alcohol infusions. This is relevant national context, not evidence linking the suspect to the earlier dataset.\n\n[N] Vietnamese reporting indexed in the news repository examines wildlife sales through commercial premises and restaurants. It does not identify the seller or buyer in this king cobra case.",
+  "references_text_en": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "title_es": "Policía vietnamita documenta compra e intento de reventa de cobra real en Bắc Ninh",
+  "location_label_es": "Tân An, Bắc Ninh, Vietnam — punto provincial generalizado",
+  "fauna_label_es": "Una cobra real, 4,2 kg, aproximadamente 3 m",
+  "card_text_es": "La policía encontró una cobra real el 10/05/2026 tras su compra en Quảng Ninh para revenderla en Tân An. Actualización del 24/10; no es un decomiso de octubre.",
+  "context_es": "[O] El 10 de mayo de 2026, agentes de Tân An hallaron una cobra real en una caja de poliestireno junto a un hombre en una parada de autobús de Minh Đạo. La investigación divulgada el 24 de octubre indica que la compró el 7 de mayo a una persona no identificada en un bosque de Quảng Ninh para revenderla; el 9 de mayo un posible comprador la solicitó para macerarla en alcohol y exhibirla. El examen identificó *Ophiophagus hannah*, 4,2 kg y unos 3 m, especie protegida del grupo IB. La policía remitió el caso para acusación bajo el artículo 244 y entregó la serpiente a un centro de rescate de Hanói. La interceptación ocurrió en mayo.\n\n[S] Un estudio de 912 casos vietnamitas (2014–2024) documenta usos medicinales, decorativos y serpientes destinadas a infusiones alcohólicas. Es contexto nacional pertinente, no un vínculo del acusado con los casos estudiados.\n\n[N] Una noticia vietnamita del repositorio examina ventas de fauna en comercios y restaurantes, sin identificar a vendedor ni comprador vinculados a esta cobra.",
+  "references_text_es": "[VN_O_MPS] Vietnam Ministry of Public Security, 24 Oct 2026 — https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014\n[VN_S_MONITOR] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[VN_N_NETWORKS] Lộ nhiều đường dây buôn bán động vật hoang dã (Tuổi Trẻ, 2026) — https://tuoitre.vn/nld/lo-nhieu-duong-day-buon-ban-dong-vat-hoang-da-196260325211304947.htm",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. O ponto é provincial e não localiza o bairro, mercado ou apreensão.",
+  "quantity_note_pt": "Contagem explícita de indivíduos na fonte; sem conversão de peso ou de unidades de embalagem."
+}

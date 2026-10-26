@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-23__mysuru-chikkahalli-one-elephant-tusk",
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-OSINT-2026-10-26-eight-unregistered-candidates",
+  "scope": "confirmed_trade_or_transport",
+  "event_date": "2026-10-23",
+  "publication_date": "2026-10-25",
+  "event_date_precision": "day",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "country": "Índia",
+  "taxon_text": "Elephantidae indet.",
+  "coordinates": {
+    "lat": 12.2958,
+    "lon": 76.6394
+  },
+  "coordinate_precision": "district_city_center_generalized",
+  "modal_primary": "Terrestre",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "source_label": "Star of Mysore, 25 Oct 2026",
+  "source_url": "https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "context_references": [
+    {
+      "id": "IN_O_STAR",
+      "type": "case_source",
+      "label": "Star of Mysore, 25 Oct 2026",
+      "url": "https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/"
+    },
+    {
+      "id": "IN_O_SIASAT",
+      "type": "case_source",
+      "label": "The Siasat Daily, 25 Oct 2026",
+      "url": "https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/"
+    },
+    {
+      "id": "IN_O_NK",
+      "type": "case_source",
+      "label": "News Karnataka, 25 Oct 2026",
+      "url": "https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/"
+    },
+    {
+      "id": "IN_S_IVORY",
+      "type": "scientific",
+      "label": "A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory",
+      "url": "https://doi.org/10.3389/fevo.2025.1533703"
+    },
+    {
+      "id": "IN_N_IVORY",
+      "type": "news",
+      "label": "On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026)",
+      "url": "https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/"
+    }
+  ],
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_evidence": {
+    "verified": false,
+    "reason": "No source-supported origin-to-destination route suitable for mapping"
+  },
+  "review_notes": [
+    "Media disagree on one suspect’s identity; personal names omitted.",
+    "Only one tusk reliably counted, 1.5 kg; do not infer a count of animals",
+    "Do not identify Elephas maximus without supporting laboratory or official species statement",
+    "Tamil Nadu is an asserted intended destination, not completed mapped route"
+  ],
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "title_pt": "Esquadrão florestal apreende uma presa de elefante de 1,5 kg perto de Mysuru",
+  "location_label_pt": "Próximo a Chikkahalli, distrito de Mysuru, Karnataka, Índia",
+  "fauna_label_pt": "Uma presa de elefante, aproximadamente 1,5 kg",
+  "card_text_pt": "Esquadrão florestal apreendeu uma presa de aproximadamente 1,5 kg em 23/10 durante investigação de tentativa de venda. Dois detidos. Espécie e origem do marfim não confirmadas.",
+  "context_pt": "[O] Em fiscalização próxima a Chikkahalli, no distrito de Mysuru (Karnataka), agentes da Forest Mobile Squad apreenderam uma presa de elefante de aproximadamente 1,5 kg, uma motocicleta e dois telefones durante investigação de tentativa de venda. Dois homens foram presos e um terceiro é procurado. A imprensa de 25/10 situa a ação na sexta-feira 23/10 e informa custódia judicial no sábado 24/10. Os nomes pessoais foram omitidos; as reportagens divergem na identificação de um dos envolvidos. Um possível deslocamento para Tamil Nadu foi informado como intenção declarada, não como rota concretizada. Não há confirmação da espécie nem de abate recente do elefante.\n\n[S] Estudo de 2025 demonstra potencial da análise isotópica multielementar para distinguir marfim de elefante de mamute e apoiar perícias; não foi realizado laudo isotópico conhecido desta presa nem foi determinada sua origem.\n\n[N] Comentário técnico de Mongabay/EIA discute por que apreensões de marfim devem alimentar investigações sobre compradores e redes. A análise enfoca sobretudo a África; não indica ligação com os suspeitos na Índia.",
+  "references_text_pt": "[IN_O_STAR] Star of Mysore, 25 Oct 2026 — https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/\n[IN_O_SIASAT] The Siasat Daily, 25 Oct 2026 — https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/\n[IN_O_NK] News Karnataka, 25 Oct 2026 — https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/\n[IN_S_IVORY] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[IN_N_IVORY] On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026) — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "title_en": "Forest squad seizes one 1.5 kg elephant tusk near Mysuru",
+  "location_label_en": "Near Chikkahalli, Mysuru district, Karnataka, India",
+  "fauna_label_en": "One elephant tusk, approximately 1.5 kg",
+  "card_text_en": "Forest officers seized one approximately 1.5 kg tusk on 23 October while investigating an attempted sale. Two arrested. Ivory species and origin unconfirmed.",
+  "context_en": "[O] In an operation near Chikkahalli, Mysuru district, Karnataka, the Forest Mobile Squad seized one approximately 1.5 kg elephant tusk, a motorcycle and two phones during an attempted-sale investigation. Two men were arrested and a third was sought. Reports published 25 October place the interception on Friday 23 October and judicial remand on Saturday 24 October. Personal names are omitted; reports disagree on one suspect’s identity. Tamil Nadu was mentioned only as an alleged intended sales destination, not a completed route. Species and whether an elephant was recently killed remain unverified.\n\n[S] A 2025 multi-isotope study shows potential to distinguish elephant from mammoth ivory in forensic work; no such test or provenance determination is reported for this tusk.\n\n[N] A Mongabay/EIA commentary argues that ivory seizures should trigger follow-up inquiries into buyers and networks. Its main examples concern Africa and do not connect to the Indian suspects.",
+  "references_text_en": "[IN_O_STAR] Star of Mysore, 25 Oct 2026 — https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/\n[IN_O_SIASAT] The Siasat Daily, 25 Oct 2026 — https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/\n[IN_O_NK] News Karnataka, 25 Oct 2026 — https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/\n[IN_S_IVORY] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[IN_N_IVORY] On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026) — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "title_es": "Brigada forestal decomisa un colmillo de elefante de 1,5 kg cerca de Mysuru",
+  "location_label_es": "Cerca de Chikkahalli, distrito de Mysuru, Karnataka, India",
+  "fauna_label_es": "Un colmillo de elefante, aproximadamente 1,5 kg",
+  "card_text_es": "Agentes forestales decomisaron un colmillo de aproximadamente 1,5 kg el 23/10 al investigar una tentativa de venta. Dos detenidos. Especie y origen no confirmados.",
+  "context_es": "[O] En un operativo cerca de Chikkahalli, distrito de Mysuru, Karnataka, la brigada forestal decomisó un colmillo de elefante de unos 1,5 kg, una motocicleta y dos teléfonos al investigar una posible venta. Dos hombres fueron detenidos y se buscaba a un tercero. Las noticias del 25 de octubre sitúan la intervención el viernes 23 y la detención judicial el sábado 24. Se omiten nombres personales; las noticias discrepan sobre la identidad de uno de los involucrados. Tamil Nadu fue mencionado solo como destino comercial previsto, no ruta completada. No se confirmó especie ni muerte reciente de un elefante.\n\n[S] Un estudio de 2025 muestra que los isótopos múltiples pueden diferenciar marfil de elefante y mamut; no consta tal examen ni determinación de procedencia para esta pieza.\n\n[N] Un comentario de Mongabay/EIA plantea que los decomisos de marfil deben iniciar investigaciones de compradores y redes. Sus ejemplos principales son africanos y no se vinculan a los sospechosos de India.",
+  "references_text_es": "[IN_O_STAR] Star of Mysore, 25 Oct 2026 — https://starofmysore.com/1-5-kg-elephant-tusk-seized-two-arrested/\n[IN_O_SIASAT] The Siasat Daily, 25 Oct 2026 — https://www.siasat.com/elephant-tusk-allegedly-meant-for-tamil-nadu-sale-two-arrested-3564095/\n[IN_O_NK] News Karnataka, 25 Oct 2026 — https://newskarnataka.com/mysuru/two-arrested-for-alleged-sale-of-elephant-tusks-in-mysuru/25102026/\n[IN_S_IVORY] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[IN_N_IVORY] On ivory, follow the trafficking networks and not the headlines (Mongabay commentary, 2026) — https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
+  "geographic_note_pt": "Coordenadas aproximadas da unidade geográfica indicada; não correspondem ao endereço exato da ocorrência. ",
+  "quantity_note_pt": "Um item (presa); massa de aproximadamente 1,5 kg registrada separadamente. Não equivale a um animal.",
+  "quantity_weight_kg": 1.5
+}
