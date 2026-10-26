@@ -1,0 +1,95 @@
+{
+  "status": "VALIDATED",
+  "ingestion_batch": "TG-H-2026-10-26-deduplicated-andes-3",
+  "event_date": null,
+  "event_date_precision": "unknown",
+  "occurred_at": null,
+  "occurred_at_precision": "unknown",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "source_reconciliation_status": "SOURCE_VERIFIED",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "quantity_unassigned": 0,
+  "modal_primary": "Não informado",
+  "id": "2026-10-undated__santa-cruz-mufasa-aurelio-two-rescued-wild-cats",
+  "country": "Bolívia",
+  "publication_date": "2026-10-24",
+  "coordinates": {
+    "lat": -17.5,
+    "lon": -61.5
+  },
+  "coordinate_precision": "department_reference_only",
+  "location_label_pt": "Departamento de Santa Cruz, Bolívia (locais dos resgates não informados)",
+  "location_label_en": "Santa Cruz Department, Bolivia (rescue locations undisclosed)",
+  "location_label_es": "Departamento de Santa Cruz, Bolivia (lugares de rescate no informados)",
+  "geographic_note_pt": "Marcador administrativo de GeoNames, NÃO indica local de captura, resgate, posse ou endereço do CAD. A publicação menciona apenas a Governadoria e o centro de acolhimento.",
+  "geographic_note_en": "GeoNames administrative reference ONLY; not a capture, rescue, possession or CAD-facility coordinate.",
+  "geographic_note_es": "Marcador administrativo GeoNames, NO corresponde a lugar de captura, rescate, tenencia ni al centro CAD.",
+  "source_label": "Gobernación de Santa Cruz, via ABI / Los Tiempos",
+  "source_url": "https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas",
+  "title_pt": "Governadoria informa acolhimento de puma e jaguatirica retirados de cativeiro doméstico",
+  "title_en": "Santa Cruz authorities report rehabilitation of puma and ocelot rescued from private keeping",
+  "title_es": "Gobernación informa rescate y rehabilitación de puma y ocelote tenidos como mascotas",
+  "card_text_pt": "Comunicado divulgado em 24/10 descreve puma Mufasa e jaguatirica Aurelio já recebendo tratamento no CAD após posse como animais de estimação. As datas e os locais originais dos resgates são desconhecidos; não há prova de ação conjunta.",
+  "card_text_en": "A 24 October release describes puma Mufasa and ocelot Aurelio already receiving care at the wildlife center after being kept as pets. Original rescue dates and locations are unknown; a single joint operation is not established.",
+  "card_text_es": "El comunicado del 24/10 relata a Mufasa (puma) y Aurelio (ocelote), ya atendidos en el CAD tras ser mantenidos como mascotas. Se ignoran fechas y lugares de los rescates; no consta un operativo conjunto.",
+  "fauna_label_pt": "Dois felinos: 1 puma e 1 jaguatirica, anteriormente mantidos como animais de estimação",
+  "fauna_label_en": "Two wild cats: one puma and one ocelot previously kept as pets",
+  "fauna_label_es": "Dos felinos: un puma y un ocelote, previamente mantenidos como mascotas",
+  "taxon_text": "*Puma concolor* (1); *Leopardus pardalis* (1); identidades por nomes comuns comunicados pelas autoridades",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_label_pt": "Cativeiro doméstico; meio de transporte não informado",
+  "modal_label_en": "Private captive keeping; transport not reported",
+  "modal_label_es": "Mascotismo; transporte no informado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_note_pt": "Dois indivíduos identificados pelo comunicado institucional. Data de resgate de cada um não informada; não pressupor que foram apreendidos juntos.",
+  "quantity_note_en": "Two individuals named in an institutional update. Each rescue date is unreported; not a confirmed simultaneous seizure.",
+  "quantity_note_es": "Dos ejemplares mencionados en una comunicación institucional. Fecha de rescate de cada uno no revelada; no presuponer decomiso simultáneo.",
+  "context_pt": "[O1][O2] Em 24/10/2026, a Governadoria de Santa Cruz divulgou a situação de dois felinos resgatados de condições de posse doméstica: o puma Mufasa e a jaguatirica Aurelio, já encaminhados ao Centro de Atenção e Derivação de Fauna Silvestre (CAD). Segundo a comunicação, ambos chegaram abaixo do peso, com parasitas e outros problemas; o aumento de peso durante o tratamento mostra que os resgates antecederam a publicação. Não foram fornecidas datas de cada resgate, locais de origem ou evidência de que pertenciam à mesma operação. A notícia não demonstra compra, venda, rede criminosa ou rota.\n\n[T1] O documento institucional da DIRENA/Gobernación de Santa Cruz (2023) descreve o CAD como unidade que recebe animais de resgates, apreensões, entregas voluntárias e situações de posse irregular; trata-se de informação sobre capacidade institucional, não de dado de 2026 ou prova sobre o histórico destes dois felinos.\n\nEste registro reúne dois indivíduos citados em uma única divulgação oficial, não dois casos operacionais independentes datados de 24/10. O ponto no mapa é exclusivamente uma referência departamental.",
+  "context_en": "[O1][O2] On 24 October 2026, Santa Cruz's departmental government reported ongoing care for two wild cats recovered from private keeping: Mufasa, a puma, and Aurelio, an ocelot. Both reportedly arrived underweight and parasitized. Their subsequent weight gain confirms that rescue preceded this publication, but individual rescue dates, locations and evidence of a shared operation were not supplied. No sale, criminal network, origin-to-destination movement or trafficking route was documented.\n\n[T1] A 2023 Santa Cruz government DIRENA document identifies the wildlife care center (CAD) as a facility handling rescues, seizures, voluntary surrenders and illegal possession. This describes institutional practice, not these individuals' chain of custody.\n\nThe present record covers one institutional disclosure of two animals, not two proven rescues occurring on 24 October. The map coordinate represents the department only.",
+  "context_es": "[O1][O2] El 24/10/2026, la Gobernación de Santa Cruz difundió información sobre dos felinos rescatados de situaciones de mascotismo: Mufasa, un puma, y Aurelio, un ocelote, que ya recibían cuidados veterinarios en el CAD. Ambos habrían llegado con bajo peso y parásitos. El aumento de peso durante su recuperación demuestra que los rescates fueron anteriores a la publicación, pero no se comunicaron las fechas individuales, los sitios de rescate ni un operativo conjunto. No hay evidencia de compraventa, red delictiva o itinerario.\n\n[T1] Un documento de DIRENA/Gobernación (2023) explica que el CAD recibe animales de rescates, decomisos, entregas voluntarias y tenencia ilegal. Es información sobre la institución, no prueba del origen de estos felinos.\n\nSe registra una divulgación institucional que comprende dos individuos, no dos intervenciones fechadas el 24/10. La coordenada es departamental y no identifica el lugar de rescate.",
+  "context_references": [
+    {
+      "id": "O1",
+      "type": "case_source",
+      "label": "ABI / Los Tiempos, 24/10/2026 — nota da Gobernación de Santa Cruz",
+      "url": "https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Bolivia TV, 24/10/2026 — registro secundário do comunicado",
+      "url": "https://www.boliviatv.bo/principal/nota.php?noticia=2c3a8a0c7e4fb00ecf47d79408d2f8f4"
+    },
+    {
+      "id": "T1",
+      "type": "technical_report",
+      "label": "Gobernación Santa Cruz (2023), programa DIRENA de conservação e CAD",
+      "url": "https://santacruz.gob.bo/sites/default/files/2023-Vrs.01-RSE.pdf"
+    },
+    {
+      "id": "G1",
+      "type": "geospatial_reference",
+      "label": "GeoNames, departamento de Santa Cruz — marcador somente de escala departamental",
+      "url": "https://www.geonames.org/3904907/departamento-de-santa-cruz.html"
+    }
+  ],
+  "route_audit_note_pt": "Locais de origem e resgate desconhecidos; o CAD é destino de custódia veterinária, não prova de rota comercial.",
+  "route_audit_note_en": "Rescue and origin locations unknown; veterinary care at CAD does not establish a trade route.",
+  "route_audit_note_es": "Se ignoran sitios de origen y rescate; ingreso al CAD para cuidados no constituye ruta comercial.",
+  "audit_note": "TG-H 26/10/2026; registro agrupado de informação institucional sobre dois indivíduos; não tratar 24/10 como data do evento, tampouco inferir posse simultânea.",
+  "references_text_pt": "[O1] ABI / Los Tiempos, 24/10/2026 — nota da Gobernación de Santa Cruz — https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas\n[O2] Bolivia TV, 24/10/2026 — registro secundário do comunicado — https://www.boliviatv.bo/principal/nota.php?noticia=2c3a8a0c7e4fb00ecf47d79408d2f8f4\n[T1] Gobernación Santa Cruz (2023), programa DIRENA de conservação e CAD — https://santacruz.gob.bo/sites/default/files/2023-Vrs.01-RSE.pdf\n[G1] GeoNames, departamento de Santa Cruz — marcador somente de escala departamental — https://www.geonames.org/3904907/departamento-de-santa-cruz.html",
+  "references_text_en": "[O1] ABI / Los Tiempos, 24/10/2026 — nota da Gobernación de Santa Cruz — https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas\n[O2] Bolivia TV, 24/10/2026 — registro secundário do comunicado — https://www.boliviatv.bo/principal/nota.php?noticia=2c3a8a0c7e4fb00ecf47d79408d2f8f4\n[T1] Gobernación Santa Cruz (2023), programa DIRENA de conservação e CAD — https://santacruz.gob.bo/sites/default/files/2023-Vrs.01-RSE.pdf\n[G1] GeoNames, departamento de Santa Cruz — marcador somente de escala departamental — https://www.geonames.org/3904907/departamento-de-santa-cruz.html",
+  "references_text_es": "[O1] ABI / Los Tiempos, 24/10/2026 — nota da Gobernación de Santa Cruz — https://www.lostiempos.com/actualidad/pais/20261024/rescatan-mufasa-aurelio-puma-ocelote-que-eran-retenidos-como-mascotas\n[O2] Bolivia TV, 24/10/2026 — registro secundário do comunicado — https://www.boliviatv.bo/principal/nota.php?noticia=2c3a8a0c7e4fb00ecf47d79408d2f8f4\n[T1] Gobernación Santa Cruz (2023), programa DIRENA de conservação e CAD — https://santacruz.gob.bo/sites/default/files/2023-Vrs.01-RSE.pdf\n[G1] GeoNames, departamento de Santa Cruz — marcador somente de escala departamental — https://www.geonames.org/3904907/departamento-de-santa-cruz.html"
+}
