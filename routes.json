@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-28T10:03:42.913634Z",
+  "updated_at": "2026-10-28",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -12415,6 +12415,130 @@
         "not_capture_site": true
       },
       "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261028-itapoa-malaysia",
+      "event_match": {
+        "event_id": "2026-10-27__itapoa-sc-17t-shark-fins-malaysia"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Porto de Itapoá → Malásia (destino declarado)",
+      "label_en": "Itapoá port → Malaysia (declared destination)",
+      "label_es": "Puerto de Itapoá → Malasia (destino declarado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto de Itapoá",
+            "country": "Brasil",
+            "lat": -26.1807,
+            "lon": -48.6023,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Malásia (destino não localizado)",
+            "country": "Malásia",
+            "lat": 4.21,
+            "lon": 101.97,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Carga de barbatanas apreendida antes de exportação; destino declarado Malásia, sem porto de chegada identificado.",
+      "evidence_en": "Fins intercepted before export; declared destination Malaysia; arrival port unknown.",
+      "evidence_es": "Aletas interceptadas antes de la exportación; destino declarado Malasia sin puerto de llegada identificado.",
+      "source_label": "Receita Federal",
+      "source_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-apreende-mais-de-17-toneladas-de-barbatanas-de-tubarao-em-porto-de-santa-catarina"
+    },
+    {
+      "id": "tgh-20261028-bangkok-colombo-trichy",
+      "event_match": {
+        "event_id": "2026-10-26__trichy-45-reptiles-bangkok-colombo"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_air_route",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bangkok → Colombo → Tiruchirappalli",
+      "label_en": "Bangkok → Colombo → Tiruchirappalli",
+      "label_es": "Bangkok → Colombo → Tiruchirappalli",
+      "segments": [
+        {
+          "from": {
+            "name": "Bangkok (aeroporto não confirmado)",
+            "country": "Tailândia",
+            "lat": 13.7563,
+            "lon": 100.5018,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Colombo (aeroporto não confirmado)",
+            "country": "Sri Lanka",
+            "lat": 6.9271,
+            "lon": 79.8612,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Colombo (aeroporto não confirmado)",
+            "country": "Sri Lanka",
+            "lat": 6.9271,
+            "lon": 79.8612,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Aeroporto de Tiruchirappalli",
+            "country": "Índia",
+            "lat": 10.7654,
+            "lon": 78.7097,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Passageiros chegaram a Tiruchirappalli vindos de Bangkok com trânsito por Colombo; os répteis foram apreendidos à chegada.",
+      "evidence_en": "Passengers arrived at Tiruchirappalli from Bangkok via Colombo carrying reptiles seized upon arrival.",
+      "evidence_es": "Pasajeros llegaron a Tiruchirappalli desde Bangkok vía Colombo transportando reptiles decomisados al llegar.",
+      "source_label": "DRI / PIB",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329316&lang=2&reg=48"
+    },
+    {
+      "id": "tgh-20261028-mexico-malaysia-kinosternon",
+      "event_match": {
+        "event_id": "2026-10-unknown__mexico-city-five-kinosternon-cora-malaysia"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Cidade do México → Malásia (encomenda interceptada)",
+      "label_en": "Mexico City → Malaysia (intercepted parcel)",
+      "label_es": "Ciudad de México → Malasia (paquete interceptado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Cidade do México (empresa de encomendas)",
+            "country": "México",
+            "lat": 19.4326,
+            "lon": -99.1332,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Malásia (destino não localizado)",
+            "country": "Malásia",
+            "lat": 4.21,
+            "lon": 101.97,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Encomenda com cinco tartarugas apreendida antes de envio; destino informado Malásia; não há trajeto realizado comprovado.",
+      "evidence_en": "Parcel holding five turtles seized before dispatch; stated destination Malaysia; no completed transport evidenced.",
+      "evidence_es": "Paquete con cinco tortugas intervenido antes del envío; destino declarado Malasia; no se acredita traslado realizado.",
+      "source_label": "PROFEPA",
+      "source_url": "https://www.gob.mx/profepa/prensa/profepa-asegura-5-tortugas-casquito-cora-en-paqueteria-de-la-ciudad-de-mexico"
     }
   ],
   "network_context": [
