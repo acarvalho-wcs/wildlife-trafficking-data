@@ -12539,6 +12539,258 @@
       "evidence_es": "Paquete con cinco tortugas intervenido antes del envío; destino declarado Malasia; no se acredita traslado realizado.",
       "source_label": "PROFEPA",
       "source_url": "https://www.gob.mx/profepa/prensa/profepa-asegura-5-tortugas-casquito-cora-en-paqueteria-de-la-ciudad-de-mexico"
+    },
+    {
+      "id": "tgh-20261028-palembang-bakauheni",
+      "event_match": {
+        "event_id": "2026-10-12__bakauheni-832-undocumented-birds-minibus"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "reported_completed_segment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Palembang → Bakauheni",
+      "label_en": "Palembang → Bakauheni",
+      "label_es": "Palembang → Bakauheni",
+      "segments": [
+        {
+          "from": {
+            "name": "Palembang",
+            "country": "Indonésia",
+            "lat": -2.9761,
+            "lon": 104.7754,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Bakauheni",
+            "country": "Indonésia",
+            "lat": -5.87,
+            "lon": 105.75,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Polícia relatou veículo com 832 aves vindo de Palembang, interceptado em Bakauheni; fontes divergem quanto ao destino final.",
+      "evidence_en": "Police reported the vehicle carrying 832 birds came from Palembang and was intercepted at Bakauheni; onward destinations conflict.",
+      "evidence_es": "La policía informó de un vehículo con 832 aves procedente de Palembang e intervenido en Bakauheni; existen versiones divergentes sobre el destino final.",
+      "source_label": "Primary reporting authority / source article",
+      "source_url": "https://tribratanews-reslampungselatan.lampung.polri.go.id/detail-post/kskp-bakauheni-serahkan-832-ekor-burung-ke-balai-karantina-dua-pria-dan-mobil-apv-ikut-diserahkan"
+    },
+    {
+      "id": "tgh-20261028-peshawar-karachi",
+      "event_match": {
+        "event_id": "2026-10-08__peshawar-one-peregrine-falcon-karachi-bound"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_attributed_or_intended_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Peshawar → Karachi (destino pretendido)",
+      "label_en": "Peshawar → Karachi (destino pretendido)",
+      "label_es": "Peshawar → Karachi (destino pretendido)",
+      "segments": [
+        {
+          "from": {
+            "name": "Peshawar",
+            "country": "Paquistão",
+            "lat": 34.0151,
+            "lon": 71.5249,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Karachi",
+            "country": "Paquistão",
+            "lat": 24.8607,
+            "lon": 67.0011,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Falcão interceptado em Peshawar, supostamente destinado a Karachi. Destino não alcançado.",
+      "evidence_en": "Falcon intercepted in Peshawar, allegedly bound for Karachi. The destination was not reached.",
+      "evidence_es": "Halcón interceptado en Peshawar, supuestamente destinado a Karachi. Destino no alcanzado.",
+      "source_label": "Primary reporting authority / source article",
+      "source_url": "https://www.thenews.pk/print/1441837-rare-falcon-released-into-natural-habitat"
+    },
+    {
+      "id": "tgh-20261028-jaen-ancon",
+      "event_match": {
+        "event_id": "TGH-20261027-037"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "reported_completed_segment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Jaén → Ancón (ônibus interceptado)",
+      "label_en": "Jaén → Ancón (ônibus interceptado)",
+      "label_es": "Jaén → Ancón (ônibus interceptado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Jaén",
+            "country": "Peru",
+            "lat": -5.7081,
+            "lon": -78.8078,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Ancón",
+            "country": "Peru",
+            "lat": -11.77388,
+            "lon": -77.17534,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "SERFOR informou que o ônibus com 78 papagaios procedia de Jaén e foi interceptado em Ancón rumo a Lima. Jaén não é origem de captura comprovada.",
+      "evidence_en": "SERFOR stated that the bus carrying 78 parrots travelled from Jaén and was intercepted at Ancón en route to Lima. Jaén is the bus origin, not a confirmed capture site.",
+      "evidence_es": "SERFOR informó que el autobús con 78 loros procedía de Jaén y fue intervenido en Ancón rumbo a Lima. Jaén no es un lugar de captura confirmado.",
+      "source_label": "Primary reporting authority / source article",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1045070-serfor-incauta-78-loros-hacinados-en-jabas-al-interior-de-bus-interprovincial-en-operacion-conjunta-con-pnp"
+    },
+    {
+      "id": "tgh-20261028-callao-indonesia",
+      "event_match": {
+        "event_id": "TGH-20261027-036"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "reported_attributed_or_intended_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Callao → Indonésia (exportação pretendida)",
+      "label_en": "Callao → Indonésia (exportação pretendida)",
+      "label_es": "Callao → Indonésia (exportação pretendida)",
+      "segments": [
+        {
+          "from": {
+            "name": "Callao",
+            "country": "Peru",
+            "lat": -12.0219,
+            "lon": -77.114305,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Indonésia (destino não localizado)",
+            "country": "Indonésia",
+            "lat": -0.7893,
+            "lon": 113.9213,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "SERFOR fiscalizou 4.001 tartarugas destinadas à Indonésia; 463 tinham irregularidades documentais de procedência. Exportação planejada, não realizada.",
+      "evidence_en": "SERFOR inspected an export shipment of 4,001 turtles bound for Indonesia; 463 had origin-documentation irregularities. Planned movement, not completed shipment.",
+      "evidence_es": "SERFOR inspeccionó 4.001 tortugas destinadas a Indonesia; 463 presentaban irregularidades documentales. Exportación prevista, no efectuada.",
+      "source_label": "Primary reporting authority / source article",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/884282-serfor-detecto-463-tortugas-charapa-que-no-acreditaban-origen-legal-entre-otras-irregularidades-en-cargamento-que-iba-a-ser-exportado"
+    },
+    {
+      "id": "tgh-20261028-callao-china-seahorses",
+      "event_match": {
+        "event_id": "TGH-20261027-027"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_attributed_or_intended_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Callao → China (destino atribuído)",
+      "label_en": "Callao → China (destino atribuído)",
+      "label_es": "Callao → China (destino atribuído)",
+      "segments": [
+        {
+          "from": {
+            "name": "Callao",
+            "country": "Peru",
+            "lat": -12.05659,
+            "lon": -77.11814,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "China (destino não localizado)",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Fiscalía apreendeu 631 kg de cavalos-marinhos no Callao; China foi apontada como destino sob investigação. Embarque e cidade de chegada não comprovados.",
+      "evidence_en": "Prosecutors seized 631 kg of seahorses in Callao; China was reported as a destination under investigation. Departure and destination city unconfirmed.",
+      "evidence_es": "La Fiscalía incautó 631 kg de caballitos de mar en Callao; China fue señalada como destino investigado. Sin embarque ni ciudad final confirmados.",
+      "source_label": "Primary reporting authority / source article",
+      "source_url": "https://www.gob.pe/institucion/mpfn/noticias/451483-callao-ministerio-publico-decomiso-631-kilos-de-caballito-de-mar"
+    },
+    {
+      "id": "tgh-20261028-bogota-germany-arthropods",
+      "event_match": {
+        "event_id": "TGH-20261027-050"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "reported_attributed_or_intended_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Bogotá → Alemanha (destino pretendido)",
+      "label_en": "Bogotá → Alemanha (destino pretendido)",
+      "label_es": "Bogotá → Alemanha (destino pretendido)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto El Dorado, Bogotá",
+            "country": "Colômbia",
+            "lat": 4.7016,
+            "lon": -74.14694,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Alemanha (cidade não especificada)",
+            "country": "Alemanha",
+            "lat": 51.1657,
+            "lon": 10.4515,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Autoridade ambiental de Bogotá reportou artrópodes apreendidos com destino pretendido à Alemanha. Não há voo realizado ou cidade alemã identificada.",
+      "evidence_en": "Bogotá environmental authority reported seized arthropods intended for Germany. No completed flight or specific German city documented.",
+      "evidence_es": "Autoridad ambiental de Bogotá informó artrópodos incautados con destino previsto a Alemania. No consta vuelo realizado ni ciudad alemana específica.",
+      "source_label": "Primary reporting authority / source article",
+      "source_url": "https://ambientebogota.gov.co/es/nota-principal/-/asset_publisher/vRkc1u7VgG4/content/tarantulas-cucarachas-y-un-escorpion-fueron-incautadas-en-el-aeropuerto-el-dorado-su-destino-era-alemania?_101_INSTANCE_vRkc1u7VgG4_redirect=%2Fes%2Finicio"
+    },
+    {
+      "id": "tgh-20261028-paicandu-porto-primavera",
+      "event_match": {
+        "event_id": "2026-10-08__paicandu-193-6kg-illegal-fish-trade"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_attributed_or_intended_segment",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Porto Primavera → Paiçandu (fornecedor alegado)",
+      "label_en": "Porto Primavera → Paiçandu (fornecedor alegado)",
+      "label_es": "Porto Primavera → Paiçandu (fornecedor alegado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto Primavera, São Paulo",
+            "country": "Brasil",
+            "lat": -22.49,
+            "lon": -52.96,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Paiçandu, Paraná",
+            "country": "Brasil",
+            "lat": -23.46,
+            "lon": -52.05,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo a polícia, o comerciante atribuiu os dourados a fornecedor de Porto Primavera. Não comprova local de pesca ou procedência do lote inteiro.",
+      "evidence_en": "According to police, the merchant attributed the dorado fish to a supplier in Porto Primavera. This does not establish catch sites or origin of the entire seized lot.",
+      "evidence_es": "Según la policía, el comerciante atribuyó los dorados a un proveedor de Porto Primavera. No acredita la captura ni el origen del lote completo.",
+      "source_label": "Primary reporting authority / source article",
+      "source_url": "https://canaldoagro.com/policia-ambiental-apreende-1936-kg-de-pescado-e-prende-comerciante-em-paicandu-pr/"
     }
   ],
   "network_context": [
