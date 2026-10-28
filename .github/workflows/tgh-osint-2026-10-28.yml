@@ -1,0 +1,67 @@
+name: TGH OSINT canonical import 2026-10-28
+on:
+  push:
+    paths:
+      - ".github/workflows/tgh-osint-2026-10-28.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  canonical-import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate and ingest independently documented TG-H events
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, datetime, sys
+          root=pathlib.Path(".")
+          cf=root/"cases.json"; rf=root/"routes.json"
+          canonical=json.loads(cf.read_text(encoding="utf-8"))
+          routes=json.loads(rf.read_text(encoding="utf-8"))
+          rows=[]
+          for p in ("triage/tgh-2026-10-28-osint-validated-part1.json","triage/tgh-2026-10-28-osint-validated-part2.json"):
+              rows+=json.loads((root/p).read_text(encoding="utf-8"))["records"]
+          required=["id","location_label_pt","country","publication_date","fauna_label_pt","taxon_text","modal_primary","card_text_pt","status","coordinates","coordinate_precision","source_label","source_url","event_date","fauna_groups_aggregated","aggregate_operation","exclude_from_totals","title_pt","title_en","title_es","card_text_en","card_text_es","context_pt","context_en","context_es"]
+          seen_ids={r["id"] for r in canonical["cases"]}
+          seen_sources={r.get("source_url") for r in canonical["cases"]}
+          added=[]
+          for r in rows:
+              if r["id"] in seen_ids or r["source_url"] in seen_sources:
+                  continue
+              if any(k not in r for k in required): raise ValueError("Missing canonical fields: "+r["id"])
+              if r["status"]!="VALIDATED": raise ValueError("Unvalidated candidate: "+r["id"])
+              if any(len(r["context_"+lang])<140 for lang in ("pt","en","es")): raise ValueError("Incomplete OSINT: "+r["id"])
+              if any(not r["title_"+lang] or not r["card_text_"+lang] for lang in ("pt","en","es")): raise ValueError("Incomplete translations: "+r["id"])
+              if r.get("quantity_count") is not None and r["quantity_count"]<0: raise ValueError("Invalid count")
+              canonical["cases"].append(r);seen_ids.add(r["id"]);seen_sources.add(r["source_url"]);added.append(r["id"])
+          canonical["count"]=len(canonical["cases"])
+          canonical["updated_at"]="2026-10-28"
+          canonical.setdefault("ingestion_history",[]).append({"batch":"TGH-OSINT-2026-10-28","added":len(added),"records":added,"note":"Individual validation and trilingual OSINT; uncertain/aggregate candidates not ingested"})
+          # Exactly three journeys are documented. Do not create geographic links for any other event.
+          def pt(name,country,lat,lon,precision):
+              return {"name":name,"country":country,"lat":lat,"lon":lon,"precision":precision}
+          movements=[
+          {"id":"tgh-20261028-itapoa-malaysia","event_match":{"event_id":"2026-10-27__itapoa-sc-17t-shark-fins-malaysia"},"status":"DOCUMENTED_BROAD","route_type":"planned_shipment","direction":"forward","line_style":"dashed","label_pt":"Porto de Itapoá → Malásia (destino declarado)","label_en":"Itapoá port → Malaysia (declared destination)","label_es":"Puerto de Itapoá → Malasia (destino declarado)","segments":[{"from":pt("Porto de Itapoá","Brasil",-26.1807,-48.6023,"port_generalized"),"to":pt("Malásia (destino não localizado)","Malásia",4.21,101.97,"country_centroid_generalized")}],"evidence_pt":"Carga de barbatanas apreendida antes de exportação; destino declarado Malásia, sem porto de chegada identificado.","evidence_en":"Fins intercepted before export; declared destination Malaysia; arrival port unknown.","evidence_es":"Aletas interceptadas antes de la exportación; destino declarado Malasia sin puerto de llegada identificado.","source_label":"Receita Federal","source_url":"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-apreende-mais-de-17-toneladas-de-barbatanas-de-tubarao-em-porto-de-santa-catarina"},
+          {"id":"tgh-20261028-bangkok-colombo-trichy","event_match":{"event_id":"2026-10-26__trichy-45-reptiles-bangkok-colombo"},"status":"DOCUMENTED","route_type":"completed_air_route","direction":"forward","line_style":"solid","label_pt":"Bangkok → Colombo → Tiruchirappalli","label_en":"Bangkok → Colombo → Tiruchirappalli","label_es":"Bangkok → Colombo → Tiruchirappalli","segments":[{"from":pt("Bangkok (aeroporto não confirmado)","Tailândia",13.7563,100.5018,"city_generalized"),"to":pt("Colombo (aeroporto não confirmado)","Sri Lanka",6.9271,79.8612,"city_generalized")},{"from":pt("Colombo (aeroporto não confirmado)","Sri Lanka",6.9271,79.8612,"city_generalized"),"to":pt("Aeroporto de Tiruchirappalli","Índia",10.7654,78.7097,"airport_generalized")}],"evidence_pt":"Passageiros chegaram a Tiruchirappalli vindos de Bangkok com trânsito por Colombo; os répteis foram apreendidos à chegada.","evidence_en":"Passengers arrived at Tiruchirappalli from Bangkok via Colombo carrying reptiles seized upon arrival.","evidence_es":"Pasajeros llegaron a Tiruchirappalli desde Bangkok vía Colombo transportando reptiles decomisados al llegar.","source_label":"DRI / PIB","source_url":"https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329316&lang=2&reg=48"},
+          {"id":"tgh-20261028-mexico-malaysia-kinosternon","event_match":{"event_id":"2026-10-unknown__mexico-city-five-kinosternon-cora-malaysia"},"status":"DOCUMENTED_BROAD","route_type":"planned_shipment","direction":"forward","line_style":"dashed","label_pt":"Cidade do México → Malásia (encomenda interceptada)","label_en":"Mexico City → Malaysia (intercepted parcel)","label_es":"Ciudad de México → Malasia (paquete interceptado)","segments":[{"from":pt("Cidade do México (empresa de encomendas)","México",19.4326,-99.1332,"city_generalized"),"to":pt("Malásia (destino não localizado)","Malásia",4.21,101.97,"country_centroid_generalized")}],"evidence_pt":"Encomenda com cinco tartarugas apreendida antes de envio; destino informado Malásia; não há trajeto realizado comprovado.","evidence_en":"Parcel holding five turtles seized before dispatch; stated destination Malaysia; no completed transport evidenced.","evidence_es":"Paquete con cinco tortugas intervenido antes del envío; destino declarado Malasia; no se acredita traslado realizado.","source_label":"PROFEPA","source_url":"https://www.gob.mx/profepa/prensa/profepa-asegura-5-tortugas-casquito-cora-en-paqueteria-de-la-ciudad-de-mexico"}]
+          current={r.get("id") for r in routes.get("routes",[])}
+          routes.setdefault("routes",[]).extend(x for x in movements if x["id"] not in current and x["event_match"]["event_id"] in seen_ids)
+          routes["updated_at"]="2026-10-28"
+          cf.write_text(json.dumps(canonical,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          rf.write_text(json.dumps(routes,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print("Imported:",added,"Total:",canonical["count"])
+          PY
+      - name: Commit canonic data and documented routes
+        shell: bash
+        run: |
+          if ! git diff --quiet -- cases.json routes.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add cases.json routes.json
+            git commit -m "Publish TGH Oct 28 validated cases and documented routes"
+            git push
+          fi
