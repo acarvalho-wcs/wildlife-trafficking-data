@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-28T10:03:42.913634Z",
   "audited_through": "2026-10-14",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -12021,6 +12021,400 @@
       "source_label": "Vietnam Ministry of Public Security, 24 Oct 2026",
       "source_url": "https://mps.gov.vn/bai-viet/khoi-to-02-vu-an-lien-quan-den-dong-vat-nguy-cap-quy-hiem-va-dong-vat-hoang-da-1792810014",
       "precision_note": "Generalized endpoints indicate documented movement between broad areas, not precise shipment/capture addresses or an actual travel itinerary."
+    },
+    {
+      "id": "tgh-20261027-documented-route-002",
+      "event_match": {
+        "event_id": "TGH-20261027-002"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Aeroporto de Baltra → Guayaquil",
+      "label_en": "Aeroporto de Baltra → Guayaquil",
+      "label_es": "Aeroporto de Baltra → Guayaquil",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Baltra",
+            "country": "Equador",
+            "lat": -0.4538889,
+            "lon": -90.2658333,
+            "precision": "airport_reference"
+          },
+          "to": {
+            "name": "Guayaquil",
+            "country": "Equador",
+            "lat": -2.19616,
+            "lon": -79.88621,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "185 filhotes detidos antes de envio pretendido a Guayaquil.",
+      "evidence_en": "185 young tortoises were intercepted at Baltra before their intended air shipment to Guayaquil.",
+      "evidence_es": "Se interceptaron 185 tortugas jóvenes en Baltra antes de su traslado aéreo previsto a Guayaquil.",
+      "source_label": "Fiscalía General del Estado",
+      "source_url": "https://www.fiscalia.gob.ec/prision-preventiva-para-policia-por-su-presunta-participacion-en-el-fallido-envio-de-tortugas-a-guayaquil/",
+      "tgh_audit": {
+        "candidate_number": 2,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-010",
+      "event_match": {
+        "event_id": "TGH-20261027-010"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guayaquil → Pequim",
+      "label_en": "Guayaquil → Pequim",
+      "label_es": "Guayaquil → Pequim",
+      "segments": [
+        {
+          "from": {
+            "name": "Guayaquil",
+            "country": "Equador",
+            "lat": -2.19616,
+            "lon": -79.88621,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Pequim",
+            "country": "China",
+            "lat": 39.9042,
+            "lon": 116.4074,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Destino pretendido era Pequim; não há confirmação de chegada nem escalas.",
+      "evidence_en": "Prosecutors stated that a traveler attempted to depart from Guayaquil carrying 78 dried seahorses, bound for Beijing. The flight was not completed.",
+      "evidence_es": "La Fiscalía informó que una persona pretendía salir de Guayaquil con 78 caballitos de mar secos, con destino a Pekín. El vuelo no se completó.",
+      "source_label": "Fiscalía General del Estado",
+      "source_url": "https://www.fiscalia.gob.ec/extranjero-procesado-por-transportar-especies-marinas-en-su-equipaje/",
+      "tgh_audit": {
+        "candidate_number": 10,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-024",
+      "event_match": {
+        "event_id": "TGH-20261027-024"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Santa Cruz → Oruro",
+      "label_en": "Santa Cruz → Oruro",
+      "label_es": "Santa Cruz → Oruro",
+      "segments": [
+        {
+          "from": {
+            "name": "Santa Cruz",
+            "country": "Bolívia",
+            "lat": -17.78629,
+            "lon": -63.18117,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Oruro",
+            "country": "Bolívia",
+            "lat": -17.98333,
+            "lon": -67.15,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Promotoria informa ônibus interdepartamental procedente de Santa Cruz, abordado em Oruro.",
+      "evidence_en": "The Bolivian prosecutor reported that the passenger traveled by intercity bus from Santa Cruz and was stopped in Oruro with 43 parrots.",
+      "evidence_es": "La Fiscalía de Bolivia informó que el pasajero viajaba en autobús desde Santa Cruz y fue intervenido en Oruro con 43 loros.",
+      "source_label": "Fiscalía General del Estado (Bolivia)",
+      "source_url": "https://www.fiscalia.gob.bo/comunicacion/noticias/fiscalia-de-oruro-investiga-a-sujeto-que-tenia-en-su-poder-43-loros-en-bolsas-de-yute",
+      "tgh_audit": {
+        "candidate_number": 24,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-043",
+      "event_match": {
+        "event_id": "TGH-20261027-043"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "documented_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Bogotá → Leticia",
+      "label_en": "Bogotá → Leticia",
+      "label_es": "Bogotá → Leticia",
+      "segments": [
+        {
+          "from": {
+            "name": "Bogotá",
+            "country": "Colômbia",
+            "lat": 4.7016,
+            "lon": -74.14694,
+            "precision": "airport_reference"
+          },
+          "to": {
+            "name": "Leticia",
+            "country": "Colômbia",
+            "lat": -4.21528,
+            "lon": -69.94056,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Polícia colombiana documenta encomenda remetida de Bogotá para Leticia.",
+      "evidence_en": "Colombian police documented 2,350 mata mata turtles transported in a parcel from Bogotá to Leticia, with 307 juvenile fish also found.",
+      "evidence_es": "La Policía colombiana documentó 2350 tortugas matamata transportadas en una encomienda de Bogotá a Leticia, en la que también se encontraron 307 peces juveniles.",
+      "source_label": "Policía Nacional de Colombia",
+      "source_url": "https://www.policia.gov.co/noticia/en-una-encomienda-se-hallaron-mas-dos-mil-tortugas-especie-matamata-307-alevinos",
+      "tgh_audit": {
+        "candidate_number": 43,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-053",
+      "event_match": {
+        "event_id": "TGH-20261027-053"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guayaquil → Amsterdã (destino pretendido)",
+      "label_en": "Guayaquil → Amsterdam (intended destination)",
+      "label_es": "Guayaquil → Ámsterdam (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Guayaquil",
+            "country": "Equador",
+            "lat": -2.15806,
+            "lon": -79.88389,
+            "precision": "airport_reference_point"
+          },
+          "to": {
+            "name": "Amsterdã",
+            "country": "Países Baixos",
+            "lat": 52.3676,
+            "lon": 4.9041,
+            "precision": "city_destination_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A Fiscalía do Equador informa que o passageiro tentava embarcar em Guayaquil e declarou que levaria os cavalos-marinhos a Amsterdã. Não há evidência de voo realizado nem escalas.",
+      "evidence_en": "Prosecutors reported an intended flight from Guayaquil to Amsterdam carrying 213 seahorses; no completed transport was documented.",
+      "evidence_es": "La Fiscalía informó de un vuelo previsto de Guayaquil a Ámsterdam con 213 caballitos de mar; no se documentó un traslado completado.",
+      "source_label": "Fiscalía General del Estado",
+      "source_url": "https://www.fiscalia.gob.ec/accesibilidad/ciudadano-chino-procesado-por-intentar-sacar-del-pais-213-caballitos-de-mar/",
+      "tgh_audit": {
+        "candidate_number": 53,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-075",
+      "event_match": {
+        "event_id": "TGH-20261027-075"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "partial_completed_planned",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ica → Pucusana → Lima (destino pretendido)",
+      "label_en": "Ica → Pucusana → Lima (intended destination)",
+      "label_es": "Ica → Pucusana → Lima (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Ica",
+            "country": "Peru",
+            "lat": -14.07538,
+            "lon": -75.73422,
+            "precision": "city_origin_reported"
+          },
+          "to": {
+            "name": "Posto SERFOR Pucusana",
+            "country": "Peru",
+            "lat": -12.455209,
+            "lon": -76.753893,
+            "precision": "checkpoint_approximate_utm"
+          }
+        },
+        {
+          "from": {
+            "name": "Posto SERFOR Pucusana",
+            "country": "Peru",
+            "lat": -12.455209,
+            "lon": -76.753893,
+            "precision": "checkpoint_approximate_utm"
+          },
+          "to": {
+            "name": "Lima",
+            "country": "Peru",
+            "lat": -12.04637,
+            "lon": -77.04279,
+            "precision": "city_destination_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A fonte relata ônibus procedente de Ica rumo a Lima, interceptado no posto de Pucusana. A extração ilegal ocorreu em Puno, mas não há itinerário documentado Puno–Ica.",
+      "evidence_en": "A bus from Ica bound for Lima was intercepted at Pucusana with 2,517 Titicaca water frogs. No Puno-to-Ica movement is documented.",
+      "evidence_es": "Un autobús procedente de Ica y con destino a Lima fue interceptado en Pucusana con 2517 ranas del Titicaca. No se documentó un trayecto de Puno a Ica.",
+      "source_label": "Agencia Andina / SERFOR",
+      "source_url": "https://andina.pe/agencia/noticia-decomisan-2517-ranas-gigantes-puno-tenian-como-destino-lima-756446.aspx",
+      "tgh_audit": {
+        "candidate_number": 75,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-076",
+      "event_match": {
+        "event_id": "TGH-20261027-076"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Callao → Madri",
+      "label_en": "Callao → Madri",
+      "label_es": "Callao → Madri",
+      "segments": [
+        {
+          "from": {
+            "name": "Callao",
+            "country": "Peru",
+            "lat": -12.0219,
+            "lon": -77.1143,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Madri",
+            "country": "Espanha",
+            "lat": 40.41678,
+            "lon": -3.70379,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Viagem pretendida de passageiro belga com 20 aves.",
+      "evidence_en": "A Belgian traveler attempted to fly from Lima/Callao to Madrid carrying 20 wild birds. The flight was stopped before departure.",
+      "evidence_es": "Un viajero belga intentó volar de Lima/Callao a Madrid con 20 aves silvestres. El traslado fue impedido antes de la salida.",
+      "source_label": "www.actualidadambiental.pe",
+      "source_url": "https://www.actualidadambiental.pe/trafico-de-fauna-ciudadano-belga-intento-sacar-aves-por-el-aeropuerto-jorge-chavez/",
+      "tgh_audit": {
+        "candidate_number": 76,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-077",
+      "event_match": {
+        "event_id": "TGH-20261027-077"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "partial_completed_planned",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Cabanillas → Lima",
+      "label_en": "Cabanillas → Lima",
+      "label_es": "Cabanillas → Lima",
+      "segments": [
+        {
+          "from": {
+            "name": "Cabanillas",
+            "country": "Peru",
+            "lat": -15.64403,
+            "lon": -70.3446,
+            "precision": "district_generalized"
+          },
+          "to": {
+            "name": "Lima",
+            "country": "Peru",
+            "lat": -12.04318,
+            "lon": -77.02824,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Fonte indica carga transportada para Lima e interceptada em Cabanillas.",
+      "evidence_en": "SERFOR and customs stopped a shipment of 1,745 Titicaca frogs in Cabanillas, bound for Lima.",
+      "evidence_es": "El SERFOR y Aduanas intervinieron una encomienda de 1745 ranas del Titicaca en Cabanillas, con destino a Lima.",
+      "source_label": "www.gob.pe",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/492733-puno-serfor-y-aduanas-intervienen-cargamento-con-mas-de-1700-ranas-del-titicaca-que-eran-transportadas-ilegalmente",
+      "tgh_audit": {
+        "candidate_number": 77,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+    },
+    {
+      "id": "tgh-20261027-documented-route-083",
+      "event_match": {
+        "event_id": "TGH-20261027-083"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "partial_completed_planned",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Puno → Huataquita",
+      "label_en": "Puno → Huataquita",
+      "label_es": "Puno → Huataquita",
+      "segments": [
+        {
+          "from": {
+            "name": "Huataquita, Cabanillas (interceptação)",
+            "country": "Peru",
+            "lat": -15.68412166,
+            "lon": -70.33652,
+            "precision": "locality_generalized"
+          },
+          "to": {
+            "name": "Lima (destino documentado)",
+            "country": "Peru",
+            "lat": -12.04318,
+            "lon": -77.02824,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Controle rodoviário na estrada Puno-Huataquita; origem exata não documentada; revisar antes de mapear.",
+      "evidence_en": "SERFOR found 390 dried Titicaca frogs at the Huataquita checkpoint; the consignment was bound for Lima.",
+      "evidence_es": "El SERFOR halló 390 ranas del Titicaca disecadas en el control de Huataquita; la encomienda tenía como destino Lima.",
+      "source_label": "www.gob.pe",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1014684-decomisan-390-ranas-del-titicaca-en-carretera-puno-huataquita",
+      "tgh_audit": {
+        "candidate_number": 83,
+        "decision": "DOCUMENTED_SEGMENT_GEOMETRY_REVIEWED_BUT_UNPUBLISHED",
+        "not_capture_site": true
+      },
+      "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
     }
   ],
   "network_context": [
