@@ -1,0 +1,79 @@
+{
+  "batch": "TGH-OSINT-2026-10-28",
+  "canonical_before": 1317,
+  "canonical_after": 1327,
+  "routes_before": 308,
+  "routes_after": 311,
+  "publication_status": "PUBLISHED_AND_VERIFIED",
+  "new_cases": 10,
+  "excluded_as_present": 18,
+  "notes": "17 known canonical + newly discovered Quito duplicate; two context only; uncertain and aggregate cases held pending further evidence",
+  "decisions": [
+    {
+      "id": "TGH-20261028-007",
+      "status": "HOLD",
+      "reason": "Furto de 14 primatas confirmado; hipótese de tráfico não comprovada, origem/destino e compradores desconhecidos.",
+      "next": "Verificar investigação policial e eventual recuperação/venda."
+    },
+    {
+      "id": "TGH-20261028-008",
+      "status": "HOLD",
+      "reason": "Suspeitos de tentativa de caça de rinoceronte, sem confirmação de caça consumada ou fauna apreendida na fonte consultada.",
+      "next": "Localizar boletim SAPS individualizado antes de elegibilidade."
+    },
+    {
+      "id": "TGH-20261028-009",
+      "status": "HOLD",
+      "reason": "Uma lebre abatida e instrumentos de caça, mas espécie e tipificação da caça irregular não estabelecidas.",
+      "next": "Confirmar taxon, autorização legal e enquadramento."
+    },
+    {
+      "id": "TGH-20261028-011",
+      "status": "HOLD",
+      "reason": "Quinze jabutis vivos e quatro mortos encontrados; sem base suficiente para concluir comércio, origem e tipificação.",
+      "next": "Confirmar licenças e eventuais acusações."
+    },
+    {
+      "id": "TGH-20261028-012",
+      "status": "HOLD",
+      "reason": "Oito axolotes e uma ave em diligência não necessariamente ligada a comércio irregular; proveniência desconhecida.",
+      "next": "Localizar comunicação oficial da polícia/CAR e tipificação."
+    },
+    {
+      "id": "TGH-20261028-018",
+      "status": "HOLD_CONTEXT",
+      "reason": "Violência contra guarda florestal durante repressão à caça; sem apreensão de fauna individualizada.",
+      "next": "Preservar no monitoramento, não classificar como apreensão."
+    },
+    {
+      "id": "TGH-20261028-019",
+      "status": "HOLD",
+      "reason": "Setenta e dois animais exóticos encontrados em transporte; infração e comércio não demonstrados.",
+      "next": "Verificar registro policial, permissões e destinação."
+    },
+    {
+      "id": "TGH-20261028-013",
+      "status": "EXCLUDED_ALREADY_CANONICAL",
+      "canonical_id": "2026-10-undated__quito-mariscal-sucre-199-red-crabs",
+      "reason": "199 caranguejos em Quito já cadastrados; não duplicar."
+    },
+    {
+      "id": "TGH-20261028-014",
+      "status": "HOLD_AGGREGATE_SPLIT",
+      "reason": "Comunicado oficial da polícia indonésia relata quatro ocorrências na unidade, duas envolvendo fauna; não fornece individualização suficiente de local e número na própria fonte.",
+      "next": "Recuperar boletim local específico do transporte de aves, confrontar se há 7 aves e data precisa."
+    },
+    {
+      "id": "TGH-20261028-015",
+      "status": "HOLD_AGGREGATE_SPLIT",
+      "reason": "Comunicado oficial da polícia indonésia confirma outro caso relacionado a partes de tubarão, mas sem inventário, espécie ou localidade específica publicados na mesma nota.",
+      "next": "Buscar boletim e tipificação do embarque de derivados e deduplicar separadamente."
+    },
+    {
+      "id": "TGH-20261028-021",
+      "status": "HOLD_MULTISITE_AGGREGATE",
+      "reason": "Operação do Ibama em múltiplas cidades de Sergipe, cerca de 250 animais; sem garantia de não sobreposição com outros eventos já cadastrados (p.ex. Cristinápolis, 15/06).",
+      "next": "Individualizar ações por data e local e conciliar totais antes de ingestão."
+    }
+  ]
+}
