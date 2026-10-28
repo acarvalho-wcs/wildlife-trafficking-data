@@ -12791,6 +12791,222 @@
       "evidence_es": "Según la policía, el comerciante atribuyó los dorados a un proveedor de Porto Primavera. No acredita la captura ni el origen del lote completo.",
       "source_label": "Primary reporting authority / source article",
       "source_url": "https://canaldoagro.com/policia-ambiental-apreende-1936-kg-de-pescado-e-prende-comerciante-em-paicandu-pr/"
+    },
+    {
+      "id": "repair-20261028-palmillas",
+      "event_match": {
+        "event_id": "2026-10-undated__palmillas-queretaro-rattlesnake-gila-monster"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "reported_completed_segment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Guadalajara → Palmillas (viagem interceptada)",
+      "label_en": "Guadalajara → Palmillas (viagem interceptada)",
+      "label_es": "Guadalajara → Palmillas (viagem interceptada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Guadalajara, México",
+            "country": "conforme nome do ponto",
+            "lat": 20.6597,
+            "lon": -103.3496,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Pedágio Palmillas",
+            "country": "conforme nome do ponto",
+            "lat": 20.391,
+            "lon": -99.94,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "PROFEPA relatou viagem Guadalajara–Cidade do México, interrompida em Palmillas. Não indica origem biológica dos répteis.",
+      "evidence_en": "PROFEPA described Guadalajara–Mexico City travel interrupted at Palmillas. This is not the reptiles' biological origin.",
+      "evidence_es": "PROFEPA describió un viaje Guadalajara–Ciudad de México interrumpido en Palmillas; no indica origen biológico de los reptiles.",
+      "source_label": "Órgão citado na fonte",
+      "source_url": "https://www.gob.mx/profepa/prensa/vinculan-a-proceso-a-una-persona-por-posesion-de-fauna-silvestre-amenazada?idiom=es"
+    },
+    {
+      "id": "repair-20261028-palmillas-planned",
+      "event_match": {
+        "event_id": "2026-10-undated__palmillas-queretaro-rattlesnake-gila-monster"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "intended_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Palmillas → Cidade do México (pretendido)",
+      "label_en": "Palmillas → Cidade do México (pretendido)",
+      "label_es": "Palmillas → Cidade do México (pretendido)",
+      "segments": [
+        {
+          "from": {
+            "name": "Pedágio Palmillas",
+            "country": "conforme nome do ponto",
+            "lat": 20.391,
+            "lon": -99.94,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Cidade do México",
+            "country": "conforme nome do ponto",
+            "lat": 19.4326,
+            "lon": -99.1332,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Destino pretendido após interceptação em Palmillas. Os répteis não alcançaram a capital.",
+      "evidence_en": "Intended destination following interception in Palmillas. Reptiles did not reach Mexico City.",
+      "evidence_es": "Destino previsto tras la intervención en Palmillas. Los reptiles no llegaron a Ciudad de México.",
+      "source_label": "Órgão citado na fonte",
+      "source_url": "https://www.gob.mx/profepa/prensa/vinculan-a-proceso-a-una-persona-por-posesion-de-fauna-silvestre-amenazada?idiom=es"
+    },
+    {
+      "id": "repair-20261028-bogota-sp",
+      "event_match": {
+        "event_id": "TGH-20261027-039"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "intended_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Bogotá → São Paulo (escala pretendida)",
+      "label_en": "Bogotá → São Paulo (escala pretendida)",
+      "label_es": "Bogotá → São Paulo (escala pretendida)",
+      "segments": [
+        {
+          "from": {
+            "name": "El Dorado, Bogotá",
+            "country": "conforme nome do ponto",
+            "lat": 4.7016,
+            "lon": -74.14694,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "São Paulo (escala prevista)",
+            "country": "conforme nome do ponto",
+            "lat": -23.5505,
+            "lon": -46.6333,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Autoridade de Bogotá relatou plano de viagem com 424 rãs via São Paulo para Alemanha; viagem não concluída.",
+      "evidence_en": "Bogotá authorities described a planned flight with 424 frogs via São Paulo to Germany; travel was intercepted.",
+      "evidence_es": "Autoridad de Bogotá informó viaje previsto de 424 ranas vía São Paulo a Alemania; viaje interceptado.",
+      "source_label": "Órgão citado na fonte",
+      "source_url": "https://www.ambientebogota.gov.co/noticias-de-ambiente/-/asset_publisher/Fziya03up5Z6/content/incautadas-424-ranas-venenosas-en-el-aeropuerto-internacional-el-dorado-de-bogota"
+    },
+    {
+      "id": "repair-20261028-sp-germany",
+      "event_match": {
+        "event_id": "TGH-20261027-039"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "intended_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "São Paulo → Alemanha (destino pretendido)",
+      "label_en": "São Paulo → Alemanha (destino pretendido)",
+      "label_es": "São Paulo → Alemanha (destino pretendido)",
+      "segments": [
+        {
+          "from": {
+            "name": "São Paulo (escala prevista)",
+            "country": "conforme nome do ponto",
+            "lat": -23.5505,
+            "lon": -46.6333,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Alemanha (cidade desconhecida)",
+            "country": "conforme nome do ponto",
+            "lat": 51.1657,
+            "lon": 10.4515,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo relato à autoridade de Bogotá, Alemanha seria destino final via São Paulo; não houve voo realizado com as rãs.",
+      "evidence_en": "According to statements recorded by Bogotá authorities, Germany was the intended destination via São Paulo; the frogs did not travel.",
+      "evidence_es": "Según declaraciones a la autoridad de Bogotá, Alemania era el destino previsto vía São Paulo; no se realizó el traslado.",
+      "source_label": "Órgão citado na fonte",
+      "source_url": "https://www.ambientebogota.gov.co/noticias-de-ambiente/-/asset_publisher/Fziya03up5Z6/content/incautadas-424-ranas-venenosas-en-el-aeropuerto-internacional-el-dorado-de-bogota"
+    },
+    {
+      "id": "repair-20261028-callao-france",
+      "event_match": {
+        "event_id": "TGH-20261027-038"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "intended_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Callao → França (escala pretendida)",
+      "label_en": "Callao → França (escala pretendida)",
+      "label_es": "Callao → França (escala pretendida)",
+      "segments": [
+        {
+          "from": {
+            "name": "Callao, aeroporto Jorge Chávez",
+            "country": "conforme nome do ponto",
+            "lat": -12.0219,
+            "lon": -77.114305,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "França (escala prevista)",
+            "country": "conforme nome do ponto",
+            "lat": 46.6034,
+            "lon": 1.8883,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "SERFOR interceptou viajante com artrópodes que pretendia viajar à Coreia do Sul via França; cidade francesa não informada.",
+      "evidence_en": "SERFOR intercepted a traveller carrying arthropods, intending to travel to South Korea via France; no French city documented.",
+      "evidence_es": "SERFOR intervino a un viajero con artrópodos que pretendía ir a Corea del Sur vía Francia; ciudad francesa no documentada.",
+      "source_label": "Órgão citado na fonte",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1057325-intervienen-a-ciudadano-coreano-cuando-intentaba-viajar-con-mas-300-tarantulas-camufladas-en-su-cuerpo"
+    },
+    {
+      "id": "repair-20261028-france-korea",
+      "event_match": {
+        "event_id": "TGH-20261027-038"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "intended_route",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "França → Coreia do Sul (destino pretendido)",
+      "label_en": "França → Coreia do Sul (destino pretendido)",
+      "label_es": "França → Coreia do Sul (destino pretendido)",
+      "segments": [
+        {
+          "from": {
+            "name": "França (escala prevista)",
+            "country": "conforme nome do ponto",
+            "lat": 46.6034,
+            "lon": 1.8883,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Coreia do Sul (cidade desconhecida)",
+            "country": "conforme nome do ponto",
+            "lat": 35.9078,
+            "lon": 127.7669,
+            "precision": "generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo SERFOR, Coreia do Sul seria destino final via França; o carregamento foi apreendido no Peru antes do embarque.",
+      "evidence_en": "According to SERFOR, South Korea was intended as the final destination via France; the specimens were seized in Peru.",
+      "evidence_es": "Según SERFOR, Corea del Sur era el destino final vía Francia; los ejemplares fueron decomisados en Perú.",
+      "source_label": "Órgão citado na fonte",
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1057325-intervienen-a-ciudadano-coreano-cuando-intentaba-viajar-con-mas-300-tarantulas-camufladas-en-su-cuerpo"
     }
   ],
   "network_context": [
