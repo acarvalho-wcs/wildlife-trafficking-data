@@ -13007,6 +13007,43 @@
       "evidence_es": "Según SERFOR, Corea del Sur era el destino final vía Francia; los ejemplares fueron decomisados en Perú.",
       "source_label": "Órgão citado na fonte",
       "source_url": "https://www.gob.pe/institucion/serfor/noticias/1057325-intervienen-a-ciudadano-coreano-cuando-intentaba-viajar-con-mas-300-tarantulas-camufladas-en-su-cuerpo"
+    },
+    {
+      "id": "asuncion-southafrica-nine-eggs-2024-06-27",
+      "event_match": {
+        "location_contains": "Silvio Pettirossi",
+        "event_date": "2024-06-27"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Silvio Pettirossi/Assunção → África do Sul (destino informado; itinerário não confirmado)",
+      "label_en": "Silvio Pettirossi/Asunción → South Africa (reported destination; itinerary unconfirmed)",
+      "label_es": "Silvio Pettirossi/Asunción → Sudáfrica (destino informado; itinerario no confirmado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Internacional Silvio Pettirossi, Luque/Assunção",
+            "country": "Paraguai",
+            "lat": -25.2399,
+            "lon": -57.5191,
+            "precision": "airport"
+          },
+          "to": {
+            "name": "África do Sul",
+            "country": "África do Sul",
+            "lat": -30.5595,
+            "lon": 22.9375,
+            "precision": "country_centroid_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O Relatório Técnico Consolidado de Ovos de Psitacídeos 2020–2026, atualizado em 26/10/2026, informa África do Sul como destino no episódio de nove ovos apreendidos em Silvio Pettirossi em 27/06/2024, com a ressalva expressa de que o itinerário não foi confirmado em fonte oficial. O link do MADES documenta a ocorrência, não é aqui apresentado como confirmação do destino. A linha representa exclusivamente o destino informado no relatório, não deslocamento concluído. Cidade, aeroporto de chegada e escalas não documentados; o ponto sul-africano é um centroide nacional cartográfico. Não inferir origem biológica dos ovos.",
+      "evidence_en": "The Consolidated Technical Report on Parrot Eggs 2020–2026, updated 26 October 2026, reports South Africa as the destination for the nine eggs seized at Silvio Pettirossi on 27 June 2024, explicitly noting that the itinerary was not confirmed by an official source. The MADES link documents the incident and is not presented here as confirmation of the destination. This line represents only the destination reported in the report, not completed movement. Arrival city, airport and stopovers are undocumented; the South African point is a cartographic country centroid. Do not infer the eggs' biological origin.",
+      "evidence_es": "El Informe Técnico Consolidado sobre Huevos de Psitácidos 2020–2026, actualizado el 26/10/2026, informa Sudáfrica como destino de los nueve huevos incautados en Silvio Pettirossi el 27/06/2024, con la salvedad expresa de que el itinerario no fue confirmado por una fuente oficial. El enlace de MADES documenta el hecho y no se presenta aquí como confirmación del destino. La línea representa exclusivamente el destino informado en el informe, no un desplazamiento concluido. Ciudad, aeropuerto de llegada y escalas no documentados; el punto sudafricano es un centroide nacional cartográfico. No inferir el origen biológico de los huevos.",
+      "source_label": "Relatório técnico consolidado (26/10/2026): destino informado; MADES: ocorrência",
+      "source_url": "https://www.mades.gov.py/2024/06/27/incautan-huevos-presumiblemente-de-especies-de-vida-silvestre-en-el-aeropuerto-silvio-pettirossi/"
     }
   ],
   "network_context": [
