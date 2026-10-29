@@ -1,0 +1,60 @@
+{
+  "id": "tgh-20261028-29-18",
+  "location_label_pt": "Nkayi, Bouenza",
+  "country": "República do Congo",
+  "publication_date": "2026-10-26",
+  "event_date": "2026-10-23",
+  "event_end_date": null,
+  "title_pt": "Mandril jovem retirado de tentativa de venda em Nkayi",
+  "title_en": "Young mandrill seized in attempted sale in Nkayi",
+  "title_es": "Cría de mandril incautada ante intento de venta en Nkayi",
+  "fauna_label_pt": "Mandril",
+  "taxon_text": "Mandrillus sphinx",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_label_pt": "Não documentado",
+  "modal_primary": "unknown",
+  "card_text_pt": "Um casal foi detido em Nkayi em 23/10 por manter e tentar vender um mandril jovem, posteriormente encaminhado a resgate.",
+  "card_text_en": "A couple was arrested in Nkayi on October 23 for keeping and attempting to sell a juvenile mandrill, later transferred for rescue.",
+  "card_text_es": "Una pareja fue detenida en Nkayi el 23/10 por mantener e intentar vender una cría de mandril, posteriormente trasladada para rescate.",
+  "context_pt": "[O] A ACI publicou em 26/10 a detenção de 23/10 de duas pessoas com um mandril jovem que seria vendido.\n\nLeitura OSINT: A detenção em flagrante de um casal com um filhote de mandril destinado à venda indica intenção de comercialização e uma etapa local de intermediação. Não foram identificados comprador final, local exato de captura ou transporte internacional. O encaminhamento ao santuário é atividade de proteção, não rota de tráfico.\n\n[S] Revisão sobre primatas descreve pressões relacionadas a captura, animais de companhia, carne silvestre e riscos sanitários.",
+  "context_en": "[O] ACI reported on 26 October that two people were apprehended on 23 October with a juvenile mandrill intended for sale.\n\nOSINT assessment: The couple’s arrest with a juvenile mandrill reportedly intended for sale indicates attempted commercialization and local intermediation. The final buyer, capture locality and any international movement remain unknown. Transfer to a sanctuary is protective handling, not a trafficking route.\n\n[S] A primate-trade review examines capture, pets, bushmeat and health risks.",
+  "context_es": "[O] ACI publicó el 26/10 la detención del 23/10 de dos personas con una cría de mandril destinada a la venta.\n\nAnálisis OSINT: La detención de una pareja con una cría de mandril destinada a la venta indica intención de comercialización e intermediación local. Se desconocen comprador final, origen de captura y traslado internacional. El traslado al santuario corresponde a protección, no a una ruta de tráfico.\n\n[S] Una revisión del comercio de primates aborda captura, mascotas, carne silvestre y riesgos sanitarios.",
+  "references_text_pt": "[O] Agence Congolaise d’Information — https://www.aci.cg/bouenza-faune-un-couple-interpelle-pour-detention-et-tentative-de-trafic-dun-bebe-mandrill-vivant-a-nkayi/\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "source_label": "Agence Congolaise d’Information",
+  "source_url": "https://www.aci.cg/bouenza-faune-un-couple-interpelle-pour-detention-et-tentative-de-trafic-dun-bebe-mandrill-vivant-a-nkayi/",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": -4.173,
+    "lon": 13.293
+  },
+  "coordinate_precision": "municipality_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 animais ou itens; contagem conforme fonte.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 18,
+  "source_extra_url": null,
+  "references_text_en": "[O] Agence Congolaise d’Information — https://www.aci.cg/bouenza-faune-un-couple-interpelle-pour-detention-et-tentative-de-trafic-dun-bebe-mandrill-vivant-a-nkayi/\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "references_text_es": "[O] Agence Congolaise d’Information — https://www.aci.cg/bouenza-faune-un-couple-interpelle-pour-detention-et-tentative-de-trafic-dun-bebe-mandrill-vivant-a-nkayi/\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "provenance_types": [
+    "O",
+    "S"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "Fonte primária corrigida de link genérico para publicação ACI de 26/10; detenção em 23/10.",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

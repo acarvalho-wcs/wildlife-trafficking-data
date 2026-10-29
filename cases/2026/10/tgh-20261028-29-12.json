@@ -1,0 +1,59 @@
+{
+  "id": "tgh-20261028-29-12",
+  "location_label_pt": "Artogne, Brescia",
+  "country": "Itália",
+  "publication_date": "2026-10-29",
+  "event_date": null,
+  "event_end_date": null,
+  "title_pt": "Três aves protegidas mortas apreendidas em Artogne",
+  "title_en": "Three dead protected birds recovered in Artogne",
+  "title_es": "Tres aves protegidas muertas incautadas en Artogne",
+  "fauna_label_pt": "Aves: pettirossi e scricciolo",
+  "taxon_text": "Erithacus rubecula (2); Troglodytes troglodytes (1)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_label_pt": "Não documentado",
+  "modal_primary": "unknown",
+  "card_text_pt": "Em Artogne, os Carabinieri apreenderam dois pintarroxos-europeus e uma carriça mortos, além de arma, munição e armadilhas; um homem foi preso.",
+  "card_text_en": "In Artogne, Carabinieri recovered two dead European robins and one wren, along with a firearm, ammunition and traps; one man was arrested.",
+  "card_text_es": "En Artogne, los Carabinieri incautaron dos petirrojos europeos y un chochín muertos, además de arma, munición y trampas; un hombre fue detenido.",
+  "context_pt": "[O] A intervenção de Artogne foi noticiada na mesma matéria que outra operação em Nave, mas os locais são distintos.\n\nLeitura OSINT: A combinação de rede e armadilhas de pressão aponta captura local de pequenas aves protegidas no contexto da operação Pettirosso 2026. O caso é independente da ação em Nave, embora ambos sejam relatados na mesma matéria. Não há compradores, destinos, nem prova de comercialização; o padrão documentado é caça/captura e posse ilícita.",
+  "context_en": "[O] The Artogne seizure appeared in the same article as a separate operation in Nave.\n\nOSINT assessment: The net and spring traps indicate local capture of protected small birds within the Pettirosso 2026 enforcement campaign. This event is distinct from the Nave intervention, despite sharing a news report. No buyers, destinations or sales were documented; the verified pattern is unlawful capture and possession.",
+  "context_es": "[O] La intervención de Artogne apareció junto con otra en Nave, pero se trata de localidades distintas.\n\nAnálisis OSINT: La red y las trampas de resorte indican captura local de pequeñas aves protegidas en la operación Pettirosso 2026. Es un hecho distinto del registrado en Nave, aunque ambos aparecen en la misma noticia. No se documentaron compradores, destinos ni comercio; el patrón comprobado es captura y tenencia ilícitas.",
+  "references_text_pt": "[O] ÈliveBrescia TV — https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "source_label": "ÈliveBrescia TV",
+  "source_url": "https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": 45.849,
+    "lon": 10.161
+  },
+  "coordinate_precision": "municipality_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "3 animais ou itens; contagem conforme fonte.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 12,
+  "source_extra_url": null,
+  "references_text_en": "[O] ÈliveBrescia TV — https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "references_text_es": "[O] ÈliveBrescia TV — https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "provenance_types": [
+    "O"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

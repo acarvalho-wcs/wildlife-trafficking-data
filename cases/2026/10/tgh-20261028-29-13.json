@@ -1,0 +1,59 @@
+{
+  "id": "tgh-20261028-29-13",
+  "location_label_pt": "Nave, Brescia",
+  "country": "Itália",
+  "publication_date": "2026-10-29",
+  "event_date": null,
+  "event_end_date": null,
+  "title_pt": "Quatro aves protegidas mortas encontradas em Nave",
+  "title_en": "Four dead protected birds found in Nave",
+  "title_es": "Cuatro aves protegidas muertas halladas en Nave",
+  "fauna_label_pt": "Aves: pettirossi e fringuello",
+  "taxon_text": "Erithacus rubecula (3); Fringilla coelebs (1)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_label_pt": "Não documentado",
+  "modal_primary": "unknown",
+  "card_text_pt": "Em Nave, fiscalização encontrou três pintarroxos-europeus e um tentilhão mortos num congelador, além de espingardas não declaradas e cartuchos.",
+  "card_text_en": "In Nave, authorities found three dead European robins and a chaffinch in a freezer, plus unregistered shotguns and ammunition.",
+  "card_text_es": "En Nave, agentes encontraron tres petirrojos europeos y un pinzón muertos en un congelador, además de escopetas no declaradas y municiones.",
+  "context_pt": "[O] As quatro aves mortas em Nave são distintas das três apreendidas em Artogne na mesma cobertura.\n\nLeitura OSINT: O armazenamento congelado da avifauna e a posse de armas não registradas documentam retenção de aves abatidas; não há indícios publicados de remessa ou rede de comércio. A ocorrência é geograficamente e operacionalmente distinta de Artogne, e as sete aves dos dois episódios não devem ser lançadas como uma terceira ocorrência agregada.",
+  "context_en": "[O] The four dead birds in Nave are separate from the three in Artogne covered in the same report.\n\nOSINT assessment: Freezer storage and unregistered weapons document retention of hunted birds, not a proven shipment or trading network. This event is geographically and operationally separate from Artogne; the seven birds across both incidents must not be entered again as a third aggregate case.",
+  "context_es": "[O] Las cuatro aves muertas de Nave son distintas de las tres de Artogne mencionadas en la misma noticia.\n\nAnálisis OSINT: El almacenamiento en congelador y las armas no registradas documentan retención de aves abatidas, no un envío o red comercial demostrados. El hecho es independiente del de Artogne; las siete aves de ambas actuaciones no deben añadirse nuevamente como un tercer registro agregado.",
+  "references_text_pt": "[O] ÈliveBrescia TV — https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "source_label": "ÈliveBrescia TV",
+  "source_url": "https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": 45.587,
+    "lon": 10.292
+  },
+  "coordinate_precision": "municipality_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "4 animais ou itens; contagem conforme fonte.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 13,
+  "source_extra_url": null,
+  "references_text_en": "[O] ÈliveBrescia TV — https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "references_text_es": "[O] ÈliveBrescia TV — https://www.elivebrescia.tv/bracconaggio-nel-bresciano-2-arresti-e-7-uccelli-protetti-morti/",
+  "provenance_types": [
+    "O"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

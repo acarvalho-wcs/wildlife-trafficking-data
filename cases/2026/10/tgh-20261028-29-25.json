@@ -1,0 +1,60 @@
+{
+  "id": "tgh-20261028-29-25",
+  "location_label_pt": "RPH Sumberkembang, Sumbermanjing Wetan, Malang",
+  "country": "Indonésia",
+  "publication_date": "2026-10-28",
+  "event_date": "2026-10-09",
+  "event_end_date": null,
+  "title_pt": "Dois porcos-espinhos-de-java abatidos em Malang",
+  "title_en": "Two Javan porcupines shot in Malang",
+  "title_es": "Dos puercoespines de Java abatidos en Malang",
+  "fauna_label_pt": "Porco-espinho-de-java (Hystrix javanica)",
+  "taxon_text": "Hystrix javanica",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_label_pt": "Não documentado",
+  "modal_primary": "unknown",
+  "card_text_pt": "Dois suspeitos foram detidos em 09/10 numa área florestal de Malang com dois porcos-espinhos mortos e arma de pressão.",
+  "card_text_en": "Two suspects were arrested in a Malang forest on October 9 with two dead Javan porcupines and an air rifle.",
+  "card_text_es": "Dos sospechosos fueron detenidos el 09/10 en un bosque de Malang con dos puercoespines de Java muertos y un rifle de aire.",
+  "context_pt": "[O] A polícia encontrou dois porcos-espinhos abatidos e uma arma; não informou mercado comprador ou envio posterior.\n\nLeitura OSINT: A presença de dois animais mortos, arma modificada e projéteis fornece vínculo direto com caça em área florestal. A polícia ainda investigava o uso pretendido dos animais e eventual rede de compradores; não é possível caracterizar um circuito de comercialização ou rota de transporte. O registro deve ficar associado à data das prisões, não à publicação posterior.\n\n[S] Revisão de tecnologias de combate à caça irregular descreve a combinação de patrulhas, sensores e dados espaciais.",
+  "context_en": "[O] Police found two killed porcupines and a weapon, without reporting a buyer or subsequent shipment.\n\nOSINT assessment: Two dead animals, a modified rifle and pellets directly link the suspects to forest hunting. Police were still investigating intended use and any buyers; no trade network or transport route can be established. The record belongs to the arrest date, not the later publication date.\n\n[S] A review of anti-poaching technology discusses patrols, sensors and spatial data.",
+  "context_es": "[O] La policía encontró dos puercoespines muertos y un arma; no informó comprador ni envío posterior.\n\nAnálisis OSINT: Dos animales muertos, un rifle modificado y proyectiles vinculan directamente a los sospechosos con caza forestal. La policía investigaba el uso previsto y posibles compradores; no puede afirmarse una red comercial ni ruta de transporte. El evento corresponde a la fecha de detención, no a la noticia posterior.\n\n[S] Una revisión de tecnologías contra la caza furtiva analiza patrullajes, sensores y datos espaciales.",
+  "references_text_pt": "[O] Polres Malang — https://tribratanews.resmalang.jatim.polri.go.id/polres-malang-ungkap-perburuan-landak-jawa-2-pria-ditangkap\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "source_label": "Polres Malang",
+  "source_url": "https://tribratanews.resmalang.jatim.polri.go.id/polres-malang-ungkap-perburuan-landak-jawa-2-pria-ditangkap",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": -8.337,
+    "lon": 112.649
+  },
+  "coordinate_precision": "forest_district_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 animais ou itens; contagem conforme fonte.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 25,
+  "source_extra_url": null,
+  "references_text_en": "[O] Polres Malang — https://tribratanews.resmalang.jatim.polri.go.id/polres-malang-ungkap-perburuan-landak-jawa-2-pria-ditangkap\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "references_text_es": "[O] Polres Malang — https://tribratanews.resmalang.jatim.polri.go.id/polres-malang-ungkap-perburuan-landak-jawa-2-pria-ditangkap\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "provenance_types": [
+    "O",
+    "S"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

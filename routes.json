@@ -13044,6 +13044,151 @@
       "evidence_es": "El Informe Técnico Consolidado sobre Huevos de Psitácidos 2020–2026, actualizado el 26/10/2026, informa Sudáfrica como destino de los nueve huevos incautados en Silvio Pettirossi el 27/06/2024, con la salvedad expresa de que el itinerario no fue confirmado por una fuente oficial. El enlace de MADES documenta el hecho y no se presenta aquí como confirmación del destino. La línea representa exclusivamente el destino informado en el informe, no un desplazamiento concluido. Ciudad, aeropuerto de llegada y escalas no documentados; el punto sudafricano es un centroide nacional cartográfico. No inferir el origen biológico de los huevos.",
       "source_label": "Relatório técnico consolidado (26/10/2026): destino informado; MADES: ocorrência",
       "source_url": "https://www.mades.gov.py/2024/06/27/incautan-huevos-presumiblemente-de-especies-de-vida-silvestre-en-el-aeropuerto-silvio-pettirossi/"
+    },
+    {
+      "id": "tgh-20261028-29-15-aswan-asyut",
+      "event_match": {
+        "event_id": "tgh-20261028-29-15"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Aswan → Asyut",
+      "label_en": "Aswan → Asyut",
+      "label_es": "Asuán → Asiut",
+      "segments": [
+        {
+          "from": {
+            "name": "Aswan",
+            "country": "Egito",
+            "lat": 24.089,
+            "lon": 32.9,
+            "precision": "city"
+          },
+          "to": {
+            "name": "Asyut",
+            "country": "Egito",
+            "lat": 27.182,
+            "lon": 31.184,
+            "precision": "city_station_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "O trem vinha de Aswan e foi interceptado em Asyut.",
+      "evidence_en": "The train arrived from Aswan and was intercepted in Asyut.",
+      "evidence_es": "El tren procedía de Asuán y fue interceptado en Asiut.",
+      "source_label": "El Watan",
+      "source_url": "https://www.elwatannews.com/news/details/8386213"
+    },
+    {
+      "id": "tgh-20261028-29-15-asyut-alexandria",
+      "event_match": {
+        "event_id": "tgh-20261028-29-15"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Asyut → Alexandria (pretendido)",
+      "label_en": "Asyut → Alexandria (intended)",
+      "label_es": "Asiut → Alejandría (previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Asyut",
+            "country": "Egito",
+            "lat": 27.182,
+            "lon": 31.184,
+            "precision": "city_station_generalized"
+          },
+          "to": {
+            "name": "Alexandria",
+            "country": "Egito",
+            "lat": 31.2,
+            "lon": 29.918,
+            "precision": "city"
+          }
+        }
+      ],
+      "evidence_pt": "O passageiro estava em trem com destino anunciado Alexandria; a interceptação ocorreu em Asyut.",
+      "evidence_en": "The passenger was on a train bound for Alexandria, but was intercepted in Asyut.",
+      "evidence_es": "El pasajero iba en un tren con destino a Alejandría y fue interceptado en Asiut.",
+      "source_label": "El Watan",
+      "source_url": "https://www.elwatannews.com/news/details/8386213"
+    },
+    {
+      "id": "tgh-20261028-29-24-aru-probolinggo",
+      "event_match": {
+        "event_id": "tgh-20261028-29-24"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "attributed_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Ilhas Aru → Probolinggo (relatado)",
+      "label_en": "Aru Islands → Probolinggo (reported)",
+      "label_es": "Islas Aru → Probolinggo (reportado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Ilhas Aru (região)",
+            "country": "Indonésia",
+            "lat": -6.12,
+            "lon": 134.36,
+            "precision": "archipelago_generalized"
+          },
+          "to": {
+            "name": "Probolinggo",
+            "country": "Indonésia",
+            "lat": -7.747,
+            "lon": 113.22,
+            "precision": "port_city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Informação recebida pela polícia apontava envio de aves das ilhas Aru até Probolinggo.",
+      "evidence_en": "Information received by police pointed to a bird shipment from the Aru Islands to Probolinggo.",
+      "evidence_es": "Información recibida por la policía apuntaba a un envío de aves desde Aru hacia Probolinggo.",
+      "source_label": "ANTARA",
+      "source_url": "https://jatim.antaranews.com/berita/1111711/ditpolairud-polda-jatim-ungkap-empat-kasus-sepekan"
+    },
+    {
+      "id": "tgh-20261028-29-26-jakarta-cambodia",
+      "event_match": {
+        "event_id": "tgh-20261028-29-26"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "dashed",
+      "label_pt": "Jacarta → Camboja (pretendido)",
+      "label_en": "Jakarta → Cambodia (intended)",
+      "label_es": "Yakarta → Camboya (previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Porto Tanjung Priok, Jacarta",
+            "country": "Indonésia",
+            "lat": -6.104,
+            "lon": 106.886,
+            "precision": "port_generalized"
+          },
+          "to": {
+            "name": "Camboja (país)",
+            "country": "Camboja",
+            "lat": 12.565,
+            "lon": 104.991,
+            "precision": "country_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Os documentos e a investigação apontam o Camboja como destino de exportação, mas a carga foi interceptada em Jacarta.",
+      "evidence_en": "Documents and investigation indicate Cambodia as export destination, but the shipment was intercepted in Jakarta.",
+      "evidence_es": "Los documentos y la investigación señalan Camboya como destino de exportación, pero el cargamento fue interceptado en Yakarta.",
+      "source_label": "Ministério das Florestas da Indonésia",
+      "source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/gakkum-kehutanan-tahan-tersangka-3-ton-sisik-trenggiling-tujuan-kamboja-koordinasi-interpol-perkuat-pengungkapan-jaringan-lintas-negara",
+      "event_date": "2026-02-12"
     }
   ],
   "network_context": [

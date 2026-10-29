@@ -1,0 +1,61 @@
+{
+  "id": "tgh-20261028-29-10",
+  "location_label_pt": "Tacna",
+  "country": "Peru",
+  "publication_date": "2026-10-28",
+  "event_date": null,
+  "event_end_date": null,
+  "title_pt": "Quati mantido ilegalmente como pet é resgatado em Tacna",
+  "title_en": "Illegally kept pet coati rescued in Tacna",
+  "title_es": "Rescatan en Tacna un coatí mantenido ilegalmente como mascota",
+  "fauna_label_pt": "Quati (Nasua nasua)",
+  "taxon_text": "Nasua nasua",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_label_pt": "Não documentado",
+  "modal_primary": "unknown",
+  "card_text_pt": "Um quati adquirido por 200 soles e mantido sem documentação foi resgatado em Tacna em agosto e posteriormente transferido a abrigo em Madre de Dios.",
+  "card_text_en": "A coati bought for 200 soles and kept without permits was rescued in Tacna in August and later transferred to a sanctuary in Madre de Dios.",
+  "card_text_es": "Un coatí comprado por 200 soles y mantenido sin documentos fue rescatado en Tacna en agosto y posteriormente trasladado a un refugio en Madre de Dios.",
+  "context_pt": "[O] A compra por 200 soles foi relatada; o transporte posterior a Madre de Dios foi uma transferência para resgate.\n\nLeitura OSINT: A compra relatada indica monetização direta de fauna para uso como pet, mas a origem do animal e a identidade do vendedor não são conhecidas. O deslocamento Tacna–Madre de Dios ocorreu para reabilitação e não deve aparecer como rota de tráfico. Dados sobre anúncio, intermediário e origem seriam necessários para reconstruir a cadeia anterior à aquisição.\n\n[S] A pesquisa distingue mercados de animais vivos e de produtos derivados, advertindo que preço ou apreensão isolada não bastam para reconstruir a cadeia comercial.",
+  "context_en": "[O] A purchase for 200 soles was reported; the later movement to Madre de Dios was a rescue transfer.\n\nOSINT assessment: The reported purchase indicates direct monetization of wildlife as a pet, but the animal’s origin and seller are unknown. Transfer from Tacna to Madre de Dios was for rehabilitation and must not appear as a trafficking route. Seller, advertisement and sourcing information would be needed to reconstruct the acquisition chain.\n\n[S] The study distinguishes live-animal and wildlife-product markets and cautions against deriving a complete supply chain from a price or isolated seizure.",
+  "context_es": "[O] Se informó una compra por 200 soles; el traslado posterior a Madre de Dios fue para rescate.\n\nAnálisis OSINT: La compra descrita indica monetización directa de fauna como mascota, pero se desconoce el origen del animal y la identidad del vendedor. El traslado Tacna–Madre de Dios fue para rehabilitación y no debe figurar como ruta de tráfico. Para reconstruir la cadena anterior se requieren datos del vendedor, anuncio y procedencia.\n\n[S] El estudio distingue mercados de animales vivos y productos derivados y advierte que el precio o una incautación aislada no reconstruyen toda la cadena comercial.",
+  "references_text_pt": "[O] RPP — https://rpp.pe/peru/tacna/tacna-coati-que-habia-sido-comprado-como-mascota-fue-rescatado-y-trasladado-a-refugio-en-madre-de-dios-noticia-1714810?itlk=ikmasleido\n[S] How illegal wildlife trade adheres to and defies conventional market behavior — https://doi.org/10.1073/pnas.2525056123",
+  "source_label": "RPP",
+  "source_url": "https://rpp.pe/peru/tacna/tacna-coati-que-habia-sido-comprado-como-mascota-fue-rescatado-y-trasladado-a-refugio-en-madre-de-dios-noticia-1714810?itlk=ikmasleido",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": -18.006,
+    "lon": -70.25
+  },
+  "coordinate_precision": "municipality_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 quati; data exata desconhecida, somente mês agosto.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "event_month": "2026-08",
+  "tgh_sequence": 10,
+  "source_extra_url": null,
+  "references_text_en": "[O] RPP — https://rpp.pe/peru/tacna/tacna-coati-que-habia-sido-comprado-como-mascota-fue-rescatado-y-trasladado-a-refugio-en-madre-de-dios-noticia-1714810?itlk=ikmasleido\n[S] How illegal wildlife trade adheres to and defies conventional market behavior — https://doi.org/10.1073/pnas.2525056123",
+  "references_text_es": "[O] RPP — https://rpp.pe/peru/tacna/tacna-coati-que-habia-sido-comprado-como-mascota-fue-rescatado-y-trasladado-a-refugio-en-madre-de-dios-noticia-1714810?itlk=ikmasleido\n[S] How illegal wildlife trade adheres to and defies conventional market behavior — https://doi.org/10.1073/pnas.2525056123",
+  "provenance_types": [
+    "O",
+    "S"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

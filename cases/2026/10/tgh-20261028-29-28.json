@@ -1,0 +1,60 @@
+{
+  "id": "tgh-20261028-29-28",
+  "location_label_pt": "Águas a oeste de Cape Wessel, NT",
+  "country": "Austrália",
+  "publication_date": "2026-10-28",
+  "event_date": "2026-10-14",
+  "event_end_date": null,
+  "title_pt": "Pesca estrangeira ilegal interceptada perto de Cape Wessel",
+  "title_en": "Foreign illegal fishing intercepted near Cape Wessel",
+  "title_es": "Pesca extranjera ilegal interceptada cerca de Cape Wessel",
+  "fauna_label_pt": "Barbatanas de tubarão; peixes de recife",
+  "taxon_text": "Selachimorpha (barbatanas); peixes recifais sem identificação",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_label_pt": "Marítimo",
+  "modal_primary": "sea",
+  "card_text_pt": "Autoridades australianas interceptaram embarcação estrangeira detectada em 14/10 perto de Cape Wessel, com dez barbatanas de tubarão e 10 kg de peixes de recife.",
+  "card_text_en": "Australian authorities intercepted a foreign vessel detected near Cape Wessel on October 14, carrying ten shark fins and 10 kg of reef fish.",
+  "card_text_es": "Autoridades australianas interceptaron una embarcación extranjera detectada cerca de Cape Wessel el 14/10, con diez aletas de tiburón y 10 kg de peces de arrecife.",
+  "context_pt": "[O] A fiscalização encontrou dez barbatanas e peixe de recife medido em quilogramas; o porto de origem não foi identificado.\n\nLeitura OSINT: A fiscalização marítima identificou captura não autorizada em águas australianas, com preservação de pescado a bordo. A nacionalidade, o porto de partida e o destino não foram informados; não se pode traçar uma rota transfronteiriça apenas por se tratar de barco estrangeiro. As dez barbatanas são dez itens contabilizáveis, enquanto os dez quilogramas de peixes não representam dez peixes.\n\n[S] Estudo de genética forense mostra que partes processadas de tubarão podem exigir análise molecular para identificar espécies.",
+  "context_en": "[O] Enforcement found ten fins and reef fish measured by weight; the departure port was not identified.\n\nOSINT assessment: Maritime enforcement identified suspected unauthorized catch in Australian waters, with fish-preservation supplies aboard. Flag state, departure port and destination were not disclosed; foreign vessel status alone cannot justify a cross-border route. Ten shark fins are countable wildlife items, whereas ten kilograms of reef fish do not mean ten individual fish.\n\n[S] Forensic research shows processed shark parts can require molecular methods for species identification.",
+  "context_es": "[O] La inspección encontró diez aletas y pescado de arrecife medido por peso; no se identificó el puerto de salida.\n\nAnálisis OSINT: La fiscalización marítima detectó presunta captura no autorizada en aguas australianas y suministros para conservar pescado a bordo. No se informó bandera, puerto de partida ni destino; no debe inferirse una ruta transfronteriza solo porque la nave es extranjera. Las diez aletas son ítems contables, mientras diez kilogramos de pescado no equivalen a diez peces.\n\n[S] Investigación forense indica que las partes procesadas de tiburón pueden exigir identificación molecular.",
+  "references_text_pt": "[O] Australian Border Force — https://www.abf.gov.au/newsroom-subsite/Pages/Crew-detained-after-suspected-illegal-foreign-fishing-off-Cape-Wessel%2C-NT.aspx\n[S] Forensic genetics for monitoring the illegal trade of hammerhead sharks (Sphyrna spp.) using a multiplex PCR protocol — https://doi.org/10.3389/fmars.2025.1638479",
+  "source_label": "Australian Border Force",
+  "source_url": "https://www.abf.gov.au/newsroom-subsite/Pages/Crew-detained-after-suspected-illegal-foreign-fishing-off-Cape-Wessel%2C-NT.aspx",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": -11.025,
+    "lon": 136.72
+  },
+  "coordinate_precision": "offshore_area_generalized",
+  "geographic_note_pt": "Ponto meramente representativo da área marítima a oeste de Cape Wessel; não é a localização exata do navio.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 10,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Peixes": 10
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "10 barbatanas (itens); 10 kg de peixes de recife (peso, indivíduos desconhecidos).",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 28,
+  "source_extra_url": null,
+  "references_text_en": "[O] Australian Border Force — https://www.abf.gov.au/newsroom-subsite/Pages/Crew-detained-after-suspected-illegal-foreign-fishing-off-Cape-Wessel%2C-NT.aspx\n[S] Forensic genetics for monitoring the illegal trade of hammerhead sharks (Sphyrna spp.) using a multiplex PCR protocol — https://doi.org/10.3389/fmars.2025.1638479",
+  "references_text_es": "[O] Australian Border Force — https://www.abf.gov.au/newsroom-subsite/Pages/Crew-detained-after-suspected-illegal-foreign-fishing-off-Cape-Wessel%2C-NT.aspx\n[S] Forensic genetics for monitoring the illegal trade of hammerhead sharks (Sphyrna spp.) using a multiplex PCR protocol — https://doi.org/10.3389/fmars.2025.1638479",
+  "provenance_types": [
+    "O",
+    "S"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tgh-20261028-29-21",
+  "location_label_pt": "Udanti-Sitanadi Tiger Reserve, Gariaband",
+  "country": "Índia",
+  "publication_date": "2026-10-28",
+  "event_date": "2026-10-26",
+  "event_end_date": null,
+  "title_pt": "Dois langures caçados em reserva de Chhattisgarh",
+  "title_en": "Two langurs poached in Chhattisgarh tiger reserve",
+  "title_es": "Dos langures cazados furtivamente en reserva de Chhattisgarh",
+  "fauna_label_pt": "Langures-comuns",
+  "taxon_text": "Semnopithecus sp. (identificação em nível de gênero não confirmada)",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_label_pt": "Não documentado",
+  "modal_primary": "unknown",
+  "card_text_pt": "Três homens foram presos em 26/10 no Udanti-Sitanadi; uma fonte relata duas fêmeas abatidas e 13,8 kg de carne apreendida.",
+  "card_text_en": "Three men were arrested on October 26 in Udanti-Sitanadi; one report identifies two female langurs killed and 13.8 kg of meat seized.",
+  "card_text_es": "Tres hombres fueron detenidos el 26/10 en Udanti-Sitanadi; una fuente informó dos hembras de langur abatidas y 13,8 kg de carne decomisada.",
+  "context_pt": "[O] O relato com referência ao auto florestal registra duas fêmeas de langur e 13,8 kg de carne; os dados não descrevem venda.\n\nLeitura OSINT: A ocorrência documenta caça de dois langures fêmeas e 13,8 kg de carne apreendida, além de instrumentos e três detidos. O boletim policial citado permite tratar o número de animais como dois, mas não demonstrou comercialização ou destino de venda. O peso da carne é medida física da mesma apreensão, não animais adicionais.\n\n[S] Revisão sobre primatas descreve pressões relacionadas a captura, animais de companhia, carne silvestre e riscos sanitários.",
+  "context_en": "[O] Reporting citing the forest offense record identifies two female langurs and 13.8 kg of meat, without describing sales.\n\nOSINT assessment: The incident involves two female langurs hunted, 13.8 kg of meat recovered, tools and three arrests. The reported forest offense supports counting two animals but does not establish sale or a commercial destination. The meat weight describes the same seizure rather than additional animals.\n\n[S] A primate-trade review examines capture, pets, bushmeat and health risks.",
+  "context_es": "[O] La noticia basada en el expediente forestal registra dos hembras de langur y 13,8 kg de carne, sin venta descrita.\n\nAnálisis OSINT: El caso documenta dos hembras de langur cazadas, 13,8 kg de carne incautada, herramientas y tres detenciones. El expediente forestal citado permite contar dos ejemplares, pero no acredita venta ni destino comercial. El peso corresponde a la misma incautación, no a más animales.\n\n[S] Una revisión del comercio de primates aborda captura, mascotas, carne silvestre y riesgos sanitarios.",
+  "references_text_pt": "[O] News Riveting — https://newsriveting.com/chhattisgarh-forest-department-arrests-three-for-poaching-langurs-in-gariaband/\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "source_label": "News Riveting",
+  "source_url": "https://newsriveting.com/chhattisgarh-forest-department-arrests-three-for-poaching-langurs-in-gariaband/",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": 20.466,
+    "lon": 82.179
+  },
+  "coordinate_precision": "reserve_buffer_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Duas fêmeas segundo News Riveting; Times of India usa singular; carne 13,8kg.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 21,
+  "source_extra_url": null,
+  "references_text_en": "[O] News Riveting — https://newsriveting.com/chhattisgarh-forest-department-arrests-three-for-poaching-langurs-in-gariaband/\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "references_text_es": "[O] News Riveting — https://newsriveting.com/chhattisgarh-forest-department-arrests-three-for-poaching-langurs-in-gariaband/\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "provenance_types": [
+    "O",
+    "S"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "News Riveting, 28/10, relata duas fêmeas de langur; 13,8 kg é peso da carne e não entra na contagem de espécimes. Divergência com manchete no singular deve permanecer documentada.",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

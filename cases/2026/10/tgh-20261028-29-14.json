@@ -1,0 +1,60 @@
+{
+  "id": "tgh-20261028-29-14",
+  "location_label_pt": "Colle del Gran San Bernardo, Vale de Aosta",
+  "country": "Itália",
+  "publication_date": "2026-10-28",
+  "event_date": "2026-10-19",
+  "event_end_date": null,
+  "title_pt": "Íbex abatido ilegalmente no Colle del Gran San Bernardo",
+  "title_en": "Ibex illegally shot at Great St Bernard Pass",
+  "title_es": "Íbice abatido ilegalmente en el paso del Gran San Bernardo",
+  "fauna_label_pt": "Íbex-alpino",
+  "taxon_text": "Capra ibex (1); marmota adicional sem data vinculada",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_label_pt": "Não documentado",
+  "modal_primary": "unknown",
+  "card_text_pt": "Três caçadores foram denunciados após abate de um íbex protegido em 19/10; uma marmota foi encontrada em freezer durante buscas.",
+  "card_text_en": "Three hunters were reported after a protected ibex was shot on October 19; a marmot was also found in a freezer during searches.",
+  "card_text_es": "Tres cazadores fueron denunciados tras abatir un íbice protegido el 19/10; también se halló una marmota en un congelador.",
+  "context_pt": "[O] O relato associa o abate de um íbex a 19 de outubro; a data de morte da marmota encontrada não foi informada.\n\nLeitura OSINT: A vigilância florestal observou a caça, o desmembramento e a ocultação de restos, constituindo evidência direta do ato. O achado de uma marmota no freezer sugere outra infração potencial, sem data de abate conhecida; ela não deve ser somada ao íbex como parte do mesmo evento. Não foi demonstrada venda de partes ou trânsito internacional, apesar da proximidade geográfica da fronteira.\n\n[S] Revisão de tecnologias de combate à caça irregular descreve a combinação de patrulhas, sensores e dados espaciais.",
+  "context_en": "[O] The ibex killing was reported for 19 October; no death date was given for the marmot also found.\n\nOSINT assessment: Forest officers observed the shooting, processing and concealment of remains, providing direct evidence of the act. A marmot found in a freezer may indicate a separate offence of unknown date and must not be counted as the same seizure event. No sale of parts or international movement is documented, notwithstanding the nearby border.\n\n[S] A review of anti-poaching technology discusses patrols, sensors and spatial data.",
+  "context_es": "[O] La muerte del íbice se sitúa el 19 de octubre; no se informó cuándo murió la marmota encontrada.\n\nAnálisis OSINT: Agentes forestales observaron el disparo, despiece y ocultación de restos, aportando evidencia directa. Una marmota hallada en un congelador puede corresponder a otra infracción de fecha desconocida y no debe sumarse al íbice del mismo evento. No se documentó venta ni traslado internacional, pese a la proximidad fronteriza.\n\n[S] Una revisión de tecnologías contra la caza furtiva analiza patrullajes, sensores y datos espaciales.",
+  "references_text_pt": "[O] La Vallée Notizie — https://www.lavalleenotizie.it/cronaca/abbattono-uno-stambecco-denunciati-in-tre-dalla-forestale-per-bracconaggio/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "source_label": "La Vallée Notizie",
+  "source_url": "https://www.lavalleenotizie.it/cronaca/abbattono-uno-stambecco-denunciati-in-tre-dalla-forestale-per-bracconaggio/",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": 45.868,
+    "lon": 7.168
+  },
+  "coordinate_precision": "pass_area_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Marmota adicional sem data conhecida não incluída na quantidade.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 14,
+  "source_extra_url": null,
+  "references_text_en": "[O] La Vallée Notizie — https://www.lavalleenotizie.it/cronaca/abbattono-uno-stambecco-denunciati-in-tre-dalla-forestale-per-bracconaggio/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "references_text_es": "[O] La Vallée Notizie — https://www.lavalleenotizie.it/cronaca/abbattono-uno-stambecco-denunciati-in-tre-dalla-forestale-per-bracconaggio/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "provenance_types": [
+    "O",
+    "S"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}

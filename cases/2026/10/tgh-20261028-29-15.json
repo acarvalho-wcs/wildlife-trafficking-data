@@ -1,0 +1,60 @@
+{
+  "id": "tgh-20261028-29-15",
+  "location_label_pt": "Asyut (estação ferroviária)",
+  "country": "Egito",
+  "publication_date": "2026-10-28",
+  "event_date": "2026-10-28",
+  "event_end_date": null,
+  "title_pt": "30 filhotes de crocodilo interceptados em trem no Egito",
+  "title_en": "30 juvenile crocodiles intercepted aboard train in Egypt",
+  "title_es": "30 crías de cocodrilo interceptadas en un tren en Egipto",
+  "fauna_label_pt": "Crocodilos",
+  "taxon_text": "Crocodylia; espécie não identificada",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_label_pt": "Ferroviário",
+  "modal_primary": "rail",
+  "card_text_pt": "Uma mala com 30 crocodilos juvenis foi interceptada em Asyut num trem de Aswan para Alexandria; três morreram após a apreensão.",
+  "card_text_en": "A suitcase containing 30 juvenile crocodiles was intercepted in Asyut on an Aswan-to-Alexandria train; three later died.",
+  "card_text_es": "Una maleta con 30 cocodrilos juveniles fue interceptada en Asyut en un tren Asuán–Alejandría; tres murieron después.",
+  "context_pt": "[O] A fonte identifica o deslocamento ferroviário Aswan–Alexandria interrompido em Asyut, não o local de captura dos animais.\n\nLeitura OSINT: O transporte de pequenos crocodilos em bagagem pessoal demonstra deslocamento oculto por ferrovia dentro do país, com ponto de detecção em Asyut. A fonte confirma procedência ferroviária de Aswan e destino anunciado Alexandria, mas não o objetivo comercial final nem o local de captura dos animais. As três mortes posteriores não reduzem o total inicial de 30 espécimes interceptados.\n\n[N] Reportagem anterior examina resgate e tratamento de répteis, incluindo crocodilos, no Egito.",
+  "context_en": "[O] The source identifies the Aswan–Alexandria train journey interrupted at Asyut, not the animals’ capture location.\n\nOSINT assessment: Carrying juvenile crocodiles in personal luggage documents concealed domestic rail movement, intercepted in Asyut. The source supports train origin Aswan and intended destination Alexandria but not the animals’ capture site or end buyer. Three deaths following seizure do not reduce the initial interception count of 30.\n\n[N] Earlier coverage examines reptile rescue and care, including crocodiles, in Egypt.",
+  "context_es": "[O] La fuente identifica el tren Asuán–Alejandría interceptado en Asiut, no el sitio de captura de los animales.\n\nAnálisis OSINT: El transporte de crías de cocodrilo en equipaje personal documenta desplazamiento ferroviario oculto, interceptado en Asyut. La fuente confirma la procedencia del tren desde Asuán y el destino anunciado Alejandría, no el lugar de captura ni el comprador final. Las tres muertes posteriores no reducen los 30 ejemplares interceptados.\n\n[N] Un reportaje anterior examina rescate y atención de reptiles, incluidos cocodrilos, en Egipto.",
+  "references_text_pt": "[O] El Watan — https://www.elwatannews.com/news/details/8386213\n[N] From flamingos to crocodiles: Egypt’s effort to rescue wildlife from illegal trade — https://www.youm7.com/story/2026/9/23/%D9%85%D9%86-%D8%A7%D9%84%D9%81%D9%84%D8%A7%D9%85%D9%86%D8%AC%D9%88-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B3%D9%8A%D8%AD-%D8%B1%D8%AD%D9%84%D8%A9-%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%A9-%D9%85%D9%86-%D9%82%D8%A8%D8%B6%D8%A9/7542982",
+  "source_label": "El Watan",
+  "source_url": "https://www.elwatannews.com/news/details/8386213",
+  "status": "VALIDATED",
+  "coordinates": {
+    "lat": 27.182,
+    "lon": 31.184
+  },
+  "coordinate_precision": "rail_station_city_generalized",
+  "geographic_note_pt": "Coordenadas indicativas/generalizadas apenas para visualização; não representam o ponto exato da intervenção.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 30,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 30
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "30 crocodilos vivos no momento da apreensão; 3 morreram depois.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_caption_pt": null,
+  "image_credit": null,
+  "image_status": "not_resolved",
+  "tgh_sequence": 15,
+  "source_extra_url": null,
+  "references_text_en": "[O] El Watan — https://www.elwatannews.com/news/details/8386213\n[N] From flamingos to crocodiles: Egypt’s effort to rescue wildlife from illegal trade — https://www.youm7.com/story/2026/9/23/%D9%85%D9%86-%D8%A7%D9%84%D9%81%D9%84%D8%A7%D9%85%D9%86%D8%AC%D9%88-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B3%D9%8A%D8%AD-%D8%B1%D8%AD%D9%84%D8%A9-%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%A9-%D9%85%D9%86-%D9%82%D8%A8%D8%B6%D8%A9/7542982",
+  "references_text_es": "[O] El Watan — https://www.elwatannews.com/news/details/8386213\n[N] From flamingos to crocodiles: Egypt’s effort to rescue wildlife from illegal trade — https://www.youm7.com/story/2026/9/23/%D9%85%D9%86-%D8%A7%D9%84%D9%81%D9%84%D8%A7%D9%85%D9%86%D8%AC%D9%88-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B3%D9%8A%D8%AD-%D8%B1%D8%AD%D9%84%D8%A9-%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%A9-%D9%85%D9%86-%D9%82%D8%A8%D8%B6%D8%A9/7542982",
+  "provenance_types": [
+    "O",
+    "N"
+  ],
+  "context_review_version": "OSINT-2026-10-29-v3-O-S-I-N-T",
+  "audit_note": "",
+  "tgh_import_gate": "READY_WITH_GUARDRAILS"
+}
