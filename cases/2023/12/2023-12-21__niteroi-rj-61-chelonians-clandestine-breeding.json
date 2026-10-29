@@ -1,0 +1,59 @@
+{
+  "id": "2023-12-21__niteroi-rj-61-chelonians-clandestine-breeding",
+  "status": "VALIDATED",
+  "ingestion_batch": "TGH-OSINT-2026-10-28",
+  "canonical_source_candidate_id": "TGH-20261028-020",
+  "country": "Brasil",
+  "location_label_pt": "Região Oceânica, Niterói, Rio de Janeiro",
+  "event_date": "2023-12-21",
+  "publication_date": "2023-12-21",
+  "fauna_label_pt": "60 jabutis-piranga e 1 tartaruga-tigre-d'água",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Chelonoidis carbonarius; Trachemys sp.",
+  "coordinates": {
+    "lat": -22.94,
+    "lon": -43.05
+  },
+  "coordinate_precision": "municipality_generalized",
+  "geographic_note_pt": "Coordenadas aproximadas da localidade divulgada; não representam o ponto exato da apreensão.",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "quantity_count": 61,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Répteis": 61
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "Polícia Federal (comunicado retrospectivamente atualizado)",
+  "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2023/12/pf-resgata-61-animais-em-cativeiro-clandestino-em-niteroi-rj",
+  "title_pt": "Polícia Federal resgata 61 quelônios de criadouro clandestino em Niterói em 2023",
+  "title_en": "Federal Police recover 61 chelonians from clandestine breeding site in Niterói in 2023",
+  "title_es": "La Policía Federal rescata 61 quelonios de un criadero clandestino en Niterói en 2023",
+  "card_text_pt": "Em 21/12/2023, a PF encontrou 60 jabutis-piranga e uma tartaruga-tigre-d'água em criadouro clandestino na Região Oceânica de Niterói. Uma suspeita foi detida e armas foram apreendidas.",
+  "card_text_en": "On 21 December 2023, Federal Police found 60 red-footed tortoises and one slider turtle at an unlicensed breeding site in Niterói. A suspect was detained and firearms seized.",
+  "card_text_es": "El 21 de diciembre de 2023, la Policía Federal halló 60 morrocoyes de patas rojas y una tortuga acuática en un criadero clandestino de Niterói. Una sospechosa fue detenida y se incautaron armas.",
+  "context_pt": "[O1] A Polícia Federal informou resgate de 61 quelônios em criadouro clandestino na Região Oceânica de Niterói, com prisão de uma suspeita e apreensão de duas pistolas. A ocorrência é de 21/12/2023, embora a página oficial tenha recebido atualização editorial em outubro de 2026. [OSINT] O conjunto de 60 jabutis-piranga e uma tartaruga-tigre-d'água aponta manutenção e possível reprodução clandestina de espécies silvestres, mas não comprova vendas efetivadas, fornecedores, clientes ou rotas. O local deve ser georreferenciado apenas por região, sem atribuição de endereço particular. Não relacionar a operação de 2023 à Operação Bicho Solto de julho de 2026 apenas por coincidência municipal.",
+  "context_en": "[O1] Federal Police reported recovering 61 chelonians from an unlicensed breeding site in the ocean-side area of Niterói, detaining a suspect and seizing two handguns. The event occurred on 21 December 2023, although the official webpage was editorially updated in October 2026. [OSINT] The inventory of 60 red-footed tortoises and one slider indicates unauthorized keeping and potential breeding, but does not prove completed sales, suppliers, buyers or trafficking routes. Only an area-level location should be mapped, without a private address. The 2023 case cannot be linked to the July 2026 Operation Bicho Solto solely because both occurred in Niterói.",
+  "context_es": "[O1] La Policía Federal informó del rescate de 61 quelonios en un criadero clandestino en la Región Oceánica de Niterói, con detención de una sospechosa e incautación de dos pistolas. El hecho ocurrió el 21 de diciembre de 2023, aunque la página oficial se actualizó editorialmente en octubre de 2026. [OSINT] El inventario de 60 morrocoyes y una tortuga acuática indica tenencia y posible reproducción irregular, pero no acredita ventas, proveedores, compradores ni rutas. La georreferenciación debe limitarse a la zona, sin indicar domicilios particulares. No se puede vincular con la Operación Bicho Solto de julio de 2026 solo por coincidencia municipal.",
+  "references_text_pt": "[O1] Polícia Federal (comunicado retrospectivamente atualizado): https://www.gov.br/pf/pt-br/assuntos/noticias/2023/12/pf-resgata-61-animais-em-cativeiro-clandestino-em-niteroi-rj",
+  "references_text_en": "[O1] Polícia Federal (comunicado retrospectivamente atualizado): https://www.gov.br/pf/pt-br/assuntos/noticias/2023/12/pf-resgata-61-animais-em-cativeiro-clandestino-em-niteroi-rj",
+  "references_text_es": "[O1] Polícia Federal (comunicado retrospectivamente atualizado): https://www.gov.br/pf/pt-br/assuntos/noticias/2023/12/pf-resgata-61-animais-em-cativeiro-clandestino-em-niteroi-rj",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "source_reconciliation_status": "SOURCE_REVIEWED",
+  "image_status": "NOT_VALIDATED",
+  "image_url": null,
+  "occurred_at": "2023-12-21T00:00:00Z",
+  "occurred_at_precision": "day",
+  "review_notes": [
+    "Data de evento de 2023, não interpretar atualização de página em 2026 como nova apreensão."
+  ],
+  "migration_status": "READY_FOR_CUTOVER"
+}

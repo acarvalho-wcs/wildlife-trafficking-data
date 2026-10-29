@@ -1,0 +1,91 @@
+{
+  "id": "TGH-20261027-075",
+  "status": "VALIDATED",
+  "country": "Peru",
+  "location_label_pt": "Posto de controle SERFOR, Pucusana, Lima",
+  "event_date": null,
+  "publication_date": "2019-06-24",
+  "event_end_date": null,
+  "fauna_label_pt": "2.517 rãs-gigantes-do-Titicaca",
+  "fauna_groups_aggregated": [
+    "Anfíbios"
+  ],
+  "taxon_text": "Telmatobius culeus",
+  "coordinates": {
+    "lat": -12.455209,
+    "lon": -76.753893
+  },
+  "coordinate_precision": "checkpoint_approximate_utm",
+  "geographic_note_pt": "Coordenadas calculadas com referência UTM do posto SERFOR Pucusana (WGS84/UTM 18S); não representam local exato do ônibus.",
+  "modal_primary": "Terrestre",
+  "quantity_count": 2517,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Anfíbios": 2517
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Total de anfíbios, não caixas. Puno é origem de extração informada; ônibus saiu de Ica. | CONTAGEM ESTRUTURADA PRELIMINAR: baseada em inventário recuperado/descrição; conferir fonte primária antes de marcar VALIDATED.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "Agencia Andina / comunicado SERFOR",
+  "source_url": "https://andina.pe/agencia/noticia-decomisan-2517-ranas-gigantes-puno-tenian-como-destino-lima-756446.aspx",
+  "editorial_status": "APPROVED_WITH_AUDIT_ADDENDA_2026-10-27",
+  "canonical_dedup_status": "SCREENED_1226_CASES_ZERO_EXACT_SOURCE_URL",
+  "publication_locked": false,
+  "review_note_pt": "Origem em Puno informada pelas autoridades.",
+  "audit_flags": [],
+  "title_pt": "Pucusana — 2.517 rãs-do-Titicaca apreendidas em ônibus para Lima",
+  "card_text_pt": "SERFOR, polícia e aduana interceptaram 2.517 rãs-gigantes-do-Titicaca (Telmatobius culeus) em três caixas de madeira num ônibus procedente de Ica, a caminho de Lima. A extração em Puno foi informada pela autoridade.",
+  "context_pt": "[O1] O caso documenta uma cadeia doméstica com localidades de funções distintas: Puno como área de extração informada; Ica como procedência imediata do ônibus; Pucusana como interceptação e Lima como destino previsto. Não há prova do trajeto exato entre Puno e Ica, e não se deve desenhar esse segmento. Os anfíbios estavam confinados em caixas perfuradas e sem condições adequadas. A autoridade presumiu que poderiam abastecer mercados de preparados de rãs, uso associado a alegações terapêuticas sem eficácia demonstrada. O SERFOR mencionou detecção do fungo Batrachochytrium dendrobatidis em apreensões anteriores, não necessariamente nos 2.517 indivíduos deste evento. [S1] Pesquisa posterior sobre mercados de fauna em Iquitos ilustra o valor de monitorar volumes e ofertas, mas não comprova a destinação desta carga. A matéria foi publicada em 24/06/2019; a data exata da intervenção não é informada.",
+  "references_text_pt": "[O1] Agencia Andina / comunicado SERFOR: https://andina.pe/agencia/noticia-decomisan-2517-ranas-gigantes-puno-tenian-como-destino-lima-756446.aspx; [S1] Frontiers in Conservation Science (2024): https://doi.org/10.3389/fcosc.2024.1464332",
+  "title_en": "Pucusana — 2,517 Titicaca water frogs seized on Lima-bound bus",
+  "card_text_en": "SERFOR, police and customs intercepted 2,517 Titicaca water frogs (Telmatobius culeus) in three wooden boxes on a bus traveling from Ica toward Lima. Authorities identified Puno as the area from which the frogs had been illegally taken.",
+  "context_en": "[O1] The record distinguishes four roles within a domestic supply chain: Puno as the stated collection area, Ica as the bus’s immediately reported origin, Pucusana as the checkpoint, and Lima as the intended destination. The actual journey between Puno and Ica was not documented and must not be mapped as a confirmed segment. Frogs were crowded into perforated wooden boxes in poor conditions. SERFOR suspected distribution to markets supplying frog-based beverages, whose claimed health benefits were not substantiated. The agency also described finding the pathogen Batrachochytrium dendrobatidis in frogs from earlier seizures, not necessarily in these 2,517 animals. [S1] Later research on wildlife markets in Iquitos shows the value of monitoring quantities and supply, but does not establish the final buyers for this shipment. The article was published on 24 June 2019; the precise intervention date is unstated.",
+  "references_text_en": "[O1] Agencia Andina / comunicado SERFOR: https://andina.pe/agencia/noticia-decomisan-2517-ranas-gigantes-puno-tenian-como-destino-lima-756446.aspx; [S1] Frontiers in Conservation Science (2024): https://doi.org/10.3389/fcosc.2024.1464332",
+  "title_es": "Pucusana — decomisan 2.517 ranas gigantes del Titicaca rumbo a Lima",
+  "card_text_es": "SERFOR, la policía y Aduanas decomisaron 2.517 ranas gigantes del Titicaca (Telmatobius culeus) en tres cajas de madera en un autobús procedente de Ica y dirigido a Lima. La autoridad señaló a Puno como lugar de extracción ilegal.",
+  "context_es": "[O1] El expediente distingue cuatro funciones dentro de una cadena doméstica: Puno como origen de extracción informado, Ica como procedencia inmediata del autobús, Pucusana como puesto de intervención y Lima como destino previsto. No se documentó el recorrido real entre Puno e Ica; ese tramo no debe representarse como confirmado. Los anfibios viajaban hacinados en cajas de madera perforadas y en condiciones precarias. SERFOR presumió que serían distribuidos para preparados a base de ranas, vinculados a supuestos beneficios terapéuticos no comprobados. La entidad mencionó hallazgos del hongo Batrachochytrium dendrobatidis en decomisos anteriores, sin demostrarlo en estos 2.517 ejemplares. [S1] Una investigación posterior sobre mercados de fauna de Iquitos ilustra la utilidad de medir volúmenes y oferta, pero no identifica a los compradores de este cargamento. La publicación es del 24/06/2019; no se precisa la fecha exacta de la intervención.",
+  "references_text_es": "[O1] Agencia Andina / comunicado SERFOR: https://andina.pe/agencia/noticia-decomisan-2517-ranas-gigantes-puno-tenian-como-destino-lima-756446.aspx; [S1] Frontiers in Conservation Science (2024): https://doi.org/10.3389/fcosc.2024.1464332",
+  "audit_source_inventory": [
+    {
+      "class": "O",
+      "label": "[O1] Agencia Andina / comunicado SERFOR",
+      "url": "https://andina.pe/agencia/noticia-decomisan-2517-ranas-gigantes-puno-tenian-como-destino-lima-756446.aspx",
+      "evidence_role": "SIM",
+      "verification": "FONTE CONSULTADA"
+    },
+    {
+      "class": "S",
+      "label": "[S1] Frontiers in Conservation Science (2024)",
+      "url": "https://doi.org/10.3389/fcosc.2024.1464332",
+      "evidence_role": "SIM",
+      "verification": "FONTE CONSULTADA"
+    },
+    {
+      "class": "G",
+      "label": "[G1] SERFOR — geosserviços de postos de controle",
+      "url": "https://geo.serfor.gob.pe/geoservicios/rest/services/Visor/Monitoreo_Control/MapServer/1",
+      "evidence_role": "GEOREFERENCIAMENTO",
+      "verification": "COORDENADAS EXTERNAS"
+    }
+  ],
+  "route_audit_status": "ROUTE_PROPOSAL_UNDER_REVIEW",
+  "taxon_resolution": "source_species_or_genus",
+  "taxonomic_note_pt": "Táxon informado no menor nível seguro a partir da descrição da ocorrência; nomes superiores NÃO equivalem a identificação de espécie.",
+  "aggregate_decision_note_pt": "Uma ocorrência/ação operacional com inventário contado uma única vez; subgrupos não criam novos casos.",
+  "context_reaudit": "APPROVED_EDITORIAL_UNCHANGED",
+  "geographic_gate": "GEOREFERENCE_GENERALIZED_REVIEWED",
+  "final_structural_review": "STRUCTURED_WITH_EVIDENCE_LIMITS_2026-10-27",
+  "review_batch": "TGH-20261027-final-technical-handoff",
+  "source_provenance_addendum": [],
+  "preflight_status": "STRUCTURAL_CANDIDATE_NOT_YET_VALIDATED",
+  "modal_label_pt": "Terrestre",
+  "occurred_at": null,
+  "occurred_at_precision": "unknown",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "image_status": "IMAGE_UNVERIFIED",
+  "image_url": null,
+  "migration_status": "READY_FOR_CUTOVER",
+  "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+}

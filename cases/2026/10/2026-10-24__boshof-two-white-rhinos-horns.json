@@ -1,0 +1,60 @@
+{
+  "id": "2026-10-24__boshof-two-white-rhinos-horns",
+  "status": "VALIDATED",
+  "ingestion_batch": "TGH-OSINT-2026-10-28",
+  "canonical_source_candidate_id": "TGH-20261028-016",
+  "country": "África do Sul",
+  "location_label_pt": "Boshof, Free State, África do Sul",
+  "event_date": "2026-10-24",
+  "publication_date": "2026-10-26",
+  "fauna_label_pt": "2 rinocerontes-brancos mortos; 2 chifres recuperados",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Ceratotherium simum",
+  "coordinates": {
+    "lat": -28.54,
+    "lon": 25.24
+  },
+  "coordinate_precision": "municipality_generalized",
+  "geographic_note_pt": "Coordenadas aproximadas da localidade divulgada; não representam o ponto exato da apreensão.",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "quantity_count": 2,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Dois rinocerontes mortos; os dois chifres recuperados são partes dos animais, não quatro exemplares. Não somar chifres à quantidade de animais.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "Informações SAPS reproduzidas por Arrive Alive",
+  "source_url": "https://gps.arrivealive.co.za/2026/10/three-rhino-poaching-suspects-arrested-after-2-rhinos-was-killed-in-boshof/",
+  "title_pt": "Dois rinocerontes-brancos mortos e dois chifres recuperados em Boshof",
+  "title_en": "Two white rhinos killed and two horns recovered in Boshof",
+  "title_es": "Dos rinocerontes blancos muertos y dos cuernos recuperados en Boshof",
+  "card_text_pt": "Dois rinocerontes-brancos foram encontrados mortos por tiros em fazenda de Boshof em 24/10; agentes recuperaram dois chifres retirados de um deles e prenderam três suspeitos.",
+  "card_text_en": "Two white rhinos were found shot dead on a Boshof farm on 24 October. Officials recovered two horns removed from one animal and arrested three suspects.",
+  "card_text_es": "Dos rinocerontes blancos fueron hallados muertos por disparos en una finca de Boshof el 24 de octubre. Las autoridades recuperaron dos cuernos retirados de uno y detuvieron a tres sospechosos.",
+  "context_pt": "[O1] Conforme relato atribuído à SAPS, a segurança de uma fazenda identificou dois rinocerontes-brancos mortos em 24/10/2026. Dois suspeitos foram surpreendidos durante a retirada de chifres; dois chifres de um dos animais foram recuperados e um terceiro suspeito foi posteriormente preso em Kimberley. Rifle, munição, ferramentas e veículo foram apreendidos. Os três suspeitos deveriam comparecer à Justiça em 26/10; não se presume condenação. [OSINT] A recuperação dos chifres e a interrupção no local comprovam tentativa de obtenção de derivados, mas não demonstram comprador, destino, rota ou vínculo com organização internacional. Registrar 2 animais mortos separadamente das duas partes recuperadas.",
+  "context_en": "[O1] According to information attributed to SAPS, farm security discovered two white rhinos shot dead on 24 October 2026. Two suspects were confronted during horn removal; two horns from one rhino were recovered. A third suspect was later arrested in Kimberley. Authorities seized a rifle, ammunition, tools and a vehicle. A court appearance was expected on 26 October; no conviction is presumed. [OSINT] The recovered horns show attempted extraction of wildlife products, but no buyer, destination, route or transnational network was established. Count two dead animals separately from their horns.",
+  "context_es": "[O1] Según información atribuida a SAPS, la seguridad de una finca descubrió dos rinocerontes blancos muertos a tiros el 24 de octubre de 2026. Dos sospechosos fueron interceptados al retirar los cuernos; se recuperaron dos cuernos de uno de los animales. Un tercer sospechoso fue detenido después en Kimberley. Se incautaron un rifle, municiones, herramientas y un vehículo. Se preveía una comparecencia judicial el 26 de octubre; no se presume condena. [OSINT] La recuperación de cuernos acredita un intento de extraer derivados, pero no establece comprador, destino, ruta ni red transnacional. Los dos animales muertos no deben sumarse a sus cuernos.",
+  "references_text_pt": "[O1] Informações SAPS reproduzidas por Arrive Alive: https://gps.arrivealive.co.za/2026/10/three-rhino-poaching-suspects-arrested-after-2-rhinos-was-killed-in-boshof/",
+  "references_text_en": "[O1] Informações SAPS reproduzidas por Arrive Alive: https://gps.arrivealive.co.za/2026/10/three-rhino-poaching-suspects-arrested-after-2-rhinos-was-killed-in-boshof/",
+  "references_text_es": "[O1] Informações SAPS reproduzidas por Arrive Alive: https://gps.arrivealive.co.za/2026/10/three-rhino-poaching-suspects-arrested-after-2-rhinos-was-killed-in-boshof/",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "source_reconciliation_status": "SOURCE_REVIEWED",
+  "image_status": "NOT_VALIDATED",
+  "image_url": null,
+  "occurred_at": "2026-10-24T00:00:00Z",
+  "occurred_at_precision": "day",
+  "review_notes": [
+    "Fonte secundária reproduz informação policial; vincular boletim SAPS original quando acessível.",
+    "Ocorreu caça ilegal e extração de derivados, sem rota comercial comprovada."
+  ],
+  "migration_status": "READY_FOR_CUTOVER"
+}

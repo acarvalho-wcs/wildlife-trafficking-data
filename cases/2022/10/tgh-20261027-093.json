@@ -1,0 +1,91 @@
+{
+  "id": "TGH-20261027-093",
+  "status": "VALIDATED",
+  "country": "Colômbia",
+  "location_label_pt": "Maicao, La Guajira",
+  "event_date": null,
+  "publication_date": "2022-10-18",
+  "event_end_date": null,
+  "fauna_label_pt": "Cinco tartarugas-verdes (uma adulta e quatro juvenis)",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Chelonia mydas",
+  "coordinates": {
+    "lat": 11.37837,
+    "lon": -72.2395
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Coordenadas do centro de Maicao; o local exato da abordagem em veículo de tração animal não foi publicado.",
+  "modal_primary": "Terrestre",
+  "quantity_count": 5,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 5
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Uma adulta + quatro juvenis; soltura em Mayapo é translocação de manejo, não rota de tráfico. | CONTAGEM ESTRUTURADA PRELIMINAR: baseada em inventário recuperado/descrição; conferir fonte primária antes de marcar VALIDATED.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "Corpoguajira — Autoridade Ambiental de La Guajira",
+  "source_url": "https://corpoguajira.gov.co/noticias/cinco-tortugas-marinas-fueron-decomisadas-enmaicao-y-liberadas-en-las-playas-de-mayapo/",
+  "editorial_status": "APPROVED_WITH_AUDIT_ADDENDA_2026-10-27",
+  "canonical_dedup_status": "SCREENED_1226_CASES_ZERO_EXACT_SOURCE_URL",
+  "publication_locked": false,
+  "review_note_pt": "Soltura posterior integra o mesmo evento.",
+  "audit_flags": [],
+  "title_pt": "Maicao — cinco tartarugas-verdes apreendidas em veículo de tração animal",
+  "card_text_pt": "A Polícia Nacional da Colômbia apreendeu cinco tartarugas-verdes (Chelonia mydas), uma adulta e quatro juvenis, transportadas em veículo de tração animal em Maicao. Após avaliação da Corpoguajira, foram soltas em Mayapo.",
+  "context_pt": "[O1] A apreensão demonstra transporte irregular de uma espécie marinha dentro do município de Maicao, mas a fonte não identifica praias de captura, intermediários, clientes ou destino comercial. A distribuição etária conhecida — uma adulta e quatro juvenis — oferece dado útil para caracterizar o lote, sem autorizar inferência sobre a quantidade de animais originalmente retirados do mar. A Corpoguajira examinou os exemplares e posteriormente os devolveu ao ambiente em Mayapo, Manaure. Esse deslocamento institucional de reabilitação não integra o itinerário criminoso e não deve ser desenhado em routes.json. [S1] Meta-análise global sobre comércio de vertebrados discute riscos para populações de répteis; funciona como contexto de conservação, não como evidência de destino ou rede neste caso. Como a data da operação não foi explicitada, mantém-se 18/10/2022 como publicação, sem atribuí-la artificialmente à ocorrência.",
+  "references_text_pt": "[O1] Corpoguajira — Autoridade Ambiental de La Guajira: https://corpoguajira.gov.co/noticias/cinco-tortugas-marinas-fueron-decomisadas-enmaicao-y-liberadas-en-las-playas-de-mayapo/; [S1] Nature Ecology & Evolution (2021): https://doi.org/10.1038/s41559-021-01399-y",
+  "title_en": "Maicao — five green sea turtles seized from an animal-drawn vehicle",
+  "card_text_en": "Colombian National Police seized five green sea turtles (Chelonia mydas), one adult and four juveniles, transported in an animal-drawn vehicle in Maicao. After examination by Corpoguajira, they were released at Mayapo.",
+  "context_en": "[O1] The seizure documents unauthorized movement of marine turtles within Maicao, but the source does not establish collection beaches, intermediaries, customers or an intended commercial destination. The identified age breakdown—one adult and four juveniles—characterizes the consignment without indicating how many animals were originally removed from the wild. Corpoguajira assessed the specimens and subsequently released them at Mayapo beach, Manaure. This conservation-related transfer is not a criminal trafficking leg and must not appear in routes.json. [S1] A global meta-analysis of vertebrate trade describes conservation risks for reptile populations; it provides background rather than evidence of this consignment’s destination or criminal network. As the specific intervention date is not given, 18 October 2022 is retained only as the publication date, not invented as the seizure date.",
+  "references_text_en": "[O1] Corpoguajira — Autoridade Ambiental de La Guajira: https://corpoguajira.gov.co/noticias/cinco-tortugas-marinas-fueron-decomisadas-enmaicao-y-liberadas-en-las-playas-de-mayapo/; [S1] Nature Ecology & Evolution (2021): https://doi.org/10.1038/s41559-021-01399-y",
+  "title_es": "Maicao — decomisadas cinco tortugas verdes en vehículo de tracción animal",
+  "card_text_es": "La Policía Nacional de Colombia decomisó cinco tortugas verdes (Chelonia mydas), una adulta y cuatro juveniles, transportadas en un vehículo de tracción animal en Maicao. Corpoguajira las evaluó y posteriormente las liberó en Mayapo.",
+  "context_es": "[O1] El decomiso acredita un traslado irregular de tortugas marinas en Maicao, pero la fuente no identifica playa de captura, intermediarios, compradores ni destino comercial. El desglose de edades —una adulta y cuatro juveniles— permite caracterizar el cargamento sin inferir cuántos individuos fueron originalmente extraídos del mar. Corpoguajira valoró los especímenes y luego los liberó en Mayapo, Manaure. Este movimiento institucional de manejo y recuperación no constituye un tramo del tráfico, por lo que no debe dibujarse en routes.json. [S1] Una meta-análisis mundial sobre comercio de vertebrados examina riesgos de conservación para poblaciones de reptiles; aporta contexto, no evidencia de compradores o de red para este caso. La fecha precisa de la intervención no está publicada: el 18/10/2022 se conserva únicamente como fecha de publicación, sin convertirla en fecha del operativo.",
+  "references_text_es": "[O1] Corpoguajira — Autoridade Ambiental de La Guajira: https://corpoguajira.gov.co/noticias/cinco-tortugas-marinas-fueron-decomisadas-enmaicao-y-liberadas-en-las-playas-de-mayapo/; [S1] Nature Ecology & Evolution (2021): https://doi.org/10.1038/s41559-021-01399-y",
+  "audit_source_inventory": [
+    {
+      "class": "O",
+      "label": "[O1] Corpoguajira — Autoridade Ambiental de La Guajira",
+      "url": "https://corpoguajira.gov.co/noticias/cinco-tortugas-marinas-fueron-decomisadas-enmaicao-y-liberadas-en-las-playas-de-mayapo/",
+      "evidence_role": "SIM",
+      "verification": "FONTE CONSULTADA"
+    },
+    {
+      "class": "S",
+      "label": "[S1] Nature Ecology & Evolution (2021)",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y",
+      "evidence_role": "SIM",
+      "verification": "FONTE CONSULTADA"
+    },
+    {
+      "class": "G",
+      "label": "[G1] Geodatos — Maicao",
+      "url": "https://www.geodatos.net/coordenadas/colombia/maicao",
+      "evidence_role": "GEOREFERENCIAMENTO",
+      "verification": "COORDENADAS EXTERNAS"
+    }
+  ],
+  "route_audit_status": "NO_ROUTE_PROPOSED",
+  "taxon_resolution": "source_species_or_genus",
+  "taxonomic_note_pt": "Táxon informado no menor nível seguro a partir da descrição da ocorrência; nomes superiores NÃO equivalem a identificação de espécie.",
+  "aggregate_decision_note_pt": "Uma ocorrência/ação operacional com inventário contado uma única vez; subgrupos não criam novos casos.",
+  "context_reaudit": "APPROVED_EDITORIAL_UNCHANGED",
+  "geographic_gate": "GEOREFERENCE_GENERALIZED_REVIEWED",
+  "final_structural_review": "STRUCTURED_WITH_EVIDENCE_LIMITS_2026-10-27",
+  "review_batch": "TGH-20261027-final-technical-handoff",
+  "source_provenance_addendum": [],
+  "preflight_status": "STRUCTURAL_CANDIDATE_NOT_YET_VALIDATED",
+  "modal_label_pt": "Terrestre",
+  "occurred_at": null,
+  "occurred_at_precision": "unknown",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "image_status": "IMAGE_UNVERIFIED",
+  "image_url": null,
+  "migration_status": "READY_FOR_CUTOVER",
+  "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+}

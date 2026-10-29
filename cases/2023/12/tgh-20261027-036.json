@@ -1,0 +1,91 @@
+{
+  "id": "TGH-20261027-036",
+  "status": "VALIDATED",
+  "country": "Peru",
+  "location_label_pt": "Aeroporto Jorge Chávez, Callao",
+  "event_date": "2023-12-15",
+  "publication_date": "2023-12-19",
+  "event_end_date": null,
+  "fauna_label_pt": "4.001 tartarugas inspecionadas; 463 charapas sem origem legal comprovada",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Podocnemis expansa",
+  "coordinates": {
+    "lat": -12.0219,
+    "lon": -77.114305
+  },
+  "coordinate_precision": "airport_reference",
+  "geographic_note_pt": "ARP do aeroporto Jorge Chávez | Georreferência: https://www.findmycoordinates.com/airport-coordinates/spjc",
+  "modal_primary": "Aéreo",
+  "quantity_count": 463,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 463
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "As 463 charapas são subconjunto das 4.001 tartarugas inspecionadas, não um segundo lote somável. | AUDITORIA: 4.001 no embarque; 463 sem origem legal comprovada, subconjunto. Quantidade ilegal 463; não somar 4.001. | CONTAGEM ESTRUTURADA PRELIMINAR: baseada em inventário recuperado/descrição; conferir fonte primária antes de marcar VALIDATED.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "SERFOR",
+  "source_url": "https://www.gob.pe/institucion/serfor/noticias/884282-serfor-detecto-463-tortugas-charapa-que-no-acreditaban-origen-legal-entre-otras-irregularidades-en-cargamento-que-iba-a-ser-exportado",
+  "editorial_status": "APPROVED_WITH_AUDIT_ADDENDA_2026-10-27",
+  "canonical_dedup_status": "SCREENED_1226_CASES_ZERO_EXACT_SOURCE_URL",
+  "publication_locked": false,
+  "review_note_pt": "Recuperar fonte original e descrição integral; confirmar se a data registrada é de ocorrência ou publicação. | Revisão técnica: 4.001 animais inspecionados e imobilizados; 463 Podocnemis expansa de origem legal não comprovada. Não somar; separar total de remessa e irregularidade constatada.",
+  "audit_flags": [],
+  "title_pt": "Aeroporto Jorge Chávez, Callao — No Callao, 4.001 tartarugas de água doce destinadas à Indonésia passaram por inspeção",
+  "card_text_pt": "No Callao, 4.001 tartarugas de água doce destinadas à Indonésia passaram por inspeção; 463 charapas apresentavam irregularidades de comprovação de origem.",
+  "context_pt": "[O1] No Callao, 4.001 tartarugas de água doce destinadas à Indonésia passaram por inspeção; 463 charapas apresentavam irregularidades de comprovação de origem. O registro contribui para identificar pressão sobre quelônios, mas a espécie exata, o estado dos animais e o destino efetivo precisam ser conferidos separadamente. Reintroduções ou solturas posteriores não são segmentos de tráfico. Data atribuída ao evento conforme fonte ou planilha, sujeita à revisão final. As 463 charapas são subconjunto das 4.001 tartarugas inspecionadas, não um segundo lote somável. [S1] Pesquisa sobre comércio de quelônios na Amazônia peruana contextualiza pressões comerciais, sem identificar a origem ou compradores deste lote. [N1] Reportagem de 2026 discute controles e riscos de lavagem na cadeia de quelônios peruanos; não atribui irregularidade extra a este caso.\n\nNota de auditoria / Audit note / Nota de auditoría (27/10/2026): [O1] As 463 tartarugas charapas com origem legal não comprovada integram o embarque de 4.001 tartarugas fiscalizadas; são subconjunto, não animais adicionais. Registrar 463 como quantidade de interesse da apreensão irregular.",
+  "references_text_pt": "[O1] SERFOR: https://www.gob.pe/institucion/serfor/noticias/884282-serfor-detecto-463-tortugas-charapa-que-no-acreditaban-origen-legal-entre-otras-irregularidades-en-cargamento-que-iba-a-ser-exportado\n[S1] Trends in Urban Wild Meat Trade of Chelonians (Turtles and Tortoises) in the Peruvian Amazon: https://doi.org/10.3390/ani14223205\n[N1] Peruvian Amazon turtle management and alleged wildlife laundering: https://elpais.com/america-futura/2026-01-23/el-modelo-que-empobrece-a-los-guardianes-de-tortugas-en-la-amazonia.html",
+  "title_en": "Aeroporto Jorge Chávez, Callao — At Callao, a shipment of 4,001 freshwater turtles bound for Indonesia was inspected",
+  "card_text_en": "At Callao, a shipment of 4,001 freshwater turtles bound for Indonesia was inspected; 463 charapas showed irregularities in proof of origin.",
+  "context_en": "[O1] At Callao, a shipment of 4,001 freshwater turtles bound for Indonesia was inspected; 463 charapas showed irregularities in proof of origin. The record contributes evidence of pressure on turtles, but exact species, specimen condition and actual destination require separate checks. Subsequent release or rehabilitation is not a trafficking route. Event date remains subject to final source reconciliation. The 463 irregularly sourced turtles form a subset of 4,001 inspected turtles; they are not additional animals. [S1] Research on chelonian trade in the Peruvian Amazon provides market context without identifying this lot’s source or buyers. [N1] A 2026 investigation discusses controls and laundering risks in Peruvian turtle supply chains without attributing additional wrongdoing to this event.\n\nNota de auditoria / Audit note / Nota de auditoría (27/10/2026): [O1] The 463 charapa turtles without substantiated lawful origin were part of the 4,001 turtles inspected in the shipment, not an additional group. Record 463 as the irregular subset relevant to this seizure.",
+  "references_text_en": "[O1] SERFOR: https://www.gob.pe/institucion/serfor/noticias/884282-serfor-detecto-463-tortugas-charapa-que-no-acreditaban-origen-legal-entre-otras-irregularidades-en-cargamento-que-iba-a-ser-exportado\n[S1] Trends in Urban Wild Meat Trade of Chelonians (Turtles and Tortoises) in the Peruvian Amazon: https://doi.org/10.3390/ani14223205\n[N1] Peruvian Amazon turtle management and alleged wildlife laundering: https://elpais.com/america-futura/2026-01-23/el-modelo-que-empobrece-a-los-guardianes-de-tortugas-en-la-amazonia.html",
+  "title_es": "Aeroporto Jorge Chávez, Callao — En el Callao se inspeccionaron 4.001 tortugas de agua dulce destinadas a Indonesia",
+  "card_text_es": "En el Callao se inspeccionaron 4.001 tortugas de agua dulce destinadas a Indonesia; 463 charapas presentaron irregularidades para acreditar su origen.",
+  "context_es": "[O1] En el Callao se inspeccionaron 4.001 tortugas de agua dulce destinadas a Indonesia; 463 charapas presentaron irregularidades para acreditar su origen. El registro aporta evidencia de presión sobre quelonios, pero la especie exacta, el estado y el destino requieren verificación independiente. La liberación o rehabilitación posterior no es una ruta de tráfico. La fecha del hecho sigue sujeta a cotejo final de fuentes. Las 463 tortugas de origen irregular forman parte de las 4.001 inspeccionadas; no son ejemplares adicionales. [S1] La investigación sobre comercio de quelonios en la Amazonía peruana aporta contexto de mercado sin identificar origen ni compradores de este lote. [N1] Un reportaje de 2026 trata controles y riesgos de blanqueo en cadenas de quelonios peruanos sin atribuir nuevos delitos a este caso.\n\nNota de auditoria / Audit note / Nota de auditoría (27/10/2026): [O1] Las 463 tortugas charapa sin origen legal acreditado formaban parte del envío de 4.001 tortugas inspeccionadas; no son ejemplares adicionales. Registrar 463 como el subconjunto irregular de esta intervención.",
+  "references_text_es": "[O1] SERFOR: https://www.gob.pe/institucion/serfor/noticias/884282-serfor-detecto-463-tortugas-charapa-que-no-acreditaban-origen-legal-entre-otras-irregularidades-en-cargamento-que-iba-a-ser-exportado\n[S1] Trends in Urban Wild Meat Trade of Chelonians (Turtles and Tortoises) in the Peruvian Amazon: https://doi.org/10.3390/ani14223205\n[N1] Peruvian Amazon turtle management and alleged wildlife laundering: https://elpais.com/america-futura/2026-01-23/el-modelo-que-empobrece-a-los-guardianes-de-tortugas-en-la-amazonia.html",
+  "audit_source_inventory": [
+    {
+      "class": "O",
+      "label": "[O1] SERFOR",
+      "url": "https://www.gob.pe/institucion/serfor/noticias/884282-serfor-detecto-463-tortugas-charapa-que-no-acreditaban-origen-legal-entre-otras-irregularidades-en-cargamento-que-iba-a-ser-exportado",
+      "evidence_role": "SIM — descrição do evento",
+      "verification": "FONTE RECUPERADA — REVISÃO INTEGRAL PENDENTE"
+    },
+    {
+      "class": "S",
+      "label": "[S1] Trends in Urban Wild Meat Trade of Chelonians (Turtles and Tortoises) in the Peruvian Amazon",
+      "url": "https://doi.org/10.3390/ani14223205",
+      "evidence_role": "CONTEXTO SUBSTANTIVO",
+      "verification": "REPOSITÓRIO S/N — PERTINÊNCIA PARA REVISÃO"
+    },
+    {
+      "class": "N",
+      "label": "[N1] Peruvian Amazon turtle management and alleged wildlife laundering",
+      "url": "https://elpais.com/america-futura/2026-01-23/el-modelo-que-empobrece-a-los-guardianes-de-tortugas-en-la-amazonia.html",
+      "evidence_role": "CONTEXTO SUBSTANTIVO",
+      "verification": "REPOSITÓRIO S/N — PERTINÊNCIA PARA REVISÃO"
+    }
+  ],
+  "route_audit_status": "ROUTE_PROPOSAL_UNDER_REVIEW",
+  "taxon_resolution": "source_species_or_genus",
+  "taxonomic_note_pt": "Táxon informado no menor nível seguro a partir da descrição da ocorrência; nomes superiores NÃO equivalem a identificação de espécie.",
+  "aggregate_decision_note_pt": "Uma ocorrência/ação operacional com inventário contado uma única vez; subgrupos não criam novos casos.",
+  "context_reaudit": "APPROVED_EDITORIAL_UNCHANGED",
+  "geographic_gate": "GEOREFERENCE_GENERALIZED_REVIEWED",
+  "final_structural_review": "STRUCTURED_WITH_EVIDENCE_LIMITS_2026-10-27",
+  "review_batch": "TGH-20261027-final-technical-handoff",
+  "source_provenance_addendum": [],
+  "preflight_status": "STRUCTURAL_CANDIDATE_NOT_YET_VALIDATED",
+  "modal_label_pt": "Aéreo",
+  "occurred_at": "2023-12-15T00:00:00Z",
+  "occurred_at_precision": "day",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "image_status": "IMAGE_UNVERIFIED",
+  "image_url": null,
+  "migration_status": "READY_FOR_CUTOVER",
+  "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2026-10-21__little-brak-river-872-abalone",
+  "status": "VALIDATED",
+  "ingestion_batch": "TGH-OSINT-2026-10-28",
+  "canonical_source_candidate_id": "TGH-20261028-017",
+  "country": "África do Sul",
+  "location_label_pt": "Little Brak River, Mossel Bay, Western Cape, África do Sul",
+  "event_date": "2026-10-21",
+  "publication_date": "2026-10-27",
+  "fauna_label_pt": "872 abalones; 121,1 kg",
+  "fauna_groups_aggregated": [
+    "Invertebrados"
+  ],
+  "taxon_text": "Haliotidae (espécie não determinada)",
+  "coordinates": {
+    "lat": -34.09,
+    "lon": 22.15
+  },
+  "coordinate_precision": "municipality_generalized",
+  "geographic_note_pt": "Coordenadas aproximadas da localidade divulgada; não representam o ponto exato da apreensão.",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "quantity_count": 872,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Invertebrados": 872
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "872 abalones (121,1 kg). Massa e contagem são medidas do mesmo inventário; não somar 121,1 como indivíduos.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "Mossel Bay Advertiser (citando registros judiciais e forças de fiscalização)",
+  "source_url": "https://www.mosselbayadvertiser.com/News/Article/Local-News/suspected-little-brak-abalone-poachers-appear-in-court-202610271103",
+  "title_pt": "Fiscalização apreende 872 abalones em Little Brak River e detém dois suspeitos",
+  "title_en": "Enforcement officers seize 872 abalone near Little Brak River and arrest two suspects",
+  "title_es": "Autoridades decomisan 872 abulones en Little Brak River y detienen a dos sospechosos",
+  "card_text_pt": "Uma operação conjunta interceptou dois homens transportando 872 abalones (121,1 kg) em sacos perto de Little Brak River Beach em 21/10; ambos foram presos.",
+  "card_text_en": "A joint team stopped two men carrying bags containing 872 abalone (121.1 kg) near Little Brak River Beach on 21 October; both were arrested.",
+  "card_text_es": "Un equipo conjunto interceptó a dos hombres con bolsas que contenían 872 abulones (121,1 kg) cerca de Little Brak River Beach el 21 de octubre; ambos fueron detenidos.",
+  "context_pt": "[O1] Uma equipe integrada de polícia, fiscalização costeira, DFFE e autoridades municipais identificou dois homens com sacos próximos à praia e à ponte da N2, cerca de 02h de 21/10/2026. A conferência do material resultou em 872 abalones, 121,1 kg. Os suspeitos compareceram a tribunal em 23/10 e deveriam solicitar fiança em 06/11; nenhuma condenação está documentada. [OSINT] O local costeiro e o horário indicam possível exploração da coleta noturna, mas a reportagem não estabelece local exato de extração, cadeia de compradores, exportação ou rota de tráfico. Valores divulgados em etapas diferentes (R161 mil e mais de R200 mil) têm base distinta; não calcular receita criminosa efetiva com esses números.",
+  "context_en": "[O1] Police, maritime enforcement, DFFE and municipal officers located two men carrying bags near Little Brak River Beach and the N2 bridge at about 02:00 on 21 October 2026. The bags held 872 abalone weighing 121.1 kg. The suspects appeared in court on 23 October, with a bail hearing scheduled for 6 November; no conviction is reported. [OSINT] Coastal location and timing may be consistent with night collection, but the source does not document the precise harvest site, buyers, export market or route. Estimates of R161,000 and over R200,000 come from different stages and do not establish actual criminal revenue.",
+  "context_es": "[O1] Policías, agentes marítimos, DFFE y autoridades municipales localizaron a dos hombres con bolsas cerca de Little Brak River Beach y el puente de la N2 hacia las 02:00 del 21 de octubre de 2026. Había 872 abulones con un peso de 121,1 kg. Los sospechosos comparecieron ante un tribunal el 23 de octubre y tenían audiencia de fianza prevista para el 6 de noviembre; no consta condena. [OSINT] El lugar costero y la hora pueden ser compatibles con recolección nocturna, pero no se acredita sitio exacto de captura, compradores, mercado de exportación ni ruta. Las valoraciones de R161.000 y más de R200.000 son estimaciones de etapas distintas, no ingresos delictivos demostrados.",
+  "references_text_pt": "[O1] Mossel Bay Advertiser (citando registros judiciais e forças de fiscalização): https://www.mosselbayadvertiser.com/News/Article/Local-News/suspected-little-brak-abalone-poachers-appear-in-court-202610271103",
+  "references_text_en": "[O1] Mossel Bay Advertiser (citando registros judiciais e forças de fiscalização): https://www.mosselbayadvertiser.com/News/Article/Local-News/suspected-little-brak-abalone-poachers-appear-in-court-202610271103",
+  "references_text_es": "[O1] Mossel Bay Advertiser (citando registros judiciais e forças de fiscalização): https://www.mosselbayadvertiser.com/News/Article/Local-News/suspected-little-brak-abalone-poachers-appear-in-court-202610271103",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "case_context_status": "PT_EN_ES_COMPLETE",
+  "source_reconciliation_status": "SOURCE_REVIEWED",
+  "image_status": "NOT_VALIDATED",
+  "image_url": null,
+  "occurred_at": "2026-10-21T00:00:00Z",
+  "occurred_at_precision": "day",
+  "review_notes": [
+    "Sem identificação taxonômica específica nas fontes.",
+    "Sem destino e rotas de transporte documentados."
+  ],
+  "migration_status": "READY_FOR_CUTOVER"
+}

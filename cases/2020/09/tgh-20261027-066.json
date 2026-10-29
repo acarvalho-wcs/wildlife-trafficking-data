@@ -1,0 +1,95 @@
+{
+  "id": "TGH-20261027-066",
+  "status": "VALIDATED",
+  "country": "Bolívia",
+  "location_label_pt": "Cochabamba",
+  "event_date": "2020-09-24",
+  "publication_date": "2020-09-25",
+  "event_end_date": null,
+  "fauna_label_pt": "Três papagaios e quatro ouriços resgatados da residência; 21 animais domésticos contabilizados separadamente",
+  "fauna_groups_aggregated": [
+    "Aves",
+    "Mamíferos"
+  ],
+  "taxon_text": "Animalia",
+  "coordinates": {
+    "lat": -17.3895,
+    "lon": -66.1568
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Centro urbano/municipal de referência, não o local exato da apreensão; fonte de topônimos/cidades de base aberta | Georreferência: https://github.com/srestre/world-countries-cities-db/tree/main/countries/BO.json",
+  "modal_primary": "Não documentado",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 3,
+    "Mamíferos": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "A fonte detalhada informa 28 animais na residência: três papagaios, quatro ouriços, sete cães e 14 gatos. Apenas sete espécimes não domésticos são contabilizados neste registro. A notícia também menciona duas aves interceptadas anteriormente na praça; não somar sem confirmar se já estão incluídas no inventário da operação.",
+  "aggregate_operation": false,
+  "exclude_from_totals": true,
+  "source_label": "www.opinion.com.bo",
+  "source_url": "https://www.opinion.com.bo/cochabamba/rescatan-treintena-animales-investigan-presunta-traficante-vida-silvestre/20200925075059788502.amp.html",
+  "editorial_status": "APPROVED_WITH_AUDIT_ADDENDA_2026-10-27",
+  "canonical_dedup_status": "SCREENED_1226_CASES_ZERO_EXACT_SOURCE_URL",
+  "publication_locked": false,
+  "review_note_pt": "Total mistura silvestres, exóticos e domésticos; não tratar todos como silvestres.",
+  "audit_flags": [
+    "WILDLIFE_DOMESTIC_SPLIT_REQUIRES_FINAL_RECONCILIATION"
+  ],
+  "title_pt": "Cochabamba — Em Cochabamba, cerca de 30 animais foram resgatados em residência investigada por possíveis vendas online",
+  "card_text_pt": "Em Cochabamba, cerca de 30 animais foram resgatados em residência investigada por possíveis vendas online.",
+  "context_pt": "[O1] Em Cochabamba, cerca de 30 animais foram resgatados em residência investigada por possíveis vendas online. A manutenção em domicílio ou estabelecimento evidencia posse ou comercialização local; a origem de captura não pode ser reconstruída apenas pela distribuição natural da espécie. O desfecho judicial também deve ser distinguido da apreensão original. Data atribuída ao evento conforme fonte ou planilha, sujeita à revisão final. Não inferir local de captura, intermediários ou destino sem evidência específica. [S1] Síntese global de 2021 fornece contexto sobre pressões populacionais do comércio, não sendo prova de extração nem de dano populacional neste caso.\n\n[O2 — complementação 28/10/2026] Uma notícia detalhada da mesma operação informa 28 animais na residência: 3 papagaios, 4 ouriços, 7 cães e 14 gatos. Não somar os 21 domésticos à fauna silvestre. Duas aves interceptadas na praça são mencionadas separadamente, sem confirmação se integram o mesmo inventário.",
+  "references_text_pt": "[O1] www.opinion.com.bo: https://www.opinion.com.bo/cochabamba/rescatan-treintena-animales-investigan-presunta-traficante-vida-silvestre/20200925075059788502.amp.html\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y\n[O2] Opinión, 25/09/2020: https://www.opinion.com.bo/cochabamba/pofoma-interviene-domicilio-rescata-28-animales/20200925061524788483.html",
+  "title_en": "Cochabamba — In Cochabamba, around 30 animals were rescued from a home investigated for possible online sales",
+  "card_text_en": "In Cochabamba, around 30 animals were rescued from a home investigated for possible online sales.",
+  "context_en": "[O1] In Cochabamba, around 30 animals were rescued from a home investigated for possible online sales. Holding wildlife at a home or business documents possession or local trade; capture provenance cannot be reconstructed from species range alone. Later court outcomes must also be distinguished from the original seizure. Event date remains subject to final source reconciliation. Do not infer capture origins, intermediaries or destinations without event-specific evidence. [S1] A 2021 global synthesis provides context for population-level trade pressure, not proof of capture or population damage in this case.\n\n[O2 — complementação 28/10/2026] A detailed report of the same operation lists 28 animals at the home: 3 parrots, 4 hedgehogs, 7 dogs and 14 cats. Exclude the 21 domestic animals. Two birds intercepted at a square are mentioned separately, without confirmed inventory overlap.",
+  "references_text_en": "[O1] www.opinion.com.bo: https://www.opinion.com.bo/cochabamba/rescatan-treintena-animales-investigan-presunta-traficante-vida-silvestre/20200925075059788502.amp.html\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y\n[O2] Opinión, 25/09/2020: https://www.opinion.com.bo/cochabamba/pofoma-interviene-domicilio-rescata-28-animales/20200925061524788483.html",
+  "title_es": "Cochabamba — En Cochabamba, cerca de 30 animales fueron rescatados de una vivienda investigada por posibles ventas en línea",
+  "card_text_es": "En Cochabamba, cerca de 30 animales fueron rescatados de una vivienda investigada por posibles ventas en línea.",
+  "context_es": "[O1] En Cochabamba, cerca de 30 animales fueron rescatados de una vivienda investigada por posibles ventas en línea. La tenencia en vivienda o comercio demuestra posesión o venta local; la procedencia de captura no se deduce del área natural de la especie. Las decisiones judiciales posteriores deben separarse del decomiso original. La fecha del hecho sigue sujeta a cotejo final de fuentes. No inferir lugar de captura, intermediarios ni destino sin pruebas específicas. [S1] Una síntesis global de 2021 contextualiza la presión del comercio, pero no demuestra captura ni daño poblacional en este hecho.\n\n[O2 — complementação 28/10/2026] Una noticia detallada del mismo operativo enumera 28 animales en la vivienda: 3 loros, 4 erizos, 7 perros y 14 gatos. No sumar los 21 domésticos. Dos aves intervenidas en una plaza se mencionan por separado, sin verificar solapamiento.",
+  "references_text_es": "[O1] www.opinion.com.bo: https://www.opinion.com.bo/cochabamba/rescatan-treintena-animales-investigan-presunta-traficante-vida-silvestre/20200925075059788502.amp.html\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y\n[O2] Opinión, 25/09/2020: https://www.opinion.com.bo/cochabamba/pofoma-interviene-domicilio-rescata-28-animales/20200925061524788483.html",
+  "audit_source_inventory": [
+    {
+      "class": "O",
+      "label": "[O1] www.opinion.com.bo",
+      "url": "https://www.opinion.com.bo/cochabamba/rescatan-treintena-animales-investigan-presunta-traficante-vida-silvestre/20200925075059788502.amp.html",
+      "evidence_role": "SIM — descrição do evento",
+      "verification": "URL PRÉ-EXISTENTE — REVISÃO INTEGRAL PENDENTE"
+    },
+    {
+      "class": "S",
+      "label": "[S1] Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y",
+      "evidence_role": "CONTEXTO SUBSTANTIVO",
+      "verification": "REPOSITÓRIO S/N — PERTINÊNCIA PARA REVISÃO"
+    },
+    {
+      "class": "O",
+      "label": "[O2] Opinión – 28 animales",
+      "url": "https://www.opinion.com.bo/cochabamba/pofoma-interviene-domicilio-rescata-28-animales/20200925061524788483.html",
+      "evidence_role": "Discriminação de 28 indivíduos: 7 não domésticos e 21 domésticos",
+      "verification": "CONFERIDA 28/10/2026"
+    }
+  ],
+  "route_audit_status": "NO_ROUTE_PROPOSED",
+  "taxon_resolution": "higher_taxon_no_species_assertion",
+  "taxonomic_note_pt": "Táxon informado no menor nível seguro a partir da descrição da ocorrência; nomes superiores NÃO equivalem a identificação de espécie.",
+  "aggregate_decision_note_pt": "Uma ocorrência/ação operacional com inventário contado uma única vez; subgrupos não criam novos casos.",
+  "context_reaudit": "APPROVED_EDITORIAL_UNCHANGED",
+  "geographic_gate": "GEOREFERENCE_GENERALIZED_REVIEWED",
+  "final_structural_review": "STRUCTURED_WITH_EVIDENCE_LIMITS_2026-10-27",
+  "review_batch": "TGH-20261027-final-technical-handoff",
+  "source_provenance_addendum": [],
+  "preflight_status": "STRUCTURAL_CANDIDATE_NOT_YET_VALIDATED",
+  "modal_label_pt": "Não documentado",
+  "occurred_at": "2020-09-24T00:00:00Z",
+  "occurred_at_precision": "day",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "image_status": "IMAGE_UNVERIFIED",
+  "image_url": null,
+  "migration_status": "READY_FOR_CUTOVER",
+  "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+}

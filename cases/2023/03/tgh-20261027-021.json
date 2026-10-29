@@ -1,0 +1,89 @@
+{
+  "id": "TGH-20261027-021",
+  "status": "VALIDATED",
+  "country": "Bolívia",
+  "location_label_pt": "El Palmar",
+  "event_date": "2023-03-22",
+  "publication_date": "2023-03-22",
+  "event_end_date": null,
+  "fauna_label_pt": "Fauna silvestre; quantidade e composição não recuperadas",
+  "fauna_groups_aggregated": [
+    "Mamíferos",
+    "Aves"
+  ],
+  "taxon_text": "Primates; Psittaciformes",
+  "coordinates": {
+    "lat": -17.78629,
+    "lon": -63.18117
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "El Palmar identificado pela notícia como área de Santa Cruz. Ponto da cidade, não da feira ou local da apreensão. | Referência: https://github.com/srestre/world-countries-cities-db/tree/main/countries/BO.json",
+  "modal_primary": "Não documentado",
+  "quantity_count": 6,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 3,
+    "Aves": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": " | AUDITORIA: Fonte El Deber de 22/03/2023 informa resgate na tarde dessa quarta-feira: dia do evento confirmado. | CONTAGEM ESTRUTURADA PRELIMINAR: baseada em inventário recuperado/descrição; conferir fonte primária antes de marcar VALIDATED.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "El Deber",
+  "source_url": "https://eldeber.com.bo/santa-cruz/rescatan-animales-silvestres-que-iban-a-ser-vendidos_318739/",
+  "editorial_status": "APPROVED_WITH_AUDIT_ADDENDA_2026-10-27",
+  "canonical_dedup_status": "SCREENED_1226_CASES_ZERO_EXACT_SOURCE_URL",
+  "publication_locked": false,
+  "review_note_pt": "Recuperar fonte original e descrição integral; confirmar se a data registrada é de ocorrência ou publicação. | Coordenadas referenciam área urbana, não a feira exata.",
+  "audit_flags": [
+    "GENERALIZED_REFERENCE_NOT_EXACT_SEIZURE_POINT"
+  ],
+  "title_pt": "El Palmar — Em El Palmar, Santa Cruz, fiscais resgataram três primatas e três aves oferecidas para venda",
+  "card_text_pt": "Em El Palmar, Santa Cruz, fiscais resgataram três primatas e três aves oferecidas para venda; a fonte situa o fato em 22 de março.",
+  "context_pt": "[O1] Em El Palmar, Santa Cruz, fiscais resgataram três primatas e três aves oferecidas para venda; a fonte situa o fato em 22 de março. A manutenção em domicílio ou estabelecimento evidencia posse ou comercialização local; a origem de captura não pode ser reconstruída apenas pela distribuição natural da espécie. O desfecho judicial também deve ser distinguido da apreensão original. Data atribuída ao evento conforme fonte ou planilha, sujeita à revisão final. A reportagem de 22/03/2023 informa ocorrência na tarde daquele mesmo dia. [S1] Síntese global de 2021 fornece contexto sobre pressões populacionais do comércio, não sendo prova de extração nem de dano populacional neste caso.\n\nNota de auditoria / Audit note / Nota de auditoría (27/10/2026): [O1] O jornal El Deber, publicado em 22/03/2023, informa que o resgate ocorreu na tarde daquela mesma quarta-feira. A data documentada para esta ocorrência é, portanto, 22/03/2023, e não 06/03.\n\n[O1 — precisão factual, auditoria 27/10/2026] A notícia informa três mamíferos (dois macacos-prego e um bugio) e três aves resgatados no setor El Palmar, Santa Cruz.",
+  "references_text_pt": "[O1] El Deber: https://eldeber.com.bo/santa-cruz/rescatan-animales-silvestres-que-iban-a-ser-vendidos_318739/\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y",
+  "title_en": "El Palmar — In El Palmar, Santa Cruz, officers rescued three primates and three birds offered for sale",
+  "card_text_en": "In El Palmar, Santa Cruz, officers rescued three primates and three birds offered for sale; the source dates the event to 22 March.",
+  "context_en": "[O1] In El Palmar, Santa Cruz, officers rescued three primates and three birds offered for sale; the source dates the event to 22 March. Holding wildlife at a home or business documents possession or local trade; capture provenance cannot be reconstructed from species range alone. Later court outcomes must also be distinguished from the original seizure. Event date remains subject to final source reconciliation. The report from 22 March 2023 states that the event occurred that afternoon. [S1] A 2021 global synthesis provides context for population-level trade pressure, not proof of capture or population damage in this case.\n\nNota de auditoria / Audit note / Nota de auditoría (27/10/2026): [O1] El Deber, published on 22 March 2023, reports that the rescue took place that Wednesday afternoon. The documented event date is therefore 22 March 2023, not 6 March.\n\n[O1 — precisão factual, auditoria 27/10/2026] The report identifies three mammals (two capuchins and one howler monkey) and three birds rescued in the El Palmar area of Santa Cruz.",
+  "references_text_en": "[O1] El Deber: https://eldeber.com.bo/santa-cruz/rescatan-animales-silvestres-que-iban-a-ser-vendidos_318739/\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y",
+  "title_es": "El Palmar — En El Palmar, Santa Cruz, agentes rescataron tres primates y tres aves ofrecidos en venta",
+  "card_text_es": "En El Palmar, Santa Cruz, agentes rescataron tres primates y tres aves ofrecidos en venta; la fuente fecha el hecho el 22 de marzo.",
+  "context_es": "[O1] En El Palmar, Santa Cruz, agentes rescataron tres primates y tres aves ofrecidos en venta; la fuente fecha el hecho el 22 de marzo. La tenencia en vivienda o comercio demuestra posesión o venta local; la procedencia de captura no se deduce del área natural de la especie. Las decisiones judiciales posteriores deben separarse del decomiso original. La fecha del hecho sigue sujeta a cotejo final de fuentes. La noticia del 22/03/2023 documenta que el rescate ocurrió aquella tarde. [S1] Una síntesis global de 2021 contextualiza la presión del comercio, pero no demuestra captura ni daño poblacional en este hecho.\n\nNota de auditoria / Audit note / Nota de auditoría (27/10/2026): [O1] El Deber, publicado el 22/03/2023, indica que el rescate ocurrió la tarde de ese mismo miércoles. La fecha documentada es, por tanto, el 22/03/2023 y no el 06/03.\n\n[O1 — precisão factual, auditoria 27/10/2026] La noticia identifica tres mamíferos (dos monos capuchinos y un mono aullador) y tres aves rescatados en la zona de El Palmar, Santa Cruz.",
+  "references_text_es": "[O1] El Deber: https://eldeber.com.bo/santa-cruz/rescatan-animales-silvestres-que-iban-a-ser-vendidos_318739/\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y",
+  "audit_source_inventory": [
+    {
+      "class": "O",
+      "label": "[O1] El Deber",
+      "url": "https://eldeber.com.bo/santa-cruz/rescatan-animales-silvestres-que-iban-a-ser-vendidos_318739/",
+      "evidence_role": "SIM — descrição do evento",
+      "verification": "FONTE RECUPERADA — REVISÃO INTEGRAL PENDENTE"
+    },
+    {
+      "class": "S",
+      "label": "[S1] Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y",
+      "evidence_role": "CONTEXTO SUBSTANTIVO",
+      "verification": "REPOSITÓRIO S/N — PERTINÊNCIA PARA REVISÃO"
+    }
+  ],
+  "route_audit_status": "NO_ROUTE_PROPOSED",
+  "taxon_resolution": "higher_taxon_no_species_assertion",
+  "taxonomic_note_pt": "Táxon informado no menor nível seguro a partir da descrição da ocorrência; nomes superiores NÃO equivalem a identificação de espécie.",
+  "aggregate_decision_note_pt": "Uma ocorrência/ação operacional com inventário contado uma única vez; subgrupos não criam novos casos.",
+  "geographic_source_url": "https://github.com/srestre/world-countries-cities-db/tree/main/countries/BO.json",
+  "context_reaudit": "FACTUAL_ADDENDUM_APPLIED_PT_EN_ES",
+  "geographic_gate": "GEOREFERENCE_GENERALIZED_REVIEWED",
+  "final_structural_review": "STRUCTURED_WITH_EVIDENCE_LIMITS_2026-10-27",
+  "review_batch": "TGH-20261027-final-technical-handoff",
+  "source_provenance_addendum": [],
+  "preflight_status": "STRUCTURAL_CANDIDATE_NOT_YET_VALIDATED",
+  "modal_label_pt": "Não documentado",
+  "occurred_at": "2023-03-22T00:00:00Z",
+  "occurred_at_precision": "day",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "image_status": "IMAGE_UNVERIFIED",
+  "image_url": null,
+  "migration_status": "READY_FOR_CUTOVER",
+  "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+}

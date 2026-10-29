@@ -1,0 +1,91 @@
+{
+  "id": "TGH-20261027-009",
+  "status": "VALIDATED",
+  "country": "Equador",
+  "location_label_pt": "Durán",
+  "event_date": "2023-09-07",
+  "publication_date": null,
+  "event_end_date": null,
+  "fauna_label_pt": "Dois papagaios do gênero Pionus",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Pionus sp.",
+  "coordinates": {
+    "lat": -2.1689,
+    "lon": -79.8341
+  },
+  "coordinate_precision": "city_generalized",
+  "geographic_note_pt": "Centro da cidade de Durán, Guayas | Georreferência: https://mapcarta.com/es/19662062",
+  "modal_primary": "Não documentado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": " | CONTAGEM ESTRUTURADA PRELIMINAR: baseada em inventário recuperado/descrição; conferir fonte primária antes de marcar VALIDATED.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "source_label": "Fiscalía General del Estado",
+  "source_url": "https://www.fiscalia.gob.ec/2-procesados-son-sentenciados-por-delitos-contra-la-fauna-silvestre/",
+  "editorial_status": "APPROVED_WITH_AUDIT_ADDENDA_2026-10-27",
+  "canonical_dedup_status": "SCREENED_1226_CASES_ZERO_EXACT_SOURCE_URL",
+  "publication_locked": false,
+  "review_note_pt": "Recuperar fonte original e descrição integral; confirmar se a data registrada é de ocorrência ou publicação.",
+  "audit_flags": [],
+  "title_pt": "Durán — Dois papagaios Pionus menstruus foram encontrados numa gaiola dentro de veículo fiscalizado em Durán",
+  "card_text_pt": "Dois papagaios Pionus menstruus foram encontrados numa gaiola dentro de veículo fiscalizado em Durán.",
+  "context_pt": "[O1] Dois papagaios Pionus menstruus foram encontrados numa gaiola dentro de veículo fiscalizado em Durán. O confinamento e a circulação de aves vivas exigem separar quantidade apreendida, mortalidade e destino informado. Nomes populares não fornecem sozinhos identificação taxonômica de espécie ou prova do local de captura. Data atribuída ao evento conforme fonte ou planilha, sujeita à revisão final. Não inferir local de captura, intermediários ou destino sem evidência específica. [S1] Estudo de síntese de 2021 relaciona comércio de fauna a declínios de populações, sem medir efeitos locais deste caso. [N1] Uma investigação de 2016 sobre comércio de aves no Equador acrescenta contexto de mercado, sem provar rede comum.",
+  "references_text_pt": "[O1] Fiscalía General del Estado: https://www.fiscalia.gob.ec/2-procesados-son-sentenciados-por-delitos-contra-la-fauna-silvestre/\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y\n[N1] Ecuador’s wild bird markets and networks of illegal wildlife trafficking: https://es.mongabay.com/2016/10/biodiversidad-extincion-trafico_de_especies-amazonia-conservacion-especiales/",
+  "title_en": "Durán — Two Pionus menstruus parrots were found in a cage inside a vehicle stopped in Durán",
+  "card_text_en": "Two Pionus menstruus parrots were found in a cage inside a vehicle stopped in Durán.",
+  "context_en": "[O1] Two Pionus menstruus parrots were found in a cage inside a vehicle stopped in Durán. Holding and moving live birds requires separating seizure counts, mortality and any stated destination. Common names alone do not establish species-level identification or capture origin. Event date remains subject to final source reconciliation. Do not infer capture origins, intermediaries or destinations without event-specific evidence. [S1] A 2021 synthesis links wildlife trade with population declines but does not quantify local impacts of this case. [N1] A 2016 investigation into Ecuador’s bird trade provides market context, without proving a shared network.",
+  "references_text_en": "[O1] Fiscalía General del Estado: https://www.fiscalia.gob.ec/2-procesados-son-sentenciados-por-delitos-contra-la-fauna-silvestre/\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y\n[N1] Ecuador’s wild bird markets and networks of illegal wildlife trafficking: https://es.mongabay.com/2016/10/biodiversidad-extincion-trafico_de_especies-amazonia-conservacion-especiales/",
+  "title_es": "Durán — Dos loros Pionus menstruus fueron hallados en una jaula dentro de un vehículo controlado en Durán",
+  "card_text_es": "Dos loros Pionus menstruus fueron hallados en una jaula dentro de un vehículo controlado en Durán.",
+  "context_es": "[O1] Dos loros Pionus menstruus fueron hallados en una jaula dentro de un vehículo controlado en Durán. La tenencia y el traslado de aves vivas obligan a separar cantidad intervenida, mortalidad y destino declarado. Los nombres comunes no prueban por sí solos la especie ni el lugar de captura. La fecha del hecho sigue sujeta a cotejo final de fuentes. No inferir lugar de captura, intermediarios ni destino sin pruebas específicas. [S1] Una síntesis de 2021 relaciona el comercio de fauna con disminuciones poblacionales sin medir los efectos locales de este caso. [N1] Una investigación de 2016 sobre comercio de aves en Ecuador aporta contexto de mercado, sin demostrar una red compartida.",
+  "references_text_es": "[O1] Fiscalía General del Estado: https://www.fiscalia.gob.ec/2-procesados-son-sentenciados-por-delitos-contra-la-fauna-silvestre/\n[S1] Impacts of wildlife trade on terrestrial biodiversity: https://doi.org/10.1038/s41559-021-01399-y\n[N1] Ecuador’s wild bird markets and networks of illegal wildlife trafficking: https://es.mongabay.com/2016/10/biodiversidad-extincion-trafico_de_especies-amazonia-conservacion-especiales/",
+  "audit_source_inventory": [
+    {
+      "class": "O",
+      "label": "[O1] Fiscalía General del Estado",
+      "url": "https://www.fiscalia.gob.ec/2-procesados-son-sentenciados-por-delitos-contra-la-fauna-silvestre/",
+      "evidence_role": "SIM — descrição do evento",
+      "verification": "FONTE RECUPERADA — REVISÃO INTEGRAL PENDENTE"
+    },
+    {
+      "class": "S",
+      "label": "[S1] Impacts of wildlife trade on terrestrial biodiversity",
+      "url": "https://doi.org/10.1038/s41559-021-01399-y",
+      "evidence_role": "CONTEXTO SUBSTANTIVO",
+      "verification": "REPOSITÓRIO S/N — PERTINÊNCIA PARA REVISÃO"
+    },
+    {
+      "class": "N",
+      "label": "[N1] Ecuador’s wild bird markets and networks of illegal wildlife trafficking",
+      "url": "https://es.mongabay.com/2016/10/biodiversidad-extincion-trafico_de_especies-amazonia-conservacion-especiales/",
+      "evidence_role": "CONTEXTO SUBSTANTIVO",
+      "verification": "REPOSITÓRIO S/N — PERTINÊNCIA PARA REVISÃO"
+    }
+  ],
+  "route_audit_status": "NO_ROUTE_PROPOSED",
+  "taxon_resolution": "source_species_or_genus",
+  "taxonomic_note_pt": "Táxon informado no menor nível seguro a partir da descrição da ocorrência; nomes superiores NÃO equivalem a identificação de espécie.",
+  "aggregate_decision_note_pt": "Uma ocorrência/ação operacional com inventário contado uma única vez; subgrupos não criam novos casos.",
+  "context_reaudit": "APPROVED_EDITORIAL_UNCHANGED",
+  "geographic_gate": "GEOREFERENCE_GENERALIZED_REVIEWED",
+  "final_structural_review": "STRUCTURED_WITH_EVIDENCE_LIMITS_2026-10-27",
+  "review_batch": "TGH-20261027-final-technical-handoff",
+  "source_provenance_addendum": [],
+  "preflight_status": "STRUCTURAL_CANDIDATE_NOT_YET_VALIDATED",
+  "modal_label_pt": "Não documentado",
+  "occurred_at": "2023-09-07T00:00:00Z",
+  "occurred_at_precision": "day",
+  "translation_status": "PT_EN_ES_COMPLETE",
+  "image_status": "IMAGE_UNVERIFIED",
+  "image_url": null,
+  "migration_status": "READY_FOR_CUTOVER",
+  "import_authorization": "USER_APPROVED_2026-10-28_WITH_DOCUMENTED_LIMITATIONS"
+}
