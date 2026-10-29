@@ -26,7 +26,7 @@ for filename in sorted(glob.glob("imports/tgh-*.json")):
     ritems = batch.get("routes", [])
     for c in records:
         assert c.get("status") == "VALIDATED" and c.get("id") and c.get("source_url"), c
-        assert c.get("target_taxon") == "Amazona aestiva", c["id"]
+        assert isinstance(c.get("fauna_groups_aggregated"), list) and c.get("taxon_text"), c["id"]
         for lang in ("pt", "en", "es"):
             assert c.get("title_" + lang) and c.get("card_text_" + lang) and c.get("context_" + lang), c["id"]
         key = c["source_url"].rstrip("/")
