@@ -1,0 +1,95 @@
+{
+  "id": "TGH-R34-122",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2023-08-09",
+  "location_label_pt": "El Alto",
+  "location_label_en": "El Alto",
+  "location_label_es": "El Alto",
+  "title_pt": "El Alto — 1 enguia",
+  "title_en": "El Alto — An eel advertised on social media was recovered by authorities in El Alto",
+  "title_es": "El Alto — Las autoridades recuperaron en El Alto una anguila anunciada en redes sociales",
+  "card_text_pt": "Uma enguia anunciada em redes sociais e recuperada pelas autoridades.",
+  "card_text_en": "An eel advertised on social media was recovered by authorities in El Alto.",
+  "card_text_es": "Las autoridades recuperaron en El Alto una anguila anunciada en redes sociales.",
+  "context_pt": "[O1] La Razón descreve a recuperação de uma enguia oferecida em redes sociais e procedente de El Alto. A reportagem reúne também nove tartarugas e um macaco-prego entre 11 animais transferidos oficialmente para o centro de reabilitação La Hormiga, em Cochabamba. O traslado para cuidados não documenta rota criminosa. O texto não demonstra que os 11 tenham sido apreendidos no mesmo ato; mantém-se uma enguia na contagem específica desta ficha.\n\n[S1] Guia metodológico de monitoramento online recomenda separar anúncio, vendedor, transação e evento de apreensão para reduzir duplicações e inferências indevidas.",
+  "context_en": "[O1] La Razón reported an eel offered on social media and recovered from El Alto. The report also describes nine turtles and a capuchin monkey among 11 animals officially transported to La Hormiga rehabilitation center in Cochabamba. The care transfer is not a criminal-trafficking route, and the article does not establish that all 11 were seized in one operation; this case counts only the eel.\n\n[S1] An online wildlife-trade monitoring guide supports distinguishing listings, sellers, transactions and seizure events to limit duplication and unwarranted inference.",
+  "context_es": "[O1] La Razón informó sobre una anguila ofertada en redes sociales y procedente de El Alto. El reportaje también menciona nueve tortugas y un mono capuchino entre 11 animales trasladados oficialmente al centro de rehabilitación La Hormiga, en Cochabamba. El traslado para atención no constituye una ruta delictiva y no prueba que los 11 fueran decomisados en un solo operativo; esta ficha contabiliza únicamente la anguila.\n\n[S1] Una guía de monitoreo del comercio de fauna en línea recomienda distinguir anuncios, vendedores, transacciones y decomisos para limitar duplicaciones e inferencias.",
+  "references_text_pt": "[O1] Bolívia — El Alto — https://hemeroteca.larazon.bo/sociedad/2023/08/09/anguila-ofrecida-por-redes-sociales-once-animales-silvestres-confiscados-en-la-paz/\n[S1] A guide to using the internet to monitor and quantify the wildlife trade — https://doi.org/10.1111/cobi.13675",
+  "references_text_en": "[O1] Bolívia — El Alto — https://hemeroteca.larazon.bo/sociedad/2023/08/09/anguila-ofrecida-por-redes-sociales-once-animales-silvestres-confiscados-en-la-paz/\n[S1] A guide to using the internet to monitor and quantify the wildlife trade — https://doi.org/10.1111/cobi.13675",
+  "references_text_es": "[O1] Bolívia — El Alto — https://hemeroteca.larazon.bo/sociedad/2023/08/09/anguila-ofrecida-por-redes-sociales-once-animales-silvestres-confiscados-en-la-paz/\n[S1] A guide to using the internet to monitor and quantify the wildlife trade — https://doi.org/10.1111/cobi.13675",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — El Alto",
+      "url": "https://hemeroteca.larazon.bo/sociedad/2023/08/09/anguila-ofrecida-por-redes-sociales-once-animales-silvestres-confiscados-en-la-paz/"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "A guide to using the internet to monitor and quantify the wildlife trade",
+      "url": "https://doi.org/10.1111/cobi.13675",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "1 enguia",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Uma enguia recuperada em El Alto; nove tartarugas e um macaco aparecem no mesmo relato de traslado oficial, sem comprovação de que pertencem à mesma apreensão.",
+  "quantity_note_en": "One eel recovered from El Alto; nine turtles and one monkey are in the same account of official relocation but not proven to belong to the same seizure.",
+  "quantity_note_es": "Una anguila recuperada en El Alto; otras nueve tortugas y un mono figuran en el traslado oficial, sin prueba de que procedan del mismo decomiso.",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — El Alto",
+  "source_url": "https://hemeroteca.larazon.bo/sociedad/2023/08/09/anguila-ofrecida-por-redes-sociales-once-animales-silvestres-confiscados-en-la-paz/",
+  "source_reconciliation_status": "PRIMARY_SOURCE_WEB_CONFIRMED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "A matéria reúne 11 animais de diferentes resgates; este candidato considera apenas a enguia.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "A notícia de 09/08/2023 descreve 11 animais recolhidos na região, mas apenas a enguia foi atribuída a El Alto; não somar 11 à ficha pontual.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Peixes": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -16.5048228,
+    "lon": -68.1624337
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "El Alto, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "El Alto, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+  "evidence_web_verified": true,
+  "source_review_note_pt": "Fonte original confirmada externamente: La Razón (reportagem original, texto obtido por consulta externa). 1 enguia oriunda de El Alto em lote de 11 animais recolhidos pela autoridade departamental; outras espécies não atribuídas à mesma apreensão local individual."
+}

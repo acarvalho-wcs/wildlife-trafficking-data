@@ -1,0 +1,94 @@
+{
+  "id": "TGH-R34-187",
+  "country": "Peru",
+  "event_date": null,
+  "publication_date": "2025-06-03",
+  "location_label_pt": "San Camilo, Arequipa",
+  "location_label_en": "San Camilo, Arequipa",
+  "location_label_es": "San Camilo, Arequipa",
+  "title_pt": "San Camilo, Arequipa — 110 lagartos e 2 serpentes mortos",
+  "title_en": "San Camilo, Arequipa — One hundred and ten dead lizards and two dead snakes preserved in alcohol were seized at the San…",
+  "title_es": "San Camilo, Arequipa — Se incautaron 110 lagartijas y dos serpientes muertas conservadas en alcohol en el mercado San Camilo…",
+  "card_text_pt": "110 lagartos e duas serpentes mortos, conservados em recipientes com álcool e destinados a alegados usos medicinais.",
+  "card_text_en": "One hundred and ten dead lizards and two dead snakes preserved in alcohol were seized at the San Camilo market in Arequipa.",
+  "card_text_es": "Se incautaron 110 lagartijas y dos serpientes muertas conservadas en alcohol en el mercado San Camilo de Arequipa.",
+  "context_pt": "[O1] A conservação em álcool e a finalidade medicinal relatada caracterizam mercado de derivados; as 112 unidades são corpos mortos, não animais vivos.\n\n[S1] Monitoramento anual de mercados de Iquitos registrou ao menos 71 espécies e propôs indicadores de volume, disponibilidade e preços, úteis para diferenciar tipos de produtos e pontos de venda.",
+  "context_en": "[O1] Alcohol preservation and reported medicinal use indicate a body-product market; the 112 specimens are dead, not live animals.\n\n[S1] Year-long monitoring of two Iquitos markets recorded at least 71 species and proposed volume, availability and price indicators to distinguish traded products and outlets.",
+  "context_es": "[O1] La conservación en alcohol y uso medicinal declarado indican mercado de cuerpos; los 112 ejemplares están muertos, no vivos.\n\n[S1] Un monitoreo anual de mercados de Iquitos registró al menos 71 especies y propuso indicadores de volumen, disponibilidad y precios para diferenciar productos y lugares de venta.",
+  "references_text_pt": "[O1] Peru — San Camilo, Arequipa — https://www.actualidadambiental.pe/110-lagartijas-presuntos-fines-medicinales/\n[S1] Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring — https://doi.org/10.3389/fcosc.2024.1464332",
+  "references_text_en": "[O1] Peru — San Camilo, Arequipa — https://www.actualidadambiental.pe/110-lagartijas-presuntos-fines-medicinales/\n[S1] Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring — https://doi.org/10.3389/fcosc.2024.1464332",
+  "references_text_es": "[O1] Peru — San Camilo, Arequipa — https://www.actualidadambiental.pe/110-lagartijas-presuntos-fines-medicinales/\n[S1] Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring — https://doi.org/10.3389/fcosc.2024.1464332",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Peru — San Camilo, Arequipa",
+      "url": "https://www.actualidadambiental.pe/110-lagartijas-presuntos-fines-medicinales/"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring",
+      "url": "https://doi.org/10.3389/fcosc.2024.1464332",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "110 lagartos e 2 serpentes mortos",
+  "fauna_label_en": "112 wildlife-derived units",
+  "fauna_label_es": "112 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 112,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. ",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 0,
+    "wildlife_items_exact": 112,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Peru — San Camilo, Arequipa",
+  "source_url": "https://www.actualidadambiental.pe/110-lagartijas-presuntos-fines-medicinales/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: 03/06/2025 (P)",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Répteis": 112
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -16.7191681,
+    "lon": -71.8792542
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "San Camilo, Arequipa, Peru",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "San Camilo, Mollendo, Islay, Arequipa, Perú",
+  "source_review_note_pt": ""
+}

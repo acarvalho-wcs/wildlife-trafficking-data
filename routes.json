@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-29T12:43:18.441549Z",
+  "updated_at": "2026-10-30T16:56:33.136413Z",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -13189,6 +13189,371 @@
       "source_label": "Ministério das Florestas da Indonésia",
       "source_url": "https://gakkum.kehutanan.go.id/siaran-pers/detail/gakkum-kehutanan-tahan-tersangka-3-ton-sisik-trenggiling-tujuan-kamboja-koordinasi-interpol-perkuat-pengungkapan-jaringan-lintas-negara",
       "event_date": "2026-02-12"
+    },
+    {
+      "id": "TGH-R34-114-R01",
+      "event_match": {
+        "event_id": "TGH-R34-114"
+      },
+      "status": "DOCUMENTED",
+      "direction": "forward",
+      "line_style": "solid",
+      "route_type": "documented_or_intended_segments",
+      "segments": [
+        {
+          "from": {
+            "name": "Achica Arriba",
+            "country": "Bolívia",
+            "lat": -16.71608,
+            "lon": -68.18504,
+            "precision": "village_generalized"
+          },
+          "to": {
+            "name": "Cochabamba",
+            "country": "Bolívia",
+            "lat": -17.3895,
+            "lon": -66.1568,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "label_pt": "Achica Arriba → Cochabamba",
+      "label_en": "Achica Arriba → Cochabamba",
+      "label_es": "Achica Arriba → Cochabamba",
+      "source_url": "https://erbol.com.bo/node/2362",
+      "segment_evidence_pt": [
+        "Ônibus fiscalizado em Achica Arriba com destino informado a Cochabamba."
+      ],
+      "segment_evidence_en": [
+        "Bus inspected at Achica Arriba, reportedly bound for Cochabamba."
+      ],
+      "segment_evidence_es": [
+        "Autobús inspeccionado en Achica Arriba con destino declarado a Cochabamba."
+      ],
+      "coordinate_note": "City/village centroids, not exact seizure sites; archipelago uses regional centroid.",
+      "render_after_review": true,
+      "geocoded_city_centroids": true,
+      "evidence_pt": "Ônibus fiscalizado em Achica Arriba com destino informado a Cochabamba.",
+      "evidence_en": "Bus inspected at Achica Arriba, reportedly bound for Cochabamba.",
+      "evidence_es": "Autobús inspeccionado en Achica Arriba con destino declarado a Cochabamba.",
+      "requires_geocoding": false,
+      "source_evidence_type": "event_specific"
+    },
+    {
+      "id": "TGH-R34-138-R01",
+      "event_match": {
+        "event_id": "TGH-R34-138"
+      },
+      "status": "DOCUMENTED",
+      "direction": "forward",
+      "line_style": "solid",
+      "route_type": "documented_or_intended_segments",
+      "segments": [
+        {
+          "from": {
+            "name": "Barranquilla",
+            "country": "Colômbia",
+            "lat": 10.96854,
+            "lon": -74.78132,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Bogotá",
+            "country": "Colômbia",
+            "lat": 4.7016,
+            "lon": -74.1469,
+            "precision": "airport_generalized"
+          }
+        }
+      ],
+      "label_pt": "Barranquilla → Bogotá (destino ulterior informado: San Andrés e Providência)",
+      "label_en": "Barranquilla → Bogotá (reported onward destination: San Andrés and Providencia)",
+      "label_es": "Barranquilla → Bogotá (destino ulterior declarado: San Andrés y Providencia)",
+      "source_url": "https://oab.ambientebogota.gov.co/fueron-incautadas-15-aves-silvestres-en-el-aeropuerto-el-dorado/",
+      "segment_evidence_pt": [
+        "Remessa procedente de Barranquilla encontrada em Bogotá.",
+        "Destino declarado como San Andrés e Providencia; entrega não realizada."
+      ],
+      "segment_evidence_en": [
+        "Consignment from Barranquilla intercepted in Bogotá.",
+        "Stated destination: San Andrés and Providencia; delivery not completed."
+      ],
+      "segment_evidence_es": [
+        "Envío procedente de Barranquilla interceptado en Bogotá.",
+        "Destino declarado: San Andrés y Providencia; entrega no realizada."
+      ],
+      "coordinate_note": "City/village centroids, not exact seizure sites; archipelago uses regional centroid.",
+      "render_after_review": true,
+      "geocoded_city_centroids": true,
+      "evidence_pt": "Remessa procedente de Barranquilla encontrada em Bogotá.",
+      "evidence_en": "Consignment from Barranquilla intercepted in Bogotá.",
+      "evidence_es": "Envío procedente de Barranquilla interceptado en Bogotá.",
+      "requires_geocoding": false,
+      "source_evidence_type": "event_specific"
+    },
+    {
+      "id": "TGH-R34-140-R01",
+      "event_match": {
+        "event_id": "TGH-R34-140"
+      },
+      "status": "DOCUMENTED",
+      "direction": "forward",
+      "line_style": "solid",
+      "route_type": "documented_or_intended_segments",
+      "segments": [
+        {
+          "from": {
+            "name": "Aguachica, Cesar",
+            "country": "Colômbia",
+            "lat": 8.30844,
+            "lon": -73.6166,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Bogotá (Terminal Salitre)",
+            "country": "Colômbia",
+            "lat": 4.60971,
+            "lon": -74.08175,
+            "precision": "city_generalized_not_terminal"
+          }
+        }
+      ],
+      "label_pt": "Aguachica, Cesar → Bogotá (Terminal Salitre)",
+      "label_en": "Aguachica, Cesar → Bogotá (Terminal Salitre)",
+      "label_es": "Aguachica, Cesar → Bogotá (Terminal Salitre)",
+      "source_url": "https://bogota.gov.co/mi-ciudad/ambiente/pericos-incautados-en-bogota",
+      "segment_evidence_pt": [
+        "Ônibus procedente de Aguachica interceptado em Bogotá."
+      ],
+      "segment_evidence_en": [
+        "Bus arriving from Aguachica intercepted in Bogotá."
+      ],
+      "segment_evidence_es": [
+        "Autobús procedente de Aguachica interceptado en Bogotá."
+      ],
+      "coordinate_note": "City/village centroids, not exact seizure sites; archipelago uses regional centroid.",
+      "render_after_review": true,
+      "geocoded_city_centroids": true,
+      "evidence_pt": "Ônibus procedente de Aguachica interceptado em Bogotá.",
+      "evidence_en": "Bus arriving from Aguachica intercepted in Bogotá.",
+      "evidence_es": "Autobús procedente de Aguachica interceptado en Bogotá.",
+      "requires_geocoding": false,
+      "source_evidence_type": "event_specific"
+    },
+    {
+      "id": "TGH-R34-164-R01",
+      "event_match": {
+        "event_id": "TGH-R34-164"
+      },
+      "status": "DOCUMENTED",
+      "direction": "forward",
+      "line_style": "solid",
+      "route_type": "documented_or_intended_segments",
+      "segments": [
+        {
+          "from": {
+            "name": "Santa Cruz de la Sierra",
+            "country": "Bolívia",
+            "lat": -17.7833,
+            "lon": -63.1821,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Cochabamba",
+            "country": "Bolívia",
+            "lat": -17.3895,
+            "lon": -66.1568,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "label_pt": "Santa Cruz de la Sierra → Cochabamba",
+      "label_en": "Santa Cruz de la Sierra → Cochabamba",
+      "label_es": "Santa Cruz de la Sierra → Cochabamba",
+      "source_url": "https://www.reduno.com.bo/noticias/pofoma-rescato-animales-victimas-de-trata--2020102781122",
+      "segment_evidence_pt": [
+        "Caixas procedentes de Santa Cruz localizadas no terminal de Cochabamba."
+      ],
+      "segment_evidence_en": [
+        "Boxes dispatched from Santa Cruz found at the Cochabamba terminal."
+      ],
+      "segment_evidence_es": [
+        "Cajas procedentes de Santa Cruz encontradas en la terminal de Cochabamba."
+      ],
+      "coordinate_note": "City/village centroids, not exact seizure sites; archipelago uses regional centroid.",
+      "render_after_review": true,
+      "geocoded_city_centroids": true,
+      "evidence_pt": "Caixas procedentes de Santa Cruz localizadas no terminal de Cochabamba.",
+      "evidence_en": "Boxes dispatched from Santa Cruz found at the Cochabamba terminal.",
+      "evidence_es": "Cajas procedentes de Santa Cruz encontradas en la terminal de Cochabamba.",
+      "requires_geocoding": false,
+      "source_evidence_type": "event_specific"
+    },
+    {
+      "id": "TGH-R34-170-R01",
+      "event_match": {
+        "event_id": "TGH-R34-170"
+      },
+      "status": "DOCUMENTED",
+      "direction": "forward",
+      "line_style": "solid",
+      "route_type": "documented_or_intended_segments",
+      "segments": [
+        {
+          "from": {
+            "name": "Yacuces (povoado)",
+            "country": "Bolívia",
+            "lat": -18.97523,
+            "lon": -58.2381,
+            "precision": "village_generalized"
+          },
+          "to": {
+            "name": "Santa Cruz de la Sierra",
+            "country": "Bolívia",
+            "lat": -17.7833,
+            "lon": -63.1821,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "label_pt": "Yacuces → Santa Cruz de la Sierra",
+      "label_en": "Yacuces → Santa Cruz de la Sierra",
+      "label_es": "Yacuces → Santa Cruz de la Sierra",
+      "source_url": "https://unitel.bo/noticias/seguridad/aprehenden-a-un-hombre-que-tenia-ocho-tucanes-que-compro-y-un-loro-que-le-dieron-de-yapa-LF13070092",
+      "segment_evidence_pt": [
+        "Ônibus documentado de Yacuces para Santa Cruz."
+      ],
+      "segment_evidence_en": [
+        "Documented bus journey from Yacuces to Santa Cruz."
+      ],
+      "segment_evidence_es": [
+        "Trayecto documentado de autobús desde Yacuces a Santa Cruz."
+      ],
+      "coordinate_note": "Ponto aproximado do povoado Yacuces, Santa Cruz, Bolívia (OSM node 4124679508); evitar Yacuces Sur, povoado homônimo situado ao sul. https://mapcarta.com/19233616",
+      "render_after_review": true,
+      "geocoded_city_centroids": true,
+      "evidence_pt": "Ônibus documentado de Yacuces para Santa Cruz.",
+      "evidence_en": "Documented bus journey from Yacuces to Santa Cruz.",
+      "evidence_es": "Trayecto documentado de autobús desde Yacuces a Santa Cruz.",
+      "requires_geocoding": false,
+      "source_evidence_type": "event_specific"
+    },
+    {
+      "id": "TGH-R34-188-R01",
+      "event_match": {
+        "event_id": "TGH-R34-188"
+      },
+      "status": "DOCUMENTED",
+      "direction": "forward",
+      "line_style": "solid",
+      "route_type": "documented_or_intended_segments",
+      "segments": [
+        {
+          "from": {
+            "name": "Bogotá (El Dorado)",
+            "country": "Colômbia",
+            "lat": 4.7016,
+            "lon": -74.1469,
+            "precision": "airport_generalized"
+          },
+          "to": {
+            "name": "Leticia",
+            "country": "Colômbia",
+            "lat": -4.2129,
+            "lon": -69.9426,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "label_pt": "Bogotá (El Dorado) → Leticia",
+      "label_en": "Bogotá (El Dorado) → Leticia",
+      "label_es": "Bogotá (El Dorado) → Leticia",
+      "source_url": "https://bogota.gov.co/asi-vamos/1300-tortugas-fueron-incautadas-por-las-autoridades",
+      "segment_evidence_pt": [
+        "Remessa de tartarugas preparada para sair de Bogotá rumo a Leticia; interceptada antes da entrega."
+      ],
+      "segment_evidence_en": [
+        "Turtles packaged for shipment from Bogotá to Leticia; intercepted before delivery."
+      ],
+      "segment_evidence_es": [
+        "Tortugas preparadas para envío de Bogotá a Leticia; interceptadas antes de la entrega."
+      ],
+      "coordinate_note": "City/village centroids, not exact seizure sites; archipelago uses regional centroid.",
+      "render_after_review": true,
+      "geocoded_city_centroids": true,
+      "evidence_pt": "Remessa de tartarugas preparada para sair de Bogotá rumo a Leticia; interceptada antes da entrega.",
+      "evidence_en": "Turtles packaged for shipment from Bogotá to Leticia; intercepted before delivery.",
+      "evidence_es": "Tortugas preparadas para envío de Bogotá a Leticia; interceptadas antes de la entrega.",
+      "requires_geocoding": false,
+      "source_evidence_type": "event_specific"
+    },
+    {
+      "id": "TGH-R34-193-R01",
+      "event_match": {
+        "event_id": "TGH-R34-193"
+      },
+      "status": "DOCUMENTED",
+      "direction": "forward",
+      "line_style": "solid",
+      "route_type": "documented_or_intended_segments",
+      "segments": [
+        {
+          "from": {
+            "name": "Valledupar",
+            "country": "Colômbia",
+            "lat": 10.46538,
+            "lon": -73.2531,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Manizales (Sabinas)",
+            "country": "Colômbia",
+            "lat": 5.0668,
+            "lon": -75.50684,
+            "precision": "city_generalized_not_checkpoint"
+          }
+        },
+        {
+          "from": {
+            "name": "Manizales (Sabinas)",
+            "country": "Colômbia",
+            "lat": 5.0668,
+            "lon": -75.50684,
+            "precision": "city_generalized_not_checkpoint"
+          },
+          "to": {
+            "name": "Cali",
+            "country": "Colômbia",
+            "lat": 3.43054,
+            "lon": -76.5199,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "label_pt": "Valledupar → Manizales (Sabinas) → Cali",
+      "label_en": "Valledupar → Manizales (Sabinas) → Cali",
+      "label_es": "Valledupar → Manizales (Sabinas) → Cali",
+      "source_url": "https://www.policia.gov.co/index.php/noticia/10-aves-silvestres-rescatados-podran-volver-su-habitat-natural",
+      "segment_evidence_pt": [
+        "Ônibus na rota Valledupar–Cali fiscalizado na área de Manizales.",
+        "Cali era o destino anunciado do serviço, sem entrega dos animais."
+      ],
+      "segment_evidence_en": [
+        "Bus on the Valledupar–Cali route searched near Manizales.",
+        "Cali was the scheduled bus destination; animals were not delivered."
+      ],
+      "segment_evidence_es": [
+        "Autobús de la ruta Valledupar–Cali revisado cerca de Manizales.",
+        "Cali era el destino del servicio; los animales no fueron entregados."
+      ],
+      "coordinate_note": "City/village centroids, not exact seizure sites; archipelago uses regional centroid.",
+      "render_after_review": true,
+      "geocoded_city_centroids": true,
+      "evidence_pt": "Ônibus na rota Valledupar–Cali fiscalizado na área de Manizales.",
+      "evidence_en": "Bus on the Valledupar–Cali route searched near Manizales.",
+      "evidence_es": "Autobús de la ruta Valledupar–Cali revisado cerca de Manizales.",
+      "requires_geocoding": false,
+      "source_evidence_type": "event_specific"
     }
   ],
   "network_context": [

@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-167",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2022-08-16",
+  "location_label_pt": "Urkupiña, Cochabamba",
+  "location_label_en": "Urkupiña, Cochabamba",
+  "location_label_es": "Urkupiña, Cochabamba",
+  "title_pt": "Urkupiña, Cochabamba — 763 penas de ema",
+  "title_en": "Urkupiña, Cochabamba — Authorities seized 763 rhea feathers used to decorate festive costumes at Urkupiña",
+  "title_es": "Urkupiña, Cochabamba — Las autoridades decomisaron 763 plumas de ñandú utilizadas en trajes festivos en Urkupiña",
+  "card_text_pt": "Apreensão de 763 penas de ema utilizadas em trajes festivos. Número de animais de origem desconhecido.",
+  "card_text_en": "Authorities seized 763 rhea feathers used to decorate festive costumes at Urkupiña.",
+  "card_text_es": "Las autoridades decomisaron 763 plumas de ñandú utilizadas en trajes festivos en Urkupiña.",
+  "context_pt": "[O1] As penas constituem 763 itens derivados usados em vestimentas; não inferir número de emas abatidas.",
+  "context_en": "[O1] The 763 feathers are derivative items used in costumes, not a measure of rheas killed.",
+  "context_es": "[O1] Las 763 plumas son derivados usados en vestimenta, no una cifra de ñandúes sacrificados.",
+  "references_text_pt": "[O1] Bolívia — Urkupiña, Cochabamba — https://www.lostiempos.com/actualidad/cochabamba/20220816/decomisan-763-plumas-nandues-piyos-urkupina",
+  "references_text_en": "[O1] Bolívia — Urkupiña, Cochabamba — https://www.lostiempos.com/actualidad/cochabamba/20220816/decomisan-763-plumas-nandues-piyos-urkupina",
+  "references_text_es": "[O1] Bolívia — Urkupiña, Cochabamba — https://www.lostiempos.com/actualidad/cochabamba/20220816/decomisan-763-plumas-nandues-piyos-urkupina",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — Urkupiña, Cochabamba",
+      "url": "https://www.lostiempos.com/actualidad/cochabamba/20220816/decomisan-763-plumas-nandues-piyos-urkupina"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "763 penas de ema",
+  "fauna_label_en": "763 wildlife-derived units",
+  "fauna_label_es": "763 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 763,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Número de animais de origem desconhecido; penas não são indivíduos.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 0,
+    "wildlife_items_exact": 763,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — Urkupiña, Cochabamba",
+  "source_url": "https://www.lostiempos.com/actualidad/cochabamba/20220816/decomisan-763-plumas-nandues-piyos-urkupina",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Número de animais de origem desconhecido; penas não são indivíduos.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: 16/08/2022 (P)",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 763
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -16.8136236,
+    "lon": -65.4842353
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Urkupiña, Cochabamba, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Urkupiña, Villa Tunari, Chapare, Cochabamba, Bolivia",
+  "source_review_note_pt": ""
+}

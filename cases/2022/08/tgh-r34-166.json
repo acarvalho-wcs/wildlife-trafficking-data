@@ -1,0 +1,100 @@
+{
+  "id": "TGH-R34-166",
+  "country": "Bolívia",
+  "event_date": "2022-08-04",
+  "publication_date": null,
+  "location_label_pt": "feira Cumavi, Santa Cruz",
+  "location_label_en": "feira Cumavi, Santa Cruz",
+  "location_label_es": "feira Cumavi, Santa Cruz",
+  "title_pt": "feira Cumavi, Santa Cruz — 1 caturrita (*Myiopsitta monachus*)",
+  "title_en": "feira Cumavi, Santa Cruz — A monk parakeet, *Myiopsitta monachus*, was offered for sale with one foot tied to a branch at the…",
+  "title_es": "feira Cumavi, Santa Cruz — Se ofrecía una cotorra argentina, *Myiopsitta monachus*, con una pata atada a una rama en la feria Cumavi",
+  "card_text_pt": "Uma caturrita, Myiopsitta monachus, oferecida à venda com uma pata amarrada a um galho.",
+  "card_text_en": "A monk parakeet, *Myiopsitta monachus*, was offered for sale with one foot tied to a branch at the Cumavi fair.",
+  "card_text_es": "Se ofrecía una cotorra argentina, *Myiopsitta monachus*, con una pata atada a una rama en la feria Cumavi.",
+  "context_pt": "[O1] A amarração a um galho documenta manejo inadequado durante oferta pública, sem indicar procedência geográfica.\n\n[S1] Pesquisa com psitacídeos na Bolívia indica que a demanda para criação local pode superar amplamente o comércio observado nos mercados; é pertinente investigar também a manutenção em domicílios.",
+  "context_en": "[O1] The bird tied to a branch documents poor handling during public sale, but not its geographical source.\n\n[S1] Research on parrots in Bolivia finds that local demand for keeping birds may greatly exceed visible market trade, making household possession relevant to monitoring.",
+  "context_es": "[O1] El ave atada a una rama evidencia manejo inadecuado durante la venta pública, sin señalar procedencia geográfica.\n\n[S1] Una investigación sobre psitácidos en Bolivia señala que la demanda local de mascotas puede superar ampliamente el comercio visible, por lo que también importa estudiar la tenencia doméstica.",
+  "references_text_pt": "[O1] Bolívia — feira Cumavi, Santa Cruz — https://eldeber.com.bo/santa-cruz/rescatan-a-una-cotorrita-amarrada-de-una-de-sus-patas-a-una-rama-que-pretendia-ser-comercializada_288528/\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "references_text_en": "[O1] Bolívia — feira Cumavi, Santa Cruz — https://eldeber.com.bo/santa-cruz/rescatan-a-una-cotorrita-amarrada-de-una-de-sus-patas-a-una-rama-que-pretendia-ser-comercializada_288528/\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "references_text_es": "[O1] Bolívia — feira Cumavi, Santa Cruz — https://eldeber.com.bo/santa-cruz/rescatan-a-una-cotorrita-amarrada-de-una-de-sus-patas-a-una-rama-que-pretendia-ser-comercializada_288528/\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — feira Cumavi, Santa Cruz",
+      "url": "https://eldeber.com.bo/santa-cruz/rescatan-a-una-cotorrita-amarrada-de-una-de-sus-patas-a-una-rama-que-pretendia-ser-comercializada_288528/"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "*Myiopsitta monachus*",
+  "fauna_label_pt": "1 caturrita (*Myiopsitta monachus*)",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. ",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — feira Cumavi, Santa Cruz",
+  "source_url": "https://eldeber.com.bo/santa-cruz/rescatan-a-una-cotorrita-amarrada-de-una-de-sus-patas-a-una-rama-que-pretendia-ser-comercializada_288528/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "incident_date_reported: 04/08/2022",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -17.7834217,
+    "lon": -63.1820853
+  },
+  "coordinate_precision": "city_generalized",
+  "georeferencing_request": {
+    "query": "feira Cumavi, Santa Cruz, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true,
+    "resolved_query": "Santa Cruz de la Sierra, Bolivia"
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_query_used": "Santa Cruz de la Sierra, Bolivia",
+  "geocode_candidate": "Municipio Santa Cruz de la Sierra, Provincia Andrés Ibáñez, Santa Cruz, Bolivia",
+  "geocode_review_status": "ADMINISTRATIVE_FALLBACK_REVIEW",
+  "geographic_note_pt": "Georreferenciamento aproximado (city_generalized) baseado em Santa Cruz de la Sierra, Bolivia; não representa necessariamente o ponto exato da apreensão.",
+  "geographic_note_en": "Approximate georeferencing (city_generalized) based on Santa Cruz de la Sierra, Bolivia; not necessarily the exact seizure location.",
+  "geographic_note_es": "Georreferenciación aproximada (city_generalized) basada en Santa Cruz de la Sierra, Bolivia; no necesariamente representa el lugar exacto del decomiso.",
+  "source_review_note_pt": ""
+}

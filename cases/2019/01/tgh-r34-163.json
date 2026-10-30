@@ -1,0 +1,94 @@
+{
+  "id": "TGH-R34-163",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2019-01-15",
+  "location_label_pt": "Cochabamba",
+  "location_label_en": "Cochabamba",
+  "location_label_es": "Cochabamba",
+  "title_pt": "Cochabamba — 1 raposa-andina jovem (anúncio por Bs 1.000)",
+  "title_en": "Cochabamba — A young Andean fox advertised for BOB 1,000 on Facebook was recovered in Cochabamba",
+  "title_es": "Cochabamba — Un zorro andino joven anunciado en Facebook por Bs 1.000 fue recuperado en Cochabamba",
+  "card_text_pt": "Uma raposa-andina jovem anunciada no Facebook por Bs 1.000. Duas pessoas detidas; reportagem posterior acompanha o mesmo caso.",
+  "card_text_en": "A young Andean fox advertised for BOB 1,000 on Facebook was recovered in Cochabamba; two people were detained.",
+  "card_text_es": "Un zorro andino joven anunciado en Facebook por Bs 1.000 fue recuperado en Cochabamba; dos personas fueron detenidas.",
+  "context_pt": "[O1] O preço anunciado e a plataforma são evidências concretas de oferta; não se deve concluir que houve pagamento ou entrega.\n\n[S1] Guia metodológico de monitoramento online recomenda separar anúncio, vendedor, transação e evento de apreensão para reduzir duplicações e inferências indevidas.",
+  "context_en": "[O1] The advertised price and platform establish an offer, not completion of payment or delivery.\n\n[S1] An online wildlife-trade monitoring guide supports distinguishing listings, sellers, transactions and seizure events to limit duplication and unwarranted inference.",
+  "context_es": "[O1] El precio y la plataforma acreditan oferta, no pago ni entrega consumados.\n\n[S1] Una guía de monitoreo del comercio de fauna en línea recomienda distinguir anuncios, vendedores, transacciones y decomisos para limitar duplicaciones e inferencias.",
+  "references_text_pt": "[O1] Bolívia — Cochabamba — https://www.opinion.com.bo/articulo/policial/%EF%BB%BFaprehenden-2-vender-zorro-andino/20190115194700638364.html\n[S1] A guide to using the internet to monitor and quantify the wildlife trade — https://doi.org/10.1111/cobi.13675",
+  "references_text_en": "[O1] Bolívia — Cochabamba — https://www.opinion.com.bo/articulo/policial/%EF%BB%BFaprehenden-2-vender-zorro-andino/20190115194700638364.html\n[S1] A guide to using the internet to monitor and quantify the wildlife trade — https://doi.org/10.1111/cobi.13675",
+  "references_text_es": "[O1] Bolívia — Cochabamba — https://www.opinion.com.bo/articulo/policial/%EF%BB%BFaprehenden-2-vender-zorro-andino/20190115194700638364.html\n[S1] A guide to using the internet to monitor and quantify the wildlife trade — https://doi.org/10.1111/cobi.13675",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — Cochabamba",
+      "url": "https://www.opinion.com.bo/articulo/policial/%EF%BB%BFaprehenden-2-vender-zorro-andino/20190115194700638364.html"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "A guide to using the internet to monitor and quantify the wildlife trade",
+      "url": "https://doi.org/10.1111/cobi.13675",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "*Lycalopex culpaeus* (a confirmar)",
+  "fauna_label_pt": "1 raposa-andina jovem (anúncio por Bs 1.000)",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. A reportagem posterior acompanha o mesmo caso; não duplicar.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — Cochabamba",
+  "source_url": "https://www.opinion.com.bo/articulo/policial/%EF%BB%BFaprehenden-2-vender-zorro-andino/20190115194700638364.html",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "A reportagem posterior acompanha o mesmo caso; não duplicar.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: 15/01/2019 (P)",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -17.4012458,
+    "lon": -66.1675681
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Cochabamba, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Cochabamba, Juan De La Rosa, Molle, Cochabamba, Cercado, Cochabamba, Bolivia",
+  "source_review_note_pt": ""
+}

@@ -1,0 +1,100 @@
+{
+  "id": "TGH-R34-134",
+  "country": "Peru",
+  "event_date": null,
+  "publication_date": "2025-06-28",
+  "location_label_pt": "Mercado Río Seco, Cerro Colorado",
+  "location_label_en": "Mercado Río Seco, Cerro Colorado",
+  "location_label_es": "Mercado Río Seco, Cerro Colorado",
+  "title_pt": "Mercado Río Seco, Cerro Colorado — 2 peles de raposa-andina",
+  "title_en": "Mercado Río Seco, Cerro Colorado — Two Andean fox skins were seized from a traditional-medicine vendor at the Río Seco market",
+  "title_es": "Mercado Río Seco, Cerro Colorado — Se decomisaron dos pieles de zorro andino en un puesto de medicina tradicional del mercado Río Seco",
+  "card_text_pt": "Duas peles de raposa-andina em ponto de venda de medicina tradicional.",
+  "card_text_en": "Two Andean fox skins were seized from a traditional-medicine vendor at the Río Seco market.",
+  "card_text_es": "Se decomisaron dos pieles de zorro andino en un puesto de medicina tradicional del mercado Río Seco.",
+  "context_pt": "[O1] A venda em mercado de medicina tradicional demonstra uso de peles; produtos vegetais apreendidos no mesmo local não integram esta ficha.\n\n[S1] Monitoramento anual de mercados de Iquitos registrou ao menos 71 espécies e propôs indicadores de volume, disponibilidade e preços, úteis para diferenciar tipos de produtos e pontos de venda.",
+  "context_en": "[O1] Traditional-medicine retail links the fox skins to an end-use market; seized plant products do not belong in this case's wildlife totals.\n\n[S1] Year-long monitoring of two Iquitos markets recorded at least 71 species and proposed volume, availability and price indicators to distinguish traded products and outlets.",
+  "context_es": "[O1] El puesto de medicina tradicional vincula las pieles a un mercado final; los vegetales decomisados no integran los totales de fauna.\n\n[S1] Un monitoreo anual de mercados de Iquitos registró al menos 71 especies y propuso indicadores de volumen, disponibilidad y precios para diferenciar productos y lugares de venta.",
+  "references_text_pt": "[O1] Peru — Mercado Río Seco, Cerro Colorado — https://bamnoticias.com/incautan-pieles-de-zorro-andino-y-raices-de-planta-en-peligro-de-extincion-en-operativo-en-mercado-de-rio-seco/\n[S1] Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring — https://doi.org/10.3389/fcosc.2024.1464332",
+  "references_text_en": "[O1] Peru — Mercado Río Seco, Cerro Colorado — https://bamnoticias.com/incautan-pieles-de-zorro-andino-y-raices-de-planta-en-peligro-de-extincion-en-operativo-en-mercado-de-rio-seco/\n[S1] Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring — https://doi.org/10.3389/fcosc.2024.1464332",
+  "references_text_es": "[O1] Peru — Mercado Río Seco, Cerro Colorado — https://bamnoticias.com/incautan-pieles-de-zorro-andino-y-raices-de-planta-en-peligro-de-extincion-en-operativo-en-mercado-de-rio-seco/\n[S1] Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring — https://doi.org/10.3389/fcosc.2024.1464332",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Peru — Mercado Río Seco, Cerro Colorado",
+      "url": "https://bamnoticias.com/incautan-pieles-de-zorro-andino-y-raices-de-planta-en-peligro-de-extincion-en-operativo-en-mercado-de-rio-seco/"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "Wildlife trade at Belén and Modelo market, Peru: defining a baseline for conservation monitoring",
+      "url": "https://doi.org/10.3389/fcosc.2024.1464332",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "2 peles de raposa-andina",
+  "fauna_label_en": "2 wildlife-derived units",
+  "fauna_label_es": "2 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Excluir raízes e demais produtos vegetais do registro de fauna.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 0,
+    "wildlife_items_exact": 2,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Peru — Mercado Río Seco, Cerro Colorado",
+  "source_url": "https://bamnoticias.com/incautan-pieles-de-zorro-andino-y-raices-de-planta-en-peligro-de-extincion-en-operativo-en-mercado-de-rio-seco/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Excluir raízes e demais produtos vegetais do registro de fauna.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: Publicação 28/06/2025",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -16.297999,
+    "lon": -71.573948
+  },
+  "coordinate_precision": "district_generalized",
+  "georeferencing_request": {
+    "query": "Mercado Río Seco, Cerro Colorado, Peru",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true,
+    "resolved_query": "Cerro Colorado, Arequipa, Peru"
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_query_used": "Cerro Colorado, Arequipa, Peru",
+  "geocode_candidate": "Cerro Colorado, Arequipa, Perú",
+  "geocode_review_status": "ADMINISTRATIVE_FALLBACK_REVIEW",
+  "geographic_note_pt": "Georreferenciamento aproximado (district_generalized) baseado em Cerro Colorado, Arequipa, Peru; não representa necessariamente o ponto exato da apreensão.",
+  "geographic_note_en": "Approximate georeferencing (district_generalized) based on Cerro Colorado, Arequipa, Peru; not necessarily the exact seizure location.",
+  "geographic_note_es": "Georreferenciación aproximada (district_generalized) basada en Cerro Colorado, Arequipa, Peru; no necesariamente representa el lugar exacto del decomiso.",
+  "source_review_note_pt": ""
+}

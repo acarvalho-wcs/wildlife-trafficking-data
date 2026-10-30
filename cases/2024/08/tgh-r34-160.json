@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-160",
+  "country": "Equador",
+  "event_date": "2024-08-08",
+  "publication_date": null,
+  "location_label_pt": "Flor de Bastión, Guayaquil",
+  "location_label_en": "Flor de Bastión, Guayaquil",
+  "location_label_es": "Flor de Bastión, Guayaquil",
+  "title_pt": "Flor de Bastión, Guayaquil — 2 jacarés",
+  "title_en": "Flor de Bastión, Guayaquil — Two caimans were kept in a swimming pool at a private property inspected by police in Flor de…",
+  "title_es": "Flor de Bastión, Guayaquil — Dos caimanes estaban en una piscina de una vivienda inspeccionada por la policía en Flor de Bastión,…",
+  "card_text_pt": "Dois jacarés mantidos em piscina de residência inspecionada pela polícia. Caso de posse, sem venda comprovada na fonte.",
+  "card_text_en": "Two caimans were kept in a swimming pool at a private property inspected by police in Flor de Bastión, Guayaquil.",
+  "card_text_es": "Dos caimanes estaban en una piscina de una vivienda inspeccionada por la policía en Flor de Bastión, Guayaquil.",
+  "context_pt": "[O1] A manutenção de crocodilianos em uma piscina residencial configura posse; não existe documentação de compradores ou destino comercial.",
+  "context_en": "[O1] Caimans in a domestic pool document possession, without identified buyers or a trade destination.",
+  "context_es": "[O1] Caimanes en una piscina doméstica documentan tenencia, sin compradores ni destino comercial identificados.",
+  "references_text_pt": "[O1] Equador — Flor de Bastión, Guayaquil — https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "references_text_en": "[O1] Equador — Flor de Bastión, Guayaquil — https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "references_text_es": "[O1] Equador — Flor de Bastión, Guayaquil — https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Equador — Flor de Bastión, Guayaquil",
+      "url": "https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "2 jacarés",
+  "fauna_label_en": "2 whole animals",
+  "fauna_label_es": "2 animales enteros",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Caso de posse; venda não comprovada.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 2,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Equador — Flor de Bastión, Guayaquil",
+  "source_url": "https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Caso de posse; venda não comprovada.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "incident_date_reported: 08/08/2024",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Répteis": 2
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -2.0953192,
+    "lon": -79.9550617
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Flor de Bastión, Guayaquil, Equador",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "flor de Bastión, Urb. Caracol, Urbanización Cumbres del Sol, Guayaquil, Guayas, 090802, Ecuador",
+  "source_review_note_pt": "Mesma reportagem analítica do 158, mas episódio independente envolvendo crocodilianos."
+}

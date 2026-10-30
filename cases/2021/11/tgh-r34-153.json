@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-153",
+  "country": "Equador",
+  "event_date": null,
+  "publication_date": "2021-11-09",
+  "location_label_pt": "Quito",
+  "location_label_en": "Quito",
+  "location_label_es": "Quito",
+  "title_pt": "Quito — 2 tartarugas pequenas",
+  "title_en": "Quito — Two small turtles were transported in a plastic container in Quito, allegedly for sale",
+  "title_es": "Quito — Dos tortugas pequeñas eran transportadas en un recipiente plástico en Quito, presuntamente para su venta",
+  "card_text_pt": "Duas tartarugas pequenas transportadas em recipiente plástico, presumivelmente para venda; uma pessoa detida.",
+  "card_text_en": "Two small turtles were transported in a plastic container in Quito, allegedly for sale; one person was detained.",
+  "card_text_es": "Dos tortugas pequeñas eran transportadas en un recipiente plástico en Quito, presuntamente para su venta; hubo un detenido.",
+  "context_pt": "[O1] O recipiente e a suspeita de venda foram descritos, mas não autorizam inferir origem, comprador ou deslocamento anterior.",
+  "context_en": "[O1] Packaging and suspected sale are reported, but do not support assumptions about origin, buyer or earlier movement.",
+  "context_es": "[O1] Se describen recipiente y presunta venta, pero no permiten inferir origen, comprador ni desplazamientos anteriores.",
+  "references_text_pt": "[O1] Equador — Quito — https://quenoticias.com/comunidad/detenido-en-quito-trafico-de-animales/",
+  "references_text_en": "[O1] Equador — Quito — https://quenoticias.com/comunidad/detenido-en-quito-trafico-de-animales/",
+  "references_text_es": "[O1] Equador — Quito — https://quenoticias.com/comunidad/detenido-en-quito-trafico-de-animales/",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Equador — Quito",
+      "url": "https://quenoticias.com/comunidad/detenido-en-quito-trafico-de-animales/"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "2 tartarugas pequenas",
+  "fauna_label_en": "2 whole animals",
+  "fauna_label_es": "2 animales enteros",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Venda presumida na fonte.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 2,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Equador — Quito",
+  "source_url": "https://quenoticias.com/comunidad/detenido-en-quito-trafico-de-animales/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Venda presumida na fonte.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: 09/11/2021 (P)",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Répteis": 2
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -0.2201641,
+    "lon": -78.5123274
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Quito, Equador",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Quito, Pichincha, 170130, Ecuador",
+  "source_review_note_pt": ""
+}

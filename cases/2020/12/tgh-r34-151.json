@@ -1,0 +1,93 @@
+{
+  "id": "TGH-R34-151",
+  "country": "Equador",
+  "event_date": null,
+  "publication_date": "2020-12-18",
+  "location_label_pt": "El Coca",
+  "location_label_en": "El Coca",
+  "location_label_es": "El Coca",
+  "title_pt": "El Coca — 16 peças: 13 dentes de boto, 1 de pecari, 1 de felino e 1 báculo de quati",
+  "title_en": "El Coca — Sixteen wildlife parts—including 13 river-dolphin teeth and parts attributed to three other…",
+  "title_es": "El Coca — Se transportaban 16 piezas de fauna en El Coca, incluidos 13 dientes de delfín de río y piezas de…",
+  "card_text_pt": "13 dentes de boto, um de pecari, um de felino e um báculo de quati, transportados para presumida venda em feira. 16 peças, sem equivalência com número de animais.",
+  "card_text_en": "Sixteen wildlife parts—including 13 river-dolphin teeth and parts attributed to three other mammals—were being carried in El Coca for presumed fairground sale.",
+  "card_text_es": "Se transportaban 16 piezas de fauna en El Coca, incluidos 13 dientes de delfín de río y piezas de otros tres mamíferos, presuntamente para su venta en una feria.",
+  "context_pt": "[O1] A composição dos 16 objetos é relevante para rastrear extração de partes, enquanto a venda na feira é apenas uma finalidade presumida.\n\n[I1] A pesquisa da WCS sobre comércio digital de partes de onça-pintada evidencia a necessidade de registrar identificação taxonômica, características da peça, oferta e atores separadamente. Um dente atribuído genericamente a felino, porém, não autoriza sua identificação como onça-pintada.",
+  "context_en": "[O1] The breakdown of 16 parts helps characterize wildlife-product extraction; fairground sale remains a stated suspicion.\n\n[I1] WCS research on online jaguar-parts trade highlights the need to record taxonomic identification, item characteristics, listings and actors separately. A tooth attributed only to a felid cannot be identified as jaguar on this evidence.",
+  "context_es": "[O1] El desglose de 16 piezas permite caracterizar extracción de partes; la venta en feria sigue siendo una hipótesis.\n\n[I1] La investigación de WCS sobre comercio digital de partes de jaguar destaca la necesidad de registrar por separado identificación taxonómica, características de piezas, ofertas y actores. Un diente atribuido sólo a un felino no permite clasificarlo como jaguar.",
+  "references_text_pt": "[O1] Equador — El Coca — https://www.extra.ec/noticia/actualidad/llevaba-dientes-delfin-amazonico-recibir-3-anos-carcel-45792.html\n[I1] WCS (2022), Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view",
+  "references_text_en": "[O1] Equador — El Coca — https://www.extra.ec/noticia/actualidad/llevaba-dientes-delfin-amazonico-recibir-3-anos-carcel-45792.html\n[I1] WCS (2022), Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view",
+  "references_text_es": "[O1] Equador — El Coca — https://www.extra.ec/noticia/actualidad/llevaba-dientes-delfin-amazonico-recibir-3-anos-carcel-45792.html\n[I1] WCS (2022), Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada — https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Equador — El Coca",
+      "url": "https://www.extra.ec/noticia/actualidad/llevaba-dientes-delfin-amazonico-recibir-3-anos-carcel-45792.html"
+    },
+    {
+      "tag": "I1",
+      "type": "wcs_institutional_report",
+      "title": "WCS (2022), Resumo das investigações multiplataforma multilíngues do comércio online de partes de onça-pintada",
+      "url": "https://drive.google.com/file/d/11ISLAaeilaZAbVkzrk8ZXSOXuJLRVPZI/view"
+    }
+  ],
+  "taxon_text": "Inia spp.; Tayassuidae; Felidae; Procyonidae",
+  "fauna_label_pt": "16 peças: 13 dentes de boto, 1 de pecari, 1 de felino e 1 báculo de quati",
+  "fauna_label_en": "16 wildlife-derived units",
+  "fauna_label_es": "16 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 16,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. São 16 peças, não 16 animais; venda apenas presumida.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 0,
+    "wildlife_items_exact": 16,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Equador — El Coca",
+  "source_url": "https://www.extra.ec/noticia/actualidad/llevaba-dientes-delfin-amazonico-recibir-3-anos-carcel-45792.html",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "São 16 peças, não 16 animais; venda apenas presumida.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: 18/12/2020 (P)",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 16
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -0.4721804,
+    "lon": -76.9837216
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "El Coca, Equador",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Coca, Francisco de Orellana, Orellana, Ecuador",
+  "source_review_note_pt": ""
+}

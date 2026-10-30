@@ -1,0 +1,93 @@
+{
+  "id": "TGH-R34-119",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2021-08-16",
+  "location_label_pt": "Zona sul de Cochabamba",
+  "location_label_en": "Zona sul de Cochabamba",
+  "location_label_es": "Zona sul de Cochabamba",
+  "title_pt": "Zona sul de Cochabamba — 1 felino silvestre",
+  "title_en": "Zona sul de Cochabamba — A wild felid was recovered from a residence in southern Cochabamba, where it was kept in poor conditions",
+  "title_es": "Zona sul de Cochabamba — Un felino silvestre fue rescatado de una vivienda del sur de Cochabamba, donde permanecía en malas…",
+  "card_text_pt": "Um felino silvestre recuperado de uma residência, em condições inadequadas.",
+  "card_text_en": "A wild felid was recovered from a residence in southern Cochabamba, where it was kept in poor conditions.",
+  "card_text_es": "Un felino silvestre fue rescatado de una vivienda del sur de Cochabamba, donde permanecía en malas condiciones.",
+  "context_pt": "[O1] O resgate revela cativeiro inadequado; espécie, origem e eventual comércio precisam ser estabelecidos por prova específica.",
+  "context_en": "[O1] The rescue documents unsuitable captivity; species, origin and possible trade require case-specific evidence.",
+  "context_es": "[O1] El rescate documenta cautiverio inadecuado; especie, origen y eventual comercio requieren prueba específica.",
+  "references_text_pt": "[O1] Bolívia — Zona sul de Cochabamba — https://www.opinion.com.bo/policial/rescatan-gato-montes-malas-condiciones-vida-casa-sur/20210816111817831392.html",
+  "references_text_en": "[O1] Bolívia — Zona sul de Cochabamba — https://www.opinion.com.bo/policial/rescatan-gato-montes-malas-condiciones-vida-casa-sur/20210816111817831392.html",
+  "references_text_es": "[O1] Bolívia — Zona sul de Cochabamba — https://www.opinion.com.bo/policial/rescatan-gato-montes-malas-condiciones-vida-casa-sur/20210816111817831392.html",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — Zona sul de Cochabamba",
+      "url": "https://www.opinion.com.bo/policial/rescatan-gato-montes-malas-condiciones-vida-casa-sur/20210816111817831392.html"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "1 felino silvestre",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Confirmar espécie e forma de aquisição; não presumir venda.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — Zona sul de Cochabamba",
+  "source_url": "https://www.opinion.com.bo/policial/rescatan-gato-montes-malas-condiciones-vida-casa-sur/20210816111817831392.html",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Confirmar espécie e forma de aquisição; não presumir venda.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: Publicação 16/08/2021",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -17.4196627,
+    "lon": -66.1419851
+  },
+  "coordinate_precision": "district_generalized",
+  "georeferencing_request": {
+    "query": "Zona sul de Cochabamba, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true,
+    "resolved_query": "Zona Sur, Cochabamba, Bolivia"
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_query_used": "Zona Sur, Cochabamba, Bolivia",
+  "geocode_candidate": "Parque Suecia, Huayra K'asa, Alejo Calatayud, Cochabamba, Cercado, Cochabamba, Bolivia",
+  "geocode_review_status": "ADMINISTRATIVE_FALLBACK_REVIEW",
+  "geographic_note_pt": "Georreferenciamento aproximado (district_generalized) baseado em Zona Sur, Cochabamba, Bolivia; não representa necessariamente o ponto exato da apreensão.",
+  "geographic_note_en": "Approximate georeferencing (district_generalized) based on Zona Sur, Cochabamba, Bolivia; not necessarily the exact seizure location.",
+  "geographic_note_es": "Georreferenciación aproximada (district_generalized) basada en Zona Sur, Cochabamba, Bolivia; no necesariamente representa el lugar exacto del decomiso.",
+  "source_review_note_pt": ""
+}

@@ -1,0 +1,99 @@
+{
+  "id": "TGH-R34-138",
+  "country": "Colômbia",
+  "event_date": null,
+  "publication_date": "2019-04-29",
+  "location_label_pt": "Aeroporto El Dorado, Bogotá",
+  "location_label_en": "Aeroporto El Dorado, Bogotá",
+  "location_label_es": "Aeroporto El Dorado, Bogotá",
+  "title_pt": "Aeroporto El Dorado, Bogotá — 15 aves",
+  "title_en": "Aeroporto El Dorado, Bogotá — Fifteen birds shipped from Barranquilla were intercepted at Bogotá airport, with San Andrés and…",
+  "title_es": "Aeroporto El Dorado, Bogotá — Quince aves enviadas desde Barranquilla fueron interceptadas en el aeropuerto de Bogotá con San…",
+  "card_text_pt": "Quinze aves em remessa procedente de Barranquilla, com destino informado a San Andrés e Providencia.",
+  "card_text_en": "Fifteen birds shipped from Barranquilla were intercepted at Bogotá airport, with San Andrés and Providencia indicated as their destination.",
+  "card_text_es": "Quince aves enviadas desde Barranquilla fueron interceptadas en el aeropuerto de Bogotá con San Andrés y Providencia como destino declarado.",
+  "context_pt": "[O1] A origem da remessa e o destino declarado permitem registrar um percurso logístico atribuído, distinguindo a interceptação do destino não realizado. O manifesto de envio fornece origem, ponto de retenção e destino declarado; a ligação até o destino permanece planejada e não concluída.\n\n[I1] O diagnóstico aeroportuário da WCS examina responsabilidades das autoridades, inspeção de bagagens, cargas e encomendas e coordenação entre órgãos nos cinco países. Para este tipo de ocorrência, a distinção entre origem declarada, escala, ponto de interceptação e destino pretendido é essencial à rastreabilidade.",
+  "context_en": "[O1] The stated dispatch origin and intended destination support an attributed shipment itinerary, with interception distinguished from an uncompleted delivery. Shipment information provides origin, interception point and declared destination; the onward leg was planned, not completed.\n\n[I1] The WCS airport-capacity assessment examines agency roles, baggage, cargo and parcel screening, and interagency coordination across the five countries. For airport incidents, declared origin, transit stops, interception point and intended destination need to be recorded separately for traceability.",
+  "context_es": "[O1] El origen del envío y destino declarado permiten registrar un itinerario atribuido, distinguiendo la intercepción de la entrega no realizada. Los datos del envío precisan origen, interceptación y destino declarado; el tramo posterior era previsto, no realizado.\n\n[I1] El diagnóstico aeroportuario de WCS analiza responsabilidades institucionales, inspección de equipajes, carga y encomiendas y coordinación en cinco países. Para estos casos es esencial separar origen declarado, escalas, punto de intervención y destino previsto.",
+  "references_text_pt": "[O1] Colômbia — Aeroporto El Dorado, Bogotá — https://oab.ambientebogota.gov.co/fueron-incautadas-15-aves-silvestres-en-el-aeropuerto-el-dorado/\n[I1] WCS (2024), Análisis regional sobre regulaciones nacionales, capacidades institucionales y mecanismos de coordinación relacionado al control del comercio ilegal de fauna silvestre en aeropuertos de Colombia, Ecuador, Perú, Brasil y Bolivia — https://drive.google.com/file/d/11LQxn8B-UXrIZrZC6dK_F1v50WFbrr00/view",
+  "references_text_en": "[O1] Colômbia — Aeroporto El Dorado, Bogotá — https://oab.ambientebogota.gov.co/fueron-incautadas-15-aves-silvestres-en-el-aeropuerto-el-dorado/\n[I1] WCS (2024), Análisis regional sobre regulaciones nacionales, capacidades institucionales y mecanismos de coordinación relacionado al control del comercio ilegal de fauna silvestre en aeropuertos de Colombia, Ecuador, Perú, Brasil y Bolivia — https://drive.google.com/file/d/11LQxn8B-UXrIZrZC6dK_F1v50WFbrr00/view",
+  "references_text_es": "[O1] Colômbia — Aeroporto El Dorado, Bogotá — https://oab.ambientebogota.gov.co/fueron-incautadas-15-aves-silvestres-en-el-aeropuerto-el-dorado/\n[I1] WCS (2024), Análisis regional sobre regulaciones nacionales, capacidades institucionales y mecanismos de coordinación relacionado al control del comercio ilegal de fauna silvestre en aeropuertos de Colombia, Ecuador, Perú, Brasil y Bolivia — https://drive.google.com/file/d/11LQxn8B-UXrIZrZC6dK_F1v50WFbrr00/view",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Colômbia — Aeroporto El Dorado, Bogotá",
+      "url": "https://oab.ambientebogota.gov.co/fueron-incautadas-15-aves-silvestres-en-el-aeropuerto-el-dorado/"
+    },
+    {
+      "tag": "I1",
+      "type": "wcs_institutional_report",
+      "title": "WCS (2024), Análisis regional sobre regulaciones nacionales, capacidades institucionales y mecanismos de coordinación relacionado al control del comercio ilegal de fauna silvestre en aeropuertos de Colombia, Ecuador, Perú, Brasil y Bolivia",
+      "url": "https://drive.google.com/file/d/11LQxn8B-UXrIZrZC6dK_F1v50WFbrr00/view"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "15 aves",
+  "fauna_label_en": "15 whole animals",
+  "fauna_label_es": "15 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Aéreo",
+  "quantity_count": 15,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Confirmar dia da interceptação e destino final da remessa.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 15,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Colômbia — Aeroporto El Dorado, Bogotá",
+  "source_url": "https://oab.ambientebogota.gov.co/fueron-incautadas-15-aves-silvestres-en-el-aeropuerto-el-dorado/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "PARTIAL_ROUTE_WITH_NON_GEOCODEABLE_INTENDED_DESTINATION",
+  "route_audit_note_pt": "Remessa procedente de Barranquilla encontrada em Bogotá.; Destino declarado como San Andrés e Providencia; entrega não realizada.",
+  "route_audit_note_en": "Consignment from Barranquilla intercepted in Bogotá.; Stated destination: San Andrés and Providencia; delivery not completed.",
+  "route_audit_note_es": "Envío procedente de Barranquilla interceptado en Bogotá.; Destino declarado: San Andrés y Providencia; entrega no realizada.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Confirmar dia da interceptação e destino final da remessa.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: Publicação 29/04/2019",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 15
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": 4.6979905,
+    "lon": -74.1404564
+  },
+  "coordinate_precision": "site_approximate",
+  "georeferencing_request": {
+    "query": "Aeroporto El Dorado, Bogotá, Colômbia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true,
+    "resolved_query": "Aeropuerto Internacional El Dorado, Bogota, Colombia"
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_query_used": "Aeropuerto Internacional El Dorado, Bogota, Colombia",
+  "geocode_candidate": "Wingo Airlines, Salidas, UPZs de Bogotá, Localidad Fontibón, Bogotá ciudad, Bogotá, Distrito Capital, RAP (Especial) Central, 110911, Colombia",
+  "geocode_review_status": "ADMINISTRATIVE_FALLBACK_REVIEW",
+  "geographic_note_pt": "Georreferenciamento aproximado (site_approximate) baseado em Aeropuerto Internacional El Dorado, Bogota, Colombia; não representa necessariamente o ponto exato da apreensão.",
+  "geographic_note_en": "Approximate georeferencing (site_approximate) based on Aeropuerto Internacional El Dorado, Bogota, Colombia; not necessarily the exact seizure location.",
+  "geographic_note_es": "Georreferenciación aproximada (site_approximate) basada en Aeropuerto Internacional El Dorado, Bogota, Colombia; no necesariamente representa el lugar exacto del decomiso.",
+  "source_review_note_pt": ""
+}
