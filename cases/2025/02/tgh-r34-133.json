@@ -1,0 +1,99 @@
+{
+  "id": "TGH-R34-133",
+  "country": "Peru",
+  "event_date": "2025-02-09",
+  "publication_date": null,
+  "location_label_pt": "Mercado de Carhuaz, Áncash",
+  "location_label_en": "Mercado de Carhuaz, Áncash",
+  "location_label_es": "Mercado de Carhuaz, Áncash",
+  "title_pt": "Mercado de Carhuaz, Áncash — 33 animais: 19 periquitos, 5 papagaios e 9 taricayas",
+  "title_en": "Mercado de Carhuaz, Áncash — Authorities found 33 animals near Carhuaz market: 19 parakeets, five parrots and nine taricaya…",
+  "title_es": "Mercado de Carhuaz, Áncash — Las autoridades encontraron 33 animales cerca del mercado de Carhuaz: 19 pericos, cinco loros y nueve…",
+  "card_text_pt": "Trinta e três animais: 19 periquitos, cinco papagaios e nove taricayas, em bolsas e caixas.",
+  "card_text_en": "Authorities found 33 animals near Carhuaz market: 19 parakeets, five parrots and nine taricaya turtles, packed in bags and boxes.",
+  "card_text_es": "Las autoridades encontraron 33 animales cerca del mercado de Carhuaz: 19 pericos, cinco loros y nueve taricayas en bolsas y cajas.",
+  "context_pt": "[O1] O número de aves e quelônios está discriminado, permitindo separar grupos e verificar a concentração de animais em recipientes de transporte.\n\n[S1] Análise de ofertas de quelônios em canais digitais e mercados físicos demonstra a necessidade de cruzar espécies, canais de venda e documentação sem reduzir o comércio a um único tipo de mercado.\n\n[I1] A revisão institucional de notícias de 2020 a junho de 2023 no eixo andino-amazônico destacou apreensões de psitacídeos e quelônios, além de ovos e produtos de fauna. A categorização distinta entre animais vivos, ovos e derivados é relevante para interpretar este material sem somar unidades incompatíveis.",
+  "context_en": "[O1] The inventory distinguishes birds from turtles and enables category-specific counts and assessment of transport confinement.\n\n[S1] Research comparing digital turtle listings with physical markets highlights the need to track species, sales channels and documentation rather than a single marketplace.\n\n[I1] The WCS institutional review of news reports from 2020 to June 2023 across the Andean–Amazon region highlighted psittacines and chelonians alongside eggs and wildlife products. Distinguishing live animals, eggs and derivatives provides a consistent comparison without merging incompatible units.",
+  "context_es": "[O1] El inventario separa aves de tortugas, permitiendo cifras por grupo y evaluación del confinamiento de transporte.\n\n[S1] Una investigación que compara anuncios digitales de tortugas con mercados físicos destaca la necesidad de seguir especies, canales de venta y documentación.\n\n[I1] La revisión institucional de WCS de noticias entre 2020 y junio de 2023 en la región andino-amazónica destacó psitácidos y quelonios, junto con huevos y productos de fauna. Distinguir animales vivos, huevos y derivados permite comparar registros sin sumar unidades incompatibles.",
+  "references_text_pt": "[O1] Peru — Mercado de Carhuaz, Áncash — https://www.gob.pe/institucion/serfor/noticias/1107600-ancash-encuentran-pericos-loros-y-tortugas-en-bolsas-y-cajas-de-carton-cerca-a-mercado-de-carhuaz\n[S1] Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring — https://doi.org/10.1016/j.biocon.2021.109245\n[I1] WCS (2024), Relatório de notícias sobre o comércio ilegal de fauna silvestre na Colômbia, no Equador, no Peru, na Bolívia e no Brasil (Acre e Amazonas), janeiro de 2020 a junho de 2023 — https://drive.google.com/file/d/11nWlP5fTtvSvlZJSN-5xXfp-jPmtaVM5/view",
+  "references_text_en": "[O1] Peru — Mercado de Carhuaz, Áncash — https://www.gob.pe/institucion/serfor/noticias/1107600-ancash-encuentran-pericos-loros-y-tortugas-en-bolsas-y-cajas-de-carton-cerca-a-mercado-de-carhuaz\n[S1] Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring — https://doi.org/10.1016/j.biocon.2021.109245\n[I1] WCS (2024), Relatório de notícias sobre o comércio ilegal de fauna silvestre na Colômbia, no Equador, no Peru, na Bolívia e no Brasil (Acre e Amazonas), janeiro de 2020 a junho de 2023 — https://drive.google.com/file/d/11nWlP5fTtvSvlZJSN-5xXfp-jPmtaVM5/view",
+  "references_text_es": "[O1] Peru — Mercado de Carhuaz, Áncash — https://www.gob.pe/institucion/serfor/noticias/1107600-ancash-encuentran-pericos-loros-y-tortugas-en-bolsas-y-cajas-de-carton-cerca-a-mercado-de-carhuaz\n[S1] Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring — https://doi.org/10.1016/j.biocon.2021.109245\n[I1] WCS (2024), Relatório de notícias sobre o comércio ilegal de fauna silvestre na Colômbia, no Equador, no Peru, na Bolívia e no Brasil (Acre e Amazonas), janeiro de 2020 a junho de 2023 — https://drive.google.com/file/d/11nWlP5fTtvSvlZJSN-5xXfp-jPmtaVM5/view",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Peru — Mercado de Carhuaz, Áncash",
+      "url": "https://www.gob.pe/institucion/serfor/noticias/1107600-ancash-encuentran-pericos-loros-y-tortugas-en-bolsas-y-cajas-de-carton-cerca-a-mercado-de-carhuaz"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring",
+      "url": "https://doi.org/10.1016/j.biocon.2021.109245",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    },
+    {
+      "tag": "I1",
+      "type": "wcs_institutional_report",
+      "title": "WCS (2024), Relatório de notícias sobre o comércio ilegal de fauna silvestre na Colômbia, no Equador, no Peru, na Bolívia e no Brasil (Acre e Amazonas), janeiro de 2020 a junho de 2023",
+      "url": "https://drive.google.com/file/d/11nWlP5fTtvSvlZJSN-5xXfp-jPmtaVM5/view"
+    }
+  ],
+  "taxon_text": "*Podocnemis unifilis*; Psittaciformes",
+  "fauna_label_pt": "33 animais: 19 periquitos, 5 papagaios e 9 taricayas",
+  "fauna_label_en": "33 whole animals",
+  "fauna_label_es": "33 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves",
+    "Répteis"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 33,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Quantidades discriminadas pelo SERFOR.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 33,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Peru — Mercado de Carhuaz, Áncash",
+  "source_url": "https://www.gob.pe/institucion/serfor/noticias/1107600-ancash-encuentran-pericos-loros-y-tortugas-en-bolsas-y-cajas-de-carton-cerca-a-mercado-de-carhuaz",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Quantidades discriminadas pelo SERFOR.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "incident_date_reported: 09/02/2025",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {},
+  "quantity_unassigned": 33,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -9.2800286,
+    "lon": -77.6482476
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Mercado de Carhuaz, Áncash, Peru",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Mercado Municipal, Tambo, Carhuaz, Ancash, Perú",
+  "source_review_note_pt": ""
+}

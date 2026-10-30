@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-172",
+  "country": "Bolívia",
+  "event_date": "2024-11-10",
+  "publication_date": null,
+  "location_label_pt": "Oruro",
+  "location_label_en": "Oruro",
+  "location_label_es": "Oruro",
+  "title_pt": "Oruro — 7 tatus taxidermizados",
+  "title_en": "Oruro — Seven taxidermied armadillos used as rattles were seized from carnival groups in Oruro",
+  "title_es": "Oruro — Se incautaron siete quirquinchos disecados empleados como matracas por fraternidades del carnaval de Oruro",
+  "card_text_pt": "Sete tatus taxidermizados, usados como matracas por duas fraternidades no primeiro convite do Carnaval de 2025.",
+  "card_text_en": "Seven taxidermied armadillos used as rattles were seized from carnival groups in Oruro.",
+  "card_text_es": "Se incautaron siete quirquinchos disecados empleados como matracas por fraternidades del carnaval de Oruro.",
+  "context_pt": "[O1] Os corpos taxidermizados são usados em objeto musical ritual; não há base para contar animais vivos ou produtores da cadeia.",
+  "context_en": "[O1] Taxidermied bodies were used as ceremonial rattles; neither living animals nor upstream suppliers can be inferred.",
+  "context_es": "[O1] Los cuerpos disecados se usaban como matracas rituales; no se pueden inferir animales vivos ni proveedores.",
+  "references_text_pt": "[O1] Bolívia — Oruro — https://historico.abi.bo/index.php/noticias/economia/37-notas/noticias/sociedad/57254-decomisan-matracas-elaborados-con-quirquinchos-disecados-en-el-convite-del-carnaval-de-oruro",
+  "references_text_en": "[O1] Bolívia — Oruro — https://historico.abi.bo/index.php/noticias/economia/37-notas/noticias/sociedad/57254-decomisan-matracas-elaborados-con-quirquinchos-disecados-en-el-convite-del-carnaval-de-oruro",
+  "references_text_es": "[O1] Bolívia — Oruro — https://historico.abi.bo/index.php/noticias/economia/37-notas/noticias/sociedad/57254-decomisan-matracas-elaborados-con-quirquinchos-disecados-en-el-convite-del-carnaval-de-oruro",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — Oruro",
+      "url": "https://historico.abi.bo/index.php/noticias/economia/37-notas/noticias/sociedad/57254-decomisan-matracas-elaborados-con-quirquinchos-disecados-en-el-convite-del-carnaval-de-oruro"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "7 tatus taxidermizados",
+  "fauna_label_en": "7 wildlife-derived units",
+  "fauna_label_es": "7 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. ",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 0,
+    "wildlife_items_exact": 7,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — Oruro",
+  "source_url": "https://historico.abi.bo/index.php/noticias/economia/37-notas/noticias/sociedad/57254-decomisan-matracas-elaborados-con-quirquinchos-disecados-en-el-convite-del-carnaval-de-oruro",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "incident_date_reported: 10/11/2024",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 7
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -18.666667,
+    "lon": -67.666667
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Oruro, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Oruro, Bolivia",
+  "source_review_note_pt": ""
+}

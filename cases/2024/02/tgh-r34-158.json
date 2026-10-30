@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-158",
+  "country": "Equador",
+  "event_date": "2024-02-15",
+  "publication_date": null,
+  "location_label_pt": "Guayaquil",
+  "location_label_en": "Guayaquil",
+  "location_label_es": "Guayaquil",
+  "title_pt": "Guayaquil — 1 jaguatirica",
+  "title_en": "Guayaquil — An ocelot was found at a residence in Guayaquil during a police operation",
+  "title_es": "Guayaquil — Se encontró un ocelote en una vivienda de Guayaquil durante un operativo policial",
+  "card_text_pt": "Uma jaguatirica encontrada durante operação em residência na cooperativa Jacobito Bucaram. Evidência de posse; finalidade comercial não demonstrada.",
+  "card_text_en": "An ocelot was found at a residence in Guayaquil during a police operation.",
+  "card_text_es": "Se encontró un ocelote en una vivienda de Guayaquil durante un operativo policial.",
+  "context_pt": "[O1] O felino foi achado durante diligência domiciliar; a apreensão não demonstra por si só comércio ou conexão com grupos criminosos.",
+  "context_en": "[O1] A felid found during a household search does not itself establish commercial activity or criminal-network ties.",
+  "context_es": "[O1] El hallazgo de un felino en allanamiento domiciliario no demuestra por sí solo comercio ni vínculos criminales.",
+  "references_text_pt": "[O1] Equador — Guayaquil — https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "references_text_en": "[O1] Equador — Guayaquil — https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "references_text_es": "[O1] Equador — Guayaquil — https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Equador — Guayaquil",
+      "url": "https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/"
+    }
+  ],
+  "taxon_text": "*Leopardus pardalis*",
+  "fauna_label_pt": "1 jaguatirica",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Evidência de posse; finalidade comercial não demonstrada.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Equador — Guayaquil",
+  "source_url": "https://youtopiaecuador.com/fauna-silvestre-delitos-delincuencia-organizada-ecuador/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Evidência de posse; finalidade comercial não demonstrada.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "incident_date_reported: 15/02/2024",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -2.1900572,
+    "lon": -79.8868669
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Guayaquil, Equador",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Guayaquil, Guayas, Ecuador",
+  "source_review_note_pt": "Mesma reportagem analítica do 160, mas episódios individualizados em datas e bairros distintos."
+}

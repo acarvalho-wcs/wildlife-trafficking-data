@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-189",
+  "country": "Colômbia",
+  "event_date": null,
+  "publication_date": "2019-05-24",
+  "location_label_pt": "Usaquén, Bogotá",
+  "location_label_en": "Usaquén, Bogotá",
+  "location_label_es": "Usaquén, Bogotá",
+  "title_pt": "Usaquén, Bogotá — 4 canários-da-terra (*Sicalis flaveola*)",
+  "title_en": "Usaquén, Bogotá — Four saffron finches, *Sicalis flaveola*, were kept in a cage attached to a pole in Usaquén, Bogotá",
+  "title_es": "Usaquén, Bogotá — Cuatro canarios costeños, *Sicalis flaveola*, estaban en una jaula colgada de un poste en Usaquén, Bogotá",
+  "card_text_pt": "Quatro canários-da-terra, Sicalis flaveola, mantidos irregularmente por um vigilante em gaiola pendurada em poste.",
+  "card_text_en": "Four saffron finches, *Sicalis flaveola*, were kept in a cage attached to a pole in Usaquén, Bogotá.",
+  "card_text_es": "Cuatro canarios costeños, *Sicalis flaveola*, estaban en una jaula colgada de un poste en Usaquén, Bogotá.",
+  "context_pt": "[O1] O cativeiro visível junto a um posto de trabalho comprova posse, não permite inferir captura, intermediação nem venda.",
+  "context_en": "[O1] A cage openly kept at a workplace demonstrates possession, not capture method, intermediaries or sale.",
+  "context_es": "[O1] Una jaula visible en lugar de trabajo acredita tenencia, no captura, intermediación ni venta.",
+  "references_text_pt": "[O1] Colômbia — Usaquén, Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/trafico-de-animales-silvestres-en-bogota-0",
+  "references_text_en": "[O1] Colômbia — Usaquén, Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/trafico-de-animales-silvestres-en-bogota-0",
+  "references_text_es": "[O1] Colômbia — Usaquén, Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/trafico-de-animales-silvestres-en-bogota-0",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Colômbia — Usaquén, Bogotá",
+      "url": "https://bogota.gov.co/mi-ciudad/ambiente/trafico-de-animales-silvestres-en-bogota-0"
+    }
+  ],
+  "taxon_text": "*Sicalis flaveola*",
+  "fauna_label_pt": "4 canários-da-terra (*Sicalis flaveola*)",
+  "fauna_label_en": "4 whole animals",
+  "fauna_label_es": "4 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Posse irregular; comercialização não informada.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 4,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Colômbia — Usaquén, Bogotá",
+  "source_url": "https://bogota.gov.co/mi-ciudad/ambiente/trafico-de-animales-silvestres-en-bogota-0",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Posse irregular; comercialização não informada.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "A Prefeitura de Bogotá (24/05/2019) relata uma intervenção em Usaquén, distinta da apreensão de três jabutis no terminal Salitre.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 4
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": 4.6930109,
+    "lon": -74.0316832
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Usaquén, Bogotá, Colômbia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "UPZs Localidad Usaquén, Localidad Usaquén, Bogotá ciudad, Bogotá, Distrito Capital, RAP (Especial) Central, Colombia",
+  "source_review_note_pt": ""
+}

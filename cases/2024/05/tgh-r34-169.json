@@ -1,0 +1,94 @@
+{
+  "id": "TGH-R34-169",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2024-05-03",
+  "location_label_pt": "El Morro, Sucre",
+  "location_label_en": "El Morro, Sucre",
+  "location_label_es": "El Morro, Sucre",
+  "title_pt": "El Morro, Sucre — 2 araras-canindé",
+  "title_en": "El Morro, Sucre — Two blue-and-yellow macaws kept as pets were voluntarily handed over after a police visit in Sucre",
+  "title_es": "El Morro, Sucre — Dos guacamayas azulamarillas mantenidas como mascotas fueron entregadas voluntariamente tras una…",
+  "card_text_pt": "Duas araras-canindé mantidas em residência e entregues voluntariamente após intervenção policial. Elegibilidade condicionada ao tratamento dado à posse e entrega voluntária.",
+  "card_text_en": "Two blue-and-yellow macaws kept as pets were voluntarily handed over after a police visit in Sucre.",
+  "card_text_es": "Dos guacamayas azulamarillas mantenidas como mascotas fueron entregadas voluntariamente tras una intervención policial en Sucre.",
+  "context_pt": "[O1] A entrega voluntária após intervenção distingue este resgate de uma apreensão comercial; o tipo de infração exige confirmação.\n\n[S1] Pesquisa com psitacídeos na Bolívia indica que a demanda para criação local pode superar amplamente o comércio observado nos mercados; é pertinente investigar também a manutenção em domicílios.",
+  "context_en": "[O1] Voluntary surrender after police contact differentiates the rescue from a commercial seizure; the offense category needs confirmation.\n\n[S1] Research on parrots in Bolivia finds that local demand for keeping birds may greatly exceed visible market trade, making household possession relevant to monitoring.",
+  "context_es": "[O1] La entrega voluntaria tras intervención diferencia el rescate de un decomiso comercial; debe confirmarse el tipo de infracción.\n\n[S1] Una investigación sobre psitácidos en Bolivia señala que la demanda local de mascotas puede superar ampliamente el comercio visible, por lo que también importa estudiar la tenencia doméstica.",
+  "references_text_pt": "[O1] Bolívia — El Morro, Sucre — https://elpais.bo/seguridad/20240503_rescatan-dos-parabas-de-un-domicilio-en-sucre-donde-los-tenian-como-mascotas.html\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "references_text_en": "[O1] Bolívia — El Morro, Sucre — https://elpais.bo/seguridad/20240503_rescatan-dos-parabas-de-un-domicilio-en-sucre-donde-los-tenian-como-mascotas.html\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "references_text_es": "[O1] Bolívia — El Morro, Sucre — https://elpais.bo/seguridad/20240503_rescatan-dos-parabas-de-un-domicilio-en-sucre-donde-los-tenian-como-mascotas.html\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — El Morro, Sucre",
+      "url": "https://elpais.bo/seguridad/20240503_rescatan-dos-parabas-de-un-domicilio-en-sucre-donde-los-tenian-como-mascotas.html"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "*Ara ararauna*",
+  "fauna_label_pt": "2 araras-canindé",
+  "fauna_label_en": "2 whole animals",
+  "fauna_label_es": "2 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Elegibilidade condicionada ao tratamento da posse e entrega voluntária.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 2,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — El Morro, Sucre",
+  "source_url": "https://elpais.bo/seguridad/20240503_rescatan-dos-parabas-de-un-domicilio-en-sucre-donde-los-tenian-como-mascotas.html",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Elegibilidade condicionada ao tratamento da posse e entrega voluntária.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "Resgate e entrega voluntária descritos na reportagem de 03/05/2024; não há transação comercial comprovada.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -19.0267941,
+    "lon": -65.2490276
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "El Morro, Sucre, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Mercado El Morro, Calle Samaipata, Sucre, Municipio Sucre, Provincia Oropeza, Chuquisaca, Bolivia",
+  "source_review_note_pt": ""
+}

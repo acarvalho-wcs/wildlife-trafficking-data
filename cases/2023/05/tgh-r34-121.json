@@ -1,0 +1,94 @@
+{
+  "id": "TGH-R34-121",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2023-05-27",
+  "location_label_pt": "Terminal de La Paz",
+  "location_label_en": "Terminal de La Paz",
+  "location_label_es": "Terminal de La Paz",
+  "title_pt": "Terminal de La Paz — 1 papagaio (*Myiopsitta monachus*)",
+  "title_en": "Terminal de La Paz — A monk parakeet, *Myiopsitta monachus*, was recovered during transportation at the La Paz bus terminal",
+  "title_es": "Terminal de La Paz — Se recuperó una cotorra argentina, *Myiopsitta monachus*, durante su traslado por la terminal de La Paz",
+  "card_text_pt": "Um papagaio identificado como Myiopsitta monachus recuperado durante transporte.",
+  "card_text_en": "A monk parakeet, *Myiopsitta monachus*, was recovered during transportation at the La Paz bus terminal.",
+  "card_text_es": "Se recuperó una cotorra argentina, *Myiopsitta monachus*, durante su traslado por la terminal de La Paz.",
+  "context_pt": "[O1] O transporte do psitacídeo foi identificado, mas a estação rodoviária não demonstra os extremos do deslocamento.\n\n[S1] Pesquisa com psitacídeos na Bolívia indica que a demanda para criação local pode superar amplamente o comércio observado nos mercados; é pertinente investigar também a manutenção em domicílios.",
+  "context_en": "[O1] The parakeet was being transported, but a bus-station interception does not establish its journey endpoints.\n\n[S1] Research on parrots in Bolivia finds that local demand for keeping birds may greatly exceed visible market trade, making household possession relevant to monitoring.",
+  "context_es": "[O1] Se observó el transporte del psitácido, pero la intervención en terminal no identifica los extremos del trayecto.\n\n[S1] Una investigación sobre psitácidos en Bolivia señala que la demanda local de mascotas puede superar ampliamente el comercio visible, por lo que también importa estudiar la tenencia doméstica.",
+  "references_text_pt": "[O1] Bolívia — Terminal de La Paz — https://lapaz.bo/rescatan-un-loro-de-la-especie-myiopsitta-monachus-en-terminal-de-buses-la-paz/\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "references_text_en": "[O1] Bolívia — Terminal de La Paz — https://lapaz.bo/rescatan-un-loro-de-la-especie-myiopsitta-monachus-en-terminal-de-buses-la-paz/\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "references_text_es": "[O1] Bolívia — Terminal de La Paz — https://lapaz.bo/rescatan-un-loro-de-la-especie-myiopsitta-monachus-en-terminal-de-buses-la-paz/\n[S1] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — Terminal de La Paz",
+      "url": "https://lapaz.bo/rescatan-un-loro-de-la-especie-myiopsitta-monachus-en-terminal-de-buses-la-paz/"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "*Myiopsitta monachus*",
+  "fauna_label_pt": "1 papagaio (*Myiopsitta monachus*)",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Confirmar data, origem e destino.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — Terminal de La Paz",
+  "source_url": "https://lapaz.bo/rescatan-un-loro-de-la-especie-myiopsitta-monachus-en-terminal-de-buses-la-paz/",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Confirmar data, origem e destino.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "Nota municipal AMUN datada de 26/05/2023; página publicada 27/05/2023. Data da interceptação não explicitada.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -16.4887214,
+    "lon": -68.1417713
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Terminal de La Paz, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Terminal de Buses La Paz, Avenida Uruguay, Challapampa, Periférica, Municipio Nuestra Señora de La Paz, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+  "source_review_note_pt": ""
+}

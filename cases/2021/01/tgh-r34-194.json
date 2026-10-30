@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-194",
+  "country": "Colômbia",
+  "event_date": null,
+  "publication_date": "2021-01-28",
+  "location_label_pt": "Mallama, Nariño",
+  "location_label_en": "Mallama, Nariño",
+  "location_label_es": "Mallama, Nariño",
+  "title_pt": "Mallama, Nariño — 9 aranhas e 1 item descrito como “huevo”",
+  "title_en": "Mallama, Nariño — Nine spiders and an item described as an 'egg' were found with five foreign nationals in Mallama, Nariño",
+  "title_es": "Mallama, Nariño — Se hallaron nueve arañas y un elemento descrito como «huevo» con cinco extranjeros en Mallama, Nariño",
+  "card_text_pt": "Nove aranhas e um item descrito como “huevo”, encontrados com cinco estrangeiros após coleta e transporte. Confirmar se o item adicional era ovo ou ooteca.",
+  "card_text_en": "Nine spiders and an item described as an 'egg' were found with five foreign nationals in Mallama, Nariño; the item may have been an egg sac.",
+  "card_text_es": "Se hallaron nueve arañas y un elemento descrito como «huevo» con cinco extranjeros en Mallama, Nariño; podría tratarse de una ooteca.",
+  "context_pt": "[O1] A Polícia de Nariño encontrou nove aranhas e um item descrito como ovo da mesma espécie com cinco estrangeiros que coletavam e transportavam a fauna em veículo na região de Mallama. O item adicional é contado separadamente como um ovo relatado, sem presumir a identidade de ooteca ou origem do deslocamento.",
+  "context_en": "[O1] Police in Nariño found nine spiders and one item described as an egg of the same species with five foreigners transporting collected wildlife near Mallama. The additional item is recorded separately as a reported egg, without assuming it was an egg sac or assigning a travel origin.",
+  "context_es": "[O1] La Policía de Nariño encontró nueve arañas y un elemento descrito como huevo de la misma especie en posesión de cinco extranjeros que las recolectaban y transportaban cerca de Mallama. El elemento adicional se registra como huevo reportado, sin presumir una ooteca ni el origen del viaje.",
+  "references_text_pt": "[O1] Colômbia — Mallama, Nariño — https://oas.policia.gov.co/noticia/recuperamos-nueve-especies-fauna-silvestre-en-narino",
+  "references_text_en": "[O1] Colômbia — Mallama, Nariño — https://oas.policia.gov.co/noticia/recuperamos-nueve-especies-fauna-silvestre-en-narino",
+  "references_text_es": "[O1] Colômbia — Mallama, Nariño — https://oas.policia.gov.co/noticia/recuperamos-nueve-especies-fauna-silvestre-en-narino",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Colômbia — Mallama, Nariño",
+      "url": "https://oas.policia.gov.co/noticia/recuperamos-nueve-especies-fauna-silvestre-en-narino"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "9 aranhas e 1 ovo atribuído a aranha pela polícia (possível ooteca não confirmada)",
+  "fauna_label_en": "9 spiders and 1 spider egg reported by police (possible egg sac unconfirmed)",
+  "fauna_label_es": "9 arañas y 1 huevo atribuido a araña por la policía (posible ooteca no confirmada)",
+  "fauna_groups_aggregated": [
+    "Invertebrados"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 9,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Confirmar se “huevo” se refere a ovo ou ooteca.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 9,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": 1,
+    "eggs_qualifier": "reported_egg_of_spider_unverified_physical_identity",
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Colômbia — Mallama, Nariño",
+  "source_url": "https://oas.policia.gov.co/noticia/recuperamos-nueve-especies-fauna-silvestre-en-narino",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Confirmar se “huevo” se refere a ovo ou ooteca.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "Polícia de Nariño publica em 28/01/2021; relato de coleta/transporte, sem origem da viagem definida.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Invertebrados": 9
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": 1.1889966,
+    "lon": -77.8705652
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Mallama, Nariño, Colômbia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Mallama, Pie de Monte Costero, Nariño, RAP Pacífico, Colombia",
+  "source_review_note_pt": ""
+}

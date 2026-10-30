@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-168",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2024-01-18",
+  "location_label_pt": "Tarija",
+  "location_label_en": "Tarija",
+  "location_label_es": "Tarija",
+  "title_pt": "Tarija — 1 felino silvestre denominado “Mangay”",
+  "title_en": "Tarija — A small wild cat known locally as 'Mangay' was seized from private captivity in Tarija",
+  "title_es": "Tarija — Se decomisó un pequeño felino silvestre llamado localmente «Mangay», mantenido en cautiverio…",
+  "card_text_pt": "Um pequeno felino silvestre, denominado “Mangay” pela fonte, mantido como animal de estimação. Espécie precisa de confirmação.",
+  "card_text_en": "A small wild cat known locally as 'Mangay' was seized from private captivity in Tarija.",
+  "card_text_es": "Se decomisó un pequeño felino silvestre llamado localmente «Mangay», mantenido en cautiverio particular en Tarija.",
+  "context_pt": "[O1] A designação popular do pequeno felino é ambígua; a ficha deve manter taxonomia provisória e registrar posse, não venda comprovada.",
+  "context_en": "[O1] The small cat's local name is ambiguous; taxonomy remains provisional and possession, not a confirmed sale, is documented.",
+  "context_es": "[O1] El nombre local del felino es ambiguo; la taxonomía es provisional y se documenta tenencia, no venta comprobada.",
+  "references_text_pt": "[O1] Bolívia — Tarija — https://elpais.bo/tarija/20240118_decomisan-un-gatito-montes-mangay-y-lo-llevan-al-bioparque-de-tarija.html",
+  "references_text_en": "[O1] Bolívia — Tarija — https://elpais.bo/tarija/20240118_decomisan-un-gatito-montes-mangay-y-lo-llevan-al-bioparque-de-tarija.html",
+  "references_text_es": "[O1] Bolívia — Tarija — https://elpais.bo/tarija/20240118_decomisan-un-gatito-montes-mangay-y-lo-llevan-al-bioparque-de-tarija.html",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — Tarija",
+      "url": "https://elpais.bo/tarija/20240118_decomisan-un-gatito-montes-mangay-y-lo-llevan-al-bioparque-de-tarija.html"
+    }
+  ],
+  "taxon_text": "Felidae indeterminado; nome local “gato montés Mangay” sem identificação científica",
+  "fauna_label_pt": "1 felino silvestre denominado “Mangay”",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Espécie do felino precisa de confirmação.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — Tarija",
+  "source_url": "https://elpais.bo/tarija/20240118_decomisan-un-gatito-montes-mangay-y-lo-llevan-al-bioparque-de-tarija.html",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Espécie do felino precisa de confirmação.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: 18/01/2024 (P)",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -21.583333,
+    "lon": -63.833333
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Tarija, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Tarija, Bolivia",
+  "source_review_note_pt": ""
+}

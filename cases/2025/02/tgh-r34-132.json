@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-132",
+  "country": "Peru",
+  "event_date": null,
+  "publication_date": "2025-02-24",
+  "location_label_pt": "Andahuaylas",
+  "location_label_en": "Andahuaylas",
+  "location_label_es": "Andahuaylas",
+  "title_pt": "Andahuaylas — 14 peles de mamíferos silvestres",
+  "title_en": "Andahuaylas — Fourteen wild-mammal skins, including Andean bear, puma, deer and fox skins, were displayed at a pub…",
+  "title_es": "Andahuaylas — Se exhibían 14 pieles de mamíferos silvestres, entre ellos oso andino, puma, venado y zorro, en un…",
+  "card_text_pt": "Quatorze peles expostas no Garabato Pub, incluindo urso-andino, puma, cervídeo, raposa e outros mamíferos.",
+  "card_text_en": "Fourteen wild-mammal skins, including Andean bear, puma, deer and fox skins, were displayed at a pub in Andahuaylas.",
+  "card_text_es": "Se exhibían 14 pieles de mamíferos silvestres, entre ellos oso andino, puma, venado y zorro, en un local de Andahuaylas.",
+  "context_pt": "[O1] As peles de diferentes mamíferos foram exibidas em estabelecimento de entretenimento em Andahuaylas, não necessariamente oferecidas para venda. O caso informa a posse e a exposição pública dos derivados; a obtenção e a documentação de cada peça exigem rastreabilidade individual.",
+  "context_en": "[O1] Skins from several mammal taxa were displayed at a venue in Andahuaylas, not necessarily offered for sale. The case documents possession and public display of derivatives; individual provenance must be established for each item.",
+  "context_es": "[O1] Pieles de diversos mamíferos estaban expuestas en un local de Andahuaylas, sin prueba de oferta de venta. El evento acredita tenencia y exhibición de derivados; cada pieza requiere trazabilidad independiente.",
+  "references_text_pt": "[O1] Peru — Andahuaylas — https://andina.pe/ingles/noticia-trafico-fauna-intervienen-pub-exhibir-14-pieles-animales-silvestres-local-1019996.aspx",
+  "references_text_en": "[O1] Peru — Andahuaylas — https://andina.pe/ingles/noticia-trafico-fauna-intervienen-pub-exhibir-14-pieles-animales-silvestres-local-1019996.aspx",
+  "references_text_es": "[O1] Peru — Andahuaylas — https://andina.pe/ingles/noticia-trafico-fauna-intervienen-pub-exhibir-14-pieles-animales-silvestres-local-1019996.aspx",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Peru — Andahuaylas",
+      "url": "https://andina.pe/ingles/noticia-trafico-fauna-intervienen-pub-exhibir-14-pieles-animales-silvestres-local-1019996.aspx"
+    }
+  ],
+  "taxon_text": "*Tremarctos ornatus*; *Puma concolor*; *Dasyprocta punctata*; *Pecari tajacu*; *Lycalopex culpaeus*; Mephitidae; *Odocoileus virginianus*",
+  "fauna_label_pt": "14 peles de mamíferos silvestres",
+  "fauna_label_en": "14 wildlife-derived units",
+  "fauna_label_es": "14 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 14,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Obter inventário e origem das peças.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 0,
+    "wildlife_items_exact": 14,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Peru — Andahuaylas",
+  "source_url": "https://andina.pe/ingles/noticia-trafico-fauna-intervienen-pub-exhibir-14-pieles-animales-silvestres-local-1019996.aspx",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Obter inventário e origem das peças.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "A apreensão foi divulgada em 24/02/2025; a notícia não diferencia dia da operação e dia da publicação.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 14
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -13.7776943,
+    "lon": -73.4285412
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Andahuaylas, Peru",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Andahuaylas, Apurímac, Perú",
+  "source_review_note_pt": ""
+}

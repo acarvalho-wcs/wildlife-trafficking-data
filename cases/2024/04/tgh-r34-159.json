@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-159",
+  "country": "Equador",
+  "event_date": "2024-04-17",
+  "publication_date": null,
+  "location_label_pt": "Guayaquil",
+  "location_label_en": "Guayaquil",
+  "location_label_es": "Guayaquil",
+  "title_pt": "Guayaquil — 3 cutias e 1 cabeça de cervídeo taxidermizada",
+  "title_en": "Guayaquil — Three agoutis and a taxidermied deer head were found in a commercial establishment in Guayaquil",
+  "title_es": "Guayaquil — Se encontraron tres agutíes y una cabeza de venado disecada en un local comercial de Guayaquil",
+  "card_text_pt": "Três cutias e uma cabeça de cervídeo taxidermizada em estabelecimento comercial. Aves domésticas mencionadas na operação foram excluídas deste registro.",
+  "card_text_en": "Three agoutis and a taxidermied deer head were found in a commercial establishment in Guayaquil.",
+  "card_text_es": "Se encontraron tres agutíes y una cabeza de venado disecada en un local comercial de Guayaquil.",
+  "context_pt": "[O1] O local comercial continha tanto animais inteiros quanto peça taxidermizada; aves de criação mencionadas na ação não integram o inventário silvestre.",
+  "context_en": "[O1] The commercial premises held whole animals and a taxidermied piece; domestic birds reported there are excluded from the wild-fauna inventory.",
+  "context_es": "[O1] El local contenía animales enteros y una pieza disecada; las aves domésticas quedan fuera del inventario silvestre.",
+  "references_text_pt": "[O1] Equador — Guayaquil — https://guayaquil.gob.ec/propietario-local-fue-detenido-tenencia-prohibida-animales-granja-fauna-silvestre/",
+  "references_text_en": "[O1] Equador — Guayaquil — https://guayaquil.gob.ec/propietario-local-fue-detenido-tenencia-prohibida-animales-granja-fauna-silvestre/",
+  "references_text_es": "[O1] Equador — Guayaquil — https://guayaquil.gob.ec/propietario-local-fue-detenido-tenencia-prohibida-animales-granja-fauna-silvestre/",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Equador — Guayaquil",
+      "url": "https://guayaquil.gob.ec/propietario-local-fue-detenido-tenencia-prohibida-animales-granja-fauna-silvestre/"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "3 cutias e 1 cabeça de cervídeo taxidermizada",
+  "fauna_label_en": "3 whole animals; 1 wildlife-derived units",
+  "fauna_label_es": "3 animales enteros; 1 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals_and_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Aves domésticas citadas na operação foram excluídas.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 3,
+    "wildlife_items_exact": 1,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Equador — Guayaquil",
+  "source_url": "https://guayaquil.gob.ec/propietario-local-fue-detenido-tenencia-prohibida-animales-granja-fauna-silvestre/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Aves domésticas citadas na operação foram excluídas.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "incident_date_reported: 17/04/2024",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 4
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -2.1900572,
+    "lon": -79.8868669
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Guayaquil, Equador",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Guayaquil, Guayas, Ecuador",
+  "source_review_note_pt": ""
+}

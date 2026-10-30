@@ -1,0 +1,93 @@
+{
+  "id": "TGH-R34-116",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2020-01-27",
+  "location_label_pt": "Feira Alasita, La Paz",
+  "location_label_en": "Feira Alasita, La Paz",
+  "location_label_es": "Feira Alasita, La Paz",
+  "title_pt": "Feira Alasita, La Paz — 5 tatus e 15 pares de patas de raposa",
+  "title_en": "Feira Alasita, La Paz — Five armadillos and 15 pairs of fox paws were offered as ritual objects at the Alasita fair in La Paz",
+  "title_es": "Feira Alasita, La Paz — Cinco armadillos y 15 pares de patas de zorro se comercializaban como objetos rituales en la feria de…",
+  "card_text_pt": "Cinco tatus e 15 pares de patas de raposa comercializados como objetos rituais.",
+  "card_text_en": "Five armadillos and 15 pairs of fox paws were offered as ritual objects at the Alasita fair in La Paz.",
+  "card_text_es": "Cinco armadillos y 15 pares de patas de zorro se comercializaban como objetos rituales en la feria de Alasita, La Paz.",
+  "context_pt": "[O1] O uso ritual envolve corpos e partes, não animais vivos; os pares de patas devem permanecer como unidades próprias.",
+  "context_en": "[O1] Ritual demand concerns carcasses and body parts rather than live specimens; pairs of paws must remain a separate unit.",
+  "context_es": "[O1] La demanda ritual involucra cuerpos y partes, no animales vivos; los pares de patas deben mantenerse como unidad propia.",
+  "references_text_pt": "[O1] Bolívia — Feira Alasita, La Paz — https://eju.tv/2020/01/decomisan-animales-exoticos-y-en-peligro-de-extincion-en-la-alasita/",
+  "references_text_en": "[O1] Bolívia — Feira Alasita, La Paz — https://eju.tv/2020/01/decomisan-animales-exoticos-y-en-peligro-de-extincion-en-la-alasita/",
+  "references_text_es": "[O1] Bolívia — Feira Alasita, La Paz — https://eju.tv/2020/01/decomisan-animales-exoticos-y-en-peligro-de-extincion-en-la-alasita/",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Bolívia — Feira Alasita, La Paz",
+      "url": "https://eju.tv/2020/01/decomisan-animales-exoticos-y-en-peligro-de-extincion-en-la-alasita/"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "5 tatus e 15 pares de patas de raposa",
+  "fauna_label_en": "20 wildlife-derived units",
+  "fauna_label_es": "20 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 20,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Registro de ações na feira: individualizar intervenções; excluir canários domésticos do quantitativo.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 0,
+    "wildlife_items_exact": 20,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Bolívia — Feira Alasita, La Paz",
+  "source_url": "https://eju.tv/2020/01/decomisan-animales-exoticos-y-en-peligro-de-extincion-en-la-alasita/",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Registro de ações na feira: individualizar intervenções; excluir canários domésticos do quantitativo.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: Publicação 27/01/2020",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Mamíferos": 20
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -16.4955455,
+    "lon": -68.1336229
+  },
+  "coordinate_precision": "city_generalized",
+  "georeferencing_request": {
+    "query": "Feira Alasita, La Paz, Bolívia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true,
+    "resolved_query": "La Paz, Bolivia"
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_query_used": "La Paz, Bolivia",
+  "geocode_candidate": "Municipio Nuestra Señora de La Paz, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+  "geocode_review_status": "ADMINISTRATIVE_FALLBACK_REVIEW",
+  "geographic_note_pt": "Georreferenciamento aproximado (city_generalized) baseado em La Paz, Bolivia; não representa necessariamente o ponto exato da apreensão.",
+  "geographic_note_en": "Approximate georeferencing (city_generalized) based on La Paz, Bolivia; not necessarily the exact seizure location.",
+  "geographic_note_es": "Georreferenciación aproximada (city_generalized) basada en La Paz, Bolivia; no necesariamente representa el lugar exacto del decomiso.",
+  "source_review_note_pt": ""
+}

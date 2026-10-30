@@ -1,0 +1,87 @@
+{
+  "id": "TGH-R34-178",
+  "country": "Peru",
+  "event_date": null,
+  "publication_date": "2020-01-30",
+  "location_label_pt": "Alto Selva Alegre, Arequipa",
+  "location_label_en": "Alto Selva Alegre, Arequipa",
+  "location_label_es": "Alto Selva Alegre, Arequipa",
+  "title_pt": "Alto Selva Alegre, Arequipa — 1 tartaruga taricaya",
+  "title_en": "Alto Selva Alegre, Arequipa — An illegally kept taricaya turtle was found in a restaurant aquarium in Alto Selva Alegre, Arequipa",
+  "title_es": "Alto Selva Alegre, Arequipa — Se halló una tortuga taricaya mantenida sin permiso en el acuario de un restaurante de Alto Selva…",
+  "card_text_pt": "Uma tartaruga taricaya mantida sem autorização em aquário de restaurante.",
+  "card_text_en": "An illegally kept taricaya turtle was found in a restaurant aquarium in Alto Selva Alegre, Arequipa.",
+  "card_text_es": "Se halló una tortuga taricaya mantenida sin permiso en el acuario de un restaurante de Alto Selva Alegre, Arequipa.",
+  "context_pt": "[O1] O aquário em restaurante evidencia exibição irregular de quelônio; não há indicação de que a tartaruga fosse servida como alimento.",
+  "context_en": "[O1] The restaurant aquarium establishes unauthorized display of a turtle, not use of that turtle as food.",
+  "context_es": "[O1] El acuario de restaurante acredita exhibición irregular de tortuga, no su uso como alimento.",
+  "references_text_pt": "[O1] Peru — Alto Selva Alegre, Arequipa — https://diariocorreo.pe/edicion/arequipa/incautan-tortuga-de-un-restaurante-y-un-zorro-disecado-del-mercado-rio-seco-931217/",
+  "references_text_en": "[O1] Peru — Alto Selva Alegre, Arequipa — https://diariocorreo.pe/edicion/arequipa/incautan-tortuga-de-un-restaurante-y-un-zorro-disecado-del-mercado-rio-seco-931217/",
+  "references_text_es": "[O1] Peru — Alto Selva Alegre, Arequipa — https://diariocorreo.pe/edicion/arequipa/incautan-tortuga-de-un-restaurante-y-un-zorro-disecado-del-mercado-rio-seco-931217/",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Peru — Alto Selva Alegre, Arequipa",
+      "url": "https://diariocorreo.pe/edicion/arequipa/incautan-tortuga-de-un-restaurante-y-un-zorro-disecado-del-mercado-rio-seco-931217/"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "1 tartaruga taricaya",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Posse sem autorização em restaurante; comercialização não informada.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Peru — Alto Selva Alegre, Arequipa",
+  "source_url": "https://diariocorreo.pe/edicion/arequipa/incautan-tortuga-de-un-restaurante-y-un-zorro-disecado-del-mercado-rio-seco-931217/",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Posse sem autorização em restaurante; comercialização não informada.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "Reportagem 30/01/2020: intervenção em restaurante por posse sem autorização, sem confundir com a fiscalização de mercado em local distinto.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Répteis": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -16.3376419,
+    "lon": -71.4968918
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Alto Selva Alegre, Arequipa, Peru",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Alto Selva Alegre, Arequipa, 04003, Perú",
+  "source_review_note_pt": ""
+}

@@ -1,0 +1,94 @@
+{
+  "id": "TGH-R34-185",
+  "country": "Peru",
+  "event_date": null,
+  "publication_date": "2023-08-03",
+  "location_label_pt": "Chachapoyas",
+  "location_label_en": "Chachapoyas",
+  "location_label_es": "Chachapoyas",
+  "title_pt": "Chachapoyas — 1 papagaio “loro aurora”",
+  "title_en": "Chachapoyas — A parrot called 'loro aurora' was recovered from illegal domestic captivity in Chachapoyas",
+  "title_es": "Chachapoyas — Se recuperó de una vivienda de Chachapoyas un loro denominado «loro aurora», mantenido sin autorización",
+  "card_text_pt": "Um papagaio chamado “loro aurora” mantido ilegalmente em residência. Espécie e eventual finalidade comercial pendentes.",
+  "card_text_en": "A parrot called 'loro aurora' was recovered from illegal domestic captivity in Chachapoyas.",
+  "card_text_es": "Se recuperó de una vivienda de Chachapoyas un loro denominado «loro aurora», mantenido sin autorización.",
+  "context_pt": "[O1] A denominação local da ave e o cativeiro doméstico são conhecidos; a finalidade de venda não foi caracterizada.\n\n[S1] Revisão de estudos sobre psitacídeos neotropicais evidencia que captura, intermediários e demanda doméstica são dimensões distintas que precisam ser rastreadas separadamente.",
+  "context_en": "[O1] The bird's local name and domestic captivity are reported, but a commercial purpose has not been established.\n\n[S1] A review of Neotropical parrot trafficking distinguishes capture, intermediaries and domestic demand as separate links requiring targeted monitoring.",
+  "context_es": "[O1] Se conoce el nombre local del ave y su cautiverio doméstico, pero no se documenta finalidad comercial.\n\n[S1] Una revisión del tráfico de psitácidos neotropicales distingue captura, intermediarios y demanda doméstica como eslabones que requieren seguimiento diferenciado.",
+  "references_text_pt": "[O1] Peru — Chachapoyas — https://www.gob.pe/institucion/mpfn/noticias/813294-chachapoyas-fiscalia-de-medio-ambiente-logra-el-rescate-de-loro-que-se-encontraba-en-cautiverio\n[S1] The illegal parrot trade: a literature review — https://doi.org/10.1080/17440572.2012.700180",
+  "references_text_en": "[O1] Peru — Chachapoyas — https://www.gob.pe/institucion/mpfn/noticias/813294-chachapoyas-fiscalia-de-medio-ambiente-logra-el-rescate-de-loro-que-se-encontraba-en-cautiverio\n[S1] The illegal parrot trade: a literature review — https://doi.org/10.1080/17440572.2012.700180",
+  "references_text_es": "[O1] Peru — Chachapoyas — https://www.gob.pe/institucion/mpfn/noticias/813294-chachapoyas-fiscalia-de-medio-ambiente-logra-el-rescate-de-loro-que-se-encontraba-en-cautiverio\n[S1] The illegal parrot trade: a literature review — https://doi.org/10.1080/17440572.2012.700180",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Peru — Chachapoyas",
+      "url": "https://www.gob.pe/institucion/mpfn/noticias/813294-chachapoyas-fiscalia-de-medio-ambiente-logra-el-rescate-de-loro-que-se-encontraba-en-cautiverio"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "The illegal parrot trade: a literature review",
+      "url": "https://doi.org/10.1080/17440572.2012.700180",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "Psittaciformes; nome popular “loro aurora” não permite espécie exata",
+  "fauna_label_pt": "1 papagaio “loro aurora”",
+  "fauna_label_en": "1 whole animals",
+  "fauna_label_es": "1 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Identificação da espécie e eventual finalidade comercial pendentes.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 1,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Peru — Chachapoyas",
+  "source_url": "https://www.gob.pe/institucion/mpfn/noticias/813294-chachapoyas-fiscalia-de-medio-ambiente-logra-el-rescate-de-loro-que-se-encontraba-en-cautiverio",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Identificação da espécie e eventual finalidade comercial pendentes.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "publication_date_only: 03/08/2023 (P)",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -6.2293182,
+    "lon": -77.8714631
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Chachapoyas, Peru",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Chachapoyas, Amazonas, 01001, Perú",
+  "source_review_note_pt": ""
+}

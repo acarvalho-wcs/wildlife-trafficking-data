@@ -1,0 +1,94 @@
+{
+  "id": "TGH-R34-192",
+  "country": "Colômbia",
+  "event_date": null,
+  "publication_date": "2020-04-24",
+  "location_label_pt": "Salitre, Suba, Bogotá",
+  "location_label_en": "Salitre, Suba, Bogotá",
+  "location_label_es": "Salitre, Suba, Bogotá",
+  "title_pt": "Salitre, Suba, Bogotá — 7 aves: 2 tucanos, 3 papagaios, 1 troupial e 1 periquito",
+  "title_en": "Salitre, Suba, Bogotá — Seven wild birds were kept as pets in Suba, Bogotá: two toucans, three parrots, a troupial and a parakeet",
+  "title_es": "Salitre, Suba, Bogotá — Siete aves silvestres se mantenían como mascotas en Suba, Bogotá: dos tucanes, tres loros, un turpial…",
+  "card_text_pt": "Sete aves mantidas como animais de estimação: dois tucanos, três papagaios, um troupial e um periquito.",
+  "card_text_en": "Seven wild birds were kept as pets in Suba, Bogotá: two toucans, three parrots, a troupial and a parakeet.",
+  "card_text_es": "Siete aves silvestres se mantenían como mascotas en Suba, Bogotá: dos tucanes, tres loros, un turpial y un perico.",
+  "context_pt": "[O1] A composição de aves mantidas como pets é documentada, mas não se identifica anúncio de venda nem rota de abastecimento.\n\n[S1] Revisão de estudos sobre psitacídeos neotropicais evidencia que captura, intermediários e demanda doméstica são dimensões distintas que precisam ser rastreadas separadamente.",
+  "context_en": "[O1] The species composition of birds kept as pets is reported, without a sale advertisement or documented supply route.\n\n[S1] A review of Neotropical parrot trafficking distinguishes capture, intermediaries and domestic demand as separate links requiring targeted monitoring.",
+  "context_es": "[O1] Se conoce la composición de aves mantenidas como mascotas, sin anuncio de venta ni ruta de abastecimiento documentada.\n\n[S1] Una revisión del tráfico de psitácidos neotropicales distingue captura, intermediarios y demanda doméstica como eslabones que requieren seguimiento diferenciado.",
+  "references_text_pt": "[O1] Colômbia — Salitre, Suba, Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/incautacion-de-aves-silvestres-en-cuarentena-en-bogota\n[S1] The illegal parrot trade: a literature review — https://doi.org/10.1080/17440572.2012.700180",
+  "references_text_en": "[O1] Colômbia — Salitre, Suba, Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/incautacion-de-aves-silvestres-en-cuarentena-en-bogota\n[S1] The illegal parrot trade: a literature review — https://doi.org/10.1080/17440572.2012.700180",
+  "references_text_es": "[O1] Colômbia — Salitre, Suba, Bogotá — https://bogota.gov.co/mi-ciudad/ambiente/incautacion-de-aves-silvestres-en-cuarentena-en-bogota\n[S1] The illegal parrot trade: a literature review — https://doi.org/10.1080/17440572.2012.700180",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Colômbia — Salitre, Suba, Bogotá",
+      "url": "https://bogota.gov.co/mi-ciudad/ambiente/incautacion-de-aves-silvestres-en-cuarentena-en-bogota"
+    },
+    {
+      "tag": "S1",
+      "type": "research_paper",
+      "title": "The illegal parrot trade: a literature review",
+      "url": "https://doi.org/10.1080/17440572.2012.700180",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-research/blob/main/papers.json"
+    }
+  ],
+  "taxon_text": "Identificação taxonômica pendente",
+  "fauna_label_pt": "7 aves: 2 tucanos, 3 papagaios, 1 troupial e 1 periquito",
+  "fauna_label_en": "7 whole animals",
+  "fauna_label_es": "7 animales enteros",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Manutenção como animais de estimação; comercialização não informada.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. Count or taxonomy requires review.",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. Revisar cifra o taxonomía.",
+  "quantity_by_material": {
+    "animals_exact": 7,
+    "wildlife_items_exact": null,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Colômbia — Salitre, Suba, Bogotá",
+  "source_url": "https://bogota.gov.co/mi-ciudad/ambiente/incautacion-de-aves-silvestres-en-cuarentena-en-bogota",
+  "source_reconciliation_status": "PRIMARY_SOURCE_RECHECKED",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Manutenção como animais de estimação; comercialização não informada.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "Apreensão em residência de Suba informada pela Prefeitura de Bogotá em 24/04/2020; sem rota de comércio confirmada.",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_unassigned": 0,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": 4.7565162,
+    "lon": -74.0824128
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Salitre, Suba, Bogotá, Colômbia",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_PREVIOUS_RECHECK",
+  "geocode_candidate": "Salitre Reservado, UPZs de Bogotá, Localidad Suba, Bogotá ciudad, Bogotá, Distrito Capital, RAP (Especial) Central, Colombia",
+  "source_review_note_pt": ""
+}

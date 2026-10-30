@@ -1,0 +1,93 @@
+{
+  "id": "TGH-R34-106",
+  "country": "Equador",
+  "event_date": "2023-02-26",
+  "publication_date": null,
+  "location_label_pt": "Centenario, Guayaquil",
+  "location_label_en": "Centenario, Guayaquil",
+  "location_label_es": "Centenario, Guayaquil",
+  "title_pt": "Centenario, Guayaquil — 16 jabutis juvenis de Galápagos e 55 cavalos-marinhos secos",
+  "title_en": "Centenario, Guayaquil — Sixteen juvenile Galápagos tortoises and 55 dried seahorses were found in an abandoned property in Guayaquil",
+  "title_es": "Centenario, Guayaquil — Se hallaron 16 tortugas juveniles de Galápagos y 55 caballitos de mar secos en un inmueble abandonado…",
+  "card_text_pt": "Dezesseis jabutis juvenis de Galápagos e 55 cavalos-marinhos secos encontrados em imóvel abandonado.",
+  "card_text_en": "Sixteen juvenile Galápagos tortoises and 55 dried seahorses were found in an abandoned property in Guayaquil.",
+  "card_text_es": "Se hallaron 16 tortugas juveniles de Galápagos y 55 caballitos de mar secos en un inmueble abandonado de Guayaquil.",
+  "context_pt": "[O1] O imóvel reunia animais vivos e produtos marinhos secos, evidenciando duas categorias de mercadoria que exigem contagens separadas. A coexistência de quelônios vivos e cavalos-marinhos secos em um imóvel não demonstra que tenham procedência ou compradores comuns.\n\n[N1] Apuração sobre controle de fauna de Galápagos discute lacunas de fiscalização; seu foco institucional ajuda a qualificar a rastreabilidade de espécies insulares.",
+  "context_en": "[O1] The property held live reptiles and dried marine products, which must be tracked as distinct wildlife categories and units. Live tortoises and dried seahorses in one property do not establish shared suppliers or buyers.\n\n[N1] Reporting on Galápagos wildlife oversight discusses enforcement gaps and helps frame traceability questions for island species.",
+  "context_es": "[O1] El inmueble reunía reptiles vivos y productos marinos secos, que deben contabilizarse en categorías y unidades distintas. La coexistencia de tortugas vivas y caballitos de mar secos en un inmueble no establece proveedores o compradores comunes.\n\n[N1] Un reportaje sobre el control de fauna de Galápagos examina vacíos de fiscalización y aporta contexto sobre trazabilidad de especies insulares.",
+  "references_text_pt": "[O1] Equador — Centenario, Guayaquil — https://www.primicias.ec/noticias/sociedad/tortugas-galapagos-caballitosmar-decomiso-guayaquil/\n[N1] Ecuador: inician un proceso de fiscalización para conocer cómo Ambiente controla el tráfico de fauna de Galápagos — https://es.mongabay.com/2026/09/ecuador-inician-un-proceso-de-fiscalizacion-para-conocer-como-ambiente-controla-el-trafico-de-fauna-de-galapagos/",
+  "references_text_en": "[O1] Equador — Centenario, Guayaquil — https://www.primicias.ec/noticias/sociedad/tortugas-galapagos-caballitosmar-decomiso-guayaquil/\n[N1] Ecuador: inician un proceso de fiscalización para conocer cómo Ambiente controla el tráfico de fauna de Galápagos — https://es.mongabay.com/2026/09/ecuador-inician-un-proceso-de-fiscalizacion-para-conocer-como-ambiente-controla-el-trafico-de-fauna-de-galapagos/",
+  "references_text_es": "[O1] Equador — Centenario, Guayaquil — https://www.primicias.ec/noticias/sociedad/tortugas-galapagos-caballitosmar-decomiso-guayaquil/\n[N1] Ecuador: inician un proceso de fiscalización para conocer cómo Ambiente controla el tráfico de fauna de Galápagos — https://es.mongabay.com/2026/09/ecuador-inician-un-proceso-de-fiscalizacion-para-conocer-como-ambiente-controla-el-trafico-de-fauna-de-galapagos/",
+  "context_references": [
+    {
+      "tag": "O1",
+      "type": "event_source",
+      "title": "Equador — Centenario, Guayaquil",
+      "url": "https://www.primicias.ec/noticias/sociedad/tortugas-galapagos-caballitosmar-decomiso-guayaquil/"
+    },
+    {
+      "tag": "N1",
+      "type": "investigative_article",
+      "title": "Ecuador: inician un proceso de fiscalización para conocer cómo Ambiente controla el tráfico de fauna de Galápagos",
+      "url": "https://es.mongabay.com/2026/09/ecuador-inician-un-proceso-de-fiscalizacion-para-conocer-como-ambiente-controla-el-trafico-de-fauna-de-galapagos/",
+      "repository": "https://github.com/acarvalho-wcs/wildlife-trafficking-news/blob/main/news.json"
+    }
+  ],
+  "taxon_text": "*Chelonoidis* sp.; *Hippocampus* spp.",
+  "fauna_label_pt": "16 jabutis juvenis de Galápagos e 55 cavalos-marinhos secos",
+  "fauna_label_en": "16 whole animals; 55 wildlife-derived units",
+  "fauna_label_es": "16 animales enteros; 55 unidades de derivados de fauna",
+  "fauna_groups_aggregated": [
+    "Répteis",
+    "Peixes"
+  ],
+  "modal_primary": "Não documentado",
+  "quantity_count": 71,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals_and_items",
+  "quantity_note_pt": "Contagens separadas por tipo; não converter massa ou ovos em animais. Confirmar espécies e procedência individual.",
+  "quantity_note_en": "Separate counts by material type; never convert mass or eggs into animals. ",
+  "quantity_note_es": "Cantidades separadas por material; no convertir masa ni huevos en animales. ",
+  "quantity_by_material": {
+    "animals_exact": 16,
+    "wildlife_items_exact": 55,
+    "eggs_exact_or_threshold": null,
+    "eggs_qualifier": null,
+    "eggs_cited_unseized": null,
+    "other_measures": null
+  },
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "publication_locked": false,
+  "status": "VALIDATED",
+  "source_label": "Equador — Centenario, Guayaquil",
+  "source_url": "https://www.primicias.ec/noticias/sociedad/tortugas-galapagos-caballitosmar-decomiso-guayaquil/",
+  "source_reconciliation_status": "PRIMARY_TEXT_RECOVERED_AND_SPOT_AUDITED_20261030",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "case_context_status": "OSINT_CORRECTED_O_S_I_N_TRILINGUAL",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento com extremos documentados.",
+  "route_audit_note_en": "No documented endpoints for a route segment.",
+  "route_audit_note_es": "Sin extremos documentados para un tramo de ruta.",
+  "ingestion_batch": "TG_H_R3_R4_FINAL_EVIDENCE_AUDIT_20261030",
+  "review_note_pt": "Confirmar espécies e procedência individual.",
+  "editorial_review": "TECHNICALLY_PREPARED_FROM_AUDITED_STAGING",
+  "source_date_precision_note": "incident_date_reported: 26/02/2023",
+  "shell_import_warning": "Geocode municipality/airport precision and rerun complete canonical deduplication before public activation.",
+  "quantity_by_group": {},
+  "quantity_unassigned": 71,
+  "event_classification": "documented_official_seizure_or_illegal_possession",
+  "coordinates": {
+    "lat": -2.1898725,
+    "lon": -79.8876439
+  },
+  "coordinate_precision": "locality_generalized_pending_review",
+  "georeferencing_request": {
+    "query": "Centenario, Guayaquil, Equador",
+    "granularity": "city_or_documented_interception_point",
+    "never_use_unverified_route_endpoints": true
+  },
+  "ingestion_eligibility": "STAGING_SOURCE_SUPPORTED",
+  "geocode_candidate": "Parque Centenario, Centro, Rocafuerte, Guayaquil, Guayas, Ecuador",
+  "source_review_note_pt": ""
+}
