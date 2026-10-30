@@ -13565,11 +13565,11 @@
       "line_style": "solid",
       "source_label": "Bitacora Ambiental, 28/10/2026",
       "source_url": "https://www.bitacoraec.com/post/cuatro-años-y-usd-1-2-millones-por-12-iguanas-de-galápagos-la-sentencia-alcanzó-a-las-mulas-pero-n",
-      "id": "galapagos-iguanas-santa-cruz-baltra-guayaquil-2026",
-      "route_type": "completed_movement",
-      "label_pt": "Santa Cruz → Baltra → Guayaquil",
-      "label_en": "Santa Cruz → Baltra → Guayaquil",
-      "label_es": "Santa Cruz → Baltra → Guayaquil",
+      "id": "galapagos-12-iguanas-rota-completa-2026",
+      "route_type": "mixed_movement",
+      "label_pt": "Santa Cruz → Baltra → Guayaquil → Amsterdã → Bangkok",
+      "label_en": "Santa Cruz → Baltra → Guayaquil → Amsterdam → Bangkok",
+      "label_es": "Santa Cruz → Baltra → Guayaquil → Ámsterdam → Bangkok",
       "segments": [
         {
           "from": {
@@ -13585,7 +13585,10 @@
             "lat": -0.454,
             "lon": -90.266,
             "precision": "generalized"
-          }
+          },
+          "route_type": "completed_movement",
+          "movement_status": "completed",
+          "direction": "forward"
         },
         {
           "from": {
@@ -13601,29 +13604,11 @@
             "lat": -2.158,
             "lon": -79.884,
             "precision": "generalized"
-          }
-        }
-      ],
-      "evidence_pt": "Transporte realizado de Santa Cruz, por Baltra, ate Guayaquil, onde 12 iguanas foram interceptadas.",
-      "evidence_en": "Completed transport from Santa Cruz via Baltra to Guayaquil, where 12 iguanas were intercepted.",
-      "evidence_es": "Traslado realizado desde Santa Cruz, via Baltra, hasta Guayaquil, donde fueron interceptadas 12 iguanas."
-    },
-    {
-      "event_match": {
-        "location_contains": "Guayaquil",
-        "publication_date": "2026-05-20"
-      },
-      "status": "DOCUMENTED",
-      "direction": "forward",
-      "line_style": "solid",
-      "source_label": "Bitacora Ambiental, 28/10/2026",
-      "source_url": "https://www.bitacoraec.com/post/cuatro-años-y-usd-1-2-millones-por-12-iguanas-de-galápagos-la-sentencia-alcanzó-a-las-mulas-pero-n",
-      "id": "galapagos-iguanas-guayaquil-amsterdam-bangkok-2026",
-      "route_type": "planned_movement",
-      "label_pt": "Guayaquil → Amsterda → Bangkok (prevista)",
-      "label_en": "Guayaquil → Amsterdam → Bangkok (planned)",
-      "label_es": "Guayaquil → Amsterdam → Bangkok (prevista)",
-      "segments": [
+          },
+          "route_type": "completed_movement",
+          "movement_status": "completed",
+          "direction": "forward"
+        },
         {
           "from": {
             "name": "Guayaquil",
@@ -13638,7 +13623,10 @@
             "lat": 52.3086,
             "lon": 4.7639,
             "precision": "generalized"
-          }
+          },
+          "route_type": "planned_movement",
+          "movement_status": "planned",
+          "direction": "forward"
         },
         {
           "from": {
@@ -13654,12 +13642,32 @@
             "lat": 13.69,
             "lon": 100.75,
             "precision": "generalized"
-          }
+          },
+          "route_type": "planned_movement",
+          "movement_status": "planned",
+          "direction": "forward"
         }
       ],
-      "evidence_pt": "Itinerario internacional pretendido, interrompido em Guayaquil. Nao representa transporte concluido.",
-      "evidence_en": "Intended international itinerary, interrupted in Guayaquil. Not a completed movement.",
-      "evidence_es": "Itinerario internacional previsto, interrumpido en Guayaquil. No representa un traslado completado."
+      "evidence_pt": "Transporte realizado de Santa Cruz, por Baltra, ate Guayaquil, onde 12 iguanas foram interceptadas. Itinerario internacional pretendido, interrompido em Guayaquil. Nao representa transporte concluido.",
+      "evidence_en": "Completed transport from Santa Cruz via Baltra to Guayaquil, where 12 iguanas were intercepted. Intended international itinerary, interrupted in Guayaquil. Not a completed movement.",
+      "evidence_es": "Traslado realizado desde Santa Cruz, via Baltra, hasta Guayaquil, donde fueron interceptadas 12 iguanas. Itinerario internacional previsto, interrumpido en Guayaquil. No representa un traslado completado.",
+      "event_id": "2026-05-19__guayaquil-12-galapagos-iguanas",
+      "segment_groups": [
+        {
+          "route_type": "completed_movement",
+          "segment_indices": [
+            0,
+            1
+          ]
+        },
+        {
+          "route_type": "planned_movement",
+          "segment_indices": [
+            2,
+            3
+          ]
+        }
+      ]
     }
   ],
   "network_context": [
