@@ -1,0 +1,386 @@
+{
+  "schema": "tgh_review_draft_v1",
+  "created": "2026-10-24",
+  "not_for_publication": true,
+  "count": 9,
+  "records": [
+    {
+      "id": "2026-05-juliaca-15-condor-feathers-two-taruca-feet",
+      "country": "Peru",
+      "location": "Feria de Alasitas, Juliaca, Puno",
+      "publication_date": "2026-05-26",
+      "event_date": null,
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1397703-serfor-refuerza-operativos-contra-el-uso-ilegal-de-fauna-silvestre-en-feria-de-las-alasitas-en-juliaca",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "condor_feathers",
+          "taxon": "Vultur gryphus",
+          "value": 15
+        },
+        {
+          "unit": "taruca_feet",
+          "taxon": "Hippocamelus antisensis",
+          "value": 2
+        }
+      ],
+      "title": {
+        "pt": "SERFOR apreende 15 penas de condor e duas patas de taruca em feira de Juliaca",
+        "en": "SERFOR seizes 15 condor feathers and two taruca legs at Juliaca fair",
+        "es": "SERFOR decomisa 15 plumas de cóndor y dos patas de taruca en feria de Juliaca"
+      },
+      "card": {
+        "pt": "Durante inspeção na Feira de Alasitas, SERFOR apreendeu 15 penas de condor-andino em uma barraca e encontrou duas patas de taruca em outra. Foi instaurado procedimento administrativo relativo à posse e exposição das penas de origem irregular.",
+        "en": "At Juliaca's Alasitas fair, SERFOR seized 15 Andean condor feathers at one stall and found two taruca legs at another. Administrative proceedings were initiated over the alleged unlawful possession and display of the feathers.",
+        "es": "En la Feria de Alasitas de Juliaca, SERFOR decomisó 15 plumas de cóndor andino en un puesto y halló dos patas de taruca en otro. Se inició un procedimiento administrativo por la presunta posesión y exhibición irregular de las plumas."
+      },
+      "context": {
+        "pt": "[O1] A fiscalização percorreu barracas de artigos tradicionais, incluindo pontos associados a curandeirismo, e registrou produtos de duas espécies: *Vultur gryphus* (15 penas) e *Hippocamelus antisensis* (duas patas). Trata-se de 17 peças, não de 17 animais. Os achados ocorreram em bancas distintas na mesma operação; não presumir um único comerciante ou rede de fornecimento. O SERFOR registra procedimento sancionador relativo às penas; não há prova publicada da procedência, data de captura ou rota das partes. Uma associação cultural ou medicinal contextualiza a exposição dos produtos, mas não confirma motivação individual ou destino comercial ulterior.",
+        "en": "[O1] Inspectors visited stalls selling traditional items, including those associated with healing practices, and documented products of *Vultur gryphus* (15 feathers) and *Hippocamelus antisensis* (two legs). These are 17 items, not 17 animals. The products came from different stalls during one inspection; they should not be attributed to a single seller or network. SERFOR announced administrative action related to the feathers, but no capture location, date or transport route was established. The cultural setting does not prove each seller's motivation or an onward destination.",
+        "es": "[O1] Las autoridades inspeccionaron puestos de artículos tradicionales, incluidos aquellos vinculados con prácticas de curanderismo, y documentaron productos de *Vultur gryphus* (15 plumas) y *Hippocamelus antisensis* (dos patas). Son 17 piezas, no 17 animales. Proceden de puestos distintos dentro de un mismo operativo; no debe atribuirse todo a un único vendedor o red. SERFOR anunció actuaciones administrativas por las plumas sin acreditar procedencia, fecha de extracción ni ruta. El entorno cultural no prueba motivaciones individuales ni destinos posteriores."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Number of individuals unknown. Formal status of legs to verify, as source says 'hallaron'."
+    },
+    {
+      "id": "2026-06-lambayeque-and-la-victoria-three-parrots",
+      "country": "Peru",
+      "location": "distritos Lambayeque e La Victoria, departamento Lambayeque",
+      "publication_date": "2026-06-11",
+      "event_date": null,
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1405027-serfor-rescata-tres-loros-silvestres-en-lambayeque-y-refuerza-llamado-a-no-promover-el-trafico-ilegal-de-fauna",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "live_bird",
+          "taxon": "Psittacara erythrogenys",
+          "location": "Lambayeque district",
+          "value": 1
+        },
+        {
+          "unit": "live_birds",
+          "taxon": "Aratinga weddellii",
+          "location": "La Victoria district",
+          "value": 2
+        }
+      ],
+      "title": {
+        "pt": "SERFOR recupera três psitacídeos em duas intervenções no departamento de Lambayeque",
+        "en": "SERFOR recovers three parrots in two separate Lambayeque interventions",
+        "es": "SERFOR recupera tres loros en dos intervenciones distintas en Lambayeque"
+      },
+      "card": {
+        "pt": "Uma intervenção no distrito de Lambayeque resultou na apreensão de um *Psittacara erythrogenys* com amputação em uma pata; outra, após denúncia, encontrou dois *Aratinga weddellii* abandonados em La Victoria. As três aves foram encaminhadas ao Centro de Resgate CRAX Perú.",
+        "en": "An inspection in Lambayeque district seized one *Psittacara erythrogenys* with a missing foot, while a separate report led to the recovery of two abandoned *Aratinga weddellii* in La Victoria. All three parrots were transferred to CRAX Perú rescue centre.",
+        "es": "Una intervención en el distrito de Lambayeque decomisó un *Psittacara erythrogenys* con amputación de una pata; otra diligencia tras denuncia recuperó dos *Aratinga weddellii* abandonados en La Victoria. Las tres aves fueron trasladadas al Centro de Rescate CRAX Perú."
+      },
+      "context": {
+        "pt": "[O1] O comunicado do SERFOR reúne duas ações distintas, em Lambayeque (um exemplar ferido, com ata e processo legal) e La Victoria (duas aves encontradas após denúncia na plataforma Alerta SERFOR). O total de três é agregado de duas localidades: a modelagem geográfica não pode representar todos em um só endereço. O SERFOR identifica os táxons e faz referência à inclusão de ambos no Apêndice II da CITES, o que contextualiza a regulação internacional, mas não comprova exportação. Não há origem de captura, compradores nem rota documentada; a transferência ao centro CRAX é resposta institucional, não rota de tráfico.",
+        "en": "[O1] SERFOR's announcement combines two different interventions: one injured *Psittacara erythrogenys* in Lambayeque district, with legal proceedings, and two *Aratinga weddellii* found after a citizen report in La Victoria. Three is a combined figure across two sites and must not be plotted as one seizure at a single address. SERFOR notes that both taxa are CITES Appendix II species; this describes international trade controls, not evidence that the birds were exported. Neither capture origin nor buyer or trafficking route is documented; transfer to CRAX is a rescue movement, not a trafficking segment.",
+        "es": "[O1] El comunicado de SERFOR agrupa dos acciones diferentes: un *Psittacara erythrogenys* lesionado en Lambayeque, con actuaciones legales, y dos *Aratinga weddellii* hallados tras una denuncia en La Victoria. El total de tres procede de dos lugares y no debe mapearse como una sola incautación. SERFOR recuerda que ambas especies están incluidas en el Apéndice II de CITES, lo cual explica la regulación internacional, no un envío al exterior. No se acredita origen, comprador ni ruta de tráfico; el traslado a CRAX fue una acción de atención, no un segmento ilícito."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_MULTIPOINT_SPLIT_RECOMMENDED",
+      "notes": "Recommend 2 child cases for each locality, or single aggregate with multipoint coordinates and totals excluded for children.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1111/csp2.12936",
+          "url": "https://doi.org/10.1111/csp2.12936"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Pesquisas em comunidades rurais do Peru e sul do Equador examinaram origem doméstica versus aquisição de papagaios e evidenciaram circuitos de captura e posse. Esse quadro permite interpretar a pressão da demanda doméstica sem pressupor que as três aves resgatadas compartilhem origem ou tenham sido importadas.",
+        "en": "Rural surveys in Peru and southern Ecuador explored household capture versus acquisition of parrots and demonstrate the importance of domestic capture-and-keeping systems. This helps interpret demand without implying that the three rescued birds share a capture site or were imported.",
+        "es": "Estudios rurales en Perú y sur de Ecuador analizaron captura doméstica y adquisición de loros y documentaron circuitos locales de tenencia. Ese marco permite entender la demanda sin suponer que las tres aves compartan procedencia o fueran importadas."
+      }
+    },
+    {
+      "id": "2026-06-pomabamba-capuchin-caracara",
+      "country": "Peru",
+      "location": "residências em Pomabamba, Áncash",
+      "publication_date": "2026-06-30",
+      "event_date": null,
+      "source_url": "https://www.gob.pe/institucion/serfor/noticias/1413021-ancash-serfor-rescata-un-mono-machin-negro-y-un-caracara-mantenidos-en-cautiverio-como-mascotas-en-pomabamba",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "live_mammal",
+          "taxon": "Sapajus macrocephalus",
+          "value": 1
+        },
+        {
+          "unit": "live_bird",
+          "taxon": "Phalcoboenus megalopterus",
+          "value": 1
+        }
+      ],
+      "title": {
+        "pt": "SERFOR recupera macaco-prego e carcará mantidos como animais de estimação em Pomabamba",
+        "en": "SERFOR recovers a capuchin monkey and a caracara held as pets in Pomabamba",
+        "es": "SERFOR recupera un mono machín y un caracara mantenidos como mascotas en Pomabamba"
+      },
+      "card": {
+        "pt": "SERFOR e a Polícia Ambiental recuperaram um *Sapajus macrocephalus* preso por uma corrente e um *Phalcoboenus megalopterus* mantido numa gaiola pequena, em residências de Pomabamba. Os animais estavam em cativeiro como animais de estimação.",
+        "en": "SERFOR and environmental police recovered a *Sapajus macrocephalus* kept on a chain and a *Phalcoboenus megalopterus* held in a small cage at homes in Pomabamba. Both had been kept as pets.",
+        "es": "SERFOR y la Policía Ambiental rescataron un *Sapajus macrocephalus* sujeto con una cadena y un *Phalcoboenus megalopterus* mantenido en una jaula pequeña, en viviendas de Pomabamba. Ambos estaban en cautiverio como mascotas."
+      },
+      "context": {
+        "pt": "[O1] O SERFOR descreveu duas espécies em residências, sem afirmar que ambas pertenciam a uma só pessoa. Os nomes científicos constam da fonte, e o relato do carcará na gaiola e do primata acorrentado documenta as condições de cativeiro. O comunicado não apresenta comprovante de compra, preço, comprador, origem na natureza ou deslocamento; a infração potencial diz respeito principalmente à posse de fauna silvestre. O caso é pertinente como retenção irregular, mas não como prova de rede internacional. Duas coordenadas residenciais não são publicadas; usar apenas referência territorial compatível com a precisão disponível.",
+        "en": "[O1] SERFOR identified two species kept in residences but did not say one owner held both. Scientific names and husbandry conditions are documented: the caracara in a small cage and the capuchin on a chain. No purchase, price, buyer, capture site or movement was reported; suspected unlawful possession is the evidenced concern. This event can inform analysis of captivity but not an international trafficking route. Specific residential coordinates are neither reported nor appropriate to invent.",
+        "es": "[O1] SERFOR identificó dos especies en viviendas sin afirmar que una sola persona poseyera ambas. Se documentaron nombres científicos y condiciones de cautiverio: el caracara en jaula pequeña y el primate encadenado. No se informan compra, precio, comprador, captura ni desplazamiento; el hecho acreditado es la presunta tenencia ilegal. El caso puede contextualizar el cautiverio, no demostrar una red internacional. No inventar coordenadas de domicilios."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Caution source reports animals in 'viviendas' plural; no addresses.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.1002/ajp.22516",
+          "url": "https://doi.org/10.1002/ajp.22516"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Estudo baseado em 2.070 ocorrências relacionadas a primatas no Peru constatou que apreensões institucionais frequentemente incidem sobre animais mantidos como mascotas, não necessariamente sobre os agentes centrais do comércio. Essa distinção é pertinente ao macaco deste caso, mas não identifica sua origem nem os responsáveis pela captura.",
+        "en": "An empirical Peruvian study examining 2,070 primate-related wildlife-crime incidents found that enforcement often reaches private pet holders rather than the main traffickers. That distinction is relevant to this capuchin but does not identify its wild source or original captors.",
+        "es": "Un estudio peruano de 2.070 incidentes con primates observó que las autoridades suelen intervenir a tenedores particulares antes que a los principales traficantes. La distinción es pertinente al mono de este caso, pero no permite atribuirle origen o responsables de captura."
+      }
+    },
+    {
+      "id": "2026-08-andahuaylas-eight-psittacara-mitratus",
+      "country": "Peru",
+      "location": "feria sabatina de Andahuaylas, Apurímac",
+      "publication_date": "2026-08-21",
+      "event_date": null,
+      "source_url": "https://andina.pe/agencia/noticia-andahuaylas-rescatan-ocho-loros-cabeza-roja-manos-traficantes-fauna-silvestre-1088594.aspx",
+      "source_rank": "N1_official_news_agency",
+      "quantities": [
+        {
+          "unit": "live_birds",
+          "taxon": "Psittacara mitratus",
+          "value": 8
+        }
+      ],
+      "title": {
+        "pt": "Oito psitacídeos com penas cortadas são retirados de venda em feira de Andahuaylas",
+        "en": "Eight clipped-wing parrots recovered from sale at Andahuaylas fair",
+        "es": "Rescatan ocho loros con plumas de vuelo cortadas en feria de Andahuaylas"
+      },
+      "card": {
+        "pt": "SERFOR e a Polícia recuperaram oito *Psittacara mitratus* oferecidos à venda em caixas de papelão e gaiolas na feira de Andahuaylas. As aves apresentavam penas de voo cortadas e foram encaminhadas para avaliação.",
+        "en": "SERFOR and police recovered eight *Psittacara mitratus* offered for sale in cardboard boxes and cages at an Andahuaylas market. Their flight feathers had been clipped and they were transferred for assessment.",
+        "es": "SERFOR y la Policía recuperaron ocho *Psittacara mitratus* ofrecidos en cajas de cartón y jaulas en la feria de Andahuaylas. Tenían las plumas de vuelo cortadas y quedaron bajo evaluación especializada."
+      },
+      "context": {
+        "pt": "[N1, SERFOR citado] A agência Andina descreve comércio ativo em feira semanal e identifica expressamente oito *Psittacara mitratus*. As condições de transporte e a remoção de penas de voo indicam maus-tratos e tentativa de controlar a mobilidade dos animais; não identificam, porém, o local da captura. O texto traz a publicação de 21/08 e caracteriza a feira como sabatina, sem explicitar a data exata da apreensão, que não deve ser imputada automaticamente a 21/08. Oito são aves vivas, não itens. Não há destino, percurso anterior ou rede internacional demonstrados.",
+        "en": "[N1, citing SERFOR] Official news agency Andina describes active sale at a weekly fair and identifies eight *Psittacara mitratus*. The boxes, cages and clipped flight feathers document poor handling, but not where the birds were taken from the wild. The story was published on 21 August and mentions a Saturday fair without identifying the exact seizure date; publication must not automatically become the event date. The eight are live birds, not items, and no buyer, prior route or international network was established.",
+        "es": "[N1, SERFOR citado] Andina reportó venta en una feria semanal e identificó ocho *Psittacara mitratus*. Las cajas, jaulas y plumas de vuelo recortadas reflejan condiciones de maltrato, pero no indican dónde fueron extraídas de la naturaleza. La noticia se publicó el 21 de agosto y alude a una feria sabatina sin precisar la fecha del decomiso; no deben confundirse ambas fechas. Son ocho aves vivas; no se documentan comprador, trayecto anterior ni red internacional."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Date of original seizure not proven from article; event_date null.",
+      "scientific_references": [
+        {
+          "code": "S1",
+          "doi": "10.35626/sapientia.6.3.51",
+          "url": "https://doi.org/10.35626/sapientia.6.3.51"
+        }
+      ],
+      "scientific_context": {
+        "pt": "Análise de expedientes da FEMA em Apurímac (2015–2021) apontou confusão recorrente entre *Psittacara mitratus*, *P. wagleri* e *P. erythrogenys*, chamados de 'loro cabeza roja'. O estudo oferece precedente territorial e recomenda cautela taxonômica: o registro de 2026 adota *P. mitratus* porque essa é a identificação expressa na notícia, não por inferência a partir do nome popular.",
+        "en": "An analysis of Apurímac prosecution files (2015–2021) documented recurring confusion among *Psittacara mitratus*, *P. wagleri* and *P. erythrogenys* under the shared common name 'loro cabeza roja'. This provides local historical context and supports taxonomic caution: the 2026 record uses *P. mitratus* only because the reporting agency states that identification.",
+        "es": "Un análisis de expedientes fiscales de Apurímac (2015–2021) detectó confusiones frecuentes entre *Psittacara mitratus*, *P. wagleri* y *P. erythrogenys*, agrupados bajo 'loro cabeza roja'. El antecedente es territorial y aconseja prudencia taxonómica: se conserva *P. mitratus* porque así lo indica expresamente la fuente de 2026."
+      }
+    },
+    {
+      "id": "2026-01-bogota-plaza-20-julio-seven-wild-parakeets",
+      "country": "Colômbia",
+      "location": "Plaza de Mercado 20 de Julio, Bogotá",
+      "publication_date": "2026-01-15",
+      "event_date": null,
+      "source_url": "https://www.animalesbog.gov.co/noticias-pyba/operativo-interinstitucional-en-la-plaza-de-20-del-julio-deja-34-animales-incautados-por-las-autoridades",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "live_native_parakeets",
+          "taxon": "unspecified 'pericos bronceados'",
+          "value": 7
+        }
+      ],
+      "title": {
+        "pt": "Fiscalização em Bogotá apreende sete periquitos silvestres em mercado",
+        "en": "Bogotá market inspection seizes seven wild parakeets",
+        "es": "Operativo en plaza de Bogotá decomisa siete pericos silvestres"
+      },
+      "card": {
+        "pt": "Uma operação no Mercado 20 de Julio, em Bogotá, apreendeu sete periquitos silvestres chamados 'pericos bronceados' e resultou em uma detenção relacionada à fauna. A fiscalização também retirou outros animais domésticos do comércio irregular, mas estes não integram a contagem de fauna silvestre.",
+        "en": "An inspection at Bogotá's 20 de Julio market seized seven wild birds locally called 'pericos bronceados' and resulted in an arrest for a wildlife-related offence. Authorities also removed domestic or captive-bred animals from prohibited market sales; those are excluded from the wildlife count.",
+        "es": "Un operativo en la Plaza del 20 de Julio, Bogotá, decomisó siete pericos silvestres llamados 'pericos bronceados' y dejó una captura por el delito relacionado con fauna. También se retiraron animales domésticos del comercio prohibido, pero estos no forman parte del conteo de fauna silvestre."
+      },
+      "context": {
+        "pt": "[O1] A fonte do Instituto Distrital de Protección y Bienestar Animal descreve fiscalização motivada por denúncias sobre venda e bem-estar de animais. A manchete menciona 34 animais apreendidos, com uma lista de cobaias, periquitos-australianos, coelhos e hamsters cuja soma parece inconsistente com esse total; esses grupos não são aqui contabilizados como fauna silvestre nativa. O mesmo comunicado informa separadamente sete 'pericos bronceados' identificados como fauna silvestre e uma detenção. Assim, o indicador canônico de fauna para este caso é sete aves. Não atribuir espécie científica sem confirmação.",
+        "en": "[O1] Bogotá's animal welfare institute reports an inspection following complaints over market sales and poor welfare. The headline refers to 34 seized animals and enumerates guinea pigs, Australian budgerigars, rabbits and hamsters; the enumerated quantities appear inconsistent with the headline and are not counted here as native wildlife. The report separately identifies seven wild 'pericos bronceados' and one arrest. Therefore the wildlife metric for this case is seven birds only. A scientific species name cannot safely be assigned from the common name alone.",
+        "es": "[O1] El instituto distrital informó un control tras denuncias sobre venta y bienestar animal. El titular habla de 34 animales e incluye cuyes, pericos australianos, conejos y hámsteres; la suma detallada parece inconsistente y esos grupos no se contabilizan aquí como fauna silvestre nativa. El mismo comunicado informa por separado siete 'pericos bronceados' silvestres y una captura. Por ello el indicador canónico es siete aves, sin atribución científica no verificada."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Critical arithmetic caveat: domestic animals listing sums to 35 not headline 34; exclude all domestic categories."
+    },
+    {
+      "id": "2026-02-mamonal-cartagena-42-7kg-wild-meat",
+      "country": "Colômbia",
+      "location": "setor Mamonal, Cartagena, Bolívar",
+      "publication_date": "2026-02-27",
+      "event_date": "2026-02-26",
+      "source_url": "https://www.cartagena.gov.co/noticias/epa-cartagena-lidero-operativo-donde-incautaron-427-kilos-carne-animales-silvestres",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "kg_bushmeat",
+          "taxon": "Hydrochoerus hydrochaeris / chigüiro",
+          "value": 13.9
+        },
+        {
+          "unit": "kg_bushmeat",
+          "taxon": "conejo silvestre (species unspecified)",
+          "value": 6.6
+        },
+        {
+          "unit": "kg_bushmeat",
+          "taxon": "Caiman crocodilus / babilla",
+          "taxonomy_status": "CHECK SCIENTIFIC ID",
+          "value": 22.2
+        }
+      ],
+      "title": {
+        "pt": "Fiscalização em Cartagena apreende 42,7 kg de carne de fauna silvestre",
+        "en": "Cartagena inspection seizes 42.7 kg of wild-animal meat",
+        "es": "Operativo en Cartagena incauta 42,7 kg de carne de fauna silvestre"
+      },
+      "card": {
+        "pt": "Polícia Ambiental e EPA Cartagena apreenderam no setor Mamonal 13,9 kg de carne de capivara, 6,6 kg de coelho silvestre e 22,2 kg de jacaré ('babilla'), totalizando 42,7 kg. Um suspeito foi detido; a carne seria comercializada na cidade.",
+        "en": "Environmental police and EPA Cartagena seized 13.9 kg of capybara meat, 6.6 kg of wild rabbit meat and 22.2 kg of caiman ('babilla') meat in Mamonal, totalling 42.7 kg. One suspect was arrested and the meat was reportedly intended for sale in the city.",
+        "es": "La Policía Ambiental y EPA Cartagena incautaron en Mamonal 13,9 kg de carne de chigüiro, 6,6 kg de conejo silvestre y 22,2 kg de babilla, para un total de 42,7 kg. Una persona fue capturada y la carne presuntamente iba a comercializarse en la ciudad."
+      },
+      "context": {
+        "pt": "[O1] A autoridade ambiental municipal informa fiscalização em 26/02, divulgada em 27/02, relacionada ao controle de produtos florestais e faunísticos. A fonte diferencia três tipos de carne e pesos exatos cuja soma é 42,7 kg. Nenhuma estimativa confiável do número de animais abatidos pode ser feita desses pesos. O comércio previsto em Cartagena é declarado no comunicado, mas locais de abate, procedência e trajetória do transporte não foram demonstrados. 'Coelho silvestre' e 'babilla' devem ser mantidos como nomes comuns até verificação taxonômica. A detenção não corresponde a condenação.",
+        "en": "[O1] Cartagena's environmental agency dates the inspection to 26 February, with publication on 27 February, within a broader control operation. Its three product categories sum to 42.7 kg. Weight cannot be converted into a defensible number of killed animals. Intended sale in Cartagena is reported, but hunting sites, collection points and transport paths are not established. Preserve 'wild rabbit' and 'babilla' as common names pending taxonomic review. One arrest does not establish a criminal conviction.",
+        "es": "[O1] EPA Cartagena fecha el operativo el 26 de febrero y la publicación el 27, en el marco de un control de productos de origen natural. Las tres categorías de carne suman 42,7 kg. Ese peso no permite estimar de manera válida el número de animales sacrificados. La autoridad señaló comercialización prevista en Cartagena, sin identificar zonas de caza ni ruta de transporte. Mantener 'conejo silvestre' y 'babilla' como nombres comunes hasta revisar la taxonomía. La captura no equivale a condena."
+      },
+      "route_status": "NO_DOCUMENTED_SEGMENT",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Publication 27 February, intervention 26 February. Do not convert 42.7kg to individuals."
+    },
+    {
+      "id": "2026-04-cartagena-airport-18-wild-birds",
+      "country": "Colômbia",
+      "location": "Aeroporto Internacional Rafael Núñez, Cartagena",
+      "publication_date": "2026-04-19",
+      "event_date": "2026-04-18",
+      "source_url": "https://www.cartagena.gov.co/noticias/epa-cartagena-recibio-18-aves-silvestres-incautadas-el-aeropuerto-rafael-nunez-que-iban-ser-sacadas-pais",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "live_birds",
+          "breakdown": "8 cardenales guajiros; 3 mieleros patirrojos; 1 mielero patiamarillo; 6 soldaditos capirotados",
+          "value": 18
+        }
+      ],
+      "title": {
+        "pt": "Passageira é interceptada com 18 aves silvestres no aeroporto de Cartagena",
+        "en": "Passenger intercepted with 18 wild birds at Cartagena airport",
+        "es": "Interceptan a pasajera con 18 aves silvestres en aeropuerto de Cartagena"
+      },
+      "card": {
+        "pt": "Polícia apreendeu 18 aves acondicionadas em caixas pequenas e mal ventiladas na bagagem de uma passageira mexicana que tentava retirá-las da Colômbia pelo aeroporto Rafael Núñez. Os animais passaram por avaliação e parte foi transferida para Barranquilla para reabilitação e eventual soltura.",
+        "en": "Police seized 18 wild birds held in cramped, poorly ventilated boxes from a Mexican passenger attempting to take them out of Colombia through Rafael Núñez airport. The birds were assessed, and some were transferred to Barranquilla for care and eventual release.",
+        "es": "La Policía incautó 18 aves silvestres en cajas pequeñas y mal ventiladas a una pasajera mexicana que pretendía sacarlas de Colombia por el aeropuerto Rafael Núñez. Los animales recibieron valoración y parte fue trasladada a Barranquilla para atención y posible liberación."
+      },
+      "context": {
+        "pt": "[O1] O EPA Cartagena descreve oito cardeais-guajiros, três 'mieleros patirrojos', um 'mielero patiamarillo' e seis 'soldaditos capirotados', totalizando 18 aves. A passageira era mexicana, mas a notícia não confirma México como destino do voo: nacionalidade não é prova de rota. Quatorze aves foram posteriormente transportadas para Barranquilla como medida de reabilitação e soltura; essa transferência institucional não pode ser representada como trânsito de tráfico. As condições precárias documentadas justificam registrar risco ao bem-estar, sem inferir mortes. Data do fato 18/04, publicação em 19/04.",
+        "en": "[O1] EPA Cartagena identified eight cardenales guajiros, three red-legged honeycreepers ('mieleros patirrojos'), one yellow-legged honeycreeper and six 'soldaditos capirotados', totalling 18 birds. The traveller was Mexican, but her nationality is not evidence that Mexico was the flight destination. Fourteen birds were subsequently sent to Barranquilla for rehabilitation and release; this official transfer must not be mapped as a trafficking route. The crowded boxes document welfare risk, but no death was reported. The event was on 18 April; publication followed on 19 April.",
+        "es": "[O1] EPA Cartagena detalló ocho cardenales guajiros, tres mieleros patirrojos, un mielero patiamarillo y seis soldaditos capirotados: 18 aves. La pasajera era mexicana, pero su nacionalidad no demuestra que México fuera el destino del vuelo. Catorce aves se trasladaron después a Barranquilla para rehabilitación y liberación; ese movimiento institucional no es una ruta de tráfico. Las cajas y la falta de ventilación evidencian riesgo, no muertes constatadas. Hecho del 18/04 y publicación del 19/04."
+      },
+      "route_status": "INTERNATIONAL_EXIT_ATTEMPT_DESTINATION_UNKNOWN",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Do not assign Mexico as destination; Barranquilla transfer is rehabilitation, not illegal route."
+    },
+    {
+      "id": "2026-05-cartagena-airport-three-primates-dominican-republic",
+      "country": "Colômbia",
+      "location": "Aeroporto Internacional Rafael Núñez, Cartagena",
+      "publication_date": "2026-05-14",
+      "event_date": "2026-05-13",
+      "source_url": "https://www.cartagena.gov.co/noticias/epa-cartagena-atendio-urgencia-dos-monos-cariblancos-que-iban-ser-sacados-ilegalmente-pais",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "live_primates",
+          "taxon": "two 'monos cariblancos', taxonomy uncertain",
+          "value": 2
+        },
+        {
+          "unit": "dead_primate",
+          "taxon": "howler monkey; species uncertain",
+          "value": 1
+        }
+      ],
+      "title": {
+        "pt": "Três primatas são interceptados em tentativa de saída da Colômbia para a República Dominicana",
+        "en": "Three primates intercepted during attempted Colombia–Dominican Republic smuggling",
+        "es": "Interceptan tres primates en intento de tráfico de Colombia a República Dominicana"
+      },
+      "card": {
+        "pt": "Agentes do aeroporto de Cartagena interceptaram um casal que tentava levar dois macacos-de-cara-branca e um bugio ocultos no corpo em um voo com destino à República Dominicana. Os dois primatas sobreviveram em estado grave; o bugio morreu em decorrência das condições de transporte.",
+        "en": "Airport police in Cartagena intercepted a couple trying to take two white-faced monkeys and a howler monkey concealed against their bodies on a trip to the Dominican Republic. Two survived in critical condition; the howler monkey died after mistreatment during transport.",
+        "es": "La Policía aeroportuaria de Cartagena interceptó a una pareja que intentaba llevar dos monos cariblancos y un mono aullador ocultos en su cuerpo hacia República Dominicana. Dos sobrevivieron en estado crítico; el aullador murió como consecuencia del maltrato durante el transporte."
+      },
+      "context": {
+        "pt": "[O1] O EPA Cartagena confirma tentativa de exportação em 13/05, destino República Dominicana e ocultação de três primatas junto ao corpo dos passageiros. Dois macacos 'cariblancos' receberam tratamento por desnutrição e desidratação, enquanto um bugio morreu. O caso exige duas métricas de condição (dois vivos, um morto), sem registrar a morte como apreensão adicional. A nacionalidade dos suspeitos não foi aqui confirmada. O trecho Cartagena→República Dominicana constitui **itinerário internacional pretendido**, não viagem concluída; não atribuir cidade de chegada naquele país sem fonte. Nomes populares não autorizam espécie científica definitiva.",
+        "en": "[O1] EPA Cartagena documents a 13 May attempt to take three primates to the Dominican Republic while concealed against passengers' bodies. Two 'cariblancos' survived with severe dehydration and malnutrition; one howler monkey died. Record two live individuals and one dead individual, not a fourth seizure. The attempt establishes an intended international destination, not a completed flight, and no arrival city is provided. Scientific taxonomy should remain provisional given the common names. Do not present unverified suspect nationality.",
+        "es": "[O1] EPA Cartagena documenta el intento del 13 de mayo de sacar tres primates hacia República Dominicana, ocultos contra el cuerpo de los pasajeros. Dos 'cariblancos' sobrevivieron con deshidratación y desnutrición graves; un mono aullador murió. Deben registrarse dos individuos vivos y uno muerto, sin contar la muerte como otra incautación. El destino internacional era previsto, no un vuelo concluido; no se identifica ciudad de llegada. Mantener la identificación científica como no confirmada y no atribuir nacionalidad no demostrada."
+      },
+      "route_status": "ATTEMPTED_CARTAGENA_TO_DOMINICAN_REPUBLIC",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "DO NOT mix with June two-squirrel interception at same airport. One dead."
+    },
+    {
+      "id": "2026-06-cartagena-airport-two-squirrels-dominican-republic",
+      "country": "Colômbia",
+      "location": "Aeroporto Internacional Rafael Núñez, Cartagena",
+      "publication_date": "2026-06-05",
+      "event_date": "2026-06-04",
+      "source_url": "https://cartagena.gov.co/noticias/epa-cartagena-recibio-dos-ardillas-que-habrian-sido-drogadas-para-sacarlas-ilegalmente-pais",
+      "source_rank": "O1",
+      "quantities": [
+        {
+          "unit": "live_squirrel",
+          "value": 1
+        },
+        {
+          "unit": "dead_squirrel",
+          "value": 1
+        }
+      ],
+      "title": {
+        "pt": "Duas esquilos são apreendidas em tentativa de envio à República Dominicana; uma morre",
+        "en": "Two squirrels seized in attempted shipment to Dominican Republic; one dies",
+        "es": "Decomisan dos ardillas en intento de envío a República Dominicana; una muere"
+      },
+      "card": {
+        "pt": "Polícia Aeroportuária apreendeu duas esquilos ocultadas em uma bolsa de tecido contra o corpo de um passageiro que pretendia sair de Cartagena para a República Dominicana. As autoridades suspeitam que tenham sido sedadas. Uma morreu após o resgate; a outra recebeu atendimento intensivo.",
+        "en": "Airport police seized two squirrels hidden in a perforated fabric bag against a traveller's body ahead of attempted departure from Cartagena to the Dominican Republic. Authorities suspect sedation. One squirrel died after the rescue and the other received emergency care.",
+        "es": "La Policía Aeroportuaria incautó dos ardillas ocultas en una bolsa de tela contra el cuerpo de una persona que pretendía viajar de Cartagena a República Dominicana. Se sospecha que fueron drogadas. Una murió tras el rescate y la otra recibió atención de urgencia."
+      },
+      "context": {
+        "pt": "[O1] O comunicado municipal de 04/06, publicado em 05/06, informa intenção de retirar as duas esquilos para a República Dominicana e indica que teriam sido drogadas, formulação que permanece uma suspeita, não laudo toxicológico divulgado. Uma das duas morreu no centro de atendimento. Registra-se um indivíduo vivo e um morto no mesmo incidente; não duplicar a apreensão como dois casos. O país de destino foi especificado, mas o traslado foi frustrado e não se conhece a cidade pretendida. Esta ocorrência é distinta da interceptação de três primatas no mesmo aeroporto em maio.",
+        "en": "[O1] The city's 4 June bulletin, published on 5 June, identifies the Dominican Republic as the intended destination and says the squirrels had allegedly been drugged; the allegation is not a published toxicology result. One died at the rescue centre. Record one living and one dead individual within a single seizure, not two events. The shipment was intercepted and no destination city is documented. This case must not be confused with the May interception of three primates at the same airport.",
+        "es": "[O1] El comunicado municipal del 4 de junio, publicado el 5, indica República Dominicana como destino previsto y señala que las ardillas habrían sido drogadas; se trata de una sospecha, no de un resultado toxicológico publicado. Una falleció en el centro de atención. Registrar un individuo vivo y uno muerto dentro del mismo hecho, sin duplicarlo. El tráfico fue frustrado y no se indica ciudad de destino. No confundirlo con la incautación de tres primates en mayo en el mismo aeropuerto."
+      },
+      "route_status": "ATTEMPTED_CARTAGENA_TO_DOMINICAN_REPUBLIC",
+      "qa_status": "DRAFT_SOURCE_VERIFIED",
+      "notes": "Destination documented but route planned, not traveled; taxonomy unspecified."
+    }
+  ]
+}
