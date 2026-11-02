@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-020",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Bandar Lengeh, Hormozgan",
+  "location_label_en": "Bandar Lengeh, Hormozgan",
+  "location_label_es": "Bandar Lengeh, Hormozgan",
+  "coordinates": {
+    "lat": 26.562067,
+    "lon": 54.883817
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Bandar Lengeh, بخش مرکزی شهرستان بندرلنگه, Bandar Lengeh County, Hormozgan Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Bandar Lengeh, بخش مرکزی شهرستان بندرلنگه, Bandar Lengeh County, Hormozgan Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Bandar Lengeh, بخش مرکزی شهرستان بندرلنگه, Bandar Lengeh County, Hormozgan Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "Mehr News / Wona (em persa)",
+  "source_url": "https://wona.ir/news/29lxvw3rg0/%DA%A9%D8%B4%D9%81-%D9%BE%D8%B1%D9%86%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D9%82%D8%A7%DA%86%D8%A7%D9%82-%D8%AF%D8%B1-%D8%A8%D9%86%D8%AF%D8%B1%D9%84%D9%86%DA%AF%D9%87",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-27",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Falcões e rolas; vivos",
+  "fauna_label_en": "Live falcons and doves",
+  "fauna_label_es": "Halcones y tórtolas vivos",
+  "taxon_text": "Falcões e rolas; vivos",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 16,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 16
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 falcões + 14 rolas; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-020",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Confirmar data operacional e possível sobreposição parcial com ação regional #21.",
+  "publication_qc_note": "Comparar com o balanço de Hormozgan EME-021 antes de somar aves.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 69,
+  "title_pt": "Apreensão de fauna — Bandar Lengeh, Hormozgan",
+  "card_text_pt": "Em Bandar Lengeh, a apreensão combinou dois falcões, catorze rolas e apetrechos; como a região foi objeto de balanço mais amplo, é necessário evitar contar as mesmas aves também no total de Hormozgan.",
+  "context_pt": "[O] Em Bandar Lengeh, a apreensão combinou dois falcões, catorze rolas e apetrechos; como a região foi objeto de balanço mais amplo, é necessário evitar contar as mesmas aves também no total de Hormozgan.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] Mehr News / Wona (em persa) — https://wona.ir/news/29lxvw3rg0/%DA%A9%D8%B4%D9%81-%D9%BE%D8%B1%D9%86%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D9%82%D8%A7%DA%86%D8%A7%D9%82-%D8%AF%D8%B1-%D8%A8%D9%86%D8%AF%D8%B1%D9%84%D9%86%DA%AF%D9%87\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Bandar Lengeh, Hormozgan",
+  "card_text_en": "Bandar Lengeh officers reported two falcons, 14 doves and trapping gear. Because a broader Hormozgan roundup covers the region, do not count the same birds twice across records.",
+  "context_en": "[O] Bandar Lengeh officers reported two falcons, 14 doves and trapping gear. Because a broader Hormozgan roundup covers the region, do not count the same birds twice across records.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] Mehr News / Wona (em persa) — https://wona.ir/news/29lxvw3rg0/%DA%A9%D8%B4%D9%81-%D9%BE%D8%B1%D9%86%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D9%82%D8%A7%DA%86%D8%A7%D9%82-%D8%AF%D8%B1-%D8%A8%D9%86%D8%AF%D8%B1%D9%84%D9%86%DA%AF%D9%87\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Bandar Lengeh, Hormozgan",
+  "card_text_es": "En Bandar Lengeh se reportaron dos halcones, 14 tórtolas y equipos de captura; al existir un balance de Hormozgan, hay que evitar duplicar los mismos animales.",
+  "context_es": "[O] En Bandar Lengeh se reportaron dos halcones, 14 tórtolas y equipos de captura; al existir un balance de Hormozgan, hay que evitar duplicar los mismos animales.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] Mehr News / Wona (em persa) — https://wona.ir/news/29lxvw3rg0/%DA%A9%D8%B4%D9%81-%D9%BE%D8%B1%D9%86%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D9%82%D8%A7%DA%86%D8%A7%D9%82-%D8%AF%D8%B1-%D8%A8%D9%86%D8%AF%D8%B1%D9%84%D9%86%DA%AF%D9%87\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://wona.ir/news/29lxvw3rg0/%DA%A9%D8%B4%D9%81-%D9%BE%D8%B1%D9%86%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D9%82%D8%A7%DA%86%D8%A7%D9%82-%D8%AF%D8%B1-%D8%A8%D9%86%D8%AF%D8%B1%D9%84%D9%86%DA%AF%D9%87",
+      "label": "Mehr News / Wona (em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

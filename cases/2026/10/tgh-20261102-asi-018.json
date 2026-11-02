@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-asi-018",
+  "status": "VALIDATED",
+  "country": "Tailandia",
+  "location_label_pt": "Parque Nacional Phu Wiang",
+  "location_label_en": "National Park Phu Wiang",
+  "location_label_es": "Parque Nacional Phu Wiang",
+  "coordinates": {
+    "lat": 16.734926,
+    "lon": 102.285559
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Phu wiang national park, Nai Mueang, Wiang Kao District, Khon Kaen Province, Thailand. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Phu wiang national park, Nai Mueang, Wiang Kao District, Khon Kaen Province, Thailand. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Phu wiang national park, Nai Mueang, Wiang Kao District, Khon Kaen Province, Thailand. No indica la dirección exacta del hecho.",
+  "source_label": "Departamento de Parques Nacionais Tailandia (tailandes)",
+  "source_url": "https://news.dnp.go.th/news/50419",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-26",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Fauna-alvo nao especificada; armamento",
+  "fauna_label_en": "Unspecified target wildlife; hunting equipment",
+  "fauna_label_es": "Fauna objetivo no especificada; equipo de caza",
+  "taxon_text": "Fauna-alvo nao especificada; armamento",
+  "fauna_groups_aggregated": [
+    "Outros"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "19 itens de caca; nenhum animal documentado; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-018",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Ocorrencia apos 23/10; dia exato N/I. Sem apreensao de animais.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 77,
+  "title_pt": "Ocorrência de caça ilegal — Parque Nacional Phu Wiang",
+  "card_text_pt": "A abordagem no Parque Nacional Phu Wiang recolheu arma artesanal e dezenove instrumentos de caça antes de qualquer abate confirmado; o caso documenta antecipação da fiscalização e não perda faunística comprovada.",
+  "context_pt": "[O] A abordagem no Parque Nacional Phu Wiang recolheu arma artesanal e dezenove instrumentos de caça antes de qualquer abate confirmado; o caso documenta antecipação da fiscalização e não perda faunística comprovada.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.\n\n[N] Reportagem sobre patrulhamento no Vietnã reforça o valor da separação entre detecção da atividade, apreensão e destinação das aves.",
+  "references_text_pt": "[O] Departamento de Parques Nacionais Tailandia (tailandes) — https://news.dnp.go.th/news/50419\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] Tech helps Vietnam rangers turn the tide on poaching — https://news.mongabay.com/short-article/2026/07/tech-helps-vietnam-rangers-turn-the-tide-on-poaching/",
+  "title_en": "Illegal hunting incident — National Park Phu Wiang",
+  "card_text_en": "A stop in Phu Wiang National Park recovered a homemade gun and 19 hunting items before confirmed killing; this records preventive interception, not verified wildlife mortality.",
+  "context_en": "[O] A stop in Phu Wiang National Park recovered a homemade gun and 19 hunting items before confirmed killing; this records preventive interception, not verified wildlife mortality.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.\n\n[N] Vietnam patrol reporting highlights separating detection, seizure and animal disposition.",
+  "references_text_en": "[O] Departamento de Parques Nacionais Tailandia (tailandes) — https://news.dnp.go.th/news/50419\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] Tech helps Vietnam rangers turn the tide on poaching — https://news.mongabay.com/short-article/2026/07/tech-helps-vietnam-rangers-turn-the-tide-on-poaching/",
+  "title_es": "Incidente de caza ilegal — Parque Nacional Phu Wiang",
+  "card_text_es": "En Phu Wiang se incautaron arma artesanal y 19 útiles de caza antes de confirmar muertes; es intervención preventiva, no mortalidad faunística comprobada.",
+  "context_es": "[O] En Phu Wiang se incautaron arma artesanal y 19 útiles de caza antes de confirmar muertes; es intervención preventiva, no mortalidad faunística comprobada.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.\n\n[N] El reportaje sobre patrullas en Vietnam subraya separar detección, decomiso y destino de las aves.",
+  "references_text_es": "[O] Departamento de Parques Nacionais Tailandia (tailandes) — https://news.dnp.go.th/news/50419\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] Tech helps Vietnam rangers turn the tide on poaching — https://news.mongabay.com/short-article/2026/07/tech-helps-vietnam-rangers-turn-the-tide-on-poaching/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://news.dnp.go.th/news/50419",
+      "label": "Departamento de Parques Nacionais Tailandia (tailandes)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://news.mongabay.com/short-article/2026/07/tech-helps-vietnam-rangers-turn-the-tide-on-poaching/",
+      "label": "Tech helps Vietnam rangers turn the tide on poaching"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-30T16:56:33.136413Z",
+  "updated_at": "2026-11-02T15:47:15.921679Z",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -13668,6 +13668,346 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tgh-20261102-route-eme-001",
+      "event_match": {
+        "event_id": "tgh-20261102-eme-001"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "mixed_completed_and_planned",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Indonésia → Aeroporto Leipzig/Halle → Albânia",
+      "label_en": "Indonésia → Aeroporto Leipzig/Halle → Albânia",
+      "label_es": "Indonésia → Aeroporto Leipzig/Halle → Albânia",
+      "segments": [
+        {
+          "from": {
+            "name": "Indonésia",
+            "country": "Indonesia",
+            "lat": -3.6,
+            "lon": 119.7,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Indonesia"
+          },
+          "to": {
+            "name": "Aeroporto Leipzig/Halle",
+            "country": "Germany",
+            "lat": 51.42389,
+            "lon": 12.23639,
+            "precision": "airport_generalized",
+            "georeference_source_url": "https://di5l0vjrkfc7a.cloudfront.net/en/flughafen-leipzig/halle/flughafen-leipzig/halle-gmbh/"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        },
+        {
+          "from": {
+            "name": "Aeroporto Leipzig/Halle",
+            "country": "Germany",
+            "lat": 51.42389,
+            "lon": 12.23639,
+            "precision": "airport_generalized",
+            "georeference_source_url": "https://di5l0vjrkfc7a.cloudfront.net/en/flughafen-leipzig/halle/flughafen-leipzig/halle-gmbh/"
+          },
+          "to": {
+            "name": "Albânia",
+            "country": "Albania",
+            "lat": 41.0,
+            "lon": 20.0,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Albania"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Rota documentada: Indonésia → Leipzig/Halle (trânsito) → Albânia (destino pretendido). Verificar identificação taxonômica.",
+      "evidence_en": "A detection dog flagged cargo declared as clothing and textiles; customs found 32 dyed python skins without EU transit papers. Indonesia to Leipzig/Halle was actual carriage, while Albania was the declared, not completed, destination.",
+      "evidence_es": "Un perro detector señaló un envío declarado como ropa y telas; aduanas halló 32 pieles de pitón teñidas sin documentos de tránsito de la UE. Indonesia–Leipzig/Halle fue recorrido efectivo; Albania, destino declarado no confirmado como entrega.",
+      "source_label": "Alfândega alemã / Presseportal",
+      "source_url": "https://www.presseportal.de/blaulicht/pm/121226/6381106"
+    },
+    {
+      "id": "tgh-20261102-route-asb-003",
+      "event_match": {
+        "event_id": "tgh-20261102-asb-003"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Maumere → Porto Jamrud, Surabaya",
+      "label_en": "Maumere → Porto Jamrud, Surabaya",
+      "label_es": "Maumere → Porto Jamrud, Surabaya",
+      "segments": [
+        {
+          "from": {
+            "name": "Maumere",
+            "country": "Indonesia",
+            "lat": -8.6255,
+            "lon": 122.2205,
+            "precision": "city_generalized",
+            "georeference_source_url": "https://mapcarta.com/Maumere"
+          },
+          "to": {
+            "name": "Porto Jamrud, Surabaya",
+            "country": "Indonesia",
+            "lat": -7.19799,
+            "lon": 112.72906,
+            "precision": "port_terminal_generalized",
+            "georeference_source_url": "https://mapcarta.com/W669873129"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Rota documentada: Maumere -> porto de Jamrud, Surabaya. Investigar especie, massa e eventual licenca. Evento distinto de R5B-002.",
+      "evidence_en": "Four boxes held three batches of fins and one of shark gills; the reported route was Maumere to Jamrud port, Surabaya, but species and weight were not established. This is a marine-product traceability case.",
+      "evidence_es": "Cuatro cajas contenían tres lotes de aletas y uno de branquias de tiburón; se reportó Maumere–puerto Jamrud en Surabaya, pero sin especies ni pesos validados. Requiere trazabilidad documental.",
+      "source_label": "ANTARA News (indonesio)",
+      "source_url": "https://ramadhan.antaranews.com/video/5815687/polda-jatim-ungkap-pengiriman-burung-dilindungi-dan-bagian-hiu"
+    },
+    {
+      "id": "tgh-20261102-route-asb-002",
+      "event_match": {
+        "event_id": "tgh-20261102-asb-002"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ilhas Aru → Porto Mayangan, Probolinggo",
+      "label_en": "Ilhas Aru → Porto Mayangan, Probolinggo",
+      "label_es": "Ilhas Aru → Porto Mayangan, Probolinggo",
+      "segments": [
+        {
+          "from": {
+            "name": "Ilhas Aru",
+            "country": "Indonesia",
+            "lat": -6.2,
+            "lon": 134.5,
+            "precision": "archipelago_generalized",
+            "georeference_source_url": "https://www.wikidata.org/wiki/Q16561"
+          },
+          "to": {
+            "name": "Porto Mayangan, Probolinggo",
+            "country": "Indonesia",
+            "lat": -7.73916,
+            "lon": 113.21286,
+            "precision": "district_generalized",
+            "georeference_source_url": "https://mapcarta.com/16152292"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Rota documentada: ilhas Aru, Molucas -> Mayangan/Probolinggo; nao confundir com remessa de produtos de tubarao R5B-003.",
+      "evidence_en": "Protected birds from the Aru Islands were intercepted at Mayangan, Probolinggo. The evidenced inter-island movement points to domestic transport, not an established international export route.",
+      "evidence_es": "Aves protegidas procedentes de las islas Aru fueron interceptadas en Mayangan, Probolinggo. El traslado interinsular documentado es doméstico, no una exportación internacional demostrada.",
+      "source_label": "KilasJatim (indonesio)",
+      "source_url": "https://kilasjatim.com/2026/10/27/polda-jatim-ungkap-4-kasus-dari-satwa-dilindungi-hingga-solar-subsidi/"
+    },
+    {
+      "id": "tgh-20261102-route-asi-003",
+      "event_match": {
+        "event_id": "tgh-20261102-asi-003"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Zâmbia → Porto Laem Chabang",
+      "label_en": "Zâmbia → Porto Laem Chabang",
+      "label_es": "Zâmbia → Porto Laem Chabang",
+      "segments": [
+        {
+          "from": {
+            "name": "Zâmbia",
+            "country": "Zambia",
+            "lat": -13.56,
+            "lon": 28.3,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Zambia"
+          },
+          "to": {
+            "name": "Porto Laem Chabang",
+            "country": "Thailand",
+            "lat": 13.07394,
+            "lon": 100.89876,
+            "precision": "port_generalized",
+            "georeference_source_url": "https://mapcarta.com/W198261241"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Apreensao em 29/09 confirmada por WJC; comunicado DSI publicado em 26/10. Evitar tratar 26/10 como data de apreensao.",
+      "evidence_en": "The 3.1-tonne ivory consignment at Laem Chabang had a declared Zambian origin and was concealed among wood; the October statement reports the 29 September seizure, not a new intercept.",
+      "evidence_es": "Las 3,1 toneladas de marfil en Laem Chabang tenían procedencia declarada de Zambia y ocultamiento en madera; el comunicado de octubre describe el decomiso del 29 de septiembre, no otro evento.",
+      "source_label": "DSI Tailandia; Wildlife Justice Commission",
+      "source_url": "https://www.dsi.go.th/th/Detail/5acd7843505d74ae4ec49ae696eeaac0"
+    },
+    {
+      "id": "tgh-20261102-route-eme-007",
+      "event_match": {
+        "event_id": "tgh-20261102-eme-007"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ucrânia → Canadá",
+      "label_en": "Ucrânia → Canadá",
+      "label_es": "Ucrânia → Canadá",
+      "segments": [
+        {
+          "from": {
+            "name": "Ucrânia",
+            "country": "Ukraine",
+            "lat": 49.0,
+            "lon": 32.0,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Ukraine"
+          },
+          "to": {
+            "name": "Canadá",
+            "country": "Canada",
+            "lat": 56.0,
+            "lon": -101.0,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Canada"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Remessa independente dentro de reportagem que reúne três apreensões (#7–9). Origem e centro de inspeção devem ser confirmados.",
+      "evidence_en": "A mako-shark head in a parcel bound for Canada illustrates postal movement of a marine derivative; confirm species, dispatch point and papers separately from the intended Ukraine–Canada route.",
+      "evidence_es": "Una cabeza de tiburón mako en paquete destinado a Canadá evidencia circulación postal de derivados; especie, ciudad de envío y documentos deben distinguirse de la ruta prevista Ucrania–Canadá.",
+      "source_label": "Blik (em ucraniano)",
+      "source_url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi"
+    },
+    {
+      "id": "tgh-20261102-route-eme-008",
+      "event_match": {
+        "event_id": "tgh-20261102-eme-008"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ucrânia → Canadá",
+      "label_en": "Ucrânia → Canadá",
+      "label_es": "Ucrânia → Canadá",
+      "segments": [
+        {
+          "from": {
+            "name": "Ucrânia",
+            "country": "Ukraine",
+            "lat": 49.0,
+            "lon": 32.0,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Ukraine"
+          },
+          "to": {
+            "name": "Canadá",
+            "country": "Canada",
+            "lat": 56.0,
+            "lon": -101.0,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Canada"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Remessa distinta das #7 e #9; confirmar cidade exata de origem e ponto de apreensão.",
+      "evidence_en": "A taxidermied common buzzard was intercepted in a parcel separate from the shark head and ivory piece. Preserved morphology aids identification; legality also depends on documents and provenance.",
+      "evidence_es": "Se interceptó un ratonero común disecado en envío distinto de la cabeza de tiburón y marfil. La taxidermia permite identificarlo, pero origen y permisos siguen siendo decisivos.",
+      "source_label": "Blik (em ucraniano)",
+      "source_url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi"
+    },
+    {
+      "id": "tgh-20261102-route-eme-009",
+      "event_match": {
+        "event_id": "tgh-20261102-eme-009"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ucrânia → Estados Unidos",
+      "label_en": "Ucrânia → Estados Unidos",
+      "label_es": "Ucrânia → Estados Unidos",
+      "segments": [
+        {
+          "from": {
+            "name": "Ucrânia",
+            "country": "Ukraine",
+            "lat": 49.0,
+            "lon": 32.0,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/Ukraine"
+          },
+          "to": {
+            "name": "Estados Unidos",
+            "country": "United States",
+            "lat": 39.7837,
+            "lon": -100.4459,
+            "precision": "country_generalized",
+            "georeference_source_url": "https://mapcarta.com/United_States"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Remessa distinta das #7 e #8. Rota postal pretendida: Ucrânia → Estados Unidos.",
+      "evidence_en": "One ivory fragment was found in a Ukrainian postal consignment addressed to the United States; one fragment cannot establish the number of elephants or the source country.",
+      "evidence_es": "Se detectó un fragmento de marfil en encomienda postal ucraniana destinada a Estados Unidos; una pieza no permite inferir número de elefantes ni país de extracción.",
+      "source_label": "Blik (em ucraniano)",
+      "source_url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi"
+    },
+    {
+      "id": "tgh-20261102-route-eme-022",
+      "event_match": {
+        "event_id": "tgh-20261102-eme-022"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Gorgan → Shiraz",
+      "label_en": "Gorgan → Shiraz",
+      "label_es": "Gorgan → Shiraz",
+      "segments": [
+        {
+          "from": {
+            "name": "Gorgan",
+            "country": "Iran",
+            "lat": 36.8427,
+            "lon": 54.44391,
+            "precision": "city_generalized",
+            "georeference_source_url": "https://www.geonames.org/132892/gorgan.html"
+          },
+          "to": {
+            "name": "Shiraz",
+            "country": "Iran",
+            "lat": 29.61031,
+            "lon": 52.53113,
+            "precision": "city_generalized",
+            "georeference_source_url": "https://www.geonames.org/115019/sh-r-z.html"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "Verificar espécie e data operacional; percurso Gorgan → Shiraz informado na notícia.",
+      "evidence_en": "Twenty-nine raptors were carried on a bus reportedly travelling from Gorgan to Shiraz and stopped near Bandargaz. The documented route is domestic; no Gulf export is established here.",
+      "evidence_es": "Veintinueve rapaces viajaban en autobús de Gorgan hacia Shiraz, interceptado cerca de Bandargaz. Se documenta recorrido interno, sin exportación hacia el Golfo acreditada.",
+      "source_label": "Comitê de Defesa do Meio Ambiente (em persa)",
+      "source_url": "https://mohitzist.bashariyat.org/?p=54368"
     }
   ],
   "network_context": [

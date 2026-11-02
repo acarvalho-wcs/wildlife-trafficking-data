@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-027",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Hamedan",
+  "location_label_en": "Hamedan",
+  "location_label_es": "Hamedan",
+  "coordinates": {
+    "lat": 34.799289,
+    "lon": 48.515246
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Hamedan, Central District, Hamedan County, Hamadan Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Hamedan, Central District, Hamedan County, Hamadan Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Hamedan, Central District, Hamedan County, Hamadan Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "HRANA (relatório semanal em persa)",
+  "source_url": "https://www.hra-news.org/2026/hranews/a-58368/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Falcão, pombos e pardais",
+  "fauna_label_en": "Falcon, pigeons and sparrows",
+  "fauna_label_es": "Halcón, palomas y gorriones",
+  "taxon_text": "Falcão, pombos e pardais",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 35,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 35
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 + 27 + 7 aves (35 no total); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-027",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Referência de compilação semanal, sem fonte primária recuperada. Verificar as espécies antes de normalizar.",
+  "publication_qc_note": "Relato secundário semanal; falta data operacional e fonte originária individualizada.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 41,
+  "title_pt": "Apreensão de fauna — Hamedan",
+  "card_text_pt": "A apreensão em Hamedan reuniu uma ave de rapina e 34 aves menores; o inventário requer categorias distintas para indivíduo de interesse conservacionista, possíveis iscas e aves mantidas ilegalmente.",
+  "context_pt": "[O] A apreensão em Hamedan reuniu uma ave de rapina e 34 aves menores; o inventário requer categorias distintas para indivíduo de interesse conservacionista, possíveis iscas e aves mantidas ilegalmente.\n\n[S] Entrevistas com profissionais de fiscalização enfatizam inteligência operacional, cooperação e cadeia de custódia para distinguir apreensão localizada de participação comprovada em rede organizada.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Hamedan",
+  "card_text_en": "The Hamedan operation included one raptor and 34 smaller birds; the inventory should separate the protected target from possible bait and other held birds.",
+  "context_en": "[O] The Hamedan operation included one raptor and 34 smaller birds; the inventory should separate the protected target from possible bait and other held birds.\n\n[S] Interviews with enforcement staff stress intelligence, cooperation and chain of custody to distinguish a local seizure from proven organised-network involvement.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Hamedan",
+  "card_text_es": "En Hamedan se reportaron una rapaz y 34 aves pequeñas; el inventario debe separar especie objetivo, posibles señuelos y otras aves retenidas.",
+  "context_es": "[O] En Hamedan se reportaron una rapaz y 34 aves pequeñas; el inventario debe separar especie objetivo, posibles señuelos y otras aves retenidas.\n\n[S] Entrevistas a agentes de control destacan inteligencia, cooperación y cadena de custodia para diferenciar una incautación local de participación acreditada en redes.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.hra-news.org/2026/hranews/a-58368/",
+      "label": "HRANA (relatório semanal em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s12117-026-09588-6",
+      "label": "Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

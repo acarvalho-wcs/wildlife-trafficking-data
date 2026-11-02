@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-asb-006",
+  "status": "VALIDATED",
+  "country": "Hong Kong (China)",
+  "location_label_pt": "Posto fronteirico de Lo Wu",
+  "location_label_en": "Border checkpoint de Lo Wu",
+  "location_label_es": "Puesto fronterizo de Lo Wu",
+  "coordinates": {
+    "lat": 22.52953,
+    "lon": 114.1135
+  },
+  "coordinate_precision": "border_checkpoint_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Lo Wu Control Point, Hong Kong. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Lo Wu Control Point, Hong Kong. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Lo Wu Control Point, Hong Kong. No indica la dirección exacta del hecho.",
+  "source_label": "Hong Kong Customs; 881903 (chines)",
+  "source_url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000555.htm",
+  "georeference_source_url": "https://mapcarta.com/N895312638",
+  "additional_source_url": "https://www.881903.com/news/local/2657295",
+  "event_date": "2026-10-29",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Ave viva protegida pela CITES; identificacao taxonomica pendente",
+  "fauna_label_en": "Live CITES-protected bird; species pending",
+  "fauna_label_es": "Ave viva protegida por CITES; especie pendiente",
+  "taxon_text": "Ave viva protegida pela CITES; identificacao taxonomica pendente",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 ave (valor estimado: HK$ 4.000); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASB-006",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Fonte primaria oficial e fonte complementar em chines. Diferenciar das 8 tartarugas da Rodada 4.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 9,
+  "title_pt": "Apreensão de fauna — Posto fronteirico de Lo Wu",
+  "card_text_pt": "A ave foi localizada em bagagem no ponto de entrada de Lo Wu, fornecendo evidência de tentativa de introdução por passageiro; identificação da espécie e origem devem seguir o comunicado alfandegário, sem confundir esta ocorrência com uma apreensão distinta de tartarugas.",
+  "context_pt": "[O] A ave foi localizada em bagagem no ponto de entrada de Lo Wu, fornecendo evidência de tentativa de introdução por passageiro; identificação da espécie e origem devem seguir o comunicado alfandegário, sem confundir esta ocorrência com uma apreensão distinta de tartarugas.\n\n[S] A análise de países de trânsito mostra que locais de inspeção, origem declarada e destino pretendido cumprem papéis logísticos distintos; rotas exigem documentação caso a caso.",
+  "references_text_pt": "[O] Hong Kong Customs; 881903 (chines) — https://www.info.gov.hk/gia/general/202610/30/P2026103000555.htm\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226",
+  "title_en": "Wildlife seizure — Border checkpoint de Lo Wu",
+  "card_text_en": "A live CITES-listed bird was found in passenger baggage at Lo Wu, evidence of an attempted personal-baggage entry; species and provenance require customs confirmation and this is not the separate turtle seizure.",
+  "context_en": "[O] A live CITES-listed bird was found in passenger baggage at Lo Wu, evidence of an attempted personal-baggage entry; species and provenance require customs confirmation and this is not the separate turtle seizure.\n\n[S] Transit-country research distinguishes inspection points, declared origins and intended destinations; routes require case-level documents.",
+  "references_text_en": "[O] Hong Kong Customs; 881903 (chines) — https://www.info.gov.hk/gia/general/202610/30/P2026103000555.htm\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226",
+  "title_es": "Decomiso de fauna — Puesto fronterizo de Lo Wu",
+  "card_text_es": "Un ave viva incluida en CITES fue encontrada en equipaje de pasajero en Lo Wu; corresponde a un intento de ingreso, no al caso separado de tortugas, y exige verificar especie y procedencia.",
+  "context_es": "[O] Un ave viva incluida en CITES fue encontrada en equipaje de pasajero en Lo Wu; corresponde a un intento de ingreso, no al caso separado de tortugas, y exige verificar especie y procedencia.\n\n[S] El estudio de países de tránsito distingue puntos de inspección, orígenes declarados y destinos previstos; las rutas exigen evidencia particular.",
+  "references_text_es": "[O] Hong Kong Customs; 881903 (chines) — https://www.info.gov.hk/gia/general/202610/30/P2026103000555.htm\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000555.htm",
+      "label": "Hong Kong Customs; 881903 (chines)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1111/cobi.70226",
+      "label": "Role of transit countries in global illegal wildlife trade"
+    }
+  ]
+}

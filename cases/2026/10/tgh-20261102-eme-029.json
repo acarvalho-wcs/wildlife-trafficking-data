@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-029",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Abadan, Khuzestan",
+  "location_label_en": "Abadan, Khuzestan",
+  "location_label_es": "Abadan, Khuzestan",
+  "coordinates": {
+    "lat": 30.36361,
+    "lon": 48.259147
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Abadan, بخش مرکزی شهرستان آبادان, Abadan County, Khuzestan Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Abadan, بخش مرکزی شهرستان آبادان, Abadan County, Khuzestan Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Abadan, بخش مرکزی شهرستان آبادان, Abadan County, Khuzestan Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "HRANA (relatório semanal em persa)",
+  "source_url": "https://www.hra-news.org/2026/hranews/a-58368/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Falcões, tartaranhão e outras aves",
+  "fauna_label_en": "Falcons, harrier and other birds",
+  "fauna_label_es": "Halcones, aguilucho y otras aves",
+  "taxon_text": "Falcões, tartaranhão e outras aves",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 18,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 18
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 + 1 + 15 aves (18 no total); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-029",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Referência de compilação semanal. Confirmar se 15 aves adicionais são distintas das três aves de rapina.",
+  "publication_qc_note": "Relato secundário semanal; falta data operacional e fonte originária individualizada.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 43,
+  "title_pt": "Apreensão de fauna — Abadan, Khuzestan",
+  "card_text_pt": "Em Abadan foram relatados dois pequenos falcões, um tartaranhão e quinze aves adicionais; os dispositivos desmontados são indicadores de infraestrutura de captura. O total de indivíduos só é confiável mantendo a distinção por grupo.",
+  "context_pt": "[O] Em Abadan foram relatados dois pequenos falcões, um tartaranhão e quinze aves adicionais; os dispositivos desmontados são indicadores de infraestrutura de captura. O total de indivíduos só é confiável mantendo a distinção por grupo.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Abadan, Khuzestan",
+  "card_text_en": "Abadan authorities reported two small falcons, one harrier and 15 other birds, together with dismantled trapping structures. The separate taxonomic group counts protect against double counting.",
+  "context_en": "[O] Abadan authorities reported two small falcons, one harrier and 15 other birds, together with dismantled trapping structures. The separate taxonomic group counts protect against double counting.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Abadan, Khuzestan",
+  "card_text_es": "En Abadán se reportaron dos halcones, un aguilucho y otras 15 aves, además de estructuras de captura desmontadas. El desglose taxonómico evita duplicaciones.",
+  "context_es": "[O] En Abadán se reportaron dos halcones, un aguilucho y otras 15 aves, además de estructuras de captura desmontadas. El desglose taxonómico evita duplicaciones.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.hra-news.org/2026/hranews/a-58368/",
+      "label": "HRANA (relatório semanal em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

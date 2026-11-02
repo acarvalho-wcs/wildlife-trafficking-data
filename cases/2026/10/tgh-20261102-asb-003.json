@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-asb-003",
+  "status": "VALIDATED",
+  "country": "Indonesia",
+  "location_label_pt": "Porto de Jamrud, Surabaya, Java Oriental",
+  "location_label_en": "Port of Jamrud, Surabaya, Java Oriental",
+  "location_label_es": "Puerto de Jamrud, Surabaya, Java Oriental",
+  "coordinates": {
+    "lat": -7.19799,
+    "lon": 112.72906
+  },
+  "coordinate_precision": "port_terminal_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Terminal Jamrud, Tanjung Perak Port, Surabaya, Indonesia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Terminal Jamrud, Tanjung Perak Port, Surabaya, Indonesia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Terminal Jamrud, Tanjung Perak Port, Surabaya, Indonesia. No indica la dirección exacta del hecho.",
+  "source_label": "ANTARA News (indonesio)",
+  "source_url": "https://ramadhan.antaranews.com/video/5815687/polda-jatim-ungkap-pengiriman-burung-dilindungi-dan-bagian-hiu",
+  "georeference_source_url": "https://mapcarta.com/W669873129",
+  "additional_source_url": "https://kilasjatim.com/2026/10/27/polda-jatim-ungkap-4-kasus-dari-satwa-dilindungi-hingga-solar-subsidi/",
+  "event_date": "2026-10-16",
+  "publication_date": "2026-10-27",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Tubarao; barbatanas secas e brânquias",
+  "fauna_label_en": "Dried shark fins and gills",
+  "fauna_label_es": "Aletas y branquias secas de tiburón",
+  "taxon_text": "Tubarao; barbatanas secas e brânquias",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Marítimo",
+  "modal_label_pt": "Marítimo",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "4 caixas: 3 de barbatanas; 1 de brânquias; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASB-003",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Rota documentada: Maumere -> porto de Jamrud, Surabaya. Investigar especie, massa e eventual licenca. Evento distinto de R5B-002.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 27,
+  "title_pt": "Apreensão de fauna — Porto de Jamrud, Surabaya, Java Oriental",
+  "card_text_pt": "As quatro caixas continham três lotes de barbatanas e um de brânquias de tubarão; o trecho Maumere–porto de Jamrud em Surabaya foi reportado, mas a massa e espécies não foram identificadas. O caso pede rastreabilidade documental de produto marinho.",
+  "context_pt": "[O] As quatro caixas continham três lotes de barbatanas e um de brânquias de tubarão; o trecho Maumere–porto de Jamrud em Surabaya foi reportado, mas a massa e espécies não foram identificadas. O caso pede rastreabilidade documental de produto marinho.\n\n[S] Pesquisa com tomografia e detecção automática de barbatanas evidencia o desafio de reconhecer derivados marinhos em cargas e bagagens; a classificação depende de confirmação taxonômica.\n\n[N] Reportagem científica ilustra a importância de identificar espécies de tubarões e associar a fiscalização a evidências biológicas.",
+  "references_text_pt": "[O] ANTARA News (indonesio) — https://ramadhan.antaranews.com/video/5815687/polda-jatim-ungkap-pengiriman-burung-dilindungi-dan-bagian-hiu\n[S] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978\n[N] How Brazilian Scientists Are Revealing The Hidden Threats Facing Sharks — https://www.forbes.com/sites/melissacristinamarquez/2026/10/04/how-brazilian-scientists-are-revealing-the-hidden-threats-facing-sharks/",
+  "title_en": "Wildlife seizure — Port of Jamrud, Surabaya, Java Oriental",
+  "card_text_en": "Four boxes held three batches of fins and one of shark gills; the reported route was Maumere to Jamrud port, Surabaya, but species and weight were not established. This is a marine-product traceability case.",
+  "context_en": "[O] Four boxes held three batches of fins and one of shark gills; the reported route was Maumere to Jamrud port, Surabaya, but species and weight were not established. This is a marine-product traceability case.\n\n[S] Tomography research on automatic shark-fin detection illustrates the difficulty of identifying marine derivatives in cargo; taxonomic confirmation remains necessary.\n\n[N] Science reporting illustrates the importance of shark species identification and biological evidence.",
+  "references_text_en": "[O] ANTARA News (indonesio) — https://ramadhan.antaranews.com/video/5815687/polda-jatim-ungkap-pengiriman-burung-dilindungi-dan-bagian-hiu\n[S] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978\n[N] How Brazilian Scientists Are Revealing The Hidden Threats Facing Sharks — https://www.forbes.com/sites/melissacristinamarquez/2026/10/04/how-brazilian-scientists-are-revealing-the-hidden-threats-facing-sharks/",
+  "title_es": "Decomiso de fauna — Puerto de Jamrud, Surabaya, Java Oriental",
+  "card_text_es": "Cuatro cajas contenían tres lotes de aletas y uno de branquias de tiburón; se reportó Maumere–puerto Jamrud en Surabaya, pero sin especies ni pesos validados. Requiere trazabilidad documental.",
+  "context_es": "[O] Cuatro cajas contenían tres lotes de aletas y uno de branquias de tiburón; se reportó Maumere–puerto Jamrud en Surabaya, pero sin especies ni pesos validados. Requiere trazabilidad documental.\n\n[S] Un estudio de tomografía para reconocer aletas de tiburón ilustra las dificultades de identificar derivados marinos en cargas; se requiere confirmación taxonómica.\n\n[N] El reportaje científico destaca la identificación de especies de tiburón y la evidencia biológica.",
+  "references_text_es": "[O] ANTARA News (indonesio) — https://ramadhan.antaranews.com/video/5815687/polda-jatim-ungkap-pengiriman-burung-dilindungi-dan-bagian-hiu\n[S] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978\n[N] How Brazilian Scientists Are Revealing The Hidden Threats Facing Sharks — https://www.forbes.com/sites/melissacristinamarquez/2026/10/04/how-brazilian-scientists-are-revealing-the-hidden-threats-facing-sharks/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://ramadhan.antaranews.com/video/5815687/polda-jatim-ungkap-pengiriman-burung-dilindungi-dan-bagian-hiu",
+      "label": "ANTARA News (indonesio)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/focsu.2026.1776978",
+      "label": "Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.forbes.com/sites/melissacristinamarquez/2026/10/04/how-brazilian-scientists-are-revealing-the-hidden-threats-facing-sharks/",
+      "label": "How Brazilian Scientists Are Revealing The Hidden Threats Facing Sharks"
+    }
+  ]
+}

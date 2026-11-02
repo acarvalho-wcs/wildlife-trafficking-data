@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-asi-014",
+  "status": "VALIDATED",
+  "country": "China",
+  "location_label_pt": "Longhui, Hunan",
+  "location_label_en": "Longhui, Hunan",
+  "location_label_es": "Longhui, Hunan",
+  "coordinates": {
+    "lat": 27.317715,
+    "lon": 110.989693
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Longhui County, Shaoyang, Hunan, China. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Longhui County, Shaoyang, Hunan, China. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Longhui County, Shaoyang, Hunan, China. No indica la dirección exacta del hecho.",
+  "source_label": "Hunan Chang'an (chines)",
+  "source_url": "https://www.hnzf.gov.cn/content/646054/62/16417848.html",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-15",
+  "publication_date": "2026-10-28",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres; carcaças",
+  "fauna_label_en": "Wild bird carcasses",
+  "fauna_label_es": "Cadáveres de aves silvestres",
+  "taxon_text": "Aves silvestres; carcaças",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Dezenas; numero exato N/I; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-014",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Nao converter dezenas para valor numerico exato.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 28,
+  "title_pt": "Ocorrência de caça ilegal — Longhui, Hunan",
+  "card_text_pt": "A presença conjunta de carcaças de aves, estilingue e munição de aço dá suporte à hipótese de abate por projéteis; a expressão “dezenas” não permite converter o registro em quantidade exata.",
+  "context_pt": "[O] A presença conjunta de carcaças de aves, estilingue e munição de aço dá suporte à hipótese de abate por projéteis; a expressão “dezenas” não permite converter o registro em quantidade exata.\n\n[S] O levantamento de 178 espécies de aves anunciadas em redes chinesas demonstra a variedade de canais de oferta; uma apreensão local deve ser ligada a mercados digitais somente com evidência específica.\n\n[N] Investigação publicada na China descreve etapas de coleta, intermediários e circulação de aves; um caso individual não comprova pertencimento à mesma rede.",
+  "references_text_pt": "[O] Hunan Chang'an (chines) — https://www.hnzf.gov.cn/content/646054/62/16417848.html\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "title_en": "Illegal hunting incident — Longhui, Hunan",
+  "card_text_en": "Bird carcasses, a slingshot and steel pellets support an illicit hunting interpretation, but the report's phrase 'dozens' cannot be converted to an exact specimen count.",
+  "context_en": "[O] Bird carcasses, a slingshot and steel pellets support an illicit hunting interpretation, but the report's phrase 'dozens' cannot be converted to an exact specimen count.\n\n[S] A study documenting 178 bird species in Chinese social-media offers shows diverse marketing channels; a local seizure needs case-specific evidence before linking it to online trade.\n\n[N] A Chinese investigation describes bird collection, brokers and movement; an individual incident does not prove membership in that network.",
+  "references_text_en": "[O] Hunan Chang'an (chines) — https://www.hnzf.gov.cn/content/646054/62/16417848.html\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "title_es": "Incidente de caza ilegal — Longhui, Hunan",
+  "card_text_es": "Los cadáveres de aves, tirachinas y perdigones de acero apoyan el contexto de caza ilícita, pero 'decenas' no equivale a un número exacto.",
+  "context_es": "[O] Los cadáveres de aves, tirachinas y perdigones de acero apoyan el contexto de caza ilícita, pero 'decenas' no equivale a un número exacto.\n\n[S] Un estudio de 178 especies de aves anunciadas en redes chinas muestra la diversidad de canales; vincular un decomiso local con internet exige pruebas específicas.\n\n[N] Una investigación china describe captura, intermediarios y distribución de aves; un caso no acredita pertenencia a esa red.",
+  "references_text_es": "[O] Hunan Chang'an (chines) — https://www.hnzf.gov.cn/content/646054/62/16417848.html\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.hnzf.gov.cn/content/646054/62/16417848.html",
+      "label": "Hunan Chang'an (chines)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1002/inc3.70053",
+      "label": "Characterizing China’s Illegal Trade in Avifauna on Social Media"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+      "label": "Chinese investigation reconstructs yellow-breasted bunting trafficking network"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-r09-014",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "location_label_pt": "Cordoba (cinco localidades)",
+  "location_label_en": "Cordoba (five localities)",
+  "location_label_es": "Cordoba (cinco localidades)",
+  "coordinates": {
+    "lat": -31.384943,
+    "lon": -64.076498
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Gran Córdoba, Cordoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Gran Córdoba, Cordoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Gran Córdoba, Cordoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina. No indica la dirección exacta del hecho.",
+  "source_label": "Puntal Villa Maria",
+  "source_url": "https://www.puntalvillamaria.com.ar/detencion/detuvieron-10-personas-y-rescataron-36-animales-operativos-rurales-n267359",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres; caes galgos utilizados em caca",
+  "fauna_label_en": "Wild birds; greyhounds used in hunting",
+  "fauna_label_es": "Aves silvestres; galgos utilizados para cazar",
+  "taxon_text": "Aves silvestres; caes galgos utilizados em caca",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 20,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 20
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "20 aves e 16 caes galgos (36 animais de grupos distintos); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": true,
+  "exclude_from_totals": true,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-014",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Cinco operacoes agrupadas e sem datas locais individualizadas. Nao contar os 16 caes domesticos como fauna silvestre apreendida. Verificar sobreposicao com La Falda.",
+  "publication_qc_note": "Cinco ações agregadas; comparar locais/datas com R09-013, La Falda.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 60,
+  "title_pt": "Ocorrência de caça ilegal — Cordoba (cinco localidades)",
+  "card_text_pt": "O balanço rural cordobês agrega cinco localidades, 20 aves silvestres e 16 cães galgos empregados em caça; os dez envolvidos e os animais domésticos exigem contagens separadas. Comparar lugares e datas com o registro pontual de La Falda antes de evitar sobreposição.",
+  "context_pt": "[O] O balanço rural cordobês agrega cinco localidades, 20 aves silvestres e 16 cães galgos empregados em caça; os dez envolvidos e os animais domésticos exigem contagens separadas. Comparar lugares e datas com o registro pontual de La Falda antes de evitar sobreposição.\n\n[S] O monitoramento de grupos digitais na Argentina registrou oferta ilegal persistente de aves; a posse e a captura locais são parte do contexto de demanda, sem demonstrar automaticamente comércio online neste evento.\n\n[N] A reportagem regional discute demanda por aves canoras e ovos de rapinantes, oferecendo comparação de mercado para ocorrências de captura doméstica.",
+  "references_text_pt": "[O] Puntal Villa Maria — https://www.puntalvillamaria.com.ar/detencion/detuvieron-10-personas-y-rescataron-36-animales-operativos-rurales-n267359\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_en": "Illegal hunting incident — Cordoba (five localities)",
+  "card_text_en": "The Córdoba rural roundup pools five sites, 20 wild birds and 16 domestic greyhounds used in hunting. Count people, domestic dogs and wild birds separately and compare sites/dates with La Falda.",
+  "context_en": "[O] The Córdoba rural roundup pools five sites, 20 wild birds and 16 domestic greyhounds used in hunting. Count people, domestic dogs and wild birds separately and compare sites/dates with La Falda.\n\n[S] Monitoring of Argentine online groups found persistent illegal bird offers; local capture and possession are relevant market context, not proof of online trade in this incident.\n\n[N] Regional reporting discusses songbird and raptor-egg demand as market context for local capture incidents.",
+  "references_text_en": "[O] Puntal Villa Maria — https://www.puntalvillamaria.com.ar/detencion/detuvieron-10-personas-y-rescataron-36-animales-operativos-rurales-n267359\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_es": "Incidente de caza ilegal — Cordoba (cinco localidades)",
+  "card_text_es": "El balance rural de Córdoba agrupa cinco localidades, 20 aves silvestres y 16 galgos domésticos; personas, perros y aves requieren categorías separadas y cotejo con La Falda.",
+  "context_es": "[O] El balance rural de Córdoba agrupa cinco localidades, 20 aves silvestres y 16 galgos domésticos; personas, perros y aves requieren categorías separadas y cotejo con La Falda.\n\n[S] El seguimiento de grupos digitales argentinos registró oferta ilegal persistente de aves; captura y tenencia local son contexto de demanda, no prueba de venta digital en este hecho.\n\n[N] El reportaje regional analiza demanda de aves canoras y huevos de rapaces como contexto para capturas locales.",
+  "references_text_es": "[O] Puntal Villa Maria — https://www.puntalvillamaria.com.ar/detencion/detuvieron-10-personas-y-rescataron-36-animales-operativos-rurales-n267359\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.puntalvillamaria.com.ar/detencion/detuvieron-10-personas-y-rescataron-36-animales-operativos-rurales-n267359",
+      "label": "Puntal Villa Maria"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+      "label": "Theft of songbirds and raptor eggs fuels Latin American wildlife markets"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-r09-017",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "location_label_pt": "Rodeo del Medio, Maipu, Mendoza",
+  "location_label_en": "Rodeo del Medio, Maipu, Mendoza",
+  "location_label_es": "Rodeo del Medio, Maipu, Mendoza",
+  "coordinates": {
+    "lat": -32.993188,
+    "lon": -68.686036
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Distrito Rodeo del Medio, Departamento Maipú, Mendoza, Argentina. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Distrito Rodeo del Medio, Departamento Maipú, Mendoza, Argentina. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Distrito Rodeo del Medio, Departamento Maipú, Mendoza, Argentina. No indica la dirección exacta del hecho.",
+  "source_label": "Los Andes",
+  "source_url": "https://www.losandes.com.ar/policiales/rescataron-16-aves-silvestres-un-patrullaje-preventivo-maipu-n6012336",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres (especies a confirmar)",
+  "fauna_label_en": "Wild birds; species pending",
+  "fauna_label_es": "Aves silvestres; especies pendientes",
+  "taxon_text": "Aves silvestres (especies a confirmar)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 16,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 16
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "16 aves e 4 armadilhas; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-017",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Publicacao da semana; data exata da apreensao nao individualizada.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 63,
+  "title_pt": "Apreensão de fauna — Rodeo del Medio, Maipu, Mendoza",
+  "card_text_pt": "O patrulhamento em Rodeo del Medio localizou 16 aves silvestres e quatro armadilhas; o registro é relevante para detectar captura local e abastecimento doméstico, sem compradores ou trajetos de revenda identificados.",
+  "context_pt": "[O] O patrulhamento em Rodeo del Medio localizou 16 aves silvestres e quatro armadilhas; o registro é relevante para detectar captura local e abastecimento doméstico, sem compradores ou trajetos de revenda identificados.\n\n[S] O monitoramento de grupos digitais na Argentina registrou oferta ilegal persistente de aves; a posse e a captura locais são parte do contexto de demanda, sem demonstrar automaticamente comércio online neste evento.\n\n[N] A reportagem regional discute demanda por aves canoras e ovos de rapinantes, oferecendo comparação de mercado para ocorrências de captura doméstica.",
+  "references_text_pt": "[O] Los Andes — https://www.losandes.com.ar/policiales/rescataron-16-aves-silvestres-un-patrullaje-preventivo-maipu-n6012336\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_en": "Wildlife seizure — Rodeo del Medio, Maipu, Mendoza",
+  "card_text_en": "A preventive patrol in Rodeo del Medio recovered 16 wild birds and four traps, indicating local capture activity without identified buyers or resale routes.",
+  "context_en": "[O] A preventive patrol in Rodeo del Medio recovered 16 wild birds and four traps, indicating local capture activity without identified buyers or resale routes.\n\n[S] Monitoring of Argentine online groups found persistent illegal bird offers; local capture and possession are relevant market context, not proof of online trade in this incident.\n\n[N] Regional reporting discusses songbird and raptor-egg demand as market context for local capture incidents.",
+  "references_text_en": "[O] Los Andes — https://www.losandes.com.ar/policiales/rescataron-16-aves-silvestres-un-patrullaje-preventivo-maipu-n6012336\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_es": "Decomiso de fauna — Rodeo del Medio, Maipu, Mendoza",
+  "card_text_es": "Una patrulla en Rodeo del Medio recuperó 16 aves silvestres y cuatro trampas, indicador de captura local sin compradores ni rutas comerciales identificados.",
+  "context_es": "[O] Una patrulla en Rodeo del Medio recuperó 16 aves silvestres y cuatro trampas, indicador de captura local sin compradores ni rutas comerciales identificados.\n\n[S] El seguimiento de grupos digitales argentinos registró oferta ilegal persistente de aves; captura y tenencia local son contexto de demanda, no prueba de venta digital en este hecho.\n\n[N] El reportaje regional analiza demanda de aves canoras y huevos de rapaces como contexto para capturas locales.",
+  "references_text_es": "[O] Los Andes — https://www.losandes.com.ar/policiales/rescataron-16-aves-silvestres-un-patrullaje-preventivo-maipu-n6012336\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.losandes.com.ar/policiales/rescataron-16-aves-silvestres-un-patrullaje-preventivo-maipu-n6012336",
+      "label": "Los Andes"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+      "label": "Theft of songbirds and raptor eggs fuels Latin American wildlife markets"
+    }
+  ]
+}

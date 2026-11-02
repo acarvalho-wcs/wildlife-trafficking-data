@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-007",
+  "status": "VALIDATED",
+  "country": "Ucrânia",
+  "location_label_pt": "Odessa / Kiev",
+  "location_label_en": "Odessa / Kiev",
+  "location_label_es": "Odessa / Kiev",
+  "coordinates": {
+    "lat": 46.484302,
+    "lon": 30.732288
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Odesa, Odesa Urban Hromada, Odesa Raion, Odesa Oblast, Ukraine. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Odesa, Odesa Urban Hromada, Odesa Raion, Odesa Oblast, Ukraine. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Odesa, Odesa Urban Hromada, Odesa Raion, Odesa Oblast, Ukraine. No indica la dirección exacta del hecho.",
+  "source_label": "Blik (em ucraniano)",
+  "source_url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Tubarão-mako (*Isurus* sp.); cabeça",
+  "fauna_label_en": "Mako shark (*Isurus* sp.), head",
+  "fauna_label_es": "Tiburón marrajo (*Isurus* sp.), cabeza",
+  "taxon_text": "Tubarão-mako (*Isurus* sp.); cabeça",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Postal",
+  "modal_label_pt": "Postal",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Peixes": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 cabeça; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-007",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Remessa independente dentro de reportagem que reúne três apreensões (#7–9). Origem e centro de inspeção devem ser confirmados.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 49,
+  "title_pt": "Apreensão de fauna — Odessa / Kiev",
+  "card_text_pt": "A cabeça de tubarão-mako enviada por encomenda a destinatário canadense evidencia circulação postal de parte de animal marinho; espécie exata, cidade de despacho e documentação precisam ser mantidas como campos distintos da rota pretendida Ucrânia–Canadá.",
+  "context_pt": "[O] A cabeça de tubarão-mako enviada por encomenda a destinatário canadense evidencia circulação postal de parte de animal marinho; espécie exata, cidade de despacho e documentação precisam ser mantidas como campos distintos da rota pretendida Ucrânia–Canadá.\n\n[S] Pesquisa com tomografia e detecção automática de barbatanas evidencia o desafio de reconhecer derivados marinhos em cargas e bagagens; a classificação depende de confirmação taxonômica.\n\n[N] Reportagem sobre fronteiras canadenses discute desafios de verificação de origem e conformidade de espécies importadas, útil ao analisar encomendas internacionais.",
+  "references_text_pt": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978\n[N] Enforcement gaps in Canada’s international wildlife trade — https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+  "title_en": "Wildlife seizure — Odessa / Kiev",
+  "card_text_en": "A mako-shark head in a parcel bound for Canada illustrates postal movement of a marine derivative; confirm species, dispatch point and papers separately from the intended Ukraine–Canada route.",
+  "context_en": "[O] A mako-shark head in a parcel bound for Canada illustrates postal movement of a marine derivative; confirm species, dispatch point and papers separately from the intended Ukraine–Canada route.\n\n[S] Tomography research on automatic shark-fin detection illustrates the difficulty of identifying marine derivatives in cargo; taxonomic confirmation remains necessary.\n\n[N] Reporting on Canadian borders discusses provenance and compliance checks for imported wildlife in international parcels.",
+  "references_text_en": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978\n[N] Enforcement gaps in Canada’s international wildlife trade — https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+  "title_es": "Decomiso de fauna — Odessa / Kiev",
+  "card_text_es": "Una cabeza de tiburón mako en paquete destinado a Canadá evidencia circulación postal de derivados; especie, ciudad de envío y documentos deben distinguirse de la ruta prevista Ucrania–Canadá.",
+  "context_es": "[O] Una cabeza de tiburón mako en paquete destinado a Canadá evidencia circulación postal de derivados; especie, ciudad de envío y documentos deben distinguirse de la ruta prevista Ucrania–Canadá.\n\n[S] Un estudio de tomografía para reconocer aletas de tiburón ilustra las dificultades de identificar derivados marinos en cargas; se requiere confirmación taxonómica.\n\n[N] El reportaje sobre fronteras canadienses examina verificación de procedencia y cumplimiento de importaciones.",
+  "references_text_es": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers — https://doi.org/10.3389/focsu.2026.1776978\n[N] Enforcement gaps in Canada’s international wildlife trade — https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi",
+      "label": "Blik (em ucraniano)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/focsu.2026.1776978",
+      "label": "Marine wildlife trafficking: use of AI algorithms for the autodetection of shark fins, seahorses and sea cucumbers"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+      "label": "Enforcement gaps in Canada’s international wildlife trade"
+    }
+  ]
+}

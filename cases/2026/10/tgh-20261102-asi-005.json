@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asi-005",
+  "status": "VALIDATED",
+  "country": "China",
+  "location_label_pt": "Yuci, Shanxi",
+  "location_label_en": "Yuci, Shanxi",
+  "location_label_es": "Yuci, Shanxi",
+  "coordinates": {
+    "lat": 37.617838,
+    "lon": 112.846727
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Yuci District, Jinzhong City, Shanxi, 030031, China. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Yuci District, Jinzhong City, Shanxi, 030031, China. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Yuci District, Jinzhong City, Shanxi, 030031, China. No indica la dirección exacta del hecho.",
+  "source_label": "Beijing News (chines)",
+  "source_url": "https://www.bjnews.com.cn/detail/1793010400129373.html",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-15",
+  "publication_date": "2026-10-26",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres; inclui Emberiza aureola",
+  "fauna_label_en": "Wild birds, including *Emberiza aureola*",
+  "fauna_label_es": "Aves silvestres, incluido *Emberiza aureola*",
+  "taxon_text": "Aves silvestres; inclui Emberiza aureola",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 201,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 201
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "201; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-005",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Nao somar libertacao como nova apreensao.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 29,
+  "title_pt": "Apreensão de fauna — Yuci, Shanxi",
+  "card_text_pt": "A apreensão doméstica de 201 aves e sua soltura posterior pertencem ao mesmo evento, associado à suspeita de captura e comercialização na região de Yuci; a soltura não gera novo registro operacional.",
+  "context_pt": "[O] A apreensão doméstica de 201 aves e sua soltura posterior pertencem ao mesmo evento, associado à suspeita de captura e comercialização na região de Yuci; a soltura não gera novo registro operacional.\n\n[S] O levantamento de 178 espécies de aves anunciadas em redes chinesas demonstra a variedade de canais de oferta; uma apreensão local deve ser ligada a mercados digitais somente com evidência específica.\n\n[N] Investigação publicada na China descreve etapas de coleta, intermediários e circulação de aves; um caso individual não comprova pertencimento à mesma rede.",
+  "references_text_pt": "[O] Beijing News (chines) — https://www.bjnews.com.cn/detail/1793010400129373.html\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "title_en": "Wildlife seizure — Yuci, Shanxi",
+  "card_text_en": "The 201 birds found at a residence and their later release belong to one Yuci investigation into suspected capture and sale; release is not a second seizure.",
+  "context_en": "[O] The 201 birds found at a residence and their later release belong to one Yuci investigation into suspected capture and sale; release is not a second seizure.\n\n[S] A study documenting 178 bird species in Chinese social-media offers shows diverse marketing channels; a local seizure needs case-specific evidence before linking it to online trade.\n\n[N] A Chinese investigation describes bird collection, brokers and movement; an individual incident does not prove membership in that network.",
+  "references_text_en": "[O] Beijing News (chines) — https://www.bjnews.com.cn/detail/1793010400129373.html\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "title_es": "Decomiso de fauna — Yuci, Shanxi",
+  "card_text_es": "Las 201 aves halladas en vivienda y su posterior liberación pertenecen a una sola investigación en Yuci sobre captura y venta; la suelta no constituye otro decomiso.",
+  "context_es": "[O] Las 201 aves halladas en vivienda y su posterior liberación pertenecen a una sola investigación en Yuci sobre captura y venta; la suelta no constituye otro decomiso.\n\n[S] Un estudio de 178 especies de aves anunciadas en redes chinas muestra la diversidad de canales; vincular un decomiso local con internet exige pruebas específicas.\n\n[N] Una investigación china describe captura, intermediarios y distribución de aves; un caso no acredita pertenencia a esa red.",
+  "references_text_es": "[O] Beijing News (chines) — https://www.bjnews.com.cn/detail/1793010400129373.html\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.bjnews.com.cn/detail/1793010400129373.html",
+      "label": "Beijing News (chines)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1002/inc3.70053",
+      "label": "Characterizing China’s Illegal Trade in Avifauna on Social Media"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+      "label": "Chinese investigation reconstructs yellow-breasted bunting trafficking network"
+    }
+  ]
+}

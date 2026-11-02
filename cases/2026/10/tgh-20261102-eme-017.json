@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-eme-017",
+  "status": "VALIDATED",
+  "country": "Rússia",
+  "location_label_pt": "Território de Altai",
+  "location_label_en": "Territory of Altai",
+  "location_label_es": "Territorio de Altai",
+  "coordinates": {
+    "lat": 52.693224,
+    "lon": 82.693142
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Altai Krai, Siberian Federal District, Russia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Altai Krai, Siberian Federal District, Russia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Altai Krai, Siberian Federal District, Russia. No indica la dirección exacta del hecho.",
+  "source_label": "Faunora (em russo)",
+  "source_url": "https://faunora.ru/news/v-altayskom-krae-izyali-okolo-sotni-2026-10-29",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Falcões-sacre e falcões-peregrinos; aves vivas",
+  "fauna_label_en": "Saker and peregrine falcons; live birds",
+  "fauna_label_es": "Halcones sacres y peregrinos; aves vivas",
+  "taxon_text": "Falcões-sacre e falcões-peregrinos; aves vivas",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "cerca de 100 aves; 3 em investigação de 2025; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-017",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Confirmar se retirada de criadouro é efetivamente apreensão penal. Não somar 3 aves históricas às ~100 retiradas em 2026.",
+  "publication_qc_note": "Separar retirada de ~100 aves no criadouro da investigação histórica de 3 falcões.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 52,
+  "title_pt": "Ocorrência envolvendo fauna — Território de Altai",
+  "card_text_pt": "A retirada de cerca de cem aves de rapina de estabelecimento no Altai integra fiscalização de criadouro com ligações comerciais declaradas aos Emirados Árabes Unidos; a investigação de três falcões contrabandeados em 2025 é antecedente jurídico separado, não mais três aves apreendidas agora.",
+  "context_pt": "[O] A retirada de cerca de cem aves de rapina de estabelecimento no Altai integra fiscalização de criadouro com ligações comerciais declaradas aos Emirados Árabes Unidos; a investigação de três falcões contrabandeados em 2025 é antecedente jurídico separado, não mais três aves apreendidas agora.\n\n[S] Entrevistas com profissionais de fiscalização enfatizam inteligência operacional, cooperação e cadeia de custódia para distinguir apreensão localizada de participação comprovada em rede organizada.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] Faunora (em russo) — https://faunora.ru/news/v-altayskom-krae-izyali-okolo-sotni-2026-10-29\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife-related incident — Territory of Altai",
+  "card_text_en": "Approximately 100 raptors were removed from an Altai breeding facility reportedly connected with UAE exports; a separate investigation into three falcons in 2025 is historical background, not three more birds seized in 2026.",
+  "context_en": "[O] Approximately 100 raptors were removed from an Altai breeding facility reportedly connected with UAE exports; a separate investigation into three falcons in 2025 is historical background, not three more birds seized in 2026.\n\n[S] Interviews with enforcement staff stress intelligence, cooperation and chain of custody to distinguish a local seizure from proven organised-network involvement.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] Faunora (em russo) — https://faunora.ru/news/v-altayskom-krae-izyali-okolo-sotni-2026-10-29\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Incidente relacionado con fauna — Territorio de Altai",
+  "card_text_es": "Se retiraron unas cien rapaces de criadero en Altái vinculado a exportaciones a Emiratos; una investigación por tres halcones en 2025 es antecedente separado, no otros tres individuos incautados en 2026.",
+  "context_es": "[O] Se retiraron unas cien rapaces de criadero en Altái vinculado a exportaciones a Emiratos; una investigación por tres halcones en 2025 es antecedente separado, no otros tres individuos incautados en 2026.\n\n[S] Entrevistas a agentes de control destacan inteligencia, cooperación y cadena de custodia para diferenciar una incautación local de participación acreditada en redes.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] Faunora (em russo) — https://faunora.ru/news/v-altayskom-krae-izyali-okolo-sotni-2026-10-29\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://faunora.ru/news/v-altayskom-krae-izyali-okolo-sotni-2026-10-29",
+      "label": "Faunora (em russo)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s12117-026-09588-6",
+      "label": "Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-r09-009",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "location_label_pt": "Imperatriz, Maranhao",
+  "location_label_en": "Imperatriz, Maranhao",
+  "location_label_es": "Imperatriz, Maranhao",
+  "coordinates": {
+    "lat": -5.526928,
+    "lon": -47.478115
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Imperatriz, Maranhão, Northeast Region, Brazil. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Imperatriz, Maranhão, Northeast Region, Brazil. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Imperatriz, Maranhão, Northeast Region, Brazil. No indica la dirección exacta del hecho.",
+  "source_label": "Difusora News",
+  "source_url": "https://difusoranews.com/madeira-e-apreendida-e-animais-sao-resgatados-no-interior-do-ma/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-29",
+  "publication_date": "2026-10-29",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres (especies nao individualizadas)",
+  "fauna_label_en": "Wild birds; species unspecified",
+  "fauna_label_es": "Aves silvestres; especies no especificadas",
+  "taxon_text": "Aves silvestres (especies nao individualizadas)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 gaiolas; numero de aves nao informado; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-009",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Distinguir da apreensao de 4 aves em 27/10 no mesmo municipio. Confirmar numero e especies dos animais antes de contabilizar.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 10,
+  "title_pt": "Apreensão de fauna — Imperatriz, Maranhao",
+  "card_text_pt": "A PRF encontrou duas gaiolas com aves em área residencial de Imperatriz sem autorização declarada; a apreensão de madeira citada na notícia ocorreu em Barra do Corda, em outra abordagem. Contabilizar somente os pássaros cuja quantidade efetiva seja individualizada.",
+  "context_pt": "[O] A PRF encontrou duas gaiolas com aves em área residencial de Imperatriz sem autorização declarada; a apreensão de madeira citada na notícia ocorreu em Barra do Corda, em outra abordagem. Contabilizar somente os pássaros cuja quantidade efetiva seja individualizada.\n\n[S] Estudo com isótopos em penas de aves canoras brasileiras indica potencial pericial para distinguir origem silvestre e cativa; anilhas ou declarações de criação, isoladamente, não substituem a rastreabilidade.\n\n[N] A reportagem reconstrói captura, intermediação e demanda doméstica por aves, útil para contextualizar a manutenção ilegal sem atribuir ao caso esses elos não observados.",
+  "references_text_pt": "[O] Difusora News — https://difusoranews.com/madeira-e-apreendida-e-animais-sao-resgatados-no-interior-do-ma/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "title_en": "Wildlife seizure — Imperatriz, Maranhao",
+  "card_text_en": "The PRF found two undocumented bird cages at a home in Imperatriz; the timber seizure in the same news report occurred separately in Barra do Corda. Count only birds individually established by the report.",
+  "context_en": "[O] The PRF found two undocumented bird cages at a home in Imperatriz; the timber seizure in the same news report occurred separately in Barra do Corda. Count only birds individually established by the report.\n\n[S] Isotope research on Brazilian songbirds supports forensic checks of wild versus captive origin; bands or breeding claims alone do not establish provenance.\n\n[N] The reporting reconstructs capture, middlemen and domestic demand for birds without establishing these links in this incident.",
+  "references_text_en": "[O] Difusora News — https://difusoranews.com/madeira-e-apreendida-e-animais-sao-resgatados-no-interior-do-ma/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "title_es": "Decomiso de fauna — Imperatriz, Maranhao",
+  "card_text_es": "La PRF halló dos jaulas con aves sin documentos en Imperatriz; la madera de la misma noticia fue incautada en otra intervención, Barra do Corda. No inferir cantidad de aves a partir de jaulas.",
+  "context_es": "[O] La PRF halló dos jaulas con aves sin documentos en Imperatriz; la madera de la misma noticia fue incautada en otra intervención, Barra do Corda. No inferir cantidad de aves a partir de jaulas.\n\n[S] La investigación isotópica sobre aves canoras brasileñas respalda comprobar el origen silvestre o cautivo; anillas y declaraciones de cría no bastan para acreditar procedencia.\n\n[N] El reportaje describe captura, intermediación y demanda doméstica de aves sin acreditar esos eslabones en este hecho.",
+  "references_text_es": "[O] Difusora News — https://difusoranews.com/madeira-e-apreendida-e-animais-sao-resgatados-no-interior-do-ma/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://difusoranews.com/madeira-e-apreendida-e-animais-sao-resgatados-no-interior-do-ma/",
+      "label": "Difusora News"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1111/acv.70052",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+      "label": "How Brazil’s illegal trade turns wild parrots into pets"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asi-002",
+  "status": "VALIDATED",
+  "country": "India",
+  "location_label_pt": "Lucknow, Uttar Pradesh",
+  "location_label_en": "Lucknow, Uttar Pradesh",
+  "location_label_es": "Lucknow, Uttar Pradesh",
+  "coordinates": {
+    "lat": 26.8381,
+    "lon": 80.9346
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Lucknow, Uttar Pradesh, 226027, India. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Lucknow, Uttar Pradesh, 226027, India. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Lucknow, Uttar Pradesh, 226027, India. No indica la dirección exacta del hecho.",
+  "source_label": "NDTV India (hindi)",
+  "source_url": "https://ndtv.in/uttar-pradesh-news/uttar-pradesh-special-task-force-stf-wildlife-crime-control-bureau-7-rare-eagles-worth-rs-1-40-crore-recovered-in-lucknow-12262842",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-30",
+  "publication_date": "2026-10-31",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves de rapina; identificacao especifica pendente",
+  "fauna_label_en": "Raptors; species identification pending",
+  "fauna_label_es": "Aves rapaces; identificación pendiente",
+  "taxon_text": "Aves de rapina; identificacao especifica pendente",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "7; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-002",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Verificar identificacao de especies: o titulo da noticia usa eagles, enquanto o relato anterior informou falcoes.",
+  "publication_qc_note": "Taxonomia: corpo da notícia diz falcões (7), apesar de título/metadados também usarem “eagles”; manter identificação como falcões, espécie indeterminada.",
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 3,
+  "title_pt": "Apreensão de fauna — Lucknow, Uttar Pradesh",
+  "card_text_pt": "A fonte em hindi identifica as sete aves como falcões e descreve, como informação atribuída à investigação, captura em Gorakhpur, Lakhimpur Kheri e Sitapur, concentração em Lucknow, passagem por Mumbai e abastecimento pretendido de Dubai, Arábia Saudita e Bahrein. Somente a apreensão em Lucknow está materialmente realizada.",
+  "context_pt": "[O] A fonte em hindi identifica as sete aves como falcões e descreve, como informação atribuída à investigação, captura em Gorakhpur, Lakhimpur Kheri e Sitapur, concentração em Lucknow, passagem por Mumbai e abastecimento pretendido de Dubai, Arábia Saudita e Bahrein. Somente a apreensão em Lucknow está materialmente realizada.\n\n[S] Entrevistas com profissionais de fiscalização enfatizam inteligência operacional, cooperação e cadeia de custódia para distinguir apreensão localizada de participação comprovada em rede organizada.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] NDTV India (hindi) — https://ndtv.in/uttar-pradesh-news/uttar-pradesh-special-task-force-stf-wildlife-crime-control-bureau-7-rare-eagles-worth-rs-1-40-crore-recovered-in-lucknow-12262842\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Lucknow, Uttar Pradesh",
+  "card_text_en": "The Hindi report identifies seven falcons and alleges sourcing in Gorakhpur, Lakhimpur Kheri and Sitapur, consolidation in Lucknow and onward movement through Mumbai towards Dubai, Saudi Arabia and Bahrain. Only the Lucknow seizure is a completed observed movement.",
+  "context_en": "[O] The Hindi report identifies seven falcons and alleges sourcing in Gorakhpur, Lakhimpur Kheri and Sitapur, consolidation in Lucknow and onward movement through Mumbai towards Dubai, Saudi Arabia and Bahrain. Only the Lucknow seizure is a completed observed movement.\n\n[S] Interviews with enforcement staff stress intelligence, cooperation and chain of custody to distinguish a local seizure from proven organised-network involvement.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] NDTV India (hindi) — https://ndtv.in/uttar-pradesh-news/uttar-pradesh-special-task-force-stf-wildlife-crime-control-bureau-7-rare-eagles-worth-rs-1-40-crore-recovered-in-lucknow-12262842\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Lucknow, Uttar Pradesh",
+  "card_text_es": "La fuente en hindi identifica siete halcones y atribuye a la investigación capturas en Gorakhpur, Lakhimpur Kheri y Sitapur, paso por Lucknow y Mumbai y destinos previstos en Dubái, Arabia Saudita y Baréin. Solo el decomiso en Lucknow es un hecho realizado.",
+  "context_es": "[O] La fuente en hindi identifica siete halcones y atribuye a la investigación capturas en Gorakhpur, Lakhimpur Kheri y Sitapur, paso por Lucknow y Mumbai y destinos previstos en Dubái, Arabia Saudita y Baréin. Solo el decomiso en Lucknow es un hecho realizado.\n\n[S] Entrevistas a agentes de control destacan inteligencia, cooperación y cadena de custodia para diferenciar una incautación local de participación acreditada en redes.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] NDTV India (hindi) — https://ndtv.in/uttar-pradesh-news/uttar-pradesh-special-task-force-stf-wildlife-crime-control-bureau-7-rare-eagles-worth-rs-1-40-crore-recovered-in-lucknow-12262842\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://ndtv.in/uttar-pradesh-news/uttar-pradesh-special-task-force-stf-wildlife-crime-control-bureau-7-rare-eagles-worth-rs-1-40-crore-recovered-in-lucknow-12262842",
+      "label": "NDTV India (hindi)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s12117-026-09588-6",
+      "label": "Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

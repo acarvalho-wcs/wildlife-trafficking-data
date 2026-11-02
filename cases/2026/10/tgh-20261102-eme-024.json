@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-024",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Dashtestan, Bushehr — posto Shahid Salahi",
+  "location_label_en": "Dashtestan, Bushehr — posto Shahid Salahi",
+  "location_label_es": "Dashtestan, Bushehr — posto Shahid Salahi",
+  "coordinates": {
+    "lat": 29.224686,
+    "lon": 51.376305
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Dashtestan County, Bushehr Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Dashtestan County, Bushehr Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Dashtestan County, Bushehr Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "Akhbar Rooz Azad (em persa)",
+  "source_url": "https://akhbarroozazad.com/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%87%D8%A7/251189/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Falcão",
+  "fauna_label_en": "Falcon",
+  "fauna_label_es": "Halcón",
+  "taxon_text": "Falcão",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 ave; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-024",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "POSSÍVEL DUPLICIDADE com #23. Publicações com datas diferentes; data operacional não confirmada.",
+  "publication_qc_note": "Possível coincidência operacional com EME-023 no posto Shahid Salahi; conferir antes de contar separadamente.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 53,
+  "title_pt": "Apreensão de fauna — Dashtestan, Bushehr — posto Shahid Salahi",
+  "card_text_pt": "Uma notícia posterior menciona um falcão retido no posto Shahid Salahi, em Dashtestan; como outra referência relata dois falcões no mesmo posto e período, a identidade operacional deve ser conciliada antes de contar novos indivíduos.",
+  "context_pt": "[O] Uma notícia posterior menciona um falcão retido no posto Shahid Salahi, em Dashtestan; como outra referência relata dois falcões no mesmo posto e período, a identidade operacional deve ser conciliada antes de contar novos indivíduos.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] Akhbar Rooz Azad (em persa) — https://akhbarroozazad.com/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%87%D8%A7/251189/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Dashtestan, Bushehr — posto Shahid Salahi",
+  "card_text_en": "A later report describes one falcon at the Shahid Salahi checkpoint in Dashtestan; another report mentions two at the same checkpoint and period. Check operational identity before treating this as additional birds.",
+  "context_en": "[O] A later report describes one falcon at the Shahid Salahi checkpoint in Dashtestan; another report mentions two at the same checkpoint and period. Check operational identity before treating this as additional birds.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] Akhbar Rooz Azad (em persa) — https://akhbarroozazad.com/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%87%D8%A7/251189/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Dashtestan, Bushehr — posto Shahid Salahi",
+  "card_text_es": "Un informe posterior menciona un halcón en el control Shahid Salahi de Dashtestan; otro relata dos en el mismo puesto y período. Es indispensable verificar identidad operativa antes de sumar ejemplares.",
+  "context_es": "[O] Un informe posterior menciona un halcón en el control Shahid Salahi de Dashtestan; otro relata dos en el mismo puesto y período. Es indispensable verificar identidad operativa antes de sumar ejemplares.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] Akhbar Rooz Azad (em persa) — https://akhbarroozazad.com/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%87%D8%A7/251189/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://akhbarroozazad.com/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%87%D8%A7/251189/",
+      "label": "Akhbar Rooz Azad (em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

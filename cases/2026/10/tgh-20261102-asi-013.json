@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asi-013",
+  "status": "VALIDATED",
+  "country": "China",
+  "location_label_pt": "Sanmen, Zhejiang",
+  "location_label_en": "Sanmen, Zhejiang",
+  "location_label_es": "Sanmen, Zhejiang",
+  "coordinates": {
+    "lat": 29.107495,
+    "lon": 121.391149
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Sanmen County, Taizhou, Zhejiang, 317100, China. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Sanmen County, Taizhou, Zhejiang, 317100, China. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Sanmen County, Taizhou, Zhejiang, 317100, China. No indica la dirección exacta del hecho.",
+  "source_label": "The Paper (chines)",
+  "source_url": "https://www.thepaper.cn/newsDetail_forward_34368491",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-13",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres",
+  "fauna_label_en": "Wild birds",
+  "fauna_label_es": "Aves silvestres",
+  "taxon_text": "Aves silvestres",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 12,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 12
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "12 (11 vivas + 1 morta); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-013",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": null,
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 30,
+  "title_pt": "Apreensão de fauna — Sanmen, Zhejiang",
+  "card_text_pt": "A polícia documentou doze aves no total, onze vivas e uma morta, entre o flagrante e a residência. A distribuição por local e estado é decisiva para distinguir captura imediata de estoque já existente.",
+  "context_pt": "[O] A polícia documentou doze aves no total, onze vivas e uma morta, entre o flagrante e a residência. A distribuição por local e estado é decisiva para distinguir captura imediata de estoque já existente.\n\n[S] O levantamento de 178 espécies de aves anunciadas em redes chinesas demonstra a variedade de canais de oferta; uma apreensão local deve ser ligada a mercados digitais somente com evidência específica.\n\n[N] Investigação publicada na China descreve etapas de coleta, intermediários e circulação de aves; um caso individual não comprova pertencimento à mesma rede.",
+  "references_text_pt": "[O] The Paper (chines) — https://www.thepaper.cn/newsDetail_forward_34368491\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "title_en": "Wildlife seizure — Sanmen, Zhejiang",
+  "card_text_en": "Police documented 12 birds, 11 alive and one dead, across an active hunting scene and a residence. Place and condition distinguish immediate capture from previously held stock.",
+  "context_en": "[O] Police documented 12 birds, 11 alive and one dead, across an active hunting scene and a residence. Place and condition distinguish immediate capture from previously held stock.\n\n[S] A study documenting 178 bird species in Chinese social-media offers shows diverse marketing channels; a local seizure needs case-specific evidence before linking it to online trade.\n\n[N] A Chinese investigation describes bird collection, brokers and movement; an individual incident does not prove membership in that network.",
+  "references_text_en": "[O] The Paper (chines) — https://www.thepaper.cn/newsDetail_forward_34368491\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "title_es": "Decomiso de fauna — Sanmen, Zhejiang",
+  "card_text_es": "La policía documentó 12 aves, 11 vivas y una muerta, en una escena de caza y un domicilio. Lugar y condición permiten diferenciar captura reciente de tenencia previa.",
+  "context_es": "[O] La policía documentó 12 aves, 11 vivas y una muerta, en una escena de caza y un domicilio. Lugar y condición permiten diferenciar captura reciente de tenencia previa.\n\n[S] Un estudio de 178 especies de aves anunciadas en redes chinas muestra la diversidad de canales; vincular un decomiso local con internet exige pruebas específicas.\n\n[N] Una investigación china describe captura, intermediarios y distribución de aves; un caso no acredita pertenencia a esa red.",
+  "references_text_es": "[O] The Paper (chines) — https://www.thepaper.cn/newsDetail_forward_34368491\n[S] Characterizing China’s Illegal Trade in Avifauna on Social Media — https://doi.org/10.1002/inc3.70053\n[N] Chinese investigation reconstructs yellow-breasted bunting trafficking network — https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34368491",
+      "label": "The Paper (chines)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1002/inc3.70053",
+      "label": "Characterizing China’s Illegal Trade in Avifauna on Social Media"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://thirdpage.thepaper.cn/h5/jrtt/32261931",
+      "label": "Chinese investigation reconstructs yellow-breasted bunting trafficking network"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-r09-005",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "location_label_pt": "Cacador, Santa Catarina",
+  "location_label_en": "Cacador, Santa Catarina",
+  "location_label_es": "Cacador, Santa Catarina",
+  "coordinates": {
+    "lat": -26.763784,
+    "lon": -51.051075
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Caçador, Santa Catarina, South Region, Brazil. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Caçador, Santa Catarina, South Region, Brazil. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Caçador, Santa Catarina, South Region, Brazil. No indica la dirección exacta del hecho.",
+  "source_label": "ClicRDC",
+  "source_url": "https://clicrdc.com.br/seguranca-publica/policia-ambiental-recolhe-39-aves-silvestres-em-situacao-precaria/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Curios, trinca-ferros, azuloes, cardeais, papagaio-verdadeiro e outras aves",
+  "fauna_label_en": "Seed-finches, saltators, cardinals, a blue-fronted amazon and other wild birds",
+  "fauna_label_es": "Semilleros, saltadores, cardenales, un loro de frente azul y otras aves",
+  "taxon_text": "Curios, trinca-ferros, azuloes, cardeais, papagaio-verdadeiro e outras aves",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 39,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 39
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "39 aves: 15 anilhadas e 24 sem anilhas; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-005",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Acao noticiada em 29-30/10; data operacional exata a confirmar (possivelmente 28-29/10). A existencia de anilha nao comprova origem licita por si so.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 47,
+  "title_pt": "Apreensão de fauna — Cacador, Santa Catarina",
+  "card_text_pt": "Em Caçador, 39 aves estavam em condições precárias, das quais 15 anilhadas e 24 sem anilhas. A existência ou ausência de anilha constitui pista de auditoria documental, mas não prova isolada de origem lícita ou ilícita.",
+  "context_pt": "[O] Em Caçador, 39 aves estavam em condições precárias, das quais 15 anilhadas e 24 sem anilhas. A existência ou ausência de anilha constitui pista de auditoria documental, mas não prova isolada de origem lícita ou ilícita.\n\n[S] Estudo com isótopos em penas de aves canoras brasileiras indica potencial pericial para distinguir origem silvestre e cativa; anilhas ou declarações de criação, isoladamente, não substituem a rastreabilidade.\n\n[N] A reportagem reconstrói captura, intermediação e demanda doméstica por aves, útil para contextualizar a manutenção ilegal sem atribuir ao caso esses elos não observados.",
+  "references_text_pt": "[O] ClicRDC — https://clicrdc.com.br/seguranca-publica/policia-ambiental-recolhe-39-aves-silvestres-em-situacao-precaria/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "title_en": "Wildlife seizure — Cacador, Santa Catarina",
+  "card_text_en": "At Caçador, 39 birds were kept poorly: 15 ringed and 24 unringed. Ring status is a provenance-audit lead, not by itself definitive proof of legal or illegal origin.",
+  "context_en": "[O] At Caçador, 39 birds were kept poorly: 15 ringed and 24 unringed. Ring status is a provenance-audit lead, not by itself definitive proof of legal or illegal origin.\n\n[S] Isotope research on Brazilian songbirds supports forensic checks of wild versus captive origin; bands or breeding claims alone do not establish provenance.\n\n[N] The reporting reconstructs capture, middlemen and domestic demand for birds without establishing these links in this incident.",
+  "references_text_en": "[O] ClicRDC — https://clicrdc.com.br/seguranca-publica/policia-ambiental-recolhe-39-aves-silvestres-em-situacao-precaria/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "title_es": "Decomiso de fauna — Cacador, Santa Catarina",
+  "card_text_es": "En Caçador había 39 aves en condiciones precarias: 15 anilladas y 24 sin anillas. La anilla es indicio para verificar origen, no prueba definitiva de legalidad.",
+  "context_es": "[O] En Caçador había 39 aves en condiciones precarias: 15 anilladas y 24 sin anillas. La anilla es indicio para verificar origen, no prueba definitiva de legalidad.\n\n[S] La investigación isotópica sobre aves canoras brasileñas respalda comprobar el origen silvestre o cautivo; anillas y declaraciones de cría no bastan para acreditar procedencia.\n\n[N] El reportaje describe captura, intermediación y demanda doméstica de aves sin acreditar esos eslabones en este hecho.",
+  "references_text_es": "[O] ClicRDC — https://clicrdc.com.br/seguranca-publica/policia-ambiental-recolhe-39-aves-silvestres-em-situacao-precaria/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://clicrdc.com.br/seguranca-publica/policia-ambiental-recolhe-39-aves-silvestres-em-situacao-precaria/",
+      "label": "ClicRDC"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1111/acv.70052",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+      "label": "How Brazil’s illegal trade turns wild parrots into pets"
+    }
+  ]
+}

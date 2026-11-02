@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-r09-002",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "location_label_pt": "Amapa (seis municipios)",
+  "location_label_en": "Amapa (six municipalities)",
+  "location_label_es": "Amapa (seis municipios)",
+  "coordinates": {
+    "lat": 1.3545,
+    "lon": -51.9162
+  },
+  "coordinate_precision": "state_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Amapá state, Brazil (state-level mapping anchor for six municipalities). Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Amapá state, Brazil (state-level mapping anchor for six municipalities). Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Amapá state, Brazil (state-level mapping anchor for six municipalities). No indica la dirección exacta del hecho.",
+  "source_label": "Ibama (oficial)",
+  "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-apreende-37-4-toneladas-de-pescado-irregular-no-ap",
+  "georeference_source_url": "https://mapcarta.com/pt/Amap%C3%A1",
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Pescado de especies nao individualizadas neste resumo",
+  "fauna_label_en": "Fish; species not identified in the summary",
+  "fauna_label_es": "Pescado; especies no especificadas en el resumen",
+  "taxon_text": "Pescado de especies nao individualizadas neste resumo",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Marítimo",
+  "modal_label_pt": "Marítimo",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "37,4 toneladas no total; 6,6 toneladas em uma abordagem (parte do total); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-002",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Operacao agregada realizada de 19 a 28/10/2026 em seis municipios. Nao somar 6,6 t a 37,4 t. Necessita individualizacao por local e data antes de inclusao canonica.",
+  "publication_qc_note": "Operação agregada: 6,6 t já compõem as 37,4 t; não somar novamente.",
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 57,
+  "title_pt": "Apreensão de fauna — Amapa (seis municipios)",
+  "card_text_pt": "A operação Mareados II reuniu fiscalizações em seis municípios do Amapá entre 19 e 28/10; 37,4 toneladas representam o total informado e 6,6 toneladas uma parcela da mesma soma. A unidade de registro deve ser explicitada para não multiplicar um balanço agregado por abordagens.",
+  "context_pt": "[O] A operação Mareados II reuniu fiscalizações em seis municípios do Amapá entre 19 e 28/10; 37,4 toneladas representam o total informado e 6,6 toneladas uma parcela da mesma soma. A unidade de registro deve ser explicitada para não multiplicar um balanço agregado por abordagens.\n\n[S] Revisão de governança recomenda distinguir tipos de infração, resultados da fiscalização e incertezas de informação para evitar superestimar a incidência do comércio ilegal.\n\n[I] O estudo institucional documenta modalidades e rotas em zonas amazônicas de tríplice fronteira, reforçando a importância de diferenciar circulação local e comércio transfronteiriço com rotas comprovadas.",
+  "references_text_pt": "[O] Ibama (oficial) — https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-apreende-37-4-toneladas-de-pescado-irregular-no-ap\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253\n[I] WCS — Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira (2020) — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view",
+  "title_en": "Wildlife seizure — Amapa (six municipalities)",
+  "card_text_en": "Operation Mareados II covered six Amapá municipalities from 19 to 28 October: 37.4 tonnes is the reported operation-wide total and 6.6 tonnes one component, not an amount to add again. Preserve aggregate versus individual-stop levels.",
+  "context_en": "[O] Operation Mareados II covered six Amapá municipalities from 19 to 28 October: 37.4 tonnes is the reported operation-wide total and 6.6 tonnes one component, not an amount to add again. Preserve aggregate versus individual-stop levels.\n\n[S] The governance review advises distinguishing offence types, enforcement outcomes and evidence uncertainty to avoid inflating illegal-trade estimates.\n\n[I] The WCS tri-border study documents Amazonian modalities and routes, supporting careful separation of local movements and evidenced cross-border trade.",
+  "references_text_en": "[O] Ibama (oficial) — https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-apreende-37-4-toneladas-de-pescado-irregular-no-ap\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253\n[I] WCS — Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira (2020) — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view",
+  "title_es": "Decomiso de fauna — Amapa (seis municipios)",
+  "card_text_es": "Mareados II cubrió seis municipios de Amapá entre el 19 y 28 de octubre: 37,4 toneladas es el total del operativo y 6,6 toneladas parte de ese total. No sumarlas dos veces ni confundir balance y hechos individuales.",
+  "context_es": "[O] Mareados II cubrió seis municipios de Amapá entre el 19 y 28 de octubre: 37,4 toneladas es el total del operativo y 6,6 toneladas parte de ese total. No sumarlas dos veces ni confundir balance y hechos individuales.\n\n[S] La revisión de gobernanza recomienda distinguir delitos, resultados de control e incertidumbres para no sobredimensionar el comercio ilegal.\n\n[I] El estudio WCS de triple frontera documenta modalidades y rutas amazónicas, distinguiendo desplazamientos locales de comercio transfronterizo acreditado.",
+  "references_text_es": "[O] Ibama (oficial) — https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-apreende-37-4-toneladas-de-pescado-irregular-no-ap\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253\n[I] WCS — Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira (2020) — https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-apreende-37-4-toneladas-de-pescado-irregular-no-ap",
+      "label": "Ibama (oficial)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1146/annurev-environ-101718-033253",
+      "label": "Illegal Wildlife Trade: Scale, Processes, and Governance"
+    },
+    {
+      "id": "I",
+      "type": "I",
+      "url": "https://drive.google.com/file/d/12daOqiJfQhfDbdcWDqSdDiHArUMlY1Dd/view",
+      "label": "WCS — Tráfico de Animais Silvestres nas Zonas de Tríplice Fronteira da Amazônia Brasileira (2020)"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-028",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Darreh Shahr, Ilam",
+  "location_label_en": "Darreh Shahr, Ilam",
+  "location_label_es": "Darreh Shahr, Ilam",
+  "coordinates": {
+    "lat": 33.138511,
+    "lon": 47.37536
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Darreh Shahr, دهستان زرین دشت, بخش مرکزی, Darreh Shahr County, Ilam Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Darreh Shahr, دهستان زرین دشت, بخش مرکزی, Darreh Shahr County, Ilam Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Darreh Shahr, دهستان زرین دشت, بخش مرکزی, Darreh Shahr County, Ilam Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "HRANA (relatório semanal em persa)",
+  "source_url": "https://www.hra-news.org/2026/hranews/a-58368/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Águias; pombos-isca",
+  "fauna_label_en": "Eagles and decoy pigeons",
+  "fauna_label_es": "Águilas y palomas señuelo",
+  "taxon_text": "Águias; pombos-isca",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 16,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 16
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 águias + 14 pombos; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-028",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Referência de compilação semanal. Separar aves-alvo e aves usadas como isca na etapa canônica.",
+  "publication_qc_note": "Relato secundário semanal; falta data operacional e fonte originária individualizada.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 42,
+  "title_pt": "Apreensão de fauna — Darreh Shahr, Ilam",
+  "card_text_pt": "O relato de Darreh Shahr contém duas águias e catorze pombos empregados como iscas. A função dos pombos é parte do modus operandi de captura de rapinantes, e não prova de apreensão de dezesseis rapinantes.",
+  "context_pt": "[O] O relato de Darreh Shahr contém duas águias e catorze pombos empregados como iscas. A função dos pombos é parte do modus operandi de captura de rapinantes, e não prova de apreensão de dezesseis rapinantes.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Darreh Shahr, Ilam",
+  "card_text_en": "The Darreh Shahr report lists two eagles and 14 bait pigeons; the pigeons explain the raptor-catching method and do not amount to 16 raptors seized.",
+  "context_en": "[O] The Darreh Shahr report lists two eagles and 14 bait pigeons; the pigeons explain the raptor-catching method and do not amount to 16 raptors seized.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Darreh Shahr, Ilam",
+  "card_text_es": "En Darreh Shahr aparecen dos águilas y 14 palomas señuelo; estas revelan la técnica de captura, pero no son 16 rapaces decomisadas.",
+  "context_es": "[O] En Darreh Shahr aparecen dos águilas y 14 palomas señuelo; estas revelan la técnica de captura, pero no son 16 rapaces decomisadas.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.hra-news.org/2026/hranews/a-58368/",
+      "label": "HRANA (relatório semanal em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

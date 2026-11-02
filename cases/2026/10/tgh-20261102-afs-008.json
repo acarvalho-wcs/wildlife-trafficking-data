@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-afs-008",
+  "status": "VALIDATED",
+  "country": "Botsuana",
+  "location_label_pt": "Terminal rodoviario de Francistown",
+  "location_label_en": "Bus terminal de Francistown",
+  "location_label_es": "Terminal de autobuses de Francistown",
+  "coordinates": {
+    "lat": -21.16636,
+    "lon": 27.502515
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Francistown, Botswana. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Francistown, Botswana. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Francistown, Botswana. No indica la dirección exacta del hecho.",
+  "source_label": "The Ngami Times",
+  "source_url": "https://www.ngamitimes.co.bw/two-women-in-court-for-unlawful-possession-of-lion-skins/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-07",
+  "publication_date": "2026-10-26",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Leoes; peles",
+  "fauna_label_en": "Lion skins",
+  "fauna_label_es": "Pieles de león",
+  "taxon_text": "Leoes; peles",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "3 peles (2 adultos + 1 juvenil); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "AFS-008",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Fonte afirma que foram presas em 07/10; noticia judicial em 26/10.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 34,
+  "title_pt": "Apreensão de fauna — Terminal rodoviario de Francistown",
+  "card_text_pt": "Três peles de leão, associadas a dois adultos e um juvenil segundo a notícia, foram objeto de acusação de posse ilegal; o registro documenta derivados e processo judicial, mas não número comprovado de leões abatidos nessa data.",
+  "context_pt": "[O] Três peles de leão, associadas a dois adultos e um juvenil segundo a notícia, foram objeto de acusação de posse ilegal; o registro documenta derivados e processo judicial, mas não número comprovado de leões abatidos nessa data.\n\n[S] Revisão de governança recomenda distinguir tipos de infração, resultados da fiscalização e incertezas de informação para evitar superestimar a incidência do comércio ilegal.",
+  "references_text_pt": "[O] The Ngami Times — https://www.ngamitimes.co.bw/two-women-in-court-for-unlawful-possession-of-lion-skins/\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253",
+  "title_en": "Wildlife seizure — Bus terminal de Francistown",
+  "card_text_en": "Three lion skins attributed to two adults and one juvenile formed an unlawful-possession case. They are derivatives in a court proceeding, not evidence of three lions killed on that date.",
+  "context_en": "[O] Three lion skins attributed to two adults and one juvenile formed an unlawful-possession case. They are derivatives in a court proceeding, not evidence of three lions killed on that date.\n\n[S] The governance review advises distinguishing offence types, enforcement outcomes and evidence uncertainty to avoid inflating illegal-trade estimates.",
+  "references_text_en": "[O] The Ngami Times — https://www.ngamitimes.co.bw/two-women-in-court-for-unlawful-possession-of-lion-skins/\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253",
+  "title_es": "Decomiso de fauna — Terminal de autobuses de Francistown",
+  "card_text_es": "Tres pieles de león atribuidas a dos adultos y un juvenil sustentaron un proceso por tenencia ilegal; son derivados, no prueba de que tres leones fueran abatidos ese día.",
+  "context_es": "[O] Tres pieles de león atribuidas a dos adultos y un juvenil sustentaron un proceso por tenencia ilegal; son derivados, no prueba de que tres leones fueran abatidos ese día.\n\n[S] La revisión de gobernanza recomienda distinguir delitos, resultados de control e incertidumbres para no sobredimensionar el comercio ilegal.",
+  "references_text_es": "[O] The Ngami Times — https://www.ngamitimes.co.bw/two-women-in-court-for-unlawful-possession-of-lion-skins/\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.ngamitimes.co.bw/two-women-in-court-for-unlawful-possession-of-lion-skins/",
+      "label": "The Ngami Times"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1146/annurev-environ-101718-033253",
+      "label": "Illegal Wildlife Trade: Scale, Processes, and Governance"
+    }
+  ]
+}

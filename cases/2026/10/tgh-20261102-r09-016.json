@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-r09-016",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "location_label_pt": "Campo Andino, Santa Fe",
+  "location_label_en": "Campo Andino, Santa Fe",
+  "location_label_es": "Campo Andino, Santa Fe",
+  "coordinates": {
+    "lat": -31.238611,
+    "lon": -60.530485
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Municipio de Campo Andino, Departamento La Capital, Santa Fe, Argentina. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Municipio de Campo Andino, Departamento La Capital, Santa Fe, Argentina. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Municipio de Campo Andino, Departamento La Capital, Santa Fe, Argentina. No indica la dirección exacta del hecho.",
+  "source_label": "Radio Rafaela",
+  "source_url": "https://radiorafaela.com.ar/policiales/escucharon-disparos-en-una-zona-rural-y-encontraron-a-3-hombres-cazando-secuestraron-escopetas-y-aves-muertas",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres abatidas (especies nao individualizadas)",
+  "fauna_label_en": "Killed wild birds; species unspecified",
+  "fauna_label_es": "Aves silvestres abatidas; especies no especificadas",
+  "taxon_text": "Aves silvestres abatidas (especies nao individualizadas)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 6,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 6
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "6 aves mortas e 4 espingardas; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-016",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Operacao reportada em 29/10; data do flagrante a confirmar. Nao confundir quatro armas com numero de animais.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 62,
+  "title_pt": "Ocorrência de caça ilegal — Campo Andino, Santa Fe",
+  "card_text_pt": "Em Campo Andino, o alerta por disparos levou à abordagem de três homens e recuperação de seis aves abatidas e armas; quatro espingardas são instrumentos da atividade e não alteram o total de fauna.",
+  "context_pt": "[O] Em Campo Andino, o alerta por disparos levou à abordagem de três homens e recuperação de seis aves abatidas e armas; quatro espingardas são instrumentos da atividade e não alteram o total de fauna.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.\n\n[N] A reportagem regional discute demanda por aves canoras e ovos de rapinantes, oferecendo comparação de mercado para ocorrências de captura doméstica.",
+  "references_text_pt": "[O] Radio Rafaela — https://radiorafaela.com.ar/policiales/escucharon-disparos-en-una-zona-rural-y-encontraron-a-3-hombres-cazando-secuestraron-escopetas-y-aves-muertas\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_en": "Illegal hunting incident — Campo Andino, Santa Fe",
+  "card_text_en": "Reports of shots led to a stop in Campo Andino and recovery of six dead birds and four shotguns. Guns are instrumental evidence, not wildlife specimens.",
+  "context_en": "[O] Reports of shots led to a stop in Campo Andino and recovery of six dead birds and four shotguns. Guns are instrumental evidence, not wildlife specimens.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.\n\n[N] Regional reporting discusses songbird and raptor-egg demand as market context for local capture incidents.",
+  "references_text_en": "[O] Radio Rafaela — https://radiorafaela.com.ar/policiales/escucharon-disparos-en-una-zona-rural-y-encontraron-a-3-hombres-cazando-secuestraron-escopetas-y-aves-muertas\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_es": "Incidente de caza ilegal — Campo Andino, Santa Fe",
+  "card_text_es": "Denuncias de disparos llevaron a detener a tres hombres en Campo Andino y hallar seis aves muertas y cuatro escopetas; las armas no se contabilizan como fauna.",
+  "context_es": "[O] Denuncias de disparos llevaron a detener a tres hombres en Campo Andino y hallar seis aves muertas y cuatro escopetas; las armas no se contabilizan como fauna.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.\n\n[N] El reportaje regional analiza demanda de aves canoras y huevos de rapaces como contexto para capturas locales.",
+  "references_text_es": "[O] Radio Rafaela — https://radiorafaela.com.ar/policiales/escucharon-disparos-en-una-zona-rural-y-encontraron-a-3-hombres-cazando-secuestraron-escopetas-y-aves-muertas\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://radiorafaela.com.ar/policiales/escucharon-disparos-en-una-zona-rural-y-encontraron-a-3-hombres-cazando-secuestraron-escopetas-y-aves-muertas",
+      "label": "Radio Rafaela"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+      "label": "Theft of songbirds and raptor eggs fuels Latin American wildlife markets"
+    }
+  ]
+}

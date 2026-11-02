@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-nam-005",
+  "status": "VALIDATED",
+  "country": "Honduras",
+  "location_label_pt": "Proteccion, Santa Barbara",
+  "location_label_en": "Proteccion, Santa Barbara",
+  "location_label_es": "Proteccion, Santa Barbara",
+  "coordinates": {
+    "lat": 15.02739,
+    "lon": -88.647506
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Protección, Santa Bárbara, Honduras. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Protección, Santa Bárbara, Honduras. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Protección, Santa Bárbara, Honduras. No indica la dirección exacta del hecho.",
+  "source_label": "Diario Nacional de Honduras (oficial; espanhol)",
+  "source_url": "https://dnh.gob.hn/diario/decomisan-1280-pies-tablares-de-madera-en-operativo-contra-la-tala-ilegal-en-santa-barbara",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Dasyprocta sp. (cutias)",
+  "fauna_label_en": "Agoutis (*Dasyprocta* sp.)",
+  "fauna_label_es": "Agutíes (*Dasyprocta* sp.)",
+  "taxon_text": "Dasyprocta sp. (cutias)",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "3 animais resgatados; 1.280 pes-tablares de madeira (nao contabilizar como fauna animal); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "NAM-005",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Publicacao 29/10; data operacional especifica nao informada. Resgate em operacao ambiental; nao ha vinculo demonstrado com comercio ou trafico de fauna.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 56,
+  "title_pt": "Resgate de fauna — Proteccion, Santa Barbara",
+  "card_text_pt": "Três cutias foram resgatadas durante fiscalização militar contra corte clandestino em Santa Bárbara; os 1.280 pés-tablares apreendidos são madeira e devem permanecer em indicador independente, sem pressupor conexão comercial entre madeira e animais.",
+  "context_pt": "[O] Três cutias foram resgatadas durante fiscalização militar contra corte clandestino em Santa Bárbara; os 1.280 pés-tablares apreendidos são madeira e devem permanecer em indicador independente, sem pressupor conexão comercial entre madeira e animais.\n\n[S] A revisão sobre convergência criminal mostra diferentes graus de sobreposição entre delitos; apreensões conjuntas de madeira, armas ou drogas não demonstram por si só uma rede integrada de tráfico de fauna.",
+  "references_text_pt": "[O] Diario Nacional de Honduras (oficial; espanhol) — https://dnh.gob.hn/diario/decomisan-1280-pies-tablares-de-madera-en-operativo-contra-la-tala-ilegal-en-santa-barbara\n[S] Illegal wildlife trade and other organised crime: A scoping review — https://doi.org/10.1007/s13280-021-01675-y",
+  "title_en": "Wildlife rescue — Proteccion, Santa Barbara",
+  "card_text_en": "Three agoutis were rescued during an anti-logging operation in Santa Bárbara; 1,280 board-feet of timber belong to a separate product category and do not prove linked wildlife commerce.",
+  "context_en": "[O] Three agoutis were rescued during an anti-logging operation in Santa Bárbara; 1,280 board-feet of timber belong to a separate product category and do not prove linked wildlife commerce.\n\n[S] A review of converging crimes describes varying overlaps; simultaneous wood, weapons or drug seizures do not by themselves prove a shared wildlife-trafficking network.",
+  "references_text_en": "[O] Diario Nacional de Honduras (oficial; espanhol) — https://dnh.gob.hn/diario/decomisan-1280-pies-tablares-de-madera-en-operativo-contra-la-tala-ilegal-en-santa-barbara\n[S] Illegal wildlife trade and other organised crime: A scoping review — https://doi.org/10.1007/s13280-021-01675-y",
+  "title_es": "Rescate de fauna — Proteccion, Santa Barbara",
+  "card_text_es": "Tres agutíes fueron rescatados en un operativo contra tala ilegal en Santa Bárbara; 1.280 pies tablares de madera pertenecen a otra categoría y no prueban tráfico conjunto de fauna.",
+  "context_es": "[O] Tres agutíes fueron rescatados en un operativo contra tala ilegal en Santa Bárbara; 1.280 pies tablares de madera pertenecen a otra categoría y no prueban tráfico conjunto de fauna.\n\n[S] La revisión de convergencia delictiva describe superposiciones variables; decomisos simultáneos de madera, armas o drogas no prueban por sí solos una red común.",
+  "references_text_es": "[O] Diario Nacional de Honduras (oficial; espanhol) — https://dnh.gob.hn/diario/decomisan-1280-pies-tablares-de-madera-en-operativo-contra-la-tala-ilegal-en-santa-barbara\n[S] Illegal wildlife trade and other organised crime: A scoping review — https://doi.org/10.1007/s13280-021-01675-y",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://dnh.gob.hn/diario/decomisan-1280-pies-tablares-de-madera-en-operativo-contra-la-tala-ilegal-en-santa-barbara",
+      "label": "Diario Nacional de Honduras (oficial; espanhol)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s13280-021-01675-y",
+      "label": "Illegal wildlife trade and other organised crime: A scoping review"
+    }
+  ]
+}

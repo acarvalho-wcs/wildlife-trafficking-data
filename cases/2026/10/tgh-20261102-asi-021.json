@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asi-021",
+  "status": "VALIDATED",
+  "country": "Russia",
+  "location_label_pt": "Altai (Russia asiatica)",
+  "location_label_en": "Altai (Russia asiatica)",
+  "location_label_es": "Altai (Russia asiatica)",
+  "coordinates": {
+    "lat": 52.693224,
+    "lon": 82.693142
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Altai Krai, Siberian Federal District, Russia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Altai Krai, Siberian Federal District, Russia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Altai Krai, Siberian Federal District, Russia. No indica la dirección exacta del hecho.",
+  "source_label": "Interfax Russia (russo)",
+  "source_url": "https://www.interfax-russia.ru/index.php/siberia/news/inostranca-budut-sudit-po-delu-o-kontrabande-redkih-sokolov-v-altayskom-krae",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-28",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Falcoes-sacre",
+  "fauna_label_en": "Saker falcons",
+  "fauna_label_es": "Halcones sacres",
+  "taxon_text": "Falcoes-sacre",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "3 (1 morto); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-021",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Ocorrencia original outubro/2025 (dia N/I). Conferir relacao com EME-017 (Altai / cem aves).",
+  "publication_qc_note": "Distinguir os 3 falcões de 2025 do lote EME-017 (~100 aves de 2026).",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 67,
+  "title_pt": "Ocorrência envolvendo fauna — Altai (Russia asiatica)",
+  "card_text_pt": "O processo judicial de Altai menciona três falcões-sacre adquiridos para contrabando em 2025, incluindo um morto. A data histórica e a quantidade são independentes da retirada posterior de aproximadamente cem aves de criadouro da mesma região.",
+  "context_pt": "[O] O processo judicial de Altai menciona três falcões-sacre adquiridos para contrabando em 2025, incluindo um morto. A data histórica e a quantidade são independentes da retirada posterior de aproximadamente cem aves de criadouro da mesma região.\n\n[S] Entrevistas com profissionais de fiscalização enfatizam inteligência operacional, cooperação e cadeia de custódia para distinguir apreensão localizada de participação comprovada em rede organizada.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] Interfax Russia (russo) — https://www.interfax-russia.ru/index.php/siberia/news/inostranca-budut-sudit-po-delu-o-kontrabande-redkih-sokolov-v-altayskom-krae\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife-related incident — Altai (Russia asiatica)",
+  "card_text_en": "The Altai case concerns three saker falcons acquired for alleged smuggling in 2025, one deceased. It is separate in time and quantity from the later removal of about 100 farmed raptors.",
+  "context_en": "[O] The Altai case concerns three saker falcons acquired for alleged smuggling in 2025, one deceased. It is separate in time and quantity from the later removal of about 100 farmed raptors.\n\n[S] Interviews with enforcement staff stress intelligence, cooperation and chain of custody to distinguish a local seizure from proven organised-network involvement.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] Interfax Russia (russo) — https://www.interfax-russia.ru/index.php/siberia/news/inostranca-budut-sudit-po-delu-o-kontrabande-redkih-sokolov-v-altayskom-krae\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Incidente relacionado con fauna — Altai (Russia asiatica)",
+  "card_text_es": "El proceso de Altái trata de tres halcones sacres adquiridos para contrabando en 2025, uno muerto; es distinto del posterior retiro de unas cien rapaces de un criadero.",
+  "context_es": "[O] El proceso de Altái trata de tres halcones sacres adquiridos para contrabando en 2025, uno muerto; es distinto del posterior retiro de unas cien rapaces de un criadero.\n\n[S] Entrevistas a agentes de control destacan inteligencia, cooperación y cadena de custodia para diferenciar una incautación local de participación acreditada en redes.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] Interfax Russia (russo) — https://www.interfax-russia.ru/index.php/siberia/news/inostranca-budut-sudit-po-delu-o-kontrabande-redkih-sokolov-v-altayskom-krae\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.interfax-russia.ru/index.php/siberia/news/inostranca-budut-sudit-po-delu-o-kontrabande-redkih-sokolov-v-altayskom-krae",
+      "label": "Interfax Russia (russo)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s12117-026-09588-6",
+      "label": "Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

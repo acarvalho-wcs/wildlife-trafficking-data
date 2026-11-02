@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-oce-003",
+  "status": "VALIDATED",
+  "country": "Australia",
+  "location_label_pt": "Proximidades de Cartier Island, Australia Ocidental",
+  "location_label_en": "Near Cartier Island, Australia Ocidental",
+  "location_label_es": "Cercanías de Cartier Island, Australia Ocidental",
+  "coordinates": {
+    "lat": -12.530688,
+    "lon": 123.554866
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Cartier Island, Ashmore and Cartier Islands, Australia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Cartier Island, Ashmore and Cartier Islands, Australia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Cartier Island, Ashmore and Cartier Islands, Australia. No indica la dirección exacta del hecho.",
+  "source_label": "Australian Fisheries Management Authority / Australian Border Force (oficial, ingles)",
+  "source_url": "https://www.afma.gov.au/news/13-foreign-fishers-face-darwin-court-illegal-fishing-australias-north",
+  "georeference_source_url": null,
+  "additional_source_url": "https://www.abf.gov.au/newsroom-subsite/Pages/No-hiding-offshore-ABF-intercepts-two-foreign-fishing-vessels-in-northern-waters.aspx",
+  "event_date": "2026-09-24",
+  "publication_date": "2026-10-26",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Tubaroes",
+  "fauna_label_en": "Sharks",
+  "fauna_label_es": "Tiburones",
+  "taxon_text": "Tubaroes",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "modal_primary": "Marítimo",
+  "modal_label_pt": "Marítimo",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Peixes": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "4 tubaroes recentemente capturados; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "OCE-003",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Detectada em 23/09 e interceptada em 24/09; desdobramento judicial em 13/10; publicada em 26/10. Evento distinto de Scott Reef. Evitar interpretar dois relatos de mesma operacao como nova apreensao.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 36,
+  "title_pt": "Fiscalização de pesca ilegal — Proximidades de Cartier Island, Australia Ocidental",
+  "card_text_pt": "A embarcação detectada perto de Cartier Island em 23/09 foi interceptada no dia seguinte com quatro tubarões; o julgamento posterior dos tripulantes não desloca a data da ocorrência para outubro.",
+  "context_pt": "[O] A embarcação detectada perto de Cartier Island em 23/09 foi interceptada no dia seguinte com quatro tubarões; o julgamento posterior dos tripulantes não desloca a data da ocorrência para outubro.\n\n[S] A análise de regulações internacionais de tubarões e raias destaca o papel de controles comerciais e rastreabilidade; pesca irregular, transporte sem licença e tráfico internacional não são categorias intercambiáveis.",
+  "references_text_pt": "[O] Australian Fisheries Management Authority / Australian Border Force (oficial, ingles) — https://www.afma.gov.au/news/13-foreign-fishers-face-darwin-court-illegal-fishing-australias-north\n[S] Trade regulations drive improved global shark and ray management — https://doi.org/10.1016/j.marpol.2025.106733",
+  "title_en": "Illegal fishing enforcement — Near Cartier Island, Australia Ocidental",
+  "card_text_en": "The vessel near Cartier Island was detected on 23 September and intercepted the next day with four sharks. Later court hearings do not shift the occurrence date into October.",
+  "context_en": "[O] The vessel near Cartier Island was detected on 23 September and intercepted the next day with four sharks. Later court hearings do not shift the occurrence date into October.\n\n[S] Shark and ray policy research underscores trade controls and traceability; illegal fishing, undocumented transport and international trafficking are distinct classifications.",
+  "references_text_en": "[O] Australian Fisheries Management Authority / Australian Border Force (oficial, ingles) — https://www.afma.gov.au/news/13-foreign-fishers-face-darwin-court-illegal-fishing-australias-north\n[S] Trade regulations drive improved global shark and ray management — https://doi.org/10.1016/j.marpol.2025.106733",
+  "title_es": "Fiscalización de pesca ilegal — Cercanías de Cartier Island, Australia Ocidental",
+  "card_text_es": "La embarcación cerca de Cartier Island fue detectada el 23 de septiembre e interceptada al día siguiente con cuatro tiburones; la audiencia posterior no cambia la fecha del hecho.",
+  "context_es": "[O] La embarcación cerca de Cartier Island fue detectada el 23 de septiembre e interceptada al día siguiente con cuatro tiburones; la audiencia posterior no cambia la fecha del hecho.\n\n[S] La investigación normativa sobre tiburones y rayas destaca controles y trazabilidad; pesca ilegal, transporte indocumentado y tráfico internacional son categorías diferentes.",
+  "references_text_es": "[O] Australian Fisheries Management Authority / Australian Border Force (oficial, ingles) — https://www.afma.gov.au/news/13-foreign-fishers-face-darwin-court-illegal-fishing-australias-north\n[S] Trade regulations drive improved global shark and ray management — https://doi.org/10.1016/j.marpol.2025.106733",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.afma.gov.au/news/13-foreign-fishers-face-darwin-court-illegal-fishing-australias-north",
+      "label": "Australian Fisheries Management Authority / Australian Border Force (oficial, ingles)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1016/j.marpol.2025.106733",
+      "label": "Trade regulations drive improved global shark and ray management"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-009",
+  "status": "VALIDATED",
+  "country": "Ucrânia",
+  "location_label_pt": "Pokrov / Kiev",
+  "location_label_en": "Pokrov / Kiev",
+  "location_label_es": "Pokrov / Kiev",
+  "coordinates": {
+    "lat": 47.654659,
+    "lon": 34.114934
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Pokrov, Покровська міська громада, Nikopol Raion, Dnipropetrovsk Oblast, 53300-53390, Ukraine. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Pokrov, Покровська міська громада, Nikopol Raion, Dnipropetrovsk Oblast, 53300-53390, Ukraine. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Pokrov, Покровська міська громада, Nikopol Raion, Dnipropetrovsk Oblast, 53300-53390, Ukraine. No indica la dirección exacta del hecho.",
+  "source_label": "Blik (em ucraniano)",
+  "source_url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Elefante; fragmento de marfim",
+  "fauna_label_en": "Elephant ivory fragment",
+  "fauna_label_es": "Fragmento de marfil de elefante",
+  "taxon_text": "Elefante; fragmento de marfim",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Postal",
+  "modal_label_pt": "Postal",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 fragmento; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-009",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Remessa distinta das #7 e #8. Rota postal pretendida: Ucrânia → Estados Unidos.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 51,
+  "title_pt": "Apreensão de fauna — Pokrov / Kiev",
+  "card_text_pt": "O fragmento de marfim foi identificado em encomenda postal ucraniana destinada aos Estados Unidos; o volume de um único objeto não permite inferir quantidade de elefantes nem país de obtenção do material.",
+  "context_pt": "[O] O fragmento de marfim foi identificado em encomenda postal ucraniana destinada aos Estados Unidos; o volume de um único objeto não permite inferir quantidade de elefantes nem país de obtenção do material.\n\n[S] O trabalho de isótopos sobre marfim demonstra que a atribuição de material e origem requer perícia; volumes apreendidos não identificam automaticamente elefantes abatidos nem trajetórias completas.\n\n[N] Reportagem sobre marfim em Sumatra mostra a relevância de distinguir caçadores, atravessadores e transportadores, sem transpor atores ao episódio da Tailândia.",
+  "references_text_pt": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[N] Trial traces a Sumatran elephant ivory trafficking chain — https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+  "title_en": "Wildlife seizure — Pokrov / Kiev",
+  "card_text_en": "One ivory fragment was found in a Ukrainian postal consignment addressed to the United States; one fragment cannot establish the number of elephants or the source country.",
+  "context_en": "[O] One ivory fragment was found in a Ukrainian postal consignment addressed to the United States; one fragment cannot establish the number of elephants or the source country.\n\n[S] Ivory isotope research demonstrates the need for material and origin forensics; seized volume alone does not identify killed elephants or full routes.\n\n[N] Sumatran ivory reporting distinguishes poachers, brokers and shippers without transferring those actors to the Thai case.",
+  "references_text_en": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[N] Trial traces a Sumatran elephant ivory trafficking chain — https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+  "title_es": "Decomiso de fauna — Pokrov / Kiev",
+  "card_text_es": "Se detectó un fragmento de marfil en encomienda postal ucraniana destinada a Estados Unidos; una pieza no permite inferir número de elefantes ni país de extracción.",
+  "context_es": "[O] Se detectó un fragmento de marfil en encomienda postal ucraniana destinada a Estados Unidos; una pieza no permite inferir número de elefantes ni país de extracción.\n\n[S] El estudio isotópico del marfil demuestra la necesidad de peritajes de material y origen; el volumen decomisado no identifica animales abatidos ni rutas completas.\n\n[N] El reportaje sobre marfil en Sumatra distingue cazadores, intermediarios y transportistas sin atribuirles el caso tailandés.",
+  "references_text_es": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[N] Trial traces a Sumatran elephant ivory trafficking chain — https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi",
+      "label": "Blik (em ucraniano)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1533703",
+      "label": "A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+      "label": "Trial traces a Sumatran elephant ivory trafficking chain"
+    }
+  ]
+}

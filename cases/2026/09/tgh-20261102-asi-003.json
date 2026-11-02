@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asi-003",
+  "status": "VALIDATED",
+  "country": "Tailandia",
+  "location_label_pt": "Porto de Laem Chabang",
+  "location_label_en": "Port of Laem Chabang",
+  "location_label_es": "Puerto de Laem Chabang",
+  "coordinates": {
+    "lat": 13.073412,
+    "lon": 100.899418
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Laem Chabang Port, Thung Sukhla Subdistrict, Laem Chabang City Municipality, Takhian Tia, Si Racha District, Chon Buri Province, 20230, Thailand. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Laem Chabang Port, Thung Sukhla Subdistrict, Laem Chabang City Municipality, Takhian Tia, Si Racha District, Chon Buri Province, 20230, Thailand. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Laem Chabang Port, Thung Sukhla Subdistrict, Laem Chabang City Municipality, Takhian Tia, Si Racha District, Chon Buri Province, 20230, Thailand. No indica la dirección exacta del hecho.",
+  "source_label": "DSI Tailandia; Wildlife Justice Commission",
+  "source_url": "https://www.dsi.go.th/th/Detail/5acd7843505d74ae4ec49ae696eeaac0",
+  "georeference_source_url": null,
+  "additional_source_url": "https://wildlifejustice.org/thai-authorities-seize-31-tonnes-of-ivory-following-intelligence-provided-by-the-wildlife-justice-commission",
+  "event_date": "2026-09-29",
+  "publication_date": "2026-10-26",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Marfim de elefante; pelos de cauda e carcaça de animal",
+  "fauna_label_en": "Elephant ivory, tail hair and animal carcass",
+  "fauna_label_es": "Marfil de elefante, pelo de cola y cadáver animal",
+  "taxon_text": "Marfim de elefante; pelos de cauda e carcaça de animal",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 469,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 469
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "3,1 toneladas; 469 presas/secoes; 1.038 fragmentos; 335 pelos; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-003",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Apreensao em 29/09 confirmada por WJC; comunicado DSI publicado em 26/10. Evitar tratar 26/10 como data de apreensao.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 35,
+  "title_pt": "Apreensão de fauna — Porto de Laem Chabang",
+  "card_text_pt": "A apreensão de 3,1 toneladas de marfim e outros derivados no porto de Laem Chabang foi associada a carga declarada da Zâmbia e camuflada em madeira; o comunicado de outubro descreve a operação de 29/09, não uma segunda interceptação.",
+  "context_pt": "[O] A apreensão de 3,1 toneladas de marfim e outros derivados no porto de Laem Chabang foi associada a carga declarada da Zâmbia e camuflada em madeira; o comunicado de outubro descreve a operação de 29/09, não uma segunda interceptação.\n\n[S] O trabalho de isótopos sobre marfim demonstra que a atribuição de material e origem requer perícia; volumes apreendidos não identificam automaticamente elefantes abatidos nem trajetórias completas.\n\n[N] Reportagem sobre marfim em Sumatra mostra a relevância de distinguir caçadores, atravessadores e transportadores, sem transpor atores ao episódio da Tailândia.",
+  "references_text_pt": "[O] DSI Tailandia; Wildlife Justice Commission — https://www.dsi.go.th/th/Detail/5acd7843505d74ae4ec49ae696eeaac0\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[N] Trial traces a Sumatran elephant ivory trafficking chain — https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+  "title_en": "Wildlife seizure — Port of Laem Chabang",
+  "card_text_en": "The 3.1-tonne ivory consignment at Laem Chabang had a declared Zambian origin and was concealed among wood; the October statement reports the 29 September seizure, not a new intercept.",
+  "context_en": "[O] The 3.1-tonne ivory consignment at Laem Chabang had a declared Zambian origin and was concealed among wood; the October statement reports the 29 September seizure, not a new intercept.\n\n[S] Ivory isotope research demonstrates the need for material and origin forensics; seized volume alone does not identify killed elephants or full routes.\n\n[N] Sumatran ivory reporting distinguishes poachers, brokers and shippers without transferring those actors to the Thai case.",
+  "references_text_en": "[O] DSI Tailandia; Wildlife Justice Commission — https://www.dsi.go.th/th/Detail/5acd7843505d74ae4ec49ae696eeaac0\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[N] Trial traces a Sumatran elephant ivory trafficking chain — https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+  "title_es": "Decomiso de fauna — Puerto de Laem Chabang",
+  "card_text_es": "Las 3,1 toneladas de marfil en Laem Chabang tenían procedencia declarada de Zambia y ocultamiento en madera; el comunicado de octubre describe el decomiso del 29 de septiembre, no otro evento.",
+  "context_es": "[O] Las 3,1 toneladas de marfil en Laem Chabang tenían procedencia declarada de Zambia y ocultamiento en madera; el comunicado de octubre describe el decomiso del 29 de septiembre, no otro evento.\n\n[S] El estudio isotópico del marfil demuestra la necesidad de peritajes de material y origen; el volumen decomisado no identifica animales abatidos ni rutas completas.\n\n[N] El reportaje sobre marfil en Sumatra distingue cazadores, intermediarios y transportistas sin atribuirles el caso tailandés.",
+  "references_text_es": "[O] DSI Tailandia; Wildlife Justice Commission — https://www.dsi.go.th/th/Detail/5acd7843505d74ae4ec49ae696eeaac0\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703\n[N] Trial traces a Sumatran elephant ivory trafficking chain — https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.dsi.go.th/th/Detail/5acd7843505d74ae4ec49ae696eeaac0",
+      "label": "DSI Tailandia; Wildlife Justice Commission"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1533703",
+      "label": "A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://mongabay.co.id/2026/10/07/belasan-orang-sindikat-perdagangan-gading-gajah-jalani-persidangan/",
+      "label": "Trial traces a Sumatran elephant ivory trafficking chain"
+    }
+  ]
+}

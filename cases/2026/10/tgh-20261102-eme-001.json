@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-001",
+  "status": "VALIDATED",
+  "country": "Alemanha",
+  "location_label_pt": "Aeroporto Leipzig/Halle",
+  "location_label_en": "Airport Leipzig/Halle",
+  "location_label_es": "Aeropuerto Leipzig/Halle",
+  "coordinates": {
+    "lat": 51.42119,
+    "lon": 12.229586
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Leipzig/Halle Airport, 11, Terminalring, Schkeuditz, Nordsachsen, Saxony, 04435, Germany. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Leipzig/Halle Airport, 11, Terminalring, Schkeuditz, Nordsachsen, Saxony, 04435, Germany. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Leipzig/Halle Airport, 11, Terminalring, Schkeuditz, Nordsachsen, Saxony, 04435, Germany. No indica la dirección exacta del hecho.",
+  "source_label": "Alfândega alemã / Presseportal",
+  "source_url": "https://www.presseportal.de/blaulicht/pm/121226/6381106",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-30",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Píton; peles",
+  "fauna_label_en": "Python skins",
+  "fauna_label_es": "Pieles de pitón",
+  "taxon_text": "Píton; peles",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "quantity_count": 32,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Répteis": 32
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "32 peles; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-001",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Rota documentada: Indonésia → Leipzig/Halle (trânsito) → Albânia (destino pretendido). Verificar identificação taxonômica.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 4,
+  "title_pt": "Apreensão de fauna — Aeroporto Leipzig/Halle",
+  "card_text_pt": "O cão detector precedeu a inspeção de uma carga rotulada como roupas e tecido; nela havia 32 peles de píton tingidas, sem documentos para trânsito pela União Europeia. Indonésia → Leipzig/Halle é deslocamento realizado; Albânia consta como destino declarado, não entrega consumada.",
+  "context_pt": "[O] O cão detector precedeu a inspeção de uma carga rotulada como roupas e tecido; nela havia 32 peles de píton tingidas, sem documentos para trânsito pela União Europeia. Indonésia → Leipzig/Halle é deslocamento realizado; Albânia consta como destino declarado, não entrega consumada.\n\n[S] Pesquisa sobre produtos de couro de répteis mostra que mercadorias processadas podem obscurecer a identificação da espécie; a verificação documental e o diagnóstico do material são cruciais em remessas.\n\n[I] O levantamento institucional de exportações 2010–2018 esclarece a relevância de licença, finalidade declarada e classificação CITES para separar comércio documentado de circulação irregular.",
+  "references_text_pt": "[O] Alfândega alemã / Presseportal — https://www.presseportal.de/blaulicht/pm/121226/6381106\n[S] Scaling the web: Unraveling online reptile leather trade networks with machine learning and network analysis — https://doi.org/10.1016/j.biocon.2025.111672\n[I] WCS — Comércio Legal de Animais Silvestres CITES e não CITES na Amazônia Brasileira (2020) — https://drive.google.com/file/d/1UHdxxWC64jpZMGIKVPaFBID3T5o5WynH/view",
+  "title_en": "Wildlife seizure — Airport Leipzig/Halle",
+  "card_text_en": "A detection dog flagged cargo declared as clothing and textiles; customs found 32 dyed python skins without EU transit papers. Indonesia to Leipzig/Halle was actual carriage, while Albania was the declared, not completed, destination.",
+  "context_en": "[O] A detection dog flagged cargo declared as clothing and textiles; customs found 32 dyed python skins without EU transit papers. Indonesia to Leipzig/Halle was actual carriage, while Albania was the declared, not completed, destination.\n\n[S] Research on reptile leather shows processed goods can obscure species identification; documents and material identification matter for shipments.\n\n[I] The WCS 2010–2018 legal-trade study highlights permits, declared purpose and CITES classification in distinguishing documented trade from irregular movement.",
+  "references_text_en": "[O] Alfândega alemã / Presseportal — https://www.presseportal.de/blaulicht/pm/121226/6381106\n[S] Scaling the web: Unraveling online reptile leather trade networks with machine learning and network analysis — https://doi.org/10.1016/j.biocon.2025.111672\n[I] WCS — Comércio Legal de Animais Silvestres CITES e não CITES na Amazônia Brasileira (2020) — https://drive.google.com/file/d/1UHdxxWC64jpZMGIKVPaFBID3T5o5WynH/view",
+  "title_es": "Decomiso de fauna — Aeropuerto Leipzig/Halle",
+  "card_text_es": "Un perro detector señaló un envío declarado como ropa y telas; aduanas halló 32 pieles de pitón teñidas sin documentos de tránsito de la UE. Indonesia–Leipzig/Halle fue recorrido efectivo; Albania, destino declarado no confirmado como entrega.",
+  "context_es": "[O] Un perro detector señaló un envío declarado como ropa y telas; aduanas halló 32 pieles de pitón teñidas sin documentos de tránsito de la UE. Indonesia–Leipzig/Halle fue recorrido efectivo; Albania, destino declarado no confirmado como entrega.\n\n[S] La investigación sobre cuero de reptiles muestra que los productos transformados dificultan identificar especies; documentos y verificación del material son esenciales.\n\n[I] El estudio WCS de comercio legal 2010–2018 destaca permisos, finalidad y CITES para diferenciar comercio documentado y circulación irregular.",
+  "references_text_es": "[O] Alfândega alemã / Presseportal — https://www.presseportal.de/blaulicht/pm/121226/6381106\n[S] Scaling the web: Unraveling online reptile leather trade networks with machine learning and network analysis — https://doi.org/10.1016/j.biocon.2025.111672\n[I] WCS — Comércio Legal de Animais Silvestres CITES e não CITES na Amazônia Brasileira (2020) — https://drive.google.com/file/d/1UHdxxWC64jpZMGIKVPaFBID3T5o5WynH/view",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.presseportal.de/blaulicht/pm/121226/6381106",
+      "label": "Alfândega alemã / Presseportal"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111672",
+      "label": "Scaling the web: Unraveling online reptile leather trade networks with machine learning and network analysis"
+    },
+    {
+      "id": "I",
+      "type": "I",
+      "url": "https://drive.google.com/file/d/1UHdxxWC64jpZMGIKVPaFBID3T5o5WynH/view",
+      "label": "WCS — Comércio Legal de Animais Silvestres CITES e não CITES na Amazônia Brasileira (2020)"
+    }
+  ]
+}

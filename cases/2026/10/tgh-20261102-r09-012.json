@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-r09-012",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "location_label_pt": "Angaco, San Juan",
+  "location_label_en": "Angaco, San Juan",
+  "location_label_es": "Angaco, San Juan",
+  "coordinates": {
+    "lat": -31.197275,
+    "lon": -68.121765
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Angaco, San Juan, Argentina. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Angaco, San Juan, Argentina. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Angaco, San Juan, Argentina. No indica la dirección exacta del hecho.",
+  "source_label": "Policia de San Juan (oficial)",
+  "source_url": "https://vocacionylealtad.policiadesanjuan.gob.ar/angaco-allanaron-una-casa-y-secuestraron-aves-silvestres-enjauladas-y-una-moto",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres (identificacao nao informada)",
+  "fauna_label_en": "Wild birds; species unidentified",
+  "fauna_label_es": "Aves silvestres; especies no identificadas",
+  "taxon_text": "Aves silvestres (identificacao nao informada)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Aves em 3 gaiolas; 6 armadilhas e 5 gaiolas adicionais; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-012",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Quantidade individual de aves e data operacional exata nao informadas; nao inferir numero de animais a partir de gaiolas.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 59,
+  "title_pt": "Apreensão de fauna — Angaco, San Juan",
+  "card_text_pt": "A busca de Angaco encontrou aves em gaiolas e apetrechos de captura, mas a notícia não fixa número de espécimes nem dia do flagrante. A contagem de seis armadilhas e cinco gaiolas adicionais não pode substituir o quantitativo de fauna.",
+  "context_pt": "[O] A busca de Angaco encontrou aves em gaiolas e apetrechos de captura, mas a notícia não fixa número de espécimes nem dia do flagrante. A contagem de seis armadilhas e cinco gaiolas adicionais não pode substituir o quantitativo de fauna.\n\n[S] O monitoramento de grupos digitais na Argentina registrou oferta ilegal persistente de aves; a posse e a captura locais são parte do contexto de demanda, sem demonstrar automaticamente comércio online neste evento.\n\n[N] A reportagem regional discute demanda por aves canoras e ovos de rapinantes, oferecendo comparação de mercado para ocorrências de captura doméstica.",
+  "references_text_pt": "[O] Policia de San Juan (oficial) — https://vocacionylealtad.policiadesanjuan.gob.ar/angaco-allanaron-una-casa-y-secuestraron-aves-silvestres-enjauladas-y-una-moto\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_en": "Wildlife seizure — Angaco, San Juan",
+  "card_text_en": "The Angaco search found caged birds and trapping equipment, but the report does not establish bird count or exact incident day. Six traps and five spare cages cannot stand for specimen quantities.",
+  "context_en": "[O] The Angaco search found caged birds and trapping equipment, but the report does not establish bird count or exact incident day. Six traps and five spare cages cannot stand for specimen quantities.\n\n[S] Monitoring of Argentine online groups found persistent illegal bird offers; local capture and possession are relevant market context, not proof of online trade in this incident.\n\n[N] Regional reporting discusses songbird and raptor-egg demand as market context for local capture incidents.",
+  "references_text_en": "[O] Policia de San Juan (oficial) — https://vocacionylealtad.policiadesanjuan.gob.ar/angaco-allanaron-una-casa-y-secuestraron-aves-silvestres-enjauladas-y-una-moto\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_es": "Decomiso de fauna — Angaco, San Juan",
+  "card_text_es": "En Angaco se encontraron aves en jaulas y equipos de captura, sin cantidad exacta de ejemplares ni fecha operativa; seis trampas y cinco jaulas adicionales no son números de aves.",
+  "context_es": "[O] En Angaco se encontraron aves en jaulas y equipos de captura, sin cantidad exacta de ejemplares ni fecha operativa; seis trampas y cinco jaulas adicionales no son números de aves.\n\n[S] El seguimiento de grupos digitales argentinos registró oferta ilegal persistente de aves; captura y tenencia local son contexto de demanda, no prueba de venta digital en este hecho.\n\n[N] El reportaje regional analiza demanda de aves canoras y huevos de rapaces como contexto para capturas locales.",
+  "references_text_es": "[O] Policia de San Juan (oficial) — https://vocacionylealtad.policiadesanjuan.gob.ar/angaco-allanaron-una-casa-y-secuestraron-aves-silvestres-enjauladas-y-una-moto\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://vocacionylealtad.policiadesanjuan.gob.ar/angaco-allanaron-una-casa-y-secuestraron-aves-silvestres-enjauladas-y-una-moto",
+      "label": "Policia de San Juan (oficial)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+      "label": "Theft of songbirds and raptor eggs fuels Latin American wildlife markets"
+    }
+  ]
+}

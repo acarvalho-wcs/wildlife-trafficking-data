@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-afs-006",
+  "status": "VALIDATED",
+  "country": "Mocambique",
+  "location_label_pt": "Lisongole, Mecula / Niassa",
+  "location_label_en": "Lisongole, Mecula / Niassa",
+  "location_label_es": "Lisongole, Mecula / Niassa",
+  "coordinates": {
+    "lat": -11.968173,
+    "lon": 37.583019
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Mecula, Niassa Province, Zona Norte, Mozambique. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Mecula, Niassa Province, Zona Norte, Mozambique. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Mecula, Niassa Province, Zona Norte, Mozambique. No indica la dirección exacta del hecho.",
+  "source_label": "Radar Nacional",
+  "source_url": "https://rn.co.mz/operacao-emergencia-resgata-bufalo-preso-armadilha-niassa/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-26",
+  "publication_date": "2026-10-29",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Bufalo juvenil",
+  "fauna_label_en": "Juvenile buffalo",
+  "fauna_label_es": "Búfalo juvenil",
+  "taxon_text": "Bufalo juvenil",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 animal resgatado; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "AFS-006",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Resgate, sem apreensao comercial documentada.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 15,
+  "title_pt": "Resgate de fauna — Lisongole, Mecula / Niassa",
+  "card_text_pt": "O búfalo juvenil foi retirado vivo de laço ilegal dentro da Reserva Especial do Niassa, indicando risco de caça indiscriminada inclusive para indivíduos não visados. É resgate de animal afetado por artefato de caça, não apreensão comercial.",
+  "context_pt": "[O] O búfalo juvenil foi retirado vivo de laço ilegal dentro da Reserva Especial do Niassa, indicando risco de caça indiscriminada inclusive para indivíduos não visados. É resgate de animal afetado por artefato de caça, não apreensão comercial.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.",
+  "references_text_pt": "[O] Radar Nacional — https://rn.co.mz/operacao-emergencia-resgata-bufalo-preso-armadilha-niassa/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "title_en": "Wildlife rescue — Lisongole, Mecula / Niassa",
+  "card_text_en": "A juvenile buffalo was freed alive from an unlawful snare in Niassa Special Reserve, demonstrating incidental harm from indiscriminate trapping. This is a snare-related rescue, not a commercial seizure.",
+  "context_en": "[O] A juvenile buffalo was freed alive from an unlawful snare in Niassa Special Reserve, demonstrating incidental harm from indiscriminate trapping. This is a snare-related rescue, not a commercial seizure.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.",
+  "references_text_en": "[O] Radar Nacional — https://rn.co.mz/operacao-emergencia-resgata-bufalo-preso-armadilha-niassa/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "title_es": "Rescate de fauna — Lisongole, Mecula / Niassa",
+  "card_text_es": "Un búfalo juvenil fue liberado de una trampa ilegal en la Reserva de Niassa, reflejando daños incidentales de lazos indiscriminados. Se trata de rescate, no incautación comercial.",
+  "context_es": "[O] Un búfalo juvenil fue liberado de una trampa ilegal en la Reserva de Niassa, reflejando daños incidentales de lazos indiscriminados. Se trata de rescate, no incautación comercial.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.",
+  "references_text_es": "[O] Radar Nacional — https://rn.co.mz/operacao-emergencia-resgata-bufalo-preso-armadilha-niassa/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://rn.co.mz/operacao-emergencia-resgata-bufalo-preso-armadilha-niassa/",
+      "label": "Radar Nacional"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    }
+  ]
+}

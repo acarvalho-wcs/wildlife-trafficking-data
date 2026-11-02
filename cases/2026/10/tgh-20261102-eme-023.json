@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-023",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Dashtestan, Bushehr — posto Shahid Salahi",
+  "location_label_en": "Dashtestan, Bushehr — posto Shahid Salahi",
+  "location_label_es": "Dashtestan, Bushehr — posto Shahid Salahi",
+  "coordinates": {
+    "lat": 29.224686,
+    "lon": 51.376305
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Dashtestan County, Bushehr Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Dashtestan County, Bushehr Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Dashtestan County, Bushehr Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "Tasnim News (em persa)",
+  "source_url": "https://tasnimnews.ir/fa/news/1405/08/04/3732956/%DA%A9%D8%B4%D9%81-%D9%88-%D8%B6%D8%A8%D8%B7-2-%D8%A8%D9%87%D9%84%D9%87-%D8%B4%D8%A7%D9%87%DB%8C%D9%86-%D8%B4%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B3%D8%AA-%D9%88-%D8%A8%D8%A7%D8%B2%D8%B1%D8%B3%DB%8C-%D8%AF%D8%B4%D8%AA%D8%B3%D8%AA%D8%A7%D9%86",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-26",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Falcões",
+  "fauna_label_en": "Falcons",
+  "fauna_label_es": "Halcones",
+  "taxon_text": "Falcões",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 aves; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-023",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "POSSÍVEL DUPLICIDADE com #24 (mesmo posto). Manter os dois até conferir boletim oficial.",
+  "publication_qc_note": "Possível coincidência operacional com EME-024 (mesmo posto Shahid Salahi).",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 76,
+  "title_pt": "Apreensão de fauna — Dashtestan, Bushehr — posto Shahid Salahi",
+  "card_text_pt": "O registro do posto Shahid Salahi descreve duas aves de rapina apreendidas em uma fiscalização. Como outra publicação fala de uma ave no mesmo local, ambas podem referir-se a episódios sobrepostos e não devem ampliar os indicadores sem cotejo.",
+  "context_pt": "[O] O registro do posto Shahid Salahi descreve duas aves de rapina apreendidas em uma fiscalização. Como outra publicação fala de uma ave no mesmo local, ambas podem referir-se a episódios sobrepostos e não devem ampliar os indicadores sem cotejo.\n\n[S] Entrevistas com profissionais de fiscalização enfatizam inteligência operacional, cooperação e cadeia de custódia para distinguir apreensão localizada de participação comprovada em rede organizada.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] Tasnim News (em persa) — https://tasnimnews.ir/fa/news/1405/08/04/3732956/%DA%A9%D8%B4%D9%81-%D9%88-%D8%B6%D8%A8%D8%B7-2-%D8%A8%D9%87%D9%84%D9%87-%D8%B4%D8%A7%D9%87%DB%8C%D9%86-%D8%B4%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B3%D8%AA-%D9%88-%D8%A8%D8%A7%D8%B2%D8%B1%D8%B3%DB%8C-%D8%AF%D8%B4%D8%AA%D8%B3%D8%AA%D8%A7%D9%86\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Dashtestan, Bushehr — posto Shahid Salahi",
+  "card_text_en": "The Shahid Salahi checkpoint report states two raptors were seized. A separate item describes one bird at the same checkpoint, requiring matching dates and reports before counting additional animals.",
+  "context_en": "[O] The Shahid Salahi checkpoint report states two raptors were seized. A separate item describes one bird at the same checkpoint, requiring matching dates and reports before counting additional animals.\n\n[S] Interviews with enforcement staff stress intelligence, cooperation and chain of custody to distinguish a local seizure from proven organised-network involvement.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] Tasnim News (em persa) — https://tasnimnews.ir/fa/news/1405/08/04/3732956/%DA%A9%D8%B4%D9%81-%D9%88-%D8%B6%D8%A8%D8%B7-2-%D8%A8%D9%87%D9%84%D9%87-%D8%B4%D8%A7%D9%87%DB%8C%D9%86-%D8%B4%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B3%D8%AA-%D9%88-%D8%A8%D8%A7%D8%B2%D8%B1%D8%B3%DB%8C-%D8%AF%D8%B4%D8%AA%D8%B3%D8%AA%D8%A7%D9%86\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Dashtestan, Bushehr — posto Shahid Salahi",
+  "card_text_es": "El parte de Shahid Salahi menciona dos halcones; otra publicación habla de uno en el mismo control. Es preciso cotejar informes y fechas antes de incrementar las cifras.",
+  "context_es": "[O] El parte de Shahid Salahi menciona dos halcones; otra publicación habla de uno en el mismo control. Es preciso cotejar informes y fechas antes de incrementar las cifras.\n\n[S] Entrevistas a agentes de control destacan inteligencia, cooperación y cadena de custodia para diferenciar una incautación local de participación acreditada en redes.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] Tasnim News (em persa) — https://tasnimnews.ir/fa/news/1405/08/04/3732956/%DA%A9%D8%B4%D9%81-%D9%88-%D8%B6%D8%A8%D8%B7-2-%D8%A8%D9%87%D9%84%D9%87-%D8%B4%D8%A7%D9%87%DB%8C%D9%86-%D8%B4%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B3%D8%AA-%D9%88-%D8%A8%D8%A7%D8%B2%D8%B1%D8%B3%DB%8C-%D8%AF%D8%B4%D8%AA%D8%B3%D8%AA%D8%A7%D9%86\n[S] Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities — https://doi.org/10.1007/s12117-026-09588-6\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://tasnimnews.ir/fa/news/1405/08/04/3732956/%DA%A9%D8%B4%D9%81-%D9%88-%D8%B6%D8%A8%D8%B7-2-%D8%A8%D9%87%D9%84%D9%87-%D8%B4%D8%A7%D9%87%DB%8C%D9%86-%D8%B4%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B3%D8%AA-%D9%88-%D8%A8%D8%A7%D8%B2%D8%B1%D8%B3%DB%8C-%D8%AF%D8%B4%D8%AA%D8%B3%D8%AA%D8%A7%D9%86",
+      "label": "Tasnim News (em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s12117-026-09588-6",
+      "label": "Countering organised wildlife trafficking: insights from law enforcement personnel on challenges and opportunities"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

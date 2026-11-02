@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asb-005",
+  "status": "VALIDATED",
+  "country": "Laos",
+  "location_label_pt": "Attapeu: mercados Laksam e Hat Sai Khao; aldeias Samong Mai e Mitsamphan",
+  "location_label_en": "Attapeu: mercados Laksam e Hat Sai Khao; aldeias Samong Mai e Mitsamphan",
+  "location_label_es": "Attapeu: mercados Laksam e Hat Sai Khao; aldeias Samong Mai e Mitsamphan",
+  "coordinates": {
+    "lat": 14.79073,
+    "lon": 107.100832
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Attapeu, Laos. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Attapeu, Laos. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Attapeu, Laos. No indica la dirección exacta del hecho.",
+  "source_label": "Tap chi Lao-Viet (vietnamita)",
+  "source_url": "https://tapchilaoviet.com/van-hoa-xa-hoi/attapeu-tha-dong-vat-quy-hiem-ve-tu-nhien-tieu-huy-hon-20-kg-dong-vat-rung-101122.html",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-27",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Pangolim; varanos; civetas; javali; aves silvestres; porco-espinho",
+  "fauna_label_en": "Pangolins, monitor lizards, civets, wild boar, birds and porcupine",
+  "fauna_label_es": "Pangolines, varanos, civetas, jabalí, aves y puercoespín",
+  "taxon_text": "Pangolim; varanos; civetas; javali; aves silvestres; porco-espinho",
+  "fauna_groups_aggregated": [
+    "Répteis",
+    "Mamíferos",
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 8,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {},
+  "quantity_unassigned": 8,
+  "quantity_note_pt": "8 especimes (27 kg); 3 vivos (1 pangolim + 2 varanos); 20,9 kg de fauna/produtos destruidos; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASB-005",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "REGISTRO AGREGADO: datas operacionais individuais N/I; 7 infratores reportados; separar por local/operacao somente com evidencias individualizadas. Nao contar 27 kg mais 20,9 kg como peso somado.",
+  "publication_qc_note": "Reconciliação: 27 kg apreendidos e 20,9 kg destruídos podem representar etapas do mesmo material.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 70,
+  "title_pt": "Apreensão de fauna — Attapeu: mercados Laksam e Hat Sai Khao; aldeias Samong Mai e Mitsamphan",
+  "card_text_pt": "As inspeções de Attapeu abrangem mercados e aldeias diferentes, com pangolim, varanos, civetas, javali e aves em estados variados. Os 27 kg recolhidos e 20,9 kg destruídos pertencem a etapas de destino e não devem ser somados sem confirmar se os lotes se sobrepõem.",
+  "context_pt": "[O] As inspeções de Attapeu abrangem mercados e aldeias diferentes, com pangolim, varanos, civetas, javali e aves em estados variados. Os 27 kg recolhidos e 20,9 kg destruídos pertencem a etapas de destino e não devem ser somados sem confirmar se os lotes se sobrepõem.\n\n[S] O estudo de uma década de monitoramento no Vietnã evidencia a relevância de registrar separadamente ocorrência, apreensão, destinação dos animais e desdobramentos administrativos.\n\n[N] O informe do repositório contextualiza mercados turísticos de fauna no Laos, com atenção a lojas e pontos de venda.",
+  "references_text_pt": "[O] Tap chi Lao-Viet (vietnamita) — https://tapchilaoviet.com/van-hoa-xa-hoi/attapeu-tha-dong-vat-quy-hiem-ve-tu-nhien-tieu-huy-hon-20-kg-dong-vat-rung-101122.html\n[S] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[N] Luang Prabang authorities examine souvenir shops and transnational wildlife-trade mechanisms — https://dof.mis-mae.gov.la/single.php?nid=316",
+  "title_en": "Wildlife seizure — Attapeu: mercados Laksam e Hat Sai Khao; aldeias Samong Mai e Mitsamphan",
+  "card_text_en": "Attapeu inspections span separate markets and villages, with pangolin, monitors, civets, boar and birds. The 27 kg collected and 20.9 kg destroyed may describe different disposition stages and must not be added without lot reconciliation.",
+  "context_en": "[O] Attapeu inspections span separate markets and villages, with pangolin, monitors, civets, boar and birds. The 27 kg collected and 20.9 kg destroyed may describe different disposition stages and must not be added without lot reconciliation.\n\n[S] A decade of Vietnamese monitoring highlights the need to record incident, seizure, animal disposition and administrative outcomes separately.\n\n[N] The repository report contextualises wildlife selling at Lao tourist markets and shops.",
+  "references_text_en": "[O] Tap chi Lao-Viet (vietnamita) — https://tapchilaoviet.com/van-hoa-xa-hoi/attapeu-tha-dong-vat-quy-hiem-ve-tu-nhien-tieu-huy-hon-20-kg-dong-vat-rung-101122.html\n[S] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[N] Luang Prabang authorities examine souvenir shops and transnational wildlife-trade mechanisms — https://dof.mis-mae.gov.la/single.php?nid=316",
+  "title_es": "Decomiso de fauna — Attapeu: mercados Laksam e Hat Sai Khao; aldeias Samong Mai e Mitsamphan",
+  "card_text_es": "Las inspecciones de Attapeu cubren varios mercados y aldeas, con pangolín, varanos, civetas, jabalí y aves. Los 27 kg retirados y 20,9 kg destruidos pueden solaparse y no deben sumarse sin conciliar lotes.",
+  "context_es": "[O] Las inspecciones de Attapeu cubren varios mercados y aldeas, con pangolín, varanos, civetas, jabalí y aves. Los 27 kg retirados y 20,9 kg destruidos pueden solaparse y no deben sumarse sin conciliar lotes.\n\n[S] Una década de monitoreo en Vietnam demuestra la importancia de separar fecha del hecho, decomiso, destino de animales y resultados administrativos.\n\n[N] El informe del repositorio contextualiza la venta de fauna en mercados y tiendas turísticas de Laos.",
+  "references_text_es": "[O] Tap chi Lao-Viet (vietnamita) — https://tapchilaoviet.com/van-hoa-xa-hoi/attapeu-tha-dong-vat-quy-hiem-ve-tu-nhien-tieu-huy-hon-20-kg-dong-vat-rung-101122.html\n[S] Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024) — https://doi.org/10.1016/j.jnc.2026.127292\n[N] Luang Prabang authorities examine souvenir shops and transnational wildlife-trade mechanisms — https://dof.mis-mae.gov.la/single.php?nid=316",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://tapchilaoviet.com/van-hoa-xa-hoi/attapeu-tha-dong-vat-quy-hiem-ve-tu-nhien-tieu-huy-hon-20-kg-dong-vat-rung-101122.html",
+      "label": "Tap chi Lao-Viet (vietnamita)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1016/j.jnc.2026.127292",
+      "label": "Tracking illegal wildlife trade in Vietnam: Insights from a decade of monitoring (2014–2024)"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://dof.mis-mae.gov.la/single.php?nid=316",
+      "label": "Luang Prabang authorities examine souvenir shops and transnational wildlife-trade mechanisms"
+    }
+  ]
+}

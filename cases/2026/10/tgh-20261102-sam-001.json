@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-sam-001",
+  "status": "VALIDATED",
+  "country": "Colombia",
+  "location_label_pt": "Sasaima, Cundinamarca",
+  "location_label_en": "Sasaima, Cundinamarca",
+  "location_label_es": "Sasaima, Cundinamarca",
+  "coordinates": {
+    "lat": 4.964577,
+    "lon": -74.433115
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Sasaima, Gualivá, Cundinamarca, RAP (Especial) Central, Colombia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Sasaima, Gualivá, Cundinamarca, RAP (Especial) Central, Colombia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Sasaima, Gualivá, Cundinamarca, RAP (Especial) Central, Colombia. No indica la dirección exacta del hecho.",
+  "source_label": "Dios Ve Noticias (espanhol; reportagem de operacoes da CAR)",
+  "source_url": "https://diosvenoticias.com/2026/10/30/la-car-frena-el-uso-de-fauna-silvestre-como-atractivo-turistico-y-rescata-siete-animales-en-sasaima-y-girardot/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "3 papagaios-de-fronte-amarela e 1 arara (identificacao da arara nao informada)",
+  "fauna_label_en": "Three yellow-crowned parrots and one macaw",
+  "fauna_label_es": "Tres loros de frente amarilla y una guacamaya",
+  "taxon_text": "3 papagaios-de-fronte-amarela e 1 arara (identificacao da arara nao informada)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "4 aves vivas; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "SAM-001",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Data operacional nao informada. Publicacao em 30/10/2026. Operacao distinta de Girardot, mas ambas na mesma reportagem. Sem prova de trafico comercial; posse/exibicao irregular de fauna. Validar identificacoes antes de publicar no observatorio.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 45,
+  "title_pt": "Resgate de fauna — Sasaima, Cundinamarca",
+  "card_text_pt": "Em Sasaima, a exposição de quatro aves a visitantes constitui exploração turística de fauna em semicativeiro; a notícia reúne outra ação em Girardot, mas municípios e animais devem permanecer separados.",
+  "context_pt": "[O] Em Sasaima, a exposição de quatro aves a visitantes constitui exploração turística de fauna em semicativeiro; a notícia reúne outra ação em Girardot, mas municípios e animais devem permanecer separados.\n\n[S] Pesquisa com psitacídeos neotropicais indica que a demanda doméstica por animais de companhia pode superar os fluxos de comercialização registrados; é importante diferenciar posse, uso turístico e venda efetiva.\n\n[I] O relatório institucional documenta casos de fauna em cativeiro e uso turístico no Amazonas, além de diferenças entre resgate anunciado e destinação efetiva; serve como comparação de controle pós-apreensão.",
+  "references_text_pt": "[O] Dios Ve Noticias (espanhol; reportagem de operacoes da CAR) — https://diosvenoticias.com/2026/10/30/la-car-frena-el-uso-de-fauna-silvestre-como-atractivo-turistico-y-rescata-siete-animales-en-sasaima-y-girardot/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029\n[I] WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025 — https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+  "title_en": "Wildlife rescue — Sasaima, Cundinamarca",
+  "card_text_en": "In Sasaima, four wild birds were displayed to visitors in semi-captivity. The same report also describes Girardot, but the two municipalities and animal groups are separate events.",
+  "context_en": "[O] In Sasaima, four wild birds were displayed to visitors in semi-captivity. The same report also describes Girardot, but the two municipalities and animal groups are separate events.\n\n[S] Neotropical-parrot research finds local pet keeping can outweigh reported trade flows; possession, tourist display and actual sale should be distinguished.\n\n[I] The WCS Amazonas report documents captivity, tourist display and differences between announced and actual post-seizure transfers, as comparative context.",
+  "references_text_en": "[O] Dios Ve Noticias (espanhol; reportagem de operacoes da CAR) — https://diosvenoticias.com/2026/10/30/la-car-frena-el-uso-de-fauna-silvestre-como-atractivo-turistico-y-rescata-siete-animales-en-sasaima-y-girardot/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029\n[I] WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025 — https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+  "title_es": "Rescate de fauna — Sasaima, Cundinamarca",
+  "card_text_es": "En Sasaima cuatro aves silvestres eran exhibidas a visitantes en semicautiverio; el informe también relata Girardot, pero son actuaciones y grupos de animales distintos.",
+  "context_es": "[O] En Sasaima cuatro aves silvestres eran exhibidas a visitantes en semicautiverio; el informe también relata Girardot, pero son actuaciones y grupos de animales distintos.\n\n[S] La investigación sobre psitácidos neotropicales muestra que la demanda local de mascotas puede superar el comercio registrado; conviene distinguir tenencia, exhibición turística y venta.\n\n[I] El informe WCS Amazonas documenta cautiverio, uso turístico y diferencias entre traslados anunciados y efectivos como contexto comparativo.",
+  "references_text_es": "[O] Dios Ve Noticias (espanhol; reportagem de operacoes da CAR) — https://diosvenoticias.com/2026/10/30/la-car-frena-el-uso-de-fauna-silvestre-como-atractivo-turistico-y-rescata-siete-animales-en-sasaima-y-girardot/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029\n[I] WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025 — https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://diosvenoticias.com/2026/10/30/la-car-frena-el-uso-de-fauna-silvestre-como-atractivo-turistico-y-rescata-siete-animales-en-sasaima-y-girardot/",
+      "label": "Dios Ve Noticias (espanhol; reportagem de operacoes da CAR)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+      "label": "The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots"
+    },
+    {
+      "id": "I",
+      "type": "I",
+      "url": "https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+      "label": "WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025"
+    }
+  ]
+}

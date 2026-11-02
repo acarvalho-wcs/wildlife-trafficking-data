@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-eme-006",
+  "status": "VALIDATED",
+  "country": "França",
+  "location_label_pt": "Lescar (furto) / Séméac, região de Tarbes (recuperação)",
+  "location_label_en": "Lescar (furto) / Séméac, region of Tarbes (recuperação)",
+  "location_label_es": "Lescar (furto) / Séméac, región de Tarbes (recuperação)",
+  "coordinates": {
+    "lat": 43.333377,
+    "lon": -0.435727
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Lescar, Pau, Pyrénées-Atlantiques, Nouvelle-Aquitaine, Metropolitan France, 64230, France. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Lescar, Pau, Pyrénées-Atlantiques, Nouvelle-Aquitaine, Metropolitan France, 64230, France. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Lescar, Pau, Pyrénées-Atlantiques, Nouvelle-Aquitaine, Metropolitan France, 64230, France. No indica la dirección exacta del hecho.",
+  "source_label": "Centre Presse Aveyron",
+  "source_url": "https://www.centrepresseaveyron.fr/2026/10/30/singes-voles-dans-le-zoo-de-lescar-presque-tous-les-animaux-ont-ete-retrouves-en-occitanie-deux-suspects-interpelles-lespoir-renait-a-exotic-park-13627969.php",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-29",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Primatas de pequeno porte; vivos",
+  "fauna_label_en": "Live small primates",
+  "fauna_label_es": "Primates pequeños vivos",
+  "taxon_text": "Primatas de pequeno porte; vivos",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "13 furtados; 11 recuperados; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-006",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Furto em 26–27/10; recuperação em 29/10; desdobramento publicado em 30–31/10. Confirmar espécie, sem somar 11+13 como 24 animais.",
+  "publication_qc_note": "Quantidade: fonte de 30/10 relata 14 furtados, contra 13 da planilha; conciliar 11 recuperados, 1 localizado no parque e 2 desaparecidos.",
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 8,
+  "title_pt": "Resgate de fauna — Lescar (furto) / Séméac, região de Tarbes (recuperação)",
+  "card_text_pt": "A notícia de 30/10 menciona 14 primatas retirados do parque, e não 13: detalha saguis e tamarinos, a recuperação de parte do grupo perto de Séméac e um animal reencontrado no próprio recinto. O número de recuperados e desaparecidos precisa ser reconciliado antes de congelar quantitativos no canônico.",
+  "context_pt": "[O] A notícia de 30/10 menciona 14 primatas retirados do parque, e não 13: detalha saguis e tamarinos, a recuperação de parte do grupo perto de Séméac e um animal reencontrado no próprio recinto. O número de recuperados e desaparecidos precisa ser reconciliado antes de congelar quantitativos no canônico.\n\n[S] A revisão internacional sobre primatas relaciona comércio, captura e manutenção ex situ a pressões de conservação, riscos sanitários e necessidades específicas de reabilitação.\n\n[N] Reportagem francesa evidencia que a proteção dos animais recuperados depende de estruturas especializadas de acolhimento e de continuidade da custódia.",
+  "references_text_pt": "[O] Centre Presse Aveyron — https://www.centrepresseaveyron.fr/2026/10/30/singes-voles-dans-le-zoo-de-lescar-presque-tous-les-animaux-ont-ete-retrouves-en-occitanie-deux-suspects-interpelles-lespoir-renait-a-exotic-park-13627969.php\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613\n[N] Confiscated wildlife struggle to find suitable rescue facilities — https://www.lemonde.fr/planete/article/2023/04/07/especes-sauvages-les-animaux-saisis-a-la-douane-peinent-a-trouver-un-refuge_6168685_3244.html",
+  "title_en": "Wildlife rescue — Lescar (furto) / Séméac, region of Tarbes (recuperação)",
+  "card_text_en": "The 30 October report states 14 marmosets and tamarins were taken, versus 13 in the spreadsheet; suspects were stopped near Séméac and one animal was found back at the park. Reconcile recovered and missing counts before freezing totals.",
+  "context_en": "[O] The 30 October report states 14 marmosets and tamarins were taken, versus 13 in the spreadsheet; suspects were stopped near Séméac and one animal was found back at the park. Reconcile recovered and missing counts before freezing totals.\n\n[S] The global primate review links trade, capture and ex-situ keeping to conservation pressures, health risks and specialised rehabilitation needs.\n\n[N] French reporting shows how rescued wildlife needs specialised accommodation and continuous custody arrangements.",
+  "references_text_en": "[O] Centre Presse Aveyron — https://www.centrepresseaveyron.fr/2026/10/30/singes-voles-dans-le-zoo-de-lescar-presque-tous-les-animaux-ont-ete-retrouves-en-occitanie-deux-suspects-interpelles-lespoir-renait-a-exotic-park-13627969.php\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613\n[N] Confiscated wildlife struggle to find suitable rescue facilities — https://www.lemonde.fr/planete/article/2023/04/07/especes-sauvages-les-animaux-saisis-a-la-douane-peinent-a-trouver-un-refuge_6168685_3244.html",
+  "title_es": "Rescate de fauna — Lescar (furto) / Séméac, región de Tarbes (recuperação)",
+  "card_text_es": "La noticia del 30 de octubre habla de 14 titíes y tamarinos sustraídos, frente a 13 en la hoja; hubo recuperación cerca de Séméac y uno apareció en el parque. Deben conciliarse los conteos de recuperados y desaparecidos.",
+  "context_es": "[O] La noticia del 30 de octubre habla de 14 titíes y tamarinos sustraídos, frente a 13 en la hoja; hubo recuperación cerca de Séméac y uno apareció en el parque. Deben conciliarse los conteos de recuperados y desaparecidos.\n\n[S] La revisión global sobre primates vincula comercio, captura y mantenimiento ex situ con presión de conservación, riesgos sanitarios y rehabilitación especializada.\n\n[N] El reportaje francés muestra que la fauna recuperada requiere instalaciones especializadas y custodia continuada.",
+  "references_text_es": "[O] Centre Presse Aveyron — https://www.centrepresseaveyron.fr/2026/10/30/singes-voles-dans-le-zoo-de-lescar-presque-tous-les-animaux-ont-ete-retrouves-en-occitanie-deux-suspects-interpelles-lespoir-renait-a-exotic-park-13627969.php\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613\n[N] Confiscated wildlife struggle to find suitable rescue facilities — https://www.lemonde.fr/planete/article/2023/04/07/especes-sauvages-les-animaux-saisis-a-la-douane-peinent-a-trouver-un-refuge_6168685_3244.html",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.centrepresseaveyron.fr/2026/10/30/singes-voles-dans-le-zoo-de-lescar-presque-tous-les-animaux-ont-ete-retrouves-en-occitanie-deux-suspects-interpelles-lespoir-renait-a-exotic-park-13627969.php",
+      "label": "Centre Presse Aveyron"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fcosc.2024.1400613",
+      "label": "Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.lemonde.fr/planete/article/2023/04/07/especes-sauvages-les-animaux-saisis-a-la-douane-peinent-a-trouver-un-refuge_6168685_3244.html",
+      "label": "Confiscated wildlife struggle to find suitable rescue facilities"
+    }
+  ]
+}

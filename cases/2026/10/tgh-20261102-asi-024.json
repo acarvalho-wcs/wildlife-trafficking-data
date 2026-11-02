@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-asi-024",
+  "status": "VALIDATED",
+  "country": "India",
+  "location_label_pt": "Morena, Madhya Pradesh",
+  "location_label_en": "Morena, Madhya Pradesh",
+  "location_label_es": "Morena, Madhya Pradesh",
+  "coordinates": {
+    "lat": 26.384979,
+    "lon": 77.861272
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Morena, Madhya Pradesh, India. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Morena, Madhya Pradesh, India. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Morena, Madhya Pradesh, India. No indica la dirección exacta del hecho.",
+  "source_label": "Governo da India; Indian Express",
+  "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329277&lang=2&reg=48",
+  "georeference_source_url": null,
+  "additional_source_url": "https://indianexpress.com/article/india/cheetah-kng22-shooting-death-three-arrested-morena-stsf-bharmar-firearm-untraced-kuno-national-park-10943876/lite/",
+  "event_date": "2026-10-25",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Guepardo; KNG22",
+  "fauna_label_en": "Cheetah KNG22",
+  "fauna_label_es": "Guepardo KNG22",
+  "taxon_text": "Guepardo; KNG22",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 animal morto; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASI-024",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Nao ha evidencia de trafico comercial; caso mantido por criterio ampliado de caca ilegal.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 18,
+  "title_pt": "Ocorrência de caça ilegal — Morena, Madhya Pradesh",
+  "card_text_pt": "O comunicado ministerial confirmou que o guepardo KNG22 apresentava cinco projéteis e morreu após cuidados veterinários, motivando investigação federal e estadual. Trata-se de violência contra indivíduo de programa de reintrodução, sem evidência de venda de partes.",
+  "context_pt": "[O] O comunicado ministerial confirmou que o guepardo KNG22 apresentava cinco projéteis e morreu após cuidados veterinários, motivando investigação federal e estadual. Trata-se de violência contra indivíduo de programa de reintrodução, sem evidência de venda de partes.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.",
+  "references_text_pt": "[O] Governo da India; Indian Express — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329277&lang=2&reg=48\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "title_en": "Illegal hunting incident — Morena, Madhya Pradesh",
+  "card_text_en": "The ministry confirmed five pellets in cheetah KNG22, which died despite treatment, prompting state and federal investigation. It concerns killing risk to a reintroduction animal, not documented wildlife-product trade.",
+  "context_en": "[O] The ministry confirmed five pellets in cheetah KNG22, which died despite treatment, prompting state and federal investigation. It concerns killing risk to a reintroduction animal, not documented wildlife-product trade.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.",
+  "references_text_en": "[O] Governo da India; Indian Express — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329277&lang=2&reg=48\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "title_es": "Incidente de caza ilegal — Morena, Madhya Pradesh",
+  "card_text_es": "El ministerio confirmó cinco perdigones en el guepardo KNG22, muerto pese a tratamiento, e investigaciones estatal y federal. Es un ataque contra un animal reintroducido, no comercio probado de partes.",
+  "context_es": "[O] El ministerio confirmó cinco perdigones en el guepardo KNG22, muerto pese a tratamiento, e investigaciones estatal y federal. Es un ataque contra un animal reintroducido, no comercio probado de partes.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.",
+  "references_text_es": "[O] Governo da India; Indian Express — https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329277&lang=2&reg=48\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329277&lang=2&reg=48",
+      "label": "Governo da India; Indian Express"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    }
+  ]
+}

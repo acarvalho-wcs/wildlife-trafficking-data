@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-eme-025",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Dezful, Khuzestan",
+  "location_label_en": "Dezful, Khuzestan",
+  "location_label_es": "Dezful, Khuzestan",
+  "coordinates": {
+    "lat": 32.378026,
+    "lon": 48.403206
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Dezful, بخش مرکزی شهرستان دزفول, Dezful County, Khuzestan Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Dezful, بخش مرکزی شهرستان دزفول, Dezful County, Khuzestan Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Dezful, بخش مرکزی شهرستان دزفول, Dezful County, Khuzestan Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "HRANA (relatório semanal em persa)",
+  "source_url": "https://www.hra-news.org/2026/hranews/a-58368/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Esquilos; filhotes vivos",
+  "fauna_label_en": "Live juvenile squirrels",
+  "fauna_label_es": "Crías vivas de ardilla",
+  "taxon_text": "Esquilos; filhotes vivos",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 5,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 5
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "5 animais; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-025",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Referência oriunda de compilação semanal; recuperar comunicado primário e data operacional antes de inclusão.",
+  "publication_qc_note": "Relato secundário semanal; falta data operacional e fonte originária individualizada.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 39,
+  "title_pt": "Apreensão de fauna — Dezful, Khuzestan",
+  "card_text_pt": "Cinco filhotes de esquilo foram encontrados à venda em estabelecimento de Dezful. Trata-se de uso de fauna viva no varejo; o material semanal de onde vem a notícia deve ser tratado como relato secundário até individualizar espécie, operação e custódia.",
+  "context_pt": "[O] Cinco filhotes de esquilo foram encontrados à venda em estabelecimento de Dezful. Trata-se de uso de fauna viva no varejo; o material semanal de onde vem a notícia deve ser tratado como relato secundário até individualizar espécie, operação e custódia.\n\n[S] Revisão de governança recomenda distinguir tipos de infração, resultados da fiscalização e incertezas de informação para evitar superestimar a incidência do comércio ilegal.",
+  "references_text_pt": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253",
+  "title_en": "Wildlife seizure — Dezful, Khuzestan",
+  "card_text_en": "Five squirrel young were reported in a Dezful pet shop, indicating retail keeping of live wildlife. The weekly compilation is secondary reporting for species, operation and custody details.",
+  "context_en": "[O] Five squirrel young were reported in a Dezful pet shop, indicating retail keeping of live wildlife. The weekly compilation is secondary reporting for species, operation and custody details.\n\n[S] The governance review advises distinguishing offence types, enforcement outcomes and evidence uncertainty to avoid inflating illegal-trade estimates.",
+  "references_text_en": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253",
+  "title_es": "Decomiso de fauna — Dezful, Khuzestan",
+  "card_text_es": "Cinco crías de ardilla aparecieron en una tienda de Dezful, indicio de oferta minorista de fauna viva. La compilación semanal es fuente secundaria para especie, operativo y custodia.",
+  "context_es": "[O] Cinco crías de ardilla aparecieron en una tienda de Dezful, indicio de oferta minorista de fauna viva. La compilación semanal es fuente secundaria para especie, operativo y custodia.\n\n[S] La revisión de gobernanza recomienda distinguir delitos, resultados de control e incertidumbres para no sobredimensionar el comercio ilegal.",
+  "references_text_es": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] Illegal Wildlife Trade: Scale, Processes, and Governance — https://doi.org/10.1146/annurev-environ-101718-033253",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.hra-news.org/2026/hranews/a-58368/",
+      "label": "HRANA (relatório semanal em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1146/annurev-environ-101718-033253",
+      "label": "Illegal Wildlife Trade: Scale, Processes, and Governance"
+    }
+  ]
+}

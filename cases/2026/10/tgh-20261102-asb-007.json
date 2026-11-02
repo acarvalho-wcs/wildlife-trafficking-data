@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-asb-007",
+  "status": "VALIDATED",
+  "country": "India",
+  "location_label_pt": "Kalyani, Bengala Ocidental",
+  "location_label_en": "Kalyani, Bengala Ocidental",
+  "location_label_es": "Kalyani, Bengala Ocidental",
+  "coordinates": {
+    "lat": 22.974972,
+    "lon": 88.434591
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Kalyani City, Greater Kolkata, Kalyani, Nadia, West Bengal, India. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Kalyani City, Greater Kolkata, Kalyani, Nadia, West Bengal, India. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Kalyani City, Greater Kolkata, Kalyani, Nadia, West Bengal, India. No indica la dirección exacta del hecho.",
+  "source_label": "East India Times (hindi)",
+  "source_url": "https://eastindiatimes.in/archives/111890",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-28",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Loris-lento (identificacao especifica pendente)",
+  "fauna_label_en": "Slow loris; species pending",
+  "fauna_label_es": "Loris lento; especie pendiente",
+  "taxon_text": "Loris-lento (identificacao especifica pendente)",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 individuo vivo; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASB-007",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Ocorrencia ate 28/10, mas sem dia operacional documentado. Nao inferir origem ou rota comercial.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 68,
+  "title_pt": "Apreensão de fauna — Kalyani, Bengala Ocidental",
+  "card_text_pt": "Um loris-lento era transportado em motocicleta em Kalyani quando dois suspeitos foram detidos; a investigação sobre potenciais compradores é etapa subsequente, não destino geográfico comprovado para o animal.",
+  "context_pt": "[O] Um loris-lento era transportado em motocicleta em Kalyani quando dois suspeitos foram detidos; a investigação sobre potenciais compradores é etapa subsequente, não destino geográfico comprovado para o animal.\n\n[S] A revisão internacional sobre primatas relaciona comércio, captura e manutenção ex situ a pressões de conservação, riscos sanitários e necessidades específicas de reabilitação.",
+  "references_text_pt": "[O] East India Times (hindi) — https://eastindiatimes.in/archives/111890\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "title_en": "Wildlife seizure — Kalyani, Bengala Ocidental",
+  "card_text_en": "One slow loris was carried on a motorcycle in Kalyani when two suspects were arrested; inquiries about potential buyers are leads, not an established destination for the animal.",
+  "context_en": "[O] One slow loris was carried on a motorcycle in Kalyani when two suspects were arrested; inquiries about potential buyers are leads, not an established destination for the animal.\n\n[S] The global primate review links trade, capture and ex-situ keeping to conservation pressures, health risks and specialised rehabilitation needs.",
+  "references_text_en": "[O] East India Times (hindi) — https://eastindiatimes.in/archives/111890\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "title_es": "Decomiso de fauna — Kalyani, Bengala Ocidental",
+  "card_text_es": "Un loris lento era transportado en motocicleta en Kalyani cuando dos sospechosos fueron detenidos; investigar compradores potenciales no define destino comercial acreditado.",
+  "context_es": "[O] Un loris lento era transportado en motocicleta en Kalyani cuando dos sospechosos fueron detenidos; investigar compradores potenciales no define destino comercial acreditado.\n\n[S] La revisión global sobre primates vincula comercio, captura y mantenimiento ex situ con presión de conservación, riesgos sanitarios y rehabilitación especializada.",
+  "references_text_es": "[O] East India Times (hindi) — https://eastindiatimes.in/archives/111890\n[S] Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis — https://doi.org/10.3389/fcosc.2024.1400613",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://eastindiatimes.in/archives/111890",
+      "label": "East India Times (hindi)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fcosc.2024.1400613",
+      "label": "Global wildlife trade and trafficking contribute to the world’s nonhuman primate conservation crisis"
+    }
+  ]
+}

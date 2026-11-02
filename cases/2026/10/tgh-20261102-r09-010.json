@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-r09-010",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "location_label_pt": "Ipueiras, Ceara",
+  "location_label_en": "Ipueiras, Ceara",
+  "location_label_es": "Ipueiras, Ceara",
+  "coordinates": {
+    "lat": -4.570483,
+    "lon": -40.914787
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Ipueiras, Ceará, Northeast Region, Brazil. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Ipueiras, Ceará, Northeast Region, Brazil. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Ipueiras, Ceará, Northeast Region, Brazil. No indica la dirección exacta del hecho.",
+  "source_label": "Ceara Online / PMCE",
+  "source_url": "https://portalcearaonline.com.br/policia/pmce-resgata-animais-vitimas-de-maus-tratos-em-ipueiras-1793365387",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-28",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres (nao individualizadas); galos domesticos em investigacao paralela",
+  "fauna_label_en": "Wild birds; domestic roosters under separate investigation",
+  "fauna_label_es": "Aves silvestres; gallos domésticos bajo investigación separada",
+  "taxon_text": "Aves silvestres (nao individualizadas); galos domesticos em investigacao paralela",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 11,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 11
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "11 aves silvestres; 7 galos domesticos (separados); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-010",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Nao agregar os 7 galos domesticos as 11 aves silvestres para indicadores de trafico de fauna; verificar separacao das infracoes.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 12,
+  "title_pt": "Resgate de fauna — Ipueiras, Ceara",
+  "card_text_pt": "A ação reuniu dois problemas distintos: manutenção irregular de 11 aves silvestres e maus-tratos a sete galos domésticos associados a suspeita de rinha. As contagens de fauna silvestre e animais domésticos não são intercambiáveis.",
+  "context_pt": "[O] A ação reuniu dois problemas distintos: manutenção irregular de 11 aves silvestres e maus-tratos a sete galos domésticos associados a suspeita de rinha. As contagens de fauna silvestre e animais domésticos não são intercambiáveis.\n\n[S] Estudo com isótopos em penas de aves canoras brasileiras indica potencial pericial para distinguir origem silvestre e cativa; anilhas ou declarações de criação, isoladamente, não substituem a rastreabilidade.\n\n[N] A reportagem reconstrói captura, intermediação e demanda doméstica por aves, útil para contextualizar a manutenção ilegal sem atribuir ao caso esses elos não observados.",
+  "references_text_pt": "[O] Ceara Online / PMCE — https://portalcearaonline.com.br/policia/pmce-resgata-animais-vitimas-de-maus-tratos-em-ipueiras-1793365387\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "title_en": "Wildlife rescue — Ipueiras, Ceara",
+  "card_text_en": "The case combines two different matters: 11 illegally kept wild birds and seven injured domestic fighting cocks. Wild-fauna counts should exclude domestic cocks even though both appear in one action.",
+  "context_en": "[O] The case combines two different matters: 11 illegally kept wild birds and seven injured domestic fighting cocks. Wild-fauna counts should exclude domestic cocks even though both appear in one action.\n\n[S] Isotope research on Brazilian songbirds supports forensic checks of wild versus captive origin; bands or breeding claims alone do not establish provenance.\n\n[N] The reporting reconstructs capture, middlemen and domestic demand for birds without establishing these links in this incident.",
+  "references_text_en": "[O] Ceara Online / PMCE — https://portalcearaonline.com.br/policia/pmce-resgata-animais-vitimas-de-maus-tratos-em-ipueiras-1793365387\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "title_es": "Rescate de fauna — Ipueiras, Ceara",
+  "card_text_es": "El caso reúne 11 aves silvestres mantenidas ilegalmente y siete gallos domésticos lesionados por presuntas riñas. Los gallos no integran los conteos de fauna silvestre.",
+  "context_es": "[O] El caso reúne 11 aves silvestres mantenidas ilegalmente y siete gallos domésticos lesionados por presuntas riñas. Los gallos no integran los conteos de fauna silvestre.\n\n[S] La investigación isotópica sobre aves canoras brasileñas respalda comprobar el origen silvestre o cautivo; anillas y declaraciones de cría no bastan para acreditar procedencia.\n\n[N] El reportaje describe captura, intermediación y demanda doméstica de aves sin acreditar esos eslabones en este hecho.",
+  "references_text_es": "[O] Ceara Online / PMCE — https://portalcearaonline.com.br/policia/pmce-resgata-animais-vitimas-de-maus-tratos-em-ipueiras-1793365387\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] How Brazil’s illegal trade turns wild parrots into pets — https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://portalcearaonline.com.br/policia/pmce-resgata-animais-vitimas-de-maus-tratos-em-ipueiras-1793365387",
+      "label": "Ceara Online / PMCE"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1111/acv.70052",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/",
+      "label": "How Brazil’s illegal trade turns wild parrots into pets"
+    }
+  ]
+}

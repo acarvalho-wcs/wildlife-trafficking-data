@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-eme-005",
+  "status": "VALIDATED",
+  "country": "Itália",
+  "location_label_pt": "Bolonha / Nápoles",
+  "location_label_en": "Bolonha / Nápoles",
+  "location_label_es": "Bolonha / Nápoles",
+  "coordinates": {
+    "lat": 44.49382,
+    "lon": 11.342633
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Bologna, Emilia-Romagna, Italy. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Bologna, Emilia-Romagna, Italy. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Bologna, Emilia-Romagna, Italy. No indica la dirección exacta del hecho.",
+  "source_label": "Carabinieri (comunicado oficial)",
+  "source_url": "https://www.carabinieri.it/in-vostro-aiuto/informazioni/comunicati-stampa/recuperato-il-raro-corno-di-rinoceronte-rubato-alla-federico-ii",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-28",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Rinoceronte; chifre",
+  "fauna_label_en": "Rhinoceros horn",
+  "fauna_label_es": "Cuerno de rinoceronte",
+  "taxon_text": "Rinoceronte; chifre",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 chifre; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-005",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Furto original em 2015; data exata da recuperação não confirmada. Não contabilizar como animal vivo.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 64,
+  "title_pt": "Resgate de fauna — Bolonha / Nápoles",
+  "card_text_pt": "O chifre de rinoceronte subtraído de museu em Nápoles em 2015 foi recuperado durante investigação posterior; esse objeto tem origem conhecida em coleção zoológica, diferente de uma nova caça de rinoceronte na data da recuperação.",
+  "context_pt": "[O] O chifre de rinoceronte subtraído de museu em Nápoles em 2015 foi recuperado durante investigação posterior; esse objeto tem origem conhecida em coleção zoológica, diferente de uma nova caça de rinoceronte na data da recuperação.\n\n[S] O trabalho de isótopos sobre marfim demonstra que a atribuição de material e origem requer perícia; volumes apreendidos não identificam automaticamente elefantes abatidos nem trajetórias completas.",
+  "references_text_pt": "[O] Carabinieri (comunicado oficial) — https://www.carabinieri.it/in-vostro-aiuto/informazioni/comunicati-stampa/recuperato-il-raro-corno-di-rinoceronte-rubato-alla-federico-ii\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703",
+  "title_en": "Wildlife rescue — Bolonha / Nápoles",
+  "card_text_en": "A rhino horn stolen from a Naples museum in 2015 was recovered during a later investigation; its known museum provenance is not a fresh poaching event at the recovery date.",
+  "context_en": "[O] A rhino horn stolen from a Naples museum in 2015 was recovered during a later investigation; its known museum provenance is not a fresh poaching event at the recovery date.\n\n[S] Ivory isotope research demonstrates the need for material and origin forensics; seized volume alone does not identify killed elephants or full routes.",
+  "references_text_en": "[O] Carabinieri (comunicado oficial) — https://www.carabinieri.it/in-vostro-aiuto/informazioni/comunicati-stampa/recuperato-il-raro-corno-di-rinoceronte-rubato-alla-federico-ii\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703",
+  "title_es": "Rescate de fauna — Bolonha / Nápoles",
+  "card_text_es": "Se recuperó un cuerno de rinoceronte robado de un museo de Nápoles en 2015; su origen museístico identificado no representa nueva caza furtiva en la fecha de recuperación.",
+  "context_es": "[O] Se recuperó un cuerno de rinoceronte robado de un museo de Nápoles en 2015; su origen museístico identificado no representa nueva caza furtiva en la fecha de recuperación.\n\n[S] El estudio isotópico del marfil demuestra la necesidad de peritajes de material y origen; el volumen decomisado no identifica animales abatidos ni rutas completas.",
+  "references_text_es": "[O] Carabinieri (comunicado oficial) — https://www.carabinieri.it/in-vostro-aiuto/informazioni/comunicati-stampa/recuperato-il-raro-corno-di-rinoceronte-rubato-alla-federico-ii\n[S] A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory — https://doi.org/10.3389/fevo.2025.1533703",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.carabinieri.it/in-vostro-aiuto/informazioni/comunicati-stampa/recuperato-il-raro-corno-di-rinoceronte-rubato-alla-federico-ii",
+      "label": "Carabinieri (comunicado oficial)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1533703",
+      "label": "A mammoth task: stable isotope analyses as a tool to prevent illegal trade of elephant ivory"
+    }
+  ]
+}

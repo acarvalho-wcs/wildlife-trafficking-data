@@ -1,0 +1,82 @@
+{
+  "id": "tgh-20261102-sam-002",
+  "status": "VALIDATED",
+  "country": "Colombia",
+  "location_label_pt": "Girardot, Cundinamarca",
+  "location_label_en": "Girardot, Cundinamarca",
+  "location_label_es": "Girardot, Cundinamarca",
+  "coordinates": {
+    "lat": 4.304638,
+    "lon": -74.803074
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Girardot, Alto Magdalena, Cundinamarca, RAP (Especial) Central, Colombia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Girardot, Alto Magdalena, Cundinamarca, RAP (Especial) Central, Colombia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Girardot, Alto Magdalena, Cundinamarca, RAP (Especial) Central, Colombia. No indica la dirección exacta del hecho.",
+  "source_label": "Canal TRO; Dios Ve Noticias (espanhol)",
+  "source_url": "https://canaltro.com/animales-silvestres-recuperados-cundinamarca-turismo/",
+  "georeference_source_url": null,
+  "additional_source_url": "https://diosvenoticias.com/2026/10/30/la-car-frena-el-uso-de-fauna-silvestre-como-atractivo-turistico-y-rescata-siete-animales-en-sasaima-y-girardot/",
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "1 tartaruga-morrocoy; 1 Ara macao; 1 papagaio-de-fronte-amarela",
+  "fauna_label_en": "One red-footed tortoise, one scarlet macaw (*Ara macao*) and one yellow-crowned parrot",
+  "fauna_label_es": "Una tortuga morrocoy, una guacamaya roja y un loro frentiamarillo",
+  "taxon_text": "1 tartaruga-morrocoy; 1 Ara macao; 1 papagaio-de-fronte-amarela",
+  "fauna_groups_aggregated": [
+    "Répteis",
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {},
+  "quantity_unassigned": 3,
+  "quantity_note_pt": "3 animais vivos; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "SAM-002",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Data operacional nao informada. Publicacao de 30/10/2026. Mesma divulgacao da CAR que Sasaima, mas outro municipio e outra acao. Sem trafico comercial demonstrado; nao fundir sem evidencias.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 46,
+  "title_pt": "Resgate de fauna — Girardot, Cundinamarca",
+  "card_text_pt": "A recuperação de uma tartaruga-morrocoy, uma arara-vermelha e um papagaio em Girardot ocorreu em estabelecimento ligado a experiências turísticas. O uso em interação com visitantes não demonstra compra e venda dos animais.",
+  "context_pt": "[O] A recuperação de uma tartaruga-morrocoy, uma arara-vermelha e um papagaio em Girardot ocorreu em estabelecimento ligado a experiências turísticas. O uso em interação com visitantes não demonstra compra e venda dos animais.\n\n[S] Pesquisa com psitacídeos neotropicais indica que a demanda doméstica por animais de companhia pode superar os fluxos de comercialização registrados; é importante diferenciar posse, uso turístico e venda efetiva.\n\n[I] O relatório institucional documenta casos de fauna em cativeiro e uso turístico no Amazonas, além de diferenças entre resgate anunciado e destinação efetiva; serve como comparação de controle pós-apreensão.",
+  "references_text_pt": "[O] Canal TRO; Dios Ve Noticias (espanhol) — https://canaltro.com/animales-silvestres-recuperados-cundinamarca-turismo/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029\n[I] WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025 — https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+  "title_en": "Wildlife rescue — Girardot, Cundinamarca",
+  "card_text_en": "A tortoise, scarlet macaw and parrot were recovered from tourist interactions in Girardot. Exposure to visitors is documented; buying or selling these animals is not.",
+  "context_en": "[O] A tortoise, scarlet macaw and parrot were recovered from tourist interactions in Girardot. Exposure to visitors is documented; buying or selling these animals is not.\n\n[S] Neotropical-parrot research finds local pet keeping can outweigh reported trade flows; possession, tourist display and actual sale should be distinguished.\n\n[I] The WCS Amazonas report documents captivity, tourist display and differences between announced and actual post-seizure transfers, as comparative context.",
+  "references_text_en": "[O] Canal TRO; Dios Ve Noticias (espanhol) — https://canaltro.com/animales-silvestres-recuperados-cundinamarca-turismo/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029\n[I] WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025 — https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+  "title_es": "Rescate de fauna — Girardot, Cundinamarca",
+  "card_text_es": "En Girardot se recuperaron una tortuga morrocoy, una guacamaya roja y un loro usados en experiencias turísticas; exhibición no demuestra compraventa.",
+  "context_es": "[O] En Girardot se recuperaron una tortuga morrocoy, una guacamaya roja y un loro usados en experiencias turísticas; exhibición no demuestra compraventa.\n\n[S] La investigación sobre psitácidos neotropicales muestra que la demanda local de mascotas puede superar el comercio registrado; conviene distinguir tenencia, exhibición turística y venta.\n\n[I] El informe WCS Amazonas documenta cautiverio, uso turístico y diferencias entre traslados anunciados y efectivos como contexto comparativo.",
+  "references_text_es": "[O] Canal TRO; Dios Ve Noticias (espanhol) — https://canaltro.com/animales-silvestres-recuperados-cundinamarca-turismo/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029\n[I] WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025 — https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://canaltro.com/animales-silvestres-recuperados-cundinamarca-turismo/",
+      "label": "Canal TRO; Dios Ve Noticias (espanhol)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+      "label": "The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots"
+    },
+    {
+      "id": "I",
+      "type": "I",
+      "url": "https://drive.google.com/file/d/1LPC83UFpKbc2S65Gy5Gi04lUJ7LC_Ovq/view",
+      "label": "WCS Brasil — Wildlife Crimes in Amazonas, Jan–Apr 2025"
+    }
+  ]
+}

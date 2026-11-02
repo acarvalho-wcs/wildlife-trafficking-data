@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-eme-030",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Mahneshan, Zanjan",
+  "location_label_en": "Mahneshan, Zanjan",
+  "location_label_es": "Mahneshan, Zanjan",
+  "coordinates": {
+    "lat": 36.643153,
+    "lon": 47.644743
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Mahneshan County, Zanjan Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Mahneshan County, Zanjan Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Mahneshan County, Zanjan Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "HRANA (relatório semanal em persa)",
+  "source_url": "https://www.hra-news.org/2026/hranews/a-58368/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-30",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Lebres; carcaças",
+  "fauna_label_en": "Hare carcasses",
+  "fauna_label_es": "Cadáveres de liebres",
+  "taxon_text": "Lebres; carcaças",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 12,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 12
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "12 lebres; 2 armas; 49 munições; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-030",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Referência de compilação semanal. Confirmar data e origem das carcaças antes da etapa canônica.",
+  "publication_qc_note": "Relato secundário semanal; falta data operacional e fonte originária individualizada.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 44,
+  "title_pt": "Ocorrência de caça ilegal — Mahneshan, Zanjan",
+  "card_text_pt": "O conjunto de doze lebres mortas, armas e munições apreendido em Mahneshan registra caça já consumada, e não mera tentativa. Armas e cartuchos são evidências instrumentais, não exemplares ou partes de fauna.",
+  "context_pt": "[O] O conjunto de doze lebres mortas, armas e munições apreendido em Mahneshan registra caça já consumada, e não mera tentativa. Armas e cartuchos são evidências instrumentais, não exemplares ou partes de fauna.\n\n[S] A revisão de tecnologias anticaptura discute sensores, patrulhamento e informação geoespacial como apoio à prevenção; detecção de meios de caça não equivale a abate documentado.",
+  "references_text_pt": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "title_en": "Illegal hunting incident — Mahneshan, Zanjan",
+  "card_text_en": "Twelve dead hares and seized guns and cartridges in Mahneshan indicate completed hunting; weapons and ammunition are evidence items, not wildlife specimens.",
+  "context_en": "[O] Twelve dead hares and seized guns and cartridges in Mahneshan indicate completed hunting; weapons and ammunition are evidence items, not wildlife specimens.\n\n[S] The anti-poaching technology review covers sensors, patrols and geospatial intelligence; detection of hunting equipment does not itself document an animal kill.",
+  "references_text_en": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "title_es": "Incidente de caza ilegal — Mahneshan, Zanjan",
+  "card_text_es": "Doce liebres muertas y armas con municiones decomisadas en Mahneshan indican caza consumada; los equipos no cuentan como especímenes de fauna.",
+  "context_es": "[O] Doce liebres muertas y armas con municiones decomisadas en Mahneshan indican caza consumada; los equipos no cuentan como especímenes de fauna.\n\n[S] La revisión sobre tecnología contra la caza furtiva examina sensores y patrullaje; detectar equipos de caza no equivale a confirmar animales abatidos.",
+  "references_text_es": "[O] HRANA (relatório semanal em persa) — https://www.hra-news.org/2026/hranews/a-58368/\n[S] The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest — https://doi.org/10.3389/fevo.2025.1527976",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.hra-news.org/2026/hranews/a-58368/",
+      "label": "HRANA (relatório semanal em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976",
+      "label": "The rising tide of conservation technology: empowering the fight against poaching and unsustainable wildlife harvest"
+    }
+  ]
+}

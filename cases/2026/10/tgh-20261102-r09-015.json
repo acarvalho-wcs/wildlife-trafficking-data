@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-r09-015",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "location_label_pt": "Salta",
+  "location_label_en": "Salta",
+  "location_label_es": "Salta",
+  "coordinates": {
+    "lat": -25.226991,
+    "lon": -64.591196
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Salta, Argentina. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Salta, Argentina. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Salta, Argentina. No indica la dirección exacta del hecho.",
+  "source_label": "El 10 TV",
+  "source_url": "https://www.el10tv.com/noticias_det.php?furl=Caza_ilegal_en_Salta_interceptaron_a_dos_hombres_que_transportaban_corzuelas",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Corcuelas (cervideos silvestres; taxonomia a confirmar)",
+  "fauna_label_en": "Wild deer; taxonomic identification pending",
+  "fauna_label_es": "Cérvidos silvestres; identificación pendiente",
+  "taxon_text": "Corcuelas (cervideos silvestres; taxonomia a confirmar)",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 animais (estado de vida a confirmar); verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-015",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Data exata nao informada. Confirmar especies, local, estado dos animais e natureza da infracao.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 61,
+  "title_pt": "Ocorrência de caça ilegal — Salta",
+  "card_text_pt": "Duas corçuelas eram transportadas em veículo interceptado em Salta durante apuração de caça; identificação taxonômica e condição dos animais são relevantes para distinguir transporte de animais vivos de carcaças de caça.",
+  "context_pt": "[O] Duas corçuelas eram transportadas em veículo interceptado em Salta durante apuração de caça; identificação taxonômica e condição dos animais são relevantes para distinguir transporte de animais vivos de carcaças de caça.\n\n[S] A revisão diferencia pressões de captura, comércio e impactos de bem-estar, e recomenda respostas de fiscalização proporcionais ao tipo de exploração documentado.",
+  "references_text_pt": "[O] El 10 TV — https://www.el10tv.com/noticias_det.php?furl=Caza_ilegal_en_Salta_interceptaron_a_dos_hombres_que_transportaban_corzuelas\n[S] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9",
+  "title_en": "Illegal hunting incident — Salta",
+  "card_text_en": "Two brocket deer were transported in a vehicle stopped in Salta during a hunting investigation; confirm taxon and whether animals were live or dead before assigning an offence modality.",
+  "context_en": "[O] Two brocket deer were transported in a vehicle stopped in Salta during a hunting investigation; confirm taxon and whether animals were live or dead before assigning an offence modality.\n\n[S] The review distinguishes extraction, trade and welfare pressures and calls for enforcement responses proportionate to the documented activity.",
+  "references_text_en": "[O] El 10 TV — https://www.el10tv.com/noticias_det.php?furl=Caza_ilegal_en_Salta_interceptaron_a_dos_hombres_que_transportaban_corzuelas\n[S] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9",
+  "title_es": "Incidente de caza ilegal — Salta",
+  "card_text_es": "Dos corzuelas eran transportadas en un vehículo interceptado en Salta; verificar especie y condición vital antes de clasificarlas como traslado de animales vivos o piezas de caza.",
+  "context_es": "[O] Dos corzuelas eran transportadas en un vehículo interceptado en Salta; verificar especie y condición vital antes de clasificarlas como traslado de animales vivos o piezas de caza.\n\n[S] La revisión distingue presiones de extracción, comercio y bienestar, y recomienda respuestas de control proporcionales a la actividad documentada.",
+  "references_text_es": "[O] El 10 TV — https://www.el10tv.com/noticias_det.php?furl=Caza_ilegal_en_Salta_interceptaron_a_dos_hombres_que_transportaban_corzuelas\n[S] A review of the threat of unsustainable wildlife trade to global biodiversity and society — https://doi.org/10.1007/s10344-025-01990-9",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.el10tv.com/noticias_det.php?furl=Caza_ilegal_en_Salta_interceptaron_a_dos_hombres_que_transportaban_corzuelas",
+      "label": "El 10 TV"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s10344-025-01990-9",
+      "label": "A review of the threat of unsustainable wildlife trade to global biodiversity and society"
+    }
+  ]
+}

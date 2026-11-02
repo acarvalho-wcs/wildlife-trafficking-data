@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asb-002",
+  "status": "VALIDATED",
+  "country": "Indonesia",
+  "location_label_pt": "Porto de Mayangan, Probolinggo, Java Oriental",
+  "location_label_en": "Port of Mayangan, Probolinggo, Java Oriental",
+  "location_label_es": "Puerto de Mayangan, Probolinggo, Java Oriental",
+  "coordinates": {
+    "lat": -7.739164,
+    "lon": 113.212857
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Mayangan, Probolinggo, East Java, 67218, Indonesia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Mayangan, Probolinggo, East Java, 67218, Indonesia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Mayangan, Probolinggo, East Java, 67218, Indonesia. No indica la dirección exacta del hecho.",
+  "source_label": "KilasJatim (indonesio)",
+  "source_url": "https://kilasjatim.com/2026/10/27/polda-jatim-ungkap-4-kasus-dari-satwa-dilindungi-hingga-solar-subsidi/",
+  "georeference_source_url": null,
+  "additional_source_url": "https://ramadhan.antaranews.com/video/5815687/polda-jatim-ungkap-pengiriman-burung-dilindungi-dan-bagian-hiu",
+  "event_date": "2026-10-08",
+  "publication_date": "2026-10-27",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves-do-paraiso-amarelas-grandes; cacatuas-de-crista-amarela; cacatua-branca; papagaio-de-cabeca-preta",
+  "fauna_label_en": "Greater birds-of-paradise, yellow-crested and white cockatoos, black-headed parrots",
+  "fauna_label_es": "Aves del paraíso mayores, cacatúas de cresta amarilla y blancas, loros cabecinegros",
+  "taxon_text": "Aves-do-paraiso-amarelas-grandes; cacatuas-de-crista-amarela; cacatua-branca; papagaio-de-cabeca-preta",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 7,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 7
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "7 aves: 2 aves-do-paraiso; 3 cacatuas-de-crista-amarela; 1 cacatua-branca; 1 papagaio-de-cabeca-preta; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASB-002",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Rota documentada: ilhas Aru, Molucas -> Mayangan/Probolinggo; nao confundir com remessa de produtos de tubarao R5B-003.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 33,
+  "title_pt": "Apreensão de fauna — Porto de Mayangan, Probolinggo, Java Oriental",
+  "card_text_pt": "A remessa reunia aves protegidas provenientes das ilhas Aru e interceptadas em Mayangan, Probolinggo. O deslocamento interinsular efetivamente reportado sugere rede doméstica de transporte, sem autorizar inferência de exportação internacional.",
+  "context_pt": "[O] A remessa reunia aves protegidas provenientes das ilhas Aru e interceptadas em Mayangan, Probolinggo. O deslocamento interinsular efetivamente reportado sugere rede doméstica de transporte, sem autorizar inferência de exportação internacional.\n\n[S] Pesquisa em Kalimantan combina fiscalização e sensibilização de comerciantes para reduzir ofertas abertas de aves protegidas; a coleta de dados de origem e destino qualifica a análise de cada remessa.\n\n[N] Investigação independente na Indonésia descreve intermediários e transporte de psitacídeos entre ilhas, como paralelo regional ao comércio de aves protegidas.",
+  "references_text_pt": "[O] KilasJatim (indonesio) — https://kilasjatim.com/2026/10/27/polda-jatim-ungkap-4-kasus-dari-satwa-dilindungi-hingga-solar-subsidi/\n[S] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[N] Investigation traces illegal parrot trade routes across Sulawesi — https://mongabay.co.id/2024/05/21/menelisik-jalur-paruh-bengkok-ilegal-di-sulawesi-1/",
+  "title_en": "Wildlife seizure — Port of Mayangan, Probolinggo, Java Oriental",
+  "card_text_en": "Protected birds from the Aru Islands were intercepted at Mayangan, Probolinggo. The evidenced inter-island movement points to domestic transport, not an established international export route.",
+  "context_en": "[O] Protected birds from the Aru Islands were intercepted at Mayangan, Probolinggo. The evidenced inter-island movement points to domestic transport, not an established international export route.\n\n[S] Kalimantan research combines enforcement and trader outreach to reduce open offers of protected birds; origin and destination data improve shipment analysis.\n\n[N] Indonesian investigation describes brokers and inter-island parrot transport as a regional comparison.",
+  "references_text_en": "[O] KilasJatim (indonesio) — https://kilasjatim.com/2026/10/27/polda-jatim-ungkap-4-kasus-dari-satwa-dilindungi-hingga-solar-subsidi/\n[S] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[N] Investigation traces illegal parrot trade routes across Sulawesi — https://mongabay.co.id/2024/05/21/menelisik-jalur-paruh-bengkok-ilegal-di-sulawesi-1/",
+  "title_es": "Decomiso de fauna — Puerto de Mayangan, Probolinggo, Java Oriental",
+  "card_text_es": "Aves protegidas procedentes de las islas Aru fueron interceptadas en Mayangan, Probolinggo. El traslado interinsular documentado es doméstico, no una exportación internacional demostrada.",
+  "context_es": "[O] Aves protegidas procedentes de las islas Aru fueron interceptadas en Mayangan, Probolinggo. El traslado interinsular documentado es doméstico, no una exportación internacional demostrada.\n\n[S] La investigación en Kalimantan combina fiscalización y trabajo con comerciantes para reducir la oferta de aves protegidas; registrar origen y destino mejora el análisis.\n\n[N] La investigación indonesia describe intermediarios y traslados interinsulares de psitácidos como comparación regional.",
+  "references_text_es": "[O] KilasJatim (indonesio) — https://kilasjatim.com/2026/10/27/polda-jatim-ungkap-4-kasus-dari-satwa-dilindungi-hingga-solar-subsidi/\n[S] Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan — https://doi.org/10.1016/j.gecco.2026.e04193\n[N] Investigation traces illegal parrot trade routes across Sulawesi — https://mongabay.co.id/2024/05/21/menelisik-jalur-paruh-bengkok-ilegal-di-sulawesi-1/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://kilasjatim.com/2026/10/27/polda-jatim-ungkap-4-kasus-dari-satwa-dilindungi-hingga-solar-subsidi/",
+      "label": "KilasJatim (indonesio)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1016/j.gecco.2026.e04193",
+      "label": "Evaluating the impacts of law enforcement and market outreach campaigns on the Indonesian caged bird trade in Kalimantan"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://mongabay.co.id/2024/05/21/menelisik-jalur-paruh-bengkok-ilegal-di-sulawesi-1/",
+      "label": "Investigation traces illegal parrot trade routes across Sulawesi"
+    }
+  ]
+}

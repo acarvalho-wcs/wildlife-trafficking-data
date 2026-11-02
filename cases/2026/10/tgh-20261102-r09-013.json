@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-r09-013",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "location_label_pt": "La Falda, Cordoba",
+  "location_label_en": "La Falda, Cordoba",
+  "location_label_es": "La Falda, Cordoba",
+  "coordinates": {
+    "lat": -31.094619,
+    "lon": -64.482936
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Municipio de La Falda, Pedanía San Antonio, Departamento Punilla, Córdoba, X5166, Argentina. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Municipio de La Falda, Pedanía San Antonio, Departamento Punilla, Córdoba, X5166, Argentina. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Municipio de La Falda, Pedanía San Antonio, Departamento Punilla, Córdoba, X5166, Argentina. No indica la dirección exacta del hecho.",
+  "source_label": "Punilla Informa",
+  "source_url": "https://www.punillainforma.com.ar/2020/index.php/locales/item/7014-la-falda-realizaron-un-allanamiento-por-tenencia-ilegal-de-aves-silvestres-y-secuestraron-ocho-jaulas",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-30",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves silvestres (especies a confirmar)",
+  "fauna_label_en": "Wild birds; species pending",
+  "fauna_label_es": "Aves silvestres; especies pendientes",
+  "taxon_text": "Aves silvestres (especies a confirmar)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 aves; 8 gaiolas; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "R09-013",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Ocorrencia individual publicada em 30/10. Verificar eventual coincidencia com operacoes agregadas de Cordoba (registro R09-014) antes de inclusao canonica.",
+  "publication_qc_note": "Conferir se La Falda integra o balanço agregado R09-014.",
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 5,
+  "title_pt": "Apreensão de fauna — La Falda, Cordoba",
+  "card_text_pt": "As duas aves estavam em uma residência com gaiolas e armadilhas, indicação de captura ou manutenção doméstica irregular; o material não prova operação de venda. A ocorrência individual de La Falda deve permanecer distinta do balanço rural agregado da província.",
+  "context_pt": "[O] As duas aves estavam em uma residência com gaiolas e armadilhas, indicação de captura ou manutenção doméstica irregular; o material não prova operação de venda. A ocorrência individual de La Falda deve permanecer distinta do balanço rural agregado da província.\n\n[S] O monitoramento de grupos digitais na Argentina registrou oferta ilegal persistente de aves; a posse e a captura locais são parte do contexto de demanda, sem demonstrar automaticamente comércio online neste evento.\n\n[N] A reportagem regional discute demanda por aves canoras e ovos de rapinantes, oferecendo comparação de mercado para ocorrências de captura doméstica.",
+  "references_text_pt": "[O] Punilla Informa — https://www.punillainforma.com.ar/2020/index.php/locales/item/7014-la-falda-realizaron-un-allanamiento-por-tenencia-ilegal-de-aves-silvestres-y-secuestraron-ocho-jaulas\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_en": "Wildlife seizure — La Falda, Cordoba",
+  "card_text_en": "Two birds were kept at a residence with cages and traps, consistent with unlawful keeping or capture, but no completed sale is shown. The La Falda address is distinct from the province-wide rural-operation roundup.",
+  "context_en": "[O] Two birds were kept at a residence with cages and traps, consistent with unlawful keeping or capture, but no completed sale is shown. The La Falda address is distinct from the province-wide rural-operation roundup.\n\n[S] Monitoring of Argentine online groups found persistent illegal bird offers; local capture and possession are relevant market context, not proof of online trade in this incident.\n\n[N] Regional reporting discusses songbird and raptor-egg demand as market context for local capture incidents.",
+  "references_text_en": "[O] Punilla Informa — https://www.punillainforma.com.ar/2020/index.php/locales/item/7014-la-falda-realizaron-un-allanamiento-por-tenencia-ilegal-de-aves-silvestres-y-secuestraron-ocho-jaulas\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "title_es": "Decomiso de fauna — La Falda, Cordoba",
+  "card_text_es": "Dos pájaros estaban en una vivienda con jaulas y trampas, indicio de captura o tenencia irregular sin venta acreditada. La intervención puntual de La Falda es distinta del balance rural agregado provincial.",
+  "context_es": "[O] Dos pájaros estaban en una vivienda con jaulas y trampas, indicio de captura o tenencia irregular sin venta acreditada. La intervención puntual de La Falda es distinta del balance rural agregado provincial.\n\n[S] El seguimiento de grupos digitales argentinos registró oferta ilegal persistente de aves; captura y tenencia local son contexto de demanda, no prueba de venta digital en este hecho.\n\n[N] El reportaje regional analiza demanda de aves canoras y huevos de rapaces como contexto para capturas locales.",
+  "references_text_es": "[O] Punilla Informa — https://www.punillainforma.com.ar/2020/index.php/locales/item/7014-la-falda-realizaron-un-allanamiento-por-tenencia-ilegal-de-aves-silvestres-y-secuestraron-ocho-jaulas\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina — https://doi.org/10.1093/ornithapp/duaf012\n[N] Theft of songbirds and raptor eggs fuels Latin American wildlife markets — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.punillainforma.com.ar/2020/index.php/locales/item/7014-la-falda-realizaron-un-allanamiento-por-tenencia-ilegal-de-aves-silvestres-y-secuestraron-ocho-jaulas",
+      "label": "Punilla Informa"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+      "label": "Theft of songbirds and raptor eggs fuels Latin American wildlife markets"
+    }
+  ]
+}

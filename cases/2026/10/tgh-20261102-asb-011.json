@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-asb-011",
+  "status": "VALIDATED",
+  "country": "Australia",
+  "location_label_pt": "Lethbridge Park, Sydney, Nova Gales do Sul",
+  "location_label_en": "Lethbridge Park, Sydney, Nova Gales do Sul",
+  "location_label_es": "Lethbridge Park, Sydney, Nova Gales do Sul",
+  "coordinates": {
+    "lat": -33.737977,
+    "lon": 150.80015
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Lethbridge Park Public School, Manila Road, Lethbridge Park, Sydney, New South Wales, 2770, Australia. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Lethbridge Park Public School, Manila Road, Lethbridge Park, Sydney, New South Wales, 2770, Australia. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Lethbridge Park Public School, Manila Road, Lethbridge Park, Sydney, New South Wales, 2770, Australia. No indica la dirección exacta del hecho.",
+  "source_label": "New South Wales Police (comunicado oficial)",
+  "source_url": "https://ebizprd.police.nsw.gov.au/media/129445.html",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-28",
+  "publication_date": "2026-10-30",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Cobra-do-milho; piton-tapete",
+  "fauna_label_en": "Corn snake and carpet python",
+  "fauna_label_es": "Serpiente del maíz y pitón alfombra",
+  "taxon_text": "Cobra-do-milho; piton-tapete",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "2 serpentes; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "ASB-011",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Apreensao confirmada; trafico ou comercio nao comprovados na noticia. Evitar classificar criminalmente sem evidencia.",
+  "publication_qc_note": "Posse de serpentes sob apuração; crime de tráfico não demonstrado.",
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 11,
+  "title_pt": "Apreensão de fauna — Lethbridge Park, Sydney, Nova Gales do Sul",
+  "card_text_pt": "As duas serpentes exóticas apareceram durante mandados policiais amplos voltados a outros delitos; a fonte policial registra investigação sobre posse, sem concluir contrabando. É essencial preservar essa separação ao interpretar coapreensões na operação.",
+  "context_pt": "[O] As duas serpentes exóticas apareceram durante mandados policiais amplos voltados a outros delitos; a fonte policial registra investigação sobre posse, sem concluir contrabando. É essencial preservar essa separação ao interpretar coapreensões na operação.\n\n[S] Estudo sobre répteis destaca discrepâncias entre registros de comércio e alegações de criação em cativeiro; identificação taxonômica e documentação de procedência são centrais para interpretar apreensões.\n\n[N] A reportagem australiana examina fiscalização de répteis e crimes ambientais associados, mas não estabelece comércio no presente flagrante.",
+  "references_text_pt": "[O] New South Wales Police (comunicado oficial) — https://ebizprd.police.nsw.gov.au/media/129445.html\n[S] Exported illegally, threatened locally: South Africa in the global reptile pet trade — https://doi.org/10.1080/21564574.2025.2542207\n[N] Reptiles, gold and money: How Australia is cracking down on wildlife trafficking — https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+  "title_en": "Wildlife seizure — Lethbridge Park, Sydney, Nova Gales do Sul",
+  "card_text_en": "Two exotic snakes emerged during a broader police crime crackdown; police described questions over possession, not an established smuggling charge. Separate their status from unrelated arrests and exhibits.",
+  "context_en": "[O] Two exotic snakes emerged during a broader police crime crackdown; police described questions over possession, not an established smuggling charge. Separate their status from unrelated arrests and exhibits.\n\n[S] Reptile-trade research highlights inconsistencies between trade records and captive-breeding claims; taxonomic identification and provenance documents are decisive.\n\n[N] Australian reporting examines reptile enforcement and associated offences without establishing trade in this operation.",
+  "references_text_en": "[O] New South Wales Police (comunicado oficial) — https://ebizprd.police.nsw.gov.au/media/129445.html\n[S] Exported illegally, threatened locally: South Africa in the global reptile pet trade — https://doi.org/10.1080/21564574.2025.2542207\n[N] Reptiles, gold and money: How Australia is cracking down on wildlife trafficking — https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+  "title_es": "Decomiso de fauna — Lethbridge Park, Sydney, Nova Gales do Sul",
+  "card_text_es": "Dos ofidios exóticos surgieron durante una operación policial sobre otros delitos; la policía investigaba su tenencia y no confirmó contrabando. Su situación debe separarse de las demás incautaciones.",
+  "context_es": "[O] Dos ofidios exóticos surgieron durante una operación policial sobre otros delitos; la policía investigaba su tenencia y no confirmó contrabando. Su situación debe separarse de las demás incautaciones.\n\n[S] El estudio sobre comercio de reptiles destaca discrepancias entre registros y supuesta cría en cautiverio; identificación y documentación de origen son decisivas.\n\n[N] El reportaje australiano examina fiscalización de reptiles y otros delitos sin demostrar comercio en este episodio.",
+  "references_text_es": "[O] New South Wales Police (comunicado oficial) — https://ebizprd.police.nsw.gov.au/media/129445.html\n[S] Exported illegally, threatened locally: South Africa in the global reptile pet trade — https://doi.org/10.1080/21564574.2025.2542207\n[N] Reptiles, gold and money: How Australia is cracking down on wildlife trafficking — https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://ebizprd.police.nsw.gov.au/media/129445.html",
+      "label": "New South Wales Police (comunicado oficial)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1080/21564574.2025.2542207",
+      "label": "Exported illegally, threatened locally: South Africa in the global reptile pet trade"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://news.mongabay.com/2026/09/reptiles-gold-and-money-how-australia-is-cracking-down-on-wildlife-trafficking/",
+      "label": "Reptiles, gold and money: How Australia is cracking down on wildlife trafficking"
+    }
+  ]
+}

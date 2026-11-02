@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-022",
+  "status": "VALIDATED",
+  "country": "Irã",
+  "location_label_pt": "Bandargaz, Golestan",
+  "location_label_en": "Bandargaz, Golestan",
+  "location_label_es": "Bandargaz, Golestan",
+  "coordinates": {
+    "lat": 36.769409,
+    "lon": 53.949453
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Qarz Al-Hasaneh Mehr Iran Bank, امام خمینی, Bandar-e Gaz, بخش مرکزی شهرستان بندر گز, Bandar-e-Gaz County, Golestan Province, Iran. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Qarz Al-Hasaneh Mehr Iran Bank, امام خمینی, Bandar-e Gaz, بخش مرکزی شهرستان بندر گز, Bandar-e-Gaz County, Golestan Province, Iran. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Qarz Al-Hasaneh Mehr Iran Bank, امام خمینی, Bandar-e Gaz, بخش مرکزی شهرستان بندر گز, Bandar-e-Gaz County, Golestan Province, Iran. No indica la dirección exacta del hecho.",
+  "source_label": "Comitê de Defesa do Meio Ambiente (em persa)",
+  "source_url": "https://mohitzist.bashariyat.org/?p=54368",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-26",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Aves de rapina; vivas",
+  "fauna_label_en": "Live birds of prey",
+  "fauna_label_es": "Aves rapaces vivas",
+  "taxon_text": "Aves de rapina; vivas",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "quantity_count": 29,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 29
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "29 aves; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-022",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Verificar espécie e data operacional; percurso Gorgan → Shiraz informado na notícia.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 75,
+  "title_pt": "Apreensão de fauna — Bandargaz, Golestan",
+  "card_text_pt": "O transporte de 29 aves de rapina em ônibus entre Gorgan e Shiraz oferece percurso doméstico declarado, interceptado na região de Bandargaz. O vínculo com exportação ao Golfo ou outras cadeias de falcoaria não está descrito nesta apreensão.",
+  "context_pt": "[O] O transporte de 29 aves de rapina em ônibus entre Gorgan e Shiraz oferece percurso doméstico declarado, interceptado na região de Bandargaz. O vínculo com exportação ao Golfo ou outras cadeias de falcoaria não está descrito nesta apreensão.\n\n[S] A análise de países de trânsito mostra que locais de inspeção, origem declarada e destino pretendido cumprem papéis logísticos distintos; rotas exigem documentação caso a caso.\n\n[N] Investigação jornalística escocesa mostra como documentação de criação e análise genética podem ser relevantes para rastrear aves de rapina no mercado de falcoaria.",
+  "references_text_pt": "[O] Comitê de Defesa do Meio Ambiente (em persa) — https://mohitzist.bashariyat.org/?p=54368\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_en": "Wildlife seizure — Bandargaz, Golestan",
+  "card_text_en": "Twenty-nine raptors were carried on a bus reportedly travelling from Gorgan to Shiraz and stopped near Bandargaz. The documented route is domestic; no Gulf export is established here.",
+  "context_en": "[O] Twenty-nine raptors were carried on a bus reportedly travelling from Gorgan to Shiraz and stopped near Bandargaz. The documented route is domestic; no Gulf export is established here.\n\n[S] Transit-country research distinguishes inspection points, declared origins and intended destinations; routes require case-level documents.\n\n[N] Scottish reporting shows how breeding documents and DNA can help trace raptors in falconry supply chains.",
+  "references_text_en": "[O] Comitê de Defesa do Meio Ambiente (em persa) — https://mohitzist.bashariyat.org/?p=54368\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "title_es": "Decomiso de fauna — Bandargaz, Golestan",
+  "card_text_es": "Veintinueve rapaces viajaban en autobús de Gorgan hacia Shiraz, interceptado cerca de Bandargaz. Se documenta recorrido interno, sin exportación hacia el Golfo acreditada.",
+  "context_es": "[O] Veintinueve rapaces viajaban en autobús de Gorgan hacia Shiraz, interceptado cerca de Bandargaz. Se documenta recorrido interno, sin exportación hacia el Golfo acreditada.\n\n[S] El estudio de países de tránsito distingue puntos de inspección, orígenes declarados y destinos previstos; las rutas exigen evidencia particular.\n\n[N] El reportaje escocés muestra cómo documentos de cría y ADN ayudan a rastrear rapaces en cadenas de cetrería.",
+  "references_text_es": "[O] Comitê de Defesa do Meio Ambiente (em persa) — https://mohitzist.bashariyat.org/?p=54368\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226\n[N] DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://mohitzist.bashariyat.org/?p=54368",
+      "label": "Comitê de Defesa do Meio Ambiente (em persa)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1111/cobi.70226",
+      "label": "Role of transit countries in global illegal wildlife trade"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "label": "DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland"
+    }
+  ]
+}

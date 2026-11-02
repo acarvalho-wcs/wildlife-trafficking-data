@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-sam-005",
+  "status": "VALIDATED",
+  "country": "Chile",
+  "location_label_pt": "Tome, Biobio",
+  "location_label_en": "Tome, Biobio",
+  "location_label_es": "Tome, Biobio",
+  "coordinates": {
+    "lat": -36.61708,
+    "lon": -72.957504
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Tomé, Provincia de Concepción, Biobio Region, Chile. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Tomé, Provincia de Concepción, Biobio Region, Chile. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Tomé, Provincia de Concepción, Biobio Region, Chile. No indica la dirección exacta del hecho.",
+  "source_label": "El Mostrador (espanhol)",
+  "source_url": "https://www.elmostrador.cl/aqui-biobio/2026/10/29/centro-de-rescate-de-fauna-silvestre-se-querella-contra-sag-por-falsificacion-de-instrumento-publico/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-09",
+  "publication_date": "2026-10-29",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Galictis cuja (quique); Enicognathus leptorhynchus (papagaio-choroy)",
+  "fauna_label_en": "*Galictis cuja* and *Enicognathus leptorhynchus*",
+  "fauna_label_es": "*Galictis cuja* y *Enicognathus leptorhynchus*",
+  "taxon_text": "Galictis cuja (quique); Enicognathus leptorhynchus (papagaio-choroy)",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "4 animais: 1 quique e 3 papagaios-choroy; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "SAM-005",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Apreensao em 09/10/2026; novo desdobramento judicial publicado em 29/10/2026. A legalidade da apreensao e contestada; nao classificar como trafico de fauna comprovado. Preservar candidato com pendencia de validacao.",
+  "publication_qc_note": "A apreensão é objeto de contestação judicial pelo centro de reabilitação.",
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 32,
+  "title_pt": "Apreensão de fauna — Tome, Biobio",
+  "card_text_pt": "O centro de reabilitação contestou judicialmente a retirada de um quique e três choroys, alegando documentação. A existência de litígio sobre a atuação do SAG impede interpretar automaticamente a apreensão como prova de tráfico praticado pelo estabelecimento.",
+  "context_pt": "[O] O centro de reabilitação contestou judicialmente a retirada de um quique e três choroys, alegando documentação. A existência de litígio sobre a atuação do SAG impede interpretar automaticamente a apreensão como prova de tráfico praticado pelo estabelecimento.\n\n[S] Pesquisa com psitacídeos neotropicais indica que a demanda doméstica por animais de companhia pode superar os fluxos de comercialização registrados; é importante diferenciar posse, uso turístico e venda efetiva.",
+  "references_text_pt": "[O] El Mostrador (espanhol) — https://www.elmostrador.cl/aqui-biobio/2026/10/29/centro-de-rescate-de-fauna-silvestre-se-querella-contra-sag-por-falsificacion-de-instrumento-publico/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "title_en": "Wildlife seizure — Tome, Biobio",
+  "card_text_en": "A rehabilitation centre challenged the removal of one grison and three choroy parrots, claiming to hold documents. The legal dispute means the seizure is not proof of trafficking by the centre.",
+  "context_en": "[O] A rehabilitation centre challenged the removal of one grison and three choroy parrots, claiming to hold documents. The legal dispute means the seizure is not proof of trafficking by the centre.\n\n[S] Neotropical-parrot research finds local pet keeping can outweigh reported trade flows; possession, tourist display and actual sale should be distinguished.",
+  "references_text_en": "[O] El Mostrador (espanhol) — https://www.elmostrador.cl/aqui-biobio/2026/10/29/centro-de-rescate-de-fauna-silvestre-se-querella-contra-sag-por-falsificacion-de-instrumento-publico/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "title_es": "Decomiso de fauna — Tome, Biobio",
+  "card_text_es": "Un centro de rehabilitación impugnó judicialmente el retiro de un quique y tres choroys, alegando tener documentos. La controversia impide considerar la incautación prueba de tráfico por el centro.",
+  "context_es": "[O] Un centro de rehabilitación impugnó judicialmente el retiro de un quique y tres choroys, alegando tener documentos. La controversia impide considerar la incautación prueba de tráfico por el centro.\n\n[S] La investigación sobre psitácidos neotropicales muestra que la demanda local de mascotas puede superar el comercio registrado; conviene distinguir tenencia, exhibición turística y venta.",
+  "references_text_es": "[O] El Mostrador (espanhol) — https://www.elmostrador.cl/aqui-biobio/2026/10/29/centro-de-rescate-de-fauna-silvestre-se-querella-contra-sag-por-falsificacion-de-instrumento-publico/\n[S] The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots — https://doi.org/10.1016/j.biocon.2025.111029",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.elmostrador.cl/aqui-biobio/2026/10/29/centro-de-rescate-de-fauna-silvestre-se-querella-contra-sag-por-falsificacion-de-instrumento-publico/",
+      "label": "El Mostrador (espanhol)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1016/j.biocon.2025.111029",
+      "label": "The hidden dimension of poaching: A novel survey method shows that local demand for pets largely outnumbers domestic and international trade of neotropical parrots"
+    }
+  ]
+}

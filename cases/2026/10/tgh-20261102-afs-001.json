@@ -1,0 +1,81 @@
+{
+  "id": "tgh-20261102-afs-001",
+  "status": "VALIDATED",
+  "country": "Zimbabue",
+  "location_label_pt": "Hauna / Honde Valley",
+  "location_label_en": "Hauna / Honde Valley",
+  "location_label_es": "Hauna / Honde Valley",
+  "coordinates": {
+    "lat": -18.493936,
+    "lon": 32.847915
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Hauna, Mutasa, Manicaland Province, Zimbabwe. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Hauna, Mutasa, Manicaland Province, Zimbabwe. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Hauna, Mutasa, Manicaland Province, Zimbabwe. No indica la dirección exacta del hecho.",
+  "source_label": "Manica Post",
+  "source_url": "https://www.heraldonline.co.zw/four-arrested-over-pangolin-scales/",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": "2026-10-23",
+  "publication_date": "2026-10-27",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Pangolim; escamas",
+  "fauna_label_en": "Pangolin scales",
+  "fauna_label_es": "Escamas de pangolín",
+  "taxon_text": "Pangolim; escamas",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Quantidade nao informada; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "AFS-001",
+  "source_checked_individually_20261102": true,
+  "original_worksheet_note": "Apreensao em 23/10; noticia de 27/10.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_CHECKED_INDIVIDUALLY",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 22,
+  "title_pt": "Apreensão de fauna — Hauna / Honde Valley",
+  "card_text_pt": "Quatro suspeitos foram detidos em negociação simulada com agente disfarçado sobre escamas de pangolim; a presença de cidadãos moçambicanos na ação do Zimbábue é um dado transfronteiriço de pessoas, não prova da origem das escamas.",
+  "context_pt": "[O] Quatro suspeitos foram detidos em negociação simulada com agente disfarçado sobre escamas de pangolim; a presença de cidadãos moçambicanos na ação do Zimbábue é um dado transfronteiriço de pessoas, não prova da origem das escamas.\n\n[S] A análise de crime scripts do comércio de escamas de pangolim destaca etapas distintas de aquisição, intermediação e venda; a oferta detectada não comprova toda a cadeia nem a origem da carcaça.\n\n[N] A reportagem examina cadeias africanas de escamas e marfim com intermediários internacionais, sem atribuir os autores desta ocorrência àquelas redes.",
+  "references_text_pt": "[O] Manica Post — https://www.heraldonline.co.zw/four-arrested-over-pangolin-scales/\n[S] Using community-based crime scripting to elucidate pangolin scale trafficking — https://doi.org/10.1007/s13280-026-02437-4\n[N] Criminal networks exploit African pangolins and elephants — https://www.aljazeera.net/climate/2025/5/25/%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%86%D8%BA%D9%88%D9%84-%D9%88193-%D8%A3%D9%84%D9%81-%D9%81%D9%8A%D9%84-%D8%B4%D8%A8%D9%83%D8%A7%D8%AA",
+  "title_en": "Wildlife seizure — Hauna / Honde Valley",
+  "card_text_en": "Four suspects were caught in an undercover attempted pangolin-scale sale. Mozambican nationals among those detained are a cross-border investigative lead, not proof that the scales originated in Mozambique.",
+  "context_en": "[O] Four suspects were caught in an undercover attempted pangolin-scale sale. Mozambican nationals among those detained are a cross-border investigative lead, not proof that the scales originated in Mozambique.\n\n[S] Crime-script analysis of pangolin scales identifies distinct acquisition, brokerage and sale steps; an intercepted offer does not establish the entire chain or carcass origin.\n\n[N] The reporting examines African scale and ivory supply chains without attributing this incident to those networks.",
+  "references_text_en": "[O] Manica Post — https://www.heraldonline.co.zw/four-arrested-over-pangolin-scales/\n[S] Using community-based crime scripting to elucidate pangolin scale trafficking — https://doi.org/10.1007/s13280-026-02437-4\n[N] Criminal networks exploit African pangolins and elephants — https://www.aljazeera.net/climate/2025/5/25/%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%86%D8%BA%D9%88%D9%84-%D9%88193-%D8%A3%D9%84%D9%81-%D9%81%D9%8A%D9%84-%D8%B4%D8%A8%D9%83%D8%A7%D8%AA",
+  "title_es": "Decomiso de fauna — Hauna / Honde Valley",
+  "card_text_es": "Cuatro sospechosos fueron detenidos durante una venta simulada de escamas de pangolín. La nacionalidad mozambiqueña de algunos implicados no demuestra origen mozambiqueño del producto.",
+  "context_es": "[O] Cuatro sospechosos fueron detenidos durante una venta simulada de escamas de pangolín. La nacionalidad mozambiqueña de algunos implicados no demuestra origen mozambiqueño del producto.\n\n[S] El análisis de guiones delictivos de escamas de pangolín distingue obtención, intermediación y venta; una oferta interceptada no demuestra la cadena completa ni el origen.\n\n[N] El reportaje examina cadenas africanas de escamas y marfil sin atribuir este hecho a esas redes.",
+  "references_text_es": "[O] Manica Post — https://www.heraldonline.co.zw/four-arrested-over-pangolin-scales/\n[S] Using community-based crime scripting to elucidate pangolin scale trafficking — https://doi.org/10.1007/s13280-026-02437-4\n[N] Criminal networks exploit African pangolins and elephants — https://www.aljazeera.net/climate/2025/5/25/%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%86%D8%BA%D9%88%D9%84-%D9%88193-%D8%A3%D9%84%D9%81-%D9%81%D9%8A%D9%84-%D8%B4%D8%A8%D9%83%D8%A7%D8%AA",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://www.heraldonline.co.zw/four-arrested-over-pangolin-scales/",
+      "label": "Manica Post"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1007/s13280-026-02437-4",
+      "label": "Using community-based crime scripting to elucidate pangolin scale trafficking"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://www.aljazeera.net/climate/2025/5/25/%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D9%86%D8%BA%D9%88%D9%84-%D9%88193-%D8%A3%D9%84%D9%81-%D9%81%D9%8A%D9%84-%D8%B4%D8%A8%D9%83%D8%A7%D8%AA",
+      "label": "Criminal networks exploit African pangolins and elephants"
+    }
+  ]
+}

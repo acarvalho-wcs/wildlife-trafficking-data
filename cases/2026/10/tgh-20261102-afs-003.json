@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261102-afs-003",
+  "status": "VALIDATED",
+  "country": "Africa do Sul",
+  "location_label_pt": "Marikana, Chatty / Gqeberha",
+  "location_label_en": "Marikana, Chatty / Gqeberha",
+  "location_label_es": "Marikana, Chatty / Gqeberha",
+  "coordinates": {
+    "lat": -33.87264,
+    "lon": 25.494
+  },
+  "coordinate_precision": "neighborhood_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Chatty, Gqeberha, South Africa (neighborhood reference; Marikana property not pinpointed). Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Chatty, Gqeberha, South Africa (neighborhood reference; Marikana property not pinpointed). Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Chatty, Gqeberha, South Africa (neighborhood reference; Marikana property not pinpointed). No indica la dirección exacta del hecho.",
+  "source_label": "Kouga Express",
+  "source_url": "https://novanews.co.za/kougaexpress/gqeberha-police-seize-tortoises-owing-to-lack-of-permit/",
+  "georeference_source_url": "https://mapcarta.com/14373024",
+  "additional_source_url": null,
+  "event_date": "2026-10-22",
+  "publication_date": "2026-10-28",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "fauna_label_pt": "Tartarugas terrestres",
+  "fauna_label_en": "Tortoises",
+  "fauna_label_es": "Tortugas terrestres",
+  "taxon_text": "Tartarugas terrestres",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "quantity_count": 19,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 19
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "15 vivos + 4 mortos; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "AFS-003",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Entrega voluntaria; a fonte informa que nao houve abertura de processo criminal.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE_ADDED",
+  "original_spreadsheet_row_number": 25,
+  "title_pt": "Apreensão de fauna — Marikana, Chatty / Gqeberha",
+  "card_text_pt": "A entrega voluntária de 15 tartarugas vivas e quatro mortas em propriedade sul-africana responde à falta de licença, sem acusação criminal informada. A condição dos indivíduos deve ser registrada separadamente e sem pressupor tráfico.",
+  "context_pt": "[O] A entrega voluntária de 15 tartarugas vivas e quatro mortas em propriedade sul-africana responde à falta de licença, sem acusação criminal informada. A condição dos indivíduos deve ser registrada separadamente e sem pressupor tráfico.\n\n[S] Estudo sobre répteis destaca discrepâncias entre registros de comércio e alegações de criação em cativeiro; identificação taxonômica e documentação de procedência são centrais para interpretar apreensões.",
+  "references_text_pt": "[O] Kouga Express — https://novanews.co.za/kougaexpress/gqeberha-police-seize-tortoises-owing-to-lack-of-permit/\n[S] Exported illegally, threatened locally: South Africa in the global reptile pet trade — https://doi.org/10.1080/21564574.2025.2542207",
+  "title_en": "Wildlife seizure — Marikana, Chatty / Gqeberha",
+  "card_text_en": "Police received 15 live and four dead tortoises in a permit-compliance situation with no criminal case reported. Record live/dead status separately and do not infer a sales network.",
+  "context_en": "[O] Police received 15 live and four dead tortoises in a permit-compliance situation with no criminal case reported. Record live/dead status separately and do not infer a sales network.\n\n[S] Reptile-trade research highlights inconsistencies between trade records and captive-breeding claims; taxonomic identification and provenance documents are decisive.",
+  "references_text_en": "[O] Kouga Express — https://novanews.co.za/kougaexpress/gqeberha-police-seize-tortoises-owing-to-lack-of-permit/\n[S] Exported illegally, threatened locally: South Africa in the global reptile pet trade — https://doi.org/10.1080/21564574.2025.2542207",
+  "title_es": "Decomiso de fauna — Marikana, Chatty / Gqeberha",
+  "card_text_es": "La policía recibió 15 tortugas vivas y cuatro muertas en asunto de permisos, sin causa penal reportada. Separar estados vitales y no atribuir una red comercial.",
+  "context_es": "[O] La policía recibió 15 tortugas vivas y cuatro muertas en asunto de permisos, sin causa penal reportada. Separar estados vitales y no atribuir una red comercial.\n\n[S] El estudio sobre comercio de reptiles destaca discrepancias entre registros y supuesta cría en cautiverio; identificación y documentación de origen son decisivas.",
+  "references_text_es": "[O] Kouga Express — https://novanews.co.za/kougaexpress/gqeberha-police-seize-tortoises-owing-to-lack-of-permit/\n[S] Exported illegally, threatened locally: South Africa in the global reptile pet trade — https://doi.org/10.1080/21564574.2025.2542207",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://novanews.co.za/kougaexpress/gqeberha-police-seize-tortoises-owing-to-lack-of-permit/",
+      "label": "Kouga Express"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1080/21564574.2025.2542207",
+      "label": "Exported illegally, threatened locally: South Africa in the global reptile pet trade"
+    }
+  ]
+}

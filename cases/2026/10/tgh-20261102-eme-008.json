@@ -1,0 +1,83 @@
+{
+  "id": "tgh-20261102-eme-008",
+  "status": "VALIDATED",
+  "country": "Ucrânia",
+  "location_label_pt": "Pryluky / Kiev",
+  "location_label_en": "Pryluky / Kiev",
+  "location_label_es": "Pryluky / Kiev",
+  "coordinates": {
+    "lat": 50.595086,
+    "lon": 32.386666
+  },
+  "coordinate_precision": "regional_generalized",
+  "geographic_note_pt": "Ponto de referência geográfico aproximado: Pryluky, Прилуцька міська громада, Pryluky Raion, Chernihiv Oblast, 17500-17511, Ukraine. Não representa endereço da ocorrência.",
+  "geographic_note_en": "Approximate locality reference: Pryluky, Прилуцька міська громада, Pryluky Raion, Chernihiv Oblast, 17500-17511, Ukraine. Not the exact incident address.",
+  "geographic_note_es": "Referencia geográfica aproximada: Pryluky, Прилуцька міська громада, Pryluky Raion, Chernihiv Oblast, 17500-17511, Ukraine. No indica la dirección exacta del hecho.",
+  "source_label": "Blik (em ucraniano)",
+  "source_url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi",
+  "georeference_source_url": null,
+  "additional_source_url": null,
+  "event_date": null,
+  "publication_date": "2026-10-29",
+  "event_date_precision": "unknown",
+  "event_end_date": null,
+  "fauna_label_pt": "Bútio-comum (*Buteo buteo*); taxidermia",
+  "fauna_label_en": "Common buzzard (*Buteo buteo*), taxidermied",
+  "fauna_label_es": "Busardo ratonero (*Buteo buteo*), disecado",
+  "taxon_text": "Bútio-comum (*Buteo buteo*); taxidermia",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "modal_primary": "Postal",
+  "modal_label_pt": "Postal",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 exemplar; verifique a unidade e o escopo da contagem no registro original.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "ingestion_batch": "TGH-GLOBAL-2026-11-02-78",
+  "legacy_tgh_id": "EME-008",
+  "source_checked_individually_20261102": false,
+  "original_worksheet_note": "Remessa distinta das #7 e #9; confirmar cidade exata de origem e ponto de apreensão.",
+  "publication_qc_note": null,
+  "source_reconciliation_status": "SOURCE_IN_WORKSHEET_NOT_RECHECKED",
+  "route_audit_status": "DOCUMENTED_ROUTE_PREPARED",
+  "original_spreadsheet_row_number": 50,
+  "title_pt": "Apreensão de fauna — Pryluky / Kiev",
+  "card_text_pt": "Um bútio-comum taxidermizado foi retido em remessa independente da cabeça de tubarão e do fragmento de marfim. A preparação preservada favorece identificação da espécie, mas a legalidade comercial depende também de origem e documentação.",
+  "context_pt": "[O] Um bútio-comum taxidermizado foi retido em remessa independente da cabeça de tubarão e do fragmento de marfim. A preparação preservada favorece identificação da espécie, mas a legalidade comercial depende também de origem e documentação.\n\n[S] A análise de países de trânsito mostra que locais de inspeção, origem declarada e destino pretendido cumprem papéis logísticos distintos; rotas exigem documentação caso a caso.\n\n[N] Reportagem sobre fronteiras canadenses discute desafios de verificação de origem e conformidade de espécies importadas, útil ao analisar encomendas internacionais.",
+  "references_text_pt": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226\n[N] Enforcement gaps in Canada’s international wildlife trade — https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+  "title_en": "Wildlife seizure — Pryluky / Kiev",
+  "card_text_en": "A taxidermied common buzzard was intercepted in a parcel separate from the shark head and ivory piece. Preserved morphology aids identification; legality also depends on documents and provenance.",
+  "context_en": "[O] A taxidermied common buzzard was intercepted in a parcel separate from the shark head and ivory piece. Preserved morphology aids identification; legality also depends on documents and provenance.\n\n[S] Transit-country research distinguishes inspection points, declared origins and intended destinations; routes require case-level documents.\n\n[N] Reporting on Canadian borders discusses provenance and compliance checks for imported wildlife in international parcels.",
+  "references_text_en": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226\n[N] Enforcement gaps in Canada’s international wildlife trade — https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+  "title_es": "Decomiso de fauna — Pryluky / Kiev",
+  "card_text_es": "Se interceptó un ratonero común disecado en envío distinto de la cabeza de tiburón y marfil. La taxidermia permite identificarlo, pero origen y permisos siguen siendo decisivos.",
+  "context_es": "[O] Se interceptó un ratonero común disecado en envío distinto de la cabeza de tiburón y marfil. La taxidermia permite identificarlo, pero origen y permisos siguen siendo decisivos.\n\n[S] El estudio de países de tránsito distingue puntos de inspección, orígenes declarados y destinos previstos; las rutas exigen evidencia particular.\n\n[N] El reportaje sobre fronteras canadienses examina verificación de procedencia y cumplimiento de importaciones.",
+  "references_text_es": "[O] Blik (em ucraniano) — https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi\n[S] Role of transit countries in global illegal wildlife trade — https://doi.org/10.1111/cobi.70226\n[N] Enforcement gaps in Canada’s international wildlife trade — https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "O",
+      "url": "https://blik.ua/crimes/49212-golova-akuli-molodii-kanyuk-i-biven-slona-sho-mitniki-znaishli-v-posilkakh-do-ssha-ta-kanadi",
+      "label": "Blik (em ucraniano)"
+    },
+    {
+      "id": "S",
+      "type": "S",
+      "url": "https://doi.org/10.1111/cobi.70226",
+      "label": "Role of transit countries in global illegal wildlife trade"
+    },
+    {
+      "id": "N",
+      "type": "N",
+      "url": "https://news.mongabay.com/2026/09/illegal-wildlife-continues-to-slip-through-canadas-borders-experts-explain-how/",
+      "label": "Enforcement gaps in Canada’s international wildlife trade"
+    }
+  ]
+}
