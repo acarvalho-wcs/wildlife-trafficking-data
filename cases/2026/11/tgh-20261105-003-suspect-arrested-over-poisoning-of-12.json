@@ -1,0 +1,71 @@
+{
+  "id": "tgh-20261105-003-suspect-arrested-over-poisoning-of-12",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-11-03",
+  "event_end_date": null,
+  "publication_date": "2026-11-04",
+  "coordinates": {
+    "lat": 24.593206,
+    "lon": 93.94209
+  },
+  "coordinate_precision": "lake_reference",
+  "location_label_pt": "Lago Ikop Pat, Thoubal, Manipur",
+  "location_label_en": "Lago Ikop Pat, Thoubal, Manipur",
+  "location_label_es": "Lago Ikop Pat, Thoubal, Manipur",
+  "geographic_note_pt": "Referência geográfica do lago, sem localização pontual da intervenção.",
+  "geographic_note_en": "Generalized reference location; not the exact enforcement point.",
+  "geographic_note_es": "Coordenada de referencia generalizada; no representa el lugar exacto de la inspección.",
+  "source_label": "Northeast Now / Forest Department",
+  "source_url": "https://m.nenow.in/article/manipur/manipur-man-arrested-for-poisoning-12-migratory-ducks-at-ikop-pat-lake/546598/amp",
+  "title_pt": "Suspeito é detido por envenenamento de 12 patos em Manipur",
+  "title_en": "Suspect arrested over poisoning of 12 wild ducks in Manipur",
+  "title_es": "Detienen a sospechoso por envenenar 12 patos silvestres en Manipur",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "12 patos silvestres mortos",
+  "fauna_label_en": "12 patos silvestres mortos",
+  "fauna_label_es": "12 patos silvestres mortos",
+  "taxon_text": "10 lesser whistling ducks e 2 common teals",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "card_text_pt": "Equipe florestal recuperou 12 patos mortos perto do lago Ikop Pat; suspeito relatou uso de grãos de arroz com pesticida.",
+  "card_text_en": "Forest officers recovered 12 dead wild ducks near Ikop Pat Lake; the suspect reportedly described using pesticide-laced rice grains.",
+  "card_text_es": "Funcionarios forestales hallaron 12 patos muertos junto al lago Ikop Pat; el sospechoso habría utilizado arroz impregnado con pesticida.",
+  "context_pt": "[O] A fiscalização próxima ao lago Ikop Pat recuperou dez marrecas-assobiadoras e duas marrecas-comuns mortas, escondidas em um saco. Segundo a declaração atribuída ao suspeito, a captura envolvia arroz impregnado com pesticida colocado sobre folhas de plantas aquáticas; ele também relatou emprego anterior de redes. O uso de isca envenenada diferencia a ocorrência da caça por armadilhas e torna a composição do produto e sua aplicação elementos centrais da investigação ambiental.",
+  "context_en": "[O] Enforcement near Ikop Pat Lake recovered ten lesser whistling ducks and two common teals dead and concealed in a sack. According to the account attributed to the suspect, the method used pesticide-coated rice placed on aquatic-plant leaves; he also described earlier use of nets. Poisoned bait distinguishes this incident from trapping and makes the substance used and its application central to the environmental investigation.",
+  "context_es": "[O] La inspección cerca del lago Ikop Pat recuperó diez patos silbadores y dos cercetas comunes muertos, ocultos en un saco. Según la declaración atribuida al sospechoso, la captura empleaba arroz impregnado con pesticida colocado sobre hojas de plantas acuáticas; también mencionó el uso anterior de redes. El cebo envenenado distingue el caso de la captura con trampas y convierte la composición de la sustancia y su aplicación en elementos centrales de la investigación ambiental.",
+  "references_text_pt": "[O] Northeast Now — Manipur: Man arrested for poisoning 12 migratory ducks (2026) — https://m.nenow.in/article/manipur/manipur-man-arrested-for-poisoning-12-migratory-ducks-at-ikop-pat-lake/546598/amp",
+  "references_text_en": "[O] Northeast Now — Manipur: Man arrested for poisoning 12 migratory ducks (2026) — https://m.nenow.in/article/manipur/manipur-man-arrested-for-poisoning-12-migratory-ducks-at-ikop-pat-lake/546598/amp",
+  "references_text_es": "[O] Northeast Now — Manipur: Man arrested for poisoning 12 migratory ducks (2026) — https://m.nenow.in/article/manipur/manipur-man-arrested-for-poisoning-12-migratory-ducks-at-ikop-pat-lake/546598/amp",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Northeast Now — Manipur: Man arrested for poisoning 12 migratory ducks (2026)",
+      "url": "https://m.nenow.in/article/manipur/manipur-man-arrested-for-poisoning-12-migratory-ducks-at-ikop-pat-lake/546598/amp"
+    }
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 12,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 12
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "source_reconciliation_status": "SOURCE_READ",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-2026-11-05-CONTEXTOS",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_BRIEF_VERIFIED",
+  "context_style": "concise_evidence_grounded_tagged_body_separate_references",
+  "georeference_source_url": null,
+  "georeference_method": "generalized_place_reference_from_input",
+  "is_exact_seizure_position": false
+}

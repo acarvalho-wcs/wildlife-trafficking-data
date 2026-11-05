@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261105-006-federal-highway-police-seize-44-wild-",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-11-04",
+  "event_end_date": null,
+  "publication_date": "2026-11-04",
+  "coordinates": {
+    "lat": -20.954,
+    "lon": -43.81
+  },
+  "coordinate_precision": "municipality_reference",
+  "location_label_pt": "BR-040, Carandaí, Minas Gerais",
+  "location_label_en": "BR-040, Carandaí, Minas Gerais",
+  "location_label_es": "BR-040, Carandaí, Minas Gerais",
+  "geographic_note_pt": "Referência municipal de Carandaí; o km 665 da BR-040 foi informado, mas não foi geocodificado com precisão.",
+  "geographic_note_en": "Generalized reference location; not the exact enforcement point.",
+  "geographic_note_es": "Coordenada de referencia generalizada; no representa el lugar exacto de la inspección.",
+  "source_label": "Tribuna de Minas / PRF",
+  "source_url": "https://tribunademinas.com.br/noticias/regiao/04-11-2026/prf-resgata-44-aves-silvestres-transportadas-ilegalmente-na-br-040-em-carandai.html",
+  "title_pt": "PRF apreende 44 aves em carro na BR-040 em Carandaí",
+  "title_en": "Federal Highway Police seize 44 wild birds on BR-040 near Carandaí",
+  "title_es": "Policía vial decomisa 44 aves silvestres en la BR-040 de Carandaí",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "44 aves silvestres vivas",
+  "fauna_label_en": "44 aves silvestres vivas",
+  "fauna_label_es": "44 aves silvestres vivas",
+  "taxon_text": "Passeriformes diversos, sem identificação específica consolidada",
+  "modal_primary": "Rodoviário",
+  "modal_label_pt": "Rodoviário",
+  "card_text_pt": "Aves estavam comprimidas em 24 compartimentos no porta-malas; motorista disse ter comprado em Barbacena para revender em Belo Horizonte.",
+  "card_text_en": "Birds were confined in 24 compartments in a car boot; driver reported buying them in Barbacena for resale in Belo Horizonte.",
+  "card_text_es": "Las aves viajaban en 24 compartimentos en el maletero; el conductor declaró compra en Barbacena y reventa prevista en Belo Horizonte.",
+  "context_pt": "[O] As 44 aves viajavam no porta-malas em uma caixa de 24 compartimentos, sem água, alimento ou ventilação adequada. O motorista declarou compra em Barbacena por R$ 2.300 e intenção de revenda em Belo Horizonte: Barbacena → Carandaí representa o deslocamento até a interceptação, enquanto Belo Horizonte era destino comercial pretendido. [S] Análise de registros da PRF mostra que distinguir local de aquisição, ponto de apreensão e espécie melhora a interpretação dos corredores rodoviários e reduz distorções em estatísticas de tráfico.",
+  "context_en": "[O] The 44 birds were carried in a car boot in a box divided into 24 compartments, without water, food or adequate ventilation. The driver reported buying them in Barbacena for R$2,300 and intending to resell them in Belo Horizonte: Barbacena to Carandaí was the movement up to interception, while Belo Horizonte was only the intended market. [S] Analysis of Brazilian Federal Highway Police seizure records shows why separating purchase location, interception point and species improves road-corridor analysis and reduces distortions in trafficking data.",
+  "context_es": "[O] Las 44 aves viajaban en el maletero, dentro de una caja con 24 compartimentos, sin agua, alimento ni ventilación adecuada. El conductor declaró haberlas comprado en Barbacena por R$ 2.300 para revenderlas en Belo Horizonte: Barbacena → Carandaí corresponde al desplazamiento realizado hasta la intervención, mientras Belo Horizonte era el mercado previsto. [S] Un análisis de registros de la Policía Federal de Carreteras de Brasil muestra por qué distinguir lugar de compra, punto de incautación y especie mejora el análisis de corredores viales y reduce distorsiones estadísticas.",
+  "references_text_pt": "[O] Tribuna de Minas / PRF — Apreensão de 44 aves na BR-040 (2026) — https://tribunademinas.com.br/noticias/regiao/04-11-2026/prf-resgata-44-aves-silvestres-transportadas-ilegalmente-na-br-040-em-carandai.html\n[S] Caracterização dos dados oficiais sobre a apreensão de animais ilegais pela Polícia Rodoviária Federal do Brasil (2025) — https://doi.org/10.20873/2025_jul_17288",
+  "references_text_en": "[O] Tribuna de Minas / PRF — Apreensão de 44 aves na BR-040 (2026) — https://tribunademinas.com.br/noticias/regiao/04-11-2026/prf-resgata-44-aves-silvestres-transportadas-ilegalmente-na-br-040-em-carandai.html\n[S] Caracterização dos dados oficiais sobre a apreensão de animais ilegais pela Polícia Rodoviária Federal do Brasil (2025) — https://doi.org/10.20873/2025_jul_17288",
+  "references_text_es": "[O] Tribuna de Minas / PRF — Apreensão de 44 aves na BR-040 (2026) — https://tribunademinas.com.br/noticias/regiao/04-11-2026/prf-resgata-44-aves-silvestres-transportadas-ilegalmente-na-br-040-em-carandai.html\n[S] Caracterização dos dados oficiais sobre a apreensão de animais ilegais pela Polícia Rodoviária Federal do Brasil (2025) — https://doi.org/10.20873/2025_jul_17288",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Tribuna de Minas / PRF — Apreensão de 44 aves na BR-040 (2026)",
+      "url": "https://tribunademinas.com.br/noticias/regiao/04-11-2026/prf-resgata-44-aves-silvestres-transportadas-ilegalmente-na-br-040-em-carandai.html"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Caracterização dos dados oficiais sobre a apreensão de animais ilegais pela Polícia Rodoviária Federal do Brasil (2025)",
+      "url": "https://doi.org/10.20873/2025_jul_17288"
+    }
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 44,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 44
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "",
+  "route_audit_status": "DOCUMENTED",
+  "source_reconciliation_status": "SOURCE_CORROBORATED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-2026-11-05-CONTEXTOS",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_BRIEF_VERIFIED",
+  "context_style": "concise_evidence_grounded_tagged_body_separate_references",
+  "georeference_source_url": null,
+  "georeference_method": "generalized_place_reference_from_input",
+  "is_exact_seizure_position": false
+}

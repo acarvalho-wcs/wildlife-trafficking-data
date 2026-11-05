@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261105-009-municipal-guard-recovers-24-birds-in-",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-10-31",
+  "event_end_date": "2026-11-03",
+  "publication_date": "2026-11-04",
+  "coordinates": {
+    "lat": -23.44456,
+    "lon": -46.55987
+  },
+  "coordinate_precision": "neighbourhood_reference",
+  "location_label_pt": "Jardim do Papai e Cabuçu, Guarulhos, São Paulo",
+  "location_label_en": "Jardim do Papai e Cabuçu, Guarulhos, São Paulo",
+  "location_label_es": "Jardim do Papai e Cabuçu, Guarulhos, São Paulo",
+  "geographic_note_pt": "Jardim do Papai, referência de bairro para ação de 31/10; outra ação no Cabuçu consta na aba Georreferenciamento.",
+  "geographic_note_en": "Reference coordinate; this record covers multiple locations or an imprecisely reported area. See Georeferencing worksheet.",
+  "geographic_note_es": "Coordenada de referencia; el registro abarca varios lugares o un área imprecisa. Véase la hoja Georreferenciación.",
+  "source_label": "Radar de Guarulhos / GCM",
+  "source_url": "https://radardeguarulhos.com.br/gcm-resgata-aves-silvestres-cativeiro/",
+  "title_pt": "GCM recolhe 24 aves em duas ações em Guarulhos",
+  "title_en": "Municipal Guard recovers 24 birds in two Guarulhos operations",
+  "title_es": "Guardia Municipal recupera 24 aves en dos operativos de Guarulhos",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "24 aves silvestres vivas; pelo menos uma morta",
+  "fauna_label_en": "24 aves silvestres vivas; pelo menos uma morta",
+  "fauna_label_es": "24 aves silvestres vivas; pelo menos uma morta",
+  "taxon_text": "Passeriformes diversos",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "card_text_pt": "Duas fiscalizações em 31/10 e 03/11 encontraram 24 aves vivas mantidas sem documentos e ao menos uma ave morta.",
+  "card_text_en": "Two inspections on 31 October and 3 November found 24 illegally kept live birds and at least one dead bird.",
+  "card_text_es": "Dos inspecciones del 31 de octubre y 3 de noviembre hallaron 24 aves vivas sin documentación y al menos una muerta.",
+  "context_pt": "[O] O total de 24 aves vivas provém de duas fiscalizações domiciliares diferentes, no Jardim do Papai (31/10) e no Cabuçu (03/11), em Guarulhos; a ave encontrada morta deve permanecer fora dessa contagem de vivos. Gaiolas insalubres e ausência de documentos caracterizaram as condições de manutenção, e as aves vivas foram encaminhadas ao Cetras-SP. [S] Estudo com penas de aves canoras brasileiras demonstrou o potencial de isótopos estáveis para distinguir origem silvestre de cativeiro, ampliando a verificação de procedência em casos de manutenção irregular.",
+  "context_en": "[O] The tally of 24 live birds combines two separate household inspections in Jardim do Papai (31 October) and Cabuçu (3 November), Guarulhos; a bird found dead must remain outside the live-animal count. Unsanitary cages and missing paperwork characterized the keeping conditions, and live birds were sent to Cetras-SP. [S] A Brazilian songbird-feather study demonstrated the potential of stable isotopes to distinguish wild from captive origins, strengthening provenance checks in unauthorized-captivity cases.",
+  "context_es": "[O] El total de 24 aves vivas corresponde a dos inspecciones domiciliarias distintas, en Jardim do Papai (31/10) y Cabuçu (03/11), Guarulhos; el ave hallada muerta debe quedar fuera del recuento de animales vivos. Las jaulas insalubres y la falta de documentos caracterizaban la tenencia, y las aves vivas fueron llevadas al Cetras-SP. [S] Un estudio brasileño de plumas de aves canoras demostró el potencial de los isótopos estables para diferenciar el origen silvestre del cautivo, reforzando la verificación de procedencia en casos de tenencia irregular.",
+  "references_text_pt": "[O] Radar de Guarulhos — GCM resgata aves silvestres em duas ações (2026) — https://radardeguarulhos.com.br/gcm-resgata-aves-silvestres-cativeiro/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052",
+  "references_text_en": "[O] Radar de Guarulhos — GCM resgata aves silvestres em duas ações (2026) — https://radardeguarulhos.com.br/gcm-resgata-aves-silvestres-cativeiro/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052",
+  "references_text_es": "[O] Radar de Guarulhos — GCM resgata aves silvestres em duas ações (2026) — https://radardeguarulhos.com.br/gcm-resgata-aves-silvestres-cativeiro/\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Radar de Guarulhos — GCM resgata aves silvestres em duas ações (2026)",
+      "url": "https://radardeguarulhos.com.br/gcm-resgata-aves-silvestres-cativeiro/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026)",
+      "url": "https://doi.org/10.1111/acv.70052"
+    }
+  ],
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "quantity_count": 24,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 24
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "24 vivas em duas ações; ao menos uma ave morta não somada por inconsistência entre fontes.",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "source_reconciliation_status": "SOURCE_CORROBORATED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-2026-11-05-CONTEXTOS",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_BRIEF_VERIFIED",
+  "context_style": "concise_evidence_grounded_tagged_body_separate_references",
+  "georeference_source_url": "https://mapcarta.com/pt/N10111389290",
+  "georeference_method": "gazetteer_or_official_POI",
+  "is_exact_seizure_position": false
+}

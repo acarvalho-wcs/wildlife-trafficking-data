@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261105-008-police-seize-29-caged-wild-birds-in-t",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "event_date": null,
+  "event_end_date": null,
+  "publication_date": "2026-11-03",
+  "coordinates": {
+    "lat": -28.43,
+    "lon": -65.72
+  },
+  "coordinate_precision": "neighbourhood_reference",
+  "location_label_pt": "Banda de Varela, Catamarca",
+  "location_label_en": "Banda de Varela, Catamarca",
+  "location_label_es": "Banda de Varela, Catamarca",
+  "geographic_note_pt": "Banda de Varela: referência de bairro, não dos endereços das duas residências.",
+  "geographic_note_en": "Generalized reference location; not the exact enforcement point.",
+  "geographic_note_es": "Coordenada de referencia generalizada; no representa el lugar exacto de la inspección.",
+  "source_label": "Diario Inforama / Policía de Catamarca",
+  "source_url": "https://inforama.com.ar/actualidad/2026/11/03/la-policia-secuestro-29-aves-en-cautiverio-durante-operativos-en-banda-de-varela/",
+  "title_pt": "Polícia recolhe 29 aves em duas residências de Banda de Varela",
+  "title_en": "Police seize 29 caged wild birds in two Catamarca homes",
+  "title_es": "Policía incauta 29 aves silvestres en dos viviendas de Catamarca",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "29 aves silvestres apreendidas",
+  "fauna_label_en": "29 aves silvestres apreendidas",
+  "fauna_label_es": "29 aves silvestres apreendidas",
+  "taxon_text": "Aves de diversas espécies (não detalhadas)",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "card_text_pt": "Duas buscas judiciais em Banda de Varela recolheram 29 aves, 19 gaiolas e 18 armadilhas.",
+  "card_text_en": "Two judicial searches in Banda de Varela yielded 29 birds, 19 cages and 18 traps.",
+  "card_text_es": "Dos allanamientos judiciales en Banda de Varela incautaron 29 aves, 19 jaulas y 18 trampas.",
+  "context_pt": "[O] Duas buscas judiciais em residências de Banda de Varela resultaram na apreensão de 29 aves, 19 gaiolas e 18 armadilhas. As armadilhas são indícios materiais de captura e as gaiolas de manutenção em cativeiro, mas a notícia não individualiza quantos animais estavam em cada imóvel. [S] Estudo argentino de grupos de venda de aves em redes sociais documentou 67 espécies anunciadas e a continuidade da oferta ilegal, oferecendo uma dimensão comercial complementar ao registro físico de instrumentos de captura e cativeiro.",
+  "context_en": "[O] Two court-authorized searches of homes in Banda de Varela recovered 29 birds, 19 cages and 18 traps. The traps are physical indicators of capture and the cages of captivity, although the report does not break down birds by address. [S] An Argentine study of bird-selling social-media groups documented 67 advertised species and persistent illegal offers, adding a market perspective to the physical evidence of capture and keeping.",
+  "context_es": "[O] Dos allanamientos judiciales en viviendas de Banda de Varela permitieron incautar 29 aves, 19 jaulas y 18 trampas. Las trampas constituyen indicios materiales de captura y las jaulas de mantenimiento en cautiverio, aunque la noticia no desglosa las aves por domicilio. [S] Un estudio argentino de grupos de venta de aves en redes sociales registró 67 especies ofrecidas y la persistencia de ofertas ilegales, aportando una dimensión comercial complementaria a la evidencia física de captura y tenencia.",
+  "references_text_pt": "[O] Inforama — Policía secuestró 29 aves en Banda de Varela (2026) — https://inforama.com.ar/actualidad/2026/11/03/la-policia-secuestro-29-aves-en-cautiverio-durante-operativos-en-banda-de-varela/\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina (2025) — https://doi.org/10.1093/ornithapp/duaf012",
+  "references_text_en": "[O] Inforama — Policía secuestró 29 aves en Banda de Varela (2026) — https://inforama.com.ar/actualidad/2026/11/03/la-policia-secuestro-29-aves-en-cautiverio-durante-operativos-en-banda-de-varela/\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina (2025) — https://doi.org/10.1093/ornithapp/duaf012",
+  "references_text_es": "[O] Inforama — Policía secuestró 29 aves en Banda de Varela (2026) — https://inforama.com.ar/actualidad/2026/11/03/la-policia-secuestro-29-aves-en-cautiverio-durante-operativos-en-banda-de-varela/\n[S] The illegal trade of wild birds in a social network: A call for action from Argentina (2025) — https://doi.org/10.1093/ornithapp/duaf012",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Inforama — Policía secuestró 29 aves en Banda de Varela (2026)",
+      "url": "https://inforama.com.ar/actualidad/2026/11/03/la-policia-secuestro-29-aves-en-cautiverio-durante-operativos-en-banda-de-varela/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "The illegal trade of wild birds in a social network: A call for action from Argentina (2025)",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012"
+    }
+  ],
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "quantity_count": 29,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 29
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "source_reconciliation_status": "SOURCE_READ",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-2026-11-05-CONTEXTOS",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_BRIEF_VERIFIED",
+  "context_style": "concise_evidence_grounded_tagged_body_separate_references",
+  "georeference_source_url": null,
+  "georeference_method": "generalized_place_reference_from_input",
+  "is_exact_seizure_position": false
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-02T15:47:15.921679Z",
+  "updated_at": "2026-11-05T20:55:02.271442Z",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -14008,6 +14008,345 @@
       "evidence_es": "Veintinueve rapaces viajaban en autobús de Gorgan hacia Shiraz, interceptado cerca de Bandargaz. Se documenta recorrido interno, sin exportación hacia el Golfo acreditada.",
       "source_label": "Comitê de Defesa do Meio Ambiente (em persa)",
       "source_url": "https://mohitzist.bashariyat.org/?p=54368"
+    },
+    {
+      "id": "tgh-20261105-route-001-1",
+      "event_match": {
+        "event_id": "tgh-20261105-001-federal-police-intercept-47-wild-bird"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Aeroporto de Foz do Iguaçu → Congonhas, São Paulo",
+      "label_en": "Aeroporto de Foz do Iguaçu → Congonhas, São Paulo",
+      "label_es": "Aeroporto de Foz do Iguaçu → Congonhas, São Paulo",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Foz do Iguaçu",
+            "country": "Brasil",
+            "lat": -25.6002777778,
+            "lon": -54.485,
+            "precision": "airport_reference",
+            "georeference_source_url": "https://aisweb.decea.mil.br/eaip/A%2020-2026_2026_10_29/eAIP/AD%202%20SBFI-pt-BR.html"
+          },
+          "to": {
+            "name": "Congonhas, São Paulo",
+            "country": "Brasil",
+            "lat": -23.6261111111,
+            "lon": -46.6563888889,
+            "precision": "airport_reference",
+            "georeference_source_url": "https://aisweb.decea.mil.br/eaip/A%2020-2026_2026_10_29/eAIP/AD%202%20SBSP-pt-BR.html"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] Passageiro pretendia embarcar para Congonhas; voo não concluído.",
+      "evidence_en": "[O] Passenger intended to fly to Congonhas; flight not completed.",
+      "evidence_es": "[O] El pasajero pretendía viajar a Congonhas; vuelo no realizado.",
+      "source_label": "CBN Foz / Polícia Federal",
+      "source_url": "https://www.cbnfoz.com/noticia/1/486891/chines-e-preso-com-47-ovos-de-aves-silvestres-no-aeroporto-de-foz-do-iguacu",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-20261105-route-006-1",
+      "event_match": {
+        "event_id": "tgh-20261105-006-federal-highway-police-seize-44-wild-"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Barbacena → Carandaí",
+      "label_en": "Barbacena → Carandaí",
+      "label_es": "Barbacena → Carandaí",
+      "segments": [
+        {
+          "from": {
+            "name": "Barbacena",
+            "country": "Brasil",
+            "lat": -21.225,
+            "lon": -43.773,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Carandaí",
+            "country": "Brasil",
+            "lat": -20.954,
+            "lon": -43.81,
+            "precision": "generalized"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] O condutor informou aquisição em Barbacena e foi interceptado em Carandaí; linha esquemática.",
+      "evidence_en": "[O] Driver reported purchase in Barbacena and was intercepted in Carandaí; schematic connector.",
+      "evidence_es": "[O] El conductor declaró compra en Barbacena y fue interceptado en Carandaí; línea esquemática.",
+      "source_label": "Tribuna de Minas / PRF",
+      "source_url": "https://tribunademinas.com.br/noticias/regiao/04-11-2026/prf-resgata-44-aves-silvestres-transportadas-ilegalmente-na-br-040-em-carandai.html",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-20261105-route-006-2",
+      "event_match": {
+        "event_id": "tgh-20261105-006-federal-highway-police-seize-44-wild-"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Carandaí → Belo Horizonte",
+      "label_en": "Carandaí → Belo Horizonte",
+      "label_es": "Carandaí → Belo Horizonte",
+      "segments": [
+        {
+          "from": {
+            "name": "Carandaí",
+            "country": "Brasil",
+            "lat": -20.954,
+            "lon": -43.81,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Belo Horizonte",
+            "country": "Brasil",
+            "lat": -19.92,
+            "lon": -43.938,
+            "precision": "generalized"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] Destino de revenda declarado pelo motorista; trajeto não completado.",
+      "evidence_en": "[O] Driver-stated resale destination; journey not completed.",
+      "evidence_es": "[O] Destino de reventa declarado por el conductor; trayecto no realizado.",
+      "source_label": "Tribuna de Minas / PRF",
+      "source_url": "https://tribunademinas.com.br/noticias/regiao/04-11-2026/prf-resgata-44-aves-silvestres-transportadas-ilegalmente-na-br-040-em-carandai.html",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-20261105-route-011-1",
+      "event_match": {
+        "event_id": "tgh-20261105-011-hong-kong-customs-intercept-66-live-b"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Futian (posto chinês) → Lok Ma Chau Spur Line (posto de Hong Kong)",
+      "label_en": "Futian (mainland checkpoint) → Lok Ma Chau Spur Line (Hong Kong checkpoint)",
+      "label_es": "Futian (puesto chino) → Lok Ma Chau Spur Line (puesto de Hong Kong)",
+      "segments": [
+        {
+          "from": {
+            "name": "Futian Port, posto fronteiriço (Shenzhen)",
+            "country": "China",
+            "lat": 22.51577,
+            "lon": 114.06877,
+            "precision": "border_checkpoint_reference",
+            "georeference_source_url": "https://en.wikipedia.org/wiki/Futian_Port"
+          },
+          "to": {
+            "name": "Lok Ma Chau Spur Line Control Point",
+            "country": "Hong Kong",
+            "lat": 22.5153,
+            "lon": 114.06563,
+            "precision": "border_checkpoint_reference",
+            "georeference_source_url": "https://mapcarta.com/W472274288"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] Passageira chegou ao posto Lok Ma Chau Spur Line procedente da China continental com 66 aves. O segmento mostra apenas a travessia entre postos fronteiriços, e não a cidade de origem da viagem.",
+      "evidence_en": "[O] Passenger arrived at Lok Ma Chau Spur Line from mainland China with 66 birds. The segment depicts the border crossing only; no journey origin city is established.",
+      "evidence_es": "[O] La pasajera llegó a Lok Ma Chau Spur Line desde China continental con 66 aves. El segmento muestra solo el cruce fronterizo, sin ciudad de origen acreditada.",
+      "source_label": "Hong Kong Customs",
+      "source_url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300609.htm",
+      "endpoint_precision_note_pt": "Futian é o posto pareado da travessia; a fonte do incidente não nomeia a cidade anterior de embarque.",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-20261105-route-012-1",
+      "event_match": {
+        "event_id": "tgh-20261105-012-peru-intercepts-more-than-3-000-taran"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Lima (aeroporto) → Alemanha (destino declarado; cidade não especificada)",
+      "label_en": "Lima airport → Germany (declared destination; city unspecified)",
+      "label_es": "Aeropuerto de Lima → Alemania (destino declarado; ciudad no especificada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Jorge Chávez, Lima",
+            "country": "Peru",
+            "lat": -12.021,
+            "lon": -77.114,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Alemanha (destino nacional; cidade não divulgada)",
+            "country": "Alemanha",
+            "lat": 51.0,
+            "lon": 10.0,
+            "precision": "country_reference"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] Passageiros pretendiam viajar do Aeroporto Jorge Chávez para a Alemanha, mas foram interceptados antes do embarque; a cidade alemã não foi publicada. Ponto final representa genericamente o país, não aeroporto identificado.",
+      "evidence_en": "[O] Travelers intended to fly from Jorge Chávez Airport to Germany but were stopped prior to boarding. The German endpoint is a generalized country reference, not a documented airport.",
+      "evidence_es": "[O] Pretendían viajar desde el aeropuerto Jorge Chávez hacia Alemania, pero fueron intervenidos antes de embarcar. El punto alemán representa el país y no un aeropuerto confirmado.",
+      "source_label": "Infobae / Serfor",
+      "source_url": "https://www.infobae.com/peru/2026/11/05/extranjeros-intentaron-sacar-del-peru-mas-de-3000-tarantulas-ocultas-en-maletas/",
+      "endpoint_precision_note_pt": "Coordenada do destino é centro geográfico genérico da Alemanha; não é rota de voo, aeroporto nem cidade comprovada.",
+      "route_display_caution": "country_level_intended_destination",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-20261105-route-013-1",
+      "event_match": {
+        "event_id": "tgh-20261105-013-indonesia-seizes-3-287-birds-arriving"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Kumai, Kalimantan Central → Porto de Tanjung Emas, Semarang",
+      "label_en": "Kumai, Kalimantan Central → Porto de Tanjung Emas, Semarang",
+      "label_es": "Kumai, Kalimantan Central → Porto de Tanjung Emas, Semarang",
+      "segments": [
+        {
+          "from": {
+            "name": "Kumai, Kalimantan Central",
+            "country": "Indonésia",
+            "lat": -2.73,
+            "lon": 111.72,
+            "precision": "generalized"
+          },
+          "to": {
+            "name": "Porto de Tanjung Emas, Semarang",
+            "country": "Indonésia",
+            "lat": -6.94776,
+            "lon": 110.4243,
+            "precision": "port_reference",
+            "georeference_source_url": "https://mapcarta.com/N2085925705"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] Dois caminhões embarcados em navio procedente de Kumai desembarcaram em Semarang.",
+      "evidence_en": "[O] Two trucks aboard a vessel from Kumai arrived at Semarang.",
+      "evidence_es": "[O] Dos camiones transportados en un barco desde Kumai llegaron a Semarang.",
+      "source_label": "Badan Karantina Indonesia",
+      "source_url": "https://karantinaindonesia.go.id/berita/karantina-jateng-gagalkan-pengiriman-3287-burung-tanpa-dokumen-192-ekor-dilindungi",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-20261105-route-019-1",
+      "event_match": {
+        "event_id": "tgh-20261105-019-brazilian-officials-seize-16-parrot-e"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Foz do Iguaçu → Aeroporto de Guarulhos",
+      "label_en": "Foz do Iguaçu → Aeroporto de Guarulhos",
+      "label_es": "Foz do Iguaçu → Aeroporto de Guarulhos",
+      "segments": [
+        {
+          "from": {
+            "name": "Foz do Iguaçu",
+            "country": "Brasil",
+            "lat": -25.6002777778,
+            "lon": -54.485,
+            "precision": "airport_reference",
+            "georeference_source_url": "https://aisweb.decea.mil.br/eaip/A%2020-2026_2026_10_29/eAIP/AD%202%20SBFI-pt-BR.html"
+          },
+          "to": {
+            "name": "Aeroporto de Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4355555556,
+            "lon": -46.4730555556,
+            "precision": "airport_reference",
+            "georeference_source_url": "https://aisweb.decea.mil.br/eaip/A%2021-2026_2026_10_29/eAIP/AD%202%20SBGR-pt-BR.html"
+          },
+          "movement_status": "completed_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] Passageiro chegou a Guarulhos em voo vindo de Foz do Iguaçu.",
+      "evidence_en": "[O] Passenger arrived at Guarulhos on a flight from Foz do Iguaçu.",
+      "evidence_es": "[O] El pasajero llegó a Guarulhos en un vuelo procedente de Foz do Iguaçu.",
+      "source_label": "Ibama / Polícia Federal",
+      "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-e-pf-interceptam-transporte-clandestino-de-16-ovos-de-psitacideos-no-aeroporto-de-guarulhos",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-20261105-route-019-2",
+      "event_match": {
+        "event_id": "tgh-20261105-019-brazilian-officials-seize-16-parrot-e"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Aeroporto de Guarulhos → Doha",
+      "label_en": "Aeroporto de Guarulhos → Doha",
+      "label_es": "Aeroporto de Guarulhos → Doha",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto de Guarulhos",
+            "country": "Brasil",
+            "lat": -23.4355555556,
+            "lon": -46.4730555556,
+            "precision": "airport_reference",
+            "georeference_source_url": "https://aisweb.decea.mil.br/eaip/A%2021-2026_2026_10_29/eAIP/AD%202%20SBGR-pt-BR.html"
+          },
+          "to": {
+            "name": "Doha",
+            "country": "Catar",
+            "lat": 25.273,
+            "lon": 51.608,
+            "precision": "generalized"
+          },
+          "movement_status": "planned_movement",
+          "direction": "forward"
+        }
+      ],
+      "evidence_pt": "[O] O passageiro tentava embarcar para Doha; voo não concluído.",
+      "evidence_en": "[O] Passenger attempted onward flight to Doha; not completed.",
+      "evidence_es": "[O] El pasajero pretendía volar a Doha; vuelo no realizado.",
+      "source_label": "Ibama / Polícia Federal",
+      "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-e-pf-interceptam-transporte-clandestino-de-16-ovos-de-psitacideos-no-aeroporto-de-guarulhos",
+      "route_scope": "trafficking_movement_only",
+      "geometric_representation": "straight_schematic_segment_not_real_track",
+      "source_verified_for_route": true
     }
   ],
   "network_context": [

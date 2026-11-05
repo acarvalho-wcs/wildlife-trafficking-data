@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261105-011-hong-kong-customs-intercept-66-live-b",
+  "status": "VALIDATED",
+  "country": "Hong Kong",
+  "event_date": "2026-11-03",
+  "event_end_date": null,
+  "publication_date": "2026-11-03",
+  "coordinates": {
+    "lat": 22.5153,
+    "lon": 114.06563
+  },
+  "coordinate_precision": "border_control_point_reference",
+  "location_label_pt": "Controle fronteiriço Lok Ma Chau Spur Line, Hong Kong",
+  "location_label_en": "Controle fronteiriço Lok Ma Chau Spur Line, Hong Kong",
+  "location_label_es": "Controle fronteiriço Lok Ma Chau Spur Line, Hong Kong",
+  "geographic_note_pt": "Referência do posto de fronteira de Lok Ma Chau Spur Line; não representa ponto preciso de inspeção.",
+  "geographic_note_en": "Generalized reference location; not the exact enforcement point.",
+  "geographic_note_es": "Coordenada de referencia generalizada; no representa el lugar exacto de la inspección.",
+  "source_label": "Hong Kong Customs",
+  "source_url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300609.htm",
+  "title_pt": "Alfândega de Hong Kong apreende 66 aves em travessia fronteiriça",
+  "title_en": "Hong Kong Customs intercept 66 live birds at Lok Ma Chau crossing",
+  "title_es": "Aduanas de Hong Kong decomisa 66 aves vivas en Lok Ma Chau",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "66 aves vivas",
+  "fauna_label_en": "66 aves vivas",
+  "fauna_label_es": "66 aves vivas",
+  "taxon_text": "Aves (espécies não identificadas)",
+  "modal_primary": "Terrestre",
+  "modal_label_pt": "Terrestre",
+  "card_text_pt": "Uma passageira vinda da China continental transportava 66 aves em gaiolas dentro da bagagem, sem documentação exigida.",
+  "card_text_en": "A woman arriving from mainland China carried 66 caged birds in her baggage without the required import documentation.",
+  "card_text_es": "Una pasajera procedente de China continental llevaba 66 aves en jaulas dentro del equipaje, sin documentación de importación.",
+  "context_pt": "[O] Uma passageira procedente da China continental entrou pelo posto Lok Ma Chau Spur Line com 66 aves vivas em gaiolas dentro da bagagem pessoal. A irregularidade divulgada pela Alfândega de Hong Kong diz respeito à entrada sem certificado sanitário válido; a travessia fronteiriça ocorreu, mas não há identificação taxonômica pública para atribuir proteção CITES a cada ave. [S] Pesquisa sobre anúncios de avifauna em redes sociais chinesas identificou 178 espécies comercializadas, demonstrando a diversidade do mercado regional que torna relevante documentar espécie e proveniência nas entradas de passageiros.",
+  "context_en": "[O] An incoming passenger from mainland China crossed at Lok Ma Chau Spur Line carrying 66 live birds in cages inside personal luggage. Hong Kong Customs identified importation without a valid health certificate as the suspected offence; the border crossing occurred, but no public species identification establishes a CITES listing for each bird. [S] Research on bird advertisements on Chinese social media identified 178 traded species, illustrating regional market diversity and the value of recording species and provenance at passenger checkpoints.",
+  "context_es": "[O] Una pasajera procedente de China continental cruzó por Lok Ma Chau Spur Line con 66 aves vivas en jaulas dentro de su equipaje personal. Aduanas de Hong Kong señaló la falta de certificado sanitario válido como infracción investigada; el cruce fronterizo se realizó, pero no se publicó una identificación que permita asignar protección CITES a cada ave. [S] Un estudio de anuncios de aves en redes sociales chinas identificó 178 especies comercializadas, mostrando la diversidad del mercado regional y la relevancia de documentar especies y procedencia en controles de pasajeros.",
+  "references_text_pt": "[O] Hong Kong Customs — Seizure of 66 suspected illegally imported live birds (2026) — https://www.info.gov.hk/gia/general/202611/03/P2026110300609.htm\n[S] Characterizing China's Illegal Trade in Avifauna on Social Media (2025) — https://doi.org/10.1002/inc3.70053",
+  "references_text_en": "[O] Hong Kong Customs — Seizure of 66 suspected illegally imported live birds (2026) — https://www.info.gov.hk/gia/general/202611/03/P2026110300609.htm\n[S] Characterizing China's Illegal Trade in Avifauna on Social Media (2025) — https://doi.org/10.1002/inc3.70053",
+  "references_text_es": "[O] Hong Kong Customs — Seizure of 66 suspected illegally imported live birds (2026) — https://www.info.gov.hk/gia/general/202611/03/P2026110300609.htm\n[S] Characterizing China's Illegal Trade in Avifauna on Social Media (2025) — https://doi.org/10.1002/inc3.70053",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Hong Kong Customs — Seizure of 66 suspected illegally imported live birds (2026)",
+      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300609.htm"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Characterizing China's Illegal Trade in Avifauna on Social Media (2025)",
+      "url": "https://doi.org/10.1002/inc3.70053"
+    }
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 66,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 66
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "",
+  "route_audit_status": "DOCUMENTED",
+  "source_reconciliation_status": "SOURCE_READ",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-2026-11-05-CONTEXTOS",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_BRIEF_VERIFIED",
+  "context_style": "concise_evidence_grounded_tagged_body_separate_references",
+  "georeference_source_url": "https://mapcarta.com/W472274288",
+  "georeference_method": "gazetteer_or_official_POI",
+  "is_exact_seizure_position": false
+}

@@ -1,0 +1,77 @@
+{
+  "id": "tgh-20261105-002-alagoas-multi-site-enforcement-action",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-11-03",
+  "event_end_date": null,
+  "publication_date": "2026-11-04",
+  "coordinates": {
+    "lat": -9.415,
+    "lon": -36.083
+  },
+  "coordinate_precision": "municipality_reference",
+  "location_label_pt": "Capela, Limoeiro de Anadia e Taquarana, Alagoas",
+  "location_label_en": "Capela, Limoeiro de Anadia e Taquarana, Alagoas",
+  "location_label_es": "Capela, Limoeiro de Anadia e Taquarana, Alagoas",
+  "geographic_note_pt": "Referência da sede de Capela; operação agregada em três municípios. Outros locais constam na aba Georreferenciamento.",
+  "geographic_note_en": "Reference coordinate; this record covers multiple locations or an imprecisely reported area. See Georeferencing worksheet.",
+  "geographic_note_es": "Coordenada de referencia; el registro abarca varios lugares o un área imprecisa. Véase la hoja Georreferenciación.",
+  "source_label": "Maceió em Foco / PM-AL",
+  "source_url": "https://www.maceioemfoco.com.br/2026/11/04/pm-de-alagoas-apreende-10-armas-e-resgata-54-animais-silvestres/",
+  "title_pt": "Operação em três municípios de Alagoas recolhe 54 animais silvestres",
+  "title_en": "Alagoas multi-site enforcement action recovers 54 wild animals",
+  "title_es": "Operativo en tres municipios de Alagoas recupera 54 animales silvestres",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "54 animais silvestres (total de várias ações)",
+  "fauna_label_en": "54 animais silvestres (total de várias ações)",
+  "fauna_label_es": "54 animais silvestres (total de várias ações)",
+  "taxon_text": "Aves e demais animais não discriminados",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "card_text_pt": "Operação Protetor dos Biomas reuniu fiscalizações em Capela, Limoeiro de Anadia e Taquarana, com 54 animais silvestres e dez armas apreendidas; total agregado.",
+  "card_text_en": "A multi-site operation in Capela, Limoeiro de Anadia and Taquarana resulted in 54 wild animals recovered and ten firearms seized; aggregate count.",
+  "card_text_es": "Una operación en Capela, Limoeiro de Anadia y Taquarana recuperó 54 animales silvestres e incautó diez armas; cifra agregada.",
+  "context_pt": "[O] O balanço da Operação Protetor dos Biomas reúne intervenções em Capela, Limoeiro de Anadia e Taquarana, e não uma apreensão concentrada em um único endereço. Em Capela, 16 aves foram encontradas em uma ação e outras 11 estavam expostas em via pública; o total de 54 animais abrange também as demais fiscalizações. A apreensão de dez armas integra o balanço policial, mas não representa fauna. [S] Pesquisa sobre feiras de aves no Nordeste brasileiro documenta como pontos de oferta urbana sustentam a retirada de indivíduos da natureza, reforçando o interesse em discriminar cada local de comércio e cativeiro.",
+  "context_en": "[O] The Protetor dos Biomas operation summary combines interventions in Capela, Limoeiro de Anadia and Taquarana rather than a single seizure location. In Capela, 16 birds were found in one action and another 11 were displayed in a public area; the total of 54 animals also includes other inspections. Ten seized weapons belong to the police operation tally, not the wildlife count. [S] Research on bird markets in northeastern Brazil documents how urban sales points sustain removal from wild populations, making it important to distinguish each market and captivity site.",
+  "context_es": "[O] El balance de la Operación Protetor dos Biomas agrupa intervenciones en Capela, Limoeiro de Anadia y Taquarana, y no una incautación en un único lugar. En Capela se encontraron 16 aves en un procedimiento y otras 11 expuestas en la vía pública; el total de 54 animales abarca también otras inspecciones. Las diez armas decomisadas corresponden al balance policial, no al recuento de fauna. [S] Una investigación sobre mercados de aves en el nordeste brasileño documenta cómo los puntos urbanos de venta mantienen la extracción de fauna silvestre, lo que refuerza la necesidad de distinguir cada lugar de comercialización y cautiverio.",
+  "references_text_pt": "[O] Maceió em Foco — Operação Protetor dos Biomas em Alagoas (2026) — https://www.maceioemfoco.com.br/2026/11/04/pm-de-alagoas-apreende-10-armas-e-resgata-54-animais-silvestres/\n[S] Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012) — https://doi.org/10.1016/j.biocon.2012.02.009",
+  "references_text_en": "[O] Maceió em Foco — Operação Protetor dos Biomas em Alagoas (2026) — https://www.maceioemfoco.com.br/2026/11/04/pm-de-alagoas-apreende-10-armas-e-resgata-54-animais-silvestres/\n[S] Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012) — https://doi.org/10.1016/j.biocon.2012.02.009",
+  "references_text_es": "[O] Maceió em Foco — Operação Protetor dos Biomas em Alagoas (2026) — https://www.maceioemfoco.com.br/2026/11/04/pm-de-alagoas-apreende-10-armas-e-resgata-54-animais-silvestres/\n[S] Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012) — https://doi.org/10.1016/j.biocon.2012.02.009",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Maceió em Foco — Operação Protetor dos Biomas em Alagoas (2026)",
+      "url": "https://www.maceioemfoco.com.br/2026/11/04/pm-de-alagoas-apreende-10-armas-e-resgata-54-animais-silvestres/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012)",
+      "url": "https://doi.org/10.1016/j.biocon.2012.02.009"
+    }
+  ],
+  "aggregate_operation": true,
+  "exclude_from_totals": false,
+  "quantity_count": 54,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 54
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "source_reconciliation_status": "SOURCE_READ",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-2026-11-05-CONTEXTOS",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_BRIEF_VERIFIED",
+  "context_style": "concise_evidence_grounded_tagged_body_separate_references",
+  "georeference_source_url": "https://geoftp.ibge.gov.br/cartas_e_mapas/mapas_municipais/colecao_de_mapas_municipais/2020/AL/capela/2701704_MM.pdf",
+  "georeference_method": "gazetteer_or_official_POI",
+  "is_exact_seizure_position": false
+}
