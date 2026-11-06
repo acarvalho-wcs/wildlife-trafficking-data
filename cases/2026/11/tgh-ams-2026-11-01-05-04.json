@@ -1,0 +1,88 @@
+{
+  "id": "tgh-ams-2026-11-01-05-04",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "event_date": "2026-11-04",
+  "publication_date": "2026-11-04",
+  "coordinates": {
+    "lat": -28.74237,
+    "lon": -66.18101
+  },
+  "coordinate_precision": "toponym_generalized",
+  "location_label_pt": "Las Palmas, Capayan, Argentina",
+  "location_label_en": "Las Palmas, Capayan, Argentina",
+  "location_label_es": "Las Palmas, Capayan, Argentina",
+  "geographic_note_pt": "Las Palmas, Capayán, Catamarca: ponto de fiscalização não divulgado",
+  "geographic_note_en": "Approximate place reference; not the exact seizure position.",
+  "geographic_note_es": "Referencia geografica aproximada; no es el sitio exacto de la intervencion.",
+  "source_label": "inforama.com.ar",
+  "source_url": "https://inforama.com.ar/actualidad/2026/11/04/rescataron-aves-silvestres-de-una-camioneta-en-capayan-las-liberaron-y-destruyeron-las-jaulas/",
+  "title_pt": "Quatro aves silvestres recuperadas em fiscalizacao de veiculo em Catamarca",
+  "title_en": "Four wild birds recovered during vehicle inspection in Catamarca",
+  "title_es": "Recuperan cuatro aves silvestres en control de vehiculo en Catamarca",
+  "card_text_pt": "Agentes localizaram quatro aves silvestres e cinco gaiolas em um veiculo; aves soltas.",
+  "card_text_en": "Officers found four wild birds and five cages in a vehicle; the birds were released.",
+  "card_text_es": "Agentes hallaron cuatro aves silvestres y cinco jaulas en un vehiculo; las aves fueron liberadas.",
+  "context_pt": "[O] O flagrante ocorreu durante fiscalização de veículo com quatro aves e gaiolas, posteriormente destinadas à soltura. A indicação de que o motorista seria de La Rioja descreve sua procedência, não o local de captura das aves nem uma rota comprovada; a apreensão é independente dos três domicílios vistoriados em Catamarca. [S] Estudo sobre o comércio ilegal de aves na Argentina demonstra que a demanda por exemplares vivos pode ser investigada por diferentes canais, mas não identifica a origem deste pequeno lote. [N] Reportagem regional sobre aves canoras descreve incentivos de captura sem estabelecer ligação entre os fatos.",
+  "context_en": "[O] Four wild birds in cages were found during a vehicle inspection and later released. The driver being from La Rioja does not establish where the birds were captured or a wildlife transport route. This event is distinct from the three-home Catamarca investigation. [S] Argentine bird-market research identifies wider demand patterns but does not trace these four animals. [N] Reporting on songbird capture provides market context without connecting the cases.",
+  "context_es": "[O] La inspección de un vehículo detectó cuatro aves en jaulas que luego fueron liberadas. Que el conductor proviniera de La Rioja no permite establecer el lugar de captura ni una ruta comprobada. Es un evento distinto de los allanamientos de tres domicilios en Catamarca. [S] El estudio argentino de comercio de aves describe patrones de demanda sin rastrear estas cuatro aves. [N] La investigación periodística regional contextualiza los incentivos de captura sin conectar los hechos.",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "4 aves silvestres",
+  "fauna_label_en": "4 wild birds",
+  "fauna_label_es": "4 aves silvestres",
+  "taxon_text": "Aves silvestres (nao discriminadas)",
+  "modal_primary": "Rodoviário",
+  "modal_label_pt": "Rodoviário",
+  "modal_label_en": "Road",
+  "modal_label_es": "Carretera",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "4 aves em cinco gaiolas",
+  "quantity_note_en": "4 birds in five cages",
+  "quantity_note_es": "4 aves en cinco jaulas",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "references_text_pt": "[O] Fonte do evento — https://inforama.com.ar/actualidad/2026/11/04/rescataron-aves-silvestres-de-una-camioneta-en-capayan-las-liberaron-y-destruyeron-las-jaulas/\n[S] Estudo cientifico — https://doi.org/10.1093/ornithapp/duaf012\n[N] Reportagem de contexto — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "references_text_en": "[O] Fonte do evento — https://inforama.com.ar/actualidad/2026/11/04/rescataron-aves-silvestres-de-una-camioneta-en-capayan-las-liberaron-y-destruyeron-las-jaulas/\n[S] Estudo cientifico — https://doi.org/10.1093/ornithapp/duaf012\n[N] Reportagem de contexto — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "references_text_es": "[O] Fonte do evento — https://inforama.com.ar/actualidad/2026/11/04/rescataron-aves-silvestres-de-una-camioneta-en-capayan-las-liberaron-y-destruyeron-las-jaulas/\n[S] Estudo cientifico — https://doi.org/10.1093/ornithapp/duaf012\n[N] Reportagem de contexto — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Fonte do evento",
+      "url": "https://inforama.com.ar/actualidad/2026/11/04/rescataron-aves-silvestres-de-una-camioneta-en-capayan-las-liberaron-y-destruyeron-las-jaulas/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Estudo cientifico",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012"
+    },
+    {
+      "id": "N",
+      "type": "journalistic",
+      "label": "Reportagem de contexto",
+      "url": "https://insightcrime.org/es/noticias/robo-aves-america-latina/"
+    }
+  ],
+  "case_context_status": "PT_EN_ES_OSINT_PRESERVED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhuma rota comprovada para a fauna; La Rioja refere-se à procedência do motorista.",
+  "image_url": null,
+  "image_source_url": "https://inforama.com.ar/actualidad/2026/11/04/rescataron-aves-silvestres-de-una-camioneta-en-capayan-las-liberaron-y-destruyeron-las-jaulas/",
+  "image_status": "NOT_VALIDATED",
+  "source_reconciliation_status": "SOURCE_FROM_TGH_WORKBOOK",
+  "translation_status": "EN_ES_COMPLETE",
+  "ingestion_batch": "TGH-AMS-2026-11-01-05-VALIDATED",
+  "tgh_local_id": 4,
+  "georeference_method": "approximate_toponym_reference",
+  "is_exact_seizure_position": false,
+  "qa_notes_pt": "Não deduplicar com o ID 5: a matéria de 05/11 menciona ambas as operações."
+}

@@ -1,0 +1,88 @@
+{
+  "id": "tgh-ams-2026-11-01-05-03",
+  "status": "VALIDATED",
+  "country": "Chile",
+  "event_date": "2026-11-04",
+  "publication_date": "2026-11-05",
+  "coordinates": {
+    "lat": -54.16667,
+    "lon": -69.6
+  },
+  "coordinate_precision": "toponym_generalized",
+  "location_label_pt": "Timaukel, Parque Karukinka, Chile",
+  "location_label_en": "Timaukel, Parque Karukinka, Chile",
+  "location_label_es": "Timaukel, Parque Karukinka, Chile",
+  "geographic_note_pt": "Parque Karukinka, Timaukel: referência aproximada ao parque; intervenção sem coordenada divulgada",
+  "geographic_note_en": "Approximate place reference; not the exact seizure position.",
+  "geographic_note_es": "Referencia geografica aproximada; no es el sitio exacto de la intervencion.",
+  "source_label": "www.ovejeronoticias.cl",
+  "source_url": "https://www.ovejeronoticias.cl/2026/11/detienen-a-seis-personas-por-presunta-caza-ilegal-de-guanaco-en-parque-karukinka-en-tierra-del-fuego/",
+  "title_pt": "Investigacao de caca de guanaco no Parque Karukinka, Chile",
+  "title_en": "Suspected guanaco poaching investigated at Karukinka Park, Chile",
+  "title_es": "Investigan presunta caza furtiva de guanaco en Parque Karukinka, Chile",
+  "card_text_pt": "Seis pessoas foram detidas apos denuncia de caca de guanaco no Parque Karukinka.",
+  "card_text_en": "Six people were detained after a report of suspected guanaco poaching in Karukinka Park.",
+  "card_text_es": "Seis personas fueron detenidas tras denuncia de presunta caza de guanaco en Parque Karukinka.",
+  "context_pt": "[O] A denúncia no Parque Karukinka mobilizou polícia e órgãos especializados após indícios de abate e esquartejamento de um guanaco. O registro sustenta investigação de caça dentro de uma área protegida, mas não documenta transporte de carne, compradores ou destino final. [S] Revisão científica sobre tecnologias contra caça furtiva distingue detecção operacional de prova sobre cadeias comerciais: a intervenção não autoriza inferir rede de tráfico. [I] A WCS Chile caracteriza Karukinka como área de conservação da Terra do Fogo; a localização cartográfica fornecida é referência de parque extenso, não coordenada da ocorrência.",
+  "context_en": "[O] A report from Karukinka Park led police and wildlife authorities to investigate evidence of a guanaco killed and butchered. The documented conduct concerns suspected poaching in a protected area; meat transport, buyers and final destination are not established. [S] Research on anti-poaching technology helps distinguish field detection from evidence of organized trade. [I] WCS Chile describes Karukinka as a protected conservation landscape; the mapped coordinate represents the park, not the incident site.",
+  "context_es": "[O] Una denuncia en el Parque Karukinka activó la intervención de la policía y autoridades especializadas ante indicios de muerte y faenamiento de un guanaco. Se investiga caza furtiva en un área protegida; no están documentados el transporte de carne, los compradores ni el destino. [S] La investigación sobre tecnologías contra la caza furtiva permite distinguir detección en campo de pruebas de comercio organizado. [I] WCS Chile describe Karukinka como territorio de conservación; la coordenada representa el parque y no el sitio del hecho.",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "fauna_label_pt": "Guanaco",
+  "fauna_label_en": "Guanaco",
+  "fauna_label_es": "Guanaco",
+  "taxon_text": "*Lama guanicoe*",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 guanaco morto/abatido sob investigacao",
+  "quantity_note_en": "1 guanaco killed in a suspected poaching incident",
+  "quantity_note_es": "1 guanaco muerto en un caso de presunta caza furtiva",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "references_text_pt": "[O] Fonte do evento — https://www.ovejeronoticias.cl/2026/11/detienen-a-seis-personas-por-presunta-caza-ilegal-de-guanaco-en-parque-karukinka-en-tierra-del-fuego/\n[S] Estudo cientifico — https://doi.org/10.3389/fevo.2025.1527976\n[I] Referencia institucional — https://chile.wcs.org/Karukinka.aspx",
+  "references_text_en": "[O] Fonte do evento — https://www.ovejeronoticias.cl/2026/11/detienen-a-seis-personas-por-presunta-caza-ilegal-de-guanaco-en-parque-karukinka-en-tierra-del-fuego/\n[S] Estudo cientifico — https://doi.org/10.3389/fevo.2025.1527976\n[I] Referencia institucional — https://chile.wcs.org/Karukinka.aspx",
+  "references_text_es": "[O] Fonte do evento — https://www.ovejeronoticias.cl/2026/11/detienen-a-seis-personas-por-presunta-caza-ilegal-de-guanaco-en-parque-karukinka-en-tierra-del-fuego/\n[S] Estudo cientifico — https://doi.org/10.3389/fevo.2025.1527976\n[I] Referencia institucional — https://chile.wcs.org/Karukinka.aspx",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Fonte do evento",
+      "url": "https://www.ovejeronoticias.cl/2026/11/detienen-a-seis-personas-por-presunta-caza-ilegal-de-guanaco-en-parque-karukinka-en-tierra-del-fuego/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Estudo cientifico",
+      "url": "https://doi.org/10.3389/fevo.2025.1527976"
+    },
+    {
+      "id": "I",
+      "type": "institutional",
+      "label": "Referencia institucional",
+      "url": "https://chile.wcs.org/Karukinka.aspx"
+    }
+  ],
+  "case_context_status": "PT_EN_ES_OSINT_PRESERVED",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não documentada; ponto do mapa é apenas a localização aproximada do Parque Karukinka.",
+  "image_url": null,
+  "image_source_url": "https://www.ovejeronoticias.cl/2026/11/detienen-a-seis-personas-por-presunta-caza-ilegal-de-guanaco-en-parque-karukinka-en-tierra-del-fuego/",
+  "image_status": "NOT_VALIDATED",
+  "source_reconciliation_status": "SOURCE_FROM_TGH_WORKBOOK",
+  "translation_status": "EN_ES_COMPLETE",
+  "ingestion_batch": "TGH-AMS-2026-11-01-05-VALIDATED",
+  "tgh_local_id": 3,
+  "georeference_method": "approximate_toponym_reference",
+  "is_exact_seizure_position": false,
+  "qa_notes_pt": "Não interpretar uma coordenada central do parque como local exato da intervenção."
+}

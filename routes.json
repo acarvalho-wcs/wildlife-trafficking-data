@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-05T20:55:02.271442Z",
+  "updated_at": "2026-11-06T16:31:57.956977Z",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -14347,6 +14347,60 @@
       "route_scope": "trafficking_movement_only",
       "geometric_representation": "straight_schematic_segment_not_real_track",
       "source_verified_for_route": true
+    },
+    {
+      "id": "tgh-ams-20261103-trenquelauquen-mariateresa-victoria",
+      "event_match": {
+        "event_id": "tgh-ams-2026-11-01-05-12"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "planned_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Trenque Lauquen (declarada) -> Maria Teresa (interceptado) -> Victoria (pretendido)",
+      "label_en": "Trenque Lauquen (reported) -> Maria Teresa (intercepted) -> Victoria (intended)",
+      "label_es": "Trenque Lauquen (declarado) -> Maria Teresa (interceptado) -> Victoria (previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Trenque Lauquen (origem declarada)",
+            "country": "Argentina",
+            "lon": -62.7329,
+            "lat": -35.9731,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Maria Teresa (interceptacao)",
+            "country": "Argentina",
+            "lon": -61.90752,
+            "lat": -34.00464,
+            "precision": "city_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Maria Teresa (interceptacao)",
+            "country": "Argentina",
+            "lon": -61.90752,
+            "lat": -34.00464,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Victoria (destino pretendido)",
+            "country": "Argentina",
+            "lon": -60.1577,
+            "lat": -32.6218,
+            "precision": "city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "Origem declarada Trenque Lauquen; caminhão interceptado em Maria Teresa; Victoria como destino pretendido. A linha e esquematica e nao corresponde a uma estrada/itinerario comprovado. Nao representar todo o percurso como realizado.",
+      "evidence_en": "Reported origin Trenque Lauquen; truck stopped at Maria Teresa; Victoria was the intended destination. The line is schematic, not a verified road itinerary. Do not depict the entire route as completed.",
+      "evidence_es": "Origen declarado Trenque Lauquen; camion interceptado en Maria Teresa; Victoria era el destino previsto. La linea es esquematica, no un itinerario vial verificado. No representar el recorrido completo como realizado.",
+      "source_label": "11Noticias",
+      "source_url": "https://11noticias.com/policiales/detuvieron-a-un-camion-con-casi-cuatro-toneladas-de-pejerrey-transportadas-de-forma-ilegal-en-el-sur-de-santa-fe_53328",
+      "geometry_is_schematic": true,
+      "completed_movement_only_up_to_interception": true
     }
   ],
   "network_context": [
