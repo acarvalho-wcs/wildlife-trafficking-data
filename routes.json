@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-06T16:31:57.956977Z",
+  "updated_at": "2026-11-06T23:38:52Z",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -14401,6 +14401,162 @@
       "source_url": "https://11noticias.com/policiales/detuvieron-a-un-camion-con-casi-cuatro-toneladas-de-pejerrey-transportadas-de-forma-ilegal-en-el-sur-de-santa-fe_53328",
       "geometry_is_schematic": true,
       "completed_movement_only_up_to_interception": true
+    },
+    {
+      "id": "tgh-route-tgh-asia-20261104-hk-five-us-turtles",
+      "event_match": {
+        "event_id": "tgh-asia-20261104-hk-five-us-turtles"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Estados Unidos → Hong Kong",
+      "label_en": "United States → Hong Kong",
+      "label_es": "Estados Unidos → Hong Kong",
+      "segments": [
+        {
+          "from": {
+            "name": "Estados Unidos (referência de país; localidade não informada)",
+            "country": "Estados Unidos",
+            "lat": 39.8283,
+            "lon": -98.5795,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong (China)",
+            "lat": 22.308,
+            "lon": 113.9185,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "Encomenda aérea interceptada em Hong Kong, com procedência informada dos Estados Unidos. Cidade/estado de origem desconhecidos; ponto inicial no mapa é apenas o centro cartográfico do país, NÃO local de despacho.",
+      "evidence_en": "Air parcel intercepted in Hong Kong, with documented United States provenance. Departure city/state unknown; map origin is a schematic country reference, NOT a shipping location.",
+      "evidence_es": "Paquete aéreo interceptado en Hong Kong, con procedencia documentada de Estados Unidos. Ciudad/estado desconocidos; el origen cartográfico es referencia nacional esquemática, NO punto de envío.",
+      "source_label": "info.gov.hk",
+      "source_url": "https://www.info.gov.hk/gia/general/202611/04/P2026110400681.htm",
+      "route_scope": "DOCUMENTED_LOCATIONS_ONLY",
+      "geometry_is_schematic": true,
+      "source_verified_for_route": "ACCORDING_TO_TGH_AUDIT"
+    },
+    {
+      "id": "tgh-route-tgh-asia-20261103-thailand-473-mud-turtles",
+      "event_match": {
+        "event_id": "tgh-asia-20261103-thailand-473-mud-turtles"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "México → Suvarnabhumi",
+      "label_en": "Mexico → Suvarnabhumi",
+      "label_es": "México → Suvarnabhumi",
+      "segments": [
+        {
+          "from": {
+            "name": "México (referência de país; localidade não informada)",
+            "country": "México",
+            "lat": 23.6345,
+            "lon": -102.5528,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Suvarnabhumi",
+            "country": "Tailândia",
+            "lat": 13.69,
+            "lon": 100.7501,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "Remessa declarada procedente do México interceptada em Suvarnabhumi. O país inicial é representação cartográfica generalizada; não há aeroporto de origem confirmado nem escala documentada da carga.",
+      "evidence_en": "Shipment reported as originating in Mexico was intercepted at Suvarnabhumi. The country endpoint is schematic; neither an origin airport nor an intermediate cargo stop is confirmed.",
+      "evidence_es": "Envío declarado procedente de México interceptado en Suvarnabhumi. El extremo nacional es esquemático; no se confirma aeropuerto inicial ni escala de la carga.",
+      "source_label": "news.dnp.go.th",
+      "source_url": "https://news.dnp.go.th/news/50806",
+      "route_scope": "DOCUMENTED_LOCATIONS_ONLY",
+      "geometry_is_schematic": true,
+      "source_verified_for_route": "ACCORDING_TO_TGH_AUDIT"
+    },
+    {
+      "id": "tgh-route-tgh-asia-20261105-dhaka-114-exotic-animals",
+      "event_match": {
+        "event_id": "tgh-asia-20261105-dhaka-114-exotic-animals"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "China → Daca",
+      "label_en": "China → Dhaka",
+      "label_es": "China → Daca",
+      "segments": [
+        {
+          "from": {
+            "name": "China (referência de país; localidade não informada)",
+            "country": "China",
+            "lat": 35.8617,
+            "lon": 104.1954,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional Hazrat Shahjalal",
+            "country": "Bangladesh",
+            "lat": 23.8433,
+            "lon": 90.3978,
+            "precision": "airport"
+          }
+        }
+      ],
+      "evidence_pt": "Carga de dois volumes importada da China e interceptada em Daca. Cidade de despacho não identificada; ponto inicial é referência nacional esquemática.",
+      "evidence_en": "Two packages imported from China were intercepted in Dhaka. Dispatch city unknown; map origin is a schematic country reference.",
+      "evidence_es": "Dos paquetes importados desde China fueron interceptados en Daca. Ciudad de despacho desconocida; origen cartográfico nacional esquemático.",
+      "source_label": "theclimatewatch.com",
+      "source_url": "https://theclimatewatch.com/114-exotic-wildlife-seized-in-smuggling-attempt-at-dhaka-airport/",
+      "route_scope": "DOCUMENTED_LOCATIONS_ONLY",
+      "geometry_is_schematic": true,
+      "source_verified_for_route": "ACCORDING_TO_TGH_AUDIT"
+    },
+    {
+      "id": "tgh-route-tgh-asia-20261102-parepare-18-hanging-parrots",
+      "event_match": {
+        "event_id": "tgh-asia-20261102-parepare-18-hanging-parrots"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "completed_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Samarinda → Parepare",
+      "label_en": "Samarinda → Parepare",
+      "label_es": "Samarinda → Parepare",
+      "segments": [
+        {
+          "from": {
+            "name": "Samarinda",
+            "country": "Indonésia",
+            "lat": -0.5022,
+            "lon": 117.1536,
+            "precision": "city_generalized"
+          },
+          "to": {
+            "name": "Porto de Parepare (referência portuária)",
+            "country": "Indonésia",
+            "lat": -4.0091,
+            "lon": 119.629,
+            "precision": "port_city_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "A embarcação KM Prince Soyya chegou ao porto de Parepare procedente de Samarinda com 18 aves sem documentação. Geometrias representam as localidades citadas, não o trajeto náutico exato.",
+      "evidence_en": "Vessel KM Prince Soyya arrived in Parepare from Samarinda with 18 undocumented birds. Geometry connects documented locations, not the exact sailing track.",
+      "evidence_es": "El buque KM Prince Soyya llegó a Parepare procedente de Samarinda con 18 aves sin documentación. La geometría une localidades documentadas, no la trayectoria marítima exacta.",
+      "source_label": "karantinaindonesia.go.id",
+      "source_url": "https://karantinaindonesia.go.id/berita/karantina-sulsel-gagalkan-pemasukan-18-burung-serindit-tanpa-dokumen-di-parepare",
+      "route_scope": "DOCUMENTED_LOCATIONS_ONLY",
+      "geometry_is_schematic": true,
+      "source_verified_for_route": "ACCORDING_TO_TGH_AUDIT"
     }
   ],
   "network_context": [
