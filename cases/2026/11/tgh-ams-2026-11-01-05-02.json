@@ -1,0 +1,90 @@
+{
+  "id": "tgh-ams-2026-11-01-05-02",
+  "status": "VALIDATED",
+  "country": "Argentina",
+  "event_date": null,
+  "publication_date": "2026-11-02",
+  "coordinates": {
+    "lat": -33.89713,
+    "lon": -61.09942
+  },
+  "coordinate_precision": "city_generalized",
+  "location_label_pt": "Colón, Buenos Aires, Argentina",
+  "location_label_en": "Colón, Buenos Aires, Argentina",
+  "location_label_es": "Colón, Buenos Aires, Argentina",
+  "geographic_note_pt": "Coordenada da cidade de Colón; loja não geocodificada.",
+  "geographic_note_en": "Geographic reference only; not an exact seizure or search location. Coordenada da cidade de Colón; loja não geocodificada.",
+  "geographic_note_es": "Ubicación de referencia, no coordenadas exactas de la intervención. Coordenada da cidade de Colón; loja não geocodificada.",
+  "source_label": "www.argentina.gob.ar",
+  "source_url": "https://www.argentina.gob.ar/noticias/el-dfi-rescato-gran-cantidad-de-aves-en-cautiverio-en-la-provincia-de-buenos-aires",
+  "title_pt": "PFA resgata 124 aves silvestres mantidas em comércio de Colón, Argentina",
+  "title_en": "Federal police recover 124 captive wild birds at a shop in Colón, Argentina",
+  "title_es": "Policía Federal recupera 124 aves silvestres en comercio de Colón, Argentina",
+  "card_text_pt": "Agentes federais resgataram 124 aves silvestres e apreenderam 44 armadilhas e 26 placas adesivas em loja de ração.",
+  "card_text_en": "Federal agents recovered 124 captive wild birds and seized 44 traps and 26 adhesive trapping boards at a feed shop.",
+  "card_text_es": "Agentes federales rescataron 124 aves silvestres e incautaron 44 trampas y 26 planchas adhesivas en un comercio de forrajes.",
+  "context_pt": "[O] A operação em um estabelecimento que comercializava ração encontrou aves em cativeiro acompanhadas de 44 armadilhas e 26 dispositivos adesivos de captura. A combinação de animais e instrumentos é relevante à investigação da possível cadeia entre captura e comércio, mas não demonstra por si só uma rota de abastecimento ou rede de vendedores. [S] Estudo sobre grupos argentinos de comércio de aves em redes sociais documenta demanda e persistência de ofertas de espécies silvestres; não há evidência de que este estabelecimento utilizasse esses canais. [N] Análise regional da InSight Crime relaciona a procura por aves canoras a incentivos de retirada da natureza, como contexto do mercado e não vínculo investigativo com Colón.",
+  "context_en": "[O] Wild birds were found in a feed business alongside 44 trapping devices and 26 adhesive traps. The combination is a lead for examining capture and commercialization, but it does not establish a supply route or seller network. [S] Research on Argentine social-media bird trading documents sustained market demand, without showing that this business used online groups. [N] InSight Crime examines the regional market for songbirds as background, not evidence of a link to Colón.",
+  "context_es": "[O] En un establecimiento de venta de alimentos se hallaron aves junto con 44 trampas y 26 dispositivos adhesivos. Estos elementos orientan la investigación sobre captura y comercialización, pero no prueban una ruta de suministro ni una red de vendedores. [S] Un estudio de grupos argentinos de comercio de aves en redes sociales demuestra demanda persistente, sin vincular este negocio a esas plataformas. [N] InSight Crime analiza la demanda regional de aves canoras como contexto, no como conexión con Colón.",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "124 aves silvestres",
+  "fauna_label_en": "124 wild birds",
+  "fauna_label_es": "124 aves silvestres",
+  "taxon_text": "Aves silvestres de várias espécies (não individualizadas)",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 124,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 124
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "124 aves; armadilhas são materiais, não animais adicionais.",
+  "quantity_note_en": "124 birds; traps are not additional animals.",
+  "quantity_note_es": "124 aves; las trampas no son animales adicionales.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "references_text_pt": "[O] Fonte original do evento — https://www.argentina.gob.ar/noticias/el-dfi-rescato-gran-cantidad-de-aves-en-cautiverio-en-la-provincia-de-buenos-aires\n[S] Pesquisa científica aplicada ao contexto — https://doi.org/10.1093/ornithapp/duaf012\n[N] Reportagem analítica contextual — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "references_text_en": "[O] Fonte original do evento — https://www.argentina.gob.ar/noticias/el-dfi-rescato-gran-cantidad-de-aves-en-cautiverio-en-la-provincia-de-buenos-aires\n[S] Pesquisa científica aplicada ao contexto — https://doi.org/10.1093/ornithapp/duaf012\n[N] Reportagem analítica contextual — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "references_text_es": "[O] Fonte original do evento — https://www.argentina.gob.ar/noticias/el-dfi-rescato-gran-cantidad-de-aves-en-cautiverio-en-la-provincia-de-buenos-aires\n[S] Pesquisa científica aplicada ao contexto — https://doi.org/10.1093/ornithapp/duaf012\n[N] Reportagem analítica contextual — https://insightcrime.org/es/noticias/robo-aves-america-latina/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "Fonte original do evento",
+      "url": "https://www.argentina.gob.ar/noticias/el-dfi-rescato-gran-cantidad-de-aves-en-cautiverio-en-la-provincia-de-buenos-aires"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Pesquisa científica aplicada ao contexto",
+      "url": "https://doi.org/10.1093/ornithapp/duaf012"
+    },
+    {
+      "id": "N",
+      "type": "journalistic",
+      "label": "Reportagem analítica contextual",
+      "url": "https://insightcrime.org/es/noticias/robo-aves-america-latina/"
+    }
+  ],
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Sem deslocamento de fauna ou cadeia de fornecedores documentados.",
+  "route_audit_note_en": "No documented route with verifiable endpoints.",
+  "route_audit_note_es": "Sin ruta documentada con extremos verificables.",
+  "source_reconciliation_status": "NEWS_OR_OFFICIAL_SOURCE_VERIFIED_2026-11-06",
+  "case_context_status": "PT_EN_ES_REVIEWED",
+  "translation_status": "EN_ES_COMPLETE",
+  "ingestion_batch": "TG-H-AMS-2026-11-01-05-PENDING-REVIEW-20261106",
+  "tgh_local_id": 2,
+  "georeference_method": "conservative_place_reference_not_exact_incident",
+  "is_exact_seizure_position": false,
+  "qa_notes_pt": "Data exata do cumprimento da ordem não informada; não atribuir proveniência aos animais.",
+  "image_url": null,
+  "image_source_url": "https://www.argentina.gob.ar/noticias/el-dfi-rescato-gran-cantidad-de-aves-en-cautiverio-en-la-provincia-de-buenos-aires",
+  "image_status": "NOT_VALIDATED"
+}
