@@ -1,0 +1,91 @@
+{
+  "id": "tgh-asia-20261104-hk-five-us-turtles",
+  "status": "VALIDATED",
+  "country": "Hong Kong (China)",
+  "event_date": "2026-11-04",
+  "publication_date": "2026-11-04",
+  "occurred_at": "2026-11-04T00:00:00Z",
+  "occurred_at_precision": "day",
+  "coordinates": {
+    "lat": 22.308,
+    "lon": 113.9185
+  },
+  "coordinate_precision": "airport_generalized",
+  "location_label_pt": "Aeroporto Internacional de Hong Kong, Chek Lap Kok",
+  "location_label_en": "Aeroporto Internacional de Hong Kong, Chek Lap Kok",
+  "location_label_es": "Aeroporto Internacional de Hong Kong, Chek Lap Kok",
+  "geographic_note_pt": "Ponto aproximado (airport_generalized); não é local exato do flagrante.",
+  "geographic_note_en": "Generalized reference location, not the exact seizure site. Ponto aproximado (airport_generalized); não é local exato do flagrante.",
+  "geographic_note_es": "Referencia geográfica generalizada, no lugar exacto de la intervención. Ponto aproximado (airport_generalized); não é local exato do flagrante.",
+  "georeference_method": "conservative_reference_coordinates",
+  "is_exact_seizure_position": false,
+  "source_label": "info.gov.hk",
+  "source_url": "https://www.info.gov.hk/gia/general/202611/04/P2026110400681.htm",
+  "title_pt": "Hong Kong intercepta cinco tartarugas vivas em encomenda declarada como brinquedos",
+  "title_en": "Hong Kong intercepts five live turtles in parcel declared as toys",
+  "title_es": "Hong Kong intercepta cinco tortugas vivas en paquete declarado como juguetes",
+  "card_text_pt": "Cinco tartarugas vivas de espécies ameaçadas suspeitas, vindas dos EUA em encomenda declarada como blocos de montar, foram apreendidas na fiscalização de carga aérea de 04/11.",
+  "card_text_en": "Customs risk-screened an air parcel from the United States to Hong Kong declared as building-block toys and recovered five live turtles suspected to be controlled endangered specimens.",
+  "card_text_es": "Aduanas seleccionó por análisis de riesgo un paquete aéreo de Estados Unidos a Hong Kong declarado como bloques de construcción y encontró cinco tortugas vivas presuntamente sujetas a controles sobre especies amenazadas.",
+  "context_pt": "[O] A Alfândega interceptou por análise de risco uma encomenda aérea dos Estados Unidos para Hong Kong, declarada como brinquedos de montar, e encontrou cinco tartarugas vivas presumivelmente sujeitas ao regime de espécies ameaçadas. A remessa foi entregue ao AFCD para apuração. A origem documental EUA e a chegada a Hong Kong são verificadas; não se identificam estado americano, exportador nem espécie definitiva.\n\n[S] Um estudo comparando espécies de répteis comercializadas com bases de comércio mostra lacunas de cobertura regulatória; a identificação taxonômica é essencial antes de classificar cada tartaruga sob controles específicos.\n\n[N] Reportagem sobre mercados de répteis e anfíbios descreve como lacunas de regulamentação favorecem ofertas transfronteiriças; esse contexto não identifica o fornecedor deste pacote.",
+  "context_en": "[O] Customs risk-screened an air parcel from the United States to Hong Kong declared as building-block toys and recovered five live turtles suspected to be controlled endangered specimens. The case was referred to AFCD. The reported US dispatch and Hong Kong arrival are documented; the US locality, sender and final species identifications are not.\n\n[S] A study comparing traded reptiles against trade datasets exposes gaps in regulatory coverage; species-level identification is essential before assigning specific controls to the turtles.\n\n[N] Investigative reporting on reptile and amphibian markets describes how regulatory gaps enable cross-border offerings; it does not identify this parcel’s supplier.",
+  "context_es": "[O] Aduanas seleccionó por análisis de riesgo un paquete aéreo de Estados Unidos a Hong Kong declarado como bloques de construcción y encontró cinco tortugas vivas presuntamente sujetas a controles sobre especies amenazadas. El caso fue remitido al AFCD. Se documentan el envío desde EE. UU. y la llegada a Hong Kong, no la localidad de origen, el remitente ni la identificación final de las especies.\n\n[S] Un estudio que compara reptiles comercializados con bases de comercio revela lagunas regulatorias; la identificación taxonómica es esencial antes de asignar controles concretos a las tortugas.\n\n[N] Un reportaje sobre mercados de reptiles y anfibios describe cómo las lagunas regulatorias facilitan ofertas transfronterizas, sin identificar al proveedor de este paquete.",
+  "references_text_pt": "[O] https://www.info.gov.hk/gia/general/202611/04/P2026110400681.htm\n[S] https://doi.org/10.1038/s41467-020-18523-4\n[N] https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+  "references_text_en": "[O] https://www.info.gov.hk/gia/general/202611/04/P2026110400681.htm\n[S] https://doi.org/10.1038/s41467-020-18523-4\n[N] https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+  "references_text_es": "[O] https://www.info.gov.hk/gia/general/202611/04/P2026110400681.htm\n[S] https://doi.org/10.1038/s41467-020-18523-4\n[N] https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "[O] https://www.info.gov.hk/gia/general/202611/04/P2026110400681.htm",
+      "url": "https://www.info.gov.hk/gia/general/202611/04/P2026110400681.htm"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "[S] https://doi.org/10.1038/s41467-020-18523-4",
+      "url": "https://doi.org/10.1038/s41467-020-18523-4"
+    },
+    {
+      "id": "N",
+      "type": "news",
+      "label": "[N] https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+      "url": "https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "fauna_label_pt": "5 — Répteis",
+  "fauna_label_en": "5 — Reptiles",
+  "fauna_label_es": "5 — Reptiles",
+  "taxon_text": "Tartarugas vivas, espécies não individualizadas",
+  "modal_primary": "Aéreo/Postal",
+  "modal_label_pt": "Aéreo/Postal",
+  "modal_label_en": "Air/Postal",
+  "modal_label_es": "Aéreo/Postal",
+  "quantity_count": 5,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Répteis": 5
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "O documento indica suspeita de espécies CITES, não identificação conclusiva.",
+  "quantity_note_en": "Customs risk-screened an air parcel from the United States to Hong Kong declared as building-block toys and recovered five live turtles suspected to be controlled endangered specimens.",
+  "quantity_note_es": "Aduanas seleccionó por análisis de riesgo un paquete aéreo de Estados Unidos a Hong Kong declarado como bloques de construcción y encontró cinco tortugas vivas presuntamente sujetas a controles sobre especies amenazadas.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Rota realizada documentada: Estados Unidos → Aeroporto Internacional de Hong Kong (aéreo, encomenda postal/carga). Sem cidade de origem nos EUA.",
+  "route_audit_note_en": "Documented movement with generalized endpoints; see route evidence.",
+  "route_audit_note_es": "Desplazamiento documentado con extremos generalizados; consultar evidencias.",
+  "source_reconciliation_status": "TG-H-SOURCE-CITED-REVIEWED",
+  "case_context_status": "PT_EN_ES_PREPARED_FROM_TGH_SHEET",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-01_06-SHELL-20261106",
+  "qa_notes_pt": "Fonte oficial de Hong Kong confirma 04/11 e origem declarada EUA, cinco tartarugas vivas; identificação taxonômica/CITES ainda suspeita. | Auditoria: APTO COM RESSALVAS",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED"
+}

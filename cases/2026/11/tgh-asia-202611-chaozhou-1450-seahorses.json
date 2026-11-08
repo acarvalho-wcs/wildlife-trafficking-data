@@ -1,0 +1,91 @@
+{
+  "id": "tgh-asia-202611-chaozhou-1450-seahorses",
+  "status": "VALIDATED",
+  "country": "China",
+  "event_date": null,
+  "publication_date": "2026-11-01",
+  "occurred_at": null,
+  "occurred_at_precision": "unknown",
+  "coordinates": {
+    "lat": 23.6566,
+    "lon": 116.6204
+  },
+  "coordinate_precision": "city_generalized",
+  "location_label_pt": "Chaozhou, Guangdong (ponto administrativo; barco em localização não informada)",
+  "location_label_en": "Chaozhou, Guangdong (ponto administrativo; barco em localização não informada)",
+  "location_label_es": "Chaozhou, Guangdong (ponto administrativo; barco em localização não informada)",
+  "geographic_note_pt": "Ponto aproximado (city_generalized); não é local exato do flagrante.",
+  "geographic_note_en": "Generalized reference location, not the exact seizure site. Ponto aproximado (city_generalized); não é local exato do flagrante.",
+  "geographic_note_es": "Referencia geográfica generalizada, no lugar exacto de la intervención. Ponto aproximado (city_generalized); não é local exato do flagrante.",
+  "georeference_method": "conservative_reference_coordinates",
+  "is_exact_seizure_position": false,
+  "source_label": "news.dayoo.com",
+  "source_url": "https://news.dayoo.com/guangdong/202611/01/139996_55019253.htm",
+  "title_pt": "Guarda Costeira chinesa encontra 1.450 cavalos-marinhos em barco de pesca em Chaozhou",
+  "title_en": "Chinese Coast Guard finds 1,450 seahorses aboard fishing vessel in Chaozhou",
+  "title_es": "Guardia Costera china halla 1.450 caballitos de mar en pesquero de Chaozhou",
+  "card_text_pt": "Fiscalização de um pesqueiro em Chaozhou encontrou 1.450 cavalos-marinhos; dois suspeitos passaram a ser investigados por aquisição e transporte ilegais. Dia exato não divulgado.",
+  "card_text_en": "After an operational tip-off, Chaozhou Coast Guard recovered 1,450 seahorses from the accommodation compartment of a fishing vessel; two persons faced investigation for suspected illegal purchase and carriage of protected wildlife.",
+  "card_text_es": "Tras una alerta operativa, la Guardia Costera de Chaozhou recuperó 1.450 caballitos de mar en el camarote de un pesquero; dos personas quedaron investigadas por presunta compra y transporte ilegales de fauna protegida.",
+  "context_pt": "[O] A Guarda Costeira de Chaozhou localizou 1.450 cavalos-marinhos no alojamento de um pesqueiro após alerta operacional; duas pessoas foram formalmente investigadas por suspeita de aquisição e transporte ilegais de fauna protegida. O relato publicado em 01/11 diz “recentemente”, sem fixar a data da interceptação ou a posição no mar. Não há portos de partida e destino comprovados, nem identificação de espécie individual.\n\n[S] Pesquisa sobre comércio ilegal de fauna marinha no sul da China mostra que mudanças regulatórias podem alterar padrões detectados de comércio. A origem biológica de cada cavalo-marinho não pode ser presumida a partir de sua presença no barco.\n\n[N] Reportagem sobre uso de imagens de raios X para detecção de fauna marinha destaca oportunidades de fiscalização; nesta ocorrência, porém, a fonte descreve inspeção da embarcação, não uso dessa tecnologia.",
+  "context_en": "[O] After an operational tip-off, Chaozhou Coast Guard recovered 1,450 seahorses from the accommodation compartment of a fishing vessel; two persons faced investigation for suspected illegal purchase and carriage of protected wildlife. The 1 November report says “recently” without an exact seizure date or offshore position. No verified departure or destination port or species-level identification is given.\n\n[S] Research on illegal marine-wildlife trade in southern China shows that policy changes can reshape detected trade patterns. Biological source areas cannot be inferred from specimens found aboard a vessel.\n\n[N] Reporting on X-ray detection of marine wildlife highlights enforcement opportunities, but this operation reports a vessel search rather than use of that technology.",
+  "context_es": "[O] Tras una alerta operativa, la Guardia Costera de Chaozhou recuperó 1.450 caballitos de mar en el camarote de un pesquero; dos personas quedaron investigadas por presunta compra y transporte ilegales de fauna protegida. La nota del 1 de noviembre indica «recientemente», sin precisar día de incautación ni posición marítima. No se acreditan puertos de origen o destino ni especies concretas.\n\n[S] Un estudio del comercio ilegal de fauna marina en el sur de China muestra que cambios normativos pueden modificar los patrones detectados. El origen biológico no se deduce de la presencia de ejemplares a bordo.\n\n[N] Una investigación periodística sobre rayos X para detectar fauna marina destaca oportunidades de fiscalización, aunque esta operación documenta un registro del barco, no el uso de esa tecnología.",
+  "references_text_pt": "[O] https://news.dayoo.com/guangdong/202611/01/139996_55019253.htm\n[S] https://doi.org/10.1016/j.gecco.2025.e03622\n[N] https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/",
+  "references_text_en": "[O] https://news.dayoo.com/guangdong/202611/01/139996_55019253.htm\n[S] https://doi.org/10.1016/j.gecco.2025.e03622\n[N] https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/",
+  "references_text_es": "[O] https://news.dayoo.com/guangdong/202611/01/139996_55019253.htm\n[S] https://doi.org/10.1016/j.gecco.2025.e03622\n[N] https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "observed",
+      "label": "[O] https://news.dayoo.com/guangdong/202611/01/139996_55019253.htm",
+      "url": "https://news.dayoo.com/guangdong/202611/01/139996_55019253.htm"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "[S] https://doi.org/10.1016/j.gecco.2025.e03622",
+      "url": "https://doi.org/10.1016/j.gecco.2025.e03622"
+    },
+    {
+      "id": "N",
+      "type": "news",
+      "label": "[N] https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/",
+      "url": "https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "fauna_label_pt": "1450 — Peixes",
+  "fauna_label_en": "1450 — Fish",
+  "fauna_label_es": "1450 — Peces",
+  "taxon_text": "Cavalos-marinhos, Hippocampus spp. (identificação a nível de gênero)",
+  "modal_primary": "Marítimo",
+  "modal_label_pt": "Marítimo",
+  "modal_label_en": "Maritime",
+  "modal_label_es": "Marítimo",
+  "quantity_count": 1450,
+  "quantity_kind": "wildlife_specimens",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Peixes": 1450
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Data da ocorrência não confirmada; publicação 01/11. 1.450 espécimes, estado vivo/seco não especificado. Geocodificação urbana não representa posição da embarcação.",
+  "quantity_note_en": "After an operational tip-off, Chaozhou Coast Guard recovered 1,450 seahorses from the accommodation compartment of a fishing vessel; two persons faced investigation for suspected illegal purchase and carriage of protected wildlife.",
+  "quantity_note_es": "Tras una alerta operativa, la Guardia Costera de Chaozhou recuperó 1.450 caballitos de mar en el camarote de un pesquero; dos personas quedaron investigadas por presunta compra y transporte ilegales de fauna protegida.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Somente deslocamento embarcado constatado. Sem portos ou trajetos identificados; NÃO desenhar rota.",
+  "route_audit_note_en": "No mappable documented route; see PT audit note.",
+  "route_audit_note_es": "Sin ruta cartografiable documentada; ver nota PT.",
+  "source_reconciliation_status": "TG-H-SOURCE-CITED-REVIEWED",
+  "case_context_status": "PT_EN_ES_PREPARED_FROM_TGH_SHEET",
+  "translation_status": "PT_EN_ES_PREPARED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-01_06-SHELL-20261106",
+  "qa_notes_pt": "1.450 cavalos-marinhos em barco na área de Chaozhou; data do fato não explicitada e posição náutica indeterminada. Não presumir espécimes secos ou vivos. | Auditoria: APTO COM RESSALVAS",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED"
+}

@@ -2,12 +2,12 @@
   "store_schema": 1,
   "source_file": "cases.json",
   "source_sha256": "a55bb9b4069ee6071a859cc47f4ee410a4c8325eac53ba5937b24af433f1d349",
-  "record_count": 1559,
+  "record_count": 1580,
   "top_level": "object",
   "records_key": "cases",
   "passthrough": {
     "schema_version": "1.2",
-    "migration_status": "LIVE_GITHUB_DATA_383_CASES",
+    "migration_status": "LIVE_GITHUB_DATA_1559_CASES",
     "source_site": {
       "name": "Observatório Global de Tráfico de Animais",
       "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -17,7 +17,7 @@
     },
     "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
     "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-    "count": 383,
+    "count": 1580,
     "reconstructed_at": "2026-09-22T08:12:00Z",
     "reconstruction_batches": [
       {
@@ -538,7 +538,7 @@
         "added_at": "2026-10-10T11:32:58Z"
       }
     ],
-    "updated_at": "2026-10-10T11:32:58Z"
+    "updated_at": "2026-11-06T23:38:52Z"
   },
   "files": [
     "2026/09/2026-09-13__malkangiri-odisha.json",
@@ -2099,7 +2099,28 @@
     "2026/11/tgh-ams-2026-11-01-05-08.json",
     "2026/11/tgh-ams-2026-11-01-05-10.json",
     "2026/11/tgh-ams-2026-11-01-05-11.json",
-    "2026/11/tgh-ams-2026-11-01-05-15.json"
+    "2026/11/tgh-ams-2026-11-01-05-15.json",
+    "2026/11/tgh-naca-2026-11-06-na01-ixtapaluca.json",
+    "2026/11/tgh-naca-2026-11-06-na02-st-helens.json",
+    "2026/11/tgh-naca-2026-11-06-na03-grayson.json",
+    "2026/10/tgh-naca-2026-11-06-na06-hamilton.json",
+    "2026/11/tgh-naca-2026-11-06-na07-rimouski.json",
+    "2026/11/tgh-africa-2026-11-04-rustenburg-two-pangolins.json",
+    "2026/10/tgh-africa-2026-10-29-ridgeways-rhino-horn.json",
+    "2026/11/tgh-africa-2026-11-kitui-ivory-warthog-tooth.json",
+    "2026/10/tgh-africa-2026-10-31-komani-two-rhinos.json",
+    "2026/11/tgh-africa-2026-11-thula-thula-ntombi-jabulani.json",
+    "2026/11/tgh-africa-2026-11-gedo-fafi-giraffe.json",
+    "2026/11/tgh-asia-20261104-hk-five-us-turtles.json",
+    "2026/11/tgh-asia-20261103-thailand-473-mud-turtles.json",
+    "2026/11/tgh-asia-20261105-dhaka-114-exotic-animals.json",
+    "2026/11/tgh-asia-202611-chaozhou-1450-seahorses.json",
+    "2026/11/tgh-asia-20261106-bijapur-pangolin-scales-leopard-skin.json",
+    "2026/10/tgh-asia-20261031-lethuy-pangolin-transport.json",
+    "2026/11/tgh-asia-20261105-kuibyshev-two-roe-deer.json",
+    "2026/11/tgh-asia-20261102-parepare-18-hanging-parrots.json",
+    "2026/11/tgh-oceania-20261105-hobart-fish-trafficking.json",
+    "2026/11/tgh-oceania-202606-quallilup-66-black-bream.json"
   ],
-  "compiled_sha256": "6641ad42975e5b724717c70f8feb4eea7379a08854687c02d806d48aaba7fdd1"
+  "compiled_sha256": "c4589b5ef894d58ac612e3c47fc3fc3fcf938335f49ead7e8f338f2a5450dfc6"
 }
