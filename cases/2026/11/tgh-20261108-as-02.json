@@ -1,0 +1,91 @@
+{
+  "id": "tgh-20261108-as-02",
+  "tgh_id": "AS-02",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Hong Kong (China)",
+  "event_date": "2026-11-07",
+  "publication_date": "2026-11-08",
+  "event_date_precision": "day",
+  "location_label_pt": "Hong Kong, Hong Kong (China)",
+  "location_label_en": "Hong Kong, Hong Kong (China)",
+  "location_label_es": "Hong Kong, Hong Kong (China)",
+  "coordinates": {
+    "lat": 22.308047,
+    "lon": 113.918481
+  },
+  "coordinate_precision": "airport_reference",
+  "geographic_note_pt": "Aeroporto Internacional de Hong Kong; referência do complexo, não o local exato da inspeção",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Aeroporto Internacional de Hong Kong; referência do complexo, não o local exato da inspeção",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Aeroporto Internacional de Hong Kong; referência do complexo, não o local exato da inspeção",
+  "georeference_source": "https://www.findlatitudeandlongitude.com/l/Hong%2BKong%2BInternational%2BAirport%2B%2528HKG%2529%252C%2B1%2BSky%2BPlaza%2BRd%252C%2BChek%2BLap%2BKok%252C%2BHong%2BKong/5021782/gps-coordinates-converter/",
+  "source_label": "Hong Kong Customs / AFCD",
+  "source_url": "https://www.info.gov.hk/gia/general/202611/08/P2026110800504.htm",
+  "source_alternative_url": null,
+  "title_pt": "Hong Kong apreende 31 kg de barbatanas de tubarão em bagagem aérea",
+  "title_en": "Hong Kong seizes 31 kg of shark fins in passenger baggage",
+  "title_es": "Hong Kong incauta 31 kg de aletas de tiburón en equipaje",
+  "card_text_pt": "A alfândega encontrou em 7 de novembro cerca de 31 kg de barbatanas secas na bagagem de passageira que chegou do Brasil via Etiópia; houve detenção.",
+  "card_text_en": "On 7 November, Customs found approximately 31 kg of dried shark fins in the baggage of a passenger arriving from Brazil via Ethiopia; she was arrested.",
+  "card_text_es": "El 7 de noviembre, Aduanas encontró unos 31 kg de aletas secas en el equipaje de una pasajera llegada de Brasil vía Etiopía; fue detenida.",
+  "context_pt": "[O] O uso de bagagem despachada por passageira, e não de carga comercial declarada, indica transporte pessoal de produto de fauna através de dois aeroportos internacionais; Brasil → Etiópia → Hong Kong é o itinerário informado da viajante, não a origem de captura dos tubarões. [S] Estudos forenses de barbatanas mostram que secagem e processamento podem eliminar características diagnósticas, tornando a identificação molecular relevante para atribuir espécies e avaliar controle CITES. [T] A autoridade de Hong Kong aplicou o regime de importação para espécimes do Apêndice II, que exige documentação pertinente. Permanecem desconhecidos espécie, local de pesca, fornecedor e eventual rede de distribuição.",
+  "context_en": "[O] Checked passenger baggage rather than declared commercial cargo points to personal carriage of a wildlife derivative through international airports. Brazil → Ethiopia → Hong Kong is the traveller’s reported itinerary, not the sharks’ capture origin. [S] Forensic research shows that dried or processed fins can lose diagnostic features, so molecular identification may be needed to confirm species and assess CITES controls. [T] Hong Kong authorities pursued the Appendix II import-control framework, for which relevant permits must be examined. Species, fishing grounds, supplier and any onward distribution network remain undocumented.",
+  "context_es": "[O] El uso de equipaje facturado, en lugar de carga comercial declarada, evidencia transporte personal de un derivado de fauna mediante aeropuertos internacionales. Brasil → Etiopía → Hong Kong es el itinerario informado de la pasajera, no el origen de captura de los tiburones. [S] Investigaciones forenses indican que el secado y procesamiento de aletas pueden eliminar caracteres diagnósticos, por lo que la identificación molecular puede ser necesaria para determinar especies y controles CITES. [T] La autoridad de Hong Kong aplicó el régimen de importación del Apéndice II y debe verificar los permisos pertinentes. Se desconocen especies, zonas de pesca, proveedores y distribución posterior.",
+  "references_text_pt": "[O] Hong Kong Customs; AFCD — https://www.info.gov.hk/gia/general/202611/08/P2026110800504.htm\n[O2] Complementary reporting — https://www.info.gov.hk/gia/general/202611/08/P2026110800503.htm\n[S] Cardeñosa & Robles (2023), Pre-export shark fin processing to conceal CITES-listed species — https://doi.org/10.1111/acv.12864\n[T] Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586) — https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html",
+  "references_text_en": "[O] Hong Kong Customs; AFCD — https://www.info.gov.hk/gia/general/202611/08/P2026110800504.htm\n[O2] Complementary reporting — https://www.info.gov.hk/gia/general/202611/08/P2026110800503.htm\n[S] Cardeñosa & Robles (2023), Pre-export shark fin processing to conceal CITES-listed species — https://doi.org/10.1111/acv.12864\n[T] Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586) — https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html",
+  "references_text_es": "[O] Hong Kong Customs; AFCD — https://www.info.gov.hk/gia/general/202611/08/P2026110800504.htm\n[O2] Complementary reporting — https://www.info.gov.hk/gia/general/202611/08/P2026110800503.htm\n[S] Cardeñosa & Robles (2023), Pre-export shark fin processing to conceal CITES-listed species — https://doi.org/10.1111/acv.12864\n[T] Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586) — https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Hong Kong Customs; AFCD",
+      "url": "https://www.info.gov.hk/gia/general/202611/08/P2026110800504.htm"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Complementary reporting",
+      "url": "https://www.info.gov.hk/gia/general/202611/08/P2026110800503.htm"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Cardeñosa & Robles (2023), Pre-export shark fin processing to conceal CITES-listed species",
+      "url": "https://doi.org/10.1111/acv.12864"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586)",
+      "url": "https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "fauna_label_pt": "31 kg de barbatanas secas suspeitas de espécies CITES",
+  "fauna_label_en": "31 kg de barbatanas secas suspeitas de espécies CITES",
+  "fauna_label_es": "31 kg de barbatanas secas suspeitas de espécies CITES",
+  "taxon_text": "Elasmobranchii (barbatanas de tubarão, espécie não confirmada)",
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "quantity_count": null,
+  "quantity_kind": "unknown",
+  "quantity_qualifier": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "31 kg de barbatanas secas; peso não convertido em número de tubarões ou itens individuais.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "DOCUMENTED_PASSENGER_ITINERARY_COUNTRIES_AND_AIRPORT",
+  "route_audit_note_pt": "Brasil → Etiópia → Hong Kong é itinerário da passageira; NÃO prova captura de tubarões no Brasil nem aeroporto exato na Etiópia.",
+  "route_audit_note_en": "Brazil via Ethiopia to Hong Kong is the passenger itinerary; it does NOT establish that the sharks were caught in Brazil or identify an airport in Ethiopia.",
+  "route_audit_note_es": "Brasil via Etiopía hasta Hong Kong es el itinerario de la pasajera; NO demuestra que los tiburones fueran capturados en Brasil ni identifica un aeropuerto en Etiopía.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "Brasil → Etiópia → Hong Kong é itinerário da passageira; NÃO prova captura de tubarões no Brasil nem aeroporto exato na Etiópia.",
+  "record_is_part_of_20261106_08_window": true
+}

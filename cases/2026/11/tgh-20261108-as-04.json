@@ -1,0 +1,87 @@
+{
+  "id": "tgh-20261108-as-04",
+  "tgh_id": "AS-04",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "event_date_precision": "day",
+  "location_label_pt": "Chennur, Índia",
+  "location_label_en": "Chennur, Índia",
+  "location_label_es": "Chennur, Índia",
+  "coordinates": {
+    "lat": 18.8555,
+    "lon": 79.7905
+  },
+  "coordinate_precision": "town_generalized",
+  "geographic_note_pt": "Centro urbano de Chennur, Mancherial; ponto exato da caça na margem do Godavari não identificado",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Centro urbano de Chennur, Mancherial; ponto exato da caça na margem do Godavari não identificado",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Centro urbano de Chennur, Mancherial; ponto exato da caça na margem do Godavari não identificado",
+  "georeference_source": "https://mapcarta.com/37708244",
+  "source_label": "Telangana Forest Department / Telangana Today",
+  "source_url": "https://telanganatoday.com/five-booked-for-allegedly-hunting-wild-boars-in-mancherial",
+  "source_alternative_url": null,
+  "title_pt": "Cinco investigados por caça ilegal após apreensão de dois javalis vivos",
+  "title_en": "Five booked for alleged illegal hunting after two wild boars recovered",
+  "title_es": "Investigan a cinco personas por caza ilegal tras rescatar dos jabalíes",
+  "card_text_pt": "Fiscais florestais de Chennur, distrito de Mancherial, recuperaram dois javalis vivos e apreenderam instrumentos de caça; cinco pessoas foram autuadas.",
+  "card_text_en": "Forest officers in Chennur, Mancherial district, recovered two live wild boars and seized hunting equipment; five people were booked.",
+  "card_text_es": "Agentes forestales de Chennur, distrito de Mancherial, recuperaron dos jabalíes vivos e incautaron instrumentos de caza; cinco personas fueron denunciadas.",
+  "context_pt": "[O] A recuperação de dois javalis vivos e o recolhimento de instrumentos de caça indicam tentativa de captura em ambiente natural; não há prova de abate ou entrega comercial destes dois indivíduos. [S] Estudos sobre perícia em crimes contra fauna destacam a importância de preservar vestígios e separar identificação das espécies, circunstâncias de captura e vínculos com suspeitos. [T] A Wild Life (Protection) Act da Índia fornece o enquadramento jurídico para apurar a caça e seus instrumentos; a espécie e as eventuais autorizações precisam ser verificadas no processo.",
+  "context_en": "[O] Two live wild boars were recovered alongside hunting implements, supporting an attempted capture rather than a proven sale or delivery of the two animals. [S] Wildlife-forensics research emphasizes preserving material evidence and distinguishing species identification, capture circumstances and suspect attribution. [T] India’s Wild Life (Protection) Act provides the legal framework for investigating hunting and equipment; species-level status and applicable authorizations require case-specific review.",
+  "context_es": "[O] La recuperación de dos jabalíes vivos y herramientas de caza indica un intento de captura, no la venta o entrega comprobada de estos animales. [S] La investigación forense de fauna destaca la preservación de indicios y la distinción entre identificación de especies, circunstancias de captura y atribución a sospechosos. [T] La Ley de Protección de la Vida Silvestre de la India regula la investigación de la caza y sus medios; deben verificarse la categoría taxonómica y las autorizaciones aplicables.",
+  "references_text_pt": "[O] Agentes florestais do distrito de Mancherial — https://telanganatoday.com/five-booked-for-allegedly-hunting-wild-boars-in-mancherial\n[S] Harper (2023), Poaching Forensics: Animal Victims in the Courtroom — https://doi.org/10.1146/annurev-animal-070722-084803\n[T] India Code — Wild Life (Protection) Act, 1972 — https://www.indiacode.nic.in/indiacode/handle/123456789/1726?col=123456789%2F1362&view_type=search",
+  "references_text_en": "[O] Agentes florestais do distrito de Mancherial — https://telanganatoday.com/five-booked-for-allegedly-hunting-wild-boars-in-mancherial\n[S] Harper (2023), Poaching Forensics: Animal Victims in the Courtroom — https://doi.org/10.1146/annurev-animal-070722-084803\n[T] India Code — Wild Life (Protection) Act, 1972 — https://www.indiacode.nic.in/indiacode/handle/123456789/1726?col=123456789%2F1362&view_type=search",
+  "references_text_es": "[O] Agentes florestais do distrito de Mancherial — https://telanganatoday.com/five-booked-for-allegedly-hunting-wild-boars-in-mancherial\n[S] Harper (2023), Poaching Forensics: Animal Victims in the Courtroom — https://doi.org/10.1146/annurev-animal-070722-084803\n[T] India Code — Wild Life (Protection) Act, 1972 — https://www.indiacode.nic.in/indiacode/handle/123456789/1726?col=123456789%2F1362&view_type=search",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Agentes florestais do distrito de Mancherial",
+      "url": "https://telanganatoday.com/five-booked-for-allegedly-hunting-wild-boars-in-mancherial"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Harper (2023), Poaching Forensics: Animal Victims in the Courtroom",
+      "url": "https://doi.org/10.1146/annurev-animal-070722-084803"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "India Code — Wild Life (Protection) Act, 1972",
+      "url": "https://www.indiacode.nic.in/indiacode/handle/123456789/1726?col=123456789%2F1362&view_type=search"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "fauna_label_pt": "2 javalis vivos apreendidos com armas, redes e 5 investigados",
+  "fauna_label_en": "2 javalis vivos apreendidos com armas, redes e 5 investigados",
+  "fauna_label_es": "2 javalis vivos apreendidos com armas, redes e 5 investigados",
+  "taxon_text": "Suidae, javalis silvestres (espécie não confirmada)",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 2,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Dois javalis vivos resgatados; instrumentos de caça não contabilizados.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não há envio especificado; não desenhar trajeto comercial",
+  "route_audit_note_en": "No specified shipment is documented; do not draw a trade route.",
+  "route_audit_note_es": "No se documentó ningún envío especifico; no representar una ruta comercial.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "A venda de carne é prática reportada, não uma entrega específica desses animais",
+  "record_is_part_of_20261106_08_window": true
+}

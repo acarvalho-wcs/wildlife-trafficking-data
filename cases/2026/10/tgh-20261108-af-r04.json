@@ -1,0 +1,93 @@
+{
+  "id": "tgh-20261108-af-r04",
+  "tgh_id": "AF-R04",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Zimbábue",
+  "event_date": "2026-10-27",
+  "publication_date": "2026-11-03",
+  "event_date_precision": "day",
+  "location_label_pt": "Harare, Zimbábue",
+  "location_label_en": "Harare, Zimbábue",
+  "location_label_es": "Harare, Zimbábue",
+  "coordinates": {
+    "lat": -17.8315,
+    "lon": 31.0526
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Referência ao edifício Eastgate Centre, NÃO a entrada exata",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Referência ao edifício Eastgate Centre, NÃO a entrada exata",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Referência ao edifício Eastgate Centre, NÃO a entrada exata",
+  "georeference_source": "https://mapcarta.com/W136596487",
+  "source_label": "The Herald / relato de processo judicial de Harare",
+  "source_url": "https://www.heraldonline.co.zw/muzarabani-village-head-jailed-for-9-years-over-unlawful-possession-of-pangolin-scales/",
+  "source_alternative_url": null,
+  "title_pt": "Operação encoberta apreende 29 escamas de pangolim em Harare",
+  "title_en": "Undercover operation seizes 29 pangolin scales in Harare",
+  "title_es": "Operativo encubierto incauta 29 escamas de pangolín en Harare",
+  "card_text_pt": "Investigadores apreenderam 29 escamas de pangolim durante um encontro de venda combinado no Eastgate Mall, em Harare, em 27 de outubro; houve condenação posterior.",
+  "card_text_en": "Detectives seized 29 pangolin scales at an arranged sale meeting at Eastgate Mall, Harare, on 27 October; a conviction followed.",
+  "card_text_es": "Detectives incautaron 29 escamas de pangolín en una cita de venta en Eastgate Mall, Harare, el 27 de octubre; posteriormente hubo condena.",
+  "context_pt": "[O] A negociação com agente disfarçado situa o Eastgate Mall como ponto de encontro de venda de escamas; não demonstra que a mercadoria tenha sido obtida em Harare. A condenação posterior é desdobramento judicial do mesmo episódio, não nova apreensão. [S] Métodos validados de DNA em escamas podem testar a identificação específica de material já separado do animal, mas sem exame do lote não revelam o local de caça. [T] Pangolins integram o Apêndice I da CITES; para compreender a cadeia interna ainda são necessários origem do produto, contatos do fornecedor e eventual transporte anterior. Nenhuma rota está documentada.",
+  "context_en": "[O] An undercover purchase arrangement places Eastgate Mall as the attempted sales rendezvous, not as evidence the scales were sourced in Harare. The subsequent conviction is a judicial development of the same seizure, not a new event. [S] Validated DNA methods can determine species from detached pangolin scales, but without testing this lot they cannot establish capture provenance. [T] Pangolins are CITES Appendix I species; tracing any domestic chain still requires supplier information, product origin and prior transport records. No route is documented.",
+  "context_es": "[O] La compra encubierta identifica Eastgate Mall como punto de encuentro para la venta, no como prueba de extracción de las escamas en Harare. La condena posterior es una actuación judicial del mismo caso y no otra incautación. [S] Métodos de ADN validados permiten identificar especies a partir de escamas separadas del animal, pero sin análisis de este lote no revelan el lugar de captura. [T] Los pangolines están en el Apéndice I de CITES; reconstruir una cadena interna exige proveedor, procedencia y movimientos anteriores. No hay ruta documentada.",
+  "references_text_pt": "[O] CID Minerals, Flora and Fauna Unit; confirmação pericial ZimParks — https://www.heraldonline.co.zw/muzarabani-village-head-jailed-for-9-years-over-unlawful-possession-of-pangolin-scales/\n[O2] Complementary reporting — https://zimadvocate.com/2026/11/05/zim-village-head-jailed-for-nine-years-over-pangolin-scales/\n[S] DNA analyses of large pangolin scale seizures: Species identification validation and case studies (2021) — https://doi.org/10.1016/j.fsiae.2021.100014\n[T] U.S. Fish and Wildlife Service, Pangolins: eight species in CITES Appendix I — https://www.fws.gov/international-affairs/pangolins",
+  "references_text_en": "[O] CID Minerals, Flora and Fauna Unit; confirmação pericial ZimParks — https://www.heraldonline.co.zw/muzarabani-village-head-jailed-for-9-years-over-unlawful-possession-of-pangolin-scales/\n[O2] Complementary reporting — https://zimadvocate.com/2026/11/05/zim-village-head-jailed-for-nine-years-over-pangolin-scales/\n[S] DNA analyses of large pangolin scale seizures: Species identification validation and case studies (2021) — https://doi.org/10.1016/j.fsiae.2021.100014\n[T] U.S. Fish and Wildlife Service, Pangolins: eight species in CITES Appendix I — https://www.fws.gov/international-affairs/pangolins",
+  "references_text_es": "[O] CID Minerals, Flora and Fauna Unit; confirmação pericial ZimParks — https://www.heraldonline.co.zw/muzarabani-village-head-jailed-for-9-years-over-unlawful-possession-of-pangolin-scales/\n[O2] Complementary reporting — https://zimadvocate.com/2026/11/05/zim-village-head-jailed-for-nine-years-over-pangolin-scales/\n[S] DNA analyses of large pangolin scale seizures: Species identification validation and case studies (2021) — https://doi.org/10.1016/j.fsiae.2021.100014\n[T] U.S. Fish and Wildlife Service, Pangolins: eight species in CITES Appendix I — https://www.fws.gov/international-affairs/pangolins",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "CID Minerals, Flora and Fauna Unit; confirmação pericial ZimParks",
+      "url": "https://www.heraldonline.co.zw/muzarabani-village-head-jailed-for-9-years-over-unlawful-possession-of-pangolin-scales/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Complementary reporting",
+      "url": "https://zimadvocate.com/2026/11/05/zim-village-head-jailed-for-nine-years-over-pangolin-scales/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "DNA analyses of large pangolin scale seizures: Species identification validation and case studies (2021)",
+      "url": "https://doi.org/10.1016/j.fsiae.2021.100014"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "U.S. Fish and Wildlife Service, Pangolins: eight species in CITES Appendix I",
+      "url": "https://www.fws.gov/international-affairs/pangolins"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "fauna_label_pt": "29 escamas de pangolim, em dois sacos plásticos",
+  "fauna_label_en": "29 escamas de pangolim, em dois sacos plásticos",
+  "fauna_label_es": "29 escamas de pangolim, em dois sacos plásticos",
+  "taxon_text": "Pholidota, espécie não confirmada",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 29,
+  "quantity_kind": "wildlife_items",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Mamíferos": 29
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "29 escamas de pangolim, não 29 animais.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não há deslocamento origem–destino documentado para escamas; Eastgate é ponto de apreensão",
+  "route_audit_note_en": "No origin-to-destination movement is documented for the scales; Eastgate is the seizure location.",
+  "route_audit_note_es": "No se documentó un desplazamiento de origen a destino de las escamas; Eastgate es el lugar de incautación.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "Obter boletim/certidão judicial para corroborar primariamente; espécie e origem das escamas não informadas",
+  "record_is_part_of_20261106_08_window": false
+}

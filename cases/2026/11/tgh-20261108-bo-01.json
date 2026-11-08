@@ -1,0 +1,93 @@
+{
+  "id": "tgh-20261108-bo-01",
+  "tgh_id": "BO-01",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Bolívia",
+  "event_date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "event_date_precision": "day",
+  "location_label_pt": "Santa Cruz de la Sierra, Bolívia",
+  "location_label_en": "Santa Cruz de la Sierra, Bolívia",
+  "location_label_es": "Santa Cruz de la Sierra, Bolívia",
+  "coordinates": {
+    "lat": -17.7834,
+    "lon": -63.1821
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Centro da cidade (referência; não é o ponto da feira)",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Centro da cidade (referência; não é o ponto da feira)",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Centro da cidade (referência; não é o ponto da feira)",
+  "georeference_source": "https://mapcarta.com/es/Santa_Cruz_de_la_Sierra",
+  "source_label": "Comando Departamental de Policía Santa Cruz, via Red Uno / La Patria",
+  "source_url": "https://lapatria.bo/actualidad/seguridad/rescate-fauna-silvestre-comercio-ilegal-santa-cruz/",
+  "source_alternative_url": null,
+  "title_pt": "FELCDA recupera 10 aves em feira de Santa Cruz, Bolívia",
+  "title_en": "Police recover 10 birds at a Santa Cruz market in Bolivia",
+  "title_es": "Policía rescata 10 aves en feria de Santa Cruz, Bolivia",
+  "card_text_pt": "A FELCDA recuperou 10 aves oferecidas para venda na Feria La Ramada Antigua: cinco cotorras, dois piyos e três loros tarechi; os responsáveis fugiram.",
+  "card_text_en": "Police recovered 10 birds offered for sale at La Ramada Antigua market: five cotorras, two piyos and three loros tarechi; the sellers fled.",
+  "card_text_es": "La FELCDA recuperó 10 aves ofrecidas en La Ramada Antigua: cinco cotorras pecho plomo, dos piyos y tres loros tarechi; los responsables huyeron.",
+  "context_pt": "[O] A oferta de aves vivas numa feira urbana indica um ponto varejista identificável da cadeia, mas a fuga dos vendedores e a ausência de dados sobre fornecedores impedem reconstruir captura, intermediários ou deslocamento. Os nomes populares usados pela imprensa não sustentam identificação específica. [S] Pesquisa sobre a caça de psitacídeos na Bolívia distingue extração local, circulação por intermediários e mercado final; essa tipologia ajuda a formular hipóteses, não comprova a origem destas aves. [T] A classificação de eventual espécie CITES requer identificação taxonômica e documentação; sem isso, não cabe atribuir Apêndice ou desenhar uma rota de abastecimento.",
+  "context_en": "[O] Live birds offered at an urban fair identify a retail interface in the chain, but the sellers’ escape and lack of supplier information prevent reconstruction of capture sites, intermediaries or movement. Newspaper vernacular names do not support species-level attribution. [S] Research on parrot poaching in Bolivia distinguishes local collection, itinerant intermediaries and end markets; this framework generates investigative hypotheses, not a proven source for these birds. [T] Any CITES determination depends on validated taxonomy and trade documentation. Neither an Appendix assignment nor a supply route can be inferred from this seizure alone.",
+  "context_es": "[O] La oferta de aves vivas en una feria urbana identifica un punto minorista, pero la fuga de los vendedores y la falta de datos sobre proveedores impiden reconstruir captura, intermediarios o desplazamientos. Los nombres comunes de la prensa no permiten identificar especies. [S] Estudios sobre extracción de loros en Bolivia distinguen captura local, intermediarios itinerantes y mercados finales; este marco orienta hipótesis, pero no demuestra el origen de estas aves. [T] Cualquier clasificación CITES requiere identificación taxonómica y documentación; no corresponde asignar Apéndice ni trazar una ruta de abastecimiento sin tales pruebas.",
+  "references_text_pt": "[O] FELCDA / Comando Departamental de Polícia de Santa Cruz — https://lapatria.bo/actualidad/seguridad/rescate-fauna-silvestre-comercio-ilegal-santa-cruz/\n[O2] Complementary reporting — https://www.reduno.com.bo/noticias/cotorras-piyos-y-loros-rescatan-10-aves-del-comercio-ilegal-en-santa-cruz-20261176401\n[S] Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia — https://doi.org/10.1093/bjc/azq074\n[T] CITES Secretariat, The CITES species and Appendices — https://cites.org/eng/disc/species.php",
+  "references_text_en": "[O] FELCDA / Comando Departamental de Polícia de Santa Cruz — https://lapatria.bo/actualidad/seguridad/rescate-fauna-silvestre-comercio-ilegal-santa-cruz/\n[O2] Complementary reporting — https://www.reduno.com.bo/noticias/cotorras-piyos-y-loros-rescatan-10-aves-del-comercio-ilegal-en-santa-cruz-20261176401\n[S] Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia — https://doi.org/10.1093/bjc/azq074\n[T] CITES Secretariat, The CITES species and Appendices — https://cites.org/eng/disc/species.php",
+  "references_text_es": "[O] FELCDA / Comando Departamental de Polícia de Santa Cruz — https://lapatria.bo/actualidad/seguridad/rescate-fauna-silvestre-comercio-ilegal-santa-cruz/\n[O2] Complementary reporting — https://www.reduno.com.bo/noticias/cotorras-piyos-y-loros-rescatan-10-aves-del-comercio-ilegal-en-santa-cruz-20261176401\n[S] Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia — https://doi.org/10.1093/bjc/azq074\n[T] CITES Secretariat, The CITES species and Appendices — https://cites.org/eng/disc/species.php",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "FELCDA / Comando Departamental de Polícia de Santa Cruz",
+      "url": "https://lapatria.bo/actualidad/seguridad/rescate-fauna-silvestre-comercio-ilegal-santa-cruz/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Complementary reporting",
+      "url": "https://www.reduno.com.bo/noticias/cotorras-piyos-y-loros-rescatan-10-aves-del-comercio-ilegal-en-santa-cruz-20261176401"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia",
+      "url": "https://doi.org/10.1093/bjc/azq074"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "CITES Secretariat, The CITES species and Appendices",
+      "url": "https://cites.org/eng/disc/species.php"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "5 cotorras pecho plomo; 2 piyos; 3 loros tarechi",
+  "fauna_label_en": "5 cotorras pecho plomo; 2 piyos; 3 loros tarechi",
+  "fauna_label_es": "5 cotorras pecho plomo; 2 piyos; 3 loros tarechi",
+  "taxon_text": "Aves; espécies não confirmadas (5 cotorras pecho plomo, 2 piyos, 3 loros tarechi)",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 10,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 10
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "10 aves vivas; nomes comuns não permitem confirmação específica.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhum deslocamento ou rota origem-destino documentado",
+  "route_audit_note_en": "No movement or origin-to-destination route is documented.",
+  "route_audit_note_es": "No se documentó un desplazamiento ni una ruta de origen a destino.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "Confirmar ficha policial original; classificação científica; coordenada específica da feira; dedup integral.",
+  "record_is_part_of_20261106_08_window": true
+}

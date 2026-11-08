@@ -1,0 +1,87 @@
+{
+  "id": "tgh-20261108-as-05",
+  "tgh_id": "AS-05",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Malásia",
+  "event_date": "2026-11-07",
+  "publication_date": "2026-11-08",
+  "event_date_precision": "day",
+  "location_label_pt": "Pasir Puteh / Selising, Malásia",
+  "location_label_en": "Pasir Puteh / Selising, Malásia",
+  "location_label_es": "Pasir Puteh / Selising, Malásia",
+  "coordinates": {
+    "lat": 5.86667,
+    "lon": 102.31667
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Centro da localidade Kampung Banggol Pak Esah; não é o galpão nem o imóvel da abordagem",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Centro da localidade Kampung Banggol Pak Esah; não é o galpão nem o imóvel da abordagem",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Centro da localidade Kampung Banggol Pak Esah; não é o galpão nem o imóvel da abordagem",
+  "georeference_source": "https://mapcarta.com/15887912",
+  "source_label": "Pasukan Gerakan Am (PGA), via Bernama",
+  "source_url": "https://bernama.com/radio/news.php?id=2631547",
+  "source_alternative_url": "https://web26.bernama.com/bm/jenayah_mahkamah/news.php?id=2631547",
+  "title_pt": "Autoridades da Malásia apreendem duas aves murai batu sem licença",
+  "title_en": "Malaysian police seize two unlicensed murai batu songbirds",
+  "title_es": "Policía de Malasia incauta dos aves murai batu sin autorización",
+  "card_text_pt": "A polícia apreendeu duas aves murai batu e duas gaiolas em um galpão de Kampung Banggol Pak Esah, Selising, em 7 de novembro; um homem foi detido.",
+  "card_text_en": "Police seized two murai batu songbirds and two cages in a shed at Kampung Banggol Pak Esah, Selising, on 7 November and detained a man.",
+  "card_text_es": "La Policía incautó dos aves murai batu y dos jaulas en un cobertizo de Kampung Banggol Pak Esah, Selising, el 7 de noviembre; un hombre fue detenido.",
+  "context_pt": "[O] A apreensão em um galpão de Kampung Banggol Pak Esah demonstra posse de duas aves sem autorização, não uma venda flagrada. A aquisição de um conhecido em Gua Musang em 2019 é versão do suspeito e não comprova rota atual. [S] Estudos de comércio de aves de gaiola na Malásia auxiliam na identificação de riscos de abastecimento, sem vincular uma rede específica a esta ocorrência. [T] O regime malaio de licenciamento exige verificar autorização e identificação taxonômica; a reportagem não fornece procedência biológica comprovada.",
+  "context_en": "[O] Two unlicensed birds seized from a shed in Kampung Banggol Pak Esah establish unlawful possession, not a witnessed sale. The suspect reportedly claimed acquisition from a friend in Gua Musang in 2019; this is not a verified current trafficking route. [S] Research on cage-bird trade in Malaysia informs possible supply risks but does not link any specific network to this incident. [T] Wildlife licensing requirements call for verification of permits and species identity; biological provenance has not been established.",
+  "context_es": "[O] La incautación de dos aves sin autorización en un cobertizo de Kampung Banggol Pak Esah acredita tenencia irregular, no una venta observada. La supuesta compra a un conocido en Gua Musang en 2019 es versión del sospechoso y no prueba una ruta actual. [S] Los estudios del comercio de aves de jaula en Malasia aportan contexto de riesgo, sin vincular redes concretas con este incidente. [T] Las normas de licencias requieren verificar permisos e identidad taxonómica; no se acreditó la procedencia biológica.",
+  "references_text_pt": "[O] Pasukan Gerakan Am (PGA); Perhilitan Kelantan — https://bernama.com/radio/news.php?id=2631547\n[S] Malaysian Bird Report (2024), Caged birds and regional trade surveillance — https://malaysianbird.report/wp-content/uploads/11-Caged-Birds-Malaysian-Bird-Report-Sept-2024-Final-02Oct2024.pdf\n[T] Malaysia PERHILITAN, Protected wildlife licensing under Act 716 — https://www.wildlife.gov.my/en/pelesenan/",
+  "references_text_en": "[O] Pasukan Gerakan Am (PGA); Perhilitan Kelantan — https://bernama.com/radio/news.php?id=2631547\n[S] Malaysian Bird Report (2024), Caged birds and regional trade surveillance — https://malaysianbird.report/wp-content/uploads/11-Caged-Birds-Malaysian-Bird-Report-Sept-2024-Final-02Oct2024.pdf\n[T] Malaysia PERHILITAN, Protected wildlife licensing under Act 716 — https://www.wildlife.gov.my/en/pelesenan/",
+  "references_text_es": "[O] Pasukan Gerakan Am (PGA); Perhilitan Kelantan — https://bernama.com/radio/news.php?id=2631547\n[S] Malaysian Bird Report (2024), Caged birds and regional trade surveillance — https://malaysianbird.report/wp-content/uploads/11-Caged-Birds-Malaysian-Bird-Report-Sept-2024-Final-02Oct2024.pdf\n[T] Malaysia PERHILITAN, Protected wildlife licensing under Act 716 — https://www.wildlife.gov.my/en/pelesenan/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Pasukan Gerakan Am (PGA); Perhilitan Kelantan",
+      "url": "https://bernama.com/radio/news.php?id=2631547"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Malaysian Bird Report (2024), Caged birds and regional trade surveillance",
+      "url": "https://malaysianbird.report/wp-content/uploads/11-Caged-Birds-Malaysian-Bird-Report-Sept-2024-Final-02Oct2024.pdf"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "Malaysia PERHILITAN, Protected wildlife licensing under Act 716",
+      "url": "https://www.wildlife.gov.my/en/pelesenan/"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "2 murai batu (aves de canto), em gaiolas",
+  "fauna_label_en": "2 murai batu (aves de canto), em gaiolas",
+  "fauna_label_es": "2 murai batu (aves de canto), em gaiolas",
+  "taxon_text": "Aves (murai batu; espécie não confirmada)",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 2,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Duas aves murai batu, sem prova de venda atual das aves.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Fonte principal Bernama (32 anos, 17h45, galpão); notícia RTM no mesmo povoado descreve suspeito de 48 anos às 16h50. NÃO amalgamar as operações.",
+  "route_audit_note_en": "The main Bernama report describes a 32-year-old suspect at 17:45 in a shed; an RTM report from the same village describes a 48-year-old suspect at 16:50. Do NOT merge the operations.",
+  "route_audit_note_es": "La nota principal de Bernama describe a un sospechoso de 32 años a las 17:45 en un galpón; otra nota de RTM, en la misma aldea, describe a uno de 48 años a las 16:50. NO fusionar las operaciones.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "Fonte principal Bernama (32 anos, 17h45, galpão); notícia RTM no mesmo povoado descreve suspeito de 48 anos às 16h50. NÃO amalgamar as operações.",
+  "record_is_part_of_20261106_08_window": true
+}

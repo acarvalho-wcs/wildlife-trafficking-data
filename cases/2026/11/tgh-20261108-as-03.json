@@ -1,0 +1,93 @@
+{
+  "id": "tgh-20261108-as-03",
+  "tgh_id": "AS-03",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Bangladesh",
+  "event_date": "2026-11-06",
+  "publication_date": "2026-11-06",
+  "event_date_precision": "day",
+  "location_label_pt": "Dhelapir Hat (próximo a Saidpur), Bangladesh",
+  "location_label_en": "Dhelapir Hat (próximo a Saidpur), Bangladesh",
+  "location_label_es": "Dhelapir Hat (próximo a Saidpur), Bangladesh",
+  "coordinates": {
+    "lat": 25.7798,
+    "lon": 88.8952
+  },
+  "coordinate_precision": "nearby_city_reference",
+  "geographic_note_pt": "Centro de Saidpur, referência urbana próxima a Dhelapir Hat; NÃO corresponde à feira, que fica na área de Nilphamari Sadar",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Centro de Saidpur, referência urbana próxima a Dhelapir Hat; NÃO corresponde à feira, que fica na área de Nilphamari Sadar",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Centro de Saidpur, referência urbana próxima a Dhelapir Hat; NÃO corresponde à feira, que fica na área de Nilphamari Sadar",
+  "georeference_source": "https://mapcarta.com/Saidpur",
+  "source_label": "Wildlife Conservation Division / Daily Inqilab",
+  "source_url": "https://dailyinqilab.com/bangladesh/news/959588",
+  "source_alternative_url": null,
+  "title_pt": "Fiscalização recupera 22 aves mantidas em gaiolas no mercado de Dhelapir",
+  "title_en": "Wildlife officers recover 22 caged birds at Dhelapir market",
+  "title_es": "Recuperan 22 aves enjauladas en el mercado de Dhelapir",
+  "card_text_pt": "Agentes de conservação recuperaram 22 aves de diferentes grupos no mercado de Dhelapir Hat, em Nilphamari, Bangladesh; os animais foram soltos.",
+  "card_text_en": "Conservation officers recovered 22 birds of several types from cages at Dhelapir Hat market in Nilphamari, Bangladesh; the birds were released.",
+  "card_text_es": "Agentes de conservación rescataron 22 aves de varios grupos en jaulas del mercado Dhelapir Hat, en Nilphamari, Bangladesh; fueron liberadas.",
+  "context_pt": "[O] Gaiolas num mercado presencial revelam a etapa de exposição para venda de aves de grupos distintos; não há evidência sobre locais de captura, fornecedores ou se houve transações consumadas. A soltura posterior não constitui uma segunda ocorrência. [S] Levantamentos sistemáticos em mercados de Bangladesh registram mistura de táxons e variação sazonal da oferta, mostrando por que nomes populares e observações isoladas não bastam para reconstruir uma cadeia. [T] O enquadramento legal por espécie deve ser conferido com identificação taxonômica e listagens aplicáveis; não se pode presumir controle CITES para todas as 22 aves. A feira é um nó de oferta, não rota.",
+  "context_en": "[O] Cages at a physical market identify an offer-for-sale stage involving several bird groups; capture locations, suppliers and completed transactions are not documented. Their subsequent release is a disposition of the same seizure, not another event. [S] Systematic surveys of Bangladeshi wildlife markets describe mixed taxa and seasonal turnover, showing why vernacular labels and one-time observations cannot reconstruct a supply chain. [T] Species-level legal status should be checked against validated identification and relevant schedules; CITES coverage cannot be assumed for all 22 birds. The market is a retail location, not a route.",
+  "context_es": "[O] Las jaulas en un mercado presencial identifican una fase de oferta de distintos grupos de aves; no constan lugares de captura, proveedores ni transacciones consumadas. La liberación posterior es destino de los mismos ejemplares, no otro evento. [S] Estudios sistemáticos de mercados de Bangladesh describen mezcla de taxones y variación estacional, por lo que los nombres comunes y una observación puntual no reconstruyen la cadena. [T] La situación jurídica de cada especie requiere identificación y consulta de listados aplicables; no se puede presumir cobertura CITES para las 22 aves. El mercado es punto de oferta, no ruta.",
+  "references_text_pt": "[O] Departamento de conservação da vida silvestre (região Rajshahi) — https://dailyinqilab.com/bangladesh/news/959588\n[O2] Complementary reporting — https://samajkal.com/article/dhelapeerhate-22ti-pakhi-uddhar-obmukt\n[S] Exploring market-based wildlife trade dynamics in Bangladesh (Oryx) — https://www.cambridge.org/core/journals/oryx/article/exploring-marketbased-wildlife-trade-dynamics-in-bangladesh/BAC69D8D60E9FEE692914235C467B4B9\n[T] CITES, Checklist of species: verify taxon and Appendix before assigning status — https://checklist.cites.org/",
+  "references_text_en": "[O] Departamento de conservação da vida silvestre (região Rajshahi) — https://dailyinqilab.com/bangladesh/news/959588\n[O2] Complementary reporting — https://samajkal.com/article/dhelapeerhate-22ti-pakhi-uddhar-obmukt\n[S] Exploring market-based wildlife trade dynamics in Bangladesh (Oryx) — https://www.cambridge.org/core/journals/oryx/article/exploring-marketbased-wildlife-trade-dynamics-in-bangladesh/BAC69D8D60E9FEE692914235C467B4B9\n[T] CITES, Checklist of species: verify taxon and Appendix before assigning status — https://checklist.cites.org/",
+  "references_text_es": "[O] Departamento de conservação da vida silvestre (região Rajshahi) — https://dailyinqilab.com/bangladesh/news/959588\n[O2] Complementary reporting — https://samajkal.com/article/dhelapeerhate-22ti-pakhi-uddhar-obmukt\n[S] Exploring market-based wildlife trade dynamics in Bangladesh (Oryx) — https://www.cambridge.org/core/journals/oryx/article/exploring-marketbased-wildlife-trade-dynamics-in-bangladesh/BAC69D8D60E9FEE692914235C467B4B9\n[T] CITES, Checklist of species: verify taxon and Appendix before assigning status — https://checklist.cites.org/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Departamento de conservação da vida silvestre (região Rajshahi)",
+      "url": "https://dailyinqilab.com/bangladesh/news/959588"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Complementary reporting",
+      "url": "https://samajkal.com/article/dhelapeerhate-22ti-pakhi-uddhar-obmukt"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Exploring market-based wildlife trade dynamics in Bangladesh (Oryx)",
+      "url": "https://www.cambridge.org/core/journals/oryx/article/exploring-marketbased-wildlife-trade-dynamics-in-bangladesh/BAC69D8D60E9FEE692914235C467B4B9"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "CITES, Checklist of species: verify taxon and Appendix before assigning status",
+      "url": "https://checklist.cites.org/"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "10 toya/parakeets, 5 patis sorali (patos), 6 tilaghughu (rolinhas), 1 kalim (ave aquática)",
+  "fauna_label_en": "10 toya/parakeets, 5 patis sorali (patos), 6 tilaghughu (rolinhas), 1 kalim (ave aquática)",
+  "fauna_label_es": "10 toya/parakeets, 5 patis sorali (patos), 6 tilaghughu (rolinhas), 1 kalim (ave aquática)",
+  "taxon_text": "Aves, espécies não verificadas por taxonomia científica",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 22,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 22
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "22 aves: dez periquitos/papagaios, cinco patos, seis rolinhas e uma ave aquática conforme imprensa local.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não documentada; somente ponto de comércio confirmado",
+  "route_audit_note_en": "No route is documented; only the trade location is confirmed.",
+  "route_audit_note_es": "No se documentó ningúna ruta; solo se confirmo el lugar de comercio.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "Nomes populares não equivalem a identificação científica; 4 gaiolas não são animais",
+  "record_is_part_of_20261106_08_window": true
+}

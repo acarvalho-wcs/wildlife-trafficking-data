@@ -1,0 +1,93 @@
+{
+  "id": "tgh-20261108-as-01",
+  "tgh_id": "AS-01",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Hong Kong (China)",
+  "event_date": "2026-11-07",
+  "publication_date": "2026-11-07",
+  "event_date_precision": "day",
+  "location_label_pt": "Hong Kong, Hong Kong (China)",
+  "location_label_en": "Hong Kong, Hong Kong (China)",
+  "location_label_es": "Hong Kong, Hong Kong (China)",
+  "coordinates": {
+    "lat": 22.308047,
+    "lon": 113.918481
+  },
+  "coordinate_precision": "airport_reference",
+  "geographic_note_pt": "Aeroporto Internacional de Hong Kong; referência do complexo, não a sala/depósito da inspeção",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Aeroporto Internacional de Hong Kong; referência do complexo, não a sala/depósito da inspeção",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Aeroporto Internacional de Hong Kong; referência do complexo, não a sala/depósito da inspeção",
+  "georeference_source": "https://www.findlatitudeandlongitude.com/l/Hong%2BKong%2BInternational%2BAirport%2B%2528HKG%2529%252C%2B1%2BSky%2BPlaza%2BRd%252C%2BChek%2BLap%2BKok%252C%2BHong%2BKong/5021782/gps-coordinates-converter/",
+  "source_label": "Hong Kong Customs / Governo de Hong Kong",
+  "source_url": "https://www.info.gov.hk/gia/general/202611/07/P2026110700514.htm",
+  "source_alternative_url": null,
+  "title_pt": "Alfândega de Hong Kong intercepta cinco tartarugas vivas em encomenda aérea",
+  "title_en": "Hong Kong Customs intercepts five live turtles in air parcel",
+  "title_es": "Aduanas de Hong Kong intercepta cinco tortugas vivas en paquete aéreo",
+  "card_text_pt": "A alfândega apreendeu em 7 de novembro cinco tartarugas vivas ocultas em encomenda enviada dos Estados Unidos e declarada como caixa de brinquedos.",
+  "card_text_en": "On 7 November, Customs found five live turtles concealed in a parcel sent from the United States and declared as a toy gift box.",
+  "card_text_es": "El 7 de noviembre, Aduanas halló cinco tortugas vivas ocultas en un paquete procedente de Estados Unidos y declarado como caja de juguetes.",
+  "context_pt": "[O] A remessa dos Estados Unidos declarada como caixa de modelos de brinquedo demonstra ocultação de répteis em fluxo de encomendas; a declaração documenta o país expedidor, não o local onde as tartarugas nasceram ou foram capturadas. É um episódio autônomo de 07/11, distinto da encomenda de 04/11. [S] Estudos de contrabando de répteis vivos relacionam a seleção das espécies ao mercado de animais de estimação, mas não identificam compradores ou demanda nesta remessa. [T] Em Hong Kong, a aferição de licença e Apêndice CITES depende de identificação da espécie e documentos da expedição. A rota publicável limita-se a EUA → Hong Kong.",
+  "context_en": "[O] A US parcel declared as a toy-model gift box demonstrates concealment of live reptiles in the parcel stream; the declared dispatch country does not establish where the turtles were bred or collected. This 7 November interception is separate from the 4 November parcel. [S] Studies of live reptile smuggling find links with exotic-pet market demand, but do not identify the buyer or motive behind this shipment. [T] Hong Kong licensing and CITES controls require species identification and consignment documents. The supportable route is United States → Hong Kong only, with no US collection locality or subsequent destination.",
+  "context_es": "[O] Un paquete de Estados Unidos declarado como caja de modelos de juguete demuestra ocultamiento de reptiles vivos en paquetería; el país de expedición no determina dónde nacieron o fueron capturadas las tortugas. La intervención del 7/11 es distinta de la del 4/11. [S] Estudios sobre contrabando de reptiles vivos relacionan especies comercializadas con la demanda de mascotas exóticas, pero no identifican al comprador ni el motivo de este envío. [T] Los controles de Hong Kong y CITES exigen identificar la especie y revisar los documentos. La ruta sustentada es Estados Unidos → Hong Kong, sin localidad de captura ni destino posterior.",
+  "references_text_pt": "[O] Hong Kong Customs; AFCD — https://www.info.gov.hk/gia/general/202611/07/P2026110700514.htm\n[O2] Complementary reporting — https://hkcd.com.hk/hkcdweb/content/2026/11/07/content_8784118.html\n[S] Stringham et al. (2021), Live reptile smuggling is predicted by trends in the legal exotic pet trade — https://doi.org/10.1111/conl.12833\n[T] Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586) — https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html",
+  "references_text_en": "[O] Hong Kong Customs; AFCD — https://www.info.gov.hk/gia/general/202611/07/P2026110700514.htm\n[O2] Complementary reporting — https://hkcd.com.hk/hkcdweb/content/2026/11/07/content_8784118.html\n[S] Stringham et al. (2021), Live reptile smuggling is predicted by trends in the legal exotic pet trade — https://doi.org/10.1111/conl.12833\n[T] Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586) — https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html",
+  "references_text_es": "[O] Hong Kong Customs; AFCD — https://www.info.gov.hk/gia/general/202611/07/P2026110700514.htm\n[O2] Complementary reporting — https://hkcd.com.hk/hkcdweb/content/2026/11/07/content_8784118.html\n[S] Stringham et al. (2021), Live reptile smuggling is predicted by trends in the legal exotic pet trade — https://doi.org/10.1111/conl.12833\n[T] Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586) — https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Hong Kong Customs; AFCD",
+      "url": "https://www.info.gov.hk/gia/general/202611/07/P2026110700514.htm"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Complementary reporting",
+      "url": "https://hkcd.com.hk/hkcdweb/content/2026/11/07/content_8784118.html"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Stringham et al. (2021), Live reptile smuggling is predicted by trends in the legal exotic pet trade",
+      "url": "https://doi.org/10.1111/conl.12833"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "Hong Kong AFCD, Licensing and inspection requirements (CITES / Cap. 586)",
+      "url": "https://www.afcd.gov.hk/english/conservation/con_end/con_end_reg/con_end_reg_lic/con_end_reg_lic.html"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "fauna_label_pt": "5 tartarugas vivas de espécies possivelmente protegidas",
+  "fauna_label_en": "5 tartarugas vivas de espécies possivelmente protegidas",
+  "fauna_label_es": "5 tartarugas vivas de espécies possivelmente protegidas",
+  "taxon_text": "Testudines, espécie indeterminada",
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "quantity_count": 5,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Répteis": 5
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Cinco tartarugas vivas; espécies não confirmadas.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "DOCUMENTED_INTERNATIONAL_COUNTRY_TO_AIRPORT",
+  "route_audit_note_pt": "EUA → Hong Kong é uma origem declarada da encomenda e destino alfandegário; cidade de postagem não divulgada.",
+  "route_audit_note_en": "United States to Hong Kong is the declared parcel origin and customs destination; the posting city was not disclosed.",
+  "route_audit_note_es": "Estados Unidos a Hong Kong indica el origen declarado del paquete y el destino aduanero; no se divulgo la ciudad de envío.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "EUA → Hong Kong é uma origem declarada da encomenda e destino alfandegário; cidade de postagem não divulgada.",
+  "record_is_part_of_20261106_08_window": true
+}

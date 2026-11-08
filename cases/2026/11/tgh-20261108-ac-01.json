@@ -1,0 +1,95 @@
+{
+  "id": "tgh-20261108-ac-01",
+  "tgh_id": "AC-01",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Panamá",
+  "event_date": null,
+  "publication_date": "2026-11-07",
+  "event_date_precision": "range",
+  "location_label_pt": "Cambutal, Panamá",
+  "location_label_en": "Cambutal, Panamá",
+  "location_label_es": "Cambutal, Panamá",
+  "coordinates": {
+    "lat": 7.2653,
+    "lon": -80.4866
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Centro aproximado da localidade de Cambutal; NÃO é local exato do confisco",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Centro aproximado da localidade de Cambutal; NÃO é local exato do confisco",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Centro aproximado da localidade de Cambutal; NÃO é local exato do confisco",
+  "georeference_source": "https://mapcarta.com/es/Cambutal",
+  "source_label": "Ministerio de Ambiente de Panamá (MiAMBIENTE)",
+  "source_url": "https://miambiente.gob.pa/mas-de-4-mil-personas-visitaron-las-areas-protegidas-durante-los-dias-patrios/",
+  "source_alternative_url": null,
+  "title_pt": "MiAMBIENTE apreende 284 ovos de tartaruga marinha em Cambutal",
+  "title_en": "Panama environmental agency seizes 284 sea turtle eggs in Cambutal",
+  "title_es": "MiAMBIENTE decomisa 284 huevos de tortuga marina en Cambutal",
+  "card_text_pt": "O MiAMBIENTE registrou a apreensão de 284 ovos de tartarugas marinhas e uma detenção em Cambutal, durante operações de fiscalização realizadas entre 2 e 6 de novembro.",
+  "card_text_en": "MiAMBIENTE reported the seizure of 284 sea turtle eggs and one arrest in Cambutal during enforcement operations held from 2 to 6 November.",
+  "card_text_es": "MiAMBIENTE informó el decomiso de 284 huevos de tortuga marina y una aprehensión en Cambutal durante operativos efectuados del 2 al 6 de noviembre.",
+  "context_pt": "[O] O confisco de ovos em Cambutal revela exploração de um produto reprodutivo, mas o balanço de operações entre 02 e 06/11 não informa a data individual, espécie, praia de coleta, compradores ou percurso. A localidade da apreensão não deve ser convertida automaticamente em local do ninho. [S] Pesquisa de rastreabilidade de ovos de tartarugas em mercados centro-americanos demonstra que declaração de origem e identificação específica precisam de verificação independente para separar cadeias lícitas e ilícitas. [T] A Lei 371/2023 do Panamá protege tartarugas marinhas e derivados, incluindo ovos; a análise deve preservar a unidade “ovos”, sem projetar número de fêmeas ou ninhos.",
+  "context_en": "[O] Eggs confiscated in Cambutal indicate exploitation of reproductive wildlife products, but the agency’s 2–6 November operational summary gives no case-specific day, turtle species, collection beach, buyer or itinerary. The seizure locality is not automatically the nesting beach. [S] Research on sea-turtle egg traceability in Central American markets shows that provenance claims and species identification require independent verification to distinguish legal and illegal supply chains. [T] Panama’s Law 371/2023 protects marine turtles and their derivatives, including eggs. Record 284 eggs as eggs, without estimating females or nests.",
+  "context_es": "[O] El decomiso de huevos en Cambutal indica aprovechamiento de productos reproductivos, pero el balance del 2 al 6/11 no individualiza el día, la especie, la playa de extracción, los compradores ni el recorrido. El lugar del decomiso no equivale automáticamente a la playa de anidación. [S] La investigación sobre trazabilidad de huevos en mercados centroamericanos demuestra que las declaraciones de procedencia y la identificación de especies requieren verificación independiente para distinguir cadenas legales e ilegales. [T] La Ley 371/2023 de Panamá protege tortugas marinas y derivados; deben contabilizarse 284 huevos, sin estimar hembras ni nidos.",
+  "references_text_pt": "[O] Ministerio de Ambiente (MiAMBIENTE); agentes de controle/vigilância — https://miambiente.gob.pa/mas-de-4-mil-personas-visitaron-las-areas-protegidas-durante-los-dias-patrios/\n[O2] Complementary reporting — https://www.tvn-2.com/nacionales/ministerio-de-ambiente-volcan-baru-fiestas-patrias-visitantes-turismo_1_2269913.html\n[S] Tracing the origins of sea turtle eggs in the markets of Costa Rica (2024) — https://doi.org/10.1111/csp2.13125\n[T] MiAMBIENTE, Ley 371/2023 and protection of marine turtles and their products — https://miambiente.gob.pa/participacion-ciudadana-es-fundamental-para-garantizar-la-supervivencia-de-los-ecosistemas-marinos/",
+  "references_text_en": "[O] Ministerio de Ambiente (MiAMBIENTE); agentes de controle/vigilância — https://miambiente.gob.pa/mas-de-4-mil-personas-visitaron-las-areas-protegidas-durante-los-dias-patrios/\n[O2] Complementary reporting — https://www.tvn-2.com/nacionales/ministerio-de-ambiente-volcan-baru-fiestas-patrias-visitantes-turismo_1_2269913.html\n[S] Tracing the origins of sea turtle eggs in the markets of Costa Rica (2024) — https://doi.org/10.1111/csp2.13125\n[T] MiAMBIENTE, Ley 371/2023 and protection of marine turtles and their products — https://miambiente.gob.pa/participacion-ciudadana-es-fundamental-para-garantizar-la-supervivencia-de-los-ecosistemas-marinos/",
+  "references_text_es": "[O] Ministerio de Ambiente (MiAMBIENTE); agentes de controle/vigilância — https://miambiente.gob.pa/mas-de-4-mil-personas-visitaron-las-areas-protegidas-durante-los-dias-patrios/\n[O2] Complementary reporting — https://www.tvn-2.com/nacionales/ministerio-de-ambiente-volcan-baru-fiestas-patrias-visitantes-turismo_1_2269913.html\n[S] Tracing the origins of sea turtle eggs in the markets of Costa Rica (2024) — https://doi.org/10.1111/csp2.13125\n[T] MiAMBIENTE, Ley 371/2023 and protection of marine turtles and their products — https://miambiente.gob.pa/participacion-ciudadana-es-fundamental-para-garantizar-la-supervivencia-de-los-ecosistemas-marinos/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Ministerio de Ambiente (MiAMBIENTE); agentes de controle/vigilância",
+      "url": "https://miambiente.gob.pa/mas-de-4-mil-personas-visitaron-las-areas-protegidas-durante-los-dias-patrios/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Complementary reporting",
+      "url": "https://www.tvn-2.com/nacionales/ministerio-de-ambiente-volcan-baru-fiestas-patrias-visitantes-turismo_1_2269913.html"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Tracing the origins of sea turtle eggs in the markets of Costa Rica (2024)",
+      "url": "https://doi.org/10.1111/csp2.13125"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "MiAMBIENTE, Ley 371/2023 and protection of marine turtles and their products",
+      "url": "https://miambiente.gob.pa/participacion-ciudadana-es-fundamental-para-garantizar-la-supervivencia-de-los-ecosistemas-marinos/"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "fauna_label_pt": "Huevos de tortuga marina (espécie não identificada)",
+  "fauna_label_en": "Huevos de tortuga marina (espécie não identificada)",
+  "fauna_label_es": "Huevos de tortuga marina (espécie não identificada)",
+  "taxon_text": "Testudines marinhas, espécie indeterminada",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 284,
+  "quantity_kind": "wildlife_items",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Répteis": 284
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "284 ovos de tartaruga marinha; não são 284 tartarugas adultas.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Nenhuma origem, destino, modal ou percurso de transporte de fauna documentado",
+  "route_audit_note_en": "No wildlife transport origin, destination, mode or route is documented.",
+  "route_audit_note_es": "No se documentó origen, destino, medio de transporte ni ruta de traslado de fauna.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "Dia exato desconhecido; marcar date=null e preservar período 02–06/11 em observação.",
+  "record_is_part_of_20261106_08_window": false,
+  "event_date_window_start": "2026-11-02",
+  "event_date_window_end": "2026-11-06"
+}

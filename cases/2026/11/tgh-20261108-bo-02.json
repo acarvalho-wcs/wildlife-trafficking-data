@@ -1,0 +1,95 @@
+{
+  "id": "tgh-20261108-bo-02",
+  "tgh_id": "BO-02",
+  "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
+  "status": "VALIDATED",
+  "country": "Bolívia",
+  "event_date": null,
+  "publication_date": "2026-11-06",
+  "event_date_precision": "unknown",
+  "location_label_pt": "Santa Rosa de Yacuma, Bolívia",
+  "location_label_en": "Santa Rosa de Yacuma, Bolívia",
+  "location_label_es": "Santa Rosa de Yacuma, Bolívia",
+  "coordinates": {
+    "lat": -14.07968,
+    "lon": -66.79241
+  },
+  "coordinate_precision": "locality_generalized",
+  "geographic_note_pt": "Centro da localidade (não é o alojamento)",
+  "geographic_note_en": "Approximate place reference, not the exact incident position. Centro da localidade (não é o alojamento)",
+  "geographic_note_es": "Referencia geográfica aproximada, no ubicación exacta del hecho. Centro da localidade (não é o alojamento)",
+  "georeference_source": "https://mapcarta.com/es/20155264",
+  "source_label": "Policía Rural y Fronteriza / prensa boliviana",
+  "source_url": "https://larazon.bo/sociedad/2026/11/06/la-policia-de-beni-halla-15-loros-y-dos-crias-de-ardilla-para-la-venta-ilicita/",
+  "source_alternative_url": null,
+  "title_pt": "Polícia encontra 15 aves e duas crias de esquilo em hospedagem no Beni",
+  "title_en": "Police recover 15 birds and two young squirrels at Beni lodging",
+  "title_es": "Hallan 15 loros y dos crías de ardilla en alojamiento del Beni",
+  "card_text_pt": "Agentes encontraram 15 loros/periquitos e duas crias de esquilo em uma hospedagem de Santa Rosa de Yacuma, em investigação sobre possível venda ilegal.",
+  "card_text_en": "Officers found 15 parrots or parakeets and two young squirrels at accommodation in Santa Rosa de Yacuma while investigating suspected illegal wildlife sales.",
+  "card_text_es": "Agentes encontraron 15 loros o pericos y dos crías de ardilla en un alojamiento de Santa Rosa de Yacuma, ante sospechas de venta ilícita.",
+  "context_pt": "[O] A reunião de aves e filhotes de esquilo num alojamento sugere um ponto de retenção anterior a possível venda, mas a finalidade comercial é apenas suspeita e a fonte não identifica compradores, captura ou itinerário. A notícia publicada em 06/11 não estabelece o dia da intervenção. [S] Estudos sobre abastecimento de mercados de aves na Bolívia mostram que compradores e intermediários podem operar separados dos locais de extração; isso justifica buscar origem documental, sem pressupor uma rota neste caso. [T] Nomes comuns como “loro amarillo” não bastam para atribuição CITES. É preciso confirmar cada táxon e os documentos de posse e circulação.",
+  "context_en": "[O] Birds and juvenile squirrels held together at lodging premises suggest a holding location before possible sale, but the commercial purpose remains an allegation and no buyers, collection points or itinerary are identified. A report dated 6 November does not establish when the intervention took place. [S] Studies of Bolivian bird-market supply show that intermediaries and buyers may operate away from collection sites, supporting a search for documented provenance without assuming a route here. [T] Common names such as “loro amarillo” are insufficient for CITES classification; each taxon and its possession/movement documents must be checked.",
+  "context_es": "[O] La concentración de aves y crías de ardilla en un hospedaje sugiere retención previa a una posible venta, pero la finalidad comercial sigue siendo presunta y no se identifican compradores, captura ni itinerario. La publicación del 6/11 no fija el día de la intervención. [S] Estudios sobre abastecimiento de mercados bolivianos muestran que los intermediarios pueden actuar lejos de los lugares de extracción; procede buscar documentos de origen sin presuponer una ruta. [T] Nombres como “loro amarillo” son insuficientes para clasificar los ejemplares en CITES. Deben verificarse especies y documentos de tenencia y traslado.",
+  "references_text_pt": "[O] Policía Rural y Fronteriza del Beni / Intendencia Municipal — https://larazon.bo/sociedad/2026/11/06/la-policia-de-beni-halla-15-loros-y-dos-crias-de-ardilla-para-la-venta-ilicita/\n[O2] Complementary reporting — https://exitonoticias.com.bo/aprehenden-a-mujer-con-17-animales-silvestres-presuntamente-destinados-al-comercio-ilegal-en-beni/408606/\n[S] Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia — https://doi.org/10.1093/bjc/azq074\n[T] CITES Secretariat, The CITES species and Appendices — https://cites.org/eng/disc/species.php",
+  "references_text_en": "[O] Policía Rural y Fronteriza del Beni / Intendencia Municipal — https://larazon.bo/sociedad/2026/11/06/la-policia-de-beni-halla-15-loros-y-dos-crias-de-ardilla-para-la-venta-ilicita/\n[O2] Complementary reporting — https://exitonoticias.com.bo/aprehenden-a-mujer-con-17-animales-silvestres-presuntamente-destinados-al-comercio-ilegal-en-beni/408606/\n[S] Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia — https://doi.org/10.1093/bjc/azq074\n[T] CITES Secretariat, The CITES species and Appendices — https://cites.org/eng/disc/species.php",
+  "references_text_es": "[O] Policía Rural y Fronteriza del Beni / Intendencia Municipal — https://larazon.bo/sociedad/2026/11/06/la-policia-de-beni-halla-15-loros-y-dos-crias-de-ardilla-para-la-venta-ilicita/\n[O2] Complementary reporting — https://exitonoticias.com.bo/aprehenden-a-mujer-con-17-animales-silvestres-presuntamente-destinados-al-comercio-ilegal-en-beni/408606/\n[S] Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia — https://doi.org/10.1093/bjc/azq074\n[T] CITES Secretariat, The CITES species and Appendices — https://cites.org/eng/disc/species.php",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Policía Rural y Fronteriza del Beni / Intendencia Municipal",
+      "url": "https://larazon.bo/sociedad/2026/11/06/la-policia-de-beni-halla-15-loros-y-dos-crias-de-ardilla-para-la-venta-ilicita/"
+    },
+    {
+      "id": "O2",
+      "type": "case_source",
+      "label": "Complementary reporting",
+      "url": "https://exitonoticias.com.bo/aprehenden-a-mujer-con-17-animales-silvestres-presuntamente-destinados-al-comercio-ilegal-en-beni/408606/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Pires & Clarke (2011), Sequential Foraging, Itinerant Fences and Parrot Poaching in Bolivia",
+      "url": "https://doi.org/10.1093/bjc/azq074"
+    },
+    {
+      "id": "T",
+      "type": "technical_external",
+      "label": "CITES Secretariat, The CITES species and Appendices",
+      "url": "https://cites.org/eng/disc/species.php"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Aves",
+    "Mamíferos"
+  ],
+  "fauna_label_pt": "15 loros/pericos amarillos e loros corona amarilla; 2 crías de ardilla",
+  "fauna_label_en": "15 loros/pericos amarillos e loros corona amarilla; 2 crías de ardilla",
+  "fauna_label_es": "15 loros/pericos amarillos e loros corona amarilla; 2 crías de ardilla",
+  "taxon_text": "Aves e pequenos mamíferos, espécies não confirmadas",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado",
+  "quantity_count": 17,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 15,
+    "Mamíferos": 2
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "15 aves e duas crias de esquilo.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Sem rota ou transporte documentado",
+  "route_audit_note_en": "No transport or route is documented.",
+  "route_audit_note_es": "No se documentó transporte ni ruta.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "editorial_qa_note_pt": "Data exata, boletim policial e identificação científica não confirmados.",
+  "record_is_part_of_20261106_08_window": false
+}

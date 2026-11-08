@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-06T23:38:52Z",
+  "updated_at": "2026-11-08T19:35:32Z",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -14557,6 +14557,133 @@
       "route_scope": "DOCUMENTED_LOCATIONS_ONLY",
       "geometry_is_schematic": true,
       "source_verified_for_route": "ACCORDING_TO_TGH_AUDIT"
+    },
+    {
+      "id": "tgh-20261108-as-01-us-hong-kong",
+      "event_match": {
+        "event_id": "tgh-20261108-as-01"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_shipment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Estados Unidos → Hong Kong (origem nacional declarada)",
+      "label_en": "United States → Hong Kong (declared country of dispatch)",
+      "label_es": "Estados Unidos → Hong Kong (país de envío declarado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Estados Unidos — localização de origem não especificada",
+            "country": "Estados Unidos",
+            "lat": 39.8283,
+            "lon": -98.5795,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308047,
+            "lon": 113.918481,
+            "precision": "airport_reference"
+          }
+        }
+      ],
+      "evidence_pt": "[O] A alfândega interceptou no aeroporto de Hong Kong uma encomenda declarada como proveniente dos Estados Unidos com cinco tartarugas vivas. Cidade e ponto de postagem não divulgados; a posição nos EUA é apenas um centroide nacional de referência.",
+      "evidence_en": "[O] Hong Kong Customs intercepted at the airport a parcel declared as coming from the United States containing five live turtles. The posting city and facility were not disclosed; the US point is a generalized country reference only.",
+      "evidence_es": "[O] Aduanas de Hong Kong interceptó en el aeropuerto un paquete declarado como procedente de Estados Unidos con cinco tortugas vivas. No se divulgó la ciudad ni el punto de envío; el punto en EE. UU. es solo una referencia nacional generalizada.",
+      "source_label": "Hong Kong Customs / HKSAR Government",
+      "source_url": "https://www.info.gov.hk/gia/general/202611/07/P2026110700514.htm",
+      "source_evidence_type": "documented_country_origin_with_generalized_endpoint"
+    },
+    {
+      "id": "tgh-20261108-as-02-brazil-ethiopia-hong-kong",
+      "event_match": {
+        "event_id": "tgh-20261108-as-02"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "completed_passenger_itinerary",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Brasil → Etiópia → Hong Kong (itinerário da passageira)",
+      "label_en": "Brazil → Ethiopia → Hong Kong (passenger itinerary)",
+      "label_es": "Brasil → Etiopía → Hong Kong (itinerario de la pasajera)",
+      "segments": [
+        {
+          "from": {
+            "name": "Brasil — aeroporto de origem não especificado",
+            "country": "Brasil",
+            "lat": -14.235,
+            "lon": -51.9253,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Etiópia — aeroporto de trânsito não especificado",
+            "country": "Etiópia",
+            "lat": 9.145,
+            "lon": 40.4897,
+            "precision": "country_centroid_generalized"
+          }
+        },
+        {
+          "from": {
+            "name": "Etiópia — aeroporto de trânsito não especificado",
+            "country": "Etiópia",
+            "lat": 9.145,
+            "lon": 40.4897,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Hong Kong",
+            "country": "Hong Kong",
+            "lat": 22.308047,
+            "lon": 113.918481,
+            "precision": "airport_reference"
+          }
+        }
+      ],
+      "evidence_pt": "[O] A passageira chegou a Hong Kong do Brasil via Etiópia com barbatanas secas de tubarão na bagagem. Os aeroportos no Brasil e na Etiópia não foram identificados; pontos centrais dos países são apenas referências gráficas. O itinerário não comprova a origem biológica dos tubarões.",
+      "evidence_en": "[O] The passenger arrived in Hong Kong from Brazil via Ethiopia with dried shark fins in checked baggage. The airports in Brazil and Ethiopia were not identified; country points are graphical references only. The itinerary does not establish where the sharks were caught.",
+      "evidence_es": "[O] La pasajera llegó a Hong Kong desde Brasil vía Etiopía con aletas de tiburón secas en el equipaje. No se identificaron aeropuertos en Brasil ni Etiopía; los puntos nacionales son solo referencias gráficas. El itinerario no demuestra dónde se capturaron los tiburones.",
+      "source_label": "Hong Kong Customs / HKSAR Government",
+      "source_url": "https://www.info.gov.hk/gia/general/202611/08/P2026110800504.htm",
+      "source_evidence_type": "documented_passenger_itinerary_generalized_country_stops"
+    },
+    {
+      "id": "tgh-20261108-co-01-san-juan-cartagena-corridor",
+      "event_match": {
+        "event_id": "tgh-20261108-co-01"
+      },
+      "status": "DOCUMENTED_BROAD",
+      "route_type": "documented_road_corridor",
+      "direction": "unknown",
+      "line_style": "solid",
+      "label_pt": "Corredor San Juan Nepomuceno–Cartagena (sentido não documentado)",
+      "label_en": "San Juan Nepomuceno–Cartagena road corridor (direction unknown)",
+      "label_es": "Corredor San Juan Nepomuceno–Cartagena (sentido no documentado)",
+      "segments": [
+        {
+          "from": {
+            "name": "San Juan Nepomuceno — referência urbana",
+            "country": "Colômbia",
+            "lat": 9.95121,
+            "lon": -75.07945,
+            "precision": "city_reference_generalized"
+          },
+          "to": {
+            "name": "Cartagena — referência urbana",
+            "country": "Colômbia",
+            "lat": 10.391,
+            "lon": -75.479,
+            "precision": "city_reference_generalized"
+          }
+        }
+      ],
+      "evidence_pt": "[O] A abordagem envolvendo dez canários ocorreu no trecho rodoviário entre San Juan Nepomuceno e Cartagena. Não há comprovação de que o veículo percorreu integralmente o trecho ou de que seguiu em determinado sentido. Linha entre referências urbanas: corredor esquemático, não trajeto GPS.",
+      "evidence_en": "[O] The interception involving ten birds took place on the road section between San Juan Nepomuceno and Cartagena. The full traversal and direction of travel were not established. The line between town reference points is a schematic corridor, not a GPS track.",
+      "evidence_es": "[O] La intervención con diez canarios ocurrió en el tramo vial entre San Juan Nepomuceno y Cartagena. No se acreditó que el vehículo recorriera todo el tramo ni el sentido de circulación. La línea entre referencias urbanas representa un corredor esquemático, no un trayecto GPS.",
+      "source_label": "El Universal / Policía de Bolívar",
+      "source_url": "https://www.eluniversal.com.co/sucesos/2026/11/07/lo-capturaron-cuando-se-movilizaba-con-10-canarios-en-una-carretera-de-bolivar/?outputType=amp",
+      "source_evidence_type": "documented_road_corridor_undirected_generalized"
     }
   ],
   "network_context": [
