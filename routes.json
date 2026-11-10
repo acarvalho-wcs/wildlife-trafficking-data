@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-08T19:35:32Z",
+  "updated_at": "2026-11-10T20:52:45Z",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -14684,6 +14684,211 @@
       "source_label": "El Universal / Policía de Bolívar",
       "source_url": "https://www.eluniversal.com.co/sucesos/2026/11/07/lo-capturaron-cuando-se-movilizaba-con-10-canarios-en-una-carretera-de-bolivar/?outputType=amp",
       "source_evidence_type": "documented_road_corridor_undirected_generalized"
+    },
+    {
+      "id": "tgh-global-20261108-09-am-01-r01",
+      "event_match": {
+        "event_id": "tgh-global-20261108-09-am-01"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "documented_postal_origin_to_seizure",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Fortaleza (postagem declarada) → São Paulo (interceptação)",
+      "label_en": "Fortaleza (declared posting) → São Paulo (seizure)",
+      "label_es": "Fortaleza (origen postal declarado) → São Paulo (incautación)",
+      "segments": [
+        {
+          "from": {
+            "name": "Fortaleza (endereço na embalagem)",
+            "lat": -3.7319,
+            "lon": -38.5267,
+            "precision": "declared_postal_city_not_verified_origin",
+            "country": "Brasil"
+          },
+          "to": {
+            "name": "São Paulo (CEINT)",
+            "lat": -23.5505,
+            "lon": -46.6333,
+            "precision": "city_generalized",
+            "country": "Brasil"
+          }
+        }
+      ],
+      "evidence_pt": "Endereço de hospedagem em Fortaleza declarado na remessa como postagem; objeto interceptado em São Paulo. A linha não demonstra local real de captura nem autenticidade do endereço.",
+      "evidence_en": "The parcel showed a lodging address in Fortaleza as its posting address and was intercepted in São Paulo. This attributed postal segment does not establish the animal's capture origin or prove that the address is authentic.",
+      "evidence_es": "El paquete indicaba un hospedaje en Fortaleza como dirección de envío y fue interceptado en São Paulo. Este tramo postal atribuido no demuestra el origen de captura ni confirma la autenticidad de la dirección.",
+      "source_label": "Ibama / Correios (Brasil)",
+      "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/cranio-de-jaguatirica-e-apreendido-pelo-ibama-em-unidade-dos-correios-em-sp",
+      "tgh_audit": {
+        "decision": "Sim — movimento atribuído à informação postal",
+        "evidence_class": "ORIGEM POSTAL DECLARADA",
+        "geometry": "schematic_straight_line_not_actual_path"
+      }
+    },
+    {
+      "id": "tgh-global-20261108-09-am-01-r02",
+      "event_match": {
+        "event_id": "tgh-global-20261108-09-am-01"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_shipment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "São Paulo → Austrália (destino pretendido)",
+      "label_en": "São Paulo → Australia (intended destination)",
+      "label_es": "São Paulo → Australia (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "São Paulo (CEINT)",
+            "lat": -23.5505,
+            "lon": -46.6333,
+            "precision": "city_generalized",
+            "country": "Brasil"
+          },
+          "to": {
+            "name": "Austrália (país não especificado)",
+            "lat": -25.2744,
+            "lon": 133.7751,
+            "precision": "country_generalized",
+            "country": "Australia"
+          }
+        }
+      ],
+      "evidence_pt": "A encomenda apreendida no Ceint de São Paulo tinha a Austrália como destino informado; o envio internacional não se completou. Não há cidade australiana identificada.",
+      "evidence_en": "Ibama reported Australia as the parcel's declared destination. The shipment was intercepted in São Paulo; no Australian city or completed journey was reported.",
+      "evidence_es": "Ibama informo que Australia era el destino declarado del paquete. El envío fue interceptado en São Paulo; no se identifico ciudad australiana ni un viaje completado.",
+      "source_label": "Ibama / Correios (Brasil)",
+      "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/cranio-de-jaguatirica-e-apreendido-pelo-ibama-em-unidade-dos-correios-em-sp",
+      "tgh_audit": {
+        "decision": "Sim — destino internacional pretendido",
+        "evidence_class": "DESTINO INTERNACIONAL PRETENDIDO",
+        "geometry": "schematic_straight_line_not_actual_path"
+      }
+    },
+    {
+      "id": "tgh-global-20261108-09-am-02-r01",
+      "event_match": {
+        "event_id": "tgh-global-20261108-09-am-02"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "directional_segment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Belém → Icoaraci (direção documentada)",
+      "label_en": "Belém → Icoaraci (documented direction)",
+      "label_es": "Belém → Icoaraci (dirección documentada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Belém (orla, área aproximada)",
+            "lat": -1.4558,
+            "lon": -48.4902,
+            "precision": "city_waterfront_generalized",
+            "country": "Brasil"
+          },
+          "to": {
+            "name": "Icoaraci, distrito de Belém",
+            "lat": -1.31,
+            "lon": -48.485,
+            "precision": "city_waterfront_generalized",
+            "country": "Brasil"
+          }
+        }
+      ],
+      "evidence_pt": "A PF descreve embarcação em deslocamento na direção de Icoaraci, sem confirmar ponto de chegada, via aquática exata ou paradas.",
+      "evidence_en": "Federal Police reported that the vessel was moving in the direction of Icoaraci. Neither its precise waterway nor arrival at the district was established; this is a directional, schematic segment.",
+      "evidence_es": "La Policía Federal informo que la embarcación avanzaba en dirección a Icoaraci. No se establecio la via fluvial exacta ni la llegada al distrito; el tramo es direcciónal y esquematico.",
+      "source_label": "Policia Federal (Brasil)",
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-apreende-cerca-de-quatro-toneladas-de-barbatanas-de-tubarao-no-para",
+      "tgh_audit": {
+        "decision": "Sim — direção em curso documentada",
+        "evidence_class": "DIREÇÃO EM CURSO DOCUMENTADA",
+        "geometry": "schematic_straight_line_not_actual_path"
+      }
+    },
+    {
+      "id": "tgh-global-20261108-09-am-02-r02",
+      "event_match": {
+        "event_id": "tgh-global-20261108-09-am-02"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_international_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Belém → Suriname (destino pretendido)",
+      "label_en": "Belém → Suriname (intended destination)",
+      "label_es": "Belém → Surinam (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Belém (orla; interceptação, Icoaraci como direção de curso)",
+            "lat": -1.4558,
+            "lon": -48.4902,
+            "precision": "city_waterfront_generalized",
+            "country": "Brasil"
+          },
+          "to": {
+            "name": "Suriname (sem localidade)",
+            "lat": 3.9193,
+            "lon": -56.0278,
+            "precision": "country_generalized",
+            "country": "Suriname"
+          }
+        }
+      ],
+      "evidence_pt": "A embarcação foi interceptada na orla de Belém; a PF informou deslocamento na direção de Icoaraci e Suriname como destino planejado. Centroide surinamês usado apenas para geovisualização.",
+      "evidence_en": "Federal Police reported Suriname as the vessel's intended destination after interception in the Belém waterfront area. The Suriname country point is schematic, not a named arrival port.",
+      "evidence_es": "La Policía Federal indico Surinam como destino previsto de la embarcación interceptada en la ribera de Belém. El punto nacional de Surinam es esquematico, no un puerto de llegada identificado.",
+      "source_label": "Policia Federal (Brasil)",
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-apreende-cerca-de-quatro-toneladas-de-barbatanas-de-tubarao-no-para",
+      "tgh_audit": {
+        "decision": "Sim — destino internacional pretendido",
+        "evidence_class": "DESTINO DECLARADO/PRETENDIDO",
+        "geometry": "schematic_straight_line_not_actual_path"
+      }
+    },
+    {
+      "id": "tgh-global-20261108-09-af-01-r01",
+      "event_match": {
+        "event_id": "tgh-global-20261108-09-af-01"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_air_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Ivato → Pequim (embarque pretendido e impedido)",
+      "label_en": "Ivato → Beijing (intended flight, intercepted)",
+      "label_es": "Ivato → Pekín (vuelo previsto, interceptado)",
+      "segments": [
+        {
+          "from": {
+            "name": "Ivato (aeroporto)",
+            "lat": -18.7969,
+            "lon": 47.4788,
+            "precision": "airport",
+            "country": "Madagascar"
+          },
+          "to": {
+            "name": "Pequim (cidade pretendida)",
+            "lat": 39.9042,
+            "lon": 116.4074,
+            "precision": "city_generalized",
+            "country": "China"
+          }
+        }
+      ],
+      "evidence_pt": "08/11/2026: Alfândega de Madagascar apreendeu quatro cavalos-marinhos no aeroporto de Ivato antes do embarque de passageiro no voo MK289 com destino informado a Pequim. Sem evidência de viagem completada, escalas ou aeroporto de chegada.",
+      "evidence_en": "Madagascar Customs intercepted four seahorses in passenger luggage at Ivato before planned boarding on flight MK289 to Beijing on 8 November. The route is intended and was not completed; neither layovers nor an arrival airport were documented.",
+      "evidence_es": "Aduanas de Madagascar intercepto cuatro caballitos de mar en el equipaje de un pasajero en Ivato antes de abordar el vuelo previsto MK289 hacia Pekín, el 8 de noviembre. La ruta era prevista y no se completo; no constan escalas ni aeropuerto de llegada.",
+      "source_label": "Direction generale des douanes de Madagascar",
+      "source_url": "https://www.douanes.gov.mg/ivato-la-douane-intercepte-24-pierres-industrielles-et-quatre-hippocampes/",
+      "tgh_audit": {
+        "decision": "Sim — destino urbano pretendido confirmado",
+        "evidence_class": "EMBARQUE PRETENDIDO, INTERROMPIDO",
+        "geometry": "schematic_straight_line_not_actual_path"
+      }
     }
   ],
   "network_context": [

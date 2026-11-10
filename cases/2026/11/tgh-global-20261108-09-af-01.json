@@ -1,0 +1,80 @@
+{
+  "id": "tgh-global-20261108-09-af-01",
+  "tgh_id": "TG-H-AF-01",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-08-09",
+  "status": "VALIDATED",
+  "country": "Madagascar",
+  "event_date": "2026-11-08",
+  "event_date_precision": "day",
+  "publication_date": "2026-11-08",
+  "location_label_pt": "Ivato — Aeroporto Internacional (Antananarivo), Madagascar",
+  "location_label_en": "Ivato — Aeroporto Internacional (Antananarivo), Madagascar",
+  "location_label_es": "Ivato — Aeroporto Internacional (Antananarivo), Madagascar",
+  "coordinates": {
+    "lat": -18.7969,
+    "lon": 47.4788
+  },
+  "coordinate_precision": "airport_reference",
+  "geographic_note_pt": "aeroporto, não área específica da inspeção",
+  "geographic_note_en": "Approximate reference point; not the verified precise seizure location.",
+  "geographic_note_es": "Punto de referencia aproximado; no es el lugar exacto del decomiso.",
+  "georeference_source": "https://www.douanes.gov.mg/ivato-la-douane-intercepte-24-pierres-industrielles-et-quatre-hippocampes/",
+  "source_label": "Direction generale des douanes de Madagascar",
+  "source_url": "https://www.douanes.gov.mg/ivato-la-douane-intercepte-24-pierres-industrielles-et-quatre-hippocampes/",
+  "source_alternative_url": "https://www.moov.mg/actualite/123923-trafic-illicite-24-pierres-industrielles-et-quatre-hippocampes-saisis-a-laeroport",
+  "title_pt": "Aduana intercepta quatro cavalos-marinhos em bagagem de passageiro prestes a embarcar para Pequim (voo MK289)",
+  "title_en": "Madagascar customs seize four seahorses before a planned flight to Beijing",
+  "title_es": "Aduanas de Madagascar incauta cuatro caballitos de mar antes de un vuelo previsto a Pekín",
+  "card_text_pt": "Aduana intercepta quatro cavalos-marinhos em bagagem de passageiro prestes a embarcar para Pequim (voo MK289).",
+  "card_text_en": "Customs officers seized four seahorses from passenger luggage at Ivato airport before the planned flight MK289 to Beijing on 8 November 2026.",
+  "card_text_es": "Aduanas incautó cuatro caballitos de mar en equipaje de un pasajero en el aeropuerto de Ivato antes del vuelo previsto MK289 hacia Pekín, el 8 de noviembre de 2026.",
+  "context_pt": "[O] A alfândega detectou os exemplares no escaneamento de bagagem no aeroporto de Ivato antes do embarque previsto no voo MK289 com destino informado a Pequim; o transporte internacional não chegou a ocorrer. [S] Pesquisa publicada em 2026 desenvolveu algoritmos para identificação de cavalos-marinhos, barbatanas e pepinos-do-mar em tomografias de bagagens, alcançando detecção de 96% para cavalos-marinhos no conjunto de testes. O resultado é relevante para aprimorar inspeções aeroportuárias, sem indicar que essa tecnologia específica tenha sido usada em Ivato.",
+  "context_en": "[O] Customs detected the specimens during luggage screening at Ivato before the passenger’s planned boarding on flight MK289 towards Beijing; the international movement was not completed. [S] Research published in 2026 developed CT-based luggage detection algorithms for seahorses, shark fins and sea cucumbers, reporting 96% detection of seahorses in its test set. This provides an airport-screening application without suggesting that the specific AI system was deployed at Ivato.",
+  "context_es": "[O] Aduanas detectó los ejemplares al inspeccionar equipajes en Ivato antes del embarque previsto en el vuelo MK289 con destino declarado a Pekín; el desplazamiento internacional no se completó. [S] Un estudio publicado en 2026 desarrolló algoritmos de detección de caballitos de mar, aletas de tiburón y pepinos de mar mediante tomografía de equipaje y obtuvo una detección del 96% para caballitos de mar en el conjunto de prueba. El resultado es relevante para controles aeroportuarios, sin indicar que se usara ese sistema específico en Ivato.",
+  "references_text_pt": "[O] Douanes Madagascar: 4 hippocampes, Ivato - https://www.douanes.gov.mg/ivato-la-douane-intercepte-24-pierres-industrielles-et-quatre-hippocampes/\n[S] Pirotta et al. (2026), CT AI detection of marine wildlife - https://doi.org/10.3389/focsu.2026.1776978",
+  "references_text_en": "[O] Douanes Madagascar: 4 hippocampes, Ivato - https://www.douanes.gov.mg/ivato-la-douane-intercepte-24-pierres-industrielles-et-quatre-hippocampes/\n[S] Pirotta et al. (2026), CT AI detection of marine wildlife - https://doi.org/10.3389/focsu.2026.1776978",
+  "references_text_es": "[O] Douanes Madagascar: 4 hippocampes, Ivato - https://www.douanes.gov.mg/ivato-la-douane-intercepte-24-pierres-industrielles-et-quatre-hippocampes/\n[S] Pirotta et al. (2026), CT AI detection of marine wildlife - https://doi.org/10.3389/focsu.2026.1776978",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Douanes Madagascar: 4 hippocampes, Ivato",
+      "url": "https://www.douanes.gov.mg/ivato-la-douane-intercepte-24-pierres-industrielles-et-quatre-hippocampes/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Pirotta et al. (2026), CT AI detection of marine wildlife",
+      "url": "https://doi.org/10.3389/focsu.2026.1776978"
+    }
+  ],
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "fauna_label_pt": "4 exemplares de *Hippocampus* spp.",
+  "fauna_label_en": "4 specimens of *Hippocampus* spp.",
+  "fauna_label_es": "4 ejemplares de *Hippocampus* spp.",
+  "taxon_text": "*Hippocampus* spp.",
+  "modal_primary": "Aéreo",
+  "modal_label_pt": "Aéreo",
+  "modal_label_en": "Air",
+  "modal_label_es": "Aéreo",
+  "quantity_count": 4,
+  "quantity_kind": "wildlife_items",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Peixes": 4
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "4 cavalos-marinhos (Hippocampus spp.; estado seco relatado por fonte secundária). 24 pedras industriais na mesma bagagem NÃO são fauna.",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "DOCUMENTED_OR_INTENDED",
+  "route_audit_note_pt": "SIM: Ivato → Pequim | embarque pretendido, interrompido; cidade de destino confirmada",
+  "route_audit_note_en": "See linked route evidence and endpoint precision.",
+  "route_audit_note_es": "Consultar la evidencia de la ruta y la precision de los extremos.",
+  "is_exact_seizure_position": false,
+  "image_url": null,
+  "image_status": "NOT_VALIDATED",
+  "record_is_part_of_20261108_09_window": true
+}
