@@ -1,0 +1,17 @@
+.brand{justify-content:center}
+.observatory-logo{display:block;width:112px;height:auto;object-fit:contain;background:#fff;border-radius:12px;padding:7px}
+.mobile-observatory-logo{display:none}
+.nav .restricted-area-link{display:flex;align-items:center;color:var(--muted);text-decoration:none;padding:11px 12px;border-radius:9px}
+.restricted-area-link:hover{background:var(--panel);color:var(--ink)}
+.restricted-area-link:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.mobile-nav .restricted-area-link{display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:9px;padding:9px 5px;text-decoration:none;text-align:center}
+@media(max-width:900px){.mobile-observatory-logo{display:block;width:54px;border-radius:8px;padding:4px;flex-shrink:0}.top{flex-wrap:wrap}.top>div:first-of-type{flex:1;min-width:0}.top-actions{flex-wrap:wrap}}
+/* Explicit phone rows avoid Safari shrinking the title beside both controls. */
+@media(max-width:520px){
+  .top{display:grid;grid-template-columns:54px minmax(0,1fr);gap:14px;align-items:start}
+  .top>.mobile-observatory-logo{grid-column:1;grid-row:1}
+  .top>div:first-of-type{grid-column:2;grid-row:1;min-width:0}
+  .top>.top-actions{grid-column:1/-1;grid-row:2;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px;width:100%;min-width:0;margin-left:0}
+  .top-actions #howItWorksLink{margin-right:0;white-space:normal;text-align:center}
+  .top-actions #howItWorksLink,.top-actions .lang{max-width:100%;min-height:44px}
+}

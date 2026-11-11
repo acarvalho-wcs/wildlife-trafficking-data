@@ -1,0 +1,20 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const layers=new Set(),order=[];let created=0;
+const window={ScientificText:{html:String}},map={removeLayer(m){layers.delete(m)}};
+const context=vm.createContext({window,Date,L:{circleMarker(coords,style){created++;return {coords,style,addTo(){layers.add(this);return this},getLatLng(){return {lat:coords[0],lng:coords[1]}},getElement(){return {setAttribute(k,v){assert.equal(k,'aria-hidden');assert.equal(v,'true')}}},bringToFront(){order.push('wave')}}}}});
+for(const file of ['case-context.js','recent-pulse.js'])vm.runInContext(fs.readFileSync('dist/'+file,'utf8'),context);
+const now=Date.parse('2026-09-26T03:30:00Z');
+const recent={id:'recent',occurred_at:'2026-09-24T04:00:00Z',lat:-3,lng:-60},older={id:'older',event_date:'2026-02-01',added_at:'2026-09-26T03:00:00Z',lat:20,lng:30};
+const markers=[older,recent].map(e=>({eventId:e.id,bringToFront(){order.push(e.id)}}));
+const sync=rows=>window.RecentPulse.sync(map,rows,markers,now);
+sync([older,recent]);assert.equal(layers.size,2);assert.equal(order.at(-1),'recent');
+for(const m of layers){assert.deepEqual(Array.from(m.coords),[-3,-60]);assert.equal(m.style.interactive,false);assert.equal(m.style.fill,false);assert.equal(m.style.radius,3);}
+sync([older,recent]);assert.equal(created,2,'clock refresh reuses wave layers');
+sync([older]);assert.equal(layers.size,0,'filter removes orphan rings');
+sync([recent]);assert.equal(layers.size,2);
+window.RecentPulse.sync(map,[recent],markers,now+5*86400000+3600000);assert.equal(layers.size,0,'waves expire with existing exact event-time logic');
+sync([{...recent,occurred_at:null,event_date:'2026-09-25'}]);assert.equal(layers.size,2,'date-only seven-day window uses Manaus calendar');
+sync([{...recent,lat:4,lng:5}]);for(const m of layers)assert.deepEqual(Array.from(m.coords),[4,5],'updated source coordinates replace old decoration');
+sync([]);assert.equal(layers.size,0,'zero results clears decoration');
+const css=fs.readFileSync('dist/recent-pulse.css','utf8');assert(css.includes('prefers-reduced-motion:reduce'));assert(css.includes('pointer-events:none!important'));assert(css.includes('transform-box:fill-box'));assert(!css.includes('.legend'));
+console.log('PASS: recent-only waves; exact coordinates; filter cleanup; expiry; reused layers; core priority; motion preference and no legend changes.');

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>IWT Global Observatory map integration test</title>
+<link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../secure.css">
+<style>body{margin:0;padding:28px} .explorer{max-width:1000px}#explorer-map{height:530px}</style>
+</head>
+<body data-theme="dark">
+<section class="explorer">
+<div class="explorer-head"><div><span id="explorer-kicker"></span><h3 id="explorer-title"></h3><p id="explorer-desc"></p></div><button id="explorer-reset"></button></div>
+<div class="explorer-filters">
+<label><span id="explorer-search-label"></span><input id="explorer-search"></label>
+<label class="species-filter"><span id="explorer-species-label"></span><select id="explorer-species" class="visually-hidden"><option value="">Todas</option></select><button type="button" id="species-trigger" class="species-trigger" aria-haspopup="listbox" aria-expanded="false">Todas</button><div id="species-menu" class="species-menu" role="listbox" hidden></div></label>
+<label><span id="explorer-state-label"></span><select id="explorer-state"></select></label>
+<label><span id="explorer-city-label"></span><select id="explorer-city"></select></label>
+<label><span id="explorer-source-label"></span><select id="explorer-source"></select></label>
+<label><span id="explorer-status-label"></span><select id="explorer-status"></select></label>
+<label><span id="explorer-product-label"></span><select id="explorer-product"></select></label>
+</div>
+<div class="explorer-summary"><strong id="explorer-count"></strong><span id="explorer-count-label"></span><span id="explorer-map-count"></span><span id="explorer-unmapped-count"></span></div>
+<div class="explorer-layout"><div class="explorer-map-wrap"><div class="explorer-map-toolbar">
+              <button id="layers-toggle" type="button" class="secure-secondary map-toolbar-button" aria-controls="explorer-layers" aria-expanded="false"><span class="layers-icon" aria-hidden="true">☷</span><span id="layers-toggle-label">Camadas</span></button>
+              <button id="explorer-fullscreen" type="button" class="secure-secondary map-toolbar-button" aria-pressed="false">Tela cheia</button>
+            </div>
+            <aside id="explorer-layers" class="explorer-layers-panel" aria-hidden="true" aria-labelledby="layers-title" inert>
+              <div class="explorer-layers-head">
+                <div><strong id="layers-title">Camadas do mapa</strong><p id="layers-hint">Ative ou oculte categorias no mapa.</p></div>
+                <button id="layers-close" type="button" aria-label="Fechar camadas" title="Fechar">×</button>
+              </div>
+              <fieldset class="explorer-layer-picker">
+                <legend id="layers-legend">Tipos de registros</legend>
+                <label class="layer-row"><input type="checkbox" value="advertisement" checked><span class="layer-swatch layer-advertisement" aria-hidden="true"></span><span data-layer-title="advertisement">Anúncios</span><small data-layer-count="advertisement" aria-label="0">0</small></label>
+                <label class="layer-row"><input type="checkbox" value="platform" checked><span class="layer-swatch layer-platform" aria-hidden="true"></span><span data-layer-title="platform">Plataformas</span><small data-layer-count="platform" aria-label="0">0</small></label>
+                <label class="layer-row"><input type="checkbox" value="fair" checked><span class="layer-swatch layer-fair" aria-hidden="true"></span><span data-layer-title="fair">Feiras</span><small data-layer-count="fair" aria-label="0">0</small></label>
+                <label class="layer-row"><input type="checkbox" value="physical_market" checked><span class="layer-swatch layer-physical-market" aria-hidden="true"></span><span data-layer-title="physical_market">Vendedores físicos</span><small data-layer-count="physical_market" aria-label="0">0</small></label>
+              </fieldset>
+              <p id="layers-safety" class="layer-safety-note">Localização aproximada; informações revisadas, sem identificação pessoal.</p>
+            </aside>
+<div id="explorer-map"></div><aside id="explorer-map-card" class="explorer-map-card" hidden aria-live="polite" aria-labelledby="explorer-map-card-title"></aside><p id="explorer-map-notice"></p></div><div class="explorer-results"><div id="explorer-results-title"></div><div id="explorer-cards"></div></div></div>
+<section id="explorer-detail" hidden></section>
+</section>
+<script type="module">
+import {initExplorer,setExplorerLanguage,setMapPoints} from "../explorer.js";
+import {localizedField, localizedTitle} from "../record-locale.js";
+initExplorer([{
+id:"synthetic-demo",title:"Colônia anunciada de Testudo ficticia",scientific_name:"Testudo ficticia",
+source:"Synthetic demo",state:"Amazonas",municipality:"Manaus",country:"BR",
+latitude:-3.119,longitude:-60.0217,location_precision:"municipality",
+status:"Em revisão",category:"Anúncio comercial",product_type:"colonia_abelhas_sem_ferrao",description_pt:"Observação em português.",description_en:"Source description in English.",description_es:"Descripción de la fuente en español."
+}], "pt");
+window.__demoSetLanguage=setExplorerLanguage;
+window.__demoSetPoints=setMapPoints;
+window.__demoInit=initExplorer;
+window.__demoLocalized=(field,lang)=>localizedField({title:"Colônia anunciada de Testudo ficticia",scientific_name:"Testudo ficticia",status:"Em revisão",category:"Anúncio comercial",product_type:"colonia_abelhas_sem_ferrao"},field,lang);
+window.__demoReady=true;
+</script>
+</body></html>

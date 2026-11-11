@@ -1,0 +1,17 @@
+/* Citation surfaces inherit the existing palette and remain in normal flow. */
+.observatory-citation{min-width:0;font-size:12px;line-height:1.5;color:var(--muted);overflow-wrap:anywhere}
+.observatory-citation h3{font-size:13px;line-height:1.4;margin:0 0 8px;color:var(--ink)}
+.observatory-citation p{margin:0 0 12px}
+.observatory-citation a{color:var(--blue);text-underline-offset:3px}
+.observatory-copy{max-width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:7px;background:transparent;color:var(--ink);cursor:pointer;font-size:12px}
+.observatory-copy:hover{background:var(--panel)}
+.observatory-citation :is(button,a):focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.observatory-copy-status{display:block;margin-top:6px;font-size:12px}
+#sidebarCitation{margin:18px 0;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+#mobileCitation{display:none}
+.reports-modal .observatory-citation{font-size:14px;color:var(--reports-muted);padding:0 0 22px;margin:0 0 24px;border-bottom:1px solid var(--reports-line)}
+.reports-modal .observatory-citation h3{font-size:16px;color:var(--reports-green);margin:0 40px 10px 0}
+.reports-modal .observatory-citation a{color:var(--reports-green)}
+.reports-modal .observatory-copy{color:var(--reports-green);border-color:var(--reports-line);font-size:14px}
+.reports-modal .observatory-copy:hover{background:#eaf1eb}
+@media(max-width:900px){#mobileCitation{display:block;margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}}

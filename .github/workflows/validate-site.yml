@@ -1,0 +1,31 @@
+name: Validate independent Observatory
+on:
+  pull_request:
+    paths: ['web/**', 'firebase/**', 'scripts/*site*', 'scripts/check_migration.py', 'docs/migration/**', '.github/workflows/validate-site.yml']
+  push:
+    branches: ['migration/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python scripts/case_store.py validate --root cases
+      - run: python scripts/build_site.py && python scripts/check_migration.py
+      - run: python scripts/test_site.py
+      - run: find web firebase/functions -name '*.js' -print0 | xargs -0 -n1 node --check
+      - run: node --test web/restricted/tests/restricted-period-export.test.mjs web/restricted/tests/explorer-viewport.test.mjs web/restricted/tests/scientific-format.test.mjs
+      - run: node firebase/tests/graph-mail.test.cjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: independent-observatory
+          path: build/site
+          retention-days: 14

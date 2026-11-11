@@ -1,0 +1,129 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function verified(){return request.auth != null && request.auth.token.email_verified == true;}
+  function accessPath(){return /databases/$(database)/documents/access/$(request.auth.uid);}
+  function approved(){return verified() && exists(accessPath()) && get(accessPath()).data.approved == true;}
+  function administrator(){return approved() && request.auth.token.email == 'acarvalho@wcs.org' && get(accessPath()).data.admin == true;}
+  match /access/{uid} {
+   allow get: if verified() && request.auth.uid == uid;
+   allow list, create, update, delete: if false;
+  }
+  // Applicant owns one request, keyed by their Firebase Authentication UID.
+  // Administrative approval remains server-side, and the applicant cannot self-approve.
+  match /access_requests/{uid} {
+    function validApplication() {
+      let r = request.resource.data;
+      return r.keys().hasOnly(['email','institution','justification','status','created_at','updated_at'])
+        && r.keys().hasAll(['email','institution','justification','status','created_at','updated_at'])
+        && request.auth != null && request.auth.uid == uid
+        && request.auth.token.email is string
+        && r.email == request.auth.token.email
+        && r.institution is string && r.institution.size() >= 3 && r.institution.size() <= 160
+        && r.justification is string && r.justification.size() >= 20 && r.justification.size() <= 1500
+        && r.status == 'pending'
+        && r.created_at == request.time && r.updated_at == request.time;
+    }
+    allow create: if verified() && validApplication();
+    allow get: if administrator() || (verified() && request.auth.uid == uid);
+    allow list: if administrator();
+    allow update, delete: if false;
+  }
+  match /records/{id} {
+   allow get, list: if approved();
+   allow create, update, delete: if false;
+  }
+  // Separate per-user, per-report entitlement. No public catalog.
+  // Administrators provision grants via trusted Firebase Admin SDK only.
+  match /intelligence_reports/{reportId} {
+    allow get: if administrator() || (approved()
+      && exists(/databases/$(database)/documents/report_grants/$(request.auth.uid)/items/$(reportId))
+      && get(/databases/$(database)/documents/report_grants/$(request.auth.uid)/items/$(reportId)).data.allowed == true);
+    allow list, create, update, delete: if false;
+  }
+  match /report_grants/{uid} {
+    allow get: if approved() && request.auth.uid == uid;
+    allow list, create, update, delete: if false;
+    match /items/{reportId} {
+      allow get: if approved() && request.auth.uid == uid;
+      allow list: if approved() && request.auth.uid == uid;
+      allow create, update, delete: if false;
+    }
+  }
+  // Only administrators may curate map points. Published points use approximate locations.
+  match /map_points/{id} {
+   function validPoint() {
+    let p = request.resource.data;
+    return p.keys().hasOnly(['layer_type','title','scientific_name','country','state','municipality','latitude','longitude','location_precision','evidence_status','source_url','notes','title_pt','title_en','title_es','description_pt','description_en','description_es','published','created_at','created_by','updated_at','updated_by'])
+      && p.keys().hasAll(['layer_type','title','scientific_name','country','state','municipality','latitude','longitude','location_precision','evidence_status','source_url','notes','published','created_at','created_by','updated_at','updated_by'])
+      && p.layer_type in ['advertisement','platform','fair','physical_market']
+      && p.title is string && p.title.size() >= 5 && p.title.size() <= 180
+      && p.scientific_name is string && p.scientific_name.size() <= 180
+      && p.country is string && p.country.size() <= 100
+      && p.state is string && p.state.size() <= 120
+      && p.municipality is string && p.municipality.size() <= 120
+      && p.latitude is number && p.latitude >= -85 && p.latitude <= 85
+      && p.longitude is number && p.longitude >= -180 && p.longitude <= 180
+      && p.location_precision in ['municipality','regional','state','country']
+      && p.evidence_status in ['reported','corroborated']
+      && p.source_url is string && p.source_url.size() <= 1500
+      && (p.source_url == '' || p.source_url.matches('^https://[^ ]+$'))
+      && p.notes is string && p.notes.size() <= 1500
+      && p.title_pt is string && p.title_pt.size() <= 180
+      && p.title_en is string && p.title_en.size() <= 180
+      && p.title_es is string && p.title_es.size() <= 180
+      && p.description_pt is string && p.description_pt.size() <= 1500
+      && p.description_en is string && p.description_en.size() <= 1500
+      && p.description_es is string && p.description_es.size() <= 1500
+      && (!p.published || (p.title_pt.size() >= 5 && p.title_en.size() >= 5 && p.title_es.size() >= 5 && p.description_pt.size() > 0 && p.description_en.size() > 0 && p.description_es.size() > 0))
+      && p.published is bool && (!p.published || p.evidence_status == 'corroborated')
+      && p.updated_at == request.time && p.updated_by == request.auth.uid;
+   }
+   allow get, list: if approved() && (administrator() || resource.data.published == true);
+   allow create: if administrator() && validPoint()
+     && request.resource.data.created_at == request.time
+     && request.resource.data.created_by == request.auth.uid;
+   allow update: if administrator() && validPoint()
+     && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['layer_type','title','scientific_name','country','state','municipality','latitude','longitude','location_precision','evidence_status','source_url','notes','title_pt','title_en','title_es','description_pt','description_en','description_es','published','updated_at','updated_by']);
+   allow delete: if false;
+  }
+  match /submissions/{id} {
+   allow get: if approved() && (resource.data.owner_uid == request.auth.uid || administrator());
+   allow list: if approved() && (administrator() || resource.data.owner_uid == request.auth.uid);
+   allow create: if approved()
+     && request.resource.data.keys().hasOnly(['owner_uid','type','title','url','species','location','details','status','review_note','created_at','updated_at'])
+     && request.resource.data.keys().hasAll(['owner_uid','type','title','url','species','location','details','status','review_note','created_at','updated_at'])
+     && request.resource.data.owner_uid == request.auth.uid
+     && request.resource.data.type in ['platform','advertisement','group','fair','physical_market','other']
+     && request.resource.data.title is string && request.resource.data.title.size() > 2 && request.resource.data.title.size() <= 180
+     && request.resource.data.url is string && request.resource.data.url.size() <= 1500
+     && (request.resource.data.url.matches('^https://[^ ]+$') || ((request.resource.data.type in ['fair','physical_market','other']) && request.resource.data.url == ''))
+     && request.resource.data.species is string && request.resource.data.species.size() <= 180
+     && request.resource.data.location is string && request.resource.data.location.size() <= 180
+     && request.resource.data.details is string && request.resource.data.details.size() <= 3000
+     && request.resource.data.status == 'received'
+     && request.resource.data.review_note == ''
+     && request.resource.data.created_at == request.time
+     && request.resource.data.updated_at == request.time;
+   allow update: if administrator()
+     && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','review_note','updated_at'])
+     && request.resource.data.status in ['received','triage','checking','investigating','resolved','closed']
+     && request.resource.data.review_note is string && request.resource.data.review_note.size() <= 1500
+     && request.resource.data.updated_at == request.time;
+   allow delete: if false;
+   match /history/{entryId} {
+     allow get, list: if approved() &&
+       (get(/databases/$(database)/documents/submissions/$(id)).data.owner_uid == request.auth.uid || administrator());
+     allow create: if administrator()
+       && request.resource.data.keys().hasOnly(['status','note','created_at','actor_uid'])
+       && request.resource.data.keys().hasAll(['status','note','created_at','actor_uid'])
+       && request.resource.data.status in ['received','triage','checking','investigating','resolved','closed']
+       && request.resource.data.note is string && request.resource.data.note.size() <= 1500
+       && request.resource.data.actor_uid == request.auth.uid
+       && request.resource.data.created_at == request.time;
+     allow update, delete: if false;
+   }
+  }
+  match /{document=**}{allow read,write: if false;}
+ }
+}

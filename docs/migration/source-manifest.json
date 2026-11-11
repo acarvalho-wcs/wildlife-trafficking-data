@@ -1,0 +1,522 @@
+{
+  "date": "2026-11-11",
+  "sources": {
+    "sites-source": "05916d1fe3d1f2384dce73d6fff7b225e606f48e",
+    "research-source": "2dc78ae2069748702cc3fd3f13ef00d9101f24ae",
+    "reportage-source": "2b9f5e85a8674ecf0c908a8444b15e411ee342cf",
+    "restricted-source": "b35c1b7a51046e6c74ac5d5c01bbb60284c2ee16"
+  },
+  "url_only_changes": [
+    "web/research/index.html",
+    "web/restricted/secure.html",
+    "web/reportage/index.html",
+    "web/observatory/index.html",
+    "web/observatory/assets/js/publications-page.js",
+    "web/observatory/assets/js/observatory-analytics-events.js",
+    "web/observatory/how-it-works.html",
+    "web/observatory/publications.html"
+  ],
+  "files": [
+    {
+      "path": "web/observatory/news-data.js",
+      "sha256": "b01a636cdf3c260e11fbc0fc3d2b31f912f8274ec82af18f789ba3ff0d8422a7"
+    },
+    {
+      "path": "web/observatory/temporal-filter.js",
+      "sha256": "804433ffb55ac95226565007b94314ef5e7c59a9a2e7d95e86e6bc97438993ca"
+    },
+    {
+      "path": "web/observatory/globe-data.js",
+      "sha256": "96b10377459c8ccbbaf4bc67d722b1b5187de1765238d5ad5aa36d5ca7af9ba1"
+    },
+    {
+      "path": "web/observatory/observatory-citation.css",
+      "sha256": "95ff56943cc7234cd0dcb1611160a7633e9b16dd299ee019b8693e438baea4d9"
+    },
+    {
+      "path": "web/observatory/route-map.js",
+      "sha256": "0ef6e6f9b97a5ce9e8272086c2c855d86fa432d4a851958107959ba4fa6b89e0"
+    },
+    {
+      "path": "web/observatory/case-media.css",
+      "sha256": "ba83cf56b5fc74017d9910c174173344896f41015fad7bd0503a6bb06794b642"
+    },
+    {
+      "path": "web/observatory/observatory-safari-20261018.svg",
+      "sha256": "d8cab299732565b7406ebc4e9aca3d9e9686a27523e7a953676b0d0a806ec4f9"
+    },
+    {
+      "path": "web/observatory/globe-view.css",
+      "sha256": "c9b92f13c9136a92d29442c9bc935db90db0d1918356b37c21043427e79c7502"
+    },
+    {
+      "path": "web/observatory/institutional-reports.css",
+      "sha256": "43d4b64dea55a106a8b79e1a4993ae72d341868467915dc2da649e4da1519ebd"
+    },
+    {
+      "path": "web/observatory/globe-view.js",
+      "sha256": "af4091376a76f5f6b01154f4e61135cd9d167b7760484ccd53034273b59daaba"
+    },
+    {
+      "path": "web/observatory/observatory-citation.js",
+      "sha256": "858af46d7174b21bc64cd42ab7607c9cee105dd479ff7fb09c5791cf60a55f9b"
+    },
+    {
+      "path": "web/observatory/index.html",
+      "sha256": "2613034cce568931fd4e41c38b63c9b5f88336f4bc15254adbe72dd1c5c8c368"
+    },
+    {
+      "path": "web/observatory/observatory-logo.png",
+      "sha256": "3304fafce300a838a168ec15d758d8efe6ed957179f57d0d86fe538e0c6d7415"
+    },
+    {
+      "path": "web/observatory/case-context.js",
+      "sha256": "ab241448b28f4b056d93ffbbc6f6e80ba496ea11a323378ba394b0ad19d0dff6"
+    },
+    {
+      "path": "web/observatory/translations.js",
+      "sha256": "9a0b5e999de7af37bb474357a0045d61541df942237bec6675c62c4f77e3d76e"
+    },
+    {
+      "path": "web/observatory/favicon.ico",
+      "sha256": "dc1841e76430adb717facdf685d35a97ce3708cc5043a2b5478fc28e331c6c91"
+    },
+    {
+      "path": "web/observatory/reptile-silhouette.png",
+      "sha256": "5ce728fcd6bf54f2321638fe33df3ef78ccc5ebfba300404eda8dc508737eb2b"
+    },
+    {
+      "path": "web/observatory/maplibre-surface.js",
+      "sha256": "b563a292f93ea02bd15d9d0177fb73b811fb37fa239075d6beab68886bec8576"
+    },
+    {
+      "path": "web/observatory/case-media-data.js",
+      "sha256": "fad4a2c59e934defd7fd61622f97fd328693a72cfaa10da38d522739e22d8351"
+    },
+    {
+      "path": "web/observatory/amphibian-silhouette.png",
+      "sha256": "734f37172196ed03ff65317f27f783150508327d3d2ebe829d7c022c12d3f390"
+    },
+    {
+      "path": "web/observatory/documented-routes.js",
+      "sha256": "2cb4fee0007116b13eef6d457f30a1ad528dc2a5c62d8689d7a86f4b3805c2a9"
+    },
+    {
+      "path": "web/observatory/scientific-text.js",
+      "sha256": "e80499f952f9aba31e2be5e14ef33254f07119f0447c5af7908c44e54c54f565"
+    },
+    {
+      "path": "web/observatory/case-media.js",
+      "sha256": "824368ee2231ed3c04129f5073c418acd6950b9e7e57469e89f3e8220284db62"
+    },
+    {
+      "path": "web/observatory/observatory-apple-20261018b.png",
+      "sha256": "f7486cb04c6f5bc829f684eda9b3c88809569e9f9babb2643339b6ada4362175"
+    },
+    {
+      "path": "web/observatory/observatory-favicon-dc1841e7.ico",
+      "sha256": "dc1841e76430adb717facdf685d35a97ce3708cc5043a2b5478fc28e331c6c91"
+    },
+    {
+      "path": "web/observatory/temporal-core.js",
+      "sha256": "a3ec8f6a3da326d9731e7e110ae83d5c14491b0869cdb679d13227ee0cd0952e"
+    },
+    {
+      "path": "web/observatory/weekly-reports.css",
+      "sha256": "8db9061735b96e1ba82a963cd14c02e07ddf81cab0265e6b4df5391e579ef29b"
+    },
+    {
+      "path": "web/observatory/observatory-icon-16.png",
+      "sha256": "c3761b959ee6bb2bcbc09cdc0cf43d7b8c925e45f6c8ff662b0a3c6a787470fc"
+    },
+    {
+      "path": "web/observatory/publications.html",
+      "sha256": "77450a0fff4d5d95335a2187bb2fd109128dd133849f40a24517560612b3accf"
+    },
+    {
+      "path": "web/observatory/live-search.js",
+      "sha256": "6b12ec92ace2c9fc85f5087d81e70c8b59dd7dc650772ead87b1fdf37be7b210"
+    },
+    {
+      "path": "web/observatory/temporal-filter.css",
+      "sha256": "f7bae66b25e053ce8c3d4b3a38d11c13ffb658fc859ae997f447de49a8230b74"
+    },
+    {
+      "path": "web/observatory/how-it-works.html",
+      "sha256": "e3d7b3bfb5a9f804999e4c4260fe9d8dc6e0eb983ee3ece4c87579f87d434745"
+    },
+    {
+      "path": "web/observatory/institutional-reports.js",
+      "sha256": "29c0d7d222e1b5dfb05075600d28d2f9be7f3718bd12924a4801170072a68b82"
+    },
+    {
+      "path": "web/observatory/observatory-icon-48.png",
+      "sha256": "f3a340525b51373c0be99b5fd8b98a86d47c466316f75725f0b95a9a6ea1511f"
+    },
+    {
+      "path": "web/observatory/recent-pulse.js",
+      "sha256": "588faecf05167140716b07e520d53c48ea69e7e7a8b5db529251aea067d6ec8b"
+    },
+    {
+      "path": "web/observatory/live.js",
+      "sha256": "f58fd90480e6eee06eaf8bf2a80aa2769a9a4075153bd2b86e691dfc3189dd02"
+    },
+    {
+      "path": "web/observatory/weekly-reports-data.js",
+      "sha256": "9b760c8b732a8149b1265140ce8cebee4a61b6c603e3a28b623ee06c41073c0a"
+    },
+    {
+      "path": "web/observatory/observatory-icon-32.png",
+      "sha256": "77855e31c29e2b7e3d51c4e8f377631ae145f3cc6cdd0d58fc7f90bd28c96e2f"
+    },
+    {
+      "path": "web/observatory/recent-pulse.css",
+      "sha256": "6c107b0ca9d5c159d16568046a95ab9f147166aadaae661b3ea532538d27c03a"
+    },
+    {
+      "path": "web/observatory/live-search.css",
+      "sha256": "4addfef25fd31453b62fdcad6e493e348faa5ee7506913f9c08d54beab928263"
+    },
+    {
+      "path": "web/observatory/wcs-brasil.png",
+      "sha256": "66c284c9c9235e8d0d6836d2b48ded216d47ce3726ccb2eb3a01b482d7b1a8f7"
+    },
+    {
+      "path": "web/observatory/weekly-reports.js",
+      "sha256": "ecc7ab3255bb65be63270842ea7d01ad2369bd4c2c5759fe035aa9bc3748d8ef"
+    },
+    {
+      "path": "web/observatory/observatory-icon-180.png",
+      "sha256": "f7486cb04c6f5bc829f684eda9b3c88809569e9f9babb2643339b6ada4362175"
+    },
+    {
+      "path": "web/observatory/observatory-favicon-77855e31.png",
+      "sha256": "77855e31c29e2b7e3d51c4e8f377631ae145f3cc6cdd0d58fc7f90bd28c96e2f"
+    },
+    {
+      "path": "web/observatory/assets/js/publications-page.js",
+      "sha256": "83de4e998550a96cc0938b8ea0c0bf7793ebb9149770ee9178a7c4290ecac5c9"
+    },
+    {
+      "path": "web/observatory/assets/js/how-it-works-page.js",
+      "sha256": "f290b46249181a9093b051dde42d2675950cac3bbef0d9ab754777b3a2719542"
+    },
+    {
+      "path": "web/observatory/assets/js/observatory-analytics-events.js",
+      "sha256": "41634938e12a38c1ad97e3f89a62203e4c0607f699cdd0435a49e3d9daa4db34"
+    },
+    {
+      "path": "web/observatory/assets/js/publications-data.js",
+      "sha256": "b9090dfc59f04db8f3e2b3bf230e1388f641b02d236871a103fc8607ca2a61e3"
+    },
+    {
+      "path": "web/observatory/assets/js/how-it-works-link.js",
+      "sha256": "b1ca11e5e01f7fb4138529dedd74527f50c39d287d7a8fbe6460403d2e1c2fcc"
+    },
+    {
+      "path": "web/observatory/assets/js/interface-theme.js",
+      "sha256": "8c539a43cde60692599b0344c9d1135359351f9f3f64bcb589ab5957cf270f10"
+    },
+    {
+      "path": "web/observatory/assets/js/how-it-works.js",
+      "sha256": "57fe66a41f48c0bbc7e70ec57b2270eeb9161cbf0f82694b9b7aa35a0ce1457a"
+    },
+    {
+      "path": "web/observatory/assets/js/observatory-analytics.js",
+      "sha256": "35a631069b2e821bfa235e23232e8c5a9d0ee1852dacbb2c7eac9473d811a516"
+    },
+    {
+      "path": "web/observatory/assets/js/growth-history-seed.js",
+      "sha256": "a972e00324948bda7e8c72486e665d510172343e2781fd9a57a5387f1e40093e"
+    },
+    {
+      "path": "web/observatory/assets/js/growth-history.js",
+      "sha256": "92d715cf5e1a351ef3a6a98032650ec555db226f3b27dd817850db8193ff3899"
+    },
+    {
+      "path": "web/observatory/assets/js/restricted-area-nav.js",
+      "sha256": "7fc6987a439c2a87b67dde3ba080a3d9110dd048f361b205cd034c0f7c6ce1e9"
+    },
+    {
+      "path": "web/observatory/assets/js/leaflet-maplibre-gl.js",
+      "sha256": "1c33367962e7755c1a16d1f85658fdc96b5baa36f81adfca9493174cd1b526ce"
+    },
+    {
+      "path": "web/observatory/assets/js/publications-nav.js",
+      "sha256": "cbfc3b23f6b576367272fd59bf3190720561d84215cfdf29f5b4287414e9bb0b"
+    },
+    {
+      "path": "web/observatory/assets/css/interface-theme.css",
+      "sha256": "45d56322bde2d73bb92d1e7ce75aebb3bb9d14e07bf1f1a52a2035229aacb751"
+    },
+    {
+      "path": "web/observatory/assets/css/publications-page.css",
+      "sha256": "cc63efa56d45f54f2f8648ecf9ad628f2103565cc79767659903ba50bd398ffc"
+    },
+    {
+      "path": "web/observatory/assets/css/dashboard-charts.css",
+      "sha256": "c022e2af03e29405dd538521989f7d9bfe918c4c3a357a2dd05c8655f31c5e9a"
+    },
+    {
+      "path": "web/observatory/assets/css/how-it-works-page.css",
+      "sha256": "c4410fdc47951c2aa9cf86751276dab70ca38ad6a126d7e2d607a5867ddf0196"
+    },
+    {
+      "path": "web/observatory/assets/css/observatory-brand.css",
+      "sha256": "996263ef0f4b985e955b7362fbfc6e9fc5444369523b5288f1c8e4b26ffde687"
+    },
+    {
+      "path": "web/observatory/assets/css/how-it-works-link.css",
+      "sha256": "c3c79e1ff9346b6167d12ea432e0f496ea3b2c47eb6b00404bbaef80652b1025"
+    },
+    {
+      "path": "web/research/index.html",
+      "sha256": "b1506c111e30f4a65aafd7ba4948fe87fc3339fcd7e28d7a29cb36d26efd611c"
+    },
+    {
+      "path": "web/research/favicon.ico",
+      "sha256": "dc1841e76430adb717facdf685d35a97ce3708cc5043a2b5478fc28e331c6c91"
+    },
+    {
+      "path": "web/research/style.css",
+      "sha256": "6cdaf3d1b568a3b0ad4e48e2a319cd0d03ecb73dd51863e5fbc2e7faae797ae5"
+    },
+    {
+      "path": "web/research/observatory-icon-16.png",
+      "sha256": "c3761b959ee6bb2bcbc09cdc0cf43d7b8c925e45f6c8ff662b0a3c6a787470fc"
+    },
+    {
+      "path": "web/research/observatory-icon-48.png",
+      "sha256": "f3a340525b51373c0be99b5fd8b98a86d47c466316f75725f0b95a9a6ea1511f"
+    },
+    {
+      "path": "web/research/observatory-icon-32.png",
+      "sha256": "77855e31c29e2b7e3d51c4e8f377631ae145f3cc6cdd0d58fc7f90bd28c96e2f"
+    },
+    {
+      "path": "web/research/wcs-brasil.png",
+      "sha256": "66c284c9c9235e8d0d6836d2b48ded216d47ce3726ccb2eb3a01b482d7b1a8f7"
+    },
+    {
+      "path": "web/research/app.js",
+      "sha256": "7f112937d0c351df45bebac3bd133379d769b5346769b173d97528bde48caeee"
+    },
+    {
+      "path": "web/research/observatory-icon-180.png",
+      "sha256": "f7486cb04c6f5bc829f684eda9b3c88809569e9f9babb2643339b6ada4362175"
+    },
+    {
+      "path": "web/reportage/index.html",
+      "sha256": "09f1a2ccf0112820070a304265ad4651111638985419b2a15cb85bb9f691c8af"
+    },
+    {
+      "path": "web/reportage/favicon.ico",
+      "sha256": "dc1841e76430adb717facdf685d35a97ce3708cc5043a2b5478fc28e331c6c91"
+    },
+    {
+      "path": "web/reportage/style.css",
+      "sha256": "b59a8b760bd53bf441057eb240999d0938acfb9a70b0c502fe2980b21b7d2d38"
+    },
+    {
+      "path": "web/reportage/observatory-icon-16.png",
+      "sha256": "c3761b959ee6bb2bcbc09cdc0cf43d7b8c925e45f6c8ff662b0a3c6a787470fc"
+    },
+    {
+      "path": "web/reportage/observatory-icon-48.png",
+      "sha256": "f3a340525b51373c0be99b5fd8b98a86d47c466316f75725f0b95a9a6ea1511f"
+    },
+    {
+      "path": "web/reportage/observatory-icon-32.png",
+      "sha256": "77855e31c29e2b7e3d51c4e8f377631ae145f3cc6cdd0d58fc7f90bd28c96e2f"
+    },
+    {
+      "path": "web/reportage/wcs-brasil.png",
+      "sha256": "66c284c9c9235e8d0d6836d2b48ded216d47ce3726ccb2eb3a01b482d7b1a8f7"
+    },
+    {
+      "path": "web/reportage/app.js",
+      "sha256": "c7a1941191cf564b5daaf120a5453345223cb1cd06e4b9c2a825255fda4ee76b"
+    },
+    {
+      "path": "web/reportage/observatory-icon-180.png",
+      "sha256": "f7486cb04c6f5bc829f684eda9b3c88809569e9f9babb2643339b6ada4362175"
+    },
+    {
+      "path": "web/restricted/firebase-config.js",
+      "sha256": "5f8fdea3031a2c7fe901cd4c0faee439fee58e452b46e8c2823869f1035b60b3"
+    },
+    {
+      "path": "web/restricted/styles.css",
+      "sha256": "bee1381df9d8563909d7ea2921312f348fcf858aa91b71468cb233a0faaae515"
+    },
+    {
+      "path": "web/restricted/index.html",
+      "sha256": "f055be1e2d23bea75adba65c125d7a6a82fbf478b968a96bc9eb619a84d026bb"
+    },
+    {
+      "path": "web/restricted/secure.html",
+      "sha256": "d9197d42117227305916c00a6d90c15cbd519a40f18a17f8d9b01932665797f6"
+    },
+    {
+      "path": "web/restricted/restricted-period-export.js",
+      "sha256": "46bd70598dd0f2035e0d8193f9798dcdd3cc879f613c0b466c6cda08a64570ce"
+    },
+    {
+      "path": "web/restricted/explorer-viewport.js",
+      "sha256": "e73b2cd02e87624529846b7300b8c73def6f742877f48906a161fd644c53e3c9"
+    },
+    {
+      "path": "web/restricted/secure.js",
+      "sha256": "a4734ba8dfe11f19e6410f358594c30fed0815f00d14b14c61bc40bc64598c2a"
+    },
+    {
+      "path": "web/restricted/explorer.js",
+      "sha256": "c46a8b6306879b90d08d7e01588b7fb9d5986eba68733cabeb4bc9565530afa4"
+    },
+    {
+      "path": "web/restricted/map-points.js",
+      "sha256": "ca1d46f37354ae95ecd2799cdbc51f3b504795f146a5c6650ce27354270eee10"
+    },
+    {
+      "path": "web/restricted/restricted-shell-v3.css",
+      "sha256": "aa48b1bdf964bba31bf385becb1ebd0fa1fdfe6c9e0ca41c36be90c07e75a8d6"
+    },
+    {
+      "path": "web/restricted/intake.js",
+      "sha256": "adf344b53716658f0178c3bb42d1f2e563f733fbdb6cab8b9db72ae5e2fd1559"
+    },
+    {
+      "path": "web/restricted/record-locale.js",
+      "sha256": "81be0386f5cd2a3ce8bb160c6945c4706ce53f1ed393fb7efc2865a4702f91b8"
+    },
+    {
+      "path": "web/restricted/scientific-format.js",
+      "sha256": "a38266fb53a268b4e45eb36a1e3a229db0be2df64cd12fdebd8f6b6bfba0432e"
+    },
+    {
+      "path": "web/restricted/secure.css",
+      "sha256": "37caf15aef4d1685ae3d8350ae2b2c85eb7e46881c4bbc85d53e78c49c82b21a"
+    },
+    {
+      "path": "web/restricted/app.js",
+      "sha256": "20c4f3fc20aeade21448c176ae14e0003938136b35e4bbb963cce5e5dd3cbe5c"
+    },
+    {
+      "path": "web/restricted/assets/Logo_observat.png",
+      "sha256": "bcfdff58dff000e6d2ecbb50892fa36ab1cfe6f4880074039a8a8cf551fc784c"
+    },
+    {
+      "path": "web/restricted/assets/observatory-safari-20261018.svg",
+      "sha256": "d8cab299732565b7406ebc4e9aca3d9e9686a27523e7a953676b0d0a806ec4f9"
+    },
+    {
+      "path": "web/restricted/assets/wcs-brasil-institucional.png",
+      "sha256": "b964fe8d9047a149c672d98fab697bfd22728270b9e93912acc868e64c638fc1"
+    },
+    {
+      "path": "web/restricted/assets/osint-framework-icon.svg",
+      "sha256": "32a650be741ef366cc390cee02fad9b54d8abcca9d5c5f3aa62c026481ecb7da"
+    },
+    {
+      "path": "web/restricted/assets/observatory-icon-safari-180.png",
+      "sha256": "f7486cb04c6f5bc829f684eda9b3c88809569e9f9babb2643339b6ada4362175"
+    },
+    {
+      "path": "web/restricted/assets/observatory-icon-16.png",
+      "sha256": "c3761b959ee6bb2bcbc09cdc0cf43d7b8c925e45f6c8ff662b0a3c6a787470fc"
+    },
+    {
+      "path": "web/restricted/assets/observatory-icon-safari-32.png",
+      "sha256": "77855e31c29e2b7e3d51c4e8f377631ae145f3cc6cdd0d58fc7f90bd28c96e2f"
+    },
+    {
+      "path": "web/restricted/assets/observatory-icon-48.png",
+      "sha256": "f3a340525b51373c0be99b5fd8b98a86d47c466316f75725f0b95a9a6ea1511f"
+    },
+    {
+      "path": "web/restricted/assets/observatory-icon-32.png",
+      "sha256": "77855e31c29e2b7e3d51c4e8f377631ae145f3cc6cdd0d58fc7f90bd28c96e2f"
+    },
+    {
+      "path": "web/restricted/assets/observatory-icon-180.png",
+      "sha256": "f7486cb04c6f5bc829f684eda9b3c88809569e9f9babb2643339b6ada4362175"
+    },
+    {
+      "path": "web/restricted/assets/geography/brazil_states.geojson",
+      "sha256": "735c0454841c3ea69e4e6bc3259cd4daeb98cd3baa9348ca0e717ea9ae1b7e84"
+    },
+    {
+      "path": "web/restricted/assets/geography/brazil_municipal_centers.csv",
+      "sha256": "b2c570223b2eec03ecb4b8624ce95b82bd8ba212a3d642a6ecf68aee0c1f148b"
+    }
+  ],
+  "image_metadata_changes": [
+    {
+      "path": "web/research/wcs-brasil.png",
+      "removed_chunks": [
+        "eXIf",
+        "iTXt",
+        "iDOT"
+      ],
+      "sha256": "40ccd5dd3f04fd848af1bda29fbd3bde43969bfb96b0efb9d089add150e675e9",
+      "pixels_identical": true
+    },
+    {
+      "path": "web/reportage/wcs-brasil.png",
+      "removed_chunks": [
+        "eXIf",
+        "iTXt",
+        "iDOT"
+      ],
+      "sha256": "40ccd5dd3f04fd848af1bda29fbd3bde43969bfb96b0efb9d089add150e675e9",
+      "pixels_identical": true
+    },
+    {
+      "path": "web/observatory/observatory-logo.png",
+      "removed_chunks": [
+        "eXIf",
+        "iTXt",
+        "iDOT"
+      ],
+      "sha256": "9fd8de0666b41c6c7a36fe37fe8335f470556ed76a9a4747bd1d307fe5b999b1",
+      "pixels_identical": true
+    },
+    {
+      "path": "web/observatory/reptile-silhouette.png",
+      "removed_chunks": [
+        "caBX"
+      ],
+      "sha256": "b48890aad0cc60938665cbe400ead32cb14a1778a60e3e0e59fe1df3eaf3e3c1",
+      "pixels_identical": true
+    },
+    {
+      "path": "web/observatory/amphibian-silhouette.png",
+      "removed_chunks": [
+        "caBX"
+      ],
+      "sha256": "31760c3094b26a33b948d595bace32063f6baffb9392121e2d9f8630cd3a78fd",
+      "pixels_identical": true
+    },
+    {
+      "path": "web/observatory/wcs-brasil.png",
+      "removed_chunks": [
+        "eXIf",
+        "iTXt",
+        "iDOT"
+      ],
+      "sha256": "40ccd5dd3f04fd848af1bda29fbd3bde43969bfb96b0efb9d089add150e675e9",
+      "pixels_identical": true
+    },
+    {
+      "path": "web/restricted/assets/wcs-brasil-institucional.png",
+      "removed_chunks": [
+        "tIME",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ],
+      "sha256": "7d39da68268a8dbfcf1f50ec89a172aa0e06c24a4f0e375932a93635f753be85",
+      "pixels_identical": true
+    }
+  ]
+}

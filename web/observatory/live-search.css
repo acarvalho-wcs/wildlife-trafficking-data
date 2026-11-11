@@ -1,0 +1,11 @@
+.filters .record-search{grid-column:1/-1;min-width:0}
+.record-search-control{display:flex;align-items:center;gap:8px;min-width:0}
+.record-search input{font:inherit;color:var(--ink);background:transparent;border:0;outline:0;width:100%;min-width:0;padding:5px 0;appearance:none}
+.record-search input::placeholder{color:var(--muted);opacity:1}
+.record-search input::-webkit-search-cancel-button{appearance:none}
+.record-search:focus-within{border-color:var(--muted)}
+.record-search button{font:inherit;font-size:20px;line-height:1;color:var(--muted);background:transparent;border:0;border-radius:6px;cursor:pointer;min-width:36px;min-height:32px;padding:4px}
+.record-search button:hover,.record-search button:focus-visible{color:var(--ink);outline:1px solid var(--muted)}
+.record-search button[hidden]{display:none}
+.record-search-count{color:var(--muted);font-size:12px;min-height:18px;margin-top:2px}
+@media(max-width:900px){.record-search input{font-size:16px}.record-search button{min-width:44px;min-height:44px}}
