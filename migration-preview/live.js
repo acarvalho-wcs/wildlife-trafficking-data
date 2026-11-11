@@ -42,18 +42,16 @@ function filterValue(e,key){return key==='species'?e.groups:key==='mode'?e.modeG
 function matchesFilter(e,key,value){return !value||(key==='species'?e.groups.includes(value):String(filterValue(e,key)??'')===value);}
 function filtered(period='visible'){return events.filter(e=>window.RecordSearch.matches(e)&&['country','species','year','mode'].every(k=>matchesFilter(e,k,$(k).value))&&(!window.ObservatoryTime||window.ObservatoryTime.matches(e,period)));}
 // Use the same live selection as every map/view; never keep an export data cache.
-function csvRows(){return filtered().map(raw=>{const e=record(raw);return {
+function exportRows(){return filtered().map(raw=>{const e=record(raw);return {
  case_id:e.case_id,date:e.eventDate||e.event_month||'',publication_date:e.publication_date||'',event_date_precision:e.event_date_precision||(e.eventDate?'day':'unknown'),
  country:e.country,location:e.city,latitude:e.lat,longitude:e.lng,geographic_note:e.geoNote||'',species:e.taxon||e.species,taxonomic_group:e.groups.map(term).join(' | '),quantity:quantity(e),
  transport_mode:e.mode,case_description:e.summary,case_context:e['context_'+lang]||'',source:e.source,source_url:e.url,status:e.status||e.context_status||'',added_at:e.added_at||'',context_updated_at:e.context_updated_at||'',
  record_type:e.record_type||'',aggregate_operation:e.aggregate_operation===true,context_references:e['references_text_'+lang]||e.references_text_pt||''
 };});}
-const csvColumns=['case_id','date','publication_date','event_date_precision','country','location','latitude','longitude','geographic_note','species','taxonomic_group','quantity','transport_mode','case_description','case_context','source','source_url','status','added_at','context_updated_at','record_type','aggregate_operation','context_references'];
-function csvCell(value){let s=String(value??'');if(typeof value==='string'&&/^[\s\uFEFF]*[=+@-]/u.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';}
-function csvText(){return '\uFEFFsep=,\r\n'+[csvColumns,...csvRows().map(row=>csvColumns.map(k=>row[k]))].map(row=>row.map(csvCell).join(',')).join('\r\n')+'\r\n';}
-function exportCsv(){
- const url=URL.createObjectURL(new Blob([csvText()],{type:'text/csv;charset=utf-8;'})),a=document.createElement('a');
- a.href=url;a.download='wildlife-trafficking-observatory_'+new Date().toISOString().slice(0,10)+'.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
+const exportColumns=['case_id','date','publication_date','event_date_precision','country','location','latitude','longitude','geographic_note','species','taxonomic_group','quantity','transport_mode','case_description','case_context','source','source_url','status','added_at','context_updated_at','record_type','aggregate_operation','context_references'];
+function exportXlsx(){
+ const headers=exportColumns,rows=exportRows().map(record=>headers.map(key=>record[key]));
+ window.ObservatoryXlsx.downloadWorkbook(headers,rows,'wildlife-trafficking-observatory_'+new Date().toISOString().slice(0,10)+'.xlsx','Eventos');
 }
 function popup(e){
   const t=messages[lang];
@@ -176,7 +174,7 @@ function render(){
 }
 function setup(){
  const t=messages[lang];document.documentElement.lang=locale();document.title=t.title;
- $('exportCsv').textContent=lang==='en'?'Export .csv':'Exportar .csv';
+ $('exportCsv').textContent=lang==='en'?'Export .xlsx':'Exportar .xlsx';
  document.querySelector('meta[name="description"]').content=t.subtitle;
  document.querySelectorAll('[data-t]').forEach(el=>{if(t[el.dataset.t])el.textContent=t[el.dataset.t];});
  for(const key of ['country','species','year','mode']){
@@ -199,7 +197,7 @@ function setup(){
 window.RecordSearch.init(render);
 window.RecordSearch.setCases(events);
 ['country','species','year','mode'].forEach(id=>$(id).addEventListener('change',render));
-$('exportCsv').onclick=exportCsv;
+$('exportCsv').onclick=exportXlsx;
 $('clear').onclick=()=>{['country','species','year','mode'].forEach(k=>$(k).value='');activeId=null;if(window.ObservatoryTime)window.ObservatoryTime.reset();else render();map.setView([14,5],2);};
 $('language').onchange=e=>{lang=messages[e.target.value]?e.target.value:'pt';setup();};
 document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',()=>switchView(el.dataset.view)));

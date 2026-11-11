@@ -1,5 +1,6 @@
 import {viewportSignature,needsViewportFit} from "./explorer-viewport.js";
-import {periodLabels,occurrenceOf,matchesPeriod,csvText} from "./restricted-period-export.js";
+import "../xlsx-export.js";
+import {periodLabels,occurrenceOf,matchesPeriod} from "./restricted-period-export.js";
 import {appendScientific,appendScientificTerm} from "./scientific-format.js";
 import { localizedField, localizedTitle, localizedDescription } from "./record-locale.js";
 
@@ -838,7 +839,7 @@ for(const id of Object.keys(controls))el("explorer-"+id).addEventListener("chang
 el("explorer-search").addEventListener("input",()=>render(true));
 el("explorer-reset").addEventListener("click",()=>{el("explorer-search").value="";for(const id of Object.keys(controls))el("explorer-"+id).value="";el("explorer-period").value="all";el("explorer-date-from").value="";el("explorer-date-to").value="";showPeriodDetails();render(true);});
 
-function exportFilteredCsv(){
+function exportFilteredXlsx(){
  const rows=newestFirst(dataset.filter(matches));
  if(!rows.length)return;
  // Export only already-authorized visible records, never raw Firestore/admin objects.
@@ -863,14 +864,12 @@ function exportFilteredCsv(){
   {label:"Contexto EN",value:r=>r.layer_type==="aurum"?aurumContextWithQuantity(r,r.description_en||""):r.description_en||""},
   {label:"Contexto ES",value:r=>r.layer_type==="aurum"?aurumContextWithQuantity(r,r.description_es||""):r.description_es||""}
  ];
- const csv=csvText(rows,columns);
- const blob=new Blob([csv],{type:"text/csv;charset=utf-8"});
- const url=URL.createObjectURL(blob),anchor=document.createElement("a");
  const now=new Date(),day=[now.getFullYear(),String(now.getMonth()+1).padStart(2,"0"),String(now.getDate()).padStart(2,"0")].join("-");
- anchor.href=url;anchor.download="area-restrita-registros-filtrados-"+day+".csv";
- anchor.style.display="none";document.body.append(anchor);anchor.click();anchor.remove();
- setTimeout(()=>URL.revokeObjectURL(url),1500);
+ window.ObservatoryXlsx.downloadWorkbook(
+  columns.map(c=>c.label),rows.map(r=>columns.map(c=>c.value(r))),
+  "area-restrita-registros-filtrados-"+day+".xlsx","Registros"
+ );
 }
-el("explorer-export-csv").addEventListener("click",exportFilteredCsv);
+el("explorer-export-csv").addEventListener("click",exportFilteredXlsx);
 el("explorer-period").addEventListener("change",()=>{showPeriodDetails();render(true);});
 for(const id of ["explorer-year","explorer-date-from","explorer-date-to"])el(id).addEventListener("change",()=>render(true));

@@ -1,9 +1,9 @@
-// Restricted dashboard: occurrence dates and CSV output, independent of ingestion dates.
+// Restricted dashboard: occurrence dates and filtered spreadsheet exports, independent of ingestion dates.
 // No Firestore access; callers pass only records already authorized by the app.
 export const periodLabels={
- pt:{period:"Período da ocorrência",all:"Todos os períodos",d7:"Últimos 7 dias",d30:"Últimos 30 dias",d90:"Últimos 90 dias",d365:"Últimos 12 meses",year:"Ano específico",custom:"Intervalo personalizado",undated:"Sem data de ocorrência",yearLabel:"Ano",from:"De",to:"Até",export:"Exportar CSV",title:"Exportar registros correspondentes aos filtros ativos"},
- en:{period:"Occurrence period",all:"All periods",d7:"Last 7 days",d30:"Last 30 days",d90:"Last 90 days",d365:"Last 12 months",year:"Specific year",custom:"Custom date range",undated:"Without occurrence date",yearLabel:"Year",from:"From",to:"To",export:"Export CSV",title:"Export records matching the active filters"},
- es:{period:"Período de ocurrencia",all:"Todos los períodos",d7:"Últimos 7 días",d30:"Últimos 30 días",d90:"Últimos 90 días",d365:"Últimos 12 meses",year:"Año específico",custom:"Intervalo personalizado",undated:"Sin fecha de ocurrencia",yearLabel:"Año",from:"Desde",to:"Hasta",export:"Exportar CSV",title:"Exportar registros según los filtros activos"}
+ pt:{period:"Período da ocorrência",all:"Todos os períodos",d7:"Últimos 7 dias",d30:"Últimos 30 dias",d90:"Últimos 90 dias",d365:"Últimos 12 meses",year:"Ano específico",custom:"Intervalo personalizado",undated:"Sem data de ocorrência",yearLabel:"Ano",from:"De",to:"Até",export:"Exportar .xlsx",title:"Exportar registros correspondentes aos filtros ativos"},
+ en:{period:"Occurrence period",all:"All periods",d7:"Last 7 days",d30:"Last 30 days",d90:"Last 90 days",d365:"Last 12 months",year:"Specific year",custom:"Custom date range",undated:"Without occurrence date",yearLabel:"Year",from:"From",to:"To",export:"Export .xlsx",title:"Export records matching the active filters"},
+ es:{period:"Período de ocurrencia",all:"Todos los períodos",d7:"Últimos 7 días",d30:"Últimos 30 días",d90:"Últimos 90 días",d365:"Últimos 12 meses",year:"Año específico",custom:"Intervalo personalizado",undated:"Sin fecha de ocurrencia",yearLabel:"Año",from:"Desde",to:"Hasta",export:"Exportar .xlsx",title:"Exportar registros según los filtros activos"}
 };
 const dateFields=["event_date","occurrence_date","date_of_occurrence","seizure_date","incident_date","observation_date","occurred_at","observed_at","eventDate","occurrenceDate","seizureDate","incidentDate","observationDate","date"];
 function dayMs(y,m,d){
