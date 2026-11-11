@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="theme-color" content="#0e1c1c">
+  <meta name="description" content="NIMF — visual demonstration without restricted data">
+  <title>NIMF | Wildlife Market Intelligence</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/observatory-icon-safari-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/observatory-icon-safari-180.png">
+<link rel="mask-icon" href="./assets/observatory-safari-20261018.svg" color="#0078bc">
+</head>
+<body data-theme="dark">
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="identity">
+        <div class="symbol" aria-hidden="true"><span>N</span></div>
+        <div><div class="identity-name">NIMF</div><div class="identity-sub">WILDLIFE INTELLIGENCE</div></div>
+      </div>
+      <div class="nav-caption" data-i18n="navCaption">PLATAFORMA / PRÉVIA</div>
+      <nav id="menu" aria-label="Sections">
+        <button class="menu-item active" data-page="overview" aria-current="page"><span aria-hidden="true" class="menu-symbol">▦</span><span data-i18n="overview">Visão geral</span></button>
+        <button class="menu-item" data-page="sources"><span aria-hidden="true" class="menu-symbol">▤</span><span data-i18n="sources">Fontes monitoradas</span></button>
+        <button class="menu-item" data-page="taxa"><span aria-hidden="true" class="menu-symbol">◈</span><span data-i18n="taxa">Espécies</span></button>
+        <button class="menu-item" data-page="listings"><span aria-hidden="true" class="menu-symbol">▥</span><span data-i18n="listings">Anúncios</span></button>
+        <button class="menu-item" data-page="observations"><span aria-hidden="true" class="menu-symbol">◎</span><span data-i18n="observations">Observações</span></button>
+        <button class="menu-item" data-page="method"><span aria-hidden="true" class="menu-symbol">≡</span><span data-i18n="method">Metodologia</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="security-light" aria-hidden="true"></span>
+        <span data-i18n="sidebarPrivacy">Dados reservados fora desta prévia</span>
+        <p data-i18n="sidebarHint">O acervo restrito permanece exclusivamente no repositório privado.</p>
+      </div>
+    </aside>
+    <div class="main">
+      <header class="topbar">
+        <button id="mobile-menu" class="mobile-menu icon-button" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <div class="path"><span>NIMF</span><span class="slash">/</span><span id="current-section">Visão geral</span></div>
+        <div class="header-actions">
+          <span class="preview-pill" data-i18n="previewPill">PRÉVIA PÚBLICA</span>
+          <label class="sr-only" for="language">Idioma</label>
+          <select id="language" aria-label="Language"><option value="pt">PT</option><option value="en">EN</option><option value="es">ES</option></select>
+          <button type="button" id="theme-toggle" class="icon-button theme-toggle" aria-label="Toggle theme" title="Light / dark">☼</button>
+        </div>
+      </header>
+      <main class="container">
+        <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">DEMONSTRAÇÃO DE INTERFACE · DESENVOLVIMENTO</span></div>
+        <div class="heading">
+          <div>
+            <h1 id="page-title">Painel de inteligência</h1>
+            <p id="page-description">Exploração de mercados e fontes abertas sobre fauna silvestre.</p>
+          </div>
+          <div class="build-label">NIMF <span>/</span> 01</div>
+        </div>
+        <section id="view-overview" class="view" aria-label="Overview">
+          <div class="metrics">
+            <article class="metric"><span data-i18n="metricSources">Fontes cadastradas</span><strong>02</strong><small data-i18n="metricSourcesDesc">Metadados públicos</small></article>
+            <article class="metric"><span data-i18n="metricTaxa">Espécies</span><strong>—</strong><small data-i18n="metricPending">Não exibidas nesta prévia</small></article>
+            <article class="metric"><span data-i18n="metricListings">Anúncios</span><strong>—</strong><small data-i18n="metricPending">Não exibidas nesta prévia</small></article>
+            <article class="metric"><span data-i18n="metricObs">Observações</span><strong>—</strong><small data-i18n="metricPending">Não exibidas nesta prévia</small></article>
+          </div>
+          <div class="two-columns">
+            <article class="panel progress-panel">
+              <span class="panel-tag" data-i18n="progressTag">01 / ESTRUTURA</span>
+              <h2 data-i18n="progressTitle">Inteligência de mercado</h2>
+              <p data-i18n="progressCopy">Ambiente de análise preparado para fontes, espécies, anúncios e observações. Registros reservados não são publicados nesta demonstração.</p>
+              <div class="progress-track"><span></span></div>
+              <div class="panel-foot"><span class="green-dot"></span><span data-i18n="progressFoot">Interface em elaboração</span></div>
+            </article>
+            <article class="panel map-panel">
+              <span class="panel-tag">02 / MAP · GLOBE</span>
+              <h2 data-i18n="mapTitle">Inteligência geoespacial</h2>
+              <div class="cartography" aria-hidden="true"><div class="map-orbit orbit-one"></div><div class="map-orbit orbit-two"></div><div class="map-cross">+</div><div class="map-line line-one"></div><div class="map-line line-two"></div></div>
+              <p data-i18n="mapCopy">Módulo futuro. Nenhuma posição, rota ou ocorrência é inferida nesta prévia.</p>
+            </article>
+          </div>
+          <article class="panel">
+            <div class="panel-header"><div><h2 data-i18n="sourceTitle">Fontes-piloto</h2><p data-i18n="sourceSubtitle">Apenas informações institucionais publicamente verificáveis.</p></div><span class="counter">02</span></div>
+            <div id="overview-source-table"></div>
+          </article>
+        </section>
+        <section id="view-sources" class="view" hidden>
+          <article class="panel">
+            <div class="panel-header"><div><h2 data-i18n="sourceTitle">Fontes-piloto</h2><p data-i18n="sourceSubtitle">Apenas informações institucionais publicamente verificáveis.</p></div><span class="counter">02</span></div>
+            <div class="filter-bar">
+              <label class="sr-only" for="source-search">Search</label>
+              <input id="source-search" type="search" placeholder="Pesquisar fontes" autocomplete="off">
+              <label class="sr-only" for="source-filter">Filter</label>
+              <select id="source-filter"><option value="all" data-i18n="allTypes">Todos os tipos</option><option value="marketplace" data-i18n="marketplace">Marketplace</option><option value="directory" data-i18n="directory">Diretório</option></select>
+            </div>
+            <div id="full-source-table"></div>
+          </article>
+        </section>
+        <section id="view-taxa" class="view" hidden><div class="empty-state"><div class="empty-symbol">◇</div><h2 data-i18n="noTaxaTitle">Catálogo de espécies</h2><p data-i18n="noTaxaCopy">A taxonomia permanece no repositório privado e não é carregada no site demonstrativo.</p></div></section>
+        <section id="view-listings" class="view" hidden><div class="empty-state"><div class="empty-symbol">▥</div><h2 data-i18n="noListingsTitle">Registros comerciais</h2><p data-i18n="noListingsCopy">Nenhum anúncio individual ou informação de negociação é exposto nesta prévia.</p></div></section>
+        <section id="view-observations" class="view" hidden><div class="empty-state"><div class="empty-symbol">◎</div><h2 data-i18n="noObsTitle">Observações de mercado</h2><p data-i18n="noObsCopy">A consulta aos registros verificados continuará restrita ao GitHub privado.</p></div></section>
+        <section id="view-method" class="view" hidden>
+          <article class="panel reading"><span class="panel-tag" data-i18n="methodTag">CONTEXTO E CRITÉRIOS</span><h2 data-i18n="methodTitle">Evidência antes de inferência</h2>
+            <p data-i18n="methodCopy">O NIMF diferencia plataformas, espécies, anúncios comerciais, observações e eventos criminais documentados. A presença de um produto em uma plataforma não demonstra ilegalidade.</p>
+            <div class="method-grid"><div><b>[O]</b><span data-i18n="refO">Oficiais</span></div><div><b>[S]</b><span data-i18n="refS">Científicas</span></div><div><b>[N]</b><span data-i18n="refN">Notícias</span></div><div><b>[I]</b><span data-i18n="refI">Institucionais</span></div><div><b>[M]</b><span data-i18n="refM">Mercado</span></div></div>
+            <p data-i18n="methodPrivacy">Esta é uma demonstração pública sem dados reservados. Os conjuntos canônicos ficam no repositório privado do GitHub e não são carregados no navegador.</p>
+          </article>
+        </section>
+        <footer><span>NIMF · WILDLIFE MARKET INTELLIGENCE</span><span data-i18n="footerDemo">PRÉVIA · SEM DADOS RESTRITOS</span></footer>
+      </main>
+    </div>
+  </div>
+  <div id="overlay" class="overlay" hidden></div>
+</body>
+</html>
+

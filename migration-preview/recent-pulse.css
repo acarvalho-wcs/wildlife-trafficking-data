@@ -1,0 +1,8 @@
+/* Shared, bounded signal waves. Never animate the marker's positioning transform. */
+@keyframes observatory-recent-wave{0%{transform:scale(1);opacity:.55}100%{transform:scale(3.5);opacity:0}}
+.recent-wave,.globe-marker.recent::before,.globe-marker.recent::after{animation:observatory-recent-wave 2.6s linear infinite;transform-origin:center;pointer-events:none!important}
+.recent-wave{transform-box:fill-box;fill:none;vector-effect:non-scaling-stroke}
+.recent-wave-1,.globe-marker.recent::after{animation-delay:-1.3s}
+.globe-marker.recent::before,.globe-marker.recent::after{content:"";position:absolute;left:50%;top:50%;width:7px;height:7px;margin:-3.5px 0 0 -3.5px;border:1px solid var(--red,#ff6b5f);border-radius:50%;box-sizing:border-box}
+.globe-marker.recent span{position:relative;z-index:1}
+@media(prefers-reduced-motion:reduce){.recent-wave,.globe-marker.recent::before,.globe-marker.recent::after{animation:none;opacity:0}}

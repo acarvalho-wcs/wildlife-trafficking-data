@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="robots" content="noindex,nofollow,noarchive">
+ <meta name="description" content="Investigação de Mercados de Fauna — seção de acesso autorizado do Observatório Global de Tráfico de Animais">
+ <title>IWT Global Observatory | Área restrita</title>
+ <link rel="stylesheet" href="./styles.css">
+ <link rel="stylesheet" href="./secure.css?v=restricted-period-csv-20261103">
+ <link rel="stylesheet" href="./restricted-shell-v3.css?v=access-firebase-link-20261102">
+ <style>
+  /* Default deny: menu is shown only after Firebase authorization and private data load. */
+  body:not([data-private-ready="true"]) #side-navigation{display:none!important}
+  body[data-private-ready="true"] #side-navigation{display:flex!important}
+  body[data-private-ready="true"] #dashboard-nav,
+  body[data-private-ready="true"] #reports-nav, body[data-private-ready="true"] #internal-reports-nav, body[data-private-ready="true"] #osint-tools-nav{display:flex!important}
+  /* Administrator shortcut: align to the upper-right and match the interface controls. */
+  #admin-access-requests .admin-requests-header{display:grid!important;grid-template-columns:minmax(0,1fr) max-content!important;align-items:start;column-gap:20px}
+  #admin-access-requests .admin-requests-heading{min-width:0}
+  #admin-access-requests .admin-requests-actions{display:flex;flex-direction:column;align-items:flex-end;justify-self:end;gap:9px;max-width:100%}
+  #admin-access-requests .admin-requests-status{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:11px;font-weight:700;text-align:right;line-height:1.4}
+  #admin-access-requests .admin-requests-status:before{content:"";width:7px;height:7px;border-radius:50%;flex:0 0 auto;background:var(--faint)}
+  #admin-access-requests .admin-requests-status[data-state="pending"]{color:var(--text)}
+  #admin-access-requests .admin-requests-status[data-state="pending"]:before{background:var(--accent)}
+  #admin-access-requests .admin-requests-status[data-state="error"]:before{background:#db8658}
+  #admin-access-requests .admin-firebase-users-link,
+  #admin-access-requests .admin-firebase-users-link:link,
+  #admin-access-requests .admin-firebase-users-link:visited{
+   display:inline-flex;align-items:center;justify-content:center;justify-self:end;align-self:start;
+   min-height:42px;padding:11px 16px;box-sizing:border-box;white-space:nowrap;
+   border:1px solid #74a68e;border-radius:10px;background:#0d2923ef;
+   box-shadow:0 5px 18px #0003;color:#e6f5eb;font-size:11px;font-weight:800;
+   letter-spacing:.015em;line-height:1.2;text-decoration:none!important;
+  }
+  #admin-access-requests .admin-firebase-users-link:hover{filter:brightness(1.14);text-decoration:none!important}
+  #admin-access-requests .admin-firebase-users-link:focus-visible{outline:2px solid #d3ff54;outline-offset:3px;text-decoration:none!important}
+  @media(max-width:560px){
+   #admin-access-requests .admin-requests-header{grid-template-columns:minmax(0,1fr)!important;row-gap:14px}
+   #admin-access-requests .admin-firebase-users-link{justify-self:end}
+  }
+ </style>
+ <script>
+ // The login form is rendered by HTML; Firebase grants access to private data.
+ // If any dependency fails, keep the form visible and explain why sign-in is unavailable.
+ setTimeout(function(){
+  if(window.__nimfAppStarted)return;
+  const panel=document.getElementById("auth-panel");
+  const error=document.getElementById("auth-error");
+  if(panel)panel.hidden=false;
+  if(error){
+   error.textContent="A autenticação não terminou de carregar. Tente atualizar a página. Se persistir, informe a equipe técnica; seus dados não foram alterados.";
+   error.hidden=false;
+  }
+ },7000);
+ </script>
+ <script type="module" src="./secure.js?v=report-language-fallback-20261108"></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/observatory-icon-safari-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/observatory-icon-safari-180.png">
+<link rel="mask-icon" href="./assets/observatory-safari-20261018.svg" color="#0078bc">
+</head>
+<body data-theme="dark" data-private-ready="false">
+ <div class="secure-layout">
+  <aside class="secure-side">
+   <a class="secure-brand" href="../index.html" target="_blank" rel="noopener noreferrer" aria-label="Abrir Observatório Global de Tráfico de Animais" title="Observatório Global de Tráfico de Animais"><img class="secure-observatory-logo" src="./assets/Logo_observat.png" width="58" height="58" alt="Logo do Observatório Global de Tráfico de Animais" loading="eager" decoding="async"><span><b id="side-brand-name">Investigação de Mercados de Fauna</b><small>IWT GLOBAL OBSERVATORY</small></span></a>
+   <section class="secure-side-content secure-disclaimer" role="note" aria-labelledby="side-title">
+     <span class="secure-side-kicker" id="side-kicker">SEÇÃO RESTRITA</span>
+     <h1 id="side-title">Sobre esta seção de investigação</h1>
+     <p id="side-copy">Esta seção faz parte do Observatório Global de Tráfico de Animais. O acesso às suas ferramentas e informações é restrito a usuários autorizados pela administração do projeto.</p>
+   </section>
+   <nav class="secure-side-navigation" aria-label="Navegação da área restrita" id="side-navigation">
+     <button id="dashboard-nav" class="secure-side-nav-item active" type="button" disabled aria-controls="dashboard-primary"><span aria-hidden="true">◉</span><span id="dashboard-nav-label">Painel</span></button>
+     <button id="reports-nav" class="secure-side-nav-item" type="button" disabled aria-controls="intelligence-reports-view"><span aria-hidden="true">▤</span><span id="reports-nav-label">Relatórios de inteligência</span><span class="secure-nav-lock" aria-hidden="true">◈</span></button>
+     <button id="internal-reports-nav" class="secure-side-nav-item" type="button" disabled aria-controls="internal-reports-view"><span aria-hidden="true">▤</span><span id="internal-reports-nav-label">Relatórios Internos</span><span class="secure-nav-lock" aria-hidden="true">◈</span></button>
+     <button id="osint-tools-nav" class="secure-side-nav-item" type="button" disabled aria-controls="osint-tools-view"><span aria-hidden="true">⌕</span><span id="osint-tools-nav-label">Ferramentas OSINT</span><span class="secure-nav-lock" aria-hidden="true">◈</span></button>
+   </nav>
+   <div class="secure-side-contact">
+     <strong id="contact-label">Entre em contato com os desenvolvedores</strong>
+     <a class="secure-contact-email" href="mailto:inteligencia@wcs.org" aria-label="Enviar e-mail para inteligencia@wcs.org" style="display:flex;align-items:center;justify-content:center;width:100%;box-sizing:border-box;min-height:49px;padding:13px 5px;border-radius:11px;background:#d3ff54;color:#102216;text-decoration:none;font-weight:800;font-size:13px;line-height:1.2;white-space:nowrap"><span style="color:#102216">inteligencia@wcs.org</span></a>
+   </div>
+   <div class="secure-side-bottom">
+     <a class="secure-wcs-brand secure-wcs-logo-card" href="https://brasil.wcs.org/" target="_blank" rel="noopener noreferrer" aria-label="WCS Brasil — Programa de Inteligência para Conservação">
+       <img id="wcs-program-logo" src="./assets/wcs-brasil-institucional.png" alt="WCS Brasil" loading="lazy" decoding="async">
+       <strong class="secure-wcs-logo-caption" id="program-name">Programa de Inteligência para Conservação</strong>
+     </a>
+     <p id="side-footer">Criado e gerenciado pelo Programa de Inteligência para Conservação da WCS Brasil.</p>
+   </div>
+  </aside>
+  <div class="secure-main">
+   <header class="secure-top">
+    <a href="../index.html" id="back-public" rel="noopener noreferrer" target="_blank">Retorne ao Observatório Global de Tráfico de Animais</a>
+    <div class="secure-top-right"><label id="secure-language-switch" class="secure-language-switch" for="secure-language"><select id="secure-language" aria-label="Idioma"><option value="pt">Português</option><option value="en">English</option><option value="es">Español</option></select></label><button id="secure-theme" type="button" aria-label="Interface theme">White</button><div id="secure-theme-switch" class="explorer-mode-switch interface-theme-switch" role="group" aria-label="Tema da interface"><button id="interface-theme-dark" type="button" aria-pressed="true">Escuro</button><button id="interface-theme-light" type="button" aria-pressed="false">Claro</button></div></div>
+   </header>
+   <main class="secure-content">
+    <div id="config-panel" class="secure-card" hidden><span class="secure-label">SETUP</span><h2 id="config-title">Área restrita em configuração</h2><p id="config-body">O administrador precisa conectar o Firebase e aplicar as regras de segurança. Nenhuma informação privada está disponível neste momento.</p></div>
+    <section id="auth-panel" class="secure-card">
+      <span class="secure-label" id="auth-kicker">INVESTIGAÇÃO DE MERCADOS DE FAUNA / ACESSO</span>
+      <h2 id="auth-title">Acessar Investigação de Mercados de Fauna</h2>
+      <p id="auth-subtitle">Seu e-mail e sua senha são administrados pelo serviço de autenticação, nunca pelo GitHub Pages.</p>
+      <div class="secure-tabs" role="tablist">
+        <button type="button" id="login-tab" class="active" aria-selected="true">Entrar</button>
+        <button type="button" id="signup-tab" aria-selected="false">Solicitar acesso</button>
+      </div>
+      <form id="auth-form" autocomplete="on">
+        <label for="auth-email" id="email-label">E-mail</label>
+        <input id="auth-email" type="email" required autocomplete="email" placeholder="usuario@instituicao.org" spellcheck="false">
+        <label for="auth-password" id="password-label">Senha</label>
+        <input id="auth-password" type="password" required minlength="8" autocomplete="current-password" placeholder="••••••••">
+        <div id="password-confirm-wrap" hidden>
+          <label for="auth-confirm" id="confirm-label">Confirmar senha</label>
+          <input id="auth-confirm" type="password" minlength="8" autocomplete="new-password">
+        </div>
+        <div id="signup-details" class="signup-details" hidden>
+          <label for="auth-institution" id="institution-label">Instituição / organização</label>
+          <input id="auth-institution" type="text" minlength="3" maxlength="160" autocomplete="organization" placeholder="Ex.: Universidade, órgão público ou ONG">
+          <label for="auth-justification" id="justification-label">Justificativa para solicitar acesso</label>
+          <textarea id="auth-justification" rows="4" minlength="20" maxlength="1500" placeholder="Explique a finalidade profissional do acesso e como pretende utilizar a plataforma."></textarea>
+          <p id="signup-privacy-note" class="secure-small">Essas informações serão utilizadas apenas para avaliar sua solicitação.</p>
+        </div>
+        <p id="auth-error" role="alert" class="secure-error" hidden></p>
+        <button id="submit-button" type="submit" class="secure-button">Entrar</button>
+      </form>
+      <button type="button" id="forgot-password" class="secure-link">Esqueceu sua senha?</button>
+      <p id="auth-note" class="secure-small">Criar uma conta não concede acesso aos dados. É necessária aprovação do administrador.</p>
+    </section>
+    <section id="waiting-panel" class="secure-card" hidden>
+      <span class="secure-label" id="waiting-kicker">CONTROLE DE ACESSO</span><div class="waiting-symbol">◇</div>
+      <h2 id="waiting-title">Verificação pendente</h2>
+      <p id="waiting-text">Confirme seu endereço pelo e-mail recebido. Depois, o administrador poderá aprovar o acesso.</p>
+      <p id="waiting-address" class="secure-email"></p>
+      <p id="waiting-request-status" class="secure-small" role="status" aria-live="polite" hidden></p>
+      <p id="waiting-error" role="alert" class="secure-error" hidden></p>
+      <form id="access-request-retry" class="signup-details" hidden>
+       <p id="retry-request-title" class="secure-small">Complete sua solicitação para que a administração possa avaliá-la.</p>
+       <label for="retry-institution" id="retry-institution-label">Instituição / organização</label>
+       <input id="retry-institution" type="text" minlength="3" maxlength="160" autocomplete="organization" required>
+       <label for="retry-justification" id="retry-justification-label">Justificativa para solicitar acesso</label>
+       <textarea id="retry-justification" rows="4" minlength="20" maxlength="1500" required></textarea>
+       <button id="retry-request-button" class="secure-button" type="submit">Enviar solicitação</button>
+      </form>
+      <div class="waiting-actions">
+       <button type="button" id="refresh-access" class="secure-button">Verificar novamente</button>
+       <button type="button" id="resend-verification" class="secure-secondary">Reenviar verificação</button>
+       <button type="button" id="waiting-logout" class="secure-link">Sair</button>
+      </div>
+    </section>
+    <section id="dashboard-panel" class="secure-dashboard" hidden>
+      <div id="dashboard-primary">
+      <div class="secure-dashboard-heading">
+       <div><span class="secure-label" id="private-kicker">PAINEL RESTRITO - APENAS USUÁRIOS AUTORIZADOS</span><h2 id="private-title">Painel privado</h2><p id="private-description">Somente registros autorizados no banco privado são exibidos.</p></div>
+       <button type="button" id="private-logout" class="secure-secondary">Sair</button>
+      </div>
+      <section id="admin-access-requests" class="private-panel admin-access-requests" hidden aria-labelledby="admin-requests-title">
+       <div class="admin-requests-header">
+        <div class="admin-requests-heading">
+         <span class="secure-label" id="admin-requests-kicker">ADMINISTRAÇÃO DE ACESSOS</span>
+         <h3 id="admin-requests-title">Solicitações de novos usuários</h3>
+         <p id="admin-requests-description">Revise a instituição e a justificativa antes de autorizar um usuário. Acesso aos relatórios exige aprovação separada.</p>
+        </div>
+        <div class="admin-requests-actions">
+         <a id="admin-firebase-users-link" class="admin-firebase-users-link" href="https://console.firebase.google.com/u/1/project/fir-console-61443/authentication/users" target="_blank" rel="noopener noreferrer" aria-label="Abrir usuários no Firebase Console (nova aba)">Abrir Firebase</a>
+         <span id="admin-requests-status" class="admin-requests-status" role="status" aria-live="polite" aria-atomic="true" data-state="loading">Consultando solicitações...</span>
+        </div>
+       </div>
+       <div id="admin-requests-list" class="admin-requests-list"></div>
+       <p id="admin-requests-feedback" role="status" class="secure-small" aria-live="polite"></p>
+      </section>
+      <div class="private-stats">
+       <div><span id="records-label">Registros disponíveis</span><strong id="records-count">—</strong></div>
+       <div><span id="account-label">Conta</span><strong id="account-status">Autorizada</strong><small id="account-email" class="account-identity"></small><small id="account-role" class="account-identity"></small></div>
+      </div>
+      <section class="explorer" aria-label="Market intelligence explorer">
+        <div class="explorer-head"><div><span class="secure-label" id="explorer-kicker">EXPLORADOR GEOGRÁFICO</span><h3 id="explorer-title">Mercados de fauna: mapa e filtros</h3><p id="explorer-desc">Mapeamento aproximado, não a localização de vendedores. Use os filtros combinados para explorar os anúncios.</p></div></div>
+        <div class="explorer-summary"><strong id="explorer-count">0</strong><span id="explorer-count-label">registros correspondentes</span><span id="explorer-map-count">0 no mapa</span><span id="explorer-unmapped-count">0 sem localização mapeável</span></div>
+        <div class="explorer-layout">
+          <div class="explorer-map-wrap">
+            <div class="explorer-map-toolbar">
+              <div class="map-toolbar-primary">
+                <div id="map-toolbar-projection" class="explorer-mode-switch map-toolbar-projection" role="group" aria-label="Projeção do mapa"><button id="map-toolbar-mode-map" type="button" aria-pressed="true">MAP</button><button id="map-toolbar-mode-globe" type="button" aria-pressed="false">GLOBE</button></div>
+                <button id="map-filters-toggle" type="button" class="secure-secondary map-toolbar-button map-filters-toggle" aria-controls="map-filters-panel" aria-expanded="false" aria-haspopup="true"><span aria-hidden="true">☷</span> <span id="map-filters-toggle-label">Filtros</span> <span class="map-filters-chevron" aria-hidden="true">▾</span></button>
+                 <button id="explorer-export-csv" type="button" class="secure-secondary map-toolbar-button" aria-label="Exportar registros filtrados em CSV">Exportar CSV</button>
+                <div id="map-color-switch" class="explorer-mode-switch map-color-switch" role="group" aria-label="Cor do mapa"><button id="map-color-dark" type="button" aria-pressed="true">Escuro</button><button id="map-color-light" type="button" aria-pressed="false">Claro</button></div>
+                <button id="map-toolbar-fullscreen" type="button" class="secure-secondary map-toolbar-button map-fullscreen-shortcut" aria-controls="explorer-map" aria-pressed="false"><span aria-hidden="true">⛶</span> <span id="map-toolbar-fullscreen-label">Tela cheia</span></button>
+              </div>
+              <section id="map-filters-panel" class="map-filters-panel" aria-labelledby="map-filters-heading" hidden inert>
+                <div class="map-filters-head">
+                  <strong id="map-filters-heading">Controles do mapa</strong>
+                  <button id="map-filters-close" type="button" aria-label="Fechar filtros" title="Fechar filtros">×</button>
+                </div>
+        <div class="explorer-filters" id="explorer-filter-grid">
+          <label class="search-records-box"><span id="explorer-search-label">BUSCAR REGISTROS</span><input type="search" id="explorer-search" placeholder="Buscar espécie, local, rota, país, termo..." autocomplete="off"><span class="map-filter-results-count" id="map-filter-results-count" role="status" aria-live="polite">0 registros encontrados</span></label>
+          <label class="species-filter"><span id="explorer-species-label">Espécie</span><select id="explorer-species" class="visually-hidden" aria-label="Espécie"><option value="">Todas</option></select><button type="button" id="species-trigger" class="species-trigger" aria-haspopup="listbox" aria-expanded="false">Todas</button><div id="species-menu" class="species-menu" role="listbox" hidden></div></label>
+          <label><span id="explorer-state-label">Estado / região</span><select id="explorer-state"><option value="">Todos</option></select></label>
+          <label><span id="explorer-city-label">Município</span><select id="explorer-city"><option value="">Todos</option></select></label>
+          <label><span id="explorer-source-label">Fonte</span><select id="explorer-source"><option value="">Todas</option></select></label>
+          <label><span id="explorer-status-label">Verificação</span><select id="explorer-status"><option value="">Todas</option></select></label>
+          <label><span id="explorer-product-label">Produto</span><select id="explorer-product"><option value="">Todos</option></select></label>
+          <label class="explorer-period-field"><span id="explorer-period-label">Período da ocorrência</span><select id="explorer-period"><option value="all" selected>Todos os períodos</option><option value="7d">Últimos 7 dias</option><option value="30d">Últimos 30 dias</option><option value="90d">Últimos 90 dias</option><option value="365d">Últimos 12 meses</option><option value="year">Ano específico</option><option value="custom">Intervalo personalizado</option><option value="undated">Sem data de ocorrência</option></select></label>
+          <label id="explorer-year-wrap" class="explorer-time-detail" hidden><span id="explorer-year-label">Ano</span><select id="explorer-year"></select></label>
+          <label id="explorer-date-from-wrap" class="explorer-time-detail" hidden><span id="explorer-date-from-label">De</span><input type="date" id="explorer-date-from"></label>
+          <label id="explorer-date-to-wrap" class="explorer-time-detail" hidden><span id="explorer-date-to-label">Até</span><input type="date" id="explorer-date-to"></label>
+        </div>
+                <div class="map-filters-reset-row"><button type="button" id="explorer-reset" class="secure-secondary">Limpar filtros</button></div>
+                <div class="map-filters-actions">
+                  <div class="explorer-mode-switch" role="group" aria-label="Map projection"><button id="explorer-mode-map" type="button" aria-pressed="true">MAP</button><button id="explorer-mode-globe" type="button" aria-pressed="false">GLOBE</button></div>
+                  <button id="explorer-fullscreen" type="button" class="secure-secondary map-toolbar-button" aria-pressed="false">Tela cheia</button>
+                  <button id="layers-toggle" type="button" class="secure-secondary map-toolbar-button" aria-controls="explorer-layers" aria-expanded="false"><span class="layers-icon" aria-hidden="true">☷</span><span id="layers-toggle-label">Camadas</span></button>
+                </div>
+              </section>
+            </div>
+            <aside id="explorer-layers" class="explorer-layers-panel" aria-hidden="true" aria-labelledby="layers-title" inert>
+              <div class="explorer-layers-head">
+                <div><strong id="layers-title">Camadas do mapa</strong><p id="layers-hint">Ative ou oculte categorias no mapa.</p></div>
+                <button id="layers-close" type="button" aria-label="Fechar camadas" title="Fechar">×</button>
+              </div>
+              <fieldset class="explorer-layer-picker">
+                <legend id="layers-legend">Tipos de registros</legend>
+                <label class="layer-row"><input type="checkbox" value="advertisement" checked><span class="layer-swatch layer-advertisement" aria-hidden="true"></span><span data-layer-title="advertisement">Anúncios</span><small data-layer-count="advertisement" aria-label="0">0</small></label>
+                <label class="layer-row"><input type="checkbox" value="platform" checked><span class="layer-swatch layer-platform" aria-hidden="true"></span><span data-layer-title="platform">Plataformas</span><small data-layer-count="platform" aria-label="0">0</small></label>
+                <label class="layer-row"><input type="checkbox" value="fair" checked><span class="layer-swatch layer-fair" aria-hidden="true"></span><span data-layer-title="fair">Feiras</span><small data-layer-count="fair" aria-label="0">0</small></label>
+                <label class="layer-row"><input type="checkbox" value="physical_market" checked><span class="layer-swatch layer-physical-market" aria-hidden="true"></span><span data-layer-title="physical_market">Vendedores físicos</span><small data-layer-count="physical_market" aria-label="0">0</small></label>
+                 <label class="layer-row"><input type="checkbox" value="aurum" checked><span class="layer-swatch layer-aurum" aria-hidden="true"></span><span data-layer-title="aurum">Aurum</span><small data-layer-count="aurum" aria-label="0">0</small></label>
+              </fieldset>
+              <p id="layers-safety" class="layer-safety-note">Localização aproximada; informações revisadas, sem identificação pessoal.</p>
+            </aside>
+            <div id="explorer-map" role="region" aria-label="Mapa dos anúncios filtrados"></div>
+            <aside id="explorer-map-card" class="explorer-map-card" hidden aria-live="polite" role="region" aria-labelledby="explorer-map-card-title"></aside>
+            <p id="explorer-map-notice">Os marcadores representam localizações aproximadas. Nenhuma coordenada de vendedor é exibida.</p></div>
+          <div class="explorer-results"><div class="explorer-results-head"><strong id="explorer-results-title">Resultados</strong></div><div id="explorer-cards" class="explorer-cards"></div></div>
+        </div>
+        <section id="explorer-detail" class="explorer-detail" hidden aria-live="polite"></section>
+      </section>
+      <section id="information-exchange-panel" class="private-contributions" data-collapsed="true" aria-labelledby="intake-kicker">
+       <div class="explorer-head"><div><span class="secure-label" id="intake-kicker">TROCA DE INFORMAÇÕES</span><h3>Contribuições para investigação</h3><p>Envie links e informações para triagem. Só você e administradores autorizados acessam a submissão. Não insira dados pessoais desnecessários.</p></div></div>
+       <form id="tip-form" class="tip-form">
+        <label>Tipo de informação<select id="tip-type" required><option value="platform">Plataforma / site</option><option value="advertisement">Anúncio de fauna</option><option value="group">Grupo ou canal de comércio</option><option value="fair">Feira livre</option><option value="physical_market">Ponto de comércio presencial sob investigação</option><option value="other">Outro indício</option></select></label>
+        <label>Título / assunto<input id="tip-title" type="text" required maxlength="180" placeholder="Ex.: Oferta de espécie controlada"></label>
+        <label>Link de referência (HTTPS)<input id="tip-url" type="url" maxlength="1500" placeholder="https://..."></label>
+        <label>Espécie (se conhecida)<input id="tip-species" type="text" maxlength="180" placeholder="Nome científico ou comum"></label>
+        <label>Localidade mencionada<input id="tip-location" type="text" maxlength="180" placeholder="País, estado, município"></label>
+        <p id="tip-url-note" class="tip-guidance">Para feiras ou pontos presenciais, o link é opcional. Evite dados pessoais ou endereços particulares.</p><label class="tip-wide">Descrição factual<textarea id="tip-details" rows="3" maxlength="3000" placeholder="Descreva o que a fonte mostra; indique incertezas e evite acusações não verificadas."></textarea></label>
+        <button id="tip-submit" class="secure-button" type="submit">Enviar para triagem</button><p id="tip-feedback" role="status"></p>
+       </form>
+       <section id="my-contributions-panel" class="my-contributions-panel" data-collapsed="true"><h3>Minhas contribuições</h3><p class="secure-small">Acompanhe o status de cada envio. As notas exibidas aqui são destinadas ao autor.</p><div id="my-tips" class="tip-list"></div></section>
+       <section id="admin-review" hidden><h3>Triagem administrativa</h3><p class="secure-small">Avalie os registros recebidos; ações serão comunicadas ao autor.</p><div id="admin-tips" class="tip-list"></div></section>
+       <section id="admin-history" hidden><h3 id="admin-history-title">Histórico de triagens</h3><p id="admin-history-description" class="secure-small">Casos concluídos ou encerrados, preservados para consulta e acompanhamento.</p><div id="admin-history-tips" class="tip-list"></div></section>
+        <section id="admin-map-panel" class="admin-map-panel" hidden>
+          <div class="explorer-head"><div><span class="secure-label" id="admin-map-kicker">INVESTIGAÇÃO DE MERCADOS DE FAUNA / MAPA REVISADO</span><h3 id="admin-map-title">Cadastro administrativo de camadas</h3><p id="admin-map-help">Publique apenas informações corroboradas. Não inclua nomes ou endereços particulares. Pontos publicados serão visíveis aos usuários autorizados.</p></div></div>
+          <form id="admin-map-form" class="tip-form">
+           <label><span data-map-field="layer">Camada</span><select id="map-layer" required><option value="advertisement">Anúncios</option><option value="platform">Plataformas</option><option value="fair">Feiras livres</option><option value="physical_market">Comércio presencial sob investigação</option></select></label>
+           <label><span data-map-field="title">Título genérico, sem identificar pessoas</span><input id="map-title" maxlength="180" required placeholder="Ex.: Ponto sob avaliação — Manaus"></label>
+           <label><span data-map-field="title_en">Título em inglês</span><input id="map-title-en" maxlength="180"></label>
+            <label><span data-map-field="title_es">Título em espanhol</span><input id="map-title-es" maxlength="180"></label>
+            <label><span data-map-field="species">Espécie (se conhecida)</span><input id="map-species" maxlength="180"></label>
+           <label><span data-map-field="country">País</span><input id="map-country" maxlength="100"></label>
+           <label><span data-map-field="state">Estado / região</span><input id="map-state" maxlength="120"></label>
+           <label><span data-map-field="city">Município</span><input id="map-city" maxlength="120"></label>
+           <label><span data-map-field="latitude">Latitude aproximada (centro municipal)</span><input id="map-latitude" inputmode="decimal" type="number" step="any" min="-85" max="85" required></label>
+           <label><span data-map-field="longitude">Longitude aproximada (centro municipal)</span><input id="map-longitude" inputmode="decimal" type="number" step="any" min="-180" max="180" required></label>
+           <label><span data-map-field="precision">Precisão espacial</span><select id="map-precision"><option value="municipality">Município</option><option value="regional">Região</option><option value="state">Estado</option><option value="country">País</option></select></label>
+           <label><span data-map-field="evidence">Evidência</span><select id="map-evidence"><option value="reported">Relato a verificar</option><option value="corroborated">Corroborada</option></select></label>
+           <label><span data-map-field="url">Link de referência (opcional)</span><input id="map-url" maxlength="1500" type="url" placeholder="https://..."></label>
+           <label><span data-map-field="published">Visibilidade</span><select id="map-published"><option value="false">Rascunho — somente administrador</option><option value="true">Publicar para usuários autorizados</option></select></label>
+           <label class="tip-wide"><span data-map-field="notes">Contexto verificável, sem dados pessoais</span><textarea id="map-notes" maxlength="1500" rows="3"></textarea></label>
+           <label class="tip-wide"><span data-map-field="notes_en">Contexto em inglês</span><textarea id="map-notes-en" maxlength="1500" rows="3"></textarea></label>
+            <label class="tip-wide"><span data-map-field="notes_es">Contexto em espanhol</span><textarea id="map-notes-es" maxlength="1500" rows="3"></textarea></label>
+            <p id="map-translation-guidance" class="secure-small tip-wide">Rascunhos podem ter traduções pendentes. Para publicar, preencha os três idiomas.</p>
+            <div class="admin-map-actions"><button id="map-save" class="secure-button" type="submit">Salvar ponto</button><button id="map-cancel" class="secure-secondary" type="button">Cancelar edição</button></div>
+           <p id="admin-map-feedback" role="status"></p>
+          </form>
+          <div id="admin-map-list" class="tip-list" aria-live="polite"></div>
+        </section>
+      </section>
+      <section id="utility-panel-workspace" class="utility-panel-workspace" aria-label="Ferramentas de análise">
+       <div class="utility-panel-controls" role="group" aria-label="Painéis administrativos">
+        <button id="utility-open-exchange" type="button" class="secure-secondary utility-panel-button" aria-controls="information-exchange-panel" aria-expanded="false">Troca de informações <span aria-hidden="true">▾</span></button>
+        <button id="utility-open-mine" type="button" class="secure-secondary utility-panel-button" aria-controls="my-contributions-panel" aria-expanded="false">Minhas contribuições <span aria-hidden="true">▾</span></button>
+        <button id="utility-open-triage" type="button" class="secure-secondary utility-panel-button" aria-controls="admin-review" aria-expanded="false" hidden>Triagem <span aria-hidden="true">▾</span></button>
+        <button id="utility-open-history" type="button" class="secure-secondary utility-panel-button" aria-controls="admin-history" aria-expanded="false" hidden>Histórico de triagens <span aria-hidden="true">▾</span></button>
+        <button id="utility-open-layers" type="button" class="secure-secondary utility-panel-button" aria-controls="admin-map-panel" aria-expanded="false" hidden>Cadastro de camadas <span aria-hidden="true">▾</span></button>
+        <button id="utility-open-records" type="button" class="secure-secondary utility-panel-button" aria-controls="private-records-panel" aria-expanded="false">Registros privados <span aria-hidden="true">▾</span></button>
+        <label class="utility-panel-compare"><input type="checkbox" id="utility-compare"> <span id="utility-compare-label">Comparar lado a lado</span></label>
+       </div>
+       <div id="utility-panel-grid" class="utility-panel-grid" style="--utility-count:1"></div>
+      </section>
+      <article id="private-records-panel" class="private-panel" data-collapsed="true">
+       <h3 id="records-title">Registros privados</h3>
+       <p id="records-subtitle">Dados obtidos exclusivamente após autenticação e checagem de autorização no Firestore.</p>
+       <div class="private-search"><label for="record-search" id="search-label">Pesquisar</label><input type="search" id="record-search" placeholder="Buscar nos registros carregados"></div>
+       <div class="table-wrap"><table><thead><tr><th id="col-title">Título</th><th id="col-type">Categoria</th><th id="col-source">Fonte</th><th id="col-status">Verificação</th></tr></thead><tbody id="record-rows"></tbody></table></div>
+       <p id="records-empty" class="secure-small">Nenhum registro privado disponível ainda.</p>
+       <p id="records-error" class="secure-error" role="alert" hidden></p>
+      </article>
+      <p id="privacy-footer" class="privacy-footer">Dados internos. Não redistribua sem autorização.</p>
+      </div>
+      <section id="intelligence-reports-view" class="intelligence-reports-view" aria-labelledby="reports-page-title" hidden tabindex="-1">
+        <span id="reports-page-kicker" class="secure-label">ACESSO CONTROLADO</span>
+        <h2 id="reports-page-title">Relatórios de inteligência</h2>
+        <p id="reports-page-description">Relatórios disponíveis exclusivamente conforme autorização individual.</p>
+        <div class="reports-method" role="note">
+          <h3 id="reports-method-title">Como são construídos</h3>
+          <p id="reports-method-body">Relatórios de inteligência organizam informações de fontes abertas, registros documentais e evidências verificadas. Fontes são avaliadas, informações cruzadas e graus de incerteza registrados. A presença de uma espécie em anúncios ou publicações não comprova uma transação ou infração. Material sensível recebe controles específicos de acesso e distribuição.</p>
+        </div>
+        <div id="reports-folders" class="reports-folders" aria-live="polite"></div>
+        <p id="reports-empty-description" class="reports-empty-description" hidden>Nenhum relatório foi disponibilizado para sua conta.</p>
+      </section>
+      <section id="internal-reports-view" class="intelligence-reports-view" aria-labelledby="internal-reports-title" hidden tabindex="-1">
+        <span id="internal-reports-kicker" class="secure-label">BIBLIOTECA INTERNA</span>
+        <h2 id="internal-reports-title">Relatórios Internos</h2>
+        <p id="internal-reports-description">Relatórios e análises produzidos pelo Programa de Inteligência para Conservação da WCS Brasil, organizados por tema.</p>
+        <div id="internal-reports-tabs" class="internal-report-tabs" role="tablist" aria-label="Categorias de relatórios internos">
+          <button id="internal-category-evolution" class="internal-report-tab" type="button" role="tab" data-report-category="evolution" aria-selected="true" aria-controls="internal-reports-panel" tabindex="0"><span id="internal-category-evolution-label">Relatórios de Gestão</span><span class="internal-report-chevron" aria-hidden="true">›</span></button>
+          <button id="internal-category-territorial" class="internal-report-tab" type="button" role="tab" data-report-category="territorial" aria-selected="false" aria-controls="internal-reports-panel" tabindex="-1"><span id="internal-category-territorial-label">Relatórios territoriais</span><span class="internal-report-chevron" aria-hidden="true">›</span></button>
+          <button id="internal-category-species" class="internal-report-tab" type="button" role="tab" data-report-category="species" aria-selected="false" aria-controls="internal-reports-panel" tabindex="-1"><span id="internal-category-species-label">Relatórios de espécies</span><span class="internal-report-chevron" aria-hidden="true">›</span></button>
+        </div>
+        <section id="internal-reports-panel" class="internal-report-panel" role="tabpanel" aria-labelledby="internal-category-evolution" tabindex="0">
+          <h3 id="internal-reports-panel-title">Relatórios de Gestão</h3>
+          <p id="internal-reports-panel-description">Relatórios de gestão, auditoria e acompanhamento institucional do Observatório.</p>
+          <div id="internal-reports-folders" class="internal-document-list" aria-live="polite"></div>
+          <p id="internal-reports-empty" class="reports-empty-description" hidden>Nenhum relatório disponível nesta categoria.</p>
+        </section>
+      </section>
+      <section id="osint-tools-view" class="intelligence-reports-view osint-tools-view" aria-labelledby="osint-tools-title" hidden tabindex="-1">
+        <span id="osint-tools-kicker" class="secure-label">FONTES ABERTAS / FERRAMENTAS</span>
+        <h2 id="osint-tools-title">Ferramentas OSINT</h2>
+        <p id="osint-tools-description">Acesso rápido a serviços externos úteis para pesquisa, preservação de páginas, análise de embarcações, pesca, domínios e investigação em fontes abertas.</p>
+        <div class="osint-tools-note" role="note"><p id="osint-tools-note">Os serviços abaixo são externos ao Observatório. Use-os de acordo com suas políticas de uso, a legislação aplicável e a finalidade institucional da investigação.</p></div>
+        <div class="osint-library-controls">
+          <div id="osint-filter-categories" class="osint-category-filters" role="group" aria-label="Categorias de ferramentas OSINT">
+            <button class="osint-category-button active" type="button" data-osint-category="all" aria-pressed="true"><span class="osint-category-name">Todas</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="wildlifeTrade" aria-pressed="false"><span class="osint-category-name">Comércio de fauna</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="digital" aria-pressed="false"><span class="osint-category-name">Investigação digital</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="transport" aria-pressed="false"><span class="osint-category-name">Transporte e rotas</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="species" aria-pressed="false"><span class="osint-category-name">Espécies e biodiversidade</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="geospatial" aria-pressed="false"><span class="osint-category-name">Geoespacial</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="companies" aria-pressed="false"><span class="osint-category-name">Empresas e vínculos</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="media" aria-pressed="false"><span class="osint-category-name">Mídia e monitoramento</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+            <button class="osint-category-button" type="button" data-osint-category="cyber" aria-pressed="false"><span class="osint-category-name">Cibersegurança</span><span class="osint-filter-count" aria-hidden="true">0</span></button>
+          </div>
+          <div class="osint-search-toolbar">
+            <label id="osint-search-label" for="osint-search-input">Buscar ferramenta</label>
+            <input id="osint-search-input" type="search" autocomplete="off" placeholder="Nome, espécie, rota ou finalidade" maxlength="140">
+            <button id="osint-reset-filters" class="secure-secondary" type="button">Limpar filtros</button>
+          </div>
+          <p id="osint-tool-count" class="osint-tool-count" role="status" aria-live="polite">33 ferramentas disponíveis</p>
+        </div>
+        <div id="osint-tools-grid" class="osint-tools-grid" aria-live="polite">
+          <article class="osint-tool-card" data-osint-categories="transport geospatial">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=adsbexchange.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>ADS-B Exchange</h3></div>
+            <p id="osint-desc-adsbExchange">Examine posições e trajetórias de aeronaves reportadas por ADS-B; cobertura e históricos podem variar.</p>
+            <a class="internal-document-link" href="https://globe.adsbexchange.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=bgpview.io&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>BGPView</h3></div>
+            <p id="osint-desc-bgpView">Explore informações públicas sobre ASNs, endereços IP e rotas BGP para contextualizar infraestrutura de rede.</p>
+            <a class="internal-document-link" href="https://bgpview.io/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber companies">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=builtwith.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>BuiltWith</h3></div>
+            <p id="osint-desc-builtWith">Identifique tecnologias usadas por sites e lojas virtuais para comparar infraestrutura de plataformas comerciais.</p>
+            <a class="internal-document-link" href="https://builtwith.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="wildlifeTrade species">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=cites.org&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>CITES Trade Database</h3></div>
+            <p id="osint-desc-citesTrade">Consulte registros oficiais de comércio internacional declarado sob a CITES por espécie, país e período. Não é uma base de tráfico ilegal.</p>
+            <a class="internal-document-link" href="https://trade.cites.org/en/cites_trade" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="transport geospatial">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=flightradar24.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Flightradar24</h3></div>
+            <p id="osint-desc-flightradar24">Consulte voos e trajetórias disponíveis no mapa; histórico detalhado e cobertura podem depender do plano.</p>
+            <a class="internal-document-link" href="https://www.flightradar24.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="species geospatial">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=gbif.org&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>GBIF</h3></div>
+            <p id="osint-desc-gbif">Consulte registros de ocorrência e dados georreferenciados de biodiversidade para contextualizar a distribuição de espécies.</p>
+            <a class="internal-document-link" href="https://www.gbif.org/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="transport geospatial">
+            <div class="osint-tool-brand"><img src="https://globalfishingwatch.org/favicon.ico" alt="" loading="lazy"><h3>Global Fishing Watch</h3></div>
+            <p id="osint-desc-gfw">Explore atividade de embarcações, pesca aparente, encontros e presença no mar em mapas interativos.</p>
+            <a class="internal-document-link" href="https://globalfishingwatch.org/map/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital">
+            <div class="osint-tool-brand"><img src="https://www.google.com/favicon.ico" alt="" loading="lazy"><h3>Google Dorks</h3></div>
+            <p id="osint-desc-googleDorks">Use operadores avançados de busca para localizar páginas, documentos, domínios e termos específicos no Google.</p>
+            <a class="internal-document-link" href="https://www.google.com/advanced_search" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital species">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=lens.google&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Google Lens</h3></div>
+            <p id="osint-desc-googleLens">Pesquise imagens semelhantes para examinar fotografias de animais e possíveis reutilizações em anúncios.</p>
+            <a class="internal-document-link" href="https://lens.google/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=haveibeenpwned.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Have I Been Pwned</h3></div>
+            <p id="osint-desc-haveIBeenPwned">Verifique se endereços de e-mail sob sua responsabilidade aparecem em vazamentos públicos conhecidos.</p>
+            <a class="internal-document-link" href="https://haveibeenpwned.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="transport">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=imo.org&amp;sz=64" alt="" loading="lazy"><h3>IMO GISIS</h3></div>
+            <p id="osint-desc-gisis">Consulte o Global Integrated Shipping Information System da Organização Marítima Internacional.</p>
+            <a class="internal-document-link" href="https://gisis.imo.org/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="species geospatial">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=inaturalist.org&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>iNaturalist</h3></div>
+            <p id="osint-desc-iNaturalist">Explore observações, imagens e identificações colaborativas de espécies; dados devem ser verificados antes do uso investigativo.</p>
+            <a class="internal-document-link" href="https://www.inaturalist.org/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="species">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=iucnredlist.org&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>IUCN Red List</h3></div>
+            <p id="osint-desc-iucnRedList">Consulte categorias de ameaça, avaliações de conservação e informações sobre distribuição de espécies na Lista Vermelha da IUCN.</p>
+            <a class="internal-document-link" href="https://www.iucnredlist.org/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital companies">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=maltego.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Maltego</h3></div>
+            <p id="osint-desc-maltego">Organize conexões entre empresas, sites, domínios e outras entidades em gráficos de vínculos.</p>
+            <a class="internal-document-link" href="https://www.maltego.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="transport">
+            <div class="osint-tool-brand"><img src="https://www.marinetraffic.com/favicon.ico" alt="" loading="lazy"><h3>MarineTraffic</h3></div>
+            <p id="osint-desc-marineTraffic">Pesquise embarcações, posições, movimentos, portos e informações de tráfego marítimo.</p>
+            <a class="internal-document-link" href="https://www.marinetraffic.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Mitaka</h3></div>
+            <p id="osint-desc-mitaka">Extensão de navegador para pesquisar indicadores, domínios e outras entidades em múltiplas fontes OSINT.</p>
+            <a class="internal-document-link" href="https://github.com/ninoseki/mitaka" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=nmap.org&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Nmap</h3></div>
+            <p id="osint-desc-nmap">Ferramenta instalável para inspeção autorizada de redes e serviços; não é uma busca passiva por padrão.</p>
+            <a class="internal-document-link" href="https://nmap.org/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="companies">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=opencorporates.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>OpenCorporates</h3></div>
+            <p id="osint-desc-openCorporates">Consulte registros públicos de empresas para contextualizar importadores, exportadores e estabelecimentos comerciais.</p>
+            <a class="internal-document-link" href="https://opencorporates.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital">
+            <div class="osint-tool-brand"><img src="./assets/osint-framework-icon.svg" alt="" loading="lazy"><h3>OSINT Framework</h3></div>
+            <p id="osint-desc-osintFramework">Navegue por um diretório estruturado de recursos e técnicas de investigação em fontes abertas.</p>
+            <a class="internal-document-link" href="https://osintframework.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="media transport geospatial digital">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=osirisai.live&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>OSIRIS</h3></div>
+            <p id="osint-desc-osiris">Painel global de fontes abertas com camadas de voos, embarcações, satélites e câmeras; confira a origem e a atualização dos dados.</p>
+            <a class="internal-document-link" href="https://osirisai.live/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="media geospatial">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=radio.garden&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Radio Garden</h3></div>
+            <p id="osint-desc-radioGarden">Encontre emissoras de rádio de diferentes regiões e acompanhe relatos e notícias locais em áudio.</p>
+            <a class="internal-document-link" href="https://radio.garden/search" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=recordedfuture.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Recorded Future Browser Extension</h3></div>
+            <p id="osint-desc-rfExtension">Extensão que contextualiza URLs, domínios, IPs e indicadores de risco; recursos variam conforme a licença.</p>
+            <a class="internal-document-link" href="https://www.recordedfuture.com/platform/browser-extension" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=recordedfuture.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Recorded Future Vulnerability Database</h3></div>
+            <p id="osint-desc-rfVulnerabilities">Consulte informações de vulnerabilidades e CVEs para avaliar riscos de infraestrutura e plataformas digitais.</p>
+            <a class="internal-document-link" href="https://www.recordedfuture.com/resources/trending-vulnerabilities" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber companies">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=securitytrails.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>SecurityTrails API</h3></div>
+            <p id="osint-desc-securityTrails">Consulte registros e histórico DNS, IPs e domínios por API; exige chave e pode ter limites comerciais.</p>
+            <a class="internal-document-link" href="https://docs.securitytrails.com/docs/overview" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=shodan.io&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Shodan</h3></div>
+            <p id="osint-desc-shodan">Pesquise informações já indexadas sobre dispositivos e serviços conectados à internet; use apenas para fins autorizados.</p>
+            <a class="internal-document-link" href="https://www.shodan.io/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="wildlifeTrade species">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=speciesplus.net&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Species+</h3></div>
+            <p id="osint-desc-speciesPlus">Verifique enquadramento CITES e CMS, taxonomia, distribuição e informações regulatórias de espécies.</p>
+            <a class="internal-document-link" href="https://www.speciesplus.net/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber companies">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>SpiderFoot (open source)</h3></div>
+            <p id="osint-desc-spiderFoot">Software de correlação automatizada de fontes OSINT sobre domínios e infraestrutura; código disponível no GitHub.</p>
+            <a class="internal-document-link" href="https://github.com/smicallef/spiderfoot" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital cyber companies">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>theHarvester</h3></div>
+            <p id="osint-desc-theHarvester">Software para coletar informações públicas sobre domínios, subdomínios e infraestrutura digital; requer instalação.</p>
+            <a class="internal-document-link" href="https://github.com/laramies/theHarvester" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=tineye.com&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>TinEye</h3></div>
+            <p id="osint-desc-tineye">Localize cópias de fotografias em diferentes sites para avaliar a reutilização de imagens em anúncios.</p>
+            <a class="internal-document-link" href="https://tineye.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="cyber">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=tria.ge&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>Triage Malware Sandbox</h3></div>
+            <p id="osint-desc-triageSandbox">Analise arquivos e possíveis ameaças digitais em ambiente controlado; não envie dados investigativos sensíveis.</p>
+            <a class="internal-document-link" href="https://tria.ge/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital">
+            <div class="osint-tool-brand"><img class="osint-wayback-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Wayback_Machine_logo_2010.svg" alt="" loading="lazy"><h3>Wayback Machine</h3></div>
+            <p id="osint-desc-wayback">Consulte versões arquivadas de páginas e acompanhe mudanças históricas em sites.</p>
+            <a class="internal-document-link" href="https://web.archive.org/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="digital companies">
+            <div class="osint-tool-brand"><img src="https://www.maltego.com/images/uploads/whoisxml-api-logo.png" alt="" loading="lazy"><h3>WHOIS API</h3></div>
+            <p id="osint-desc-whois">Investigue registros de domínio e informações técnicas associadas à infraestrutura de sites.</p>
+            <a class="internal-document-link" href="https://whoisxmlapi.com/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+          <article class="osint-tool-card" data-osint-categories="media geospatial">
+            <div class="osint-tool-brand"><img src="https://www.google.com/s2/favicons?domain=worldcam.eu&amp;sz=128" alt="" loading="lazy" decoding="async"><h3>WorldCam</h3></div>
+            <p id="osint-desc-worldCam">Localize câmeras públicas de cidades, portos e aeroportos para obter contexto visual de localidades.</p>
+            <a class="internal-document-link" href="https://worldcam.eu/" target="_blank" rel="noopener noreferrer"><span class="osint-tool-link-label">Abrir ferramenta ↗</span></a>
+          </article>
+        </div>
+        <p id="osint-empty" class="osint-empty" hidden>Nenhuma ferramenta encontrada para os filtros selecionados.</p>
+      </section>
+    </section>
+   </main>
+  </div>
+ </div>
+</body>
+</html>
