@@ -1,40 +1,28 @@
-# Maintenance, staging and cutover
+# GitHub-only maintenance and publication
 
-## Build and validation
+The owner's chosen destination is GitHub Pages, with existing Firebase Authentication, Firestore, Storage and Cloud Functions retained. No new hosting provider is part of this migration.
+
+## Validation
 
 ```sh
 python scripts/case_store.py validate --root cases
 python scripts/build_site.py
 python scripts/check_migration.py
-node --test web/restricted/tests/restricted-period-export.test.mjs web/restricted/tests/explorer-viewport.test.mjs web/restricted/tests/scientific-format.test.mjs
-node firebase/tests/graph-mail.test.cjs
+python scripts/test_site.py
 ```
 
-`build/site` is the ONLY publish directory. Never deploy the repository root. The build copies the original HTML/JS/CSS and static assets without bundling or changing map algorithms. Canonical data continue to update through existing Actions; a frontend rebuild is not required for new cases/routes. Existing `cache: no-store`/refresh behavior is preserved. Netlify headers revalidate public assets and disable caching for restricted pages.
+Frontend source is under `web/`; trusted backend source and rules are under `firebase/`. Never publish the repository root or private records. The canonical store and its existing build workflow remain unchanged. The original runtime feed refresh/cache behavior remains unchanged. GitHub Pages does not provide the custom response-header configuration of other hosts; do not claim server `no-store` headers have been configured there.
 
-The `Validate independent Observatory` workflow builds a reviewable artifact without publishing. `Validate preserved Firebase authorization` runs the existing access tests against an isolated emulator project, never production. Historical test scripts in `tests/legacy-observatory` are retained for provenance; some refer to old Sites Git commits or a `dist/` working directory and are not all portable. They must not be represented as a passing CI gate without adaptation.
+## Pages preparation
 
-## Complete staging
+`prepare-pages.yml` produces an artifact only. It builds the original frontend under `migration-preview/`, and copies the currently validated public cases/routes feeds and associated public assets to their existing paths. A separate checkout of main supplies these feeds to avoid publishing stale data from the migration branch. It neither compiles nor writes back canonical records. Firebase functions and rules are never copied into the artifact.
 
-All four WCS image destinations were authorized by the owner and restored. Continue with independent staging configuration below.
+Before publishing, verify the repository's actual Pages settings and all existing published paths. GitHub Pages is a single publication per repository; do not overwrite its live data feed with a frontend-only deployment. Configure actual deployment only after that review. The production switch still requires explicit owner approval.
 
-1. In the already-created Netlify project, link `acarvalho-wcs/wildlife-trafficking-data` to branch `migration/github-independent-20261111`, using the root `netlify.toml`. Retain team-only staging access. Do not link the existing live production sites or change DNS.
-2. Alternatively, configure a narrowly scoped `NETLIFY_AUTH_TOKEN` in the GitHub `observatory-staging` environment and use the draft deployment workflow. Never paste secrets into chat or commit them. Workflow dispatch availability depends on GitHub's default-branch workflow registration; Git linking can deploy the migration branch without merging it into main.
-3. Review Firebase's actually deployed rules/functions and authorized domains. Prepare an exact-origin addition for the chosen stable staging URL; obtain approval before changing production access infrastructure. Preserve existing GitHub origin and users.
-4. Compare MAP/GLOBE, filters, quantities, dates, routes, methodology, publications, reports, research and journalism in PT/EN/ES against the original. Include desktop and mobile, dark/light, WebGL failure and slow/offline feed recovery.
-5. Test anonymous, unverified, pending, approved, administrator and report-granted/revoked scenarios. Use a separate Firebase test project for write workflows or explicitly authorized test records. Do not approve real requests or send notification emails merely to test migration.
-6. In a browser, block all `*.chatgpt.site` and Sites API/asset traffic. Exercise every page and download, export a sanitized network report, and confirm zero requests to Sites. Static scanning is necessary but not sufficient.
+## Acceptance pending
 
-## Production approval gate
-
-The migration is not accepted until browser parity, real authorization, report classification, external integrations, independent staging and zero-Sites runtime traffic have been demonstrated. Record exact source/deploy IDs and test results. Present that evidence to the owner and obtain explicit cutover approval. There is deliberately no automatic production deployment workflow in this branch.
-
-After approval, connect the production host to the reviewed branch/commit with protected production environment approvals; choose and configure the final domain; verify Firebase exact origins and notification callback links; then release. Preserve old links via redirects where ownership permits. A `chatgpt.site` URL cannot remain the independent site's address if the old platform is removed. Keep the original project available until validation and separate deletion authorization.
+Test the independent Pages publication against the original in PT/EN/ES, desktop/mobile, MAP/GLOBE, routes, quantities, filters, reports and all restricted workflows. Check deployed Firebase rules and test real authorized users. The Pages hostname keeps the existing GitHub origin; do not change CORS or access rules unnecessarily. Block Sites hosts during runtime testing and verify no dependencies. Review which internal reports may remain publicly downloadable.
 
 ## Rollback
 
-Before cutover, the existing production system is the fallback and has not changed. After an approved release, revert only the application/configuration commit and redeploy the previously validated code as a new atomic deployment. Do not reset the entire repository to an older SHA: that could roll back newly ingested canonical data. Keep `cases/`, `cases.json`, `routes.json`, manifests and later data commits intact. Firebase rules, functions and domain changes require their own reviewed rollback plan; frontend rollback does not restore server permissions. Do not remove users or revoke integrations as part of application rollback.
-
-## Source ownership after acceptance
-
-Edit public UI in `web/observatory`, research in `web/research`, journalism in `web/reportage`, restricted UI in `web/restricted`, and trusted server code/rules in `firebase`. Content repos remain authoritative. Freeze/deprecate duplicate frontend maintenance in `nimf-site` only after acceptance, and update this inventory. Until then, concurrent edits in the original repositories must be reconciled before cutover.
+Before cutover, production remains unchanged. After approval and publication, revert only application/configuration changes and republish the last validated interface. Preserve all later canonical cases/routes commits. Backend permission changes require their own reviewed rollback; a frontend revert does not restore backend rules. Keep the original Sites project until independent validation and separate deletion authorization.

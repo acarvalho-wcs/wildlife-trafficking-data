@@ -1,0 +1,34 @@
+name: Prepare GitHub Pages candidate (no deployment)
+on:
+  push:
+    branches: ['migration/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: application
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: canonical
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and build original interface
+        working-directory: application
+        run: |
+          python scripts/build_site.py
+          python scripts/check_migration.py
+          python scripts/case_store.py validate --root ../canonical/cases
+          python scripts/build_pages.py --data-root ../canonical
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-pages-candidate
+          path: application/build/pages
+          include-hidden-files: true
+          retention-days: 14

@@ -44,17 +44,15 @@ The public reports repository contains files under `reports/internal/`, and the 
 
 Versioned Firestore rules require verified accounts and an approved access document. They implement administrative checks and separate report grants. Versioned functions verify Firebase ID tokens server-side. This does NOT prove the same rules/functions are deployed. The existing generic private report endpoint authorizes approved users for its fixed report; report-specific grants are a distinct model and must be tested separately.
 
-Current function CORS permits `https://acarvalho-wcs.github.io`. Netlify staging therefore requires an exact staging origin to be authorized, plus Firebase Authentication authorized-domain review. Do not widen to all origins or disable checks. These production-affecting configuration changes have not been applied.
+Current function CORS permits `https://acarvalho-wcs.github.io`. A GitHub Pages staging URL retains that origin; Firebase Authentication authorized-domain review still remains. Do not widen to all origins or disable checks. These production-affecting configuration changes have not been applied.
 
 ## Destination decision
 
-| Option | Fit | Constraint |
-|---|---|---|
-| GitHub Pages + existing Firebase | Supports the static applications; same GitHub origin already allowed by functions | Staging must not replace canonical feed publishing; limited headers/control |
-| Netlify + existing Firebase | Static build, separate staging, explicit cache headers, Git-based deploys | Requires Git connection/deploy credential and exact Firebase origin configuration |
-| Cloudflare Pages + existing Firebase | Technically compatible with static output | No configured connection was available; adds onboarding work without a runtime benefit |
+Owner decision: GitHub only for code, CI and website hosting; retain the existing Firebase services. Netlify configuration and deployment workflow have been removed. The previously created empty Netlify project is unused; no deployment or authentication setup will continue there.
 
-Netlify is the proposed staging host, keeping Firebase intact. An isolated project `iwt-observatory-staging` was created (ID `c3c10b88-1e65-4967-99b2-b8b26976c885`), with team-login protection reported by Netlify. It is not yet deployed. The connector lacks Git-link/upload operations, there is no local Netlify credential, and the browser panel requires sign-in. A project shell is not a functioning homologation environment.
+GitHub Pages supports the recovered static HTML/CSS/JavaScript applications. The existing Firebase functions already accept the `https://acarvalho-wcs.github.io` origin, so a Pages project path does not introduce a new CORS origin. Deployed rules and authorized-domain settings still require verification; no security configuration was changed.
+
+The repository already supplies public canonical feeds through GitHub Pages. A new application deployment must preserve those URLs and must not replace that publication without the owner's final approval. The Pages artifact workflow prepares the original interface under `migration-preview/` with copies of the existing public feeds at their original paths. It does not deploy or change Pages settings.
 
 ## Deliberate migration changes
 

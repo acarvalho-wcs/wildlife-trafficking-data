@@ -1,7 +1,7 @@
 name: Validate independent Observatory
 on:
   pull_request:
-    paths: ['web/**', 'firebase/**', 'scripts/*site*', 'scripts/check_migration.py', 'docs/migration/**', '.github/workflows/validate-site.yml', 'netlify.toml']
+    paths: ['web/**', 'firebase/**', 'scripts/*site*', 'scripts/check_migration.py', 'docs/migration/**', '.github/workflows/validate-site.yml']
   push:
     branches: ['migration/**']
   workflow_dispatch:
