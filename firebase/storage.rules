@@ -1,0 +1,18 @@
+rules_version = '2';
+service firebase.storage {
+ match /b/{bucket}/o {
+  function signedIn(){return request.auth != null && request.auth.token.email_verified == true;}
+  function accessPath(){return /databases/(default)/documents/access/$(request.auth.uid);}
+  function approved(){return signedIn() && firestore.exists(accessPath()) && firestore.get(accessPath()).data.approved == true;}
+  function administrator(){return approved() && request.auth.token.email == 'acarvalho@wcs.org' && firestore.get(accessPath()).data.admin == true;}
+  match /internal-reports/{reportId}/{filename} {
+   allow read: if approved() && reportId == 'evolution-2026-09-21-2026-10-15'
+     && filename.matches('Observatorio_Relatorio_Evolucao_2026-09-21_a_10-15_(PT|EN|ES)\\.pdf');
+   allow write: if administrator() && request.resource != null
+     && request.resource.size < 10 * 1024 * 1024
+     && request.resource.contentType == 'application/pdf'
+     && reportId == 'evolution-2026-09-21-2026-10-15'
+     && filename.matches('Observatorio_Relatorio_Evolucao_2026-09-21_a_10-15_(PT|EN|ES)\\.pdf');
+  }
+ }
+}

@@ -1,0 +1,21 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Trilingual intake test</title><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../secure.css"></head><body data-theme="dark" style="padding:20px">
+<section class="private-contributions" aria-label="Contribuições e acompanhamento">
+       <div class="explorer-head"><div><span class="secure-label">NIMF / INTELLIGENCE INTAKE</span><h3>Contribuições para investigação</h3><p>Envie links e informações para triagem. Só você e administradores autorizados acessam a submissão. Não insira dados pessoais desnecessários.</p></div></div>
+       <form id="tip-form" class="tip-form">
+        <label>Tipo de informação<select id="tip-type" required><option value="platform">Plataforma / site</option><option value="advertisement">Anúncio de fauna</option><option value="group">Grupo ou canal de comércio</option><option value="fair">Feira livre</option><option value="physical_market">Ponto de comércio presencial sob investigação</option><option value="other">Outro indício</option></select></label>
+        <label>Título / assunto<input id="tip-title" type="text" required maxlength="180" placeholder="Ex.: Oferta de espécie controlada"></label>
+        <label>Link de referência (HTTPS)<input id="tip-url" type="url" maxlength="1500" placeholder="https://..."></label>
+        <label>Espécie (se conhecida)<input id="tip-species" type="text" maxlength="180" placeholder="Nome científico ou comum"></label>
+        <label>Localidade mencionada<input id="tip-location" type="text" maxlength="180" placeholder="País, estado, município"></label>
+        <p id="tip-url-note" class="tip-guidance">Para feiras ou pontos presenciais, o link é opcional. Evite dados pessoais ou endereços particulares.</p><label class="tip-wide">Descrição factual<textarea id="tip-details" rows="3" maxlength="3000" placeholder="Descreva o que a fonte mostra; indique incertezas e evite acusações não verificadas."></textarea></label>
+        <button id="tip-submit" class="secure-button" type="submit">Enviar para triagem</button><p id="tip-feedback" role="status"></p>
+       </form>
+       <div class="contributions-columns">
+        <section><h3>Minhas contribuições</h3><p class="secure-small">Acompanhe o status de cada envio. As notas exibidas aqui são destinadas ao autor.</p><div id="my-tips" class="tip-list"></div></section>
+        <section id="admin-review" hidden><h3>Triagem administrativa</h3><p class="secure-small">Avalie os registros recebidos; ações serão comunicadas ao autor.</p><div id="admin-tips" class="tip-list"></div></section>
+        <section id="admin-history" hidden><h3 id="admin-history-title">Histórico de triagens</h3><p id="admin-history-description" class="secure-small">Casos concluídos ou encerrados.</p><div id="admin-history-tips" class="tip-list"></div></section>
+       </div>
+        
+      </section>
+      
+<script type="module">import {setIntakeLanguage,openIntake,closeIntake} from "../intake.js";window.__setIntakeLanguage=setIntakeLanguage;window.__openIntake=openIntake;window.__closeIntake=closeIntake;setIntakeLanguage("pt");window.__intakeTestReady=true;</script></body></html>

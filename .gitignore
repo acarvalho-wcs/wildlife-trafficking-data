@@ -1,0 +1,11 @@
+/build/
+/node_modules/
+**/node_modules/
+.netlify/
+.env
+.env.*
+*.log
+firebase/.firebase/
+firebase/*debug*
+**/service-account*.json
+**/serviceAccount*.json

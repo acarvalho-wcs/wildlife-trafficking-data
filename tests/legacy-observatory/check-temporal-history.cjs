@@ -1,0 +1,18 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const listeners={},nodes=new Map(),get=id=>{if(!nodes.has(id))nodes.set(id,{value:id==='language'?'pt':'',innerHTML:'',querySelectorAll:()=>[],addEventListener(){}});return nodes.get(id);};
+let requests=0;
+const window={NEWS_DATA:Array(10).fill({}),CaseSource:{subscribe(){},refresh(){}},addEventListener:(k,fn)=>listeners[k]=fn};
+const c={window,document:{getElementById:get,hidden:false,addEventListener(){}},console,Intl,Date,AbortSignal,localStorage:{getItem(){return null},setItem(){}},setInterval(){},setTimeout(){},clearTimeout(){},fetch:async()=>{requests++;return {ok:true,json:async()=>[]};}};
+vm.createContext(c);vm.runInContext(fs.readFileSync('dist/temporal-core.js','utf8'),c);
+const today=window.ObservatoryTimeCore.day(Date.now()),start=window.ObservatoryTimeCore.shift(today,-4);
+window.ObservatoryGrowthSeed={start,through:today,source:'https://example.org/history',points:[{day:start,total:4,sha:'a'.repeat(40)},{day:window.ObservatoryTimeCore.shift(today,-2),total:8,sha:'b'.repeat(40)}]};
+vm.runInContext(fs.readFileSync('dist/assets/js/growth-history.js','utf8'),c);
+assert.equal(window.ObservatoryGrowth.day('2026-10-18T03:59:59Z'),'2026-10-17');
+const full=window.ObservatoryGrowth.series(),before=requests;
+assert.equal(full.length,5);assert.equal(full.at(-1).total,10);
+listeners['observatory:time-render']({detail:{active:true,range:{start:window.ObservatoryTimeCore.shift(today,-1),end:today}}});
+const selected=window.ObservatoryGrowth.series();assert.equal(selected.length,2);assert.equal(selected[0].total,8,'historical baseline retained, never reset to zero');assert.equal(selected[1].total,10);
+assert(get('growthPanel').innerHTML.includes('Histórico do tamanho total da base'));assert(!get('growthPanel').innerHTML.includes('NaN'));
+listeners['observatory:time-render']({detail:{active:true,range:{start:'1900-01-01',end:'1900-01-02'}}});assert.equal(window.ObservatoryGrowth.series().length,0);assert(!get('growthPanel').innerHTML.includes('NaN'));
+listeners['observatory:time-render']({detail:{active:false,range:null}});assert.equal(window.ObservatoryGrowth.series().length,5);assert.equal(requests,before,'filtering does not fetch history');
+console.log('PASS: historical baseline, Manaus boundaries, inclusive date clipping, empty intervals and no filter-triggered requests.');

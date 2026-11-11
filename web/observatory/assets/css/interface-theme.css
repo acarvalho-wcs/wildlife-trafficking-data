@@ -1,0 +1,47 @@
+/* Shared visual language with the restricted area's header controls. */
+:root{color-scheme:dark}
+.top{flex-wrap:wrap}.top>div:first-of-type{min-width:0;flex:1 1 300px}
+.top-actions{gap:8px;align-items:center;flex-wrap:wrap;max-width:100%}
+.top-actions #howItWorksLink{margin-right:0}
+.appearance-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:100%}
+.interface-language-switch,.interface-theme-switch{display:inline-flex;align-items:center;gap:2px;padding:3px;border:1px solid #74a68e;border-radius:10px;background:#0d2923ef;box-shadow:0 5px 18px #0003;color-scheme:dark}
+.interface-language-switch #language{display:block;min-width:125px;max-width:100%;min-height:36px;padding:6px 10px;border:0;border-radius:7px;background:transparent;color:#e6f5eb;font-size:11px;font-weight:800;letter-spacing:.015em;cursor:pointer}
+.interface-language-switch option{background:#0d2923;color:#e6f5eb}
+.interface-theme-switch button{border:0;border-radius:7px;padding:7px 12px;min-height:36px;background:transparent;color:#c7e1d3;font:800 11px/1.4 Inter,system-ui,sans-serif;letter-spacing:.1em;cursor:pointer}
+.interface-theme-switch button[aria-pressed="true"]{background:#d9f0df;color:#0b3429;box-shadow:0 2px 7px #0004}
+.appearance-controls :is(button,select):focus-visible{outline:2px solid #d3ff54;outline-offset:2px}
+.map-expanded>.cardhead{flex-wrap:wrap;gap:8px}
+.map-expanded>.cardhead .appearance-controls{margin-left:auto}
+:root[data-interface-theme="light"]{color-scheme:light;--ink:#16382b;--muted:#52685d;--bg:#f3f7f4;--panel:#fff;--line:#d5e1d9;--blue:#17668f}
+[data-interface-theme="light"] .sidebar{background:#eaf1ec}
+[data-interface-theme="light"] :is(.nav button.active,.mobile-nav button.active){background:#dcebdd;color:#16382b}
+[data-interface-theme="light"] :is(.filter option,.metric-button,.map-toolbar button,.map-theme-control select,.globe-tools button,.map-detail button){background:#f0f6f1;color:var(--ink)}
+[data-interface-theme="light"] :is(.map-detail,.map-detail>header,.leaflet-popup-content-wrapper,.leaflet-popup-tip){background:#fff;color:var(--ink)}
+[data-interface-theme="light"] .popup-meta{color:var(--muted)}
+[data-interface-theme="light"] .map-switch button[aria-pressed=true]{background:#d3ff55;color:#10210e}
+[data-interface-theme="light"] :is(.data-note b,.view-total,.context-status){color:#356019}
+[data-interface-theme="light"] .pill{background:#e1eedb;color:#315319}
+[data-interface-theme="light"] .source-tag{background:#e5f1f7;color:#17668f}
+[data-interface-theme="light"] .contact{background:linear-gradient(90deg,#eef7e5,#fff);border-color:#adc69a}
+[data-interface-theme="light"] .research-link{background:#eaf3e6;border-color:#adc69a}
+[data-interface-theme="light"] .research-link:after{color:#356019}
+[data-interface-theme="light"] .research-link:hover{background:#dcebd7}
+[data-interface-theme="light"] .metric-button i{color:var(--ink)}
+[data-interface-theme="light"] .metric-button img{filter:brightness(0) saturate(100%)}
+[data-interface-theme="light"] .metric-button:is(:hover,.active){background:#e3f0da;border-color:#608e42}
+/* All report tabs and dialogs follow the interface, never the map palette. */
+:root[data-interface-theme] :is(#reportsView,.reports-modal){--reports-ink:var(--ink);--reports-muted:var(--muted);--reports-line:var(--line);background:var(--panel);color:var(--ink);color-scheme:inherit}
+:root[data-interface-theme="dark"] :is(#reportsView,.reports-modal){--reports-green:#d3ff55}
+:root[data-interface-theme="light"] :is(#reportsView,.reports-modal){--reports-green:#174d36}
+:root[data-interface-theme] #reportsView :is(.reports-category,.reports-report,.reports-status,.reports-empty,input,select),:root[data-interface-theme] .reports-modal .reports-language-options button{background:var(--bg);color:var(--ink)}
+:root[data-interface-theme] #reportsView .reports-category:hover,:root[data-interface-theme] .reports-modal :is(.reports-language-options button:hover,.reports-modal-close:hover,.observatory-copy:hover){background:var(--panel);color:var(--ink)}
+:root[data-interface-theme] :is(#reportsView,.reports-modal) .reports-access{background:#d3ff55;color:#10210e;border-color:#6b8d3b}
+@media(max-width:520px){
+ .top>div:first-of-type{min-width:0}
+ .top>.top-actions{justify-content:flex-end}
+ .appearance-controls{gap:6px}
+ .interface-theme-switch button,.interface-language-switch #language{min-height:44px}
+ .interface-language-switch #language{min-width:112px}
+ .map-expanded>.cardhead .appearance-controls{width:100%;justify-content:flex-end}
+}
+[data-interface-theme="light"] .case-photo{background:var(--panel)}
