@@ -2,7 +2,7 @@
 
 This report distinguishes source/emulator checks from live acceptance. It does not certify a production migration.
 
-Results below apply to the complete local staging source. Four WCS image destinations are blocked from public upload by automatic approval review. Consequently, the GitHub draft cannot yet pass the complete asset/build check. Do not confuse local test success with a deployable remote branch.
+The owner approved the WCS logo uploads on 11 November 2026. All 108 frontend assets are included; independent staging and live acceptance remain pending.
 
 | Check | Result | Scope |
 |---|---|---|

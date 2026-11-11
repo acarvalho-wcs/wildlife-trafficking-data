@@ -2,7 +2,7 @@
 
 Status: source migration prepared in an isolated branch; NOT approved for production cutover.
 
-**Public-upload block:** automatic approval review rejected the two WCS logo payloads (four destination files) even after visual inspection and metadata sanitization. The GitHub draft therefore omits `web/observatory/wcs-brasil.png`, `web/research/wcs-brasil.png`, `web/reportage/wcs-brasil.png`, and `web/restricted/assets/wcs-brasil-institucional.png`. They remain available locally for explicit owner review. The draft is intentionally incomplete and MUST NOT be deployed; source-manifest/build validation will fail until these exact assets are authorized and uploaded. No alternate asset or encoded workaround was substituted.
+**Logo upload resolved:** the owner explicitly authorized both WCS logos on 11 November 2026. All four destination assets are now included; no logo substitution was made.
 
 ## Verified source baseline
 

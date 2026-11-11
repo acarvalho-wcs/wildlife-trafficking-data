@@ -16,7 +16,7 @@ The `Validate independent Observatory` workflow builds a reviewable artifact wit
 
 ## Complete staging
 
-First resolve the four missing WCS image destinations listed in INVENTORY.md. They are intentionally not bypassed or replaced; the complete local build cannot be published while public-upload approval remains blocked.
+All four WCS image destinations were authorized by the owner and restored. Continue with independent staging configuration below.
 
 1. In the already-created Netlify project, link `acarvalho-wcs/wildlife-trafficking-data` to branch `migration/github-independent-20261111`, using the root `netlify.toml`. Retain team-only staging access. Do not link the existing live production sites or change DNS.
 2. Alternatively, configure a narrowly scoped `NETLIFY_AUTH_TOKEN` in the GitHub `observatory-staging` environment and use the draft deployment workflow. Never paste secrets into chat or commit them. Workflow dispatch availability depends on GitHub's default-branch workflow registration; Git linking can deploy the migration branch without merging it into main.
