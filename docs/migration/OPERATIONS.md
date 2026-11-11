@@ -17,7 +17,7 @@ Frontend source is under `web/`; trusted backend source and rules are under `fir
 
 `prepare-pages.yml` produces an artifact only. It builds the original frontend under `migration-preview/`, and copies the currently validated public cases/routes feeds and associated public assets to their existing paths. A separate checkout of main supplies these feeds to avoid publishing stale data from the migration branch. It neither compiles nor writes back canonical records. Firebase functions and rules are never copied into the artifact.
 
-Before publishing, verify the repository's actual Pages settings and all existing published paths. GitHub Pages is a single publication per repository; do not overwrite its live data feed with a frontend-only deployment. Configure actual deployment only after that review. The production switch still requires explicit owner approval.
+The existing Pages workflow publishes main from the repository root (verified in build logs). Homologation was published additively under migration-preview/ at commit 0b34710811616fe807ee5e05fa0623c919874f93, from application source fb9f7c9dfc6f03b1c3665c7e46255a88c6930b46. Every pre-existing main path remains unchanged. Do not replace this whole publication with a frontend-only artifact. The production switch still requires explicit owner approval. Until the source PR is merged, maintain frontend changes on the migration branch and regenerate the preview from that exact source; do not hand-edit generated preview assets.
 
 ## Acceptance pending
 
