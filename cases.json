@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1604_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1609_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1604,
+  "count": 1609,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -126632,6 +126632,472 @@
       "record_is_part_of_20261108_09_window": true,
       "editorial_qa_note_pt": "Escopo ampliado: pesca/comercio irregular de pescado, manter distinto de trafico de animais vivos.",
       "occurred_at": "2026-11-08T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261110-br-getulio-vargas-15-wild-birds",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-10",
+      "event_end_date": null,
+      "publication_date": "2026-11-11",
+      "coordinates": {
+        "lat": -27.8871493,
+        "lon": -52.2257967
+      },
+      "coordinate_precision": "MUNICIPALITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Getúlio Vargas, Rio Grande do Sul, Brasil",
+      "location_label_en": "Getúlio Vargas, Rio Grande do Sul, Brazil",
+      "location_label_es": "Getúlio Vargas, Rio Grande do Sul, Brasil",
+      "geographic_note_pt": "Coordenada aproximada de referencia municipal; nao representa o local exato da apreensao.",
+      "geographic_note_en": "Approximate municipality reference coordinate; not the exact seizure location.",
+      "geographic_note_es": "Coordenada aproximada de referencia municipal; no representa el lugar exacto de la incautacion.",
+      "source_label": "Polícia Ambiental / Grupo Simpatia",
+      "source_url": "https://gruposimpatia.com.br/noticia/5194/quinze-aves-silvestres-sao-resgatadas-de-cativeiro-irregular-em-getulio-vargas",
+      "title_pt": "Polícia Ambiental apreende 15 aves mantidas irregularmente em Getúlio Vargas",
+      "title_en": "Environmental police seize 15 illegally held wild birds in Getúlio Vargas",
+      "title_es": "Policía Ambiental incauta 15 aves silvestres mantenidas ilegalmente en Getúlio Vargas",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "fauna_label_pt": "15 aves silvestres",
+      "fauna_label_en": "15 wild birds",
+      "fauna_label_es": "15 aves silvestres",
+      "taxon_text": "Azulão; cardeal; trinca-ferro; canário-da-terra; coleirinho; tico-tico-rei; tiê-preto; caturrita",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "card_text_pt": "Após denúncia, policiais apreenderam 15 aves sem anilhas ou autorização e uma armadilha; não há venda documentada.",
+      "card_text_en": "Following a complaint, officers seized 15 birds without rings or permits and a trap; no sale was documented.",
+      "card_text_es": "Tras una denuncia, agentes incautaron 15 aves sin anillas o autorización y una trampa; no se documentó venta.",
+      "context_pt": "[O] A ausência relatada de anilhas e licenças, somada a uma armadilha de captura, torna a procedência e a regularidade do plantel pontos centrais da investigação. O instrumento encontrado não demonstra que todos os indivíduos tenham sido capturados por seu detentor, nem há registro público de vendas. [R05]\n\n[S] Brasileiro e colaboradores investigaram o uso de isótopos estáveis de penas para diferenciar origens silvestres e cativas de aves canoras brasileiras. A metodologia ilustra uma possibilidade pericial caso a procedência seja controversa, mas nenhum teste desse tipo foi relatado neste evento. [R06]\n\n[I] A WCS recomenda examinar elos de abastecimento e demanda para além do ponto de apreensão. No registro de Getúlio Vargas, a documentação aberta descreve guarda e um instrumento de captura, não fornecedores ou compradores identificados. [R03]\n\n[N] Reportagem investigativa de ((o))eco documentou fraudes usadas para conferir aparência legal a animais de origem ilícita em outros casos. Essa tipologia orienta a verificação de registros quando existirem, mas a falta de anilhas aqui não equivale a prova de lavagem documental. [R07]\n\n[T] O SisPass controla plantel e autorização de passeriformes nativos. Como a relação divulgada inclui nomes comuns de diferentes grupos, a checagem documental deve ser feita por táxon e regime aplicável; psitacídeos, por exemplo, não são cadastrados como passeriformes no SisPass. [R04]",
+      "context_en": "[O] Reported absence of leg rings and permits, together with a bird-catching trap, makes provenance and flock legality central investigative issues. The equipment does not prove that every bird was captured by its holder, and no sales were publicly documented. [R05]\n\n[S] Brasileiro and colleagues examined feather stable isotopes as a way to distinguish wild and captive origins of Brazilian songbirds. This provides a possible forensic avenue if provenance is disputed, but no such testing has been reported for these birds. [R06]\n\n[I] WCS recommends examining supply and demand links beyond the seizure point. Public material on Getulio Vargas documents holding and capture equipment, not identified suppliers or buyers. [R03]\n\n[N] An investigative report by ((o))eco documented fraud mechanisms that gave illicitly sourced wildlife a veneer of legality in other cases. This suggests checking any available records, but the lack of rings here is not evidence of documentary laundering. [R07]\n\n[T] SisPass monitors stocks and authorization for native passerines. Because the published list uses common names across different bird groups, checks should follow each taxon and its licensing regime; parrots and parakeets, for example, are not registered as passerines under SisPass. [R04]",
+      "context_es": "[O] La falta comunicada de anillas y permisos, junto con una trampa para capturar aves, convierte la procedencia y la legalidad del plantel en cuestiones prioritarias. El instrumento no demuestra que todos los ejemplares fueran capturados por su poseedor y no se documentaron ventas. [R05]\n\n[S] Brasileiro y colaboradores estudiaron isótopos estables en plumas para distinguir el origen silvestre del cautivo en aves canoras brasileñas. Es una posible vía pericial ante controversias sobre la procedencia, aunque no se informó de estas pruebas en el evento. [R06]\n\n[I] WCS propone examinar los eslabones de oferta y demanda más allá del punto de incautación. La información abierta sobre Getúlio Vargas documenta tenencia y un instrumento de captura, pero no proveedores ni compradores identificados. [R03]\n\n[N] Una investigación de ((o))eco describió fraudes que otorgaban apariencia legal a fauna de origen ilícito en otros casos. La tipología orienta la revisión de documentos existentes, pero la ausencia de anillas aquí no demuestra blanqueo documental. [R07]\n\n[T] SisPass controla planteles y autorizaciones de paseriformes nativos. Como la lista publicada contiene nombres comunes de distintos grupos, la verificación debe hacerse según cada taxón y su régimen; los psitácidos, por ejemplo, no se registran como paseriformes en SisPass. [R04]",
+      "references_text_pt": "[R05] Brigada Militar / Rádio Tapejara — Brigada Militar resgata passaros silvestres mantidos ilegalmente em cativeiro (2026): https://www.radiotapejara.com.br/noticia/100927/brigada-militar-resgata-passaros-silvestres-mantidos-ilegalmente-em-cativeiro-em-getulio-vargas\n[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026): https://doi.org/10.1111/acv.70052\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R07] Aldem Bourscheit / ((o))eco — Lavagem de animais traficados poe em xeque a biodiversidade brasileira (2024): https://oeco.org.br/reportagens/lavagem-de-animais-traficados-poe-em-xeque-a-biodiversidade-brasileira/\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "references_text_en": "[R05] Brigada Militar / Rádio Tapejara — Brigada Militar resgata passaros silvestres mantidos ilegalmente em cativeiro (2026): https://www.radiotapejara.com.br/noticia/100927/brigada-militar-resgata-passaros-silvestres-mantidos-ilegalmente-em-cativeiro-em-getulio-vargas\n[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026): https://doi.org/10.1111/acv.70052\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R07] Aldem Bourscheit / ((o))eco — Lavagem de animais traficados poe em xeque a biodiversidade brasileira (2024): https://oeco.org.br/reportagens/lavagem-de-animais-traficados-poe-em-xeque-a-biodiversidade-brasileira/\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "references_text_es": "[R05] Brigada Militar / Rádio Tapejara — Brigada Militar resgata passaros silvestres mantidos ilegalmente em cativeiro (2026): https://www.radiotapejara.com.br/noticia/100927/brigada-militar-resgata-passaros-silvestres-mantidos-ilegalmente-em-cativeiro-em-getulio-vargas\n[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026): https://doi.org/10.1111/acv.70052\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R07] Aldem Bourscheit / ((o))eco — Lavagem de animais traficados poe em xeque a biodiversidade brasileira (2024): https://oeco.org.br/reportagens/lavagem-de-animais-traficados-poe-em-xeque-a-biodiversidade-brasileira/\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "observed",
+          "label": "[R05] Brigada Militar / Rádio Tapejara — Brigada Militar resgata passaros silvestres mantidos ilegalmente em cativeiro (2026)",
+          "url": "https://www.radiotapejara.com.br/noticia/100927/brigada-militar-resgata-passaros-silvestres-mantidos-ilegalmente-em-cativeiro-em-getulio-vargas"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026)",
+          "url": "https://doi.org/10.1111/acv.70052"
+        },
+        {
+          "id": "I",
+          "type": "institutional",
+          "label": "[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025)",
+          "url": "https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf"
+        },
+        {
+          "id": "N",
+          "type": "news",
+          "label": "[R07] Aldem Bourscheit / ((o))eco — Lavagem de animais traficados poe em xeque a biodiversidade brasileira (2024)",
+          "url": "https://oeco.org.br/reportagens/lavagem-de-animais-traficados-poe-em-xeque-a-biodiversidade-brasileira/"
+        },
+        {
+          "id": "T",
+          "type": "published_external",
+          "label": "[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026)",
+          "url": "https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 15,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Aves": 15
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Posse irregular; comércio não demonstrado.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "source_reconciliation_status": "PUBLIC_SOURCE_CORROBORATED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NO_VALIDATED_IMAGE",
+      "ingestion_batch": "tgh_2026_11_10_11_manual_preflight",
+      "case_context_status": "PT_EN_ES_STRUCTURALLY_VALIDATED",
+      "context_style": "[O][S][I][N][T]_evidence_tagged_no_assumed_routes",
+      "source_corroboration_url": "https://www.radiotapejara.com.br/noticia/100927/brigada-militar-resgata-passaros-silvestres-mantidos-ilegalmente-em-cativeiro-em-getulio-vargas",
+      "georeference_source_url": null,
+      "georeference_method": "PENDING",
+      "is_exact_seizure_position": false,
+      "occurred_at": "2026-11-10T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261110-br-iguatama-one-siskin",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-10",
+      "event_end_date": null,
+      "publication_date": "2026-11-10",
+      "coordinates": {
+        "lat": -20.174445,
+        "lon": -45.711111
+      },
+      "coordinate_precision": "MUNICIPALITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Iguatama, Minas Gerais, Brasil",
+      "location_label_en": "Iguatama, Minas Gerais, Brazil",
+      "location_label_es": "Iguatama, Minas Gerais, Brasil",
+      "geographic_note_pt": "Coordenada aproximada de referencia municipal; nao representa o local exato da apreensao.",
+      "geographic_note_en": "Approximate municipality reference coordinate; not the exact seizure location.",
+      "geographic_note_es": "Coordenada aproximada de referencia municipal; no representa el lugar exacto de la incautacion.",
+      "source_label": "Polícia Militar de Meio Ambiente / Iguatama Agora",
+      "source_url": "https://www.iguatamaagora.com.br/noticia/4443/policia-ambiental-apreende-ave-mantida-em-cativeiro-irregular-em-iguatama",
+      "title_pt": "Polícia Ambiental apreende um pintassilgo nativo em Iguatama",
+      "title_en": "Environmental police seize one native siskin in Iguatama",
+      "title_es": "Policía Ambiental incauta un jilguero nativo en Iguatama",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "fauna_label_pt": "1 pintassilgo-de-cabeça-preta",
+      "fauna_label_en": "1 native siskin",
+      "fauna_label_es": "1 jilguero nativo",
+      "taxon_text": "Pintassilgo-de-cabeça-preta (Spinus magellanicus)",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "card_text_pt": "Um Spinus magellanicus foi apreendido sem licença em Iguatama; 21 canários-belgas vistos no imóvel não foram apreendidos.",
+      "card_text_en": "One Spinus magellanicus was seized without a permit in Iguatama; 21 domestic canaries at the property were not seized.",
+      "card_text_es": "Se incautó un Spinus magellanicus sin permiso en Iguatama; 21 canarios domésticos presentes no fueron incautados.",
+      "context_pt": "[O] A evidência da infração contra a fauna nativa refere-se a um único pintassilgo-de-cabeça-preta, enquanto os 21 canários-belgas vistos no imóvel não foram noticiados como apreendidos. A suspeita adicional de envenenamento de animais domésticos não foi demonstrada e não integra este episódio de fauna silvestre. [R08]\n\n[S] A pesquisa sobre comércio brasileiro de aves canoras destaca a importância de testar a origem silvestre ou cativa, inclusive com isótopos estáveis em situações adequadas. O artigo não fornece resultado para o indivíduo apreendido em Iguatama, cuja procedência permanece documentalmente indefinida. [R06]\n\n[T] A criação amadora de passeriformes silvestres nativos requer autorização no regime estadual associado ao SisPass. Isso orienta a verificação da situação do pintassilgo, sem agregar os canários-belgas à contagem de fauna nativa apreendida. [R04]",
+      "context_en": "[O] Evidence of an offence involving native wildlife concerns a single hooded siskin, whereas the 21 domestic canaries present at the property were not reported as seized. A separate allegation involving poisoned domestic animals was not substantiated and is not part of this wildlife incident. [R08]\n\n[S] Research on Brazilian songbird trade highlights the importance of testing wild versus captive origin, including through feather stable isotopes where appropriate. The study provides no result for the individual seized in Iguatama, whose provenance remains unestablished. [R06]\n\n[T] Amateur keeping of native wild passerines requires authorization under state licensing arrangements linked to SisPass. This guides verification of the siskin without adding domestic canaries to the count of seized native wildlife. [R04]",
+      "context_es": "[O] La prueba de la infracción relativa a fauna nativa se limita a un jilguero encapuchado, mientras que los 21 canarios domésticos presentes no figuran como decomisados. Otra denuncia sobre el supuesto envenenamiento de animales domésticos no fue confirmada y no forma parte de este evento. [R08]\n\n[S] La investigación sobre comercio de aves canoras de Brasil destaca la importancia de distinguir el origen silvestre del cautivo, incluso mediante isótopos estables cuando corresponda. El estudio no aporta resultados sobre el ejemplar de Iguatama, cuya procedencia sigue sin establecerse. [R06]\n\n[T] La cría aficionada de paseriformes silvestres nativos requiere autorización conforme al sistema estatal vinculado a SisPass. Esto orienta la comprobación del jilguero sin sumar los canarios domésticos a la cifra de fauna nativa decomisada. [R04]",
+      "references_text_pt": "[R08] Polícia Militar Ambiental / Iguatama Agora — Polícia Ambiental apreende ave mantida em cativeiro irregular em Iguatama (2026): https://www.iguatamaagora.com.br/noticia/4443/policia-ambiental-apreende-ave-mantida-em-cativeiro-irregular-em-iguatama\n[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026): https://doi.org/10.1111/acv.70052\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "references_text_en": "[R08] Polícia Militar Ambiental / Iguatama Agora — Polícia Ambiental apreende ave mantida em cativeiro irregular em Iguatama (2026): https://www.iguatamaagora.com.br/noticia/4443/policia-ambiental-apreende-ave-mantida-em-cativeiro-irregular-em-iguatama\n[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026): https://doi.org/10.1111/acv.70052\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "references_text_es": "[R08] Polícia Militar Ambiental / Iguatama Agora — Polícia Ambiental apreende ave mantida em cativeiro irregular em Iguatama (2026): https://www.iguatamaagora.com.br/noticia/4443/policia-ambiental-apreende-ave-mantida-em-cativeiro-irregular-em-iguatama\n[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026): https://doi.org/10.1111/acv.70052\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "observed",
+          "label": "[R08] Polícia Militar Ambiental / Iguatama Agora — Polícia Ambiental apreende ave mantida em cativeiro irregular em Iguatama (2026)",
+          "url": "https://www.iguatamaagora.com.br/noticia/4443/policia-ambiental-apreende-ave-mantida-em-cativeiro-irregular-em-iguatama"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "[R06] Brasileiro et al. / Animal Conservation — Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026)",
+          "url": "https://doi.org/10.1111/acv.70052"
+        },
+        {
+          "id": "T",
+          "type": "published_external",
+          "label": "[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026)",
+          "url": "https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Aves": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Posse irregular; comércio não demonstrado.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "source_reconciliation_status": "PUBLIC_SOURCE_CORROBORATED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NO_VALIDATED_IMAGE",
+      "ingestion_batch": "tgh_2026_11_10_11_manual_preflight",
+      "case_context_status": "PT_EN_ES_STRUCTURALLY_VALIDATED",
+      "context_style": "[O][S][I][N][T]_evidence_tagged_no_assumed_routes",
+      "source_corroboration_url": null,
+      "georeference_source_url": null,
+      "georeference_method": "PENDING",
+      "is_exact_seizure_position": false,
+      "occurred_at": "2026-11-10T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261110-br-mamanguape-four-wild-birds",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-10",
+      "event_end_date": null,
+      "publication_date": "2026-11-10",
+      "coordinates": {
+        "lat": -6.833698,
+        "lon": -35.121316
+      },
+      "coordinate_precision": "MUNICIPALITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Mamanguape, Paraíba, Brasil",
+      "location_label_en": "Mamanguape, Paraíba, Brazil",
+      "location_label_es": "Mamanguape, Paraíba, Brasil",
+      "geographic_note_pt": "Coordenada aproximada de referencia municipal; nao representa o local exato da apreensao.",
+      "geographic_note_en": "Approximate municipality reference coordinate; not the exact seizure location.",
+      "geographic_note_es": "Coordenada aproximada de referencia municipal; no representa el lugar exacto de la incautacion.",
+      "source_label": "Polícia Ambiental da Paraíba / Repórter PB",
+      "source_url": "https://www.reporterpb.com.br/noticia/policial/2026/11/10/policia-ambiental-apreende-aves-silvestres-e-espingarda-artesanal-durante-fiscalizacao-na-paraiba/194373.html",
+      "title_pt": "Polícia Ambiental apreende quatro aves silvestres em Mamanguape",
+      "title_en": "Environmental police seize four wild birds in Mamanguape",
+      "title_es": "Policía Ambiental incauta cuatro aves silvestres en Mamanguape",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "fauna_label_pt": "4 aves silvestres",
+      "fauna_label_en": "4 wild birds",
+      "fauna_label_es": "4 aves silvestres",
+      "taxon_text": "4 aves silvestres, espécies não identificadas",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "card_text_pt": "A fiscalização apreendeu quatro aves silvestres e uma arma artesanal; duas pessoas foram conduzidas, sem evidência divulgada de comércio.",
+      "card_text_en": "Inspectors seized four wild birds and a homemade firearm; two people were taken to police, without published evidence of trade.",
+      "card_text_es": "La inspección incautó cuatro aves silvestres y un arma artesanal; dos personas fueron conducidas, sin evidencia publicada de comercio.",
+      "context_pt": "[O] Sem identificação das quatro aves ao nível de espécie, a relevância taxonômica e a possível origem não podem ser avaliadas. A espingarda artesanal foi encontrada na mesma fiscalização, mas as fontes não a associam à captura das aves; duas pessoas conduzidas não demonstram participação em rede comercial. [R09]\n\n[S] Estudo de mercados de aves na região metropolitana do Recife identificou pressão comercial sobre populações silvestres no Nordeste, oferecendo contexto regional histórico. Não há evidência de que os quatro exemplares encontrados em Mamanguape fossem destinados a feiras ou outros pontos de venda. [R10]\n\n[I] A publicação da WCS Brasil sobre ocorrências no Amazonas distingue modalidades como cativeiro doméstico, exibição comercial e transporte postal. Esses exemplos de outra região reforçam a necessidade de classificar o mecanismo documentado neste evento antes de atribuir finalidade mercantil. [R11]\n\n[T] As orientações do Ibama para os Cetas separam identificação, triagem, avaliação, recuperação e destinação. Registrar espécie e resultado da destinação de cada indivíduo permitiria avaliar o impacto conservacionista sem inferir comércio. [R12]",
+      "context_en": "[O] Without species-level identification of the four birds, their taxonomic relevance and possible provenance cannot be assessed. A homemade firearm was found in the same inspection, but reporting does not connect it to bird capture; two people brought to a police station do not establish involvement in a commercial network. [R09]\n\n[S] Research on bird markets in metropolitan Recife documented commercial pressure on wild populations in northeastern Brazil, offering historical regional context. Nothing establishes that the four Mamanguape birds were destined for markets or other sale points. [R10]\n\n[I] WCS Brazil reporting on incidents in Amazonas differentiates household captivity, commercial display and postal transportation. These examples from another region reinforce the need to classify the documented mechanism before attributing a trading purpose to this event. [R11]\n\n[T] Brazilian environmental authority guidance separates species identification, intake, assessment, recovery and final disposition of seized wildlife. Recording the species and disposition for each individual would support conservation assessment without implying trade. [R12]",
+      "context_es": "[O] Sin identificar las cuatro aves hasta el nivel de especie, no es posible evaluar su relevancia taxonómica ni su posible procedencia. Se encontró un arma artesanal en la misma inspección, pero las fuentes no la vinculan con la captura de las aves; dos personas conducidas a comisaría tampoco demuestran una red comercial. [R09]\n\n[S] Un estudio de mercados de aves en el área metropolitana de Recife documentó presión comercial sobre poblaciones silvestres del nordeste de Brasil y aporta un contexto regional histórico. No existe evidencia de que los cuatro ejemplares de Mamanguape estuvieran destinados a ferias u otros puntos de venta. [R10]\n\n[I] Los informes de WCS Brasil sobre incidentes en Amazonas diferencian cautiverio doméstico, exhibición comercial y transporte postal. Estos ejemplos de otra región refuerzan la necesidad de clasificar el mecanismo documentado antes de atribuir una finalidad de venta a este evento. [R11]\n\n[T] Las orientaciones del Ibama distinguen identificación, recepción, evaluación, recuperación y destino final de fauna incautada. Registrar la especie y el destino de cada individuo permitiría evaluar la relevancia conservacionista sin inferir comercio. [R12]",
+      "references_text_pt": "[R09] Polícia Militar da Paraiba / Reporter PB — Polícia Ambiental apreende aves e espingarda artesanal em Mamanguape (2026): https://www.reporterpb.com.br/noticia/policial/2026/11/10/policia-ambiental-apreende-aves-silvestres-e-espingarda-artesanal-durante-fiscalizacao-na-paraiba/194373.html\n[R10] Regueira e Bernard / Biological Conservation — Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012): https://doi.org/10.1016/j.biocon.2012.02.009\n[R11] WCS Brasil — WCS Brasil lanca newsletter sobre tráfico de fauna / Wildlife Crimes (2025): https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[R12] IBAMA — Centros de Triagem de Animais Silvestres (Cetas) (2025): https://www.gov.br/ibama/pt-br/acesso-a-informacao/institucional/o-que-sao-os-cetas",
+      "references_text_en": "[R09] Polícia Militar da Paraiba / Reporter PB — Polícia Ambiental apreende aves e espingarda artesanal em Mamanguape (2026): https://www.reporterpb.com.br/noticia/policial/2026/11/10/policia-ambiental-apreende-aves-silvestres-e-espingarda-artesanal-durante-fiscalizacao-na-paraiba/194373.html\n[R10] Regueira e Bernard / Biological Conservation — Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012): https://doi.org/10.1016/j.biocon.2012.02.009\n[R11] WCS Brasil — WCS Brasil lanca newsletter sobre tráfico de fauna / Wildlife Crimes (2025): https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[R12] IBAMA — Centros de Triagem de Animais Silvestres (Cetas) (2025): https://www.gov.br/ibama/pt-br/acesso-a-informacao/institucional/o-que-sao-os-cetas",
+      "references_text_es": "[R09] Polícia Militar da Paraiba / Reporter PB — Polícia Ambiental apreende aves e espingarda artesanal em Mamanguape (2026): https://www.reporterpb.com.br/noticia/policial/2026/11/10/policia-ambiental-apreende-aves-silvestres-e-espingarda-artesanal-durante-fiscalizacao-na-paraiba/194373.html\n[R10] Regueira e Bernard / Biological Conservation — Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012): https://doi.org/10.1016/j.biocon.2012.02.009\n[R11] WCS Brasil — WCS Brasil lanca newsletter sobre tráfico de fauna / Wildlife Crimes (2025): https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[R12] IBAMA — Centros de Triagem de Animais Silvestres (Cetas) (2025): https://www.gov.br/ibama/pt-br/acesso-a-informacao/institucional/o-que-sao-os-cetas",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "observed",
+          "label": "[R09] Polícia Militar da Paraiba / Reporter PB — Polícia Ambiental apreende aves e espingarda artesanal em Mamanguape (2026)",
+          "url": "https://www.reporterpb.com.br/noticia/policial/2026/11/10/policia-ambiental-apreende-aves-silvestres-e-espingarda-artesanal-durante-fiscalizacao-na-paraiba/194373.html"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "[R10] Regueira e Bernard / Biological Conservation — Wildlife sinks: Quantifying the impact of illegal bird trade in street markets in Brazil (2012)",
+          "url": "https://doi.org/10.1016/j.biocon.2012.02.009"
+        },
+        {
+          "id": "I",
+          "type": "institutional",
+          "label": "[R11] WCS Brasil — WCS Brasil lanca newsletter sobre tráfico de fauna / Wildlife Crimes (2025)",
+          "url": "https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx"
+        },
+        {
+          "id": "T",
+          "type": "published_external",
+          "label": "[R12] IBAMA — Centros de Triagem de Animais Silvestres (Cetas) (2025)",
+          "url": "https://www.gov.br/ibama/pt-br/acesso-a-informacao/institucional/o-que-sao-os-cetas"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 4,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Aves": 4
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Posse irregular; comércio não demonstrado.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "source_reconciliation_status": "PUBLIC_SOURCE_CORROBORATED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NO_VALIDATED_IMAGE",
+      "ingestion_batch": "tgh_2026_11_10_11_manual_preflight",
+      "case_context_status": "PT_EN_ES_STRUCTURALLY_VALIDATED",
+      "context_style": "[O][S][I][N][T]_evidence_tagged_no_assumed_routes",
+      "source_corroboration_url": null,
+      "georeference_source_url": null,
+      "georeference_method": "PENDING",
+      "is_exact_seizure_position": false,
+      "occurred_at": "2026-11-10T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261110-br-vacaria-35-wild-birds",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-10",
+      "event_end_date": null,
+      "publication_date": "2026-11-11",
+      "coordinates": {
+        "lat": -28.5102901,
+        "lon": -50.9356044
+      },
+      "coordinate_precision": "MUNICIPALITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Vacaria, Rio Grande do Sul, Brasil",
+      "location_label_en": "Vacaria, Rio Grande do Sul, Brazil",
+      "location_label_es": "Vacaria, Rio Grande do Sul, Brasil",
+      "geographic_note_pt": "Coordenada aproximada de referencia municipal; nao representa o local exato da apreensao.",
+      "geographic_note_en": "Approximate municipality reference coordinate; not the exact seizure location.",
+      "geographic_note_es": "Coordenada aproximada de referencia municipal; no representa el lugar exacto de la incautacion.",
+      "source_label": "PATRAM / Tua Rádio",
+      "source_url": "https://www.tuaradio.com.br/noticias/seguranca/11-11-2026/patram-e-secretaria-de-meio-ambiente-municipal-apreendem-animais-silvestres-e-materiais-ilicitos-em-vacaria",
+      "title_pt": "Polícia Ambiental apreende 35 aves silvestres em cativeiro irregular em Vacaria",
+      "title_en": "Environmental police seize 35 illegally held wild birds in Vacaria",
+      "title_es": "Policía Ambiental incauta 35 aves silvestres mantenidas ilegalmente en Vacaria",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "fauna_label_pt": "35 aves silvestres",
+      "fauna_label_en": "35 wild birds",
+      "fauna_label_es": "35 aves silvestres",
+      "taxon_text": "Aves silvestres; espécies não discriminadas na notícia",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "card_text_pt": "Fiscalização em Vacaria apreendeu 35 aves silvestres, 55 gaiolas e 10 armadilhas; não há comércio documentado.",
+      "card_text_en": "A Vacaria inspection seized 35 wild birds, 55 cages and 10 traps; no wildlife trade was documented.",
+      "card_text_es": "Una inspección en Vacaria incautó 35 aves silvestres, 55 jaulas y 10 trampas; no se documentó comercio.",
+      "context_pt": "[O] A coexistência de aves, um número de gaiolas superior ao de indivíduos e armadilhas documenta capacidade de manutenção e disponibilidade de instrumentos de captura. A notícia não discrimina as espécies nem informa proveniência, compradores ou transações; a soltura após avaliação sanitária documenta destinação, não a origem de cada ave. [R01]\n\n[S] O panorama do comércio de aves vivas no Brasil registra grande diversidade taxonômica e impactos associados à retirada de indivíduos da natureza. Por isso, a identificação por espécie é decisiva para avaliar a relevância conservacionista deste conjunto, sem presumir que as aves de Vacaria integrassem um mercado. [R02]\n\n[I] O relatório institucional da WCS diferencia captura, transporte, oferta e destino final como elos que precisam ser documentados de forma independente. Neste caso, a evidência pública sustenta a manutenção irregular, mas não reconstitui os demais elos. [R03]\n\n[T] O SisPass estabelece controles específicos para criação amadora de passeriformes nativos e vincula licenças aos órgãos estaduais. A verificação desse sistema só é pertinente para os indivíduos identificados como passeriformes, o que ainda não foi informado. [R04]",
+      "context_en": "[O] The combination of birds, more cages than individuals, and capture traps documents holding capacity and access to capture equipment. Reporting does not identify species, provenance, buyers or transactions; release after a sanitary assessment documents disposition, not the origin of each bird. [R01]\n\n[S] A review of live-bird trade in Brazil identifies considerable taxonomic diversity and conservation impacts associated with removal from the wild. Species-level identification is therefore important for assessing this group without assuming that the Vacaria birds entered a market. [R02]\n\n[I] The WCS institutional report treats capture, transport, offering and final destination as distinct links requiring independent evidence. Public information here substantiates illegal keeping but does not reconstruct those other links. [R03]\n\n[T] SisPass sets specific controls for amateur keeping of native passerines, with licensing managed by state environmental agencies. Checking this system is appropriate only for specimens identified as passerines, which the report has not established. [R04]",
+      "context_es": "[O] La presencia conjunta de aves, más jaulas que individuos y trampas documenta capacidad de mantenimiento y disponibilidad de instrumentos de captura. La noticia no identifica especies, procedencia, compradores ni transacciones; la liberación tras la evaluación sanitaria acredita el destino, no el origen de cada ave. [R01]\n\n[S] Un estudio sobre el comercio de aves vivas en Brasil identifica una considerable diversidad taxonómica e impactos relacionados con la extracción de ejemplares silvestres. La identificación por especie resulta esencial para evaluar este conjunto sin asumir que las aves de Vacaria ingresaran a un mercado. [R02]\n\n[I] El informe institucional de WCS distingue captura, transporte, oferta y destino final como eslabones que requieren pruebas independientes. En este evento, la información pública acredita la tenencia irregular, pero no reconstruye los demás eslabones. [R03]\n\n[T] SisPass establece controles específicos para la cría aficionada de paseriformes nativos, con licencias gestionadas por autoridades estatales. La consulta al sistema solo procede para ejemplares identificados como paseriformes, algo no establecido en la noticia. [R04]",
+      "references_text_pt": "[R01] Comando de Polícia Ambiental / Tua Rádio — Patram e Secretaria apreendem animais silvestres e materiais em Vacaria (2026): https://www.tuaradio.com.br/noticias/seguranca/11-11-2026/patram-e-secretaria-de-meio-ambiente-municipal-apreendem-animais-silvestres-e-materiais-ilicitos-em-vacaria\n[R02] Alves, Lima e Araújo / Bird Conservation International — The live bird trade in Brazil and its conservation implications: an overview (2013): https://doi.org/10.1017/S095927091200010X\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "references_text_en": "[R01] Comando de Polícia Ambiental / Tua Rádio — Patram e Secretaria apreendem animais silvestres e materiais em Vacaria (2026): https://www.tuaradio.com.br/noticias/seguranca/11-11-2026/patram-e-secretaria-de-meio-ambiente-municipal-apreendem-animais-silvestres-e-materiais-ilicitos-em-vacaria\n[R02] Alves, Lima e Araújo / Bird Conservation International — The live bird trade in Brazil and its conservation implications: an overview (2013): https://doi.org/10.1017/S095927091200010X\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "references_text_es": "[R01] Comando de Polícia Ambiental / Tua Rádio — Patram e Secretaria apreendem animais silvestres e materiais em Vacaria (2026): https://www.tuaradio.com.br/noticias/seguranca/11-11-2026/patram-e-secretaria-de-meio-ambiente-municipal-apreendem-animais-silvestres-e-materiais-ilicitos-em-vacaria\n[R02] Alves, Lima e Araújo / Bird Conservation International — The live bird trade in Brazil and its conservation implications: an overview (2013): https://doi.org/10.1017/S095927091200010X\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026): https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "observed",
+          "label": "[R01] Comando de Polícia Ambiental / Tua Rádio — Patram e Secretaria apreendem animais silvestres e materiais em Vacaria (2026)",
+          "url": "https://www.tuaradio.com.br/noticias/seguranca/11-11-2026/patram-e-secretaria-de-meio-ambiente-municipal-apreendem-animais-silvestres-e-materiais-ilicitos-em-vacaria"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "[R02] Alves, Lima e Araújo / Bird Conservation International — The live bird trade in Brazil and its conservation implications: an overview (2013)",
+          "url": "https://doi.org/10.1017/S095927091200010X"
+        },
+        {
+          "id": "I",
+          "type": "institutional",
+          "label": "[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025)",
+          "url": "https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf"
+        },
+        {
+          "id": "T",
+          "type": "published_external",
+          "label": "[R04] IBAMA — Criação amadora de passeriformes da fauna silvestre brasileira (SisPass) (2026)",
+          "url": "https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/passaros-silvestres"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 35,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Aves": 35
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Posse irregular; comércio não demonstrado.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "source_reconciliation_status": "PUBLIC_SOURCE_CORROBORATED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NO_VALIDATED_IMAGE",
+      "ingestion_batch": "tgh_2026_11_10_11_manual_preflight",
+      "case_context_status": "PT_EN_ES_STRUCTURALLY_VALIDATED",
+      "context_style": "[O][S][I][N][T]_evidence_tagged_no_assumed_routes",
+      "source_corroboration_url": null,
+      "georeference_source_url": null,
+      "georeference_method": "PENDING",
+      "is_exact_seizure_position": false,
+      "occurred_at": "2026-11-10T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261110-za-kuruman-live-pangolin",
+      "status": "VALIDATED",
+      "country": "África do Sul",
+      "event_date": "2026-11-10",
+      "event_end_date": null,
+      "publication_date": "2026-11-11",
+      "coordinates": {
+        "lat": -27.4601585,
+        "lon": 23.4347857
+      },
+      "coordinate_precision": "MUNICIPALITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Kuruman, Northern Cape, África do Sul",
+      "location_label_en": "Kuruman, Northern Cape, South Africa",
+      "location_label_es": "Kuruman, Northern Cape, Sudáfrica",
+      "geographic_note_pt": "Coordenada aproximada de referencia municipal; nao representa o local exato da apreensao.",
+      "geographic_note_en": "Approximate municipality reference coordinate; not the exact seizure location.",
+      "geographic_note_es": "Coordenada aproximada de referencia municipal; no representa el lugar exacto de la incautacion.",
+      "source_label": "South African Police Service",
+      "source_url": "https://www.saps.gov.za/newsroom/msspeechdetail.php?nid=72394",
+      "title_pt": "Polícia encontra pangolim vivo em veículo em Kuruman",
+      "title_en": "Police find a live pangolin in a vehicle in Kuruman",
+      "title_es": "La policía encuentra un pangolín vivo en un vehículo en Kuruman",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "fauna_label_pt": "1 pangolim vivo",
+      "fauna_label_en": "1 live pangolin",
+      "fauna_label_es": "1 pangolín vivo",
+      "taxon_text": "Pangolim adulto vivo (espécie não identificada na fonte)",
+      "modal_primary": "Rodoviário",
+      "modal_label_pt": "Rodoviário",
+      "card_text_pt": "Policiais localizaram um pangolim vivo oculto em bolsa dentro de automóvel em Kuruman; cinco pessoas foram presas.",
+      "card_text_en": "Officers found a live pangolin hidden in a bag inside a car in Kuruman; five people were arrested.",
+      "card_text_es": "Agentes hallaron un pangolín vivo oculto en una bolsa dentro de un automóvil en Kuruman; cinco personas fueron detenidas.",
+      "context_pt": "[O] A ocultação de um pangolim vivo em bolsa dentro de veículo comprova transporte terrestre no ponto de abordagem e posse irregular, mas não revela local de captura, trajeto anterior, destino ou comprador. A espécie não foi identificada taxonomicamente na comunicação policial, portanto não deve ser atribuída automaticamente ao pangolim-de-Temminck. [R13]\n\n[S] Jansen e colaboradores analisaram 276 operações sul-africanas entre 2016 e 2024 e registraram 302 pangolins recuperados, dos quais 81,4% estavam vivos. O padrão histórico mostra relevância da comercialização de exemplares vivos, mas não estabelece o mercado ou destino do indivíduo de Kuruman. [R14]\n\n[I] O relatório de impacto da WCS recomenda investigar os diferentes elos da cadeia de tráfico separadamente. A abordagem rodoviária constitui um ponto de interceptação, não evidência suficiente para reconstruir a origem ou inferir exportação. [R03]\n\n[N] Reportagem sobre estudos de DNA de pangolins em outras regiões africanas ilustra como amostras genéticas podem contribuir para investigar procedência e relações entre mercados locais e apreensões internacionais; não há análise genética divulgada para o exemplar atual. [R15]\n\n[T] Estudo EIA/GIZ sobre comércio de pangolins vivos em Malawi, Moçambique, Tanzânia e Zâmbia mostra que mercados domésticos de animais vivos e cadeias de escamas para exportação devem ser distinguidos. O exemplo não permite atribuir rota internacional a esta apreensão sul-africana. [R16]",
+      "context_en": "[O] Concealment of a live pangolin in a bag inside a vehicle establishes terrestrial movement at the interception point and unlawful possession, but not capture location, previous journey, destination or buyer. The police statement does not identify the species, so the animal should not automatically be classified as Temminck's pangolin. [R13]\n\n[S] Jansen and colleagues reviewed 276 South African operations from 2016 to 2024 and recorded 302 recovered pangolins, 81.4% of which were alive. This historical pattern demonstrates the importance of live-animal trade, but does not establish a market or destination for the Kuruman animal. [R14]\n\n[I] The WCS impact report recommends investigating distinct links in the trafficking chain separately. A vehicle interception is one documented point, not sufficient evidence to reconstruct origin or infer export. [R03]\n\n[N] Reporting on pangolin DNA studies in other African regions illustrates how genetic samples can contribute to provenance analysis and links between local markets and international seizures; no genetic findings have been reported for this animal. [R15]\n\n[T] An EIA/GIZ study of live pangolin trade in Malawi, Mozambique, Tanzania and Zambia distinguishes local markets in live animals from international scale supply chains. These findings do not justify assigning an international route to this South African seizure. [R16]",
+      "context_es": "[O] La ocultación de un pangolín vivo en una bolsa dentro de un vehículo acredita desplazamiento terrestre en el punto de intercepción y tenencia ilegal, pero no el lugar de captura, el itinerario previo, el destino ni el comprador. El comunicado policial no identifica la especie; por tanto, no corresponde asignarle automáticamente la de Temminck. [R13]\n\n[S] Jansen y colaboradores analizaron 276 operativos sudafricanos de 2016 a 2024 e identificaron 302 pangolines recuperados, de los cuales el 81,4% estaban vivos. Este patrón histórico muestra la importancia del comercio de ejemplares vivos, pero no establece mercado ni destino para el individuo de Kuruman. [R14]\n\n[I] El informe institucional de WCS recomienda estudiar por separado los eslabones de la cadena del tráfico. La intercepción vehicular documenta un punto de control, pero no permite reconstruir el origen ni inferir exportación. [R03]\n\n[N] Un reportaje sobre estudios de ADN de pangolines en otras regiones africanas explica cómo las muestras genéticas pueden contribuir a investigar la procedencia y las relaciones entre mercados locales y decomisos internacionales; no se comunicaron análisis genéticos de este ejemplar. [R15]\n\n[T] Un estudio EIA/GIZ sobre el comercio de pangolines vivos en Malawi, Mozambique, Tanzania y Zambia distingue los mercados nacionales de animales vivos de las cadenas de escamas para exportación. Estos hallazgos no autorizan asignar una ruta internacional a la incautación sudafricana. [R16]",
+      "references_text_pt": "[R13] South African Police Service (SAPS), reproduzido por Arrive Alive — Five suspects arrested for possession of endangered pangolin in Kuruman (2026): https://www.arrivealive.mobi/news.aspx?i=79123&page=Five-suspects-arrested-for-the-possession-of-an-endangered-pangolin-in-Kuruman&s=1\n[R14] Jansen, Meyer e Nethavhani / Global Ecology and Conservation — Tracking the traffickers: Unmasking the illegal trade demographics of Temminck s pangolin in South Africa (2016-2024) (2025): https://doi.org/10.1016/j.gecco.2025.e03924\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R15] Shanna Hanbury / Mongabay — Pangolin DNA study links local wild meat markets to global trafficking networks (2026): https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/\n[R16] Environmental Investigation Agency / GIZ — GIZ Live Pangolin Trade Study (2024): https://eia-international.org/report/giz-live-pangolin-study/",
+      "references_text_en": "[R13] South African Police Service (SAPS), reproduzido por Arrive Alive — Five suspects arrested for possession of endangered pangolin in Kuruman (2026): https://www.arrivealive.mobi/news.aspx?i=79123&page=Five-suspects-arrested-for-the-possession-of-an-endangered-pangolin-in-Kuruman&s=1\n[R14] Jansen, Meyer e Nethavhani / Global Ecology and Conservation — Tracking the traffickers: Unmasking the illegal trade demographics of Temminck s pangolin in South Africa (2016-2024) (2025): https://doi.org/10.1016/j.gecco.2025.e03924\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R15] Shanna Hanbury / Mongabay — Pangolin DNA study links local wild meat markets to global trafficking networks (2026): https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/\n[R16] Environmental Investigation Agency / GIZ — GIZ Live Pangolin Trade Study (2024): https://eia-international.org/report/giz-live-pangolin-study/",
+      "references_text_es": "[R13] South African Police Service (SAPS), reproduzido por Arrive Alive — Five suspects arrested for possession of endangered pangolin in Kuruman (2026): https://www.arrivealive.mobi/news.aspx?i=79123&page=Five-suspects-arrested-for-the-possession-of-an-endangered-pangolin-in-Kuruman&s=1\n[R14] Jansen, Meyer e Nethavhani / Global Ecology and Conservation — Tracking the traffickers: Unmasking the illegal trade demographics of Temminck s pangolin in South Africa (2016-2024) (2025): https://doi.org/10.1016/j.gecco.2025.e03924\n[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025): https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[R15] Shanna Hanbury / Mongabay — Pangolin DNA study links local wild meat markets to global trafficking networks (2026): https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/\n[R16] Environmental Investigation Agency / GIZ — GIZ Live Pangolin Trade Study (2024): https://eia-international.org/report/giz-live-pangolin-study/",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "observed",
+          "label": "[R13] South African Police Service (SAPS), reproduzido por Arrive Alive — Five suspects arrested for possession of endangered pangolin in Kuruman (2026)",
+          "url": "https://www.arrivealive.mobi/news.aspx?i=79123&page=Five-suspects-arrested-for-the-possession-of-an-endangered-pangolin-in-Kuruman&s=1"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "[R14] Jansen, Meyer e Nethavhani / Global Ecology and Conservation — Tracking the traffickers: Unmasking the illegal trade demographics of Temminck s pangolin in South Africa (2016-2024) (2025)",
+          "url": "https://doi.org/10.1016/j.gecco.2025.e03924"
+        },
+        {
+          "id": "I",
+          "type": "institutional",
+          "label": "[R03] Wildlife Conservation Society — WCS Annual Impact Report 2025, pp. 24-25: Combating Wildlife Trafficking Around the World (2025)",
+          "url": "https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf"
+        },
+        {
+          "id": "N",
+          "type": "news",
+          "label": "[R15] Shanna Hanbury / Mongabay — Pangolin DNA study links local wild meat markets to global trafficking networks (2026)",
+          "url": "https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/"
+        },
+        {
+          "id": "T",
+          "type": "published_external",
+          "label": "[R16] Environmental Investigation Agency / GIZ — GIZ Live Pangolin Trade Study (2024)",
+          "url": "https://eia-international.org/report/giz-live-pangolin-study/"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "source_reconciliation_status": "PUBLIC_SOURCE_CORROBORATED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NO_VALIDATED_IMAGE",
+      "ingestion_batch": "tgh_2026_11_10_11_manual_preflight",
+      "case_context_status": "PT_EN_ES_STRUCTURALLY_VALIDATED",
+      "context_style": "[O][S][I][N][T]_evidence_tagged_no_assumed_routes",
+      "source_corroboration_url": "https://thesouthafricanenquirer.com/article/five-arrested-in-kuruman-after-police-find-live-pangolin-in-car",
+      "georeference_source_url": null,
+      "georeference_method": "PENDING",
+      "is_exact_seizure_position": false,
+      "occurred_at": "2026-11-10T00:00:00Z",
       "occurred_at_precision": "day"
     }
   ]
