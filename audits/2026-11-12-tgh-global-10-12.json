@@ -1,0 +1,217 @@
+{
+  "batch": "TG-H-GLOBAL-2026-11-10-12",
+  "created_at": "2026-11-12",
+  "window": {
+    "start": "2026-11-10",
+    "end": "2026-11-12"
+  },
+  "canonical_count_before": 1609,
+  "note": "Auditoria de candidatos identificados, não alegação de busca global exaustiva. Comparação com manifesto canônico e arquivos de novembro; podem existir duplicatas históricas ainda não identificadas.",
+  "methodology": "Datas de publicação e ocorrência independentes, data desconhecida null; fontes verificáveis; [O] [S] [I] [N] [T] seletivos; sem rotas inferidas ou contagem de peso como indivíduos.",
+  "counts": {
+    "candidates": 23,
+    "proposed_new": 5,
+    "existing_or_duplicate": 8,
+    "pending": 5,
+    "excluded": 5
+  },
+  "records": [
+    {
+      "id": "CY-01",
+      "location": "Chipre, Deryneia",
+      "disposition": "PUBLISH",
+      "source_url": "https://www.cypruspolicenews.com/archives/62371",
+      "related_case_id": "tgh-global-20261110-12-cy-deryneia-108-birds-seven-hares",
+      "reason": null
+    },
+    {
+      "id": "BR-01",
+      "location": "Brasil, Sorocaba",
+      "disposition": "PUBLISH",
+      "source_url": "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/11/767690-policia-resgata-animais-silvestres-mantidos-em-cativeiro-em-sorocaba.html",
+      "related_case_id": "tgh-global-20261110-12-br-sorocaba-eight-captive-animals",
+      "reason": null
+    },
+    {
+      "id": "IN-01",
+      "location": "Índia, Petwar/Hansi",
+      "disposition": "PUBLISH_EVENT_DATE_UNKNOWN",
+      "source_url": "https://www.jagran.com/haryana/hisar-youth-arrested-in-hisar-with-leopard-skin-worth-rs-1-crore-and-50-lakh-smuggling-links-linked-to-tamil-nadu-40432560.html",
+      "related_case_id": "tgh-global-20261110-12-in-hansi-petwar-leopard-skin",
+      "reason": "Relatos com data 10/11 e 11/11; conferir boletim"
+    },
+    {
+      "id": "BR-02",
+      "location": "Brasil, Águas Lindas de Goiás",
+      "disposition": "PUBLISH_EVENT_DATE_UNKNOWN",
+      "source_url": "https://goias.gov.br/seguranca/pmgo-interrompe-comercio-ilegal-de-arara-caninde-e-combate-trafico-de-animais-silvestres-em-aguas-lindas-de-goias/",
+      "related_case_id": "tgh-global-20261110-12-br-aguas-lindas-one-blue-yellow-macaw",
+      "reason": "Publicação 10/11 sem dia de apreensão"
+    },
+    {
+      "id": "IN-02",
+      "location": "Índia, Varanasi",
+      "disposition": "PUBLISH_EVENT_DATE_UNKNOWN",
+      "source_url": "https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/",
+      "related_case_id": "tgh-global-20261110-12-in-varanasi-three-alexandrine-parakeets",
+      "reason": "Publicação 12/11 sem data da fiscalização"
+    },
+    {
+      "id": "ZA-01",
+      "location": "África do Sul, Kuruman",
+      "disposition": "DUPLICATE_CANONICAL",
+      "source_url": "https://www.saps.gov.za/newsroom/msspeechdetail.php?nid=72394",
+      "related_case_id": "tgh-20261110-za-kuruman-live-pangolin",
+      "reason": null
+    },
+    {
+      "id": "BR-03",
+      "location": "Brasil, Getúlio Vargas",
+      "disposition": "DUPLICATE_CANONICAL",
+      "source_url": null,
+      "related_case_id": "tgh-20261110-br-getulio-vargas-15-wild-birds",
+      "reason": null
+    },
+    {
+      "id": "BR-04",
+      "location": "Brasil, Iguatama",
+      "disposition": "DUPLICATE_CANONICAL",
+      "source_url": null,
+      "related_case_id": "tgh-20261110-br-iguatama-one-siskin",
+      "reason": null
+    },
+    {
+      "id": "BR-05",
+      "location": "Brasil, Mamanguape",
+      "disposition": "DUPLICATE_CANONICAL",
+      "source_url": null,
+      "related_case_id": "tgh-20261110-br-mamanguape-four-wild-birds",
+      "reason": null
+    },
+    {
+      "id": "BR-06",
+      "location": "Brasil, Vacaria",
+      "disposition": "DUPLICATE_CANONICAL",
+      "source_url": null,
+      "related_case_id": "tgh-20261110-br-vacaria-35-wild-birds",
+      "reason": null
+    },
+    {
+      "id": "BR-07",
+      "location": "Brasil, Pará, barbatanas de tubarão",
+      "disposition": "EXISTING_EVENT_RECONCILE",
+      "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/ibama-e-policia-federal-apreendem-cerca-de-7-toneladas-de-nadadeiras-de-tubarao-no-para",
+      "related_case_id": "tgh-global-20261108-09-am-02",
+      "reason": "Reconciliar quantidade do Ibama (cerca de 7 t) com PF (cerca de 4 t)"
+    },
+    {
+      "id": "BR-08",
+      "location": "Brasil, Feira de Santana, Ágora",
+      "disposition": "EXISTING_EVENT_RECONCILE",
+      "source_url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2026/operacao-de-combate-ao-trafico-de-animais-silvestres-tem-como-resultado-a-maior-apreensao-ja-realizada-pelo-ibama-na-regiao-nordeste",
+      "related_case_id": "tgh-global-20261108-09-am-03",
+      "reason": "Reconciliar primeira divulgação 392 e balanço subsequente 1006"
+    },
+    {
+      "id": "AR-01",
+      "location": "Argentina, Concordia",
+      "disposition": "PENDING_COUNTS_AND_DATE",
+      "source_url": "https://lt15concordia.com.ar/index.php/2026/11/12/aves-de-seis-especies-enjauladas-en-un-allanamiento-por-amenazas-en-concordia/",
+      "related_case_id": null,
+      "reason": "Faltam número e data da intervenção"
+    },
+    {
+      "id": "AR-02",
+      "location": "Argentina, Rayo Cortado",
+      "disposition": "PENDING_PRIMARY_CONFIRMATION",
+      "source_url": "https://noticiasambientales.com/animals/successful-operation-in-cordoba-a-puma-and-a-tamandua-rescued-in-critical-condition/",
+      "related_case_id": null,
+      "reason": "Conferir órgão e data efetiva"
+    },
+    {
+      "id": "ZA-02",
+      "location": "África do Sul, Makuya/Kruger",
+      "disposition": "PENDING_EVENT_SEPARATION",
+      "source_url": "https://www.accidents.co.za/2026/11/12/arrets-made-of-four-suspects-linked-to-the-attempted-murder-of-rangers-in-the-kruger-national-park-and-wildlife-poaching/",
+      "related_case_id": null,
+      "reason": "Separar eventos em 07 e 11/11; material faunístico a confirmar"
+    },
+    {
+      "id": "NG-01",
+      "location": "Nigéria, Oyo, seis pangolins",
+      "disposition": "PENDING_OUTSIDE_WINDOW",
+      "source_url": "https://guardian.ng/news/nigeria/metro/customs-fou-a-intercepts-six-pangolins-in-oyo-state/",
+      "related_case_id": null,
+      "reason": "Apreensão 08/11, notícia 11/11, exige deduplicação"
+    },
+    {
+      "id": "LK-01",
+      "location": "Sri Lanka, Sinharaja",
+      "disposition": "PENDING_PREVIOUS_EVENT",
+      "source_url": null,
+      "related_case_id": null,
+      "reason": "Audiência 09/11, apreensão anterior"
+    },
+    {
+      "id": "EC-01",
+      "location": "Equador, Galápagos, sentença",
+      "disposition": "EXCLUDED_JUDICIAL_UPDATE",
+      "source_url": null,
+      "related_case_id": null,
+      "reason": "Sentença 10/11 referente a apreensão de agosto"
+    },
+    {
+      "id": "IN-03",
+      "location": "Índia, Debrigarh, armadilhas",
+      "disposition": "EXCLUDED_NO_ANIMAL",
+      "source_url": "https://www.rediff.com/news/report/2-poachers-arrested-from-odishas-debrigarh-wildlife-sanctuary/20261112.htm",
+      "related_case_id": null,
+      "reason": "Armadilhas sem apreensão de animais ou partes"
+    },
+    {
+      "id": "IN-04",
+      "location": "Índia, Assam, armas de caça",
+      "disposition": "EXCLUDED_NO_ANIMAL",
+      "source_url": null,
+      "related_case_id": null,
+      "reason": "Suspeitos e armas sem fauna identificada"
+    },
+    {
+      "id": "IN-05",
+      "location": "Índia, Chennai, madeira",
+      "disposition": "EXCLUDED_FLORA",
+      "source_url": null,
+      "related_case_id": null,
+      "reason": "Madeira red sanders"
+    },
+    {
+      "id": "PE-01",
+      "location": "Peru, Lima, tarântulas",
+      "disposition": "DUPLICATE_CANONICAL",
+      "source_url": null,
+      "related_case_id": "tgh-20261105-012-peru-intercepts-more-than-3-000-taran",
+      "reason": "Apreensão anterior já cadastrada"
+    },
+    {
+      "id": "CY-02",
+      "location": "Chipre, Cape Greco, confronto",
+      "disposition": "EXCLUDED_NO_ANIMAL",
+      "source_url": "https://cyprus-mail.com/2026/11/12/two-environmental-activists-wounded-by-hunter-in-cape-greco",
+      "related_case_id": null,
+      "reason": "Sem apreensão de fauna"
+    }
+  ],
+  "new_case_ids": [
+    "tgh-global-20261110-12-cy-deryneia-108-birds-seven-hares",
+    "tgh-global-20261110-12-br-sorocaba-eight-captive-animals",
+    "tgh-global-20261110-12-in-hansi-petwar-leopard-skin",
+    "tgh-global-20261110-12-br-aguas-lindas-one-blue-yellow-macaw",
+    "tgh-global-20261110-12-in-varanasi-three-alexandrine-parakeets"
+  ],
+  "follow_up": [
+    "Confirmar data em Petwar, Águas Lindas e Varanasi",
+    "Revisar 4t versus 7t nas barbatanas no registro existente",
+    "Revisar 392 versus 1006 animais de Ágora no registro existente",
+    "Prosseguir busca nas frentes regionais ainda não esgotadas"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "tgh-global-20261110-12-in-varanasi-three-alexandrine-parakeets",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": null,
+  "event_end_date": null,
+  "event_date_precision": "not_reported",
+  "publication_date": "2026-11-12",
+  "coordinates": {
+    "lat": 25.3176,
+    "lon": 82.9739
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "location_label_pt": "Varanasi, Uttar Pradesh, Índia",
+  "location_label_en": "Varanasi, Uttar Pradesh, India",
+  "location_label_es": "Varanasi, Uttar Pradesh, India",
+  "geographic_note_pt": "Referência municipal aproximada, não ponto exato da apreensão.",
+  "geographic_note_en": "Approximate municipality reference, not the exact seizure site.",
+  "geographic_note_es": "Coordenada municipal aproximada, no lugar exacto de la intervención.",
+  "source_label": "PETA India / Varanasi Forest Division",
+  "source_url": "https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/",
+  "source_alternative_url": null,
+  "title_pt": "Divisão Florestal resgata três periquitos-alexandrinos em Varanasi",
+  "title_en": "Forest Division rescues three Alexandrine parakeets in Varanasi",
+  "title_es": "División Forestal rescata tres cotorras alejandrinas en Varanasi",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "fauna_label_pt": "3 periquitos-alexandrinos vivos",
+  "fauna_label_en": "3 live Alexandrine parakeets",
+  "fauna_label_es": "3 cotorras alejandrinas vivas",
+  "taxon_text": "*Psittacula eupatria*",
+  "modal_primary": "Não informado",
+  "modal_label_pt": "Não informado",
+  "card_text_pt": "Agentes florestais apreenderam três periquitos-alexandrinos em residência; após exame veterinário, as aves foram soltas; foi registrado procedimento contra dois suspeitos.",
+  "card_text_en": "Forest officers seized three Alexandrine parakeets at a residence, assessed and released them, and registered an offence against two people.",
+  "card_text_es": "Agentes forestales incautaron tres cotorras alejandrinas en una vivienda, las examinaron y liberaron, y registraron un procedimiento contra dos personas.",
+  "context_pt": "[O] A PETA India relata a intervenção identificando os agentes da Divisão Florestal de Varanasi, apreensão, avaliação veterinária, soltura e registro preliminar de infração. Não divulgou data da busca, procedência das aves, atividade de venda ou rota. A publicação de 12/11 não deve substituir a data de ocorrência ausente.\n\n[T] A proteção da espécie no Wildlife (Protection) Act de 1972 orienta a caracterização jurídica do cativeiro, mas não prova rede de tráfico.",
+  "context_en": "[O] PETA India identified Varanasi Forest Division officers and reported seizure, veterinary review, release and a preliminary offence record. It did not provide the raid date, birds' provenance, sale evidence or route. The 12 November publication cannot be treated as the missing event date.\n\n[T] The Wildlife (Protection) Act 1972 provides a legal frame for prohibited holding, not evidence of a trading network.",
+  "context_es": "[O] PETA India identificó a funcionarios de la División Forestal de Varanasi y comunicó incautación, revisión veterinaria, liberación y registro preliminar. No informó fecha de la búsqueda, procedencia, venta ni ruta. La publicación del 12/11 no sustituye a una fecha de intervención desconocida.\n\n[T] La Wildlife (Protection) Act de 1972 da contexto jurídico al cautiverio irregular, no demuestra una red comercial.",
+  "references_text_pt": "[O] PETA India, report on Varanasi Forest Division action, 12 November 2026 — https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/\n[T] India Wildlife Protection Act, 1972 (statutory reference named in case source) — https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/",
+  "references_text_en": "[O] PETA India, report on Varanasi Forest Division action, 12 November 2026 — https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/\n[T] India Wildlife Protection Act, 1972 (statutory reference named in case source) — https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/",
+  "references_text_es": "[O] PETA India, report on Varanasi Forest Division action, 12 November 2026 — https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/\n[T] India Wildlife Protection Act, 1972 (statutory reference named in case source) — https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "PETA India, report on Varanasi Forest Division action, 12 November 2026",
+      "url": "https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/"
+    },
+    {
+      "id": "T",
+      "type": "published_external",
+      "label": "India Wildlife Protection Act, 1972 (statutory reference named in case source)",
+      "url": "https://www.petaindia.com/blog/three-caged-parakeets-rescued-in-varanasi-wildlife-offence-registered-following-peta-india-complaint/"
+    }
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 3,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Data da diligência desconhecida, diferentemente da publicação de 12/11.",
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Origem e destino não documentados: não inserir rota inferida em routes.json.",
+  "source_reconciliation_status": "VERIFIED_CASE_SOURCE",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-10-12",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_EVIDENCE_TAGGED",
+  "context_style": "[O][S][I][N][T]_evidence_based_selective",
+  "is_exact_seizure_position": false,
+  "record_is_part_of_20261110_12_window": false,
+  "editorial_qa_note_pt": "Data da ocorrência não demonstrada; publicação no período 10–12/11."
+}
