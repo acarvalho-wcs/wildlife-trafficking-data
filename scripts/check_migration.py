@@ -20,7 +20,7 @@ for entry in manifest['files']:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256'], f'Source changed: {path}'
 out = ROOT / 'build/site'
 assert out.is_dir(), 'Run scripts/build_site.py first'
-allowed = {p.relative_to(ROOT / 'web/observatory') for p in (ROOT / 'web/observatory').rglob('*') if p.is_file()}
+allowed = {p.relative_to(ROOT / 'web/observatory') for p in (ROOT / 'web/observatory').rglob('*') if p.is_file() and 'tests' not in p.relative_to(ROOT / 'web/observatory').parts}
 for name in ('restricted', 'research', 'reportage'):
     allowed.update(Path(name) / p.relative_to(ROOT / 'web' / name) for p in (ROOT / 'web' / name).rglob('*') if p.is_file() and 'tests' not in p.relative_to(ROOT / 'web' / name).parts)
 actual = {p.relative_to(out) for p in out.rglob('*') if p.is_file()}

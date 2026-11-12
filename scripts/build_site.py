@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'build/site'
 if OUT.exists():
     shutil.rmtree(OUT)
-shutil.copytree(ROOT / 'web/observatory', OUT)
+shutil.copytree(ROOT / 'web/observatory', OUT, ignore=shutil.ignore_patterns('tests'))
 for name in ('restricted', 'research', 'reportage'):
     shutil.copytree(ROOT / 'web' / name, OUT / name, ignore=shutil.ignore_patterns('tests'))
 print(f'Built {sum(p.is_file() for p in OUT.rglob("*"))} files in {OUT}')
