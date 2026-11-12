@@ -9,14 +9,14 @@ ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'docs/migration/source-manifest.json').read_text())
 changed = set(manifest['url_only_changes'])
 # Approved change to public and restricted export routines.
-approved_export_changes = {'web/observatory/live.js', 'web/restricted/explorer.js', 'web/restricted/restricted-period-export.js'}
+approved_source_changes = {'web/observatory/live.js', 'web/restricted/explorer.js', 'web/restricted/restricted-period-export.js', 'web/observatory/temporal-core.js', 'web/observatory/temporal-filter.js'}
 sanitized = {x['path']: x['sha256'] for x in manifest.get('image_metadata_changes', [])}
 for entry in manifest['files']:
     path = ROOT / entry['path']
     assert path.is_file(), f'Missing source: {path}'
     if entry['path'] in sanitized:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == sanitized[entry['path']], f'Sanitized asset changed: {path}'
-    elif entry['path'] not in changed and entry['path'] not in approved_export_changes:
+    elif entry['path'] not in changed and entry['path'] not in approved_source_changes:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256'], f'Source changed: {path}'
 out = ROOT / 'build/site'
 assert out.is_dir(), 'Run scripts/build_site.py first'

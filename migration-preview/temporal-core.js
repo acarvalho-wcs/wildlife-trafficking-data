@@ -1,4 +1,4 @@
-/* Read-only temporal analysis. No publication-date fallback and no case mutations. */
+/* Read-only temporal analysis. Publication and occurrence dates remain distinct and cases are never mutated. */
 window.ObservatoryTimeCore = (() => {
  'use strict';
  const DAY=86400000,ZONE='America/Manaus';
@@ -43,12 +43,32 @@ window.ObservatoryTimeCore = (() => {
   if(validDay(e.occurred_at))return finish(e.occurred_at,null);
   return finish(null,'missing');
  }
+ function publication(e){
+  // A documented publication date is a separate, independent daily date;
+  // it never fills in an unknown or imprecise date of occurrence.
+  const precision=e.publication_date_precision;
+  const daily=['day','datetime','timestamp','exact','second','minute','hour'];
+  if(precision&&!daily.includes(precision))return {day:null,reason:['unknown','not_reported'].includes(precision)?'missing':'imprecise'};
+  const d=validDay(e.publication_date)?e.publication_date:null;
+  return {day:d,reason:d?null:'missing'};
+ }
  function dateOf(e,basis='occurrence',now=Date.now()){
   if(basis==='occurrence')return occurrence(e);
+  if(basis==='publication')return publication(e);
+  if(basis==='occurrence_or_publication'){
+   const a=occurrence(e),b=publication(e),d=[a.day,b.day].filter(Boolean).sort()[0]||null;
+   return {day:d,reason:d?null:a.reason==='imprecise'||b.reason==='imprecise'?'imprecise':'missing'};
+  }
+  if(basis!=='incorporation')throw Error('Unsupported temporal basis: '+basis);
   const valid=e.status==='VALIDATED'&&e.added_at_validated!==false&&timestamp(e.added_at)&&Date.parse(e.added_at)<=now;
   return {day:valid?day(e.added_at):null,reason:valid?null:'missing'};
  }
- function contains(e,range,basis){if(!range)return true;const d=dateOf(e,basis).day;return !!d&&d>=range.start&&d<=range.end;}
+ function matchedDays(e,range,basis){
+  if(!validRange(range))return [];
+  const bases=basis==='occurrence_or_publication'?['occurrence','publication']:[basis];
+  return bases.map(b=>dateOf(e,b).day).filter(d=>d&&d>=range.start&&d<=range.end).sort();
+ }
+ function contains(e,range,basis){if(!range)return true;return matchedDays(e,range,basis).length>0;}
  function coverage(rows,basis){const result={precise:0,imprecise:0,missing:0};for(const e of rows){const d=dateOf(e,basis);result[d.day?'precise':d.reason]++;}return result;}
  const qualifiers=['exact','minimum','approximate'];
  function quantities(rows){
@@ -86,7 +106,7 @@ window.ObservatoryTimeCore = (() => {
  // At most 366 chart/table points even for multi-century custom intervals.
  function cumulative(rows,range,basis,maxPoints=366){
   if(!validRange(range))return [];
-  const dates=rows.filter(e=>e.exclude_from_totals!==true).map(e=>dateOf(e,basis).day).filter(d=>d&&d>=range.start&&d<=range.end).sort();
+  const dates=rows.filter(e=>e.exclude_from_totals!==true).map(e=>matchedDays(e,range,basis)[0]).filter(Boolean).sort();
   const length=duration(range),step=Math.max(1,Math.ceil(length/maxPoints)),result=[];let n=0;
   for(let offset=0;offset<length;offset+=step){const last=Math.min(length-1,offset+step-1),d=shift(range.start,last);while(n<dates.length&&dates[n]<=d)n++;result.push({day:d,index:last+1,total:n});}
   return result;

@@ -14,3 +14,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/sync_published_site.py --check
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test web/observatory/tests/temporal-activity.test.cjs
