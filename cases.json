@@ -368,9 +368,10 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-10-10T11:32:58Z",
+    "updated_at": "2026-11-13T01:36:13Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
-    "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation."
+    "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
+    "last_full_audit_at": "2026-10-10T11:32:58Z"
   },
   "quantity_layer": {
     "status": "COMPLETE_FOR_DASHBOARD",
@@ -531,7 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-06T23:38:52Z",
+  "updated_at": "2026-11-13T01:36:13Z",
+  "feed_updated_at": "2026-11-13T01:36:13Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
