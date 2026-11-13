@@ -55,7 +55,7 @@ window.CaseSource=(()=>{
  function accept(payload,rows){
   const nextSignature=JSON.stringify(rows);
   if(nextSignature!==signature){window.NEWS_DATA=rows.map(adapt);signature=nextSignature;}
-  window.NEWS_UPDATED=payload.audit_status?.updated_at||payload.updated_at||payload.reconstructed_at||'';
+  window.NEWS_UPDATED=payload.feed_updated_at||payload.updated_at||payload.audit_status?.updated_at||payload.reconstructed_at||'';
   hasLoaded=true;
  }
  const state=()=>({status,cases:window.NEWS_DATA,error:lastError,stale});

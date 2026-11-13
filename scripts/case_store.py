@@ -5,7 +5,7 @@ import json
 import re
 import sys
 import math
-from datetime import date
+from datetime import date, datetime, timezone
 from urllib.parse import urlsplit
 from pathlib import Path
 
@@ -170,12 +170,24 @@ def enrich_temporal_fields(record):
         rec["occurred_at_precision"] = rec.get("event_date_precision") or "unknown"
     return rec
 
-def compose(manifest, records):
+def compose(manifest, records, feed_updated_at=None):
     records = [enrich_temporal_fields(rec) for rec in records]
     if manifest.get("top_level") == "array":
         return records
     key = manifest.get("records_key") or "cases"
     out = dict(manifest.get("passthrough") or {})
+    if feed_updated_at is not None:
+        # Legacy Site reads audit_status.updated_at first. Keep it synced with
+        # case publication while preserving the historical audit timestamp.
+        out["feed_updated_at"] = feed_updated_at
+        out["updated_at"] = feed_updated_at
+        if isinstance(out.get("audit_status"), dict):
+            audit = dict(out["audit_status"])
+            original_audit_date = audit.get("last_full_audit_at") or audit.get("updated_at")
+            if original_audit_date:
+                audit["last_full_audit_at"] = original_audit_date
+            audit["updated_at"] = feed_updated_at
+            out["audit_status"] = audit
     # Keep public-feed metadata synchronized with the compiled record array.
     # Some dashboard consumers validate the declared count before rendering.
     if "count" in out:
@@ -196,6 +208,27 @@ def validate_store(root):
     print(f"Validated {len(records)} records; all ids unique and required fields present.")
     return 0
 
+def feed_timestamp(output, records):
+    """Date of last changed canonical cases, not each visit or identical rebuild.
+
+    Only an existing dedicated feed timestamp can be reused: historical
+    audit/migration dates do not identify the last publication.
+    """
+    previous_path = Path(output)
+    if previous_path.is_file():
+        try:
+            previous = load_json(previous_path)
+            old_timestamp = previous.get("feed_updated_at") if isinstance(previous, dict) else None
+            if (isinstance(old_timestamp, str)
+                    and re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", old_timestamp)
+                    and isinstance(previous.get("cases"), list)
+                    and previous["cases"] == [enrich_temporal_fields(rec) for rec in records]):
+                return old_timestamp
+        except (ValueError, OSError, TypeError, json.JSONDecodeError):
+            pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def build(root, output):
     root=Path(root)
     manifest, records, files=load_store(root)
@@ -204,7 +237,7 @@ def build(root, output):
         raise ValueError("Store validation failed:\n" + "\n".join(errors[:50]))
     if len(records) < int(manifest.get("record_count") or 0):
         raise ValueError("Record count shrank; published feed was not changed")
-    payload=compose(manifest, records)
+    payload=compose(manifest, records, feed_timestamp(output, records))
     dump_json(output, payload)
     manifest["files"]=files
     manifest["record_count"]=len(records)
