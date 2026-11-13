@@ -1,0 +1,221 @@
+{
+  "schema": "tgh_review_draft_v1",
+  "created": "2026-10-24",
+  "not_for_publication": true,
+  "count": 5,
+  "records": [
+    {
+      "id": "2026-03-26-cali-terminal-eight-blue-crabs-one-smoked-armadillo",
+      "country": "Colômbia",
+      "publication_date": "2026-03-26",
+      "event_date": "2026-03-26",
+      "location": "Terminal de Transporte de Cali, Valle del Cauca",
+      "source_url": "https://www.infobae.com/colombia/2026/03/26/incautan-ocho-cangrejos-azules-y-un-armadillo-durante-un-operativo-contra-el-trafico-de-fauna-en-la-terminal-de-cali/",
+      "second_source": "https://occidente.co/medio-ambiente/medio-ambiente-cali-operativos-fauna-silvestre-semana-santa-2026/",
+      "quantities": [
+        {
+          "value": 8,
+          "unit": "live_blue_crabs",
+          "taxon": "Cardisoma crassum"
+        },
+        {
+          "value": 1,
+          "unit": "smoked_armadillo_carcass"
+        }
+      ],
+      "title": {
+        "pt": "Fiscalização na rodoviária de Cali apreende oito caranguejos vivos e um tatu defumado",
+        "en": "Cali bus terminal seizure: eight live crabs and one smoked armadillo",
+        "es": "Operativo en terminal de Cali decomisa ocho cangrejos vivos y un armadillo ahumado"
+      },
+      "card": {
+        "pt": "Controle ambiental na rodoviária de Cali interceptou oito caranguejos-azuis (*Cardisoma crassum*) vivos e uma carcaça de tatu defumado, provenientes do departamento de Nariño para venda na cidade.",
+        "en": "Environmental controls at Cali bus terminal intercepted eight live blue crabs (*Cardisoma crassum*) and one smoked armadillo carcass reportedly transported from Nariño for sale in the city.",
+        "es": "Un control ambiental en la Terminal de Transporte de Cali incautó ocho cangrejos azules (*Cardisoma crassum*) vivos y un armadillo ahumado, procedentes del departamento de Nariño para venta en la ciudad."
+      },
+      "context": {
+        "pt": "[N1/N2, com declarações do DAGMA] A cobertura de 26–27/03 situa a interceptação na rodoviária de Cali, com informação de procedência do **departamento** de Nariño; não foi identificado município de origem. O lote contém oito caranguejos vivos e um tatu abatido e defumado, não nove animais vivos. O destino comercial Cali foi mencionado, mas não se conhecem intermediários ou local de captura. O trajeto Nariño→Cali é documentado apenas na escala departamental; para rotas, não desenhar linha de uma cidade específica de Nariño sem fonte. Espécie do tatu não identificada.",
+        "en": "[N1/N2 quoting DAGMA] Reporting on 26–27 March places the seizure at Cali's bus terminal and identifies **Nariño department**, not an origin municipality. The shipment contains eight living crabs and one butchered, smoked armadillo, not nine live animals. Cali was described as the intended sales market, but no intermediaries or capture site were documented. Travel from Nariño to Cali is supported only at department level: do not create a city-specific route origin. The armadillo species remains unknown.",
+        "es": "[N1/N2, con información de DAGMA] Las noticias del 26–27 de marzo ubican la incautación en la terminal de Cali e identifican como procedencia al **departamento** de Nariño, sin municipio definido. Son ocho cangrejos vivos y un armadillo sacrificado y ahumado, no nueve animales vivos. Se mencionó venta en Cali, sin intermediarios ni sitio de extracción comprobados. El trayecto Nariño→Cali existe solo a escala departamental: no inventar una ciudad de origen. Especie del armadillo no identificada."
+      },
+      "route_status": "ORIGIN_NARINO_DEPARTMENT_TO_CALI_TERMINAL_NO_ORIGIN_CITY",
+      "qa_status": "DRAFT_VERIFIED_POINT_AND_DEPT_ONLY"
+    },
+    {
+      "id": "2026-06-gualiva-multi-nine-captive-wildlife",
+      "country": "Colômbia",
+      "publication_date": "2026-06-01",
+      "event_date": null,
+      "location": "Sasaima, Villeta, Vergara, La Vega; provincia Gualivá, Cundinamarca",
+      "source_url": "https://www.elespectador.com/bogota/rescatan-guacamayas-loros-y-un-mono-que-vivian-en-cautiverio-en-cundinamarca/",
+      "quantities": [
+        {
+          "value": 2,
+          "unit": "live_macaws",
+          "location": "Sasaima"
+        },
+        {
+          "value": 1,
+          "unit": "live_monkey",
+          "location": "Villeta"
+        },
+        {
+          "value": 1,
+          "unit": "live_parrot",
+          "location": "Villeta"
+        },
+        {
+          "value": 4,
+          "unit": "live_yellow-headed_parrots",
+          "location": "Vergara"
+        },
+        {
+          "value": 1,
+          "unit": "live_hedgehog_voluntary_surrender",
+          "location": "La Vega"
+        }
+      ],
+      "title": {
+        "pt": "CAR recupera nove animais em quatro municípios de Cundinamarca",
+        "en": "CAR recovers nine animals across four municipalities in Cundinamarca",
+        "es": "CAR recupera nueve animales en cuatro municipios de Cundinamarca"
+      },
+      "card": {
+        "pt": "A CAR e a Polícia resgataram dois araras em Sasaima, um macaco e um papagaio na mesma gaiola em Villeta e quatro papagaios em Vergara; um ouriço mantido como animal de estimação foi entregue voluntariamente em La Vega. O balanço conjunto contabiliza nove animais.",
+        "en": "CAR and police recovered two macaws in Sasaima, a monkey and parrot held together in Villeta and four parrots in Vergara. A captive hedgehog was voluntarily surrendered in La Vega. Nine animals were reported in the combined release.",
+        "es": "La CAR y la Policía recuperaron dos guacamayas en Sasaima, un mono y un loro en la misma jaula en Villeta y cuatro loras en Vergara; un erizo mantenido como mascota fue entregado voluntariamente en La Vega. El balance conjunto suma nueve animales."
+      },
+      "context": {
+        "pt": "[N1 com falas da CAR] O relatório publicado em 01/06 reúne ocorrências distintas em quatro municípios. Oito animais foram recuperados em ações de fiscalização e **um ouriço foi entregue voluntariamente**, modalidade que deve ser distinguida de apreensão. As duas araras estavam em gaiolas que limitavam abertura das asas, enquanto em Villeta o primata compartilhava a gaiola com uma ave. O conjunto de nove não pode ser georreferenciado integralmente em Sasaima nem somado a cada eventual caso filho. A origem silvestre e rotas não foram informadas; a ida ao CAV em Tocaima é deslocamento de reabilitação, não tráfico.",
+        "en": "[N1 citing CAR] The 1 June story consolidates events in four municipalities. Eight animals were recovered through inspections, and **one hedgehog was surrendered voluntarily**, which is a different administrative category. Two macaws could not properly spread their wings in their cages; in Villeta, a monkey shared its cage with a parrot. The nine-animal aggregate must not be located entirely in Sasaima or counted again in child cases. Neither capture sites nor routes are reported; transfer to Tocaima's care centre was an official rehabilitation move.",
+        "es": "[N1 con declaraciones de CAR] La publicación del 1 de junio agrupa hechos de cuatro municipios. Ocho animales fueron recuperados en inspecciones y **un erizo fue entregado voluntariamente**, modalidad distinta del decomiso. Dos guacamayas estaban confinadas sin poder extender las alas y en Villeta un mono compartía jaula con un loro. Los nueve ejemplares no pueden asignarse todos a Sasaima ni duplicarse en fichas hijas. No se informa captura ni ruta; el traslado al CAV de Tocaima fue institucional."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_MULTIPOINT_SPLIT_RECOMMENDED"
+    },
+    {
+      "id": "2026-07-monteria-green-shield-22-animals",
+      "country": "Colômbia",
+      "publication_date": "2026-07-22",
+      "event_date": null,
+      "location": "Montería, Córdoba",
+      "source_url": "https://oas.policia.gov.co/noticia/operacion-green-shield-permitio-recuperacion-22-ejemplares-fauna-silvestre-en-monteria",
+      "quantities": [
+        {
+          "value": 22,
+          "unit": "live_wild_animals",
+          "qualifier": "official_total_CONTESTED",
+          "component_sum": 23,
+          "breakdown": "10 canarios; 2 morrocoyes; 2 babillas; 2 búhos; 2 toches; 1 rosita; 1 mochuelo; 1 perezoso; 1 perico real; 1 potoo"
+        }
+      ],
+      "title": {
+        "pt": "Green Shield recupera 22 animais em fiscalizações em Montería",
+        "en": "Green Shield inspections recover 22 wild animals in Montería",
+        "es": "Operación Green Shield recupera 22 animales silvestres en Montería"
+      },
+      "card": {
+        "pt": "A Polícia de Montería realizou postos de controle durante a operação internacional Green Shield e recuperou preventivamente 22 animais, entre aves, dois jabutis, dois jacarés e uma preguiça. Os animais foram encaminhados ao centro da CVS.",
+        "en": "Police checkpoints in Montería held under the international Green Shield operation recovered 22 wild animals, including birds, two tortoises, two caimans and a sloth. They were transferred to the CVS wildlife care centre.",
+        "es": "Puestos de control policial en Montería, dentro de la operación internacional Green Shield, recuperaron preventivamente 22 animales, incluidas aves, dos morrocoyes, dos babillas y un perezoso. Los ejemplares fueron entregados al centro de la CVS."
+      },
+      "context": {
+        "pt": "[O1] O comunicado da Polícia Nacional de 22/07 discrimina os 22 espécimes em dez categorias de nomes populares, sem identificação científica de cada ave; a conversão direta dos nomes 'rosita', 'toche' ou 'canario' em táxons específicos seria arriscada. Trata-se de apreensão preventiva em controles de Montería, não necessariamente de uma única busca em imóvel ou de 22 ações independentes. Como a ação integra **Green Shield II**, o total local de 22 não deve ser somado novamente como ocorrência adicional aos números nacionais ou multinacionais agregados da operação. Não há compradores, origem e rotas geográficas descritos. ALERTA DE AUDITORIA: a soma das dez categorias listadas pela própria fonte é 23, embora a manchete e o texto afirmem 22. A quantidade não deve ser publicada como exata até esclarecimento oficial.",
+        "en": "[O1] Colombia's 22 July police bulletin breaks down the 22 recovered animals into ten common-name categories. Names such as 'rosita', 'toche' and 'canario' cannot safely be converted to species without verification. This was a preventive seizure during local checkpoints, not necessarily one household search or 22 separate cases. Because the action is part of **Green Shield II**, these 22 must not be counted again as an additional seizure on top of national or multinational parent-operation totals. Sources, customers and routes are not identified. AUDIT ALERT: the ten itemized categories in the police report add to 23 although the headline and text say 22. Do not publish an exact case total until reconciled.",
+        "es": "[O1] El boletín policial del 22 de julio desglosa los 22 ejemplares en diez categorías de nombres comunes. Denominaciones como 'rosita', 'toche' o 'canario' no permiten atribuir especies sin validación. Fue una aprehensión preventiva en controles de Montería, no necesariamente un allanamiento único ni 22 casos distintos. Como integra **Green Shield II**, los 22 no se deben sumar otra vez a los resultados agregados nacionales o multinacionales. No constan proveedores, compradores ni rutas. ALERTA DE AUDITORÍA: las diez categorías del parte suman 23, pero el titular y el texto indican 22. No publicar un total exacto hasta aclararlo con la fuente."
+      },
+      "route_status": "NONE",
+      "qa_status": "HOLD_SOURCE_ARITHMETIC_CONFLICT",
+      "quantity_conflict": {
+        "declared_total": 22,
+        "sum_of_components": 23,
+        "status": "UNRESOLVED_OFFICIAL_ARITHMETIC_DISCREPANCY"
+      }
+    },
+    {
+      "id": "2026-05-25-ecuador-multiregion-15-live-3-heads",
+      "country": "Equador",
+      "publication_date": "2026-05-26",
+      "event_date": null,
+      "location": "Bolívar, Sucumbíos e Esmeraldas (três províncias), Equador",
+      "source_url": "https://www.ecuavisa.com/ecuador/operativo-bolivar-decomiso-cabezas-animales-silvestres-20260526-0018.html",
+      "additional_source": "https://www.primicias.ec/sociedad/trafico-especies-rescate-animales-cabezas-pecari-ministerio-ambiente-ecuador-123712/",
+      "quantities": [
+        {
+          "value": 8,
+          "unit": "live_animals",
+          "location": "Bolívar",
+          "breakdown": "5 charapas pequenas; 2 tortugas tapa-rabo; 1 perico caretirrojo"
+        },
+        {
+          "value": 4,
+          "unit": "live_birds",
+          "location": "Sucumbíos",
+          "breakdown": "2 amazonas alinaranja; 2 guacamayos frenticastaño"
+        },
+        {
+          "value": 3,
+          "unit": "live_birds",
+          "location": "Esmeraldas",
+          "breakdown": "2 amazonas festiva; 1 guacamayo frenticastaño"
+        },
+        {
+          "value": 3,
+          "unit": "mammal_heads",
+          "location": "Bolívar",
+          "breakdown": "1 corzuela roja americana; 2 pecarí de labio blanco"
+        }
+      ],
+      "title": {
+        "pt": "Quatro fiscalizações em três províncias do Equador recuperam 15 animais vivos e três cabeças de mamíferos",
+        "en": "Four inspections across three Ecuadorian provinces recover 15 live animals and three mammal heads",
+        "es": "Cuatro operativos en tres provincias de Ecuador recuperan 15 animales vivos y tres cabezas de mamíferos"
+      },
+      "card": {
+        "pt": "Ações do Ministério do Ambiente e da Polícia no Equador contabilizaram oito animais vivos em Bolívar, quatro em Sucumbíos e três em Esmeraldas. Em Bolívar, foram encontradas uma cabeça de veado e duas de queixada. O comunicado reúne quatro operações e três províncias.",
+        "en": "Ecuador's environment ministry and police reported eight live animals in Bolívar, four in Sucumbíos and three in Esmeraldas. One deer head and two white-lipped peccary heads were found in Bolívar. The bulletin aggregates four separate operations across three provinces.",
+        "es": "El Ministerio del Ambiente y la Policía reportaron ocho animales vivos en Bolívar, cuatro en Sucumbíos y tres en Esmeraldas. En Bolívar también encontraron una cabeza de corzuela y dos de pecarí de labio blanco. El comunicado agrupa cuatro operativos de tres provincias."
+      },
+      "context": {
+        "pt": "[N1/N2 com postagem do Ministério do Ambiente] A cobertura de 25–26/05 descreve **quatro operações**, com 15 indivíduos vivos distribuídos em três províncias e três cabeças de mamíferos em Bolívar. O detalhamento informa: Bolívar — cinco charapas, duas tartarugas 'tapa-rabo' e um periquito de face vermelha; Sucumbíos — dois amazona-alinaranja e duas araras-de-fronte-castanha; Esmeraldas — dois amazona-festiva e uma arara-de-fronte-castanha. Os três crânios/cabeças são produtos separados, não '18 animais vivos'. O local exato das quatro operações não foi revelado; não criar um único ponto ou inferir rotas interprovinciais. A contagem canônica deve ser desagregada quando houver informações geográficas suficientes.",
+        "en": "[N1/N2 citing Ecuador's environment ministry] Reports dated 25–26 May cover **four inspections**, recovering 15 live individuals across three provinces plus three mammal heads in Bolívar. Breakdown: Bolívar five small charapa turtles, two coastal tapa-rabo turtles and one red-faced parakeet; Sucumbíos two orange-winged amazons and two chestnut-fronted macaws; Esmeraldas two festive amazons and one chestnut-fronted macaw. Three heads are separate wildlife products, not part of an '18 live animals' count. Exact sites are not disclosed; do not map everything to one point or infer interprovincial trafficking routes. Split when geospatial evidence is obtained.",
+        "es": "[N1/N2 con información del Ministerio del Ambiente] Los informes del 25–26 de mayo abarcan **cuatro operativos**, con 15 individuos vivos en tres provincias y tres cabezas de mamíferos en Bolívar. El desglose es: Bolívar cinco charapas pequeñas, dos tortugas tapa-rabo y un perico caretirrojo; Sucumbíos dos amazonas alinaranja y dos guacamayos frenticastaño; Esmeraldas dos amazonas festiva y un guacamayo frenticastaño. Las tres cabezas son productos separados, no '18 animales vivos'. Los sitios exactos no fueron revelados; no mapear todo en un punto ni inferir rutas entre provincias. Desagregar cuando haya evidencia geográfica."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_MULTIOPERATION_SPLIT_REQUIRED"
+    },
+    {
+      "id": "2026-02-08-el-alto-feria-58-tortoises",
+      "country": "Bolívia",
+      "publication_date": "2026-02-09",
+      "event_date": "2026-02-08",
+      "location": "Feira 16 de Julio, El Alto, La Paz",
+      "source_url": "https://www.elalteno.com.bo/index.php/ciudad/20260209/aprehenden-mujer-que-intentaba-vender-58-tortugas-en-la-feria-16-de-julio-de-el",
+      "additional_source": "https://rtvu.uto.edu.bo/2026/02/10/pofoma-frena-trafico-de-tortugas-en-la-feria-16-de-julio-de-el-alto/",
+      "quantities": [
+        {
+          "value": 58,
+          "unit": "live_turtles",
+          "taxonomy": "unknown"
+        }
+      ],
+      "title": {
+        "pt": "POFOMA detém mulher que tentava vender 58 tartarugas em feira de El Alto",
+        "en": "POFOMA detains woman allegedly selling 58 turtles at El Alto fair",
+        "es": "POFOMA aprehende a mujer que intentaba vender 58 tortugas en feria de El Alto"
+      },
+      "card": {
+        "pt": "Em 8 de fevereiro, agentes da POFOMA apreenderam 58 tartarugas transportadas em caixa de sapatos por uma mulher que supostamente as oferecia para venda na Feira 16 de Julio, El Alto. A suspeita foi encaminhada ao Ministério Público.",
+        "en": "On 8 February, POFOMA officers seized 58 turtles reportedly kept in a shoebox by a woman allegedly offering them for sale at El Alto's 16 de Julio fair. The suspect was referred to prosecutors.",
+        "es": "El 8 de febrero, efectivos de POFOMA decomisaron 58 tortugas transportadas en una caja de zapatos por una mujer que presuntamente intentaba venderlas en la Feria 16 de Julio, El Alto. La sospechosa quedó a disposición de la Fiscalía."
+      },
+      "context": {
+        "pt": "[N1/N2 com declarações da POFOMA] A imprensa local de 09/02 informa número concreto de **58 tartarugas**, ausente na notícia mais genérica divulgada em 10/02, e confirma a operação em 08/02. A caixa de sapatos descreve o acondicionamento, não origem da fauna. Alega-se preço de 75 bolivianos por par, sem comprovação de transações concluídas ou identificação do comprador. O nome científico não foi estabelecido; não transformar 58 tartarugas em 58 taricayas ou motelos sem evidência. A abordagem constitui uma ação única, distinta da fiscalização de outubro na mesma feira envolvendo principalmente cães e gatos.",
+        "en": "[N1/N2 quoting POFOMA] Local reporting on 9 February provides a count of **58 turtles**, absent from the more general 10 February report, and confirms the 8 February intervention. The shoebox indicates holding conditions, not geographic capture origin. An alleged asking price of 75 bolivianos per pair does not establish completed transactions or buyers. No scientific species is given; do not assume taricaya or motelo. This is one seizure, distinct from the October inspection at the same fair that mostly involved domestic animals.",
+        "es": "[N1/N2 con información de POFOMA] La prensa del 9 de febrero aporta el número de **58 tortugas**, ausente en la nota general del día 10, y confirma el operativo del 8 de febrero. La caja de zapatos describe el transporte inmediato, no la zona de captura. Se menciona una oferta de 75 bolivianos por par, sin ventas consumadas ni compradores identificados. No hay especie científica confirmada; no atribuir taricayas o motelos sin evidencia. Es una incautación única y distinta del operativo de octubre en la misma feria, principalmente de animales domésticos."
+      },
+      "route_status": "NONE",
+      "qa_status": "DRAFT_SOURCE_VERIFIED"
+    }
+  ]
+}
