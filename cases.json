@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1619_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1620_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1619,
+  "count": 1620,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-13T19:05:12Z",
+    "updated_at": "2026-11-13T19:05:43Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-13T19:05:12Z",
-  "feed_updated_at": "2026-11-13T19:05:12Z",
+  "updated_at": "2026-11-13T19:05:43Z",
+  "feed_updated_at": "2026-11-13T19:05:43Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -128229,6 +128229,115 @@
         "not_included": {
           "I": "Não encontrado relatório institucional WCS específico e suficientemente pertinente; omitido.",
           "T": "Não localizado trabalho técnico externo específico e suficientemente pertinente; omitido."
+        },
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "geographical_and_case_linkage_limits_stated": true
+      },
+      "occurred_at": null,
+      "occurred_at_precision": "not_reported"
+    },
+    {
+      "id": "tgh-global-20261113-in-bela-dhyani-freshwater-turtle",
+      "status": "VALIDATED",
+      "country": "Índia",
+      "event_date": null,
+      "event_end_date": null,
+      "event_date_precision": "not_reported",
+      "publication_date": "2026-11-13",
+      "coordinates": {
+        "lat": 31.388,
+        "lon": 76.376
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Bela Dhyani, proximidades de Nangal, Punjab, Índia (referência de Nangal)",
+      "location_label_en": "Bela Dhyani, near Nangal, Punjab, India (Nangal reference)",
+      "location_label_es": "Bela Dhyani, cerca de Nangal, Punjab, India (referencia de Nangal)",
+      "geographic_note_pt": "Coordenada de referência de Nangal; não corresponde ao ponto exato da intervenção.",
+      "geographic_note_en": "Nangal approximate reference; not the intervention site.",
+      "geographic_note_es": "Referencia aproximada de Nangal; no es el sitio exacto de intervención.",
+      "source_label": "The Tribune / Amar Ujala",
+      "source_url": "https://www.tribuneindia.com/news/punjab/two-held-for-attempting-to-poach-protected-turtle-near-nangal/amp",
+      "source_alternative_url": "https://www.amarujala.com/punjab/ludhiana/four-arrested-on-charges-of-hunting-turtles-ropar-news-c-77-1-rpd1001-102247-2026-11-13",
+      "title_pt": "Agentes recuperam tartaruga de água doce em intervenção contra caça ilegal perto de Nangal",
+      "title_en": "Officers recover freshwater turtle in suspected poaching case near Nangal",
+      "title_es": "Agentes recuperan tortuga de agua dulce en caso de presunta caza ilegal cerca de Nangal",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "fauna_label_pt": "1 tartaruga de água doce viva",
+      "fauna_label_en": "1 live freshwater turtle",
+      "fauna_label_es": "1 tortuga de agua dulce viva",
+      "taxon_text": "*Lissemys punctata* (identificação visual preliminar relatada pela imprensa; requer confirmação)",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "card_text_pt": "Autoridades de fauna recuperaram uma tartaruga protegida perto de Bela Dhyani. Relatos de 13/11 divergem entre dois e quatro suspeitos; data exata da abordagem e identificação taxonômica pendentes.",
+      "card_text_en": "Wildlife officials recovered one protected turtle near Bela Dhyani. Reports dated 13 November conflict on two versus four suspects; intervention date and species identification remain unconfirmed.",
+      "card_text_es": "Autoridades recuperaron una tortuga protegida cerca de Bela Dhyani. Noticias del 13/11 discrepan entre dos y cuatro sospechosos; fecha y especie aún sin confirmar.",
+      "context_pt": "[O] Notícia de 13/11 informa que agentes de fauna recuperaram uma tartaruga de água doce nas proximidades de Bela Dhyani, perto de Nangal, em intervenção contra possível caça para consumo de carne. Uma fonte relata dois detidos e ausência de processo formal naquele momento; outra relata quatro pessoas encaminhadas judicialmente. Sem registro oficial conciliando os relatos, número de investigados, natureza exata das medidas e data da intervenção ficam indeterminados. A identificação como *Lissemys punctata* foi sugerida visualmente e não é laudo.\n\n[S] Estudo sobre comércio ilegal de quelônios em redes sociais ressalta dificuldades de monitoramento e identificação; pesquisa de marcadores químicos apresenta ferramentas de rastreabilidade. Nenhum vincula esta captura a rede comercial ou determina a origem do animal.",
+      "context_en": "[O] News on 13 November reported wildlife officers recovering one freshwater turtle near Bela Dhyani, Nangal, during an intervention against suspected hunting for meat. One source reported two detainees with no case formally registered at that stage; another reported four people sent to judicial custody. Without a reconciled official release, suspect totals, procedural status and exact intervention date remain unknown. The identification as *Lissemys punctata* is a media-reported visual assessment, not forensic confirmation.\n\n[S] Research on illicit turtle sales via social media discusses identification and monitoring problems; another study presents chemical traceability markers. Neither connects this animal to a sales network or establishes provenance.",
+      "context_es": "[O] Noticias del 13/11 informan que agentes de fauna recuperaron una tortuga dulceacuícola cerca de Bela Dhyani, Nangal, durante una actuación por presunta caza para consumo. Una fuente menciona dos detenidos sin causa formal registrada al momento; otra afirma cuatro personas enviadas a prisión preventiva. Sin comunicado oficial conciliador, quedan sin confirmar el número, las medidas procesales y el día exacto. La identificación como *Lissemys punctata* es valoración visual publicada, no pericia.\n\n[S] Estudios sobre comercio ilícito de tortugas en redes sociales y marcadores químicos describen problemas de monitoreo y herramientas de trazabilidad, sin establecer procedencia ni red comercial para este ejemplar.",
+      "references_text_pt": "[O] The Tribune, 13 November 2026: two detained near Bela Dhyani — https://www.tribuneindia.com/news/punjab/two-held-for-attempting-to-poach-protected-turtle-near-nangal/amp\n[O] Amar Ujala, 13 November 2026: four detained near Nangal (possible same intervention, numbers unresolved) — https://www.amarujala.com/punjab/ludhiana/four-arrested-on-charges-of-hunting-turtles-ropar-news-c-77-1-rpd1001-102247-2026-11-13\n[S] Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring (2021) — https://doi.org/10.1016/j.biocon.2021.109245\n[S] Combating the illegal turtle trade using chemical markers (2026) — https://doi.org/10.1002/jwmg.70141",
+      "references_text_en": "[O] The Tribune, 13 November 2026: two detained near Bela Dhyani — https://www.tribuneindia.com/news/punjab/two-held-for-attempting-to-poach-protected-turtle-near-nangal/amp\n[O] Amar Ujala, 13 November 2026: four detained near Nangal (possible same intervention, numbers unresolved) — https://www.amarujala.com/punjab/ludhiana/four-arrested-on-charges-of-hunting-turtles-ropar-news-c-77-1-rpd1001-102247-2026-11-13\n[S] Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring (2021) — https://doi.org/10.1016/j.biocon.2021.109245\n[S] Combating the illegal turtle trade using chemical markers (2026) — https://doi.org/10.1002/jwmg.70141",
+      "references_text_es": "[O] The Tribune, 13 November 2026: two detained near Bela Dhyani — https://www.tribuneindia.com/news/punjab/two-held-for-attempting-to-poach-protected-turtle-near-nangal/amp\n[O] Amar Ujala, 13 November 2026: four detained near Nangal (possible same intervention, numbers unresolved) — https://www.amarujala.com/punjab/ludhiana/four-arrested-on-charges-of-hunting-turtles-ropar-news-c-77-1-rpd1001-102247-2026-11-13\n[S] Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring (2021) — https://doi.org/10.1016/j.biocon.2021.109245\n[S] Combating the illegal turtle trade using chemical markers (2026) — https://doi.org/10.1002/jwmg.70141",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "The Tribune, 13 November 2026: two detained near Bela Dhyani",
+          "url": "https://www.tribuneindia.com/news/punjab/two-held-for-attempting-to-poach-protected-turtle-near-nangal/amp"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Amar Ujala, 13 November 2026: four detained near Nangal (possible same intervention, numbers unresolved)",
+          "url": "https://www.amarujala.com/punjab/ludhiana/four-arrested-on-charges-of-hunting-turtles-ropar-news-c-77-1-rpd1001-102247-2026-11-13"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Prevalence of illegal turtle trade on social media and implications for wildlife trade monitoring (2021)",
+          "url": "https://doi.org/10.1016/j.biocon.2021.109245"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Combating the illegal turtle trade using chemical markers (2026)",
+          "url": "https://doi.org/10.1002/jwmg.70141"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Uma tartaruga descrita nas notícias; sem duplicação dos dois relatos de 13/11.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Nenhuma procedência/destino documentados.",
+      "source_reconciliation_status": "CONFLICTING_SUSPECT_COUNTS_PENDING_OFFICIAL_RECONCILIATION",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-12-13",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_13",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective_verified_sources",
+      "is_exact_seizure_position": false,
+      "record_is_part_of_20261112_13_window": false,
+      "editorial_qa_note_pt": "Publicação em 13/11; data da intervenção incerta. Divergência relevante sobre suspeitos e processo legal, explicitamente preservada.",
+      "context_evidence_audit": {
+        "review_date": "2026-11-13",
+        "categories_present": [
+          "O",
+          "S"
+        ],
+        "not_included": {
+          "I": "Sem relatório WCS pertinente e verificável; omitido.",
+          "N": "Sem reportagem investigativa específica e distinta das fontes [O]; omitido.",
+          "T": "Sem relatório técnico pertinente validado; omitido."
         },
         "scientific_sources_restricted_to_research_papers_json": true,
         "journalistic_references_distinct_from_event_fact_sources": true,
