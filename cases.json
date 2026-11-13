@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1614_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1617_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1614,
+  "count": 1617,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-13T01:36:13Z",
+    "updated_at": "2026-11-13T19:03:50Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-13T01:36:13Z",
-  "feed_updated_at": "2026-11-13T01:36:13Z",
+  "updated_at": "2026-11-13T19:03:50Z",
+  "feed_updated_at": "2026-11-13T19:03:50Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -127679,6 +127679,354 @@
       },
       "occurred_at": null,
       "occurred_at_precision": "not_reported"
+    },
+    {
+      "id": "tgh-global-20261112-br-jaboatao-false-bird-rings",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-12",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-12",
+      "coordinates": {
+        "lat": -8.113,
+        "lon": -35.015
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Jaboatão dos Guararapes, Pernambuco, Brasil",
+      "location_label_en": "Jaboatão dos Guararapes, Pernambuco, Brazil",
+      "location_label_es": "Jaboatão dos Guararapes, Pernambuco, Brasil",
+      "geographic_note_pt": "Referência da sede municipal conforme IBGE; local exato da busca não publicado.",
+      "geographic_note_en": "Municipal seat reference (IBGE), not the exact search location.",
+      "geographic_note_es": "Referencia de la cabecera municipal (IBGE), no lugar exacto del allanamiento.",
+      "source_label": "Polícia Federal (Brasil)",
+      "source_url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-investiga-comercio-de-anilhas-falsas-para-aves-silvestres-em-pernambuco",
+      "source_alternative_url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/11/11729042-policia-federal-investiga-comercializacao-de-anilhas-para-passaros.html",
+      "title_pt": "PF e Ibama investigam anilhas potencialmente falsas para aves em Jaboatão",
+      "title_en": "Federal police investigate potentially counterfeit bird rings in Jaboatão",
+      "title_es": "Policía Federal investiga anillas presuntamente falsas para aves en Jaboatão",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "fauna_label_pt": "1 ave passeriforme viva, espécie não informada; anilhas em quantidade não informada",
+      "fauna_label_en": "1 live passerine (species not reported); unspecified number of rings",
+      "fauna_label_es": "1 ave paseriforme viva (especie no informada); número de anillas desconocido",
+      "taxon_text": "Passeriformes sp. (espécie não identificada)",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "card_text_pt": "Operação Senhor das Anilhas encontrou anilhas comerciais fora do SISPASS e um passeriforme anilhado sem licença; possível falsificação e comércio de anilhas sob investigação.",
+      "card_text_en": "Operation Senhor das Anilhas found rings not linked to SISPASS and one unlicensed ringed passerine; possible counterfeit-ring trade remains under investigation.",
+      "card_text_es": "Operación Senhor das Anilhas halló anillas no vinculadas a SISPASS y un paseriforme anillado sin licencia; se investiga posible falsificación.",
+      "context_pt": "[O] Em 12/11 a Polícia Federal e o Ibama cumpriram busca em Jaboatão, localizando anilhas comerciais sem vinculação ao SISPASS e um passeriforme anilhado sem licença ambiental. A Operação Senhor das Anilhas deriva da investigação Furtiva Libertas sobre comércio de aves em aplicativos de mensagens. A PF investiga possível falsificação e comercialização de anilhas; ainda não demonstrou a origem da ave, o uso efetivo das anilhas para lavagem nem uma rota.\n\n[S] Pesquisa sobre tráfico de fauna via redes sociais no Brasil analisa como canais digitais viabilizam ofertas e contatos; estudo de 2026 sobre isótopos em passeriformes aborda instrumentos forenses de rastreabilidade. Nenhum dos estudos identifica os investigados ou comprova fraude no material apreendido.\n\n[I] A WCS Brasil documentou monitoramento de apreensões e comércio de aves silvestres em relatórios institucionais, reforçando a necessidade de documentação da procedência e cooperação entre órgãos. Sem relação demonstrada com a operação.\n\n[N] Reportagem aprofundada da National Geographic descreve mecanismos documentados de lavagem de ovos de araras por criadouros e documentos. É referência sobre vulnerabilidades documentais, não sobre conduta comprovada do investigado.",
+      "context_en": "[O] On 12 November Brazil's Federal Police and Ibama searched premises in Jaboatão, finding commercial leg rings not linked to the SISPASS registry and one ringed passerine without an environmental licence. Operation Senhor das Anilhas stems from Furtiva Libertas, an investigation into wildlife sales through messaging groups. Ring counterfeiting and sales remain suspected; neither the bird's origin nor actual laundering with the seized rings nor a route has been established.\n\n[S] Research on wildlife sales through social media in Brazil describes the role of digital marketplaces; a 2026 songbird isotope study examines forensic traceability. Neither identifies these suspects or proves misuse of the seized rings.\n\n[I] WCS Brazil's institutional wildlife-crime monitoring documents bird seizures and the need for provenance checks and interagency cooperation. It makes no case-specific connection.\n\n[N] National Geographic investigated documented laundering of macaw eggs through breeding and paperwork. This offers a comparable documentary-risk mechanism, not evidence of the alleged conduct here.",
+      "context_es": "[O] El 12/11 la Policía Federal y el Ibama allanaron un inmueble en Jaboatão y hallaron anillas comerciales ajenas al registro SISPASS y un paseriforme anillado sin licencia ambiental. La Operación Senhor das Anilhas deriva de Furtiva Libertas, que investiga comercio de fauna en aplicaciones de mensajería. Se investiga la posible falsificación y venta de anillas; no se establecieron la procedencia del ave, el uso de las anillas para blanqueo ni una ruta.\n\n[S] Estudios sobre el comercio de fauna en redes sociales brasileñas y la trazabilidad isotópica de aves canoras ofrecen métodos de análisis, pero no identifican a los investigados ni prueban fraude en esta incautación.\n\n[I] La WCS Brasil ha documentado decomisos y comercio de aves y la importancia de verificar procedencia y cooperación interinstitucional. No aporta vínculo específico.\n\n[N] Una investigación de National Geographic describió mecanismos de blanqueo de huevos de guacamayo mediante criaderos y documentación, como referencia comparativa, sin probar conductas en esta operación.",
+      "references_text_pt": "[O] Polícia Federal, nota oficial de 12/11/2026 — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-investiga-comercio-de-anilhas-falsas-para-aves-silvestres-em-pernambuco\n[S] Wildlife trafficking via social media in Brazil (2022) — https://doi.org/10.1016/j.biocon.2021.109420\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052\n[I] WCS Brasil, Wildlife Crimes newsletter (2025) — https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[N] National Geographic, How hyacinth macaw eggs are laundered into legal-looking bird trade (2019) — https://www.nationalgeographic.com/animals/article/hyacinth-macaw-egg-laundering-for-pet-trade",
+      "references_text_en": "[O] Polícia Federal, nota oficial de 12/11/2026 — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-investiga-comercio-de-anilhas-falsas-para-aves-silvestres-em-pernambuco\n[S] Wildlife trafficking via social media in Brazil (2022) — https://doi.org/10.1016/j.biocon.2021.109420\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052\n[I] WCS Brasil, Wildlife Crimes newsletter (2025) — https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[N] National Geographic, How hyacinth macaw eggs are laundered into legal-looking bird trade (2019) — https://www.nationalgeographic.com/animals/article/hyacinth-macaw-egg-laundering-for-pet-trade",
+      "references_text_es": "[O] Polícia Federal, nota oficial de 12/11/2026 — https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-investiga-comercio-de-anilhas-falsas-para-aves-silvestres-em-pernambuco\n[S] Wildlife trafficking via social media in Brazil (2022) — https://doi.org/10.1016/j.biocon.2021.109420\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052\n[I] WCS Brasil, Wildlife Crimes newsletter (2025) — https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[N] National Geographic, How hyacinth macaw eggs are laundered into legal-looking bird trade (2019) — https://www.nationalgeographic.com/animals/article/hyacinth-macaw-egg-laundering-for-pet-trade",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Polícia Federal, nota oficial de 12/11/2026",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-investiga-comercio-de-anilhas-falsas-para-aves-silvestres-em-pernambuco"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Wildlife trafficking via social media in Brazil (2022)",
+          "url": "https://doi.org/10.1016/j.biocon.2021.109420"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026)",
+          "url": "https://doi.org/10.1111/acv.70052"
+        },
+        {
+          "id": "I",
+          "type": "wcs_institutional",
+          "label": "WCS Brasil, Wildlife Crimes newsletter (2025)",
+          "url": "https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx"
+        },
+        {
+          "id": "N",
+          "type": "investigative_journalism",
+          "label": "National Geographic, How hyacinth macaw eggs are laundered into legal-looking bird trade (2019)",
+          "url": "https://www.nationalgeographic.com/animals/article/hyacinth-macaw-egg-laundering-for-pet-trade"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 1
+      },
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Uma ave confirmada; quantidade de anilhas não divulgada e não computada como exemplares de fauna.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Sem itinerário de procedência/destino documentado. Não criar rota presumida.",
+      "source_reconciliation_status": "MULTISOURCE_CASE_VERIFIED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-12-13",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_13",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective_verified_sources",
+      "is_exact_seizure_position": false,
+      "record_is_part_of_20261112_13_window": true,
+      "editorial_qa_note_pt": "Ocorrência confirmada em 12/11; suspeita de falsificação não tratada como crime comprovado. Investigação anterior não duplicada.",
+      "context_evidence_audit": {
+        "review_date": "2026-11-13",
+        "categories_present": [
+          "I",
+          "N",
+          "O",
+          "S"
+        ],
+        "not_included": {
+          "T": "Nenhuma fonte específica e pertinente suficientemente verificada; categoria omitida para evitar referência genérica."
+        },
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "geographical_and_case_linkage_limits_stated": true
+      },
+      "occurred_at": "2026-11-12T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261112-py-cerro-cora-captive-wildlife-drug-lab",
+      "status": "VALIDATED",
+      "country": "Paraguai",
+      "event_date": "2026-11-12",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-12",
+      "coordinates": {
+        "lat": -22.62429,
+        "lon": -55.84988
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Colônia María Auxiliadora, Cerro Corá, Amambay, Paraguai",
+      "location_label_en": "María Auxiliadora settlement, Cerro Corá, Amambay, Paraguay",
+      "location_label_es": "Colonia María Auxiliadora, Cerro Corá, Amambay, Paraguay",
+      "geographic_note_pt": "Referência aproximada do distrito; a posição da propriedade rural não foi publicada.",
+      "geographic_note_en": "Approximate district reference; the rural property's location was not published.",
+      "geographic_note_es": "Referencia aproximada del distrito; no se publicó la ubicación de la finca.",
+      "source_label": "ABC Color / Campo Grande News (informações atribuídas à SENAD e ao Ministério Público do Paraguai)",
+      "source_url": "https://www.abc.com.py/policiales/2026/11/12/hallan-armas-drogas-y-animales-silvestres-en-cautiverio-durante-captura-de-supuestos-narcos-en-amambay/",
+      "source_alternative_url": "https://www.campograndenews.com.br/cidades/interior/laboratorio-de-drogas-escondia-araras-macacos-e-gato-selvagem-em-cativeiro",
+      "title_pt": "Operação antidrogas encontra araras, primatas e felino silvestre em cativeiro em Cerro Corá",
+      "title_en": "Drug-lab raid finds captive macaws, primates and wild cat in Cerro Corá",
+      "title_es": "Operativo antidrogas halla guacamayos, primates y felino silvestre cautivos en Cerro Corá",
+      "fauna_groups_aggregated": [
+        "Aves",
+        "Mamíferos"
+      ],
+      "fauna_label_pt": "Araras, primatas e 1 felino silvestre; total não informado",
+      "fauna_label_en": "Macaws, primates and 1 wild cat; total unknown",
+      "fauna_label_es": "Guacamayos, primates y 1 felino silvestre; total desconocido",
+      "taxon_text": "Psittacidae spp.; Primates spp.; *Leopardus* sp. (tirika, identificação específica não confirmada)",
+      "modal_primary": "Não informado",
+      "modal_label_pt": "Não informado",
+      "card_text_pt": "SENAD encontrou fauna silvestre cativa em imóvel investigado como laboratório de drogas; apreendeu entorpecentes e armas. Coexistência criminal confirmada, integração das redes não demonstrada.",
+      "card_text_en": "SENAD found captive wildlife at a suspected drug-processing site, alongside narcotics and weapons. Co-occurring offenses are documented; an integrated trafficking network is unproven.",
+      "card_text_es": "SENAD halló fauna cautiva en un inmueble investigado como laboratorio de drogas, junto a estupefacientes y armas. Concurrencia documentada; red integrada no demostrada.",
+      "context_pt": "[O] A SENAD e o Ministério Público intervieram em 12/11 em um imóvel rural de María Auxiliadora. Encontraram araras, primatas e um pequeno felino conhecido como tirika em cativeiro, além de drogas, armamento e equipamentos de processamento. A Promotoria Ambiental foi acionada. Os relatos divergem entre sete e oito detidos; 7 são identificados nominalmente em fontes iniciais, e a cifra permanece em reconciliação. Não se informou origem, destino ou comércio dos animais, nem responsabilidades individuais pelo cativeiro.\n\n[S] Revisão científica de 150 trabalhos sobre comércio ilegal de fauna e outros crimes organizados documenta convergências, especialmente com drogas, mas diferencia coexistência de operações e participação em uma mesma rede. É quadro analítico, não prova de integração das atividades de Cerro Corá.\n\n[I] A newsletter Wildlife Crimes da WCS Brasil descreve casos monitorados de primatas e araras em cativeiro e a necessidade de investigação interinstitucional. Não relaciona os envolvidos ou a propriedade paraguaia a casos brasileiros.\n\n[N] Investigação repercutida pela Mongabay sobre o Camboja descreve suspeitas de redes com exploração de fauna e outros mercados ilícitos. É paralelo comparativo internacional, sem vínculo identificado com Cerro Corá.",
+      "context_en": "[O] SENAD and Paraguayan prosecutors raided a rural property in María Auxiliadora on 12 November. They found captive macaws, primates and a small wild felid known locally as tirika, along with drugs, weapons and processing equipment. Environmental prosecutors were notified. Reports conflict on seven versus eight detainees; seven are named in initial accounts and the total remains unresolved. Animal provenance, destination, commercial intent and individual responsibility for captivity were not established.\n\n[S] A scientific scoping review of 150 studies documented convergence between illegal wildlife trade and other serious crimes, particularly drugs, while distinguishing co-location from shared criminal networks. It does not establish an integrated network in Cerro Corá.\n\n[I] WCS Brazil's Wildlife Crimes newsletter documents monitoring of captive primates and macaws and the need for coordinated enforcement. It provides comparative context, not a link to the Paraguay property or suspects.\n\n[N] A Mongabay investigation on Cambodia reported alleged networks operating across wildlife and other illicit markets. This is an international comparison only, not evidence of links to Cerro Corá.",
+      "context_es": "[O] La SENAD y el Ministerio Público intervinieron el 12/11 en una finca rural de María Auxiliadora. Hallaron guacamayos, primates y un pequeño felino denominado tirika en cautiverio, además de drogas, armas y equipos de procesamiento. Se dio intervención a la Fiscalía Ambiental. Las fuentes discrepan entre siete y ocho detenidos; siete aparecen identificados en los primeros informes, por lo que el total sigue pendiente. No se establecieron procedencia, destino, comercialización ni responsabilidad individual por los animales.\n\n[S] Una revisión científica de 150 estudios documenta convergencias entre el comercio ilegal de fauna y otros delitos graves, particularmente narcotráfico, pero distingue la coexistencia de actividades de una red criminal común. No prueba integración en Cerro Corá.\n\n[I] La publicación Wildlife Crimes de WCS Brasil documenta monitoreo de primates y guacamayos cautivos y destaca la cooperación institucional. Solo aporta contexto comparativo, sin vínculo con la finca ni los sospechosos.\n\n[N] Una investigación difundida por Mongabay sobre Camboya expone presuntas redes implicadas en varios mercados ilícitos, incluido el de fauna. Es una comparación internacional, sin conexión demostrada con Cerro Corá.",
+      "references_text_pt": "[O] ABC Color, relato da ação atribuído à SENAD, 12/11/2026 — https://www.abc.com.py/policiales/2026/11/12/hallan-armas-drogas-y-animales-silvestres-en-cautiverio-durante-captura-de-supuestos-narcos-en-amambay/\n[O] Campo Grande News, 12/11/2026 — https://www.campograndenews.com.br/cidades/interior/laboratorio-de-drogas-escondia-araras-macacos-e-gato-selvagem-em-cativeiro\n[O] Portal Amambay, relato divergente de 13/11/2026 — https://portalamambay.com.py/ocho-aprehendidos-en-operativo-antidrogas-donde-hallaron-drogas-armas-y-animales-silvestres-en-cautiverio-en-cerro-cora/\n[S] Illegal wildlife trade and other organised crime: A scoping review (2022) — https://doi.org/10.1007/s13280-021-01675-y\n[I] WCS Brasil, Wildlife Crimes newsletter (2025) — https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[N] Mongabay, Investigation exposes Cambodia's illegal wildlife trade linked to transnational crime (2026) — https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/",
+      "references_text_en": "[O] ABC Color, relato da ação atribuído à SENAD, 12/11/2026 — https://www.abc.com.py/policiales/2026/11/12/hallan-armas-drogas-y-animales-silvestres-en-cautiverio-durante-captura-de-supuestos-narcos-en-amambay/\n[O] Campo Grande News, 12/11/2026 — https://www.campograndenews.com.br/cidades/interior/laboratorio-de-drogas-escondia-araras-macacos-e-gato-selvagem-em-cativeiro\n[O] Portal Amambay, relato divergente de 13/11/2026 — https://portalamambay.com.py/ocho-aprehendidos-en-operativo-antidrogas-donde-hallaron-drogas-armas-y-animales-silvestres-en-cautiverio-en-cerro-cora/\n[S] Illegal wildlife trade and other organised crime: A scoping review (2022) — https://doi.org/10.1007/s13280-021-01675-y\n[I] WCS Brasil, Wildlife Crimes newsletter (2025) — https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[N] Mongabay, Investigation exposes Cambodia's illegal wildlife trade linked to transnational crime (2026) — https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/",
+      "references_text_es": "[O] ABC Color, relato da ação atribuído à SENAD, 12/11/2026 — https://www.abc.com.py/policiales/2026/11/12/hallan-armas-drogas-y-animales-silvestres-en-cautiverio-durante-captura-de-supuestos-narcos-en-amambay/\n[O] Campo Grande News, 12/11/2026 — https://www.campograndenews.com.br/cidades/interior/laboratorio-de-drogas-escondia-araras-macacos-e-gato-selvagem-em-cativeiro\n[O] Portal Amambay, relato divergente de 13/11/2026 — https://portalamambay.com.py/ocho-aprehendidos-en-operativo-antidrogas-donde-hallaron-drogas-armas-y-animales-silvestres-en-cautiverio-en-cerro-cora/\n[S] Illegal wildlife trade and other organised crime: A scoping review (2022) — https://doi.org/10.1007/s13280-021-01675-y\n[I] WCS Brasil, Wildlife Crimes newsletter (2025) — https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx\n[N] Mongabay, Investigation exposes Cambodia's illegal wildlife trade linked to transnational crime (2026) — https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "ABC Color, relato da ação atribuído à SENAD, 12/11/2026",
+          "url": "https://www.abc.com.py/policiales/2026/11/12/hallan-armas-drogas-y-animales-silvestres-en-cautiverio-durante-captura-de-supuestos-narcos-en-amambay/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Campo Grande News, 12/11/2026",
+          "url": "https://www.campograndenews.com.br/cidades/interior/laboratorio-de-drogas-escondia-araras-macacos-e-gato-selvagem-em-cativeiro"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Portal Amambay, relato divergente de 13/11/2026",
+          "url": "https://portalamambay.com.py/ocho-aprehendidos-en-operativo-antidrogas-donde-hallaron-drogas-armas-y-animales-silvestres-en-cautiverio-en-cerro-cora/"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Illegal wildlife trade and other organised crime: A scoping review (2022)",
+          "url": "https://doi.org/10.1007/s13280-021-01675-y"
+        },
+        {
+          "id": "I",
+          "type": "wcs_institutional",
+          "label": "WCS Brasil, Wildlife Crimes newsletter (2025)",
+          "url": "https://brasil.wcs.org/pt-br/WCS-Brasil/Noticias/ID/24753.aspx"
+        },
+        {
+          "id": "N",
+          "type": "investigative_journalism",
+          "label": "Mongabay, Investigation exposes Cambodia's illegal wildlife trade linked to transnational crime (2026)",
+          "url": "https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Número total de aves e primatas não divulgado; ao menos um felino. Não estimar a soma a partir das imagens.",
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Sem itinerário de procedência/destino documentado. Não criar rota presumida.",
+      "source_reconciliation_status": "MULTISOURCE_CASE_VERIFIED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-12-13",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_13",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective_verified_sources",
+      "is_exact_seizure_position": false,
+      "record_is_part_of_20261112_13_window": true,
+      "editorial_qa_note_pt": "Ocorrência comprovada em 12/11. Inconsistência 7/8 detidos mantida em aberto; não atribuir tráfico de fauna integrado sem evidência.",
+      "context_evidence_audit": {
+        "review_date": "2026-11-13",
+        "categories_present": [
+          "I",
+          "N",
+          "O",
+          "S"
+        ],
+        "not_included": {
+          "T": "Nenhuma fonte específica e pertinente suficientemente verificada; categoria omitida para evitar referência genérica."
+        },
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "geographical_and_case_linkage_limits_stated": true
+      },
+      "occurred_at": "2026-11-12T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261112-sy-jousieh-raptors-lebanon-attempt",
+      "status": "VALIDATED",
+      "country": "Síria",
+      "event_date": "2026-11-12",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-12",
+      "coordinates": {
+        "lat": 34.3417,
+        "lon": 36.42
+      },
+      "coordinate_precision": "BORDER_CROSSING_REFERENCE_APPROXIMATE",
+      "location_label_pt": "Posto fronteiriço Jousieh, Homs, Síria (direção ao Líbano)",
+      "location_label_en": "Jousieh border crossing, Homs, Syria (toward Lebanon)",
+      "location_label_es": "Paso fronterizo de Jousieh, Homs, Siria (hacia el Líbano)",
+      "geographic_note_pt": "Referência cartográfica do posto de fronteira, não posição do veículo inspecionado.",
+      "geographic_note_en": "Border crossing reference, not the inspected vehicle's exact position.",
+      "geographic_note_es": "Referencia del puesto fronterizo, no ubicación exacta del vehículo.",
+      "source_label": "Agência estatal síria SANA / Autoridade Geral de Fronteiras e Alfândegas",
+      "source_url": "https://sana.sy/locals/2633829/",
+      "source_alternative_url": "https://alsouriya.tv/customs-thwart-birds-smuggling-joussieh-border/",
+      "title_pt": "Alfândega síria intercepta aves de rapina ocultas em veículo rumo ao Líbano",
+      "title_en": "Syrian customs intercept concealed raptors in vehicle headed to Lebanon",
+      "title_es": "Aduana siria intercepta rapaces ocultas en vehículo rumbo al Líbano",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "fauna_label_pt": "Aves de rapina vivas; número e espécies não informados",
+      "fauna_label_en": "Live birds of prey; count and species unreported",
+      "fauna_label_es": "Aves rapaces vivas; número y especies no informados",
+      "taxon_text": "Aves rapaces (ordem e espécies não confirmadas)",
+      "modal_primary": "Rodoviário",
+      "modal_label_pt": "Rodoviário",
+      "card_text_pt": "Alfândega encontrou aves de rapina escondidas em veículo no posto Jousieh, na tentativa de cruzar da Síria para o Líbano; espécies e números não divulgados.",
+      "card_text_en": "Customs found birds of prey concealed in a vehicle at the Jousieh crossing, attempting to move from Syria into Lebanon; species and number were not disclosed.",
+      "card_text_es": "Aduana halló rapaces escondidas en un vehículo en Jousieh, durante intento de ingreso al Líbano; no se informaron especies ni cantidades.",
+      "context_pt": "[O] Em 12/11, a autoridade alfandegária da Síria informou ter interceptado aves de rapina escondidas em um veículo em Jousieh, enquanto se tentava atravessar para o Líbano. Os animais foram confiscados e encaminhados para avaliação e cuidados pela autoridade ambiental. A direção Síria → Líbano está documentada, mas não a origem de captura ou o destino final. Número e espécies não foram informados.\n\n[S] Estudo científico sobre a função de países de trânsito no tráfico global de fauna demonstra a importância analítica de pontos intermediários e fronteiras. Não autoriza inferir proveniência, mercado ou rede para as aves interceptadas.\n\n[I] O relatório global de impacto da WCS de 2025 descreve cooperação com órgãos de fiscalização e resposta a tráfico de aves; é referência operacional geral, sem ligação com os agentes, veículos ou exemplares de Jousieh.\n\n[N] Investigação do Guardian sobre retirada e lavagem de falcões selvagens na Escócia exemplifica riscos de documentação de procedência; não confirma a identidade das aves sírias nem uma ligação comercial.",
+      "context_en": "[O] On 12 November Syrian customs reported intercepting birds of prey concealed in a vehicle at Jousieh during an attempted crossing into Lebanon. The birds were seized and handed over for environmental health assessment and care. Syria-to-Lebanon direction is documented, but the birds' capture origin, final destination, species and count were not given.\n\n[S] A study on the role of transit countries in global illegal wildlife trade explains why intermediary crossings matter, but does not establish provenance, buyers or networks for these seized birds.\n\n[I] WCS's 2025 impact report describes enforcement cooperation and responses to bird trafficking globally. This is operational context, with no link to the Jousieh vehicle or birds.\n\n[N] Guardian investigative reporting on theft and laundering of wild falcons in Scotland illustrates potential provenance-document risks, not the birds' identity or a commercial link to Syria.",
+      "context_es": "[O] El 12/11 la aduana siria informó que interceptó rapaces escondidas en un vehículo en Jousieh durante un intento de cruzar hacia el Líbano. Fueron confiscadas y entregadas a las autoridades ambientales para evaluación y cuidados. Se documentó la dirección Siria → Líbano, pero no la captura, destino final, número ni especies.\n\n[S] Un estudio sobre países de tránsito en el comercio ilegal mundial de fauna explica la relevancia investigativa de cruces fronterizos, pero no identifica procedencia ni redes en este caso.\n\n[I] El informe de impacto 2025 de WCS describe cooperación con autoridades y atención a aves incautadas como marco operativo, sin relación con los ejemplares de Jousieh.\n\n[N] Una investigación de Guardian sobre el robo y blanqueo de halcones silvestres en Escocia ilustra riesgos documentales en otros contextos, sin identificar las especies sirias ni conexiones comerciales.",
+      "references_text_pt": "[O] SANA, Ministério da Administração Local e Meio Ambiente, 12/11/2026 — https://sana.sy/locals/2633829/\n[O] Al Souriya TV, comunicado alfandegário, 12/11/2026 — https://alsouriya.tv/customs-thwart-birds-smuggling-joussieh-border/\n[S] Role of transit countries in global illegal wildlife trade (2026) — https://doi.org/10.1111/cobi.70226\n[I] WCS Annual Impact Report 2025 — https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[N] The Guardian, DNA evidence helps expose theft and laundering of wild peregrine falcons (2024) — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "references_text_en": "[O] SANA, Ministério da Administração Local e Meio Ambiente, 12/11/2026 — https://sana.sy/locals/2633829/\n[O] Al Souriya TV, comunicado alfandegário, 12/11/2026 — https://alsouriya.tv/customs-thwart-birds-smuggling-joussieh-border/\n[S] Role of transit countries in global illegal wildlife trade (2026) — https://doi.org/10.1111/cobi.70226\n[I] WCS Annual Impact Report 2025 — https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[N] The Guardian, DNA evidence helps expose theft and laundering of wild peregrine falcons (2024) — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "references_text_es": "[O] SANA, Ministério da Administração Local e Meio Ambiente, 12/11/2026 — https://sana.sy/locals/2633829/\n[O] Al Souriya TV, comunicado alfandegário, 12/11/2026 — https://alsouriya.tv/customs-thwart-birds-smuggling-joussieh-border/\n[S] Role of transit countries in global illegal wildlife trade (2026) — https://doi.org/10.1111/cobi.70226\n[I] WCS Annual Impact Report 2025 — https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf\n[N] The Guardian, DNA evidence helps expose theft and laundering of wild peregrine falcons (2024) — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "SANA, Ministério da Administração Local e Meio Ambiente, 12/11/2026",
+          "url": "https://sana.sy/locals/2633829/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Al Souriya TV, comunicado alfandegário, 12/11/2026",
+          "url": "https://alsouriya.tv/customs-thwart-birds-smuggling-joussieh-border/"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Role of transit countries in global illegal wildlife trade (2026)",
+          "url": "https://doi.org/10.1111/cobi.70226"
+        },
+        {
+          "id": "I",
+          "type": "wcs_institutional",
+          "label": "WCS Annual Impact Report 2025",
+          "url": "https://cdn.wcs.org/2025/12/04/15/48/05/0e37faf2-e2c9-4cb8-92e1-53bdf6c95b1c/WCS_Annual%20Impact%20Report_2025_fnl_web_12.04.pdf"
+        },
+        {
+          "id": "N",
+          "type": "investigative_journalism",
+          "label": "The Guardian, DNA evidence helps expose theft and laundering of wild peregrine falcons (2024)",
+          "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe"
+        }
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "quantity_note_pt": "Quantidade e espécies não informadas; não inferir pelo material fotográfico.",
+      "route_audit_status": "PARTIAL_DOCUMENTED_CROSS_BORDER_DIRECTION",
+      "route_audit_note_pt": "Trecho/documentação: veículo tentou cruzar posto Jousieh da Síria rumo ao Líbano. Destino interno libanês e origem biológica desconhecidos. Não gerar linha inventando pontos finais.",
+      "source_reconciliation_status": "MULTISOURCE_CASE_VERIFIED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-12-13",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_13",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective_verified_sources",
+      "is_exact_seizure_position": false,
+      "record_is_part_of_20261112_13_window": true,
+      "editorial_qa_note_pt": "Fonte informa apreensão em 12/11; direção transfronteiriça documentada, sem coordenada final para geometria de rota.",
+      "context_evidence_audit": {
+        "review_date": "2026-11-13",
+        "categories_present": [
+          "I",
+          "N",
+          "O",
+          "S"
+        ],
+        "not_included": {
+          "T": "Nenhuma fonte específica e pertinente suficientemente verificada; categoria omitida para evitar referência genérica."
+        },
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "geographical_and_case_linkage_limits_stated": true
+      },
+      "occurred_at": "2026-11-12T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }
