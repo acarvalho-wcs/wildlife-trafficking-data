@@ -14,7 +14,7 @@ messages.es.weeklyReports='INFORMES';
 messages.pt.creatorDisclaimer='Criado e gerenciado pelo Programa de Inteligência para Conservação da WCS Brasil.';
 messages.en.creatorDisclaimer='Created and managed by the Conservation Intelligence Program at WCS Brazil.';
 messages.es.creatorDisclaimer='Creado y gestionado por el Programa de Inteligencia para la Conservación de WCS Brasil.';
-let lang='pt',markers=[],activeId=null,currentView='dashboard';
+let lang=window.ObservatoryLanguage.get(),markers=[],activeId=null,currentView='dashboard';
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const caseText=window.ScientificText.html;
@@ -173,7 +173,7 @@ function render(){
  window.ObservatoryGlobe?.sync();
 }
 function setup(){
- const t=messages[lang];document.documentElement.lang=locale();document.title=t.title;
+ const t=messages[lang];document.documentElement.lang=locale();document.title=t.title;$('language').value=lang;
  $('exportCsv').textContent=lang==='en'?'Export .xlsx':'Exportar .xlsx';
  document.querySelector('meta[name="description"]').content=t.subtitle;
  document.querySelectorAll('[data-t]').forEach(el=>{if(t[el.dataset.t])el.textContent=t[el.dataset.t];});
@@ -199,7 +199,8 @@ window.RecordSearch.setCases(events);
 ['country','species','year','mode'].forEach(id=>$(id).addEventListener('change',render));
 $('exportCsv').onclick=exportXlsx;
 $('clear').onclick=()=>{['country','species','year','mode'].forEach(k=>$(k).value='');activeId=null;if(window.ObservatoryTime)window.ObservatoryTime.reset();else render();map.setView([14,5],2);};
-$('language').onchange=e=>{lang=messages[e.target.value]?e.target.value:'pt';setup();};
+$('language').onchange=e=>window.ObservatoryLanguage.set(e.target.value);
+window.ObservatoryLanguage.subscribe(value=>{if(lang!==value){lang=value;setup();}});
 document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',()=>switchView(el.dataset.view)));
 window.ObservatoryTime?.init({render,lang:()=>lang,filtered,all:()=>events});
 setup();
