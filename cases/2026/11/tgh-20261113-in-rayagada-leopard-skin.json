@@ -1,0 +1,82 @@
+{
+  "id": "tgh-20261113-in-rayagada-leopard-skin",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-11-13",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-13",
+  "coordinates": {
+    "lat": 19.34811,
+    "lon": 83.78131
+  },
+  "coordinate_precision": "REGIONAL_REFERENCE_APPROXIMATE",
+  "geographic_note_pt": "Referência cartográfica aproximada, não o ponto exato do fato: Gudari town reference; Kannapadu raid location not precisely geocoded",
+  "geographic_note_en": "Approximate cartographic reference, not the precise event location: Gudari town reference; Kannapadu raid location not precisely geocoded",
+  "geographic_note_es": "Referencia cartográfica aproximada, no el lugar exacto del hecho: Gudari town reference; Kannapadu raid location not precisely geocoded",
+  "georeference_source_url": "https://mapcarta.com/14887314",
+  "georeference_method": "SECONDARY_PLACE_REFERENCE",
+  "is_exact_seizure_position": false,
+  "source_label": "Times of India (reporting forest officials)",
+  "source_url": "https://timesofindia.indiatimes.com/city/bhubaneswar/four-arrested-with-leopard-skin-in-rayagada/articleshow/135810625.cms",
+  "taxon_text": "*Panthera pardus* (pele)",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "1 pele; não somar como animal vivo ou estimar outros exemplares.",
+  "source_reconciliation_status": "PRIMARY_OR_ATTRIBUTED_REPORT_CORROBORATED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NO_VALIDATED_IMAGE",
+  "ingestion_batch": "TG-H-ASIA-AFRICA-2026-11-08-14-VALIDATED-2026-11-14",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_EVIDENCE_REVIEWED_2026_11_14",
+  "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Times of India (reporting forest officials)",
+      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/four-arrested-with-leopard-skin-in-rayagada/articleshow/135810625.cms"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Corroborating event report",
+      "url": "https://www.newindianexpress.com/states/odisha/2026/Nov/14/four-held-for-smuggling-leopard-skin-in-odishas-rayagada"
+    }
+  ],
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Local de abate, compra e comprador desconhecidos.",
+  "source_corroboration_url": "https://www.newindianexpress.com/states/odisha/2026/Nov/14/four-held-for-smuggling-leopard-skin-in-odishas-rayagada",
+  "location_label_pt": "Kannapadu, área de Gudari, Rayagada, Odisha, Índia",
+  "title_pt": "Quatro pessoas detidas com pele de leopardo em Rayagada",
+  "fauna_label_pt": "1 pele de leopardo",
+  "card_text_pt": "Agentes florestais apreenderam uma pele de leopardo (250 × 107 cm) em operação perto de Kannapadu, em 13/11; quatro pessoas foram detidas, e três motocicletas e quatro celulares apreendidos.",
+  "context_pt": "[O] A autoridade florestal declarou que ainda busca determinar onde o leopardo foi abatido e investigar possíveis participantes na comercialização. Veículos e telefones podem oferecer elementos de apuração, mas não estabelecem cadeia de fornecedores, origem da pele ou destino comercial. Não se deve associar o caso à apreensão de escamas de pangolim em Rayagada em outubro sem evidência de ligação.",
+  "references_text_pt": "[O] Times of India (reporting forest officials) — https://timesofindia.indiatimes.com/city/bhubaneswar/four-arrested-with-leopard-skin-in-rayagada/articleshow/135810625.cms\n[O] Corroborating event report — https://www.newindianexpress.com/states/odisha/2026/Nov/14/four-held-for-smuggling-leopard-skin-in-odishas-rayagada",
+  "location_label_en": "Kannapadu near Gudari, Rayagada, Odisha, India",
+  "title_en": "Four arrested with leopard skin in Rayagada",
+  "fauna_label_en": "1 leopard skin",
+  "card_text_en": "Forest officers seized a leopard skin (250 × 107 cm) near Kannapadu on 13 November, arrested four people and recovered three motorcycles and four phones.",
+  "context_en": "[O] Forest officers said they were still investigating where the leopard was killed and whether additional people were involved in illegal trade. Vehicles and phones offer investigative leads, not proof of suppliers, the skin's provenance or a buyer. A previous pangolin-scale seizure in Rayagada is a separate incident unless evidence links them.",
+  "references_text_en": "[O] Times of India (reporting forest officials) — https://timesofindia.indiatimes.com/city/bhubaneswar/four-arrested-with-leopard-skin-in-rayagada/articleshow/135810625.cms\n[O] Corroborating event report — https://www.newindianexpress.com/states/odisha/2026/Nov/14/four-held-for-smuggling-leopard-skin-in-odishas-rayagada",
+  "location_label_es": "Kannapadu, zona de Gudari, Rayagada, Odisha, India",
+  "title_es": "Cuatro detenidos con una piel de leopardo en Rayagada",
+  "fauna_label_es": "1 piel de leopardo",
+  "card_text_es": "Agentes forestales incautaron una piel de leopardo (250 × 107 cm) cerca de Kannapadu el 13/11; detuvieron a cuatro personas y decomisaron tres motocicletas y cuatro teléfonos.",
+  "context_es": "[O] La autoridad forestal indicó que todavía investigaba dónde fue abatido el leopardo y si hubo otras personas implicadas en el comercio ilegal. Vehículos y teléfonos son pistas para investigar, no prueba de proveedores, procedencia ni comprador. Una incautación anterior de escamas de pangolín en Rayagada es un hecho distinto salvo evidencia de conexión.",
+  "references_text_es": "[O] Times of India (reporting forest officials) — https://timesofindia.indiatimes.com/city/bhubaneswar/four-arrested-with-leopard-skin-in-rayagada/articleshow/135810625.cms\n[O] Corroborating event report — https://www.newindianexpress.com/states/odisha/2026/Nov/14/four-held-for-smuggling-leopard-skin-in-odishas-rayagada",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado"
+}

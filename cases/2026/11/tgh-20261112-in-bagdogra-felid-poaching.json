@@ -1,0 +1,82 @@
+{
+  "id": "tgh-20261112-in-bagdogra-felid-poaching",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-11-12",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-13",
+  "coordinates": {
+    "lat": 26.698,
+    "lon": 88.31
+  },
+  "coordinate_precision": "REGIONAL_REFERENCE_APPROXIMATE",
+  "geographic_note_pt": "Referência cartográfica aproximada, não o ponto exato do fato: Bagdogra municipality reference; Choupukharia/Bhisti Jote not geocoded",
+  "geographic_note_en": "Approximate cartographic reference, not the precise event location: Bagdogra municipality reference; Choupukharia/Bhisti Jote not geocoded",
+  "geographic_note_es": "Referencia cartográfica aproximada, no el lugar exacto del hecho: Bagdogra municipality reference; Choupukharia/Bhisti Jote not geocoded",
+  "georeference_source_url": "https://www.openstreetmap.org/search?query=Bagdogra%20India",
+  "georeference_method": "SECONDARY_PLACE_REFERENCE",
+  "is_exact_seizure_position": false,
+  "source_label": "Siliguri Times (Bengali; quoting forestry officials)",
+  "source_url": "https://be.siliguritimes.com/bannoprani-sikar-kore-vuribhoj-bagdogray-greftar-1/",
+  "taxon_text": "Felidae (identificação taxonômica sujeita a perícia)",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "quantity_note_pt": "Restos associados a 1 animal reportado; identificação final pendente.",
+  "source_reconciliation_status": "PRIMARY_OR_ATTRIBUTED_REPORT_CORROBORATED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NO_VALIDATED_IMAGE",
+  "ingestion_batch": "TG-H-ASIA-AFRICA-2026-11-08-14-VALIDATED-2026-11-14",
+  "case_context_status": "PT_EN_ES_ANALYTICAL_EVIDENCE_REVIEWED_2026_11_14",
+  "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Siliguri Times (Bengali; quoting forestry officials)",
+      "url": "https://be.siliguritimes.com/bannoprani-sikar-kore-vuribhoj-bagdogray-greftar-1/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Corroborating event report",
+      "url": "https://www.thestatesman.com/cities/kolkata/man-kills-jungle-cat-was-planning-to-cook-it-in-bagdogra-1503662146.html"
+    }
+  ],
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Sem transporte comercial ou rota documentados.",
+  "source_corroboration_url": "https://www.thestatesman.com/cities/kolkata/man-kills-jungle-cat-was-planning-to-cook-it-in-bagdogra-1503662146.html",
+  "location_label_pt": "Choupukharia/Bhisti Jote, Bagdogra, West Bengal, Índia",
+  "title_pt": "Suspeito preso por matar felino silvestre para consumo em Bagdogra",
+  "fauna_label_pt": "restos de 1 felino silvestre (identificação pendente)",
+  "card_text_pt": "Agentes florestais prenderam um homem em 13/11; a caça havia ocorrido, segundo reportagem em bengali, na noite de 12/11. Foram recolhidos restos de um felino e utensílios de cozinha, e o material foi encaminhado à perícia.",
+  "context_pt": "[O] A fonte bengali atribui a caça e o consumo ao próprio suspeito, enquanto outro veículo relata que ele se preparava para cozinhar o animal. Essa divergência não altera a presença de restos e a apuração sobre caça ilegal, mas impede afirmar com certeza que houve consumo consumado. A identificação definitiva do felino está pendente de exame e nenhuma comercialização foi documentada.",
+  "references_text_pt": "[O] Siliguri Times (Bengali; quoting forestry officials) — https://be.siliguritimes.com/bannoprani-sikar-kore-vuribhoj-bagdogray-greftar-1/\n[O] Corroborating event report — https://www.thestatesman.com/cities/kolkata/man-kills-jungle-cat-was-planning-to-cook-it-in-bagdogra-1503662146.html",
+  "location_label_en": "Choupukharia/Bhisti Jote, Bagdogra, West Bengal, India",
+  "title_en": "Suspect arrested over killing of wild cat for consumption in Bagdogra",
+  "fauna_label_en": "remains of 1 wild cat (identification pending)",
+  "card_text_en": "Forest officers arrested one man on 13 November after an alleged wild-cat killing the previous evening. They seized animal remains and cooking implements and sent material for forensic examination.",
+  "context_en": "[O] One Bengali report says the suspect killed and ate the animal; another describes preparations to cook it. This difference does not undermine the recovery of remains or the poaching investigation but makes completed consumption uncertain. Taxonomic identification awaits testing; no trade or transport chain was established.",
+  "references_text_en": "[O] Siliguri Times (Bengali; quoting forestry officials) — https://be.siliguritimes.com/bannoprani-sikar-kore-vuribhoj-bagdogray-greftar-1/\n[O] Corroborating event report — https://www.thestatesman.com/cities/kolkata/man-kills-jungle-cat-was-planning-to-cook-it-in-bagdogra-1503662146.html",
+  "location_label_es": "Choupukharia/Bhisti Jote, Bagdogra, Bengala Ocidental, India",
+  "title_es": "Detenido por la muerte de un felino silvestre para consumo en Bagdogra",
+  "fauna_label_es": "restos de 1 felino silvestre (identificación pendiente)",
+  "card_text_es": "Agentes forestales detuvieron a un hombre el 13/11 por la presunta muerte de un felino silvestre la noche anterior. Recuperaron restos del animal y utensilios de cocina; el material fue enviado a examen forense.",
+  "context_es": "[O] Un medio bengalí afirma que el sospechoso mató y consumió al animal; otro informa que se preparaba para cocinarlo. La divergencia no altera el hallazgo de restos ni la investigación por caza ilegal, pero impide asegurar el consumo efectivo. La identificación taxonómica depende de pruebas; no se documentó comercialización ni transporte.",
+  "references_text_es": "[O] Siliguri Times (Bengali; quoting forestry officials) — https://be.siliguritimes.com/bannoprani-sikar-kore-vuribhoj-bagdogray-greftar-1/\n[O] Corroborating event report — https://www.thestatesman.com/cities/kolkata/man-kills-jungle-cat-was-planning-to-cook-it-in-bagdogra-1503662146.html",
+  "modal_label_pt": "Não informado",
+  "modal_label_en": "Not reported",
+  "modal_label_es": "No informado"
+}
