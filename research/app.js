@@ -2,7 +2,7 @@ const TEXT={pt:{repository:'Repositório científico',collection:'Artigos cient�
 const PAPERS_URL='https://raw.githubusercontent.com/acarvalho-wcs/wildlife-trafficking-research/main/papers.json';
 // Keep every canonical field intact; never merge or fall back to bundled records.
 let papers=[];
-let lang='pt';
+let lang=window.ObservatoryLanguage.get();
 let loadState='loading';
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -61,10 +61,11 @@ async function loadPapers(){
   }
   translate();
 }
-$('language').addEventListener('change',e=>{lang=e.target.value;translate()});
+$('language').addEventListener('change',e=>window.ObservatoryLanguage.set(e.target.value));
+window.ObservatoryLanguage.subscribe(value=>{lang=value;translate()});
 $('query').addEventListener('input',render);
 $('topic').addEventListener('change',render);
 $('region').addEventListener('change',render);
 $('clear').addEventListener('click',()=>{$('query').value='';$('topic').value='';$('region').value='';render()});
-translate();
+$('language').value=lang;translate();
 loadPapers();
