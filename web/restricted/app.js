@@ -11,7 +11,7 @@ const PUBLIC_PILOTS=[
  {id:"abelhas-org",name:"Abelhas.org",type:"marketplace",scope:"br",url:"https://abelhas.org/"},
  {id:"iakp",name:"International Association of Kambo Practitioners",type:"directory",scope:"world",url:"https://iakp.org/search/"}
 ];
-const state={locale:"pt",page:"overview",theme:"dark",search:"",filter:"all"};
+const state={locale:window.ObservatoryLanguage.get(),page:"overview",theme:"dark",search:"",filter:"all"};
 const t=k=>I18N[state.locale][k]||k;
 const $=id=>document.getElementById(id);
 function make(tag,value,className){
@@ -67,7 +67,8 @@ function closeMenu(){
  $("mobile-menu").setAttribute("aria-expanded","false");
 }
 document.querySelectorAll(".menu-item").forEach(el=>el.addEventListener("click",()=>setPage(el.dataset.page)));
-$("language").addEventListener("change",e=>{state.locale=e.target.value;translate();});
+$("language").addEventListener("change",e=>window.ObservatoryLanguage.set(e.target.value));
+window.ObservatoryLanguage.subscribe(value=>{state.locale=value;translate();});
 $("theme-toggle").addEventListener("click",()=>{
  state.theme=state.theme==="dark"?"light":"dark";
  document.body.dataset.theme=state.theme;
@@ -81,5 +82,5 @@ $("mobile-menu").addEventListener("click",()=>{
 });
 $("overlay").addEventListener("click",closeMenu);
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu();});
-translate();
+$("language").value=state.locale;translate();
 
