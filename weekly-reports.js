@@ -12,8 +12,8 @@
  const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const safeGet=(storage,key)=>{try{return window[storage].getItem(key);}catch{return null;}};
  const safeSet=(storage,key,value)=>{try{window[storage].setItem(key,value);}catch{/* In-memory guards also prevent reopening. */}};
- let currentLanguage='pt',selectedCategory='weekly',initialized=false;
- let modalLanguage=safeGet('localStorage',languageKey),shown=safeGet('sessionStorage',sessionKey)==='1',dialog=null,featured=null,previousFocus=null;
+ let currentLanguage=window.ObservatoryLanguage.get(),selectedCategory='weekly',initialized=false;
+ let modalLanguage=window.ObservatoryLanguage.get(),shown=safeGet('sessionStorage',sessionKey)==='1',dialog=null,featured=null,previousFocus=null;
  if(!labels[modalLanguage])modalLanguage=null;
  function localized(report,field,lang) {
   return report[field+'_'+lang]||['pt','en','es'].map(code=>report[field+'_'+code]).find(Boolean)||'';
@@ -63,7 +63,7 @@
   window.ObservatoryCitation.bind(dialog,lang||'pt');
   dialog.querySelector('[data-report-close]').addEventListener('click',()=>dialog.close());
   dialog.querySelectorAll('[data-report-language]').forEach(button=>button.addEventListener('click',()=>{
-   modalLanguage=button.dataset.reportLanguage;safeSet('localStorage',languageKey,modalLanguage);renderModal();dialog.scrollTop=0;dialog.querySelector('[data-report-close]').focus({preventScroll:true});
+   modalLanguage=window.ObservatoryLanguage.set(button.dataset.reportLanguage);safeSet('localStorage',languageKey,modalLanguage);renderModal();dialog.scrollTop=0;dialog.querySelector('[data-report-close]').focus({preventScroll:true});
   }));
   dialog.querySelector('[data-report-choose]')?.addEventListener('click',()=>{renderModal(true);dialog.querySelector('[data-report-language]').focus();});
  }
