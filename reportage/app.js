@@ -11,7 +11,7 @@ const loadMessages = {
   es:{loading:'Cargando reportajes…', error:'No fue posible cargar la colección ahora. Inténtalo de nuevo en unos instantes.'}
 };
 
-let language = 'pt';
+let language = window.ObservatoryLanguage.get();
 let articles = [];
 let lastSuccessfulArticles = [];
 let feedUpdatedAt = '';
@@ -150,11 +150,12 @@ async function loadArticles(){
   }
 }
 
-$('language').addEventListener('change',event=>{language=event.target.value;localize()});
+$('language').addEventListener('change',event=>window.ObservatoryLanguage.set(event.target.value));
+window.ObservatoryLanguage.subscribe(value=>{language=value;localize()});
 ['source','topic','year'].forEach(id=>$(id).addEventListener('change',render));
 $('query').addEventListener('input',render);
 $('clear').addEventListener('click',()=>{['source','topic','year','query'].forEach(id=>$(id).value='');render()});
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')loadArticles()});
 
-localize();
+$('language').value=language;localize();
 loadArticles();
