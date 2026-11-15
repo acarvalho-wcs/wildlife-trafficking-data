@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-10T20:52:45Z",
+  "updated_at": "2026-11-15",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -13714,8 +13714,8 @@
           "to": {
             "name": "Albânia",
             "country": "Albania",
-            "lat": 41.0,
-            "lon": 20.0,
+            "lat": 41,
+            "lon": 20,
             "precision": "country_generalized",
             "georeference_source_url": "https://mapcarta.com/Albania"
           },
@@ -13866,16 +13866,16 @@
           "from": {
             "name": "Ucrânia",
             "country": "Ukraine",
-            "lat": 49.0,
-            "lon": 32.0,
+            "lat": 49,
+            "lon": 32,
             "precision": "country_generalized",
             "georeference_source_url": "https://mapcarta.com/Ukraine"
           },
           "to": {
             "name": "Canadá",
             "country": "Canada",
-            "lat": 56.0,
-            "lon": -101.0,
+            "lat": 56,
+            "lon": -101,
             "precision": "country_generalized",
             "georeference_source_url": "https://mapcarta.com/Canada"
           },
@@ -13906,16 +13906,16 @@
           "from": {
             "name": "Ucrânia",
             "country": "Ukraine",
-            "lat": 49.0,
-            "lon": 32.0,
+            "lat": 49,
+            "lon": 32,
             "precision": "country_generalized",
             "georeference_source_url": "https://mapcarta.com/Ukraine"
           },
           "to": {
             "name": "Canadá",
             "country": "Canada",
-            "lat": 56.0,
-            "lon": -101.0,
+            "lat": 56,
+            "lon": -101,
             "precision": "country_generalized",
             "georeference_source_url": "https://mapcarta.com/Canada"
           },
@@ -13946,8 +13946,8 @@
           "from": {
             "name": "Ucrânia",
             "country": "Ukraine",
-            "lat": 49.0,
-            "lon": 32.0,
+            "lat": 49,
+            "lon": 32,
             "precision": "country_generalized",
             "georeference_source_url": "https://mapcarta.com/Ukraine"
           },
@@ -14202,8 +14202,8 @@
           "to": {
             "name": "Alemanha (destino nacional; cidade não divulgada)",
             "country": "Alemanha",
-            "lat": 51.0,
-            "lon": 10.0,
+            "lat": 51,
+            "lon": 10,
             "precision": "country_reference"
           },
           "movement_status": "planned_movement",
@@ -14889,6 +14889,42 @@
         "evidence_class": "EMBARQUE PRETENDIDO, INTERROMPIDO",
         "geometry": "schematic_straight_line_not_actual_path"
       }
+    },
+    {
+      "id": "tgh-global-20261114-br-rio-grande-1400kg-fish-r01",
+      "event_match": {
+        "event_id": "tgh-global-20261114-br-rio-grande-1400kg-fish"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "directional_segment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Santa Vitória do Palmar → Rio Grande (direção observada)",
+      "label_en": "Santa Vitória do Palmar → Rio Grande (observed direction)",
+      "label_es": "Santa Vitória do Palmar → Rio Grande (dirección observada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Santa Vitória do Palmar (referência municipal)",
+            "lat": -33.5189,
+            "lon": -53.3681,
+            "precision": "city_generalized",
+            "country": "Brasil"
+          },
+          "to": {
+            "name": "Rio Grande (referência municipal)",
+            "lat": -32.035,
+            "lon": -52.098,
+            "precision": "city_generalized",
+            "country": "Brasil"
+          }
+        }
+      ],
+      "evidence_pt": "A Patrulha Ambiental relatou o veículo em deslocamento pela BR-471 no sentido Santa Vitória do Palmar–Rio Grande em 13/11/2026. Pontos esquemáticos, sem identificação de origem da pesca ou destino comercial.",
+      "evidence_en": "Environmental police reported vehicle travel on BR-471 from Santa Vitória do Palmar towards Rio Grande on 13 November 2026. Schematic city points, not proven fishing origin or commercial destination.",
+      "evidence_es": "La Patrulla Ambiental registró desplazamiento por la BR-471 desde Santa Vitória do Palmar hacia Rio Grande el 13/11/2026. Puntos esquemáticos, sin origen de pesca ni destino comercial acreditados.",
+      "source_label": "A Hora do Sul / Brigada Militar",
+      "source_url": "https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/"
     }
   ],
   "network_context": [
