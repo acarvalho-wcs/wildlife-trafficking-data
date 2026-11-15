@@ -1,0 +1,89 @@
+{
+  "id": "tgh-global-20261114-pk-peshawar-peregrine-falcon",
+  "status": "VALIDATED",
+  "country": "Paquistão",
+  "event_date": "2026-11-14",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "publication_date": "2026-11-14",
+  "coordinates": {
+    "lat": 34.015,
+    "lon": 71.581
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "source_label": "Associated Press of Pakistan / KP Wildlife Department",
+  "source_url": "https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/",
+  "source_alternative_url": "https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+  "taxon_text": "*Falco peregrinus* (identificação reportada)",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "quantity_count": 1,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não há deslocamento entre localidades comprovado.",
+  "source_reconciliation_status": "TWO_SOURCE_REVIEW",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "is_exact_seizure_position": false,
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Associated Press of Pakistan / KP Wildlife Department — 14/11/2026",
+      "url": "https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Relato corroborativo da ocorrência",
+      "url": "https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-15",
+    "categories_present": [
+      "O"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true
+  },
+  "location_label_pt": "Praça de pedágio de Peshawar, Khyber Pakhtunkhwa, Paquistão (referência da cidade)",
+  "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
+  "title_pt": "Departamento de fauna apreende um falcão-peregrino em Peshawar",
+  "fauna_label_pt": "1 falcão-peregrino apreendido em 14/11",
+  "card_text_pt": "Um falcão-peregrino foi apreendido no pedágio de Peshawar em 14/11. Outros dois falcões apreendidos em 13/11 foram soltos junto com ele; não são contados neste evento.",
+  "context_pt": "[O] O Departamento de Fauna de Khyber Pakhtunkhwa informou a soltura conjunta de três falcões em 14/11: um falcão-peregrino e um falcão-shaheen apreendidos em 13/11, além de um falcão-peregrino apreendido no pedágio de Peshawar em 14/11. Este registro cobre exclusivamente o último exemplar. O comunicado não informa procedência, destinatário, modo de ocultação ou comércio demonstrado.",
+  "references_text_pt": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "Um indivíduo; não somar aves de apreensões anteriores.",
+  "location_label_en": "Peshawar Toll Plaza, Khyber Pakhtunkhwa, Pakistan (city reference)",
+  "geographic_note_en": "Approximate reference coordinates, not the exact seizure site.",
+  "title_en": "Wildlife Department seizes one peregrine falcon at Peshawar toll plaza",
+  "fauna_label_en": "1 peregrine falcon seized on 14 November",
+  "card_text_en": "One peregrine falcon was seized at Peshawar toll plaza on 14 November. Two falcons seized on 13 November were released alongside it but are not counted in this event.",
+  "context_en": "[O] Khyber Pakhtunkhwa Wildlife Department reported releasing three falcons together on 14 November: a peregrine and a shaheen confiscated on 13 November and a peregrine seized at Peshawar toll plaza on 14 November. This record covers only the latter bird. No capture origin, buyer, concealment method or completed sale was reported.",
+  "references_text_en": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "One individual; do not add birds from earlier seizures.",
+  "location_label_es": "Peaje de Peshawar, Khyber Pakhtunkhwa, Pakistán (referencia urbana)",
+  "geographic_note_es": "Coordenadas aproximadas de referencia, no sitio exacto de incautación.",
+  "title_es": "Autoridades de fauna decomisan un halcón peregrino en el peaje de Peshawar",
+  "fauna_label_es": "1 halcón peregrino decomisado el 14/11",
+  "card_text_es": "Un halcón peregrino fue decomisado en el peaje de Peshawar el 14/11. Otros dos, incautados el 13/11, fueron liberados con él, pero no se cuentan aquí.",
+  "context_es": "[O] El Departamento de Fauna de Khyber Pakhtunkhwa informó la liberación conjunta de tres halcones el 14/11: un peregrino y un shaheen decomisados el 13/11 y un peregrino incautado en el peaje de Peshawar el 14/11. Este registro corresponde exclusivamente al último ejemplar. No se informó procedencia, comprador, ocultamiento ni venta demostrada.",
+  "references_text_es": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "Un individuo; no sumar aves de decomisos anteriores."
+}
