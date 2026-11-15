@@ -1,0 +1,89 @@
+{
+  "id": "tgh-global-20261114-br-rio-grande-1400kg-fish",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-11-13",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-14",
+  "coordinates": {
+    "lat": -32.035,
+    "lon": -52.098
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "A Hora do Sul / PATRAM Brigada Militar",
+  "source_url": "https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/",
+  "source_alternative_url": "https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+  "fauna_groups_aggregated": [
+    "Peixes"
+  ],
+  "taxon_text": "Traíra e viola (nomes populares; espécies não confirmadas)",
+  "modal_primary": "Rodoviário",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "route_audit_status": "DOCUMENTED_DIRECTIONAL_SEGMENT",
+  "route_audit_note_pt": "Direção observada Santa Vitória do Palmar → Rio Grande pela BR-471; procedência atribuída às lagoas Mirim/Mangueira não estabelece rota de extração exata.",
+  "source_reconciliation_status": "TWO_REPORTS_REVIEWED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "1.400 kg de filés, quantidade de animais não determinada. Trajeto rodoviário descrito pela Patram e evidência de origem atribuída.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "A Hora do Sul / PATRAM Brigada Militar — 14/11/2026",
+      "url": "https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Corroboração do caso — 14/11/2026",
+      "url": "https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-15",
+    "categories_present": [
+      "O"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true
+  },
+  "location_label_pt": "BR-471, Rio Grande, Rio Grande do Sul, Brasil (referência municipal)",
+  "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+  "title_pt": "Patram intercepta cerca de 1.400 kg de pescado irregular na BR-471",
+  "fauna_label_pt": "cerca de 1.400 kg de filés de traíra e viola; indivíduos desconhecidos",
+  "card_text_pt": "Na noite de 13/11, caminhonete foi interceptada na BR-471 no sentido Santa Vitória do Palmar–Rio Grande com cerca de 1,4 t de filés sem documentação; motorista preso.",
+  "context_pt": "[O] Segundo a Patrulha Ambiental, a carga foi interceptada por volta das 22h de 13/11 no sentido Santa Vitória do Palmar → Rio Grande. A corporação atribuiu a procedência do pescado às lagoas Mirim e Mangueira, sob defeso desde 1º/11; faltavam notas de origem e indícios de inspeção sanitária. O sentido rodoviário foi observado, mas mercado final, compradores e eventual cadeia de distribuição não foram identificados. Peso de filés não é conversível em número de peixes sem dados de rendimento e tamanhos.",
+  "references_text_pt": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+  "modal_label_pt": "Rodoviário",
+  "quantity_note_pt": "Peso de produto; não inferir indivíduos.",
+  "location_label_en": "BR-471, Rio Grande, Rio Grande do Sul, Brazil (city reference)",
+  "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+  "title_en": "Environmental police intercept about 1,400 kg of illicit fish on BR-471",
+  "fauna_label_en": "about 1,400 kg of traíra and viola fish fillets; individual count unknown",
+  "card_text_en": "On 13 November a vehicle travelling towards Rio Grande from Santa Vitória do Palmar carried about 1.4 tonnes of undocumented fish fillets; the driver was arrested.",
+  "context_en": "[O] Environmental police reported intercepting the cargo at about 22:00 on 13 November on the Santa Vitória do Palmar → Rio Grande carriageway. Officers attributed the fish to the Mirim and Mangueira lagoons, under a fishing closure since 1 November, and reported missing origin documents and no evidence of sanitary inspection. Direction of travel is documented, not the final market or buyers. Fillet weight cannot be translated into fish individuals without yield and size data.",
+  "references_text_en": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+  "modal_label_en": "Road",
+  "quantity_note_en": "Weight of product; do not infer individuals.",
+  "location_label_es": "BR-471, Rio Grande, Rio Grande do Sul, Brasil (referência municipal)",
+  "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+  "title_es": "Policía ambiental intercepta unos 1.400 kg de pescado irregular en la BR-471",
+  "fauna_label_es": "aproximadamente 1.400 kg de filetes de traíra y viola; número de peces desconocido",
+  "card_text_es": "El 13/11 un vehículo hacia Rio Grande desde Santa Vitória do Palmar llevaba unas 1,4 t de filetes de pescado sin documentos; conductor detenido.",
+  "context_es": "[O] Según la Patrulla Ambiental, el transporte fue interceptado hacia las 22:00 del 13/11 en dirección Santa Vitória do Palmar → Rio Grande. La autoridad atribuyó el pescado a las lagunas Mirim y Mangueira, en veda desde el 1/11, y señaló ausencia de documentos de origen y de constancia de inspección sanitaria. Se conoce la dirección del vehículo, no su mercado final ni compradores. El peso de filetes no permite calcular individuos.",
+  "references_text_es": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+  "modal_label_es": "Carretera",
+  "quantity_note_es": "Peso del producto; no inferir individuos."
+}
