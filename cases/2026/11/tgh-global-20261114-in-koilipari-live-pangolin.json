@@ -1,0 +1,91 @@
+{
+  "id": "tgh-global-20261114-in-koilipari-live-pangolin",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-11-13",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-14",
+  "coordinates": {
+    "lat": 18.31697,
+    "lon": 81.97197
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "Pragativadi / Indus Valley Times",
+  "source_url": "https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/",
+  "source_alternative_url": "https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Pangolim (Pholidota; espécie não confirmada)",
+  "modal_primary": "Rodoviário",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 1
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "ONLY_LOCAL_DIRECTION_UNCONFIRMED",
+  "route_audit_note_pt": "Motocicleta apreendida perto de Koilipari; origem e destino comprovados não identificados. Não traçar rota intermunicipal com base em variantes da reportagem.",
+  "source_reconciliation_status": "TWO_REPORTS_REVIEWED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Ocorrência 13/11 e publicação 14/11. Fontes diferem sobre número de motocicletas, não sobre o animal apreendido.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Pragativadi / Indus Valley Times — 14/11/2026",
+      "url": "https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Corroboração do caso — 14/11/2026",
+      "url": "https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-15",
+    "categories_present": [
+      "O"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true
+  },
+  "location_label_pt": "Malkangiri / Koilipari, Odisha, Índia",
+  "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+  "title_pt": "Patrulha recupera pangolim vivo transportado em motocicleta em Malkangiri",
+  "fauna_label_pt": "1 pangolim vivo; espécie não determinada",
+  "card_text_pt": "Patrulha florestal interceptou motocicleta próximo a Koilipari na noite de 13/11; um pangolim vivo foi recuperado e um suspeito detido.",
+  "context_pt": "[O] A informação de fiscalização descreve transporte de pangolim protegido em motocicleta na rodovia junto a Koilipari, abordagem após tentativa de evasão e prisão de um transportador em 13/11. Há divergência entre reportagens sobre a participação de outras motocicletas; a apreensão de um único pangolim é convergente. A investigação sobre procedência, compradores e possíveis cúmplices está em andamento, sem vínculo demonstrado com rede internacional.",
+  "references_text_pt": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+  "modal_label_pt": "Rodoviário",
+  "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
+  "location_label_en": "Koilipari, Malkangiri, Odisha, India",
+  "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+  "title_en": "Patrol recovers a live pangolin from a motorcycle in Malkangiri",
+  "fauna_label_en": "1 live pangolin; species not determined",
+  "card_text_en": "Forest officers intercepted a motorcycle near Koilipari on the night of 13 November; one live pangolin was recovered and one suspect detained.",
+  "context_en": "[O] Wildlife officers reported transporting a protected pangolin by motorcycle on the highway near Koilipari, an attempted evasion and the detention of one carrier on 13 November. Reports differ on the involvement of additional motorcycles; seizure of one live pangolin is consistent. Origin, buyers and other potential participants are being investigated; no international network has been established.",
+  "references_text_en": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+  "modal_label_en": "Road",
+  "quantity_note_en": "Number of individual animals, not product weights.",
+  "location_label_es": "Malkangiri / Koilipari, Odisha, Índia",
+  "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+  "title_es": "Patrulla recupera un pangolín vivo transportado en motocicleta en Malkangiri",
+  "fauna_label_es": "1 pangolín vivo; especie no determinada",
+  "card_text_es": "Agentes forestales interceptaron una motocicleta cerca de Koilipari la noche del 13/11; recuperaron un pangolín vivo y detuvieron a un sospechoso.",
+  "context_es": "[O] Agentes forestales informaron del transporte de un pangolín protegido en motocicleta por una carretera próxima a Koilipari, un intento de fuga y la detención de un transportista el 13/11. Las noticias discrepan sobre otras motocicletas, pero coinciden en un solo pangolín recuperado. Se investiga el origen, los compradores y posibles partícipes, sin una red internacional acreditada.",
+  "references_text_es": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+  "modal_label_es": "Carretera",
+  "quantity_note_es": "Número de animales individuales, no peso de productos."
+}
