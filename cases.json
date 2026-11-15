@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1633_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1637_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1633,
+  "count": 1637,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-15T10:48:01Z",
+    "updated_at": "2026-11-15T10:48:44Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-15T10:48:01Z",
-  "feed_updated_at": "2026-11-15T10:48:01Z",
+  "updated_at": "2026-11-15T10:48:44Z",
+  "feed_updated_at": "2026-11-15T10:48:44Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -129417,6 +129417,358 @@
       "modal_label_es": "A pie / sendero",
       "quantity_note_es": "Número de animales individuales, no peso de productos.",
       "occurred_at": "2026-11-12T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261114-br-angra-540kg-sardines",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": null,
+      "event_date_precision": "not_reported",
+      "event_end_date": null,
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": -23.006,
+        "lon": -44.318
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental",
+      "source_url": "https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/",
+      "source_alternative_url": null,
+      "taxon_text": "*Sardinella brasiliensis*",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "quantity_count": null,
+      "quantity_kind": "unknown",
+      "quantity_qualifier": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Não há deslocamento entre localidades comprovado.",
+      "source_reconciliation_status": "SINGLE_REPORT_REVIEW",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental — 14/11/2026",
+          "url": "https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true
+      },
+      "location_label_pt": "Angra dos Reis, Rio de Janeiro, Brasil",
+      "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
+      "title_pt": "Fiscalização apreende 540 kg de sardinha-verdadeira durante defeso em Angra",
+      "fauna_label_pt": "540 kg de sardinha-verdadeira; indivíduos desconhecidos",
+      "card_text_pt": "Polícia Ambiental apreendeu 540 kg de sardinha-verdadeira durante o defeso iniciado em 1º/10; 270 kg foram doados a cada uma de duas instituições locais.",
+      "context_pt": "[O] A fiscalização relatada em 14/11 apreendeu 540 kg de *Sardinella brasiliensis* atribuídos à captura durante o defeso de 1º/10/2026 a 28/02/2027. A destinação posterior dos peixes a instituições assistenciais foi uma medida oficial, não rota de comércio. O relato não estabelece a data exata da abordagem, a origem pesqueira, embarcação, fornecedor ou mercado.",
+      "references_text_pt": "[O] Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental — 14/11/2026 — https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
+      "location_label_en": "Angra dos Reis, Rio de Janeiro, Brazil",
+      "geographic_note_en": "Approximate reference coordinates, not the exact seizure site.",
+      "title_en": "Officers seize 540 kg of sardines during closed season in Angra dos Reis",
+      "fauna_label_en": "540 kg of Brazilian sardine; individual count unknown",
+      "card_text_en": "Environmental police seized 540 kg of Brazilian sardine during a fishing closure that began on 1 October; 270 kg went to each of two local charities.",
+      "context_en": "[O] Reporting on 14 November described seizure of 540 kg of *Sardinella brasiliensis* reportedly caught during the 1 October 2026–28 February 2027 fishing closure. Subsequent donation to charities was an official disposition, not a commercial trafficking route. Exact seizure date, fishing location, vessel, supplier and intended market were not reported.",
+      "references_text_en": "[O] Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental — 14/11/2026 — https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "Product weight; individual animals not known.",
+      "location_label_es": "Angra dos Reis, Río de Janeiro, Brasil",
+      "geographic_note_es": "Coordenadas aproximadas de referencia, no sitio exacto de incautación.",
+      "title_es": "Fiscalización decomisa 540 kg de sardina durante la veda en Angra dos Reis",
+      "fauna_label_es": "540 kg de sardina brasileña; individuos desconocidos",
+      "card_text_es": "La Policía Ambiental incautó 540 kg de sardina durante la veda iniciada el 1/10; donó 270 kg a cada una de dos entidades locales.",
+      "context_es": "[O] La noticia del 14/11 describe la incautación de 540 kg de *Sardinella brasiliensis* capturados, según la policía, durante la veda del 1/10/2026 al 28/02/2027. La posterior donación a entidades asistenciales fue disposición oficial, no ruta comercial. No constan fecha exacta de intervención, lugar de pesca, barco, proveedor ni mercado previsto.",
+      "references_text_es": "[O] Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental — 14/11/2026 — https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "Peso de producto; número de animales desconocido.",
+      "occurred_at": null,
+      "occurred_at_precision": "not_reported"
+    },
+    {
+      "id": "tgh-global-20261114-eh-dakhla-hay-salam-190kg-seafood",
+      "status": "VALIDATED",
+      "country": "Saara Ocidental (território disputado; administrado por Marrocos)",
+      "event_date": "2026-11-14",
+      "event_date_precision": "day",
+      "event_end_date": null,
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": 23.684,
+        "lon": -15.957
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Dakhla TV / Dakhla News",
+      "source_url": "https://www.dakhlatv.com/news-57023",
+      "source_alternative_url": "https://www.dakhlanews.com/65939/",
+      "taxon_text": "Polvo (Octopoda) e lula (Decapodiformes); espécies não informadas",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Invertebrados"
+      ],
+      "quantity_count": null,
+      "quantity_kind": "unknown",
+      "quantity_qualifier": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Não há deslocamento entre localidades comprovado.",
+      "source_reconciliation_status": "TWO_SOURCE_REVIEW",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Dakhla TV / Dakhla News — 14/11/2026",
+          "url": "https://www.dakhlatv.com/news-57023"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Relato corroborativo da ocorrência",
+          "url": "https://www.dakhlanews.com/65939/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true
+      },
+      "location_label_pt": "Hay Salam, Dakhla, Saara Ocidental (território disputado)",
+      "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
+      "title_pt": "Fiscalização encontra 190 kg de polvo e lula em depósito de Dakhla",
+      "fauna_label_pt": "50 kg de polvo e 140 kg de lula; indivíduos desconhecidos",
+      "card_text_pt": "Em 14/11, fiscalização apreendeu 50 kg de polvo e 140 kg de lula em depósito comercial de Hay Salam; auto de infração contra comerciante atacadista.",
+      "context_pt": "[O] Em operação distinta da abordagem rodoviária em El Argoub, autoridades localizaram 190 kg de produtos marinhos armazenados em depósito de Hay Salam em 14/11. Foram discriminados 50 kg de polvo e 140 kg de lula, com auto de infração contra comerciante atacadista. A existência de dois procedimentos no mesmo dia não demonstra fornecedor, comprador ou rede comum. Não há rota de transporte documentada para a mercadoria armazenada.",
+      "references_text_pt": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
+      "location_label_en": "Hay Salam, Dakhla, Western Sahara (disputed territory)",
+      "geographic_note_en": "Approximate reference coordinates, not the exact seizure site.",
+      "title_en": "Inspectors find 190 kg of octopus and squid in Dakhla warehouse",
+      "fauna_label_en": "50 kg of octopus and 140 kg of squid; individual count unknown",
+      "card_text_en": "On 14 November inspectors seized 50 kg of octopus and 140 kg of squid from a Hay Salam warehouse and issued a violation report to a wholesale fish merchant.",
+      "context_en": "[O] In an operation separate from the El Argoub vehicle stop, inspectors found 190 kg of marine products in a Hay Salam warehouse on 14 November: 50 kg of octopus and 140 kg of squid. A violation report was issued to a wholesale merchant. Two interventions on the same day do not establish a common supplier, buyer or network. No shipment route was documented for the stored goods.",
+      "references_text_en": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "Product weight; individual animals not known.",
+      "location_label_es": "Hay Salam, Dajla, Sáhara Occidental (territorio disputado)",
+      "geographic_note_es": "Coordenadas aproximadas de referencia, no sitio exacto de incautación.",
+      "title_es": "Inspectores encuentran 190 kg de pulpo y calamar en almacén de Dajla",
+      "fauna_label_es": "50 kg de pulpo y 140 kg de calamar; individuos desconocidos",
+      "card_text_es": "El 14/11 inspectores incautaron 50 kg de pulpo y 140 kg de calamar en almacén de Hay Salam y levantaron acta contra un mayorista.",
+      "context_es": "[O] En una operación distinta del control de carretera en El Argoub, inspectores hallaron 190 kg de productos marinos en un almacén de Hay Salam el 14/11: 50 kg de pulpo y 140 kg de calamar. Se levantó acta contra un mayorista. Dos procedimientos el mismo día no prueban proveedor, comprador o red común. No se documentó ruta de transporte de la mercancía almacenada.",
+      "references_text_es": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "Peso de producto; número de animales desconocido.",
+      "occurred_at": "2026-11-14T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261114-eh-el-argoub-60kg-octopus",
+      "status": "VALIDATED",
+      "country": "Saara Ocidental (território disputado; administrado por Marrocos)",
+      "event_date": "2026-11-14",
+      "event_date_precision": "day",
+      "event_end_date": null,
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": 23.72,
+        "lon": -15.88
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes",
+      "source_url": "https://www.dakhlanews.com/65939/",
+      "source_alternative_url": "https://www.dakhla7.com/25835/",
+      "taxon_text": "Polvo (Octopoda; espécie não informada)",
+      "modal_primary": "Rodoviário",
+      "fauna_groups_aggregated": [
+        "Invertebrados"
+      ],
+      "quantity_count": null,
+      "quantity_kind": "unknown",
+      "quantity_qualifier": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Não há deslocamento entre localidades comprovado.",
+      "source_reconciliation_status": "TWO_SOURCE_REVIEW",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026",
+          "url": "https://www.dakhlanews.com/65939/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Relato corroborativo da ocorrência",
+          "url": "https://www.dakhla7.com/25835/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true
+      },
+      "location_label_pt": "El Argoub, Dakhla–Oued Ed-Dahab, Saara Ocidental (território disputado)",
+      "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
+      "title_pt": "Fiscalização intercepta cerca de 60 kg de polvo em veículo em El Argoub",
+      "fauna_label_pt": "cerca de 60 kg de polvo fresco; indivíduos desconhecidos",
+      "card_text_pt": "Em 14/11, autoridades interceptaram veículo com cerca de 60 kg de polvo possivelmente capturado por métodos proibidos durante a paralisação biológica; uma pessoa detida.",
+      "context_pt": "[O] Operação de 14/11 em El Argoub reuniu gendarmaria e fiscalização pesqueira. A carga de aproximadamente 60 kg de polvo fresco foi atribuída preliminarmente a pesca irregular com câmaras de pneus durante o período de descanso biológico; a investigação busca determinar a procedência e o destino comercial. O transporte rodoviário está comprovado, mas nenhum itinerário entre localidades foi documentado.",
+      "references_text_pt": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
+      "modal_label_pt": "Rodoviário",
+      "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
+      "location_label_en": "El Argoub, Dakhla–Oued Ed-Dahab, Western Sahara (disputed territory)",
+      "geographic_note_en": "Approximate reference coordinates, not the exact seizure site.",
+      "title_en": "Officers intercept about 60 kg of octopus in a vehicle at El Argoub",
+      "fauna_label_en": "about 60 kg of fresh octopus; individual count unknown",
+      "card_text_en": "On 14 November officers stopped a vehicle carrying about 60 kg of octopus suspected to have been caught by prohibited methods during a biological rest period; one detained.",
+      "context_en": "[O] On 14 November gendarmerie and fisheries officers stopped a vehicle in El Argoub carrying about 60 kg of fresh octopus, suspected to have been caught using inner tubes during the biological rest period. Authorities are investigating the source and intended market. Road transport is documented, but no route between named locations was established.",
+      "references_text_en": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
+      "modal_label_en": "Road",
+      "quantity_note_en": "Product weight; individual animals not known.",
+      "location_label_es": "El Argoub, Dajla–Río de Oro, Sáhara Occidental (territorio disputado)",
+      "geographic_note_es": "Coordenadas aproximadas de referencia, no sitio exacto de incautación.",
+      "title_es": "Autoridades interceptan unos 60 kg de pulpo en vehículo en El Argoub",
+      "fauna_label_es": "unos 60 kg de pulpo fresco; individuos desconocidos",
+      "card_text_es": "El 14/11 se interceptó un vehículo con unos 60 kg de pulpo presuntamente capturado con métodos prohibidos durante el descanso biológico; un detenido.",
+      "context_es": "[O] El 14/11 gendarmería y fiscalización pesquera interceptaron un vehículo en El Argoub con unos 60 kg de pulpo fresco, presuntamente capturado mediante cámaras de neumáticos durante el descanso biológico. Se investigan procedencia y destino comercial. El transporte por carretera está documentado, pero no una ruta entre localidades.",
+      "references_text_es": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
+      "modal_label_es": "Carretera",
+      "quantity_note_es": "Peso de producto; número de animales desconocido.",
+      "occurred_at": "2026-11-14T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261114-pk-peshawar-peregrine-falcon",
+      "status": "VALIDATED",
+      "country": "Paquistão",
+      "event_date": "2026-11-14",
+      "event_date_precision": "day",
+      "event_end_date": null,
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": 34.015,
+        "lon": 71.581
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Associated Press of Pakistan / KP Wildlife Department",
+      "source_url": "https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/",
+      "source_alternative_url": "https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+      "taxon_text": "*Falco peregrinus* (identificação reportada)",
+      "modal_primary": "Não informado",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "quantity_count": 1,
+      "quantity_kind": "animals",
+      "quantity_qualifier": "exact",
+      "quantity_by_group": {
+        "Aves": 1
+      },
+      "quantity_unassigned": 0,
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Não há deslocamento entre localidades comprovado.",
+      "source_reconciliation_status": "TWO_SOURCE_REVIEW",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Associated Press of Pakistan / KP Wildlife Department — 14/11/2026",
+          "url": "https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Relato corroborativo da ocorrência",
+          "url": "https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true
+      },
+      "location_label_pt": "Praça de pedágio de Peshawar, Khyber Pakhtunkhwa, Paquistão (referência da cidade)",
+      "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
+      "title_pt": "Departamento de fauna apreende um falcão-peregrino em Peshawar",
+      "fauna_label_pt": "1 falcão-peregrino apreendido em 14/11",
+      "card_text_pt": "Um falcão-peregrino foi apreendido no pedágio de Peshawar em 14/11. Outros dois falcões apreendidos em 13/11 foram soltos junto com ele; não são contados neste evento.",
+      "context_pt": "[O] O Departamento de Fauna de Khyber Pakhtunkhwa informou a soltura conjunta de três falcões em 14/11: um falcão-peregrino e um falcão-shaheen apreendidos em 13/11, além de um falcão-peregrino apreendido no pedágio de Peshawar em 14/11. Este registro cobre exclusivamente o último exemplar. O comunicado não informa procedência, destinatário, modo de ocultação ou comércio demonstrado.",
+      "references_text_pt": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Um indivíduo; não somar aves de apreensões anteriores.",
+      "location_label_en": "Peshawar Toll Plaza, Khyber Pakhtunkhwa, Pakistan (city reference)",
+      "geographic_note_en": "Approximate reference coordinates, not the exact seizure site.",
+      "title_en": "Wildlife Department seizes one peregrine falcon at Peshawar toll plaza",
+      "fauna_label_en": "1 peregrine falcon seized on 14 November",
+      "card_text_en": "One peregrine falcon was seized at Peshawar toll plaza on 14 November. Two falcons seized on 13 November were released alongside it but are not counted in this event.",
+      "context_en": "[O] Khyber Pakhtunkhwa Wildlife Department reported releasing three falcons together on 14 November: a peregrine and a shaheen confiscated on 13 November and a peregrine seized at Peshawar toll plaza on 14 November. This record covers only the latter bird. No capture origin, buyer, concealment method or completed sale was reported.",
+      "references_text_en": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "One individual; do not add birds from earlier seizures.",
+      "location_label_es": "Peaje de Peshawar, Khyber Pakhtunkhwa, Pakistán (referencia urbana)",
+      "geographic_note_es": "Coordenadas aproximadas de referencia, no sitio exacto de incautación.",
+      "title_es": "Autoridades de fauna decomisan un halcón peregrino en el peaje de Peshawar",
+      "fauna_label_es": "1 halcón peregrino decomisado el 14/11",
+      "card_text_es": "Un halcón peregrino fue decomisado en el peaje de Peshawar el 14/11. Otros dos, incautados el 13/11, fueron liberados con él, pero no se cuentan aquí.",
+      "context_es": "[O] El Departamento de Fauna de Khyber Pakhtunkhwa informó la liberación conjunta de tres halcones el 14/11: un peregrino y un shaheen decomisados el 13/11 y un peregrino incautado en el peaje de Peshawar el 14/11. Este registro corresponde exclusivamente al último ejemplar. No se informó procedencia, comprador, ocultamiento ni venta demostrada.",
+      "references_text_es": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "Un individuo; no sumar aves de decomisos anteriores.",
+      "occurred_at": "2026-11-14T00:00:00Z",
       "occurred_at_precision": "day"
     }
   ]
