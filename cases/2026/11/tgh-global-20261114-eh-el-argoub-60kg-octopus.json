@@ -1,0 +1,87 @@
+{
+  "id": "tgh-global-20261114-eh-el-argoub-60kg-octopus",
+  "status": "VALIDATED",
+  "country": "Saara Ocidental (território disputado; administrado por Marrocos)",
+  "event_date": "2026-11-14",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "publication_date": "2026-11-14",
+  "coordinates": {
+    "lat": 23.72,
+    "lon": -15.88
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "source_label": "Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes",
+  "source_url": "https://www.dakhlanews.com/65939/",
+  "source_alternative_url": "https://www.dakhla7.com/25835/",
+  "taxon_text": "Polvo (Octopoda; espécie não informada)",
+  "modal_primary": "Rodoviário",
+  "fauna_groups_aggregated": [
+    "Invertebrados"
+  ],
+  "quantity_count": null,
+  "quantity_kind": "unknown",
+  "quantity_qualifier": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não há deslocamento entre localidades comprovado.",
+  "source_reconciliation_status": "TWO_SOURCE_REVIEW",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "is_exact_seizure_position": false,
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026",
+      "url": "https://www.dakhlanews.com/65939/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Relato corroborativo da ocorrência",
+      "url": "https://www.dakhla7.com/25835/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-15",
+    "categories_present": [
+      "O"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true
+  },
+  "location_label_pt": "El Argoub, Dakhla–Oued Ed-Dahab, Saara Ocidental (território disputado)",
+  "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
+  "title_pt": "Fiscalização intercepta cerca de 60 kg de polvo em veículo em El Argoub",
+  "fauna_label_pt": "cerca de 60 kg de polvo fresco; indivíduos desconhecidos",
+  "card_text_pt": "Em 14/11, autoridades interceptaram veículo com cerca de 60 kg de polvo possivelmente capturado por métodos proibidos durante a paralisação biológica; uma pessoa detida.",
+  "context_pt": "[O] Operação de 14/11 em El Argoub reuniu gendarmaria e fiscalização pesqueira. A carga de aproximadamente 60 kg de polvo fresco foi atribuída preliminarmente a pesca irregular com câmaras de pneus durante o período de descanso biológico; a investigação busca determinar a procedência e o destino comercial. O transporte rodoviário está comprovado, mas nenhum itinerário entre localidades foi documentado.",
+  "references_text_pt": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
+  "modal_label_pt": "Rodoviário",
+  "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
+  "location_label_en": "El Argoub, Dakhla–Oued Ed-Dahab, Western Sahara (disputed territory)",
+  "geographic_note_en": "Approximate reference coordinates, not the exact seizure site.",
+  "title_en": "Officers intercept about 60 kg of octopus in a vehicle at El Argoub",
+  "fauna_label_en": "about 60 kg of fresh octopus; individual count unknown",
+  "card_text_en": "On 14 November officers stopped a vehicle carrying about 60 kg of octopus suspected to have been caught by prohibited methods during a biological rest period; one detained.",
+  "context_en": "[O] On 14 November gendarmerie and fisheries officers stopped a vehicle in El Argoub carrying about 60 kg of fresh octopus, suspected to have been caught using inner tubes during the biological rest period. Authorities are investigating the source and intended market. Road transport is documented, but no route between named locations was established.",
+  "references_text_en": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
+  "modal_label_en": "Road",
+  "quantity_note_en": "Product weight; individual animals not known.",
+  "location_label_es": "El Argoub, Dajla–Río de Oro, Sáhara Occidental (territorio disputado)",
+  "geographic_note_es": "Coordenadas aproximadas de referencia, no sitio exacto de incautación.",
+  "title_es": "Autoridades interceptan unos 60 kg de pulpo en vehículo en El Argoub",
+  "fauna_label_es": "unos 60 kg de pulpo fresco; individuos desconocidos",
+  "card_text_es": "El 14/11 se interceptó un vehículo con unos 60 kg de pulpo presuntamente capturado con métodos prohibidos durante el descanso biológico; un detenido.",
+  "context_es": "[O] El 14/11 gendarmería y fiscalización pesquera interceptaron un vehículo en El Argoub con unos 60 kg de pulpo fresco, presuntamente capturado mediante cámaras de neumáticos durante el descanso biológico. Se investigan procedencia y destino comercial. El transporte por carretera está documentado, pero no una ruta entre localidades.",
+  "references_text_es": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
+  "modal_label_es": "Carretera",
+  "quantity_note_es": "Peso de producto; número de animales desconocido."
+}
