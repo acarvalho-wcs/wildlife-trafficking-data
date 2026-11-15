@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-15T10:48:57Z",
+    "updated_at": "2026-11-15T11:05:26Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-15T10:48:57Z",
-  "feed_updated_at": "2026-11-15T10:48:57Z",
+  "updated_at": "2026-11-15T11:05:26Z",
+  "feed_updated_at": "2026-11-15T11:05:26Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -129085,7 +129085,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "editorial_qa_note_pt": "Seis indivíduos vivos (não seis tipos). Arma e motocicleta não são prova de rede coordenada.",
@@ -129101,13 +129101,26 @@
           "type": "scientific",
           "label": "Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil",
           "url": "https://doi.org/10.1590/1809-4422asoc01641vu29L29OA"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+          "url": "https://doi.org/10.1111/acv.70052"
+        },
+        {
+          "id": "N",
+          "type": "journalistic_context",
+          "label": "Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio",
+          "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
         }
       ],
       "context_evidence_audit": {
         "review_date": "2026-11-15",
         "categories_present": [
           "O",
-          "S"
+          "S",
+          "N"
         ],
         "scientific_sources_restricted_to_research_papers_json": true,
         "journalistic_references_distinct_from_event_fact_sources": true
@@ -129117,8 +129130,8 @@
       "title_pt": "Fiscalização encontra seis aves silvestres sem autorização, arma e motocicleta roubada em Buritis",
       "fauna_label_pt": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 papagaios-verdadeiros)",
       "card_text_pt": "Fiscalização de 13/11 apreendeu seis aves em cativeiro sem autorização, uma espingarda e munições, além de recuperar motocicleta roubada; um homem foi detido.",
-      "context_pt": "[O] A ação ambiental de 13/11 identificou três grupos populares de aves mantidas sem autorização. A coexistência de aves, espingarda, munições e motocicleta com registro de roubo na mesma fiscalização indica convergência de infrações no local, mas não comprova que os objetos integram uma única rede ou operação de tráfico. Quatro aves foram soltas após avaliação e dois papagaios encaminhados para custódia especializada.\n\n[S] Análise de 271 boletins de apreensão em Mato Grosso do Sul (2017–2021) identificou *Amazona aestiva* entre as espécies mais frequentemente apreendidas e diferenças entre registros de órgãos fiscalizadores; fornece comparação taxonômica, não ligação com o caso de Buritis.",
-      "references_text_pt": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+      "context_pt": "[O] A fiscalização revelou manutenção irregular de aves junto de uma arma e uma motocicleta com registro de roubo. Trata-se de convergência de infrações observadas no mesmo procedimento, sem prova de que os objetos sustentassem uma cadeia comum de captura, transporte ou comercialização. A distinção entre aves liberadas e papagaios encaminhados à custódia é relevante para rastreabilidade e eventual identificação individual.\n\n[S] O estudo de 271 registros de apreensão em Mato Grosso do Sul identificou *Amazona aestiva* entre os táxons mais frequentes e mostrou como bases fragmentadas dificultam análises integradas; os dados são comparativos e não descrevem os exemplares de Buritis. Outro estudo brasileiro, com isótopos estáveis em penas de 58 espécies de passeriformes, demonstra potencial forense para distinguir origem silvestre e cativeiro em determinados contextos, sem permitir inferência direta sobre estas seis aves.\n\n[N] Investigação jornalística sobre comércio de fauna em grupos de mensagens no Rio de Janeiro documentou anúncios, negociação de preços e combinação de entregas, ilustrando uma via de escoamento que pode orientar buscas OSINT quando houver indícios digitais neste caso; a reportagem não vincula os envolvidos de Buritis a esses grupos.",
+      "references_text_pt": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio — https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html",
       "modal_label_pt": "Não informado",
       "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
       "location_label_en": "Buritis, Minas Gerais, Brazil",
@@ -129126,8 +129139,8 @@
       "title_en": "Environmental patrol finds six illegally kept birds, a firearm and a stolen motorcycle in Buritis",
       "fauna_label_en": "6 live birds (2 patativa-tropeira, 2 papa-capim-baiano, 2 blue-fronted parrots)",
       "card_text_en": "On 13 November officers recovered six unlawfully captive wild birds, a shotgun and ammunition, and a stolen motorcycle; one man was detained.",
-      "context_en": "[O] The 13 November environmental patrol recorded three vernacular bird groups held without permission. Birds, shotgun, ammunition and a motorcycle reported stolen were encountered in the same intervention, indicating co-occurring offences but not proving a single trafficking organisation. Four birds were released after assessment and two parrots remained in specialised custody.\n\n[S] A study of 271 seizure reports in Mato Grosso do Sul (2017–2021) identified *Amazona aestiva* among the most frequently seized taxa and differences in enforcement records; this is a species-level comparison, not a connection to the Buritis case.",
-      "references_text_en": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+      "context_en": "[O] Officers found unlawfully kept birds alongside a firearm and a motorcycle reported stolen. These are concurrent offences observed during one intervention, not proof that the objects supported a common capture, transport or sales network. Distinguishing released birds from parrots retained in custody matters for traceability and individual identification.\n\n[S] Analysis of 271 wildlife-seizure records in Mato Grosso do Sul found *Amazona aestiva* among frequently recorded taxa and showed how fragmented agency datasets complicate integrated assessment; these are comparative data, not findings about the Buritis birds. A separate Brazilian stable-isotope study using feathers from 58 songbird species demonstrates potential to distinguish wild and captive origin in some settings, without identifying the origin of these six individuals.\n\n[N] Investigative reporting on wildlife sales in Rio de Janeiro messaging groups documented advertisements, price negotiations and delivery arrangements. Such methods suggest a possible OSINT avenue only if digital evidence emerges in Buritis; the reporting establishes no connection to its suspects.",
+      "references_text_en": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio — https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html",
       "modal_label_en": "Not reported",
       "quantity_note_en": "Number of individual animals, not product weights.",
       "location_label_es": "Buritis, Minas Gerais, Brasil",
@@ -129135,8 +129148,8 @@
       "title_es": "Patrulla ambiental encuentra seis aves sin autorización, arma y motocicleta robada en Buritis",
       "fauna_label_es": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 loros de frente azul)",
       "card_text_es": "El 13/11 agentes incautaron seis aves cautivas sin permiso, escopeta y municiones y recuperaron motocicleta robada; hubo un detenido.",
-      "context_es": "[O] La actuación ambiental del 13/11 encontró tres grupos de aves mantenidas sin permiso. La coexistencia de aves, escopeta, municiones y motocicleta con reporte de robo evidencia infracciones concurrentes, pero no una organización de tráfico común. Cuatro aves fueron liberadas tras su evaluación y dos loros quedaron bajo custodia especializada.\n\n[S] Un estudio de 271 actas de decomiso de Mato Grosso do Sul (2017–2021) señaló a *Amazona aestiva* entre los taxones más incautados y diferencias entre registros de organismos; es una comparación taxonómica, no una conexión probada con Buritis.",
-      "references_text_es": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+      "context_es": "[O] La fiscalización encontró aves mantenidas sin autorización junto a un arma y una motocicleta denunciada como robada. Son infracciones concurrentes en una misma actuación, no prueba de una red común de captura, transporte o venta. Distinguir aves liberadas de loros bajo custodia importa para la trazabilidad e identificación individual.\n\n[S] Un análisis de 271 decomisos en Mato Grosso do Sul identificó *Amazona aestiva* entre los taxones frecuentes y mostró dificultades derivadas de bases institucionales fragmentadas; son datos comparativos, no hallazgos sobre Buritis. Otro estudio brasileño con isótopos estables de plumas de 58 especies de aves canoras presenta posibilidades forenses para distinguir origen silvestre y cautivo en ciertos contextos, sin identificar el origen de estos seis individuos.\n\n[N] Un reportaje de investigación sobre venta de fauna en grupos de mensajería de Río de Janeiro documentó anuncios, negociación de precios y entregas. Este mecanismo puede orientar OSINT si surgen indicios digitales en Buritis; no existe vínculo demostrado con los investigados.",
+      "references_text_es": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio — https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html",
       "modal_label_es": "No informado",
       "quantity_note_es": "Número de animales individuales, no peso de productos.",
       "occurred_at": "2026-11-13T00:00:00Z",
@@ -129177,7 +129190,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "editorial_qa_note_pt": "1.400 kg de filés, quantidade de animais não determinada. Trajeto rodoviário descrito pela Patram e evidência de origem atribuída.",
@@ -129208,7 +129221,7 @@
       "title_pt": "Patram intercepta cerca de 1.400 kg de pescado irregular na BR-471",
       "fauna_label_pt": "cerca de 1.400 kg de filés de traíra e viola; indivíduos desconhecidos",
       "card_text_pt": "Na noite de 13/11, caminhonete foi interceptada na BR-471 no sentido Santa Vitória do Palmar–Rio Grande com cerca de 1,4 t de filés sem documentação; motorista preso.",
-      "context_pt": "[O] Segundo a Patrulha Ambiental, a carga foi interceptada por volta das 22h de 13/11 no sentido Santa Vitória do Palmar → Rio Grande. A corporação atribuiu a procedência do pescado às lagoas Mirim e Mangueira, sob defeso desde 1º/11; faltavam notas de origem e indícios de inspeção sanitária. O sentido rodoviário foi observado, mas mercado final, compradores e eventual cadeia de distribuição não foram identificados. Peso de filés não é conversível em número de peixes sem dados de rendimento e tamanhos.",
+      "context_pt": "[O] A carga fracionada em filés e transportada sem documentação de origem ou inspeção sanitária combina indícios de pesca em defeso e de circulação comercial sem rastreabilidade. O sentido Santa Vitória do Palmar → Rio Grande na BR-471 é deslocamento observado, enquanto a atribuição às lagoas Mirim e Mangueira é informação sobre possível procedência, não rota de extração comprovada. A investigação de cadeia de fornecimento depende de registros de desembarque, notas fiscais, cadeia de frio, proprietários da carga e destinatários; a apreensão isolada não identifica compradores ou organização criminosa. O peso de 1,4 t não permite estimar número de peixes.",
       "references_text_pt": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
       "modal_label_pt": "Rodoviário",
       "quantity_note_pt": "Peso de produto; não inferir indivíduos.",
@@ -129217,7 +129230,7 @@
       "title_en": "Environmental police intercept about 1,400 kg of illicit fish on BR-471",
       "fauna_label_en": "about 1,400 kg of traíra and viola fish fillets; individual count unknown",
       "card_text_en": "On 13 November a vehicle travelling towards Rio Grande from Santa Vitória do Palmar carried about 1.4 tonnes of undocumented fish fillets; the driver was arrested.",
-      "context_en": "[O] Environmental police reported intercepting the cargo at about 22:00 on 13 November on the Santa Vitória do Palmar → Rio Grande carriageway. Officers attributed the fish to the Mirim and Mangueira lagoons, under a fishing closure since 1 November, and reported missing origin documents and no evidence of sanitary inspection. Direction of travel is documented, not the final market or buyers. Fillet weight cannot be translated into fish individuals without yield and size data.",
+      "context_en": "[O] Filleted fish moved without provenance or sanitary-inspection records combines indicators of closed-season fishing and an untraceable commercial supply stage. Travel towards Rio Grande on BR-471 is an observed direction, whereas attribution to the Mirim and Mangueira lagoons is reported possible provenance, not a proven harvesting route. Supply-chain reconstruction would require landing records, invoices, cold-chain documentation, cargo ownership and intended recipients; the seizure alone does not identify buyers or organised crime. A 1.4-tonne weight cannot be converted into individual fish.",
       "references_text_en": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
       "modal_label_en": "Road",
       "quantity_note_en": "Weight of product; do not infer individuals.",
@@ -129226,7 +129239,7 @@
       "title_es": "Policía ambiental intercepta unos 1.400 kg de pescado irregular en la BR-471",
       "fauna_label_es": "aproximadamente 1.400 kg de filetes de traíra y viola; número de peces desconocido",
       "card_text_es": "El 13/11 un vehículo hacia Rio Grande desde Santa Vitória do Palmar llevaba unas 1,4 t de filetes de pescado sin documentos; conductor detenido.",
-      "context_es": "[O] Según la Patrulla Ambiental, el transporte fue interceptado hacia las 22:00 del 13/11 en dirección Santa Vitória do Palmar → Rio Grande. La autoridad atribuyó el pescado a las lagunas Mirim y Mangueira, en veda desde el 1/11, y señaló ausencia de documentos de origen y de constancia de inspección sanitaria. Se conoce la dirección del vehículo, no su mercado final ni compradores. El peso de filetes no permite calcular individuos.",
+      "context_es": "[O] Los filetes transportados sin documentos de procedencia ni inspección sanitaria combinan indicios de pesca durante veda y circulación comercial sin trazabilidad. La dirección hacia Rio Grande por la BR-471 fue observada; la atribución a las lagunas Mirim y Mangueira es posible procedencia informada, no ruta de extracción probada. Reconstruir la cadena exige registros de desembarque, facturas, cadena de frío, titularidad y destinatarios; el decomiso no identifica compradores ni crimen organizado. El peso de 1,4 t no permite estimar individuos.",
       "references_text_es": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
       "modal_label_es": "Carretera",
       "quantity_note_es": "Peso del producto; no inferir individuos.",
@@ -129270,7 +129283,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "editorial_qa_note_pt": "Ocorrência 13/11 e publicação 14/11. Fontes diferem sobre número de motocicletas, não sobre o animal apreendido.",
@@ -129286,12 +129299,19 @@
           "type": "case_source",
           "label": "Corroboração do caso — 14/11/2026",
           "url": "https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/"
+        },
+        {
+          "id": "N",
+          "type": "journalistic_context",
+          "label": "Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks",
+          "url": "https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/"
         }
       ],
       "context_evidence_audit": {
         "review_date": "2026-11-15",
         "categories_present": [
-          "O"
+          "O",
+          "N"
         ],
         "scientific_sources_restricted_to_research_papers_json": true,
         "journalistic_references_distinct_from_event_fact_sources": true
@@ -129301,8 +129321,8 @@
       "title_pt": "Patrulha recupera pangolim vivo transportado em motocicleta em Malkangiri",
       "fauna_label_pt": "1 pangolim vivo; espécie não determinada",
       "card_text_pt": "Patrulha florestal interceptou motocicleta próximo a Koilipari na noite de 13/11; um pangolim vivo foi recuperado e um suspeito detido.",
-      "context_pt": "[O] A informação de fiscalização descreve transporte de pangolim protegido em motocicleta na rodovia junto a Koilipari, abordagem após tentativa de evasão e prisão de um transportador em 13/11. Há divergência entre reportagens sobre a participação de outras motocicletas; a apreensão de um único pangolim é convergente. A investigação sobre procedência, compradores e possíveis cúmplices está em andamento, sem vínculo demonstrado com rede internacional.",
-      "references_text_pt": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+      "context_pt": "[O] A abordagem de uma motocicleta em Koilipari indica uma etapa de transporte terrestre de um animal vivo, não um ponto de captura nem de venda. A investigação deve distinguir a posse do exemplar, a origem declarada, o possível intermediário e o comprador; nenhuma dessas conexões foi comprovada pelas notícias. A divergência entre relatos sobre outras motocicletas não permite ampliar o número de envolvidos.\n\n[N] Reportagem de contexto sobre a análise genética de pangolins comercializados como carne e apreendidos em redes internacionais mostra que mercados domésticos e cadeias transnacionais podem compartilhar áreas de abastecimento. É uma hipótese comparativa para examinar procedência, não evidência de que o animal de Malkangiri integrava rede internacional.",
+      "references_text_pt": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[N] Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks — https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/",
       "modal_label_pt": "Rodoviário",
       "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
       "location_label_en": "Koilipari, Malkangiri, Odisha, India",
@@ -129310,8 +129330,8 @@
       "title_en": "Patrol recovers a live pangolin from a motorcycle in Malkangiri",
       "fauna_label_en": "1 live pangolin; species not determined",
       "card_text_en": "Forest officers intercepted a motorcycle near Koilipari on the night of 13 November; one live pangolin was recovered and one suspect detained.",
-      "context_en": "[O] Wildlife officers reported transporting a protected pangolin by motorcycle on the highway near Koilipari, an attempted evasion and the detention of one carrier on 13 November. Reports differ on the involvement of additional motorcycles; seizure of one live pangolin is consistent. Origin, buyers and other potential participants are being investigated; no international network has been established.",
-      "references_text_en": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+      "context_en": "[O] Interception of a motorcycle at Koilipari identifies a terrestrial transport stage involving a live animal, not its capture site or point of sale. Investigative distinctions remain necessary among possession, stated provenance, intermediaries and prospective buyers; the reports prove none of those links. Inconsistent accounts of additional motorcycles cannot support a larger suspect count.\n\n[N] Context reporting on genetic links between pangolins in wild-meat markets and international seizures indicates that domestic and transnational supply chains can share sourcing areas. This offers a comparative provenance question, not evidence that the Malkangiri animal belonged to an international network.",
+      "references_text_en": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[N] Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks — https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/",
       "modal_label_en": "Road",
       "quantity_note_en": "Number of individual animals, not product weights.",
       "location_label_es": "Malkangiri / Koilipari, Odisha, Índia",
@@ -129319,8 +129339,8 @@
       "title_es": "Patrulla recupera un pangolín vivo transportado en motocicleta en Malkangiri",
       "fauna_label_es": "1 pangolín vivo; especie no determinada",
       "card_text_es": "Agentes forestales interceptaron una motocicleta cerca de Koilipari la noche del 13/11; recuperaron un pangolín vivo y detuvieron a un sospechoso.",
-      "context_es": "[O] Agentes forestales informaron del transporte de un pangolín protegido en motocicleta por una carretera próxima a Koilipari, un intento de fuga y la detención de un transportista el 13/11. Las noticias discrepan sobre otras motocicletas, pero coinciden en un solo pangolín recuperado. Se investiga el origen, los compradores y posibles partícipes, sin una red internacional acreditada.",
-      "references_text_es": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+      "context_es": "[O] La interceptación de una motocicleta en Koilipari documenta una etapa de transporte terrestre de un animal vivo, no su lugar de captura ni de venta. La investigación debe distinguir posesión, procedencia declarada, intermediarios y compradores potenciales; ninguna conexión está probada. Las versiones divergentes sobre otras motocicletas no permiten aumentar el número de implicados.\n\n[N] Un reportaje contextual sobre vínculos genéticos entre pangolines de mercados de carne y decomisos internacionales indica que cadenas domésticas y transnacionales pueden compartir zonas de abastecimiento. Es una pregunta comparativa sobre procedencia, no prueba de que el ejemplar de Malkangiri integrara una red internacional.",
+      "references_text_es": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[N] Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks — https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/",
       "modal_label_es": "Carretera",
       "quantity_note_es": "Número de animales individuales, no peso de productos.",
       "occurred_at": "2026-11-13T00:00:00Z",
@@ -129363,7 +129383,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "editorial_qa_note_pt": "Ocorrência de 12/11; comunicado da aduana em 13/11 e reportagens adicionais em 14/11. Elegível pelo critério de publicação no recorte.",
@@ -129394,7 +129414,7 @@
       "title_pt": "Aduana recupera tartaruga-oliva viva em trilha na fronteira Nigéria–Benim",
       "fauna_label_pt": "1 tartaruga-oliva viva (*Lepidochelys olivacea*)",
       "card_text_pt": "Em 12/11, indivíduo abandonou saco com uma tartaruga-oliva viva ao avistar patrulha aduaneira em trilha de fronteira; fugiu.",
-      "context_pt": "[O] O Serviço Aduaneiro da Nigéria registrou a interceptação às 22h30 de 12/11, em trilha que conecta os dois países. A ocultação em saco e a fuga após avistar a patrulha sustentam suspeita de transporte ilícito. A localização fronteiriça não estabelece, por si, se a tartaruga vinha de Benim ou seguia para lá. A espécie foi identificada no comunicado como *Lepidochelys olivacea*; não há origem de captura, comprador ou destinatário confirmados.",
+      "context_pt": "[O] O uso de trilha não oficial na fronteira e o abandono do saco ao avistar agentes indicam tentativa de evitar controle, mas não comprovam travessia concluída nem sentido Nigéria–Benim. A natureza viva da carga torna relevantes a avaliação veterinária, a cadeia de custódia e a confirmação da identificação taxonômica declarada. Para uma hipótese de tráfico transfronteiriço, seriam necessários indícios independentes de ponto de captura, destino e contato com receptadores; o local da apreensão, isoladamente, não demonstra essas etapas.",
       "references_text_pt": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
       "modal_label_pt": "A pé / trilha",
       "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
@@ -129403,7 +129423,7 @@
       "title_en": "Customs recover a live olive ridley turtle on the Nigeria–Benin border",
       "fauna_label_en": "1 live olive ridley sea turtle (*Lepidochelys olivacea*)",
       "card_text_en": "On 12 November a person abandoned a sack containing one live olive ridley turtle after seeing customs officers on a border footpath, then escaped.",
-      "context_en": "[O] Nigeria Customs reported the recovery at 22:30 on 12 November on a footpath linking the two countries. Concealment inside a sack and the carrier's flight support suspected illicit movement. A border location alone does not establish whether the turtle originated in Benin or was destined there. Customs identified it as *Lepidochelys olivacea*; capture site, buyer and final destination remain unconfirmed.",
+      "context_en": "[O] Use of an informal border footpath and abandonment of the sack upon seeing officers suggest avoidance of inspection, but do not establish a completed crossing or Nigeria–Benin travel direction. A live animal makes veterinary assessment, evidence custody and confirmation of the reported taxonomic identification especially important. A transboundary-trafficking hypothesis requires independent evidence of capture site, destination and receivers; seizure near a border alone cannot establish those stages.",
       "references_text_en": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
       "modal_label_en": "On foot / footpath",
       "quantity_note_en": "Number of individual animals, not product weights.",
@@ -129412,7 +129432,7 @@
       "title_es": "Aduanas recuperan una tortuga golfina viva en la frontera Nigeria–Benín",
       "fauna_label_es": "1 tortuga golfina viva (*Lepidochelys olivacea*)",
       "card_text_es": "El 12/11 una persona abandonó un saco con una tortuga golfina viva al detectar a la patrulla aduanera en un sendero fronterizo y huyó.",
-      "context_es": "[O] La Aduana de Nigeria comunicó la recuperación a las 22:30 del 12/11 en un sendero que comunica ambos países. El ocultamiento en un saco y la huida ante la patrulla sustentan la sospecha de transporte ilícito. La ubicación fronteriza no demuestra el sentido del desplazamiento. La autoridad identificó el ejemplar como *Lepidochelys olivacea*; no se confirmaron origen, comprador ni destino final.",
+      "context_es": "[O] El uso de un sendero informal fronterizo y el abandono del saco ante los agentes sugieren evasión del control, pero no demuestran cruce consumado ni dirección Nigeria–Benín. Al tratarse de un animal vivo, importan la evaluación veterinaria, la custodia de evidencias y la confirmación de la identificación taxonómica comunicada. La hipótesis de tráfico transfronterizo exige pruebas independientes del lugar de captura, destino y receptores; el lugar de decomiso no acredita esas etapas.",
       "references_text_es": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
       "modal_label_es": "A pie / sendero",
       "quantity_note_es": "Número de animales individuales, no peso de productos.",
@@ -129454,7 +129474,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "context_references": [
@@ -129470,14 +129490,15 @@
         "categories_present": [
           "O"
         ],
-        "scientific_sources_restricted_to_research_papers_json": true
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
       },
       "location_label_pt": "Angra dos Reis, Rio de Janeiro, Brasil",
       "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
       "title_pt": "Fiscalização apreende 540 kg de sardinha-verdadeira durante defeso em Angra",
       "fauna_label_pt": "540 kg de sardinha-verdadeira; indivíduos desconhecidos",
       "card_text_pt": "Polícia Ambiental apreendeu 540 kg de sardinha-verdadeira durante o defeso iniciado em 1º/10; 270 kg foram doados a cada uma de duas instituições locais.",
-      "context_pt": "[O] A fiscalização relatada em 14/11 apreendeu 540 kg de *Sardinella brasiliensis* atribuídos à captura durante o defeso de 1º/10/2026 a 28/02/2027. A destinação posterior dos peixes a instituições assistenciais foi uma medida oficial, não rota de comércio. O relato não estabelece a data exata da abordagem, a origem pesqueira, embarcação, fornecedor ou mercado.",
+      "context_pt": "[O] A apreensão durante o defeso de *Sardinella brasiliensis* representa um possível elo entre captura em período proibido e circulação de produto pesqueiro. A posterior doação oficial dos 540 kg não deve ser confundida com destinação comercial da carga. Para caracterizar a cadeia de exploração, seriam necessários dados de desembarque, local e data da pesca, documentação de origem e eventual negociação anterior à fiscalização; a notícia não identifica essas etapas. O registro preserva data de ocorrência não confirmada e não converte peso em indivíduos.",
       "references_text_pt": "[O] Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental — 14/11/2026 — https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/",
       "modal_label_pt": "Não informado",
       "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
@@ -129486,7 +129507,7 @@
       "title_en": "Officers seize 540 kg of sardines during closed season in Angra dos Reis",
       "fauna_label_en": "540 kg of Brazilian sardine; individual count unknown",
       "card_text_en": "Environmental police seized 540 kg of Brazilian sardine during a fishing closure that began on 1 October; 270 kg went to each of two local charities.",
-      "context_en": "[O] Reporting on 14 November described seizure of 540 kg of *Sardinella brasiliensis* reportedly caught during the 1 October 2026–28 February 2027 fishing closure. Subsequent donation to charities was an official disposition, not a commercial trafficking route. Exact seizure date, fishing location, vessel, supplier and intended market were not reported.",
+      "context_en": "[O] Seizure of *Sardinella brasiliensis* during the closed season raises a possible link between prohibited-period harvesting and movement of fish products. The subsequent official donation of 540 kg must not be mistaken for a commercial destination. Reconstructing the exploitation chain would require landing data, capture location and date, provenance documentation and evidence of any transaction before inspection; the report identifies none of these stages. The event date remains unconfirmed and weight is not converted into animal counts.",
       "references_text_en": "[O] Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental — 14/11/2026 — https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/",
       "modal_label_en": "Not reported",
       "quantity_note_en": "Product weight; individual animals not known.",
@@ -129495,7 +129516,7 @@
       "title_es": "Fiscalización decomisa 540 kg de sardina durante la veda en Angra dos Reis",
       "fauna_label_es": "540 kg de sardina brasileña; individuos desconocidos",
       "card_text_es": "La Policía Ambiental incautó 540 kg de sardina durante la veda iniciada el 1/10; donó 270 kg a cada una de dos entidades locales.",
-      "context_es": "[O] La noticia del 14/11 describe la incautación de 540 kg de *Sardinella brasiliensis* capturados, según la policía, durante la veda del 1/10/2026 al 28/02/2027. La posterior donación a entidades asistenciales fue disposición oficial, no ruta comercial. No constan fecha exacta de intervención, lugar de pesca, barco, proveedor ni mercado previsto.",
+      "context_es": "[O] La incautación de *Sardinella brasiliensis* durante la veda plantea un posible vínculo entre captura prohibida y circulación de producto pesquero. La donación oficial posterior de los 540 kg no es destino comercial. Reconstruir la cadena exige datos de desembarque, lugar y fecha de captura, documentos de origen y transacciones previas; la noticia no identifica esas etapas. La fecha exacta de intervención sigue sin confirmarse y el peso no se convierte en individuos.",
       "references_text_es": "[O] Leia Aqui / G1 Sul do Rio / Polícia Militar Ambiental — 14/11/2026 — https://leiaaqui.com.br/2026/11/14/mais-de-500-kg-de-sardinha-pescada-durante-periodo-de-defeso-sao-apreendidos-em-angra-dos-reis/",
       "modal_label_es": "No informado",
       "quantity_note_es": "Peso de producto; número de animales desconocido.",
@@ -129537,7 +129558,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "context_references": [
@@ -129559,14 +129580,15 @@
         "categories_present": [
           "O"
         ],
-        "scientific_sources_restricted_to_research_papers_json": true
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
       },
       "location_label_pt": "Hay Salam, Dakhla, Saara Ocidental (território disputado)",
       "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
       "title_pt": "Fiscalização encontra 190 kg de polvo e lula em depósito de Dakhla",
       "fauna_label_pt": "50 kg de polvo e 140 kg de lula; indivíduos desconhecidos",
       "card_text_pt": "Em 14/11, fiscalização apreendeu 50 kg de polvo e 140 kg de lula em depósito comercial de Hay Salam; auto de infração contra comerciante atacadista.",
-      "context_pt": "[O] Em operação distinta da abordagem rodoviária em El Argoub, autoridades localizaram 190 kg de produtos marinhos armazenados em depósito de Hay Salam em 14/11. Foram discriminados 50 kg de polvo e 140 kg de lula, com auto de infração contra comerciante atacadista. A existência de dois procedimentos no mesmo dia não demonstra fornecedor, comprador ou rede comum. Não há rota de transporte documentada para a mercadoria armazenada.",
+      "context_pt": "[O] A apreensão em depósito atacadista revela uma etapa de armazenamento comercial de 50 kg de polvo e 140 kg de lula, distinta da abordagem de veículo em El Argoub. O depósito não comprova por si o local ou método de captura, nem demonstra que o produto veio do mesmo fornecedor do outro caso. A avaliação de possível comercialização irregular depende de notas de aquisição, registros de estoque, licenças, fornecedores e vendas; a notícia documenta auto de infração, não rede criminosa ou rota internacional.",
       "references_text_pt": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
       "modal_label_pt": "Não informado",
       "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
@@ -129575,7 +129597,7 @@
       "title_en": "Inspectors find 190 kg of octopus and squid in Dakhla warehouse",
       "fauna_label_en": "50 kg of octopus and 140 kg of squid; individual count unknown",
       "card_text_en": "On 14 November inspectors seized 50 kg of octopus and 140 kg of squid from a Hay Salam warehouse and issued a violation report to a wholesale fish merchant.",
-      "context_en": "[O] In an operation separate from the El Argoub vehicle stop, inspectors found 190 kg of marine products in a Hay Salam warehouse on 14 November: 50 kg of octopus and 140 kg of squid. A violation report was issued to a wholesale merchant. Two interventions on the same day do not establish a common supplier, buyer or network. No shipment route was documented for the stored goods.",
+      "context_en": "[O] Seizure at a wholesale warehouse identifies a commercial storage stage involving 50 kg of octopus and 140 kg of squid, separate from the vehicle stop in El Argoub. Storage does not establish capture site or method, or prove that both cases shared a supplier. Assessing illicit distribution would require purchase invoices, stock records, licences, suppliers and sales; the report documents an administrative violation, not a criminal network or international route.",
       "references_text_en": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
       "modal_label_en": "Not reported",
       "quantity_note_en": "Product weight; individual animals not known.",
@@ -129584,7 +129606,7 @@
       "title_es": "Inspectores encuentran 190 kg de pulpo y calamar en almacén de Dajla",
       "fauna_label_es": "50 kg de pulpo y 140 kg de calamar; individuos desconocidos",
       "card_text_es": "El 14/11 inspectores incautaron 50 kg de pulpo y 140 kg de calamar en almacén de Hay Salam y levantaron acta contra un mayorista.",
-      "context_es": "[O] En una operación distinta del control de carretera en El Argoub, inspectores hallaron 190 kg de productos marinos en un almacén de Hay Salam el 14/11: 50 kg de pulpo y 140 kg de calamar. Se levantó acta contra un mayorista. Dos procedimientos el mismo día no prueban proveedor, comprador o red común. No se documentó ruta de transporte de la mercancía almacenada.",
+      "context_es": "[O] El decomiso en un almacén mayorista documenta almacenamiento comercial de 50 kg de pulpo y 140 kg de calamar, distinto del control de vehículo en El Argoub. El depósito no prueba lugar ni método de captura ni proveedor común. Evaluar distribución irregular requiere facturas, inventario, licencias, proveedores y ventas; la noticia acredita un acta de infracción, no red criminal ni ruta internacional.",
       "references_text_es": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
       "modal_label_es": "No informado",
       "quantity_note_es": "Peso de producto; número de animales desconocido.",
@@ -129626,7 +129648,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "context_references": [
@@ -129648,14 +129670,15 @@
         "categories_present": [
           "O"
         ],
-        "scientific_sources_restricted_to_research_papers_json": true
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
       },
       "location_label_pt": "El Argoub, Dakhla–Oued Ed-Dahab, Saara Ocidental (território disputado)",
       "geographic_note_pt": "Referência geográfica da localidade El Argoub, não o local exato da abordagem; Saara Ocidental, território disputado.",
       "title_pt": "Fiscalização intercepta cerca de 60 kg de polvo em veículo em El Argoub",
       "fauna_label_pt": "cerca de 60 kg de polvo fresco; indivíduos desconhecidos",
       "card_text_pt": "Em 14/11, autoridades interceptaram veículo com cerca de 60 kg de polvo possivelmente capturado por métodos proibidos durante a paralisação biológica; uma pessoa detida.",
-      "context_pt": "[O] Operação de 14/11 em El Argoub reuniu gendarmaria e fiscalização pesqueira. A carga de aproximadamente 60 kg de polvo fresco foi atribuída preliminarmente a pesca irregular com câmaras de pneus durante o período de descanso biológico; a investigação busca determinar a procedência e o destino comercial. O transporte rodoviário está comprovado, mas nenhum itinerário entre localidades foi documentado.",
+      "context_pt": "[O] A interceptação rodoviária de polvo fresco durante descanso biológico, com suspeita de captura por câmaras de pneus, indica possível passagem de extração irregular para transporte terrestre. A hipótese de método proibido é atribuída à fiscalização, não uma conclusão pericial independente. Para identificar a cadeia comercial seriam necessários ponto de desembarque, proprietário da mercadoria, documentação pesqueira e destinatário; não há trajeto entre localidades confirmado. A apreensão é distinta da fiscalização do depósito em Hay Salam, sem conexão operacional demonstrada.",
       "references_text_pt": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
       "modal_label_pt": "Rodoviário",
       "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
@@ -129664,7 +129687,7 @@
       "title_en": "Officers intercept about 60 kg of octopus in a vehicle at El Argoub",
       "fauna_label_en": "about 60 kg of fresh octopus; individual count unknown",
       "card_text_en": "On 14 November officers stopped a vehicle carrying about 60 kg of octopus suspected to have been caught by prohibited methods during a biological rest period; one detained.",
-      "context_en": "[O] On 14 November gendarmerie and fisheries officers stopped a vehicle in El Argoub carrying about 60 kg of fresh octopus, suspected to have been caught using inner tubes during the biological rest period. Authorities are investigating the source and intended market. Road transport is documented, but no route between named locations was established.",
+      "context_en": "[O] Interception of fresh octopus during the biological rest period, with suspected use of tyre inner tubes for fishing, points to a possible transition from unlawful harvesting to road transport. The alleged prohibited technique is an enforcement assessment, not an independently established forensic finding. Reconstructing the trade chain would require landing site, cargo owner, fisheries documentation and recipient; no inter-locality route is confirmed. This intervention is distinct from the Hay Salam warehouse inspection, with no established operational link.",
       "references_text_en": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
       "modal_label_en": "Road",
       "quantity_note_en": "Product weight; individual animals not known.",
@@ -129673,7 +129696,7 @@
       "title_es": "Autoridades interceptan unos 60 kg de pulpo en vehículo en El Argoub",
       "fauna_label_es": "unos 60 kg de pulpo fresco; individuos desconocidos",
       "card_text_es": "El 14/11 se interceptó un vehículo con unos 60 kg de pulpo presuntamente capturado con métodos prohibidos durante el descanso biológico; un detenido.",
-      "context_es": "[O] El 14/11 gendarmería y fiscalización pesquera interceptaron un vehículo en El Argoub con unos 60 kg de pulpo fresco, presuntamente capturado mediante cámaras de neumáticos durante el descanso biológico. Se investigan procedencia y destino comercial. El transporte por carretera está documentado, pero no una ruta entre localidades.",
+      "context_es": "[O] La interceptación de pulpo fresco durante el descanso biológico, con sospecha de captura mediante cámaras de neumáticos, apunta a una posible transición de extracción irregular a transporte terrestre. El método prohibido es atribución de la fiscalización, no pericia independiente. Reconstruir la cadena exige lugar de desembarque, propietario, documentación pesquera y destinatario; no se confirma ruta entre localidades. Es un procedimiento distinto del depósito de Hay Salam, sin conexión operativa probada.",
       "references_text_es": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
       "modal_label_es": "Carretera",
       "quantity_note_es": "Peso de producto; número de animales desconocido.",
@@ -129717,7 +129740,7 @@
       "image_source_url": null,
       "image_status": "NOT_VALIDATED",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
       "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
       "is_exact_seizure_position": false,
       "context_references": [
@@ -129732,22 +129755,30 @@
           "type": "case_source",
           "label": "Relato corroborativo da ocorrência",
           "url": "https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat"
+        },
+        {
+          "id": "N",
+          "type": "journalistic_context",
+          "label": "The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland",
+          "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe"
         }
       ],
       "context_evidence_audit": {
         "review_date": "2026-11-15",
         "categories_present": [
-          "O"
+          "O",
+          "N"
         ],
-        "scientific_sources_restricted_to_research_papers_json": true
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
       },
       "location_label_pt": "Praça de pedágio de Peshawar, Khyber Pakhtunkhwa, Paquistão (referência da cidade)",
       "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
       "title_pt": "Departamento de fauna apreende um falcão-peregrino em Peshawar",
       "fauna_label_pt": "1 falcão-peregrino apreendido em 14/11",
       "card_text_pt": "Um falcão-peregrino foi apreendido no pedágio de Peshawar em 14/11. Outros dois falcões apreendidos em 13/11 foram soltos junto com ele; não são contados neste evento.",
-      "context_pt": "[O] O Departamento de Fauna de Khyber Pakhtunkhwa informou a soltura conjunta de três falcões em 14/11: um falcão-peregrino e um falcão-shaheen apreendidos em 13/11, além de um falcão-peregrino apreendido no pedágio de Peshawar em 14/11. Este registro cobre exclusivamente o último exemplar. O comunicado não informa procedência, destinatário, modo de ocultação ou comércio demonstrado.",
-      "references_text_pt": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+      "context_pt": "[O] O comunicado distingue uma apreensão em 14/11 no pedágio de Peshawar de duas apreensões de 13/11, embora os três falcões tenham sido soltos juntos. O registro individualiza apenas o exemplar do dia 14 e não infere comprador, criadouro, origem de captura ou deslocamento internacional.\n\n[N] Investigação sobre retirada de filhotes de falcão-peregrino de ninhos na Escócia descreveu o uso de análise genética para examinar alegações de origem em cativeiro e possíveis práticas de lavagem no mercado de falcoaria. É um mecanismo comparativo de rastreabilidade para casos de aves de rapina; não demonstra que o falcão de Peshawar foi capturado em ninho ou destinado a esse mercado.",
+      "references_text_pt": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat\n[N] The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
       "modal_label_pt": "Não informado",
       "quantity_note_pt": "Um indivíduo; não somar aves de apreensões anteriores.",
       "location_label_en": "Peshawar Toll Plaza, Khyber Pakhtunkhwa, Pakistan (city reference)",
@@ -129755,8 +129786,8 @@
       "title_en": "Wildlife Department seizes one peregrine falcon at Peshawar toll plaza",
       "fauna_label_en": "1 peregrine falcon seized on 14 November",
       "card_text_en": "One peregrine falcon was seized at Peshawar toll plaza on 14 November. Two falcons seized on 13 November were released alongside it but are not counted in this event.",
-      "context_en": "[O] Khyber Pakhtunkhwa Wildlife Department reported releasing three falcons together on 14 November: a peregrine and a shaheen confiscated on 13 November and a peregrine seized at Peshawar toll plaza on 14 November. This record covers only the latter bird. No capture origin, buyer, concealment method or completed sale was reported.",
-      "references_text_en": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+      "context_en": "[O] The release report distinguishes one bird seized at Peshawar toll plaza on 14 November from two birds seized on 13 November, although all three were released together. This record counts only the 14 November bird and infers no buyer, breeder, capture origin or international movement.\n\n[N] Investigative reporting on peregrine chicks taken from nests in Scotland describes genetic testing used to scrutinise captive-breeding claims and potential laundering into falconry markets. This is a comparative traceability mechanism for raptor cases; it does not show that the Peshawar bird was nest-poached or destined for such a market.",
+      "references_text_en": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat\n[N] The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
       "modal_label_en": "Not reported",
       "quantity_note_en": "One individual; do not add birds from earlier seizures.",
       "location_label_es": "Peaje de Peshawar, Khyber Pakhtunkhwa, Pakistán (referencia urbana)",
@@ -129764,8 +129795,8 @@
       "title_es": "Autoridades de fauna decomisan un halcón peregrino en el peaje de Peshawar",
       "fauna_label_es": "1 halcón peregrino decomisado el 14/11",
       "card_text_es": "Un halcón peregrino fue decomisado en el peaje de Peshawar el 14/11. Otros dos, incautados el 13/11, fueron liberados con él, pero no se cuentan aquí.",
-      "context_es": "[O] El Departamento de Fauna de Khyber Pakhtunkhwa informó la liberación conjunta de tres halcones el 14/11: un peregrino y un shaheen decomisados el 13/11 y un peregrino incautado en el peaje de Peshawar el 14/11. Este registro corresponde exclusivamente al último ejemplar. No se informó procedencia, comprador, ocultamiento ni venta demostrada.",
-      "references_text_es": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+      "context_es": "[O] El comunicado distingue un ave decomisada en el peaje de Peshawar el 14/11 de otras dos incautadas el 13/11, aunque las tres fueron liberadas juntas. Este registro contabiliza solo el ejemplar del día 14 y no infiere comprador, criadero, origen de captura ni movimiento internacional.\n\n[N] Una investigación sobre polluelos de halcón peregrino sustraídos de nidos en Escocia describe pruebas genéticas para examinar declaraciones de cría en cautividad y posible blanqueo en mercados de cetrería. Es un mecanismo comparativo de trazabilidad; no demuestra que el ave de Peshawar fuera sustraída de un nido o destinada a ese mercado.",
+      "references_text_es": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat\n[N] The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
       "modal_label_es": "No informado",
       "quantity_note_es": "Un individuo; no sumar aves de decomisos anteriores.",
       "occurred_at": "2026-11-14T00:00:00Z",
