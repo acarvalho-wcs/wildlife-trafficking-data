@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1629_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1633_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1629,
+  "count": 1633,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-14T22:40:27Z",
+    "updated_at": "2026-11-15T10:48:01Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-14T22:40:27Z",
-  "feed_updated_at": "2026-11-14T22:40:27Z",
+  "updated_at": "2026-11-15T10:48:01Z",
+  "feed_updated_at": "2026-11-15T10:48:01Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -129046,6 +129046,377 @@
       "modal_label_en": "Not reported",
       "modal_label_es": "No informado",
       "occurred_at": "2026-11-13T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261114-br-buritis-six-captive-birds",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-13",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": -15.617,
+        "lon": -46.425
+      },
+      "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+      "source_label": "Jornal de Minas / Polícia Militar de Meio Ambiente",
+      "source_url": "https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/",
+      "source_alternative_url": null,
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "*Amazona aestiva* (papagaio-verdadeiro, identificação por nome popular); outras aves por nomes populares",
+      "modal_primary": "Não informado",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 6,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 6
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Cativeiro registrado, sem origem de captura nem destino ou transporte de aves documentado.",
+      "source_reconciliation_status": "SINGLE_REPORT_REVIEWED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Seis indivíduos vivos (não seis tipos). Arma e motocicleta não são prova de rede coordenada.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026",
+          "url": "https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil",
+          "url": "https://doi.org/10.1590/1809-4422asoc01641vu29L29OA"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O",
+          "S"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
+      },
+      "location_label_pt": "Buritis, Minas Gerais, Brasil",
+      "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+      "title_pt": "Fiscalização encontra seis aves silvestres sem autorização, arma e motocicleta roubada em Buritis",
+      "fauna_label_pt": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 papagaios-verdadeiros)",
+      "card_text_pt": "Fiscalização de 13/11 apreendeu seis aves em cativeiro sem autorização, uma espingarda e munições, além de recuperar motocicleta roubada; um homem foi detido.",
+      "context_pt": "[O] A ação ambiental de 13/11 identificou três grupos populares de aves mantidas sem autorização. A coexistência de aves, espingarda, munições e motocicleta com registro de roubo na mesma fiscalização indica convergência de infrações no local, mas não comprova que os objetos integram uma única rede ou operação de tráfico. Quatro aves foram soltas após avaliação e dois papagaios encaminhados para custódia especializada.\n\n[S] Análise de 271 boletins de apreensão em Mato Grosso do Sul (2017–2021) identificou *Amazona aestiva* entre as espécies mais frequentemente apreendidas e diferenças entre registros de órgãos fiscalizadores; fornece comparação taxonômica, não ligação com o caso de Buritis.",
+      "references_text_pt": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
+      "location_label_en": "Buritis, Minas Gerais, Brazil",
+      "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+      "title_en": "Environmental patrol finds six illegally kept birds, a firearm and a stolen motorcycle in Buritis",
+      "fauna_label_en": "6 live birds (2 patativa-tropeira, 2 papa-capim-baiano, 2 blue-fronted parrots)",
+      "card_text_en": "On 13 November officers recovered six unlawfully captive wild birds, a shotgun and ammunition, and a stolen motorcycle; one man was detained.",
+      "context_en": "[O] The 13 November environmental patrol recorded three vernacular bird groups held without permission. Birds, shotgun, ammunition and a motorcycle reported stolen were encountered in the same intervention, indicating co-occurring offences but not proving a single trafficking organisation. Four birds were released after assessment and two parrots remained in specialised custody.\n\n[S] A study of 271 seizure reports in Mato Grosso do Sul (2017–2021) identified *Amazona aestiva* among the most frequently seized taxa and differences in enforcement records; this is a species-level comparison, not a connection to the Buritis case.",
+      "references_text_en": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "Number of individual animals, not product weights.",
+      "location_label_es": "Buritis, Minas Gerais, Brasil",
+      "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+      "title_es": "Patrulla ambiental encuentra seis aves sin autorización, arma y motocicleta robada en Buritis",
+      "fauna_label_es": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 loros de frente azul)",
+      "card_text_es": "El 13/11 agentes incautaron seis aves cautivas sin permiso, escopeta y municiones y recuperaron motocicleta robada; hubo un detenido.",
+      "context_es": "[O] La actuación ambiental del 13/11 encontró tres grupos de aves mantenidas sin permiso. La coexistencia de aves, escopeta, municiones y motocicleta con reporte de robo evidencia infracciones concurrentes, pero no una organización de tráfico común. Cuatro aves fueron liberadas tras su evaluación y dos loros quedaron bajo custodia especializada.\n\n[S] Un estudio de 271 actas de decomiso de Mato Grosso do Sul (2017–2021) señaló a *Amazona aestiva* entre los taxones más incautados y diferencias entre registros de organismos; es una comparación taxonómica, no una conexión probada con Buritis.",
+      "references_text_es": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "Número de animales individuales, no peso de productos.",
+      "occurred_at": "2026-11-13T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261114-br-rio-grande-1400kg-fish",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-13",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": -32.035,
+        "lon": -52.098
+      },
+      "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+      "source_label": "A Hora do Sul / PATRAM Brigada Militar",
+      "source_url": "https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/",
+      "source_alternative_url": "https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+      "fauna_groups_aggregated": [
+        "Peixes"
+      ],
+      "taxon_text": "Traíra e viola (nomes populares; espécies não confirmadas)",
+      "modal_primary": "Rodoviário",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "route_audit_status": "DOCUMENTED_DIRECTIONAL_SEGMENT",
+      "route_audit_note_pt": "Direção observada Santa Vitória do Palmar → Rio Grande pela BR-471; procedência atribuída às lagoas Mirim/Mangueira não estabelece rota de extração exata.",
+      "source_reconciliation_status": "TWO_REPORTS_REVIEWED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "1.400 kg de filés, quantidade de animais não determinada. Trajeto rodoviário descrito pela Patram e evidência de origem atribuída.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "A Hora do Sul / PATRAM Brigada Militar — 14/11/2026",
+          "url": "https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Corroboração do caso — 14/11/2026",
+          "url": "https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
+      },
+      "location_label_pt": "BR-471, Rio Grande, Rio Grande do Sul, Brasil (referência municipal)",
+      "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+      "title_pt": "Patram intercepta cerca de 1.400 kg de pescado irregular na BR-471",
+      "fauna_label_pt": "cerca de 1.400 kg de filés de traíra e viola; indivíduos desconhecidos",
+      "card_text_pt": "Na noite de 13/11, caminhonete foi interceptada na BR-471 no sentido Santa Vitória do Palmar–Rio Grande com cerca de 1,4 t de filés sem documentação; motorista preso.",
+      "context_pt": "[O] Segundo a Patrulha Ambiental, a carga foi interceptada por volta das 22h de 13/11 no sentido Santa Vitória do Palmar → Rio Grande. A corporação atribuiu a procedência do pescado às lagoas Mirim e Mangueira, sob defeso desde 1º/11; faltavam notas de origem e indícios de inspeção sanitária. O sentido rodoviário foi observado, mas mercado final, compradores e eventual cadeia de distribuição não foram identificados. Peso de filés não é conversível em número de peixes sem dados de rendimento e tamanhos.",
+      "references_text_pt": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+      "modal_label_pt": "Rodoviário",
+      "quantity_note_pt": "Peso de produto; não inferir indivíduos.",
+      "location_label_en": "BR-471, Rio Grande, Rio Grande do Sul, Brazil (city reference)",
+      "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+      "title_en": "Environmental police intercept about 1,400 kg of illicit fish on BR-471",
+      "fauna_label_en": "about 1,400 kg of traíra and viola fish fillets; individual count unknown",
+      "card_text_en": "On 13 November a vehicle travelling towards Rio Grande from Santa Vitória do Palmar carried about 1.4 tonnes of undocumented fish fillets; the driver was arrested.",
+      "context_en": "[O] Environmental police reported intercepting the cargo at about 22:00 on 13 November on the Santa Vitória do Palmar → Rio Grande carriageway. Officers attributed the fish to the Mirim and Mangueira lagoons, under a fishing closure since 1 November, and reported missing origin documents and no evidence of sanitary inspection. Direction of travel is documented, not the final market or buyers. Fillet weight cannot be translated into fish individuals without yield and size data.",
+      "references_text_en": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+      "modal_label_en": "Road",
+      "quantity_note_en": "Weight of product; do not infer individuals.",
+      "location_label_es": "BR-471, Rio Grande, Rio Grande do Sul, Brasil (referência municipal)",
+      "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+      "title_es": "Policía ambiental intercepta unos 1.400 kg de pescado irregular en la BR-471",
+      "fauna_label_es": "aproximadamente 1.400 kg de filetes de traíra y viola; número de peces desconocido",
+      "card_text_es": "El 13/11 un vehículo hacia Rio Grande desde Santa Vitória do Palmar llevaba unas 1,4 t de filetes de pescado sin documentos; conductor detenido.",
+      "context_es": "[O] Según la Patrulla Ambiental, el transporte fue interceptado hacia las 22:00 del 13/11 en dirección Santa Vitória do Palmar → Rio Grande. La autoridad atribuyó el pescado a las lagunas Mirim y Mangueira, en veda desde el 1/11, y señaló ausencia de documentos de origen y de constancia de inspección sanitaria. Se conoce la dirección del vehículo, no su mercado final ni compradores. El peso de filetes no permite calcular individuos.",
+      "references_text_es": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+      "modal_label_es": "Carretera",
+      "quantity_note_es": "Peso del producto; no inferir individuos.",
+      "occurred_at": "2026-11-13T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261114-in-koilipari-live-pangolin",
+      "status": "VALIDATED",
+      "country": "Índia",
+      "event_date": "2026-11-13",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": 18.31697,
+        "lon": 81.97197
+      },
+      "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+      "source_label": "Pragativadi / Indus Valley Times",
+      "source_url": "https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/",
+      "source_alternative_url": "https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "taxon_text": "Pangolim (Pholidota; espécie não confirmada)",
+      "modal_primary": "Rodoviário",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 1
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "ONLY_LOCAL_DIRECTION_UNCONFIRMED",
+      "route_audit_note_pt": "Motocicleta apreendida perto de Koilipari; origem e destino comprovados não identificados. Não traçar rota intermunicipal com base em variantes da reportagem.",
+      "source_reconciliation_status": "TWO_REPORTS_REVIEWED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Ocorrência 13/11 e publicação 14/11. Fontes diferem sobre número de motocicletas, não sobre o animal apreendido.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Pragativadi / Indus Valley Times — 14/11/2026",
+          "url": "https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Corroboração do caso — 14/11/2026",
+          "url": "https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
+      },
+      "location_label_pt": "Malkangiri / Koilipari, Odisha, Índia",
+      "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+      "title_pt": "Patrulha recupera pangolim vivo transportado em motocicleta em Malkangiri",
+      "fauna_label_pt": "1 pangolim vivo; espécie não determinada",
+      "card_text_pt": "Patrulha florestal interceptou motocicleta próximo a Koilipari na noite de 13/11; um pangolim vivo foi recuperado e um suspeito detido.",
+      "context_pt": "[O] A informação de fiscalização descreve transporte de pangolim protegido em motocicleta na rodovia junto a Koilipari, abordagem após tentativa de evasão e prisão de um transportador em 13/11. Há divergência entre reportagens sobre a participação de outras motocicletas; a apreensão de um único pangolim é convergente. A investigação sobre procedência, compradores e possíveis cúmplices está em andamento, sem vínculo demonstrado com rede internacional.",
+      "references_text_pt": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+      "modal_label_pt": "Rodoviário",
+      "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
+      "location_label_en": "Koilipari, Malkangiri, Odisha, India",
+      "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+      "title_en": "Patrol recovers a live pangolin from a motorcycle in Malkangiri",
+      "fauna_label_en": "1 live pangolin; species not determined",
+      "card_text_en": "Forest officers intercepted a motorcycle near Koilipari on the night of 13 November; one live pangolin was recovered and one suspect detained.",
+      "context_en": "[O] Wildlife officers reported transporting a protected pangolin by motorcycle on the highway near Koilipari, an attempted evasion and the detention of one carrier on 13 November. Reports differ on the involvement of additional motorcycles; seizure of one live pangolin is consistent. Origin, buyers and other potential participants are being investigated; no international network has been established.",
+      "references_text_en": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+      "modal_label_en": "Road",
+      "quantity_note_en": "Number of individual animals, not product weights.",
+      "location_label_es": "Malkangiri / Koilipari, Odisha, Índia",
+      "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+      "title_es": "Patrulla recupera un pangolín vivo transportado en motocicleta en Malkangiri",
+      "fauna_label_es": "1 pangolín vivo; especie no determinada",
+      "card_text_es": "Agentes forestales interceptaron una motocicleta cerca de Koilipari la noche del 13/11; recuperaron un pangolín vivo y detuvieron a un sospechoso.",
+      "context_es": "[O] Agentes forestales informaron del transporte de un pangolín protegido en motocicleta por una carretera próxima a Koilipari, un intento de fuga y la detención de un transportista el 13/11. Las noticias discrepan sobre otras motocicletas, pero coinciden en un solo pangolín recuperado. Se investiga el origen, los compradores y posibles partícipes, sin una red internacional acreditada.",
+      "references_text_es": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/",
+      "modal_label_es": "Carretera",
+      "quantity_note_es": "Número de animales individuales, no peso de productos.",
+      "occurred_at": "2026-11-13T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-global-20261114-ng-seme-olive-ridley-turtle",
+      "status": "VALIDATED",
+      "country": "Nigéria",
+      "event_date": "2026-11-12",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-14",
+      "coordinates": {
+        "lat": 6.3758,
+        "lon": 2.72
+      },
+      "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+      "source_label": "Voice of Nigeria / Eye Witness News",
+      "source_url": "https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/",
+      "source_alternative_url": "https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "taxon_text": "*Lepidochelys olivacea*",
+      "modal_primary": "A pé / trilha",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 1
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "BORDER_DIRECTION_NOT_ESTABLISHED",
+      "route_audit_note_pt": "Passagem fronteiriça documentada; sentido Nigéria–Benim não demonstrado. Não desenhar rota transfronteiriça.",
+      "source_reconciliation_status": "TWO_REPORTS_REVIEWED",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+      "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Ocorrência de 12/11; comunicado da aduana em 13/11 e reportagens adicionais em 14/11. Elegível pelo critério de publicação no recorte.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Voice of Nigeria / Eye Witness News — 14/11/2026",
+          "url": "https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Corroboração do caso — 14/11/2026",
+          "url": "https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-15",
+        "categories_present": [
+          "O"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true
+      },
+      "location_label_pt": "Seme, fronteira Nigéria–Benim (referência geral)",
+      "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+      "title_pt": "Aduana recupera tartaruga-oliva viva em trilha na fronteira Nigéria–Benim",
+      "fauna_label_pt": "1 tartaruga-oliva viva (*Lepidochelys olivacea*)",
+      "card_text_pt": "Em 12/11, indivíduo abandonou saco com uma tartaruga-oliva viva ao avistar patrulha aduaneira em trilha de fronteira; fugiu.",
+      "context_pt": "[O] O Serviço Aduaneiro da Nigéria registrou a interceptação às 22h30 de 12/11, em trilha que conecta os dois países. A ocultação em saco e a fuga após avistar a patrulha sustentam suspeita de transporte ilícito. A localização fronteiriça não estabelece, por si, se a tartaruga vinha de Benim ou seguia para lá. A espécie foi identificada no comunicado como *Lepidochelys olivacea*; não há origem de captura, comprador ou destinatário confirmados.",
+      "references_text_pt": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+      "modal_label_pt": "A pé / trilha",
+      "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
+      "location_label_en": "Seme, Nigeria–Benin border (general reference)",
+      "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+      "title_en": "Customs recover a live olive ridley turtle on the Nigeria–Benin border",
+      "fauna_label_en": "1 live olive ridley sea turtle (*Lepidochelys olivacea*)",
+      "card_text_en": "On 12 November a person abandoned a sack containing one live olive ridley turtle after seeing customs officers on a border footpath, then escaped.",
+      "context_en": "[O] Nigeria Customs reported the recovery at 22:30 on 12 November on a footpath linking the two countries. Concealment inside a sack and the carrier's flight support suspected illicit movement. A border location alone does not establish whether the turtle originated in Benin or was destined there. Customs identified it as *Lepidochelys olivacea*; capture site, buyer and final destination remain unconfirmed.",
+      "references_text_en": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+      "modal_label_en": "On foot / footpath",
+      "quantity_note_en": "Number of individual animals, not product weights.",
+      "location_label_es": "Seme, fronteira Nigéria–Benim (referência geral)",
+      "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+      "title_es": "Aduanas recuperan una tortuga golfina viva en la frontera Nigeria–Benín",
+      "fauna_label_es": "1 tortuga golfina viva (*Lepidochelys olivacea*)",
+      "card_text_es": "El 12/11 una persona abandonó un saco con una tortuga golfina viva al detectar a la patrulla aduanera en un sendero fronterizo y huyó.",
+      "context_es": "[O] La Aduana de Nigeria comunicó la recuperación a las 22:30 del 12/11 en un sendero que comunica ambos países. El ocultamiento en un saco y la huida ante la patrulla sustentan la sospecha de transporte ilícito. La ubicación fronteriza no demuestra el sentido del desplazamiento. La autoridad identificó el ejemplar como *Lepidochelys olivacea*; no se confirmaron origen, comprador ni destino final.",
+      "references_text_es": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+      "modal_label_es": "A pie / sendero",
+      "quantity_note_es": "Número de animales individuales, no peso de productos.",
+      "occurred_at": "2026-11-12T00:00:00Z",
       "occurred_at_precision": "day"
     }
   ]
