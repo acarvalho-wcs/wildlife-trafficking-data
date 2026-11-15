@@ -14889,42 +14889,6 @@
         "evidence_class": "EMBARQUE PRETENDIDO, INTERROMPIDO",
         "geometry": "schematic_straight_line_not_actual_path"
       }
-    },
-    {
-      "id": "tgh-global-20261114-br-rio-grande-1400kg-fish-r01",
-      "event_match": {
-        "event_id": "tgh-global-20261114-br-rio-grande-1400kg-fish"
-      },
-      "status": "DOCUMENTED",
-      "route_type": "directional_segment",
-      "direction": "forward",
-      "line_style": "solid",
-      "label_pt": "Santa Vitória do Palmar → Rio Grande (direção observada)",
-      "label_en": "Santa Vitória do Palmar → Rio Grande (observed direction)",
-      "label_es": "Santa Vitória do Palmar → Rio Grande (dirección observada)",
-      "segments": [
-        {
-          "from": {
-            "name": "Santa Vitória do Palmar (referência municipal)",
-            "lat": -33.5189,
-            "lon": -53.3681,
-            "precision": "city_generalized",
-            "country": "Brasil"
-          },
-          "to": {
-            "name": "Rio Grande (referência municipal)",
-            "lat": -32.035,
-            "lon": -52.098,
-            "precision": "city_generalized",
-            "country": "Brasil"
-          }
-        }
-      ],
-      "evidence_pt": "A Patrulha Ambiental relatou o veículo em deslocamento pela BR-471 no sentido Santa Vitória do Palmar–Rio Grande em 13/11/2026. Pontos esquemáticos, sem identificação de origem da pesca ou destino comercial.",
-      "evidence_en": "Environmental police reported vehicle travel on BR-471 from Santa Vitória do Palmar towards Rio Grande on 13 November 2026. Schematic city points, not proven fishing origin or commercial destination.",
-      "evidence_es": "La Patrulla Ambiental registró desplazamiento por la BR-471 desde Santa Vitória do Palmar hacia Rio Grande el 13/11/2026. Puntos esquemáticos, sin origen de pesca ni destino comercial acreditados.",
-      "source_label": "A Hora do Sul / Brigada Militar",
-      "source_url": "https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/"
     }
   ],
   "network_context": [
