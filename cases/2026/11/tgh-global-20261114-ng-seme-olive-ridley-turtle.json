@@ -1,0 +1,91 @@
+{
+  "id": "tgh-global-20261114-ng-seme-olive-ridley-turtle",
+  "status": "VALIDATED",
+  "country": "Nigéria",
+  "event_date": "2026-11-12",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-14",
+  "coordinates": {
+    "lat": 6.3758,
+    "lon": 2.72
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "Voice of Nigeria / Eye Witness News",
+  "source_url": "https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/",
+  "source_alternative_url": "https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "*Lepidochelys olivacea*",
+  "modal_primary": "A pé / trilha",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 1
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "BORDER_DIRECTION_NOT_ESTABLISHED",
+  "route_audit_note_pt": "Passagem fronteiriça documentada; sentido Nigéria–Benim não demonstrado. Não desenhar rota transfronteiriça.",
+  "source_reconciliation_status": "TWO_REPORTS_REVIEWED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Ocorrência de 12/11; comunicado da aduana em 13/11 e reportagens adicionais em 14/11. Elegível pelo critério de publicação no recorte.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Voice of Nigeria / Eye Witness News — 14/11/2026",
+      "url": "https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Corroboração do caso — 14/11/2026",
+      "url": "https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-15",
+    "categories_present": [
+      "O"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true
+  },
+  "location_label_pt": "Seme, fronteira Nigéria–Benim (referência geral)",
+  "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+  "title_pt": "Aduana recupera tartaruga-oliva viva em trilha na fronteira Nigéria–Benim",
+  "fauna_label_pt": "1 tartaruga-oliva viva (*Lepidochelys olivacea*)",
+  "card_text_pt": "Em 12/11, indivíduo abandonou saco com uma tartaruga-oliva viva ao avistar patrulha aduaneira em trilha de fronteira; fugiu.",
+  "context_pt": "[O] O Serviço Aduaneiro da Nigéria registrou a interceptação às 22h30 de 12/11, em trilha que conecta os dois países. A ocultação em saco e a fuga após avistar a patrulha sustentam suspeita de transporte ilícito. A localização fronteiriça não estabelece, por si, se a tartaruga vinha de Benim ou seguia para lá. A espécie foi identificada no comunicado como *Lepidochelys olivacea*; não há origem de captura, comprador ou destinatário confirmados.",
+  "references_text_pt": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+  "modal_label_pt": "A pé / trilha",
+  "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
+  "location_label_en": "Seme, Nigeria–Benin border (general reference)",
+  "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+  "title_en": "Customs recover a live olive ridley turtle on the Nigeria–Benin border",
+  "fauna_label_en": "1 live olive ridley sea turtle (*Lepidochelys olivacea*)",
+  "card_text_en": "On 12 November a person abandoned a sack containing one live olive ridley turtle after seeing customs officers on a border footpath, then escaped.",
+  "context_en": "[O] Nigeria Customs reported the recovery at 22:30 on 12 November on a footpath linking the two countries. Concealment inside a sack and the carrier's flight support suspected illicit movement. A border location alone does not establish whether the turtle originated in Benin or was destined there. Customs identified it as *Lepidochelys olivacea*; capture site, buyer and final destination remain unconfirmed.",
+  "references_text_en": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+  "modal_label_en": "On foot / footpath",
+  "quantity_note_en": "Number of individual animals, not product weights.",
+  "location_label_es": "Seme, fronteira Nigéria–Benim (referência geral)",
+  "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+  "title_es": "Aduanas recuperan una tortuga golfina viva en la frontera Nigeria–Benín",
+  "fauna_label_es": "1 tortuga golfina viva (*Lepidochelys olivacea*)",
+  "card_text_es": "El 12/11 una persona abandonó un saco con una tortuga golfina viva al detectar a la patrulla aduanera en un sendero fronterizo y huyó.",
+  "context_es": "[O] La Aduana de Nigeria comunicó la recuperación a las 22:30 del 12/11 en un sendero que comunica ambos países. El ocultamiento en un saco y la huida ante la patrulla sustentan la sospecha de transporte ilícito. La ubicación fronteriza no demuestra el sentido del desplazamiento. La autoridad identificó el ejemplar como *Lepidochelys olivacea*; no se confirmaron origen, comprador ni destino final.",
+  "references_text_es": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+  "modal_label_es": "A pie / sendero",
+  "quantity_note_es": "Número de animales individuales, no peso de productos."
+}
