@@ -1,0 +1,87 @@
+{
+  "id": "tgh-global-20261114-eh-dakhla-hay-salam-190kg-seafood",
+  "status": "VALIDATED",
+  "country": "Saara Ocidental (território disputado; administrado por Marrocos)",
+  "event_date": "2026-11-14",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "publication_date": "2026-11-14",
+  "coordinates": {
+    "lat": 23.684,
+    "lon": -15.957
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "source_label": "Dakhla TV / Dakhla News",
+  "source_url": "https://www.dakhlatv.com/news-57023",
+  "source_alternative_url": "https://www.dakhlanews.com/65939/",
+  "taxon_text": "Polvo (Octopoda) e lula (Decapodiformes); espécies não informadas",
+  "modal_primary": "Não informado",
+  "fauna_groups_aggregated": [
+    "Invertebrados"
+  ],
+  "quantity_count": null,
+  "quantity_kind": "unknown",
+  "quantity_qualifier": "unknown",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não há deslocamento entre localidades comprovado.",
+  "source_reconciliation_status": "TWO_SOURCE_REVIEW",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "is_exact_seizure_position": false,
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Dakhla TV / Dakhla News — 14/11/2026",
+      "url": "https://www.dakhlatv.com/news-57023"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Relato corroborativo da ocorrência",
+      "url": "https://www.dakhlanews.com/65939/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-15",
+    "categories_present": [
+      "O"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true
+  },
+  "location_label_pt": "Hay Salam, Dakhla, Saara Ocidental (território disputado)",
+  "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
+  "title_pt": "Fiscalização encontra 190 kg de polvo e lula em depósito de Dakhla",
+  "fauna_label_pt": "50 kg de polvo e 140 kg de lula; indivíduos desconhecidos",
+  "card_text_pt": "Em 14/11, fiscalização apreendeu 50 kg de polvo e 140 kg de lula em depósito comercial de Hay Salam; auto de infração contra comerciante atacadista.",
+  "context_pt": "[O] Em operação distinta da abordagem rodoviária em El Argoub, autoridades localizaram 190 kg de produtos marinhos armazenados em depósito de Hay Salam em 14/11. Foram discriminados 50 kg de polvo e 140 kg de lula, com auto de infração contra comerciante atacadista. A existência de dois procedimentos no mesmo dia não demonstra fornecedor, comprador ou rede comum. Não há rota de transporte documentada para a mercadoria armazenada.",
+  "references_text_pt": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
+  "location_label_en": "Hay Salam, Dakhla, Western Sahara (disputed territory)",
+  "geographic_note_en": "Approximate reference coordinates, not the exact seizure site.",
+  "title_en": "Inspectors find 190 kg of octopus and squid in Dakhla warehouse",
+  "fauna_label_en": "50 kg of octopus and 140 kg of squid; individual count unknown",
+  "card_text_en": "On 14 November inspectors seized 50 kg of octopus and 140 kg of squid from a Hay Salam warehouse and issued a violation report to a wholesale fish merchant.",
+  "context_en": "[O] In an operation separate from the El Argoub vehicle stop, inspectors found 190 kg of marine products in a Hay Salam warehouse on 14 November: 50 kg of octopus and 140 kg of squid. A violation report was issued to a wholesale merchant. Two interventions on the same day do not establish a common supplier, buyer or network. No shipment route was documented for the stored goods.",
+  "references_text_en": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "Product weight; individual animals not known.",
+  "location_label_es": "Hay Salam, Dajla, Sáhara Occidental (territorio disputado)",
+  "geographic_note_es": "Coordenadas aproximadas de referencia, no sitio exacto de incautación.",
+  "title_es": "Inspectores encuentran 190 kg de pulpo y calamar en almacén de Dajla",
+  "fauna_label_es": "50 kg de pulpo y 140 kg de calamar; individuos desconocidos",
+  "card_text_es": "El 14/11 inspectores incautaron 50 kg de pulpo y 140 kg de calamar en almacén de Hay Salam y levantaron acta contra un mayorista.",
+  "context_es": "[O] En una operación distinta del control de carretera en El Argoub, inspectores hallaron 190 kg de productos marinos en un almacén de Hay Salam el 14/11: 50 kg de pulpo y 140 kg de calamar. Se levantó acta contra un mayorista. Dos procedimientos el mismo día no prueban proveedor, comprador o red común. No se documentó ruta de transporte de la mercancía almacenada.",
+  "references_text_es": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "Peso de producto; número de animales desconocido."
+}
