@@ -35,7 +35,7 @@
   "image_source_url": null,
   "image_status": "NOT_VALIDATED",
   "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
   "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
   "is_exact_seizure_position": false,
   "context_references": [
@@ -50,22 +50,30 @@
       "type": "case_source",
       "label": "Relato corroborativo da ocorrência",
       "url": "https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat"
+    },
+    {
+      "id": "N",
+      "type": "journalistic_context",
+      "label": "The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland",
+      "url": "https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe"
     }
   ],
   "context_evidence_audit": {
     "review_date": "2026-11-15",
     "categories_present": [
-      "O"
+      "O",
+      "N"
     ],
-    "scientific_sources_restricted_to_research_papers_json": true
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true
   },
   "location_label_pt": "Praça de pedágio de Peshawar, Khyber Pakhtunkhwa, Paquistão (referência da cidade)",
   "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
   "title_pt": "Departamento de fauna apreende um falcão-peregrino em Peshawar",
   "fauna_label_pt": "1 falcão-peregrino apreendido em 14/11",
   "card_text_pt": "Um falcão-peregrino foi apreendido no pedágio de Peshawar em 14/11. Outros dois falcões apreendidos em 13/11 foram soltos junto com ele; não são contados neste evento.",
-  "context_pt": "[O] O Departamento de Fauna de Khyber Pakhtunkhwa informou a soltura conjunta de três falcões em 14/11: um falcão-peregrino e um falcão-shaheen apreendidos em 13/11, além de um falcão-peregrino apreendido no pedágio de Peshawar em 14/11. Este registro cobre exclusivamente o último exemplar. O comunicado não informa procedência, destinatário, modo de ocultação ou comércio demonstrado.",
-  "references_text_pt": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+  "context_pt": "[O] O comunicado distingue uma apreensão em 14/11 no pedágio de Peshawar de duas apreensões de 13/11, embora os três falcões tenham sido soltos juntos. O registro individualiza apenas o exemplar do dia 14 e não infere comprador, criadouro, origem de captura ou deslocamento internacional.\n\n[N] Investigação sobre retirada de filhotes de falcão-peregrino de ninhos na Escócia descreveu o uso de análise genética para examinar alegações de origem em cativeiro e possíveis práticas de lavagem no mercado de falcoaria. É um mecanismo comparativo de rastreabilidade para casos de aves de rapina; não demonstra que o falcão de Peshawar foi capturado em ninho ou destinado a esse mercado.",
+  "references_text_pt": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat\n[N] The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
   "modal_label_pt": "Não informado",
   "quantity_note_pt": "Um indivíduo; não somar aves de apreensões anteriores.",
   "location_label_en": "Peshawar Toll Plaza, Khyber Pakhtunkhwa, Pakistan (city reference)",
@@ -73,8 +81,8 @@
   "title_en": "Wildlife Department seizes one peregrine falcon at Peshawar toll plaza",
   "fauna_label_en": "1 peregrine falcon seized on 14 November",
   "card_text_en": "One peregrine falcon was seized at Peshawar toll plaza on 14 November. Two falcons seized on 13 November were released alongside it but are not counted in this event.",
-  "context_en": "[O] Khyber Pakhtunkhwa Wildlife Department reported releasing three falcons together on 14 November: a peregrine and a shaheen confiscated on 13 November and a peregrine seized at Peshawar toll plaza on 14 November. This record covers only the latter bird. No capture origin, buyer, concealment method or completed sale was reported.",
-  "references_text_en": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+  "context_en": "[O] The release report distinguishes one bird seized at Peshawar toll plaza on 14 November from two birds seized on 13 November, although all three were released together. This record counts only the 14 November bird and infers no buyer, breeder, capture origin or international movement.\n\n[N] Investigative reporting on peregrine chicks taken from nests in Scotland describes genetic testing used to scrutinise captive-breeding claims and potential laundering into falconry markets. This is a comparative traceability mechanism for raptor cases; it does not show that the Peshawar bird was nest-poached or destined for such a market.",
+  "references_text_en": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat\n[N] The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
   "modal_label_en": "Not reported",
   "quantity_note_en": "One individual; do not add birds from earlier seizures.",
   "location_label_es": "Peaje de Peshawar, Khyber Pakhtunkhwa, Pakistán (referencia urbana)",
@@ -82,8 +90,8 @@
   "title_es": "Autoridades de fauna decomisan un halcón peregrino en el peaje de Peshawar",
   "fauna_label_es": "1 halcón peregrino decomisado el 14/11",
   "card_text_es": "Un halcón peregrino fue decomisado en el peaje de Peshawar el 14/11. Otros dos, incautados el 13/11, fueron liberados con él, pero no se cuentan aquí.",
-  "context_es": "[O] El Departamento de Fauna de Khyber Pakhtunkhwa informó la liberación conjunta de tres halcones el 14/11: un peregrino y un shaheen decomisados el 13/11 y un peregrino incautado en el peaje de Peshawar el 14/11. Este registro corresponde exclusivamente al último ejemplar. No se informó procedencia, comprador, ocultamiento ni venta demostrada.",
-  "references_text_es": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat",
+  "context_es": "[O] El comunicado distingue un ave decomisada en el peaje de Peshawar el 14/11 de otras dos incautadas el 13/11, aunque las tres fueron liberadas juntas. Este registro contabiliza solo el ejemplar del día 14 y no infiere comprador, criadero, origen de captura ni movimiento internacional.\n\n[N] Una investigación sobre polluelos de halcón peregrino sustraídos de nidos en Escocia describe pruebas genéticas para examinar declaraciones de cría en cautividad y posible blanqueo en mercados de cetrería. Es un mecanismo comparativo de trazabilidad; no demuestra que el ave de Peshawar fuera sustraída de un nido o destinada a ese mercado.",
+  "references_text_es": "[O] Associated Press of Pakistan / KP Wildlife Department — 14/11/2026 — https://www.app.com.pk/kp/three-confiscated-falcons-released-into-natural-habitat-by-kp-wildlife-department/\n[O] Relato corroborativo da ocorrência — https://arynews.tv/kp-wildlife-department-frees-three-confiscated-falcons-into-natural-habitat\n[N] The Guardian (2024), DNA evidence helps expose theft and laundering of wild peregrine falcons in Scotland — https://www.theguardian.com/environment/2024/feb/13/peregrine-falcon-thieves-dna-database-scotland-wild-raptors-birds-aoe",
   "modal_label_es": "No informado",
   "quantity_note_es": "Un individuo; no sumar aves de decomisos anteriores."
 }
