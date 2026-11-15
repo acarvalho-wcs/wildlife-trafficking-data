@@ -1,0 +1,92 @@
+{
+  "id": "tgh-global-20261114-br-buritis-six-captive-birds",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-11-13",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-14",
+  "coordinates": {
+    "lat": -15.617,
+    "lon": -46.425
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "Jornal de Minas / Polícia Militar de Meio Ambiente",
+  "source_url": "https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/",
+  "source_alternative_url": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "*Amazona aestiva* (papagaio-verdadeiro, identificação por nome popular); outras aves por nomes populares",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 6,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 6
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Cativeiro registrado, sem origem de captura nem destino ou transporte de aves documentado.",
+  "source_reconciliation_status": "SINGLE_REPORT_REVIEWED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
+  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Seis indivíduos vivos (não seis tipos). Arma e motocicleta não são prova de rede coordenada.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026",
+      "url": "https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil",
+      "url": "https://doi.org/10.1590/1809-4422asoc01641vu29L29OA"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-15",
+    "categories_present": [
+      "O",
+      "S"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true
+  },
+  "location_label_pt": "Buritis, Minas Gerais, Brasil",
+  "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
+  "title_pt": "Fiscalização encontra seis aves silvestres sem autorização, arma e motocicleta roubada em Buritis",
+  "fauna_label_pt": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 papagaios-verdadeiros)",
+  "card_text_pt": "Fiscalização de 13/11 apreendeu seis aves em cativeiro sem autorização, uma espingarda e munições, além de recuperar motocicleta roubada; um homem foi detido.",
+  "context_pt": "[O] A ação ambiental de 13/11 identificou três grupos populares de aves mantidas sem autorização. A coexistência de aves, espingarda, munições e motocicleta com registro de roubo na mesma fiscalização indica convergência de infrações no local, mas não comprova que os objetos integram uma única rede ou operação de tráfico. Quatro aves foram soltas após avaliação e dois papagaios encaminhados para custódia especializada.\n\n[S] Análise de 271 boletins de apreensão em Mato Grosso do Sul (2017–2021) identificou *Amazona aestiva* entre as espécies mais frequentemente apreendidas e diferenças entre registros de órgãos fiscalizadores; fornece comparação taxonômica, não ligação com o caso de Buritis.",
+  "references_text_pt": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
+  "location_label_en": "Buritis, Minas Gerais, Brazil",
+  "geographic_note_en": "Locality reference coordinates, not the exact seizure position.",
+  "title_en": "Environmental patrol finds six illegally kept birds, a firearm and a stolen motorcycle in Buritis",
+  "fauna_label_en": "6 live birds (2 patativa-tropeira, 2 papa-capim-baiano, 2 blue-fronted parrots)",
+  "card_text_en": "On 13 November officers recovered six unlawfully captive wild birds, a shotgun and ammunition, and a stolen motorcycle; one man was detained.",
+  "context_en": "[O] The 13 November environmental patrol recorded three vernacular bird groups held without permission. Birds, shotgun, ammunition and a motorcycle reported stolen were encountered in the same intervention, indicating co-occurring offences but not proving a single trafficking organisation. Four birds were released after assessment and two parrots remained in specialised custody.\n\n[S] A study of 271 seizure reports in Mato Grosso do Sul (2017–2021) identified *Amazona aestiva* among the most frequently seized taxa and differences in enforcement records; this is a species-level comparison, not a connection to the Buritis case.",
+  "references_text_en": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "Number of individual animals, not product weights.",
+  "location_label_es": "Buritis, Minas Gerais, Brasil",
+  "geographic_note_es": "Coordenadas de referencia de la localidad, no del punto exacto de incautación.",
+  "title_es": "Patrulla ambiental encuentra seis aves sin autorización, arma y motocicleta robada en Buritis",
+  "fauna_label_es": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 loros de frente azul)",
+  "card_text_es": "El 13/11 agentes incautaron seis aves cautivas sin permiso, escopeta y municiones y recuperaron motocicleta robada; hubo un detenido.",
+  "context_es": "[O] La actuación ambiental del 13/11 encontró tres grupos de aves mantenidas sin permiso. La coexistencia de aves, escopeta, municiones y motocicleta con reporte de robo evidencia infracciones concurrentes, pero no una organización de tráfico común. Cuatro aves fueron liberadas tras su evaluación y dos loros quedaron bajo custodia especializada.\n\n[S] Un estudio de 271 actas de decomiso de Mato Grosso do Sul (2017–2021) señaló a *Amazona aestiva* entre los taxones más incautados y diferencias entre registros de organismos; es una comparación taxonómica, no una conexión probada con Buritis.",
+  "references_text_es": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "Número de animales individuales, no peso de productos."
+}
