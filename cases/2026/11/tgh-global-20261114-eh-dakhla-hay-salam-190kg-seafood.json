@@ -33,8 +33,8 @@
   "image_source_url": null,
   "image_status": "NOT_VALIDATED",
   "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-  "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
-  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "case_context_status": "PT_EN_ES_OSINT_RESTRUCTURED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_relevance_and_source_verified",
   "is_exact_seizure_position": false,
   "context_references": [
     {
@@ -48,23 +48,33 @@
       "type": "case_source",
       "label": "Relato corroborativo da ocorrência",
       "url": "https://www.dakhlanews.com/65939/"
+    },
+    {
+      "id": "T",
+      "type": "technical",
+      "label": "Secretariado de Estado das Pescas Marítimas, decisão PLP-11/26 (07/09/2026), documentada por LeBrief",
+      "url": "https://www.lebrief.ma/peche-le-poulpe-interdit-pendant-plus-de-trois-mois-sur-le-littoral-national-100164994/"
     }
   ],
   "context_evidence_audit": {
     "review_date": "2026-11-15",
     "categories_present": [
-      "O"
+      "O",
+      "T"
     ],
     "scientific_sources_restricted_to_research_papers_json": true,
-    "journalistic_references_distinct_from_event_fact_sources": true
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
   },
   "location_label_pt": "Hay Salam, Dakhla, Saara Ocidental (território disputado)",
   "geographic_note_pt": "Coordenada aproximada de referência, não local exato da apreensão.",
   "title_pt": "Fiscalização encontra 190 kg de polvo e lula em depósito de Dakhla",
   "fauna_label_pt": "50 kg de polvo e 140 kg de lula; indivíduos desconhecidos",
   "card_text_pt": "Em 14/11, fiscalização apreendeu 50 kg de polvo e 140 kg de lula em depósito comercial de Hay Salam; auto de infração contra comerciante atacadista.",
-  "context_pt": "[O] A apreensão em depósito atacadista revela uma etapa de armazenamento comercial de 50 kg de polvo e 140 kg de lula, distinta da abordagem de veículo em El Argoub. O depósito não comprova por si o local ou método de captura, nem demonstra que o produto veio do mesmo fornecedor do outro caso. A avaliação de possível comercialização irregular depende de notas de aquisição, registros de estoque, licenças, fornecedores e vendas; a notícia documenta auto de infração, não rede criminosa ou rota internacional.",
-  "references_text_pt": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+  "context_pt": "[O] A apreensão no depósito atacadista documenta estocagem comercial de 50 kg de polvo e 140 kg de lula e autuação do comerciante. Não foi estabelecido que a mercadoria provinha da abordagem rodoviária de El Argoub ou de um fornecedor comum; também não foram divulgados local de captura ou documentos de estoque.\n\n[T] A decisão pesqueira PLP-11/26 suspendeu a pesca de polvo entre 10/09 e 15/12/2026. Essa restrição oferece enquadramento técnico específico para a parcela de 50 kg de polvo, mas não torna automaticamente irregulares os 140 kg de lula, cuja situação exige fundamento regulatório próprio. O procedimento registrado é uma infração em estabelecimento atacadista; a notícia não comprova uma rede de tráfico, destino de exportação ou rota de transporte.",
+  "references_text_pt": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/\n[T] Secretariado de Estado das Pescas Marítimas, decisão PLP-11/26 (07/09/2026), documentada por LeBrief — https://www.lebrief.ma/peche-le-poulpe-interdit-pendant-plus-de-trois-mois-sur-le-littoral-national-100164994/",
   "modal_label_pt": "Não informado",
   "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
   "location_label_en": "Hay Salam, Dakhla, Western Sahara (disputed territory)",
@@ -72,8 +82,8 @@
   "title_en": "Inspectors find 190 kg of octopus and squid in Dakhla warehouse",
   "fauna_label_en": "50 kg of octopus and 140 kg of squid; individual count unknown",
   "card_text_en": "On 14 November inspectors seized 50 kg of octopus and 140 kg of squid from a Hay Salam warehouse and issued a violation report to a wholesale fish merchant.",
-  "context_en": "[O] Seizure at a wholesale warehouse identifies a commercial storage stage involving 50 kg of octopus and 140 kg of squid, separate from the vehicle stop in El Argoub. Storage does not establish capture site or method, or prove that both cases shared a supplier. Assessing illicit distribution would require purchase invoices, stock records, licences, suppliers and sales; the report documents an administrative violation, not a criminal network or international route.",
-  "references_text_en": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+  "context_en": "[O] The wholesale warehouse seizure documents commercial storage of 50 kg of octopus and 140 kg of squid and an infringement report against the merchant. Nothing in the reports establishes that this stock came from the El Argoub roadside interception or a shared supplier; capture grounds and stock documents were not disclosed.\n\n[T] Fisheries decision PLP-11/26 suspended octopus fishing from 10 September to 15 December 2026. That is specific regulatory context for the 50 kg of octopus, but it does not automatically establish an offence involving the 140 kg of squid, which would require its own applicable rule and evidence. An infringement at a wholesale facility is documented; a trafficking network, export market and shipment route are not.",
+  "references_text_en": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/\n[T] Secretariado de Estado das Pescas Marítimas, decisão PLP-11/26 (07/09/2026), documentada por LeBrief — https://www.lebrief.ma/peche-le-poulpe-interdit-pendant-plus-de-trois-mois-sur-le-littoral-national-100164994/",
   "modal_label_en": "Not reported",
   "quantity_note_en": "Product weight; individual animals not known.",
   "location_label_es": "Hay Salam, Dajla, Sáhara Occidental (territorio disputado)",
@@ -81,8 +91,8 @@
   "title_es": "Inspectores encuentran 190 kg de pulpo y calamar en almacén de Dajla",
   "fauna_label_es": "50 kg de pulpo y 140 kg de calamar; individuos desconocidos",
   "card_text_es": "El 14/11 inspectores incautaron 50 kg de pulpo y 140 kg de calamar en almacén de Hay Salam y levantaron acta contra un mayorista.",
-  "context_es": "[O] El decomiso en un almacén mayorista documenta almacenamiento comercial de 50 kg de pulpo y 140 kg de calamar, distinto del control de vehículo en El Argoub. El depósito no prueba lugar ni método de captura ni proveedor común. Evaluar distribución irregular requiere facturas, inventario, licencias, proveedores y ventas; la noticia acredita un acta de infracción, no red criminal ni ruta internacional.",
-  "references_text_es": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/",
+  "context_es": "[O] El decomiso en almacén mayorista documenta 50 kg de pulpo y 140 kg de calamar almacenados comercialmente y un acta de infracción contra el comerciante. No consta que el producto proviniera del vehículo interceptado en El Argoub ni un proveedor común; tampoco se publicaron caladero ni documentos de existencias.\n\n[T] La decisión pesquera PLP-11/26 suspendió la pesca de pulpo entre el 10/9 y el 15/12/2026. Es contexto regulatorio específico para los 50 kg de pulpo, pero no demuestra automáticamente infracción por los 140 kg de calamar, que requieren norma y pruebas propias. Se documentó un acta en local mayorista, no red de tráfico, mercado de exportación ni ruta de envío.",
+  "references_text_es": "[O] Dakhla TV / Dakhla News — 14/11/2026 — https://www.dakhlatv.com/news-57023\n[O] Relato corroborativo da ocorrência — https://www.dakhlanews.com/65939/\n[T] Secretariado de Estado das Pescas Marítimas, decisão PLP-11/26 (07/09/2026), documentada por LeBrief — https://www.lebrief.ma/peche-le-poulpe-interdit-pendant-plus-de-trois-mois-sur-le-littoral-national-100164994/",
   "modal_label_es": "No informado",
   "quantity_note_es": "Peso de producto; número de animales desconocido."
 }

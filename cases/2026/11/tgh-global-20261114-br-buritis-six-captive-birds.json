@@ -35,8 +35,8 @@
   "image_source_url": null,
   "image_status": "NOT_VALIDATED",
   "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-  "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
-  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "case_context_status": "PT_EN_ES_OSINT_RESTRUCTURED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_relevance_and_source_verified",
   "is_exact_seizure_position": false,
   "editorial_qa_note_pt": "Seis indivíduos vivos (não seis tipos). Arma e motocicleta não são prova de rede coordenada.",
   "context_references": [
@@ -55,14 +55,20 @@
     {
       "id": "S",
       "type": "scientific",
-      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil",
+      "label": "Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026)",
       "url": "https://doi.org/10.1111/acv.70052"
+    },
+    {
+      "id": "I",
+      "type": "institutional",
+      "label": "WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil, art. 29, §1º, III",
+      "url": "https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view"
     },
     {
       "id": "N",
       "type": "journalistic_context",
-      "label": "Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio",
-      "url": "https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html"
+      "label": "((o))eco (2023), Criação amadora abastece o contrabando de aves (documentação Ibama)",
+      "url": "https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/"
     }
   ],
   "context_evidence_audit": {
@@ -70,18 +76,22 @@
     "categories_present": [
       "O",
       "S",
+      "I",
       "N"
     ],
     "scientific_sources_restricted_to_research_papers_json": true,
-    "journalistic_references_distinct_from_event_fact_sources": true
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
   },
   "location_label_pt": "Buritis, Minas Gerais, Brasil",
   "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
   "title_pt": "Fiscalização encontra seis aves silvestres sem autorização, arma e motocicleta roubada em Buritis",
   "fauna_label_pt": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 papagaios-verdadeiros)",
   "card_text_pt": "Fiscalização de 13/11 apreendeu seis aves em cativeiro sem autorização, uma espingarda e munições, além de recuperar motocicleta roubada; um homem foi detido.",
-  "context_pt": "[O] A fiscalização revelou manutenção irregular de aves junto de uma arma e uma motocicleta com registro de roubo. Trata-se de convergência de infrações observadas no mesmo procedimento, sem prova de que os objetos sustentassem uma cadeia comum de captura, transporte ou comercialização. A distinção entre aves liberadas e papagaios encaminhados à custódia é relevante para rastreabilidade e eventual identificação individual.\n\n[S] O estudo de 271 registros de apreensão em Mato Grosso do Sul identificou *Amazona aestiva* entre os táxons mais frequentes e mostrou como bases fragmentadas dificultam análises integradas; os dados são comparativos e não descrevem os exemplares de Buritis. Outro estudo brasileiro, com isótopos estáveis em penas de 58 espécies de passeriformes, demonstra potencial forense para distinguir origem silvestre e cativeiro em determinados contextos, sem permitir inferência direta sobre estas seis aves.\n\n[N] Investigação jornalística sobre comércio de fauna em grupos de mensagens no Rio de Janeiro documentou anúncios, negociação de preços e combinação de entregas, ilustrando uma via de escoamento que pode orientar buscas OSINT quando houver indícios digitais neste caso; a reportagem não vincula os envolvidos de Buritis a esses grupos.",
-  "references_text_pt": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio — https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html",
+  "context_pt": "[O] As seis aves eram mantidas sem autorização, e quatro foram soltas enquanto os dois papagaios seguiram para custódia. Arma, munições e motocicleta roubada foram encontradas na mesma fiscalização; essa coexistência não demonstra que tenham servido à captura ou ao comércio de aves.\n\n[S] Em 271 registros de apreensão (MS, 2017–2021), Wendt-Oliveira et al. identificaram *Amazona aestiva* como espécie frequentemente apreendida, oferecendo comparação específica para os papagaios de Buritis. Outro estudo, com 657 penas de 58 espécies de Thraupidae no Brasil, demonstrou aplicação de isótopos estáveis para investigar origem silvestre/cativa de passeriformes; não houve esse exame nos exemplares deste caso.\n\n[I] O relatório jurídico elaborado para a WCS Brasil (2021) distingue guarda ou cativeiro sem licença da venda: ambas são condutas previstas no art. 29, §1º, III, da Lei 9.605/1998. A notícia comprova manutenção irregular, não comercialização.\n\n[N] Reportagem de ((o))eco baseada em diagnóstico do Ibama descreve como registros falsos de fuga ou nascimento e anilhas podem facilitar a incorporação de aves retiradas da natureza a plantéis aparentemente regulares. É um mecanismo documental conhecido, não fraude demonstrada em Buritis.",
+  "references_text_pt": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052\n[I] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil, art. 29, §1º, III — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[N] ((o))eco (2023), Criação amadora abastece o contrabando de aves (documentação Ibama) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
   "modal_label_pt": "Não informado",
   "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
   "location_label_en": "Buritis, Minas Gerais, Brazil",
@@ -89,8 +99,8 @@
   "title_en": "Environmental patrol finds six illegally kept birds, a firearm and a stolen motorcycle in Buritis",
   "fauna_label_en": "6 live birds (2 patativa-tropeira, 2 papa-capim-baiano, 2 blue-fronted parrots)",
   "card_text_en": "On 13 November officers recovered six unlawfully captive wild birds, a shotgun and ammunition, and a stolen motorcycle; one man was detained.",
-  "context_en": "[O] Officers found unlawfully kept birds alongside a firearm and a motorcycle reported stolen. These are concurrent offences observed during one intervention, not proof that the objects supported a common capture, transport or sales network. Distinguishing released birds from parrots retained in custody matters for traceability and individual identification.\n\n[S] Analysis of 271 wildlife-seizure records in Mato Grosso do Sul found *Amazona aestiva* among frequently recorded taxa and showed how fragmented agency datasets complicate integrated assessment; these are comparative data, not findings about the Buritis birds. A separate Brazilian stable-isotope study using feathers from 58 songbird species demonstrates potential to distinguish wild and captive origin in some settings, without identifying the origin of these six individuals.\n\n[N] Investigative reporting on wildlife sales in Rio de Janeiro messaging groups documented advertisements, price negotiations and delivery arrangements. Such methods suggest a possible OSINT avenue only if digital evidence emerges in Buritis; the reporting establishes no connection to its suspects.",
-  "references_text_en": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio — https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html",
+  "context_en": "[O] All six birds were held without authorisation; four were released and two parrots retained for specialised custody. Firearm, ammunition and a stolen motorcycle were found during the same inspection, which does not show that they were used to capture or trade birds.\n\n[S] Examining 271 seizure reports (Mato Grosso do Sul, 2017–2021), Wendt-Oliveira and colleagues found *Amazona aestiva* among frequently seized taxa, a species-specific comparison for the Buritis parrots. Another Brazilian study analysed 657 feathers from 58 Thraupidae species and showed how stable isotopes can inform wild-versus-captive origin assessments in songbirds; the Buritis birds were not tested.\n\n[I] A legal assessment prepared for WCS Brazil (2021) distinguishes unlicensed possession or captivity from sale: both are covered by Article 29(1)(III) of Law 9,605/1998. The news documents unauthorised keeping, not an actual sale.\n\n[N] ((o))eco's investigation drawing on an Ibama assessment describes how false records of escape or breeding and leg rings can facilitate laundering wild-caught birds into apparently legal breeding inventories. That is a documented regulatory vulnerability, not evidence of such fraud in Buritis.",
+  "references_text_en": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052\n[I] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil, art. 29, §1º, III — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[N] ((o))eco (2023), Criação amadora abastece o contrabando de aves (documentação Ibama) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
   "modal_label_en": "Not reported",
   "quantity_note_en": "Number of individual animals, not product weights.",
   "location_label_es": "Buritis, Minas Gerais, Brasil",
@@ -98,8 +108,8 @@
   "title_es": "Patrulla ambiental encuentra seis aves sin autorización, arma y motocicleta robada en Buritis",
   "fauna_label_es": "6 aves vivas (2 patativas-tropeiras, 2 papa-capins-baianos, 2 loros de frente azul)",
   "card_text_es": "El 13/11 agentes incautaron seis aves cautivas sin permiso, escopeta y municiones y recuperaron motocicleta robada; hubo un detenido.",
-  "context_es": "[O] La fiscalización encontró aves mantenidas sin autorización junto a un arma y una motocicleta denunciada como robada. Son infracciones concurrentes en una misma actuación, no prueba de una red común de captura, transporte o venta. Distinguir aves liberadas de loros bajo custodia importa para la trazabilidad e identificación individual.\n\n[S] Un análisis de 271 decomisos en Mato Grosso do Sul identificó *Amazona aestiva* entre los taxones frecuentes y mostró dificultades derivadas de bases institucionales fragmentadas; son datos comparativos, no hallazgos sobre Buritis. Otro estudio brasileño con isótopos estables de plumas de 58 especies de aves canoras presenta posibilidades forenses para distinguir origen silvestre y cautivo en ciertos contextos, sin identificar el origen de estos seis individuos.\n\n[N] Un reportaje de investigación sobre venta de fauna en grupos de mensajería de Río de Janeiro documentó anuncios, negociación de precios y entregas. Este mecanismo puede orientar OSINT si surgen indicios digitales en Buritis; no existe vínculo demostrado con los investigados.",
-  "references_text_es": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil — https://doi.org/10.1111/acv.70052\n[N] Diário do Rio (2026), Grupos de mensagens viram mercado para o tráfico de animais silvestres no Rio — https://www.diariodorio.com/meio-ambiente/2026/09/03/grupos-de-mensagens-viram-mercado-para-o-trafico-de-animais-silvestres-no-rio.html",
+  "context_es": "[O] Las seis aves se mantenían sin permiso; cuatro fueron liberadas y dos loros quedaron en custodia especializada. Arma, munición y motocicleta robada aparecieron en la misma fiscalización, sin que ello pruebe su uso para capturar o vender aves.\n\n[S] A partir de 271 actas de decomiso (Mato Grosso do Sul, 2017–2021), Wendt-Oliveira y colegas identificaron *Amazona aestiva* entre los taxones frecuentemente incautados, comparación específica para los loros de Buritis. Otro estudio brasileño analizó 657 plumas de 58 especies de Thraupidae y mostró el uso de isótopos estables para estudiar origen silvestre o cautivo de paseriformes; los ejemplares del caso no fueron analizados.\n\n[I] Un análisis jurídico elaborado para WCS Brasil (2021) distingue la tenencia/cautiverio sin licencia de la venta: ambas conductas están previstas en el artículo 29, §1º, III, de la Ley 9.605/1998. La noticia documenta cautiverio irregular, no venta.\n\n[N] Una investigación de ((o))eco basada en diagnóstico del Ibama explica cómo registros falsos de escapes o nacimientos y anillas pueden introducir aves silvestres en planteles aparentemente legales. Es una vulnerabilidad documentada, no prueba de fraude en Buritis.",
+  "references_text_es": "[O] Jornal de Minas / Polícia Militar de Meio Ambiente — 14/11/2026 — https://jornaldeminas.com.br/operacao-da-pm-apreende-aves-silvestres-arma-e-recupera-motocicleta-em-buritis/\n[S] Wendt-Oliveira et al. (2026), Characterization of wildlife trafficking seizures in a biodiversity hotspot in Brazil — https://doi.org/10.1590/1809-4422asoc01641vu29L29OA\n[S] Stable Isotope Analysis as a Tool to Prevent Illicit Wildlife Trade of Songbirds in Brazil (2026) — https://doi.org/10.1111/acv.70052\n[I] WCS Brasil (2021), Análise Jurídica do Tráfico de Animais Silvestres no Brasil, art. 29, §1º, III — https://drive.google.com/file/d/1QQK_-oncctx8xQNeR78vGdectD_avYuk/view\n[N] ((o))eco (2023), Criação amadora abastece o contrabando de aves (documentação Ibama) — https://oeco.org.br/reportagens/criacao-amadora-abastece-o-contrabando-de-aves/",
   "modal_label_es": "No informado",
   "quantity_note_es": "Número de animales individuales, no peso de productos."
 }

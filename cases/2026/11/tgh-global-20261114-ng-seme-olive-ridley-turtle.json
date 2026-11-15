@@ -35,8 +35,8 @@
   "image_source_url": null,
   "image_status": "NOT_VALIDATED",
   "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-  "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
-  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "case_context_status": "PT_EN_ES_OSINT_RESTRUCTURED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_relevance_and_source_verified",
   "is_exact_seizure_position": false,
   "editorial_qa_note_pt": "Ocorrência de 12/11; comunicado da aduana em 13/11 e reportagens adicionais em 14/11. Elegível pelo critério de publicação no recorte.",
   "context_references": [
@@ -51,23 +51,39 @@
       "type": "case_source",
       "label": "Corroboração do caso — 14/11/2026",
       "url": "https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/"
+    },
+    {
+      "id": "T",
+      "type": "technical",
+      "label": "CMS, Olive ridley sea turtle: species status and Atlantic coast conservation",
+      "url": "https://atlantic-turtles.cms.int/species/lepidochelys-olivacea"
+    },
+    {
+      "id": "T",
+      "type": "technical",
+      "label": "CMS, Atlantic Turtles Memorandum of Understanding (Nigeria and Benin signatories)",
+      "url": "https://dugong.cms.int/legalinstrument/atlantic-turtles-mou"
     }
   ],
   "context_evidence_audit": {
     "review_date": "2026-11-15",
     "categories_present": [
-      "O"
+      "O",
+      "T"
     ],
     "scientific_sources_restricted_to_research_papers_json": true,
-    "journalistic_references_distinct_from_event_fact_sources": true
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
   },
   "location_label_pt": "Seme, fronteira Nigéria–Benim (referência geral)",
   "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
   "title_pt": "Aduana recupera tartaruga-oliva viva em trilha na fronteira Nigéria–Benim",
   "fauna_label_pt": "1 tartaruga-oliva viva (*Lepidochelys olivacea*)",
   "card_text_pt": "Em 12/11, indivíduo abandonou saco com uma tartaruga-oliva viva ao avistar patrulha aduaneira em trilha de fronteira; fugiu.",
-  "context_pt": "[O] O uso de trilha não oficial na fronteira e o abandono do saco ao avistar agentes indicam tentativa de evitar controle, mas não comprovam travessia concluída nem sentido Nigéria–Benim. A natureza viva da carga torna relevantes a avaliação veterinária, a cadeia de custódia e a confirmação da identificação taxonômica declarada. Para uma hipótese de tráfico transfronteiriço, seriam necessários indícios independentes de ponto de captura, destino e contato com receptadores; o local da apreensão, isoladamente, não demonstra essas etapas.",
-  "references_text_pt": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+  "context_pt": "[O] A apreensão ocorreu em uma passagem informal utilizada entre Nigéria e Benim. O saco abandonado e a fuga são indicadores de tentativa de ocultação, mas não comprovam sentido de travessia, ponto de captura ou destinatário; não há fundamento para desenhar uma rota bilateral. A aduana informou guarda do animal e encaminhamento para cuidados especializados.\n\n[T] O memorando da Convenção sobre Espécies Migratórias para tartarugas marinhas da costa atlântica africana abrange as águas de Nigéria e Benim, ambos signatários; a espécie *Lepidochelys olivacea* figura nos Apêndices I e II da CMS e é avaliada como Vulnerável pela IUCN. A mobilidade natural dessa tartaruga impede deduzir origem de captura apenas da localização terrestre da apreensão. O caso evidencia possível circulação ilícita em corredor fronteiriço, não um fluxo internacional comprovado.",
+  "references_text_pt": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/\n[T] CMS, Olive ridley sea turtle: species status and Atlantic coast conservation — https://atlantic-turtles.cms.int/species/lepidochelys-olivacea\n[T] CMS, Atlantic Turtles Memorandum of Understanding (Nigeria and Benin signatories) — https://dugong.cms.int/legalinstrument/atlantic-turtles-mou",
   "modal_label_pt": "A pé / trilha",
   "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
   "location_label_en": "Seme, Nigeria–Benin border (general reference)",
@@ -75,8 +91,8 @@
   "title_en": "Customs recover a live olive ridley turtle on the Nigeria–Benin border",
   "fauna_label_en": "1 live olive ridley sea turtle (*Lepidochelys olivacea*)",
   "card_text_en": "On 12 November a person abandoned a sack containing one live olive ridley turtle after seeing customs officers on a border footpath, then escaped.",
-  "context_en": "[O] Use of an informal border footpath and abandonment of the sack upon seeing officers suggest avoidance of inspection, but do not establish a completed crossing or Nigeria–Benin travel direction. A live animal makes veterinary assessment, evidence custody and confirmation of the reported taxonomic identification especially important. A transboundary-trafficking hypothesis requires independent evidence of capture site, destination and receivers; seizure near a border alone cannot establish those stages.",
-  "references_text_en": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+  "context_en": "[O] Officers recovered the animal on an informal footpath linking Nigeria and Benin. Abandonment of the concealed sack and the carrier's flight indicate evasive behaviour, but do not establish crossing direction, capture site or recipient; a bilateral route would be unsupported. Customs reported securing the turtle for transfer to wildlife care.\n\n[T] The Convention on Migratory Species' Atlantic-coast marine turtle agreement covers both Nigeria and Benin, which are signatories. *Lepidochelys olivacea* is listed under CMS Appendices I and II and assessed as Vulnerable by IUCN. Its natural marine migrations make a terrestrial border seizure insufficient to infer where it was captured. The event indicates possible illicit movement through a border corridor, not a verified international shipment.",
+  "references_text_en": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/\n[T] CMS, Olive ridley sea turtle: species status and Atlantic coast conservation — https://atlantic-turtles.cms.int/species/lepidochelys-olivacea\n[T] CMS, Atlantic Turtles Memorandum of Understanding (Nigeria and Benin signatories) — https://dugong.cms.int/legalinstrument/atlantic-turtles-mou",
   "modal_label_en": "On foot / footpath",
   "quantity_note_en": "Number of individual animals, not product weights.",
   "location_label_es": "Seme, fronteira Nigéria–Benim (referência geral)",
@@ -84,8 +100,8 @@
   "title_es": "Aduanas recuperan una tortuga golfina viva en la frontera Nigeria–Benín",
   "fauna_label_es": "1 tortuga golfina viva (*Lepidochelys olivacea*)",
   "card_text_es": "El 12/11 una persona abandonó un saco con una tortuga golfina viva al detectar a la patrulla aduanera en un sendero fronterizo y huyó.",
-  "context_es": "[O] El uso de un sendero informal fronterizo y el abandono del saco ante los agentes sugieren evasión del control, pero no demuestran cruce consumado ni dirección Nigeria–Benín. Al tratarse de un animal vivo, importan la evaluación veterinaria, la custodia de evidencias y la confirmación de la identificación taxonómica comunicada. La hipótesis de tráfico transfronterizo exige pruebas independientes del lugar de captura, destino y receptores; el lugar de decomiso no acredita esas etapas.",
-  "references_text_es": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/",
+  "context_es": "[O] Los agentes recuperaron el animal en un sendero informal que comunica Nigeria y Benín. El abandono del saco oculto y la huida sugieren evasión, pero no prueban sentido del cruce, lugar de captura ni destinatario; una ruta bilateral sería infundada. La Aduana informó la custodia y traslado previsto a atención especializada.\n\n[T] El memorando de la Convención sobre Especies Migratorias para tortugas marinas de la costa atlántica africana comprende Nigeria y Benín, ambos signatarios. *Lepidochelys olivacea* figura en los Apéndices I y II de la CMS y está clasificada como Vulnerable por la UICN. Sus migraciones marinas impiden inferir el origen de captura a partir del lugar terrestre del decomiso. El caso indica posible movimiento ilícito en un corredor fronterizo, no un envío internacional verificado.",
+  "references_text_es": "[O] Voice of Nigeria / Eye Witness News — 14/11/2026 — https://von.gov.ng/seme-customs-renews-crackdown-on-wildlife-trafficking/\n[O] Corroboração do caso — 14/11/2026 — https://theeyewitnessnews.com/2026/11/14/seme-customs-intercepts-live-olive-ridley-sea-turtle-reaffirms-commitment-to-combating-wildlife-trafficking/\n[T] CMS, Olive ridley sea turtle: species status and Atlantic coast conservation — https://atlantic-turtles.cms.int/species/lepidochelys-olivacea\n[T] CMS, Atlantic Turtles Memorandum of Understanding (Nigeria and Benin signatories) — https://dugong.cms.int/legalinstrument/atlantic-turtles-mou",
   "modal_label_es": "A pie / sendero",
   "quantity_note_es": "Número de animales individuales, no peso de productos."
 }

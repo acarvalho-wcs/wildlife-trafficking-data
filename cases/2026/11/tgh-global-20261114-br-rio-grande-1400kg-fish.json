@@ -33,8 +33,8 @@
   "image_source_url": null,
   "image_status": "NOT_VALIDATED",
   "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-  "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
-  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "case_context_status": "PT_EN_ES_OSINT_RESTRUCTURED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_relevance_and_source_verified",
   "is_exact_seizure_position": false,
   "editorial_qa_note_pt": "1.400 kg de filés, quantidade de animais não determinada. Trajeto rodoviário descrito pela Patram e evidência de origem atribuída.",
   "context_references": [
@@ -49,23 +49,33 @@
       "type": "case_source",
       "label": "Corroboração do caso — 14/11/2026",
       "url": "https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco"
+    },
+    {
+      "id": "T",
+      "type": "technical",
+      "label": "MMA/SEAP, Instrução Normativa Conjunta 2/2004, arts. 7, 9 e 11 (ICMBio/CEPSUL)",
+      "url": "https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2004/in_mma_seap_02_2004_atividadepescalagoasmirimmangueira_rs_altd_in_conj_2_2008.pdf"
     }
   ],
   "context_evidence_audit": {
     "review_date": "2026-11-15",
     "categories_present": [
-      "O"
+      "O",
+      "T"
     ],
     "scientific_sources_restricted_to_research_papers_json": true,
-    "journalistic_references_distinct_from_event_fact_sources": true
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
   },
   "location_label_pt": "BR-471, Rio Grande, Rio Grande do Sul, Brasil (referência municipal)",
   "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
   "title_pt": "Patram intercepta cerca de 1.400 kg de pescado irregular na BR-471",
   "fauna_label_pt": "cerca de 1.400 kg de filés de traíra e viola; indivíduos desconhecidos",
   "card_text_pt": "Na noite de 13/11, caminhonete foi interceptada na BR-471 no sentido Santa Vitória do Palmar–Rio Grande com cerca de 1,4 t de filés sem documentação; motorista preso.",
-  "context_pt": "[O] A carga fracionada em filés e transportada sem documentação de origem ou inspeção sanitária combina indícios de pesca em defeso e de circulação comercial sem rastreabilidade. O sentido Santa Vitória do Palmar → Rio Grande na BR-471 é deslocamento observado, enquanto a atribuição às lagoas Mirim e Mangueira é informação sobre possível procedência, não rota de extração comprovada. A investigação de cadeia de fornecimento depende de registros de desembarque, notas fiscais, cadeia de frio, proprietários da carga e destinatários; a apreensão isolada não identifica compradores ou organização criminosa. O peso de 1,4 t não permite estimar número de peixes.",
-  "references_text_pt": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+  "context_pt": "[O] A denúncia que levou à abordagem, o produto já beneficiado em filés, a ausência de nota fiscal e de evidências de inspeção sanitária apontam para uma etapa de transporte potencialmente comercial, para além da captura irregular atribuída pela Patram às lagoas Mirim e Mangueira. A direção Santa Vitória do Palmar → Rio Grande foi observada na BR-471, mas não identifica o local preciso da pesca nem o comprador. A prisão também incluiu possível crime contra as relações de consumo, dimensão distinta da infração pesqueira.\n\n[T] A Instrução Normativa Conjunta MMA/SEAP nº 2/2004, art. 7º, estabelece defeso anual de 1º/11 a 31/01 nas lagoas Mirim, Mangueira e tributários. Os arts. 9º e 11 preveem licenciamento e registros de produção pesqueira, parâmetros concretos para confrontar procedência alegada e desembarques com a carga apreendida. Os 1.400 kg permanecem peso de filés, sem estimativa de indivíduos.",
+  "references_text_pt": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco\n[T] MMA/SEAP, Instrução Normativa Conjunta 2/2004, arts. 7, 9 e 11 (ICMBio/CEPSUL) — https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2004/in_mma_seap_02_2004_atividadepescalagoasmirimmangueira_rs_altd_in_conj_2_2008.pdf",
   "modal_label_pt": "Rodoviário",
   "quantity_note_pt": "Peso de produto; não inferir indivíduos.",
   "location_label_en": "BR-471, Rio Grande, Rio Grande do Sul, Brazil (city reference)",
@@ -73,8 +83,8 @@
   "title_en": "Environmental police intercept about 1,400 kg of illicit fish on BR-471",
   "fauna_label_en": "about 1,400 kg of traíra and viola fish fillets; individual count unknown",
   "card_text_en": "On 13 November a vehicle travelling towards Rio Grande from Santa Vitória do Palmar carried about 1.4 tonnes of undocumented fish fillets; the driver was arrested.",
-  "context_en": "[O] Filleted fish moved without provenance or sanitary-inspection records combines indicators of closed-season fishing and an untraceable commercial supply stage. Travel towards Rio Grande on BR-471 is an observed direction, whereas attribution to the Mirim and Mangueira lagoons is reported possible provenance, not a proven harvesting route. Supply-chain reconstruction would require landing records, invoices, cold-chain documentation, cargo ownership and intended recipients; the seizure alone does not identify buyers or organised crime. A 1.4-tonne weight cannot be converted into individual fish.",
-  "references_text_en": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+  "context_en": "[O] The tip-off preceding the stop, already-filleted fish, missing invoice and lack of evidence of sanitary inspection indicate a likely distribution stage, beyond harvesting attributed by environmental police to the Mirim and Mangueira lagoons. Travel on BR-471 from Santa Vitória do Palmar towards Rio Grande was observed, but neither the precise fishing location nor a buyer is identified. The arrest also involved a possible consumer-protection offence distinct from the fisheries breach.\n\n[T] Joint MMA/SEAP Normative Instruction 2/2004, Article 7, establishes an annual 1 November–31 January fishing closure in the Mirim and Mangueira lagoons and tributaries. Articles 9 and 11 prescribe licensing and fishing records, providing specific benchmarks against which asserted provenance and landings could be checked. The approximately 1,400 kg is fillet weight, not an animal count.",
+  "references_text_en": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco\n[T] MMA/SEAP, Instrução Normativa Conjunta 2/2004, arts. 7, 9 e 11 (ICMBio/CEPSUL) — https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2004/in_mma_seap_02_2004_atividadepescalagoasmirimmangueira_rs_altd_in_conj_2_2008.pdf",
   "modal_label_en": "Road",
   "quantity_note_en": "Weight of product; do not infer individuals.",
   "location_label_es": "BR-471, Rio Grande, Rio Grande do Sul, Brasil (referência municipal)",
@@ -82,8 +92,8 @@
   "title_es": "Policía ambiental intercepta unos 1.400 kg de pescado irregular en la BR-471",
   "fauna_label_es": "aproximadamente 1.400 kg de filetes de traíra y viola; número de peces desconocido",
   "card_text_es": "El 13/11 un vehículo hacia Rio Grande desde Santa Vitória do Palmar llevaba unas 1,4 t de filetes de pescado sin documentos; conductor detenido.",
-  "context_es": "[O] Los filetes transportados sin documentos de procedencia ni inspección sanitaria combinan indicios de pesca durante veda y circulación comercial sin trazabilidad. La dirección hacia Rio Grande por la BR-471 fue observada; la atribución a las lagunas Mirim y Mangueira es posible procedencia informada, no ruta de extracción probada. Reconstruir la cadena exige registros de desembarque, facturas, cadena de frío, titularidad y destinatarios; el decomiso no identifica compradores ni crimen organizado. El peso de 1,4 t no permite estimar individuos.",
-  "references_text_es": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco",
+  "context_es": "[O] La denuncia previa al control, los filetes ya procesados, la ausencia de factura y la falta de indicios de inspección sanitaria apuntan a una fase de distribución, más allá de la extracción atribuida por la policía a las lagunas Mirim y Mangueira. Se observó el movimiento por la BR-471 desde Santa Vitória do Palmar hacia Rio Grande, sin identificar el punto exacto de pesca ni comprador. La detención incluyó además posible infracción contra las relaciones de consumo, distinta de la pesquera.\n\n[T] La Instrucción Normativa Conjunta MMA/SEAP 2/2004, artículo 7, establece veda anual del 1/11 al 31/01 en las lagunas Mirim, Mangueira y tributarios. Los artículos 9 y 11 prevén licencias y registros de pesca, criterios concretos para contrastar origen declarado y desembarques con la carga. Los aproximadamente 1.400 kg son peso de filetes, no número de peces.",
+  "references_text_es": "[O] A Hora do Sul / PATRAM Brigada Militar — 14/11/2026 — https://ahoradosul.com.br/conteudos/2026/11/14/uma-tonelada-e-meia-de-pescado-irregular-e-apreendida-em-rio-grande/\n[O] Corroboração do caso — 14/11/2026 — https://rdfoco.com.br/noticia/116377/bm-prende-homem-por-transporte-de-pescado-em-periodo-de-defeso-e-crime-contra-as-relacoes-de-consumo-com-cerca-de-1-4-tonelada-de-pescado-em-rio-grande-rd-foco\n[T] MMA/SEAP, Instrução Normativa Conjunta 2/2004, arts. 7, 9 e 11 (ICMBio/CEPSUL) — https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Instrucao_normativa/2004/in_mma_seap_02_2004_atividadepescalagoasmirimmangueira_rs_altd_in_conj_2_2008.pdf",
   "modal_label_es": "Carretera",
   "quantity_note_es": "Peso del producto; no inferir individuos."
 }

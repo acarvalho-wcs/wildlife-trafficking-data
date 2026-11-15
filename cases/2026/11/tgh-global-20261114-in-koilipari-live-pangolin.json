@@ -35,8 +35,8 @@
   "image_source_url": null,
   "image_status": "NOT_VALIDATED",
   "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-  "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
-  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
+  "case_context_status": "PT_EN_ES_OSINT_RESTRUCTURED_2026_11_15",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_relevance_and_source_verified",
   "is_exact_seizure_position": false,
   "editorial_qa_note_pt": "Ocorrência 13/11 e publicação 14/11. Fontes diferem sobre número de motocicletas, não sobre o animal apreendido.",
   "context_references": [
@@ -53,28 +53,31 @@
       "url": "https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/"
     },
     {
-      "id": "N",
-      "type": "journalistic_context",
-      "label": "Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks",
-      "url": "https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/"
+      "id": "T",
+      "type": "technical",
+      "label": "TRAFFIC/WWF-India (2023), India's Pangolins Buried in Illegal Wildlife Trade",
+      "url": "https://www.traffic.org/site/assets/files/20899/factsheet-_indias_pangolin_buried_in_illegal_wildlife_trade-_2023-1.pdf"
     }
   ],
   "context_evidence_audit": {
     "review_date": "2026-11-15",
     "categories_present": [
       "O",
-      "N"
+      "T"
     ],
     "scientific_sources_restricted_to_research_papers_json": true,
-    "journalistic_references_distinct_from_event_fact_sources": true
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
   },
   "location_label_pt": "Malkangiri / Koilipari, Odisha, Índia",
   "geographic_note_pt": "Coordenada de referência da localidade, não do ponto exato da apreensão.",
   "title_pt": "Patrulha recupera pangolim vivo transportado em motocicleta em Malkangiri",
   "fauna_label_pt": "1 pangolim vivo; espécie não determinada",
   "card_text_pt": "Patrulha florestal interceptou motocicleta próximo a Koilipari na noite de 13/11; um pangolim vivo foi recuperado e um suspeito detido.",
-  "context_pt": "[O] A abordagem de uma motocicleta em Koilipari indica uma etapa de transporte terrestre de um animal vivo, não um ponto de captura nem de venda. A investigação deve distinguir a posse do exemplar, a origem declarada, o possível intermediário e o comprador; nenhuma dessas conexões foi comprovada pelas notícias. A divergência entre relatos sobre outras motocicletas não permite ampliar o número de envolvidos.\n\n[N] Reportagem de contexto sobre a análise genética de pangolins comercializados como carne e apreendidos em redes internacionais mostra que mercados domésticos e cadeias transnacionais podem compartilhar áreas de abastecimento. É uma hipótese comparativa para examinar procedência, não evidência de que o animal de Malkangiri integrava rede internacional.",
-  "references_text_pt": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[N] Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks — https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/",
+  "context_pt": "[O] A motocicleta interceptada junto a Koilipari documenta o transporte rodoviário de um pangolim vivo, mas não seu ponto de captura, comprador ou destino. O Serviço Florestal informou investigação de possíveis participantes; a hipótese de rede organizada continua sem confirmação e não autoriza rota internacional.\n\n[T] O levantamento da TRAFFIC/WWF-Índia (2018–2022) registrou 74 apreensões envolvendo 154 pangolins em Odisha, o maior número entre os estados indianos; 45 dessas ocorrências envolveram 50 animais vivos. Esse histórico regional situa a interceptação em uma modalidade recorrente de comércio ilícito de animais vivos, sem atribuir vínculos entre episódios. O estudo registra dois pangolins na Índia, ambos protegidos pelo Schedule I da Wildlife (Protection) Act e pelo Apêndice I da CITES; a fonte de Malkangiri não permite determinar qual espécie foi apreendida.",
+  "references_text_pt": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[T] TRAFFIC/WWF-India (2023), India's Pangolins Buried in Illegal Wildlife Trade — https://www.traffic.org/site/assets/files/20899/factsheet-_indias_pangolin_buried_in_illegal_wildlife_trade-_2023-1.pdf",
   "modal_label_pt": "Rodoviário",
   "quantity_note_pt": "Número de indivíduos apreendidos, não produtos em kg.",
   "location_label_en": "Koilipari, Malkangiri, Odisha, India",
@@ -82,8 +85,8 @@
   "title_en": "Patrol recovers a live pangolin from a motorcycle in Malkangiri",
   "fauna_label_en": "1 live pangolin; species not determined",
   "card_text_en": "Forest officers intercepted a motorcycle near Koilipari on the night of 13 November; one live pangolin was recovered and one suspect detained.",
-  "context_en": "[O] Interception of a motorcycle at Koilipari identifies a terrestrial transport stage involving a live animal, not its capture site or point of sale. Investigative distinctions remain necessary among possession, stated provenance, intermediaries and prospective buyers; the reports prove none of those links. Inconsistent accounts of additional motorcycles cannot support a larger suspect count.\n\n[N] Context reporting on genetic links between pangolins in wild-meat markets and international seizures indicates that domestic and transnational supply chains can share sourcing areas. This offers a comparative provenance question, not evidence that the Malkangiri animal belonged to an international network.",
-  "references_text_en": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[N] Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks — https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/",
+  "context_en": "[O] Interception of a motorcycle near Koilipari documents road transport of one live pangolin, but not the capture site, buyer or intended destination. Forest authorities are investigating potential associates; an organised-network hypothesis remains unverified and cannot support an international route.\n\n[T] TRAFFIC/WWF-India's review of 2018–2022 seizures recorded 74 incidents involving 154 pangolins in Odisha, more than in any other Indian state; 45 incidents involved 50 live animals. This provides specific regional evidence of recurring live-animal trafficking without linking the separate incidents. The review identifies two pangolin species in India, both covered by Schedule I of the Wildlife (Protection) Act and CITES Appendix I; the Malkangiri reporting does not establish which species was seized.",
+  "references_text_en": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[T] TRAFFIC/WWF-India (2023), India's Pangolins Buried in Illegal Wildlife Trade — https://www.traffic.org/site/assets/files/20899/factsheet-_indias_pangolin_buried_in_illegal_wildlife_trade-_2023-1.pdf",
   "modal_label_en": "Road",
   "quantity_note_en": "Number of individual animals, not product weights.",
   "location_label_es": "Malkangiri / Koilipari, Odisha, Índia",
@@ -91,8 +94,8 @@
   "title_es": "Patrulla recupera un pangolín vivo transportado en motocicleta en Malkangiri",
   "fauna_label_es": "1 pangolín vivo; especie no determinada",
   "card_text_es": "Agentes forestales interceptaron una motocicleta cerca de Koilipari la noche del 13/11; recuperaron un pangolín vivo y detuvieron a un sospechoso.",
-  "context_es": "[O] La interceptación de una motocicleta en Koilipari documenta una etapa de transporte terrestre de un animal vivo, no su lugar de captura ni de venta. La investigación debe distinguir posesión, procedencia declarada, intermediarios y compradores potenciales; ninguna conexión está probada. Las versiones divergentes sobre otras motocicletas no permiten aumentar el número de implicados.\n\n[N] Un reportaje contextual sobre vínculos genéticos entre pangolines de mercados de carne y decomisos internacionales indica que cadenas domésticas y transnacionales pueden compartir zonas de abastecimiento. Es una pregunta comparativa sobre procedencia, no prueba de que el ejemplar de Malkangiri integrara una red internacional.",
-  "references_text_es": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[N] Mongabay (2026), Pangolin DNA study links local wild meat markets to global trafficking networks — https://news.mongabay.com/short-article/2026/07/pangolin-dna-study-links-local-wild-meat-markets-to-global-trafficking-networks/",
+  "context_es": "[O] La motocicleta interceptada cerca de Koilipari documenta transporte terrestre de un pangolín vivo, no el lugar de captura, comprador ni destino. Las autoridades forestales investigan posibles partícipes; la hipótesis de una red organizada no está acreditada y no sustenta ruta internacional.\n\n[T] El análisis TRAFFIC/WWF-India de 2018–2022 registró en Odisha 74 decomisos con 154 pangolines, el mayor número entre los estados indios; 45 actuaciones involucraron 50 animales vivos. La serie aporta contexto regional específico sobre el tráfico de ejemplares vivos, sin relacionar investigaciones separadas. El estudio identifica dos especies de pangolín en India, ambas protegidas por el Schedule I de la Wildlife (Protection) Act y el Apéndice I de CITES; las fuentes de Malkangiri no permiten precisar la especie.",
+  "references_text_es": "[O] Pragativadi / Indus Valley Times — 14/11/2026 — https://pragativadi.com/forest-officials-foil-pangolin-smuggling-attempt-in-malkangiri-peddler-held/\n[O] Corroboração do caso — 14/11/2026 — https://indusvalleytimes.com/news/malkangiri-forest-department-rescues-a-pangolin-one-accused-arrested/\n[T] TRAFFIC/WWF-India (2023), India's Pangolins Buried in Illegal Wildlife Trade — https://www.traffic.org/site/assets/files/20899/factsheet-_indias_pangolin_buried_in_illegal_wildlife_trade-_2023-1.pdf",
   "modal_label_es": "Carretera",
   "quantity_note_es": "Número de animales individuales, no peso de productos."
 }
