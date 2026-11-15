@@ -33,7 +33,7 @@
   "image_source_url": null,
   "image_status": "NOT_VALIDATED",
   "ingestion_batch": "TG-H-GLOBAL-2026-11-14-15",
-  "case_context_status": "PT_EN_ES_OSINT_AUDITED_2026_11_15",
+  "case_context_status": "PT_EN_ES_OSINT_ENRICHED_2026_11_15",
   "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective",
   "is_exact_seizure_position": false,
   "context_references": [
@@ -55,14 +55,15 @@
     "categories_present": [
       "O"
     ],
-    "scientific_sources_restricted_to_research_papers_json": true
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true
   },
   "location_label_pt": "El Argoub, Dakhla–Oued Ed-Dahab, Saara Ocidental (território disputado)",
   "geographic_note_pt": "Referência geográfica da localidade El Argoub, não o local exato da abordagem; Saara Ocidental, território disputado.",
   "title_pt": "Fiscalização intercepta cerca de 60 kg de polvo em veículo em El Argoub",
   "fauna_label_pt": "cerca de 60 kg de polvo fresco; indivíduos desconhecidos",
   "card_text_pt": "Em 14/11, autoridades interceptaram veículo com cerca de 60 kg de polvo possivelmente capturado por métodos proibidos durante a paralisação biológica; uma pessoa detida.",
-  "context_pt": "[O] Operação de 14/11 em El Argoub reuniu gendarmaria e fiscalização pesqueira. A carga de aproximadamente 60 kg de polvo fresco foi atribuída preliminarmente a pesca irregular com câmaras de pneus durante o período de descanso biológico; a investigação busca determinar a procedência e o destino comercial. O transporte rodoviário está comprovado, mas nenhum itinerário entre localidades foi documentado.",
+  "context_pt": "[O] A interceptação rodoviária de polvo fresco durante descanso biológico, com suspeita de captura por câmaras de pneus, indica possível passagem de extração irregular para transporte terrestre. A hipótese de método proibido é atribuída à fiscalização, não uma conclusão pericial independente. Para identificar a cadeia comercial seriam necessários ponto de desembarque, proprietário da mercadoria, documentação pesqueira e destinatário; não há trajeto entre localidades confirmado. A apreensão é distinta da fiscalização do depósito em Hay Salam, sem conexão operacional demonstrada.",
   "references_text_pt": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
   "modal_label_pt": "Rodoviário",
   "quantity_note_pt": "Peso de produto; número de animais não conhecido.",
@@ -71,7 +72,7 @@
   "title_en": "Officers intercept about 60 kg of octopus in a vehicle at El Argoub",
   "fauna_label_en": "about 60 kg of fresh octopus; individual count unknown",
   "card_text_en": "On 14 November officers stopped a vehicle carrying about 60 kg of octopus suspected to have been caught by prohibited methods during a biological rest period; one detained.",
-  "context_en": "[O] On 14 November gendarmerie and fisheries officers stopped a vehicle in El Argoub carrying about 60 kg of fresh octopus, suspected to have been caught using inner tubes during the biological rest period. Authorities are investigating the source and intended market. Road transport is documented, but no route between named locations was established.",
+  "context_en": "[O] Interception of fresh octopus during the biological rest period, with suspected use of tyre inner tubes for fishing, points to a possible transition from unlawful harvesting to road transport. The alleged prohibited technique is an enforcement assessment, not an independently established forensic finding. Reconstructing the trade chain would require landing site, cargo owner, fisheries documentation and recipient; no inter-locality route is confirmed. This intervention is distinct from the Hay Salam warehouse inspection, with no established operational link.",
   "references_text_en": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
   "modal_label_en": "Road",
   "quantity_note_en": "Product weight; individual animals not known.",
@@ -80,7 +81,7 @@
   "title_es": "Autoridades interceptan unos 60 kg de pulpo en vehículo en El Argoub",
   "fauna_label_es": "unos 60 kg de pulpo fresco; individuos desconocidos",
   "card_text_es": "El 14/11 se interceptó un vehículo con unos 60 kg de pulpo presuntamente capturado con métodos prohibidos durante el descanso biológico; un detenido.",
-  "context_es": "[O] El 14/11 gendarmería y fiscalización pesquera interceptaron un vehículo en El Argoub con unos 60 kg de pulpo fresco, presuntamente capturado mediante cámaras de neumáticos durante el descanso biológico. Se investigan procedencia y destino comercial. El transporte por carretera está documentado, pero no una ruta entre localidades.",
+  "context_es": "[O] La interceptación de pulpo fresco durante el descanso biológico, con sospecha de captura mediante cámaras de neumáticos, apunta a una posible transición de extracción irregular a transporte terrestre. El método prohibido es atribución de la fiscalización, no pericia independiente. Reconstruir la cadena exige lugar de desembarque, propietario, documentación pesquera y destinatario; no se confirma ruta entre localidades. Es un procedimiento distinto del depósito de Hay Salam, sin conexión operativa probada.",
   "references_text_es": "[O] Dakhla News / Gendarmerie Royale / Délégation des Pêches Maritimes — 14/11/2026 — https://www.dakhlanews.com/65939/\n[O] Relato corroborativo da ocorrência — https://www.dakhla7.com/25835/",
   "modal_label_es": "Carretera",
   "quantity_note_es": "Peso de producto; número de animales desconocido."
