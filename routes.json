@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -14888,6 +14888,92 @@
         "decision": "Sim — destino urbano pretendido confirmado",
         "evidence_class": "EMBARQUE PRETENDIDO, INTERROMPIDO",
         "geometry": "schematic_straight_line_not_actual_path"
+      }
+    },
+    {
+      "id": "tgh-20261116-bd-mirsarai-80-parrots-r01",
+      "event_match": {
+        "event_id": "tgh-20261116-bd-mirsarai-80-parrots"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "completed_movement_with_generalized_country_origin",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Myanmar (origem informada) → Mirsarai (Bangladesh)",
+      "label_en": "Myanmar (reported origin) → Mirsarai (Bangladesh)",
+      "label_es": "Myanmar (origen declarado) → Mirsarai (Bangladés)",
+      "segments": [
+        {
+          "from": {
+            "name": "Myanmar (referência nacional; local de saída desconhecido)",
+            "country": "Myanmar",
+            "lat": 21.9162,
+            "lon": 95.956,
+            "precision": "country_centroid_generalized_not_departure_location"
+          },
+          "to": {
+            "name": "Jorarganj, Mirsarai (local da interceptação)",
+            "country": "Bangladesh",
+            "lat": 22.88949,
+            "lon": 91.53525,
+            "precision": "locality_approximate"
+          }
+        }
+      ],
+      "evidence_pt": "A polícia de Jorarganj relatou que 80 papagaios foram coletados em Myanmar e levados ilegalmente a Bangladesh, onde foram interceptados em Mirsarai em 16/11/2026. O ponto Myanmar é centroide nacional meramente esquemático, não local de captura, cruzamento ou partida. Fontes divergem sobre destino posterior (Índia ou Daca); nenhum dos dois é desenhado.",
+      "evidence_en": "Jorarganj police reported 80 parrots collected in Myanmar and illegally brought into Bangladesh, where they were intercepted in Mirsarai on 16 November 2026. The Myanmar country point is a schematic centroid, not an identified capture site, border crossing or departure point. Reports conflict on the onward destination (India versus Dhaka), neither of which is drawn.",
+      "evidence_es": "La policía de Jorarganj informó que 80 loros procedían de Myanmar y entraron ilegalmente en Bangladés, donde fueron interceptados en Mirsarai el 16/11/2026. El punto de Myanmar es un centroide nacional esquemático, no el sitio de captura, cruce o partida. Las fuentes discrepan sobre el destino posterior (India o Daca); ninguno se dibuja.",
+      "source_label": "The Business Standard / Jorarganj Police",
+      "source_url": "https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481",
+      "tgh_audit": {
+        "decision": "YES — cross-border country of origin reported by police; generalization disclosed",
+        "evidence_class": "COMPLETED_COUNTRY_TO_LOCALITY_MOVEMENT_ATTRIBUTED",
+        "geometry": "schematic_country_centroid_to_seizure_locality_not_actual_path",
+        "excluded_suspected_destinations": [
+          "India",
+          "Dhaka"
+        ]
+      }
+    },
+    {
+      "id": "tgh-20261116-il-rabin-approx60-birds-r01",
+      "event_match": {
+        "event_id": "tgh-20261116-il-rabin-approx60-birds"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "intercepted_cross_border_movement_generalized_origin",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Jordânia (origem do veículo) → Passagem Yitzhak Rabin (Israel)",
+      "label_en": "Jordan (vehicle origin) → Yitzhak Rabin crossing (Israel)",
+      "label_es": "Jordania (origen del vehículo) → paso Yitzhak Rabin (Israel)",
+      "segments": [
+        {
+          "from": {
+            "name": "Jordânia (referência nacional; ponto inicial desconhecido)",
+            "country": "Jordânia",
+            "lat": 30.5852,
+            "lon": 36.2384,
+            "precision": "country_centroid_generalized_not_departure_location"
+          },
+          "to": {
+            "name": "Posto Yitzhak Rabin / Wadi Araba",
+            "country": "Israel",
+            "lat": 29.5751,
+            "lon": 34.97863,
+            "precision": "border_crossing_reference"
+          }
+        }
+      ],
+      "evidence_pt": "A Autoridade de Parques e Natureza de Israel documentou cerca de 60 aves escondidas em carro procedente da Jordânia e interceptado no posto Yitzhak Rabin, em 16/11/2026. O ponto jordaniano é um centroide apenas para representar proveniência nacional, não trajeto real, cidade de partida ou origem biológica. Destino final não informado.",
+      "evidence_en": "Israel Nature and Parks Authority documented about 60 mixed birds concealed in a car arriving from Jordan, intercepted at the Yitzhak Rabin crossing, reported on 16 November 2026. The Jordanian endpoint is a schematic country centroid, not the real travel path, departure city or birds' biological origin. Final destination was not reported.",
+      "evidence_es": "La Autoridad de Parques y Naturaleza de Israel documentó unas 60 aves de distintos grupos ocultas en un vehículo procedente de Jordania, interceptado en el paso Yitzhak Rabin y divulgado el 16/11/2026. El punto jordano es un centroide nacional esquemático, no la ruta real, ciudad de salida u origen biológico. No se informó destino final.",
+      "source_label": "Israel Nature and Parks Authority",
+      "source_url": "https://www.parks.org.il/new/bird-smuggling-rabin/",
+      "tgh_audit": {
+        "decision": "YES — inbound vehicle from Jordan intercepted at named crossing",
+        "evidence_class": "DOCUMENTED_BORDER_MOVEMENT_WITH_COUNTRY_ORIGIN",
+        "geometry": "schematic_country_centroid_to_named_border_crossing_not_actual_road_path"
       }
     }
   ],
