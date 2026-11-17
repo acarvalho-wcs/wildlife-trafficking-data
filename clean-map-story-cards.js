@@ -1,33 +1,34 @@
 /* Single connected mini-card for clean GLOBE only. Never alters event feeds or map layers. */
 window.CleanMapStoryCards=(()=>{
  'use strict';
- const duration=7600;
+ const duration=12000;
  const words={
-  pt:{kicker:'APREENSÃO DOCUMENTADA',event:'Ocorrência',published:'Publicado',units:'itens',open:'Abrir ficha do evento'},
-  en:{kicker:'DOCUMENTED SEIZURE',event:'Occurred',published:'Published',units:'items',open:'Open event details'},
-  es:{kicker:'DECOMISO DOCUMENTADO',event:'Ocurrencia',published:'Publicado',units:'elementos',open:'Abrir ficha del evento'}
+  pt:{kicker:'APREENSÃO DOCUMENTADA',event:'Evento',published:'Publicação',units:'itens',open:'Abrir ficha do evento'},
+  en:{kicker:'DOCUMENTED SEIZURE',event:'Event',published:'Publication',units:'items',open:'Open event details'},
+  es:{kicker:'DECOMISO DOCUMENTADO',event:'Evento',published:'Publicación',units:'elementos',open:'Abrir ficha del evento'}
  };
  const locales={pt:'pt-BR',en:'en-US',es:'es-ES'};
  const isGeo=e=>e&&Number.isFinite(e.lat)&&Number.isFinite(e.lng)&&Math.abs(e.lat)<=90&&Math.abs(e.lng)<=180;
  function candidates(records,countable=()=>true){
   return (records||[]).filter(e=>isGeo(e)&&countable(e)&&e.id!=null);
  }
+ function dateValue(value,lang){
+  if(typeof value!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(value))return '—';
+  const time=Date.parse(value+'T12:00:00Z');
+  if(!Number.isFinite(time)||new Date(time).toISOString().slice(0,10)!==value)return '—';
+  return new Intl.DateTimeFormat(locales[lang]||locales.en,{
+   timeZone:'UTC',day:'numeric',month:'short',year:'numeric'
+  }).format(new Date(time));
+ }
  function format(e,r={},lang='en'){
   const t=words[lang]||words.en;
-  const date=e.event_date||e.publication_date;
-  let dateText='';
-  if(typeof date==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(date)){
-   const v=new Date(date+'T12:00:00Z');
-   if(!Number.isNaN(v.getTime())){
-    const d=new Intl.DateTimeFormat(locales[lang]||locales.en,{timeZone:'UTC',day:'numeric',month:'short',year:'numeric'}).format(v);
-    dateText=(e.event_date?t.event:t.published)+': '+d;
-   }
-  }
   return {
    kicker:t.kicker,
    title:String(r.title||r.city||e.city||r.country||e.country||''),
    place:[r.city||e.city,r.country||e.country].filter(Boolean).join(' · '),
-   date:dateText,
+   eventDate:t.event+': '+dateValue(e.event_date,lang),
+   publicationDate:t.published+': '+dateValue(e.publication_date,lang),
+   description:String(r.summary||e['card_text_'+lang]||e.summary||''),
    fauna:String(r.species||e.species||''),
    quantity:Number.isFinite(e.items)&&e.items>0?
     new Intl.NumberFormat(locales[lang]||locales.en).format(e.items)+' '+t.units:'',
@@ -54,7 +55,10 @@ window.CleanMapStoryCards=(()=>{
   const nodes={
    kicker:root.querySelector('#cleanMapStoryKicker'),
    title:root.querySelector('#cleanMapStoryTitle'),
-   meta:root.querySelector('#cleanMapStoryMeta'),
+   place:root.querySelector('#cleanMapStoryPlace'),
+   eventDate:root.querySelector('#cleanMapStoryEventDate'),
+   publicationDate:root.querySelector('#cleanMapStoryPublicationDate'),
+   description:root.querySelector('#cleanMapStoryDescription'),
    fauna:root.querySelector('#cleanMapStoryFauna'),
    quantity:root.querySelector('#cleanMapStoryQuantity')
   };
@@ -70,15 +74,20 @@ window.CleanMapStoryCards=(()=>{
    if(!running||!active||!map){hide();return false;}
    const p=point(active,map,isVisible);
    if(!p){hide();return false;}
-   const width=Math.min(p.width<650?166:222,Math.max(120,p.width*.43));
-   const left=Math.max(12,p.width-width-(p.width<650?12:28));
-   const upper=Math.min(100,Math.max(72,p.height*.13));
-   const lower=Math.max(upper,p.height-132);
-   const top=Math.max(upper,Math.min(p.y-36,lower));
-   const joinX=p.x<left?left:left+width;
-   const joinY=top+43;
+   // The content determines the card height. Long descriptions remain
+   // readable with internal scrolling only when the viewport is too short.
+   const width=Math.min(p.width-24,p.width<650?290:360,
+    Math.max(210,p.width*(p.width<650?.54:.37)));
+   const left=Math.max(12,p.width-width-16);
    card.style.width=width+'px';
    card.style.left=left+'px';
+   card.style.maxHeight=Math.max(150,p.height-90)+'px';
+   const height=card.getBoundingClientRect().height;
+   const upper=p.height<350?12:56;
+   const lower=Math.max(upper,p.height-height-12);
+   const top=Math.min(lower,Math.max(upper,p.y-height*.40));
+   const joinX=p.x<left?left:left+width;
+   const joinY=top+Math.min(70,Math.max(24,height*.28));
    card.style.top=top+'px';
    svg.setAttribute('viewBox','0 0 '+p.width+' '+p.height);
    const bend=(p.x+joinX)/2;
@@ -99,7 +108,10 @@ window.CleanMapStoryCards=(()=>{
    const r=getRecord(e),d=format(e,r,getLang());
    nodes.kicker.textContent=d.kicker;
    nodes.title.textContent=d.title;
-   nodes.meta.textContent=[d.place,d.date].filter(Boolean).join('  |  ');
+   nodes.place.textContent=d.place;
+   nodes.eventDate.textContent=d.eventDate;
+   nodes.publicationDate.textContent=d.publicationDate;
+   nodes.description.textContent=d.description;
    nodes.fauna.textContent=d.fauna;
    nodes.quantity.textContent=d.quantity;
    card.setAttribute('aria-label',d.aria+': '+d.title);
@@ -122,7 +134,7 @@ window.CleanMapStoryCards=(()=>{
    updateGeometry();
   }
   function cycle(){
-   if(!running)return;
+   if(!running||card.matches(':hover')||document.activeElement===card)return;
    hide();
    if(delay)clearTimeout(delay);
    delay=setTimeout(()=>{delay=0;choose();},320);

@@ -108,7 +108,7 @@ window.ObservatoryGlobe=(()=>{
  function updateVisibility(pov){for(const el of markerElements)setMarkerVisibility(el,pov);}
  function applyTheme(){
   const card=get('mapViewCard');card.setAttribute('data-map-theme',themes.map);card.setAttribute('data-globe-theme',themes.globe);
-  card.setAttribute('data-clean-chart-theme',themes[mode]);get('mapTheme').value=themes[mode];window.DocumentedRouteMap?.setTheme(themes.map);window.ObservatoryBasemap?.setTheme(themes.map);globe?.setTheme?.(themes.globe);if(globe)globe.pathColor(()=>window.DocumentedRoutes.visual(themes.globe).globeColor);
+  card.setAttribute('data-clean-chart-theme',themes[mode]);card.setAttribute('data-active-map-mode',mode);get('mapTheme').value=themes[mode];window.DocumentedRouteMap?.setTheme(themes.map);window.ObservatoryBasemap?.setTheme(themes.map);globe?.setTheme?.(themes.globe);if(globe)globe.pathColor(()=>window.DocumentedRoutes.visual(themes.globe).globeColor);
  }
  function localize(){
   if(!api)return;
