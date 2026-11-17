@@ -61,3 +61,12 @@
 #globe .maplibregl-marker{cursor:pointer}.maplibregl-ctrl-attrib a{color:#333}
 
 .map-engine-notice{position:absolute;z-index:800;bottom:30px;left:12px;right:12px;padding:12px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;font-size:13px}
+
+/* Coincident event-count pins: exact numeric lat/lng, not proximity or density. */
+.leaflet-marker-icon.seizure-count-icon{display:flex;align-items:center;justify-content:center;background:transparent;border:0}
+.seizure-count-icon span{box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:2px;border:2px solid #e8f1ee;border-radius:50%;background:#245b91;color:#fff;font-size:12px;font-weight:800;line-height:1;white-space:nowrap;box-shadow:0 2px 9px #0009}
+.seizure-count-icon.recent span{background:#c34936}
+.globe-marker.cluster{width:auto;min-width:30px;height:30px}
+.globe-marker.cluster span{display:flex;align-items:center;justify-content:center;width:auto;min-width:30px;height:30px;padding:2px 6px;border:2px solid #e8f1ee;background:#245b91;color:#fff;font-size:12px;font-weight:800;line-height:1;white-space:nowrap;box-shadow:0 2px 9px #0009}
+.globe-marker.cluster.recent span{background:#c34936}
+.globe-marker.cluster:focus-visible,.seizure-count-icon:focus-visible{outline:3px solid var(--blue);outline-offset:3px}

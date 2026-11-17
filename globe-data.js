@@ -20,6 +20,19 @@ window.GlobeData=(()=>{
   for(const g of groups)g.members.sort((a,b)=>Number(window.CaseContext.isRecent(b))-Number(window.CaseContext.isRecent(a))||b.date.localeCompare(a.date));
   return groups.sort((a,b)=>Number(a.recent)-Number(b.recent));
  }
+ // Combine only EXACT numerical coordinate matches, after the active filters.
+ function exactGroups(records){
+  const sites=new Map();
+  for(const e of records.filter(valid)){
+   const key=e.lat+','+e.lng;
+   let g=sites.get(key);
+   if(!g){g={lat:e.lat,lng:e.lng,members:[],recent:false};sites.set(key,g);}
+   g.members.push(e);
+   g.recent=g.recent||window.CaseContext.isRecent(e);
+  }
+  for(const g of sites.values())g.members.sort((a,b)=>Number(window.CaseContext.isRecent(b))-Number(window.CaseContext.isRecent(a))||String(b.date||'').localeCompare(String(a.date||'')));
+  return [...sites.values()].sort((a,b)=>Number(a.recent)-Number(b.recent));
+ }
  function routes(records){return window.DocumentedRoutes?.segments(records)||[];}
- return {valid,visible,cluster,routes};
+ return {valid,visible,cluster,exactGroups,routes};
 })();
