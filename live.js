@@ -149,6 +149,7 @@ function localizePopupClose(){
 map.on('popupopen',localizePopupClose);
 function render(){
  const data=filtered(),t=messages[lang],selected=activeId;
+ window.SeizureHotspots?.update(data);
  window.RecordSearch.localize(lang,data.length);
  const counted=data.filter(window.CaseContext.countable),covered=events.filter(window.CaseContext.complete).length;
  $('contextCoverage').textContent=({pt:'Cobertura de contexto',en:'Case context coverage',es:'Cobertura de contexto'})[lang]+': '+covered+'/'+events.length+' — '+number(events.length?Math.round(covered/events.length*100):0)+'%';
@@ -203,6 +204,7 @@ $('language').onchange=e=>window.ObservatoryLanguage.set(e.target.value);
 window.ObservatoryLanguage.subscribe(value=>{if(lang!==value){lang=value;setup();}});
 document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',()=>switchView(el.dataset.view)));
 window.ObservatoryTime?.init({render,lang:()=>lang,filtered,all:()=>events});
+window.SeizureHotspots?.init({lang:()=>lang});
 setup();
 
 // Recolor existing Leaflet layers at the expiry boundary; never recreate records.
