@@ -1,0 +1,139 @@
+name: Mirror canonical Observatory from wcsbrintel
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mirror-wcsbrintel-to-acarvalho
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout local replica
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Checkout canonical wcsbrintel
+        uses: actions/checkout@v4
+        with:
+          repository: wcsbrintel/iwt_globalobservatory
+          ref: main
+          path: .canonical-upstream
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Synchronize only public case data, assets and frontend
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import shutil, json
+          root=Path.cwd()
+          upstream=root/'.canonical-upstream'
+          if not (upstream/'cases/_manifest.json').exists():
+              raise SystemExit('Missing canonical upstream manifest')
+          official=json.loads((upstream/'cases/_manifest.json').read_text())
+          local=json.loads((root/'cases/_manifest.json').read_text())
+          if official['record_count'] < local['record_count']:
+              raise SystemExit('Upstream has fewer cases: refusing destructive rollback')
+          def copyfile(src,dst):
+              if not src.is_file():
+                  return
+              dst.parent.mkdir(parents=True,exist_ok=True)
+              if not dst.exists() or src.read_bytes()!=dst.read_bytes():
+                  shutil.copy2(src,dst)
+          # Only copy public individual case records, not the generated manifest.
+          for f in (upstream/'cases').rglob('*.json'):
+              if f.name=='_manifest.json':
+                  continue
+              copyfile(f,root/f.relative_to(upstream))
+          # Public-only web resources (including public restricted-area client).
+          # Do not copy GitHub workflows, Firebase, credentials or private reports.
+          for f in (upstream/'web').rglob('*'):
+              if f.is_file() and 'tests' not in f.relative_to(upstream/'web').parts:
+                  copyfile(f,root/f.relative_to(upstream))
+          # Keep flat GitHub Pages files consistent with canonical web sources.
+          for f in (upstream/'web/observatory').rglob('*'):
+              if f.is_file() and 'tests' not in f.relative_to(upstream/'web/observatory').parts:
+                  copyfile(f,root/f.relative_to(upstream/'web/observatory'))
+          for section in ('restricted','research','reportage'):
+              for f in (upstream/'web'/section).rglob('*'):
+                  if f.is_file() and 'tests' not in f.relative_to(upstream/'web'/section).parts:
+                      copyfile(f,root/section/f.relative_to(upstream/'web'/section))
+          for name in ('routes.json','publications.json','papers.json','news.json',
+                       'reports-weekly.json','reports-semiannual.json',
+                       'reports-annual.json','reports-institutional.json'):
+              copyfile(upstream/name,root/name)
+          for f in (upstream/'media').rglob('*'):
+              if f.is_file():
+                  copyfile(f,root/f.relative_to(upstream))
+          print('Public source files staged from wcsbrintel; local workflows and sensitive paths preserved.')
+          PY
+      - name: Compile and validate local standalone case feed
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/case_store.py validate --root cases
+          python scripts/case_store.py build --root cases --output cases.json
+          python -m json.tool cases.json > /dev/null
+      - name: Commit only actual changes without force
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- cases cases.json web index.html assets research reportage restricted media \
+            routes.json publications.json papers.json news.json reports-weekly.json \
+            reports-semiannual.json reports-annual.json reports-institutional.json \
+            || true
+          # Stage any top-level public assets newly introduced upstream.
+          find . -maxdepth 1 -type f \( -name '*.js' -o -name '*.css' -o -name '*.html' \) -print0 |
+            xargs -0 -r git add --
+          if git diff --cached --quiet; then
+            echo 'Replica already matches canonical public snapshot.'
+          else
+            git commit -m "Mirror public Observatory from wcsbrintel canonical"
+            git push origin HEAD:main
+          fi
+      - name: Build independent replica Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/build_site.py
+          python scripts/build_public_pages.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/public-pages
+      - name: Verify active canonical count
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          cases=json.loads(Path('cases.json').read_text())
+          n=len(cases['cases'])
+          assert n>=1639, f'Incomplete mirrored collection: {n}'
+          print('Verified independent replica:',n,'cases')
+          PY
+  deploy:
+    runs-on: ubuntu-latest
+    needs: mirror
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
