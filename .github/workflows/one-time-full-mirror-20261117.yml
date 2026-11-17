@@ -1,0 +1,83 @@
+name: One-time full Git Observatory migration
+on:
+  push:
+    branches:
+      - migration/one-time-fullcopy-20261117
+permissions:
+  contents: write
+jobs:
+  migrate:
+    if: github.ref == 'refs/heads/migration/one-time-fullcopy-20261117'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DESTINATION_TOKEN: ${{ secrets.WCSBRINTEL_MIRROR_TOKEN }}
+      SOURCE_TOKEN: ${{ github.token }}
+      EXPECTED_DEST_MAIN: f78fa7f3c5c63c471c55c6e6eb29f3241e3cd988
+      TEMP_BRANCH: migration/one-time-fullcopy-20261117
+    steps:
+      - name: Verify destination secret is present
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${DESTINATION_TOKEN}" ]]; then
+            echo '::error::Missing WCSBRINTEL_MIRROR_TOKEN in source Actions secrets.'
+            exit 1
+          fi
+      - name: Clone all source Git history and refs without changing source main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --bare "https://github.com/${GITHUB_REPOSITORY}.git" "${RUNNER_TEMP}/source.git"
+          git --git-dir="${RUNNER_TEMP}/source.git" rev-parse --verify refs/heads/main
+      - name: Verify destination baseline and mirror all production branches, tags and history
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="${RUNNER_TEMP}/source.git"
+          destination="https://x-access-token:${DESTINATION_TOKEN}@github.com/wcsbrintel/iwt_globalobservatory.git"
+          git --git-dir="$repo" remote add destination "$destination"
+          git --git-dir="$repo" ls-remote --refs destination 'refs/heads/*' 'refs/tags/*' | awk '{print $1 " " $2}' | LC_ALL=C sort > "${RUNNER_TEMP}/before-refs.txt"
+          if [[ "$(wc -l < "${RUNNER_TEMP}/before-refs.txt" | tr -d ' ')" != '1' ]]; then
+            echo '::error::Destination has unexpected branches or tags. Refusing force update.'
+            exit 1
+          fi
+          expected_line="${EXPECTED_DEST_MAIN} refs/heads/main"
+          if [[ "$(cat "${RUNNER_TEMP}/before-refs.txt")" != "$expected_line" ]]; then
+            echo '::error::Destination main has changed. Refusing force update.'
+            exit 1
+          fi
+          mapfile -t refs < <(git --git-dir="$repo" for-each-ref --format='%(refname)' refs/heads refs/tags | grep -v "^refs/heads/${TEMP_BRANCH}$")
+          if [[ "${#refs[@]}" -lt 11 ]]; then
+            echo '::error::Source branch/tag count is unexpectedly small.'
+            exit 1
+          fi
+          : > "${RUNNER_TEMP}/expected-refs.txt"
+          refspecs=()
+          for ref in "${refs[@]}"; do
+            sha="$(git --git-dir="$repo" rev-parse "$ref")"
+            printf '%s %s\n' "$sha" "$ref" >> "${RUNNER_TEMP}/expected-refs.txt"
+            refspecs+=("+${ref}:${ref}")
+          done
+          LC_ALL=C sort -o "${RUNNER_TEMP}/expected-refs.txt" "${RUNNER_TEMP}/expected-refs.txt"
+          git --git-dir="$repo" push --atomic --force-with-lease="refs/heads/main:${EXPECTED_DEST_MAIN}" destination "${refspecs[@]}"
+      - name: Independently verify every source branch and tag SHA was copied
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="${RUNNER_TEMP}/source.git"
+          git --git-dir="$repo" ls-remote --refs destination 'refs/heads/*' 'refs/tags/*' | awk '{print $1 " " $2}' | LC_ALL=C sort > "${RUNNER_TEMP}/actual-refs.txt"
+          diff -u "${RUNNER_TEMP}/expected-refs.txt" "${RUNNER_TEMP}/actual-refs.txt"
+          count="$(git --git-dir="$repo" ls-tree -r --name-only refs/heads/main | wc -l | tr -d ' ')"
+          history="$(git --git-dir="$repo" rev-list --all --count)"
+          echo "Copied and hash-verified all branches/tags, ${count} main files; source clone history ${history} commits." >> "$GITHUB_STEP_SUMMARY"
+      - name: Remove temporary triggering branch only (never touch source main)
+        if: success()
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git push "https://x-access-token:${SOURCE_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" ":refs/heads/${TEMP_BRANCH}"; then
+            echo 'Temporary source execution branch removed.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo '::warning::Temporary source execution branch still exists. Canonical source main remains unchanged.'
+          fi
