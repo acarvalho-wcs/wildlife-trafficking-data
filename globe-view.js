@@ -6,10 +6,13 @@ window.ObservatoryGlobe=(()=>{
   es:{expand:'Ampliar',exit:'Salir de pantalla completa',filters:'Filtros',routes:'Rutas documentadas',noRoutes:'No hay rutas con origen y destino georreferenciados y documentados en esta selección.',routeHint:'Los arcos conectan lugares documentados; no representan el trayecto exacto.',loading:'Cargando globo…',failed:'No se pudo abrir el globo 3D. Puede continuar en MAP.',retry:'Reintentar',help:'Arrastre para girar e inclinar · Desplace o use dos dedos para acercar',cases:'Casos en esta zona',details:'Detalles del caso',close:'Cerrar',back:'Volver a los casos',home:'Vista global',zin:'Acercar',zout:'Alejar',rotate:'Girar',tilt:'Inclinar',map:'Mapa 2D',globe:'Globo 3D',empty:'Ningún caso coincide con los filtros.'}
  };
  let api,globe,mode='map',expanded=false,loading=null,failed=false,detailId=null,clusterIds=[],snapshot=null,filterSlot,languageSlot,filterNode,languageNode;
- let routeDetail=null;
+ let routeDetail=null,pointsHidden=false;
  const markerElements=new Set(),themes={map:'dark',globe:'dark'};
  try{for(const key of ['map','globe']){const saved=window.localStorage?.getItem('observatory-'+key+'-theme');if(['dark','light'].includes(saved))themes[key]=saved;}}catch{}
  Object.assign(text.pt,{dark:'Escuro',light:'Claro',theme:'Cor do mapa'});Object.assign(text.en,{dark:'Dark',light:'Light',theme:'Map color'});Object.assign(text.es,{dark:'Oscuro',light:'Claro',theme:'Color del mapa'});
+ Object.assign(text.pt,{hidePoints:'Ocultar pontos',showPoints:'Mostrar pontos',pointsHint:'Oculta somente os marcadores de apreensões; filtros, rotas e hotspots permanecem inalterados.'});
+ Object.assign(text.en,{hidePoints:'Hide points',showPoints:'Show points',pointsHint:'Hide seizure markers only; filters, routes and hotspots remain unchanged.'});
+ Object.assign(text.es,{hidePoints:'Ocultar puntos',showPoints:'Mostrar puntos',pointsHint:'Oculta solo los marcadores de decomisos; los filtros, rutas y hotspots no cambian.'});
  const get=id=>document.getElementById(id),t=()=>text[api.lang()],safe=s=>api.escape(s),duration=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?0:450;
  function button(id,label,fn){get(id).textContent=label;get(id).onclick=fn;}
  function loadScript(url){return new Promise((resolve,reject)=>{const s=document.createElement('script');const timer=setTimeout(()=>{s.remove();reject(Error('timeout'));},15000);s.src=url;s.onload=()=>{clearTimeout(timer);resolve();};s.onerror=()=>{clearTimeout(timer);s.remove();reject(Error('script'));};document.head.append(s);});}
@@ -94,6 +97,14 @@ window.ObservatoryGlobe=(()=>{
   get('mapThemeDark').textContent=l.dark;get('mapThemeLight').textContent=l.light;applyTheme();
   button('expandMap',expanded?'↙ '+l.exit:'⛶ '+l.expand,()=>setExpanded(!expanded));
   button('toggleMapFilters',l.filters,()=>{const host=get('mapFiltersHost');host.hidden=!host.hidden;get('toggleMapFilters').setAttribute('aria-expanded',String(!host.hidden));resize();});
+   button('togglePoints',pointsHidden?l.showPoints:l.hidePoints,()=>{
+    pointsHidden=!pointsHidden;
+    get('mapViewCard').classList.toggle('seizure-points-hidden',pointsHidden);
+    if(pointsHidden)api.map.closePopup();
+    localize();
+   });
+   get('togglePoints').setAttribute('aria-pressed',String(pointsHidden));
+   get('togglePoints').title=l.pointsHint;
   get('routeLabel').textContent=l.routes;get('mapRouteNote').textContent=window.DocumentedRoutes.note(api.lang(),window.GlobeData.routes(api.filtered()).length);
   get('mapRouteNote').hidden=!get('routeLayer').checked;
   get('globeHelp').textContent=l.help;get('globeHelp').hidden=mode!=='globe';

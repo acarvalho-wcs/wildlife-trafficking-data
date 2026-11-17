@@ -70,3 +70,12 @@
 .globe-marker.cluster span{display:flex;align-items:center;justify-content:center;width:auto;min-width:30px;height:30px;padding:2px 6px;border:2px solid #e8f1ee;background:#245b91;color:#fff;font-size:12px;font-weight:800;line-height:1;white-space:nowrap;box-shadow:0 2px 9px #0009}
 .globe-marker.cluster.recent span{background:#c34936}
 .globe-marker.cluster:focus-visible,.seizure-count-icon:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+
+
+/* Display-only toggle: conceal seizure-event markers without touching filters,
+   heatmap/KDE layers, route markers, data, counts or selection state.
+   CSS display:none also removes hidden buttons from keyboard navigation. */
+.map-view-card.seizure-points-hidden #map :is(.seizure-circle,.seizure-count-icon,.recent-wave),
+.map-view-card.seizure-points-hidden #globe .globe-marker{display:none!important}
+.map-toolbar .map-points-toggle[aria-pressed="true"]{border-color:#65c4ff;background:#15354b;color:#dcefff;font-weight:700}
+[data-interface-theme="light"] .map-toolbar .map-points-toggle[aria-pressed="true"]{background:#e8f3fc;color:#194769;border-color:#4e8cad}
