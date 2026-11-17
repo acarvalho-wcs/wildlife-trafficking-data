@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1633_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1637_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1633,
+  "count": 1637,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-15T11:24:34Z",
+    "updated_at": "2026-11-17T02:11:50Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-15T11:24:34Z",
-  "feed_updated_at": "2026-11-15T11:24:34Z",
+  "updated_at": "2026-11-17T02:11:50Z",
+  "feed_updated_at": "2026-11-17T02:11:50Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -129478,6 +129478,418 @@
       "quantity_note_es": "Un individuo; no sumar aves de decomisos anteriores.",
       "occurred_at": "2026-11-14T00:00:00Z",
       "occurred_at_precision": "day"
+    },
+    {
+      "status": "VALIDATED",
+      "event_end_date": null,
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "is_exact_seizure_position": false,
+      "region": "Asia",
+      "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+      "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+      "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+      "context_evidence_audit": {
+        "review_date": "2026-11-16",
+        "categories_present": [
+          "O",
+          "N"
+        ],
+        "categories_omitted": {
+          "S": "No case-specific peer-reviewed source validated",
+          "I": "No relevant WCS institutional source validated",
+          "T": "No relevant external technical source validated"
+        },
+        "source_specificity_reviewed": true,
+        "investigative_hypotheses_distinguished_from_observations": true
+      },
+      "id": "tgh-20261115-bd-ukhiya-migratory-bird-sales",
+      "country": "Bangladesh",
+      "country_code": "BD",
+      "event_date": null,
+      "event_date_precision": "recent_observation_date_unverified",
+      "publication_date": "2026-11-15",
+      "coordinates": {
+        "lat": 21.22113,
+        "lon": 92.16226
+      },
+      "coordinate_precision": "MARKET_REFERENCE_APPROXIMATE",
+      "source_label": "Manab Zamin / The Business Standard",
+      "source_url": "https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে",
+      "source_alternative_url": "https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+      "taxon_text": "Aves migratórias comercializadas (espécies não identificadas)",
+      "modal_primary": "Não informado",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Venda observada em Kutupalong; fonte das aves e rota até o mercado não individualizadas. Operação de 16/11 em Machhkaria é distinta.",
+      "source_reconciliation_status": "DIRECT_MARKET_REPORT_SEPARATE_ENFORCEMENT",
+      "title_pt": "Bangladesh: comércio de aves migratórias em mercados de Ukhiya",
+      "location_label_pt": "Mercado de Kutupalong, Ukhiya, Cox's Bazar, Bangladesh",
+      "geographic_note_pt": "Referência do mercado de Kutupalong; ponto de venda exato não identificado.",
+      "fauna_label_pt": "Aves migratórias comercializadas; quantidade desconhecida",
+      "card_text_pt": "Reportagem de 15/11 documentou venda de aves migratórias em Kutupalong. A operação de 16/11 contra armadilhas foi separada, sem vínculo individual comprovado.",
+      "context_pt": "[O] Reportagem de 15/11/2026 documentou aves migratórias capturadas e à venda em Kutupalong, incluindo observação de vendedor com várias aves. Em 16/11, outra operação nas áreas úmidas de Machhkaria resgatou oito garças e removeu armadilhas, sem relatar apreensão em ponto de venda.\n\n[N] As ações de fiscalização e o comércio reportado são geograficamente relacionados, mas não são comprovadamente a mesma ocorrência. Não há prova de que as oito garças resgatadas pertencessem ao lote vendido; quantidades comercializadas, espécies e cadeia de fornecimento seguem desconhecidas.",
+      "modal_label_pt": "Não informado",
+      "references_text_pt": "[O] Manab Zamin — 15/11/2026 — https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে\n[O] The Business Standard — 16/11/2026 (separate operation) — https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+      "quantity_note_pt": "Número de aves vendidas não informado; as oito garças resgatadas em outra ação não são somadas.",
+      "title_en": "Bangladesh: migratory-bird sales documented in Ukhiya markets",
+      "location_label_en": "Kutupalong market, Ukhiya, Cox's Bazar, Bangladesh",
+      "geographic_note_en": "Kutupalong market reference; the exact vendor position is unknown.",
+      "fauna_label_en": "Migratory birds offered for sale; number unknown",
+      "card_text_en": "A 15-Nov report documented migratory-bird sales in Kutupalong. A 16-Nov operation against traps was separate; no specific bird link was established.",
+      "context_en": "[O] A report published on 15 November 2026 documented hunted migratory birds offered for sale in Kutupalong, including a vendor observed holding several birds. On 16 November a separate Machhkaria wetland operation rescued eight herons and removed trapping equipment, without reporting a market seizure.\n\n[N] The enforcement activity and reported sales are geographically related but not verified as the same case. There is no evidence that the eight rescued herons belonged to the marketed birds; sales volumes, species and the supply chain remain unknown.",
+      "modal_label_en": "Not reported",
+      "references_text_en": "[O] Manab Zamin — 15/11/2026 — https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে\n[O] The Business Standard — 16/11/2026 (separate operation) — https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+      "quantity_note_en": "Number sold unknown; eight herons rescued in a separate action are not added.",
+      "title_es": "Bangladés: venta de aves migratorias en mercados de Ukhiya",
+      "location_label_es": "Mercado de Kutupalong, Ukhiya, Cox's Bazar, Bangladés",
+      "geographic_note_es": "Referencia del mercado de Kutupalong; puesto específico desconocido.",
+      "fauna_label_es": "Aves migratorias ofrecidas a la venta; número desconocido",
+      "card_text_es": "Una noticia del 15/11 documentó venta de aves migratorias en Kutupalong. La operación contra trampas del 16/11 fue distinta, sin vínculo individual probado.",
+      "context_es": "[O] Una investigación publicada el 15/11/2026 documentó aves migratorias capturadas y ofrecidas en Kutupalong, incluido un vendedor observado con varias aves. El 16/11 una operación distinta en los humedales de Machhkaria rescató ocho garzas y retiró trampas, sin decomisos documentados en mercados.\n\n[N] La fiscalización y las ventas reportadas están relacionadas geográficamente, pero no se ha probado que fueran el mismo caso. No existe evidencia de que las ocho garzas rescatadas pertenecieran al lote ofrecido; cantidades, especies y cadena de suministro siguen desconocidas.",
+      "modal_label_es": "No informado",
+      "references_text_es": "[O] Manab Zamin — 15/11/2026 — https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে\n[O] The Business Standard — 16/11/2026 (separate operation) — https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+      "quantity_note_es": "Número vendido desconocido; no se suman ocho garzas rescatadas en otra operación.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Manab Zamin — 15/11/2026",
+          "url": "https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "The Business Standard — 16/11/2026 (separate operation)",
+          "url": "https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251"
+        }
+      ],
+      "occurred_at": null,
+      "occurred_at_precision": "recent_observation_date_unverified"
+    },
+    {
+      "status": "VALIDATED",
+      "event_end_date": null,
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "is_exact_seizure_position": false,
+      "region": "Asia",
+      "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+      "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+      "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+      "context_evidence_audit": {
+        "review_date": "2026-11-16",
+        "categories_present": [
+          "O",
+          "N"
+        ],
+        "categories_omitted": {
+          "S": "No case-specific peer-reviewed source validated",
+          "I": "No relevant WCS institutional source validated",
+          "T": "No relevant external technical source validated"
+        },
+        "source_specificity_reviewed": true,
+        "investigative_hypotheses_distinguished_from_observations": true
+      },
+      "id": "tgh-20261116-bd-mirsarai-80-parrots",
+      "country": "Bangladesh",
+      "country_code": "BD",
+      "event_date": "2026-11-16",
+      "event_date_precision": "day",
+      "publication_date": "2026-11-16",
+      "coordinates": {
+        "lat": 22.88949,
+        "lon": 91.53525
+      },
+      "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+      "source_label": "The Business Standard / Prothom Alo / BSS",
+      "source_url": "https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481",
+      "source_alternative_url": "https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my",
+      "taxon_text": "Papagaios (espécies não identificadas)",
+      "modal_primary": "Rodoviário",
+      "quantity_count": 80,
+      "quantity_kind": "animals",
+      "quantity_qualifier": "exact",
+      "quantity_by_group": {
+        "Aves": 80
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "PARTIAL_DOCUMENTED_COUNTRY_OF_ORIGIN",
+      "route_audit_note_pt": "A polícia relatou proveniência de Myanmar; não há ponto de fronteira identificado. Destino posterior divergente (Índia ou Daca), sem linha cartográfica para trechos não confirmados.",
+      "route_observations": {
+        "reported_origin_country": "Myanmar",
+        "interception": "Jorarganj, Mirsarai, Bangladesh",
+        "disputed_intended_destinations": [
+          "India",
+          "Dhaka, Bangladesh"
+        ],
+        "geometry_validated": false
+      },
+      "source_reconciliation_status": "MULTISOURCE_CONFLICTING_DESTINATION",
+      "title_pt": "Bangladesh: 80 papagaios contrabandeados interceptados em Mirsarai",
+      "location_label_pt": "South Sonapahar, Jorarganj, Mirsarai, Chattogram, Bangladesh",
+      "geographic_note_pt": "Referência aproximada da delegacia/localidade de Jorarganj; não representa o ponto exato da fiscalização.",
+      "fauna_label_pt": "80 papagaios vivos",
+      "card_text_pt": "Polícia interceptou 80 papagaios e deteve dois suspeitos em Mirsarai. Myanmar é a origem informada; as fontes divergem entre Índia e Daca como destino.",
+      "context_pt": "[O] Em 16/11/2026, policiais interceptaram 80 papagaios na região de Jorarganj, Mirsarai, e prenderam dois suspeitos. Segundo a polícia, as aves haviam entrado irregularmente em Bangladesh procedentes de Myanmar.\n\n[N] As fontes divergem quanto ao destino pretendido: Índia segundo The Business Standard e Daca segundo Prothom Alo. A travessia fronteiriça, a rota posterior e as espécies permanecem sem confirmação; nenhum destino conflitante é tratado como comprovado.",
+      "modal_label_pt": "Rodoviário",
+      "references_text_pt": "[O] The Business Standard — 16/11/2026 — https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481\n[O] Prothom Alo — 16/11/2026 — https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my\n[O] Bangladesh Sangbad Sangstha — 16/11/2026 — https://www.bssnews.net/bangla/national/360486",
+      "quantity_note_pt": "80 indivíduos; espécies não identificadas na fonte.",
+      "title_en": "Bangladesh: 80 smuggled parrots intercepted in Mirsarai",
+      "location_label_en": "South Sonapahar, Jorarganj, Mirsarai, Chattogram, Bangladesh",
+      "geographic_note_en": "Approximate Jorarganj locality/police-station reference; not the precise checkpoint.",
+      "fauna_label_en": "80 live parrots",
+      "card_text_en": "Police intercepted 80 parrots and arrested two suspects in Mirsarai. Myanmar was the reported origin; accounts conflict on whether India or Dhaka was intended.",
+      "context_en": "[O] On 16 November 2026 police intercepted 80 parrots in Jorarganj, Mirsarai, and arrested two suspects. Police reported the birds had entered Bangladesh illegally from Myanmar.\n\n[N] Sources disagree on the intended destination: India according to The Business Standard, but Dhaka according to Prothom Alo. Neither the border crossing, onward itinerary nor species has been verified, and disputed destinations are not mapped as fact.",
+      "modal_label_en": "Road",
+      "references_text_en": "[O] The Business Standard — 16/11/2026 — https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481\n[O] Prothom Alo — 16/11/2026 — https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my\n[O] Bangladesh Sangbad Sangstha — 16/11/2026 — https://www.bssnews.net/bangla/national/360486",
+      "quantity_note_en": "80 individuals; species unidentified.",
+      "title_es": "Bangladés: interceptan 80 loros de contrabando en Mirsarai",
+      "location_label_es": "South Sonapahar, Jorarganj, Mirsarai, Chattogram, Bangladés",
+      "geographic_note_es": "Referencia aproximada de Jorarganj; no representa el lugar exacto del control.",
+      "fauna_label_es": "80 loros vivos",
+      "card_text_es": "La policía interceptó 80 loros y detuvo a dos sospechosos en Mirsarai. Myanmar figura como origen; las fuentes discrepan entre India y Daca como destino.",
+      "context_es": "[O] El 16/11/2026 la policía interceptó 80 loros en Jorarganj, Mirsarai, y detuvo a dos sospechosos. Según la policía, las aves ingresaron ilegalmente en Bangladés desde Myanmar.\n\n[N] Las fuentes discrepan sobre el destino previsto: India según The Business Standard y Daca según Prothom Alo. No se conocen el paso fronterizo, la ruta posterior ni las especies; no se presentan destinos controvertidos como confirmados.",
+      "modal_label_es": "Carretera",
+      "references_text_es": "[O] The Business Standard — 16/11/2026 — https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481\n[O] Prothom Alo — 16/11/2026 — https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my\n[O] Bangladesh Sangbad Sangstha — 16/11/2026 — https://www.bssnews.net/bangla/national/360486",
+      "quantity_note_es": "80 individuos; especies no identificadas.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "The Business Standard — 16/11/2026",
+          "url": "https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Prothom Alo — 16/11/2026",
+          "url": "https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Bangladesh Sangbad Sangstha — 16/11/2026",
+          "url": "https://www.bssnews.net/bangla/national/360486"
+        }
+      ],
+      "occurred_at": "2026-11-16T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "status": "VALIDATED",
+      "event_end_date": null,
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "is_exact_seizure_position": false,
+      "region": "Asia",
+      "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+      "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+      "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+      "context_evidence_audit": {
+        "review_date": "2026-11-16",
+        "categories_present": [
+          "O",
+          "N"
+        ],
+        "categories_omitted": {
+          "S": "No case-specific peer-reviewed source validated",
+          "I": "No relevant WCS institutional source validated",
+          "T": "No relevant external technical source validated"
+        },
+        "source_specificity_reviewed": true,
+        "investigative_hypotheses_distinguished_from_observations": true
+      },
+      "id": "tgh-20261116-il-rabin-approx60-birds",
+      "country": "Israel",
+      "country_code": "IL",
+      "event_date": null,
+      "event_date_precision": "not_reported_conflicting_sources",
+      "publication_date": "2026-11-16",
+      "coordinates": {
+        "lat": 29.5751,
+        "lon": 34.97863
+      },
+      "coordinate_precision": "BORDER_CROSSING_REFERENCE",
+      "source_label": "Israel Nature and Parks Authority",
+      "source_url": "https://www.parks.org.il/new/bird-smuggling-rabin/",
+      "source_alternative_url": "https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+      "taxon_text": "Papagaios, pintassilgos e aves híbridas (sem identificação taxonômica individual)",
+      "modal_primary": "Rodoviário",
+      "quantity_count": 60,
+      "quantity_qualifier": "approximate",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 60
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "PARTIAL_DOCUMENTED_CROSS_BORDER_DIRECTION",
+      "route_audit_note_pt": "Entrada observada da Jordânia para Israel pelo posto Yitzhak Rabin. Local anterior de obtenção e destino final desconhecidos; não traçar linhas além da travessia verificada.",
+      "route_observations": {
+        "country_from": "Jordan",
+        "country_to": "Israel",
+        "border_crossing": "Yitzhak Rabin",
+        "geometry_validated": false
+      },
+      "source_reconciliation_status": "OFFICIAL_SOURCE_CONFIRMED_COUNT_EVENT_DATE_UNCERTAIN",
+      "title_pt": "Israel: aproximadamente 60 aves contrabandeadas da Jordânia",
+      "location_label_pt": "Posto de Yitzhak Rabin, área de Eilat, Israel",
+      "geographic_note_pt": "Localização do posto de fronteira; não identifica a baia de inspeção.",
+      "fauna_label_pt": "Aproximadamente 60 aves, de diferentes grupos",
+      "card_text_pt": "Fiscais encontraram cerca de 60 aves, incluindo papagaios, pintassilgos e híbridos, ocultas em carro vindo da Jordânia. Dois ocupantes foram interrogados.",
+      "context_pt": "[O] A autoridade israelense comunicou em 16/11/2026 a interceptação de aproximadamente 60 aves de grupos mistos escondidas em um automóvel vindo da Jordânia pelo posto Yitzhak Rabin. Dois ocupantes foram interrogados e as aves receberam encaminhamento veterinário.\n\n[N] A data exata da fiscalização diverge entre notícias; 16/11 é apenas data documental da publicação. Não foram estabelecidos local de captura, intermediários, quantitativos por espécie ou destinatário final. As 60 aves não eram todas papagaios.",
+      "modal_label_pt": "Rodoviário",
+      "references_text_pt": "[O] Israel Nature and Parks Authority — 16/11/2026 — https://www.parks.org.il/new/bird-smuggling-rabin/\n[O] i24NEWS Hebrew — 16/11/2026 — https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+      "quantity_note_pt": "Cerca de 60 aves no total; distribuição por táxon desconhecida.",
+      "title_en": "Israel: approximately 60 birds smuggled from Jordan",
+      "location_label_en": "Yitzhak Rabin border crossing, Eilat area, Israel",
+      "geographic_note_en": "Border-crossing reference; not the precise inspection bay.",
+      "fauna_label_en": "Approximately 60 birds across several groups",
+      "card_text_en": "Inspectors found about 60 birds, including parrots, goldfinches and hybrids, concealed in a car from Jordan; two occupants were questioned.",
+      "context_en": "[O] On 16 November 2026 Israel's nature authority reported intercepting approximately 60 birds of mixed groups concealed in a car arriving from Jordan at Yitzhak Rabin crossing. Two occupants were questioned and the birds referred for veterinary care.\n\n[N] Accounts differ about the precise inspection date; 16 November is the documented publication date only. The capture origin, intermediaries, species-level quantities and final recipient remain unknown. These were not 60 parrots.",
+      "modal_label_en": "Road",
+      "references_text_en": "[O] Israel Nature and Parks Authority — 16/11/2026 — https://www.parks.org.il/new/bird-smuggling-rabin/\n[O] i24NEWS Hebrew — 16/11/2026 — https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+      "quantity_note_en": "About 60 birds overall; taxon breakdown unknown.",
+      "title_es": "Israel: aproximadamente 60 aves introducidas de contrabando desde Jordania",
+      "location_label_es": "Paso fronterizo Yitzhak Rabin, zona de Eilat, Israel",
+      "geographic_note_es": "Referencia del paso fronterizo; no identifica el lugar exacto de inspección.",
+      "fauna_label_es": "Unas 60 aves de distintos grupos",
+      "card_text_es": "Inspectores hallaron unas 60 aves, incluidos loros, jilgueros e híbridos, ocultas en un automóvil procedente de Jordania; dos ocupantes fueron interrogados.",
+      "context_es": "[O] El 16/11/2026 la autoridad israelí informó de la interceptación de unas 60 aves de varios grupos ocultas en un coche llegado de Jordania por el paso Yitzhak Rabin. Dos ocupantes fueron interrogados y las aves trasladadas para atención veterinaria.\n\n[N] Las noticias difieren sobre la fecha exacta del control; el 16/11 corresponde solo a la publicación. No están confirmados el origen de captura, intermediarios, cantidades por especie ni destinatario final. No se trataba de 60 loros.",
+      "modal_label_es": "Carretera",
+      "references_text_es": "[O] Israel Nature and Parks Authority — 16/11/2026 — https://www.parks.org.il/new/bird-smuggling-rabin/\n[O] i24NEWS Hebrew — 16/11/2026 — https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+      "quantity_note_es": "Unas 60 aves en total; desglose por taxón desconocido.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Israel Nature and Parks Authority — 16/11/2026",
+          "url": "https://www.parks.org.il/new/bird-smuggling-rabin/"
+        },
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "i24NEWS Hebrew — 16/11/2026",
+          "url": "https://www.i24news.tv/he/news/news/local/artc-789b4eef"
+        }
+      ],
+      "occurred_at": null,
+      "occurred_at_precision": "not_reported_conflicting_sources"
+    },
+    {
+      "status": "VALIDATED",
+      "event_end_date": null,
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "is_exact_seizure_position": false,
+      "region": "Asia",
+      "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+      "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+      "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+      "context_evidence_audit": {
+        "review_date": "2026-11-16",
+        "categories_present": [
+          "O",
+          "N"
+        ],
+        "categories_omitted": {
+          "S": "No case-specific peer-reviewed source validated",
+          "I": "No relevant WCS institutional source validated",
+          "T": "No relevant external technical source validated"
+        },
+        "source_specificity_reviewed": true,
+        "investigative_hypotheses_distinguished_from_observations": true
+      },
+      "id": "tgh-20261116-pk-gujranwala-wild-bird-trade",
+      "country": "Paquistão",
+      "country_code": "PK",
+      "event_date": null,
+      "event_date_precision": "not_reported",
+      "publication_date": "2026-11-16",
+      "coordinates": {
+        "lat": 32.1525,
+        "lon": 74.1934
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Dawn ePaper",
+      "source_url": "https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+      "taxon_text": "Aves silvestres, incluindo 1 perdiz (espécie não identificada)",
+      "modal_primary": "Não informado",
+      "quantity_count": 1,
+      "quantity_qualifier": "minimum",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 1
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Não há proveniência, deslocamento, vendedor específico nem destino rastreado.",
+      "source_reconciliation_status": "SINGLE_SOURCE_PUBLICATION_DATE_ONLY",
+      "title_pt": "Paquistão: comércio ilegal de aves silvestres em Gujranwala",
+      "location_label_pt": "Gujranwala, Punjab, Paquistão (referência urbana)",
+      "geographic_note_pt": "Referência municipal aproximada, não local exato da operação.",
+      "fauna_label_pt": "1 perdiz documentada; outras aves em número desconhecido",
+      "card_text_pt": "Notícia de 16/11 relata três detidos por posse de uma perdiz e comércio ilegal de aves em Gujranwala; data da operação não informada.",
+      "context_pt": "[O] Publicação de 16/11/2026 informa que os Wildlife Rangers de Punjab prenderam três suspeitos em Gujranwala por posse ilegal de uma perdiz e comércio de aves silvestres; a ocorrência teve multas de 85 mil rúpias paquistanesas.\n\n[N] A notícia descreve operações independentes em Punjab. As 27 prisões totais não devem ser atribuídas a Gujranwala. A data desta ação, o total de aves negociadas, os locais de venda e eventuais rotas não foram informados.",
+      "modal_label_pt": "Não informado",
+      "references_text_pt": "[O] Dawn ePaper — 16/11/2026 — https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+      "quantity_note_pt": "Mínimo de uma perdiz identificada; não interpretar como número total de aves negociadas.",
+      "title_en": "Pakistan: illegal wild-bird trade in Gujranwala",
+      "location_label_en": "Gujranwala, Punjab, Pakistan (city reference)",
+      "geographic_note_en": "Approximate city reference, not the operation's exact location.",
+      "fauna_label_en": "1 documented partridge; other bird numbers unknown",
+      "card_text_en": "A 16-Nov report documents three arrests for illegal partridge possession and bird trade in Gujranwala; operation date is not given.",
+      "context_en": "[O] A report published 16 November 2026 states that Punjab Wildlife Rangers arrested three suspects in Gujranwala for illegal possession of a partridge and trading wild birds; the operation drew PKR 85,000 in fines.\n\n[N] The report covers independent operations across Punjab; its statewide total of 27 arrests does not refer solely to Gujranwala. The date of this specific action, traded bird totals, market sites and routes were not reported.",
+      "modal_label_en": "Not reported",
+      "references_text_en": "[O] Dawn ePaper — 16/11/2026 — https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+      "quantity_note_en": "At least one partridge documented; not a count of all traded birds.",
+      "title_es": "Pakistán: comercio ilegal de aves silvestres en Gujranwala",
+      "location_label_es": "Gujranwala, Punjab, Pakistán (referencia urbana)",
+      "geographic_note_es": "Referencia urbana aproximada, no ubicación exacta de la operación.",
+      "fauna_label_es": "1 perdiz documentada; otras aves sin recuento",
+      "card_text_es": "Noticia del 16/11 informa de tres detenidos por posesión ilegal de una perdiz y comercio de aves en Gujranwala; fecha del operativo desconocida.",
+      "context_es": "[O] Una noticia publicada el 16/11/2026 informa que los Wildlife Rangers de Punjab detuvieron a tres sospechosos en Gujranwala por posesión ilegal de una perdiz y comercio de aves silvestres; se impusieron multas por 85.000 rupias paquistaníes.\n\n[N] La noticia abarca operaciones independientes en Punjab; el total regional de 27 detenciones no corresponde solo a Gujranwala. No se informaron la fecha del operativo, el total de aves negociadas, lugares de venta ni rutas.",
+      "modal_label_es": "No informado",
+      "references_text_es": "[O] Dawn ePaper — 16/11/2026 — https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+      "quantity_note_es": "Al menos una perdiz documentada; no refleja todas las aves comercializadas.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Dawn ePaper — 16/11/2026",
+          "url": "https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002"
+        }
+      ],
+      "occurred_at": null,
+      "occurred_at_precision": "not_reported"
     }
   ]
 }
