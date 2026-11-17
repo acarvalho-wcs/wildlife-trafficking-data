@@ -79,3 +79,11 @@
 .map-view-card.seizure-points-hidden #globe .globe-marker{display:none!important}
 .map-toolbar .map-points-toggle[aria-pressed="true"]{border-color:#65c4ff;background:#15354b;color:#dcefff;font-weight:700}
 [data-interface-theme="light"] .map-toolbar .map-points-toggle[aria-pressed="true"]{background:#e8f3fc;color:#194769;border-color:#4e8cad}
+
+
+/* Visible and accessible toggle for continuous Earth rotation. */
+.globe-tools #globeRotate{display:inline-flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap;font-size:12px;font-weight:750;min-width:99px}
+.globe-tools #globeRotate[aria-pressed="true"]{background:#234538;border-color:#d3ff55;color:#eaffdf;box-shadow:inset 0 0 0 1px #d3ff5538}
+.globe-tools #globeRotate[aria-pressed="false"]{background:#26302f;border-color:#677874;color:#cbd9d3}
+[data-interface-theme="light"] .globe-tools #globeRotate[aria-pressed="true"]{background:#dff3d5;border-color:#5f933b;color:#1f4725}
+[data-interface-theme="light"] .globe-tools #globeRotate[aria-pressed="false"]{background:#e1e8e5;border-color:#9caea5;color:#415d4e}

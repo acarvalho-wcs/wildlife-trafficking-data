@@ -6,15 +6,31 @@ window.ObservatoryGlobe=(()=>{
   es:{expand:'Ampliar',exit:'Salir de pantalla completa',filters:'Filtros',routes:'Rutas documentadas',noRoutes:'No hay rutas con origen y destino georreferenciados y documentados en esta selección.',routeHint:'Los arcos conectan lugares documentados; no representan el trayecto exacto.',loading:'Cargando globo…',failed:'No se pudo abrir el globo 3D. Puede continuar en MAP.',retry:'Reintentar',help:'Arrastre para girar e inclinar · Desplace o use dos dedos para acercar',cases:'Casos en esta zona',details:'Detalles del caso',close:'Cerrar',back:'Volver a los casos',home:'Vista global',zin:'Acercar',zout:'Alejar',rotate:'Girar',tilt:'Inclinar',map:'Mapa 2D',globe:'Globo 3D',empty:'Ningún caso coincide con los filtros.'}
  };
  let api,globe,mode='map',expanded=false,loading=null,failed=false,detailId=null,clusterIds=[],snapshot=null,filterSlot,languageSlot,filterNode,languageNode;
- let routeDetail=null,pointsHidden=false;
+ let routeDetail=null,pointsHidden=false,rotationEnabled=true;
  const markerElements=new Set(),themes={map:'dark',globe:'dark'};
  try{for(const key of ['map','globe']){const saved=window.localStorage?.getItem('observatory-'+key+'-theme');if(['dark','light'].includes(saved))themes[key]=saved;}}catch{}
  Object.assign(text.pt,{dark:'Escuro',light:'Claro',theme:'Cor do mapa'});Object.assign(text.en,{dark:'Dark',light:'Light',theme:'Map color'});Object.assign(text.es,{dark:'Oscuro',light:'Claro',theme:'Color del mapa'});
  Object.assign(text.pt,{hidePoints:'Ocultar pontos',showPoints:'Mostrar pontos',pointsHint:'Oculta somente os marcadores de apreensões; filtros, rotas e hotspots permanecem inalterados.'});
  Object.assign(text.en,{hidePoints:'Hide points',showPoints:'Show points',pointsHint:'Hide seizure markers only; filters, routes and hotspots remain unchanged.'});
  Object.assign(text.es,{hidePoints:'Ocultar puntos',showPoints:'Mostrar puntos',pointsHint:'Oculta solo los marcadores de decomisos; los filtros, rutas y hotspots no cambian.'});
+ Object.assign(text.pt,{rotationControl:'Rotação',rotationOn:'Rotação ligada — clique para desligar',rotationOff:'Rotação desligada — clique para ligar'});
+ Object.assign(text.en,{rotationControl:'Rotation',rotationOn:'Rotation on — click to stop',rotationOff:'Rotation off — click to resume'});
+ Object.assign(text.es,{rotationControl:'Rotación',rotationOn:'Rotación activada — pulse para detener',rotationOff:'Rotación desactivada — pulse para reanudar'});
  const get=id=>document.getElementById(id),t=()=>text[api.lang()],safe=s=>api.escape(s),duration=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?0:450;
  function button(id,label,fn){get(id).textContent=label;get(id).onclick=fn;}
+ // Move the MapLibre GLOBE camera around Earth's longitude; never modify
+ // 2D positions, case coordinates, route data or KDE density.
+ const rotation=window.GlobeRotation.create({
+  isActive:()=>rotationEnabled&&mode==='globe'&&Boolean(globe?.isMapLibre&&globe.map)&&!failed&&!document.hidden&&api?.visible?.()!==false&&get('mapDetail')?.hidden!==false,
+  step:delta=>{
+   const m=globe?.map;if(!m)return;
+   const c=m.getCenter();
+   m.jumpTo({center:[c.lng+delta,c.lat]});
+  }
+ });
+ function suspendRotation(ms=3500){rotation.pause(ms);}
+ function syncRotation(){rotation.sync();}
+
  function loadScript(url){return new Promise((resolve,reject)=>{const s=document.createElement('script');const timer=setTimeout(()=>{s.remove();reject(Error('timeout'));},15000);s.src=url;s.onload=()=>{clearTimeout(timer);resolve();};s.onerror=()=>{clearTimeout(timer);s.remove();reject(Error('script'));};document.head.append(s);});}
  async function ensureGlobe(){
   if(globe)return;
@@ -48,9 +64,9 @@ window.ObservatoryGlobe=(()=>{
    const controls=g.controls();controls.enablePan=false;controls.enableDamping=true;controls.dampingFactor=.12;controls.minDistance=115;controls.maxDistance=650;
    // Zoom never rebuilds or regroups case markers.
    g.pointOfView({lat:14,lng:5,altitude:2.4},0);
-   get('globe').querySelector('canvas').addEventListener('webglcontextlost',e=>{e.preventDefault();failed=true;globe.pauseAnimation();localize();});
+   get('globe').querySelector('canvas').addEventListener('webglcontextlost',e=>{e.preventDefault();failed=true;globe.pauseAnimation();syncRotation();localize();});
    applyTheme();resize();updatePoints();if(mode!=='globe')g.pauseAnimation();
-  })().catch(()=>{failed=true;if(globe){globe._destructor?.();globe=null;}get('globe').replaceChildren();}).finally(()=>{loading=null;localize();});
+  })().catch(()=>{failed=true;if(globe){globe._destructor?.();globe=null;}get('globe').replaceChildren();}).finally(()=>{loading=null;localize();syncRotation();});
   localize();return loading;
  }
  function individual(records){return records.filter(window.GlobeData.valid).map(e=>({lat:e.lat,lng:e.lng,members:[e],recent:window.CaseContext.isRecent(e)})).sort((a,b)=>Number(a.recent)-Number(b.recent));}
@@ -115,19 +131,24 @@ window.ObservatoryGlobe=(()=>{
   get('globeStatus').hidden=mode!=='globe';
   get('globeStatus').innerHTML=failed?safe(l.failed)+' <button id="retryGlobe">'+safe(l.retry)+'</button>':!globe?safe(l.loading):api.filtered().length?'':safe(l.empty);
   if(get('retryGlobe'))get('retryGlobe').onclick=()=>{if(globe){globe._destructor?.();globe=null;get('globe').replaceChildren();}ensureGlobe();};
-  for(const [id,label] of [['globeZoomIn',l.zin],['globeZoomOut',l.zout],['globeHome',l.home],['globeRotate',l.rotate],['globeTilt',l.tilt]]){get(id).title=label;get(id).setAttribute('aria-label',label);}
+  for(const [id,label] of [['globeZoomIn',l.zin],['globeZoomOut',l.zout],['globeHome',l.home],['globeTilt',l.tilt]]){get(id).title=label;get(id).setAttribute('aria-label',label);}
+   const rotateButton=get('globeRotate'),rotateLabel=rotationEnabled?l.rotationOn:l.rotationOff;
+   rotateButton.textContent='↻ '+l.rotationControl;
+   rotateButton.title=rotateLabel;
+   rotateButton.setAttribute('aria-label',rotateLabel);
+   rotateButton.setAttribute('aria-pressed',String(rotationEnabled));
   get('closeMapDetail').textContent=l.close;get('mapDetailTitle').textContent=detailId?l.details:l.cases;
   if(!get('mapDetail').hidden)renderDetail();
  }
- function showCase(id,preserveCluster=false){if(!preserveCluster)clusterIds=[];try{const e=api.filtered().find(e=>e.id===id);window.ObservatoryAnalytics?.track('case_open',{case_id:id,case_country:e?.country,view:mode});}catch{}routeDetail=null;detailId=id;api.select(id);get('mapDetail').hidden=false;renderDetail();get('closeMapDetail').focus({preventScroll:true});}
+ function showCase(id,preserveCluster=false){if(!preserveCluster)clusterIds=[];try{const e=api.filtered().find(e=>e.id===id);window.ObservatoryAnalytics?.track('case_open',{case_id:id,case_country:e?.country,view:mode});}catch{}routeDetail=null;detailId=id;api.select(id);get('mapDetail').hidden=false;renderDetail();syncRotation();get('closeMapDetail').focus({preventScroll:true});}
  function showCluster(group){
   routeDetail=null;
   clusterIds=group.members.map(e=>e.id);detailId=null;api.select(null);
   if(clusterIds.length===1){showCase(clusterIds[0]);return;}
   if(globe&&mode==='globe')globe.pointOfView({lat:group.lat,lng:group.lng,altitude:Math.max(.3,globe.pointOfView().altitude*.7)},duration());
-  get('mapDetail').hidden=false;renderDetail();get('closeMapDetail').focus({preventScroll:true});
+  get('mapDetail').hidden=false;renderDetail();syncRotation();get('closeMapDetail').focus({preventScroll:true});
  }
- function showRoute(d){try{window.ObservatoryAnalytics?.track('route_open',{route_id:d.route.id,view:mode});}catch{}routeDetail=d.id;detailId=null;clusterIds=[];api.select(d.event.id);get('mapDetail').hidden=false;renderDetail();get('closeMapDetail').focus({preventScroll:true});}
+ function showRoute(d){try{window.ObservatoryAnalytics?.track('route_open',{route_id:d.route.id,view:mode});}catch{}routeDetail=d.id;detailId=null;clusterIds=[];api.select(d.event.id);get('mapDetail').hidden=false;renderDetail();syncRotation();get('closeMapDetail').focus({preventScroll:true});}
  function renderDetail(){
   if(routeDetail){
    const d=get('routeLayer').checked&&window.GlobeData.routes(api.filtered()).find(s=>s.id===routeDetail);
@@ -138,12 +159,12 @@ window.ObservatoryGlobe=(()=>{
   if(e){get('mapDetailContent').innerHTML=(clusterIds.length>1?'<button id="backMapCases">← '+safe(l.back)+'</button>':'')+api.popup(api.record(e))+(e.additionalSources||[]).map(r=>'<p><a class="source-link" target="_blank" rel="noopener noreferrer" href="'+safe(r.url)+'">'+window.ScientificText.html(r.source)+' ↗</a></p>').join('');if(get('backMapCases'))get('backMapCases').onclick=()=>{detailId=null;api.select(null);renderDetail();};}
   else{detailId=null;const members=clusterIds.map(id=>data.find(e=>e.id===id)).filter(Boolean);if(!members.length){get('mapDetail').hidden=true;return;}get('mapDetailContent').innerHTML=members.map(e=>'<button class="case-choice '+(window.CaseContext.isRecent(e)?'recent':'')+'" data-case="'+safe(e.id)+'">'+window.ScientificText.html(api.record(e).title||api.record(e).city)+'<br><small>'+window.ScientificText.html(api.record(e).country)+' · '+safe(e.date)+'</small></button>').join('');get('mapDetailContent').querySelectorAll('[data-case]').forEach(b=>b.onclick=()=>{const choice=data.find(e=>String(e.id)===b.dataset.case);if(choice)showCase(choice.id,true);});}
  }
- function closeDetail(){routeDetail=null;get('mapDetail').hidden=true;detailId=null;clusterIds=[];api.select(null);get(mode==='globe'?'globeMode':'mapMode').focus({preventScroll:true});}
+ function closeDetail(){routeDetail=null;get('mapDetail').hidden=true;detailId=null;clusterIds=[];api.select(null);syncRotation();get(mode==='globe'?'globeMode':'mapMode').focus({preventScroll:true});}
  async function setMode(next){
   if(mode!==next){try{window.ObservatoryAnalytics?.track(next+'_view');}catch{}}
   mode=next;get('map').hidden=mode!=='map';get('globe').hidden=mode!=='globe';
   get('mapMode').setAttribute('aria-pressed',String(mode==='map'));get('globeMode').setAttribute('aria-pressed',String(mode==='globe'));
-  localize();if(mode==='globe'){await ensureGlobe();if(globe&&mode==='globe')globe.resumeAnimation();}else globe?.pauseAnimation();resize();
+  localize();syncRotation();if(mode==='globe'){await ensureGlobe();if(globe&&mode==='globe')globe.resumeAnimation();}else globe?.pauseAnimation();syncRotation();resize();
  }
  function resize(){requestAnimationFrame(()=>{api.map.invalidateSize({pan:false});if(globe&&mode==='globe'){const r=get('mapStage').getBoundingClientRect();if(r.width&&r.height){globe.width(r.width).height(r.height);updateVisibility(globe.pointOfView());}}});}
  function setExpanded(next){
@@ -156,19 +177,21 @@ window.ObservatoryGlobe=(()=>{
  function init(a){
   api=a;get('mapMode').onclick=()=>setMode('map');get('globeMode').onclick=()=>setMode('globe');get('routeLayer').onchange=()=>{updatePoints();localize();resize();};get('closeMapDetail').onclick=closeDetail;
   get('mapTheme').onchange=e=>{if(!['dark','light'].includes(e.target.value))return;themes[mode]=e.target.value;try{window.localStorage?.setItem('observatory-'+mode+'-theme',themes[mode]);}catch{}applyTheme();};
-  get('globeZoomIn').onclick=()=>zoomBy(.75);get('globeZoomOut').onclick=()=>zoomBy(1.3);get('globeHome').onclick=()=>{globe?.pointOfView({lat:14,lng:5,altitude:2.4},duration());};
-  get('globeRotate').onclick=()=>{if(globe)globe.pointOfView({...globe.pointOfView(),lng:globe.pointOfView().lng+25},duration());};
-  get('globeTilt').onclick=()=>{if(globe)globe.pointOfView({...globe.pointOfView(),lat:globe.pointOfView().lat>60?-30:globe.pointOfView().lat+20},duration());};
-  get('globe').tabIndex=0;get('globe').onkeydown=e=>{if(!globe)return;const p=globe.pointOfView();if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-'].includes(e.key)){e.preventDefault();if(e.key==='+')zoomBy(.8);else if(e.key==='-')zoomBy(1.2);else globe.pointOfView({...p,lng:p.lng+(e.key==='ArrowRight'?10:e.key==='ArrowLeft'?-10:0),lat:Math.max(-85,Math.min(85,p.lat+(e.key==='ArrowUp'?10:e.key==='ArrowDown'?-10:0)))},duration());}};
+  get('globeZoomIn').onclick=()=>zoomBy(.75);get('globeZoomOut').onclick=()=>zoomBy(1.3);get('globeHome').onclick=()=>{suspendRotation(4500);globe?.pointOfView({lat:14,lng:5,altitude:2.4},duration());};
+  get('globeRotate').onclick=()=>{rotationEnabled=!rotationEnabled;localize();syncRotation();};
+  get('globeTilt').onclick=()=>{suspendRotation(3500);if(globe)globe.pointOfView({...globe.pointOfView(),lat:globe.pointOfView().lat>60?-30:globe.pointOfView().lat+20},duration());};
+  get('globe').addEventListener('pointerdown',()=>suspendRotation(4500),{passive:true});
+   get('globe').addEventListener('wheel',()=>suspendRotation(3000),{passive:true});
+   get('globe').tabIndex=0;get('globe').onkeydown=e=>{if(!globe)return;const p=globe.pointOfView();if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-'].includes(e.key)){e.preventDefault();suspendRotation(3500);if(e.key==='+')zoomBy(.8);else if(e.key==='-')zoomBy(1.2);else globe.pointOfView({...p,lng:p.lng+(e.key==='ArrowRight'?10:e.key==='ArrowLeft'?-10:0),lat:Math.max(-85,Math.min(85,p.lat+(e.key==='ArrowUp'?10:e.key==='ArrowDown'?-10:0)))},duration());}};
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!get('mapDetail').hidden)closeDetail();else if(expanded)setExpanded(false);}if(expanded&&e.key==='Tab'){const nodes=[...get('mapViewCard').querySelectorAll('button,select,input,a[href],[tabindex="0"]')].filter(n=>n.getClientRects().length&&!n.disabled);if(nodes.length){const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){last.focus();e.preventDefault();}else if(!e.shiftKey&&document.activeElement===last){first.focus();e.preventDefault();}}}});
   window.addEventListener('resize',resize);new ResizeObserver(resize).observe(get('mapStage'));
-  document.addEventListener('visibilitychange',()=>{if(globe){if(document.hidden||mode!=='globe')globe.pauseAnimation();else globe.resumeAnimation();}});
+  document.addEventListener('visibilitychange',()=>{if(globe){if(document.hidden||mode!=='globe')globe.pauseAnimation();else globe.resumeAnimation();}syncRotation();});
   window.DocumentedRouteMap?.init(api.map,showRoute,api.lang);
   window.DocumentedRoutes.subscribe(sync);window.DocumentedRoutes.start();
   localize();
  }
- function zoomBy(factor){if(globe){const p=globe.pointOfView();globe.pointOfView({...p,altitude:Math.max(.00001,Math.min(4.8,p.altitude*factor))},duration());}}
- function sync(){if(!api)return;updatePoints();localize();if(globe){if(document.hidden||mode!=='globe'||api.visible?.()===false)globe.pauseAnimation();else globe.resumeAnimation();}}
+ function zoomBy(factor){suspendRotation(3500);if(globe){const p=globe.pointOfView();globe.pointOfView({...p,altitude:Math.max(.00001,Math.min(4.8,p.altitude*factor))},duration());}}
+ function sync(){if(!api)return;updatePoints();localize();if(globe){if(document.hidden||mode!=='globe'||api.visible?.()===false)globe.pauseAnimation();else globe.resumeAnimation();}syncRotation();}
  function mapClick(e){if(!expanded){try{window.ObservatoryAnalytics?.track('case_open',{case_id:e.id,case_country:e.country,view:'map'});}catch{}return;}api.map.closePopup();const members=api.filtered().filter(window.GlobeData.valid).filter(c=>c.lat===e.lat&&c.lng===e.lng);showCluster({lat:e.lat,lng:e.lng,members});}
  function locate(e){if(mode==='globe'){globe?.pointOfView({lat:e.lat,lng:e.lng,altitude:.04},duration());clusterIds=[];showCase(e.id);return true;}return false;}
  return {init,sync,resize,mapClick,locate,individual,showCluster,showCase};
