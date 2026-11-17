@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1637_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1639_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1637,
+  "count": 1639,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-17T02:11:50Z",
+    "updated_at": "2026-11-17T19:55:09Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-17T02:11:50Z",
-  "feed_updated_at": "2026-11-17T02:11:50Z",
+  "updated_at": "2026-11-17T19:55:09Z",
+  "feed_updated_at": "2026-11-17T19:55:09Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -129890,6 +129890,246 @@
       ],
       "occurred_at": null,
       "occurred_at_precision": "not_reported"
+    },
+    {
+      "id": "tgh-20261114-na-rundu-four-elephant-tusks",
+      "status": "VALIDATED",
+      "country": "Namíbia",
+      "country_code": "NA",
+      "region": "África",
+      "event_date": "2026-11-14",
+      "event_date_precision": "day",
+      "event_end_date": null,
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "day",
+      "coordinates": {
+        "lat": -17.91555,
+        "lon": 19.8316
+      },
+      "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+      "georeference_source_url": "https://mapcarta.com/19058696",
+      "is_exact_seizure_position": false,
+      "source_label": "Namibian Sun (EIS) / The Namibian",
+      "source_url": "https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/",
+      "source_alternative_url": "https://the-eis.com/elibrary/search/36070",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "taxon_text": "Marfim de elefante (espécie não determinada pela fonte)",
+      "modal_primary": "Não informado",
+      "quantity_count": 4,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "wildlife_items",
+      "quantity_by_group": {
+        "Mamíferos": 4
+      },
+      "quantity_unassigned": 0,
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "context_references": [
+        {
+          "id": "O",
+          "type": "news_case",
+          "label": "The Namibian, 16/11/2026",
+          "url": "https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/"
+        },
+        {
+          "id": "O",
+          "type": "archive_case",
+          "label": "Namibian Sun, 15/11/2026 (EIS archive)",
+          "url": "https://the-eis.com/elibrary/search/36070"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers",
+          "url": "https://doi.org/10.1038/s41562-021-01267-6"
+        },
+        {
+          "id": "N",
+          "type": "investigative",
+          "label": "The Namibian: independent Divundu investigation, 30/09/2026",
+          "url": "https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026",
+          "url": "https://the-eis.com/elibrary/search/35398"
+        }
+      ],
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Tentativa de venda em Kaisosi; não há origem, percurso anterior, destino ou rota internacional comprovados.",
+      "route_audit_note_en": "Attempted sale in Kaisosi; no proven origin, prior itinerary, destination or international route.",
+      "route_audit_note_es": "Intento de venta en Kaisosi; no se acreditaron origen, recorrido previo, destino ni ruta internacional.",
+      "image_url": null,
+      "image_source_url": null,
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-15-17-AMERICAS",
+      "source_reconciliation_status": "TWO_NEWS_SOURCES_15_16_NOV",
+      "case_context_status": "PT_EN_ES_OSINT_VERIFIED_2026_11_17",
+      "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_EVIDENCE_ONLY",
+      "context_evidence_audit": {
+        "review_date": "2026-11-17",
+        "categories_present": [
+          "O",
+          "S",
+          "N",
+          "T"
+        ],
+        "source_specificity_reviewed": true,
+        "no_unverified_species_or_routes": true
+      },
+      "location_label_pt": "Kaisosi, Rundu, Kavango East, Namíbia (referência da localidade)",
+      "geographic_note_pt": "Coordenadas aproximadas da localidade de Kaisosi; local exato da negociação não divulgado.",
+      "title_pt": "Namíbia: homem detido ao tentar vender quatro presas de elefante em Rundu",
+      "fauna_label_pt": "4 presas de elefante (marfim)",
+      "card_text_pt": "Em 14/11, polícia prendeu suspeito de 33 anos em Kaisosi após ele oferecer quatro presas de elefante a agente disfarçado. O marfim foi apreendido; procedência e destino desconhecidos.",
+      "context_pt": "[O] Em 14/11, por volta de 4h, um suspeito de 33 anos foi detido em Kaisosi, Rundu, após supostamente oferecer quatro presas de elefante a um policial disfarçado. As presas foram apreendidas, mas sua procedência, valor e possíveis compradores além do agente não foram estabelecidos. Quatro presas não equivalem necessariamente a quatro elefantes.\n\n[S] Wasser et al. (2022) demonstraram que comparações genéticas entre presas de marfim apreendidas podem estabelecer relações entre remessas e operadores. Essa técnica poderia orientar investigações de procedência, mas não foi documentado exame genético nem vínculo de rede para o caso de Rundu.\n\n[N] Em setembro de 2026, outra operação em Divundu, também em Kavango East, deteve três suspeitos que teriam oferecido duas presas a agente infiltrado. A semelhança do método e a proximidade regional não comprovam que os casos compartilhem fornecedores ou organização.\n\n[T] O relatório namibiano de proteção da fauna e fiscalização referente a 2025, publicado em 2026, acompanha os registros nacionais de crimes contra fauna e prisões. É contexto de tendência, não evidência de origem, destino ou rota das quatro presas desta ocorrência.",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Quatro presas de elefante contabilizadas como quatro itens de fauna; não converter automaticamente em quatro animais mortos.",
+      "references_text_pt": "[O] The Namibian, 16/11/2026 — https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/\n[O] Namibian Sun, 15/11/2026 (EIS archive) — https://the-eis.com/elibrary/search/36070\n[S] Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers — https://doi.org/10.1038/s41562-021-01267-6\n[N] The Namibian: independent Divundu investigation, 30/09/2026 — https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/\n[T] Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026 — https://the-eis.com/elibrary/search/35398",
+      "location_label_en": "Kaisosi, Rundu, Kavango East, Namibia (locality reference)",
+      "geographic_note_en": "Approximate Kaisosi locality coordinates; the precise location of the sale offer was not disclosed.",
+      "title_en": "Namibia: suspect arrested attempting to sell four elephant tusks in Rundu",
+      "fauna_label_en": "4 elephant tusks (ivory)",
+      "card_text_en": "On 14 November a 33-year-old suspect was arrested in Kaisosi after allegedly offering four elephant tusks to an undercover officer. The tusks were seized; provenance and destination remain unknown.",
+      "context_en": "[O] At approximately 04:00 on 14 November, a 33-year-old suspect was arrested in Kaisosi, Rundu, after allegedly offering four elephant tusks for sale to an undercover police officer. The tusks were confiscated, but their provenance, value and any other potential buyers were not established. Four tusks must not be equated with four elephants.\n\n[S] Wasser et al. (2022) showed that genetic matches between seized tusks can connect separate shipments and trafficking operators. Such methods could support provenance investigations, but no genetic tests or network links were documented in the Rundu case.\n\n[N] In a separate September 2026 case, three suspects were arrested at Divundu, also in Kavango East, after allegedly offering two tusks to an undercover officer. Similar policing methods and geographic proximity do not establish shared suppliers or a criminal network.\n\n[T] Namibia's 2025 wildlife protection and law-enforcement report, published in 2026, tracks national wildlife-crime incidents and arrests. It supplies background trends, not evidence of the origin, destination or route of these four tusks.",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "Four tusks recorded as four wildlife items; do not convert automatically into four individual elephants.",
+      "references_text_en": "[O] The Namibian, 16/11/2026 — https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/\n[O] Namibian Sun, 15/11/2026 (EIS archive) — https://the-eis.com/elibrary/search/36070\n[S] Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers — https://doi.org/10.1038/s41562-021-01267-6\n[N] The Namibian: independent Divundu investigation, 30/09/2026 — https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/\n[T] Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026 — https://the-eis.com/elibrary/search/35398",
+      "location_label_es": "Kaisosi, Rundu, Kavango East, Namibia (referencia de localidad)",
+      "geographic_note_es": "Coordenadas aproximadas de Kaisosi; no se divulgó el punto exacto del ofrecimiento.",
+      "title_es": "Namibia: detenido sospechoso de intentar vender cuatro colmillos de elefante en Rundu",
+      "fauna_label_es": "4 colmillos de elefante (marfil)",
+      "card_text_es": "El 14/11 fue detenido en Kaisosi un sospechoso de 33 años tras presuntamente ofrecer cuatro colmillos de elefante a un policía encubierto. Se incautó el marfil; origen y destino desconocidos.",
+      "context_es": "[O] Aproximadamente a las 04:00 del 14/11, un sospechoso de 33 años fue detenido en Kaisosi, Rundu, tras presuntamente ofrecer cuatro colmillos de elefante a un policía encubierto. El marfil fue incautado, pero no se establecieron procedencia, valor ni posibles compradores adicionales. Cuatro colmillos no equivalen necesariamente a cuatro elefantes.\n\n[S] Wasser et al. (2022) demostraron que la comparación genética entre colmillos incautados puede vincular cargamentos y operadores del tráfico. Ese método puede orientar la investigación de procedencia, pero no se documentaron pruebas genéticas ni vínculos de red en este caso.\n\n[N] En septiembre de 2026, una operación distinta en Divundu, también en Kavango East, detuvo a tres sospechosos que presuntamente ofrecieron dos colmillos a un agente encubierto. La semejanza del procedimiento y la cercanía regional no prueban proveedores compartidos ni una organización común.\n\n[T] El informe de Namibia sobre protección de fauna y aplicación de la ley para 2025, publicado en 2026, registra casos y detenciones por delitos contra fauna. Aporta tendencias generales, no evidencia del origen, destino o ruta de estos cuatro colmillos.",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "Cuatro colmillos contabilizados como cuatro artículos de fauna; no equivalen automáticamente a cuatro elefantes.",
+      "references_text_es": "[O] The Namibian, 16/11/2026 — https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/\n[O] Namibian Sun, 15/11/2026 (EIS archive) — https://the-eis.com/elibrary/search/36070\n[S] Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers — https://doi.org/10.1038/s41562-021-01267-6\n[N] The Namibian: independent Divundu investigation, 30/09/2026 — https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/\n[T] Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026 — https://the-eis.com/elibrary/search/35398",
+      "occurred_at": "2026-11-14T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261115-uy-piedras-blancas-mixed-wildlife-trade",
+      "status": "VALIDATED",
+      "country": "Uruguai",
+      "country_code": "UY",
+      "region": "Américas",
+      "event_date": "2026-11-15",
+      "event_date_precision": "day",
+      "event_end_date": null,
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "day",
+      "coordinates": {
+        "lat": -34.82252,
+        "lon": -56.13949
+      },
+      "coordinate_precision": "NEIGHBOURHOOD_REFERENCE_APPROXIMATE",
+      "georeference_source_url": "https://mapcarta.com/pt/19227922",
+      "is_exact_seizure_position": false,
+      "source_label": "Ministerio del Interior (Uruguay) / Montevideo Portal",
+      "source_url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento",
+      "source_alternative_url": "https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319",
+      "fauna_groups_aggregated": [
+        "Aves",
+        "Répteis"
+      ],
+      "taxon_text": "Aves e répteis silvestres e exóticos de espécies não individualizadas; lote também contém animais domésticos",
+      "modal_primary": "Rodoviário",
+      "quantity_count": null,
+      "quantity_qualifier": "unknown",
+      "quantity_kind": "animals",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "reported_mixed_lot_approximately_400_birds": true,
+      "reported_approximate_bird_count": 400,
+      "quantity_population_scope": "mixed_domestic_and_wild_not_disaggregated",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "context_references": [
+        {
+          "id": "O",
+          "type": "official_case",
+          "label": "Ministerio del Interior de Uruguay, 16/11/2026",
+          "url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento"
+        },
+        {
+          "id": "O",
+          "type": "news_corrob",
+          "label": "Montevideo Portal, 15/11/2026",
+          "url": "https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay",
+          "url": "https://doi.org/10.1007/s00267-024-02019-8"
+        },
+        {
+          "id": "N",
+          "type": "investigative",
+          "label": "Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026",
+          "url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay",
+          "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023"
+        }
+      ],
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Caminhão interceptado em Piedras Blancas; origem do transporte, paradas e destino imediato do lote não foram estabelecidos. O ponto de venda habitual declarado não comprova o itinerário do dia.",
+      "route_audit_note_en": "A truck was intercepted in Piedras Blancas; departure point, intermediate stops and the load's immediate destination were not established. The driver's usual market is not evidence of this trip's route.",
+      "route_audit_note_es": "Un camión fue intervenido en Piedras Blancas; no se establecieron punto de partida, escalas ni destino inmediato. El mercado habitual declarado no acredita el trayecto de ese día.",
+      "image_url": null,
+      "image_source_url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento",
+      "image_status": "NOT_VALIDATED",
+      "ingestion_batch": "TG-H-GLOBAL-2026-11-15-17-AMERICAS",
+      "source_reconciliation_status": "OFFICIAL_POLICE_AND_SAME_EVENT_MEDIA",
+      "case_context_status": "PT_EN_ES_OSINT_VERIFIED_2026_11_17",
+      "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_EVIDENCE_ONLY",
+      "context_evidence_audit": {
+        "review_date": "2026-11-17",
+        "categories_present": [
+          "O",
+          "S",
+          "N",
+          "T"
+        ],
+        "source_specificity_reviewed": true,
+        "no_unverified_species_or_routes": true
+      },
+      "location_label_pt": "Piedras Blancas, Montevidéu, Uruguai (referência do bairro)",
+      "geographic_note_pt": "Coordenadas de referência do bairro Piedras Blancas; a abordagem ocorreu na região de José Belloni e Domingo Arena, não neste ponto cartográfico exato.",
+      "title_pt": "Uruguai: polícia intercepta lote comercial misto com aves silvestres e outros animais em Montevidéu",
+      "fauna_label_pt": "Aproximadamente 400 aves de grupos diversos e outros animais; total silvestre não determinado",
+      "card_text_pt": "Em 15/11, polícia interceptou caminhão com cerca de 400 aves, incluindo silvestres e domésticas, além de répteis e outros animais. O motorista declarou vender aves em feira local; houve apreensões adicionais em imóvel ligado ao caso.",
+      "context_pt": "[O] Em 15/11, policiais interceptaram um caminhão em Piedras Blancas transportando aproximadamente 400 aves de diferentes espécies e outros animais. O motorista declarou comercializar aves na feira local; havia espécies nativas e exóticas, dois filhotes de ema, uma coruja, lagartos e quelônios, além de animais domésticos. Uma inspeção posterior encontrou outros exemplares em imóvel vinculado ao investigado; o número de animais silvestres não foi discriminado.\n\n[S] Bergós et al. (2024) analisaram a capacidade institucional de gestão do comércio ilegal de fauna no Uruguai e identificaram necessidades de coordenação e informação entre órgãos. O estudo orienta a leitura da resposta interinstitucional deste caso, sem provar falhas específicas na fiscalização.\n\n[N] Em agosto de 2026, investigação policial distinta revelou armazenamento de animais para comercialização na região da feira de Piedras Blancas. A coincidência territorial é linha de análise de pontos de venda e fornecedores, mas não demonstra ligação entre os suspeitos. Os aparelhos telefônicos apreendidos no caso de novembro ainda aguardavam exame.\n\n[T] Dabezies, Bergós e Chouhy (2023) documentaram o mercado ilegal de fauna nativa e exótica no Uruguai e dificuldades de fiscalização. Esse contexto fundamenta a investigação da cadeia comercial local, sem identificar procedência ou rotas dos exemplares apreendidos.",
+      "modal_label_pt": "Rodoviário",
+      "quantity_note_pt": "A notícia relata aproximadamente 400 aves e outros animais em lote misto doméstico/silvestre. Quantidade de fauna silvestre não separável; não somar 400 aos totais de animais silvestres.",
+      "references_text_pt": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "location_label_en": "Piedras Blancas, Montevideo, Uruguay (neighbourhood reference)",
+      "geographic_note_en": "Neighbourhood reference coordinates. Police intercepted the vehicle near José Belloni and Domingo Arena, not at this precise map point.",
+      "title_en": "Uruguay: police intercept mixed commercial bird and wildlife shipment in Montevideo",
+      "fauna_label_en": "Approximately 400 mixed birds plus other animals; wild-only count unknown",
+      "card_text_en": "On 15 November police stopped a truck carrying about 400 birds, including wild and domestic species, alongside reptiles and other animals. The driver reported selling birds at a local market; other animals were found at linked premises.",
+      "context_en": "[O] On 15 November police intercepted a truck in Piedras Blancas carrying approximately 400 birds of different species and other animals. The driver acknowledged selling birds at the local market; native and exotic species, two young rheas, an owl, lizards and turtles were present alongside domestic animals. A subsequent inspection of premises linked to the suspect recovered further animals. The wild-only quantity was not established.\n\n[S] Bergós et al. (2024) assessed Uruguay's institutional capacity to address illegal wildlife trade, highlighting coordination and information-management needs. The study informs analysis of this multi-agency response but does not establish particular failures in the operation.\n\n[N] A separate August 2026 police investigation documented storage of animals destined for sale around the Piedras Blancas market. The geographic overlap warrants examination of commercial venues and suppliers but does not link the suspects. Mobile phones seized during the November case awaited examination.\n\n[T] Dabezies, Bergós and Chouhy (2023) documented illegal trade in native and exotic fauna in Uruguay and regulatory challenges. This supports investigation of local supply chains without identifying the seized animals' provenance or itinerary.",
+      "modal_label_en": "Road",
+      "quantity_note_en": "Approximately 400 birds plus other animals were reported in a mixed domestic/wild consignment; the wild-only number cannot be resolved and 400 is not added to wild-animal totals.",
+      "references_text_en": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "location_label_es": "Piedras Blancas, Montevideo, Uruguay (referencia barrial)",
+      "geographic_note_es": "Coordenadas de referencia del barrio. La intervención ocurrió cerca de José Belloni y Domingo Arena, no necesariamente en este punto exacto.",
+      "title_es": "Uruguay: policía intercepta cargamento comercial mixto de aves y fauna en Montevideo",
+      "fauna_label_es": "Unas 400 aves de distintos grupos y otros animales; cifra silvestre desconocida",
+      "card_text_es": "El 15/11 la policía intervino un camión con unas 400 aves, tanto silvestres como domésticas, además de reptiles y otros animales. El conductor dijo vender aves en una feria; se hallaron más ejemplares en un inmueble vinculado.",
+      "context_es": "[O] El 15/11 la policía interceptó un camión en Piedras Blancas con aproximadamente 400 aves de diferentes especies y otros animales. El conductor declaró vender aves en la feria local; había especies nativas y exóticas, dos pichones de ñandú, un búho, lagartos y tortugas, junto con animales domésticos. Una inspección posterior de un inmueble vinculado permitió recuperar otros ejemplares. No se desglosó la cantidad exclusivamente silvestre.\n\n[S] Bergós et al. (2024) analizaron la capacidad institucional para abordar el tráfico de fauna en Uruguay e identificaron necesidades de coordinación y gestión de información. El estudio permite interpretar la respuesta conjunta, sin demostrar fallas específicas en este procedimiento.\n\n[N] Una investigación policial independiente de agosto de 2026 documentó almacenamiento de animales destinados a venta en la zona de la feria de Piedras Blancas. La coincidencia territorial orienta el examen de vendedores y proveedores, pero no acredita vínculos entre los sospechosos. Los teléfonos incautados en noviembre estaban pendientes de análisis.\n\n[T] Dabezies, Bergós y Chouhy (2023) caracterizaron el mercado ilegal de fauna nativa y exótica en Uruguay y los desafíos de control. Ese antecedente es relevante para examinar la cadena comercial local, pero no establece procedencia ni rutas de los ejemplares decomisados.",
+      "modal_label_es": "Carretera",
+      "quantity_note_es": "Se informaron unas 400 aves y otros animales en un cargamento mixto doméstico/silvestre. La cifra de fauna silvestre no está desagregada y los 400 no se suman como animales silvestres.",
+      "references_text_es": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "occurred_at": "2026-11-15T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }
