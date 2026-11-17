@@ -1,0 +1,96 @@
+{
+  "status": "VALIDATED",
+  "event_end_date": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "is_exact_seizure_position": false,
+  "region": "Asia",
+  "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+  "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+  "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+  "context_evidence_audit": {
+    "review_date": "2026-11-16",
+    "categories_present": [
+      "O",
+      "N"
+    ],
+    "categories_omitted": {
+      "S": "No case-specific peer-reviewed source validated",
+      "I": "No relevant WCS institutional source validated",
+      "T": "No relevant external technical source validated"
+    },
+    "source_specificity_reviewed": true,
+    "investigative_hypotheses_distinguished_from_observations": true
+  },
+  "id": "tgh-20261115-bd-ukhiya-migratory-bird-sales",
+  "country": "Bangladesh",
+  "country_code": "BD",
+  "event_date": null,
+  "event_date_precision": "recent_observation_date_unverified",
+  "publication_date": "2026-11-15",
+  "coordinates": {
+    "lat": 21.22113,
+    "lon": 92.16226
+  },
+  "coordinate_precision": "MARKET_REFERENCE_APPROXIMATE",
+  "source_label": "Manab Zamin / The Business Standard",
+  "source_url": "https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে",
+  "source_alternative_url": "https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+  "taxon_text": "Aves migratórias comercializadas (espécies não identificadas)",
+  "modal_primary": "Não informado",
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "animals",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Venda observada em Kutupalong; fonte das aves e rota até o mercado não individualizadas. Operação de 16/11 em Machhkaria é distinta.",
+  "source_reconciliation_status": "DIRECT_MARKET_REPORT_SEPARATE_ENFORCEMENT",
+  "title_pt": "Bangladesh: comércio de aves migratórias em mercados de Ukhiya",
+  "location_label_pt": "Mercado de Kutupalong, Ukhiya, Cox's Bazar, Bangladesh",
+  "geographic_note_pt": "Referência do mercado de Kutupalong; ponto de venda exato não identificado.",
+  "fauna_label_pt": "Aves migratórias comercializadas; quantidade desconhecida",
+  "card_text_pt": "Reportagem de 15/11 documentou venda de aves migratórias em Kutupalong. A operação de 16/11 contra armadilhas foi separada, sem vínculo individual comprovado.",
+  "context_pt": "[O] Reportagem de 15/11/2026 documentou aves migratórias capturadas e à venda em Kutupalong, incluindo observação de vendedor com várias aves. Em 16/11, outra operação nas áreas úmidas de Machhkaria resgatou oito garças e removeu armadilhas, sem relatar apreensão em ponto de venda.\n\n[N] As ações de fiscalização e o comércio reportado são geograficamente relacionados, mas não são comprovadamente a mesma ocorrência. Não há prova de que as oito garças resgatadas pertencessem ao lote vendido; quantidades comercializadas, espécies e cadeia de fornecimento seguem desconhecidas.",
+  "modal_label_pt": "Não informado",
+  "references_text_pt": "[O] Manab Zamin — 15/11/2026 — https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে\n[O] The Business Standard — 16/11/2026 (separate operation) — https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+  "quantity_note_pt": "Número de aves vendidas não informado; as oito garças resgatadas em outra ação não são somadas.",
+  "title_en": "Bangladesh: migratory-bird sales documented in Ukhiya markets",
+  "location_label_en": "Kutupalong market, Ukhiya, Cox's Bazar, Bangladesh",
+  "geographic_note_en": "Kutupalong market reference; the exact vendor position is unknown.",
+  "fauna_label_en": "Migratory birds offered for sale; number unknown",
+  "card_text_en": "A 15-Nov report documented migratory-bird sales in Kutupalong. A 16-Nov operation against traps was separate; no specific bird link was established.",
+  "context_en": "[O] A report published on 15 November 2026 documented hunted migratory birds offered for sale in Kutupalong, including a vendor observed holding several birds. On 16 November a separate Machhkaria wetland operation rescued eight herons and removed trapping equipment, without reporting a market seizure.\n\n[N] The enforcement activity and reported sales are geographically related but not verified as the same case. There is no evidence that the eight rescued herons belonged to the marketed birds; sales volumes, species and the supply chain remain unknown.",
+  "modal_label_en": "Not reported",
+  "references_text_en": "[O] Manab Zamin — 15/11/2026 — https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে\n[O] The Business Standard — 16/11/2026 (separate operation) — https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+  "quantity_note_en": "Number sold unknown; eight herons rescued in a separate action are not added.",
+  "title_es": "Bangladés: venta de aves migratorias en mercados de Ukhiya",
+  "location_label_es": "Mercado de Kutupalong, Ukhiya, Cox's Bazar, Bangladés",
+  "geographic_note_es": "Referencia del mercado de Kutupalong; puesto específico desconocido.",
+  "fauna_label_es": "Aves migratorias ofrecidas a la venta; número desconocido",
+  "card_text_es": "Una noticia del 15/11 documentó venta de aves migratorias en Kutupalong. La operación contra trampas del 16/11 fue distinta, sin vínculo individual probado.",
+  "context_es": "[O] Una investigación publicada el 15/11/2026 documentó aves migratorias capturadas y ofrecidas en Kutupalong, incluido un vendedor observado con varias aves. El 16/11 una operación distinta en los humedales de Machhkaria rescató ocho garzas y retiró trampas, sin decomisos documentados en mercados.\n\n[N] La fiscalización y las ventas reportadas están relacionadas geográficamente, pero no se ha probado que fueran el mismo caso. No existe evidencia de que las ocho garzas rescatadas pertenecieran al lote ofrecido; cantidades, especies y cadena de suministro siguen desconocidas.",
+  "modal_label_es": "No informado",
+  "references_text_es": "[O] Manab Zamin — 15/11/2026 — https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে\n[O] The Business Standard — 16/11/2026 (separate operation) — https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251",
+  "quantity_note_es": "Número vendido desconocido; no se suman ocho garzas rescatadas en otra operación.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Manab Zamin — 15/11/2026",
+      "url": "https://www.mzamin.com/article/59602/শিকারির-ফাঁদে-অতিথি-পাখি-বিক্রি-হচ্ছে-হাটবাজারে"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "The Business Standard — 16/11/2026 (separate operation)",
+      "url": "https://www.tbsnews.net/bangladesh/5000-heron-decoys-3000-metres-nets-destroyed-ukhiya-bird-hunting-crackdown-1604251"
+    }
+  ]
+}

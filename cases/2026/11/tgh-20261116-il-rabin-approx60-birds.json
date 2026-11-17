@@ -1,0 +1,104 @@
+{
+  "status": "VALIDATED",
+  "event_end_date": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "is_exact_seizure_position": false,
+  "region": "Asia",
+  "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+  "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+  "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+  "context_evidence_audit": {
+    "review_date": "2026-11-16",
+    "categories_present": [
+      "O",
+      "N"
+    ],
+    "categories_omitted": {
+      "S": "No case-specific peer-reviewed source validated",
+      "I": "No relevant WCS institutional source validated",
+      "T": "No relevant external technical source validated"
+    },
+    "source_specificity_reviewed": true,
+    "investigative_hypotheses_distinguished_from_observations": true
+  },
+  "id": "tgh-20261116-il-rabin-approx60-birds",
+  "country": "Israel",
+  "country_code": "IL",
+  "event_date": null,
+  "event_date_precision": "not_reported_conflicting_sources",
+  "publication_date": "2026-11-16",
+  "coordinates": {
+    "lat": 29.5751,
+    "lon": 34.97863
+  },
+  "coordinate_precision": "BORDER_CROSSING_REFERENCE",
+  "source_label": "Israel Nature and Parks Authority",
+  "source_url": "https://www.parks.org.il/new/bird-smuggling-rabin/",
+  "source_alternative_url": "https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+  "taxon_text": "Papagaios, pintassilgos e aves híbridas (sem identificação taxonômica individual)",
+  "modal_primary": "Rodoviário",
+  "quantity_count": 60,
+  "quantity_qualifier": "approximate",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 60
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "PARTIAL_DOCUMENTED_CROSS_BORDER_DIRECTION",
+  "route_audit_note_pt": "Entrada observada da Jordânia para Israel pelo posto Yitzhak Rabin. Local anterior de obtenção e destino final desconhecidos; não traçar linhas além da travessia verificada.",
+  "route_observations": {
+    "country_from": "Jordan",
+    "country_to": "Israel",
+    "border_crossing": "Yitzhak Rabin",
+    "geometry_validated": false
+  },
+  "source_reconciliation_status": "OFFICIAL_SOURCE_CONFIRMED_COUNT_EVENT_DATE_UNCERTAIN",
+  "title_pt": "Israel: aproximadamente 60 aves contrabandeadas da Jordânia",
+  "location_label_pt": "Posto de Yitzhak Rabin, área de Eilat, Israel",
+  "geographic_note_pt": "Localização do posto de fronteira; não identifica a baia de inspeção.",
+  "fauna_label_pt": "Aproximadamente 60 aves, de diferentes grupos",
+  "card_text_pt": "Fiscais encontraram cerca de 60 aves, incluindo papagaios, pintassilgos e híbridos, ocultas em carro vindo da Jordânia. Dois ocupantes foram interrogados.",
+  "context_pt": "[O] A autoridade israelense comunicou em 16/11/2026 a interceptação de aproximadamente 60 aves de grupos mistos escondidas em um automóvel vindo da Jordânia pelo posto Yitzhak Rabin. Dois ocupantes foram interrogados e as aves receberam encaminhamento veterinário.\n\n[N] A data exata da fiscalização diverge entre notícias; 16/11 é apenas data documental da publicação. Não foram estabelecidos local de captura, intermediários, quantitativos por espécie ou destinatário final. As 60 aves não eram todas papagaios.",
+  "modal_label_pt": "Rodoviário",
+  "references_text_pt": "[O] Israel Nature and Parks Authority — 16/11/2026 — https://www.parks.org.il/new/bird-smuggling-rabin/\n[O] i24NEWS Hebrew — 16/11/2026 — https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+  "quantity_note_pt": "Cerca de 60 aves no total; distribuição por táxon desconhecida.",
+  "title_en": "Israel: approximately 60 birds smuggled from Jordan",
+  "location_label_en": "Yitzhak Rabin border crossing, Eilat area, Israel",
+  "geographic_note_en": "Border-crossing reference; not the precise inspection bay.",
+  "fauna_label_en": "Approximately 60 birds across several groups",
+  "card_text_en": "Inspectors found about 60 birds, including parrots, goldfinches and hybrids, concealed in a car from Jordan; two occupants were questioned.",
+  "context_en": "[O] On 16 November 2026 Israel's nature authority reported intercepting approximately 60 birds of mixed groups concealed in a car arriving from Jordan at Yitzhak Rabin crossing. Two occupants were questioned and the birds referred for veterinary care.\n\n[N] Accounts differ about the precise inspection date; 16 November is the documented publication date only. The capture origin, intermediaries, species-level quantities and final recipient remain unknown. These were not 60 parrots.",
+  "modal_label_en": "Road",
+  "references_text_en": "[O] Israel Nature and Parks Authority — 16/11/2026 — https://www.parks.org.il/new/bird-smuggling-rabin/\n[O] i24NEWS Hebrew — 16/11/2026 — https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+  "quantity_note_en": "About 60 birds overall; taxon breakdown unknown.",
+  "title_es": "Israel: aproximadamente 60 aves introducidas de contrabando desde Jordania",
+  "location_label_es": "Paso fronterizo Yitzhak Rabin, zona de Eilat, Israel",
+  "geographic_note_es": "Referencia del paso fronterizo; no identifica el lugar exacto de inspección.",
+  "fauna_label_es": "Unas 60 aves de distintos grupos",
+  "card_text_es": "Inspectores hallaron unas 60 aves, incluidos loros, jilgueros e híbridos, ocultas en un automóvil procedente de Jordania; dos ocupantes fueron interrogados.",
+  "context_es": "[O] El 16/11/2026 la autoridad israelí informó de la interceptación de unas 60 aves de varios grupos ocultas en un coche llegado de Jordania por el paso Yitzhak Rabin. Dos ocupantes fueron interrogados y las aves trasladadas para atención veterinaria.\n\n[N] Las noticias difieren sobre la fecha exacta del control; el 16/11 corresponde solo a la publicación. No están confirmados el origen de captura, intermediarios, cantidades por especie ni destinatario final. No se trataba de 60 loros.",
+  "modal_label_es": "Carretera",
+  "references_text_es": "[O] Israel Nature and Parks Authority — 16/11/2026 — https://www.parks.org.il/new/bird-smuggling-rabin/\n[O] i24NEWS Hebrew — 16/11/2026 — https://www.i24news.tv/he/news/news/local/artc-789b4eef",
+  "quantity_note_es": "Unas 60 aves en total; desglose por taxón desconocido.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Israel Nature and Parks Authority — 16/11/2026",
+      "url": "https://www.parks.org.il/new/bird-smuggling-rabin/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "i24NEWS Hebrew — 16/11/2026",
+      "url": "https://www.i24news.tv/he/news/news/local/artc-789b4eef"
+    }
+  ]
+}

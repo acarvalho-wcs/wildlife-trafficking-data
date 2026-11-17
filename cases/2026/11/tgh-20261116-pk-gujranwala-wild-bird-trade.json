@@ -1,0 +1,91 @@
+{
+  "status": "VALIDATED",
+  "event_end_date": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "is_exact_seizure_position": false,
+  "region": "Asia",
+  "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+  "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+  "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+  "context_evidence_audit": {
+    "review_date": "2026-11-16",
+    "categories_present": [
+      "O",
+      "N"
+    ],
+    "categories_omitted": {
+      "S": "No case-specific peer-reviewed source validated",
+      "I": "No relevant WCS institutional source validated",
+      "T": "No relevant external technical source validated"
+    },
+    "source_specificity_reviewed": true,
+    "investigative_hypotheses_distinguished_from_observations": true
+  },
+  "id": "tgh-20261116-pk-gujranwala-wild-bird-trade",
+  "country": "Paquistão",
+  "country_code": "PK",
+  "event_date": null,
+  "event_date_precision": "not_reported",
+  "publication_date": "2026-11-16",
+  "coordinates": {
+    "lat": 32.1525,
+    "lon": 74.1934
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "source_label": "Dawn ePaper",
+  "source_url": "https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+  "taxon_text": "Aves silvestres, incluindo 1 perdiz (espécie não identificada)",
+  "modal_primary": "Não informado",
+  "quantity_count": 1,
+  "quantity_qualifier": "minimum",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 1
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Não há proveniência, deslocamento, vendedor específico nem destino rastreado.",
+  "source_reconciliation_status": "SINGLE_SOURCE_PUBLICATION_DATE_ONLY",
+  "title_pt": "Paquistão: comércio ilegal de aves silvestres em Gujranwala",
+  "location_label_pt": "Gujranwala, Punjab, Paquistão (referência urbana)",
+  "geographic_note_pt": "Referência municipal aproximada, não local exato da operação.",
+  "fauna_label_pt": "1 perdiz documentada; outras aves em número desconhecido",
+  "card_text_pt": "Notícia de 16/11 relata três detidos por posse de uma perdiz e comércio ilegal de aves em Gujranwala; data da operação não informada.",
+  "context_pt": "[O] Publicação de 16/11/2026 informa que os Wildlife Rangers de Punjab prenderam três suspeitos em Gujranwala por posse ilegal de uma perdiz e comércio de aves silvestres; a ocorrência teve multas de 85 mil rúpias paquistanesas.\n\n[N] A notícia descreve operações independentes em Punjab. As 27 prisões totais não devem ser atribuídas a Gujranwala. A data desta ação, o total de aves negociadas, os locais de venda e eventuais rotas não foram informados.",
+  "modal_label_pt": "Não informado",
+  "references_text_pt": "[O] Dawn ePaper — 16/11/2026 — https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+  "quantity_note_pt": "Mínimo de uma perdiz identificada; não interpretar como número total de aves negociadas.",
+  "title_en": "Pakistan: illegal wild-bird trade in Gujranwala",
+  "location_label_en": "Gujranwala, Punjab, Pakistan (city reference)",
+  "geographic_note_en": "Approximate city reference, not the operation's exact location.",
+  "fauna_label_en": "1 documented partridge; other bird numbers unknown",
+  "card_text_en": "A 16-Nov report documents three arrests for illegal partridge possession and bird trade in Gujranwala; operation date is not given.",
+  "context_en": "[O] A report published 16 November 2026 states that Punjab Wildlife Rangers arrested three suspects in Gujranwala for illegal possession of a partridge and trading wild birds; the operation drew PKR 85,000 in fines.\n\n[N] The report covers independent operations across Punjab; its statewide total of 27 arrests does not refer solely to Gujranwala. The date of this specific action, traded bird totals, market sites and routes were not reported.",
+  "modal_label_en": "Not reported",
+  "references_text_en": "[O] Dawn ePaper — 16/11/2026 — https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+  "quantity_note_en": "At least one partridge documented; not a count of all traded birds.",
+  "title_es": "Pakistán: comercio ilegal de aves silvestres en Gujranwala",
+  "location_label_es": "Gujranwala, Punjab, Pakistán (referencia urbana)",
+  "geographic_note_es": "Referencia urbana aproximada, no ubicación exacta de la operación.",
+  "fauna_label_es": "1 perdiz documentada; otras aves sin recuento",
+  "card_text_es": "Noticia del 16/11 informa de tres detenidos por posesión ilegal de una perdiz y comercio de aves en Gujranwala; fecha del operativo desconocida.",
+  "context_es": "[O] Una noticia publicada el 16/11/2026 informa que los Wildlife Rangers de Punjab detuvieron a tres sospechosos en Gujranwala por posesión ilegal de una perdiz y comercio de aves silvestres; se impusieron multas por 85.000 rupias paquistaníes.\n\n[N] La noticia abarca operaciones independientes en Punjab; el total regional de 27 detenciones no corresponde solo a Gujranwala. No se informaron la fecha del operativo, el total de aves negociadas, lugares de venta ni rutas.",
+  "modal_label_es": "No informado",
+  "references_text_es": "[O] Dawn ePaper — 16/11/2026 — https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002",
+  "quantity_note_es": "Al menos una perdiz documentada; no refleja todas las aves comercializadas.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Dawn ePaper — 16/11/2026",
+      "url": "https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_002_002"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "status": "VALIDATED",
+  "event_end_date": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "is_exact_seizure_position": false,
+  "region": "Asia",
+  "ingestion_batch": "TG-H-2026-11-15-16-NO-AMERICAS",
+  "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_SELECTIVE_VERIFIED",
+  "case_context_status": "PT_EN_ES_OSINT_RECONCILED_2026_11_16",
+  "context_evidence_audit": {
+    "review_date": "2026-11-16",
+    "categories_present": [
+      "O",
+      "N"
+    ],
+    "categories_omitted": {
+      "S": "No case-specific peer-reviewed source validated",
+      "I": "No relevant WCS institutional source validated",
+      "T": "No relevant external technical source validated"
+    },
+    "source_specificity_reviewed": true,
+    "investigative_hypotheses_distinguished_from_observations": true
+  },
+  "id": "tgh-20261116-bd-mirsarai-80-parrots",
+  "country": "Bangladesh",
+  "country_code": "BD",
+  "event_date": "2026-11-16",
+  "event_date_precision": "day",
+  "publication_date": "2026-11-16",
+  "coordinates": {
+    "lat": 22.88949,
+    "lon": 91.53525
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "The Business Standard / Prothom Alo / BSS",
+  "source_url": "https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481",
+  "source_alternative_url": "https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my",
+  "taxon_text": "Papagaios (espécies não identificadas)",
+  "modal_primary": "Rodoviário",
+  "quantity_count": 80,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 80
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "PARTIAL_DOCUMENTED_COUNTRY_OF_ORIGIN",
+  "route_audit_note_pt": "A polícia relatou proveniência de Myanmar; não há ponto de fronteira identificado. Destino posterior divergente (Índia ou Daca), sem linha cartográfica para trechos não confirmados.",
+  "route_observations": {
+    "reported_origin_country": "Myanmar",
+    "interception": "Jorarganj, Mirsarai, Bangladesh",
+    "disputed_intended_destinations": [
+      "India",
+      "Dhaka, Bangladesh"
+    ],
+    "geometry_validated": false
+  },
+  "source_reconciliation_status": "MULTISOURCE_CONFLICTING_DESTINATION",
+  "title_pt": "Bangladesh: 80 papagaios contrabandeados interceptados em Mirsarai",
+  "location_label_pt": "South Sonapahar, Jorarganj, Mirsarai, Chattogram, Bangladesh",
+  "geographic_note_pt": "Referência aproximada da delegacia/localidade de Jorarganj; não representa o ponto exato da fiscalização.",
+  "fauna_label_pt": "80 papagaios vivos",
+  "card_text_pt": "Polícia interceptou 80 papagaios e deteve dois suspeitos em Mirsarai. Myanmar é a origem informada; as fontes divergem entre Índia e Daca como destino.",
+  "context_pt": "[O] Em 16/11/2026, policiais interceptaram 80 papagaios na região de Jorarganj, Mirsarai, e prenderam dois suspeitos. Segundo a polícia, as aves haviam entrado irregularmente em Bangladesh procedentes de Myanmar.\n\n[N] As fontes divergem quanto ao destino pretendido: Índia segundo The Business Standard e Daca segundo Prothom Alo. A travessia fronteiriça, a rota posterior e as espécies permanecem sem confirmação; nenhum destino conflitante é tratado como comprovado.",
+  "modal_label_pt": "Rodoviário",
+  "references_text_pt": "[O] The Business Standard — 16/11/2026 — https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481\n[O] Prothom Alo — 16/11/2026 — https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my\n[O] Bangladesh Sangbad Sangstha — 16/11/2026 — https://www.bssnews.net/bangla/national/360486",
+  "quantity_note_pt": "80 indivíduos; espécies não identificadas na fonte.",
+  "title_en": "Bangladesh: 80 smuggled parrots intercepted in Mirsarai",
+  "location_label_en": "South Sonapahar, Jorarganj, Mirsarai, Chattogram, Bangladesh",
+  "geographic_note_en": "Approximate Jorarganj locality/police-station reference; not the precise checkpoint.",
+  "fauna_label_en": "80 live parrots",
+  "card_text_en": "Police intercepted 80 parrots and arrested two suspects in Mirsarai. Myanmar was the reported origin; accounts conflict on whether India or Dhaka was intended.",
+  "context_en": "[O] On 16 November 2026 police intercepted 80 parrots in Jorarganj, Mirsarai, and arrested two suspects. Police reported the birds had entered Bangladesh illegally from Myanmar.\n\n[N] Sources disagree on the intended destination: India according to The Business Standard, but Dhaka according to Prothom Alo. Neither the border crossing, onward itinerary nor species has been verified, and disputed destinations are not mapped as fact.",
+  "modal_label_en": "Road",
+  "references_text_en": "[O] The Business Standard — 16/11/2026 — https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481\n[O] Prothom Alo — 16/11/2026 — https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my\n[O] Bangladesh Sangbad Sangstha — 16/11/2026 — https://www.bssnews.net/bangla/national/360486",
+  "quantity_note_en": "80 individuals; species unidentified.",
+  "title_es": "Bangladés: interceptan 80 loros de contrabando en Mirsarai",
+  "location_label_es": "South Sonapahar, Jorarganj, Mirsarai, Chattogram, Bangladés",
+  "geographic_note_es": "Referencia aproximada de Jorarganj; no representa el lugar exacto del control.",
+  "fauna_label_es": "80 loros vivos",
+  "card_text_es": "La policía interceptó 80 loros y detuvo a dos sospechosos en Mirsarai. Myanmar figura como origen; las fuentes discrepan entre India y Daca como destino.",
+  "context_es": "[O] El 16/11/2026 la policía interceptó 80 loros en Jorarganj, Mirsarai, y detuvo a dos sospechosos. Según la policía, las aves ingresaron ilegalmente en Bangladés desde Myanmar.\n\n[N] Las fuentes discrepan sobre el destino previsto: India según The Business Standard y Daca según Prothom Alo. No se conocen el paso fronterizo, la ruta posterior ni las especies; no se presentan destinos controvertidos como confirmados.",
+  "modal_label_es": "Carretera",
+  "references_text_es": "[O] The Business Standard — 16/11/2026 — https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481\n[O] Prothom Alo — 16/11/2026 — https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my\n[O] Bangladesh Sangbad Sangstha — 16/11/2026 — https://www.bssnews.net/bangla/national/360486",
+  "quantity_note_es": "80 individuos; especies no identificadas.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "The Business Standard — 16/11/2026",
+      "url": "https://www.tbsnews.net/bangladesh/crime/80-parrots-smuggled-myanmar-rescued-mirsarai-2-arrested-1604481"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Prothom Alo — 16/11/2026",
+      "url": "https://www.prothomalo.com/amp/story/bangladesh/district/zrwsxu64my"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Bangladesh Sangbad Sangstha — 16/11/2026",
+      "url": "https://www.bssnews.net/bangla/national/360486"
+    }
+  ]
+}
