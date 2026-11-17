@@ -1,6 +1,10 @@
 name: Mirror canonical Observatory from wcsbrintel
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mirror-from-wcsbrintel.yml'
   schedule:
     - cron: '*/15 * * * *'
 
@@ -94,10 +98,11 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- cases cases.json web index.html assets research reportage restricted media \
+          for path in cases cases.json web index.html assets research reportage restricted media \
             routes.json publications.json papers.json news.json reports-weekly.json \
-            reports-semiannual.json reports-annual.json reports-institutional.json \
-            || true
+            reports-semiannual.json reports-annual.json reports-institutional.json; do
+            if [[ -e "$path" ]]; then git add -A -- "$path"; fi
+          done
           # Stage any top-level public assets newly introduced upstream.
           find . -maxdepth 1 -type f \( -name '*.js' -o -name '*.css' -o -name '*.html' \) -print0 |
             xargs -0 -r git add --
