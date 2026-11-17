@@ -1,6 +1,6 @@
 /* External route evidence only. Case records and their contexts are never modified. */
 window.DocumentedRoutes=(()=>{
- const url='https://acarvalho-wcs.github.io/wildlife-trafficking-data/routes.json';
+ const url='routes.json';
  let data={routes:[],excluded:[],network_context:[]},status='idle',pending=null,started=false;
  const listeners=new Set(),norm=v=>String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[–—]/g,'-');
  const safe=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

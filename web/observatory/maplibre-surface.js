@@ -6,7 +6,7 @@ window.ObservatoryBasemap=(()=>{
  const credit='<a href="https://maplibre.org/" target="_blank" rel="noopener">MapLibre</a> | © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>, © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>';
  function localizeNotice(){if(notice)notice.textContent=({pt:'MapLibre requer WebGL. Ative a aceleração gráfica do navegador para visualizar o mapa CARTO. Os registros continuam disponíveis na lista.',en:'MapLibre requires WebGL. Enable browser graphics acceleration to view the CARTO map. Records remain available in the list.',es:'MapLibre requiere WebGL. Active la aceleración gráfica del navegador para ver el mapa CARTO. Los registros siguen disponibles en la lista.'})[document.getElementById('language').value]||'';}
  function init(map){
-  try {layer=L.maplibreGL({style:style(theme),interactive:false,attribution:credit});layer.addTo(map);}
+  try {layer=L.maplibreGL({style:style(theme),interactive:false,attribution:credit});layer.addTo(map);window.SeizureHotspots?.bindMap(layer.getMaplibreMap?.());}
   catch(error){if(layer){try{map.removeLayer(layer);}catch{}}layer=null;notice=document.createElement('div');notice.className='map-engine-notice';notice.setAttribute('role','status');map.getContainer().append(notice);localizeNotice();console.warn('MapLibre could not initialize WebGL.',error);}
   map.attributionControl.setPrefix(false);
  }
@@ -19,6 +19,7 @@ window.Globe=function(host){
  let theme='dark',routes=[],queued=false;
  const map=new M.Map({container:host,style:window.ObservatoryBasemap.style(theme),center:[5,14],zoom:1,projection:{type:'globe'},attributionControl:false});
  map.addControl(new M.AttributionControl());
+ window.SeizureHotspots?.bindMap(map);
  const clear=list=>{for(const marker of list)marker.remove();list.length=0;};
  const updateRoutes=()=>{
   if(!map.isStyleLoaded()){if(!queued){queued=true;map.once('idle',()=>{queued=false;updateRoutes();});}return;}

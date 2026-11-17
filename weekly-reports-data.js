@@ -2,9 +2,9 @@
 (function () {
  'use strict';
  const feeds=Object.freeze({
-  weekly:'https://raw.githubusercontent.com/acarvalho-wcs/wildlife-trafficking-reports/main/reports-weekly.json',
-  semiannual:'https://raw.githubusercontent.com/acarvalho-wcs/wildlife-trafficking-reports/main/reports-semiannual.json',
-  annual:'https://raw.githubusercontent.com/acarvalho-wcs/wildlife-trafficking-reports/main/reports-annual.json'
+  weekly:'reports-weekly.json',
+  semiannual:'reports-semiannual.json',
+  annual:'reports-annual.json'
  });
  const categories=Object.keys(feeds),languages=['pt','en','es'],listeners=new Set();
  const collections=Object.fromEntries(categories.map(type=>[type,[]]));

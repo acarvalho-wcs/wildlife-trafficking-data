@@ -2,7 +2,7 @@
 (() => {
  const seed=window.ObservatoryGrowthSeed,source=window.CaseSource,host=document.getElementById('growthPanel');
  if(!seed||!source||!host)return;
- const zone='America/Manaus',repo='acarvalho-wcs/wildlife-trafficking-data',cacheKey='observatory-growth-totals-v1';
+ const zone='America/Manaus',repo='wcsbrintel/iwt_globalobservatory',cacheKey='observatory-growth-totals-v1';
  const day=value=>{const p=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(value)).map(x=>[x.type,x.value]));return p.year+'-'+p.month+'-'+p.day;};
  const next=d=>new Date(Date.parse(d+'T12:00:00Z')+86400000).toISOString().slice(0,10);
  const today=()=>day(Date.now()),validDay=d=>/^\d{4}-\d{2}-\d{2}$/.test(d)&&Number.isFinite(Date.parse(d));

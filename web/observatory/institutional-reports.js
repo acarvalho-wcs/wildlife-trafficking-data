@@ -1,7 +1,7 @@
 /* Independent, live institutional catalog. Existing report files stay untouched. */
 (() => {
  'use strict';
- const url='https://acarvalho-wcs.github.io/wildlife-trafficking-reports/reports-institutional.json';
+ const url='reports-institutional.json';
  const refreshMs=5*60*1000;
  const labels={
   pt:{title:'Relatórios institucionais',intro:'Estudos, diagnósticos, análises e documentos institucionais sobre tráfico de fauna e temas associados.',search:'Pesquisar títulos',category:'Categoria',all:'Todas as categorias',language:'Idioma do documento',format:'Formato',open:'Abrir documento',empty:'Nenhum documento encontrado.',loading:'Carregando documentos…',error:'Não foi possível atualizar o catálogo. Tentaremos novamente em breve.',count:(n,total)=>`${n} de ${total} documentos`,languages:{pt:'Português',en:'Inglês',es:'Espanhol'}},

@@ -1,6 +1,6 @@
 /* Sole publication catalog. No case/report imports and no embedded records. */
 window.PublicationsData=(()=>{
- const url='https://raw.githubusercontent.com/acarvalho-wcs/wildlife-trafficking-data/main/publications.json';
+ const url='publications.json';
  const languages=['pt','en','es'];
  const http=value=>{try{const u=new URL(value);return /^https?:$/.test(u.protocol)?u.href:null;}catch{return null;}};
  function validate(data){

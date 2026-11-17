@@ -2,7 +2,7 @@
 window.ObservatoryGrowthSeed={
   "start": "2026-09-21",
   "through": "2026-10-13",
-  "source": "https://github.com/acarvalho-wcs/wildlife-trafficking-data/commits/main/cases.json",
+  "source": "https://github.com/wcsbrintel/iwt_globalobservatory/commits/main/cases.json",
   "points": [
     {
       "day": "2026-09-21",

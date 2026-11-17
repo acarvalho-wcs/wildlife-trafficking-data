@@ -17,7 +17,7 @@ window.RecentPulse=(()=>{
    pair.forEach(r=>r.bringToFront());
   }
   // Cores stay above both histories and the non-interactive wave decoration.
-  markers.filter(m=>recent.has(m.eventId)).forEach(m=>m.bringToFront());
+  markers.filter(m=>m.eventIds?.some(id=>recent.has(id))||recent.has(m.eventId)).forEach(m=>m.bringToFront?.());
  }
  return {sync};
 })();

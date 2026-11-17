@@ -61,3 +61,439 @@
 #globe .maplibregl-marker{cursor:pointer}.maplibregl-ctrl-attrib a{color:#333}
 
 .map-engine-notice{position:absolute;z-index:800;bottom:30px;left:12px;right:12px;padding:12px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;font-size:13px}
+
+/* Coincident event-count pins: exact numeric lat/lng, not proximity or density. */
+.leaflet-marker-icon.seizure-count-icon{display:flex;align-items:center;justify-content:center;background:transparent;border:0}
+.seizure-count-icon span{box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:2px;border:2px solid #e8f1ee;border-radius:50%;background:#245b91;color:#fff;font-size:12px;font-weight:800;line-height:1;white-space:nowrap;box-shadow:0 2px 9px #0009}
+.seizure-count-icon.recent span{background:#c34936}
+.globe-marker.cluster{width:auto;min-width:30px;height:30px}
+.globe-marker.cluster span{display:flex;align-items:center;justify-content:center;width:auto;min-width:30px;height:30px;padding:2px 6px;border:2px solid #e8f1ee;background:#245b91;color:#fff;font-size:12px;font-weight:800;line-height:1;white-space:nowrap;box-shadow:0 2px 9px #0009}
+.globe-marker.cluster.recent span{background:#c34936}
+.globe-marker.cluster:focus-visible,.seizure-count-icon:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+
+
+/* Display-only toggle: conceal seizure-event markers without touching filters,
+   heatmap/KDE layers, route markers, data, counts or selection state.
+   CSS display:none also removes hidden buttons from keyboard navigation. */
+.map-view-card.seizure-points-hidden #map :is(.seizure-circle,.seizure-count-icon,.recent-wave),
+.map-view-card.seizure-points-hidden #globe .globe-marker{display:none!important}
+.map-toolbar .map-points-toggle[aria-pressed="true"]{border-color:#65c4ff;background:#15354b;color:#dcefff;font-weight:700}
+[data-interface-theme="light"] .map-toolbar .map-points-toggle[aria-pressed="true"]{background:#e8f3fc;color:#194769;border-color:#4e8cad}
+
+
+/* Visible and accessible toggle for continuous Earth rotation. */
+.globe-tools #globeRotate{display:inline-flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap;font-size:12px;font-weight:750;min-width:99px}
+.globe-tools #globeRotate[aria-pressed="true"]{background:#234538;border-color:#d3ff55;color:#eaffdf;box-shadow:inset 0 0 0 1px #d3ff5538}
+.globe-tools #globeRotate[aria-pressed="false"]{background:#26302f;border-color:#677874;color:#cbd9d3}
+[data-interface-theme="light"] .globe-tools #globeRotate[aria-pressed="true"]{background:#dff3d5;border-color:#5f933b;color:#1f4725}
+[data-interface-theme="light"] .globe-tools #globeRotate[aria-pressed="false"]{background:#e1e8e5;border-color:#9caea5;color:#415d4e}
+
+
+/* Second-stage map-only mode inside the existing fullscreen card.
+   CARTO/OpenStreetMap/MapLibre attributions remain available. */
+.map-view-card:not(.map-expanded) #enterCleanView{display:inline-flex;align-items:center}
+.map-expanded .map-clean-enter{font-size:13px}
+.map-expanded.map-clean-view{padding:0!important;border:0!important;border-radius:0!important;gap:0!important}
+.map-expanded.map-clean-view > :is(.cardhead,.map-toolbar,.map-route-note,.hotspot-legend,.case-legend){display:none!important}
+.map-expanded.map-clean-view .map-stage{height:100%;min-height:0;flex:1 1 auto;border:0}
+.map-expanded.map-clean-view :is(.map-filters-host,.globe-tools,.globe-help,.globe-credit,.globe-status,.leaflet-top,.leaflet-popup-pane,.map-engine-notice){display:none!important}
+/* Visual-only mode suspends popup clicks; data and layers are not changed. */
+/* Preserve event click targets during clean presentation. */
+.map-stage .map-clean-exit{
+ position:absolute;top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));
+ z-index:1500;min-height:36px;padding:7px 12px;
+ border:1px solid #c4d8ca77;border-radius:8px;background:#081b18b8;
+ color:#f2faf4;font:600 12px/1.3 Inter,system-ui,sans-serif;
+ opacity:.67;cursor:pointer;backdrop-filter:blur(7px);
+ transition:opacity .15s ease,background .15s ease;
+}
+.map-stage .map-clean-exit:hover,.map-stage .map-clean-exit:focus-visible{opacity:1;background:#10291fd9}
+.map-stage .map-clean-exit:focus-visible{outline:2px solid #d3ff55;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.map-stage .map-clean-exit{transition:none}}
+
+
+/* Reuse the dashboard's Observatory logo as a quiet map-only watermark.
+   It is an inert overlay: never intercept map gestures or cover map controls. */
+.map-stage .map-clean-logo{display:none!important}
+.map-expanded.map-clean-view .map-stage .map-clean-logo{
+ display:block!important;
+ position:absolute;
+ z-index:1200;
+ left:max(14px,env(safe-area-inset-left));
+ bottom:max(32px,env(safe-area-inset-bottom));
+ width:clamp(62px,8.2vw,100px);
+ max-height:min(20vh,110px);
+ height:auto;
+ object-fit:contain;
+ opacity:.58;
+ pointer-events:none;
+ user-select:none;
+ filter:drop-shadow(0 2px 5px #0009);
+}
+@media(max-width:600px){
+ .map-expanded.map-clean-view .map-stage .map-clean-logo{
+  width:64px;
+  max-height:75px;
+  bottom:max(34px,env(safe-area-inset-bottom));
+  opacity:.52;
+ }
+}
+
+
+/* First map-only analytics chart. No panel fill, no border, no backdrop,
+   and no interference with mouse/touch gestures on the map. */
+.map-stage .clean-map-charts{display:none!important}
+.map-expanded.map-clean-view .map-stage .clean-map-charts{
+ display:flex!important;
+ position:absolute;
+ top:max(23px,env(safe-area-inset-top));
+ left:max(20px,env(safe-area-inset-left));
+ bottom:max(154px,calc(env(safe-area-inset-bottom) + 122px));
+ width:min(296px,calc(100% - 40px));
+ flex-direction:column;
+ gap:20px;
+ z-index:1220;
+ pointer-events:none;
+ overflow:hidden;
+ background:none!important;
+ border:0!important;
+ box-shadow:none!important;
+}
+.map-expanded.map-clean-view .clean-country-chart{
+ --country-chart-text:#f5fbff;
+ --country-chart-muted:#c7d9e2;
+ --country-chart-accent:#d3ff55;
+ --country-chart-bar-start:#60c4f8;
+ --country-chart-bar-end:#b5ecfb;
+ --country-chart-halo:0 1px 4px #000c,0 1px 12px #0008;
+ width:100%;
+ min-width:0;
+ color:var(--country-chart-text);
+ font:500 12px/1.32 Inter,ui-sans-serif,system-ui,sans-serif;
+ text-shadow:var(--country-chart-halo);
+ background:transparent!important;
+}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-country-chart{
+ --country-chart-text:#112f43;
+ --country-chart-muted:#2f5565;
+ --country-chart-accent:#11628d;
+ --country-chart-bar-start:#135a83;
+ --country-chart-bar-end:#268a8b;
+ --country-chart-halo:0 1px 3px #fffe,0 0 9px #fffd;
+}
+.clean-country-chart h3{
+ margin:0;
+ font-size:12px;
+ line-height:1.25;
+ font-weight:850;
+ letter-spacing:.125em;
+ text-transform:uppercase;
+ color:var(--country-chart-text);
+ text-shadow:var(--country-chart-halo);
+}
+.clean-country-chart .clean-chart-summary{
+ margin:6px 0 16px;
+ color:var(--country-chart-accent);
+ font-size:11px;
+ font-weight:750;
+ line-height:1.3;
+ letter-spacing:.018em;
+}
+.clean-country-rows{display:flex;flex-direction:column;gap:10px}
+.clean-country-row{min-width:0}
+.clean-country-row-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:5px}
+.clean-country-name{
+ min-width:0;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ white-space:nowrap;
+ font-weight:650;
+ font-size:12px;
+}
+.clean-country-value{flex-shrink:0;font-weight:850;font-variant-numeric:tabular-nums;font-size:12px}
+.clean-country-bar-rail{height:4px;width:100%;background:transparent;border:0;overflow:visible}
+.clean-country-bar{
+ display:block;
+ height:4px;
+ min-width:2px;
+ border-radius:0 4px 4px 0;
+ background:linear-gradient(90deg,var(--country-chart-bar-start),var(--country-chart-bar-end));
+ box-shadow:0 0 9px #0004;
+}
+.clean-country-row.other{color:var(--country-chart-muted)}
+.clean-country-row.other .clean-country-bar{opacity:.55}
+.clean-country-chart .clean-chart-note{
+ margin:15px 0 0;
+ font-size:10px;
+ font-weight:550;
+ color:var(--country-chart-muted);
+}
+.clean-country-empty{margin:0;color:var(--country-chart-muted);font-size:12px}
+@media(max-width:650px){
+ .map-expanded.map-clean-view .map-stage .clean-map-charts{
+  top:max(12px,env(safe-area-inset-top));
+  left:max(14px,env(safe-area-inset-left));
+  bottom:max(112px,calc(env(safe-area-inset-bottom) + 88px));
+  width:min(226px,calc(100% - 92px));
+  gap:13px;
+ }
+ .clean-country-chart h3{font-size:11px}
+ .clean-country-chart .clean-chart-summary{margin:4px 0 10px;font-size:10px}
+ .clean-country-rows{gap:7px}
+ .clean-country-name,.clean-country-value{font-size:11px}
+ .clean-country-row-head{margin-bottom:3px}
+ .clean-country-chart .clean-chart-note{margin-top:9px;font-size:9px}
+}
+@media(max-height:520px){
+ .map-expanded.map-clean-view .map-stage .clean-map-charts{top:8px;bottom:85px}
+ .clean-country-rows{gap:5px}
+ .clean-country-chart .clean-chart-note{margin-top:8px}
+}
+
+
+/* One animated, georeferenced story card: opt-in only through clean GLOBE view.
+   The overlay passes all mouse/touch map gestures through except the card. */
+.map-stage .clean-map-story-layer{display:none!important}
+.map-expanded.map-clean-view .map-stage .clean-map-story-layer:not([hidden]){
+ display:block!important;
+ position:absolute;inset:0;z-index:1280;
+ pointer-events:none;
+ overflow:hidden;
+}
+.clean-map-story-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0;transition:opacity .32s ease}
+.clean-map-story-lines.is-visible{opacity:1}
+.clean-map-story-path{fill:none;stroke:#d3ff55;stroke-width:1.45;stroke-dasharray:4 5;stroke-linecap:round;vector-effect:non-scaling-stroke}
+.clean-map-story-pin{fill:#d3ff55;stroke:#0c2421;stroke-width:1.1;vector-effect:non-scaling-stroke}
+.clean-map-story-card{
+ position:absolute;display:flex;flex-direction:column;align-items:flex-start;gap:5px;
+ padding:11px 12px;max-height:125px;box-sizing:border-box;overflow:hidden;
+ pointer-events:none;cursor:pointer;
+ border:1px solid #9adcc04d;border-radius:9px;
+ background:#0b2422cf;color:#f6fffb;
+ box-shadow:0 6px 22px #0007;
+ text-align:left;font:500 11px/1.35 Inter,system-ui,sans-serif;
+ backdrop-filter:blur(7px);
+ opacity:0;transform:translateY(6px);
+ transition:opacity .32s ease,transform .32s ease;
+}
+.clean-map-story-card.is-visible{pointer-events:auto;opacity:1;transform:translateY(0)}
+.clean-map-story-kicker{color:#d3ff55;font-size:9px;letter-spacing:.11em;font-weight:800}
+.clean-map-story-title{font-size:12px;line-height:1.25;font-weight:800;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.clean-map-story-meta,.clean-map-story-fauna,.clean-map-story-quantity{font-size:10px;line-height:1.25;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.clean-map-story-meta{color:#c6dacf}
+.clean-map-story-fauna{color:#effaf4}
+.clean-map-story-quantity{color:#d3ff55}
+.clean-map-story-card:focus-visible{outline:2px solid #d3ff55;outline-offset:3px}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-card{
+ background:#fffffff0;color:#16354a;border-color:#51899b66;box-shadow:0 6px 22px #17384d35;
+}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-kicker,
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-quantity{color:#136a81}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-meta{color:#396176}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-fauna{color:#17384d}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-path{stroke:#1777a5}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-pin{fill:#1777a5;stroke:#fff}
+@media(max-width:650px){
+ .clean-map-story-card{max-height:115px;padding:8px 9px;gap:4px}
+ .clean-map-story-title{font-size:11px}
+ .clean-map-story-meta,.clean-map-story-fauna,.clean-map-story-quantity{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){
+ .clean-map-story-card,.clean-map-story-lines{transition:none!important}
+}
+
+
+/* Inline "Map only" presentation. Fullscreen rules above remain unchanged.
+   Pure layout: existing filters, language, route layers, KDE and theme stay intact. */
+.map-view-card.map-clean-view:not(.map-expanded){
+ overflow:hidden;
+}
+.map-view-card.map-clean-view:not(.map-expanded) > :is(.cardhead,.map-toolbar,.map-route-note,.hotspot-legend,.case-legend){
+ display:none!important;
+}
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage{
+ height:clamp(460px,72vh,720px);
+ min-height:460px;
+ width:100%;
+}
+.map-view-card.map-clean-view:not(.map-expanded) :is(.map-filters-host,.globe-tools,.globe-help,.globe-credit,.globe-status,.leaflet-top,.leaflet-popup-pane,.map-engine-notice){
+ display:none!important;
+}
+/* Inline clean views retain accessible case markers. */
+/* Same original Observatory logo, displayed only during clean presentation. */
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage .map-clean-logo{
+ display:block!important;
+ position:absolute;
+ z-index:1200;
+ left:14px;
+ bottom:30px;
+ width:clamp(54px,7vw,83px);
+ height:auto;
+ max-height:96px;
+ object-fit:contain;
+ opacity:.58;
+ pointer-events:none;
+ user-select:none;
+ filter:drop-shadow(0 2px 5px #0009);
+}
+/* Compact, transparent country chart; this is not a second dashboard. */
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage .clean-map-charts{
+ display:flex!important;
+ position:absolute;
+ top:16px;
+ left:15px;
+ bottom:120px;
+ width:min(226px,49%);
+ min-width:0;
+ z-index:1220;
+ flex-direction:column;
+ gap:10px;
+ overflow:hidden;
+ pointer-events:none;
+ border:0!important;
+ box-shadow:none!important;
+ background:transparent!important;
+}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart{
+ --country-chart-text:#f5fbff;
+ --country-chart-muted:#c7d9e2;
+ --country-chart-accent:#d3ff55;
+ --country-chart-bar-start:#60c4f8;
+ --country-chart-bar-end:#b5ecfb;
+ --country-chart-halo:0 1px 4px #000c,0 1px 12px #0008;
+ width:100%;
+ min-width:0;
+ color:var(--country-chart-text);
+ font:500 12px/1.32 Inter,ui-sans-serif,system-ui,sans-serif;
+ text-shadow:var(--country-chart-halo);
+ background:transparent!important;
+}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-country-chart{
+ --country-chart-text:#112f43;
+ --country-chart-muted:#2f5565;
+ --country-chart-accent:#11628d;
+ --country-chart-bar-start:#135a83;
+ --country-chart-bar-end:#268a8b;
+ --country-chart-halo:0 1px 3px #fffe,0 0 9px #fffd;
+ color:var(--country-chart-text);
+ text-shadow:var(--country-chart-halo);
+}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-rows{gap:6px}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart .clean-chart-summary{margin:5px 0 10px}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart .clean-chart-note{margin-top:9px}
+/* The optional single event story also works in this inline GLOBE.
+   It stays behind the discreet Back control, which keeps its z-index 1500. */
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage .clean-map-story-layer:not([hidden]){
+ display:block!important;
+ position:absolute;
+ inset:0;
+ z-index:1280;
+ pointer-events:none;
+ overflow:hidden;
+}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-card{
+ background:#fffffff0;
+ color:#16354a;
+ border-color:#51899b66;
+ box-shadow:0 6px 22px #17384d35;
+}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] :is(.clean-map-story-kicker,.clean-map-story-quantity){color:#136a81}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-meta{color:#396176}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-fauna{color:#17384d}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-path{stroke:#1777a5}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-pin{fill:#1777a5;stroke:#fff}
+@media(max-width:650px){
+ .map-view-card.map-clean-view:not(.map-expanded) .map-stage{height:clamp(440px,68vh,620px);min-height:440px}
+ .map-view-card.map-clean-view:not(.map-expanded) .map-stage .clean-map-charts{top:12px;left:12px;bottom:99px;width:min(175px,48%)}
+ .map-view-card.map-clean-view:not(.map-expanded) .map-stage .map-clean-logo{left:12px;bottom:27px;width:57px;max-height:66px}
+ .map-view-card.map-clean-view:not(.map-expanded) .clean-country-rows{gap:4px}
+ .map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart .clean-chart-note{font-size:9px}
+}
+
+
+/* Fix LIGHT GLOBE space outside the sphere, including its transparent canvas.
+   Scope to the GLOBE, never recolor the MAP (2D) basemap. */
+.map-view-card[data-active-map-mode="globe"][data-globe-theme="light"] .map-stage,
+.map-view-card[data-globe-theme="light"] #globe,
+.map-view-card[data-globe-theme="light"] #globe .maplibregl-canvas-container,
+.map-view-card[data-globe-theme="light"] #globe .maplibregl-canvas{
+ background-color:#e8e8e8;
+}
+
+/* Story-card typography: no line clamps, ellipses or hidden copy.
+   Geometry is based on the actual rendered card height in the map viewport. */
+.clean-map-story-card{
+ max-height:none;
+ min-width:0;
+ overflow-x:hidden;
+ overflow-y:auto;
+ overscroll-behavior:contain;
+ scrollbar-width:thin;
+ scrollbar-color:#829b90 transparent;
+ align-items:stretch;
+}
+.clean-map-story-card .clean-map-story-title{
+ display:block;
+ -webkit-line-clamp:unset;
+ white-space:normal;
+ overflow:visible;
+ text-overflow:clip;
+ overflow-wrap:anywhere;
+ line-height:1.38;
+}
+.clean-map-story-card :is(.clean-map-story-place,.clean-map-story-date,.clean-map-story-description,.clean-map-story-fauna,.clean-map-story-quantity){
+ display:block;
+ max-width:100%;
+ white-space:normal;
+ overflow:visible;
+ text-overflow:clip;
+ overflow-wrap:anywhere;
+ font-size:10px;
+ line-height:1.4;
+}
+.clean-map-story-card .clean-map-story-place{font-size:10px;font-weight:650;color:#d1e3dc}
+.clean-map-story-card .clean-map-story-date{color:#c6dacf}
+.clean-map-story-card .clean-map-story-description{font-size:11px;color:#f3fbf6;line-height:1.46}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-place,
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-date{color:#396176}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-description{color:#17384d}
+@media(max-width:650px){
+ .clean-map-story-card .clean-map-story-title{font-size:11px}
+ .clean-map-story-card :is(.clean-map-story-place,.clean-map-story-date,.clean-map-story-description){font-size:10px}
+}
+
+
+/* Clean GLOBE: accessible rotation toggle below the Back button. */
+.map-stage .map-clean-rotate{top:calc(max(12px,env(safe-area-inset-top)) + 45px);min-height:36px;display:inline-flex;align-items:center;justify-content:center;gap:5px}
+.map-stage .map-clean-rotate[aria-pressed="true"]{opacity:.94;border-color:#c8f36c;background:#173a2ccd;color:#efffdf}
+.map-stage .map-clean-rotate[aria-pressed="false"]{opacity:.74;border-color:#abbeb8;background:#14221dbb;color:#e0e9e4}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .map-clean-rotate[aria-pressed="true"]{border-color:#327d55;background:#f0faefed;color:#205a39}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .map-clean-rotate[aria-pressed="false"]{border-color:#8b9d95;background:#f5f7f6ed;color:#405b4d}
+
+/* Reuse the complete case dossier, not a second reduced implementation.
+   The summary card opens this overlay without leaving clean MAP or GLOBE. */
+.map-view-card.map-clean-view .map-stage #mapDetail:not([hidden]){
+ display:block!important;position:absolute;z-index:1440;
+ top:99px;right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));
+ width:min(390px,calc(100% - 24px));box-sizing:border-box;
+ background:#10231edf;color:#f4fff4;border:2px solid #d3ff55;border-radius:10px;
+ box-shadow:0 10px 32px #0007;backdrop-filter:blur(8px)
+}
+.map-view-card.map-clean-view[data-active-map-mode="map"] .map-stage #mapDetail:not([hidden]){top:57px}
+.map-view-card.map-clean-view .map-stage #mapDetail>header{background:transparent;color:inherit;border-bottom:1px solid #d3ff5540;padding-bottom:10px;margin-bottom:9px}
+.map-view-card.map-clean-view .map-stage #mapDetail button{background:#183b30;border-color:#94c79b;color:#f4fff0}
+.map-view-card.map-clean-view .map-stage #mapDetail a{color:#a9dcff}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .map-stage #mapDetail:not([hidden]){
+ background:#f8fcf7ed;color:#183829;border-color:#318658;box-shadow:0 10px 32px #173d2e3c
+}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .map-stage #mapDetail>header{color:#183829;border-bottom-color:#31865855}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .map-stage #mapDetail button{background:#eaf4e9;border-color:#87ad91;color:#1b5036}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .map-stage #mapDetail a{color:#155f85}
+.map-view-card.map-clean-view .clean-map-story-card{border-color:#d3ff55}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-card{border-color:#318658}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-path{stroke:#318658}
+.map-view-card.map-clean-view[data-clean-chart-theme="light"] .clean-map-story-pin{fill:#318658}
+@media(max-width:650px){
+ .map-view-card.map-clean-view .map-stage #mapDetail:not([hidden]){top:100px;right:8px;bottom:8px;width:calc(100% - 16px);padding:12px}
+ .map-view-card.map-clean-view[data-active-map-mode="map"] .map-stage #mapDetail:not([hidden]){top:55px}
+}
