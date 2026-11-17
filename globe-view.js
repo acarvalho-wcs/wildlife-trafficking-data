@@ -187,11 +187,11 @@ window.ObservatoryGlobe=(()=>{
    root:get('cleanCountryChart'),records:api.filtered(),lang:api.lang(),
    countable:window.CaseContext.countable,
    countryLabel:e=>api.record(e).country,
-   limit:window.matchMedia('(max-width:650px)').matches?5:8
+   limit:!expanded?4:window.matchMedia('(max-width:650px)').matches?5:8
   });
  }
  function setCleanView(next){
-  if(next&&!expanded)return;
+  // The clean presentation is available both inline and in fullscreen.
   if(cleanView===next)return;
   cleanView=next;
   get('mapViewCard').classList.toggle('map-clean-view',cleanView);

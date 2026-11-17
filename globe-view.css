@@ -91,7 +91,7 @@
 
 /* Second-stage map-only mode inside the existing fullscreen card.
    CARTO/OpenStreetMap/MapLibre attributions remain available. */
-.map-view-card:not(.map-expanded) #enterCleanView{display:none!important}
+.map-view-card:not(.map-expanded) #enterCleanView{display:inline-flex;align-items:center}
 .map-expanded .map-clean-enter{font-size:13px}
 .map-expanded.map-clean-view{padding:0!important;border:0!important;border-radius:0!important;gap:0!important}
 .map-expanded.map-clean-view > :is(.cardhead,.map-toolbar,.map-route-note,.hotspot-legend,.case-legend){display:none!important}
@@ -316,4 +316,119 @@
 }
 @media(prefers-reduced-motion:reduce){
  .clean-map-story-card,.clean-map-story-lines{transition:none!important}
+}
+
+
+/* Inline "Map only" presentation. Fullscreen rules above remain unchanged.
+   Pure layout: existing filters, language, route layers, KDE and theme stay intact. */
+.map-view-card.map-clean-view:not(.map-expanded){
+ overflow:hidden;
+}
+.map-view-card.map-clean-view:not(.map-expanded) > :is(.cardhead,.map-toolbar,.map-route-note,.hotspot-legend,.case-legend){
+ display:none!important;
+}
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage{
+ height:clamp(460px,72vh,720px);
+ min-height:460px;
+ width:100%;
+}
+.map-view-card.map-clean-view:not(.map-expanded) :is(.map-filters-host,.globe-tools,.globe-help,.globe-credit,.globe-status,.map-detail,.leaflet-top,.leaflet-popup-pane,.map-engine-notice){
+ display:none!important;
+}
+.map-view-card.map-clean-view:not(.map-expanded) #map :is(.seizure-circle,.seizure-count-icon,.documented-route-icon),
+.map-view-card.map-clean-view:not(.map-expanded) #globe :is(.globe-marker,.globe-route-decoration){
+ pointer-events:none!important;
+}
+/* Same original Observatory logo, displayed only during clean presentation. */
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage .map-clean-logo{
+ display:block!important;
+ position:absolute;
+ z-index:1200;
+ left:14px;
+ bottom:30px;
+ width:clamp(54px,7vw,83px);
+ height:auto;
+ max-height:96px;
+ object-fit:contain;
+ opacity:.58;
+ pointer-events:none;
+ user-select:none;
+ filter:drop-shadow(0 2px 5px #0009);
+}
+/* Compact, transparent country chart; this is not a second dashboard. */
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage .clean-map-charts{
+ display:flex!important;
+ position:absolute;
+ top:16px;
+ left:15px;
+ bottom:120px;
+ width:min(226px,49%);
+ min-width:0;
+ z-index:1220;
+ flex-direction:column;
+ gap:10px;
+ overflow:hidden;
+ pointer-events:none;
+ border:0!important;
+ box-shadow:none!important;
+ background:transparent!important;
+}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart{
+ --country-chart-text:#f5fbff;
+ --country-chart-muted:#c7d9e2;
+ --country-chart-accent:#d3ff55;
+ --country-chart-bar-start:#60c4f8;
+ --country-chart-bar-end:#b5ecfb;
+ --country-chart-halo:0 1px 4px #000c,0 1px 12px #0008;
+ width:100%;
+ min-width:0;
+ color:var(--country-chart-text);
+ font:500 12px/1.32 Inter,ui-sans-serif,system-ui,sans-serif;
+ text-shadow:var(--country-chart-halo);
+ background:transparent!important;
+}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-country-chart{
+ --country-chart-text:#fff;
+ --country-chart-muted:#fff;
+ --country-chart-accent:#fff;
+ --country-chart-bar-start:#135a83;
+ --country-chart-bar-end:#268a8b;
+ --country-chart-halo:none;
+ color:#fff;
+ text-shadow:none;
+}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-country-chart :is(h3,p,div,span){
+ color:#fff;
+ text-shadow:none;
+}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-rows{gap:6px}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart .clean-chart-summary{margin:5px 0 10px}
+.map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart .clean-chart-note{margin-top:9px}
+/* The optional single event story also works in this inline GLOBE.
+   It stays behind the discreet Back control, which keeps its z-index 1500. */
+.map-view-card.map-clean-view:not(.map-expanded) .map-stage .clean-map-story-layer:not([hidden]){
+ display:block!important;
+ position:absolute;
+ inset:0;
+ z-index:1280;
+ pointer-events:none;
+ overflow:hidden;
+}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-card{
+ background:#fffffff0;
+ color:#16354a;
+ border-color:#51899b66;
+ box-shadow:0 6px 22px #17384d35;
+}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] :is(.clean-map-story-kicker,.clean-map-story-quantity){color:#136a81}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-meta{color:#396176}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-fauna{color:#17384d}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-path{stroke:#1777a5}
+.map-view-card.map-clean-view:not(.map-expanded)[data-clean-chart-theme="light"] .clean-map-story-pin{fill:#1777a5;stroke:#fff}
+@media(max-width:650px){
+ .map-view-card.map-clean-view:not(.map-expanded) .map-stage{height:clamp(440px,68vh,620px);min-height:440px}
+ .map-view-card.map-clean-view:not(.map-expanded) .map-stage .clean-map-charts{top:12px;left:12px;bottom:99px;width:min(175px,48%)}
+ .map-view-card.map-clean-view:not(.map-expanded) .map-stage .map-clean-logo{left:12px;bottom:27px;width:57px;max-height:66px}
+ .map-view-card.map-clean-view:not(.map-expanded) .clean-country-rows{gap:4px}
+ .map-view-card.map-clean-view:not(.map-expanded) .clean-country-chart .clean-chart-note{font-size:9px}
 }
