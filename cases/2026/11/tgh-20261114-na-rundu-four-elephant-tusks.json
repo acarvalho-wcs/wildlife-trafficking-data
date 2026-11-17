@@ -1,0 +1,117 @@
+{
+  "id": "tgh-20261114-na-rundu-four-elephant-tusks",
+  "status": "VALIDATED",
+  "country": "Namíbia",
+  "country_code": "NA",
+  "region": "África",
+  "event_date": "2026-11-14",
+  "event_date_precision": "day",
+  "event_end_date": null,
+  "publication_date": "2026-11-15",
+  "publication_date_precision": "day",
+  "coordinates": {
+    "lat": -17.91555,
+    "lon": 19.8316
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "georeference_source_url": "https://mapcarta.com/19058696",
+  "is_exact_seizure_position": false,
+  "source_label": "Namibian Sun (EIS) / The Namibian",
+  "source_url": "https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/",
+  "source_alternative_url": "https://the-eis.com/elibrary/search/36070",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "Marfim de elefante (espécie não determinada pela fonte)",
+  "modal_primary": "Não informado",
+  "quantity_count": 4,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "wildlife_items",
+  "quantity_by_group": {
+    "Mamíferos": 4
+  },
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "context_references": [
+    {
+      "id": "O",
+      "type": "news_case",
+      "label": "The Namibian, 16/11/2026",
+      "url": "https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/"
+    },
+    {
+      "id": "O",
+      "type": "archive_case",
+      "label": "Namibian Sun, 15/11/2026 (EIS archive)",
+      "url": "https://the-eis.com/elibrary/search/36070"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers",
+      "url": "https://doi.org/10.1038/s41562-021-01267-6"
+    },
+    {
+      "id": "N",
+      "type": "investigative",
+      "label": "The Namibian: independent Divundu investigation, 30/09/2026",
+      "url": "https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/"
+    },
+    {
+      "id": "T",
+      "type": "external_technical",
+      "label": "Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026",
+      "url": "https://the-eis.com/elibrary/search/35398"
+    }
+  ],
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Tentativa de venda em Kaisosi; não há origem, percurso anterior, destino ou rota internacional comprovados.",
+  "route_audit_note_en": "Attempted sale in Kaisosi; no proven origin, prior itinerary, destination or international route.",
+  "route_audit_note_es": "Intento de venta en Kaisosi; no se acreditaron origen, recorrido previo, destino ni ruta internacional.",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED",
+  "ingestion_batch": "TG-H-GLOBAL-2026-11-15-17-AMERICAS",
+  "source_reconciliation_status": "TWO_NEWS_SOURCES_15_16_NOV",
+  "case_context_status": "PT_EN_ES_OSINT_VERIFIED_2026_11_17",
+  "context_style": "2026-11-10_PROTOCOL_[O][S][I][N][T]_EVIDENCE_ONLY",
+  "context_evidence_audit": {
+    "review_date": "2026-11-17",
+    "categories_present": [
+      "O",
+      "S",
+      "N",
+      "T"
+    ],
+    "source_specificity_reviewed": true,
+    "no_unverified_species_or_routes": true
+  },
+  "location_label_pt": "Kaisosi, Rundu, Kavango East, Namíbia (referência da localidade)",
+  "geographic_note_pt": "Coordenadas aproximadas da localidade de Kaisosi; local exato da negociação não divulgado.",
+  "title_pt": "Namíbia: homem detido ao tentar vender quatro presas de elefante em Rundu",
+  "fauna_label_pt": "4 presas de elefante (marfim)",
+  "card_text_pt": "Em 14/11, polícia prendeu suspeito de 33 anos em Kaisosi após ele oferecer quatro presas de elefante a agente disfarçado. O marfim foi apreendido; procedência e destino desconhecidos.",
+  "context_pt": "[O] Em 14/11, por volta de 4h, um suspeito de 33 anos foi detido em Kaisosi, Rundu, após supostamente oferecer quatro presas de elefante a um policial disfarçado. As presas foram apreendidas, mas sua procedência, valor e possíveis compradores além do agente não foram estabelecidos. Quatro presas não equivalem necessariamente a quatro elefantes.\n\n[S] Wasser et al. (2022) demonstraram que comparações genéticas entre presas de marfim apreendidas podem estabelecer relações entre remessas e operadores. Essa técnica poderia orientar investigações de procedência, mas não foi documentado exame genético nem vínculo de rede para o caso de Rundu.\n\n[N] Em setembro de 2026, outra operação em Divundu, também em Kavango East, deteve três suspeitos que teriam oferecido duas presas a agente infiltrado. A semelhança do método e a proximidade regional não comprovam que os casos compartilhem fornecedores ou organização.\n\n[T] O relatório namibiano de proteção da fauna e fiscalização referente a 2025, publicado em 2026, acompanha os registros nacionais de crimes contra fauna e prisões. É contexto de tendência, não evidência de origem, destino ou rota das quatro presas desta ocorrência.",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "Quatro presas de elefante contabilizadas como quatro itens de fauna; não converter automaticamente em quatro animais mortos.",
+  "references_text_pt": "[O] The Namibian, 16/11/2026 — https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/\n[O] Namibian Sun, 15/11/2026 (EIS archive) — https://the-eis.com/elibrary/search/36070\n[S] Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers — https://doi.org/10.1038/s41562-021-01267-6\n[N] The Namibian: independent Divundu investigation, 30/09/2026 — https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/\n[T] Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026 — https://the-eis.com/elibrary/search/35398",
+  "location_label_en": "Kaisosi, Rundu, Kavango East, Namibia (locality reference)",
+  "geographic_note_en": "Approximate Kaisosi locality coordinates; the precise location of the sale offer was not disclosed.",
+  "title_en": "Namibia: suspect arrested attempting to sell four elephant tusks in Rundu",
+  "fauna_label_en": "4 elephant tusks (ivory)",
+  "card_text_en": "On 14 November a 33-year-old suspect was arrested in Kaisosi after allegedly offering four elephant tusks to an undercover officer. The tusks were seized; provenance and destination remain unknown.",
+  "context_en": "[O] At approximately 04:00 on 14 November, a 33-year-old suspect was arrested in Kaisosi, Rundu, after allegedly offering four elephant tusks for sale to an undercover police officer. The tusks were confiscated, but their provenance, value and any other potential buyers were not established. Four tusks must not be equated with four elephants.\n\n[S] Wasser et al. (2022) showed that genetic matches between seized tusks can connect separate shipments and trafficking operators. Such methods could support provenance investigations, but no genetic tests or network links were documented in the Rundu case.\n\n[N] In a separate September 2026 case, three suspects were arrested at Divundu, also in Kavango East, after allegedly offering two tusks to an undercover officer. Similar policing methods and geographic proximity do not establish shared suppliers or a criminal network.\n\n[T] Namibia's 2025 wildlife protection and law-enforcement report, published in 2026, tracks national wildlife-crime incidents and arrests. It supplies background trends, not evidence of the origin, destination or route of these four tusks.",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "Four tusks recorded as four wildlife items; do not convert automatically into four individual elephants.",
+  "references_text_en": "[O] The Namibian, 16/11/2026 — https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/\n[O] Namibian Sun, 15/11/2026 (EIS archive) — https://the-eis.com/elibrary/search/36070\n[S] Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers — https://doi.org/10.1038/s41562-021-01267-6\n[N] The Namibian: independent Divundu investigation, 30/09/2026 — https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/\n[T] Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026 — https://the-eis.com/elibrary/search/35398",
+  "location_label_es": "Kaisosi, Rundu, Kavango East, Namibia (referencia de localidad)",
+  "geographic_note_es": "Coordenadas aproximadas de Kaisosi; no se divulgó el punto exacto del ofrecimiento.",
+  "title_es": "Namibia: detenido sospechoso de intentar vender cuatro colmillos de elefante en Rundu",
+  "fauna_label_es": "4 colmillos de elefante (marfil)",
+  "card_text_es": "El 14/11 fue detenido en Kaisosi un sospechoso de 33 años tras presuntamente ofrecer cuatro colmillos de elefante a un policía encubierto. Se incautó el marfil; origen y destino desconocidos.",
+  "context_es": "[O] Aproximadamente a las 04:00 del 14/11, un sospechoso de 33 años fue detenido en Kaisosi, Rundu, tras presuntamente ofrecer cuatro colmillos de elefante a un policía encubierto. El marfil fue incautado, pero no se establecieron procedencia, valor ni posibles compradores adicionales. Cuatro colmillos no equivalen necesariamente a cuatro elefantes.\n\n[S] Wasser et al. (2022) demostraron que la comparación genética entre colmillos incautados puede vincular cargamentos y operadores del tráfico. Ese método puede orientar la investigación de procedencia, pero no se documentaron pruebas genéticas ni vínculos de red en este caso.\n\n[N] En septiembre de 2026, una operación distinta en Divundu, también en Kavango East, detuvo a tres sospechosos que presuntamente ofrecieron dos colmillos a un agente encubierto. La semejanza del procedimiento y la cercanía regional no prueban proveedores compartidos ni una organización común.\n\n[T] El informe de Namibia sobre protección de fauna y aplicación de la ley para 2025, publicado en 2026, registra casos y detenciones por delitos contra fauna. Aporta tendencias generales, no evidencia del origen, destino o ruta de estos cuatro colmillos.",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "Cuatro colmillos contabilizados como cuatro artículos de fauna; no equivalen automáticamente a cuatro elefantes.",
+  "references_text_es": "[O] The Namibian, 16/11/2026 — https://www.namibian.com.na/man-arrested-with-four-elephant-tusks-at-rundu/\n[O] Namibian Sun, 15/11/2026 (EIS archive) — https://the-eis.com/elibrary/search/36070\n[S] Wasser et al. (2022), Elephant genotypes reveal the size and connectivity of transnational ivory traffickers — https://doi.org/10.1038/s41562-021-01267-6\n[N] The Namibian: independent Divundu investigation, 30/09/2026 — https://www.namibian.com.na/three-arrested-for-possession-of-wildlife-products-at-divundu/\n[T] Namibia: Wildlife Protection and Law Enforcement report for 2025, published in 2026 — https://the-eis.com/elibrary/search/35398"
+}
