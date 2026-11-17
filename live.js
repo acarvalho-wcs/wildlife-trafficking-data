@@ -237,7 +237,8 @@ document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCas
 window.addEventListener('focus',refreshCaseClock);
 refreshCaseClock();
 
-window.ObservatoryGlobe?.init({map,filtered,record,popup,escape:esc,visible:()=>currentView==='dashboard',lang:()=>lang,select:id=>{activeId=id;}});
+// Globe initialization must never prevent the canonical cases feed from loading.
+// Initialize the globe after CaseSource.start; on failure the MAP remains usable.
 
 function renderDataStatus(){
  const state=window.CaseSource.state(),t=messages[lang];
@@ -249,3 +250,4 @@ window.CaseSource.subscribe(state=>{
  else renderDataStatus();
 });
 window.CaseSource.start();
+try{window.ObservatoryGlobe?.init({map,filtered,record,popup,escape:esc,visible:()=>currentView==='dashboard',lang:()=>lang,select:id=>{activeId=id;}});}catch(error){console.error('Globe initialization failed; case feed remains available.',error);}

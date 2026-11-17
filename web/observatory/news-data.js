@@ -1,10 +1,11 @@
 /* The public case collection is the only event source. No bundled case fallback. */
 window.NEWS_DATA=[];
 window.CaseSource=(()=>{
- const url='https://raw.githubusercontent.com/acarvalho-wcs/wildlife-trafficking-data/main/cases.json';
+ // Prefer the data deployed with this site: no cross-origin raw-GitHub dependency.
+ const url='cases.json';
  // Cutover guard: set to null after the initial migration. Growth is allowed now.
  const config={minimumInitialRecords:91};
- let status='idle',pending=null,started=false,hasLoaded=false,signature='',lastError=null,stale=false;
+ let status='idle',pending=null,started=false,hasLoaded=false,signature='',lastError=null,stale=false,retryTimer=null;
  const listeners=new Set();
  const isoDay=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&Number.isFinite(Date.parse(v))&&new Date(v).toISOString().slice(0,10)===v;
  const safeUrl=v=>{try{const u=new URL(v);return ['http:','https:'].includes(u.protocol)&&!u.username&&!u.password;}catch{return false;}};
@@ -55,7 +56,7 @@ window.CaseSource=(()=>{
  function accept(payload,rows){
   const nextSignature=JSON.stringify(rows);
   if(nextSignature!==signature){window.NEWS_DATA=rows.map(adapt);signature=nextSignature;}
-  window.NEWS_UPDATED=payload.audit_status?.updated_at||payload.updated_at||payload.reconstructed_at||'';
+  window.NEWS_UPDATED=payload.feed_updated_at||payload.updated_at||payload.audit_status?.updated_at||payload.reconstructed_at||'';
   hasLoaded=true;
  }
  const state=()=>({status,cases:window.NEWS_DATA,error:lastError,stale});
@@ -63,7 +64,7 @@ window.CaseSource=(()=>{
  function refresh(){
   if(pending)return pending;
   status='loading';lastError=null;notify();
-  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),60000);
   pending=(async()=>{try{
    const response=await fetch(url+'?refresh='+Date.now(),{cache:'no-store',credentials:'omit',signal:controller.signal});if(!response.ok)throw Error('Case collection unavailable');
    const payload=await response.json(),rows=validate(payload);
@@ -72,7 +73,7 @@ window.CaseSource=(()=>{
    status='error';lastError=String(error.message);
    stale=hasLoaded;console.error('Case collection load failed:',lastError);
   }
-  finally{clearTimeout(timer);pending=null;notify();}})();return pending;
+  finally{clearTimeout(timer);pending=null;notify();if(!hasLoaded&&status==='error'&&retryTimer===null&&!document.hidden){retryTimer=setTimeout(()=>{retryTimer=null;refresh();},12000);}}})();return pending;
  }
  function start(){if(started)return;started=true;refresh();setInterval(()=>{if(!document.hidden)refresh();},300000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});}
  return {config,validate,adapt,absoluteTimestamp,state,subscribe:fn=>listeners.add(fn),start,refresh};
