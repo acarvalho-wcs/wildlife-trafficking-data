@@ -250,3 +250,18 @@
  .clean-country-rows{gap:5px}
  .clean-country-chart .clean-chart-note{margin-top:8px}
 }
+
+/* LIGHT basemap presentation: white country-chart labels with no text halos.
+   Scoped to the map-only country chart; the DARK palette stays untouched. */
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-country-chart{
+ --country-chart-text:#fff;
+ --country-chart-muted:#fff;
+ --country-chart-accent:#fff;
+ --country-chart-halo:none;
+ color:#fff;
+ text-shadow:none;
+}
+.map-expanded.map-clean-view[data-clean-chart-theme="light"] .clean-country-chart :is(h3,p,div,span){
+ color:#fff;
+ text-shadow:none;
+}
