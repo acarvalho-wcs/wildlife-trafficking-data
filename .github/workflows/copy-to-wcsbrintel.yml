@@ -1,0 +1,79 @@
+name: One-time full Observatory copy to wcsbrintel
+
+# Manual only. Never modifies or deletes anything in the source repository.
+on:
+  workflow_dispatch:
+    inputs:
+      target_repository:
+        description: "Type wcsbrintel/iwt_globalobservatory to confirm the empty destination"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  copy:
+    name: Copy every tracked resource, page, branch, tag and Git history
+    if: ${{ inputs.target_repository == 'wcsbrintel/iwt_globalobservatory' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TARGET_REPOSITORY: wcsbrintel/iwt_globalobservatory
+      DESTINATION_TOKEN: ${{ secrets.WCSBRINTEL_MIRROR_TOKEN }}
+    steps:
+      - name: Check narrow-scope destination credential
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${DESTINATION_TOKEN}" ]]; then
+            echo "::error::Missing Actions secret WCSBRINTEL_MIRROR_TOKEN in the source repository."
+            exit 1
+          fi
+
+      - name: Download all source Git history, branches and tags
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --bare "https://github.com/${GITHUB_REPOSITORY}.git" "${RUNNER_TEMP}/observatory-source.git"
+          test -n "$(git --git-dir="${RUNNER_TEMP}/observatory-source.git" show-ref)"
+
+      - name: Check destination is empty and copy without force or deletion
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="${RUNNER_TEMP}/observatory-source.git"
+          git --git-dir="$repo" remote add destination "https://x-access-token:${DESTINATION_TOKEN}@github.com/${TARGET_REPOSITORY}.git"
+
+          if [[ -n "$(git --git-dir="$repo" ls-remote --refs destination 'refs/heads/*' 'refs/tags/*')" ]]; then
+            echo "::error::Destination is no longer empty. No data was changed."
+            exit 1
+          fi
+
+          # A bare clone includes every versioned file, subdirectory, page and Git history.
+          # Push only heads and tags; never force-push or delete destination refs.
+          git --git-dir="$repo" push destination --all
+          git --git-dir="$repo" push destination --tags
+
+      - name: Independently verify all copied branch and tag hashes
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="${RUNNER_TEMP}/observatory-source.git"
+          git --git-dir="$repo" for-each-ref --format='%(objectname) %(refname)' refs/heads refs/tags | LC_ALL=C sort > "${RUNNER_TEMP}/local-refs.txt"
+          git --git-dir="$repo" ls-remote --refs destination 'refs/heads/*' 'refs/tags/*' | awk '{print $1 " " $2}' | LC_ALL=C sort > "${RUNNER_TEMP}/copied-refs.txt"
+          diff -u "${RUNNER_TEMP}/local-refs.txt" "${RUNNER_TEMP}/copied-refs.txt"
+
+          files="$(git --git-dir="$repo" ls-tree -r --name-only refs/heads/main | wc -l | tr -d ' ')"
+          commits="$(git --git-dir="$repo" rev-list --all --count)"
+          {
+            echo "### Full independent Git copy verified"
+            echo ""
+            echo "- Source: \`${GITHUB_REPOSITORY}\` (untouched)"
+            echo "- Destination: \`${TARGET_REPOSITORY}\`"
+            echo "- Tracked files on main: ${files}"
+            echo "- Commits in the cloned Git history: ${commits}"
+            echo "- All branch and tag hashes match."
+            echo ""
+            echo "**Separate follow-up required:** configure GitHub Pages, replace source-specific runtime URLs, and validate external Firebase/authentication, GitHub Actions secrets and other settings not stored in Git."
+          } >> "${GITHUB_STEP_SUMMARY}"
