@@ -5,7 +5,7 @@ window.ObservatoryGlobe=(()=>{
   en:{expand:'Fullscreen',exit:'Exit fullscreen',filters:'Filters',routes:'Documented routes',noRoutes:'No routes with documented, georeferenced origins and destinations in this selection.',routeHint:'Arcs connect documented places; they do not represent the exact journey.',loading:'Loading globe…',failed:'The 3D globe could not be opened. You can continue in MAP.',retry:'Try again',help:'Drag to rotate and tilt · Scroll or pinch to zoom',cases:'Cases in this area',details:'Case details',close:'Close',back:'Back to cases',home:'Global view',zin:'Zoom in',zout:'Zoom out',rotate:'Rotate',tilt:'Tilt',map:'2D map',globe:'3D globe',empty:'No cases match these filters.'},
   es:{expand:'Ampliar',exit:'Salir de pantalla completa',filters:'Filtros',routes:'Rutas documentadas',noRoutes:'No hay rutas con origen y destino georreferenciados y documentados en esta selección.',routeHint:'Los arcos conectan lugares documentados; no representan el trayecto exacto.',loading:'Cargando globo…',failed:'No se pudo abrir el globo 3D. Puede continuar en MAP.',retry:'Reintentar',help:'Arrastre para girar e inclinar · Desplace o use dos dedos para acercar',cases:'Casos en esta zona',details:'Detalles del caso',close:'Cerrar',back:'Volver a los casos',home:'Vista global',zin:'Acercar',zout:'Alejar',rotate:'Girar',tilt:'Inclinar',map:'Mapa 2D',globe:'Globo 3D',empty:'Ningún caso coincide con los filtros.'}
  };
- let api,globe,mode='map',expanded=false,loading=null,failed=false,detailId=null,clusterIds=[],snapshot=null,filterSlot,languageSlot,filterNode,languageNode;
+ let api,globe,mode='globe',expanded=false,loading=null,failed=false,detailId=null,clusterIds=[],snapshot=null,filterSlot,languageSlot,filterNode,languageNode;
  let routeDetail=null,pointsHidden=false,rotationEnabled=true,cleanView=false,story=null;
  const markerElements=new Set(),themes={map:'dark',globe:'dark'};
  try{for(const key of ['map','globe']){const saved=window.localStorage?.getItem('observatory-'+key+'-theme');if(['dark','light'].includes(saved))themes[key]=saved;}}catch{}
@@ -255,6 +255,9 @@ window.ObservatoryGlobe=(()=>{
   window.DocumentedRouteMap?.init(api.map,showRoute,api.lang);
   window.DocumentedRoutes.subscribe(sync);window.DocumentedRoutes.start();
   localize();
+  // Initialize the default GLOBE and start the existing automatic rotation.
+  // This is a startup preference, not a user-triggered mode change.
+  void setMode('globe');
  }
  function zoomBy(factor){suspendRotation(3500);if(globe){const p=globe.pointOfView();globe.pointOfView({...p,altitude:Math.max(.00001,Math.min(4.8,p.altitude*factor))},duration());}}
  function sync(){if(!api)return;updatePoints();localize();renderCleanCountryChart();if(globe){if(document.hidden||mode!=='globe'||api.visible?.()===false)globe.pauseAnimation();else globe.resumeAnimation();}syncRotation();syncStory();}

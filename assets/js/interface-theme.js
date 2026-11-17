@@ -3,7 +3,7 @@
  const key='observatory-interface-theme',root=document.documentElement;
  const valid=value=>value==='dark'||value==='light';
  const read=()=>{try{return localStorage.getItem(key);}catch{return null;}};
- root.dataset.interfaceTheme=valid(read())?read():'dark';
+ root.dataset.interfaceTheme=valid(read())?read():'light';
  function init(){
   const group=document.getElementById('interfaceTheme'),language=document.getElementById('language');
   if(!group||!language)return;
@@ -20,7 +20,7 @@
    sync();
   }));
   language.addEventListener('change',sync);
-  window.addEventListener('storage',event=>{if(event.key===key){root.dataset.interfaceTheme=valid(event.newValue)?event.newValue:'dark';sync();}});
+  window.addEventListener('storage',event=>{if(event.key===key){root.dataset.interfaceTheme=valid(event.newValue)?event.newValue:'light';sync();}});
   sync();
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
