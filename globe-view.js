@@ -6,7 +6,7 @@ window.ObservatoryGlobe=(()=>{
   es:{expand:'Ampliar',exit:'Salir de pantalla completa',filters:'Filtros',routes:'Rutas documentadas',noRoutes:'No hay rutas con origen y destino georreferenciados y documentados en esta selección.',routeHint:'Los arcos conectan lugares documentados; no representan el trayecto exacto.',loading:'Cargando globo…',failed:'No se pudo abrir el globo 3D. Puede continuar en MAP.',retry:'Reintentar',help:'Arrastre para girar e inclinar · Desplace o use dos dedos para acercar',cases:'Casos en esta zona',details:'Detalles del caso',close:'Cerrar',back:'Volver a los casos',home:'Vista global',zin:'Acercar',zout:'Alejar',rotate:'Girar',tilt:'Inclinar',map:'Mapa 2D',globe:'Globo 3D',empty:'Ningún caso coincide con los filtros.'}
  };
  let api,globe,mode='map',expanded=false,loading=null,failed=false,detailId=null,clusterIds=[],snapshot=null,filterSlot,languageSlot,filterNode,languageNode;
- let routeDetail=null,pointsHidden=false,rotationEnabled=true;
+ let routeDetail=null,pointsHidden=false,rotationEnabled=true,cleanView=false;
  const markerElements=new Set(),themes={map:'dark',globe:'dark'};
  try{for(const key of ['map','globe']){const saved=window.localStorage?.getItem('observatory-'+key+'-theme');if(['dark','light'].includes(saved))themes[key]=saved;}}catch{}
  Object.assign(text.pt,{dark:'Escuro',light:'Claro',theme:'Cor do mapa'});Object.assign(text.en,{dark:'Dark',light:'Light',theme:'Map color'});Object.assign(text.es,{dark:'Oscuro',light:'Claro',theme:'Color del mapa'});
@@ -16,12 +16,15 @@ window.ObservatoryGlobe=(()=>{
  Object.assign(text.pt,{rotationControl:'Rotação',rotationOn:'Rotação ligada — clique para desligar',rotationOff:'Rotação desligada — clique para ligar'});
  Object.assign(text.en,{rotationControl:'Rotation',rotationOn:'Rotation on — click to stop',rotationOff:'Rotation off — click to resume'});
  Object.assign(text.es,{rotationControl:'Rotación',rotationOn:'Rotación activada — pulse para detener',rotationOff:'Rotación desactivada — pulse para reanudar'});
+ Object.assign(text.pt,{cleanEnter:'Apenas o mapa',cleanExit:'Voltar',cleanEnterHint:'Ocultar controles para mostrar apenas o mapa',cleanExitHint:'Voltar à tela cheia com controles'});
+ Object.assign(text.en,{cleanEnter:'Map only',cleanExit:'Back',cleanEnterHint:'Hide controls and show only the map',cleanExitHint:'Return to fullscreen with controls'});
+ Object.assign(text.es,{cleanEnter:'Solo el mapa',cleanExit:'Volver',cleanEnterHint:'Ocultar controles y mostrar solo el mapa',cleanExitHint:'Volver a pantalla completa con controles'});
  const get=id=>document.getElementById(id),t=()=>text[api.lang()],safe=s=>api.escape(s),duration=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?0:450;
  function button(id,label,fn){get(id).textContent=label;get(id).onclick=fn;}
  // Move the MapLibre GLOBE camera around Earth's longitude; never modify
  // 2D positions, case coordinates, route data or KDE density.
  const rotation=window.GlobeRotation.create({
-  isActive:()=>rotationEnabled&&mode==='globe'&&Boolean(globe?.isMapLibre&&globe.map)&&!failed&&!document.hidden&&api?.visible?.()!==false&&get('mapDetail')?.hidden!==false,
+  isActive:()=>rotationEnabled&&mode==='globe'&&Boolean(globe?.isMapLibre&&globe.map)&&!failed&&!document.hidden&&api?.visible?.()!==false&&(get('mapDetail')?.hidden!==false||cleanView),
   step:delta=>{
    const m=globe?.map;if(!m)return;
    const c=m.getCenter();
@@ -112,6 +115,14 @@ window.ObservatoryGlobe=(()=>{
   get('mapTheme').setAttribute('aria-label',l.theme);get('mapThemeLabel').textContent=l.theme;
   get('mapThemeDark').textContent=l.dark;get('mapThemeLight').textContent=l.light;applyTheme();
   button('expandMap',expanded?'↙ '+l.exit:'⛶ '+l.expand,()=>setExpanded(!expanded));
+   const enterClean=get('enterCleanView'),exitClean=get('exitCleanView');
+   enterClean.textContent='◱ '+l.cleanEnter;
+   enterClean.title=l.cleanEnterHint;
+   enterClean.setAttribute('aria-label',l.cleanEnterHint);
+   enterClean.setAttribute('aria-pressed',String(cleanView));
+   exitClean.textContent='↙ '+l.cleanExit;
+   exitClean.title=l.cleanExitHint;
+   exitClean.setAttribute('aria-label',l.cleanExitHint);
   button('toggleMapFilters',l.filters,()=>{const host=get('mapFiltersHost');host.hidden=!host.hidden;get('toggleMapFilters').setAttribute('aria-expanded',String(!host.hidden));resize();});
    button('togglePoints',pointsHidden?l.showPoints:l.hidePoints,()=>{
     pointsHidden=!pointsHidden;
@@ -167,15 +178,32 @@ window.ObservatoryGlobe=(()=>{
   localize();syncRotation();if(mode==='globe'){await ensureGlobe();if(globe&&mode==='globe')globe.resumeAnimation();}else globe?.pauseAnimation();syncRotation();resize();
  }
  function resize(){requestAnimationFrame(()=>{api.map.invalidateSize({pan:false});if(globe&&mode==='globe'){const r=get('mapStage').getBoundingClientRect();if(r.width&&r.height){globe.width(r.width).height(r.height);updateVisibility(globe.pointOfView());}}});}
+ // A display-only second stage of the existing fullscreen experience.
+ // Sources, filters, KDE and marker data are never modified here.
+ function setCleanView(next){
+  if(next&&!expanded)return;
+  if(cleanView===next)return;
+  cleanView=next;
+  get('mapViewCard').classList.toggle('map-clean-view',cleanView);
+  get('exitCleanView').hidden=!cleanView;
+  localize();
+  syncRotation();
+  resize();
+  (cleanView?get('exitCleanView'):get('enterCleanView')).focus({preventScroll:true});
+ }
  function setExpanded(next){
   if(expanded===next)return;
+  if(!next&&cleanView)setCleanView(false);
   expanded=next;if(next){try{window.ObservatoryAnalytics?.track('fullscreen_use',{view:mode});}catch{}}const shell=get('mapViewCard');
   if(next){snapshot={scrollX:window.scrollX,scrollY:window.scrollY,overflow:document.body.style.overflow,focus:document.activeElement};filterNode=document.querySelector('.filters');languageNode=get('appearanceControls')||get('language');filterSlot=document.createComment('filter position');languageSlot=document.createComment('language position');filterNode.before(filterSlot);languageNode.before(languageSlot);get('mapFiltersHost').append(filterNode);shell.querySelector('.cardhead').append(languageNode);get('mapFiltersHost').hidden=false;get('toggleMapFilters').setAttribute('aria-expanded',String(!get('mapFiltersHost').hidden));document.body.style.overflow='hidden';shell.classList.add('map-expanded');shell.setAttribute('role','dialog');shell.setAttribute('aria-modal','true');shell.setAttribute('aria-label',messages[api.lang()].title);get('expandMap').focus();}
   else{shell.classList.remove('map-expanded');shell.removeAttribute('role');shell.removeAttribute('aria-modal');shell.removeAttribute('aria-label');filterSlot.replaceWith(filterNode);languageSlot.replaceWith(languageNode);document.body.style.overflow=snapshot.overflow;window.scrollTo(snapshot.scrollX,snapshot.scrollY);snapshot.focus?.focus({preventScroll:true});}
   localize();resize();
  }
  function init(a){
-  api=a;get('mapMode').onclick=()=>setMode('map');get('globeMode').onclick=()=>setMode('globe');get('routeLayer').onchange=()=>{updatePoints();localize();resize();};get('closeMapDetail').onclick=closeDetail;
+  api=a;
+  get('enterCleanView').onclick=()=>setCleanView(true);
+  get('exitCleanView').onclick=()=>setCleanView(false);
+  get('mapMode').onclick=()=>setMode('map');get('globeMode').onclick=()=>setMode('globe');get('routeLayer').onchange=()=>{updatePoints();localize();resize();};get('closeMapDetail').onclick=closeDetail;
   get('mapTheme').onchange=e=>{if(!['dark','light'].includes(e.target.value))return;themes[mode]=e.target.value;try{window.localStorage?.setItem('observatory-'+mode+'-theme',themes[mode]);}catch{}applyTheme();};
   get('globeZoomIn').onclick=()=>zoomBy(.75);get('globeZoomOut').onclick=()=>zoomBy(1.3);get('globeHome').onclick=()=>{suspendRotation(4500);globe?.pointOfView({lat:14,lng:5,altitude:2.4},duration());};
   get('globeRotate').onclick=()=>{rotationEnabled=!rotationEnabled;localize();syncRotation();};
@@ -183,7 +211,7 @@ window.ObservatoryGlobe=(()=>{
   get('globe').addEventListener('pointerdown',()=>suspendRotation(4500),{passive:true});
    get('globe').addEventListener('wheel',()=>suspendRotation(3000),{passive:true});
    get('globe').tabIndex=0;get('globe').onkeydown=e=>{if(!globe)return;const p=globe.pointOfView();if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-'].includes(e.key)){e.preventDefault();suspendRotation(3500);if(e.key==='+')zoomBy(.8);else if(e.key==='-')zoomBy(1.2);else globe.pointOfView({...p,lng:p.lng+(e.key==='ArrowRight'?10:e.key==='ArrowLeft'?-10:0),lat:Math.max(-85,Math.min(85,p.lat+(e.key==='ArrowUp'?10:e.key==='ArrowDown'?-10:0)))},duration());}};
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!get('mapDetail').hidden)closeDetail();else if(expanded)setExpanded(false);}if(expanded&&e.key==='Tab'){const nodes=[...get('mapViewCard').querySelectorAll('button,select,input,a[href],[tabindex="0"]')].filter(n=>n.getClientRects().length&&!n.disabled);if(nodes.length){const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){last.focus();e.preventDefault();}else if(!e.shiftKey&&document.activeElement===last){first.focus();e.preventDefault();}}}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(cleanView){e.preventDefault();setCleanView(false);}else if(!get('mapDetail').hidden)closeDetail();else if(expanded)setExpanded(false);}if(cleanView&&e.key==='Tab'){e.preventDefault();get('exitCleanView').focus({preventScroll:true});return;}if(expanded&&e.key==='Tab'){const nodes=[...get('mapViewCard').querySelectorAll('button,select,input,a[href],[tabindex="0"]')].filter(n=>n.getClientRects().length&&!n.disabled);if(nodes.length){const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){last.focus();e.preventDefault();}else if(!e.shiftKey&&document.activeElement===last){first.focus();e.preventDefault();}}}});
   window.addEventListener('resize',resize);new ResizeObserver(resize).observe(get('mapStage'));
   document.addEventListener('visibilitychange',()=>{if(globe){if(document.hidden||mode!=='globe')globe.pauseAnimation();else globe.resumeAnimation();}syncRotation();});
   window.DocumentedRouteMap?.init(api.map,showRoute,api.lang);
