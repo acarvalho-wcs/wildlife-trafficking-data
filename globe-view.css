@@ -111,3 +111,31 @@
 .map-stage .map-clean-exit:hover,.map-stage .map-clean-exit:focus-visible{opacity:1;background:#10291fd9}
 .map-stage .map-clean-exit:focus-visible{outline:2px solid #d3ff55;outline-offset:3px}
 @media(prefers-reduced-motion:reduce){.map-stage .map-clean-exit{transition:none}}
+
+
+/* Reuse the dashboard's Observatory logo as a quiet map-only watermark.
+   It is an inert overlay: never intercept map gestures or cover map controls. */
+.map-stage .map-clean-logo{display:none!important}
+.map-expanded.map-clean-view .map-stage .map-clean-logo{
+ display:block!important;
+ position:absolute;
+ z-index:1200;
+ left:max(14px,env(safe-area-inset-left));
+ bottom:max(32px,env(safe-area-inset-bottom));
+ width:clamp(62px,8.2vw,100px);
+ max-height:min(20vh,110px);
+ height:auto;
+ object-fit:contain;
+ opacity:.58;
+ pointer-events:none;
+ user-select:none;
+ filter:drop-shadow(0 2px 5px #0009);
+}
+@media(max-width:600px){
+ .map-expanded.map-clean-view .map-stage .map-clean-logo{
+  width:64px;
+  max-height:75px;
+  bottom:max(34px,env(safe-area-inset-bottom));
+  opacity:.52;
+ }
+}
