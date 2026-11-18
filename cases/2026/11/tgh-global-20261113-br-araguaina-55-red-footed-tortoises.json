@@ -1,0 +1,106 @@
+{
+  "id": "tgh-global-20261113-br-araguaina-55-red-footed-tortoises",
+  "status": "VALIDATED",
+  "country": "Brasil",
+  "event_date": "2026-11-13",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-16",
+  "coordinates": {
+    "lat": -7.191,
+    "lon": -48.207
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "Prefeitura de Araguaína / Departamento da Causa Animal",
+  "source_url": "https://araguaina.to.gov.br/noticias/2026/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental-de-araguaina",
+  "source_alternative_url": "https://afnoticias.com.br/cidades/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "*Chelonoidis carbonarius* (identificação atribuída à fonte municipal: jabuti-piranga)",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 55,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 55
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Resgate no endereço residencial em Araguaína; origem da captura, deslocamento, vendedor e destino comercial não informados. Nenhuma rota cartográfica autorizada.",
+  "source_reconciliation_status": "PRIMARY_MUNICIPAL_SOURCE_AND_SECONDARY_REPORT",
+  "image_url": null,
+  "image_source_url": "https://araguaina.to.gov.br/noticias/2026/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental-de-araguaina",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-18-USER-SUPPLIED-TWO-CASES",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_18",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective_evidence_only",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Flagrante de manutenção irregular em residência, não venda ou rota de tráfico comprovada. 55 indivíduos vivos, sem especulação sobre origem ou criadouro. O anúncio de multa por animal não comprova quitação. O status de ameaça é atribuição da Prefeitura, não conclusão independente.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Prefeitura de Araguaína, comunicado oficial (16/11/2026)",
+      "url": "https://araguaina.to.gov.br/noticias/2026/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental-de-araguaina"
+    },
+    {
+      "id": "O",
+      "type": "corroborating_news",
+      "label": "AF Notícias, cobertura da fiscalização",
+      "url": "https://afnoticias.com.br/cidades/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental"
+    },
+    {
+      "id": "T",
+      "type": "technical_legal",
+      "label": "Decreto Federal 6.514/2008, art. 24, citado pela fiscalização",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6514.htm"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-18",
+    "categories_present": [
+      "O",
+      "T"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true,
+    "unsubstantiated_marker_categories_omitted": [
+      "S",
+      "I",
+      "N"
+    ]
+  },
+  "location_label_pt": "Araguaína, Tocantins, Brasil",
+  "geographic_note_pt": "Coordenadas aproximadas da cidade; o endereço residencial exato não é publicado.",
+  "title_pt": "Fiscalização ambiental resgata 55 jabutis-piranga mantidos irregularmente em residência de Araguaína",
+  "fauna_label_pt": "55 jabutis-piranga vivos (*Chelonoidis carbonarius*)",
+  "card_text_pt": "Em 13/11/2026, a fiscalização municipal resgatou 55 jabutis-piranga de uma residência em Araguaína após denúncia. Os animais foram enviados para reabilitação; não há venda ou transporte documentado.",
+  "context_pt": "[O] Em 13/11, o Departamento da Causa Animal de Araguaína encontrou 55 jabutis-piranga mantidos em uma residência após denúncia anônima. Os animais foram encaminhados ao Instituto Cerrado. A prefeitura informou enquadramento administrativo e possível responsabilização criminal; a fonte não documenta venda, local de captura, transporte, destinatários ou rede de tráfico. A qualificação da espécie como ameaçada é da fonte municipal, não resultado de avaliação independente neste registro.\n\n[T] A fiscalização fundamentou a autuação no art. 24 do Decreto Federal 6.514/2008, com referência a R$ 5 mil por animal. Trata-se de enquadramento administrativo para a manutenção irregular, distinto da demonstração de uma operação comercial. Sem dados de deslocamento, não foi criada rota.",
+  "references_text_pt": "[O] Prefeitura de Araguaína (16/11/2026) — https://araguaina.to.gov.br/noticias/2026/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental-de-araguaina\n[O] AF Notícias — https://afnoticias.com.br/cidades/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental\n[T] Decreto Federal 6.514/2008, art. 24 — https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6514.htm",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "55 indivíduos vivos; não confundir com quantidade de espécies ou valor da autuação.",
+  "location_label_en": "Araguaína, Tocantins, Brazil",
+  "geographic_note_en": "Approximate city reference point, not the undisclosed residential address.",
+  "title_en": "Environmental inspectors rescue 55 illegally held red-footed tortoises from a residence in Araguaína",
+  "fauna_label_en": "55 live red-footed tortoises (*Chelonoidis carbonarius*)",
+  "card_text_en": "On 13 November 2026, municipal inspectors rescued 55 red-footed tortoises from a home in Araguaína following a tip-off. The animals were transferred for rehabilitation; no sale or transport was documented.",
+  "context_en": "[O] On 13 November, Araguaína's municipal animal welfare inspectors found 55 red-footed tortoises being kept in a residence following an anonymous report. The animals were transferred to Instituto Cerrado for rehabilitation. The municipality reported an environmental infraction and possible criminal action; the source provides no evidence of sales, capture origins, shipments, buyers or trafficking networks. The threatened-status description is attributed to the municipality rather than independently assessed here.\n\n[T] Inspectors cited Article 24 of Brazil's Federal Decree 6,514/2008 and an administrative penalty of BRL 5,000 per animal. This is a regulatory action against unlawful possession, not proof of commercial trafficking. No movement route is mapped.",
+  "references_text_en": "[O] Municipality of Araguaína (16 Nov 2026) — https://araguaina.to.gov.br/noticias/2026/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental-de-araguaina\n[O] AF Notícias — https://afnoticias.com.br/cidades/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental\n[T] Brazilian Federal Decree 6,514/2008, Article 24 — https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6514.htm",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "55 live individuals; do not conflate with species count or the assessed fine.",
+  "location_label_es": "Araguaína, Tocantins, Brasil",
+  "geographic_note_es": "Coordenadas aproximadas de la ciudad; no corresponden a la vivienda no identificada.",
+  "title_es": "Inspectores ambientales rescatan 55 morrocoyes de patas rojas mantenidos ilegalmente en una casa en Araguaína",
+  "fauna_label_es": "55 morrocoyes de patas rojas vivos (*Chelonoidis carbonarius*)",
+  "card_text_es": "El 13 de noviembre de 2026, inspectores municipales rescataron 55 morrocoyes de una vivienda en Araguaína tras una denuncia. Fueron trasladados para rehabilitación; no se documentó venta ni transporte.",
+  "context_es": "[O] El 13 de noviembre, la inspección municipal de bienestar animal de Araguaína encontró 55 morrocoyes de patas rojas mantenidos en una vivienda tras una denuncia anónima. Los ejemplares fueron trasladados al Instituto Cerrado. El municipio comunicó una infracción administrativa y posibles consecuencias penales; no hay pruebas publicadas de venta, origen de captura, transporte, compradores o red criminal. La calificación de especie amenazada se atribuye al municipio, sin evaluación independiente en esta ficha.\n\n[T] La fiscalización citó el artículo 24 del Decreto Federal brasileño 6.514/2008 y una multa administrativa de R$ 5.000 por individuo. Esta medida por tenencia irregular no demuestra tráfico comercial. No se cartografió una ruta sin pruebas de desplazamiento.",
+  "references_text_es": "[O] Municipio de Araguaína (16/11/2026) — https://araguaina.to.gov.br/noticias/2026/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental-de-araguaina\n[O] AF Notícias — https://afnoticias.com.br/cidades/mais-de-50-jabutis-ameacados-de-extincao-sao-resgatados-de-residencia-pela-fiscalizacao-ambiental\n[T] Decreto Federal brasileño 6.514/2008, artículo 24 — https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6514.htm",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "55 individuos vivos; no confundir con número de especies ni importe de la multa."
+}

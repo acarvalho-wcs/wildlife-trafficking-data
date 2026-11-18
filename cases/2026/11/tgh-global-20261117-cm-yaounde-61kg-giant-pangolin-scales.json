@@ -1,0 +1,112 @@
+{
+  "id": "tgh-global-20261117-cm-yaounde-61kg-giant-pangolin-scales",
+  "status": "VALIDATED",
+  "country": "Camarões",
+  "event_date": null,
+  "event_end_date": null,
+  "event_date_precision": "unknown",
+  "publication_date": "2026-11-17",
+  "coordinates": {
+    "lat": 3.848,
+    "lon": 11.502
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "EAGLE Network — publicação em rede social encaminhada pelo usuário (17/11/2026)",
+  "source_url": "https://www.eagle-enforcement.org/",
+  "source_alternative_url": null,
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "*Smutsia gigantea* (giant pangolin, identificação atribuída à EAGLE Network)",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": null,
+  "quantity_qualifier": "unknown",
+  "quantity_kind": "wildlife_products_weight",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "quantity_weight_kg": 61,
+  "quantity_weight_qualifier": "reported_exact",
+  "route_audit_status": "DECLARED_MINTOM_BASE_NO_CONFIRMED_SEIZURE_ROUTE",
+  "route_audit_note_pt": "A fonte cita Mintom como base de atividade do investigado e prisão em Yaoundé, mas não prova que este lote de 61 kg percorreu Mintom→Yaoundé. Clientes estrangeiros não identificados e nenhum destino comprovado; não desenhar rota.",
+  "source_reconciliation_status": "USER_SUPPLIED_EAGLE_SOCIAL_POST_SCREENSHOT; ORIGINAL_POST_PERMALINK_NOT_VERIFIED; APRIL_EVENT_SEPARATE",
+  "image_url": null,
+  "image_source_url": "https://www.eagle-enforcement.org/",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-18-USER-SUPPLIED-TWO-CASES",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_18",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_selective_evidence_only",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "EAGLE publica 17/11, sem dia inequívoco da apreensão; manter event_date=null. 61 kg não equivalem a número de pangolins. Distinto da apreensão de 23/04/2026 em Yaoundé (52 kg e oito presas). Declarações sobre estrangeiros e emprego são alegações reproduzidas pela fonte, sem atribuição de culpa à empresa. ATENÇÃO: URL específica do post de novembro não localizada; link de fonte aponta para o site oficial institucional (não para o post). Captura de tela da publicação fornecida pelo usuário é evidência primária para o conteúdo e data relativa. A referência A868 não foi comprovada e foi descartada.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "EAGLE Network / LAGA — 17/11/2026, apreensão de 61 kg em Yaoundé — captura de tela fornecida pelo usuário; link aponta ao portal institucional, não ao post específico",
+      "url": "https://www.eagle-enforcement.org/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Takem Mbi et al. (2026), Using community-based crime scripting to elucidate pangolin scale trafficking, Ambio",
+      "url": "https://doi.org/10.1007/s13280-026-02437-4"
+    },
+    {
+      "id": "N",
+      "type": "osint_lead",
+      "label": "EAGLE Network / LAGA — alegações de base em Mintom e comércio com estrangeiros; demandam verificação independente — captura de tela fornecida pelo usuário; link aponta ao portal institucional, não ao post específico",
+      "url": "https://www.eagle-enforcement.org/"
+    },
+    {
+      "id": "T",
+      "type": "dedup_source",
+      "label": "EAGLE Network — episódio distinto em 23/04/2026, oito presas de elefante e 52 kg de escamas",
+      "url": "https://www.eagle-enforcement.org/news/news/an-ivory-trafficker-arrested-with-8-elephant-tusks-and-52kg-giant-pangolin-scales-A859"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-18",
+    "categories_present": [
+      "O",
+      "S",
+      "N",
+      "T"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true,
+    "unsubstantiated_marker_categories_omitted": [
+      "I"
+    ]
+  },
+  "location_label_pt": "Yaoundé, Camarões",
+  "geographic_note_pt": "Coordenada de referência da cidade; ponto exato da prisão não informado. Mintom é base citada, não origem georreferenciada do lote.",
+  "title_pt": "Suspeito detido em Yaoundé com 61 kg de escamas de pangolim-gigante",
+  "fauna_label_pt": "61 kg de escamas de pangolim-gigante (*Smutsia gigantea*); número de animais desconhecido",
+  "card_text_pt": "A EAGLE noticiou em 17/11 a detenção de suspeito em Yaoundé com 61 kg de escamas de pangolim-gigante; citou Mintom como base de atuação. Data exata da prisão e rota do lote não confirmadas.",
+  "context_pt": "[O] A EAGLE/LAGA comunicou em 17/11/2026 uma detenção em Yaoundé com 61 kg de escamas atribuídas a pangolim-gigante. A publicação não determina separadamente a data da prisão, nem o número de animais representados pelo peso. É caso distinto do registro de 23/04/2026 com 52 kg de escamas e oito presas de elefante.\n\n[S] Takem Mbi et al. (2026), em estudo de crime scripting comunitário sobre o comércio de escamas de pangolins em Camarões, documentam etapas e facilitadores da cadeia ilegal que orientam investigação de intermediários e transporte. Esse estudo fornece contexto analítico; não identifica o suspeito nem comprova participação na rede estudada.\n\n[N] Segundo a EAGLE, o investigado, empregado de empresa madeireira, teria reconhecido explorar sua posição para negociar com estrangeiros durante anos e operar a partir de Mintom. São alegações e pistas para identificar contatos, movimentações e eventual uso de estrutura comercial, não confirmação de clientes específicos, destino internacional, envolvimento da empresa ou rota Mintom–Yaoundé.\n\n[T] Para deduplicação, foi confrontada a divulgação anterior da própria EAGLE (23/04/2026): 52 kg e oito presas de elefante, em outro episódio. A coincidência de cidade e tipo de produto não autoriza fusão. Sem documentação do trajeto do lote atual, nenhuma linha de rota foi gerada.",
+  "references_text_pt": "[O] EAGLE Network / LAGA, 17/11/2026 — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)\n[S] Takem Mbi et al. (2026), Ambio — https://doi.org/10.1007/s13280-026-02437-4\n[N] EAGLE Network / LAGA, declaração sobre Mintom e contatos estrangeiros — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)\n[T] EAGLE Network, caso distinto de 23/04/2026 (52 kg e oito presas) — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)news/news/an-ivory-trafficker-arrested-with-8-elephant-tusks-and-52kg-giant-pangolin-scales-A859",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "61 kg é massa apreendida, não quantidade de animais. Não converter quilogramas de escamas em indivíduos.",
+  "location_label_en": "Yaoundé, Cameroon",
+  "geographic_note_en": "Approximate city coordinates, not the arrest site. Mintom is a reported base, not a verified mapped origin for this seized lot.",
+  "title_en": "Suspect arrested in Yaoundé with 61 kg of giant pangolin scales",
+  "fauna_label_en": "61 kg of giant pangolin scales (*Smutsia gigantea*); animal count unknown",
+  "card_text_en": "On 17 November EAGLE reported a suspect arrested in Yaoundé with 61 kg of giant pangolin scales, identifying Mintom as his reported base. Exact arrest date and lot route were not established.",
+  "context_en": "[O] On 17 November 2026, EAGLE/LAGA reported an arrest in Yaoundé involving 61 kg of scales attributed to giant pangolins. The publication does not separately state the arrest date or the number of animals represented by the weight. This is distinct from the 23 April 2026 report concerning 52 kg of scales and eight elephant tusks.\n\n[S] A 2026 community-based crime scripting study by Takem Mbi and colleagues on pangolin-scale trafficking in Cameroon identifies stages and facilitating conditions relevant to investigative targeting. It provides analytical context, not a link between the suspect and the networks studied.\n\n[N] EAGLE alleges that the suspect, an employee of a logging company, acknowledged using his position to trade with unspecified foreigners over several years and operating from Mintom. These are investigable leads, not verified identities of buyers, international destinations, corporate involvement or a documented Mintom–Yaoundé route for the seized lot.\n\n[T] Deduplication checked EAGLE's separate 23 April 2026 report involving 52 kg of scales and eight tusks. Shared location and commodity do not establish that the events are the same. No shipment route was mapped without evidence.",
+  "references_text_en": "[O] EAGLE Network / LAGA, 17 Nov 2026 — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)\n[S] Takem Mbi et al. (2026), Ambio — https://doi.org/10.1007/s13280-026-02437-4\n[N] EAGLE Network / LAGA, allegations concerning Mintom and foreign contacts — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)\n[T] EAGLE Network, separate 23 Apr 2026 seizure (52 kg and eight tusks) — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)news/news/an-ivory-trafficker-arrested-with-8-elephant-tusks-and-52kg-giant-pangolin-scales-A859",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "61 kg is seized mass, not a count of pangolins; do not convert scales by weight into animals.",
+  "location_label_es": "Yaundé, Camerún",
+  "geographic_note_es": "Coordenadas aproximadas de la ciudad, no del lugar exacto de detención. Mintom es base declarada, no origen cartografiado del lote.",
+  "title_es": "Detienen en Yaundé a sospechoso con 61 kg de escamas de pangolín gigante",
+  "fauna_label_es": "61 kg de escamas de pangolín gigante (*Smutsia gigantea*); número de animales desconocido",
+  "card_text_es": "El 17/11, EAGLE informó la detención de un sospechoso en Yaundé con 61 kg de escamas de pangolín gigante, con Mintom como supuesta base. Fecha exacta de detención y ruta del lote no confirmadas.",
+  "context_es": "[O] El 17 de noviembre de 2026, EAGLE/LAGA informó una detención en Yaundé con 61 kg de escamas atribuidas al pangolín gigante. La publicación no distingue la fecha exacta del arresto ni el número de animales representados por el peso. Es un hecho distinto del episodio del 23 de abril de 2026 con 52 kg de escamas y ocho colmillos de elefante.\n\n[S] Un estudio de Takem Mbi y colegas (2026) sobre crime scripting comunitario del tráfico de escamas de pangolín en Camerún documenta etapas y condiciones facilitadoras pertinentes para investigar intermediarios y transportes. Aporta contexto analítico, no vínculos probados con el sospechoso.\n\n[N] Según EAGLE, el investigado, empleado de una empresa maderera, habría reconocido que utilizó su puesto para comerciar con extranjeros no identificados durante años y que operaba desde Mintom. Son indicios por investigar, no compradores o destinos comprobados, implicación demostrada de la empresa ni ruta acreditada Mintom–Yaundé para este lote.\n\n[T] La deduplicación contrastó el reporte distinto de EAGLE del 23/04/2026, con 52 kg de escamas y ocho colmillos. Compartir ciudad y mercancía no basta para fusionar episodios. No se trazó ruta sin evidencia documental.",
+  "references_text_es": "[O] EAGLE Network / LAGA, 17/11/2026 — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)\n[S] Takem Mbi et al. (2026), Ambio — https://doi.org/10.1007/s13280-026-02437-4\n[N] EAGLE Network / LAGA, alegaciones sobre Mintom y contactos extranjeros — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)\n[T] EAGLE Network, episodio distinto de 23/04/2026 (52 kg y ocho colmillos) — https://www.eagle-enforcement.org/ (link institucional; post original não verificado)news/news/an-ivory-trafficker-arrested-with-8-elephant-tusks-and-52kg-giant-pangolin-scales-A859",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "61 kg es peso incautado, no número de pangolines; no convertir la masa de escamas en animales."
+}
