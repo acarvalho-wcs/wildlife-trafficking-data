@@ -1,0 +1,102 @@
+{
+  "id": "tgh-20261118-id-timika-two-green-pythons-parcel",
+  "status": "VALIDATED",
+  "country": "Indonésia",
+  "event_date": "2026-11-18",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-18",
+  "coordinates": {
+    "lat": -4.52755,
+    "lon": 136.88996
+  },
+  "coordinate_precision": "AIRPORT_REFERENCE_APPROXIMATE",
+  "source_label": "Koran Papua / Balai Karantina Papua Tengah; ANTARA",
+  "source_url": "https://koranpapua.id/2026/11/18/karantina-gagalkan-pengiriman-dua-ular-sanca-hijau-dari-timika/",
+  "source_alternative_url": "https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "2 pítons-verdes (*Morelia viridis*)",
+  "modal_primary": "Aéreo",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 2,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 2
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "PLANNED_MOVEMENT_DOCUMENTED",
+  "route_audit_note_pt": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+  "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+  "image_url": null,
+  "image_source_url": "https://koranpapua.id/2026/11/18/karantina-gagalkan-pengiriman-dua-ular-sanca-hijau-dari-timika/",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Notícia ANTARA publicada 19/11 para ocorrência 18/11. Rota Timika → Jacarta somente planejada. Nome científico citado diretamente pela fonte.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Documentary reference O",
+      "url": "https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika"
+    },
+    {
+      "id": "N",
+      "type": "investigative_journalism",
+      "label": "news.json — Jurnal Patroli News, 09/08/2026",
+      "url": "https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/"
+    },
+    {
+      "id": "T",
+      "type": "external_technical",
+      "label": "TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios",
+      "url": "https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-19",
+    "categories_present": [
+      "N",
+      "O",
+      "T"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
+  },
+  "location_label_pt": "Aeroporto Mozes Kilangin, Timika, Papua Central, Indonésia",
+  "geographic_note_pt": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+  "title_pt": "Duas pítons-verdes encontradas em encomenda aérea falsamente declarada em Timika",
+  "fauna_label_pt": "2 pítons-verdes (*Morelia viridis*)",
+  "card_text_pt": "Em 18/11, fiscalização no aeroporto de Timika interceptou duas pítons-verdes em encomenda rotulada como chips de banana; o envio para Jacarta não foi concluído.",
+  "context_pt": "[O] Em 18/11, fiscais no aeroporto de Timika interceptaram duas pítons-verdes vivas em encomenda declarada como salgadinhos de banana. O envio aéreo tinha Jacarta como destino pretendido e foi interrompido antes do embarque. A falsa descrição é a dissimulação observada; nomes de remetente e destinatário não constam das fontes consultadas.\n\n[N] Reportagem do Jurnal Patroli News (2026), cadastrada em news.json, descreve o uso de transportadores, portos e aeroportos por cadeias de comércio ilegal de fauna na Indonésia. O material indica um contexto logístico nacional, não conexão comprovada com esse pacote.\n\n[T] Relatório técnico externo da TRAFFIC sobre convergência criminal na Indonésia (2025) aponta portos e aeroportos como locais relevantes de fiscalização de mercadorias ilícitas. Não atribui ao caso de Timika outros produtos, crimes ou envolvidos.",
+  "references_text_pt": "[O] https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika\n[N] news.json — Jurnal Patroli News, 09/08/2026: https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/\n[T] TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/",
+  "modal_label_pt": "Aéreo pretendido (encomenda postal)",
+  "quantity_note_pt": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+  "location_label_en": "Mozes Kilangin Airport, Timika, Central Papua, Indonesia",
+  "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. The described itinerary is intended or partly attributed, not a completed route.",
+  "title_en": "Two green pythons intercepted in falsely labelled air parcel from Timika",
+  "fauna_label_en": "2 green pythons (*Morelia viridis*)",
+  "card_text_en": "On 18 November Timika airport officers found two live green pythons in a parcel labelled as banana chips; the intended shipment to Jakarta was prevented.",
+  "context_en": "[O] On 18 November officers at Timika airport intercepted two live green pythons in a parcel falsely described as banana snacks. The shipment was intended for Jakarta and stopped before flight. False commodity labelling is the documented concealment technique; sender and recipient identities were not reported.\n\n[N] A 2026 Jurnal Patroli News investigation listed in news.json describes wildlife movements involving transport intermediaries, ports and airports in Indonesia. This provides national logistics context, not evidence linking the parcel to a documented network.\n\n[T] An external TRAFFIC technical report on crime convergence in Indonesia (2025) identifies ports and airports as important inspection points for illicit commodities. It does not establish other offences, products or actors in the Timika incident.",
+  "references_text_en": "[O] https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika\n[N] news.json — Jurnal Patroli News, 09/08/2026: https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/\n[T] TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/",
+  "modal_label_en": "Air shipment intended (postal parcel)",
+  "quantity_note_en": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+  "location_label_es": "Aeropuerto Mozes Kilangin, Timika, Papúa Central, Indonesia",
+  "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. El itinerario señalado es previsto o atribuido, no un trayecto completado.",
+  "title_es": "Interceptan dos pitones verdes en paquete aéreo mal declarado desde Timika",
+  "fauna_label_es": "2 pitones verdes (*Morelia viridis*)",
+  "card_text_es": "El 18/11 se hallaron dos pitones verdes en un paquete declarado como chips de banana en el aeropuerto de Timika; el envío previsto a Yakarta fue impedido.",
+  "context_es": "[O] El 18/11, agentes del aeropuerto de Timika interceptaron dos pitones verdes vivas en un paquete declarado falsamente como chips de banana. El envío se dirigía a Yakarta, pero fue detenido antes del vuelo. La descripción falsa es el ocultamiento comprobado; no se publicaron identidades de remitente ni destinatario.\n\n[N] Un reportaje de Jurnal Patroli News (2026), registrado en news.json, describe el uso de intermediarios de transporte, puertos y aeropuertos en el comercio ilegal de fauna de Indonesia. Aporta contexto logístico nacional, sin vincular este paquete con una red concreta.\n\n[T] Un informe técnico externo de TRAFFIC sobre convergencia criminal en Indonesia (2025) señala puertos y aeropuertos como puntos de control de mercancías ilícitas. No atribuye al caso de Timika otros delitos, productos ni participantes.",
+  "references_text_es": "[O] https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika\n[N] news.json — Jurnal Patroli News, 09/08/2026: https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/\n[T] TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/",
+  "modal_label_es": "Aéreo previsto (paquete postal)",
+  "quantity_note_es": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque."
+}

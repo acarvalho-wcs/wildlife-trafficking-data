@@ -1,0 +1,97 @@
+{
+  "id": "tgh-20261117-mx-calpulalpan-19-wildlife",
+  "status": "VALIDATED",
+  "country": "México",
+  "event_date": null,
+  "event_end_date": null,
+  "event_date_precision": "unknown",
+  "publication_date": "2026-11-17",
+  "coordinates": {
+    "lat": 19.5878,
+    "lon": -98.5692
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "source_label": "Profepa",
+  "source_url": "https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala",
+  "source_alternative_url": "https://elpopular.mx/secciones/tlaxcala/2026/11/18/por-posesion-de-fauna-silvestre-detienen-a-una-persona-en-calpulalpan",
+  "fauna_groups_aggregated": [
+    "Répteis",
+    "Aracnídeos"
+  ],
+  "taxon_text": "6 *Kinosternon acutum*; 6 *Trachemys scripta elegans*; 2 *Iguana iguana*; 2 *Brachypelma auratum*; 2 *Aphonopelma* sp.; 1 sem atribuição",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 19,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 14,
+    "Aracnídeos": 4
+  },
+  "quantity_unassigned": 1,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Apreensão comercial em Calpulalpan, feira não georreferenciada precisamente. A data específica da operação não foi explicitada na fonte; publicado em 17/11. Total 19 vs 18 discriminados.",
+  "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+  "image_url": null,
+  "image_source_url": "https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "SEM duplicata exata localizada na listagem individual 2026/11 do GitHub; índice compilado cases.json não auditado integralmente. Quantidade oficial 19 versus 18 discriminados.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Documentary reference O",
+      "url": "https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "papers.json — Searching the web builds fuller picture of arachnid trade (2022)",
+      "url": "https://doi.org/10.1038/s42003-022-03374-0"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-19",
+    "categories_present": [
+      "O",
+      "S"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
+  },
+  "location_label_pt": "Calpulalpan, Tlaxcala, México",
+  "geographic_note_pt": "Apreensão comercial em Calpulalpan, feira não georreferenciada precisamente. A data específica da operação não foi explicitada na fonte; publicado em 17/11. Total 19 vs 18 discriminados.",
+  "title_pt": "Fiscalização apreende 19 animais em comércio irregular de fauna em Calpulalpan",
+  "fauna_label_pt": "19 espécimes: 14 répteis, 4 tarântulas e 1 não discriminado",
+  "card_text_pt": "Em 17/11, a Profepa comunicou apreensão de 19 animais numa banca de feira sem documentos de origem; o detalhamento por táxon soma 18.",
+  "context_pt": "[O] A Profepa apreendeu fauna oferecida em uma banca de feira em Calpulalpan, Tlaxcala, sem comprovação de procedência legal. O órgão informou 19 exemplares, mas o detalhamento por grupos soma 18; a divergência permanece aberta. Não foram identificados fornecedores nem trajeto de abastecimento.\n\n[S] Estudo disponível no repositório científico do Observatório documenta a diversidade de aracnídeos comercializados e limitações de monitoramento desse mercado. É referência sobre o grupo envolvido, não evidência da origem das tarântulas desta apreensão.",
+  "references_text_pt": "[O] https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala\n[S] papers.json — Searching the web builds fuller picture of arachnid trade (2022): https://doi.org/10.1038/s42003-022-03374-0",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "Total oficial 19; soma detalhada 18. Uma unidade permanece não atribuída.",
+  "location_label_en": "Calpulalpan, Tlaxcala, Mexico",
+  "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+  "title_en": "Authorities seize 19 wildlife specimens at Calpulalpan market",
+  "fauna_label_en": "19 specimens: 14 reptiles, 4 tarantulas and 1 unitemized",
+  "card_text_en": "On 17 November Profepa reported 19 specimens seized from a market stall without proof of legal origin; the species breakdown adds to 18.",
+  "context_en": "[O] Profepa seized wildlife offered at a market stall in Calpulalpan, Tlaxcala, without proof of lawful origin. Officials reported 19 specimens, while the listed species counts add up to 18; the discrepancy remains unresolved. Neither suppliers nor supply movements were identified.\n\n[S] A study in the Observatory's scientific repository documents the diversity of arachnids in commerce and gaps in monitoring that trade. It provides taxonomic-market context, not evidence of where the seized tarantulas originated.",
+  "references_text_en": "[O] https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala\n[S] papers.json — Searching the web builds fuller picture of arachnid trade (2022): https://doi.org/10.1038/s42003-022-03374-0",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "The official count is 19, but the itemized list totals 18; one specimen is unassigned.",
+  "location_label_es": "Calpulalpan, Tlaxcala, México",
+  "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+  "title_es": "Autoridades aseguran 19 ejemplares de fauna en tianguis de Calpulalpan",
+  "fauna_label_es": "19 ejemplares: 14 reptiles, 4 tarántulas y 1 no desglosado",
+  "card_text_es": "El 17/11 la Profepa informó de 19 ejemplares asegurados en un puesto sin documentación de procedencia; el desglose suma 18.",
+  "context_es": "[O] La Profepa incautó fauna ofrecida en un puesto de mercado en Calpulalpan, Tlaxcala, sin documentación de procedencia legal. El total oficial es de 19 ejemplares, pero el desglose suma 18; la diferencia no está aclarada. No se identificaron proveedores ni trayectos de abastecimiento.\n\n[S] Un estudio del repositorio científico del Observatorio documenta la diversidad de arácnidos comercializados y las dificultades para vigilar ese mercado. Aporta contexto sobre el grupo, no pruebas del origen de las tarántulas incautadas.",
+  "references_text_es": "[O] https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala\n[S] papers.json — Searching the web builds fuller picture of arachnid trade (2022): https://doi.org/10.1038/s42003-022-03374-0",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "El total oficial es 19, pero el desglose suma 18; un ejemplar queda sin asignar."
+}

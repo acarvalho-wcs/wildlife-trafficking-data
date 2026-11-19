@@ -1,0 +1,95 @@
+{
+  "id": "tgh-20261118-in-banaras-23-turtles-west-bengal",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-11-18",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-18",
+  "coordinates": {
+    "lat": 25.298176,
+    "lon": 82.97078
+  },
+  "coordinate_precision": "STATION_REFERENCE_APPROXIMATE",
+  "source_label": "Amar Ujala / RPF-GRP-CIB",
+  "source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18",
+  "source_alternative_url": "https://www.jagran.com/uttar-pradesh/varanasi-city-rare-turtle-smuggling-2-women-arrested-at-banaras-station-40441186.html",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Tartarugas vivas; Indian softshell turtles na reportagem, sem laudo de espécie",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 23,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 23
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "PLANNED_MOVEMENT_DOCUMENTED",
+  "route_audit_note_pt": "Georreferenciamento aproximado da estação Banaras; chegada por via rodoviária segundo relatos, partida ferroviária para Bengala Ocidental impedida. Origem em lagoas Sultanpur/Amethi atribuída a declarações.",
+  "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+  "image_url": null,
+  "image_source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "CORREÇÃO: data 18/11 (fonte detalhada), não 17/11. Quantidade 23; volumes divergentes 11 vs 13. Origem dos animais derivada de declarações relatadas, não inspeção de captura.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Documentary reference O",
+      "url": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18"
+    },
+    {
+      "id": "T",
+      "type": "external_technical",
+      "label": "TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios",
+      "url": "https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-19",
+    "categories_present": [
+      "O",
+      "T"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
+  },
+  "location_label_pt": "Estação Banaras, Varanasi, Uttar Pradesh, Índia",
+  "geographic_note_pt": "Georreferenciamento aproximado da estação Banaras; chegada por via rodoviária segundo relatos, partida ferroviária para Bengala Ocidental impedida. Origem em lagoas Sultanpur/Amethi atribuída a declarações.",
+  "title_pt": "Duas mulheres interceptadas com 23 tartarugas em Varanasi",
+  "fauna_label_pt": "23 tartarugas vivas (espécie não verificada)",
+  "card_text_pt": "Em 18/11, duas mulheres foram detidas em Banaras com 23 tartarugas em bolsas; viagem rumo a Bengala Ocidental era pretendida e não se concretizou.",
+  "context_pt": "[O] Em 18/11, duas mulheres foram interceptadas em Banaras Junction, Varanasi, com 23 tartarugas vivas ocultas em bagagens. Segundo declarações relatadas pela polícia, os animais teriam vindo de lagoas de Sultanpur e Amethi, com venda pretendida em West Bengal; o trecho ferroviário futuro não se concretizou. Há divergência entre as fontes quanto ao número de volumes, não de animais.\n\n[T] Relatório técnico externo da TRAFFIC (2019) identifica Uttar Pradesh e West Bengal como estados de destaque em apreensões históricas e registra a importância da comercialização de quelônios no país. É contexto para a rota declarada, sem comprovar ligação com redes previamente documentadas.",
+  "references_text_pt": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+  "modal_label_pt": "Terrestre",
+  "quantity_note_pt": "Georreferenciamento aproximado da estação Banaras; chegada por via rodoviária segundo relatos, partida ferroviária para Bengala Ocidental impedida. Origem em lagoas Sultanpur/Amethi atribuída a declarações.",
+  "location_label_en": "Banaras railway station, Varanasi, Uttar Pradesh, India",
+  "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. The described itinerary is intended or partly attributed, not a completed route.",
+  "title_en": "Two women intercepted carrying 23 turtles at Banaras station",
+  "fauna_label_en": "23 live turtles (species unverified)",
+  "card_text_en": "On 18 November two women were detained at Banaras with 23 turtles concealed in bags; the planned trip towards West Bengal did not proceed.",
+  "context_en": "[O] On 18 November two women were intercepted at Banaras Junction, Varanasi, with 23 live turtles concealed in luggage. Statements reported by police point to ponds in Sultanpur and Amethi as the alleged source and planned sale in West Bengal; the intended train leg was interrupted. Sources differ on the number of bags, not turtles.\n\n[T] An external TRAFFIC technical report (2019) identifies Uttar Pradesh and West Bengal as prominent states in historic turtle seizure data and describes India's illicit chelonian market. This provides context for the stated intended route without linking these suspects to previously reported networks.",
+  "references_text_en": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+  "modal_label_en": "Road",
+  "quantity_note_en": "23 animals confirmed; sources report 11 or 13 bags.",
+  "location_label_es": "Estación Banaras, Varanasi, Uttar Pradesh, India",
+  "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. El itinerario señalado es previsto o atribuido, no un trayecto completado.",
+  "title_es": "Interceptan a dos mujeres con 23 tortugas en la estación Banaras",
+  "fauna_label_es": "23 tortugas vivas (especie no verificada)",
+  "card_text_es": "El 18/11 dos mujeres fueron detenidas en Banaras con 23 tortugas ocultas en bolsas; el viaje previsto hacia Bengala Occidental fue impedido.",
+  "context_es": "[O] El 18/11, dos mujeres fueron interceptadas en Banaras Junction, Varanasi, con 23 tortugas vivas ocultas en el equipaje. Según declaraciones recogidas por la policía, los animales procederían de lagunas de Sultanpur y Amethi para venderse en West Bengal; el trayecto previsto en tren fue interrumpido. Las fuentes discrepan sobre la cantidad de bolsas, no de animales.\n\n[T] Un informe técnico externo de TRAFFIC (2019) identifica Uttar Pradesh y West Bengal como estados destacados en decomisos históricos de quelonios y describe el mercado ilegal de tortugas en la India. Es contexto para la ruta declarada, sin probar nexos con redes anteriores.",
+  "references_text_es": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+  "modal_label_es": "Terrestre",
+  "quantity_note_es": "23 animales confirmados; las fuentes discrepan entre 11 y 13 bultos."
+}

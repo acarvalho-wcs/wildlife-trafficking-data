@@ -1,0 +1,102 @@
+{
+  "id": "tgh-20261117-za-pretoria-11-carnivores-online",
+  "status": "VALIDATED",
+  "country": "África do Sul",
+  "event_date": "2026-11-17",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-18",
+  "coordinates": {
+    "lat": -25.7479,
+    "lon": 28.2293
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "source_label": "DFFE / South African Police Service",
+  "source_url": "https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria",
+  "source_alternative_url": "https://www.sabcnews.com/sabcnews/police-arrest-three-suspects-linked-to-illegal-wildlife-trafficking-in-pretoria/",
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "3 leões (*Panthera leo*); 2 tigres (*Panthera tigris*); 3 raposas-orelha-de-morcego (*Otocyon megalotis*); 3 caracais (*Caracal caracal*)",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 11,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Mamíferos": 11
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+  "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+  "image_url": null,
+  "image_source_url": "https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "11 indivíduos confirmados (3+2+3+3). Servais anunciados mas NÃO apreendidos. Sem local de captura ou destino.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Documentary reference O",
+      "url": "https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria"
+    },
+    {
+      "id": "N",
+      "type": "investigative_journalism",
+      "label": "news.json — International Policy Digest, 01/11/2026",
+      "url": "https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "papers.json — Global trends and impacts of the online illegal wildlife trade (2026)",
+      "url": "https://doi.org/10.1038/s44358-026-00192-8"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-19",
+    "categories_present": [
+      "N",
+      "O",
+      "S"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
+  },
+  "location_label_pt": "East Lynne, Pretória, África do Sul",
+  "geographic_note_pt": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+  "title_pt": "Operação contra venda online apreende 11 mamíferos em Pretória",
+  "fauna_label_pt": "11 mamíferos: 3 leões, 2 tigres, 3 raposas-orelha-de-morcego e 3 caracais",
+  "card_text_pt": "Em 17/11, operação em East Lynne apreendeu 3 leões, 2 tigres, 3 raposas-orelha-de-morcego e 3 caracais; três suspeitos foram detidos.",
+  "context_pt": "[O] A operação de 17/11 em East Lynne, Pretória, apreendeu três filhotes de leão, dois de tigre, três raposas-orelha-de-morcego e três caracais, totalizando 11 indivíduos, após investigação de anúncios de venda online. Três suspeitos foram detidos. Servais foram mencionados entre animais anunciados, não entre os apreendidos.\n\n[N] Reportagem do International Policy Digest (2026), cadastrada em news.json, examina a circulação de anúncios suspeitos de tráfico em plataformas digitais e os limites da moderação. É contexto do canal de oferta, não indício de que os investigados participem das redes descritas.\n\n[S] Revisão científica de 2026 no repositório analisa tendências globais do comércio ilegal online de fauna, sem identificar compradores, rotas ou transações ligados a Pretória.",
+  "references_text_pt": "[O] https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria\n[N] news.json — International Policy Digest, 01/11/2026: https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+  "location_label_en": "East Lynne, Pretoria, South Africa",
+  "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+  "title_en": "Eleven mammals seized in online wildlife dealing investigation in Pretoria",
+  "fauna_label_en": "11 mammals: 3 lions, 2 tigers, 3 bat-eared foxes and 3 caracals",
+  "card_text_en": "On 17 November officers in East Lynne seized 3 lion cubs, 2 tiger cubs, 3 bat-eared foxes and 3 caracals; three suspects were detained.",
+  "context_en": "[O] A 17 November operation in East Lynne, Pretoria, seized three lion cubs, two tiger cubs, three bat-eared foxes and three caracals — 11 animals — following an investigation of online sale advertisements. Three suspects were detained. Servals were reportedly advertised but were not among the seized animals.\n\n[N] A 2026 International Policy Digest article in news.json examines suspected wildlife-sale listings on digital platforms and the limits of content moderation. This is context for the marketing channel, not evidence that these suspects belong to the networks discussed.\n\n[S] A scientific review indexed in 2026 examines global patterns of online illegal wildlife trade, without establishing buyers, routes or transactions connected to Pretoria.",
+  "references_text_en": "[O] https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria\n[N] news.json — International Policy Digest, 01/11/2026: https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+  "location_label_es": "East Lynne, Pretoria, Sudáfrica",
+  "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+  "title_es": "Incautan 11 mamíferos en investigación de comercio ilegal digital en Pretoria",
+  "fauna_label_es": "11 mamíferos: 3 leones, 2 tigres, 3 zorros orejudos y 3 caracales",
+  "card_text_es": "El 17/11 se incautaron en East Lynne 3 leones, 2 tigres, 3 zorros orejudos y 3 caracales; tres sospechosos fueron detenidos.",
+  "context_es": "[O] Una operación del 17/11 en East Lynne, Pretoria, incautó tres cachorros de león, dos de tigre, tres zorros orejudos y tres caracales —11 animales— tras investigar anuncios de venta por internet. Se detuvo a tres sospechosos. Se habían anunciado servales, pero no figuraban entre los animales incautados.\n\n[N] Un artículo de International Policy Digest (2026), registrado en news.json, examina anuncios sospechosos de tráfico de fauna en plataformas digitales y los límites de su moderación. Aporta contexto sobre el canal comercial, sin vincular a los sospechosos con las redes descritas.\n\n[S] Una revisión científica de 2026 incluida en el repositorio describe tendencias globales del comercio ilegal de fauna por internet, sin identificar compradores, rutas ni transacciones relacionadas con Pretoria.",
+  "references_text_es": "[O] https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria\n[N] news.json — International Policy Digest, 01/11/2026: https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística."
+}

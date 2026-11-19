@@ -1,0 +1,95 @@
+{
+  "id": "tgh-20261117-in-malkangiri-50-flapshell-turtles",
+  "status": "VALIDATED",
+  "country": "Índia",
+  "event_date": "2026-11-17",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-17",
+  "coordinates": {
+    "lat": 18.073,
+    "lon": 81.7491
+  },
+  "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+  "source_label": "Ommcom News / Kalimela Forest Department",
+  "source_url": "https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/",
+  "source_alternative_url": "https://indusvalleytimes.com/news/50-live-turtles-seized-2-arrested/",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "50 Indian flapshell turtles, provável *Lissemys punctata* por nome comum; espécie científica não confirmada pericialmente",
+  "modal_primary": "Terrestre",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 50,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 50
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+  "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+  "image_url": null,
+  "image_source_url": "https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Separado de AS-003 por data/local/quantidade/modal. Sem georreferenciar fonte/destino não confirmados.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Documentary reference O",
+      "url": "https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/"
+    },
+    {
+      "id": "T",
+      "type": "external_technical",
+      "label": "TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios",
+      "url": "https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-19",
+    "categories_present": [
+      "O",
+      "T"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
+  },
+  "location_label_pt": "Rodovia Jabalpalli–Koinetla, Kalimela, Odisha, Índia",
+  "geographic_note_pt": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+  "title_pt": "Cinquenta tartarugas interceptadas com motociclistas em Odisha",
+  "fauna_label_pt": "50 tartarugas indian flapshell (nome comum da fonte)",
+  "card_text_pt": "Em 17/11, agentes florestais detiveram duas pessoas com 50 tartarugas em duas motocicletas em Malkangiri; origem e destino da remessa não foram identificados.",
+  "context_pt": "[O] Em 17/11, agentes florestais interceptaram duas motocicletas em Malkangiri, Odisha, com 50 tartarugas descritas como Indian flapshell turtles. A fonte vincula o transporte a comércio ilegal, mas não informa captura, comprador nem destino. A identificação científica não deve ser tratada como laudo pericial.\n\n[T] O relatório técnico externo da TRAFFIC, Tortoises and Freshwater Turtles Under Siege (2019), documenta o comércio ilegal de quelônios na Índia, incluindo a espécie conhecida como Indian flapshell turtle. Seus dados são históricos e não permitem estabelecer a origem, o destino nem a rede responsável pela remessa apreendida em Odisha.",
+  "references_text_pt": "[O] https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+  "modal_label_pt": "Terrestre",
+  "quantity_note_pt": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+  "location_label_en": "Jabalpalli–Koinetla Road, Kalimela, Odisha, India",
+  "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+  "title_en": "Fifty flapshell turtles intercepted on motorcycles in Odisha",
+  "fauna_label_en": "50 Indian flapshell turtles (reported common name)",
+  "card_text_en": "On 17 November forest officers stopped two people carrying 50 turtles on motorcycles in Malkangiri; the consignment's origin and destination were not identified.",
+  "context_en": "[O] On 17 November forest officers intercepted two motorcycles in Malkangiri, Odisha, carrying 50 turtles described as Indian flapshell turtles. Reporting associates transport with illegal trade but gives neither capture location, buyer nor destination. The common-name identification is not equivalent to a forensic taxonomic finding.\n\n[T] TRAFFIC's external technical report Tortoises and Freshwater Turtles Under Siege (2019) documents illegal turtle trade in India, including the species commonly called Indian flapshell turtle. Its historical findings do not establish the source, destination or network behind the Odisha consignment.",
+  "references_text_en": "[O] https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+  "modal_label_en": "Road",
+  "quantity_note_en": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+  "location_label_es": "Carretera Jabalpalli–Koinetla, Kalimela, Odisha, India",
+  "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+  "title_es": "Interceptan 50 tortugas transportadas en motocicletas en Odisha",
+  "fauna_label_es": "50 tortugas Indian flapshell (nombre común informado)",
+  "card_text_es": "El 17/11 agentes forestales detuvieron a dos personas con 50 tortugas en motocicletas en Malkangiri; no se identificaron origen ni destino.",
+  "context_es": "[O] El 17/11, agentes forestales interceptaron dos motocicletas en Malkangiri, Odisha, con 50 tortugas descritas como Indian flapshell turtles. La noticia relaciona el transporte con comercio ilegal, sin precisar captura, comprador ni destino. La denominación común no equivale a una identificación taxonómica pericial.\n\n[T] El informe técnico externo de TRAFFIC Tortoises and Freshwater Turtles Under Siege (2019) documenta el comercio ilegal de quelonios en la India, incluida la especie conocida como Indian flapshell turtle. Sus datos históricos no establecen origen, destino ni red de esta remesa en Odisha.",
+  "references_text_es": "[O] https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+  "modal_label_es": "Terrestre",
+  "quantity_note_es": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026."
+}

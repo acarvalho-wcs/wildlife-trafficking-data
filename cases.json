@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1641_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1648_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1641,
+  "count": 1648,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-18T19:03:51Z",
+    "updated_at": "2026-11-19T16:13:36Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-18T19:03:51Z",
-  "feed_updated_at": "2026-11-18T19:03:51Z",
+  "updated_at": "2026-11-19T16:13:36Z",
+  "feed_updated_at": "2026-11-19T16:13:36Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -130352,6 +130352,722 @@
       "quantity_note_es": "61 kg es peso incautado, no número de pangolines; no convertir la masa de escamas en animales.",
       "occurred_at": null,
       "occurred_at_precision": "unknown"
+    },
+    {
+      "id": "tgh-20261117-in-malkangiri-50-flapshell-turtles",
+      "status": "VALIDATED",
+      "country": "Índia",
+      "event_date": "2026-11-17",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-17",
+      "coordinates": {
+        "lat": 18.073,
+        "lon": 81.7491
+      },
+      "coordinate_precision": "LOCALITY_REFERENCE_APPROXIMATE",
+      "source_label": "Ommcom News / Kalimela Forest Department",
+      "source_url": "https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/",
+      "source_alternative_url": "https://indusvalleytimes.com/news/50-live-turtles-seized-2-arrested/",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "taxon_text": "50 Indian flapshell turtles, provável *Lissemys punctata* por nome comum; espécie científica não confirmada pericialmente",
+      "modal_primary": "Terrestre",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 50,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 50
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+      "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+      "image_url": null,
+      "image_source_url": "https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Separado de AS-003 por data/local/quantidade/modal. Sem georreferenciar fonte/destino não confirmados.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Documentary reference O",
+          "url": "https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios",
+          "url": "https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "O",
+          "T"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "location_label_pt": "Rodovia Jabalpalli–Koinetla, Kalimela, Odisha, Índia",
+      "geographic_note_pt": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+      "title_pt": "Cinquenta tartarugas interceptadas com motociclistas em Odisha",
+      "fauna_label_pt": "50 tartarugas indian flapshell (nome comum da fonte)",
+      "card_text_pt": "Em 17/11, agentes florestais detiveram duas pessoas com 50 tartarugas em duas motocicletas em Malkangiri; origem e destino da remessa não foram identificados.",
+      "context_pt": "[O] Em 17/11, agentes florestais interceptaram duas motocicletas em Malkangiri, Odisha, com 50 tartarugas descritas como Indian flapshell turtles. A fonte vincula o transporte a comércio ilegal, mas não informa captura, comprador nem destino. A identificação científica não deve ser tratada como laudo pericial.\n\n[T] O relatório técnico externo da TRAFFIC, Tortoises and Freshwater Turtles Under Siege (2019), documenta o comércio ilegal de quelônios na Índia, incluindo a espécie conhecida como Indian flapshell turtle. Seus dados são históricos e não permitem estabelecer a origem, o destino nem a rede responsável pela remessa apreendida em Odisha.",
+      "references_text_pt": "[O] https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+      "modal_label_pt": "Terrestre",
+      "quantity_note_pt": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+      "location_label_en": "Jabalpalli–Koinetla Road, Kalimela, Odisha, India",
+      "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+      "title_en": "Fifty flapshell turtles intercepted on motorcycles in Odisha",
+      "fauna_label_en": "50 Indian flapshell turtles (reported common name)",
+      "card_text_en": "On 17 November forest officers stopped two people carrying 50 turtles on motorcycles in Malkangiri; the consignment's origin and destination were not identified.",
+      "context_en": "[O] On 17 November forest officers intercepted two motorcycles in Malkangiri, Odisha, carrying 50 turtles described as Indian flapshell turtles. Reporting associates transport with illegal trade but gives neither capture location, buyer nor destination. The common-name identification is not equivalent to a forensic taxonomic finding.\n\n[T] TRAFFIC's external technical report Tortoises and Freshwater Turtles Under Siege (2019) documents illegal turtle trade in India, including the species commonly called Indian flapshell turtle. Its historical findings do not establish the source, destination or network behind the Odisha consignment.",
+      "references_text_en": "[O] https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+      "modal_label_en": "Road",
+      "quantity_note_en": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+      "location_label_es": "Carretera Jabalpalli–Koinetla, Kalimela, Odisha, India",
+      "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+      "title_es": "Interceptan 50 tortugas transportadas en motocicletas en Odisha",
+      "fauna_label_es": "50 tortugas Indian flapshell (nombre común informado)",
+      "card_text_es": "El 17/11 agentes forestales detuvieron a dos personas con 50 tortugas en motocicletas en Malkangiri; no se identificaron origen ni destino.",
+      "context_es": "[O] El 17/11, agentes forestales interceptaron dos motocicletas en Malkangiri, Odisha, con 50 tortugas descritas como Indian flapshell turtles. La noticia relaciona el transporte con comercio ilegal, sin precisar captura, comprador ni destino. La denominación común no equivale a una identificación taxonómica pericial.\n\n[T] El informe técnico externo de TRAFFIC Tortoises and Freshwater Turtles Under Siege (2019) documenta el comercio ilegal de quelonios en la India, incluida la especie conocida como Indian flapshell turtle. Sus datos históricos no establecen origen, destino ni red de esta remesa en Odisha.",
+      "references_text_es": "[O] https://ommcomnews.com/odisha-news/50-indian-flap-shelled-turtles-seized-in-malkangiri-two-held/\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+      "modal_label_es": "Terrestre",
+      "quantity_note_es": "Intercepção em estrada Jabalpalli–Koinetla; ponto cartográfico da localidade de Kalimela, não quilometragem do flagrante. Distinto da apreensão de 55 tartarugas em setembro de 2026.",
+      "occurred_at": "2026-11-17T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261117-mx-calpulalpan-19-wildlife",
+      "status": "VALIDATED",
+      "country": "México",
+      "event_date": null,
+      "event_end_date": null,
+      "event_date_precision": "unknown",
+      "publication_date": "2026-11-17",
+      "coordinates": {
+        "lat": 19.5878,
+        "lon": -98.5692
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Profepa",
+      "source_url": "https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala",
+      "source_alternative_url": "https://elpopular.mx/secciones/tlaxcala/2026/11/18/por-posesion-de-fauna-silvestre-detienen-a-una-persona-en-calpulalpan",
+      "fauna_groups_aggregated": [
+        "Répteis",
+        "Aracnídeos"
+      ],
+      "taxon_text": "6 *Kinosternon acutum*; 6 *Trachemys scripta elegans*; 2 *Iguana iguana*; 2 *Brachypelma auratum*; 2 *Aphonopelma* sp.; 1 sem atribuição",
+      "modal_primary": "Não informado",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 19,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 14,
+        "Aracnídeos": 4
+      },
+      "quantity_unassigned": 1,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Apreensão comercial em Calpulalpan, feira não georreferenciada precisamente. A data específica da operação não foi explicitada na fonte; publicado em 17/11. Total 19 vs 18 discriminados.",
+      "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+      "image_url": null,
+      "image_source_url": "https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "SEM duplicata exata localizada na listagem individual 2026/11 do GitHub; índice compilado cases.json não auditado integralmente. Quantidade oficial 19 versus 18 discriminados.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Documentary reference O",
+          "url": "https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "papers.json — Searching the web builds fuller picture of arachnid trade (2022)",
+          "url": "https://doi.org/10.1038/s42003-022-03374-0"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "O",
+          "S"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "location_label_pt": "Calpulalpan, Tlaxcala, México",
+      "geographic_note_pt": "Apreensão comercial em Calpulalpan, feira não georreferenciada precisamente. A data específica da operação não foi explicitada na fonte; publicado em 17/11. Total 19 vs 18 discriminados.",
+      "title_pt": "Fiscalização apreende 19 animais em comércio irregular de fauna em Calpulalpan",
+      "fauna_label_pt": "19 espécimes: 14 répteis, 4 tarântulas e 1 não discriminado",
+      "card_text_pt": "Em 17/11, a Profepa comunicou apreensão de 19 animais numa banca de feira sem documentos de origem; o detalhamento por táxon soma 18.",
+      "context_pt": "[O] A Profepa apreendeu fauna oferecida em uma banca de feira em Calpulalpan, Tlaxcala, sem comprovação de procedência legal. O órgão informou 19 exemplares, mas o detalhamento por grupos soma 18; a divergência permanece aberta. Não foram identificados fornecedores nem trajeto de abastecimento.\n\n[S] Estudo disponível no repositório científico do Observatório documenta a diversidade de aracnídeos comercializados e limitações de monitoramento desse mercado. É referência sobre o grupo envolvido, não evidência da origem das tarântulas desta apreensão.",
+      "references_text_pt": "[O] https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala\n[S] papers.json — Searching the web builds fuller picture of arachnid trade (2022): https://doi.org/10.1038/s42003-022-03374-0",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Total oficial 19; soma detalhada 18. Uma unidade permanece não atribuída.",
+      "location_label_en": "Calpulalpan, Tlaxcala, Mexico",
+      "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+      "title_en": "Authorities seize 19 wildlife specimens at Calpulalpan market",
+      "fauna_label_en": "19 specimens: 14 reptiles, 4 tarantulas and 1 unitemized",
+      "card_text_en": "On 17 November Profepa reported 19 specimens seized from a market stall without proof of legal origin; the species breakdown adds to 18.",
+      "context_en": "[O] Profepa seized wildlife offered at a market stall in Calpulalpan, Tlaxcala, without proof of lawful origin. Officials reported 19 specimens, while the listed species counts add up to 18; the discrepancy remains unresolved. Neither suppliers nor supply movements were identified.\n\n[S] A study in the Observatory's scientific repository documents the diversity of arachnids in commerce and gaps in monitoring that trade. It provides taxonomic-market context, not evidence of where the seized tarantulas originated.",
+      "references_text_en": "[O] https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala\n[S] papers.json — Searching the web builds fuller picture of arachnid trade (2022): https://doi.org/10.1038/s42003-022-03374-0",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "The official count is 19, but the itemized list totals 18; one specimen is unassigned.",
+      "location_label_es": "Calpulalpan, Tlaxcala, México",
+      "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+      "title_es": "Autoridades aseguran 19 ejemplares de fauna en tianguis de Calpulalpan",
+      "fauna_label_es": "19 ejemplares: 14 reptiles, 4 tarántulas y 1 no desglosado",
+      "card_text_es": "El 17/11 la Profepa informó de 19 ejemplares asegurados en un puesto sin documentación de procedencia; el desglose suma 18.",
+      "context_es": "[O] La Profepa incautó fauna ofrecida en un puesto de mercado en Calpulalpan, Tlaxcala, sin documentación de procedencia legal. El total oficial es de 19 ejemplares, pero el desglose suma 18; la diferencia no está aclarada. No se identificaron proveedores ni trayectos de abastecimiento.\n\n[S] Un estudio del repositorio científico del Observatorio documenta la diversidad de arácnidos comercializados y las dificultades para vigilar ese mercado. Aporta contexto sobre el grupo, no pruebas del origen de las tarántulas incautadas.",
+      "references_text_es": "[O] https://www.gob.mx/profepa/prensa/durante-operativo-de-combate-al-trafico-de-especies-detienen-a-una-persona-por-posesion-ilegal-de-vida-silvestre-en-tlaxcala\n[S] papers.json — Searching the web builds fuller picture of arachnid trade (2022): https://doi.org/10.1038/s42003-022-03374-0",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "El total oficial es 19, pero el desglose suma 18; un ejemplar queda sin asignar.",
+      "occurred_at": null,
+      "occurred_at_precision": "unknown"
+    },
+    {
+      "id": "tgh-20261117-th-nakhon-pathom-37-online-birds",
+      "status": "VALIDATED",
+      "country": "Tailândia",
+      "event_date": "2026-11-17",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-18",
+      "coordinates": {
+        "lat": 13.8199,
+        "lon": 100.0622
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Department of National Parks, Wildlife and Plant Conservation (Tailândia)",
+      "source_url": "https://news.dnp.go.th/news/51261",
+      "source_alternative_url": null,
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "35 นกกวัก; 1 นกขุนทอง; 1 นกอีลุ้ม (nomes tailandeses conforme fonte, sem conversão taxonômica não verificada)",
+      "modal_primary": "Não informado",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 37,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 37
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+      "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+      "image_url": null,
+      "image_source_url": "https://news.dnp.go.th/news/51261",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Exatamente 37 = 35+1+1. Veículo apreendido é evidência material, mas não comprova modal de transporte dos animais.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Documentary reference O",
+          "url": "https://news.dnp.go.th/news/51261"
+        },
+        {
+          "id": "N",
+          "type": "investigative_journalism",
+          "label": "news.json — AFP/Boursorama, 10/09/2026",
+          "url": "https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "papers.json — Global trends and impacts of the online illegal wildlife trade (2026)",
+          "url": "https://doi.org/10.1038/s44358-026-00192-8"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "N",
+          "O",
+          "S"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "location_label_pt": "Thung Noi, Nakhon Pathom, Tailândia",
+      "geographic_note_pt": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+      "title_pt": "Operação contra comércio online apreende 37 aves protegidas na Tailândia",
+      "fauna_label_pt": "37 aves protegidas (35 นกกวัก, 1 นกขุนทอง, 1 นกอีลุ้ม)",
+      "card_text_pt": "Em 17/11, o DNP apreendeu 37 aves protegidas em imóvel de Nakhon Pathom após investigação de ofertas em redes sociais; não há rota de transporte documentada.",
+      "context_pt": "[O] Autoridades tailandesas apreenderam 37 aves protegidas em Nakhon Pathom, em 17/11, durante investigação de ofertas de fauna pela internet. A soma informada na fonte é de 35 aves de uma categoria e duas de outras categorias. O veículo retido não comprova, por si só, transporte das aves.\n\n[N] Reportagem da AFP publicada em setembro de 2026 e presente em news.json descreve como equipes tailandesas combinam monitoramento digital e ações encobertas contra comércio ilegal de fauna. A semelhança é metodológica e não demonstra ligação entre essa operação e os casos da reportagem.\n\n[S] Revisão científica global de 2026 no repositório relaciona plataformas digitais e expansão de ofertas ilícitas; não permite inferir compradores ou mercado de destino das aves apreendidas.",
+      "references_text_pt": "[O] https://news.dnp.go.th/news/51261\n[N] news.json — AFP/Boursorama, 10/09/2026: https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+      "location_label_en": "Thung Noi, Nakhon Pathom, Thailand",
+      "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+      "title_en": "Thirty-seven protected birds seized in Thai online wildlife trade investigation",
+      "fauna_label_en": "37 protected birds (35 นกกวัก, 1 นกขุนทอง, 1 นกอีลุ้ม)",
+      "card_text_en": "On 17 November Thai officials seized 37 protected birds at a property in Nakhon Pathom after investigating online offers; no shipment route was documented.",
+      "context_en": "[O] Thai authorities seized 37 protected birds in Nakhon Pathom on 17 November during an investigation into online wildlife offers. The official species-group breakdown totals 35 birds in one category and two in other categories. A vehicle was also seized but this alone does not establish that it transported the birds.\n\n[N] A September 2026 AFP report in news.json describes how Thai investigators combine digital monitoring with undercover work against illegal wildlife sales. The comparison concerns investigative method; it does not link the people or advertisements involved.\n\n[S] A global scientific review from 2026, indexed in the repository, discusses digital platforms in wildlife trade without identifying buyers or destinations for these seized birds.",
+      "references_text_en": "[O] https://news.dnp.go.th/news/51261\n[N] news.json — AFP/Boursorama, 10/09/2026: https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+      "location_label_es": "Thung Noi, Nakhon Pathom, Tailandia",
+      "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+      "title_es": "Incautan 37 aves protegidas en investigación de comercio online en Tailandia",
+      "fauna_label_es": "37 aves protegidas (35 นกกวัก, 1 นกขุนทอง, 1 นกอีลุ้ม)",
+      "card_text_es": "El 17/11 se incautaron 37 aves protegidas en Nakhon Pathom tras investigar ofertas por redes sociales; no se documentó una ruta de transporte.",
+      "context_es": "[O] El 17/11, autoridades tailandesas incautaron 37 aves protegidas en Nakhon Pathom durante una investigación de ofertas de fauna por internet. El desglose oficial suma 35 aves de una categoría y dos de otras. También se incautó un vehículo, lo que no prueba por sí solo el transporte de las aves.\n\n[N] Un reportaje de AFP de septiembre de 2026, incluido en news.json, describe cómo las autoridades tailandesas combinan vigilancia digital y operaciones encubiertas contra el comercio ilegal de fauna. La relación es metodológica, sin vincular a personas ni anuncios concretos.\n\n[S] Una revisión científica global de 2026 incluida en el repositorio analiza plataformas digitales y mercado ilegal, pero no identifica compradores ni destinos para estas aves.",
+      "references_text_es": "[O] https://news.dnp.go.th/news/51261\n[N] news.json — AFP/Boursorama, 10/09/2026: https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+      "occurred_at": "2026-11-17T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261117-za-pretoria-11-carnivores-online",
+      "status": "VALIDATED",
+      "country": "África do Sul",
+      "event_date": "2026-11-17",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-18",
+      "coordinates": {
+        "lat": -25.7479,
+        "lon": 28.2293
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "DFFE / South African Police Service",
+      "source_url": "https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria",
+      "source_alternative_url": "https://www.sabcnews.com/sabcnews/police-arrest-three-suspects-linked-to-illegal-wildlife-trafficking-in-pretoria/",
+      "fauna_groups_aggregated": [
+        "Mamíferos"
+      ],
+      "taxon_text": "3 leões (*Panthera leo*); 2 tigres (*Panthera tigris*); 3 raposas-orelha-de-morcego (*Otocyon megalotis*); 3 caracais (*Caracal caracal*)",
+      "modal_primary": "Não informado",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 11,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Mamíferos": 11
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+      "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+      "image_url": null,
+      "image_source_url": "https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "11 indivíduos confirmados (3+2+3+3). Servais anunciados mas NÃO apreendidos. Sem local de captura ou destino.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Documentary reference O",
+          "url": "https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria"
+        },
+        {
+          "id": "N",
+          "type": "investigative_journalism",
+          "label": "news.json — International Policy Digest, 01/11/2026",
+          "url": "https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "papers.json — Global trends and impacts of the online illegal wildlife trade (2026)",
+          "url": "https://doi.org/10.1038/s44358-026-00192-8"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "N",
+          "O",
+          "S"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "location_label_pt": "East Lynne, Pretória, África do Sul",
+      "geographic_note_pt": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+      "title_pt": "Operação contra venda online apreende 11 mamíferos em Pretória",
+      "fauna_label_pt": "11 mamíferos: 3 leões, 2 tigres, 3 raposas-orelha-de-morcego e 3 caracais",
+      "card_text_pt": "Em 17/11, operação em East Lynne apreendeu 3 leões, 2 tigres, 3 raposas-orelha-de-morcego e 3 caracais; três suspeitos foram detidos.",
+      "context_pt": "[O] A operação de 17/11 em East Lynne, Pretória, apreendeu três filhotes de leão, dois de tigre, três raposas-orelha-de-morcego e três caracais, totalizando 11 indivíduos, após investigação de anúncios de venda online. Três suspeitos foram detidos. Servais foram mencionados entre animais anunciados, não entre os apreendidos.\n\n[N] Reportagem do International Policy Digest (2026), cadastrada em news.json, examina a circulação de anúncios suspeitos de tráfico em plataformas digitais e os limites da moderação. É contexto do canal de oferta, não indício de que os investigados participem das redes descritas.\n\n[S] Revisão científica de 2026 no repositório analisa tendências globais do comércio ilegal online de fauna, sem identificar compradores, rotas ou transações ligados a Pretória.",
+      "references_text_pt": "[O] https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria\n[N] news.json — International Policy Digest, 01/11/2026: https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+      "modal_label_pt": "Não informado",
+      "quantity_note_pt": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+      "location_label_en": "East Lynne, Pretoria, South Africa",
+      "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+      "title_en": "Eleven mammals seized in online wildlife dealing investigation in Pretoria",
+      "fauna_label_en": "11 mammals: 3 lions, 2 tigers, 3 bat-eared foxes and 3 caracals",
+      "card_text_en": "On 17 November officers in East Lynne seized 3 lion cubs, 2 tiger cubs, 3 bat-eared foxes and 3 caracals; three suspects were detained.",
+      "context_en": "[O] A 17 November operation in East Lynne, Pretoria, seized three lion cubs, two tiger cubs, three bat-eared foxes and three caracals — 11 animals — following an investigation of online sale advertisements. Three suspects were detained. Servals were reportedly advertised but were not among the seized animals.\n\n[N] A 2026 International Policy Digest article in news.json examines suspected wildlife-sale listings on digital platforms and the limits of content moderation. This is context for the marketing channel, not evidence that these suspects belong to the networks discussed.\n\n[S] A scientific review indexed in 2026 examines global patterns of online illegal wildlife trade, without establishing buyers, routes or transactions connected to Pretoria.",
+      "references_text_en": "[O] https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria\n[N] news.json — International Policy Digest, 01/11/2026: https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+      "modal_label_en": "Not reported",
+      "quantity_note_en": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+      "location_label_es": "East Lynne, Pretoria, Sudáfrica",
+      "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+      "title_es": "Incautan 11 mamíferos en investigación de comercio ilegal digital en Pretoria",
+      "fauna_label_es": "11 mamíferos: 3 leones, 2 tigres, 3 zorros orejudos y 3 caracales",
+      "card_text_es": "El 17/11 se incautaron en East Lynne 3 leones, 2 tigres, 3 zorros orejudos y 3 caracales; tres sospechosos fueron detenidos.",
+      "context_es": "[O] Una operación del 17/11 en East Lynne, Pretoria, incautó tres cachorros de león, dos de tigre, tres zorros orejudos y tres caracales —11 animales— tras investigar anuncios de venta por internet. Se detuvo a tres sospechosos. Se habían anunciado servales, pero no figuraban entre los animales incautados.\n\n[N] Un artículo de International Policy Digest (2026), registrado en news.json, examina anuncios sospechosos de tráfico de fauna en plataformas digitales y los límites de su moderación. Aporta contexto sobre el canal comercial, sin vincular a los sospechosos con las redes descritas.\n\n[S] Una revisión científica de 2026 incluida en el repositorio describe tendencias globales del comercio ilegal de fauna por internet, sin identificar compradores, rutas ni transacciones relacionadas con Pretoria.",
+      "references_text_es": "[O] https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria\n[N] news.json — International Policy Digest, 01/11/2026: https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+      "modal_label_es": "No informado",
+      "quantity_note_es": "Imóvel privado em East Lynne; coordenada referencial do município de Pretória, não endereço residencial. A venda por rede social não identifica rota logística.",
+      "occurred_at": "2026-11-17T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261118-br-torres-23-hidden-birds",
+      "status": "VALIDATED",
+      "country": "Brasil",
+      "event_date": "2026-11-18",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-19",
+      "coordinates": {
+        "lat": -29.3372,
+        "lon": -49.7274
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Brigada Militar / 1º BPAmb; Jornal Rota do Mar",
+      "source_url": "https://jornalrotadomar.com.br/news/2026/11/19/brigada-militar-apreende-23-aves-silvestres-transportadas-ilegalmente-na-br-101-em-torres/",
+      "source_alternative_url": "https://litoralmania.com.br/aves-silvestres-encontradas-em-carro-br-101/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "20 *Amazona aestiva* (nome comum atribuído); 1 *Ara ararauna* (nome comum atribuído); 2 tucanos (espécies não identificadas)",
+      "modal_primary": "Terrestre",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 23,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 23
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Intercepção na BR-101, km 0; coordenadas são centro aproximado de Torres, não posição exata da abordagem. Não há origem nem destino comprovados.",
+      "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+      "image_url": null,
+      "image_source_url": "https://jornalrotadomar.com.br/news/2026/11/19/brigada-militar-apreende-23-aves-silvestres-transportadas-ilegalmente-na-br-101-em-torres/",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Fonte corroborada por notícia local e apreensão reportada por força pública. Não projetar itinerário sobre a BR-101.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Documentary reference O",
+          "url": "https://jornalrotadomar.com.br/news/2026/11/19/brigada-militar-apreende-23-aves-silvestres-transportadas-ilegalmente-na-br-101-em-torres/"
+        },
+        {
+          "id": "N",
+          "type": "investigative_journalism",
+          "label": "news.json — Veja, 03/09/2020",
+          "url": "https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "papers.json — The live bird trade in Brazil and its conservation implications (2013)",
+          "url": "https://doi.org/10.1017/S095927091200010X"
+        },
+        {
+          "id": "I",
+          "type": "wcs_institutional",
+          "label": "reports-institutional.json — WCS Brasil Policy Brief (2025)",
+          "url": "https://drive.google.com/file/d/1yGo2drjUdOnXhE4RFfYwv5mEIya9Z_g1/view"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "I",
+          "N",
+          "O",
+          "S"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "location_label_pt": "Torres, Rio Grande do Sul, Brasil",
+      "geographic_note_pt": "Intercepção na BR-101, km 0; coordenadas são centro aproximado de Torres, não posição exata da abordagem. Não há origem nem destino comprovados.",
+      "title_pt": "Apreendidas 23 aves ocultas em automóvel sobre caminhão-cegonha na BR-101",
+      "fauna_label_pt": "23 aves: 20 papagaios-verdadeiros, 1 arara-canindé e 2 tucanos",
+      "card_text_pt": "Em 18/11, 20 papagaios-verdadeiros, uma arara-canindé e dois tucanos foram encontrados em carro fechado sobre caminhão-cegonha na BR-101; origem e destino desconhecidos.",
+      "context_pt": "[O] Em 18/11, fiscalização na BR-101 em Torres (RS) localizou 23 aves silvestres — 20 papagaios, uma arara e dois tucanos — dentro de um automóvel levado em caminhão-cegonha. A ocultação no veículo é observada, mas não há confirmação de ponto de captura, remetente ou destino.\n\n[N] Reportagem da Veja (2020), presente no repositório de notícias, descreve a cadeia de captura, intermediação e venda de papagaios no Brasil. O histórico esclarece possíveis etapas desse mercado, sem comprovar que tenham ocorrido neste flagrante.\n\n[S] Revisão científica do comércio de aves vivas no Brasil, indexada em papers.json, mostra a relevância das aves para os mercados ilegais; não individualiza a origem destes exemplares.\n\n[I] Policy brief institucional da WCS Brasil (2025) propõe reforço da investigação e da articulação entre órgãos para crimes envolvendo transporte de fauna. Essa orientação não substitui evidências específicas do caso.",
+      "references_text_pt": "[O] https://jornalrotadomar.com.br/news/2026/11/19/brigada-militar-apreende-23-aves-silvestres-transportadas-ilegalmente-na-br-101-em-torres/\n[N] news.json — Veja, 03/09/2020: https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/\n[S] papers.json — The live bird trade in Brazil and its conservation implications (2013): https://doi.org/10.1017/S095927091200010X\n[I] reports-institutional.json — WCS Brasil Policy Brief (2025): https://drive.google.com/file/d/1yGo2drjUdOnXhE4RFfYwv5mEIya9Z_g1/view",
+      "modal_label_pt": "Terrestre",
+      "quantity_note_pt": "Intercepção na BR-101, km 0; coordenadas são centro aproximado de Torres, não posição exata da abordagem. Não há origem nem destino comprovados.",
+      "location_label_en": "Torres, Rio Grande do Sul, Brazil",
+      "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+      "title_en": "Twenty-three wild birds found concealed in vehicle on car transporter in Brazil",
+      "fauna_label_en": "23 birds: 20 blue-fronted parrots, 1 blue-and-yellow macaw and 2 toucans",
+      "card_text_en": "On 18 November 20 blue-fronted parrots, a blue-and-yellow macaw and two toucans were found in a closed car on a vehicle transporter; origin and destination were not known.",
+      "context_en": "[O] On 18 November officers on BR-101 in Torres, Brazil, found 23 wild birds — 20 parrots, one macaw and two toucans — inside a car being carried by a vehicle transporter. Concealment inside the car is documented; capture area, sender and destination are not.\n\n[N] A Veja investigation (2020), catalogued in the Observatory's news repository, describes the capture, intermediary and sale stages of Brazil's parrot trade. It provides market context but cannot establish that those stages or actors were involved here.\n\n[S] A review indexed in papers.json examines Brazil's live-bird trade and its conservation implications; it cannot identify the origin of these particular birds.\n\n[I] A 2025 WCS Brazil policy brief calls for stronger investigation and interagency coordination regarding illegal wildlife transport. This is institutional guidance, not case-specific corroboration.",
+      "references_text_en": "[O] https://jornalrotadomar.com.br/news/2026/11/19/brigada-militar-apreende-23-aves-silvestres-transportadas-ilegalmente-na-br-101-em-torres/\n[N] news.json — Veja, 03/09/2020: https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/\n[S] papers.json — The live bird trade in Brazil and its conservation implications (2013): https://doi.org/10.1017/S095927091200010X\n[I] reports-institutional.json — WCS Brasil Policy Brief (2025): https://drive.google.com/file/d/1yGo2drjUdOnXhE4RFfYwv5mEIya9Z_g1/view",
+      "modal_label_en": "Road",
+      "quantity_note_en": "Intercepção na BR-101, km 0; coordenadas são centro aproximado de Torres, não posição exata da abordagem. Não há origem nem destino comprovados.",
+      "location_label_es": "Torres, Rio Grande do Sul, Brasil",
+      "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+      "title_es": "Incautan 23 aves silvestres ocultas en automóvil transportado sobre camión",
+      "fauna_label_es": "23 aves: 20 loros habladores, 1 guacamayo azul y amarillo y 2 tucanes",
+      "card_text_es": "El 18/11 se encontraron 20 loros, un guacamayo y dos tucanes ocultos en un automóvil transportado en camión; se desconocen origen y destino.",
+      "context_es": "[O] El 18/11, agentes encontraron en la BR-101, Torres (Brasil), 23 aves silvestres — 20 loros, un guacamayo y dos tucanes — dentro de un automóvil transportado en un camión portavehículos. Se documentó el ocultamiento en el vehículo, pero no el lugar de captura, el remitente ni el destino.\n\n[N] Un reportaje de Veja (2020), incluido en el repositorio de noticias, describe las etapas de captura, intermediación y venta de loros en Brasil. Es contexto del mercado, sin comprobar participación de esas cadenas o actores en este episodio.\n\n[S] Una revisión incluida en papers.json examina el comercio brasileño de aves vivas y sus impactos, pero no identifica el origen de los ejemplares incautados.\n\n[I] Un documento institucional de WCS Brasil (2025) recomienda fortalecer la investigación y la coordinación interinstitucional frente al transporte ilegal de fauna. No aporta pruebas específicas sobre este caso.",
+      "references_text_es": "[O] https://jornalrotadomar.com.br/news/2026/11/19/brigada-militar-apreende-23-aves-silvestres-transportadas-ilegalmente-na-br-101-em-torres/\n[N] news.json — Veja, 03/09/2020: https://veja.abril.com.br/brasil/como-funciona-o-comercio-ilegal-que-transforma-papagaios-livres-em-pets/\n[S] papers.json — The live bird trade in Brazil and its conservation implications (2013): https://doi.org/10.1017/S095927091200010X\n[I] reports-institutional.json — WCS Brasil Policy Brief (2025): https://drive.google.com/file/d/1yGo2drjUdOnXhE4RFfYwv5mEIya9Z_g1/view",
+      "modal_label_es": "Terrestre",
+      "quantity_note_es": "Intercepção na BR-101, km 0; coordenadas são centro aproximado de Torres, não posição exata da abordagem. Não há origem nem destino comprovados.",
+      "occurred_at": "2026-11-18T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261118-id-timika-two-green-pythons-parcel",
+      "status": "VALIDATED",
+      "country": "Indonésia",
+      "event_date": "2026-11-18",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-18",
+      "coordinates": {
+        "lat": -4.52755,
+        "lon": 136.88996
+      },
+      "coordinate_precision": "AIRPORT_REFERENCE_APPROXIMATE",
+      "source_label": "Koran Papua / Balai Karantina Papua Tengah; ANTARA",
+      "source_url": "https://koranpapua.id/2026/11/18/karantina-gagalkan-pengiriman-dua-ular-sanca-hijau-dari-timika/",
+      "source_alternative_url": "https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "taxon_text": "2 pítons-verdes (*Morelia viridis*)",
+      "modal_primary": "Aéreo",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 2,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 2
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "PLANNED_MOVEMENT_DOCUMENTED",
+      "route_audit_note_pt": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+      "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+      "image_url": null,
+      "image_source_url": "https://koranpapua.id/2026/11/18/karantina-gagalkan-pengiriman-dua-ular-sanca-hijau-dari-timika/",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Notícia ANTARA publicada 19/11 para ocorrência 18/11. Rota Timika → Jacarta somente planejada. Nome científico citado diretamente pela fonte.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Documentary reference O",
+          "url": "https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika"
+        },
+        {
+          "id": "N",
+          "type": "investigative_journalism",
+          "label": "news.json — Jurnal Patroli News, 09/08/2026",
+          "url": "https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios",
+          "url": "https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "N",
+          "O",
+          "T"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "location_label_pt": "Aeroporto Mozes Kilangin, Timika, Papua Central, Indonésia",
+      "geographic_note_pt": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+      "title_pt": "Duas pítons-verdes encontradas em encomenda aérea falsamente declarada em Timika",
+      "fauna_label_pt": "2 pítons-verdes (*Morelia viridis*)",
+      "card_text_pt": "Em 18/11, fiscalização no aeroporto de Timika interceptou duas pítons-verdes em encomenda rotulada como chips de banana; o envio para Jacarta não foi concluído.",
+      "context_pt": "[O] Em 18/11, fiscais no aeroporto de Timika interceptaram duas pítons-verdes vivas em encomenda declarada como salgadinhos de banana. O envio aéreo tinha Jacarta como destino pretendido e foi interrompido antes do embarque. A falsa descrição é a dissimulação observada; nomes de remetente e destinatário não constam das fontes consultadas.\n\n[N] Reportagem do Jurnal Patroli News (2026), cadastrada em news.json, descreve o uso de transportadores, portos e aeroportos por cadeias de comércio ilegal de fauna na Indonésia. O material indica um contexto logístico nacional, não conexão comprovada com esse pacote.\n\n[T] Relatório técnico externo da TRAFFIC sobre convergência criminal na Indonésia (2025) aponta portos e aeroportos como locais relevantes de fiscalização de mercadorias ilícitas. Não atribui ao caso de Timika outros produtos, crimes ou envolvidos.",
+      "references_text_pt": "[O] https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika\n[N] news.json — Jurnal Patroli News, 09/08/2026: https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/\n[T] TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/",
+      "modal_label_pt": "Aéreo pretendido (encomenda postal)",
+      "quantity_note_pt": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+      "location_label_en": "Mozes Kilangin Airport, Timika, Central Papua, Indonesia",
+      "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. The described itinerary is intended or partly attributed, not a completed route.",
+      "title_en": "Two green pythons intercepted in falsely labelled air parcel from Timika",
+      "fauna_label_en": "2 green pythons (*Morelia viridis*)",
+      "card_text_en": "On 18 November Timika airport officers found two live green pythons in a parcel labelled as banana chips; the intended shipment to Jakarta was prevented.",
+      "context_en": "[O] On 18 November officers at Timika airport intercepted two live green pythons in a parcel falsely described as banana snacks. The shipment was intended for Jakarta and stopped before flight. False commodity labelling is the documented concealment technique; sender and recipient identities were not reported.\n\n[N] A 2026 Jurnal Patroli News investigation listed in news.json describes wildlife movements involving transport intermediaries, ports and airports in Indonesia. This provides national logistics context, not evidence linking the parcel to a documented network.\n\n[T] An external TRAFFIC technical report on crime convergence in Indonesia (2025) identifies ports and airports as important inspection points for illicit commodities. It does not establish other offences, products or actors in the Timika incident.",
+      "references_text_en": "[O] https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika\n[N] news.json — Jurnal Patroli News, 09/08/2026: https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/\n[T] TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/",
+      "modal_label_en": "Air shipment intended (postal parcel)",
+      "quantity_note_en": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+      "location_label_es": "Aeropuerto Mozes Kilangin, Timika, Papúa Central, Indonesia",
+      "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. El itinerario señalado es previsto o atribuido, no un trayecto completado.",
+      "title_es": "Interceptan dos pitones verdes en paquete aéreo mal declarado desde Timika",
+      "fauna_label_es": "2 pitones verdes (*Morelia viridis*)",
+      "card_text_es": "El 18/11 se hallaron dos pitones verdes en un paquete declarado como chips de banana en el aeropuerto de Timika; el envío previsto a Yakarta fue impedido.",
+      "context_es": "[O] El 18/11, agentes del aeropuerto de Timika interceptaron dos pitones verdes vivas en un paquete declarado falsamente como chips de banana. El envío se dirigía a Yakarta, pero fue detenido antes del vuelo. La descripción falsa es el ocultamiento comprobado; no se publicaron identidades de remitente ni destinatario.\n\n[N] Un reportaje de Jurnal Patroli News (2026), registrado en news.json, describe el uso de intermediarios de transporte, puertos y aeropuertos en el comercio ilegal de fauna de Indonesia. Aporta contexto logístico nacional, sin vincular este paquete con una red concreta.\n\n[T] Un informe técnico externo de TRAFFIC sobre convergencia criminal en Indonesia (2025) señala puertos y aeropuertos como puntos de control de mercancías ilícitas. No atribuye al caso de Timika otros delitos, productos ni participantes.",
+      "references_text_es": "[O] https://papuatengah.antaranews.com/berita/92939/karantina-papua-tengah-gagalkan-pengiriman-ular-sanca-hijau-di-bandara-timika\n[N] news.json — Jurnal Patroli News, 09/08/2026: https://jurnalpatrolinews.co.id/headline/dari-hutan-ke-pasar-gelap-begini-jejak-perdagangan-satwa-dilindungi-di-indonesia/\n[T] TRAFFIC — Convergence: The Case for Combating Crimes in Indonesia (2025), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/convergence-the-case-for-combating-crimes-in-indonesia/",
+      "modal_label_es": "Aéreo previsto (paquete postal)",
+      "quantity_note_es": "Coordenadas referenciais do aeroporto Mozes Kilangin, não do depósito de carga. Rota aérea Timika→Jacarta planejada e interceptada; não houve embarque.",
+      "occurred_at": "2026-11-18T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-20261118-in-banaras-23-turtles-west-bengal",
+      "status": "VALIDATED",
+      "country": "Índia",
+      "event_date": "2026-11-18",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-18",
+      "coordinates": {
+        "lat": 25.298176,
+        "lon": 82.97078
+      },
+      "coordinate_precision": "STATION_REFERENCE_APPROXIMATE",
+      "source_label": "Amar Ujala / RPF-GRP-CIB",
+      "source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18",
+      "source_alternative_url": "https://www.jagran.com/uttar-pradesh/varanasi-city-rare-turtle-smuggling-2-women-arrested-at-banaras-station-40441186.html",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "taxon_text": "Tartarugas vivas; Indian softshell turtles na reportagem, sem laudo de espécie",
+      "modal_primary": "Terrestre",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 23,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 23
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "PLANNED_MOVEMENT_DOCUMENTED",
+      "route_audit_note_pt": "Georreferenciamento aproximado da estação Banaras; chegada por via rodoviária segundo relatos, partida ferroviária para Bengala Ocidental impedida. Origem em lagoas Sultanpur/Amethi atribuída a declarações.",
+      "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+      "image_url": null,
+      "image_source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "CORREÇÃO: data 18/11 (fonte detalhada), não 17/11. Quantidade 23; volumes divergentes 11 vs 13. Origem dos animais derivada de declarações relatadas, não inspeção de captura.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Documentary reference O",
+          "url": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios",
+          "url": "https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "O",
+          "T"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "location_label_pt": "Estação Banaras, Varanasi, Uttar Pradesh, Índia",
+      "geographic_note_pt": "Georreferenciamento aproximado da estação Banaras; chegada por via rodoviária segundo relatos, partida ferroviária para Bengala Ocidental impedida. Origem em lagoas Sultanpur/Amethi atribuída a declarações.",
+      "title_pt": "Duas mulheres interceptadas com 23 tartarugas em Varanasi",
+      "fauna_label_pt": "23 tartarugas vivas (espécie não verificada)",
+      "card_text_pt": "Em 18/11, duas mulheres foram detidas em Banaras com 23 tartarugas em bolsas; viagem rumo a Bengala Ocidental era pretendida e não se concretizou.",
+      "context_pt": "[O] Em 18/11, duas mulheres foram interceptadas em Banaras Junction, Varanasi, com 23 tartarugas vivas ocultas em bagagens. Segundo declarações relatadas pela polícia, os animais teriam vindo de lagoas de Sultanpur e Amethi, com venda pretendida em West Bengal; o trecho ferroviário futuro não se concretizou. Há divergência entre as fontes quanto ao número de volumes, não de animais.\n\n[T] Relatório técnico externo da TRAFFIC (2019) identifica Uttar Pradesh e West Bengal como estados de destaque em apreensões históricas e registra a importância da comercialização de quelônios no país. É contexto para a rota declarada, sem comprovar ligação com redes previamente documentadas.",
+      "references_text_pt": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+      "modal_label_pt": "Terrestre",
+      "quantity_note_pt": "Georreferenciamento aproximado da estação Banaras; chegada por via rodoviária segundo relatos, partida ferroviária para Bengala Ocidental impedida. Origem em lagoas Sultanpur/Amethi atribuída a declarações.",
+      "location_label_en": "Banaras railway station, Varanasi, Uttar Pradesh, India",
+      "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. The described itinerary is intended or partly attributed, not a completed route.",
+      "title_en": "Two women intercepted carrying 23 turtles at Banaras station",
+      "fauna_label_en": "23 live turtles (species unverified)",
+      "card_text_en": "On 18 November two women were detained at Banaras with 23 turtles concealed in bags; the planned trip towards West Bengal did not proceed.",
+      "context_en": "[O] On 18 November two women were intercepted at Banaras Junction, Varanasi, with 23 live turtles concealed in luggage. Statements reported by police point to ponds in Sultanpur and Amethi as the alleged source and planned sale in West Bengal; the intended train leg was interrupted. Sources differ on the number of bags, not turtles.\n\n[T] An external TRAFFIC technical report (2019) identifies Uttar Pradesh and West Bengal as prominent states in historic turtle seizure data and describes India's illicit chelonian market. This provides context for the stated intended route without linking these suspects to previously reported networks.",
+      "references_text_en": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+      "modal_label_en": "Road",
+      "quantity_note_en": "23 animals confirmed; sources report 11 or 13 bags.",
+      "location_label_es": "Estación Banaras, Varanasi, Uttar Pradesh, India",
+      "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. El itinerario señalado es previsto o atribuido, no un trayecto completado.",
+      "title_es": "Interceptan a dos mujeres con 23 tortugas en la estación Banaras",
+      "fauna_label_es": "23 tortugas vivas (especie no verificada)",
+      "card_text_es": "El 18/11 dos mujeres fueron detenidas en Banaras con 23 tortugas ocultas en bolsas; el viaje previsto hacia Bengala Occidental fue impedido.",
+      "context_es": "[O] El 18/11, dos mujeres fueron interceptadas en Banaras Junction, Varanasi, con 23 tortugas vivas ocultas en el equipaje. Según declaraciones recogidas por la policía, los animales procederían de lagunas de Sultanpur y Amethi para venderse en West Bengal; el trayecto previsto en tren fue interrumpido. Las fuentes discrepan sobre la cantidad de bolsas, no de animales.\n\n[T] Un informe técnico externo de TRAFFIC (2019) identifica Uttar Pradesh y West Bengal como estados destacados en decomisos históricos de quelonios y describe el mercado ilegal de tortugas en la India. Es contexto para la ruta declarada, sin probar nexos con redes anteriores.",
+      "references_text_es": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18\n[T] TRAFFIC — Tortoises and Freshwater Turtles Under Siege (2019), relatório técnico externo aos repositórios: https://www.traffic.org/publications/reports/illegal-testudine-trade-in-india/",
+      "modal_label_es": "Terrestre",
+      "quantity_note_es": "23 animales confirmados; las fuentes discrepan entre 11 y 13 bultos.",
+      "occurred_at": "2026-11-18T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }

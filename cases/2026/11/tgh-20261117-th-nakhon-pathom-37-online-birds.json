@@ -1,0 +1,102 @@
+{
+  "id": "tgh-20261117-th-nakhon-pathom-37-online-birds",
+  "status": "VALIDATED",
+  "country": "Tailândia",
+  "event_date": "2026-11-17",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-18",
+  "coordinates": {
+    "lat": 13.8199,
+    "lon": 100.0622
+  },
+  "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+  "source_label": "Department of National Parks, Wildlife and Plant Conservation (Tailândia)",
+  "source_url": "https://news.dnp.go.th/news/51261",
+  "source_alternative_url": null,
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "35 นกกวัก; 1 นกขุนทอง; 1 นกอีลุ้ม (nomes tailandeses conforme fonte, sem conversão taxonômica não verificada)",
+  "modal_primary": "Não informado",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 37,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Aves": 37
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "NO_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+  "source_reconciliation_status": "OFFICIAL_OR_CROSS_CORROBORATED_2026_11_19",
+  "image_url": null,
+  "image_source_url": "https://news.dnp.go.th/news/51261",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-17-19-GLOBAL-SHEET-CANONICAL",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Exatamente 37 = 35+1+1. Veículo apreendido é evidência material, mas não comprova modal de transporte dos animais.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Documentary reference O",
+      "url": "https://news.dnp.go.th/news/51261"
+    },
+    {
+      "id": "N",
+      "type": "investigative_journalism",
+      "label": "news.json — AFP/Boursorama, 10/09/2026",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "papers.json — Global trends and impacts of the online illegal wildlife trade (2026)",
+      "url": "https://doi.org/10.1038/s44358-026-00192-8"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-19",
+    "categories_present": [
+      "N",
+      "O",
+      "S"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
+  },
+  "location_label_pt": "Thung Noi, Nakhon Pathom, Tailândia",
+  "geographic_note_pt": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+  "title_pt": "Operação contra comércio online apreende 37 aves protegidas na Tailândia",
+  "fauna_label_pt": "37 aves protegidas (35 นกกวัก, 1 นกขุนทอง, 1 นกอีลุ้ม)",
+  "card_text_pt": "Em 17/11, o DNP apreendeu 37 aves protegidas em imóvel de Nakhon Pathom após investigação de ofertas em redes sociais; não há rota de transporte documentada.",
+  "context_pt": "[O] Autoridades tailandesas apreenderam 37 aves protegidas em Nakhon Pathom, em 17/11, durante investigação de ofertas de fauna pela internet. A soma informada na fonte é de 35 aves de uma categoria e duas de outras categorias. O veículo retido não comprova, por si só, transporte das aves.\n\n[N] Reportagem da AFP publicada em setembro de 2026 e presente em news.json descreve como equipes tailandesas combinam monitoramento digital e ações encobertas contra comércio ilegal de fauna. A semelhança é metodológica e não demonstra ligação entre essa operação e os casos da reportagem.\n\n[S] Revisão científica global de 2026 no repositório relaciona plataformas digitais e expansão de ofertas ilícitas; não permite inferir compradores ou mercado de destino das aves apreendidas.",
+  "references_text_pt": "[O] https://news.dnp.go.th/news/51261\n[N] news.json — AFP/Boursorama, 10/09/2026: https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+  "modal_label_pt": "Não informado",
+  "quantity_note_pt": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+  "location_label_en": "Thung Noi, Nakhon Pathom, Thailand",
+  "geographic_note_en": "Coordinates represent a generalized location, not a verified exact point of seizure. No route was inferred.",
+  "title_en": "Thirty-seven protected birds seized in Thai online wildlife trade investigation",
+  "fauna_label_en": "37 protected birds (35 นกกวัก, 1 นกขุนทอง, 1 นกอีลุ้ม)",
+  "card_text_en": "On 17 November Thai officials seized 37 protected birds at a property in Nakhon Pathom after investigating online offers; no shipment route was documented.",
+  "context_en": "[O] Thai authorities seized 37 protected birds in Nakhon Pathom on 17 November during an investigation into online wildlife offers. The official species-group breakdown totals 35 birds in one category and two in other categories. A vehicle was also seized but this alone does not establish that it transported the birds.\n\n[N] A September 2026 AFP report in news.json describes how Thai investigators combine digital monitoring with undercover work against illegal wildlife sales. The comparison concerns investigative method; it does not link the people or advertisements involved.\n\n[S] A global scientific review from 2026, indexed in the repository, discusses digital platforms in wildlife trade without identifying buyers or destinations for these seized birds.",
+  "references_text_en": "[O] https://news.dnp.go.th/news/51261\n[N] news.json — AFP/Boursorama, 10/09/2026: https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+  "modal_label_en": "Not reported",
+  "quantity_note_en": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais.",
+  "location_label_es": "Thung Noi, Nakhon Pathom, Tailandia",
+  "geographic_note_es": "Las coordenadas son referenciales y no indican el sitio exacto de incautación. No se dedujo ninguna ruta.",
+  "title_es": "Incautan 37 aves protegidas en investigación de comercio online en Tailandia",
+  "fauna_label_es": "37 aves protegidas (35 นกกวัก, 1 นกขุนทอง, 1 นกอีลุ้ม)",
+  "card_text_es": "El 17/11 se incautaron 37 aves protegidas en Nakhon Pathom tras investigar ofertas por redes sociales; no se documentó una ruta de transporte.",
+  "context_es": "[O] El 17/11, autoridades tailandesas incautaron 37 aves protegidas en Nakhon Pathom durante una investigación de ofertas de fauna por internet. El desglose oficial suma 35 aves de una categoría y dos de otras. También se incautó un vehículo, lo que no prueba por sí solo el transporte de las aves.\n\n[N] Un reportaje de AFP de septiembre de 2026, incluido en news.json, describe cómo las autoridades tailandesas combinan vigilancia digital y operaciones encubiertas contra el comercio ilegal de fauna. La relación es metodológica, sin vincular a personas ni anuncios concretos.\n\n[S] Una revisión científica global de 2026 incluida en el repositorio analiza plataformas digitales y mercado ilegal, pero no identifica compradores ni destinos para estas aves.",
+  "references_text_es": "[O] https://news.dnp.go.th/news/51261\n[N] news.json — AFP/Boursorama, 10/09/2026: https://www.boursorama.com/actualite-economique/actualites/en-ligne-ou-infiltres-ils-luttent-contre-le-trafic-d-animaux-sauvages-en-thailande-f3c4fe4ad0109130de3b7145887d0021\n[S] papers.json — Global trends and impacts of the online illegal wildlife trade (2026): https://doi.org/10.1038/s44358-026-00192-8",
+  "modal_label_es": "No informado",
+  "quantity_note_es": "Ponto de referência aproximado da cidade de Nakhon Pathom, não o imóvel de Thung Noi. Veículo apreendido não prova transporte dos animais."
+}

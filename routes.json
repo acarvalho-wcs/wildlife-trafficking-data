@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-19",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -14974,6 +14974,88 @@
         "decision": "YES — inbound vehicle from Jordan intercepted at named crossing",
         "evidence_class": "DOCUMENTED_BORDER_MOVEMENT_WITH_COUNTRY_ORIGIN",
         "geometry": "schematic_country_centroid_to_named_border_crossing_not_actual_road_path"
+      }
+    },
+    {
+      "id": "tgh-20261118-in-banaras-23-turtles-west-bengal-r01",
+      "event_match": {
+        "event_id": "tgh-20261118-in-banaras-23-turtles-west-bengal"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_rail_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Estação Banaras → Bengala Ocidental (destino pretendido)",
+      "label_en": "Banaras station → West Bengal (intended destination)",
+      "label_es": "Estación Banaras → Bengala Occidental (destino previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Estação Banaras, Varanasi",
+            "country": "Índia",
+            "lat": 25.298176,
+            "lon": 82.97078,
+            "precision": "station_reference_approximate"
+          },
+          "to": {
+            "name": "Bengala Ocidental (referência estadual; cidade não informada)",
+            "country": "Índia",
+            "lat": 23,
+            "lon": 87.8,
+            "precision": "state_centroid_generalized_not_arrival_city"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo Amar Ujala, duas mulheres com 23 tartarugas foram interceptadas na estação Banaras em 18/11/2026, antes de viagem ferroviária pretendida rumo a Bengala Ocidental. Localidade de destino não informada; o ponto estadual é esquemático, não terminal ou local de entrega.",
+      "evidence_en": "Amar Ujala reported 23 turtles intercepted at Banaras station on 18 November before an intended rail journey to West Bengal. No destination city was identified; the state reference point is schematic and does not represent an arrival site.",
+      "evidence_es": "Amar Ujala informó de 23 tortugas interceptadas el 18/11/2026 en la estación Banaras antes de un viaje previsto en tren hacia Bengala Occidental. No se identificó ciudad de destino; el punto estatal es esquemático y no indica lugar de entrega.",
+      "source_label": "Amar Ujala / RPF-GRP-CIB",
+      "source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-23-rare-turtles-recovered-at-banaras-junction-two-women-arrested-for-smuggling-them-2026-11-18",
+      "tgh_audit": {
+        "decision": "Destino estadual pretendido relatado; não realizado",
+        "evidence_class": "INTENDED_DESTINATION_STATE",
+        "geometry": "schematic_generalized_not_actual_path"
+      }
+    },
+    {
+      "id": "tgh-20261118-id-timika-two-green-pythons-parcel-r01",
+      "event_match": {
+        "event_id": "tgh-20261118-id-timika-two-green-pythons-parcel"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "planned_air_shipment",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Timika → Jacarta (envio aéreo pretendido)",
+      "label_en": "Timika → Jakarta (intended air consignment)",
+      "label_es": "Timika → Yakarta (envío aéreo previsto)",
+      "segments": [
+        {
+          "from": {
+            "name": "Aeroporto Mozes Kilangin, Timika",
+            "country": "Indonésia",
+            "lat": -4.52755,
+            "lon": 136.88996,
+            "precision": "airport_reference"
+          },
+          "to": {
+            "name": "Jacarta (cidade; aeroporto de destino não informado)",
+            "country": "Indonésia",
+            "lat": -6.2088,
+            "lon": 106.8456,
+            "precision": "city_centroid_generalized_not_arrival_airport"
+          }
+        }
+      ],
+      "evidence_pt": "A autoridade de quarentena informou que duas pítons-verdes seriam enviadas de Timika a Jacarta por serviço postal com embarque aéreo. A remessa foi interceptada antes do voo. Não consta aeroporto de chegada.",
+      "evidence_en": "Indonesian quarantine officials reported two green pythons in a postal consignment intended to travel from Timika to Jakarta by air. The parcel was intercepted before departure and no Jakarta arrival airport was identified.",
+      "evidence_es": "La autoridad de cuarentena informó de dos pitones verdes en un envío postal previsto por vía aérea entre Timika y Yakarta. El paquete fue interceptado antes del vuelo; no se identificó aeropuerto de llegada.",
+      "source_label": "Balai Karantina Papua Tengah / Koran Papua",
+      "source_url": "https://koranpapua.id/2026/11/18/karantina-gagalkan-pengiriman-dua-ular-sanca-hijau-dari-timika/",
+      "tgh_audit": {
+        "decision": "Destino urbano pretendido comprovado; voo não realizado",
+        "evidence_class": "INTENDED_AIR_SHIPMENT",
+        "geometry": "schematic_straight_line_not_actual_flight_path"
       }
     }
   ],
