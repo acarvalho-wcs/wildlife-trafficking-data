@@ -1,4 +1,5 @@
 name: Mirror canonical Observatory from wcsbrintel
+# Sync requested for TG-H pending validation 2026-11-19
 # On-demand refresh requested 2026-11-19; wcsbrintel remains canonical.
 on:
   workflow_dispatch:
