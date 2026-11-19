@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1648_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1650_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1648,
+  "count": 1650,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-19T16:13:36Z",
+    "updated_at": "2026-11-19T18:53:31Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-19T16:13:36Z",
-  "feed_updated_at": "2026-11-19T16:13:36Z",
+  "updated_at": "2026-11-19T18:53:31Z",
+  "feed_updated_at": "2026-11-19T18:53:31Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -131068,6 +131068,229 @@
       "quantity_note_es": "23 animales confirmados; las fuentes discrepan entre 11 y 13 bultos.",
       "occurred_at": "2026-11-18T00:00:00Z",
       "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-pending-20261117-jp-kansai-may-19-wildlife",
+      "status": "VALIDATED",
+      "country": "Japão",
+      "event_date": "2026-05-08",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-10-28",
+      "coordinates": {
+        "lat": 34.4347,
+        "lon": 135.244
+      },
+      "coordinate_precision": "AIRPORT_REFERENCE_APPROXIMATE",
+      "source_label": "Kansai TV/FNN; Yomiuri Shimbun / Osaka Police",
+      "source_url": "https://news.livedoor.com/article/detail/32681658/",
+      "source_alternative_url": "https://www.fnn.jp/articles/-/1154027",
+      "fauna_groups_aggregated": [
+        "Répteis",
+        "Invertebrados",
+        "Peixes"
+      ],
+      "taxon_text": "3 *Geochelone elegans* (nome comum reportado); 13 lagostins de 5 tipos sem identificação taxonômica publicada; 3 peixes snakehead (Channidae, espécie não confirmada)",
+      "modal_primary": "Aéreo",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 19,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 3,
+        "Invertebrados": 13,
+        "Peixes": 3
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "DOCUMENTED_ATTRIBUTED",
+      "route_audit_note_pt": "Fato ocorreu em 08/05/2026, primeira notícia identificada em 28/10/2026 e atualização judicial em 17/11/2026. Aeroporto de origem na Tailândia não documentado; coordenadas da instalação de Kansai.",
+      "source_reconciliation_status": "OSAKA_POLICE_REPORTING_AND_MULTIPLE_MEDIA_SOURCES",
+      "image_url": null,
+      "image_source_url": "https://news.livedoor.com/article/detail/32681658/",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-PENDING-VALIDATION",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Não atribuir ocorrência de maio à janela de novembro, apenas a atualização judicial; 3+13+3=19 animais vivos; tipologias de lagostins não informadas. Distinto da apreensão de quatro quelônios Thailand–Hong Kong–Kansai registrada como caso de março.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Yomiuri Shimbun, 29/10/2026 (fato 08/05/2026)",
+          "url": "https://news.livedoor.com/article/detail/32681658/"
+        },
+        {
+          "id": "O",
+          "type": "corroborating_news",
+          "label": "Kansai TV/FNN, investigação atualizada em 17/11/2026",
+          "url": "https://www.fnn.jp/articles/-/1154027"
+        },
+        {
+          "id": "O",
+          "type": "judicial_update",
+          "label": "MBS, decisão judicial de 16/11 noticiada em 17/11",
+          "url": "https://news.livedoor.com/article/detail/32841006/"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Global trends and impacts of the online illegal wildlife trade (2026), papers.json",
+          "url": "https://doi.org/10.1038/s44358-026-00192-8"
+        },
+        {
+          "id": "N",
+          "type": "reportage_repository",
+          "label": "International Policy Digest, 01/11/2026, news.json",
+          "url": "https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "N",
+          "O",
+          "S"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "title_pt": "Tentativa de importação irregular de 19 animais da Tailândia é interceptada em Kansai",
+      "card_text_pt": "Em 08/05/2026, a alfândega de Kansai interceptou 3 tartarugas-estreladas-indianas, 13 lagostins e 3 peixes snakehead trazidos da Tailândia em bagagem. Processo judicial teve atualização em novembro.",
+      "context_pt": "[O] Em 08/05/2026, fiscais alfandegários de Kansai localizaram na bagagem de um passageiro que chegava da Tailândia três tartarugas-estreladas-indianas (*Geochelone elegans*), 13 lagostins de cinco tipos e três peixes snakehead, totalizando 19 animais. A investigação relatou pedidos de importação feitos por contatos em redes sociais e intenção de revenda de tartarugas; o aeroporto tailandês de saída e a origem biológica não foram divulgados. A ocorrência já fora noticiada em 28/10 e recebeu novos desdobramentos judiciais em 17/11; não deve ser datada como apreensão de novembro.\n\n[S] Revisão científica sobre tendências globais do comércio ilegal de fauna na internet, cadastrada em papers.json, contextualiza o uso de plataformas digitais na aproximação entre intermediários e compradores, sem estabelecer ligação entre os indivíduos deste caso e as redes estudadas.\n\n[N] Reportagem indexada em news.json examina anúncios suspeitos de venda de fauna em plataformas digitais e limites de fiscalização; não identifica plataforma específica utilizada pelos envolvidos de Kansai nem prova conexão com outros mercados.",
+      "location_label_pt": "Aeroporto Internacional de Kansai, Osaka, Japão",
+      "fauna_label_pt": "19 animais vivos: 3 tartarugas-estreladas-indianas, 13 lagostins e 3 peixes snakehead",
+      "geographic_note_pt": "Fato ocorreu em 08/05/2026, primeira notícia identificada em 28/10/2026 e atualização judicial em 17/11/2026. Aeroporto de origem na Tailândia não documentado; coordenadas da instalação de Kansai.",
+      "references_text_pt": "[O] Yomiuri Shimbun, 29/10/2026 (fato 08/05/2026) — https://news.livedoor.com/article/detail/32681658/\n[O] Kansai TV/FNN, investigação atualizada em 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] MBS, decisão judicial de 16/11 noticiada em 17/11 — https://news.livedoor.com/article/detail/32841006/\n[S] Global trends and impacts of the online illegal wildlife trade (2026), papers.json — https://doi.org/10.1038/s44358-026-00192-8\n[N] International Policy Digest, 01/11/2026, news.json — https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/",
+      "modal_label_pt": "Aéreo (reportado)",
+      "quantity_note_pt": "Quantidade envolvida no caso, não necessariamente número de animais fisicamente apreendidos.",
+      "title_en": "Nineteen live animals intercepted in suspected Thailand-to-Kansai smuggling attempt",
+      "card_text_en": "On 8 May 2026 Kansai customs intercepted 3 Indian star tortoises, 13 crayfish and 3 snakehead fish in luggage arriving from Thailand; court proceedings were reported in November.",
+      "context_en": "[O] On 8 May 2026 Kansai customs found three Indian star tortoises (*Geochelone elegans*), 13 crayfish of five reported types and three snakehead fish (19 live animals) in a traveler's luggage arriving from Thailand. Police reporting describes contacts made through social media and an alleged intent to resell tortoises. Neither the Thai departure airport nor the specimens' biological provenance is known. First public reports appeared on 28 October, with judicial follow-up on 17 November; the seizure did not take place in November.\n\n[S] A global scientific review indexed in papers.json examines how online platforms support wildlife-commerce connections. It does not identify these suspects or link them to documented networks.\n\n[N] A news.json report discusses suspected wildlife-sale advertising on digital platforms and enforcement shortcomings. It does not identify the social platform used in the Kansai case or demonstrate a connection to other markets.",
+      "location_label_en": "Kansai International Airport, Osaka, Japan",
+      "fauna_label_en": "19 live animals: 3 Indian star tortoises, 13 crayfish and 3 snakehead fish",
+      "geographic_note_en": "Event on 8 May 2026; first identified reporting 28 October, judicial update 17 November. Thai departure airport unknown; mapped point is Kansai airport.",
+      "references_text_en": "[O] Yomiuri Shimbun, 29/10/2026 (fato 08/05/2026) — https://news.livedoor.com/article/detail/32681658/\n[O] Kansai TV/FNN, investigação atualizada em 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] MBS, decisão judicial de 16/11 noticiada em 17/11 — https://news.livedoor.com/article/detail/32841006/\n[S] Global trends and impacts of the online illegal wildlife trade (2026), papers.json — https://doi.org/10.1038/s44358-026-00192-8\n[N] International Policy Digest, 01/11/2026, news.json — https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/",
+      "modal_label_en": "Air (reported)",
+      "quantity_note_en": "Number of animals involved, not necessarily a count of physically seized specimens.",
+      "title_es": "Interceptan presunto contrabando de 19 animales desde Tailandia hacia Kansai",
+      "card_text_es": "El 8/5/2026 la aduana de Kansai interceptó 3 tortugas estrelladas de la India, 13 cangrejos de río y 3 peces cabeza de serpiente en equipaje desde Tailandia; hubo novedades judiciales en noviembre.",
+      "context_es": "[O] El 8/5/2026, la aduana de Kansai detectó en el equipaje de un viajero procedente de Tailandia tres tortugas estrelladas de la India (*Geochelone elegans*), 13 cangrejos de río de cinco tipos y tres peces cabeza de serpiente: 19 animales vivos. Según la investigación, los contactos surgieron por redes sociales y existía presunta intención de revender las tortugas. No se identificaron aeropuerto de salida en Tailandia ni procedencia biológica. El primer reporte público es del 28/10 y hubo actualización judicial el 17/11: no es una incautación de noviembre.\n\n[S] Una revisión científica global en papers.json estudia el papel de plataformas digitales en conexiones comerciales de fauna, sin identificar a los sospechosos ni vincularlos con redes examinadas.\n\n[N] Un reportaje incluido en news.json aborda anuncios sospechosos de venta de fauna en plataformas digitales y dificultades de control; no identifica cuál plataforma se empleó en Kansai ni prueba vínculos con otros mercados.",
+      "location_label_es": "Aeropuerto Internacional de Kansai, Osaka, Japón",
+      "fauna_label_es": "19 animales vivos: 3 tortugas estrelladas de la India, 13 cangrejos de río y 3 peces cabeza de serpiente",
+      "geographic_note_es": "Hecho del 8/5/2026; primera publicación encontrada 28/10 y actualización judicial 17/11. Aeropuerto de salida tailandés desconocido; coordenada referencial de Kansai.",
+      "references_text_es": "[O] Yomiuri Shimbun, 29/10/2026 (fato 08/05/2026) — https://news.livedoor.com/article/detail/32681658/\n[O] Kansai TV/FNN, investigação atualizada em 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] MBS, decisão judicial de 16/11 noticiada em 17/11 — https://news.livedoor.com/article/detail/32841006/\n[S] Global trends and impacts of the online illegal wildlife trade (2026), papers.json — https://doi.org/10.1038/s44358-026-00192-8\n[N] International Policy Digest, 01/11/2026, news.json — https://intpolicydigest.org/is-zuckerberg-the-world-s-most-successful-wildlife-trafficker/",
+      "modal_label_es": "Aéreo (declarado)",
+      "quantity_note_es": "Cantidad de animales involucrados, no necesariamente número de ejemplares físicamente incautados.",
+      "occurred_at": "2026-05-08T00:00:00Z",
+      "occurred_at_precision": "day"
+    },
+    {
+      "id": "tgh-pending-20261117-jp-kansai-march-hamilton-turtle",
+      "status": "VALIDATED",
+      "country": "Japão",
+      "event_date": null,
+      "event_end_date": null,
+      "event_date_precision": "month",
+      "publication_date": "2026-11-17",
+      "coordinates": {
+        "lat": 34.4347,
+        "lon": 135.244
+      },
+      "coordinate_precision": "AIRPORT_REFERENCE_APPROXIMATE",
+      "source_label": "Kansai TV/FNN; Yomiuri Shimbun / Osaka Police",
+      "source_url": "https://www.fnn.jp/articles/-/1154027",
+      "source_alternative_url": "https://www.ktv.jp/news/articles/?id=31048",
+      "fauna_groups_aggregated": [
+        "Répteis"
+      ],
+      "taxon_text": "1 *Geoclemys hamiltonii* (identificação por nome comum da reportagem, corroborada por guia CITES)",
+      "modal_primary": "Aéreo",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 1,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Répteis": 1
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "DOCUMENTED_ATTRIBUTED",
+      "route_audit_note_pt": "Informação de ocorrência somente mês/ano (março de 2026); coordenada representa aeroporto, não local exato do procedimento; caso investigado, sem data de prisão ou de captura do espécime.",
+      "source_reconciliation_status": "OSAKA_POLICE_REPORTING_AND_MULTIPLE_MEDIA_SOURCES",
+      "image_url": null,
+      "image_source_url": "https://www.fnn.jp/articles/-/1154027",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-17-19-PENDING-VALIDATION",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "is_exact_seizure_position": false,
+      "editorial_qa_note_pt": "Notícia de 17/11 relata fato de março; quantidade 1 espécie CITES; não confundir com caso anterior de quatro tartarugas em Kansai com rota Tailândia–Hong Kong. Preço de suposta transferência diverge na cobertura, portanto omitido.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Kansai TV / FNN, notícia judicial de 17/11/2026",
+          "url": "https://www.fnn.jp/articles/-/1154027"
+        },
+        {
+          "id": "O",
+          "type": "corroborating_news",
+          "label": "Kansai TV (site original), 17/11/2026",
+          "url": "https://www.ktv.jp/news/articles/?id=31048"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "CITES Identification Guide – Turtles & Tortoises",
+          "url": "https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-19",
+        "categories_present": [
+          "O",
+          "T"
+        ],
+        "scientific_sources_restricted_to_research_papers_json": true,
+        "journalistic_references_distinct_from_event_fact_sources": true,
+        "technical_sources_outside_repositories": true,
+        "source_specificity_reviewed": true,
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "title_pt": "Polícia japonesa apura contrabando de tartaruga de Hamilton da Coreia do Sul para Kansai",
+      "card_text_pt": "Investigação divulgada em 17/11 atribui a suspeitos a entrada de uma tartaruga de Hamilton da Coreia do Sul em março de 2026, seguida de possível comercialização no Japão.",
+      "context_pt": "[O] Em reportagem publicada em 17/11, a polícia de Osaka atribuiu a investigados a importação clandestina, em março de 2026, de uma tartaruga de Hamilton (*Geoclemys hamiltonii*) da Coreia do Sul para o aeroporto de Kansai. A matéria também relata transferência posterior do animal mediante pagamento, sob investigação. O dia de entrada, o local de aquisição e a origem biológica não foram informados; a investigação não equivale a condenação. Trata-se de episódio diferente da interceptação de quatro tartarugas procedentes de Tailândia/Hong Kong já registrada na base.\n\n[T] O guia técnico de identificação de quelônios disponibilizado pela CITES reconhece *Geoclemys hamiltonii* e sua identificação taxonômica. A referência não informa procedência, vendedor nem legalidade de qualquer documentação específica deste caso.",
+      "location_label_pt": "Aeroporto de Kansai, Osaka, Japão",
+      "fauna_label_pt": "1 tartaruga de Hamilton (*Geoclemys hamiltonii*)",
+      "geographic_note_pt": "Informação de ocorrência somente mês/ano (março de 2026); coordenada representa aeroporto, não local exato do procedimento; caso investigado, sem data de prisão ou de captura do espécime.",
+      "references_text_pt": "[O] Kansai TV / FNN, notícia judicial de 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] Kansai TV (site original), 17/11/2026 — https://www.ktv.jp/news/articles/?id=31048\n[T] CITES Identification Guide – Turtles & Tortoises — https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf",
+      "modal_label_pt": "Aéreo (reportado)",
+      "quantity_note_pt": "Quantidade envolvida no caso, não necessariamente número de animais fisicamente apreendidos.",
+      "title_en": "Japan investigates suspected smuggling of one Hamilton's pond turtle from South Korea to Kansai",
+      "card_text_en": "A 17 November report links suspects to an alleged March 2026 import of one Hamilton's pond turtle from South Korea, followed by suspected resale in Japan.",
+      "context_en": "[O] Reporting published on 17 November describes an Osaka Police investigation alleging that suspects illegally imported one Hamilton's pond turtle (*Geoclemys hamiltonii*) from South Korea through Kansai airport in March 2026, with a later paid transfer under investigation. The precise import day, acquisition site and biological origin were not reported; allegations are not convictions. This differs from the four-tortoise Thailand/Hong Kong interception already in the Observatory.\n\n[T] The external CITES turtle identification guide identifies *Geoclemys hamiltonii* as a recognized taxon. It does not establish this animal's origin, seller, or the status of any shipment documents.",
+      "location_label_en": "Kansai International Airport, Osaka, Japan",
+      "fauna_label_en": "1 Hamilton's pond turtle (*Geoclemys hamiltonii*)",
+      "geographic_note_en": "Only month/year of alleged shipment (March 2026) is documented; the airport is a reference point, not an exact seizure spot. Claims remain under investigation.",
+      "references_text_en": "[O] Kansai TV / FNN, notícia judicial de 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] Kansai TV (site original), 17/11/2026 — https://www.ktv.jp/news/articles/?id=31048\n[T] CITES Identification Guide – Turtles & Tortoises — https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf",
+      "modal_label_en": "Air (reported)",
+      "quantity_note_en": "Number of animals involved, not necessarily a count of physically seized specimens.",
+      "title_es": "Japón investiga presunto contrabando de una tortuga de Hamilton desde Corea del Sur a Kansai",
+      "card_text_es": "Una noticia del 17/11 vincula a sospechosos con la presunta importación de una tortuga de Hamilton desde Corea del Sur en marzo de 2026 y posible venta posterior.",
+      "context_es": "[O] Una noticia del 17/11 describe una investigación de la policía de Osaka que atribuye a sospechosos la introducción clandestina en marzo de 2026 de una tortuga de Hamilton (*Geoclemys hamiltonii*) desde Corea del Sur por el aeropuerto de Kansai, con una transferencia posterior remunerada bajo investigación. No se conocen el día exacto, lugar de adquisición ni origen biológico; las sospechas no son condenas. Es un episodio diferente de la intercepción previa de cuatro tortugas desde Tailandia/Hong Kong.\n\n[T] La guía técnica externa de identificación de quelonios de CITES reconoce el taxón *Geoclemys hamiltonii*. No demuestra el origen del ejemplar, su proveedor ni documentos específicos del envío.",
+      "location_label_es": "Aeropuerto Internacional de Kansai, Osaka, Japón",
+      "fauna_label_es": "1 tortuga de Hamilton (*Geoclemys hamiltonii*)",
+      "geographic_note_es": "Solo se conoce marzo de 2026; el punto de Kansai es referencial y no una posición exacta de incautación. Hechos investigados.",
+      "references_text_es": "[O] Kansai TV / FNN, notícia judicial de 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] Kansai TV (site original), 17/11/2026 — https://www.ktv.jp/news/articles/?id=31048\n[T] CITES Identification Guide – Turtles & Tortoises — https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf",
+      "modal_label_es": "Aéreo (declarado)",
+      "quantity_note_es": "Cantidad de animales involucrados, no necesariamente número de ejemplares físicamente incautados.",
+      "occurred_at": null,
+      "occurred_at_precision": "month"
     }
   ]
 }

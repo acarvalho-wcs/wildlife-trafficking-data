@@ -15057,6 +15057,90 @@
         "evidence_class": "INTENDED_AIR_SHIPMENT",
         "geometry": "schematic_straight_line_not_actual_flight_path"
       }
+    },
+    {
+      "id": "tgh-pending-20261117-jp-kansai-march-hamilton-turtle-r01",
+      "event_match": {
+        "event_id": "tgh-pending-20261117-jp-kansai-march-hamilton-turtle"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "attributed_completed_importation",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Coreia do Sul → Kansai (importação investigada)",
+      "label_en": "South Korea → Kansai (suspected import)",
+      "label_es": "Corea del Sur → Kansai (importación investigada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Coreia do Sul (referência nacional; partida desconhecida)",
+            "country": "Coreia do Sul",
+            "lat": 36.5,
+            "lon": 127.8,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Kansai",
+            "country": "Japão",
+            "lat": 34.4347,
+            "lon": 135.244,
+            "precision": "airport_reference"
+          }
+        }
+      ],
+      "evidence_pt": "A polícia de Osaka atribuiu a investigados uma importação clandestina em março de 2026 de uma tartaruga *Geoclemys hamiltonii* da Coreia do Sul para Kansai. A Coreia do Sul é apenas país de procedência, sem cidade/aeroporto especificado; desenho esquemático, não trajeto real nem origem biológica.",
+      "evidence_en": "Osaka Police reporting alleges one *Geoclemys hamiltonii* was smuggled from South Korea into Kansai in March 2026. South Korea is the reported immediate country of travel, not a verified acquisition origin, departure airport or exact route.",
+      "evidence_es": "La policía de Osaka atribuye a sospechosos el ingreso clandestino de una *Geoclemys hamiltonii* desde Corea del Sur a Kansai en marzo de 2026. Corea del Sur es solo el país de procedencia inmediata, no lugar de captura, aeropuerto de salida ni ruta precisa.",
+      "source_label": "Kansai TV/FNN / Osaka Police",
+      "source_url": "https://www.fnn.jp/articles/-/1154027",
+      "tgh_audit": {
+        "decision": "Rota entre país de procedência informado e aeroporto de Kansai; sem inventar escala ou origem biológica",
+        "evidence_class": "ATTRIBUTED_COUNTRY_TO_AIRPORT_AIR_MOVEMENT",
+        "geometry": "generalized_country_centroid_to_named_airport_not_real_path",
+        "publication_update_date": "2026-11-17"
+      }
+    },
+    {
+      "id": "tgh-pending-20261117-jp-kansai-may-19-wildlife-r01",
+      "event_match": {
+        "event_id": "tgh-pending-20261117-jp-kansai-may-19-wildlife"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "intercepted_completed_air_movement",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Tailândia → Kansai (voo concluído, importação interceptada)",
+      "label_en": "Thailand → Kansai (arrival, intercepted at customs)",
+      "label_es": "Tailandia → Kansai (llegada, interceptación aduanera)",
+      "segments": [
+        {
+          "from": {
+            "name": "Tailândia (país de embarque; aeroporto não informado)",
+            "country": "Tailândia",
+            "lat": 15.87,
+            "lon": 100.99,
+            "precision": "country_centroid_generalized"
+          },
+          "to": {
+            "name": "Aeroporto Internacional de Kansai",
+            "country": "Japão",
+            "lat": 34.4347,
+            "lon": 135.244,
+            "precision": "airport_reference"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo a polícia japonesa, um passageiro embarcou com animais na Tailândia e chegou ao Aeroporto de Kansai, onde a bagagem foi interceptada pela alfândega em 08/05/2026. A rota representa país de embarque informado e aeroporto de interceptação, não aeroporto tailandês conhecido nem itinerário real.",
+      "evidence_en": "Japanese police reported that a traveler flew from Thailand and was intercepted by Kansai customs on 8 May 2026 with animals in luggage. The line connects the reported departure country to the named arrival airport, without implying a known Thai departure airport or precise flight path.",
+      "evidence_es": "Según la policía japonesa, un viajero voló desde Tailandia y fue interceptado por la aduana de Kansai el 8/5/2026 con animales en su equipaje. La línea refleja país de partida y aeropuerto de intercepción, no un aeropuerto tailandés confirmado ni ruta aérea precisa.",
+      "source_label": "Kansai TV/FNN / Osaka Police",
+      "source_url": "https://news.livedoor.com/article/detail/32681658/",
+      "tgh_audit": {
+        "decision": "Rota entre país de procedência informado e aeroporto de Kansai; sem inventar escala ou origem biológica",
+        "evidence_class": "ATTRIBUTED_COUNTRY_TO_AIRPORT_AIR_MOVEMENT",
+        "geometry": "generalized_country_centroid_to_named_airport_not_real_path",
+        "publication_update_date": "2026-11-17"
+      }
     }
   ],
   "network_context": [

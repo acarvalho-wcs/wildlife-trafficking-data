@@ -1,0 +1,101 @@
+{
+  "id": "tgh-pending-20261117-jp-kansai-march-hamilton-turtle",
+  "status": "VALIDATED",
+  "country": "Japão",
+  "event_date": null,
+  "event_end_date": null,
+  "event_date_precision": "month",
+  "publication_date": "2026-11-17",
+  "coordinates": {
+    "lat": 34.4347,
+    "lon": 135.244
+  },
+  "coordinate_precision": "AIRPORT_REFERENCE_APPROXIMATE",
+  "source_label": "Kansai TV/FNN; Yomiuri Shimbun / Osaka Police",
+  "source_url": "https://www.fnn.jp/articles/-/1154027",
+  "source_alternative_url": "https://www.ktv.jp/news/articles/?id=31048",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "1 *Geoclemys hamiltonii* (identificação por nome comum da reportagem, corroborada por guia CITES)",
+  "modal_primary": "Aéreo",
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "quantity_count": 1,
+  "quantity_qualifier": "exact",
+  "quantity_kind": "animals",
+  "quantity_by_group": {
+    "Répteis": 1
+  },
+  "quantity_unassigned": 0,
+  "route_audit_status": "DOCUMENTED_ATTRIBUTED",
+  "route_audit_note_pt": "Informação de ocorrência somente mês/ano (março de 2026); coordenada representa aeroporto, não local exato do procedimento; caso investigado, sem data de prisão ou de captura do espécime.",
+  "source_reconciliation_status": "OSAKA_POLICE_REPORTING_AND_MULTIPLE_MEDIA_SOURCES",
+  "image_url": null,
+  "image_source_url": "https://www.fnn.jp/articles/-/1154027",
+  "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+  "ingestion_batch": "TG-H-2026-11-17-19-PENDING-VALIDATION",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_19",
+  "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+  "is_exact_seizure_position": false,
+  "editorial_qa_note_pt": "Notícia de 17/11 relata fato de março; quantidade 1 espécie CITES; não confundir com caso anterior de quatro tartarugas em Kansai com rota Tailândia–Hong Kong. Preço de suposta transferência diverge na cobertura, portanto omitido.",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Kansai TV / FNN, notícia judicial de 17/11/2026",
+      "url": "https://www.fnn.jp/articles/-/1154027"
+    },
+    {
+      "id": "O",
+      "type": "corroborating_news",
+      "label": "Kansai TV (site original), 17/11/2026",
+      "url": "https://www.ktv.jp/news/articles/?id=31048"
+    },
+    {
+      "id": "T",
+      "type": "external_technical",
+      "label": "CITES Identification Guide – Turtles & Tortoises",
+      "url": "https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-19",
+    "categories_present": [
+      "O",
+      "T"
+    ],
+    "scientific_sources_restricted_to_research_papers_json": true,
+    "journalistic_references_distinct_from_event_fact_sources": true,
+    "technical_sources_outside_repositories": true,
+    "source_specificity_reviewed": true,
+    "source_inferences_not_attributed_to_event_without_evidence": true
+  },
+  "title_pt": "Polícia japonesa apura contrabando de tartaruga de Hamilton da Coreia do Sul para Kansai",
+  "card_text_pt": "Investigação divulgada em 17/11 atribui a suspeitos a entrada de uma tartaruga de Hamilton da Coreia do Sul em março de 2026, seguida de possível comercialização no Japão.",
+  "context_pt": "[O] Em reportagem publicada em 17/11, a polícia de Osaka atribuiu a investigados a importação clandestina, em março de 2026, de uma tartaruga de Hamilton (*Geoclemys hamiltonii*) da Coreia do Sul para o aeroporto de Kansai. A matéria também relata transferência posterior do animal mediante pagamento, sob investigação. O dia de entrada, o local de aquisição e a origem biológica não foram informados; a investigação não equivale a condenação. Trata-se de episódio diferente da interceptação de quatro tartarugas procedentes de Tailândia/Hong Kong já registrada na base.\n\n[T] O guia técnico de identificação de quelônios disponibilizado pela CITES reconhece *Geoclemys hamiltonii* e sua identificação taxonômica. A referência não informa procedência, vendedor nem legalidade de qualquer documentação específica deste caso.",
+  "location_label_pt": "Aeroporto de Kansai, Osaka, Japão",
+  "fauna_label_pt": "1 tartaruga de Hamilton (*Geoclemys hamiltonii*)",
+  "geographic_note_pt": "Informação de ocorrência somente mês/ano (março de 2026); coordenada representa aeroporto, não local exato do procedimento; caso investigado, sem data de prisão ou de captura do espécime.",
+  "references_text_pt": "[O] Kansai TV / FNN, notícia judicial de 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] Kansai TV (site original), 17/11/2026 — https://www.ktv.jp/news/articles/?id=31048\n[T] CITES Identification Guide – Turtles & Tortoises — https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf",
+  "modal_label_pt": "Aéreo (reportado)",
+  "quantity_note_pt": "Quantidade envolvida no caso, não necessariamente número de animais fisicamente apreendidos.",
+  "title_en": "Japan investigates suspected smuggling of one Hamilton's pond turtle from South Korea to Kansai",
+  "card_text_en": "A 17 November report links suspects to an alleged March 2026 import of one Hamilton's pond turtle from South Korea, followed by suspected resale in Japan.",
+  "context_en": "[O] Reporting published on 17 November describes an Osaka Police investigation alleging that suspects illegally imported one Hamilton's pond turtle (*Geoclemys hamiltonii*) from South Korea through Kansai airport in March 2026, with a later paid transfer under investigation. The precise import day, acquisition site and biological origin were not reported; allegations are not convictions. This differs from the four-tortoise Thailand/Hong Kong interception already in the Observatory.\n\n[T] The external CITES turtle identification guide identifies *Geoclemys hamiltonii* as a recognized taxon. It does not establish this animal's origin, seller, or the status of any shipment documents.",
+  "location_label_en": "Kansai International Airport, Osaka, Japan",
+  "fauna_label_en": "1 Hamilton's pond turtle (*Geoclemys hamiltonii*)",
+  "geographic_note_en": "Only month/year of alleged shipment (March 2026) is documented; the airport is a reference point, not an exact seizure spot. Claims remain under investigation.",
+  "references_text_en": "[O] Kansai TV / FNN, notícia judicial de 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] Kansai TV (site original), 17/11/2026 — https://www.ktv.jp/news/articles/?id=31048\n[T] CITES Identification Guide – Turtles & Tortoises — https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf",
+  "modal_label_en": "Air (reported)",
+  "quantity_note_en": "Number of animals involved, not necessarily a count of physically seized specimens.",
+  "title_es": "Japón investiga presunto contrabando de una tortuga de Hamilton desde Corea del Sur a Kansai",
+  "card_text_es": "Una noticia del 17/11 vincula a sospechosos con la presunta importación de una tortuga de Hamilton desde Corea del Sur en marzo de 2026 y posible venta posterior.",
+  "context_es": "[O] Una noticia del 17/11 describe una investigación de la policía de Osaka que atribuye a sospechosos la introducción clandestina en marzo de 2026 de una tortuga de Hamilton (*Geoclemys hamiltonii*) desde Corea del Sur por el aeropuerto de Kansai, con una transferencia posterior remunerada bajo investigación. No se conocen el día exacto, lugar de adquisición ni origen biológico; las sospechas no son condenas. Es un episodio diferente de la intercepción previa de cuatro tortugas desde Tailandia/Hong Kong.\n\n[T] La guía técnica externa de identificación de quelonios de CITES reconoce el taxón *Geoclemys hamiltonii*. No demuestra el origen del ejemplar, su proveedor ni documentos específicos del envío.",
+  "location_label_es": "Aeropuerto Internacional de Kansai, Osaka, Japón",
+  "fauna_label_es": "1 tortuga de Hamilton (*Geoclemys hamiltonii*)",
+  "geographic_note_es": "Solo se conoce marzo de 2026; el punto de Kansai es referencial y no una posición exacta de incautación. Hechos investigados.",
+  "references_text_es": "[O] Kansai TV / FNN, notícia judicial de 17/11/2026 — https://www.fnn.jp/articles/-/1154027\n[O] Kansai TV (site original), 17/11/2026 — https://www.ktv.jp/news/articles/?id=31048\n[T] CITES Identification Guide – Turtles & Tortoises — https://cites.org/sites/default/files/vc-files/files/CAN-CITES_Turtle_Guide.pdf",
+  "modal_label_es": "Aéreo (declarado)",
+  "quantity_note_es": "Cantidad de animales involucrados, no necesariamente número de ejemplares físicamente incautados."
+}
