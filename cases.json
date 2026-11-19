@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-19T18:53:31Z",
+    "updated_at": "2026-11-19T23:48:19Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-19T18:53:31Z",
-  "feed_updated_at": "2026-11-19T18:53:31Z",
+  "updated_at": "2026-11-19T23:48:19Z",
+  "feed_updated_at": "2026-11-19T23:48:19Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -25618,7 +25618,7 @@
       "image_status": "DIRECT_IMAGE_URL_VALIDATED",
       "image_checked_at": "2026-10-10T16:17:21Z",
       "id": "2026-05-18__qatar-local-waters-illegal-seagull-hunting",
-      "country": "Qatar",
+      "country": "Catar",
       "coordinates": {
         "lat": 25.3,
         "lon": 51.6
@@ -41606,7 +41606,7 @@
       "translation_status": "EN_ES_COMPLETE",
       "case_context_status": "PT_EN_ES_COMPLETE",
       "context_status": "VALIDATED",
-      "country": "República Tcheca",
+      "country": "Tchéquia",
       "coordinates": {
         "lat": 48.724,
         "lon": 16.966
@@ -54243,7 +54243,7 @@
       "location_label_pt": "Departamento de Beni",
       "location_label_en": "Departamento de Beni",
       "location_label_es": "Departamento de Beni",
-      "country": "Bolivia",
+      "country": "Bolívia",
       "title_pt": "Apreensão/recuperação de 250 ovos de peta em Departamento de Beni",
       "title_en": "Seizure/recovery of 250 peta turtle eggs in Departamento de Beni",
       "title_es": "Decomiso/recuperación de 250 huevos de peta en Departamento de Beni",
@@ -64705,7 +64705,7 @@
       "status": "VALIDATED",
       "aggregate_operation": false,
       "exclude_from_totals": false,
-      "country": "Brazil",
+      "country": "Brasil",
       "source_label": "MAPA/Vigiagro via ANFFA Sindical; UOL",
       "source_url": "https://anffasindical.org.br/mapa-intercepta-386-tartaruguinhas-chinesas-no-aeroporto-de-guarulhos/",
       "publication_date": "2024-11-30",
@@ -66169,7 +66169,7 @@
     {
       "id": "2026-10-11__bebour-belouve-thirteen-tangues",
       "status": "VALIDATED",
-      "country": "França (Reunião)",
+      "country": "França",
       "event_date": "2026-10-11",
       "publication_date": "2026-10-12",
       "event_date_precision": "day",
@@ -92079,7 +92079,7 @@
     },
     {
       "id": "2026-10-05_06__reunion-west-marine-reserve-79kg-illegal-catch",
-      "country": "França (La Réunion)",
+      "country": "França",
       "location_label_pt": "Reserva Natural Marinha de La Réunion: Grand-Fond/Saint-Gilles, La Saline-les-Bains e Saint-Leu",
       "location_label_en": "Marine Nature Reserve of La Réunion: Grand-Fond/Saint-Gilles, La Saline-les-Bains e Saint-Leu",
       "location_label_es": "Reserva Natural Marina de La Réunion: Grand-Fond/Saint-Gilles, La Saline-les-Bains e Saint-Leu",
@@ -112999,7 +112999,7 @@
     {
       "id": "tgh-20261102-asi-003",
       "status": "VALIDATED",
-      "country": "Tailandia",
+      "country": "Tailândia",
       "location_label_pt": "Porto de Laem Chabang",
       "location_label_en": "Port of Laem Chabang",
       "location_label_es": "Puerto de Laem Chabang",
@@ -113084,7 +113084,7 @@
     {
       "id": "tgh-20261102-oce-002",
       "status": "VALIDATED",
-      "country": "Australia",
+      "country": "Austrália",
       "location_label_pt": "Scott Reef, Australia Ocidental",
       "location_label_en": "Scott Reef, Australia Ocidental",
       "location_label_es": "Scott Reef, Australia Ocidental",
@@ -113162,7 +113162,7 @@
     {
       "id": "tgh-20261102-oce-003",
       "status": "VALIDATED",
-      "country": "Australia",
+      "country": "Austrália",
       "location_label_pt": "Proximidades de Cartier Island, Australia Ocidental",
       "location_label_en": "Near Cartier Island, Australia Ocidental",
       "location_label_es": "Cercanías de Cartier Island, Australia Ocidental",
@@ -113241,7 +113241,7 @@
     {
       "id": "tgh-20261102-afn-001",
       "status": "VALIDATED",
-      "country": "Quenia",
+      "country": "Quênia",
       "location_label_pt": "Ridgeways / Kiambu Road, Nairobi",
       "location_label_en": "Ridgeways / Kiambu Road, Nairobi",
       "location_label_es": "Ridgeways / Kiambu Road, Nairobi",
@@ -113320,7 +113320,7 @@
     {
       "id": "tgh-20261102-afs-001",
       "status": "VALIDATED",
-      "country": "Zimbabue",
+      "country": "Zimbábue",
       "location_label_pt": "Hauna / Honde Valley",
       "location_label_en": "Hauna / Honde Valley",
       "location_label_es": "Hauna / Honde Valley",
@@ -113403,7 +113403,7 @@
     {
       "id": "tgh-20261102-afs-002",
       "status": "VALIDATED",
-      "country": "Namibia",
+      "country": "Namíbia",
       "location_label_pt": "Walvis Bay",
       "location_label_en": "Walvis Bay",
       "location_label_es": "Walvis Bay",
@@ -113488,7 +113488,7 @@
     {
       "id": "tgh-20261102-afs-003",
       "status": "VALIDATED",
-      "country": "Africa do Sul",
+      "country": "África do Sul",
       "location_label_pt": "Marikana, Chatty / Gqeberha",
       "location_label_en": "Marikana, Chatty / Gqeberha",
       "location_label_es": "Marikana, Chatty / Gqeberha",
@@ -113567,7 +113567,7 @@
     {
       "id": "tgh-20261102-afs-006",
       "status": "VALIDATED",
-      "country": "Mocambique",
+      "country": "Moçambique",
       "location_label_pt": "Lisongole, Mecula / Niassa",
       "location_label_en": "Lisongole, Mecula / Niassa",
       "location_label_es": "Lisongole, Mecula / Niassa",
@@ -113802,7 +113802,7 @@
     {
       "id": "tgh-20261102-afs-010",
       "status": "VALIDATED",
-      "country": "Namibia",
+      "country": "Namíbia",
       "location_label_pt": "Farm Grasslagte / Otjiwarongo",
       "location_label_en": "Farm Grasslagte / Otjiwarongo",
       "location_label_es": "Farm Grasslagte / Otjiwarongo",
@@ -113881,7 +113881,7 @@
     {
       "id": "tgh-20261102-afs-012",
       "status": "VALIDATED",
-      "country": "Africa do Sul",
+      "country": "África do Sul",
       "location_label_pt": "Seven Fountains / Eastern Cape",
       "location_label_en": "Seven Fountains / Eastern Cape",
       "location_label_es": "Seven Fountains / Eastern Cape",
@@ -113958,7 +113958,7 @@
     {
       "id": "tgh-20261102-afs-013",
       "status": "VALIDATED",
-      "country": "Namibia",
+      "country": "Namíbia",
       "location_label_pt": "C20 proximo a Stampriet",
       "location_label_en": "C20 near Stampriet",
       "location_label_es": "C20 cerca de Stampriet",
@@ -114035,7 +114035,7 @@
     {
       "id": "tgh-20261102-asb-002",
       "status": "VALIDATED",
-      "country": "Indonesia",
+      "country": "Indonésia",
       "location_label_pt": "Porto de Mayangan, Probolinggo, Java Oriental",
       "location_label_en": "Port of Mayangan, Probolinggo, Java Oriental",
       "location_label_es": "Puerto de Mayangan, Probolinggo, Java Oriental",
@@ -114120,7 +114120,7 @@
     {
       "id": "tgh-20261102-asb-003",
       "status": "VALIDATED",
-      "country": "Indonesia",
+      "country": "Indonésia",
       "location_label_pt": "Porto de Jamrud, Surabaya, Java Oriental",
       "location_label_en": "Port of Jamrud, Surabaya, Java Oriental",
       "location_label_es": "Puerto de Jamrud, Surabaya, Java Oriental",
@@ -114373,7 +114373,7 @@
     {
       "id": "tgh-20261102-asb-006",
       "status": "VALIDATED",
-      "country": "Hong Kong (China)",
+      "country": "Hong Kong",
       "location_label_pt": "Posto fronteirico de Lo Wu",
       "location_label_en": "Border checkpoint de Lo Wu",
       "location_label_es": "Puesto fronterizo de Lo Wu",
@@ -114452,7 +114452,7 @@
     {
       "id": "tgh-20261102-asb-007",
       "status": "VALIDATED",
-      "country": "India",
+      "country": "Índia",
       "location_label_pt": "Kalyani, Bengala Ocidental",
       "location_label_en": "Kalyani, Bengala Ocidental",
       "location_label_es": "Kalyani, Bengala Ocidental",
@@ -114616,7 +114616,7 @@
     {
       "id": "tgh-20261102-asb-011",
       "status": "VALIDATED",
-      "country": "Australia",
+      "country": "Austrália",
       "location_label_pt": "Lethbridge Park, Sydney, Nova Gales do Sul",
       "location_label_en": "Lethbridge Park, Sydney, Nova Gales do Sul",
       "location_label_es": "Lethbridge Park, Sydney, Nova Gales do Sul",
@@ -114701,7 +114701,7 @@
     {
       "id": "tgh-20261102-asb-012",
       "status": "VALIDATED",
-      "country": "India",
+      "country": "Índia",
       "location_label_pt": "Jaspur, Uttarakhand",
       "location_label_en": "Jaspur, Uttarakhand",
       "location_label_es": "Jaspur, Uttarakhand",
@@ -114778,7 +114778,7 @@
     {
       "id": "tgh-20261102-asi-002",
       "status": "VALIDATED",
-      "country": "India",
+      "country": "Índia",
       "location_label_pt": "Lucknow, Uttar Pradesh",
       "location_label_en": "Lucknow, Uttar Pradesh",
       "location_label_es": "Lucknow, Uttar Pradesh",
@@ -114863,7 +114863,7 @@
     {
       "id": "tgh-20261102-asi-004",
       "status": "VALIDATED",
-      "country": "Japao",
+      "country": "Japão",
       "location_label_pt": "Aeroporto Internacional de Kansai, Osaka",
       "location_label_en": "International Airport de Kansai, Osaka",
       "location_label_es": "Aeropuerto Internacional de Kansai, Osaka",
@@ -115025,7 +115025,7 @@
     {
       "id": "tgh-20261102-asi-007",
       "status": "VALIDATED",
-      "country": "India",
+      "country": "Índia",
       "location_label_pt": "Dantewada, Chhattisgarh",
       "location_label_en": "Dantewada, Chhattisgarh",
       "location_label_es": "Dantewada, Chhattisgarh",
@@ -115108,7 +115108,7 @@
     {
       "id": "tgh-20261102-asi-008",
       "status": "VALIDATED",
-      "country": "Paquistao",
+      "country": "Paquistão",
       "location_label_pt": "Jamshoro, Sindh",
       "location_label_en": "Jamshoro, Sindh",
       "location_label_es": "Jamshoro, Sindh",
@@ -115430,7 +115430,7 @@
     {
       "id": "tgh-20261102-asi-017",
       "status": "VALIDATED",
-      "country": "Tailandia",
+      "country": "Tailândia",
       "location_label_pt": "Parque Nacional Nam Phong",
       "location_label_en": "National Park Nam Phong",
       "location_label_es": "Parque Nacional Nam Phong",
@@ -115507,7 +115507,7 @@
     {
       "id": "tgh-20261102-asi-018",
       "status": "VALIDATED",
-      "country": "Tailandia",
+      "country": "Tailândia",
       "location_label_pt": "Parque Nacional Phu Wiang",
       "location_label_en": "National Park Phu Wiang",
       "location_label_es": "Parque Nacional Phu Wiang",
@@ -115590,7 +115590,7 @@
     {
       "id": "tgh-20261102-asi-019",
       "status": "VALIDATED",
-      "country": "Quirguistao",
+      "country": "Quirguistão",
       "location_label_pt": "Ala-Archa",
       "location_label_en": "Ala-Archa",
       "location_label_es": "Ala-Archa",
@@ -115675,7 +115675,7 @@
     {
       "id": "tgh-20261102-asi-021",
       "status": "VALIDATED",
-      "country": "Russia",
+      "country": "Rússia",
       "location_label_pt": "Altai (Russia asiatica)",
       "location_label_en": "Altai (Russia asiatica)",
       "location_label_es": "Altai (Russia asiatica)",
@@ -115760,7 +115760,7 @@
     {
       "id": "tgh-20261102-asi-024",
       "status": "VALIDATED",
-      "country": "India",
+      "country": "Índia",
       "location_label_pt": "Morena, Madhya Pradesh",
       "location_label_en": "Morena, Madhya Pradesh",
       "location_label_es": "Morena, Madhya Pradesh",
@@ -119039,7 +119039,7 @@
     {
       "id": "tgh-20261102-sam-001",
       "status": "VALIDATED",
-      "country": "Colombia",
+      "country": "Colômbia",
       "location_label_pt": "Sasaima, Cundinamarca",
       "location_label_en": "Sasaima, Cundinamarca",
       "location_label_es": "Sasaima, Cundinamarca",
@@ -119124,7 +119124,7 @@
     {
       "id": "tgh-20261102-sam-002",
       "status": "VALIDATED",
-      "country": "Colombia",
+      "country": "Colômbia",
       "location_label_pt": "Girardot, Cundinamarca",
       "location_label_en": "Girardot, Cundinamarca",
       "location_label_es": "Girardot, Cundinamarca",
@@ -122363,7 +122363,7 @@
     {
       "id": "tgh-ams-2026-11-01-05-10",
       "status": "VALIDATED",
-      "country": "Colombia",
+      "country": "Colômbia",
       "event_date": null,
       "publication_date": "2026-11-03",
       "coordinates": {
@@ -122448,7 +122448,7 @@
     {
       "id": "tgh-ams-2026-11-01-05-11",
       "status": "VALIDATED",
-      "country": "Colombia",
+      "country": "Colômbia",
       "event_date": null,
       "publication_date": "2026-11-03",
       "coordinates": {
@@ -123613,7 +123613,7 @@
     {
       "id": "tgh-asia-20261104-hk-five-us-turtles",
       "status": "VALIDATED",
-      "country": "Hong Kong (China)",
+      "country": "Hong Kong",
       "event_date": "2026-11-04",
       "publication_date": "2026-11-04",
       "occurred_at": "2026-11-04T00:00:00Z",
@@ -124876,7 +124876,7 @@
       "tgh_id": "AS-01",
       "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
       "status": "VALIDATED",
-      "country": "Hong Kong (China)",
+      "country": "Hong Kong",
       "event_date": "2026-11-07",
       "publication_date": "2026-11-07",
       "event_date_precision": "day",
@@ -124971,7 +124971,7 @@
       "tgh_id": "AS-02",
       "ingestion_batch": "TG-H-2026-11-06-08-EDITORIAL-QA",
       "status": "VALIDATED",
-      "country": "Hong Kong (China)",
+      "country": "Hong Kong",
       "event_date": "2026-11-07",
       "publication_date": "2026-11-08",
       "event_date_precision": "day",
@@ -126490,7 +126490,7 @@
       "tgh_id": "TG-H-AS-02",
       "ingestion_batch": "TG-H-GLOBAL-2026-11-08-09",
       "status": "VALIDATED",
-      "country": "Hong Kong (China)",
+      "country": "Hong Kong",
       "event_date": "2026-11-09",
       "event_date_precision": "day",
       "publication_date": "2026-11-09",

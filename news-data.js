@@ -46,7 +46,7 @@ window.CaseSource=(()=>{
  function adapt(r){
   const groups=[...r.fauna_groups_aggregated],items=quantity(r),date=r.event_date||r.publication_date||'';
   const breakdown={groups,items:Object.fromEntries(groups.map(g=>[g,groups.length===1?items:null])),unallocated:groups.length===1?0:items||0};
-  return {...r,_external_case:true,case_id:r.id,lat:r.coordinates.lat,lng:r.coordinates.lon,city:r.location_label_pt||'',date,eventDate:r.event_date,year:date?date.slice(0,4):null,
+  return {...r,country:window.CountryNames?.canonical(r.country)??r.country,_external_case:true,case_id:r.id,lat:r.coordinates.lat,lng:r.coordinates.lon,city:r.location_label_pt||'',date,eventDate:r.event_date,year:date?date.slice(0,4):null,
    groups,breakdown,species:r.fauna_label_pt||groups.join(', '),taxon:r.taxon_text||'',mode:r.modal_primary,modeGroup:r.modal_primary,source:r.source_label,url:r.source_url,items,
    title:r.title_pt,summary:r.card_text_pt,geoNote:r.geographic_note_pt||'',context_status:'validated',context_references:[],
    added_at:absoluteTimestamp(r.added_at)||absoluteTimestamp(r.added_at_text),context_updated_at:absoluteTimestamp(r.context_updated_at)||absoluteTimestamp(r.last_update_text)};

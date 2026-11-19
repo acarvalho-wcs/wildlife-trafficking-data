@@ -19,7 +19,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const caseText=window.ScientificText.html;
 const locale=()=>({pt:'pt-BR',en:'en-US',es:'es-ES'})[lang];
-const term=s=>lang==='pt'?s:(terms[s]?.[lang==='en'?0:1]??s);
+const term=s=>window.CountryNames?.label(s,lang)??(lang==='pt'?s:(terms[s]?.[lang==='en'?0:1]??s));
 const number=n=>Number(n).toLocaleString(locale());
 const date=s=>!s?'—':new Intl.DateTimeFormat(locale(),{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(s+'T12:00:00Z'));
 function record(e){
