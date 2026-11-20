@@ -1,0 +1,92 @@
+{
+  "audit_id": "TG-H-2026-11-19-20-final-check-2026-11-20",
+  "audit_date": "2026-11-20",
+  "scope": "Multilingual global TG-H, occurrences dated 19-20 November 2026, with publication-date candidates separately triaged",
+  "status": "REVIEW_COMPLETED_WITH_OUTSTANDING_EVIDENCE_AND_COMPILED_MIRROR_DIFFERENCE",
+  "canonical_case_counts": {
+    "main": 1651,
+    "secondary": 1651
+  },
+  "canonical_routes_counts": {
+    "main": 374,
+    "secondary": 374,
+    "route_file_blob_sha": "adda07a3144f66e34522ed7ba447b45e5a623e42"
+  },
+  "published_in_scope": [
+    {
+      "id": "TG-H-20261119-AS-001",
+      "event_id": "tgh-20261119-in-varanasi-golgadda-650-parakeets",
+      "occurrence_date": "2026-11-19",
+      "publication_date": "2026-11-20",
+      "quantity": 650,
+      "category": "birds",
+      "title": "Varanasi, Uttar Pradesh, India",
+      "validated_languages": [
+        "pt",
+        "en",
+        "es"
+      ],
+      "main_and_secondary_case_blob_sha": "0d82fa1ba5cc5fbdebefd427427dee9cdba533f9",
+      "routes": 2,
+      "route_evidence": "Mirzapur and Chandauli reported source districts; schematic attribution, not verified capture locations"
+    }
+  ],
+  "triage": {
+    "total": 19,
+    "material_wildlife_trafficking_evidence_but_unresolved_precise_event_date": 2,
+    "canonical_duplicates": 4,
+    "other_excluded_or_unvalidated": 13
+  },
+  "unresolved": [
+    {
+      "id": "TR-19-001",
+      "country": "Ecuador",
+      "site": "Guayaquil, parcel freight terminal",
+      "quantity": 88,
+      "taxa": {
+        "Podocnemis expansa": 81,
+        "Podocnemis unifilis": 7
+      },
+      "mode": "Interprovincial parcel with manifest description 'adornos'",
+      "publication_date": "2026-11-19",
+      "occurrence_date": "UNKNOWN_EXACT_DAY",
+      "decision": "Material trafficking evidence confirmed; cannot count as occurrence on 19-20 November without event-day proof",
+      "route_limit": "Neither origin province nor destination confirmed; no inferred route",
+      "sources": [
+        "https://fmmundo.com/notimundo/actualidad/88-tortugas-silvestres-eran-transportadas-como-adornos-una-encomienda-guayaquil-n90020/amp",
+        "https://www.eluniverso.com/comunidad/guayaquil/un-envio-de-encomiendas-ocultaba-88-tortugas-charapa-en-la-terminal-terrestre-de-guayaquil-nota/"
+      ]
+    },
+    {
+      "id": "TR-19-013",
+      "country": "Russia",
+      "site": "Irkutsk district and Khomutovo",
+      "quantity": 2,
+      "taxon": "Falco peregrinus",
+      "capture_month": "2026-09",
+      "interception_day": "UNKNOWN",
+      "publication_date": "2026-11-20",
+      "decision": "Material trafficking evidence confirmed as historical capture; not a confirmed 19-20 November occurrence",
+      "route_limit": "Planned delivery to intermediary in Khomutovo; international sale intended without confirmed foreign country or shipment",
+      "sources": [
+        "https://www.irk.ru/news/20261120/hunter/",
+        "https://www.interfax-russia.ru/index.php/siberia/news/obvinyaemye-v-nezakonnoy-dobyche-sapsanov-arestovany-v-irkutskoy-oblasti"
+      ]
+    }
+  ],
+  "mirror_integrity": {
+    "same_record_count": true,
+    "same_manifest_file_list": true,
+    "same_routes_json_blob": true,
+    "same_published_varanasi_individual_case_blob": true,
+    "main_compiled_cases_json_blob": "bbf121355e5f2976981afd2b4d5c5461c6aee211",
+    "secondary_compiled_cases_json_blob": "4660c7616fb7cb94eb6dd03c37a9f4f0b26b6d02",
+    "main_manifest_compiled_sha256": "21a04598283c26b6dc029e36c6f0b238ebe763c268251f1d070fba2f2ac14a3a",
+    "secondary_manifest_compiled_sha256": "5aa31cfbf3522d3ef453f047fde5f3d54079396d1aa1645107692caaa14212ba",
+    "full_byte_identical_compiled_copy": false,
+    "notes": "Compiled artifacts differ; do not claim complete parity until reconciled. Case count, file list, routes, and the verified new individual case do match."
+  },
+  "spreadsheet": "https://docs.google.com/spreadsheets/d/1oMPUMy21Xpi6DM6DHq7j0JFwV811kU5uQnR8XeeH_M8/edit",
+  "spreadsheet_cleanup_status": "NOT_CLEARED_PRESERVE_HEADERS_AND_PENDING_EVIDENCE; requester previously required cleanup after cycle closure and explicit go-ahead",
+  "method_note": "Publication day is not substituted for occurrence day; do not fabricate date, sales completion or geographic routes."
+}
