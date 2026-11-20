@@ -23,7 +23,8 @@ const term=s=>window.CountryNames?.label(s,lang)??(lang==='pt'?s:(terms[s]?.[lan
 const number=n=>Number(n).toLocaleString(locale());
 const date=s=>!s?'—':new Intl.DateTimeFormat(locale(),{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(s+'T12:00:00Z'));
 function record(e){
-  return {...e,title:e['title_'+lang],summary:e['card_text_'+lang],country:term(e.country),city:term(e.city),species:term(e.species),taxon:term(e.taxon),mode:term(e.mode),source:e.source_label,geoNote:e['geographic_note_'+lang]||e.geographic_note_pt||'',url:e.source_url};
+  const translated=window.CaseDisplay?.localize(e,lang);
+  return {...e,title:e['title_'+lang],summary:e['card_text_'+lang],country:term(e.country),city:translated?.city||term(e.city),species:translated?.species||term(e.species),taxon:translated?.taxon||term(e.taxon),mode:translated?.mode||term(e.mode),quantityDisplay:translated?.quantityDisplay||e.quantityDisplay,quantityNote:translated?.quantityNote||'',source:e.source_label,geoNote:translated?.geoNote||e['geographic_note_'+lang]||e.geographic_note_pt||'',url:e.source_url};
 }
 function dates(e){const t=messages[lang];return t.event+': '+date(e.event_date)+' · '+t.published+': '+date(e.publication_date);}
 

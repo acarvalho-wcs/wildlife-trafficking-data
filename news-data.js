@@ -23,6 +23,7 @@ window.CaseSource=(()=>{
    if(typeof r.coordinate_precision!=='string'||!r.coordinate_precision)throw Error('Missing coordinate precision');
    if(r.status!=='VALIDATED'||!safeUrl(r.source_url)||typeof r.source_label!=='string'||!r.source_label)throw Error('Invalid source/status: '+r.id);
    for(const l of ['pt','en','es'])for(const k of ['title_','card_text_','context_'])if(typeof r[k+l]!=='string'||!r[k+l].trim())throw Error('Missing translation: '+r.id+' '+k+l);
+    if(r.localization_schema_version===1&&!window.CaseDisplay?.validate(r))throw Error('Incomplete new-case card translations: '+r.id);
    for(const k of ['event_date','publication_date'])if(r[k]!==null&&!isoDay(r[k]))throw Error('Invalid date: '+r.id+' '+k);
    if(!Array.isArray(r.fauna_groups_aggregated)||!r.fauna_groups_aggregated.every(x=>typeof x==='string')||typeof r.country!=='string'||typeof r.modal_primary!=='string')throw Error('Invalid filters');
    if(typeof r.aggregate_operation!=='boolean'||typeof r.exclude_from_totals!=='boolean')throw Error('Missing aggregate controls: '+r.id);
@@ -44,7 +45,7 @@ window.CaseSource=(()=>{
   return Number.isFinite(r.animal_count)&&r.animal_count>=0?r.animal_count:null;
  }
  function adapt(r){
-  const groups=[...r.fauna_groups_aggregated],items=quantity(r),date=r.event_date||r.publication_date||'';
+  const groups=[...r.fauna_groups_aggregated],items=(r.localization_schema_version===1&&r.quantity_kind==='animals'&&Number.isFinite(r.quantity_count)&&r.quantity_count>=0?r.quantity_count:quantity(r)),date=r.event_date||r.publication_date||'';
   const breakdown={groups,items:Object.fromEntries(groups.map(g=>[g,groups.length===1?items:null])),unallocated:groups.length===1?0:items||0};
   return {...r,country:window.CountryNames?.canonical(r.country)??r.country,_external_case:true,case_id:r.id,lat:r.coordinates.lat,lng:r.coordinates.lon,city:r.location_label_pt||'',date,eventDate:r.event_date,year:date?date.slice(0,4):null,
    groups,breakdown,species:r.fauna_label_pt||groups.join(', '),taxon:r.taxon_text||'',mode:r.modal_primary,modeGroup:r.modal_primary,source:r.source_label,url:r.source_url,items,
