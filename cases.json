@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1650_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1651_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1650,
+  "count": 1651,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-19T23:48:19Z",
+    "updated_at": "2026-11-20T18:02:47Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-19T23:48:19Z",
-  "feed_updated_at": "2026-11-19T23:48:19Z",
+  "updated_at": "2026-11-20T18:02:47Z",
+  "feed_updated_at": "2026-11-20T18:02:47Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -131291,6 +131291,114 @@
       "quantity_note_es": "Cantidad de animales involucrados, no necesariamente número de ejemplares físicamente incautados.",
       "occurred_at": null,
       "occurred_at_precision": "month"
+    },
+    {
+      "id": "tgh-20261119-in-varanasi-golgadda-650-parakeets",
+      "status": "VALIDATED",
+      "country": "Índia",
+      "event_date": "2026-11-19",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-20",
+      "coordinates": {
+        "lat": 25.321684,
+        "lon": 82.987289
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "source_label": "Amar Ujala / Forest Department and STF",
+      "source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20",
+      "source_alternative_url": "https://www.bharatbuzzlive.com/state/uttar-pradesh/varanasi-stf-650-protected-parrots-smuggling-three-bihar-smugglers-arrested-58147/",
+      "fauna_groups_aggregated": [
+        "Aves"
+      ],
+      "taxon_text": "60 periquitos-alexandrinos (*Psittacula eupatria*); 590 outros psitacídeos de espécie não confirmada",
+      "modal_primary": "Terrestre",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": 650,
+      "quantity_qualifier": "exact",
+      "quantity_kind": "animals",
+      "quantity_by_group": {
+        "Aves": 650
+      },
+      "quantity_unassigned": 0,
+      "route_audit_status": "DOCUMENTED_ATTRIBUTED",
+      "route_audit_note_pt": "Coordenadas referenciais do centro de Varanasi, não do ponto exato de Golgadda. Mirzapur e Chandauli são distritos de origem declarada, não locais de captura verificados; Baheliya era destino comercial pretendido, não alcançado.",
+      "source_reconciliation_status": "TWO_SOURCES_2026_11_20",
+      "image_url": null,
+      "image_source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "ingestion_batch": "TG-H-2026-11-19-20-USER_APPROVED",
+      "case_context_status": "PT_EN_ES_OSINT_2026_11_20",
+      "context_style": "2026-11-10_[O][S][I][N][T]_strict",
+      "is_exact_seizure_position": false,
+      "localization_schema_version": 1,
+      "editorial_qa_note_pt": "19/11 confirmado; referência isolada a 19 de outubro contradiz notícia original e não foi adotada. 60 Alexandrine e 590 psitacídeos sem espécie comprovada. Procedências atribuídas a declarações e destino comercial ainda não alcançado.",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "case_source",
+          "label": "Amar Ujala, 20 November 2026",
+          "url": "https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20"
+        },
+        {
+          "id": "O",
+          "type": "corroborating_news",
+          "label": "Bharat Buzz Live, 20 November 2026",
+          "url": "https://www.bharatbuzzlive.com/state/uttar-pradesh/varanasi-stf-650-protected-parrots-smuggling-three-bihar-smugglers-arrested-58147/"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "TRAFFIC India: Live Bird Trade (historical technical report)",
+          "url": "https://portals.iucn.org/library/sites/library/files/documents/Traf-082.pdf"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-20",
+        "approved_by_user": true,
+        "approval_reference": "TG-H-20261119-AS-001",
+        "categories_present": [
+          "O",
+          "T"
+        ],
+        "source_inferences_not_attributed_to_event_without_evidence": true
+      },
+      "title_pt": "STF e autoridades florestais interceptam 650 psitacídeos em Varanasi",
+      "card_text_pt": "Na noite de 19/11, 650 psitacídeos vivos foram apreendidos em uma caminhonete em Golgadda, Varanasi; três suspeitos foram detidos. A venda era pretendida em Baheliya.",
+      "location_label_pt": "Golgadda, Varanasi, Uttar Pradesh, Índia",
+      "fauna_label_pt": "650 psitacídeos vivos: 60 periquitos-alexandrinos e 590 outros papagaios/periquitos de espécies não confirmadas",
+      "taxon_text_pt": "60 periquitos-alexandrinos (*Psittacula eupatria*); 590 outros psitacídeos de espécie não confirmada",
+      "modal_label_pt": "Rodoviário — caminhonete",
+      "quantity_label_pt": "650 aves vivas apreendidas",
+      "quantity_note_pt": "Total confirmado: 650 aves. Os 590 não foram classificados em espécie por divergência entre reportagens.",
+      "geographic_note_pt": "Coordenadas referenciais do centro de Varanasi, não do ponto exato de Golgadda. Mirzapur e Chandauli são distritos de origem declarada, não locais de captura verificados; Baheliya era destino comercial pretendido, não alcançado.",
+      "context_pt": "[O] Na noite de 19/11/2026, agentes do Departamento Florestal de Uttar Pradesh e da Força-Tarefa Especial (STF) interceptaram uma caminhonete em Golgadda, Varanasi, com 650 psitacídeos vivos comprimidos em sete gaiolas metálicas e dois sacos. A fonte discrimina 60 periquitos-alexandrinos e 590 outros papagaios/periquitos sem identificação taxonômica segura no relato principal. Três suspeitos foram detidos. Conforme declarações atribuídas aos investigados, as aves foram obtidas por intermédio de caçadores nas florestas dos distritos de Mirzapur e Chandauli e seriam comercializadas na área de Baheliya, Varanasi. São procedências e destino pretendido informados durante a investigação, não locais de captura ou vendas comprovadas independentemente.\n\n[T] O relatório técnico externo *Live Bird Trade: A TRAFFIC India Trade Study* identifica historicamente o mercado de Baheliya Toli, em Varanasi, como local de comércio de aves vivas, incluindo periquitos. É uma correspondência geográfica pertinente com o destino declarado no flagrante, mas não estabelece continuidade de comerciantes, fornecedores ou redes entre a pesquisa histórica e a apreensão de 19/11/2026.",
+      "references_text_pt": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20\n[O] https://www.bharatbuzzlive.com/state/uttar-pradesh/varanasi-stf-650-protected-parrots-smuggling-three-bihar-smugglers-arrested-58147/\n[T] TRAFFIC India Live Bird Trade, relatório externo: https://portals.iucn.org/library/sites/library/files/documents/Traf-082.pdf",
+      "title_en": "650 live parakeets intercepted in suspected wildlife trafficking in Varanasi",
+      "card_text_en": "Late on 19 November, 650 live parakeets were seized from a pickup truck in Golgadda, Varanasi; three suspects were detained. Sale in Baheliya was intended.",
+      "location_label_en": "Golgadda, Varanasi, Uttar Pradesh, India",
+      "fauna_label_en": "650 live parakeets: 60 Alexandrine parakeets and 590 other parrots/parakeets of unconfirmed species",
+      "taxon_text_en": "60 Alexandrine parakeets (*Psittacula eupatria*); 590 other parrots/parakeets of unconfirmed species",
+      "modal_label_en": "Road — pickup truck",
+      "quantity_label_en": "650 live birds seized",
+      "quantity_note_en": "Total confirmed: 650 birds. Species for the remaining 590 were not assigned because reports differ.",
+      "geographic_note_en": "Coordinates represent approximate central Varanasi, not the exact Golgadda stop. Mirzapur and Chandauli are reported supply districts, not verified capture sites; Baheliya was an intended sale destination that was not reached.",
+      "context_en": "[O] Late on 19 November 2026, Uttar Pradesh Forest Department officers and the Special Task Force (STF) intercepted a pickup near Golgadda, Varanasi, carrying 650 live parakeets crowded into seven metal cages and two bags. The main report identifies 60 Alexandrine parakeets and 590 other parrots/parakeets without a verified species identification. Three suspects were detained. According to statements attributed to the suspects, hunters in the forest areas of Mirzapur and Chandauli districts had supplied the birds, which were intended for sale in the Baheliya area of Varanasi. These are reported supply areas and an intended market, not independently verified capture sites or completed sales.\n\n[T] The external technical report *Live Bird Trade: A TRAFFIC India Trade Study* historically identifies Baheliya Toli, Varanasi, as a live-bird market, including parakeets. This is geographically relevant to the intended sale location reported in the seizure, but does not establish shared traders, suppliers or networks between the historical study and the 19 November 2026 incident.",
+      "references_text_en": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20\n[O] https://www.bharatbuzzlive.com/state/uttar-pradesh/varanasi-stf-650-protected-parrots-smuggling-three-bihar-smugglers-arrested-58147/\n[T] TRAFFIC India Live Bird Trade, relatório externo: https://portals.iucn.org/library/sites/library/files/documents/Traf-082.pdf",
+      "title_es": "Incautan 650 psitácidos vivos durante operación contra el tráfico en Varanasi",
+      "card_text_es": "El 19/11 por la noche se incautaron 650 psitácidos vivos en una camioneta en Golgadda, Varanasi; tres sospechosos fueron detenidos. Se pretendía venderlos en Baheliya.",
+      "location_label_es": "Golgadda, Varanasi, Uttar Pradesh, India",
+      "fauna_label_es": "650 psitácidos vivos: 60 periquitos alejandrinos y 590 otros loros/periquitos sin especie confirmada",
+      "taxon_text_es": "60 periquitos alejandrinos (*Psittacula eupatria*); 590 otros psitácidos sin especie confirmada",
+      "modal_label_es": "Terrestre — camioneta",
+      "quantity_label_es": "650 aves vivas incautadas",
+      "quantity_note_es": "Cantidad total confirmada: 650 aves. La especie de los 590 restantes no se asigna por diferencias entre las fuentes.",
+      "geographic_note_es": "Las coordenadas corresponden aproximadamente al centro de Varanasi, no al punto exacto de Golgadda. Mirzapur y Chandauli son distritos de suministro declarados, no sitios de captura verificados; Baheliya era destino de venta previsto, no alcanzado.",
+      "context_es": "[O] En la noche del 19/11/2026, agentes del Departamento Forestal de Uttar Pradesh y de la Fuerza Especial (STF) interceptaron una camioneta cerca de Golgadda, Varanasi, con 650 psitácidos vivos hacinados en siete jaulas metálicas y dos sacos. La fuente principal distingue 60 periquitos alejandrinos y 590 loros o periquitos adicionales, sin identificación taxonómica verificada. Tres sospechosos fueron detenidos. Según declaraciones atribuidas a los investigados, las aves se obtuvieron mediante cazadores de las zonas boscosas de Mirzapur y Chandauli y se pretendía venderlas en el sector Baheliya de Varanasi. Son zonas de suministro y destino previsto comunicados en la investigación, no puntos de captura ni ventas concluidas comprobadas de forma independiente.\n\n[T] El informe técnico externo *Live Bird Trade: A TRAFFIC India Trade Study* identifica históricamente Baheliya Toli, Varanasi, como mercado de aves vivas, incluidos periquitos. Es una coincidencia geográfica pertinente con el lugar de venta previsto según el caso, pero no demuestra que los comerciantes, proveedores o redes sean los mismos que los documentados en el estudio histórico.",
+      "references_text_es": "[O] https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20\n[O] https://www.bharatbuzzlive.com/state/uttar-pradesh/varanasi-stf-650-protected-parrots-smuggling-three-bihar-smugglers-arrested-58147/\n[T] TRAFFIC India Live Bird Trade, relatório externo: https://portals.iucn.org/library/sites/library/files/documents/Traf-082.pdf",
+      "occurred_at": "2026-11-19T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }

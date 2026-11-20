@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-20",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -15140,6 +15140,90 @@
         "evidence_class": "ATTRIBUTED_COUNTRY_TO_AIRPORT_AIR_MOVEMENT",
         "geometry": "generalized_country_centroid_to_named_airport_not_real_path",
         "publication_update_date": "2026-11-17"
+      }
+    },
+    {
+      "id": "tgh-20261119-in-varanasi-golgadda-650-parakeets-mirzapur-r01",
+      "event_match": {
+        "event_id": "tgh-20261119-in-varanasi-golgadda-650-parakeets"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_supply_district_to_interception",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Distrito de Mirzapur → Varanasi (procedência declarada)",
+      "label_en": "Mirzapur district → Varanasi (reported sourcing district)",
+      "label_es": "distrito de Mirzapur → Varanasi (procedencia declarada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Distrito de Mirzapur (ponto administrativo aproximado)",
+            "country": "Índia",
+            "lat": 25.1337,
+            "lon": 82.5644,
+            "precision": "schematic_district_reference_not_capture_location"
+          },
+          "to": {
+            "name": "Varanasi (referência municipal; Golgadda não geocodificada exatamente)",
+            "country": "Índia",
+            "lat": 25.321684,
+            "lon": 82.987289,
+            "precision": "approximate_city_reference"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo declarações atribuídas aos suspeitos, as aves foram obtidas por intermédio de caçadores nos distritos de Mirzapur e Chandauli e transportadas a Varanasi, onde foram interceptadas em 19/11/2026. Este segmento esquemático NÃO representa percurso real nem local de captura, e a venda pretendida em Baheliya NÃO foi concluída.",
+      "evidence_en": "According to statements attributed to suspects, the birds were supplied via hunters in Mirzapur and Chandauli districts before interception in Varanasi on 19 November 2026. The schematic line is NOT a verified road path or capture site, and the planned sale in Baheliya was NOT completed.",
+      "evidence_es": "Según declaraciones atribuidas a los sospechosos, las aves procedían de cazadores en los distritos de Mirzapur y Chandauli antes de la intercepción en Varanasi el 19/11/2026. Esta línea esquemática NO es una ruta real ni lugar verificado de captura; la venta prevista en Baheliya NO se concretó.",
+      "source_label": "Amar Ujala / Uttar Pradesh Forest Department and STF",
+      "source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20",
+      "tgh_audit": {
+        "decision": "Documentar apenas os distritos de origem atribuídos; sem ponto exato de captura ou destino entregue",
+        "evidence_class": "REPORTED_SOURCE_DISTRICT",
+        "geometry": "schematic_admin_reference_to_city_not_real_road",
+        "user_approval": true
+      }
+    },
+    {
+      "id": "tgh-20261119-in-varanasi-golgadda-650-parakeets-chandauli-r01",
+      "event_match": {
+        "event_id": "tgh-20261119-in-varanasi-golgadda-650-parakeets"
+      },
+      "status": "DOCUMENTED_ATTRIBUTED",
+      "route_type": "reported_supply_district_to_interception",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Distrito de Chandauli → Varanasi (procedência declarada)",
+      "label_en": "Chandauli district → Varanasi (reported sourcing district)",
+      "label_es": "distrito de Chandauli → Varanasi (procedencia declarada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Distrito de Chandauli (ponto administrativo aproximado)",
+            "country": "Índia",
+            "lat": 25.2613,
+            "lon": 83.2641,
+            "precision": "schematic_district_reference_not_capture_location"
+          },
+          "to": {
+            "name": "Varanasi (referência municipal; Golgadda não geocodificada exatamente)",
+            "country": "Índia",
+            "lat": 25.321684,
+            "lon": 82.987289,
+            "precision": "approximate_city_reference"
+          }
+        }
+      ],
+      "evidence_pt": "Segundo declarações atribuídas aos suspeitos, as aves foram obtidas por intermédio de caçadores nos distritos de Mirzapur e Chandauli e transportadas a Varanasi, onde foram interceptadas em 19/11/2026. Este segmento esquemático NÃO representa percurso real nem local de captura, e a venda pretendida em Baheliya NÃO foi concluída.",
+      "evidence_en": "According to statements attributed to suspects, the birds were supplied via hunters in Mirzapur and Chandauli districts before interception in Varanasi on 19 November 2026. The schematic line is NOT a verified road path or capture site, and the planned sale in Baheliya was NOT completed.",
+      "evidence_es": "Según declaraciones atribuidas a los sospechosos, las aves procedían de cazadores en los distritos de Mirzapur y Chandauli antes de la intercepción en Varanasi el 19/11/2026. Esta línea esquemática NO es una ruta real ni lugar verificado de captura; la venta prevista en Baheliya NO se concretó.",
+      "source_label": "Amar Ujala / Uttar Pradesh Forest Department and STF",
+      "source_url": "https://www.amarujala.com/uttar-pradesh/varanasi/crime/birds-transported-sale-sourced-from-forests-mirzapur-and-chandauli-forest-department-and-stf-take-action-2026-11-20",
+      "tgh_audit": {
+        "decision": "Documentar apenas os distritos de origem atribuídos; sem ponto exato de captura ou destino entregue",
+        "evidence_class": "REPORTED_SOURCE_DISTRICT",
+        "geometry": "schematic_admin_reference_to_city_not_real_road",
+        "user_approval": true
       }
     }
   ],
