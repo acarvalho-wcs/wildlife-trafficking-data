@@ -53,6 +53,34 @@ def record_path(root, record, used):
     used.add(str(rel))
     return root / rel, rel.as_posix()
 
+CARD_PRESENTATION_FIELDS = ("location_label", "fauna_label", "taxon_text", "modal_label", "quantity_label", "quantity_note", "geographic_note")
+CARD_LANGUAGES = ("pt", "en", "es")
+
+def validate_new_case_localization(records, files, baseline_path=None):
+    """Reject untranslated display fields in NEW case files only; leave legacy cases untouched."""
+    baseline_path = Path(baseline_path or Path(__file__).with_name("legacy-card-localization-paths.json"))
+    baseline = load_json(baseline_path)
+    legacy_paths = baseline.get("legacy_paths")
+    if (not isinstance(legacy_paths, list) or len(legacy_paths) != baseline.get("baseline_case_count")
+            or len(set(legacy_paths)) != len(legacy_paths)):
+        raise ValueError("Invalid legacy localization baseline")
+    if len(records) != len(files):
+        return ["Case localization: record count and file count disagree"]
+    errors = []
+    grandfathered = set(legacy_paths)
+    for record, path in zip(records, files):
+        if path in grandfathered:
+            continue
+        prefix = f"{path} id={record.get('id')!r}"
+        if record.get("localization_schema_version") != 1:
+            errors.append(f"{prefix}: new case must set localization_schema_version=1")
+        for stem in CARD_PRESENTATION_FIELDS:
+            for language in CARD_LANGUAGES:
+                field = f"{stem}_{language}"
+                if not isinstance(record.get(field), str) or not record[field].strip():
+                    errors.append(f"{prefix}: missing translated display field {field}")
+    return errors
+
 def validate_records(records):
     """The public feed must satisfy the dashboard contract before publication."""
     errors=[]; seen=set()
@@ -200,6 +228,7 @@ def compose(manifest, records, feed_updated_at=None):
 def validate_store(root):
     manifest, records, files = load_store(root)
     errors=validate_records(records)
+    errors.extend(validate_new_case_localization(records, files))
     if manifest.get("record_count") is not None and len(records) < int(manifest["record_count"]):
         errors.append(f"record count shrank from migration baseline {manifest['record_count']} to {len(records)}")
     if errors:
@@ -233,6 +262,7 @@ def build(root, output):
     root=Path(root)
     manifest, records, files=load_store(root)
     errors=validate_records(records)
+    errors.extend(validate_new_case_localization(records, files))
     if errors:
         raise ValueError("Store validation failed:\n" + "\n".join(errors[:50]))
     if len(records) < int(manifest.get("record_count") or 0):
