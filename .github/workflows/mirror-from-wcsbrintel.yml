@@ -67,6 +67,9 @@ jobs:
               if f.name=='_manifest.json':
                   continue
               copyfile(f,root/f.relative_to(upstream))
+          # Keep validation contracts aligned with the canonical source.
+          for name in ('case_store.py', 'legacy-card-localization-paths.json', 'test_case_localization.py'):
+              copyfile(upstream/'scripts'/name,root/'scripts'/name)
           # Public-only web resources (including public restricted-area client).
           # Do not copy GitHub workflows, Firebase, credentials or private reports.
           for f in (upstream/'web').rglob('*'):
@@ -93,6 +96,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          python -m unittest discover -s scripts -p test_case_localization.py
           python scripts/case_store.py validate --root cases
           python scripts/case_store.py build --root cases --output cases.json
           python -m json.tool cases.json > /dev/null
@@ -102,7 +106,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for path in cases cases.json web index.html assets research reportage restricted media \
+          for path in cases cases.json scripts/case_store.py scripts/legacy-card-localization-paths.json scripts/test_case_localization.py web index.html assets research reportage restricted media \
             routes.json publications.json papers.json news.json reports-weekly.json \
             reports-semiannual.json reports-annual.json reports-institutional.json; do
             if [[ -e "$path" ]]; then git add -A -- "$path"; fi
