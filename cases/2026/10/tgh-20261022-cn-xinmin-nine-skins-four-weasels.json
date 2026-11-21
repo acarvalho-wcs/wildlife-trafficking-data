@@ -1,0 +1,111 @@
+{
+  "id": "tgh-20261022-cn-xinmin-nine-skins-four-weasels",
+  "status": "VALIDATED",
+  "country": "China",
+  "country_code": "CN",
+  "event_date": "2026-10-22",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-11-20",
+  "publication_date_precision": "day",
+  "coordinates": {
+    "lat": 41.99083,
+    "lon": 122.82528
+  },
+  "coordinate_precision": "GENERALIZED_REFERENCE_NOT_EXACT",
+  "source_label": "Shenyang Public Security Bureau",
+  "source_url": "https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html",
+  "source_alternative_url": null,
+  "fauna_groups_aggregated": [
+    "Mamíferos"
+  ],
+  "taxon_text": "黄鼬 (doninha-amarela; Mustela sibirica não confirmada por identificação formal)",
+  "modal_primary": "Não informado",
+  "quantity_count": 4,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Mamíferos": 4
+  },
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_PLOTTABLE_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Extremos geográficos insuficientes para desenhar trecho sem inferência.",
+  "route_audit_note_en": "No two documented geographic endpoints to plot.",
+  "route_audit_note_es": "Sin dos extremos geográficos documentados para dibujar tramo.",
+  "is_exact_seizure_position": false,
+  "source_reconciliation_status": "TG_H_SOURCES_REVIEWED_2026_11_21",
+  "ingestion_batch": "TG-H-2026-11-21-7-USER-APPROVED",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED",
+  "context_style": "2026-11-10_five_markers_strict",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Polícia de Shenyang, 20/11/2026",
+      "url": "https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html"
+    },
+    {
+      "id": "T",
+      "type": "technical_work",
+      "label": "Administração Nacional de Florestas e Pastagens da China, 12/08/2026",
+      "url": "https://www.forestry.gov.cn/lyj/1/zhzs/20260812/683428.html"
+    },
+    {
+      "id": "T",
+      "type": "technical_work",
+      "label": "Síntese jurídica de caso judicial de Pangjin/Liaoning, 20/03/2025 (fatos e julgamento anteriores)",
+      "url": "https://web.bbc.edu.cn/pfzt/2025/0320/c3253a114077/page.htm"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-21",
+    "categories_present": [
+      "O",
+      "T"
+    ],
+    "no_forced_references": true,
+    "no_route_inference": true
+  },
+  "localization_schema_version": 1,
+  "image_url": null,
+  "image_source_url": "https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html",
+  "image_status": "SOURCE_PAGE_ONLY",
+  "editorial_qa_note_pt": "Não somar peles aos quatro animais vivos.",
+  "location_label_pt": "Qian Dang Bao, Xinmin, Shenyang, China",
+  "title_pt": "Xinmin: nove peles apreendidas e quatro doninhas resgatadas",
+  "fauna_label_pt": "4 doninhas vivas e 9 peles, unidades distintas",
+  "taxon_text_pt": "黄鼬 (doninha-amarela; Mustela sibirica não confirmada por identificação formal)",
+  "modal_label_pt": "Não informado",
+  "quantity_label_pt": "4 vivos e 9 peles, separados",
+  "quantity_note_pt": "Referência de Xinmin; armadilhas em área rural não geocodificadas. Não somar peles aos quatro animais vivos.",
+  "geographic_note_pt": "Referência de Xinmin; armadilhas em área rural não geocodificadas.",
+  "card_text_pt": "Apreendidas 9 peles de doninha e resgatados 4 animais vivos em 22/10; venda futura declarada.",
+  "context_pt": "[O] Em 22/10, após denúncia sobre armadilhas próximas a áreas agrícolas em Xinmin, a polícia de Shenyang deteve duas pessoas e apreendeu nove peles de doninhas-amarelas (黄鼬); quatro animais vivos foram resgatados e soltos. Os suspeitos relataram a intenção de revender as peles quando voltassem à localidade de origem, não identificada na fonte. Não houve confirmação de venda concluída, comprador ou rota comercial percorrida; o comunicado é de 20/11.\n\n[T] Material publicado pela Administração Nacional de Florestas e Pastagens da China (agosto de 2026) identifica o 黄鼬 como fauna terrestre protegida na categoria nacional “três valores” e documenta a persistência de caça e comércio ilegais. O enquadramento é compatível com a acusação de caça ilegal em Xinmin, mas não constitui prova adicional sobre estes suspeitos.\n\n[T] Um processo de Pangjin, também na província de Liaoning, analisado em 2023 e resumido em publicação jurídica de 2025, documentou a divisão de funções entre caçador, comprador de peles e revendedor de doninhas-amarelas, com punições por captura e comércio ilegais. É um antecedente regional diretamente relevante para investigar eventual comprador das nove peles de Xinmin; não comprova que os dois casos compartilhem pessoas, fornecedores ou mercado de destino.",
+  "references_text_pt": "[O] Polícia de Shenyang, 20/11/2026 — https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html\n[T] Administração Nacional de Florestas e Pastagens da China, 12/08/2026 — https://www.forestry.gov.cn/lyj/1/zhzs/20260812/683428.html\n[T] Síntese jurídica de caso judicial de Pangjin/Liaoning, 20/03/2025 (fatos e julgamento anteriores) — https://web.bbc.edu.cn/pfzt/2025/0320/c3253a114077/page.htm",
+  "location_label_en": "Xinmin, Shenyang, Liaoning, China",
+  "title_en": "Nine weasel skins seized and four live weasels rescued in Xinmin",
+  "fauna_label_en": "Four live yellow weasels plus nine separate skins",
+  "taxon_text_en": "黄鼬 (doninha-amarela; Mustela sibirica não confirmada por identificação formal)",
+  "modal_label_en": "Not reported",
+  "quantity_label_en": "4 live animals; 9 skins (separate)",
+  "quantity_note_en": "Xinmin reference; farmland trap locations not mapped. Quantities are kept in the original units.",
+  "geographic_note_en": "Xinmin reference; farmland trap locations not mapped.",
+  "card_text_en": "On 22 October police seized nine yellow-weasel skins and rescued four live weasels; sale of skins was intended.",
+  "context_en": "[O] On 22 October, after a report of traps near farmland in Xinmin, Shenyang police detained two people, recovered nine yellow-weasel (黄鼬) skins and rescued four live animals, later released. The suspects said they planned to resell the skins after returning to an unspecified home locality. Neither a completed transaction, buyer nor traveled commercial route is confirmed; the police bulletin was issued on 20 November.\n\n[T] An August 2026 article published by China's National Forestry and Grassland Administration identifies yellow weasels as protected terrestrial wildlife under the national “three values” category and documents persistent illegal trapping and sales. This helps explain the legal context of the Xinmin investigation but is not additional evidence against its suspects.\n\n[T] A Panjin case, also in Liaoning province, examined in court in 2023 and summarized in a 2025 legal publication, documented separate roles for trappers, pelt purchasers and resellers in illegal yellow-weasel trade. This regional precedent makes the potential buyer of the nine Xinmin skins a specific investigative lead, without showing shared actors, suppliers or destination markets.",
+  "references_text_en": "[O] Polícia de Shenyang, 20/11/2026 — https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html\n[T] Administração Nacional de Florestas e Pastagens da China, 12/08/2026 — https://www.forestry.gov.cn/lyj/1/zhzs/20260812/683428.html\n[T] Síntese jurídica de caso judicial de Pangjin/Liaoning, 20/03/2025 (fatos e julgamento anteriores) — https://web.bbc.edu.cn/pfzt/2025/0320/c3253a114077/page.htm",
+  "location_label_es": "Xinmin, Shenyang, Liaoning, China",
+  "title_es": "Nueve pieles incautadas y cuatro comadrejas vivas rescatadas en Xinmin",
+  "fauna_label_es": "Cuatro comadrejas vivas y nueve pieles aparte",
+  "taxon_text_es": "黄鼬 (doninha-amarela; Mustela sibirica não confirmada por identificação formal)",
+  "modal_label_es": "No informado",
+  "quantity_label_es": "4 vivos; 9 pieles (separados)",
+  "quantity_note_es": "Referencia de Xinmin; trampas en campos sin georreferencia. Quantities are kept in the original units.",
+  "geographic_note_es": "Referencia de Xinmin; trampas en campos sin georreferencia.",
+  "card_text_es": "El 22/10 la policía incautó nueve pieles de comadreja y rescató cuatro ejemplares vivos; la venta era prevista.",
+  "context_es": "[O] El 22/10, tras una denuncia por trampas instaladas junto a campos agrícolas en Xinmin, la policía de Shenyang detuvo a dos personas, incautó nueve pieles de comadreja amarilla (黄鼬) y rescató cuatro ejemplares vivos, posteriormente liberados. Los sospechosos declararon que pretendían revender las pieles al regresar a una localidad de origen no identificada. No se ha confirmado una venta, comprador ni ruta comercial recorrida; el boletín policial fue publicado el 20/11.\n\n[T] Una publicación de agosto de 2026 de la Administración Nacional de Bosques y Pastizales de China identifica al 黄鼬 como fauna terrestre protegida bajo la categoría nacional de los «tres valores» y documenta la persistencia de capturas y ventas ilegales. Es contexto jurídico, no prueba adicional contra los sospechosos de Xinmin.\n\n[T] Un caso de Panjin, también en la provincia de Liaoning, examinado judicialmente en 2023 y resumido en una publicación jurídica de 2025, documentó funciones diferenciadas de capturadores, compradores de pieles y revendedores de comadrejas amarillas. Constituye un antecedente regional pertinente para indagar posibles compradores de las nueve pieles de Xinmin, sin demostrar actores ni rutas compartidas.",
+  "references_text_es": "[O] Polícia de Shenyang, 20/11/2026 — https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html\n[T] Administração Nacional de Florestas e Pastagens da China, 12/08/2026 — https://www.forestry.gov.cn/lyj/1/zhzs/20260812/683428.html\n[T] Síntese jurídica de caso judicial de Pangjin/Liaoning, 20/03/2025 (fatos e julgamento anteriores) — https://web.bbc.edu.cn/pfzt/2025/0320/c3253a114077/page.htm",
+  "reported_skins": 9,
+  "confirmed_live_animals": 4
+}

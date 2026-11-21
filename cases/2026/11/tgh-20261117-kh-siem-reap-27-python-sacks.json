@@ -1,0 +1,128 @@
+{
+  "id": "tgh-20261117-kh-siem-reap-27-python-sacks",
+  "status": "VALIDATED",
+  "country": "Camboja",
+  "country_code": "KH",
+  "event_date": "2026-11-17",
+  "event_end_date": "2026-11-18",
+  "event_date_precision": "range",
+  "publication_date": "2026-11-19",
+  "publication_date_precision": "day",
+  "coordinates": {
+    "lat": 13.2568407,
+    "lon": 103.8375389
+  },
+  "coordinate_precision": "GENERALIZED_REFERENCE_NOT_EXACT",
+  "source_label": "ThmeyThmey / Siem Reap Gendarmerie",
+  "source_url": "https://www.khmertimeskh.com/502060627/siem-reap-police-arrest-wildlife-smuggling-suspect-with-27-pythons/",
+  "source_alternative_url": "https://thmeythmey.com/index.php/detail/164460",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Pítons silvestres; quantidade individual e espécie não especificadas",
+  "modal_primary": "Não informado",
+  "quantity_count": null,
+  "quantity_kind": "weight_animals_uncounted",
+  "quantity_qualifier": "reported_incomparable_units",
+  "quantity_by_group": {},
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_PLOTTABLE_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Extremos geográficos insuficientes para desenhar trecho sem inferência.",
+  "route_audit_note_en": "No two documented geographic endpoints to plot.",
+  "route_audit_note_es": "Sin dos extremos geográficos documentados para dibujar tramo.",
+  "is_exact_seizure_position": false,
+  "source_reconciliation_status": "TG_H_SOURCES_REVIEWED_2026_11_21",
+  "ingestion_batch": "TG-H-2026-11-21-7-USER-APPROVED",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED",
+  "context_style": "2026-11-10_five_markers_strict",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Source",
+      "url": "https://thmeythmey.com/index.php/detail/164460"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Source",
+      "url": "https://postkhmer.com/national/news/956751"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Brooks, Allison e Reynolds (2007), Biological Conservation",
+      "url": "https://doi.org/10.1016/j.biocon.2007.07.009"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Brooks et al. (2010), Biological Conservation",
+      "url": "https://doi.org/10.1016/j.biocon.2010.05.023"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Brooks et al. (2010), The Journal of Development Studies",
+      "url": "https://doi.org/10.1080/00220380903012714"
+    },
+    {
+      "id": "N",
+      "type": "related_journalism",
+      "label": "Mongabay, investigação sobre o comércio ilegal de fauna no Camboja (05/08/2026)",
+      "url": "https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-21",
+    "categories_present": [
+      "O",
+      "S",
+      "N"
+    ],
+    "no_forced_references": true,
+    "no_route_inference": true
+  },
+  "localization_schema_version": 1,
+  "image_url": null,
+  "image_source_url": "https://www.khmertimeskh.com/502060627/siem-reap-police-arrest-wildlife-smuggling-suspect-with-27-pythons/",
+  "image_status": "SOURCE_PAGE_ONLY",
+  "editorial_qa_note_pt": "Os 27 são sacos, não número de serpentes; proveniência e destino desconhecidos.",
+  "location_label_pt": "Siem Reap (local exato não especificado), Camboja",
+  "title_pt": "Siem Reap: 27 sacos de pítons apreendidos, 318,4 kg",
+  "fauna_label_pt": "Pítons; 27 sacos e 318,4 kg, sem contagem individual",
+  "taxon_text_pt": "Pítons silvestres; quantidade individual e espécie não especificadas",
+  "modal_label_pt": "Não informado",
+  "quantity_label_pt": "27 sacos; 318,4 kg; indivíduos desconhecidos",
+  "quantity_note_pt": "Centro da comuna Chong Khneas, não endereço da apreensão. Os 27 são sacos, não número de serpentes; proveniência e destino desconhecidos.",
+  "geographic_note_pt": "Centro da comuna Chong Khneas, não endereço da apreensão.",
+  "card_text_pt": "Apreensão de 27 sacos de pítons em 17–18/11 (318,4 kg); quantidade de serpentes desconhecida.",
+  "context_pt": "[O] Entre 17 e 18/11, a Gendarmaria de Siem Reap, com autoridades locais e florestais, interveio contra transporte e armazenamento ilegais de pítons em Chong Khneas. Um suspeito foi detido e 27 sacos de serpentes, com 318,4 kg ao todo, foram apreendidos. Os 27 são sacos, não indivíduos; número de animais, espécies exatas, origem e destino permanecem desconhecidos.\n\n[S] Brooks, Allison e Reynolds (2007) documentaram a intensa exploração de serpentes aquáticas no lago Tonlé Sap e a pressão do comércio de peles, enquanto Brooks et al. (2010, Biological Conservation) analisaram demanda, preços e o papel da alimentação de crocodilos em cativeiro. Em outro estudo, Brooks, Kebede, Allison e Reynolds (2010, Journal of Development Studies) examinaram a relação entre capturadores e intermediários, incluindo crédito, acesso a mercados e concorrência entre compradores. Esses estudos ajudam a contextualizar o comércio regional de serpentes. Tratam de outras serpentes e de um período anterior, sem identificar a cadeia responsável pelas pítons apreendidas em 2026.\n\n[N] Investigação da Mongabay (agosto de 2026) descreve comércio ilegal de produtos de fauna no Camboja e possíveis conexões com outras atividades ilícitas. O antecedente sustenta a pertinência de apurar fornecedores, armazenagem e compradores, mas não vincula os suspeitos de Chong Khneas a essas redes.",
+  "references_text_pt": "[O] Source — https://thmeythmey.com/index.php/detail/164460\n[O] Source — https://postkhmer.com/national/news/956751\n[S] Brooks, Allison e Reynolds (2007), Biological Conservation — https://doi.org/10.1016/j.biocon.2007.07.009\n[S] Brooks et al. (2010), Biological Conservation — https://doi.org/10.1016/j.biocon.2010.05.023\n[S] Brooks et al. (2010), The Journal of Development Studies — https://doi.org/10.1080/00220380903012714\n[N] Mongabay, investigação sobre o comércio ilegal de fauna no Camboja (05/08/2026) — https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/",
+  "location_label_en": "Chong Khneas, Siem Reap, Cambodia",
+  "title_en": "Twenty-seven sacks of pythons seized in Siem Reap (318.4 kg)",
+  "fauna_label_en": "Pythons: 27 sacks, 318.4 kg; individual count unknown",
+  "taxon_text_en": "Pítons silvestres; quantidade individual e espécie não especificadas",
+  "modal_label_en": "Not reported",
+  "quantity_label_en": "27 sacks; 318.4 kg (animal count unknown)",
+  "quantity_note_en": "Chong Khneas commune reference, not exact premises. Quantities are kept in the original units.",
+  "geographic_note_en": "Chong Khneas commune reference, not exact premises.",
+  "card_text_en": "On 17–18 November authorities seized 27 sacks of pythons weighing 318.4 kg; the number of animals is unknown.",
+  "context_en": "[O] On 17–18 November the Siem Reap Gendarmerie, together with local and forestry authorities, intervened against illegal python transport and storage in Chong Khneas. One suspect was detained and 27 sacks containing snakes, weighing 318.4 kg in total, were seized. The number 27 refers to sacks, not individual snakes; the animal count, precise taxa, source and destination remain unknown.\n\n[S] Brooks, Allison and Reynolds (2007) documented intensive harvesting of Tonlé Sap aquatic snakes and pressure from the skin trade. Brooks et al. (2010, Biological Conservation) examined demand, prices and farmed-crocodile feed markets. A separate study by Brooks, Kebede, Allison and Reynolds (2010, Journal of Development Studies) analyzed relations between hunters and intermediaries, including credit, market access and competition among traders. These studies help contextualize regional snake-trade dynamics. They concern predominantly other snake groups and an earlier period; they do not identify the supply chain behind the 2026 python seizure.\n\n[N] An August 2026 Mongabay investigation describes illegal wildlife-product trading in Cambodia and alleged connections with other illicit activities. It provides a reason to examine suppliers, storage and buyers, but does not link the Chong Khneas suspects to those networks.",
+  "references_text_en": "[O] Source — https://thmeythmey.com/index.php/detail/164460\n[O] Source — https://postkhmer.com/national/news/956751\n[S] Brooks, Allison e Reynolds (2007), Biological Conservation — https://doi.org/10.1016/j.biocon.2007.07.009\n[S] Brooks et al. (2010), Biological Conservation — https://doi.org/10.1016/j.biocon.2010.05.023\n[S] Brooks et al. (2010), The Journal of Development Studies — https://doi.org/10.1080/00220380903012714\n[N] Mongabay, investigação sobre o comércio ilegal de fauna no Camboja (05/08/2026) — https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/",
+  "location_label_es": "Chong Khneas, Siem Reap, Camboya",
+  "title_es": "Incautan 27 sacos de pitones en Siem Reap (318,4 kg)",
+  "fauna_label_es": "Pitones: 27 sacos, 318,4 kg; individuos desconocidos",
+  "taxon_text_es": "Pítons silvestres; quantidade individual e espécie não especificadas",
+  "modal_label_es": "No informado",
+  "quantity_label_es": "27 sacos; 318,4 kg (individuos desconocidos)",
+  "quantity_note_es": "Referencia de Chong Khneas, no dirección exacta. Quantities are kept in the original units.",
+  "geographic_note_es": "Referencia de Chong Khneas, no dirección exacta.",
+  "card_text_es": "El 17–18/11 se incautaron 27 sacos de pitones con 318,4 kg; el número de animales es desconocido.",
+  "context_es": "[O] Entre el 17 y el 18/11, la Gendarmería de Siem Reap, con autoridades locales y forestales, intervino contra el transporte y almacenamiento ilegales de pitones en Chong Khneas. Un sospechoso fue detenido y se decomisaron 27 sacos con serpientes, de 318,4 kg en total. Los 27 son sacos, no individuos; se desconocen la cantidad de ejemplares, las especies exactas, el origen y el destino.\n\n[S] Brooks, Allison y Reynolds (2007) documentaron la explotación intensiva de serpientes acuáticas de Tonlé Sap y la presión del comercio de pieles. Brooks et al. (2010, Biological Conservation) estudiaron la demanda, los precios y el uso de serpientes como alimento de cocodrilos de cría. Otro estudio de Brooks, Kebede, Allison y Reynolds (2010, Journal of Development Studies) examinó las relaciones entre capturadores e intermediarios, el crédito, el acceso a mercados y la competencia entre comerciantes. Estos estudios permiten contextualizar el comercio regional de serpientes. Tratan principalmente otras serpientes y un período anterior; no identifican la cadena de las pitones decomisadas en 2026.\n\n[N] Una investigación de Mongabay de agosto de 2026 describe comercio ilegal de productos de fauna en Camboya y presuntas conexiones con otras actividades ilícitas. Justifica examinar proveedores, depósitos y compradores, pero no demuestra relación entre esas redes y los sospechosos de Chong Khneas.",
+  "references_text_es": "[O] Source — https://thmeythmey.com/index.php/detail/164460\n[O] Source — https://postkhmer.com/national/news/956751\n[S] Brooks, Allison e Reynolds (2007), Biological Conservation — https://doi.org/10.1016/j.biocon.2007.07.009\n[S] Brooks et al. (2010), Biological Conservation — https://doi.org/10.1016/j.biocon.2010.05.023\n[S] Brooks et al. (2010), The Journal of Development Studies — https://doi.org/10.1080/00220380903012714\n[N] Mongabay, investigação sobre o comércio ilegal de fauna no Camboja (05/08/2026) — https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/",
+  "reported_sacks": 27,
+  "reported_mass_kg": 318.4
+}

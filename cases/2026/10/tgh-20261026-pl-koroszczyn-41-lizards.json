@@ -1,0 +1,116 @@
+{
+  "id": "tgh-20261026-pl-koroszczyn-41-lizards",
+  "status": "VALIDATED",
+  "country": "Polônia",
+  "country_code": "PL",
+  "event_date": "2026-10-26",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "publication_date": "2026-10-28",
+  "publication_date_precision": "day",
+  "coordinates": {
+    "lat": 52.0766194,
+    "lon": 23.5135444
+  },
+  "coordinate_precision": "GENERALIZED_REFERENCE_NOT_EXACT",
+  "source_label": "Krajowa Administracja Skarbowa",
+  "source_url": "https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek",
+  "source_alternative_url": "https://www.zwierzaki.info/artykuly/kas-udaremnila-przemyt-41-zywych-jaszczurek-na-granicy-z-bialorusia",
+  "fauna_groups_aggregated": [
+    "Répteis"
+  ],
+  "taxon_text": "Lagartos dos gêneros Goniurosaurus, Smaug, Cordylus/Cordyllus (como informado), Calotes e Lacerta; identificação taxonômica preliminar",
+  "modal_primary": "Terrestre",
+  "quantity_count": 41,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Répteis": 41
+  },
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "DOCUMENTED_BORDER_CROSSING",
+  "route_audit_note_pt": "Belarus → terminal Koroszczyn documentados; não inferir viagem anterior, local de captura ou entrega.",
+  "route_audit_note_en": "Belarus to Koroszczyn crossing documented; no inferred source or onward travel.",
+  "route_audit_note_es": "Documentado cruce Bielorrusia–Koroszczyn; sin origen ni destino inferidos.",
+  "is_exact_seizure_position": false,
+  "source_reconciliation_status": "TG_H_SOURCES_REVIEWED_2026_11_21",
+  "ingestion_batch": "TG-H-2026-11-21-7-USER-APPROVED",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED",
+  "context_style": "2026-11-10_five_markers_strict",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Administração Nacional Tributária/Aduaneira da Polônia (KAS), 28/10/2026",
+      "url": "https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Marshall, Strine & Hughes (2020), Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-020-18523-4"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "“Exported illegally, threatened locally: South Africa in the global reptile pet trade” (2025), African Journal of Herpetology",
+      "url": "https://doi.org/10.1080/21564574.2025.2542207"
+    },
+    {
+      "id": "N",
+      "type": "related_journalism",
+      "label": "Mongabay (16/10/2026), “Legal gaps allow rampant pet trade, poaching reptiles and amphibians towards extinction”",
+      "url": "https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-21",
+    "categories_present": [
+      "O",
+      "S",
+      "N"
+    ],
+    "no_forced_references": true,
+    "no_route_inference": true
+  },
+  "localization_schema_version": 1,
+  "image_url": null,
+  "image_source_url": "https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek",
+  "image_status": "SOURCE_PAGE_ONLY",
+  "editorial_qa_note_pt": "Somente travessia de Belarus para o terminal polonês comprovada.",
+  "location_label_pt": "Koroszczyn, passagem fronteiriça Belarus–Polônia, Polônia",
+  "title_pt": "Polônia: 41 lagartos interceptados em caminhão vindo de Belarus",
+  "fauna_label_pt": "41 lagartos vivos de diferentes grupos",
+  "taxon_text_pt": "Lagartos dos gêneros Goniurosaurus, Smaug, Cordylus/Cordyllus (como informado), Calotes e Lacerta; identificação taxonômica preliminar",
+  "modal_label_pt": "Terrestre",
+  "quantity_label_pt": "41 lagartos vivos",
+  "quantity_note_pt": "Terminal aduaneiro de referência, não a posição do caminhão. Somente travessia de Belarus para o terminal polonês comprovada.",
+  "geographic_note_pt": "Terminal aduaneiro de referência, não a posição do caminhão.",
+  "card_text_pt": "41 lagartos escondidos em caminhão vindo de Belarus em 26/10; comprador polonês era destino pretendido.",
+  "context_pt": "[O] Em 26/10/2026, a administração aduaneira polonesa interceptou em Koroszczyn um caminhão procedente de Belarus e encontrou 41 lagartos vivos escondidos em recipientes na cabine e no equipamento da carreta. A identificação preliminar abrangeu *Goniurosaurus*, *Smaug*, *Cordylus* (grafado “Cordyllus” no comunicado), *Calotes* e *Lacerta*; somente parte dos exemplares foi identificada como protegida pela CITES. Segundo declaração atribuída ao motorista, as espécies haviam sido compradas pela internet na Rússia para revenda a um comprador não identificado na Polônia por € 3 mil. Compra declarada na Rússia, entrada por Belarus e venda pretendida na Polônia não demonstram local de captura, trajeto completo ou entrega realizada.\n\n[S] Marshall, Strine e Hughes (2020) documentaram a dimensão do comércio online de répteis e lacunas da cobertura internacional, pertinentes ao canal digital de aquisição relatado. Estudo publicado no *African Journal of Herpetology* (2025), sobre *Smaug giganteus*, identificou inconsistências em registros CITES e riscos de declaração indevida de origem cativa. A presença preliminar do gênero *Smaug* neste caso não comprova que os animais sejam *S. giganteus* nem que tenham origem fraudulenta.\n\n[N] Investigação da Mongabay (outubro de 2026) descreveu vulnerabilidades na regulação do comércio internacional de répteis, inclusive na União Europeia. O antecedente reforça a importância de conferir identificação taxonômica, documentação e cadeia de aquisição, sem atribuir ao motorista redes ou práticas investigadas na reportagem.",
+  "references_text_pt": "[O] Administração Nacional Tributária/Aduaneira da Polônia (KAS), 28/10/2026 — https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek\n[S] Marshall, Strine & Hughes (2020), Nature Communications — https://doi.org/10.1038/s41467-020-18523-4\n[S] “Exported illegally, threatened locally: South Africa in the global reptile pet trade” (2025), African Journal of Herpetology — https://doi.org/10.1080/21564574.2025.2542207\n[N] Mongabay (16/10/2026), “Legal gaps allow rampant pet trade, poaching reptiles and amphibians towards extinction” — https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+  "location_label_en": "Koroszczyn border terminal, Poland",
+  "title_en": "Customs seize 41 live lizards entering Poland from Belarus",
+  "fauna_label_en": "41 live lizards, some CITES-listed",
+  "taxon_text_en": "Lagartos dos gêneros Goniurosaurus, Smaug, Cordylus/Cordyllus (como informado), Calotes e Lacerta; identificação taxonômica preliminar",
+  "modal_label_en": "Road transport",
+  "quantity_label_en": "41 live lizards",
+  "quantity_note_en": "Reference customs terminal, not truck's exact position. Quantities are kept in the original units.",
+  "geographic_note_en": "Reference customs terminal, not truck's exact position.",
+  "card_text_en": "On 26 October customs found 41 lizards concealed in a truck entering from Belarus; intended resale in Poland was reported.",
+  "context_en": "[O] On 26 October 2026 Polish customs officers stopped a truck entering Koroszczyn from Belarus and found 41 live lizards concealed in containers in the driver's cab and trailer machinery. Preliminary identification included *Goniurosaurus*, *Smaug*, *Cordylus* (spelled “Cordyllus” in the official notice), *Calotes* and *Lacerta*; only some specimens were identified as CITES-listed. According to a statement attributed to the driver, the animals had been purchased online in Russia and were intended for sale to an unidentified buyer in Poland for €3,000. The declared purchase in Russia, entry from Belarus and intended Polish sale do not establish the animals' capture sites, complete journey or a completed delivery.\n\n[S] Marshall, Strine and Hughes (2020) documented the scale of online reptile trade and gaps in international regulatory coverage, relevant to the reported digital purchase. A 2025 study in the *African Journal of Herpetology* examined *Smaug giganteus* trade and identified discrepancies in CITES records and risks of falsely declared captive breeding. The provisional identification of the genus *Smaug* here does not establish that any seized lizard was *S. giganteus* or had a fraudulent origin.\n\n[N] An October 2026 Mongabay investigation explored weaknesses in international reptile-trade regulations, including those affecting the European Union. It underscores the need to verify taxonomy, permits and the acquisition chain without linking the driver to any networks or practices described in that reporting.",
+  "references_text_en": "[O] Administração Nacional Tributária/Aduaneira da Polônia (KAS), 28/10/2026 — https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek\n[S] Marshall, Strine & Hughes (2020), Nature Communications — https://doi.org/10.1038/s41467-020-18523-4\n[S] “Exported illegally, threatened locally: South Africa in the global reptile pet trade” (2025), African Journal of Herpetology — https://doi.org/10.1080/21564574.2025.2542207\n[N] Mongabay (16/10/2026), “Legal gaps allow rampant pet trade, poaching reptiles and amphibians towards extinction” — https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+  "location_label_es": "Terminal fronteriza de Koroszczyn, Polonia",
+  "title_es": "Aduanas incautan 41 lagartos vivos entrando de Bielorrusia",
+  "fauna_label_es": "41 lagartos vivos, algunos protegidos por CITES",
+  "taxon_text_es": "Lagartos dos gêneros Goniurosaurus, Smaug, Cordylus/Cordyllus (como informado), Calotes e Lacerta; identificação taxonômica preliminar",
+  "modal_label_es": "Terrestre",
+  "quantity_label_es": "41 lagartos vivos",
+  "quantity_note_es": "Terminal de referencia, no posición exacta del camión. Quantities are kept in the original units.",
+  "geographic_note_es": "Terminal de referencia, no posición exacta del camión.",
+  "card_text_es": "El 26/10 se hallaron 41 lagartos ocultos en un camión procedente de Bielorrusia; se declaró intención de venderlos.",
+  "context_es": "[O] El 26/10/2026, aduaneros polacos interceptaron en Koroszczyn un camión procedente de Bielorrusia y encontraron 41 lagartos vivos ocultos en recipientes dentro de la cabina y los equipos del remolque. La identificación preliminar incluyó *Goniurosaurus*, *Smaug*, *Cordylus* (escrito «Cordyllus» en el comunicado), *Calotes* y *Lacerta*; solo algunos ejemplares fueron identificados como sujetos a la CITES. Según declaraciones atribuidas al conductor, los animales se habían comprado por internet en Rusia para venderlos a un comprador no identificado en Polonia por 3.000 euros. La compra declarada en Rusia, la entrada desde Bielorrusia y la venta prevista en Polonia no prueban el lugar de captura, el itinerario completo ni una entrega consumada.\n\n[S] Marshall, Strine y Hughes (2020) documentaron la amplitud del comercio digital de reptiles y las deficiencias de la regulación internacional, relevantes para la adquisición por internet declarada. Un estudio de 2025 en *African Journal of Herpetology* examinó el comercio de *Smaug giganteus* y señaló inconsistencias en registros CITES y riesgos de falsa declaración de cría en cautividad. La identificación provisional del género *Smaug* en este caso no demuestra que los ejemplares fueran *S. giganteus* ni tuvieran procedencia fraudulenta.\n\n[N] Una investigación de Mongabay de octubre de 2026 abordó vacíos regulatorios del comercio internacional de reptiles, también en la Unión Europea. Es pertinente para verificar identificación taxonómica, permisos y cadena de adquisición, pero no vincula al conductor con las redes o prácticas investigadas.",
+  "references_text_es": "[O] Administração Nacional Tributária/Aduaneira da Polônia (KAS), 28/10/2026 — https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek\n[S] Marshall, Strine & Hughes (2020), Nature Communications — https://doi.org/10.1038/s41467-020-18523-4\n[S] “Exported illegally, threatened locally: South Africa in the global reptile pet trade” (2025), African Journal of Herpetology — https://doi.org/10.1080/21564574.2025.2542207\n[N] Mongabay (16/10/2026), “Legal gaps allow rampant pet trade, poaching reptiles and amphibians towards extinction” — https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/"
+}

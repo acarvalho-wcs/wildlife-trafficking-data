@@ -1,0 +1,109 @@
+{
+  "id": "tgh-20261121-mx-los-tuxtlas-two-parakeets",
+  "status": "VALIDATED",
+  "country": "México",
+  "country_code": "MX",
+  "event_date": null,
+  "event_end_date": null,
+  "event_date_precision": "unknown",
+  "publication_date": "2026-11-19",
+  "publication_date_precision": "day",
+  "coordinates": {
+    "lat": 18.3893,
+    "lon": -94.9765
+  },
+  "coordinate_precision": "GENERALIZED_REFERENCE_NOT_EXACT",
+  "source_label": "e-Veracruz / FGR-Profepa",
+  "source_url": "https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas",
+  "source_alternative_url": "https://de8.mx/ambiente/detienen-a-dos-por-trafico-de-psitacidos",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "Eupsittula nana (perico pecho sucio)",
+  "modal_primary": "Não informado",
+  "quantity_count": 2,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 2
+  },
+  "quantity_unassigned": 0,
+  "aggregate_operation": false,
+  "exclude_from_totals": false,
+  "route_audit_status": "NO_PLOTTABLE_DOCUMENTED_ROUTE",
+  "route_audit_note_pt": "Extremos geográficos insuficientes para desenhar trecho sem inferência.",
+  "route_audit_note_en": "No two documented geographic endpoints to plot.",
+  "route_audit_note_es": "Sin dos extremos geográficos documentados para dibujar tramo.",
+  "is_exact_seizure_position": false,
+  "source_reconciliation_status": "TG_H_SOURCES_REVIEWED_2026_11_21",
+  "ingestion_batch": "TG-H-2026-11-21-7-USER-APPROVED",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED",
+  "context_style": "2026-11-10_five_markers_strict",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Source",
+      "url": "https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Source",
+      "url": "https://cronicadexalapa.com.mx/detienen-a-dos-por-trafico-de-psitacidos-en-veracruz-coadyuva-profepa-en-carpeta-de-investigacion/"
+    },
+    {
+      "id": "S",
+      "type": "scientific",
+      "label": "Source",
+      "url": "https://doi.org/10.1371/journal.pone.0107546"
+    }
+  ],
+  "context_evidence_audit": {
+    "review_date": "2026-11-21",
+    "categories_present": [
+      "O",
+      "S"
+    ],
+    "no_forced_references": true,
+    "no_route_inference": true
+  },
+  "localization_schema_version": 1,
+  "image_url": null,
+  "image_source_url": "https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas",
+  "image_status": "SOURCE_PAGE_ONLY",
+  "editorial_qa_note_pt": "Reserva natural extensa; ponto exato da abordagem não informado.",
+  "location_label_pt": "Reserva de la Biosfera Los Tuxtlas, México",
+  "title_pt": "Dois pericos apreendidos sob suspeita de tráfico em Los Tuxtlas",
+  "fauna_label_pt": "2 pericos-de-peito-sujo (*Eupsittula nana*)",
+  "taxon_text_pt": "Eupsittula nana (perico pecho sucio)",
+  "modal_label_pt": "Não informado",
+  "quantity_label_pt": "2 aves vivas",
+  "quantity_note_pt": "Reserva ampla de Los Tuxtlas; local exato não publicado. Reserva natural extensa; ponto exato da abordagem não informado.",
+  "geographic_note_pt": "Reserva ampla de Los Tuxtlas; local exato não publicado.",
+  "card_text_pt": "A FGR apreendeu dois pericos em Los Tuxtlas; publicação de 19/11 não informa data do fato.",
+  "context_pt": "[O] A FGR apreendeu dois pericos-de-peito-sujo (*Eupsittula nana*) e deteve duas pessoas na Reserva da Biosfera Los Tuxtlas, em Veracruz; a Profepa confirmou a identificação e a falta de documentos de origem legal. Segundo a apuração divulgada em 19/11, os exemplares eram transportados inadequadamente e destinados à comercialização ilícita, mas não há destino geográfico ou data exata de apreensão confirmados.\n\n[S] Tella e Hiraldo (2014) analisaram décadas de comércio legal e ilegal de psitacídeos mexicanos e identificaram preferências de mercado que elevam a pressão sobre certas espécies. O estudo contextualiza a demanda por papagaios, sem identificar compradores ou rede ligada à ocorrência de Los Tuxtlas.",
+  "references_text_pt": "[O] Source — https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas\n[O] Source — https://cronicadexalapa.com.mx/detienen-a-dos-por-trafico-de-psitacidos-en-veracruz-coadyuva-profepa-en-carpeta-de-investigacion/\n[S] Source — https://doi.org/10.1371/journal.pone.0107546",
+  "location_label_en": "Los Tuxtlas Biosphere Reserve, Veracruz, Mexico",
+  "title_en": "Two parakeets seized in suspected trafficking in Los Tuxtlas",
+  "fauna_label_en": "2 parakeets (*Eupsittula nana*)",
+  "taxon_text_en": "Eupsittula nana (perico pecho sucio)",
+  "modal_label_en": "Not reported",
+  "quantity_label_en": "2 live birds",
+  "quantity_note_en": "Broad Los Tuxtlas reserve; no precise seizure site. Quantities are kept in the original units.",
+  "geographic_note_en": "Broad Los Tuxtlas reserve; no precise seizure site.",
+  "card_text_en": "Officials seized two parakeets from two suspects in Los Tuxtlas; the seizure date was not reported.",
+  "context_en": "[O] Federal prosecutors seized two dirty-faced parakeets (*Eupsittula nana*) and detained two people in the Los Tuxtlas Biosphere Reserve, Veracruz; Profepa identified the birds and reported no documentation establishing legal provenance. Reports published on 19 November say the birds were transported in inadequate conditions and intended for illegal sale. Neither the exact seizure date nor a geographic sales destination has been confirmed.\n\n[S] Tella and Hiraldo (2014) examined long-term legal and illegal trade in Mexican parrots and documented market preferences that increase pressure on certain species. This contextualizes demand, without identifying buyers or networks involved in the Los Tuxtlas seizure.",
+  "references_text_en": "[O] Source — https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas\n[O] Source — https://cronicadexalapa.com.mx/detienen-a-dos-por-trafico-de-psitacidos-en-veracruz-coadyuva-profepa-en-carpeta-de-investigacion/\n[S] Source — https://doi.org/10.1371/journal.pone.0107546",
+  "location_label_es": "Reserva de la Biosfera Los Tuxtlas, Veracruz, México",
+  "title_es": "Aseguran dos pericos por presunto tráfico en Los Tuxtlas",
+  "fauna_label_es": "2 pericos (*Eupsittula nana*)",
+  "taxon_text_es": "Eupsittula nana (perico pecho sucio)",
+  "modal_label_es": "No informado",
+  "quantity_label_es": "2 aves vivas",
+  "quantity_note_es": "Reserva extensa de Los Tuxtlas; sin punto exacto. Quantities are kept in the original units.",
+  "geographic_note_es": "Reserva extensa de Los Tuxtlas; sin punto exacto.",
+  "card_text_es": "Las autoridades aseguraron dos pericos a dos sospechosos en Los Tuxtlas; no se comunicó la fecha exacta.",
+  "context_es": "[O] La FGR aseguró dos pericos pecho sucio (*Eupsittula nana*) y detuvo a dos personas en la Reserva de la Biosfera Los Tuxtlas, Veracruz; Profepa identificó las aves y señaló la ausencia de documentos de procedencia legal. Los reportes publicados el 19/11 indican transporte inadecuado y comercialización ilegal prevista; no se ha confirmado la fecha exacta del aseguramiento ni un destino geográfico de venta.\n\n[S] Tella e Hiraldo (2014) analizaron el comercio legal e ilegal de psitácidos mexicanos y documentaron preferencias del mercado que incrementan la presión sobre algunas especies. Es contexto de la demanda, sin identificar compradores ni redes relacionadas con Los Tuxtlas.",
+  "references_text_es": "[O] Source — https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas\n[O] Source — https://cronicadexalapa.com.mx/detienen-a-dos-por-trafico-de-psitacidos-en-veracruz-coadyuva-profepa-en-carpeta-de-investigacion/\n[S] Source — https://doi.org/10.1371/journal.pone.0107546"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-21",
   "audited_through": "2026-10-28",
   "base_rule": "Render only movements or corridors explicitly documented in a source or explicitly attributed in the case record. Never infer an origin, destination, intermediate stop, direction, or criminal linkage from species range, nationality, geography, or contextual/historical material.",
   "rendering": {
@@ -15224,6 +15224,47 @@
         "evidence_class": "REPORTED_SOURCE_DISTRICT",
         "geometry": "schematic_admin_reference_to_city_not_real_road",
         "user_approval": true
+      }
+    },
+    {
+      "id": "tgh-20261026-pl-koroszczyn-41-lizards-crossing-r01",
+      "event_match": {
+        "event_id": "tgh-20261026-pl-koroszczyn-41-lizards"
+      },
+      "status": "DOCUMENTED",
+      "route_type": "border_crossing",
+      "direction": "forward",
+      "line_style": "solid",
+      "label_pt": "Belarus → terminal Koroszczyn (travessia interceptada)",
+      "label_en": "Belarus → Koroszczyn terminal (intercepted entry)",
+      "label_es": "Bielorrusia → terminal Koroszczyn (entrada interceptada)",
+      "segments": [
+        {
+          "from": {
+            "name": "Passagem Kozlovichi–Koroszczyn, fronteira Belarus–Polônia (referência)",
+            "country": "Belarus",
+            "lat": 52.11594,
+            "lon": 23.56588,
+            "precision": "border_context_generalized"
+          },
+          "to": {
+            "name": "Terminal de Koroszczyn (referência administrativa)",
+            "country": "Polônia",
+            "lat": 52.0766194,
+            "lon": 23.5135444,
+            "precision": "border_port"
+          }
+        }
+      ],
+      "evidence_pt": "Caminhão ingressou na Polônia vindo de Belarus com 41 lagartos, em 26/10. Linha entre referências da fronteira e terminal; não representa itinerário exato nem origem biológica na Rússia.",
+      "evidence_en": "Truck entered Poland from Belarus with 41 lizards on 26 October. This line connects reference points at the crossing and terminal; it is not a traced itinerary or proof of capture in Russia.",
+      "evidence_es": "Un camión entró a Polonia desde Bielorrusia con 41 lagartos el 26/10. La línea conecta referencias fronterizas; no representa el itinerario exacto ni prueba de captura en Rusia.",
+      "source_label": "Krajowa Administracja Skarbowa, Polônia",
+      "source_url": "https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek",
+      "tgh_audit": {
+        "user_approval": true,
+        "evidence_class": "CROSS_BORDER_INTERCEPTION",
+        "geometry": "schematic_border_to_customs_terminal_not_actual_road"
       }
     }
   ],
