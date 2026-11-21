@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "migration_status": "LIVE_GITHUB_DATA_1658_CASES",
+  "migration_status": "LIVE_GITHUB_DATA_1659_CASES",
   "source_site": {
     "name": "Observatório Global de Tráfico de Animais",
     "live_url": "https://wildlife-trafficking-dashboard.wcs-associa-6434.chatgpt.site",
@@ -10,7 +10,7 @@
   },
   "extracted_from_site_projection_at": "2026-09-22T00:00:00Z",
   "warning": "All 376 records use validated/source-reconciled case structures. PT/EN/ES fields, geodata, structured quantities and route safeguards are maintained. The 2026 sparse-country North Africa/Horn/Levant batch was ingested after full-base deduplication; source quantity discrepancies are preserved explicitly and routes are only rendered where documentary evidence supports them.",
-  "count": 1658,
+  "count": 1659,
   "reconstructed_at": "2026-09-22T08:12:00Z",
   "reconstruction_batches": [
     {
@@ -368,7 +368,7 @@
     "aggregate_flags_reviewed": true,
     "structured_quantities": true,
     "image_source_linkage_new_batch": true,
-    "updated_at": "2026-11-21T15:57:33Z",
+    "updated_at": "2026-11-21T16:18:41Z",
     "latest_ingestion_audit": "audits/2026-10-10-resume-59fd17b.json",
     "note": "Historical audit coverage remains 383 records; the linked latest ingestion audit covers the 28 additions, duplicate merge, date correction and whole-feed structural/UI validation.",
     "last_full_audit_at": "2026-10-10T11:32:58Z"
@@ -532,8 +532,8 @@
       "added_at": "2026-10-10T11:32:58Z"
     }
   ],
-  "updated_at": "2026-11-21T15:57:33Z",
-  "feed_updated_at": "2026-11-21T15:57:33Z",
+  "updated_at": "2026-11-21T16:18:41Z",
+  "feed_updated_at": "2026-11-21T16:18:41Z",
   "cases": [
     {
       "id": "2026-09-13__malkangiri-odisha",
@@ -130077,6 +130077,12 @@
           "type": "external_technical",
           "label": "Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay",
           "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023"
+        },
+        {
+          "id": "O",
+          "type": "official_followup",
+          "label": "Ministerio del Interior del Uruguay, operativo distinto de 18/11",
+          "url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas"
         }
       ],
       "route_audit_status": "NO_DOCUMENTED_ROUTE",
@@ -130106,28 +130112,35 @@
       "title_pt": "Uruguai: polícia intercepta lote comercial misto com aves silvestres e outros animais em Montevidéu",
       "fauna_label_pt": "Aproximadamente 400 aves de grupos diversos e outros animais; total silvestre não determinado",
       "card_text_pt": "Em 15/11, polícia interceptou caminhão com cerca de 400 aves, incluindo silvestres e domésticas, além de répteis e outros animais. O motorista declarou vender aves em feira local; houve apreensões adicionais em imóvel ligado ao caso.",
-      "context_pt": "[O] Em 15/11, policiais interceptaram um caminhão em Piedras Blancas transportando aproximadamente 400 aves de diferentes espécies e outros animais. O motorista declarou comercializar aves na feira local; havia espécies nativas e exóticas, dois filhotes de ema, uma coruja, lagartos e quelônios, além de animais domésticos. Uma inspeção posterior encontrou outros exemplares em imóvel vinculado ao investigado; o número de animais silvestres não foi discriminado.\n\n[S] Bergós et al. (2024) analisaram a capacidade institucional de gestão do comércio ilegal de fauna no Uruguai e identificaram necessidades de coordenação e informação entre órgãos. O estudo orienta a leitura da resposta interinstitucional deste caso, sem provar falhas específicas na fiscalização.\n\n[N] Em agosto de 2026, investigação policial distinta revelou armazenamento de animais para comercialização na região da feira de Piedras Blancas. A coincidência territorial é linha de análise de pontos de venda e fornecedores, mas não demonstra ligação entre os suspeitos. Os aparelhos telefônicos apreendidos no caso de novembro ainda aguardavam exame.\n\n[T] Dabezies, Bergós e Chouhy (2023) documentaram o mercado ilegal de fauna nativa e exótica no Uruguai e dificuldades de fiscalização. Esse contexto fundamenta a investigação da cadeia comercial local, sem identificar procedência ou rotas dos exemplares apreendidos.",
+      "context_pt": "[O] Em 15/11, policiais interceptaram um caminhão em Piedras Blancas transportando aproximadamente 400 aves de diferentes espécies e outros animais. O motorista declarou comercializar aves na feira local; havia espécies nativas e exóticas, dois filhotes de ema, uma coruja, lagartos e quelônios, além de animais domésticos. Uma inspeção posterior encontrou outros exemplares em imóvel vinculado ao investigado; o número de animais silvestres não foi discriminado.\n\n[S] Bergós et al. (2024) analisaram a capacidade institucional de gestão do comércio ilegal de fauna no Uruguai e identificaram necessidades de coordenação e informação entre órgãos. O estudo orienta a leitura da resposta interinstitucional deste caso, sem provar falhas específicas na fiscalização.\n\n[N] Em agosto de 2026, investigação policial distinta revelou armazenamento de animais para comercialização na região da feira de Piedras Blancas. A coincidência territorial é linha de análise de pontos de venda e fornecedores, mas não demonstra ligação entre os suspeitos. Os aparelhos telefônicos apreendidos no caso de novembro ainda aguardavam exame.\n\n[T] Dabezies, Bergós e Chouhy (2023) documentaram o mercado ilegal de fauna nativa e exótica no Uruguai e dificuldades de fiscalização. Esse contexto fundamenta a investigação da cadeia comercial local, sem identificar procedência ou rotas dos exemplares apreendidos.\n\n[O] Em 18/11 houve nova diligência em Camino Repetto, com apreensão adicional documentada separadamente. É a mesma investigação, porém outro local, data e lote; não somar os animais à apreensão de 15/11.",
       "modal_label_pt": "Rodoviário",
       "quantity_note_pt": "A notícia relata aproximadamente 400 aves e outros animais em lote misto doméstico/silvestre. Quantidade de fauna silvestre não separável; não somar 400 aos totais de animais silvestres.",
-      "references_text_pt": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "references_text_pt": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023\n[O] Ministerio del Interior del Uruguay, segunda diligencia 19/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas",
       "location_label_en": "Piedras Blancas, Montevideo, Uruguay (neighbourhood reference)",
       "geographic_note_en": "Neighbourhood reference coordinates. Police intercepted the vehicle near José Belloni and Domingo Arena, not at this precise map point.",
       "title_en": "Uruguay: police intercept mixed commercial bird and wildlife shipment in Montevideo",
       "fauna_label_en": "Approximately 400 mixed birds plus other animals; wild-only count unknown",
       "card_text_en": "On 15 November police stopped a truck carrying about 400 birds, including wild and domestic species, alongside reptiles and other animals. The driver reported selling birds at a local market; other animals were found at linked premises.",
-      "context_en": "[O] On 15 November police intercepted a truck in Piedras Blancas carrying approximately 400 birds of different species and other animals. The driver acknowledged selling birds at the local market; native and exotic species, two young rheas, an owl, lizards and turtles were present alongside domestic animals. A subsequent inspection of premises linked to the suspect recovered further animals. The wild-only quantity was not established.\n\n[S] Bergós et al. (2024) assessed Uruguay's institutional capacity to address illegal wildlife trade, highlighting coordination and information-management needs. The study informs analysis of this multi-agency response but does not establish particular failures in the operation.\n\n[N] A separate August 2026 police investigation documented storage of animals destined for sale around the Piedras Blancas market. The geographic overlap warrants examination of commercial venues and suppliers but does not link the suspects. Mobile phones seized during the November case awaited examination.\n\n[T] Dabezies, Bergós and Chouhy (2023) documented illegal trade in native and exotic fauna in Uruguay and regulatory challenges. This supports investigation of local supply chains without identifying the seized animals' provenance or itinerary.",
+      "context_en": "[O] On 15 November police intercepted a truck in Piedras Blancas carrying approximately 400 birds of different species and other animals. The driver acknowledged selling birds at the local market; native and exotic species, two young rheas, an owl, lizards and turtles were present alongside domestic animals. A subsequent inspection of premises linked to the suspect recovered further animals. The wild-only quantity was not established.\n\n[S] Bergós et al. (2024) assessed Uruguay's institutional capacity to address illegal wildlife trade, highlighting coordination and information-management needs. The study informs analysis of this multi-agency response but does not establish particular failures in the operation.\n\n[N] A separate August 2026 police investigation documented storage of animals destined for sale around the Piedras Blancas market. The geographic overlap warrants examination of commercial venues and suppliers but does not link the suspects. Mobile phones seized during the November case awaited examination.\n\n[T] Dabezies, Bergós and Chouhy (2023) documented illegal trade in native and exotic fauna in Uruguay and regulatory challenges. This supports investigation of local supply chains without identifying the seized animals' provenance or itinerary.\n\n[O] A separate follow-up search on 18 November at Camino Repetto resulted in an additional seizure. It belongs to the same investigation but has its own date, site and lot; do not add its animals to the 15 November seizure.",
       "modal_label_en": "Road",
       "quantity_note_en": "Approximately 400 birds plus other animals were reported in a mixed domestic/wild consignment; the wild-only number cannot be resolved and 400 is not added to wild-animal totals.",
-      "references_text_en": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "references_text_en": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023\n[O] Ministerio del Interior del Uruguay, segunda diligencia 19/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas",
       "location_label_es": "Piedras Blancas, Montevideo, Uruguay (referencia barrial)",
       "geographic_note_es": "Coordenadas de referencia del barrio. La intervención ocurrió cerca de José Belloni y Domingo Arena, no necesariamente en este punto exacto.",
       "title_es": "Uruguay: policía intercepta cargamento comercial mixto de aves y fauna en Montevideo",
       "fauna_label_es": "Unas 400 aves de distintos grupos y otros animales; cifra silvestre desconocida",
       "card_text_es": "El 15/11 la policía intervino un camión con unas 400 aves, tanto silvestres como domésticas, además de reptiles y otros animales. El conductor dijo vender aves en una feria; se hallaron más ejemplares en un inmueble vinculado.",
-      "context_es": "[O] El 15/11 la policía interceptó un camión en Piedras Blancas con aproximadamente 400 aves de diferentes especies y otros animales. El conductor declaró vender aves en la feria local; había especies nativas y exóticas, dos pichones de ñandú, un búho, lagartos y tortugas, junto con animales domésticos. Una inspección posterior de un inmueble vinculado permitió recuperar otros ejemplares. No se desglosó la cantidad exclusivamente silvestre.\n\n[S] Bergós et al. (2024) analizaron la capacidad institucional para abordar el tráfico de fauna en Uruguay e identificaron necesidades de coordinación y gestión de información. El estudio permite interpretar la respuesta conjunta, sin demostrar fallas específicas en este procedimiento.\n\n[N] Una investigación policial independiente de agosto de 2026 documentó almacenamiento de animales destinados a venta en la zona de la feria de Piedras Blancas. La coincidencia territorial orienta el examen de vendedores y proveedores, pero no acredita vínculos entre los sospechosos. Los teléfonos incautados en noviembre estaban pendientes de análisis.\n\n[T] Dabezies, Bergós y Chouhy (2023) caracterizaron el mercado ilegal de fauna nativa y exótica en Uruguay y los desafíos de control. Ese antecedente es relevante para examinar la cadena comercial local, pero no establece procedencia ni rutas de los ejemplares decomisados.",
+      "context_es": "[O] El 15/11 la policía interceptó un camión en Piedras Blancas con aproximadamente 400 aves de diferentes especies y otros animales. El conductor declaró vender aves en la feria local; había especies nativas y exóticas, dos pichones de ñandú, un búho, lagartos y tortugas, junto con animales domésticos. Una inspección posterior de un inmueble vinculado permitió recuperar otros ejemplares. No se desglosó la cantidad exclusivamente silvestre.\n\n[S] Bergós et al. (2024) analizaron la capacidad institucional para abordar el tráfico de fauna en Uruguay e identificaron necesidades de coordinación y gestión de información. El estudio permite interpretar la respuesta conjunta, sin demostrar fallas específicas en este procedimiento.\n\n[N] Una investigación policial independiente de agosto de 2026 documentó almacenamiento de animales destinados a venta en la zona de la feria de Piedras Blancas. La coincidencia territorial orienta el examen de vendedores y proveedores, pero no acredita vínculos entre los sospechosos. Los teléfonos incautados en noviembre estaban pendientes de análisis.\n\n[T] Dabezies, Bergós y Chouhy (2023) caracterizaron el mercado ilegal de fauna nativa y exótica en Uruguay y los desafíos de control. Ese antecedente es relevante para examinar la cadena comercial local, pero no establece procedencia ni rutas de los ejemplares decomisados.\n\n[O] El 18/11 se realizó un nuevo allanamiento en Camino Repetto con otro decomiso. Integra la misma investigación, pero tiene fecha, lugar y lote diferentes; no sumar sus ejemplares a los del 15/11.",
       "modal_label_es": "Carretera",
       "quantity_note_es": "Se informaron unas 400 aves y otros animales en un cargamento mixto doméstico/silvestre. La cifra de fauna silvestre no está desagregada y los 400 no se suman como animales silvestres.",
-      "references_text_es": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "references_text_es": "[O] Ministerio del Interior de Uruguay, 16/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento\n[O] Montevideo Portal, 15/11/2026 — https://www.montevideo.com.uy/Noticias/De-pichones-de-nandu-a-un-buho-incautaron-casi-400-aves-y-otros-animales-en-Montevideo-uc982319\n[S] Bergós et al. (2024), Institutional Management Competence for Addressing Illegal Wildlife Trade: Insights from Uruguay — https://doi.org/10.1007/s00267-024-02019-8\n[N] Ministerio del Interior: investigación distinta en la feria de Piedras Blancas, 17/08/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/investigacion-policial-comercializacion-ilegal-animales-permite-detencion\n[T] Dabezies, Bergós & Chouhy (2023), Caracterización del mercado ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023\n[O] Ministerio del Interior del Uruguay, segunda diligencia 19/11/2026 — https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas",
+      "related_event_ids": [
+        "tgh-20261118-uy-camino-repetto-animals"
+      ],
+      "investigation_linked_events": [
+        "tgh-20261118-uy-camino-repetto-animals"
+      ],
+      "editorial_qa_note_pt": " Investigação vinculada a nova apreensão de 18/11 em Camino Repetto, publicada separadamente; quantidades NÃO acumuladas.",
       "occurred_at": "2026-11-15T00:00:00Z",
       "occurred_at_precision": "day"
     },
@@ -132216,6 +132229,130 @@
       "references_text_es": "[O] Source — https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas\n[O] Source — https://cronicadexalapa.com.mx/detienen-a-dos-por-trafico-de-psitacidos-en-veracruz-coadyuva-profepa-en-carpeta-de-investigacion/\n[S] Source — https://doi.org/10.1371/journal.pone.0107546",
       "occurred_at": null,
       "occurred_at_precision": "unknown"
+    },
+    {
+      "id": "tgh-20261118-uy-camino-repetto-animals",
+      "status": "VALIDATED",
+      "country": "Uruguai",
+      "country_code": "UY",
+      "region": "Montevideo",
+      "event_date": "2026-11-18",
+      "event_end_date": null,
+      "event_date_precision": "day",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "day",
+      "coordinates": {
+        "lat": -34.9011,
+        "lon": -56.1645
+      },
+      "coordinate_precision": "CITY_REFERENCE_APPROXIMATE",
+      "is_exact_seizure_position": false,
+      "source_label": "Ministerio del Interior del Uruguay / Brigada Departamental de Seguridad Rural",
+      "source_url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas",
+      "source_alternative_url": "https://www.subrayado.com.uy/continua-la-investigacion-venta-animales-exoticos-incautaron-mas-aves-lagartos-y-nidos-huevos-n1023896",
+      "fauna_groups_aggregated": [
+        "Aves",
+        "Répteis"
+      ],
+      "taxon_text": "88 loros australianos adultos; 3 aves autóctonas; 3 lagartos overos; 15 ninhos com ovos/filhotes e uma fêmea adulta em cada; sobreposição de contagens não esclarecida",
+      "modal_primary": "Não informado",
+      "aggregate_operation": false,
+      "exclude_from_totals": false,
+      "quantity_count": null,
+      "quantity_qualifier": "mixed_exact_components_not_additive",
+      "quantity_kind": "mixed_live_animals_nests_eggs_unknown",
+      "quantity_by_group": {},
+      "quantity_unassigned": 0,
+      "reported_exotic_adult_parrots": 88,
+      "reported_native_birds": 3,
+      "reported_lizards": 3,
+      "reported_nests": 15,
+      "reported_cages_and_traps": 350,
+      "route_audit_status": "NO_DOCUMENTED_ROUTE",
+      "route_audit_note_pt": "Busca em imóvel de Camino Repetto; nenhuma origem, destino ou rota de transporte documentados.",
+      "route_audit_note_en": "Search at Camino Repetto premises; no source, destination or shipment route documented.",
+      "route_audit_note_es": "Allanamiento en Camino Repetto; sin origen, destino ni ruta de transporte documentados.",
+      "related_event_ids": [
+        "tgh-20261115-uy-piedras-blancas-mixed-wildlife-trade"
+      ],
+      "investigation_relation": "distinct_follow_up_seizure_same_investigation",
+      "related_event_date": "2026-11-15",
+      "image_url": null,
+      "image_source_url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas",
+      "image_status": "SOURCE_PAGE_ONLY_NOT_DIRECT_IMAGE",
+      "source_reconciliation_status": "OFFICIAL_SEPARATE_PROCEDURE_VERIFIED_2026_11_21",
+      "ingestion_batch": "TG-H-2026-11-21-REPETTO-USER-APPROVED",
+      "case_context_status": "PT_EN_ES_OSINT_REVIEWED_2026_11_21",
+      "context_style": "2026-11-10_protocol_[O][S][I][N][T]_source_categories_strict",
+      "context_references": [
+        {
+          "id": "O",
+          "type": "official_case",
+          "label": "Ministerio del Interior del Uruguay (19/11/2026): procedimiento de Camino Repetto",
+          "url": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas"
+        },
+        {
+          "id": "S",
+          "type": "scientific",
+          "label": "Bergós et al. (2024), Environmental Management",
+          "url": "https://doi.org/10.1007/s00267-024-02019-8"
+        },
+        {
+          "id": "T",
+          "type": "external_technical",
+          "label": "Dabezies, Bergós & Chouhy (2023), informe sobre el comercio ilegal de fauna en Uruguay",
+          "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023"
+        }
+      ],
+      "context_evidence_audit": {
+        "review_date": "2026-11-21",
+        "categories_present": [
+          "O",
+          "S",
+          "T"
+        ],
+        "no_forced_references": true,
+        "distinct_from_prior_seizure": true,
+        "shared_investigation_confirmed": true,
+        "reported_numbers_kept_separate": true
+      },
+      "editorial_qa_note_pt": "Apreensão de 18/11 é separada do caminhão de 15/11 e da inspeção no imóvel daquele dia. Fonte relata 88 loros exóticos adultos, 3 aves autóctones, 3 lagartos e 15 ninhos com ovos/filhotes e fêmeas; sem quantificar ovos/filhotes ou provar se fêmeas dos ninhos já integram os 88. Não somar lotes nem 350 gaiolas.",
+      "location_label_pt": "Camino Repetto, Montevidéu, Uruguai",
+      "geographic_note_pt": "Ponto municipal de referência de Montevidéu, não imóvel exato em Camino Repetto.",
+      "title_pt": "Nova apreensão de aves, ninhos e lagartos em Camino Repetto, Montevidéu",
+      "fauna_label_pt": "88 loros exóticos adultos, 3 aves nativas, 3 lagartos e 15 ninhos com ovos/filhotes",
+      "taxon_text_pt": "Loros australianos; aves autóctones; lagartos overos; espécies não identificadas pericialmente",
+      "modal_label_pt": "Não informado",
+      "quantity_label_pt": "88 loros adultos + 3 aves nativas + 3 lagartos; 15 ninhos separados",
+      "quantity_note_pt": "Ninhos contêm fêmeas, ovos e filhotes sem contagem individual; não somar as fêmeas aos 88 por risco de sobreposição. 350 gaiolas/armadilhas são equipamentos.",
+      "card_text_pt": "Em nova diligência de 18/11, polícia apreendeu aves, três lagartos e 15 ninhos com ovos e filhotes em Camino Repetto. Ação vinculada, mas distinta da apreensão de Piedras Blancas (15/11).",
+      "context_pt": "[O] Em 18/11/2026, a polícia do Uruguai realizou busca em imóvel de Camino Repetto como desdobramento da investigação de contrabando e comércio de animais iniciada em Piedras Blancas em 15/11. Foram apreendidos 88 loros australianos adultos, três aves nativas, três lagartos overos e 15 ninhos com ovos, filhotes e uma fêmea adulta em cada. As 350 gaiolas e armadilhas são equipamentos, não animais. Trata-se de nova apreensão, distinta do caminhão e da inspeção em imóvel realizados em 15/11; não somar os lotes. A origem, os destinos comerciais e o transporte dos animais de Repetto não foram documentados.\n\n[S] Bergós et al. (2024) analisaram a capacidade institucional de resposta ao comércio ilegal de fauna no Uruguai, contextualizando a coordenação entre polícia e órgãos ambientais. O estudo não demonstra falhas ou associações específicas desta operação.\n\n[T] Dabezies, Bergós e Chouhy (2023) caracterizaram o mercado ilegal de fauna nativa e exótica no país. Esse antecedente orienta a investigação de fornecimento e comercialização, sem identificar responsáveis ou rotas desta apreensão.",
+      "references_text_pt": "[O] Ministerio del Interior del Uruguay (19/11/2026): procedimiento de Camino Repetto — https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas\n[S] Bergós et al. (2024), Environmental Management — https://doi.org/10.1007/s00267-024-02019-8\n[T] Dabezies, Bergós & Chouhy (2023), informe sobre el comercio ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "location_label_en": "Camino Repetto, Montevideo, Uruguay",
+      "geographic_note_en": "Montevideo city reference, not the searched premises on Camino Repetto.",
+      "title_en": "Separate wildlife seizure in Camino Repetto following Piedras Blancas investigation",
+      "fauna_label_en": "88 adult exotic parrots, 3 native birds, 3 lizards, plus 15 nests with eggs/chicks",
+      "taxon_text_en": "Australian parrots; native birds; large tegus; precise species not verified",
+      "modal_label_en": "Not reported",
+      "quantity_label_en": "88 adult parrots, 3 native birds, 3 lizards; 15 nests separately",
+      "quantity_note_en": "Nests held adult females, eggs and chicks without full counts; do not add females to the 88 because overlap is unclear. 350 cages/traps are equipment.",
+      "card_text_en": "On 18 November officers searched premises on Camino Repetto and seized birds, three lizards and 15 nests. This is a distinct follow-up seizure within the Piedras Blancas investigation of 15 November.",
+      "context_en": "[O] On 18 November 2026 Uruguayan police searched premises on Camino Repetto as a follow-up to the 15 November Piedras Blancas investigation into suspected animal contraband and sales. Officers seized 88 adult Australian parrots, three native birds, three tegus and 15 nests containing eggs, chicks and an adult female each. Some 350 cages and traps were also seized; they are equipment, not animals. This is a distinct procedure from the truck interception and linked-premises inspection on 15 November, and the lots must not be summed without reconciliation. No source, destination or transport route for the Repetto animals was disclosed.\n\n[S] Bergós et al. (2024) examined institutional capacity to address illegal wildlife trade in Uruguay, providing background on coordination between law enforcement and environmental authorities. The study does not establish misconduct or a specific network in this case.\n\n[T] Dabezies, Bergós and Chouhy (2023) characterized Uruguay's illegal native and exotic wildlife markets. It informs questions about supply and sales without proving any supplier or route in the Repetto seizure.",
+      "references_text_en": "[O] Ministerio del Interior del Uruguay (19/11/2026): procedimiento de Camino Repetto — https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas\n[S] Bergós et al. (2024), Environmental Management — https://doi.org/10.1007/s00267-024-02019-8\n[T] Dabezies, Bergós & Chouhy (2023), informe sobre el comercio ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "location_label_es": "Camino Repetto, Montevideo, Uruguay",
+      "geographic_note_es": "Referencia municipal de Montevideo, no dirección exacta del allanamiento.",
+      "title_es": "Nuevo decomiso de aves, nidos y lagartos en Camino Repetto, Montevideo",
+      "fauna_label_es": "88 loros exóticos adultos, 3 aves autóctonas, 3 lagartos y 15 nidos con huevos/pichones",
+      "taxon_text_es": "Loros australianos; aves autóctonas; lagartos overos, sin identificación específica pericial",
+      "modal_label_es": "No informado",
+      "quantity_label_es": "88 loros adultos + 3 aves autóctonas + 3 lagartos; 15 nidos aparte",
+      "quantity_note_es": "Los nidos contenían hembras adultas, huevos y pichones sin desglose numérico; no sumar hembras a los 88 sin comprobar si están incluidas. 350 jaulas/tramperos son equipos.",
+      "card_text_es": "El 18/11 se allanó un inmueble en Camino Repetto y se incautaron aves, tres lagartos y 15 nidos. Es una intervención distinta, vinculada a la investigación de Piedras Blancas del 15/11.",
+      "context_es": "[O] El 18/11/2026 la policía uruguaya allanó un inmueble de Camino Repetto como continuación de la investigación sobre presunto contrabando y venta de animales iniciada en Piedras Blancas el 15/11. Se incautaron 88 loros australianos adultos, tres aves autóctonas, tres lagartos overos y 15 nidos con huevos, pichones y una hembra adulta en cada uno. Las 350 jaulas y trampas son equipos, no animales. Es un procedimiento distinto de la detención del camión y de la inspección de otro inmueble del día 15; los lotes no deben agregarse sin reconciliación. No hay origen, destino ni ruta documentados para los ejemplares de Repetto.\n\n[S] Bergós et al. (2024) analizaron la capacidad institucional de respuesta al comercio ilegal de fauna en Uruguay, ofreciendo contexto sobre coordinación policial y ambiental. No establecen fallas ni redes específicas de este procedimiento.\n\n[T] Dabezies, Bergós y Chouhy (2023) caracterizaron el mercado ilegal de fauna nativa y exótica en Uruguay. El informe orienta la investigación de suministro y ventas, sin identificar proveedores ni rutas del decomiso de Repetto.",
+      "references_text_es": "[O] Ministerio del Interior del Uruguay (19/11/2026): procedimiento de Camino Repetto — https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas\n[S] Bergós et al. (2024), Environmental Management — https://doi.org/10.1007/s00267-024-02019-8\n[T] Dabezies, Bergós & Chouhy (2023), informe sobre el comercio ilegal de fauna en Uruguay — https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+      "localization_schema_version": 1,
+      "occurred_at": "2026-11-18T00:00:00Z",
+      "occurred_at_precision": "day"
     }
   ]
 }
