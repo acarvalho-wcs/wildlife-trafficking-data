@@ -8,14 +8,21 @@ from urllib.parse import urlsplit, unquote
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'docs/migration/source-manifest.json').read_text())
 changed = set(manifest['url_only_changes'])
+reviewed_path = ROOT / 'docs/migration/approved-current-hashes.json'
+reviewed = json.loads(reviewed_path.read_text()) if reviewed_path.exists() else {}
+assert isinstance(reviewed, dict), 'Reviewed hashes must be an object'
+assert set(reviewed) <= {e['path'] for e in manifest['files']}, 'Unknown reviewed files'
+assert all(re.fullmatch(r'[0-9a-f]{64}', h) for h in reviewed.values()), 'Invalid reviewed hash'
 # Approved change to public and restricted export routines.
-approved_source_changes = {'web/observatory/live.js', 'web/restricted/explorer.js', 'web/restricted/restricted-period-export.js', 'web/observatory/temporal-core.js', 'web/observatory/temporal-filter.js'}
+approved_source_changes = {'web/observatory/live.js', 'web/observatory/news-data.js', 'web/restricted/explorer.js', 'web/restricted/restricted-period-export.js', 'web/observatory/temporal-core.js', 'web/observatory/temporal-filter.js'}
 sanitized = {x['path']: x['sha256'] for x in manifest.get('image_metadata_changes', [])}
 for entry in manifest['files']:
     path = ROOT / entry['path']
     assert path.is_file(), f'Missing source: {path}'
     if entry['path'] in sanitized:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == sanitized[entry['path']], f'Sanitized asset changed: {path}'
+    elif entry['path'] in reviewed:
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == reviewed[entry['path']], f'Reviewed source changed: {path}'
     elif entry['path'] not in changed and entry['path'] not in approved_source_changes:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256'], f'Source changed: {path}'
 out = ROOT / 'build/site'
