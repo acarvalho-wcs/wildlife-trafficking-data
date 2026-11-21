@@ -1,0 +1,1852 @@
+{
+  "schema_version": 1,
+  "cycle_date": "2026-11-21",
+  "purpose": "TG-H daily audited archive before header-only sheet reset",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1oMPUMy21Xpi6DM6DHq7j0JFwV811kU5uQnR8XeeH_M8/edit",
+  "counts": {
+    "eligible": 8,
+    "triage": 34,
+    "coverage": 78,
+    "triage_by_status": {
+      "NOT_ELIGIBLE": 8,
+      "DEFERRED_EVIDENCE": 7,
+      "HISTORICAL_UPDATE": 6,
+      "ALREADY_CANONICAL": 7,
+      "AGGREGATE_NOT_CASE": 2,
+      "DEFERRED_HISTORICAL": 4
+    }
+  },
+  "published_ids": [
+    "tgh-20261118-uy-camino-repetto-animals",
+    "tgh-20261121-mx-los-tuxtlas-two-parakeets",
+    "tgh-20261028-mx-queretaro-13-retail-specimens",
+    "tgh-20261114-ci-tanda-350kg-bushmeat",
+    "tgh-20261117-kh-siem-reap-27-python-sacks",
+    "tgh-20261022-cn-xinmin-nine-skins-four-weasels",
+    "tgh-20261026-pl-koroszczyn-41-lizards",
+    "tgh-20261120-nz-marlborough-kina-183kg"
+  ],
+  "linked_case": "tgh-20261118-uy-camino-repetto-animals",
+  "unresolved_historical_leads": [
+    {
+      "id": "TRI-TGH-20261121-AM-003",
+      "status": "DEFERRED_EVIDENCE",
+      "country": "Argentina",
+      "reason": "Distinguir espécies silvestres de patos/gansos domésticos e provar canal comercial antes de considerar inclusão.",
+      "source": "https://www.mdzol.com/sociedad/2026/11/19/imputaron-a-un-hombre-y-a-su-hijo-por-robar-patos-y-gansos-de-los-bosques-de-palermo-tenian-casi-50-animales-1996489.html"
+    },
+    {
+      "id": "TRI-TGH-20261121-AM-004",
+      "status": "HISTORICAL_UPDATE",
+      "country": "Peru",
+      "reason": "Apreensão de 04/11; atualização de 12.796 tarântulas requer reconciliação do registro histórico, não novo evento.",
+      "source": "https://earthjournal.com/peruvian-officials-reportedly-increase-tally-to-more-than-12000-tarantulas-in-recent-seizure/"
+    },
+    {
+      "id": "TRI-TGH-20261121-AM-005",
+      "status": "DEFERRED_EVIDENCE",
+      "country": "Chile",
+      "reason": "Corais CITES na bagagem; confirmar data, quantidade, circunstâncias legais e eventual intenção comercial.",
+      "source": "https://www.elcalbucano.cl/2026/11/aduanas-refuerza-controles-en-la-zona-sur-con-diversos-decomisos-en-pasos-fronterizos/"
+    },
+    {
+      "id": "TRI-TGH-20261121-AF-001",
+      "status": "DEFERRED_EVIDENCE",
+      "country": "Malawi",
+      "reason": "Pangolim vivo em posse, porém data divergente e finalidade comercial não demonstrada; consultar boletim policial.",
+      "source": "https://www.faceofmalawi.com/2026/11/18/two-arrested-for-possession-of-live-pangolin-in-limbe/"
+    },
+    {
+      "id": "TRI-TGH-20261121-AF-002",
+      "status": "HISTORICAL_UPDATE",
+      "country": "Malawi",
+      "reason": "Caso de venda de pangolim de 26/09 com sentença divulgada agora; verificar inclusão histórica antes de atualizar.",
+      "source": "https://www.faceofmalawi.com/2026/11/19/two-jailed-5-years-each-for-possession-of-live-pangolin/"
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-004",
+      "status": "HISTORICAL_UPDATE",
+      "country": "Vietnã",
+      "reason": "Marfim apreendido em agosto, publicado novamente em novembro; não republicar como nova ocorrência.",
+      "source": "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/chu-tich-tinh-gia-lai-gui-thu-khen-luc-luong-cong-an-triet-pha-duong-day-van-chuyen-gan-12-tan-nga-voi-492b59fb6.html"
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-005",
+      "status": "DEFERRED_HISTORICAL",
+      "country": "Tailândia",
+      "reason": "Apreensão tailandesa de 11/11 com carcaças e escamas; confrontar com casos canônicos anteriores antes de nova inclusão histórica.",
+      "source": "https://news.dnp.go.th/news/50991"
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-006",
+      "status": "HISTORICAL_UPDATE",
+      "country": "Índia",
+      "reason": "Decisão de novembro relativa a apreensão de junho; sem novo fato de comércio.",
+      "source": "https://timesofindia.indiatimes.com/city/bhopal/court-rejects-plea-for-release-of-vehicle-seized-in-pangolin-smuggling-case/amp_articleshow/136002780.cms"
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-001",
+      "status": "DEFERRED_EVIDENCE",
+      "country": "Itália",
+      "reason": "421 aves mortas/63 vivas de caça ilegal: falta vinculação comercial comprovada.",
+      "source": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/bracconaggio-nel-vicentino-trovati-oltre-400-uccelli-morti-e-trappole_48e80667-6304-4bd6-b66c-babbb5a83804.html"
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-002",
+      "status": "HISTORICAL_UPDATE",
+      "country": "França / Bélgica",
+      "reason": "Audiência em 2026 sobre rede de 2012-2017; não gerar ocorrência de novembro.",
+      "source": "https://medialot.fr/cahors-laffaire-de-trafic-doiseaux-sauvages-proteges-en-partie-renvoyee/"
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-005",
+      "status": "DEFERRED_EVIDENCE",
+      "country": "Itália",
+      "reason": "42 recipientes não são animais; sem fonte primária verificada, data precisa ou comércio.",
+      "source": "https://www.videocalabria.it/2026/11/21/montebello-jonico-blitz-dei-carabinieri-contro-bracconaggio/"
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-001",
+      "status": "DEFERRED_EVIDENCE",
+      "country": "Fiji",
+      "reason": "Questionamento CITES sobre origem de iguanas reprodutoras; infração não confirmada.",
+      "source": "https://mecc.gov.fj/fiji-secures-broad-support-as-cites-defers-breeding-registration-for-native-iguanas/"
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-002",
+      "status": "DEFERRED_EVIDENCE",
+      "country": "Fiji",
+      "reason": "Alerta de venda de filhotes sem apreensão ou evento delimitado; buscar caso específico.",
+      "source": "https://www.fijitimes.com.fj/20000-fine-four-years-jail-for-selling-wild-parrots/"
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-003",
+      "status": "DEFERRED_HISTORICAL",
+      "country": "Austrália / Hong Kong",
+      "reason": "13 lagartos em carga de 27/12/2025; conferir caso histórico e se integra à operação agregada de 163 répteis.",
+      "source": "https://news.mongabay.com/2026/11/skinks-in-boots-how-hong-kong-emerges-as-key-hub-in-australias-native-reptile-trafficking/"
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-006",
+      "status": "DEFERRED_HISTORICAL",
+      "country": "Austrália",
+      "reason": "Tentativa frustrada em setembro sem répteis apreendidos; verificar regra editorial para tentativa.",
+      "source": "https://www.abf.gov.au/newsroom-subsite/Pages/No-snakes-on-the-plane-ABF-thwart-reptile-smuggling-plot.aspx"
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-007",
+      "status": "DEFERRED_HISTORICAL",
+      "country": "Fiji",
+      "reason": "Transporte de carcaças/tartarugas a evento religioso em setembro; finalidade comercial não estabelecida.",
+      "source": "https://fijisun.com.fj/news/nation/banned-kawakawa-donu-turtle-seized-at-suva-port"
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-009",
+      "status": "HISTORICAL_UPDATE",
+      "country": "Irlanda",
+      "reason": "Quatro aves apreendidas em 2025, condenação em 2026; não criar evento de novembro.",
+      "source": "https://www.laois-nationalist.ie/news/courts/local-man-fined-700-over-illegal-possession-of-protected-wild-birds_arid-20333329.html"
+    }
+  ],
+  "duplication_protection": "All 5 exact duplicates preserved in triage archive with canonical IDs. Keep pending leads visible in this archive, never silently infer eligibility.",
+  "eligible": [
+    {
+      "id": "TG-H-20261121-AM-002",
+      "country": "Uruguai",
+      "status": "PUBLISHED_SEPARATE_LINKED_EVENT",
+      "canonical_id": "tgh-20261118-uy-camino-repetto-animals",
+      "original": {
+        "ID TG-H": "TG-H-20261121-AM-002",
+        "Frente regional": "Américas",
+        "País": "Uruguai",
+        "Estado / província": "Montevideo",
+        "Local do fato": "Camino Repetto",
+        "Data do fato": "2026-11-18",
+        "Data da publicação": "2026-11-19",
+        "Título factual": "Apreensão de aves e lagartos em investigação de contrabando em Repetto",
+        "Indício direto de tráfico": "Investigação oficial de possível contrabando e comercialização",
+        "Grupo": "Aves; répteis",
+        "Espécies / itens": "88 loros australianos adultos; 15 nidos com ovos/pichones e fêmea adulta em cada; 3 aves autóctonas; 3 lagartos overos",
+        "Quantidade": "88+3+3 indivíduos fora dos ninhos; 15 ninhos com contagens parciais",
+        "Unidade": "indivíduos e ninhos; totais não comparáveis",
+        "Modal constatado": "Apreensão em imóvel; modal não informado",
+        "Origem informada": "",
+        "Destino informado / pretendido": "",
+        "Rota conforme fonte": "Ação em imóvel de Repetto; vínculo investigativo com Piedras Blancas",
+        "Fonte principal": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas",
+        "Fonte complementar": "https://www.subrayado.com.uy/continua-la-investigacion-venta-animales-exoticos-incautaron-mas-aves-lagartos-y-nidos-huevos-n1023896",
+        "Idioma da busca": "Espanhol",
+        "Situação de elegibilidade": "VINCULADO — apreensão distinta de 18/11 na mesma investigação de 15/11; não é duplicata de lote",
+        "Checagem no GitHub": "O Ministério do Interior confirma expressamente NOVO allanamiento em Camino Repetto em 18/11, após o flagrante de Piedras Blancas em 15/11. Lote de Repetto: 88 loros exóticos adultos, 3 aves nativas, 3 lagartos, 15 ninhos com ovos/filhotes e uma fêmea adulta em cada. O flagrante de Piedras Blancas refere caminhão com ~400 aves e inspeção relacionada com 2 lagartos, 7 loros e 1 falcão. Quantidades distintas, operações com datas e locais diferentes; SEM somar com o lote de 15/11. Mesmo inquérito e investigado potencialmente relacionado.",
+        "Nota de consistência (sem OSINT)": "Não adicionar 15 ninhos como 15 ovos ou 15 filhotes; não contabilizar 350 gaiolas como fauna",
+        "Decisão deduplicação": "DISTINTO EM DATA/LOCAL/LOTE — mesma investigação policial, não duplicata do evento de 15/11. O relatório oficial de 19/11 refere explicitamente \"nuevo procedimiento\" e \"nuevas incautaciones\".",
+        "Contar como ocorrência nova (19–20/11)": "",
+        "Contextualização PT (protocolo OSINT)": "[O] Em 18/11, a polícia uruguaia realizou uma busca em Camino Repetto, Montevidéu, na continuidade da investigação de contrabando e comércio de animais iniciada em Piedras Blancas em 15/11. Apreendeu 88 loros australianos adultos, três aves nativas, três lagartos e 15 ninhos com ovos/filhotes e uma fêmea adulta em cada; 350 gaiolas e armadilhas não são indivíduos de fauna. A autoridade não divulgou origem, destino ou rota de transporte desses exemplares.\n\n[T] Dabezies, Bergós e Chouhy (2023) caracterizaram a comercialização ilegal de fauna nativa e exótica no Uruguai. O estudo orienta a análise de pontos de venda e fornecedores, sem provar que os investigados integrem alguma rede específica.",
+        "Contextualization EN (OSINT protocol)": "[O] On 18 November Uruguayan police searched premises on Camino Repetto, Montevideo, as a follow-up to the 15 November Piedras Blancas investigation into suspected contraband and wildlife sales. They seized 88 adult Australian parrots, three native birds, three lizards and 15 nests containing eggs/chicks and an adult female in each; 350 cages and traps are equipment, not animals. The animals' source, destination and transport itinerary were not disclosed.\n\n[T] Dabezies, Bergós and Chouhy (2023) characterized illegal trade in native and exotic wildlife in Uruguay. Their analysis informs examination of sellers and supply channels but does not establish a link to any particular network in this case.",
+        "Contextualización ES (protocolo OSINT)": "[O] El 18/11 la policía uruguaya allanó un inmueble en Camino Repetto, Montevideo, como continuación de la investigación de presunto contrabando y venta de fauna iniciada el 15/11 en Piedras Blancas. Incautó 88 loros australianos adultos, tres aves autóctonas, tres lagartos y 15 nidos con huevos/pichones y una hembra adulta en cada uno; las 350 jaulas y trampas son equipos, no ejemplares. No se documentaron origen, destino ni itinerario de transporte.\n\n[T] Dabezies, Bergós y Chouhy (2023) caracterizaron el comercio ilegal de fauna nativa y exótica en Uruguay. El estudio orienta la revisión de puntos de venta y proveedores, sin demostrar vínculos con una red concreta en este caso.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] https://www.gub.uy/ministerio-interior/comunicacion/noticias/brigada-seguridad-rural-incauto-80-aves-exoticas-autoctonas\n[T] https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/caracterizacion-del-mercado-ilegal-fauna-uruguay-2023",
+        "Auditoria de checagem / ressalvas": "Separar 18/11 Repetto e 15/11 Piedras Blancas: medidas distintas em mesma investigação; 88+3 aves adultas e 3 lagartos; 15 ninhos com quantidades de ovos/filhotes não informadas. A ficha canônica de 15/11 já existe.",
+        "Encaminhamento canônico": "REVISADO — dois eventos de apreensão identificáveis, mas vinculados à mesma investigação. Como a autorização foi específica para sete candidatos sem duplicata, Repetto permanece na fila aguardando publicação separada ou decisão de atualização do caso de 15/11."
+      }
+    },
+    {
+      "id": "TG-H-20261121-AM-003",
+      "country": "México",
+      "status": "PUBLISHED_CANONICAL",
+      "canonical_id": "tgh-20261121-mx-los-tuxtlas-two-parakeets",
+      "original": {
+        "ID TG-H": "TG-H-20261121-AM-003",
+        "Frente regional": "Américas",
+        "País": "México",
+        "Estado / província": "Veracruz",
+        "Local do fato": "Reserva de la Biosfera Los Tuxtlas",
+        "Data do fato": "",
+        "Data da publicação": "2026-11-19",
+        "Título factual": "Dois pericos pecho sucio apreendidos com suspeitos de comercialização ilegal",
+        "Indício direto de tráfico": "Comércio ilegal pretendido explicitamente informado",
+        "Grupo": "Aves",
+        "Espécies / itens": "Eupsittula nana (perico pecho sucio)",
+        "Quantidade": "2",
+        "Unidade": "indivíduos",
+        "Modal constatado": "Transporte constatado, veículo não mencionado",
+        "Origem informada": "Los Tuxtlas (extração relatada)",
+        "Destino informado / pretendido": "Comercialização pretendida; sem destino geográfico",
+        "Rota conforme fonte": "Origem de extração Los Tuxtlas; sem destino especificado",
+        "Fonte principal": "https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas",
+        "Fonte complementar": "https://de8.mx/ambiente/detienen-a-dos-por-trafico-de-psitacidos",
+        "Idioma da busca": "Espanhol",
+        "Situação de elegibilidade": "PUBLICADO — caso novo validado e compilado nos dois repositórios",
+        "Checagem no GitHub": "tgh-20261121-mx-los-tuxtlas-two-parakeets — fato sem data exata, publicação 19/11/2026; sem rota sustentada.",
+        "Nota de consistência (sem OSINT)": "Data da apreensão não confirmada; 19/11 é data da publicação, não presumir evento",
+        "Decisão deduplicação": "SEM DUPLICATA INDIVIDUAL LOCALIZADA — PUBLICADO",
+        "Contar como ocorrência nova (19–20/11)": "",
+        "Contextualização PT (protocolo OSINT)": "[O] A FGR apreendeu dois pericos-de-peito-sujo (*Eupsittula nana*) e deteve duas pessoas na Reserva da Biosfera Los Tuxtlas, em Veracruz; a Profepa confirmou a identificação e a falta de documentos de origem legal. Segundo a apuração divulgada em 19/11, os exemplares eram transportados inadequadamente e destinados à comercialização ilícita, mas não há destino geográfico ou data exata de apreensão confirmados.\n\n[S] Tella e Hiraldo (2014) analisaram décadas de comércio legal e ilegal de psitacídeos mexicanos e identificaram preferências de mercado que elevam a pressão sobre certas espécies. O estudo contextualiza a demanda por papagaios, sem identificar compradores ou rede ligada à ocorrência de Los Tuxtlas.",
+        "Contextualization EN (OSINT protocol)": "[O] Federal prosecutors seized two dirty-faced parakeets (*Eupsittula nana*) and detained two people in the Los Tuxtlas Biosphere Reserve, Veracruz; Profepa identified the birds and reported no documentation establishing legal provenance. Reports published on 19 November say the birds were transported in inadequate conditions and intended for illegal sale. Neither the exact seizure date nor a geographic sales destination has been confirmed.\n\n[S] Tella and Hiraldo (2014) examined long-term legal and illegal trade in Mexican parrots and documented market preferences that increase pressure on certain species. This contextualizes demand, without identifying buyers or networks involved in the Los Tuxtlas seizure.",
+        "Contextualización ES (protocolo OSINT)": "[O] La FGR aseguró dos pericos pecho sucio (*Eupsittula nana*) y detuvo a dos personas en la Reserva de la Biosfera Los Tuxtlas, Veracruz; Profepa identificó las aves y señaló la ausencia de documentos de procedencia legal. Los reportes publicados el 19/11 indican transporte inadecuado y comercialización ilegal prevista; no se ha confirmado la fecha exacta del aseguramiento ni un destino geográfico de venta.\n\n[S] Tella e Hiraldo (2014) analizaron el comercio legal e ilegal de psitácidos mexicanos y documentaron preferencias del mercado que incrementan la presión sobre algunas especies. Es contexto de la demanda, sin identificar compradores ni redes relacionadas con Los Tuxtlas.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] https://e-veracruz.mx/medio-ambiente/detienen-a-dos-personas-con-un-par-de-pericos-pecho-sucio-en-los-tuxtlas\n[O] https://cronicadexalapa.com.mx/detienen-a-dos-por-trafico-de-psitacidos-en-veracruz-coadyuva-profepa-en-carpeta-de-investigacion/\n[S] https://doi.org/10.1371/journal.pone.0107546",
+        "Auditoria de checagem / ressalvas": "Data 19/11 é publicação; data do evento desconhecida. Comércio pretendido segundo autoridades, não venda consumada. Nenhuma rota além do local de interceptação ou identidade de compradores é sustentada.",
+        "Encaminhamento canônico": "PUBLICADO NOS DOIS; 2 aves vivas. Não atribuir 19/11 como data do fato."
+      }
+    },
+    {
+      "id": "TG-H-20261121-AM-005",
+      "country": "México",
+      "status": "PUBLISHED_CANONICAL",
+      "canonical_id": "tgh-20261028-mx-queretaro-13-retail-specimens",
+      "original": {
+        "ID TG-H": "TG-H-20261121-AM-005",
+        "Frente regional": "Américas",
+        "País": "México",
+        "Estado / província": "Querétaro",
+        "Local do fato": "Dois estabelecimentos comerciais em Querétaro",
+        "Data do fato": "2026-10-28",
+        "Data da publicação": "2026-11-19",
+        "Título factual": "Profepa apreende fauna de estabelecimentos em Querétaro em inspeções de outubro",
+        "Indício direto de tráfico": "Estabelecimentos vendiam fauna; denúncia penal anunciada",
+        "Grupo": "Répteis, anfíbios e parte animal",
+        "Espécies / itens": "6 Trachemys scripta; 2 Kinosternon leucostomum; 2 Agalychnis dacnicolor; 1 Centrochelys sulcata; 1 Corallus hortulana dissecado; 1 não especificado",
+        "Quantidade": "13 declarados, 12 discriminados em fonte",
+        "Unidade": "exemplares, inclusive dissecado",
+        "Modal constatado": "Comércio no estabelecimento; transporte não informado",
+        "Origem informada": "",
+        "Destino informado / pretendido": "",
+        "Rota conforme fonte": "",
+        "Fonte principal": "https://codigoqro.mx/nota/local/2026/11/19/decomisa-profepa-tortugas-y-ranas-ilegales-en-queretaro",
+        "Fonte complementar": "https://aldialogo.mx/queretaro/2026/11/19/profepa-asegura-ejemplares-operativo-queretaro/",
+        "Idioma da busca": "Espanhol",
+        "Situação de elegibilidade": "PUBLICADO — caso retrospectivo validado e compilado nos dois repositórios",
+        "Checagem no GitHub": "tgh-20261028-mx-queretaro-13-retail-specimens — 13 totais relatados, 12 discriminados (11 vivos, 1 dissecado); nenhum total inflado.",
+        "Nota de consistência (sem OSINT)": "13 no total anunciado; espécie/indivíduo faltante na discriminação; fato 28/10",
+        "Decisão deduplicação": "SEM DUPLICATA INDIVIDUAL LOCALIZADA — PUBLICADO",
+        "Contar como ocorrência nova (19–20/11)": "",
+        "Contextualização PT (protocolo OSINT)": "[O] Em 28/10, a Profepa e a prefeitura inspecionaram três estabelecimentos de comércio de fauna em Querétaro e apreenderam preventivamente exemplares em dois deles. As fontes anunciam 13 exemplares, mas discriminam apenas 12: seis *Trachemys scripta*, dois *Kinosternon leucostomum*, duas *Agalychnis dacnicolor*, uma *Centrochelys sulcata* e uma *Corallus hortulana* dissecada. Houve documentação incompatível com os animais, sem identificação pública do 13º item ou demonstração de rotas de fornecimento.\n\n[S] Marshall et al. (2020) demonstraram a extensão do comércio global pouco regulado de répteis e a importância de documentação e identificação taxonômica; comércio pouco regulado não equivale automaticamente a comércio ilegal.\n\n[N] Investigação da Mongabay (2026), registrada em news.json, examinou lacunas legais no comércio de répteis e anfíbios. É contexto regulatório, não prova sobre a origem dos animais apreendidos em Querétaro.",
+        "Contextualization EN (OSINT protocol)": "[O] On 28 October Profepa and municipal officials inspected three wildlife-selling premises in Querétaro and provisionally seized specimens at two. News reports give a total of 13, but list only 12: six *Trachemys scripta*, two *Kinosternon leucostomum*, two *Agalychnis dacnicolor*, one *Centrochelys sulcata* and one preserved *Corallus hortulana*. Documentation reportedly did not match the seized specimens. The missing thirteenth item and any supply route remain unverified.\n\n[S] Marshall et al. (2020) documented the extent of under-regulated global reptile trade, underscoring species identification and traceability. Under-regulation alone does not establish illegality.\n\n[N] A 2026 Mongabay investigation catalogued in news.json examines legal gaps in reptile and amphibian commerce; this is regulatory context, not evidence of the specimens' origin in Querétaro.",
+        "Contextualización ES (protocolo OSINT)": "[O] El 28/10 Profepa y autoridades municipales inspeccionaron tres locales de venta de fauna en Querétaro y aseguraron preventivamente ejemplares en dos. La cifra anunciada es 13, pero solo se detallan 12: seis *Trachemys scripta*, dos *Kinosternon leucostomum*, dos *Agalychnis dacnicolor*, una *Centrochelys sulcata* y una *Corallus hortulana* disecada. La documentación no correspondía a los ejemplares; no se identificó el decimotercero ni una ruta de abastecimiento.\n\n[S] Marshall et al. (2020) documentaron la amplitud del comercio mundial de reptiles insuficientemente regulado, destacando identificación y trazabilidad; regulación insuficiente no demuestra por sí sola ilegalidad.\n\n[N] Un reportaje de Mongabay (2026), incluido en news.json, examina vacíos legales en el comercio de reptiles y anfibios. Es contexto normativo, no prueba sobre el origen de los animales de Querétaro.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] https://codigoqro.mx/nota/local/2026/11/19/decomisa-profepa-tortugas-y-ranas-ilegales-en-queretaro\n[O] https://expresoqueretaro.com/2026/11/19/golpe-al-trafico-ilegal-de-especies-profepa-asegura-13-animales-en-la-capital-queretana/\n[S] https://doi.org/10.1038/s41467-020-18523-4\n[N] https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+        "Auditoria de checagem / ressalvas": "Revisão retrospectiva: inspeção 28/10/2026, não novembro. Soma explícita de exemplares = 12 (inclui um dissecado), embora o anúncio seja 13. Não misturar parte preservada a total de vivos. Procedimento administrativo e possível denúncia não equivalem a condenação.",
+        "Encaminhamento canônico": "PUBLICADO NOS DOIS; 13 anunciados, divergência preservada, sem somar 13 animais vivos."
+      }
+    },
+    {
+      "id": "TG-H-20261121-AF-002",
+      "country": "Costa do Marfim",
+      "status": "PUBLISHED_CANONICAL",
+      "canonical_id": "tgh-20261114-ci-tanda-350kg-bushmeat",
+      "original": {
+        "ID TG-H": "TG-H-20261121-AF-002",
+        "Frente regional": "África",
+        "País": "Costa do Marfim",
+        "Estado / província": "Gontougo",
+        "Local do fato": "Tanda",
+        "Data do fato": "2026-11-14/15",
+        "Data da publicação": "2026-11-18",
+        "Título factual": "Apreensão de carne de fauna silvestre, incinerada em 17/11",
+        "Indício direto de tráfico": "Operação contra caça e comércio ilícito; venda específica não demonstrada",
+        "Grupo": "Mamíferos; aves; répteis",
+        "Espécies / itens": "15 espécies; inclui céfalofos, macacos, pangolins e crocodilos",
+        "Quantidade": "aproximadamente 350 kg; 76 peças",
+        "Unidade": "kg e peças, não indivíduos",
+        "Modal constatado": "Não documentado",
+        "Origem informada": "",
+        "Destino informado / pretendido": "",
+        "Rota conforme fonte": "Tanda; sem rota geográfica comprovada",
+        "Fonte principal": "https://www.aip.ci/cote-divoire-aip-pres-de-350-kg-de-viande-de-brousse-issus-de-15-especes-animales-saisis-et-incineres-a-tanda/",
+        "Fonte complementar": "",
+        "Idioma da busca": "Francês",
+        "Situação de elegibilidade": "PUBLICADO — apreensão de produto de fauna, comércio não demonstrado",
+        "Checagem no GitHub": "tgh-20261114-ci-tanda-350kg-bushmeat — evento de apreensão de produtos de fauna protegido/regulado; não afirma comércio consumado.",
+        "Nota de consistência (sem OSINT)": "Intervenção 14–15/11, incineração 17/11; 76 peças não equivalem a 76 animais",
+        "Decisão deduplicação": "SEM DUPLICATA INDIVIDUAL LOCALIZADA — PUBLICADO SEM AFIRMAÇÃO DE VENDA",
+        "Contar como ocorrência nova (19–20/11)": "Não",
+        "Contextualização PT (protocolo OSINT)": "[O] Em operação noturna de 14 para 15/11, agentes de Águas e Florestas apreenderam em Tanda aproximadamente 350 kg de carne de fauna de 15 espécies protegidas ou regulamentadas; o lote, de 76 peças, foi incinerado em 17/11. Havia produtos de céfalofos, primatas, pangolins, crocodilos e outros grupos. As peças e o peso não permitem deduzir o número de animais nem demonstram, isoladamente, venda concluída, origem ou destino.\n\n[S] Koutchoro et al. (2024) documentaram em mercados do Benim como caça e comercialização de fauna podem articular circuitos locais e mais amplos. É comparação regional que justifica investigar compradores e abastecimento, não evidência de uma rota relacionada à apreensão de Tanda.",
+        "Contextualization EN (OSINT protocol)": "[O] During a night operation on 14–15 November, Forestry and Water officers in Tanda seized approximately 350 kg of wild meat from 15 protected or regulated species; the 76 pieces were incinerated on 17 November. Products included duikers, primates, pangolins, crocodiles and other taxa. Weight and pieces cannot be converted into individual animals, and the report does not independently establish a completed sale, source area or destination.\n\n[S] Koutchoro et al. (2024) documented how hunting and trade can connect local and wider wildlife markets in Benin. This regional comparison supports investigation of supply and buyers, not any inferred trafficking route from Tanda.",
+        "Contextualización ES (protocolo OSINT)": "[O] En una operación nocturna del 14 al 15/11, agentes de Aguas y Bosques incautaron en Tanda aproximadamente 350 kg de carne silvestre de 15 especies protegidas o reguladas; las 76 piezas fueron incineradas el 17/11. Había productos de duíqueros, primates, pangolines, cocodrilos y otros grupos. Ni las piezas ni el peso permiten calcular individuos o demostrar una venta consumada, origen o destino.\n\n[S] Koutchoro et al. (2024) documentaron cómo la caza y el comercio conectan mercados locales y circuitos más amplios en Benín. Es una comparación regional útil para investigar abastecimiento y compradores, no prueba de una ruta desde Tanda.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] https://www.aip.ci/cote-divoire-aip-pres-de-350-kg-de-viande-de-brousse-issus-de-15-especes-animales-saisis-et-incineres-a-tanda/\n[S] https://doi.org/10.1016/j.gecco.2024.e03110",
+        "Auditoria de checagem / ressalvas": "O texto da AIP informa 76 peças, 350 kg e 15 espécies; jamais registrar 76 animais. Operação 14–15/11, incineração 17/11, publicação 18/11; vínculo com comércio permanece por verificar.",
+        "Encaminhamento canônico": "PUBLICADO NOS DOIS; 76 peças e ~350 kg NÃO convertidos em indivíduos."
+      }
+    },
+    {
+      "id": "TG-H-20261121-AS-003",
+      "country": "Camboja",
+      "status": "PUBLISHED_CANONICAL",
+      "canonical_id": "tgh-20261117-kh-siem-reap-27-python-sacks",
+      "original": {
+        "ID TG-H": "TG-H-20261121-AS-003",
+        "Frente regional": "Ásia",
+        "País": "Camboja",
+        "Estado / província": "Siem Reap",
+        "Local do fato": "Siem Reap (local exato não especificado)",
+        "Data do fato": "2026-11-17/18",
+        "Data da publicação": "2026-11-19",
+        "Título factual": "27 sacos de pítons apreendidos em Siem Reap; peso de 318,4 kg; número de indivíduos não informado",
+        "Indício direto de tráfico": "Imprensa relata prisão por suspeita de contrabando de fauna; rota e comprador não informados",
+        "Grupo": "Répteis",
+        "Espécies / itens": "Pítons silvestres; quantidade individual e espécie não especificadas",
+        "Quantidade": "27 sacos; 318,4 kg",
+        "Unidade": "sacos e kg (não indivíduos)",
+        "Modal constatado": "Transporte e armazenamento ilícitos constatados na intervenção local; itinerário desconhecido",
+        "Origem informada": "",
+        "Destino informado / pretendido": "",
+        "Rota conforme fonte": "Apreensão em Siem Reap; sem origem/destino documentados",
+        "Fonte principal": "https://www.khmertimeskh.com/502060627/siem-reap-police-arrest-wildlife-smuggling-suspect-with-27-pythons/",
+        "Fonte complementar": "https://thmeythmey.com/index.php/detail/164460",
+        "Idioma da busca": "Inglês; chinês (republicação)",
+        "Situação de elegibilidade": "PUBLICADO — espécie/indivíduos não contados; 27 sacos e 318,4 kg",
+        "Checagem no GitHub": "tgh-20261117-kh-siem-reap-27-python-sacks — 17–18/11, 27 sacos, 318,4 kg, número de pítons desconhecido.",
+        "Nota de consistência (sem OSINT)": "Fonte original Khmer Times bloqueia acesso direto; canal oficial do jornal confirma 27 e 318 kg; não inferir transporte",
+        "Decisão deduplicação": "SEM DUPLICATA INDIVIDUAL LOCALIZADA — PUBLICADO",
+        "Contar como ocorrência nova (19–20/11)": "Não; evento 18/11",
+        "Contextualização PT (protocolo OSINT)": "[O] Entre 17 e 18/11, a Gendarmaria de Siem Reap, com autoridades locais e florestais, interveio contra transporte e armazenamento ilegais de pítons em Chong Khneas. Um suspeito foi detido e 27 sacos de serpentes, com 318,4 kg ao todo, foram apreendidos. Os 27 são sacos, não indivíduos; número de animais, espécies exatas, origem e destino permanecem desconhecidos.\n\n[S] Brooks, Allison e Reynolds (2007) documentaram a intensa exploração de serpentes aquáticas no lago Tonlé Sap e a pressão do comércio de peles, enquanto Brooks et al. (2010, Biological Conservation) analisaram demanda, preços e o papel da alimentação de crocodilos em cativeiro. Em outro estudo, Brooks, Kebede, Allison e Reynolds (2010, Journal of Development Studies) examinaram a relação entre capturadores e intermediários, incluindo crédito, acesso a mercados e concorrência entre compradores. Esses estudos ajudam a contextualizar o comércio regional de serpentes. Tratam de outras serpentes e de um período anterior, sem identificar a cadeia responsável pelas pítons apreendidas em 2026.\n\n[N] Investigação da Mongabay (agosto de 2026) descreve comércio ilegal de produtos de fauna no Camboja e possíveis conexões com outras atividades ilícitas. O antecedente sustenta a pertinência de apurar fornecedores, armazenagem e compradores, mas não vincula os suspeitos de Chong Khneas a essas redes.",
+        "Contextualization EN (OSINT protocol)": "[O] On 17–18 November the Siem Reap Gendarmerie, together with local and forestry authorities, intervened against illegal python transport and storage in Chong Khneas. One suspect was detained and 27 sacks containing snakes, weighing 318.4 kg in total, were seized. The number 27 refers to sacks, not individual snakes; the animal count, precise taxa, source and destination remain unknown.\n\n[S] Brooks, Allison and Reynolds (2007) documented intensive harvesting of Tonlé Sap aquatic snakes and pressure from the skin trade. Brooks et al. (2010, Biological Conservation) examined demand, prices and farmed-crocodile feed markets. A separate study by Brooks, Kebede, Allison and Reynolds (2010, Journal of Development Studies) analyzed relations between hunters and intermediaries, including credit, market access and competition among traders. These studies help contextualize regional snake-trade dynamics. They concern predominantly other snake groups and an earlier period; they do not identify the supply chain behind the 2026 python seizure.\n\n[N] An August 2026 Mongabay investigation describes illegal wildlife-product trading in Cambodia and alleged connections with other illicit activities. It provides a reason to examine suppliers, storage and buyers, but does not link the Chong Khneas suspects to those networks.",
+        "Contextualización ES (protocolo OSINT)": "[O] Entre el 17 y el 18/11, la Gendarmería de Siem Reap, con autoridades locales y forestales, intervino contra el transporte y almacenamiento ilegales de pitones en Chong Khneas. Un sospechoso fue detenido y se decomisaron 27 sacos con serpientes, de 318,4 kg en total. Los 27 son sacos, no individuos; se desconocen la cantidad de ejemplares, las especies exactas, el origen y el destino.\n\n[S] Brooks, Allison y Reynolds (2007) documentaron la explotación intensiva de serpientes acuáticas de Tonlé Sap y la presión del comercio de pieles. Brooks et al. (2010, Biological Conservation) estudiaron la demanda, los precios y el uso de serpientes como alimento de cocodrilos de cría. Otro estudio de Brooks, Kebede, Allison y Reynolds (2010, Journal of Development Studies) examinó las relaciones entre capturadores e intermediarios, el crédito, el acceso a mercados y la competencia entre comerciantes. Estos estudios permiten contextualizar el comercio regional de serpientes. Tratan principalmente otras serpientes y un período anterior; no identifican la cadena de las pitones decomisadas en 2026.\n\n[N] Una investigación de Mongabay de agosto de 2026 describe comercio ilegal de productos de fauna en Camboya y presuntas conexiones con otras actividades ilícitas. Justifica examinar proveedores, depósitos y compradores, pero no demuestra relación entre esas redes y los sospechosos de Chong Khneas.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] https://thmeythmey.com/index.php/detail/164460\n[O] https://postkhmer.com/national/news/956751\n[S] Brooks, Allison e Reynolds (2007), Biological Conservation — https://doi.org/10.1016/j.biocon.2007.07.009\n[S] Brooks et al. (2010), Biological Conservation — https://doi.org/10.1016/j.biocon.2010.05.023\n[S] Brooks et al. (2010), The Journal of Development Studies — https://doi.org/10.1080/00220380903012714\n[N] Mongabay, investigação sobre o comércio ilegal de fauna no Camboja (05/08/2026) — https://news.mongabay.com/short-article/2026/08/investigation-exposes-cambodias-illegal-wildlife-trade-linked-to-transnational-crime/",
+        "Auditoria de checagem / ressalvas": "Correção de protocolo TG-H em 21/11/2026: artigos revisados por pares de Brooks et al. verificados e incorporados ao acervo científico e classificados exclusivamente [S], nunca [T]. Marcadores do caso: [O], [S], [N]. [N] é contexto jornalístico, não conexão demonstrada. Fontes científicas históricas sobre serpentes aquáticas não identificam as pítons de 2026. Manter 27 SACOS, 318,4 kg e quantidade de indivíduos desconhecida. A referência [T] no caso da China refere-se a materiais administrativos/jurídicos externos, não a artigos científicos.",
+        "Encaminhamento canônico": "PUBLICADO NOS DOIS; sem linha de rota por ausência de extremos comprovados."
+      }
+    },
+    {
+      "id": "TG-H-20261121-AS-004",
+      "country": "China",
+      "status": "PUBLISHED_CANONICAL",
+      "canonical_id": "tgh-20261022-cn-xinmin-nine-skins-four-weasels",
+      "original": {
+        "ID TG-H": "TG-H-20261121-AS-004",
+        "Frente regional": "Ásia",
+        "País": "China",
+        "Estado / província": "Liaoning",
+        "Local do fato": "Qian Dang Bao, Xinmin, Shenyang",
+        "Data do fato": "2026-10-22",
+        "Data da publicação": "2026-11-20",
+        "Título factual": "Nove peles e quatro animais vivos de doninha apreendidos em ação contra caça ilegal",
+        "Indício direto de tráfico": "Suspeitos disseram que pretendiam vender peles/animais na cidade de origem",
+        "Grupo": "Mamíferos",
+        "Espécies / itens": "黄鼬 (doninha-amarela; Mustela sibirica não confirmada por identificação formal)",
+        "Quantidade": "9 peles + 4 animais vivos",
+        "Unidade": "peças e indivíduos separados",
+        "Modal constatado": "Caminhão no local, uso no transporte das peles; sem rota confirmada",
+        "Origem informada": "Área rural de Xinmin, local de caça",
+        "Destino informado / pretendido": "Cidade de origem não identificada (venda pretendida)",
+        "Rota conforme fonte": "Xinmin (caça/apreensão) → localidade de origem não identificada (pretendido)",
+        "Fonte principal": "https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html",
+        "Fonte complementar": "",
+        "Idioma da busca": "Chinês",
+        "Situação de elegibilidade": "PUBLICADO — retrospectivo 22/10, anúncio 20/11; peles separadas de vivos",
+        "Checagem no GitHub": "tgh-20261022-cn-xinmin-nine-skins-four-weasels — nove peles, quatro vivos; venda de peles pretendida.",
+        "Nota de consistência (sem OSINT)": "Fato 22/10, publicação 20/11; 9 peles não equivalem a 9 indivíduos contabilizáveis no total de vivos; 4 soltos",
+        "Decisão deduplicação": "SEM DUPLICATA INDIVIDUAL LOCALIZADA — PUBLICADO",
+        "Contar como ocorrência nova (19–20/11)": "Não; evento 22/10",
+        "Contextualização PT (protocolo OSINT)": "[O] Em 22/10, após denúncia sobre armadilhas próximas a áreas agrícolas em Xinmin, a polícia de Shenyang deteve duas pessoas e apreendeu nove peles de doninhas-amarelas (黄鼬); quatro animais vivos foram resgatados e soltos. Os suspeitos relataram a intenção de revender as peles quando voltassem à localidade de origem, não identificada na fonte. Não houve confirmação de venda concluída, comprador ou rota comercial percorrida; o comunicado é de 20/11.\n\n[T] Material publicado pela Administração Nacional de Florestas e Pastagens da China (agosto de 2026) identifica o 黄鼬 como fauna terrestre protegida na categoria nacional “três valores” e documenta a persistência de caça e comércio ilegais. O enquadramento é compatível com a acusação de caça ilegal em Xinmin, mas não constitui prova adicional sobre estes suspeitos.\n\n[T] Um processo de Pangjin, também na província de Liaoning, analisado em 2023 e resumido em publicação jurídica de 2025, documentou a divisão de funções entre caçador, comprador de peles e revendedor de doninhas-amarelas, com punições por captura e comércio ilegais. É um antecedente regional diretamente relevante para investigar eventual comprador das nove peles de Xinmin; não comprova que os dois casos compartilhem pessoas, fornecedores ou mercado de destino.",
+        "Contextualization EN (OSINT protocol)": "[O] On 22 October, after a report of traps near farmland in Xinmin, Shenyang police detained two people, recovered nine yellow-weasel (黄鼬) skins and rescued four live animals, later released. The suspects said they planned to resell the skins after returning to an unspecified home locality. Neither a completed transaction, buyer nor traveled commercial route is confirmed; the police bulletin was issued on 20 November.\n\n[T] An August 2026 article published by China's National Forestry and Grassland Administration identifies yellow weasels as protected terrestrial wildlife under the national “three values” category and documents persistent illegal trapping and sales. This helps explain the legal context of the Xinmin investigation but is not additional evidence against its suspects.\n\n[T] A Panjin case, also in Liaoning province, examined in court in 2023 and summarized in a 2025 legal publication, documented separate roles for trappers, pelt purchasers and resellers in illegal yellow-weasel trade. This regional precedent makes the potential buyer of the nine Xinmin skins a specific investigative lead, without showing shared actors, suppliers or destination markets.",
+        "Contextualización ES (protocolo OSINT)": "[O] El 22/10, tras una denuncia por trampas instaladas junto a campos agrícolas en Xinmin, la policía de Shenyang detuvo a dos personas, incautó nueve pieles de comadreja amarilla (黄鼬) y rescató cuatro ejemplares vivos, posteriormente liberados. Los sospechosos declararon que pretendían revender las pieles al regresar a una localidad de origen no identificada. No se ha confirmado una venta, comprador ni ruta comercial recorrida; el boletín policial fue publicado el 20/11.\n\n[T] Una publicación de agosto de 2026 de la Administración Nacional de Bosques y Pastizales de China identifica al 黄鼬 como fauna terrestre protegida bajo la categoría nacional de los «tres valores» y documenta la persistencia de capturas y ventas ilegales. Es contexto jurídico, no prueba adicional contra los sospechosos de Xinmin.\n\n[T] Un caso de Panjin, también en la provincia de Liaoning, examinado judicialmente en 2023 y resumido en una publicación jurídica de 2025, documentó funciones diferenciadas de capturadores, compradores de pieles y revendedores de comadrejas amarillas. Constituye un antecedente regional pertinente para indagar posibles compradores de las nueve pieles de Xinmin, sin demostrar actores ni rutas compartidas.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] Polícia de Shenyang, 20/11/2026 — https://gaj.shenyang.gov.cn/scjx/jcgs/202611/t20261120_5121438.html\n[T] Administração Nacional de Florestas e Pastagens da China, 12/08/2026 — https://www.forestry.gov.cn/lyj/1/zhzs/20260812/683428.html\n[T] Síntese jurídica de caso judicial de Pangjin/Liaoning, 20/03/2025 (fatos e julgamento anteriores) — https://web.bbc.edu.cn/pfzt/2025/0320/c3253a114077/page.htm",
+        "Auditoria de checagem / ressalvas": "21/11/2026: [T] duas fontes externas sobre a MESMA fauna (黄鼬) e cadeia de peles; uma fonte oficial nacional e um antecedente jurídico da mesma província (Liaoning), sem vínculo provado com investigados atuais. Não foi incluído [N] por ausência de reportagem pertinente à cadeia de doninhas-amarelas; nem [S] por ausência de estudo científico específico. Nove peles e quatro animais vivos são contagens não aditivas. Origem e destino não localizados.",
+        "Encaminhamento canônico": "PUBLICADO NOS DOIS; quatro vivos contabilizáveis; nove peles separadas."
+      }
+    },
+    {
+      "id": "TG-H-20261121-EU-001",
+      "country": "Polônia",
+      "status": "PUBLISHED_CANONICAL",
+      "canonical_id": "tgh-20261026-pl-koroszczyn-41-lizards",
+      "original": {
+        "ID TG-H": "TG-H-20261121-EU-001",
+        "Frente regional": "Europa",
+        "País": "Polônia",
+        "Estado / província": "Voivodia de Lublin",
+        "Local do fato": "Koroszczyn, passagem fronteiriça Belarus–Polônia",
+        "Data do fato": "2026-10-26",
+        "Data da publicação": "2026-10-28",
+        "Título factual": "41 lagartos vivos apreendidos em caminhão vindo de Belarus para revenda na Polônia",
+        "Indício direto de tráfico": "Motorista declarou compra online na Rússia e intenção de vender os animais a comprador não identificado por EUR 3.000, sem documentos exigidos para exemplares CITES.",
+        "Grupo": "Répteis",
+        "Espécies / itens": "Lagartos dos gêneros Goniurosaurus, Smaug, Cordylus/Cordyllus (como informado), Calotes e Lacerta; identificação taxonômica preliminar",
+        "Quantidade": "41",
+        "Unidade": "indivíduos vivos",
+        "Modal constatado": "Terrestre — caminhão; animais ocultados na cabine e no equipamento da carreta",
+        "Origem informada": "Compra pela internet na Rússia, conforme declaração do condutor; local de captura não informado",
+        "Destino informado / pretendido": "Polônia, comprador previsto sem localidade identificada; venda não consumada",
+        "Rota conforme fonte": "Rússia (compra declarada; não captura comprovada) → Belarus (último país antes do cruzamento) → Koroszczyn, Polônia (interceptação); destino de venda polonês não localizado",
+        "Fonte principal": "https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek",
+        "Fonte complementar": "https://www.zwierzaki.info/artykuly/kas-udaremnila-przemyt-41-zywych-jaszczurek-na-granicy-z-bialorusia",
+        "Idioma da busca": "Polonês",
+        "Situação de elegibilidade": "PUBLICADO — retrospectivo 26/10; única rota ilustrativa documental",
+        "Checagem no GitHub": "tgh-20261026-pl-koroszczyn-41-lizards — travessia Belarus→Polônia; geometria esquemática, sem inferência de viagem anterior.",
+        "Nota de consistência (sem OSINT)": "41 lagartos são espécimes vivos, alguns CITES; não presumir que todos são protegidos. Fonte não localiza origem biológica nem comprador. Evento 26/10, notícia 28/10.",
+        "Decisão deduplicação": "SEM DUPLICATA INDIVIDUAL LOCALIZADA — PUBLICADO",
+        "Contar como ocorrência nova (19–20/11)": "Não — fato de 26/10 e publicação de 28/10",
+        "Contextualização PT (protocolo OSINT)": "[O] Em 26/10/2026, a administração aduaneira polonesa interceptou em Koroszczyn um caminhão procedente de Belarus e encontrou 41 lagartos vivos escondidos em recipientes na cabine e no equipamento da carreta. A identificação preliminar abrangeu *Goniurosaurus*, *Smaug*, *Cordylus* (grafado “Cordyllus” no comunicado), *Calotes* e *Lacerta*; somente parte dos exemplares foi identificada como protegida pela CITES. Segundo declaração atribuída ao motorista, as espécies haviam sido compradas pela internet na Rússia para revenda a um comprador não identificado na Polônia por € 3 mil. Compra declarada na Rússia, entrada por Belarus e venda pretendida na Polônia não demonstram local de captura, trajeto completo ou entrega realizada.\n\n[S] Marshall, Strine e Hughes (2020) documentaram a dimensão do comércio online de répteis e lacunas da cobertura internacional, pertinentes ao canal digital de aquisição relatado. Estudo publicado no *African Journal of Herpetology* (2025), sobre *Smaug giganteus*, identificou inconsistências em registros CITES e riscos de declaração indevida de origem cativa. A presença preliminar do gênero *Smaug* neste caso não comprova que os animais sejam *S. giganteus* nem que tenham origem fraudulenta.\n\n[N] Investigação da Mongabay (outubro de 2026) descreveu vulnerabilidades na regulação do comércio internacional de répteis, inclusive na União Europeia. O antecedente reforça a importância de conferir identificação taxonômica, documentação e cadeia de aquisição, sem atribuir ao motorista redes ou práticas investigadas na reportagem.",
+        "Contextualization EN (OSINT protocol)": "[O] On 26 October 2026 Polish customs officers stopped a truck entering Koroszczyn from Belarus and found 41 live lizards concealed in containers in the driver's cab and trailer machinery. Preliminary identification included *Goniurosaurus*, *Smaug*, *Cordylus* (spelled “Cordyllus” in the official notice), *Calotes* and *Lacerta*; only some specimens were identified as CITES-listed. According to a statement attributed to the driver, the animals had been purchased online in Russia and were intended for sale to an unidentified buyer in Poland for €3,000. The declared purchase in Russia, entry from Belarus and intended Polish sale do not establish the animals' capture sites, complete journey or a completed delivery.\n\n[S] Marshall, Strine and Hughes (2020) documented the scale of online reptile trade and gaps in international regulatory coverage, relevant to the reported digital purchase. A 2025 study in the *African Journal of Herpetology* examined *Smaug giganteus* trade and identified discrepancies in CITES records and risks of falsely declared captive breeding. The provisional identification of the genus *Smaug* here does not establish that any seized lizard was *S. giganteus* or had a fraudulent origin.\n\n[N] An October 2026 Mongabay investigation explored weaknesses in international reptile-trade regulations, including those affecting the European Union. It underscores the need to verify taxonomy, permits and the acquisition chain without linking the driver to any networks or practices described in that reporting.",
+        "Contextualización ES (protocolo OSINT)": "[O] El 26/10/2026, aduaneros polacos interceptaron en Koroszczyn un camión procedente de Bielorrusia y encontraron 41 lagartos vivos ocultos en recipientes dentro de la cabina y los equipos del remolque. La identificación preliminar incluyó *Goniurosaurus*, *Smaug*, *Cordylus* (escrito «Cordyllus» en el comunicado), *Calotes* y *Lacerta*; solo algunos ejemplares fueron identificados como sujetos a la CITES. Según declaraciones atribuidas al conductor, los animales se habían comprado por internet en Rusia para venderlos a un comprador no identificado en Polonia por 3.000 euros. La compra declarada en Rusia, la entrada desde Bielorrusia y la venta prevista en Polonia no prueban el lugar de captura, el itinerario completo ni una entrega consumada.\n\n[S] Marshall, Strine y Hughes (2020) documentaron la amplitud del comercio digital de reptiles y las deficiencias de la regulación internacional, relevantes para la adquisición por internet declarada. Un estudio de 2025 en *African Journal of Herpetology* examinó el comercio de *Smaug giganteus* y señaló inconsistencias en registros CITES y riesgos de falsa declaración de cría en cautividad. La identificación provisional del género *Smaug* en este caso no demuestra que los ejemplares fueran *S. giganteus* ni tuvieran procedencia fraudulenta.\n\n[N] Una investigación de Mongabay de octubre de 2026 abordó vacíos regulatorios del comercio internacional de reptiles, también en la Unión Europea. Es pertinente para verificar identificación taxonómica, permisos y cadena de adquisición, pero no vincula al conductor con las redes o prácticas investigadas.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] Administração Nacional Tributária/Aduaneira da Polônia (KAS), 28/10/2026 — https://www.gov.pl/web/kas/kas-zatrzymala-probe-przemytu-zywych-jaszczurek\n[S] Marshall, Strine & Hughes (2020), Nature Communications — https://doi.org/10.1038/s41467-020-18523-4\n[S] “Exported illegally, threatened locally: South Africa in the global reptile pet trade” (2025), African Journal of Herpetology — https://doi.org/10.1080/21564574.2025.2542207\n[N] Mongabay (16/10/2026), “Legal gaps allow rampant pet trade, poaching reptiles and amphibians towards extinction” — https://news.mongabay.com/2026/10/legal-gaps-allow-rampant-pet-trade-poaching-reptiles-and-amphibians-towards-extinction/",
+        "Auditoria de checagem / ressalvas": "Contextualização OSINT PT/EN/ES concluída em 21/11/2026, marcadores [O], [S], [N]. Fonte primária da KAS verificada: fato 26/10/2026, divulgação 28/10/2026, 41 lagartos vivos, parte CITES, €3.000 de revenda pretendida, compra online na Rússia declarada pelo condutor. Entrada a partir de Belarus documentada; ponto de captura, trânsito desde a Rússia, comprador e venda concluída não confirmados. Estudo científico sobre *Smaug giganteus* NÃO comprova essa espécie no lote: a fonte identificou o gênero de forma preliminar. Sem [I]/[T] por falta de pertinência específica adicional. Notícias e artigos contextualizam mercados/regulação, não demonstram vínculo com investigados. Deduplicação integral ainda pendente. Nenhuma publicação canônica autorizada.",
+        "Encaminhamento canônico": "PUBLICADO NOS DOIS; uma rota documentada, 41 lagartos vivos."
+      }
+    },
+    {
+      "id": "TG-H-20261121-OC-001",
+      "country": "Nova Zelândia",
+      "status": "PUBLISHED_CANONICAL",
+      "canonical_id": "tgh-20261120-nz-marlborough-kina-183kg",
+      "original": {
+        "ID TG-H": "TG-H-20261121-OC-001",
+        "Frente regional": "Oceania",
+        "País": "Nova Zelândia",
+        "Estado / província": "Marlborough",
+        "Local do fato": "Marlborough Sounds (área de captura referida); tribunal de Blenheim para sentença",
+        "Data do fato": "",
+        "Data da publicação": "2026-11-20",
+        "Título factual": "Comércio ilegal de 183,5 kg de ouriços-do-mar kina após captura por mergulhadores em Marlborough",
+        "Indício direto de tráfico": "Ministério para Indústrias Primárias confirmou captura e venda ilegal com lucro, uso de intermediário, mensagens a compradores, conta bancária de terceiro e remessas por frete aéreo; condenado em 19/11.",
+        "Grupo": "Invertebrados marinhos (equinodermos)",
+        "Espécies / itens": "Kina (ouriço-do-mar nativo da Nova Zelândia; espécie não identificada no comunicado)",
+        "Quantidade": "183,5",
+        "Unidade": "kg de produto de fauna marinha; não contagem de animais",
+        "Modal constatado": "Distribuição doméstica com frete aéreo documentado; embarques/cidades não especificados",
+        "Origem informada": "Marlborough Sounds, de acordo com a operação de captura reportada; locais precisos desconhecidos",
+        "Destino informado / pretendido": "Compradores em diferentes localidades da Nova Zelândia; sem cidades divulgadas",
+        "Rota conforme fonte": "Marlborough Sounds (referência da captura) → compradores em diversas partes da Nova Zelândia (frete aéreo documentado, sem aeroportos/trechos específicos)",
+        "Fonte principal": "https://www.mpi.govt.nz/news/media-releases/marlborough-sounds-poacher-placed-on-home-detention-for-taking-and-selling-kina",
+        "Fonte complementar": "https://tvnz-1-news-prod.cdn.arcpublishing.com/2026/11/20/organised-and-deliberate-poacher-sold-more-than-180kg-of-kina/",
+        "Idioma da busca": "Inglês; termos locais maori (kina) preservados",
+        "Situação de elegibilidade": "PUBLICADO — comércio ilegal comprovado; datas de colheita não divulgadas",
+        "Checagem no GitHub": "tgh-20261120-nz-marlborough-kina-183kg — venda doméstica comprovada e sentença 19/11; captura sem data de dia.",
+        "Nota de consistência (sem OSINT)": "Data das capturas/vendas não informada; 19/11 é data da sentença, 20/11 é publicação. Não tratar 183,5 kg como indivíduos. Produto de pesca ilegal de animal silvestre, não reptil/ave.",
+        "Decisão deduplicação": "SEM DUPLICATA INDIVIDUAL LOCALIZADA — PUBLICADO",
+        "Contar como ocorrência nova (19–20/11)": "Não — data do fato comercial anterior e desconhecida; sentença 19/11, publicação 20/11",
+        "Contextualização PT (protocolo OSINT)": "[O] A investigação do Ministério para Indústrias Primárias da Nova Zelândia comprovou a captura e venda ilegais de 183,5 kg de kina por um operador de Marlborough. Vários mergulhadores recolhiam até o limite recreativo individual de 50 unidades, e o produto era comercializado em potes de 500 g. As autoridades identificaram um intermediário, negociações por mensagens, uso de conta bancária em nome de terceiro e remessas aéreas a compradores em diferentes regiões do país. O réu declarou-se culpado e foi condenado em Blenheim, em 19/11/2026; o comunicado é de 20/11. As datas das capturas e vendas e as cidades dos compradores não foram divulgadas. Não há evidência de rota internacional.\n\n[S] Miller et al. (2024) estudaram a qualidade comercial das gônadas de kina (*Evechinus chloroticus*) e sua variação com o estado dos recifes e a restauração de florestas de algas na Nova Zelândia. O artigo demonstra a importância de distinguir valor comercial, manejo e condições ecológicas. Não mede o impacto populacional desta exploração ilegal nem identifica seus intermediários.\n\n[T] O relatório técnico de Miller e Abraham (2011), para a avaliação da pesca neozelandesa, identifica Marlborough Sounds (SUR7A) como uma área relevante de produção comercial de kina e descreve a gestão por cotas, a captura por mergulho e lacunas de dados de esforço em escala local. Esse contexto ajuda a interpretar a conversão indevida de cotas recreativas em fornecimento comercial. Não determina o local exato de captura, o volume total de mercado clandestino ou a participação de operadores legais neste caso.",
+        "Contextualization EN (OSINT protocol)": "[O] A New Zealand Ministry for Primary Industries investigation established the illegal harvest and sale of 183.5 kg of kina by an operator based in Marlborough. Multiple divers collected up to the individual recreational daily limit of 50, and the product was sold in 500 g containers. Investigators documented a middleman, sales arranged by text message, a bank account in another person's name and air-freight shipments to buyers around New Zealand. The defendant pleaded guilty and was sentenced in Blenheim on 19 November 2026; the official release is dated 20 November. The harvesting and sales dates and buyers' cities were not disclosed. No international route is evidenced.\n\n[S] Miller et al. (2024) studied commercial kina (*Evechinus chloroticus*) roe quality and how it varies with reef condition and kelp restoration in New Zealand. Their results distinguish market value, fisheries management and ecological conditions. They do not measure any population impact from this illegal harvest or identify the intermediaries involved.\n\n[T] Miller and Abraham's (2011) New Zealand fisheries assessment identifies Marlborough Sounds (SUR7A) as an important commercial kina fishing area and describes quota management, diver-based harvesting and gaps in local-scale catch and effort information. This background is pertinent to the misuse of recreational catch limits for commercial supply. It does not establish the exact harvest sites, the size of the illegal market or any involvement of licensed operators in this case.",
+        "Contextualización ES (protocolo OSINT)": "[O] Una investigación del Ministerio de Industrias Primarias de Nueva Zelanda acreditó la captura y venta ilegales de 183,5 kg de kina por un operador de Marlborough. Varios buzos recolectaban hasta el límite recreativo diario individual de 50 ejemplares y el producto se vendía en recipientes de 500 g. La autoridad documentó un intermediario, negociaciones mediante mensajes, una cuenta bancaria a nombre de un tercero y envíos por carga aérea a compradores en distintas regiones del país. El acusado se declaró culpable y fue condenado en Blenheim el 19/11/2026; el comunicado es del 20/11. No se publicaron las fechas de captura y venta ni las ciudades de los compradores. No hay ruta internacional documentada.\n\n[S] Miller et al. (2024) estudiaron la calidad comercial de las gónadas de kina (*Evechinus chloroticus*) y su variación según el estado de los arrecifes y la restauración de bosques de kelp en Nueva Zelanda. El trabajo distingue valor comercial, gestión pesquera y condiciones ecológicas. No mide impactos poblacionales de esta extracción ilegal ni identifica a sus intermediarios.\n\n[T] El informe técnico de Miller y Abraham (2011) identifica Marlborough Sounds (SUR7A) como una zona importante de producción comercial de kina y describe la gestión mediante cuotas, la recolección por buceo y las lagunas de información local sobre capturas y esfuerzo. Ese antecedente ayuda a interpretar el uso indebido de límites recreativos para abastecer el comercio. No determina los lugares exactos de extracción, la dimensión del mercado ilícito ni la participación de operadores autorizados en este caso.",
+        "Fontes por marcador — [O] ocorrência, [S] papers.json, [I] institucional, [N] news.json, [T] trabalhos externos": "[O] Ministry for Primary Industries, Nova Zelândia (20/11/2026) — https://www.mpi.govt.nz/news/media-releases/marlborough-sounds-poacher-placed-on-home-detention-for-taking-and-selling-kina\n[O] 1News (20/11/2026), confirmação jornalística do julgamento — https://www.1news.co.nz/2026/11/20/organised-and-deliberate-poacher-sold-more-than-180kg-of-kina/\n[S] Miller, Balemi, Blain, Spyksma & Shears (2024), Ecosphere — https://doi.org/10.1002/ecs2.4911\n[T] Miller & Abraham (2011), New Zealand Fisheries Assessment Report 2011/7 — https://www.dragonfly.co.nz/publications/miller_characterisation_2011",
+        "Auditoria de checagem / ressalvas": "Contextualização PT/EN/ES concluída em 21/11/2026, com [O], [S], [T]. Fonte primária e confirmação jornalística dizem 183,5 kg comercializados ilegalmente em embalagens de 500 g; uso de vários mergulhadores (limite diário recreativo de 50 por pessoa), intermediário, mensagens, conta de terceiro e remessas aéreas dentro da Nova Zelândia. Sentença 19/11 e divulgação 20/11 NÃO são datas das capturas ou vendas (não divulgadas). Tipo de fauna: equinodermo marinho (kina); nome científico *Evechinus chloroticus* vem de literatura técnica e científica, não de identificação taxonômica forense do lote. Estudo científico de 2024 previamente verificado, deduplicado e incorporado ao acervo (133 artigos) — marcador [S]; avaliação pesqueira governamental de 2011 — [T]. Sem [N] específico de investigação distinta no acervo, sem [I] pertinente. 183,5 kg não representa quantidade de indivíduos; rota doméstica comprovada apenas de forma geral, sem aeroportos ou locais de entrega. Escopo editorial de pesca ilegal com comercialização e deduplicação canônica integral ainda pendentes; não publicar sem aprovação.",
+        "Encaminhamento canônico": "PUBLICADO NOS DOIS; 183,5 kg não convertidos em animais; transporte aéreo doméstico sem pontos geográficos precisos."
+      }
+    }
+  ],
+  "triage": [
+    {
+      "id": "TRI-TGH-20261121-AM-001",
+      "country": "Brasil",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Cativeiro sem evidência de comercialização; manter como fato ambiental fora do recorte confirmado.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AM-001",
+        "País": "Brasil",
+        "Local": "São Sebastião, Distrito Federal",
+        "Data ocorrência": "2026-11-18",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "27 aves silvestres apreendidas em residência; 11 gaiolas",
+        "Por que não classificado como tráfico confirmado": "Posse/cativeiro ilegal, sem prova direta de venda ou tráfico de fauna",
+        "Fonte": "https://www.fatosdebrasilia.com.br/policia/27-aves-sao-encontradas-presas-em-gaiolas-em-sao-sebastiao/137772",
+        "Idioma": "Português",
+        "Situação": "Triagem pendente de vínculo comercial",
+        "Decisão técnica / deduplicação — 20/11/2026": "Verificar escopo e canônico às 16h"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AM-002",
+      "country": "Brasil",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Convergência com drogas não demonstra comércio de fauna; não registrar tráfico de animais.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AM-002",
+        "País": "Brasil",
+        "Local": "Lajinha/MG, bairro Campestre",
+        "Data ocorrência": "2026-11-19",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "11 aves silvestres (5 trinca-ferros e 6 papa-capins) no local de flagrante por drogas",
+        "Por que não classificado como tráfico confirmado": "Tráfico confirmado é de drogas, não de aves; cativeiro ilícito não demonstra comércio de fauna",
+        "Fonte": "https://asnoticiasonline.com.br/2026/11/20/pm-prende-autores-por-trafico-ilicito-de-drogas-e-crime-ambiental-em-lajinha/",
+        "Idioma": "Português",
+        "Situação": "Triagem; possível convergência sem tráfico de fauna comprovado",
+        "Decisão técnica / deduplicação — 20/11/2026": "Fonte adicional: https://www.manhuacunews.com.br/2026/11/20/pm-apreende-arma-municoes-drogas-e-aves-alem-de-prisoes-na-regiao/"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AM-003",
+      "country": "Argentina",
+      "status": "DEFERRED_EVIDENCE",
+      "resolution_today": "Distinguir espécies silvestres de patos/gansos domésticos e provar canal comercial antes de considerar inclusão.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AM-003",
+        "País": "Argentina",
+        "Local": "Palermo, CABA / Billinghurst, Buenos Aires",
+        "Data ocorrência": "",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "14 patos/gansos retirados de lago e dezenas de animais mantidos em residência",
+        "Por que não classificado como tráfico confirmado": "Investigação de captura e maus-tratos; hipótese de tráfico não confirmada; animais domésticos misturados; totais divergentes (quase 50/60)",
+        "Fonte": "https://www.mdzol.com/sociedad/2026/11/19/imputaron-a-un-hombre-y-a-su-hijo-por-robar-patos-y-gansos-de-los-bosques-de-palermo-tenian-casi-50-animales-1996489.html",
+        "Idioma": "Espanhol",
+        "Situação": "Triagem; possível rede a confirmar",
+        "Decisão técnica / deduplicação — 20/11/2026": "Distinguir fauna silvestre de animais domésticos; buscar fonte primária"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AM-004",
+      "country": "Peru",
+      "status": "HISTORICAL_UPDATE",
+      "resolution_today": "Apreensão de 04/11; atualização de 12.796 tarântulas requer reconciliação do registro histórico, não novo evento.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AM-004",
+        "País": "Peru",
+        "Local": "Aeroporto Jorge Chávez, Lima",
+        "Data ocorrência": "2026-11-04",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "Atualização do total de tarântulas apreendidas (12.796) em bagagens rumo à Alemanha",
+        "Por que não classificado como tráfico confirmado": "Caso de 04/11; total já reportado em 08/11, notícia nova não é nova apreensão",
+        "Fonte": "https://earthjournal.com/peruvian-officials-reportedly-increase-tally-to-more-than-12000-tarantulas-in-recent-seizure/",
+        "Idioma": "Espanhol; inglês",
+        "Situação": "Atualização histórica/possível duplicação canônica",
+        "Decisão técnica / deduplicação — 20/11/2026": "A cifra 12.796 já constava: https://i24.com.ar/contenido/37175/peru-intentaban-llevarse-miles-de-tarantulas-ocultas-en-tres-valijas-y-fueron-de"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AM-005",
+      "country": "Chile",
+      "status": "DEFERRED_EVIDENCE",
+      "resolution_today": "Corais CITES na bagagem; confirmar data, quantidade, circunstâncias legais e eventual intenção comercial.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AM-005",
+        "País": "Chile",
+        "Local": "Paso Cardenal Samoré, Región de Los Lagos",
+        "Data ocorrência": "",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "Corais CITES dos gêneros Diploria e Acropora encontrados na bagagem de viajante vindo da Espanha",
+        "Por que não classificado como tráfico confirmado": "Faltam data exata, número de peças e situação de crime/comércio; ocorrência divulgada de forma agregada",
+        "Fonte": "https://www.elcalbucano.cl/2026/11/aduanas-refuerza-controles-en-la-zona-sur-con-diversos-decomisos-en-pasos-fronterizos/",
+        "Idioma": "Espanhol",
+        "Situação": "Triagem; data e quantidade pendentes",
+        "Decisão técnica / deduplicação — 20/11/2026": "Procedência do passageiro não é necessariamente origem biológica do coral"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AF-001",
+      "country": "Malawi",
+      "status": "DEFERRED_EVIDENCE",
+      "resolution_today": "Pangolim vivo em posse, porém data divergente e finalidade comercial não demonstrada; consultar boletim policial.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AF-001",
+        "País": "Malawi",
+        "Local": "Limbe, Blantyre",
+        "Data ocorrência": "2026-11-17 (dia da semana inconsistente na fonte)",
+        "Data publicação": "2026-11-18",
+        "Sinal observado": "Um pangolim vivo encontrado em bolsa de computador; dois detidos",
+        "Por que não classificado como tráfico confirmado": "Posse ilícita descrita; comércio ou destino não comprovados",
+        "Fonte": "https://www.faceofmalawi.com/2026/11/18/two-arrested-for-possession-of-live-pangolin-in-limbe/",
+        "Idioma": "Inglês",
+        "Situação": "Triagem: nexo comercial pendente",
+        "Decisão técnica / deduplicação — 20/11/2026": "Fonte chama 17/11/2026 de segunda-feira, embora fosse terça-feira; confirmar data com polícia"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AF-002",
+      "country": "Malawi",
+      "status": "HISTORICAL_UPDATE",
+      "resolution_today": "Caso de venda de pangolim de 26/09 com sentença divulgada agora; verificar inclusão histórica antes de atualizar.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AF-002",
+        "País": "Malawi",
+        "Local": "Madisi Trading Centre, Dowa",
+        "Data ocorrência": "2026-09-26",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "Condenação de dois suspeitos por oferta de venda de pangolim em setembro",
+        "Por que não classificado como tráfico confirmado": "Notícia judicial, sem nova apreensão em novembro",
+        "Fonte": "https://www.faceofmalawi.com/2026/11/19/two-jailed-5-years-each-for-possession-of-live-pangolin/",
+        "Idioma": "Inglês",
+        "Situação": "Atualização histórica; verificar duplicação",
+        "Decisão técnica / deduplicação — 20/11/2026": "Apreensão original 26/09: https://malawicables.com/two-men-in-mponela-dowa-arrested-for-being-found-in-possession-of-live-pangolin/"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-001",
+      "country": "Índia",
+      "status": "ALREADY_CANONICAL",
+      "resolution_today": "650 periquitos em Varanasi, 19/11; verificar ficha tgh-20261119-in-varanasi-golgadda-650-parakeets, já publicada.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AS-001",
+        "País": "Índia",
+        "Local": "Golgadda, Varanasi, Uttar Pradesh",
+        "Data ocorrência": "2026-11-19",
+        "Data publicação": "2026-11-21",
+        "Sinal observado": "650 periquitos protegidos apreendidos de caminhonete; 60 Alexandrine e 590 outros",
+        "Por que não classificado como tráfico confirmado": "Ocorrência já aprovada para publicação canônica em conversa anterior; não duplicar sem checar cases.json",
+        "Fonte": "https://timesofindia.indiatimes.com/city/varanasi/650-protected-birds-rescued-3-interstate-smugglers-held/amp_articleshow/136035839.cms",
+        "Idioma": "Inglês",
+        "Situação": "Possível duplicação canônica prioritária",
+        "Decisão técnica / deduplicação — 20/11/2026": "Conferir ID TG-H-20261119-AS-001 e publicação; notícia de 21/11 atualiza fato 19/11"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-002",
+      "country": "China",
+      "status": "AGGREGATE_NOT_CASE",
+      "resolution_today": "33 processos e 705 redes são balanço de operações, não 33 fatos individualizados; aguardar boletins.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AS-002",
+        "País": "China",
+        "Local": "Rongshui e Sanjiang, Liuzhou, Guangxi",
+        "Data ocorrência": "2026-10 (investigações); datas individuais não informadas",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "Boletim de 33 processos, 35 presos, 705 redes de captura de aves e 80 equipamentos",
+        "Por que não classificado como tráfico confirmado": "Agregado de operações desde outubro, sem 33 eventos individuais verificáveis; não criar 33 registros canônicos",
+        "Fonte": "https://www.bjnews.com.cn/detail/1795156306129828.html",
+        "Idioma": "Chinês",
+        "Situação": "Triagem de operação agregada; dados individualizados pendentes",
+        "Decisão técnica / deduplicação — 20/11/2026": "Buscar boletins originais e casos específicos; não somar redes/equipamentos como animais"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-003",
+      "country": "China",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Captura ilegal sem animais comercializados ou transporte destinado à venda confirmados.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AS-003",
+        "País": "China",
+        "Local": "Congjiang, Guizhou",
+        "Data ocorrência": "Data exata não informada",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "Denúncia de redes para captura ilegal de aves; pessoas convocadas pela polícia",
+        "Por que não classificado como tráfico confirmado": "Não há quantidade de animais apreendidos nem comércio demonstrado; investigação em andamento",
+        "Fonte": "https://t.cj.sina.com.cn/articles/view/1887344341/707e96d502001y9ma",
+        "Idioma": "Chinês",
+        "Situação": "Triagem: caça ilegal sem nexo comercial confirmado",
+        "Decisão técnica / deduplicação — 20/11/2026": "Não confundir com boletim Liuzhou; buscar órgão florestal de Congjiang"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-004",
+      "country": "Vietnã",
+      "status": "HISTORICAL_UPDATE",
+      "resolution_today": "Marfim apreendido em agosto, publicado novamente em novembro; não republicar como nova ocorrência.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AS-004",
+        "País": "Vietnã",
+        "Local": "Porto Quy Nhon, Gia Lai",
+        "Data ocorrência": "2026-08-06/08",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "Notícia recente elogia operação que apreendeu 221 peças de marfim (1.193 kg) e 79,3 kg de ossos em agosto",
+        "Por que não classificado como tráfico confirmado": "Atualização institucional de apreensão histórica de agosto, não novo fato de novembro",
+        "Fonte": "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/chu-tich-tinh-gia-lai-gui-thu-khen-luc-luong-cong-an-triet-pha-duong-day-van-chuyen-gan-12-tan-nga-voi-492b59fb6.html",
+        "Idioma": "Vietnamita",
+        "Situação": "Triagem: atualização histórica, provável duplicação",
+        "Decisão técnica / deduplicação — 20/11/2026": "Fonte primária de agosto https://www.mps.gov.vn/bai-viet/cong-an-gia-lai-lat-tay-thu-doan-cat-giau-hon-1-1-tan-nga-voi-trong-3-container-go-1786527042; origem República do Congo → Vietnã; não republicar"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-005",
+      "country": "Tailândia",
+      "status": "DEFERRED_HISTORICAL",
+      "resolution_today": "Apreensão tailandesa de 11/11 com carcaças e escamas; confrontar com casos canônicos anteriores antes de nova inclusão histórica.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AS-005",
+        "País": "Tailândia",
+        "Local": "Thung Saliam, Sukhothai",
+        "Data ocorrência": "2026-11-11",
+        "Data publicação": "2026-11-12",
+        "Sinal observado": "32 carcaças de esquilo, 3 de toupeira, 1 de civeta e 0,6 kg de escamas de pangolim em transporte",
+        "Por que não classificado como tráfico confirmado": "Evento de 11/11 com fonte primária anterior; conferir se já integrado ao relatório semanal e canônico",
+        "Fonte": "https://news.dnp.go.th/news/50991",
+        "Idioma": "Tailandês",
+        "Situação": "Triagem histórica, verificar inclusão",
+        "Decisão técnica / deduplicação — 20/11/2026": "Origem declarada Mae Salom, Lampang; destino pretendido província de Sukhothai; não contar 0,6 kg como indivíduos"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-AS-006",
+      "country": "Índia",
+      "status": "HISTORICAL_UPDATE",
+      "resolution_today": "Decisão de novembro relativa a apreensão de junho; sem novo fato de comércio.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-AS-006",
+        "País": "Índia",
+        "Local": "Jhinna Pipariya, Katni, Madhya Pradesh",
+        "Data ocorrência": "2026-06-08",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "Decisão judicial sobre veículo de apreensão de 5 kg de escamas de pangolim em junho",
+        "Por que não classificado como tráfico confirmado": "Notícia judicial não corresponde a nova apreensão em novembro",
+        "Fonte": "https://timesofindia.indiatimes.com/city/bhopal/court-rejects-plea-for-release-of-vehicle-seized-in-pangolin-smuggling-case/amp_articleshow/136002780.cms",
+        "Idioma": "Inglês",
+        "Situação": "Triagem: atualização judicial histórica",
+        "Decisão técnica / deduplicação — 20/11/2026": "Checar registro histórico de 08/06; não criar nova ocorrência"
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-001",
+      "country": "Itália",
+      "status": "DEFERRED_EVIDENCE",
+      "resolution_today": "421 aves mortas/63 vivas de caça ilegal: falta vinculação comercial comprovada.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-001",
+        "País": "Itália",
+        "Local": "Noventa Vicentina, Vicenza",
+        "Data ocorrência": "Não divulgada; operação conhecida até 20/11/2026",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "421 aves mortas em congeladores, 63 aves vivas em gaiolas, redes e aparelhos de chamariz usados para captura ilícita",
+        "Por que não classificado como tráfico confirmado": "A fonte documenta caça/captura e manutenção ilegais, mas não identifica venda, oferta de comércio ou transporte para o mercado; verificar se rede comercial existia.",
+        "Fonte": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/bracconaggio-nel-vicentino-trovati-oltre-400-uccelli-morti-e-trappole_48e80667-6304-4bd6-b66c-babbb5a83804.html",
+        "Idioma": "Italiano",
+        "Situação": "Pendente de demonstração de finalidade comercial; não contar como tráfico confirmado",
+        "Decisão técnica / deduplicação — 20/11/2026": "Não somar automaticamente aves mortas em redes ao lote de 421; 63 vivas são quantidade distinta. Outras reportagens reproduzem o mesmo fato. Sem data exata de operação. Corroboração de 20/11 por RAI TGR Veneto https://www.rainews.it/tgr/veneto/articoli/2026/11/bracconaggio-noventa-vicentina-uccelli-sequestrati-reti-uccellagione-82b40389-7fe5-4309-b172-1ce9c4637894.html e ANSA Veneto https://www.ansa.it/veneto/notizie/2026/11/20/bracconaggio-nel-vicentino-trovati-oltre-400-uccelli-morti-e-trappole_e1f23ef5-75ff-474a-ba71-b8f11ca4f8f6.html; não há venda comprovada."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-002",
+      "country": "França / Bélgica",
+      "status": "HISTORICAL_UPDATE",
+      "resolution_today": "Audiência em 2026 sobre rede de 2012-2017; não gerar ocorrência de novembro.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-002",
+        "País": "França / Bélgica",
+        "Local": "Cahors (Lot), França; processo sobre rede franco-belga",
+        "Data ocorrência": "2012–2017 (crimes investigados); 2026-11-18 (audiência)",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "Audiência de tráfico histórico de aves protegidas; três condenações com pena suspensa e parte do processo adiada para março de 2027",
+        "Por que não classificado como tráfico confirmado": "Desdobramento judicial de fatos 2012–2017, não nova apreensão nem novo episódio de tráfico em novembro de 2026.",
+        "Fonte": "https://medialot.fr/cahors-laffaire-de-trafic-doiseaux-sauvages-proteges-en-partie-renvoyee/",
+        "Idioma": "Francês",
+        "Situação": "Histórico/judicial; não incluir como apreensão nova",
+        "Decisão técnica / deduplicação — 20/11/2026": "Treze acusados referidos em outras fontes, parte sem julgamento. Não converter até 30.000 aves estimadas em quantidade apreendida. França/Bélgica referem-se à rede histórica e não a uma rota comprovada nova."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-003",
+      "country": "Polônia",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Duas aves de tutores retidas por falta documental, sem evidência de venda.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-003",
+        "País": "Polônia",
+        "Local": "Aeroporto Chopin, Varsóvia",
+        "Data ocorrência": "Primeira quinzena de novembro de 2026; dia exato não informado",
+        "Data publicação": "Data da publicação não visível na fonte",
+        "Sinal observado": "Duas aves de estimação exóticas viajando com seus tutores dos EUA foram retidas por falta de licenças de entrada exigidas",
+        "Por que não classificado como tráfico confirmado": "A nota oficial trata de deficiência documental de tutores, sem evidência de comercialização, revenda ou contrabando deliberado.",
+        "Fonte": "https://www.gov.pl/web/centralny-azyl-dla-zwierzat/bezpieczna-podroz-z-pupilem-przepisy-dla-gatunkow-chronionych",
+        "Idioma": "Polonês",
+        "Situação": "Sem indício de tráfico; exclusão preliminar",
+        "Decisão técnica / deduplicação — 20/11/2026": "Uma jandaia-de-bochecha-verde e um inseparável-de-Fischer; deslocamento EUA–Polônia é fato documental, mas não comércio. Sem data exata do voo ou da publicação."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-004",
+      "country": "Dinamarca",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Descumprimento de proibição de criação; não corresponde a comércio clandestino de fauna demonstrado.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-004",
+        "País": "Dinamarca",
+        "Local": "Região de Viborg",
+        "Data ocorrência": "Fiscalização em 2025; condenação em 2026-11-20",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "Condenação de dois responsáveis por manter cerca de 900 faisões e outras aves apesar de proibição judicial anterior",
+        "Por que não classificado como tráfico confirmado": "Infração de criação/manutenção de aves sob proibição, majoritariamente plantel de faisões; não há elementos de comércio ilegal de fauna silvestre.",
+        "Fonte": "https://politi.dk/midt-og-vestjyllands-politi/nyhedsliste/skal-i-faengsel-for-at-have-holdt-dyr-trods-forbud/2026/11/20",
+        "Idioma": "Dinamarquês",
+        "Situação": "Não elegível para tráfico de fauna; manter registro de descarte técnico",
+        "Decisão técnica / deduplicação — 20/11/2026": "Não converter rebanho de aproximadamente 900 faisões e ovos em apreensão de animais silvestres traficados. Condenação 20/11, fatos investigados em 2025."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-005",
+      "country": "Itália",
+      "status": "DEFERRED_EVIDENCE",
+      "resolution_today": "42 recipientes não são animais; sem fonte primária verificada, data precisa ou comércio.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-005",
+        "País": "Itália",
+        "Local": "Montebello Jonico, Reggio Calabria",
+        "Data ocorrência": "Data exata da diligência não indicada",
+        "Data publicação": "2026-11-21",
+        "Sinal observado": "Carabinieri localizaram 42 recipientes para aves, redes e estruturas de manutenção de fauna protegida",
+        "Por que não classificado como tráfico confirmado": "Notícia não apresenta venda, compradores ou destino e não discrimina número de animais; confirmar comunicado oficial e data da operação.",
+        "Fonte": "https://www.videocalabria.it/2026/11/21/montebello-jonico-blitz-dei-carabinieri-contro-bracconaggio/",
+        "Idioma": "Italiano",
+        "Situação": "Triagem — somente indexação jornalística, fonte sem abertura direta",
+        "Decisão técnica / deduplicação — 20/11/2026": "Verificação direta do texto falhou, mas resumo indexado registra apreensão de recipientes; 42 recipientes NÃO são 42 aves, não somar ao caso independente de Noventa Vicentina."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-006",
+      "country": "Itália",
+      "status": "AGGREGATE_NOT_CASE",
+      "resolution_today": "Balanço nacional de controles e apreensões, não um evento de tráfico individual.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-006",
+        "País": "Itália",
+        "Local": "Roma, divulgação nacional de dados Carabinieri",
+        "Data ocorrência": "Operações acumuladas em 2026 até 05/11",
+        "Data publicação": "2026-11-18",
+        "Sinal observado": "Balanço nacional de mais de 3.800 controles, 515 apreensões e 11 detidos em 2026",
+        "Por que não classificado como tráfico confirmado": "Estatística agregada, não episódio individual e não caso novo; sem georreferenciamento das 515 apreensões.",
+        "Fonte": "https://italien.news/en/chronicle/carabinieri-wildlife-protection-checks-seizures/",
+        "Idioma": "Italiano; inglês",
+        "Situação": "Excluir como ocorrência; usar somente como contexto institucional",
+        "Decisão técnica / deduplicação — 20/11/2026": "Não registrar 515 como quantidade de animais, nem criar evento fictício para o balanço nacional."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-001",
+      "country": "Fiji",
+      "status": "DEFERRED_EVIDENCE",
+      "resolution_today": "Questionamento CITES sobre origem de iguanas reprodutoras; infração não confirmada.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-OC-001",
+        "País": "Fiji",
+        "Local": "Suva; cadeia internacional Fiji–Áustria/Reino Unido–Canadá e importações à Índia",
+        "Data ocorrência": "Debate CITES em 02–06/11/2026; aquisições históricas não datadas",
+        "Data publicação": "2026-11-05",
+        "Sinal observado": "Fiji questiona documentação de origem de matrizes de iguanas para criadouro comercial no Canadá; CITES decidiu revisar e investigar importações à Índia (≥100 em registros históricos).",
+        "Por que não classificado como tráfico confirmado": "Origem legal não esclarecida e não há apreensão/infração individual confirmada; objeção administrativa não prova que o operador canadense cometeu crime.",
+        "Fonte": "https://mecc.gov.fj/fiji-secures-broad-support-as-cites-defers-breeding-registration-for-native-iguanas/",
+        "Idioma": "Inglês",
+        "Situação": "Triagem investigativa CITES — documentação da origem e possível lavagem, sem crime confirmado",
+        "Decisão técnica / deduplicação — 20/11/2026": "Os pelo menos 100 são importações declaradas historicamente, não apreensão. Não traçar rota de tráfico com transações regulatórias não adjudicadas."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-002",
+      "country": "Fiji",
+      "status": "DEFERRED_EVIDENCE",
+      "resolution_today": "Alerta de venda de filhotes sem apreensão ou evento delimitado; buscar caso específico.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-OC-002",
+        "País": "Fiji",
+        "Local": "Localidades não informadas nas ilhas Fiji",
+        "Data ocorrência": "Data das supostas retiradas e ofertas não informada",
+        "Data publicação": "Outubro/novembro 2026 (data exata a confirmar)",
+        "Sinal observado": "Ministério alerta para relatos de filhotes de papagaios retirados dos ninhos e oferecidos à venda.",
+        "Por que não classificado como tráfico confirmado": "Aviso público não discrimina lugar, quantidade, flagrante, envolvidos ou datas de eventos; necessita registro específico e confirmação.",
+        "Fonte": "https://www.fijitimes.com.fj/20000-fine-four-years-jail-for-selling-wild-parrots/",
+        "Idioma": "Inglês",
+        "Situação": "Indício de oferta ilegal em relatos, sem ocorrência individual delimitada",
+        "Decisão técnica / deduplicação — 20/11/2026": "Não transformar aviso em apreensão ou criar números; solicitar esclarecimentos a autoridades se for para inclusão posterior."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-003",
+      "country": "Austrália / Hong Kong",
+      "status": "DEFERRED_HISTORICAL",
+      "resolution_today": "13 lagartos em carga de 27/12/2025; conferir caso histórico e se integra à operação agregada de 163 répteis.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-OC-003",
+        "País": "Austrália / Hong Kong",
+        "Local": "Carga aérea Austrália → aeroporto de Hong Kong",
+        "Data ocorrência": "2025-12-27",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "Investigação jornalística recente reconstitui 13 lagartos vivos ocultos em botas e declarados como lanches em carga oriunda da Austrália.",
+        "Por que não classificado como tráfico confirmado": "Fato real de dezembro de 2025, não novo caso de novembro de 2026; checar base histórica para possível atualização, não criar episódio fictício em novembro.",
+        "Fonte": "https://news.mongabay.com/2026/11/skinks-in-boots-how-hong-kong-emerges-as-key-hub-in-australias-native-reptile-trafficking/",
+        "Idioma": "Inglês",
+        "Situação": "Caso histórico identificado por nova reportagem; deduplicação histórica pendente",
+        "Decisão técnica / deduplicação — 20/11/2026": "13 indivíduos correspondem a 27/12/2025; demais 98 animais citados na matéria são agregação de quatro operações distintas (2025–2026), nunca novo lote único."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-004",
+      "country": "Austrália / Hong Kong",
+      "status": "ALREADY_CANONICAL",
+      "resolution_today": "Operação Sydney–Hong Kong envolvendo 163 répteis, já cadastrada como agregado 2025-12_2026-03__sydney-hongkong-163-native-reptiles-aggregate.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-OC-004",
+        "País": "Austrália / Hong Kong",
+        "Local": "Sydney → Hong Kong (remessas aéreas alegadas)",
+        "Data ocorrência": "Remessas de 2025-12 a 2026-03; acusação em 2026-09",
+        "Data publicação": "2026-11-19 (reportagem retrospectiva)",
+        "Sinal observado": "Reportagem menciona investigação de tentativa de exportar 163 répteis australianos em várias remessas.",
+        "Por que não classificado como tráfico confirmado": "Correspondente já existe como operação agregada no diretório canônico de setembro; não recadastrar nem somar a outros casos; fatos e acusação anteriores.",
+        "Fonte": "https://news.mongabay.com/2026/11/skinks-in-boots-how-hong-kong-emerges-as-key-hub-in-australias-native-reptile-trafficking/",
+        "Idioma": "Inglês",
+        "Situação": "Duplicata provável de caso canônico de 163 répteis; atualização histórica apenas",
+        "Decisão técnica / deduplicação — 20/11/2026": "Registro canônico agregado de Sydney–Hong Kong, 163 répteis, já identificado. Não tratar publicação de 19/11 como fato novo."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-005",
+      "country": "Nova Zelândia",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Atropelamento de gaivotas é delito contra fauna sem tráfico.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-OC-005",
+        "País": "Nova Zelândia",
+        "Local": "Cannibal Bay, Catlins, South Island",
+        "Data ocorrência": "Sábado anterior a 18/11/2026 (possivelmente 14/11; sem confirmação direta)",
+        "Data publicação": "2026-11-18",
+        "Sinal observado": "Cinco gaivotas nativas tarāpunga foram atropeladas e mortas, aparentemente de forma deliberada, em praia neozelandesa.",
+        "Por que não classificado como tráfico confirmado": "Crime contra fauna protegida sem captura, comercialização, transporte de fauna ou destinação ao comércio; fora do escopo específico de tráfico.",
+        "Fonte": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/appeal-to-public-after-gulls-run-down-on-beach/",
+        "Idioma": "Inglês; nome māori nas fontes",
+        "Situação": "Exclusão do recorte de tráfico; ocorrência de dano deliberado à fauna, distinta",
+        "Decisão técnica / deduplicação — 20/11/2026": "Fonte oficial DOC; não converter dano a fauna em comércio de aves nem afirmar identidade de condutores."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-006",
+      "country": "Austrália",
+      "status": "DEFERRED_HISTORICAL",
+      "resolution_today": "Tentativa frustrada em setembro sem répteis apreendidos; verificar regra editorial para tentativa.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-OC-006",
+        "País": "Austrália",
+        "Local": "Aeroporto de Perth, Austrália Ocidental",
+        "Data ocorrência": "2026-09-20 (chegada e fiscalização)",
+        "Data publicação": "2026-09-23",
+        "Sinal observado": "Autoridades cancelaram vistos de dois dinamarqueses por evidências de plano de capturar e contrabandear répteis nativos para revenda na Dinamarca.",
+        "Por que não classificado como tráfico confirmado": "Planejamento inferido de mensagens e equipamentos, mas nenhuma apreensão de répteis foi relatada; fato de setembro, precisa decisão editorial sobre tentativa sem animal interceptado.",
+        "Fonte": "https://www.abf.gov.au/newsroom-subsite/Pages/No-snakes-on-the-plane-ABF-thwart-reptile-smuggling-plot.aspx",
+        "Idioma": "Inglês",
+        "Situação": "Caso histórico de tentativa frustrada sem répteis apreendidos; não classificar como nova apreensão",
+        "Decisão técnica / deduplicação — 20/11/2026": "Separar equipamentos apreendidos dos animais, que não foram capturados na operação; evitar criar contagem fictícia."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-OC-007",
+      "country": "Fiji",
+      "status": "DEFERRED_HISTORICAL",
+      "resolution_today": "Transporte de carcaças/tartarugas a evento religioso em setembro; finalidade comercial não estabelecida.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-OC-007",
+        "País": "Fiji",
+        "Local": "Lau → porto de Suva, segundo reportagem de setembro",
+        "Data ocorrência": "Setembro de 2026; dia a confirmar",
+        "Data publicação": "Setembro de 2026",
+        "Sinal observado": "Ministério da Pesca apreendeu peixe de espécies sob defeso e carcaças de tartarugas em barco proveniente de Lau para conferência religiosa.",
+        "Por que não classificado como tráfico confirmado": "Transporte e posse de fauna sob restrição documentados, mas quantidade e finalidade comercial não informadas; não atribuir venda nem tratar como episódio recente.",
+        "Fonte": "https://fijisun.com.fj/news/nation/banned-kawakawa-donu-turtle-seized-at-suva-port",
+        "Idioma": "Inglês",
+        "Situação": "Triagem retrospectiva de transporte ilegal; sem prova de comércio",
+        "Decisão técnica / deduplicação — 20/11/2026": "Quantidades de peixes e tartarugas não divulgadas, transporte para evento religioso declarado; não inferir abastecimento de mercado."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-DUP-001",
+      "country": "Brasil",
+      "status": "ALREADY_CANONICAL",
+      "resolution_today": "Duplicata exata do evento tgh-20261118-br-torres-23-hidden-birds, nunca republicar.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-DUP-001",
+        "País": "Brasil",
+        "Local": "Torres, km 0 da BR-101",
+        "Data ocorrência": "2026-11-18",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "23 aves silvestres transportadas ilegalmente em carro sobre caminhão-cegonha",
+        "Por que não classificado como tráfico confirmado": "Duplicata canônica EXATA: ficha existente tgh-20261118-br-torres-23-hidden-birds; não republicar ou somar quantidades.",
+        "Fonte": "https://obairrista.news/materia/torres-prf-e-patram-resgatam-23-aves-silvestres-em-fiat-argo-levado-por-cegonha-23c36d",
+        "Idioma": "Português",
+        "Situação": "DUPLICATA EXATA — excluída da fila de elegíveis 21/11/2026",
+        "Decisão técnica / deduplicação — 20/11/2026": "Preservado registro TG-H TG-H-20261121-AM-001 em triagem para auditoria. Ficha canônica publicada permanece inalterada. Evento já publicado sob ID tgh-20261118-br-torres-23-hidden-birds."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-DUP-002",
+      "country": "Uruguai",
+      "status": "ALREADY_CANONICAL",
+      "resolution_today": "Duplicata exata do evento tgh-20261115-uy-piedras-blancas-mixed-wildlife-trade, nunca republicar.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-DUP-002",
+        "País": "Uruguai",
+        "Local": "Piedras Blancas, av. José Belloni e Domingo Arena",
+        "Data ocorrência": "2026-11-15",
+        "Data publicação": "2026-11-16",
+        "Sinal observado": "Cerca de 400 aves e outros animais apreendidos em caminhão investigado por contrabando",
+        "Por que não classificado como tráfico confirmado": "Duplicata canônica EXATA: ficha existente tgh-20261115-uy-piedras-blancas-mixed-wildlife-trade; não republicar ou somar quantidades.",
+        "Fonte": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-incauto-400-aves-animales-distintas-especies-procedimiento",
+        "Idioma": "Espanhol",
+        "Situação": "DUPLICATA EXATA — excluída da fila de elegíveis 21/11/2026",
+        "Decisão técnica / deduplicação — 20/11/2026": "Preservado registro TG-H TG-H-20261121-AM-004 em triagem para auditoria. Ficha canônica publicada permanece inalterada. Evento já publicado sob ID tgh-20261115-uy-piedras-blancas-mixed-wildlife-trade."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-DUP-003",
+      "country": "África do Sul",
+      "status": "ALREADY_CANONICAL",
+      "resolution_today": "Duplicata exata do evento tgh-20261117-za-pretoria-11-carnivores-online, nunca republicar.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-DUP-003",
+        "País": "África do Sul",
+        "Local": "East Lynne, Pretória",
+        "Data ocorrência": "2026-11-17",
+        "Data publicação": "2026-11-18",
+        "Sinal observado": "Apreensão de filhotes de leão e tigre, caracais e raposas após anúncios de venda",
+        "Por que não classificado como tráfico confirmado": "Duplicata canônica EXATA: ficha existente tgh-20261117-za-pretoria-11-carnivores-online; não republicar ou somar quantidades.",
+        "Fonte": "https://www.dffe.gov.za/mediarelease/emi_seizureofwildlifeinpretoria",
+        "Idioma": "Inglês",
+        "Situação": "DUPLICATA EXATA — excluída da fila de elegíveis 21/11/2026",
+        "Decisão técnica / deduplicação — 20/11/2026": "Preservado registro TG-H TG-H-20261121-AF-001 em triagem para auditoria. Ficha canônica publicada permanece inalterada. Evento já publicado sob ID tgh-20261117-za-pretoria-11-carnivores-online."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-DUP-004",
+      "country": "Índia",
+      "status": "ALREADY_CANONICAL",
+      "resolution_today": "Duplicata exata do evento tgh-20261118-in-banaras-23-turtles-west-bengal, nunca republicar.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-DUP-004",
+        "País": "Índia",
+        "Local": "Estação ferroviária de Banaras, Varanasi",
+        "Data ocorrência": "2026-11-18",
+        "Data publicação": "2026-11-20",
+        "Sinal observado": "23 tartarugas de carapaça mole apreendidas em bagagens de duas passageiras",
+        "Por que não classificado como tráfico confirmado": "Duplicata canônica EXATA: ficha existente tgh-20261118-in-banaras-23-turtles-west-bengal; não republicar ou somar quantidades.",
+        "Fonte": "https://timesofindia.indiatimes.com/city/varanasi/two-women-held-with-23-turtles-at-banaras-rly-stn/articleshow/136003298.cms",
+        "Idioma": "Inglês",
+        "Situação": "DUPLICATA EXATA — excluída da fila de elegíveis 21/11/2026",
+        "Decisão técnica / deduplicação — 20/11/2026": "Preservado registro TG-H TG-H-20261121-AS-001 em triagem para auditoria. Ficha canônica publicada permanece inalterada. Evento já publicado sob ID tgh-20261118-in-banaras-23-turtles-west-bengal."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-DUP-005",
+      "country": "Tailândia",
+      "status": "ALREADY_CANONICAL",
+      "resolution_today": "Duplicata exata do evento tgh-20261117-th-nakhon-pathom-37-online-birds, nunca republicar.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-DUP-005",
+        "País": "Tailândia",
+        "Local": "Thung Noi, Mueang Nakhon Pathom",
+        "Data ocorrência": "2026-11-17",
+        "Data publicação": "2026-11-18",
+        "Sinal observado": "37 aves silvestres protegidas apreendidas em residência associada a ofertas online",
+        "Por que não classificado como tráfico confirmado": "Duplicata canônica EXATA: ficha existente tgh-20261117-th-nakhon-pathom-37-online-birds; não republicar ou somar quantidades.",
+        "Fonte": "https://news.dnp.go.th/news/51261",
+        "Idioma": "Tailandês",
+        "Situação": "DUPLICATA EXATA — excluída da fila de elegíveis 21/11/2026",
+        "Decisão técnica / deduplicação — 20/11/2026": "Preservado registro TG-H TG-H-20261121-AS-002 em triagem para auditoria. Ficha canônica publicada permanece inalterada. Evento já publicado sob ID tgh-20261117-th-nakhon-pathom-37-online-birds."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-007",
+      "country": "Moldávia",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Corço e texugo em cativeiro sem oferta ou transporte comercial demonstrado.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-007",
+        "País": "Moldávia",
+        "Local": "Maramonovca, distrito de Drochia",
+        "Data ocorrência": "",
+        "Data publicação": "2026-11-19",
+        "Sinal observado": "1 filhote de corço (aprox. seis meses) e 1 fêmea de texugo (aprox. um ano) mantidos em cativeiro sem documentos; ambos encaminhados para soltura",
+        "Por que não classificado como tráfico confirmado": "Cativeiro/posse ilegal de fauna confirmado; não há oferta, comprador, comercialização nem transporte comercial comprovados. A fonte oficial não informa a data exata da inspeção.",
+        "Fonte": "https://ipm.gov.md/public/index.php/ro/news/doua-animale-salbatice-tinute-ilegal-in-captivitate-depistate-in-gospodaria-unui-localnic-din-maramonovca",
+        "Idioma": "Romeno",
+        "Situação": "Triagem — delito contra fauna, vínculo com tráfico não comprovado",
+        "Decisão técnica / deduplicação — 20/11/2026": "Fonte oficial IPM de 19/11/2026, corroborada pela TV8 (https://tv8.md/2026/11/19/foto-un-caprior-si-un-bursuc-tinuti-in-captivitate-la-drochia-ce-se-va-intampla-cu-animalele/312918). Não converter data de publicação em data do fato. Nenhuma rota confirmada. Preliminarmente distinto dos outros casos da planilha; checar base canônica às 16h."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-008",
+      "country": "Moldávia",
+      "status": "NOT_ELIGIBLE",
+      "resolution_today": "Aquisição irregular de javali, mas sem venda ou travessia de fronteira demonstrada.",
+      "follow_up_required": false,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-008",
+        "País": "Moldávia",
+        "Local": "Direção da localidade Pașcani, Cahul",
+        "Data ocorrência": "2026-11-18",
+        "Data publicação": "2026-11-18",
+        "Sinal observado": "Aquisição ilícita de um javali, aproximadamente 100 kg; dois cidadãos investigados em ação conjunta de fiscais ambientais e polícia de fronteira",
+        "Por que não classificado como tráfico confirmado": "Ocorrência de aquisição/caça ilícita documentada; não se comprova revenda, comércio, destino ou travessia de fronteira. Polícia de fronteira participou da operação, sem prova de transporte transfronteiriço.",
+        "Fonte": "https://ipm.gov.md/ro/news/actiune-comuna-a-inspectorilor-de-mediu-si-politistilor-de-frontiera-caz-de-dobandire-ilicita-a-unui-mistret-depistat-la-cahul",
+        "Idioma": "Romeno",
+        "Situação": "Triagem — crime de fauna confirmado, possível tráfico não demonstrado",
+        "Decisão técnica / deduplicação — 20/11/2026": "Fonte oficial IPM: fato 18/11/2026 cerca de 02h e comunicado 18/11. 1 javali com peso estimado de ~100 kg, não 100 animais. Pașcani/Crihana Veche são localidades de residência dos cidadãos citados e de referência territorial, não rota comprovada. Comparação preliminar com triagem: caso distinto do corço/texugo de Drochia."
+      }
+    },
+    {
+      "id": "TRI-TGH-20261121-EU-009",
+      "country": "Irlanda",
+      "status": "HISTORICAL_UPDATE",
+      "resolution_today": "Quatro aves apreendidas em 2025, condenação em 2026; não criar evento de novembro.",
+      "follow_up_required": true,
+      "original": {
+        "ID de triagem": "TRI-TGH-20261121-EU-009",
+        "País": "Irlanda",
+        "Local": "Carlow, condado de Carlow",
+        "Data ocorrência": "2025-03-06",
+        "Data publicação": "2026-11-14",
+        "Sinal observado": "Quatro passeriformes protegidos (2 pintassilgos e 2 pintarroxos) e equipamento de captura apreendidos em residência; condenado por posse ilegal em setembro de 2026",
+        "Por que não classificado como tráfico confirmado": "Apreensão de 2025 e notícia judicial de 14/11/2026: não constitui novo fato de 19–21/11/2026. A fonte não demonstra comercialização específica, embora a autoridade mencione ameaça geral do comércio ilegal.",
+        "Fonte": "https://www.laois-nationalist.ie/news/courts/local-man-fined-700-over-illegal-possession-of-protected-wild-birds_arid-20333329.html",
+        "Idioma": "Inglês",
+        "Situação": "Triagem retrospectiva — não contar como ocorrência nova",
+        "Decisão técnica / deduplicação — 20/11/2026": "Data de ação 06/03/2025; julgamento setembro/2026 (dia não informado); artigo 14/11/2026. Multa de €700 e €2.000 em custas. Não reclassificar como tráfico nem presumir rota. Duplicidade com base histórica do Observatório não verificada; revisão às 16h."
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Brasil",
+      "Idiomas efetivamente pesquisados": "Português",
+      "Termos de busca (exemplos)": "tráfico fauna 19–21 novembro; apreensão aves; PRF Ibama",
+      "Janela": "18–21/11/2026",
+      "Resultado da busca": "1 candidato Torres; 2 triagens DF e MG",
+      "Nota de abrangência": "Busca parcial em fontes nacionais e locais, não todos os estados"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "México",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "Profepa 19 noviembre, tráfico psitácidos Veracruz, Querétaro",
+      "Janela": "19–21/11/2026 + publicação tardia",
+      "Resultado da busca": "1 candidato Los Tuxtlas; 1 caso histórico Querétaro",
+      "Nota de abrangência": "Índice Profepa disponível; página oficial individual bloqueada ou não encontrada"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Uruguai",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "incautaron aves contrabando Repetto Piedras Blancas, gub.uy",
+      "Janela": "15–21/11/2026",
+      "Resultado da busca": "2 apreensões ligadas na mesma investigação",
+      "Nota de abrangência": "Fontes primárias verificadas; separar ações 15 e 18"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Argentina",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "fauna secuestro, patos Palermo, caza furtiva Catamarca",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "1 triagem Palermo; caso de pumas fora do escopo demonstrado",
+      "Nota de abrangência": "Busca exploratória sem cobertura provincial exaustiva"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Chile",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "aduanas especies protegidas 20 noviembre, corales decomisos",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "1 triagem corais Cardenal Samoré",
+      "Nota de abrangência": "Falta fonte primária aduaneira e dia exato"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Peru",
+      "Idiomas efetivamente pesquisados": "Espanhol; inglês",
+      "Termos de busca (exemplos)": "SERFOR decomiso 20 noviembre; tarántulas Perú 12.796",
+      "Janela": "19–21/11/2026 + histórico",
+      "Resultado da busca": "1 possível atualização histórica; nenhum novo fato verificado",
+      "Nota de abrangência": "Sem comprovação de evento 19–21"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Colômbia; Equador",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "tráfico fauna incautación 19–21 noviembre, policia.gov.co, ambienteyenergia",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum novo candidato verificado nas consultas executadas",
+      "Nota de abrangência": "Busca agrupada/parcial; não significa ausência de ocorrências"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Bolívia; Paraguai; Venezuela",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "tráfico fauna aves decomiso 20 noviembre 2026",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum novo candidato validado",
+      "Nota de abrangência": "Buscas agrupadas, não inspeção país a país"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Guatemala; Honduras; Nicaragua; El Salvador; Costa Rica; Panamá",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "tráfico fauna decomiso 19–20 noviembre",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência recente confirmada nas consultas",
+      "Nota de abrangência": "Consultas regionais; fontes locais não examinadas integralmente"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Estados Unidos; Canadá",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "wildlife smuggling seizure border November 19–20 2026",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência recente confirmada",
+      "Nota de abrangência": "Faltam varreduras de autoridades estaduais/provinciais"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Jamaica; Trinidad e Tobago; Bahamas",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "Caribbean wildlife smuggling seizure November 20 2026",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência recente confirmada",
+      "Nota de abrangência": "Busca agrupada; cobertura não exaustiva"
+    },
+    {
+      "Frente": "Américas",
+      "País / sub-região": "Guiana Francesa; Haiti",
+      "Idiomas efetivamente pesquisados": "Francês",
+      "Termos de busca (exemplos)": "trafic animaux sauvages saisie Guyane Haïti 20 novembre 2026",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência confirmada",
+      "Nota de abrangência": "Guiana, Suriname, Cuba, República Dominicana, Belize e outros países/territórios ainda não pesquisados individualmente"
+    },
+    {
+      "Frente": "África",
+      "País / sub-região": "África do Sul",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "DFFE Pretoria wildlife seizure 18 November 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "1 candidato: operação East Lynne 17/11",
+      "Nota de abrangência": "Fonte oficial DFFE; quantidade exata não confirmada"
+    },
+    {
+      "Frente": "África",
+      "País / sub-região": "Costa do Marfim",
+      "Idiomas efetivamente pesquisados": "Francês",
+      "Termos de busca (exemplos)": "AIP Tanda viande de brousse saisie 18 novembre",
+      "Janela": "14–21/11/2026",
+      "Resultado da busca": "1 candidato: 350 kg de carne de fauna em Tanda",
+      "Nota de abrangência": "AIP; 76 peças não equivalem a indivíduos"
+    },
+    {
+      "Frente": "África",
+      "País / sub-região": "Malawi",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "pangolin Limbe 18 November; Dowa pangolin 19 November",
+      "Janela": "17–21/11/2026 + setembro",
+      "Resultado da busca": "2 triagens: posse em Limbe e sentença de evento de setembro",
+      "Nota de abrangência": "Fonte local; data Limbe contém inconsistência de dia da semana"
+    },
+    {
+      "Frente": "África",
+      "País / sub-região": "Demais países africanos",
+      "Idiomas efetivamente pesquisados": "Não pesquisados individualmente nesta execução",
+      "Termos de busca (exemplos)": "Cobertura pendente",
+      "Janela": "21/11/2026",
+      "Resultado da busca": "Sem conclusão",
+      "Nota de abrangência": "Não afirmar ausência de ocorrências; rodada parcial"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Índia",
+      "Idiomas efetivamente pesquisados": "Inglês; hindi",
+      "Termos de busca (exemplos)": "wildlife smuggling 20 Nov 2026; वन्यजीव तस्करी 20 नवंबर 2026",
+      "Janela": "18–21/11/2026; retrospectiva",
+      "Resultado da busca": "1 candidato (23 tartarugas); 1 possível duplicado (650 aves); 1 desdobramento judicial",
+      "Nota de abrangência": "Busca em imprensa nacional e local, sem cobertura estadual exaustiva"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Tailândia",
+      "Idiomas efetivamente pesquisados": "Tailandês",
+      "Termos de busca (exemplos)": "ค้าสัตว์ป่า จับกุม 20 พฤศจิกายน 2569; site:news.dnp.go.th",
+      "Janela": "11–21/11/2026",
+      "Resultado da busca": "1 candidato (37 aves em Nakhon Pathom); 1 triagem histórica Sukhothai",
+      "Nota de abrangência": "Fonte oficial DNP, acesso à íntegra via índice; sem busca em todas províncias"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Camboja",
+      "Idiomas efetivamente pesquisados": "Inglês; chinês",
+      "Termos de busca (exemplos)": "Siem Reap 27 pythons 318 kg 20 November 2026",
+      "Janela": "18–21/11/2026",
+      "Resultado da busca": "1 candidato (27 pítons)",
+      "Nota de abrangência": "Khmer Times bloqueou página original; canal do jornal confirma; não pesquisado em khmer"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "China",
+      "Idiomas efetivamente pesquisados": "Chinês",
+      "Termos de busca (exemplos)": "非法 野生动物 走私 查获 2026年11月20日; 柳州 非法猎捕; 沈阳 黄鼬",
+      "Janela": "Outubro–21/11/2026",
+      "Resultado da busca": "1 candidato retrospectivo (9 peles e 4 vivos); 2 triagens (Liuzhou agregado; Congjiang)",
+      "Nota de abrangência": "Polícia de Shenyang e imprensa chinesa; sem cobertura provincial completa"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Vietnã",
+      "Idiomas efetivamente pesquisados": "Vietnamita; chinês; inglês",
+      "Termos de busca (exemplos)": "野生动物 越南 2026; Gia Lai 221 khúc ngà voi 20/11",
+      "Janela": "Agosto–21/11/2026",
+      "Resultado da busca": "1 atualização histórica (1.193 kg de marfim) em triagem",
+      "Nota de abrangência": "Fontes vietnamitas e polícia; não é nova apreensão"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Bangladesh",
+      "Idiomas efetivamente pesquisados": "Bengali; inglês",
+      "Termos de busca (exemplos)": "বন্যপ্রাণী পাচার আটক উদ্ধার ২০ নভেম্বর ২০২৬",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente verificável nas consultas",
+      "Nota de abrangência": "Resultados incluíram tráfico de pessoas; não inferir ausência de crimes de fauna"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Paquistão",
+      "Idiomas efetivamente pesquisados": "Inglês; urdu (consulta exploratória)",
+      "Termos de busca (exemplos)": "wildlife smuggling falcon seizure Pakistan 20 November 2026",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente verificável nas consultas",
+      "Nota de abrangência": "Sem cobertura provincial, aduaneira ou urdu sistemática"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Indonésia",
+      "Idiomas efetivamente pesquisados": "Indonésio",
+      "Termos de busca (exemplos)": "penyelundupan satwa liar diamankan 20 November 2026; antaranews",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente verificável nas consultas",
+      "Nota de abrangência": "Busca pontual, não cobre todas ilhas/províncias"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Malásia",
+      "Idiomas efetivamente pesquisados": "Malaio; inglês",
+      "Termos de busca (exemplos)": "perhilitan 20 November 2026; wildlife seizure Malaysia November 20",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato de fauna confirmado; resultado cosméticos descartado",
+      "Nota de abrangência": "Autoridade policial ambiental no caso de cosméticos não torna produtos fauna"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Filipinas",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "customs.gov.ph wildlife seizure November 20 2026; inquirer philstar",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente verificável nas consultas",
+      "Nota de abrangência": "Busca parcial em imprensa e aduana; sem tagalo ou fontes provinciais"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Nepal; Sri Lanka; Myanmar; Laos",
+      "Idiomas efetivamente pesquisados": "Inglês; buscas agrupadas",
+      "Termos de busca (exemplos)": "wildlife trafficking seizure 19–20 November 2026 Nepal Sri Lanka Myanmar",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum evento recente verificável nas consultas",
+      "Nota de abrangência": "Não executada varredura individual nos quatro países; não pesquisados em nepalês, cingalês, birmanês ou laosiano"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Japão",
+      "Idiomas efetivamente pesquisados": "Japonês",
+      "Termos de busca (exemplos)": "密輸 野生動物 摘発 2026年11月20日 日本; customs.go.jp",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente de fauna verificado",
+      "Nota de abrangência": "Índice de alfândega continha casos de drogas; sem varredura completa"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Coreia do Sul",
+      "Idiomas efetivamente pesquisados": "Coreano",
+      "Termos de busca (exemplos)": "야생동물 밀수 적발 2026년 11월 20일",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente verificável nas consultas",
+      "Nota de abrangência": "Busca pontual; autoridades aduaneiras não cobertas integralmente"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Irã; Arábia Saudita; Emirados Árabes Unidos",
+      "Idiomas efetivamente pesquisados": "Persa; árabe; inglês",
+      "Termos de busca (exemplos)": "قاچاق حیات وحش کشف ۲۹ آبان ۱۴۰۵; wildlife smuggling Saudi UAE",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente verificável nas consultas",
+      "Nota de abrangência": "Busca agrupada, cobertura parcial; não representa ausência de casos"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Cazaquistão; Quirguistão",
+      "Idiomas efetivamente pesquisados": "Inglês; consulta regional",
+      "Termos de busca (exemplos)": "wildlife poaching seizure November 20 2026 Kazakhstan Kyrgyzstan",
+      "Janela": "19–21/11/2026",
+      "Resultado da busca": "Nenhum candidato recente verificável nas consultas",
+      "Nota de abrangência": "Não pesquisados sistematicamente em russo/cazaque/quirguiz"
+    },
+    {
+      "Frente": "Ásia",
+      "País / sub-região": "Demais países e territórios asiáticos",
+      "Idiomas efetivamente pesquisados": "Não pesquisados individualmente",
+      "Termos de busca (exemplos)": "Pendência de cobertura para rodada complementar",
+      "Janela": "21/11/2026",
+      "Resultado da busca": "Não é possível afirmar resultado negativo",
+      "Nota de abrangência": "Inclui países e territórios da Ásia Central, Oeste e Sudeste sem busca individual suficiente"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Portugal",
+      "Idiomas efetivamente pesquisados": "Português",
+      "Termos de busca (exemplos)": "tráfico de animais silvestres apreensão 19 20 novembro 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência elegível recente encontrada nas consultas executadas",
+      "Nota de abrangência": "Busca por termos e domínios oficiais; não exaustiva"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Espanha",
+      "Idiomas efetivamente pesquisados": "Espanhol",
+      "Termos de busca (exemplos)": "tráfico especies protegidas Guardia Civil Policía Nacional 19–20 noviembre 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem nova apreensão comprovada; destaque encontrado era operação internacional de outubro",
+      "Nota de abrangência": "Pesquisa por imprensa e fontes oficiais; não repetir caso Ninho Vazio"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "França",
+      "Idiomas efetivamente pesquisados": "Francês",
+      "Termos de busca (exemplos)": "trafic d'oiseaux protégés saisie procès novembre 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "1 triagem: audiência de 18/11 sobre eventos 2012–2017 em Cahors",
+      "Nota de abrangência": "Busca direcionada; caso franco-belga histórico, sem nova ocorrência"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Bélgica",
+      "Idiomas efetivamente pesquisados": "Francês; neerlandês",
+      "Termos de busca (exemplos)": "trafic oiseaux Belgique; smokkel beschermde dieren november 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma nova apreensão comprovada; mesma investigação histórica de Cahors",
+      "Nota de abrangência": "Cobertura parcial, não independentemente exaustiva"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Itália",
+      "Idiomas efetivamente pesquisados": "Italiano",
+      "Termos de busca (exemplos)": "bracconaggio sequestro uccelli novembre 2026; traffico fauna protetta",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "3 triagens: Noventa Vicentina, Montebello Jonico, balanço Carabinieri",
+      "Nota de abrangência": "Noventa e Montebello sem prova de comércio; balanço agregado não é evento"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Alemanha",
+      "Idiomas efetivamente pesquisados": "Alemão; inglês",
+      "Termos de busca (exemplos)": "Artenschutz Schmuggel 20.11.2026 Zoll; wildlife trafficking November 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma nova ocorrência elegível identificada nas consultas; tarântulas do Peru são fato já conhecido de 04/11",
+      "Nota de abrangência": "Pesquisa por imprensa e aduana; evitar recadastrar apreensão peruana como alemã"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Áustria",
+      "Idiomas efetivamente pesquisados": "Alemão",
+      "Termos de busca (exemplos)": "Artenschutz beschlagnahmt Österreich 19 20 November 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência recente verificada",
+      "Nota de abrangência": "Busca pontual, não exaustiva"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Reino Unido",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "wildlife smuggling Border Force seizures 20 November 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem caso novo individual confirmado; fontes remetem a operações anteriores",
+      "Nota de abrangência": "Consulta em fonte governamental e imprensa; não contar balanços antigos"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Países Baixos",
+      "Idiomas efetivamente pesquisados": "Neerlandês",
+      "Termos de busca (exemplos)": "handel beschermde dieren in beslag 20 november 2026 politie",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência de fauna elegível identificada; resultados de outros tipos de crime descartados",
+      "Nota de abrangência": "Consulta dirigida a politie.nl e imprensa; não exaustiva"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Polônia",
+      "Idiomas efetivamente pesquisados": "Polonês",
+      "Termos de busca (exemplos)": "przemyt jaszczurek CITES KAS; chronione zwierzęta listopada 2026",
+      "Janela": "26/10 e 17–21/11/2026",
+      "Resultado da busca": "1 candidato histórico Koroszczyn (41 lagartos) e 1 triagem de 2 aves de tutores",
+      "Nota de abrangência": "Fonte oficial: caso de lagartos publicado 28/10, não integra janela recente; triagem de pet não é venda"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Dinamarca",
+      "Idiomas efetivamente pesquisados": "Dinamarquês",
+      "Termos de busca (exemplos)": "smugling dyr politi 20 november 2026; CITES",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "1 triagem: condenação de criadores de faisões por descumprir proibição, não tráfico",
+      "Nota de abrangência": "Fonte oficial da polícia; sem caso comercial recente"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Suécia; Finlândia",
+      "Idiomas efetivamente pesquisados": "Sueco; finlandês",
+      "Termos de busca (exemplos)": "artskyddsbrott beslag; uhanalaiset eläimet salakuljetus 20.11.2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência individual elegível verificada nas consultas",
+      "Nota de abrangência": "Pesquisas exploratórias em idiomas locais; cobertura não exaustiva"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "República Tcheca; Eslováquia",
+      "Idiomas efetivamente pesquisados": "Tcheco; eslovaco",
+      "Termos de busca (exemplos)": "pašování chráněných živočichů; chránené živočíchy 20.11.2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência recente comprovada",
+      "Nota de abrangência": "Consultas exploratórias em fontes policiais"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Hungria",
+      "Idiomas efetivamente pesquisados": "Húngaro",
+      "Termos de busca (exemplos)": "védett állat kereskedelem lefoglalt rendőrség november 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhum registro elegível verificado; resultados recuperados foram crimes de drogas",
+      "Nota de abrangência": "Consulta oficial dirigida; não confundir com fauna"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Romênia",
+      "Idiomas efetivamente pesquisados": "Romeno",
+      "Termos de busca (exemplos)": "trafic animale sălbatice confiscate 20 noiembrie 2026",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência recente confirmada; captura pessoal de aves em data anterior descartada",
+      "Nota de abrangência": "Consulta a notícias e comunicados; não exaustiva"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Grécia; Turquia",
+      "Idiomas efetivamente pesquisados": "Grego; turco",
+      "Termos de busca (exemplos)": "παράνομη διακίνηση άγριων ζώων; yasa dışı yaban hayvan ticareti",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência recente de tráfico de fauna confirmada",
+      "Nota de abrangência": "Buscas pontuais; assuntos não relacionados descartados"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Sérvia; Eslovênia",
+      "Idiomas efetivamente pesquisados": "Sérvio; esloveno",
+      "Termos de busca (exemplos)": "zaštićene životinje krijumčarenje; tihotapljenje zaščitene živali",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência confirmada",
+      "Nota de abrangência": "Busca exploratória, não exaustiva"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Ucrânia; Rússia europeia",
+      "Idiomas efetivamente pesquisados": "Ucraniano; russo",
+      "Termos de busca (exemplos)": "торгівля дикими тваринами; незаконная торговля дикими животными",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência confirmada na porção europeia; resultado Irkutsk não classificado como Europa",
+      "Nota de abrangência": "Irkutsk fica na Ásia: registrar separadamente em rodada asiática, não no recorte Europeu"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Demais países/territórios europeus",
+      "Idiomas efetivamente pesquisados": "Cobertura suplementar parcial por idioma local (ver linhas 69–79)",
+      "Termos de busca (exemplos)": "Consultas por país/idioma registradas em Cobertura buscas, linhas 69–79",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Complementação da rodada: 11 grupos; 3 triagens novas, nenhuma elegibilidade comercial confirmada",
+      "Nota de abrangência": "Ainda sem varredura integral de todos os países/territórios: Bósnia e Herzegovina, Islândia, Liechtenstein, Malta, San Marino, Andorra, Mônaco, Vaticano e outros; não declarar exaustividade."
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Austrália",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "wildlife smuggling native reptiles ABF AFP national EPA November 2026; export lizards Hong Kong",
+      "Janela": "17–21/11/2026 e fatos retrospectivos",
+      "Resultado da busca": "Reportagem de 19/11 trouxe apreensão histórica de 13 lagartos (2025) e operação agregada de 163 répteis já canônica; caso planejado de setembro em triagem",
+      "Nota de abrangência": "ABF e Mongabay; sem fato novo comprovado no recorte após consultas a fontes federais"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Nova Zelândia",
+      "Idiomas efetivamente pesquisados": "Inglês; terminologia maori das fontes",
+      "Termos de busca (exemplos)": "site:mpi.govt.nz poacher selling kina 20 November 2026; wildlife crime DOC customs",
+      "Janela": "17–21/11/2026 e publicação retrospectiva",
+      "Resultado da busca": "1 candidato com comércio efetivo de kina (183,5 kg) e sentença em 19/11; 1 descarte de dano deliberado a gaivotas",
+      "Nota de abrangência": "Fonte oficial MPI e DOC, imprensa 1News; data das capturas e vendas não indicada"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Fiji",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "illegal parrot sale chicks Fiji November 2026; CITES iguana captive breeding Fiji; turtle seized Suva",
+      "Janela": "17–21/11/2026 e contexto de 2026",
+      "Resultado da busca": "3 triagens: iguanas CITES sem infração comprovada, filhotes oferecidos sem ocorrência individual, apreensão de defeso e tartarugas antiga",
+      "Nota de abrangência": "Fonte Ministério do Meio Ambiente, Fiji Times e Fiji Sun; cuidado com fatos históricos e aprovações CITES"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Papua-Nova Guiné",
+      "Idiomas efetivamente pesquisados": "Inglês; Tok Pisin (consultas exploratórias)",
+      "Termos de busca (exemplos)": "Papua Niugini illegal wildlife smuggling; abus pisin salim November 2026; protected fauna",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhum evento recente individualizado confirmado; casos recuperados de Papua Central pertencem à Indonésia, não à Papua-Nova Guiné",
+      "Nota de abrangência": "Consultas à imprensa regional e sites governamentais; sem acesso integral a alguns veículos; cobertura não exaustiva"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Ilhas Salomão",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "Solomon Islands November 2026 protected birds wildlife smuggling seizures",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem apreensão de fauna confirmada. Processo do cargueiro MV Wealth refere-se a infrações migratórias, não fauna",
+      "Nota de abrangência": "Solomon Star e consulta regional; não misturar com notícias de migração/embarcações"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Vanuatu",
+      "Idiomas efetivamente pesquisados": "Inglês; francês (consulta pontual)",
+      "Termos de busca (exemplos)": "Vanuatu illegal wildlife trade birds tortoises seizure November 2026; trafic faune",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem candidato de fauna confirmado",
+      "Nota de abrangência": "Buscas pontuais; acesso ao Daily Post limitado; baixa observabilidade"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Tonga",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "Tonga wildlife trafficking CITES seized turtles November 2026 Matangi Tonga",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência de fauna identificada; resultados recentes se concentram em seca/ciclone",
+      "Nota de abrangência": "Matangi Tonga consultado; não exaustivo"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Samoa",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "Samoa wildlife trafficking seizure November 2026 protected birds CITES",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência verificada; resultado SPREP é oficina CITES de setembro, não apreensão",
+      "Nota de abrangência": "Acesso parcial à imprensa local, registros oficiais dispersos"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Palau",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "Palau 2026 November illegal protected turtle wildlife smuggling",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência recente confirmada nas consultas",
+      "Nota de abrangência": "Busca exploratória, não exaustiva"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Micronésia; Ilhas Marshall; Nauru; Kiribati",
+      "Idiomas efetivamente pesquisados": "Inglês; buscas regionais",
+      "Termos de busca (exemplos)": "Micronesia Marshall Nauru Kiribati 2026 November endangered species seizure",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem registros individuais de fauna confirmados",
+      "Nota de abrangência": "Consultas agrupadas e parciais; pesquisar individualmente em futuras rodadas"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Tuvalu",
+      "Idiomas efetivamente pesquisados": "Inglês; busca agrupada",
+      "Termos de busca (exemplos)": "Tuvalu November 2026 turtles poaching trafficking wildlife",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem candidato verificado",
+      "Nota de abrangência": "Cobertura exploratória"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Nova Caledônia",
+      "Idiomas efetivamente pesquisados": "Francês",
+      "Termos de busca (exemplos)": "Nouvelle-Calédonie novembre 2026 trafic faune animaux protégés saisie",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem candidato; comunicado DAVAR 20/11 é detecção de praga invasora, não tráfico",
+      "Nota de abrangência": "Consulta oficial e imprensa de língua francesa; diferenciar biosegurança de tráfico"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Polinésia Francesa",
+      "Idiomas efetivamente pesquisados": "Francês",
+      "Termos de busca (exemplos)": "Polynésie française novembre 2026 trafic espèces protégées saisie tortues; Tahiti infos",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência individual confirmada; resultados sobre regulação/importação e outras notícias",
+      "Nota de abrangência": "Consultas em francês; não exaustiva"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Ilhas Cook; Niue; Tokelau",
+      "Idiomas efetivamente pesquisados": "Inglês; consulta regional",
+      "Termos de busca (exemplos)": "Cook Islands Niue Tokelau November 2026 wildlife smuggling turtle bird",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência individual confirmada",
+      "Nota de abrangência": "Buscas agrupadas, não equivalente a varredura nacional"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Guam; Marianas do Norte; Samoa Americana",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "Guam American Samoa CNMI November 2026 illegal wildlife transport endangered trade",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem ocorrência confirmada",
+      "Nota de abrangência": "Buscas exploratórias; legislação territorial distinta"
+    },
+    {
+      "Frente": "Oceania",
+      "País / sub-região": "Demais territórios oceânicos",
+      "Idiomas efetivamente pesquisados": "Não pesquisados individualmente",
+      "Termos de busca (exemplos)": "Lacuna explicitamente registrada",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem conclusão",
+      "Nota de abrangência": "A rodada não demonstra cobertura exaustiva de Oceania"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Moldávia",
+      "Idiomas efetivamente pesquisados": "Romeno",
+      "Termos de busca (exemplos)": "site:ipm.gov.md 19/11/2026 animale sălbatice captivitate; mistreț Cahul dobândire ilicită; braconaj",
+      "Janela": "18–21/11/2026",
+      "Resultado da busca": "2 novos registros na triagem: corço e texugo em Maramonovca; 1 javali em Cahul",
+      "Nota de abrangência": "Consultados dois comunicados oficiais do Inspectoratul pentru Protecția Mediului e imprensa TV8/IPN; delitos contra fauna, mas tráfico/mercado não comprovado. Não inferir origem, destino nem rota."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Irlanda",
+      "Idiomas efetivamente pesquisados": "Inglês",
+      "Termos de busca (exemplos)": "wild birds illegally possessed fines November 2026 NPWS Garda Laois Nationalist",
+      "Janela": "14–21/11/2026 e ocorrência retrospectiva 2025",
+      "Resultado da busca": "1 triagem histórica: Carlow 4 aves protegidas; posse ilegal, não comércio comprovado",
+      "Nota de abrangência": "A notícia de 14/11 registra diligência em 06/03/2025 e condenação setembro/2026; não classificar como novo evento. Consultada imprensa regional e referência NPWS."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Croácia",
+      "Idiomas efetivamente pesquisados": "Croata; inglês",
+      "Termos de busca (exemplos)": "krijumčarenje zaštićenih životinja 20 studenoga 2026; trgovanje morskim ježincima site:policija.gov.hr",
+      "Janela": "17–21/11/2026; resultado retrospectivo 28/07/2026",
+      "Resultado da busca": "Nenhum novo caso confirmado; operação antiga com >1.000 kg de ouriços-do-mar em trânsito revisada",
+      "Nota de abrangência": "Polícia de Primorje-Gorski Kotar documenta fato em 28/07, comunicado 30/07; venda e apreensão históricas, não fato novo no recorte. Fonte: https://primorsko-goranska-policija.gov.hr/vijesti/vijesti/pritvoren-zbog-trgovanja-morskim-jezincima-zasticenim-prirodnim-vrijednostima/35730"
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Albânia; Kosovo",
+      "Idiomas efetivamente pesquisados": "Albanês",
+      "Termos de busca (exemplos)": "20 nëntor 2026 trafikim kafshësh të egra sekuestruar Shqipëri; Kosovë",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Sem evento recente de fauna individualizado nas consultas realizadas",
+      "Nota de abrangência": "Busca em albanês e índice da polícia albanesa; resultados frequentemente referiam tráfico de migrantes e drogas, não vida silvestre. Kosovo não teve cobertura institucional específica conclusiva."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Sérvia; Montenegro; Macedônia do Norte",
+      "Idiomas efetivamente pesquisados": "Sérvio; inglês; macedônio",
+      "Termos de busca (exemplos)": "20 новембар 2026 илегална трговина дивљим животињама; Montenegro krijumčarenje ptica; Македонија загрозени животни",
+      "Janela": "17–21/11/2026; retrospectivo 20/10",
+      "Resultado da busca": "Sem apreensão recente verificada; caso de urso em armadilha na Macedônia ocorreu em outubro",
+      "Nota de abrangência": "Consultas em sérvio e inglês com fontes aduaneiras da Macedônia; casos encontrados sobre cocaína, restrições CITES e armadilha de outubro. Montenegro sem fonte de apreensão recente corroborada."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Estônia; Letônia; Lituânia",
+      "Idiomas efetivamente pesquisados": "Estoniano; letão; lituano",
+      "Termos de busca (exemplos)": "20 november 2026 illegaalne metsloomakaubandus; 20 novembris 2026 nelikumīga savvaļas dzīvnieku tirdzniecība; 20 lapkričio 2026 neteisėta prekyba laukiniais gyvūnais",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Não localizado evento novo verificável de tráfico de fauna nas buscas limitadas",
+      "Nota de abrangência": "Cobertura por expressões em três línguas; recuperação incluiu fabricação de cigarros e drogas em fontes aduaneiras, que foram descartadas. Fontes oficiais locais não varridas integralmente."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Noruega",
+      "Idiomas efetivamente pesquisados": "Norueguês",
+      "Termos de busca (exemplos)": "20 november 2026 smugling av ville dyr beslaglagt Norge; Tolletaten",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhuma ocorrência de fauna confirmada; resultados prevalentes eram tráfico de drogas",
+      "Nota de abrangência": "Consultada imprensa norueguesa e portal aduaneiro; buscas localizadas, não exaustivas."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Suíça; Luxemburgo",
+      "Idiomas efetivamente pesquisados": "Francês; alemão",
+      "Termos de busca (exemplos)": "trafic d'animaux protégés Luxembourg Suisse 20 novembre 2026; Zollfahndung Handel geschützte Vögel",
+      "Janela": "17–21/11/2026; antecedentes 2024/2026",
+      "Resultado da busca": "Sem fato novo; fonte suíça descreve rede histórica de aves envolvendo Luxemburgo e outros países",
+      "Nota de abrangência": "Autoridade federal suíça publica antecedentes de 2024 divulgados em 2026; países vinculados não devem ser cadastrados como novas apreensões. Luxemburgo pesquisado via resultados cruzados, cobertura insuficiente para conclusão nacional."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Geórgia",
+      "Idiomas efetivamente pesquisados": "Georgiano; inglês",
+      "Termos de busca (exemplos)": "20 ნოემბერი 2026 ველური ცხოველების უკანონო ვაჭრობა; Department of Environmental Supervision poaching",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "Nenhum episódio novo de tráfico de fauna confirmado; fontes antigas ou sobre cães domésticos",
+      "Nota de abrangência": "Consulta em georgiano e fonte governamental de fiscalização; operação de caça ilegal no rio Kershaveti publicada em agosto é anterior, e notícia de cães não corresponde a tráfico de vida silvestre."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Turquia; Chipre",
+      "Idiomas efetivamente pesquisados": "Turco; grego; inglês",
+      "Termos de busca (exemplos)": "21 Kasım 2026 kaçak yaban hayvanları; 20 Νοεμβρίου 2026 παράνομη διακίνηση άγριων ζώων; Cyprus wildlife smuggling",
+      "Janela": "17–21/11/2026; antecedentes 06/08/2026",
+      "Resultado da busca": "Sem apreensão nova confirmada. Na Turquia só foi recuperado balanço oficial acumulado de 58.519 animais em 29 operações",
+      "Nota de abrangência": "Não criar evento para balanço agregado de agosto. Busca pontual, sem varredura aprofundada de Chipre e sem confirmação independente de todos os territórios."
+    },
+    {
+      "Frente": "Europa",
+      "País / sub-região": "Bósnia e Herzegovina; Islândia; Liechtenstein; Malta; San Marino; Andorra; Mônaco; Vaticano",
+      "Idiomas efetivamente pesquisados": "Não pesquisados individualmente nesta complementação",
+      "Termos de busca (exemplos)": "Pendência: termos locais e consulta dirigida a aduanas/polícias e imprensa",
+      "Janela": "17–21/11/2026",
+      "Resultado da busca": "LACUNA DE COBERTURA — sem conclusão",
+      "Nota de abrangência": "Estes países/territórios não foram objeto de consultas individuais verificáveis nesta rodada complementar; não inferir ausência de eventos."
+    }
+  ]
+}
