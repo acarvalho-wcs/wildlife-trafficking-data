@@ -1,0 +1,64 @@
+/* AYLA wall-display mode only. Ordinary Observatory pages are untouched. */
+html.ayla-embed,html.ayla-embed body{margin:0!important;padding:0!important;width:100%!important;height:100%!important;overflow:hidden!important;background:#061016!important;color:#d1eee1!important}
+html.ayla-embed body *{box-sizing:border-box}
+html.ayla-embed .shell{display:block!important;width:100%!important;max-width:none!important;height:100vh!important;min-height:0!important;margin:0!important;padding:0!important;overflow:hidden!important}
+html.ayla-embed .sidebar,
+html.ayla-embed .main>.top,
+html.ayla-embed .main>.contact,
+html.ayla-embed .main>.mobile-nav,
+html.ayla-embed .main>.research-link,
+html.ayla-embed .main>#mobileCitation,
+html.ayla-embed #timeNotice,
+html.ayla-embed #timeMapControls,
+html.ayla-embed #contextCoverage,
+html.ayla-embed .stats,
+html.ayla-embed .visual-dashboard,
+html.ayla-embed #timeComparePanel,
+html.ayla-embed .workspace>.card:last-child,
+html.ayla-embed #mapViewCard>.cardhead,
+html.ayla-embed #mapViewCard>.case-legend,
+html.ayla-embed #mapRouteNote,
+html.ayla-embed .workspace>.card:not(#mapViewCard){display:none!important}
+html.ayla-embed .main,html.ayla-embed #dashboardView,html.ayla-embed .view-panel,html.ayla-embed .workspace{display:block!important;margin:0!important;padding:0!important;min-width:0!important;max-width:none!important;width:100%!important;height:100%!important;min-height:0!important;overflow:hidden!important}
+html.ayla-embed .workspace{position:relative!important}
+html.ayla-embed #mapViewCard{display:block!important;position:relative!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:#061016!important;margin:0!important;padding:0!important;width:100%!important;height:100%!important;max-width:none!important;overflow:hidden!important}
+html.ayla-embed #mapStage{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;border:0!important;border-radius:0!important;overflow:hidden!important;background:#061016!important}
+html.ayla-embed #globe,html.ayla-embed #map{height:100%!important;width:100%!important;inset:0!important}
+html.ayla-embed .map-toolbar{display:none!important}
+html.ayla-embed.filters-open .map-toolbar{display:flex!important;position:absolute!important;right:7px!important;top:42px!important;left:auto!important;max-width:min(96%,560px)!important;z-index:200!important;flex-wrap:wrap!important;gap:6px!important;background:rgba(7,25,26,.96)!important;border:1px solid rgba(177,214,193,.38)!important;border-radius:7px!important;padding:10px!important;box-shadow:0 20px 50px #000b!important}
+html.ayla-embed .map-toolbar #expandMap,html.ayla-embed .map-toolbar #enterCleanView{display:none!important}
+html.ayla-embed #mapFiltersHost{position:absolute!important;top:91px!important;right:7px!important;left:auto!important;bottom:auto!important;max-width:min(95%,440px)!important;width:min(420px,95%)!important;max-height:calc(100% - 106px)!important;z-index:220!important;overflow:auto!important;background:rgba(7,22,23,.96)!important;border:1px solid rgba(176,213,191,.39)!important;border-radius:7px!important;box-shadow:0 20px 45px #000c!important;padding:10px!important}
+html.ayla-embed #mapFiltersHost[hidden]{display:none!important}
+html.ayla-embed #mapFiltersHost .filters{position:static!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important;width:auto!important;padding:6px!important;margin:0!important;background:transparent!important;border:0!important}
+html.ayla-embed #mapFiltersHost .filter,html.ayla-embed #mapFiltersHost .filter-actions{min-width:0!important;width:auto!important;max-width:none!important}
+html.ayla-embed #mapFiltersHost .record-search,html.ayla-embed #mapFiltersHost .time-toolbar,html.ayla-embed #mapFiltersHost .filter-actions{grid-column:1/-1!important}
+html.ayla-embed #mapFiltersHost label,html.ayla-embed #mapFiltersHost button{font-size:11px!important}
+html.ayla-embed #mapFiltersHost select,html.ayla-embed #mapFiltersHost input{width:100%!important;max-width:100%!important;min-width:0!important}
+html.ayla-embed .ayla-embed-controls{position:absolute;top:7px;left:8px;right:8px;z-index:220;display:flex;justify-content:space-between;align-items:center;gap:10px;pointer-events:none}
+html.ayla-embed .ayla-embed-title{background:rgba(6,20,21,.78);color:#c4ead9;padding:7px 10px;border-left:2px solid #a3d4ab;font:700 11px/1.4 system-ui,sans-serif;letter-spacing:.06em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html.ayla-embed #aylaEmbedFilters{pointer-events:auto;background:rgba(11,34,32,.94);color:#d7f1e5;border:1px solid #709c83;border-radius:6px;padding:8px 11px;cursor:pointer;font:700 11px/1.25 system-ui,sans-serif}
+html.ayla-embed #aylaEmbedFilters:hover,html.ayla-embed #aylaEmbedFilters[aria-expanded="true"]{background:#274e43}
+/* Globe controls must not stretch over the whole canvas. Original Globe CSS
+ * places them at top/left; overriding bottom/right without clearing those
+ * anchors caused five gigantic white rows that obscured the map. */
+html.ayla-embed #globeTools{
+ position:absolute!important;
+ left:auto!important;top:auto!important;right:12px!important;bottom:12px!important;
+ width:max-content!important;height:auto!important;max-width:calc(100% - 24px)!important;
+ display:flex!important;flex-direction:row!important;align-items:center!important;
+ justify-content:flex-end!important;flex-wrap:wrap!important;gap:5px!important;
+ background:rgba(6,22,23,.85)!important;border:1px solid rgba(136,187,162,.42)!important;
+ border-radius:7px!important;padding:5px!important;z-index:180!important;
+}
+html.ayla-embed #globeTools[hidden]{display:none!important}
+html.ayla-embed #globeTools button{
+ flex:0 0 auto!important;display:inline-flex!important;align-items:center!important;
+ justify-content:center!important;width:auto!important;height:34px!important;
+ min-width:34px!important;min-height:34px!important;max-height:34px!important;
+ margin:0!important;padding:4px 8px!important;font:700 13px/1.1 system-ui,sans-serif!important;
+ color:#deefe4!important;background:#102c29!important;border:1px solid #567e6b!important;
+ border-radius:5px!important;white-space:nowrap!important;
+}
+html.ayla-embed #globeHelp,html.ayla-embed #globeCredit{opacity:.65!important;max-width:70%!important;font-size:9px!important}
+html.ayla-embed #mapDetail{z-index:300!important;right:5px!important;top:52px!important;max-height:calc(100% - 65px)!important}
+@media(max-width:640px){html.ayla-embed #mapFiltersHost{top:85px!important;width:calc(100% - 14px)!important}html.ayla-embed #mapFiltersHost .filters{grid-template-columns:1fr!important}html.ayla-embed .ayla-embed-title{max-width:65%}}

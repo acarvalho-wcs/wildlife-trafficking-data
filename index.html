@@ -48,6 +48,13 @@ gtag('js', new Date());
 <link rel="shortcut icon" type="image/x-icon" href="observatory-favicon-dc1841e7.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="observatory-favicon-77855e31.png">
 <link rel="mask-icon" href="observatory-safari-20261018.svg" color="#0078bc">
+<script>
+/* AYLA wall mode is opt-in and cannot modify the normal Observatory UI. */
+if(new URLSearchParams(location.search).get('ayla-wall')==='1'){
+  document.documentElement.classList.add('ayla-embed');
+  var wallCSS=document.createElement('link');wallCSS.rel='stylesheet';wallCSS.href='ayla-embed.css?v=20261122-fix';document.head.append(wallCSS);
+}
+</script>
 <script src="assets/js/observatory-language.js?v=20261114"></script></head>
 <body>
 <div class="shell">
@@ -100,4 +107,4 @@ gtag('js', new Date());
 <script src="temporal-core.js?v=20261112"></script>
 <script src="temporal-filter.js?v=20261112"></script>
 <script src="xlsx-export.js?v=20261111"></script><script src="live.js?v=20261117-canonical-wcs"></script>
-<script src="assets/js/how-it-works-link.js"></script><script src="assets/js/publications-nav.js"></script><script src="assets/js/restricted-area-nav.js"></script><script src="assets/js/growth-history-seed.js?v=20261013"></script><script src="assets/js/growth-history.js?v=20261018-temporal"></script></body></html>
+<script src="assets/js/how-it-works-link.js"></script><script src="assets/js/publications-nav.js"></script><script src="assets/js/restricted-area-nav.js"></script><script src="assets/js/growth-history-seed.js?v=20261013"></script><script src="assets/js/growth-history.js?v=20261018-temporal"></script><script src="ayla-embed.js?v=20261121"></script></body></html>
