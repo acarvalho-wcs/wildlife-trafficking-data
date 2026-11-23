@@ -101,6 +101,21 @@ jobs:
           python scripts/case_store.py validate --root cases
           python scripts/case_store.py build --root cases --output cases.json
           python -m json.tool cases.json > /dev/null
+      - name: Verify mirrored case-count parity with principal
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          upstream = json.loads(Path('.canonical-upstream/cases/_manifest.json').read_text())
+          mirrored = json.loads(Path('cases.json').read_text())
+          expected = upstream['record_count']
+          actual = len(mirrored['cases'])
+          if actual != expected:
+              raise SystemExit(f'Mirror parity failed: principal={expected}, secondary={actual}')
+          print(f'Case-count parity confirmed: {actual} records')
+          PY
       - name: Commit only actual changes without force
         shell: bash
         run: |
