@@ -1,0 +1,111 @@
+{
+  "id": "tgh-20261121-id-ambon-labobar-lorikeets-antlers",
+  "tgh_record_id": "TG-H-20261121-AS-ID-005",
+  "status": "VALIDATED",
+  "country": "Indonésia",
+  "country_code": "ID",
+  "region": "Ásia",
+  "publication_date": "2026-11-23",
+  "publication_date_precision": "day",
+  "event_date": "2026-11-21",
+  "event_end_date": null,
+  "event_date_precision": "day",
+  "date_role": "event_and_publication",
+  "coordinates": {
+    "lat": -3.6935,
+    "lon": 128.18
+  },
+  "coordinate_precision": "port_reference_generalized",
+  "is_exact_seizure_position": false,
+  "georeference_method": "conservative_reference_coordinates",
+  "location_label_pt": "Porto Yos Sudarso, Ambon, Molucas, Indonésia — KM Labobar",
+  "location_label_en": "Yos Sudarso port, Ambon, Maluku, Indonesia — KM Labobar",
+  "location_label_es": "Puerto Yos Sudarso, Ambon, Molucas, Indonesia — KM Labobar",
+  "title_pt": "Quarentena retém três aves e chifres de cervídeo no KM Labobar, em Ambon",
+  "title_en": "Quarantine officers hold three lorikeets and antler items on KM Labobar in Ambon",
+  "title_es": "Cuarentena retiene tres aves y astas de cérvido en KM Labobar, Ambon",
+  "fauna_groups_aggregated": [
+    "Aves"
+  ],
+  "taxon_text": "3 aves perkici pelangi (identificação popular) e 2 peças de chifre de cervídeo; 5 plantas santigi em carga distinta, FORA da contagem de fauna",
+  "taxon_text_pt": "Três aves chamadas 'perkici pelangi'; chifres de cervídeo em uma ou duas peças segundo fontes; espécies não confirmadas",
+  "taxon_text_en": "Three birds called 'perkici pelangi'; one or two antler pieces depending on authority; species unconfirmed",
+  "taxon_text_es": "Tres aves 'perkici pelangi'; una o dos piezas de asta según fuente; especies no confirmadas",
+  "fauna_label_pt": "Três aves vivas e peças de chifre de cervídeo",
+  "fauna_label_en": "Three live birds and deer-antler items",
+  "fauna_label_es": "Tres aves vivas y piezas de asta de cérvido",
+  "modal_primary": "Marítimo",
+  "modal_label_pt": "Transporte marítimo irregular em navio com destino informado a Surabaya",
+  "modal_label_en": "Undocumented passenger-vessel shipment, ship bound for Surabaya",
+  "modal_label_es": "Transporte sin documentos en buque con destino declarado Surabaya",
+  "quantity_count": 3,
+  "quantity_kind": "animals",
+  "quantity_qualifier": "exact",
+  "quantity_by_group": {
+    "Aves": 3
+  },
+  "quantity_unassigned": 0,
+  "quantity_label_pt": "3 aves; 2 peças de chifre segundo quarentena (Marinha relata 1)",
+  "quantity_label_en": "3 birds; quarantine reports 2 antler pieces, Navy reports 1",
+  "quantity_label_es": "3 aves; cuarentena indica 2 astas, Armada indica 1",
+  "quantity_note_pt": "Três aves contáveis; quarentena relata duas peças de chifre, Marinha uma — divergência não resolvida. Cinco plantas santigi não são fauna.",
+  "quantity_note_en": "Three countable birds; quarantine says two antler pieces, Navy one. Five santigi plants excluded from fauna counts.",
+  "quantity_note_es": "Tres aves contables; cuarentena informa dos astas, Armada una. Cinco plantas santigi se excluyen del conteo de fauna.",
+  "aggregate_operation": false,
+  "exclude_from_totals": true,
+  "trafficking_evidence_level": "UNDOCUMENTED_TRANSPORT_WITH_UNRESOLVED_ANTLER_COUNT",
+  "route_audit_status": "SHIP_DESTINATION_ONLY_NOT_PROVEN_WILDLIFE_TRADE_ROUTE",
+  "route_audit_note_pt": "Ambon → Surabaya (destino do navio, não trajeto completo nem destino comprovado de venda)",
+  "route_audit_note_en": "No complete trafficking route documented; contextual or vessel destinations are not verified wildlife trade routes.",
+  "route_audit_note_es": "No hay ruta de tráfico de fauna plenamente documentada; los destinos atribuidos no equivalen a una ruta verificada.",
+  "geographic_note_pt": "Ponto aproximado do porto de Ambon; Surabaya é destino do navio, não destino comercial comprovado da fauna.",
+  "geographic_note_en": "Approximate Ambon port marker; Surabaya is the vessel's destination, not a proven wildlife-buyer location.",
+  "geographic_note_es": "Punto aproximado del puerto de Ambon; Surabaya es destino del barco, no mercado comprobado de la fauna.",
+  "source_label": "Badan Karantina Indonesia / Marinha da Indonésia",
+  "source_url": "https://karantinaindonesia.go.id/berita/cegah-perdagangan-ilegal-karantina-maluku-amankan-nuri-perkici-pelangi-santigi-dan-awetan-tanduk-rusa-di-km-labobar",
+  "card_text_pt": "Em 21/11, agentes de quarentena em Ambon interceptaram três aves e chifres de cervídeo no KM Labobar. Fontes divergem entre uma e duas peças de chifre; cinco plantas foram contabilizadas separadamente.",
+  "card_text_en": "On 21 November, quarantine officers intercepted three birds and antler items on KM Labobar in Ambon. Sources disagree on the antler count; five plants are separate.",
+  "card_text_es": "El 21/11, agentes interceptaron tres aves y astas en KM Labobar, Ambon. Las fuentes discrepan sobre el número de astas; cinco plantas quedan separadas.",
+  "context_pt": "[O] Em 21/11/2026, agentes de quarentena de Maluku inspecionaram o KM Labobar no porto Yos Sudarso, Ambon, durante preparação de viagem com destino a Surabaya. A autoridade nacional informa a retenção de três aves popularmente denominadas 'perkici pelangi', duas peças preparadas de chifre de cervídeo e cinco plantas santigi, sem documentação necessária. A Marinha confirma três aves e cinco plantas, mas relata uma peça de chifre: a divergência de contagem de chifres deve permanecer aberta, adotando-se dois apenas conforme a autoridade de quarentena. Plantas não são fauna e não compõem a contagem animal. A remessa irregular é comprovada, não sua venda nem o comprador; Surabaya é destino informado do navio e não comprovação de venda. [T] Inspeções de embarque e quarentena são contexto institucional de controle da circulação doméstica.",
+  "context_en": "[O] On 21 November 2026, Maluku quarantine officers inspected passenger vessel KM Labobar at Yos Sudarso port in Ambon before a voyage bound for Surabaya. The national quarantine agency reports three rainbow-lorikeet-type birds (local name perkici pelangi), two preserved deer-antler pieces and five santigi plants without required documents. The Navy agrees on three birds and five plants but reports one antler; retain this discrepancy and use two antler pieces only as the quarantine agency's count. Plants must not enter animal counts. The undocumented transport is confirmed, but no sale, buyer or full trafficking route was demonstrated; Surabaya is the ship's reported destination. [T] Port and quarantine controls provide institutional context.",
+  "context_es": "[O] El 21 de noviembre de 2026, agentes de cuarentena de Maluku inspeccionaron el KM Labobar en el puerto Yos Sudarso, Ambon, antes de un viaje con destino a Surabaya. La autoridad de cuarentena registra tres aves denominadas perkici pelangi, dos piezas preparadas de asta de cérvido y cinco plantas santigi sin documentos exigidos. La Armada confirma tres aves y cinco plantas, pero informa una sola asta; se conserva esta discrepancia y el recuento de dos corresponde exclusivamente a cuarentena. Las plantas no se cuentan como fauna. Está documentado el transporte irregular, no la compraventa ni un comprador; Surabaya es destino del barco, no prueba de mercado final. [T] La inspección portuaria y de cuarentena aporta contexto institucional.",
+  "references_text_pt": "[O] https://karantinaindonesia.go.id/berita/cegah-perdagangan-ilegal-karantina-maluku-amankan-nuri-perkici-pelangi-santigi-dan-awetan-tanduk-rusa-di-km-labobar ; [O] https://www.tnial.mil.id/berita/94687/KODAERAL-IX-BERHASIL-GAGALKAN-PENYELUNDUPAN-MIRAS-ILEGAL%2C-SATWA-DILINDUNGI%2C-DAN-KAYU-STIGI-DI-PELABUHAN-AMBON/ ; [O] https://pontianakpost.jawapos.com/kriminal/2611230176/tiga-burung-nuri-lima-tanaman-santigi-dan-awetan-tanduk-rusa-diamankan-di-ambon",
+  "references_text_en": "[O] https://karantinaindonesia.go.id/berita/cegah-perdagangan-ilegal-karantina-maluku-amankan-nuri-perkici-pelangi-santigi-dan-awetan-tanduk-rusa-di-km-labobar ; [O] https://www.tnial.mil.id/berita/94687/KODAERAL-IX-BERHASIL-GAGALKAN-PENYELUNDUPAN-MIRAS-ILEGAL%2C-SATWA-DILINDUNGI%2C-DAN-KAYU-STIGI-DI-PELABUHAN-AMBON/ ; [O] https://pontianakpost.jawapos.com/kriminal/2611230176/tiga-burung-nuri-lima-tanaman-santigi-dan-awetan-tanduk-rusa-diamankan-di-ambon",
+  "references_text_es": "[O] https://karantinaindonesia.go.id/berita/cegah-perdagangan-ilegal-karantina-maluku-amankan-nuri-perkici-pelangi-santigi-dan-awetan-tanduk-rusa-di-km-labobar ; [O] https://www.tnial.mil.id/berita/94687/KODAERAL-IX-BERHASIL-GAGALKAN-PENYELUNDUPAN-MIRAS-ILEGAL%2C-SATWA-DILINDUNGI%2C-DAN-KAYU-STIGI-DI-PELABUHAN-AMBON/ ; [O] https://pontianakpost.jawapos.com/kriminal/2611230176/tiga-burung-nuri-lima-tanaman-santigi-dan-awetan-tanduk-rusa-diamankan-di-ambon",
+  "context_references": [
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Fonte de ocorrência",
+      "url": "https://karantinaindonesia.go.id/berita/cegah-perdagangan-ilegal-karantina-maluku-amankan-nuri-perkici-pelangi-santigi-dan-awetan-tanduk-rusa-di-km-labobar"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Fonte de ocorrência",
+      "url": "https://www.tnial.mil.id/berita/94687/KODAERAL-IX-BERHASIL-GAGALKAN-PENYELUNDUPAN-MIRAS-ILEGAL%2C-SATWA-DILINDUNGI%2C-DAN-KAYU-STIGI-DI-PELABUHAN-AMBON/"
+    },
+    {
+      "id": "O",
+      "type": "case_source",
+      "label": "Fonte de ocorrência",
+      "url": "https://pontianakpost.jawapos.com/kriminal/2611230176/tiga-burung-nuri-lima-tanaman-santigi-dan-awetan-tanduk-rusa-diamankan-di-ambon"
+    }
+  ],
+  "localization_schema_version": 1,
+  "context_evidence_audit": {
+    "review_date": "2026-11-24",
+    "categories_present": [
+      "O"
+    ],
+    "no_forced_references": true,
+    "no_route_inference": true,
+    "source_case_notes": "Auditoria 24/11: fonte quarentena e fonte naval confirmam data 21/11 e três aves; divergência sobre chifres (2 versus 1). Não somar material vegetal à fauna nem três peças de chifre de dois relatos. Local de embarque anterior não comprovado, destino do navio Surabaya. Não deduzir CITES/espécie científica."
+  },
+  "source_reconciliation_status": "DEDUPLICATED_WITH_CANONICAL_MANIFEST_2026_11_24",
+  "ingestion_batch": "TG-H-2026-11-17-23-AFTER_REGIONAL_REVIEW_USER_PUBLICATION_REQUEST",
+  "case_context_status": "PT_EN_ES_OSINT_REVIEWED",
+  "image_url": null,
+  "image_source_url": null,
+  "image_status": "NOT_VALIDATED"
+}
