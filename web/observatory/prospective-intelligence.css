@@ -1,0 +1,45 @@
+/* Transparent, optional, theme-aware overlays only in expanded clean GLOBE. */
+.prospective-root[hidden],.prospective-root [hidden],#prospectiveToggle[hidden],#prospectiveOptions[hidden]{display:none!important}
+.prospective-root{position:absolute;inset:0;z-index:1230;pointer-events:none}
+.prospective-root,.prospective-toggle,.prospective-options{--pi-text:#eff7ff;--pi-muted:#bed0df;--pi-accent:#75b9f4;--pi-panel:#101a25ed;--pi-border:#58738a80;color:var(--pi-text);font:500 12px/1.35 Inter,system-ui,sans-serif;text-shadow:0 1px 3px #0009}
+[data-clean-chart-theme="light"] .prospective-root,[data-clean-chart-theme="light"] .prospective-toggle,[data-clean-chart-theme="light"] .prospective-options{--pi-text:#173345;--pi-muted:#375768;--pi-accent:#246b9e;--pi-panel:#f2f8f5f5;--pi-border:#54798b70;text-shadow:0 1px 3px #fffe}
+.prospective-toggle,.prospective-options,.prospective-card{pointer-events:auto}
+.prospective-toggle{position:static;align-self:flex-start;flex:none;max-width:100%;color:var(--pi-text);background:var(--pi-panel);border:1px solid var(--pi-border);border-radius:6px;padding:9px 12px;font:inherit;cursor:pointer;box-shadow:0 2px 8px #0002}
+.prospective-toggle[aria-expanded=true]{border-color:var(--pi-accent)}
+.prospective-options{position:absolute;width:min(280px,calc(100% - 16px));max-height:min(75%,610px);overflow:auto;overscroll-behavior:contain;box-sizing:border-box;background:var(--pi-panel);border:1px solid var(--pi-border);border-radius:7px;padding:10px;scrollbar-width:thin;pointer-events:auto}
+.prospective-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.prospective-close{background:none;border:0;color:inherit;font:inherit;font-size:18px;cursor:pointer}
+.prospective-field{display:flex;align-items:center;justify-content:space-between;gap:6px;margin:6px 0}
+.prospective-field select{max-width:126px;background:var(--pi-panel);color:inherit;border:1px solid var(--pi-border);border-radius:4px;padding:4px;font:inherit}
+.prospective-checks{display:grid;gap:5px;margin:10px 0}
+.prospective-checks label{display:flex;align-items:center;gap:6px;color:inherit;cursor:pointer}
+.prospective-checks input{accent-color:var(--pi-accent);width:auto}
+.prospective-charts{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.prospective-card{position:absolute;width:min(280px,calc(100% - 16px));max-height:min(55%,420px);overflow:auto;overscroll-behavior:contain;border:1px solid var(--pi-border);border-radius:7px;background:var(--pi-panel);padding:10px;min-width:0;box-sizing:border-box;pointer-events:auto;scrollbar-width:thin}
+.prospective-card h3,.prospective-options h3{flex:1;min-width:0;font-size:12px;font-weight:650;line-height:1.3;margin:0;color:var(--pi-text)}
+.prospective-card-header{display:flex;align-items:center;gap:6px;margin-bottom:8px;position:sticky;top:-10px;z-index:1;background:var(--pi-panel);padding:3px 0}
+.prospective-drag,.prospective-card-close,.prospective-reset{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.prospective-drag{cursor:grab;touch-action:none;user-select:none;display:block;text-align:left;width:100%;font-weight:650}
+.prospective-drag:active{cursor:grabbing}.prospective-card-close{font-size:20px;line-height:1;min-width:24px;min-height:24px;flex:none;border-radius:4px}.prospective-card-close:hover{background:#64748b40}.prospective-reset{font-size:10px;text-decoration:underline;margin:4px 0}.prospective-status{font-weight:650}
+.prospective-note,.prospective-foot,.prospective-options small,.prospective-card small{display:block;color:var(--pi-muted);font-size:10px;line-height:1.35;margin:5px 0}
+.prospective-foot{grid-column:1/-1;background:var(--pi-panel);border-radius:4px;padding:4px 6px;margin:0}
+.prospective-row{margin:6px 0}.prospective-row-head{display:flex;justify-content:space-between;gap:5px;font-size:10px}.prospective-row-head span{overflow-wrap:anywhere}.prospective-rail{height:4px;border-radius:4px;background:#64748b32;margin-top:3px}.prospective-rail span{height:100%;display:block;border-radius:4px;background:var(--pi-accent)}
+.prospective-card svg{display:block;width:100%;height:auto;overflow:visible}.prospective-card svg text{fill:var(--pi-muted);font-size:8px;text-shadow:none}.pi-grid{stroke:var(--pi-muted);stroke-opacity:.17}.pi-line{stroke:var(--pi-accent);stroke-width:1.8;stroke-linejoin:round;fill:none}.pi-reference{stroke:var(--pi-muted);stroke-dasharray:3 3;stroke-width:1}.pi-forecast{stroke:var(--pi-accent);stroke-dasharray:4 3;stroke-width:1.6;fill:none}.pi-band{fill:var(--pi-accent);opacity:.2}
+.prospective-metric{font-size:22px;font-weight:600}.prospective-kpis{display:flex;gap:8px;flex-wrap:wrap}.prospective-kpis div{flex:1;min-width:55px}.prospective-kpis b{font-size:18px;display:block}.prospective-heat{display:grid;grid-template-columns:minmax(45px,1.7fr) repeat(12,minmax(0,1fr));gap:2px;align-items:center}.prospective-heat small{font-size:8px;overflow:hidden;margin:0}.pi-cell{height:10px;background:var(--pi-accent);border-radius:2px}.pi-stack{display:flex;overflow:hidden;height:7px;border-radius:4px}.pi-legend{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px;font-size:9px}.pi-legend span{padding-left:3px}
+@media(max-width:1100px){.prospective-card{width:min(245px,calc(100% - 16px))}}
+@media(max-width:700px){.prospective-toggle{font-size:11px}.prospective-options{width:min(245px,calc(100% - 16px));max-height:70%;padding:8px}.prospective-card{width:min(215px,calc(100% - 16px));max-height:45%;padding:8px}}
+
+/* Keep the control immediately after the country chart, including short viewports. */
+#prospectiveToggle{pointer-events:auto}
+
+/* The controls follow the country chart and toggle in the left column. */
+
+/* Keep selector above draggable charts, while allowing all map gestures outside cards. */
+.prospective-root{z-index:1320}
+
+.prospective-source-section{margin-top:8px;padding-top:8px;border-top:1px solid var(--pi-border)}
+.prospective-card .prospective-source-heading{font-size:10px;margin:0 0 5px;color:var(--pi-accent);font-weight:650}
+.prospective-card .pi-source-ibama{--pi-accent:#42b97e}
+[data-clean-chart-theme="light"] .prospective-card .pi-source-ibama{--pi-accent:#17643f}
+.prospective-comparison{border-top:1px solid var(--pi-border);padding-top:8px;margin-top:8px}
+.prospective-card .pi-ibama-comparison{stroke:#42b97e}

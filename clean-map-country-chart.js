@@ -35,9 +35,9 @@ window.CleanMapCountryChart=(()=>{
   };
  }
 
- function render({root,records,lang='en',countable,countryLabel,limit=8}){
+ function render({root,records,lang='en',countable,countryLabel,limit=8,officialOnly=false}){
   if(!root)return;
-  const t=strings[lang]||strings.en;
+  const t=officialOnly?({pt:{title:'Autos IBAMA por UF',events:'autos',countries:'UFs',other:'Outras UFs',unknown:'UF não informada',empty:'Nenhum auto no recorte selecionado',showing:(shown,total)=>shown===total?'Todas as UFs':'Principais UFs + demais agrupadas'},en:{title:'IBAMA notices by state',events:'notices',countries:'states',other:'Other states',unknown:'State not reported',empty:'No notices in the selection',showing:(shown,total)=>shown===total?'All states':'Leading states + remaining grouped'},es:{title:'Actas IBAMA por estado',events:'actas',countries:'estados',other:'Otros estados',unknown:'Estado no informado',empty:'No hay actas en la selección',showing:(shown,total)=>shown===total?'Todos los estados':'Estados principales + restantes agrupados'}}[lang]||strings.en):(strings[lang]||strings.en);
   const summary=summarize(records,{countable,countryLabel,limit});
   root.querySelector('#cleanCountryTitle').textContent=t.title;
   root.querySelector('#cleanCountrySummary').textContent=number(summary.total,lang)+' '+t.events+'  ·  '+number(summary.countries,lang)+' '+t.countries;

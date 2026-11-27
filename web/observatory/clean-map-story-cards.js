@@ -22,8 +22,9 @@ window.CleanMapStoryCards=(()=>{
  }
  function format(e,r={},lang='en'){
   const t=words[lang]||words.en;
+  if(e.sourceType==='ibama')return formatIbama(e,lang);
   return {
-   kicker:t.kicker,
+   kicker:t.kicker+' · OSINT',
    title:String(r.title||r.city||e.city||r.country||e.country||''),
    place:[r.city||e.city,r.country||e.country].filter(Boolean).join(' · '),
    eventDate:t.event+': '+dateValue(e.event_date,lang),
@@ -34,6 +35,16 @@ window.CleanMapStoryCards=(()=>{
     new Intl.NumberFormat(locales[lang]||locales.en).format(e.items)+' '+t.units:'',
    aria:t.open
   };
+ }
+ function formatIbama(e,lang){
+  const p=e.p||{},o=p.official||{},t=({pt:{k:'DADOS OFICIAIS · IBAMA',notice:'Autuação',fact:'Fato',title:'Infração ambiental contra a fauna',open:'Abrir auto de infração',seized:'Apreendidos (termo vinculado)',original:'Texto oficial em português'},en:{k:'OFFICIAL DATA · IBAMA',notice:'Notice',fact:'Reported event',title:'Wildlife administrative infraction',open:'Open infraction notice',seized:'Seized (linked term)',original:'Official text in Portuguese'},es:{k:'DATOS OFICIALES · IBAMA',notice:'Acta',fact:'Hecho declarado',title:'Infracción administrativa contra la fauna',open:'Abrir acta de infracción',seized:'Incautados (acta vinculada)',original:'Texto oficial en portugués'}})[lang]||{k:'IBAMA',notice:'Notice',fact:'Event',title:'Wildlife infraction',open:'Open notice',seized:'Seized',original:'Portuguese'};
+  const raw=String(o.fact_date||''),match=/^(\d{2})\/(\d{2})\/(\d{4})(?:\s|$)/.exec(raw),fact=match?match[3]+'-'+match[2]+'-'+match[1]:raw.slice(0,10),reported=dateValue(fact,lang);
+  const items=(p.seized_specimens||[]).filter(x=>x.scientific_name||x.common_name||Number.isFinite(x.quantity));
+  const names=[...new Set((p.species_referenced||[]).concat(items).map(x=>x.scientific_name||x.common_name).filter(Boolean))];
+  const quantities=items.filter(x=>Number.isFinite(x.quantity)&&x.quantity>0&&x.unit).slice(0,3).map(x=>[x.common_name||x.scientific_name,new Intl.NumberFormat(locales[lang]||locales.en).format(x.quantity),x.unit].filter(Boolean).join(' '));
+  const title=String(o.infraction_description||p.description||t.title),body=String(o.narrative_detail||p.description||'').replace(/\s+/g,' ').trim();
+  const description=body.length>240?body.slice(0,240).replace(/\s+\S*$/,'')+'…':body;
+  return {kicker:t.k,title,place:[p.municipality,p.uf,({pt:'Brasil',en:'Brazil',es:'Brasil'})[lang]].filter(Boolean).join(' · '),eventDate:t.notice+': '+dateValue(e.day||p.date,lang),publicationDate:reported==='—'?'':t.fact+': '+reported,description:description+(description&&lang!=='pt'?' · '+t.original:''),fauna:names.slice(0,3).join(' · '),quantity:quantities.length?t.seized+': '+quantities.join(' · '):'',aria:t.open};
  }
  function point(e,map,isVisible){
   if(!isGeo(e)||!map||typeof map.project!=='function')return null;
@@ -63,7 +74,7 @@ window.CleanMapStoryCards=(()=>{
    quantity:root.querySelector('#cleanMapStoryQuantity')
   };
   let map=null,active=null,lastId=null,cursor=0,timer=0,delay=0,running=false;
-  let visible=false;
+  let visible=false,lastSource=null;
   function hide(){
    visible=false;
    card.classList.remove('is-visible');
@@ -78,12 +89,14 @@ window.CleanMapStoryCards=(()=>{
    // readable with internal scrolling only when the viewport is too short.
    const width=Math.min(p.width-24,p.width<650?290:360,
     Math.max(210,p.width*(p.width<650?.54:.37)));
-   const left=Math.max(12,p.width-width-16);
+   const controls=document.getElementById('cleanMapControls'),cr=controls?.getBoundingClientRect(),mr=map.getContainer().getBoundingClientRect();
+   const reserve=cr&&cr.width>0&&cr.height>0?cr.width+22:16;
+   const left=Math.max(12,p.width-width-(p.width>650?reserve:16));
    card.style.width=width+'px';
    card.style.left=left+'px';
    card.style.maxHeight=Math.max(150,p.height-90)+'px';
    const height=card.getBoundingClientRect().height;
-   const upper=p.height<350?12:56;
+   const upper=p.width<=650&&cr&&mr?Math.min(Math.max(12,p.height-height-12),Math.max(12,cr.bottom-mr.top+8)):p.height<350?12:56;
    const lower=Math.max(upper,p.height-height-12);
    const top=Math.min(lower,Math.max(upper,p.y-height*.40));
    const joinX=p.x<left?left:left+width;
@@ -106,30 +119,36 @@ window.CleanMapStoryCards=(()=>{
   }
   function fill(e){
    const r=getRecord(e),d=format(e,r,getLang());
+   root.dataset.source=e.sourceType==='ibama'?'ibama':'osint';
    nodes.kicker.textContent=d.kicker;
-   nodes.title.textContent=d.title;
+   const names=e.sourceType==='ibama'?(e.taxonEntries||[]).map(x=>x.name):[...String(e.taxon_text||r.taxon||'').matchAll(/\*([A-Z][a-z]+(?: [a-z][a-z-]+){0,2})\*/g)].map(x=>x[1]);
+   const sci=value=>window.ScientificText.html(value,names);
+   nodes.title.innerHTML=sci(d.title);
    nodes.place.textContent=d.place;
    nodes.eventDate.textContent=d.eventDate;
    nodes.publicationDate.textContent=d.publicationDate;
-   nodes.description.textContent=d.description;
-   nodes.fauna.textContent=d.fauna;
-   nodes.quantity.textContent=d.quantity;
+   nodes.description.innerHTML=sci(d.description);
+   nodes.fauna.innerHTML=sci(d.fauna);
+   nodes.quantity.innerHTML=sci(d.quantity);
+   for(const key of ['publicationDate','description','fauna','quantity'])nodes[key].hidden=!d[key];
    card.setAttribute('aria-label',d.aria+': '+d.title);
   }
   function choose(){
    if(!running||!map)return;
    const eligible=candidates(getRecords(),countable).filter(e=>point(e,map,isVisible));
    if(!eligible.length){active=null;hide();return;}
-   eligible.sort((a,b)=>String(b.event_date||b.publication_date||'').localeCompare(String(a.event_date||a.publication_date||''))||String(a.id).localeCompare(String(b.id)));
+   const source=e=>e.sourceType==='ibama'?'ibama':'osint';
+   const alternating=eligible.filter(e=>source(e)!==lastSource);const pool=alternating.length?alternating:eligible;
+   pool.sort((a,b)=>String(b.event_date||b.day||b.publication_date||'').localeCompare(String(a.event_date||a.day||a.publication_date||''))||String(a.id).localeCompare(String(b.id)));
    let next=null;
-   for(let i=0;i<eligible.length;i++){
-    const candidate=eligible[(cursor+i)%eligible.length];
-    if(candidate.id!==lastId||eligible.length===1){
-     next=candidate;cursor=(cursor+i+1)%eligible.length;break;
+   for(let i=0;i<pool.length;i++){
+    const candidate=pool[(cursor+i)%pool.length];
+    if(candidate.id!==lastId||pool.length===1){
+     next=candidate;cursor=(cursor+i+1);break;
     }
    }
-   if(!next)next=eligible[0];
-   active=next;lastId=next.id;
+   if(!next)next=pool[0];
+   active=next;lastId=next.id;lastSource=source(next);
    fill(next);
    updateGeometry();
   }
@@ -142,7 +161,7 @@ window.CleanMapStoryCards=(()=>{
   function onMove(){updateGeometry();}
   card.addEventListener('click',e=>{
    e.stopPropagation();
-   if(running&&active&&visible)onOpen(active.id);
+   if(running&&active&&visible)onOpen(active.id,active);
   });
   function stop(){
    running=false;

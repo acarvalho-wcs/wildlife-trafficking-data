@@ -25,8 +25,14 @@ window.ScientificText = (() => {
     return result;
   }
   // Every text token is escaped; the sole generated element is a literal <em>.
-  const html = value => tokens(value).map(part => part.italic ? '<em>'+escape(part.text)+'</em>' : escape(part.text)).join('');
+  function knownTokens(value,names=[]){
+    const unique=[...new Set(names.filter(n=>typeof n==='string'&&/^[A-Z][a-z]+(?: [a-z][a-z-]+){0,2}$/.test(n)))].sort((a,b)=>b.length-a.length);
+    if(!unique.length)return tokens(value);
+    const pattern=new RegExp('(^|[^\\p{L}\\p{N}_])('+unique.join('|')+')(?![\\p{L}\\p{N}_])','gu');
+    return tokens(value).flatMap(part=>{if(part.italic)return [part];const out=[];let last=0;pattern.lastIndex=0;for(const m of part.text.matchAll(pattern)){const i=m.index+m[1].length;if(i>last)out.push({text:part.text.slice(last,i),italic:false});out.push({text:m[2],italic:true});last=i+m[2].length;}if(last<part.text.length)out.push({text:part.text.slice(last),italic:false});return out;});
+  }
+  const html = (value,names=[]) => knownTokens(value,Array.isArray(names)?names:[]).map(part => part.italic ? '<em>'+escape(part.text)+'</em>' : escape(part.text)).join('');
   // Native title/alt/ARIA attributes cannot contain emphasis elements.
   const plain = value => tokens(value).map(part => part.text).join('');
-  return Object.freeze({tokens, html, plain});
+  return Object.freeze({tokens, knownTokens, html, plain});
 })();

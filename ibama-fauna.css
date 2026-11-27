@@ -1,0 +1,39 @@
+
+#ibamaSourceBox{grid-column:1/-1;display:grid;gap:7px;font-size:12px}
+#ibamaSourceBox label{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:0}
+#ibamaSourceBox input{accent-color:#42b97e}
+#ibamaFilters{display:grid;gap:6px}
+#ibamaFilters[hidden],#ibamaRetry[hidden],#ibamaDetail[hidden]{display:none!important}
+#sharedTaxonFilter{grid-column:1/-1;min-width:0}
+#sharedTaxonFilter select{max-width:100%;width:100%}
+#ibamaSourceNote,#ibamaStatus{font-size:10px;color:var(--muted);line-height:1.4}
+#ibamaPeriod,#ibamaRetry{font:inherit;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);padding:6px;cursor:pointer}
+.ibama-source-dot{width:9px;height:9px;border:1px solid #153522;background:#42b97e;border-radius:50%;display:inline-block}
+.ibama-count-marker span{display:grid;place-items:center;width:24px;height:24px;background:#42b97e;color:#10251a;border:1px solid #10251a;border-radius:50%;font:700 11px system-ui}
+.map-view-card #ibamaDetail{position:absolute;z-index:1495;right:12px;top:12px;bottom:12px;width:min(390px,calc(100% - 24px));padding:16px;overflow:auto;overscroll-behavior:contain;background:#101a25f5;color:#eff7ff;border:1px solid #42b97e;border-radius:10px;box-sizing:border-box;font:13px/1.45 Inter,system-ui,sans-serif;box-shadow:0 6px 32px #0008}
+.map-view-card.map-clean-view #ibamaDetail{right:min(244px,30%);max-width:calc(100% - 24px)}
+[data-clean-chart-theme="light"] #ibamaDetail{background:#f2f8f5;color:#173345}
+#ibamaDetail header{display:flex;justify-content:space-between;align-items:center;position:sticky;top:-16px;background:inherit;z-index:2;padding:6px 0}
+#ibamaDetail button{font:inherit;color:inherit;border:1px solid #42b97e70;background:transparent;border-radius:5px;padding:7px;cursor:pointer}
+#ibamaDetailClose{font-size:20px!important;line-height:1}
+#ibamaDetail h3{font-size:16px;margin:8px 0}
+#ibamaDetail h4,.ibama-kicker{color:#42b97e;font-weight:650;margin:0 0 8px}
+[data-clean-chart-theme="light"] #ibamaDetail :is(h4,.ibama-kicker){color:#17643f}
+.ibama-record section{margin-top:13px;padding-top:12px;border-top:1px solid #829b9b44}
+.ibama-field{display:flex;gap:10px;justify-content:space-between;margin:5px 0;overflow-wrap:anywhere}
+.ibama-field span{text-align:right;max-width:65%}
+.ibama-record p{margin:6px 0}.ibama-narrative{white-space:pre-wrap;overflow-wrap:anywhere}.ibama-disclaimer{font-size:11px;opacity:.8}
+.ibama-record a{color:#58b9d9}.ibama-choice{display:block;width:100%;margin:5px 0;text-align:left}
+@media(max-width:650px){.map-view-card.map-clean-view #ibamaDetail{right:8px;top:70px;bottom:8px;width:calc(100% - 16px);max-width:none;z-index:1510}}
+
+#sharedTaxon[hidden],#taxonChoices[hidden]{display:none!important}
+#taxonToggle{display:flex;align-items:center;justify-content:space-between;width:100%;gap:8px;min-height:26px;background:transparent;color:var(--ink);border:0;padding:3px 0;font:inherit;text-align:left;cursor:pointer}
+#taxonSelected{min-width:0;overflow-wrap:anywhere}
+#taxonChoices{display:grid;gap:5px;margin-top:6px;min-width:0}
+#taxonQuery{min-width:0;width:100%;box-sizing:border-box;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:6px;font:inherit}
+#taxonList{display:grid;gap:2px;max-height:230px;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin}
+#taxonList button{display:block;text-align:left;overflow-wrap:anywhere;background:transparent;color:var(--ink);border:1px solid transparent;border-radius:4px;padding:5px 6px;font:inherit;cursor:pointer}
+#taxonList button:hover,#taxonList button[aria-pressed=true]{background:#42b97e18;border-color:#42b97e70}
+#taxonToggle em,#taxonList em,.ibama-record em,.clean-map-story-card em{font-style:italic}
+
+.conservation-status{margin:10px 0;padding:8px 0;border-top:1px solid #829b9b55;border-bottom:1px solid #829b9b55;font-size:12px;line-height:1.5}.conservation-status h4{margin:0 0 5px}.conservation-status ul{padding-left:17px;margin:4px 0 7px}.conservation-status li{margin:4px 0;overflow-wrap:anywhere}.conservation-status em{font-style:italic}.conservation-status small{display:block;opacity:.83;font-size:10px}.conservation-status a{color:inherit;text-decoration:underline}

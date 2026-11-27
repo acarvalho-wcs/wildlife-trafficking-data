@@ -63,6 +63,27 @@ window.ObservatoryTimeCore = (() => {
   const valid=e.status==='VALIDATED'&&e.added_at_validated!==false&&timestamp(e.added_at)&&Date.parse(e.added_at)<=now;
   return {day:valid?day(e.added_at):null,reason:valid?null:'missing'};
  }
+ function occurrenceMonth(e){
+  const d=occurrence(e);if(d.day)return {month:d.day.slice(0,7),day:d.day};
+  const monthOf=x=>typeof x==='string'&&/^\d{4}-(0[1-9]|1[0-2])(?:$|-\d{2}$)/.test(x)&& (x.length===7||validDay(x))?x.slice(0,7):null;
+  const p=String(e.event_date_precision||e.occurred_at_precision||'').toLowerCase(),a=e.event_date_range_start||e.event_date,b=e.event_date_range_end||e.event_end_date||e.event_date_end;
+  if(['unknown','not_reported','year','annual','approximate','estimated'].includes(p))return {month:null,day:null};
+  if(b&&validDay(a)&&validDay(b)&&a<=b&&a.slice(0,7)===b.slice(0,7))return {month:a.slice(0,7),day:null};
+  if(['month','monthly','year_month'].includes(p)||(!p&&typeof e.event_date==='string'&&e.event_date.length===7)){
+   const m=monthOf(e.event_month)||monthOf(e.event_date)||monthOf(e.occurred_at);if(m)return {month:m,day:null};
+  }
+  return {month:null,day:null};
+ }
+ function indicatorDate(e,basis='occurrence'){
+  const o=occurrenceMonth(e),p=publication(e),pub={month:p.day?.slice(0,7)||null,day:p.day};
+  if(basis==='occurrence')return o;
+  if(basis==='publication')return pub;
+  if(basis==='incorporation'){const d=dateOf(e,basis).day;return {month:d?.slice(0,7)||null,day:d};}
+  // Combined date basis counts once, on earliest documented month. Prefer exact day if both fall in same month.
+  if(!o.month)return pub;if(!pub.month)return o;if(o.month<pub.month)return o;if(pub.month<o.month)return pub;
+  if(o.day&&pub.day)return o.day<=pub.day?o:pub;
+  return o.day?o:pub.day?pub:o;
+ }
  function matchedDays(e,range,basis){
   if(!validRange(range))return [];
   const bases=basis==='occurrence_or_publication'?['occurrence','publication']:[basis];
@@ -88,6 +109,7 @@ window.ObservatoryTimeCore = (() => {
  }
  const binomial=/^[A-Z][a-z]{2,} [a-z][a-z-]{2,}$/;
  function speciesCatalog(rows){
+  if(window.IbamaTaxonomy?.osintCatalog)return window.IbamaTaxonomy.osintCatalog(rows);
   const genera=new Set();
   for(const e of rows)for(const m of String(e.taxon_text||'').matchAll(/\*([A-Z][a-z]{2,} [a-z][a-z-]{2,})\*/g))genera.add(m[1].split(' ')[0]);
   const names=new WeakMap();
@@ -111,5 +133,5 @@ window.ObservatoryTimeCore = (() => {
   for(let offset=0;offset<length;offset+=step){const last=Math.min(length-1,offset+step-1),d=shift(range.start,last);while(n<dates.length&&dates[n]<=d)n++;result.push({day:d,index:last+1,total:n});}
   return result;
  }
- return Object.freeze({ZONE,DAY,day,validDay,validRange,shift,duration,previous,preset,timestamp,dateOf,contains,coverage,quantities,speciesCatalog,metrics,delta,cumulative});
+ return Object.freeze({ZONE,DAY,day,validDay,validRange,shift,duration,previous,preset,timestamp,dateOf,indicatorDate,contains,coverage,quantities,speciesCatalog,metrics,delta,cumulative});
 })();

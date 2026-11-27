@@ -47,5 +47,5 @@
   input.placeholder=t.placeholder;clear.title=t.clear;clear.setAttribute('aria-label',t.clear);
   document.getElementById('recordSearchCount').textContent=count?count.toLocaleString({pt:'pt-BR',en:'en-US',es:'es-ES'}[lang])+' '+(count===1?t.one:t.many):t.zero;
  }
- window.RecordSearch={init,setCases,localize,normalize,matches:e=>!query||(index.get(e.id)||'').includes(query)};
+ window.RecordSearch={init,setCases,localize,normalize,matchesText:value=>!query||normalize(value).includes(query),matches:e=>!query||(index.get(e.id)||'').includes(query)};
 })();
