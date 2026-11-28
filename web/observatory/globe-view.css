@@ -557,3 +557,14 @@
 [data-clean-chart-theme="light"] .floating-event-card[data-source="ibama"]{background:#f2f8f5;color:#173345}
 [data-clean-chart-theme="light"] .floating-event-card a{color:#155f85}
 .clean-map-controls{max-height:calc(100% - 24px);overflow-y:auto}
+
+/* Community license: permanent, noncollapsible provider logo and credits, above map overlays. */
+.maptoolkit-required-credit{display:none;position:absolute;bottom:0;left:0;right:0;z-index:2147483000;align-items:center;justify-content:space-between;gap:8px;min-height:30px;padding:3px 8px;box-sizing:border-box;background:#101820f5;color:#fff;pointer-events:none}
+.map-view-card[data-active-map-mode="map"][data-map-provider="maptoolkit"] .maptoolkit-required-credit,.map-view-card[data-active-map-mode="globe"][data-globe-provider="maptoolkit"] .maptoolkit-required-credit{display:flex}
+.maptoolkit-required-credit a{color:#fff;pointer-events:auto;text-decoration:none}
+.maptoolkit-required-credit .maptoolkit-logo{flex-shrink:0;display:block}
+.maptoolkit-required-credit .maptoolkit-logo img{display:block;height:24px;min-height:24px;width:auto;max-width:none}
+.maptoolkit-copyright{font:11px/1.25 system-ui,sans-serif;text-align:right;white-space:normal}
+.maptoolkit-copyright a{white-space:nowrap;text-decoration:underline;text-underline-offset:2px}
+.map-view-card[data-active-map-mode="map"][data-map-provider="maptoolkit"] .leaflet-control-attribution,.map-view-card[data-active-map-mode="globe"][data-globe-provider="maptoolkit"] .maplibregl-ctrl-attrib{margin-bottom:32px}
+@media(max-width:420px){.maptoolkit-required-credit{gap:4px;padding-inline:4px}.maptoolkit-copyright{font-size:10px}}

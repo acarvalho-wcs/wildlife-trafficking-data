@@ -37,3 +37,5 @@
 #taxonToggle em,#taxonList em,.ibama-record em,.clean-map-story-card em{font-style:italic}
 
 .conservation-status{margin:10px 0;padding:8px 0;border-top:1px solid #829b9b55;border-bottom:1px solid #829b9b55;font-size:12px;line-height:1.5}.conservation-status h4{margin:0 0 5px}.conservation-status ul{padding-left:17px;margin:4px 0 7px}.conservation-status li{margin:4px 0;overflow-wrap:anywhere}.conservation-status em{font-style:italic}.conservation-status small{display:block;opacity:.83;font-size:10px}.conservation-status a{color:inherit;text-decoration:underline}
+
+#ibamaFilters .ibama-state-filter{display:grid;gap:4px;min-width:0}#ibamaState{width:100%;max-width:100%;box-sizing:border-box;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:6px;font:inherit}

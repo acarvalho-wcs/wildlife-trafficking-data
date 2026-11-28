@@ -43,16 +43,30 @@ function filterValue(e,key){return key==='species'?e.groups:key==='mode'?e.modeG
 function matchesFilter(e,key,value){return !value||(key==='species'?e.groups.includes(value):String(filterValue(e,key)??'')===value);}
 function filtered(period='visible'){if(window.IbamaFauna&&!window.IbamaFauna.osint())return [];return events.filter(e=>window.RecordSearch.matches(e)&&(!window.IbamaFauna||window.IbamaFauna.matchesOsint(e))&&['country','species','year','mode'].every(k=>matchesFilter(e,k,$(k).value))&&(!window.ObservatoryTime||window.ObservatoryTime.matches(e,period)));}
 // Use the same live selection as every map/view; never keep an export data cache.
-function exportRows(){return filtered().map(raw=>{const e=record(raw);return {
- case_id:e.case_id,date:e.eventDate||e.event_month||'',publication_date:e.publication_date||'',event_date_precision:e.event_date_precision||(e.eventDate?'day':'unknown'),
+function conservationExport(entries){return (entries||[]).map(x=>{const v=window.ObservatoryConservation?.get(x.name);return [x.name,v?.cites?.values?.join('/')||'',v?.cms?.values?.join('/')||'',v?.iucn?.value||''];});}
+const jsonExport=x=>JSON.stringify(x??[]);
+function exportRows(){
+ const osint=filtered().map(raw=>{const e=record(raw);return {
+ data_source:'OSINT',case_id:e.case_id||e.id,date:e.eventDate||e.event_date||e.event_month||'',date_basis:'occurrence',publication_date:e.publication_date||'',event_date_precision:e.event_date_precision||(e.eventDate?'day':'unknown'),
  country:e.country,location:e.city,latitude:e.lat,longitude:e.lng,geographic_note:e.geoNote||'',species:e.taxon||e.species,taxonomic_group:e.groups.map(term).join(' | '),quantity:quantity(e),
  transport_mode:e.mode,case_description:e.summary,case_context:e['context_'+lang]||'',source:e.source,source_url:e.url,status:e.status||e.context_status||'',added_at:e.added_at||'',context_updated_at:e.context_updated_at||'',
- record_type:e.record_type||'',aggregate_operation:e.aggregate_operation===true,context_references:e['references_text_'+lang]||e.references_text_pt||''
-};});}
-const exportColumns=['case_id','date','publication_date','event_date_precision','country','location','latitude','longitude','geographic_note','species','taxonomic_group','quantity','transport_mode','case_description','case_context','source','source_url','status','added_at','context_updated_at','record_type','aggregate_operation','context_references'];
-function exportXlsx(){
- const headers=exportColumns,rows=exportRows().map(record=>headers.map(key=>record[key]));
- window.ObservatoryXlsx.downloadWorkbook(headers,rows,'wildlife-trafficking-observatory_'+new Date().toISOString().slice(0,10)+'.xlsx','Eventos');
+ record_type:e.record_type||'',aggregate_operation:e.aggregate_operation===true,exclude_from_totals:e.exclude_from_totals===true,context_references:e['references_text_'+lang]||e.references_text_pt||'',conservation_by_species:jsonExport(conservationExport(e.conservationEntries))
+ };});
+ const official=(window.IbamaFauna?.filtered()||[]).map(r=>{const p=r.p,o=p.official||{},entries=r.taxonEntries||[];return {
+ data_source:'IBAMA',case_id:r.id,date:p.date,date_basis:'notice',country:term('Brasil'),state:p.uf||'',location:p.municipality||'',latitude:r.lat,longitude:r.lng,species:entries.map(x=>x.name+(x.common?' ('+x.common+')':'')).join(' | '),taxonomic_group:r.groups.map(term).join(' | '),case_description:o.infraction_description||p.description||'',source:'IBAMA',source_url:o.reference||'https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao',status:o.administrative_status||'',record_type:'administrative_infraction_notice',notice_number:p.notice||'',reported_fact_date:o.fact_date||'',infraction_type:p.type||'',infraction_code:o.infraction_code||'',fine_brl:o.fine_brl??'',operation:o.operation||'',process:o.process||'',official_detail:o.narrative_detail||'',administrative_legal_basis:o.administrative_legal_basis||'',additional_legal_basis:[o.non_administrative_legal_basis,o.additional_legal_basis].filter(Boolean).join(' | '),species_referenced:jsonExport(p.species_referenced),narrative_species:jsonExport(p.narrative_species),seized_specimens:jsonExport(p.seized_specimens),seized_goods:jsonExport(p.seized_goods),seizure_terms:jsonExport(p.seizure_terms),conservation_by_species:jsonExport(conservationExport(entries))
+ };});
+ return [...osint,...official];
+}
+const exportColumns=['data_source','case_id','date','date_basis','publication_date','event_date_precision','country','state','location','latitude','longitude','geographic_note','species','taxonomic_group','quantity','transport_mode','case_description','case_context','source','source_url','status','added_at','context_updated_at','record_type','aggregate_operation','exclude_from_totals','context_references','notice_number','reported_fact_date','infraction_type','infraction_code','fine_brl','operation','process','official_detail','administrative_legal_basis','additional_legal_basis','species_referenced','narrative_species','seized_specimens','seized_goods','seizure_terms','conservation_by_species'];
+async function exportXlsx(){
+ const button=$('exportCsv'),ib=window.IbamaFauna;
+ const msg=({pt:['Carregando dados…','Não foi possível carregar a base IBAMA. A exportação foi interrompida para evitar um arquivo incompleto.','Não foi possível exportar os registros.'],en:['Loading data…','IBAMA data could not be loaded. Export stopped to avoid an incomplete file.','Unable to export records.'],es:['Cargando datos…','No se pudo cargar IBAMA. Se interrumpió la exportación para evitar un archivo incompleto.','No se pudieron exportar los registros.']})[lang];
+ if(button.disabled)return;const label=button.textContent;button.disabled=true;button.textContent=msg[0];
+ try{
+  if(ib?.enabled()&&!ib.ready()){await ib.load();if(ib.enabled()&&!ib.ready()){alert(msg[1]);return;}}
+  const headers=exportColumns,rows=exportRows().map(r=>headers.map(k=>r[k]));
+  window.ObservatoryXlsx.downloadWorkbook(headers,rows,'wildlife-trafficking-observatory_'+new Date().toISOString().slice(0,10)+'.xlsx','Eventos');
+ }catch(error){console.error('Export failed',error);alert(msg[2]);}finally{button.disabled=false;button.textContent=label;}
 }
 function popup(e){
   const t=messages[lang];
@@ -213,7 +227,7 @@ window.RecordSearch.init(render);
 window.RecordSearch.setCases(events);
 ['country','species','year','mode'].forEach(id=>$(id).addEventListener('change',render));
 $('exportCsv').onclick=exportXlsx;
-$('clear').onclick=()=>{window.ObservatoryConservation?.reset();['country','species','year','mode','sharedTaxon'].forEach(k=>$(k).value='');activeId=null;if(window.ObservatoryTime)window.ObservatoryTime.reset();else render();map.setView([14,5],2);};
+$('clear').onclick=()=>{window.ObservatoryConservation?.reset();['country','species','year','mode','sharedTaxon','ibamaState'].forEach(k=>$(k).value='');activeId=null;if(window.ObservatoryTime)window.ObservatoryTime.reset();else render();map.setView([14,5],2);};
 $('language').onchange=e=>window.ObservatoryLanguage.set(e.target.value);
 window.ObservatoryLanguage.subscribe(value=>{if(lang!==value){lang=value;setup();}});
 document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',()=>switchView(el.dataset.view)));

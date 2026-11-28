@@ -2,7 +2,7 @@
 window.ProspectiveIntelligence=(()=>{
 'use strict';
 const sources=new Map(),C=window.ProspectiveCore;
-let root,button,panel,charts,last,enabled=false,optionsOpen=false,history=24,horizon=90,chosen=new Set(['routes','season','forecast']),cache=null,dirty=true,dragging=false,rerender=false,statusNode=null,zCounter=0;
+let root,button,panel,charts,last,enabled=false,optionsOpen=false,history=0,horizon=90,chosen=new Set(['routes','season','forecast']),cache=null,dirty=true,dragging=false,rerender=false,statusNode=null,zCounter=0;
 const positionKey='observatory-prospective-chart-positions-v1';
 let positions={};try{const saved=JSON.parse(localStorage.getItem(positionKey)||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))positions=saved;}catch{}
 const savePositions=()=>{try{localStorage.setItem(positionKey,JSON.stringify(positions));}catch{}};

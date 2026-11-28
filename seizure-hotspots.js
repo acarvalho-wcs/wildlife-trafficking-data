@@ -9,7 +9,7 @@ window.SeizureHotspots=(()=>{
  };
  let enabled=false,total=0,locations=0,initialized=false,language=()=>document.documentElement.lang||'en';
  let geojson={type:'FeatureCollection',features:[]},ibResult={total:0,locations:0,collection:{type:'FeatureCollection',features:[]}},active={osint:true,ibama:false};
- const maps=new Set(),bound=new WeakSet();
+ const maps=new Set(),mapStates=new WeakMap();
  const get=id=>document.getElementById(id);
  const strings=()=>words[language()]||words.en;
 
@@ -48,24 +48,48 @@ window.SeizureHotspots=(()=>{
      0.3,'#1684c5',0.5,'#ffe65b',0.72,'#ff8f39',1,'#e63832']
    }};
  }
- function paint(map){
-  if(!map?.isStyleLoaded?.())return;
+ // A source may be processing tiles (isStyleLoaded() === false) while its
+ // existing GeoJSON source and layer are still usable. Never discard a filter
+ // update for that reason. If style replacement temporarily removes the
+ // resources, keep the latest snapshot pending and replay it on style.load/idle.
+ function paint(map,styleJustLoaded=false){
+  const state=mapStates.get(map);if(!state)return;
+  state.pending=false;
   try{
+   const ready=styleJustLoaded||map.isStyleLoaded?.()===true;
    for(const ib of [false,true]){
     const sourceId=ib?IBSOURCE:SOURCE,layerId=ib?IBLAYER:LAYER,collection=ib?ibResult.collection:geojson;
-    const source=map.getSource(sourceId);if(source)source.setData(collection);else map.addSource(sourceId,{type:'geojson',data:collection});
-    if(!map.getLayer(layerId)){const before=map.getStyle()?.layers?.find(l=>l.type==='symbol'||l.type==='circle')?.id;map.addLayer(layer(ib),before);}
-    map.setLayoutProperty(layerId,'visibility',enabled&&active[ib?'ibama':'osint']?'visible':'none');
+    const visible=enabled&&active[ib?'ibama':'osint']?'visible':'none';
+    let source=map.getSource(sourceId);
+    if(!source){
+     if(!ready){state.pending=true;continue;}
+     map.addSource(sourceId,{type:'geojson',data:collection});
+     source=map.getSource(sourceId);
+     if(!source){state.pending=true;continue;}
+     state.sent.set(sourceId,{source,collection});
+    }else{
+     const previous=state.sent.get(sourceId);
+     if(previous?.source!==source||previous.collection!==collection){
+      source.setData(collection);state.sent.set(sourceId,{source,collection});
+     }
+    }
+    if(!map.getLayer(layerId)){
+     if(!ready){state.pending=true;continue;}
+     const before=map.getStyle()?.layers?.find(l=>l.type==='symbol'||l.type==='circle')?.id;
+     map.addLayer(layer(ib),before);
+    }
+    if(map.getLayer(layerId)){
+     if(map.getLayoutProperty(layerId,'visibility')!==visible)map.setLayoutProperty(layerId,'visibility',visible);
+    }else state.pending=true;
    }
-  }catch(error){console.warn('Seizure KDE layer was not rendered.',error);}
+  }catch(error){state.pending=true;console.warn('Seizure KDE update pending; retry on map readiness.',error);}
  }
  function bindMap(map){
-  if(!map||bound.has(map))return;
-  bound.add(map);
-  maps.add(map);
-  map.on('style.load',()=>paint(map));
-  map.on('idle',()=>{if(enabled&&(!map.getLayer(LAYER)||!map.getLayer(IBLAYER)))paint(map);});
-  map.on('remove',()=>maps.delete(map));
+  if(!map||mapStates.has(map))return;
+  const state={pending:true,sent:new Map()};mapStates.set(map,state);maps.add(map);
+  map.on('style.load',()=>{state.sent.clear();paint(map,true);});
+  map.on('idle',()=>{if(state.pending||!map.getLayer(LAYER)||!map.getLayer(IBLAYER))paint(map);});
+  map.on('remove',()=>{maps.delete(map);mapStates.delete(map);});
   paint(map);
  }
  const sourceWords={
@@ -88,7 +112,7 @@ window.SeizureHotspots=(()=>{
   legendRows(get('hotspotLegend'),t);legendRows(get('cleanHotspotLegend'),t,true);
  }
  function update(records,officialRecords=[],selectedSources={osint:true,ibama:false}){
-  active={...selectedSources};const result=build(records),official=build(officialRecords,e=>e.sourceType==='ibama');
+  active={osint:selectedSources.osint!==false,ibama:selectedSources.ibama===true};const result=build(active.osint?records:[]),official=build(active.ibama?officialRecords:[],e=>e.sourceType==='ibama');
   geojson=result.collection;total=result.total;locations=result.locations;ibResult=official;
   for(const map of maps)paint(map);localize();
  }
